@@ -1,0 +1,29 @@
+{
+  "name": "federal-register-analytics",
+  "version": "1.0.0",
+  "description": "Data enrichment pipeline for Federal Register executive orders",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "fetch": "node dist/cli/fetch.js",
+    "enrich": "node dist/cli/enrich.js",
+    "aggregate": "node dist/cli/aggregate.js"
+  },
+  "keywords": [
+    "federal-register",
+    "executive-orders",
+    "analytics",
+    "data-pipeline"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
