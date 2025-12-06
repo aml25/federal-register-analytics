@@ -1,0 +1,44 @@
+{
+  "document_number": "2025-07380",
+  "executive_order_number": "14283",
+  "title": "White House Initiative To Promote Excellence and Innovation at Historically Black Colleges and Universities",
+  "abstract": null,
+  "signing_date": "2025-04-23",
+  "publication_date": "2025-04-28",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/28/2025-07380/white-house-initiative-to-promote-excellence-and-innovation-at-historically-black-colleges-and",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-28/pdf/2025-07380.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/28/2025-07380.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a White House initiative to support Historically Black Colleges and Universities (HBCUs) by enhancing their institutional capacity, infrastructure, and partnerships with the private sector. It also creates a Presidential Board of Advisors on HBCUs to guide federal support and requires annual progress reporting to improve educational opportunities and economic outcomes for students at HBCUs.",
+    "theme_ids": [
+      "federal-agency-management",
+      "advisory-committees-management",
+      "federal-research-coordination",
+      "technology-development",
+      "education-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "academic-institutions",
+        "federal-agencies",
+        "private-sector-rivals",
+        "hbcu-students",
+        "hbcu-administrators-and-faculty"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The effectiveness of the initiative depends on sustained appropriations and cooperation from multiple agencies, posing risks to consistent implementation.",
+      "Increased private-sector involvement may skew priorities toward industries and sectors that benefit workforce demands rather than broader educational goals.",
+      "The revocation of the previous initiative could create transitional confusion or loss of momentum if not well managed.",
+      "States and agencies may have variable commitment to matching funds and collaborative frameworks, limiting the impact of certain provisions.",
+      "Annual reporting requirements might not fully capture qualitative improvements in HBCU student outcomes or institutional success."
+    ],
+    "enriched_at": "2025-12-06T06:55:53.962Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

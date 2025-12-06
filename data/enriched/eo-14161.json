@@ -1,0 +1,46 @@
+{
+  "document_number": "2025-02009",
+  "executive_order_number": "14161",
+  "title": "Protecting the United States From Foreign Terrorists and Other National Security and Public Safety Threats",
+  "abstract": null,
+  "signing_date": "2025-01-20",
+  "publication_date": "2025-01-30",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/01/30/2025-02009/protecting-the-united-states-from-foreign-terrorists-and-other-national-security-and-public-safety",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-30/pdf/2025-02009.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/30/2025-02009.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to strengthen vetting and screening procedures for foreign nationals seeking entry to or already in the United States to protect national security and public safety. It emphasizes preventing admission of individuals who pose terrorist or security risks, ensuring stricter verification for refugees and visa applicants, and recommending further measures to safeguard American constitutional rights and promote immigrant assimilation.",
+    "theme_ids": [
+      "national-security",
+      "counterterrorism-policy",
+      "immigration-enforcement",
+      "public-safety",
+      "foreign-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "legal-immigrants",
+        "federal-agencies"
+      ],
+      "negative_ids": [
+        "undocumented-immigrants",
+        "refugees",
+        "muslim-americans"
+      ]
+    },
+    "potential_concerns": [
+      "Enhanced screening and vetting may lead to increased delays and denials affecting innocent visa applicants and refugees.",
+      "The emphasis on ideology and hostile attitudes could lead to discriminatory targeting of specific religious or ethnic groups, particularly Muslim Americans.",
+      "Strict enforcement could strain diplomatic relations with countries whose nationals face partial or full suspensions of admissions.",
+      "Vague standards on identifying 'hostile attitudes' may result in inconsistent application and potential civil liberties infringements.",
+      "Implementation requires coordination across multiple agencies, risking bureaucratic delays or gaps in enforcement."
+    ],
+    "enriched_at": "2025-12-06T07:08:07.917Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

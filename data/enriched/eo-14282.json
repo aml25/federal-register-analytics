@@ -1,0 +1,41 @@
+{
+  "document_number": "2025-07379",
+  "executive_order_number": "14282",
+  "title": "Transparency Regarding Foreign Influence at American Universities",
+  "abstract": null,
+  "signing_date": "2025-04-23",
+  "publication_date": "2025-04-28",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/28/2025-07379/transparency-regarding-foreign-influence-at-american-universities",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-28/pdf/2025-07379.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/28/2025-07379.txt",
+  "enrichment": {
+    "summary": "This executive order requires American universities to fully disclose all foreign funding sources and to strengthen enforcement of these disclosure laws. It aims to increase transparency about foreign money flowing into U.S. higher education institutions to protect national security, prevent foreign propaganda, and ensure federal grants are only awarded to compliant schools.",
+    "theme_ids": [
+      "education-policy",
+      "national-security",
+      "foreign-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "academic-institutions",
+        "federal-agencies"
+      ],
+      "negative_ids": [
+        "foreign-funded-institutions"
+      ]
+    },
+    "potential_concerns": [
+      "Increased disclosure requirements may impose administrative and financial burdens on universities.",
+      "Stronger enforcement could lead to penalties or loss of federal funding for institutions with inadvertent or unclear foreign funding disclosures.",
+      "There is a risk of overbroad investigations that might chill legitimate international academic collaboration and research.",
+      "Identifying the 'true source' of foreign funds may be difficult, potentially leading to legal disputes or inconsistent enforcement.",
+      "The order could politicize higher education institutions perceived to have foreign connections, affecting their reputation and funding."
+    ],
+    "enriched_at": "2025-12-06T06:55:59.432Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

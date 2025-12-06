@@ -1,0 +1,37 @@
+{
+  "document_number": "2025-15824",
+  "executive_order_number": "14337",
+  "title": "Revocation of Executive Order on Competition",
+  "abstract": null,
+  "signing_date": "2025-08-13",
+  "publication_date": "2025-08-19",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/08/19/2025-15824/revocation-of-executive-order-on-competition",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-19/pdf/2025-15824.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/19/2025-15824.txt",
+  "enrichment": {
+    "summary": "This executive order officially cancels a previous order that promoted competition in the American economy. It clarifies that the cancellation does not affect the legal authorities of government agencies and emphasizes that the order does not create new legal rights or benefits for anyone.",
+    "theme_ids": [
+      "trade-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-agencies"
+      ],
+      "negative_ids": [
+        "private-sector-rivals"
+      ]
+    },
+    "potential_concerns": [
+      "Revoking a competition-promoting order could reduce regulatory oversight and potentially increase market concentration.",
+      "Private companies that previously benefited from increased competition policies may face diminished opportunities.",
+      "The lack of an abstract or detailed explanation reduces transparency on the reasons and implications of the revocation.",
+      "Implementation contingent on appropriations may delay enforcement or create uncertainty among stakeholders."
+    ],
+    "enriched_at": "2025-12-06T06:50:24.504Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

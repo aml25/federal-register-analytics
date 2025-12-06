@@ -1,0 +1,45 @@
+{
+  "document_number": "2025-02010",
+  "executive_order_number": "14162",
+  "title": "Putting America First in International Environmental Agreements",
+  "abstract": null,
+  "signing_date": "2025-01-20",
+  "publication_date": "2025-01-30",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/01/30/2025-02010/putting-america-first-in-international-environmental-agreements",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-30/pdf/2025-02010.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/30/2025-02010.txt",
+  "enrichment": {
+    "summary": "This executive order directs the United States to withdraw immediately from the Paris Agreement and other international climate agreements under the United Nations Framework Convention on Climate Change, prioritizing American economic interests over international environmental commitments. It rescinds U.S. financial commitments to international climate finance and requires federal agencies involved in international energy and climate policies to focus on economic efficiency, U.S. prosperity, consumer choice, and fiscal restraint.",
+    "theme_ids": [
+      "foreign-policy",
+      "energy-policy",
+      "trade-policy",
+      "environmental-regulation"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "domestic-energy-producers",
+        "american-businesses",
+        "federal-employees"
+      ],
+      "negative_ids": [
+        "green-energy-industry",
+        "environmental-advocates",
+        "international-shippers"
+      ]
+    },
+    "potential_concerns": [
+      "Immediate withdrawal from international climate agreements may harm global cooperation to address climate change and damage U.S. standing in international relations.",
+      "Rescinding climate finance could reduce U.S. influence in developing countries and harm global environmental initiatives aimed at reducing emissions and supporting sustainability.",
+      "Prioritizing economic interests over environmental commitments may lead to increased pollution or greenhouse gas emissions, undermining long-term environmental and public health goals.",
+      "Requiring agencies to focus on fiscal restraint and economic efficiency might limit investments in green technologies and renewable energy development.",
+      "Implementation challenges may arise due to the breadth of required agency reports, rescissions, and coordination, potentially causing bureaucratic delays or confusion."
+    ],
+    "enriched_at": "2025-12-06T07:08:01.884Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

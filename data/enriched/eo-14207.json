@@ -1,0 +1,41 @@
+{
+  "document_number": "2025-02734",
+  "executive_order_number": "14207",
+  "title": "Eliminating the Federal Executive Institute",
+  "abstract": null,
+  "signing_date": "2025-02-10",
+  "publication_date": "2025-02-14",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/14/2025-02734/eliminating-the-federal-executive-institute",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-14/pdf/2025-02734.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/14/2025-02734.txt",
+  "enrichment": {
+    "summary": "This executive order directs the elimination of the Federal Executive Institute, a government program providing leadership training for federal bureaucrats. The order revokes existing authorities that established the Institute and tasks the Office of Personnel Management with carrying out its closure, aiming to reduce bureaucracy and better focus government resources on serving taxpayers.",
+    "theme_ids": [
+      "federal-agency-management",
+      "federal-workforce",
+      "regulatory-reform"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "federal-agencies"
+      ],
+      "negative_ids": [
+        "displaced-federal-workers"
+      ]
+    },
+    "potential_concerns": [
+      "Eliminating leadership training programs may weaken professional development and the effectiveness of the federal workforce.",
+      "Displaced federal employees may face job loss or challenges in reemployment due to program closure.",
+      "The loss of institutional knowledge and networking opportunities provided by the Federal Executive Institute could reduce government cohesion.",
+      "Implementation timelines and legal compliance for eliminating the institute could face administrative delays or resistance.",
+      "Critics may argue that the order undermines efforts to improve government leadership and citizen service by targeting a long-standing training institution."
+    ],
+    "enriched_at": "2025-12-06T07:03:25.680Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

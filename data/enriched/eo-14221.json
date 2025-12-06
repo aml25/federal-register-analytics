@@ -1,0 +1,42 @@
+{
+  "document_number": "2025-03440",
+  "executive_order_number": "14221",
+  "title": "Making America Healthy Again by Empowering Patients With Clear, Accurate, and Actionable Healthcare Pricing Information",
+  "abstract": null,
+  "signing_date": "2025-02-25",
+  "publication_date": "2025-02-28",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/28/2025-03440/making-america-healthy-again-by-empowering-patients-with-clear-accurate-and-actionable-healthcare",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-28/pdf/2025-03440.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/28/2025-03440.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to strengthen enforcement of healthcare price transparency rules, requiring clearer, more accurate, and fully disclosed pricing for medical services and prescription drugs. It aims to empower patients with better information to make informed healthcare decisions and reduce overall healthcare costs by promoting competition and accountability.",
+    "theme_ids": [
+      "consumer-protection",
+      "regulatory-reform",
+      "public-health-promotion"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "medical-patients",
+        "average-americans"
+      ],
+      "negative_ids": [
+        "pharmaceutical-manufacturers",
+        "private-sector-rivals"
+      ]
+    },
+    "potential_concerns": [
+      "Increased regulatory enforcement may raise compliance costs for hospitals and insurers, potentially leading to higher administrative overhead.",
+      "Incomplete or inaccurate price disclosures could persist if enforcement mechanisms are insufficient or if providers manipulate data.",
+      "Hospitals and health plans might struggle to standardize and compare prices effectively, causing patient confusion instead of clarity.",
+      "Pharmaceutical companies might push back against public disclosure of true drug prices, possibly affecting drug market dynamics.",
+      "There may be challenges ensuring that price transparency actually translates into lower costs and better patient outcomes rather than just more data."
+    ],
+    "enriched_at": "2025-12-06T07:02:03.079Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

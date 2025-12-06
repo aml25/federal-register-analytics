@@ -1,0 +1,44 @@
+{
+  "document_number": "2025-02408",
+  "executive_order_number": "14195",
+  "title": "Imposing Duties To Address the Synthetic Opioid Supply Chain in the People's Republic of China",
+  "abstract": null,
+  "signing_date": "2025-02-01",
+  "publication_date": "2025-02-07",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/07/2025-02408/imposing-duties-to-address-the-synthetic-opioid-supply-chain-in-the-peoples-republic-of-china",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-07/pdf/2025-02408.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/07/2025-02408.txt",
+  "enrichment": {
+    "summary": "This executive order imposes a 10 percent tariff on all products imported from the People's Republic of China to combat the illegal flow of synthetic opioids like fentanyl into the United States. It declares a national emergency due to the opioid crisis linked to Chinese chemical companies and criminal organizations, and directs federal agencies to enforce and monitor these trade restrictions until China takes sufficient actions to stop the drug flow.",
+    "theme_ids": [
+      "trade-policy",
+      "national-security",
+      "foreign-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-agencies",
+        "american-businesses"
+      ],
+      "negative_ids": [
+        "china",
+        "small-importers",
+        "undocumented-immigrants",
+        "trade-policy"
+      ]
+    },
+    "potential_concerns": [
+      "The tariffs could increase costs for U.S. importers and consumers, potentially harming small businesses relying on Chinese products.",
+      "There is a risk of retaliatory trade measures from China, escalating economic tensions and harming U.S. exporters.",
+      "Effectiveness depends on Chinese government cooperation, which may not be forthcoming, limiting the order’s ability to reduce opioid inflows.",
+      "The order may complicate diplomatic relations and undermine efforts for bilateral cooperation on broader issues beyond opioids.",
+      "Monitoring and enforcement burdens on federal agencies like Customs and Homeland Security could increase significantly, requiring additional resources."
+    ],
+    "enriched_at": "2025-12-06T07:04:36.073Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

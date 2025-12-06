@@ -1,0 +1,41 @@
+{
+  "document_number": "2025-19495",
+  "executive_order_number": "14355",
+  "title": "Unlocking Cures for Pediatric Cancer With Artificial Intelligence",
+  "abstract": null,
+  "signing_date": "2025-09-30",
+  "publication_date": "2025-10-07",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/10/07/2025-19495/unlocking-cures-for-pediatric-cancer-with-artificial-intelligence",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-10-07/pdf/2025-19495.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/10/07/2025-19495.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to use artificial intelligence (AI) to accelerate research, diagnosis, and treatment of pediatric cancer, while enhancing data sharing and privacy protections. It prioritizes increasing investment and collaboration among federal bodies, private sector, and research centers to develop AI-driven solutions that save children’s lives.",
+    "theme_ids": [
+      "artificial-intelligence",
+      "federal-research-coordination",
+      "scientific-research",
+      "technology-development"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "scientific-researchers",
+        "academic-institutions",
+        "private-sector-rivals"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Privacy risks related to aggregation and sharing of sensitive pediatric health data could arise if safeguards are insufficient.",
+      "AI biases or inaccuracies may lead to misdiagnosis or suboptimal treatment recommendations, disproportionately affecting certain patient groups.",
+      "Increased federal focus and funding on pediatric cancer AI initiatives might divert resources from other medical research areas.",
+      "Private sector entities without adequate expertise might struggle to effectively utilize complex multimodal data, limiting translation into clinical benefits.",
+      "Implementation challenges across diverse federal and state health systems could slow adoption and integration of AI technologies."
+    ],
+    "enriched_at": "2025-12-06T06:48:39.620Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_number": "2025-02345",
+  "executive_order_number": "14192",
+  "title": "Unleashing Prosperity Through Deregulation",
+  "abstract": null,
+  "signing_date": "2025-01-31",
+  "publication_date": "2025-02-06",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/06/2025-02345/unleashing-prosperity-through-deregulation",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-06/pdf/2025-02345.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/06/2025-02345.txt",
+  "enrichment": {
+    "summary": "This executive order requires federal agencies to eliminate at least ten existing regulations for every new regulation they propose, aiming to reduce regulatory costs and burdens on individuals and businesses. It sets a ‘regulatory cap’ to ensure the overall cost of new regulations is negative or zero, promoting economic growth and efficient government regulation management.",
+    "theme_ids": [
+      "regulatory-reform",
+      "federal-agency-management",
+      "financial-regulation"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "american-businesses",
+        "average-americans"
+      ],
+      "negative_ids": [
+        "federal-agencies",
+        "public-health-promotion",
+        "environmental-advocates"
+      ]
+    },
+    "potential_concerns": [
+      "The aggressive one-in-ten regulatory repeal requirement may lead agencies to remove important but less visible protections, harming public welfare.",
+      "Complexity in accurately measuring and offsetting regulatory costs could cause inconsistent or ineffective implementation across agencies.",
+      "The order may reduce agency flexibility to respond quickly to emerging issues or emergencies due to strict cost offset rules and approval processes.",
+      "Eliminating regulations rapidly risks weakening environmental, health, safety, or consumer protections that depend on cumulative regulatory frameworks.",
+      "Potential conflicts could arise between this order’s deregulatory mandates and existing laws or obligations protecting national security and vulnerable populations."
+    ],
+    "enriched_at": "2025-12-06T07:04:54.761Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

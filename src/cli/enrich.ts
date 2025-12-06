@@ -1,11 +1,14 @@
 #!/usr/bin/env node
+import 'dotenv/config';
+
 /**
  * CLI for enriching executive orders
  *
  * Usage:
- *   npm run enrich -- --year=2025
- *   npm run enrich -- --year=2025 --limit=5
+ *   npm run enrich -- --year 2025
+ *   npm run enrich -- --year 2025 --limit 5
  *   npm run enrich -- --force
+ *   npm run enrich -- --eo 14350           # Enrich specific EO
  */
 
 import { enrich } from '../enrich.js';
@@ -16,7 +19,8 @@ const args = parseArgs(process.argv.slice(2));
 const options = {
   year: args.year ? parseInt(String(args.year), 10) : undefined,
   limit: args.limit ? parseInt(String(args.limit), 10) : undefined,
-  force: Boolean(args.force)
+  force: Boolean(args.force),
+  eoNumber: args.eo ? parseInt(String(args.eo), 10) : undefined
 };
 
 enrich(options).catch((err) => {

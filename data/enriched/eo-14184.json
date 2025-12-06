@@ -1,0 +1,38 @@
+{
+  "document_number": "2025-02180",
+  "executive_order_number": "14184",
+  "title": "Reinstating Service Members Discharged Under the Military's COVID-19 Vaccination Mandate",
+  "abstract": null,
+  "signing_date": "2025-01-27",
+  "publication_date": "2025-02-03",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/03/2025-02180/reinstating-service-members-discharged-under-the-militarys-covid-19-vaccination-mandate",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-03/pdf/2025-02180.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/03/2025-02180.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Department of Defense and Department of Homeland Security to reinstate military service members who were discharged solely because they refused the COVID-19 vaccine under the prior mandate. It also requires restoring their rank, pay, and benefits, and allows those who voluntarily left under the mandate to return without penalties. The order acknowledges the vaccine mandate as unfair and seeks to redress wrongful discharges.",
+    "theme_ids": [
+      "military-personnel-policy",
+      "federal-workforce"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "armed-forces-personnel"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Reinstating discharged service members may create challenges in military personnel management and unit cohesion.",
+      "Implementing full back pay and benefits retroactively could impose significant budgetary costs on defense and homeland security budgets.",
+      "Some reinstated members may face disciplinary actions for other conduct, raising potential conflicts in application.",
+      "The order may cause morale issues among service members who complied with the vaccine mandate.",
+      "Processing large numbers of reinstatements within 60 days reporting deadlines may strain agency administrative capacity."
+    ],
+    "enriched_at": "2025-12-06T07:05:47.803Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

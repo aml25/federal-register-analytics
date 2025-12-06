@@ -1,0 +1,44 @@
+{
+  "document_number": "2025-04103",
+  "executive_order_number": "14235",
+  "title": "Restoring Public Service Loan Forgiveness",
+  "abstract": null,
+  "signing_date": "2025-03-07",
+  "publication_date": "2025-03-12",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/03/12/2025-04103/restoring-public-service-loan-forgiveness",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-12/pdf/2025-04103.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/12/2025-04103.txt",
+  "enrichment": {
+    "summary": "This executive order restricts public service loan forgiveness eligibility to individuals working for organizations that do not engage in illegal activities, such as immigration violations, terrorism support, child abuse, or certain types of illegal discrimination and vandalism. It aims to protect taxpayer funds and national security by excluding organizations involved in unlawful or harmful conduct from benefiting from the loan forgiveness program.",
+    "theme_ids": [
+      "national-security",
+      "immigration-enforcement",
+      "education-policy",
+      "counterterrorism-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees"
+      ],
+      "negative_ids": [
+        "undocumented-immigrants",
+        "low-income-immigrants",
+        "public-service-workers",
+        "nonprofit-organizations"
+      ]
+    },
+    "potential_concerns": [
+      "The broad criteria for excluding organizations could unintentionally disqualify legitimate nonprofits or public service employers, reducing access to loan forgiveness for eligible workers.",
+      "The order’s focus on illegal activities within some organizations may lead to inconsistent or politically influenced enforcement decisions.",
+      "Limiting loan forgiveness could discourage employment in public service roles, worsening staffing shortages in critical sectors.",
+      "The complex coordination needed between the Department of Education and Treasury to revise regulations may delay implementation.",
+      "Potential legal challenges could arise claiming the order restricts access to a statutorily authorized student loan forgiveness benefit."
+    ],
+    "enriched_at": "2025-12-06T07:00:40.175Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

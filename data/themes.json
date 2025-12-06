@@ -1,0 +1,299 @@
+{
+  "themes": [
+    {
+      "id": "federal-research-coordination",
+      "name": "Federal Research Coordination",
+      "description": "Policies focused on coordinating research resources and activities across federal agencies to maximize effectiveness and avoid duplication.",
+      "created_at": "2025-12-06T06:47:50.406Z"
+    },
+    {
+      "id": "artificial-intelligence",
+      "name": "Artificial Intelligence",
+      "description": "Auto-created theme for artificial intelligence",
+      "created_at": "2025-12-06T06:47:50.407Z"
+    },
+    {
+      "id": "national-security",
+      "name": "National Security",
+      "description": "Auto-created theme for national security",
+      "created_at": "2025-12-06T06:47:50.407Z"
+    },
+    {
+      "id": "scientific-research",
+      "name": "Scientific Research",
+      "description": "Auto-created theme for scientific research",
+      "created_at": "2025-12-06T06:47:50.407Z"
+    },
+    {
+      "id": "technology-development",
+      "name": "Technology Development",
+      "description": "Auto-created theme for technology development",
+      "created_at": "2025-12-06T06:47:50.407Z"
+    },
+    {
+      "id": "counterterrorism-policy",
+      "name": "Counterterrorism Policy",
+      "description": "Policies focused on identifying, designating, and countering terrorist organizations to protect national security.",
+      "created_at": "2025-12-06T06:47:57.213Z"
+    },
+    {
+      "id": "foreign-policy",
+      "name": "Foreign Policy",
+      "description": "Policies governing the United States’ interactions and strategic relations with other nations and international groups.",
+      "created_at": "2025-12-06T06:47:57.214Z"
+    },
+    {
+      "id": "trade-policy",
+      "name": "Trade Policy",
+      "description": "Auto-created theme for trade policy",
+      "created_at": "2025-12-06T06:48:03.404Z"
+    },
+    {
+      "id": "child-welfare-policy",
+      "name": "Child Welfare Policy",
+      "description": "Policies and initiatives focused on improving child welfare systems, including foster care, adoption, and child protection services.",
+      "created_at": "2025-12-06T06:48:15.110Z"
+    },
+    {
+      "id": "federal-workforce",
+      "name": "Federal Workforce",
+      "description": "Policies related to the management, hiring, and organization of federal government employees and staffing procedures.",
+      "created_at": "2025-12-06T06:48:34.697Z"
+    },
+    {
+      "id": "immigration-enforcement",
+      "name": "Immigration Enforcement",
+      "description": "Policies that prioritize staffing and resources towards enforcing immigration laws and border security.",
+      "created_at": "2025-12-06T06:48:34.697Z"
+    },
+    {
+      "id": "public-safety",
+      "name": "Public Safety",
+      "description": "Policies aimed at hiring and staffing to enhance public safety functions within federal agencies.",
+      "created_at": "2025-12-06T06:48:34.697Z"
+    },
+    {
+      "id": "advisory-committees-management",
+      "name": "Advisory Committees Management",
+      "description": "Policies governing the continuation, oversight, and organizational responsibilities of federal advisory committees.",
+      "created_at": "2025-12-06T06:48:45.510Z"
+    },
+    {
+      "id": "immigration-investment",
+      "name": "Immigration Investment",
+      "description": "Policies related to immigration tied to financial investment or economic contributions by immigrants.",
+      "created_at": "2025-12-06T06:49:03.513Z"
+    },
+    {
+      "id": "federal-property-management",
+      "name": "Federal Property Management",
+      "description": "Policies governing the design, construction, maintenance, and aesthetic standards of federal buildings and infrastructure.",
+      "created_at": "2025-12-06T06:49:44.468Z"
+    },
+    {
+      "id": "symbol-protection",
+      "name": "Symbol Protection",
+      "description": "Policies focused on protecting national symbols and addressing related acts of desecration or disrespect.",
+      "created_at": "2025-12-06T06:50:04.759Z"
+    },
+    {
+      "id": "pharmaceutical-supply-chain",
+      "name": "Pharmaceutical Supply Chain",
+      "description": "Policies focused on securing and strengthening the supply of pharmaceutical ingredients and medicines within the United States.",
+      "created_at": "2025-12-06T06:50:31.062Z"
+    },
+    {
+      "id": "regulatory-reform",
+      "name": "Regulatory Reform",
+      "description": "Policies focused on reducing, streamlining, or modernizing regulations to encourage industry growth and innovation.",
+      "created_at": "2025-12-06T06:50:39.245Z"
+    },
+    {
+      "id": "space-policy",
+      "name": "Space Policy",
+      "description": "Policies related to space exploration, commercial space activities, and space infrastructure development.",
+      "created_at": "2025-12-06T06:50:39.246Z"
+    },
+    {
+      "id": "federal-agency-management",
+      "name": "Federal Agency Management",
+      "description": "Auto-created theme for federal agency management",
+      "created_at": "2025-12-06T06:50:39.246Z"
+    },
+    {
+      "id": "financial-regulation",
+      "name": "Financial Regulation",
+      "description": "Policies focused on the regulation and oversight of financial institutions and banking practices.",
+      "created_at": "2025-12-06T06:51:04.460Z"
+    },
+    {
+      "id": "event-coordination",
+      "name": "Event Coordination",
+      "description": "Policies focused on government coordination and planning for large-scale national or international events and their logistical, security, and operational needs.",
+      "created_at": "2025-12-06T06:51:25.435Z"
+    },
+    {
+      "id": "public-health-promotion",
+      "name": "Public Health Promotion",
+      "description": "Policies aimed at improving the physical and mental health of the population through fitness, nutrition, and active lifestyles.",
+      "created_at": "2025-12-06T06:51:32.674Z"
+    },
+    {
+      "id": "sports-policy",
+      "name": "Sports Policy",
+      "description": "Policies related to the regulation, support, and integrity of amateur and collegiate sports in the United States.",
+      "created_at": "2025-12-06T06:52:00.792Z"
+    },
+    {
+      "id": "energy-policy",
+      "name": "Energy Policy",
+      "description": "Policies related to the development, regulation, and support of domestic energy production and sources.",
+      "created_at": "2025-12-06T06:52:43.658Z"
+    },
+    {
+      "id": "public-lands-management",
+      "name": "Public Lands Management",
+      "description": "Policies related to the management, preservation, funding, and access of public lands and recreational areas including national parks.",
+      "created_at": "2025-12-06T06:52:51.205Z"
+    },
+    {
+      "id": "veterans-affairs-policy",
+      "name": "Veterans Affairs Policy",
+      "description": "Policies focused on the administration, care, services, benefits, and housing specific to military veterans.",
+      "created_at": "2025-12-06T06:54:31.080Z"
+    },
+    {
+      "id": "religious-liberty",
+      "name": "Religious Liberty",
+      "description": "Policies focused on protecting and promoting the constitutional rights and freedoms related to the free exercise of religion.",
+      "created_at": "2025-12-06T06:54:59.857Z"
+    },
+    {
+      "id": "media-policy",
+      "name": "Media Policy",
+      "description": "Policies regulating the funding, oversight, and standards of media organizations.",
+      "created_at": "2025-12-06T06:55:07.522Z"
+    },
+    {
+      "id": "education-policy",
+      "name": "Education Policy",
+      "description": "Policies related to improving educational institutions, promoting educational equity, and supporting students and educators.",
+      "created_at": "2025-12-06T06:55:53.961Z"
+    },
+    {
+      "id": "supply-chain-security",
+      "name": "Supply Chain Security",
+      "description": "Policies focused on identifying and mitigating risks in critical supply chains to ensure economic and national security resilience.",
+      "created_at": "2025-12-06T06:57:03.919Z"
+    },
+    {
+      "id": "federal-procurement-policy",
+      "name": "Federal Procurement Policy",
+      "description": "Policies governing purchasing practices and acquisition rules within the federal government.",
+      "created_at": "2025-12-06T06:57:08.969Z"
+    },
+    {
+      "id": "consumer-protection",
+      "name": "Consumer Protection",
+      "description": "Policies aimed at protecting consumers from unfair, deceptive, or exploitative marketplace practices across industries.",
+      "created_at": "2025-12-06T06:58:46.705Z"
+    },
+    {
+      "id": "legal-profession-policy",
+      "name": "Legal Profession Policy",
+      "description": "Policies related to oversight, conduct, and reform within the legal profession and law firms.",
+      "created_at": "2025-12-06T06:59:44.812Z"
+    },
+    {
+      "id": "data-governance",
+      "name": "Data Governance",
+      "description": "Policies focused on managing and facilitating the sharing, access, and quality of government data assets.",
+      "created_at": "2025-12-06T06:59:49.788Z"
+    },
+    {
+      "id": "disaster-preparedness",
+      "name": "Disaster Preparedness",
+      "description": "Policies focused on improving readiness, response, and resilience to natural and man-made disasters at federal, state, and local levels.",
+      "created_at": "2025-12-06T07:00:19.512Z"
+    },
+    {
+      "id": "language-policy",
+      "name": "Language Policy",
+      "description": "Policies establishing or regulating an official or national language for government operations and national identity.",
+      "created_at": "2025-12-06T07:01:43.703Z"
+    },
+    {
+      "id": "fertility-policy",
+      "name": "Fertility Policy",
+      "description": "Policies aimed at improving access to fertility treatments and addressing reproductive health challenges.",
+      "created_at": "2025-12-06T07:02:32.788Z"
+    },
+    {
+      "id": "environmental-regulation",
+      "name": "Environmental Regulation",
+      "description": "Policies related to environmental impacts, sustainability, and regulations affecting environmental outcomes.",
+      "created_at": "2025-12-06T07:03:20.731Z"
+    },
+    {
+      "id": "sovereign-wealth-fund-management",
+      "name": "Sovereign Wealth Fund Management",
+      "description": "Policies related to the creation, governance, investment strategies, and legal frameworks of sovereign wealth funds established by the government.",
+      "created_at": "2025-12-06T07:04:30.837Z"
+    },
+    {
+      "id": "parental-rights",
+      "name": "Parental Rights",
+      "description": "Policies related to protecting and enforcing parental authority and rights in educational settings.",
+      "created_at": "2025-12-06T07:05:09.563Z"
+    },
+    {
+      "id": "civil-rights-enforcement",
+      "name": "Civil Rights Enforcement",
+      "description": "Policies focused on monitoring, enforcing, and protecting civil rights protections against discrimination and harassment.",
+      "created_at": "2025-12-06T07:05:21.859Z"
+    },
+    {
+      "id": "military-personnel-policy",
+      "name": "Military Personnel Policy",
+      "description": "Policies related to personnel management, culture, and ideological guidance within the U.S. Armed Forces and military educational institutions.",
+      "created_at": "2025-12-06T07:05:43.253Z"
+    },
+    {
+      "id": "abortion-policy",
+      "name": "Abortion Policy",
+      "description": "Policies regulating federal funding and restrictions related to abortion services.",
+      "created_at": "2025-12-06T07:05:58.923Z"
+    },
+    {
+      "id": "criminal-justice-enforcement",
+      "name": "Criminal Justice Enforcement",
+      "description": "Policies focused on the enforcement and administration of criminal justice laws and penalties, including prosecution priorities and sentencing.",
+      "created_at": "2025-12-06T07:07:51.050Z"
+    },
+    {
+      "id": "free-speech-policy",
+      "name": "Free Speech Policy",
+      "description": "Policies focused on protecting constitutional rights related to freedom of speech and expression from government interference, including limiting censorship and promoting open discourse.",
+      "created_at": "2025-12-06T07:09:26.612Z"
+    },
+    {
+      "id": "place-based-economic-development",
+      "name": "Place Based Economic Development",
+      "description": "Policies and programs focused on targeted economic development efforts tailored to specific geographic regions or communities.",
+      "created_at": "2025-12-06T07:09:51.884Z"
+    },
+    {
+      "id": "economic-development",
+      "name": "Economic Development",
+      "description": "Auto-created theme for economic development",
+      "created_at": "2025-12-06T07:09:51.884Z"
+    },
+    {
+      "id": "community-development",
+      "name": "Community Development",
+      "description": "Auto-created theme for community development",
+      "created_at": "2025-12-06T07:09:51.884Z"
+    }
+  ],
+  "updated_at": "2025-12-06T07:10:56.405Z"
+}

@@ -1,0 +1,46 @@
+{
+  "document_number": "2025-05522",
+  "executive_order_number": "14247",
+  "title": "Modernizing Payments To and From America's Bank Account",
+  "abstract": null,
+  "signing_date": "2025-03-25",
+  "publication_date": "2025-03-28",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/03/28/2025-05522/modernizing-payments-to-and-from-americas-bank-account",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-28/pdf/2025-05522.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/28/2025-05522.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to stop using paper checks and money orders for all payments and receipts and to switch to electronic payment methods, like direct deposits and digital wallets, by September 30, 2025. It seeks to reduce costs, speed up payments, prevent fraud, and protect against mail theft, while allowing limited exceptions for those who cannot access electronic payment systems.",
+    "theme_ids": [
+      "financial-regulation",
+      "federal-agency-management",
+      "consumer-protection"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-agencies",
+        "federal-employees",
+        "government-service-users",
+        "financial-institutions",
+        "bank-customers"
+      ],
+      "negative_ids": [
+        "undocumented-immigrants",
+        "low-income-patients",
+        "unbanked-and-underbanked-populations"
+      ]
+    },
+    "potential_concerns": [
+      "Unbanked or underbanked individuals might face hardship or exclusion despite exceptions, slowing access to federal payments.",
+      "Federal agencies may encounter implementation challenges and costs in transitioning existing systems to fully electronic payments within the set timeline.",
+      "Reliance on electronic payments raises risks related to cybersecurity breaches and protection of sensitive personal and financial data.",
+      "Limited exceptions may be inconsistently applied, creating confusion or delays for legitimate recipients who cannot use electronic payment methods.",
+      "Small businesses and recipients unfamiliar with digital payment technologies may experience complications or delays in receiving payments during transition."
+    ],
+    "enriched_at": "2025-12-06T06:59:27.286Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

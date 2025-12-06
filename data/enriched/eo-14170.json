@@ -1,0 +1,42 @@
+{
+  "document_number": "2025-02094",
+  "executive_order_number": "14170",
+  "title": "Reforming the Federal Hiring Process and Restoring Merit to Government Service",
+  "abstract": null,
+  "signing_date": "2025-01-20",
+  "publication_date": "2025-01-30",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/01/30/2025-02094/reforming-the-federal-hiring-process-and-restoring-merit-to-government-service",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-30/pdf/2025-02094.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/30/2025-02094.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to overhaul its hiring process to be faster, merit-focused, and aligned with American constitutional values. It emphasizes hiring qualified candidates without consideration of race, sex, or religion, removes equity and gender identity factors from hiring decisions, and sets plans and accountability measures to improve workforce efficiency and leadership.",
+    "theme_ids": [
+      "federal-workforce",
+      "federal-agency-management",
+      "regulatory-reform"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "federal-agencies"
+      ],
+      "negative_ids": [
+        "displaced-federal-workers",
+        "individuals-impacted-by-race-and-equity-policy-restrictions"
+      ]
+    },
+    "potential_concerns": [
+      "Removing consideration of equity and gender identity in hiring could reduce diversity and inclusion within the federal workforce.",
+      "Strict exclusion of candidates unwilling to endorse certain ideological positions may limit the applicant pool and raise concerns about ideological discrimination.",
+      "Decreasing time-to-hire targets might pressure agencies to rush hiring decisions, potentially sacrificing thorough candidate evaluation.",
+      "Implementation challenges may arise from coordinating multiple agencies and integrating new technical assessments and technologies within tight timelines.",
+      "The order’s framing and explicit language rejecting equity and gender identity policies could generate legal challenges or employee morale issues."
+    ],
+    "enriched_at": "2025-12-06T07:07:16.176Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

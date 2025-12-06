@@ -1,0 +1,41 @@
+{
+  "document_number": "2025-19614",
+  "executive_order_number": "14356",
+  "title": "Ensuring Continued Accountability in Federal Hiring",
+  "abstract": null,
+  "signing_date": "2025-10-15",
+  "publication_date": "2025-10-20",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/10/20/2025-19614/ensuring-continued-accountability-in-federal-hiring",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-10-20/pdf/2025-19614.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/10/20/2025-19614.txt",
+  "enrichment": {
+    "summary": "This executive order restricts federal hiring by requiring agencies to meet strict approval processes for filling vacancies or creating new positions, focusing on reducing workforce size while prioritizing national security, immigration enforcement, and public safety roles. It mandates agencies to create staffing plans aligned with administration priorities and establishes Strategic Hiring Committees to oversee hiring decisions, with some exceptions for key positions and agencies.",
+    "theme_ids": [
+      "national-security",
+      "federal-workforce",
+      "immigration-enforcement",
+      "public-safety"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees"
+      ],
+      "negative_ids": [
+        "displaced-federal-workers"
+      ]
+    },
+    "potential_concerns": [
+      "The strict hiring freeze and approval requirements could lead to understaffing in essential government functions unrelated to the exempted priorities.",
+      "The focus on national security, immigration enforcement, and public safety positions may disproportionately deprioritize other important federal roles, potentially harming service delivery.",
+      "Implementation of Strategic Hiring Committees may delay urgent hiring decisions, reducing agency responsiveness and operational efficiency.",
+      "The order’s exemptions and OPM’s discretion to grant exemptions could introduce inconsistency and perceptions of politicization or uneven application across agencies.",
+      "Reduced availability of federal positions may lead to increased reliance on contractors, potentially circumventing the order’s intent and raising oversight concerns."
+    ],
+    "enriched_at": "2025-12-06T06:48:34.698Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "document_number": "2025-19139",
+  "executive_order_number": "14352",
+  "title": "Saving TikTok While Protecting National Security",
+  "abstract": null,
+  "signing_date": "2025-09-25",
+  "publication_date": "2025-09-30",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/09/30/2025-19139/saving-tiktok-while-protecting-national-security",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-09-30/pdf/2025-19139.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/09/30/2025-19139.txt",
+  "enrichment": {
+    "summary": "This executive order allows TikTok to continue operating in the United States by approving a restructuring that moves control of its U.S. operations to a majority American-owned company, thereby addressing national security concerns related to foreign control. It suspends enforcement of certain restrictions under the Protecting Americans from Foreign Adversary Controlled Applications Act for 120 days to enable this transition and outlines ongoing oversight requirements.",
+    "theme_ids": [
+      "national-security",
+      "trade-policy",
+      "foreign-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "tech-industry",
+        "federal-employees"
+      ],
+      "negative_ids": [
+        "china",
+        "private-sector-rivals"
+      ]
+    },
+    "potential_concerns": [
+      "The divestiture might not fully eliminate foreign influence if ByteDance retains minority ownership and indirect control.",
+      "Enforcement delays could allow security vulnerabilities or data risks to persist longer than necessary.",
+      "Monitoring and compliance mechanisms may be difficult to implement effectively, risking inadequate protection of user data.",
+      "The order could be viewed as favoring TikTok over other similar foreign-controlled applications, raising fairness concerns.",
+      "Investors and firms competing with the new joint venture might face disadvantage or market uncertainty due to altered enforcement timelines."
+    ],
+    "enriched_at": "2025-12-06T06:48:55.665Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

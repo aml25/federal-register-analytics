@@ -1,0 +1,43 @@
+{
+  "document_number": "2025-06027",
+  "executive_order_number": "14256",
+  "title": "Further Amendment to Duties Addressing the Synthetic Opioid Supply Chain in the People's Republic of China as Applied to Low-Value Imports",
+  "abstract": null,
+  "signing_date": "2025-04-02",
+  "publication_date": "2025-04-07",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/07/2025-06027/further-amendment-to-duties-addressing-the-synthetic-opioid-supply-chain-in-the-peoples-republic-of",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-07/pdf/2025-06027.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/07/2025-06027.txt",
+  "enrichment": {
+    "summary": "This executive order removes the duty-free exemption for low-value shipments from China and Hong Kong to the U.S. that are linked to synthetic opioid supply chains, requiring importers and carriers to pay tariffs on such goods starting May 2, 2025. It establishes specific duties, bonding requirements for carriers, and reporting obligations to address illicit opioid trafficking through deceptive shipping practices. The order directs federal agencies to implement and enforce these changes and to monitor their impact on American industries and supply chains.",
+    "theme_ids": [
+      "trade-policy",
+      "national-security",
+      "supply-chain-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-agencies",
+        "international-shippers"
+      ],
+      "negative_ids": [
+        "china",
+        "small-importers",
+        "postal-carriers"
+      ]
+    },
+    "potential_concerns": [
+      "Increased costs and administrative burdens may negatively impact small importers and legitimate businesses relying on low-value shipments from China and Hong Kong.",
+      "Carriers may face logistical challenges and financial risks due to new bonding and reporting requirements, potentially disrupting international postal delivery.",
+      "The complexity of enforcement and potential for misclassification could lead to delays or disputes affecting consumers and importers.",
+      "There is a risk that illicit shipments may shift to other countries or channels not covered by the order, limiting its effectiveness.",
+      "Monitoring and accurately assessing the economic impact on U.S. industries and consumers may be difficult due to varying compliance and enforcement across agencies."
+    ],
+    "enriched_at": "2025-12-06T06:58:34.471Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

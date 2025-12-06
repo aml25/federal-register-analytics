@@ -1,0 +1,41 @@
+{
+  "document_number": "2025-07368",
+  "executive_order_number": "14277",
+  "title": "Advancing Artificial Intelligence Education for American Youth",
+  "abstract": null,
+  "signing_date": "2025-04-23",
+  "publication_date": "2025-04-28",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/28/2025-07368/advancing-artificial-intelligence-education-for-american-youth",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-28/pdf/2025-07368.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/28/2025-07368.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to promote artificial intelligence education for American students and lifelong learners by establishing a dedicated task force, encouraging public-private partnerships, and creating initiatives like a Presidential AI Challenge. It aims to improve AI literacy among youth and educators, expand workforce training programs, and integrate AI tools into education from K-12 through postsecondary levels.",
+    "theme_ids": [
+      "artificial-intelligence",
+      "education-policy",
+      "federal-research-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "american-youth",
+        "education-administrators",
+        "academic-institutions",
+        "tech-industry"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The order relies heavily on coordination across multiple agencies and private partners, which may result in slow or uneven implementation.",
+      "There may be disparities in access to AI education and resources, potentially widening educational gaps between well-funded and under-resourced communities.",
+      "Rapid integration of AI in classrooms without adequate educator training could lead to ineffective or superficial AI instruction.",
+      "Emphasis on AI skills could inadvertently de-prioritize other essential areas of education if not balanced carefully.",
+      "Privacy and ethical concerns related to deploying AI technologies broadly in educational settings are not addressed in the order."
+    ],
+    "enriched_at": "2025-12-06T06:56:25.826Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

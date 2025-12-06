@@ -1,0 +1,42 @@
+{
+  "document_number": "2025-02635",
+  "executive_order_number": "14205",
+  "title": "Establishment of the White House Faith Office",
+  "abstract": null,
+  "signing_date": "2025-02-07",
+  "publication_date": "2025-02-12",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/12/2025-02635/establishment-of-the-white-house-faith-office",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-12/pdf/2025-02635.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/12/2025-02635.txt",
+  "enrichment": {
+    "summary": "This executive order creates the White House Faith Office to support and empower faith-based organizations, community groups, and houses of worship in their efforts to serve families and communities. The order commits federal agencies to ensuring religious liberty, removing barriers for these groups to access government funding and programs, and fostering partnerships that respect constitutional protections for religious exercise.",
+    "theme_ids": [
+      "religious-liberty",
+      "federal-agency-management"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "faith-based-organizations",
+        "federal-agencies",
+        "religious-communities"
+      ],
+      "negative_ids": [
+        "religious-liberty-opponents",
+        "secular-public-institutions"
+      ]
+    },
+    "potential_concerns": [
+      "The increased emphasis on faith-based organizations receiving federal funding could raise concerns about favoritism or the blurring of church-state separation.",
+      "Secular public institutions and advocates for strict church-state separation may feel marginalized or face challenges due to expanded religious exemptions and accommodations.",
+      "Implementation might result in inconsistent enforcement or interpretation of religious liberty protections across agencies.",
+      "Efforts to reduce burdens on religious exercise could potentially undermine nondiscrimination protections in programs receiving federal funds.",
+      "The creation of an office with broad authority to influence federal policy could raise concerns about undue political influence over diverse community organizations."
+    ],
+    "enriched_at": "2025-12-06T07:03:38.324Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

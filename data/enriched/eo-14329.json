@@ -1,0 +1,40 @@
+{
+  "document_number": "2025-15267",
+  "executive_order_number": "14329",
+  "title": "Addressing Threats to the United States by the Government of the Russian Federation",
+  "abstract": null,
+  "signing_date": "2025-08-06",
+  "publication_date": "2025-08-11",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/08/11/2025-15267/addressing-threats-to-the-united-states-by-the-government-of-the-russian-federation",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-11/pdf/2025-15267.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/11/2025-15267.txt",
+  "enrichment": {
+    "summary": "This executive order imposes an additional 25% tariff on imports from India because India is directly or indirectly importing oil from Russia, which the U.S. considers a threat to its national security. The order builds on previous sanctions and allows the President to modify tariffs or take further action against other countries that import Russian oil to address ongoing threats posed by the Russian government.",
+    "theme_ids": [
+      "trade-policy",
+      "national-security",
+      "foreign-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees"
+      ],
+      "negative_ids": [
+        "india"
+      ]
+    },
+    "potential_concerns": [
+      "The tariffs could strain U.S.-India trade relations and diplomatic ties with a major regional partner.",
+      "The economic impact of tariffs may harm Indian exporters and supply chains, potentially increasing costs for U.S. businesses and consumers.",
+      "Determining indirect importation through intermediaries could be complex, causing enforcement and compliance challenges.",
+      "Retaliatory measures by India or other impacted countries could escalate trade tensions and harm broader economic interests.",
+      "The order’s broad authority to modify tariffs based on changing circumstances may create uncertainty for affected industries and trading partners."
+    ],
+    "enriched_at": "2025-12-06T06:51:17.063Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

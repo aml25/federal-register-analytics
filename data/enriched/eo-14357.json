@@ -1,0 +1,41 @@
+{
+  "document_number": "2025-19825",
+  "executive_order_number": "14357",
+  "title": "Modifying Duties Addressing the Synthetic Opioid Supply Chain in the People's Republic of China",
+  "abstract": null,
+  "signing_date": "2025-11-04",
+  "publication_date": "2025-11-07",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/11/07/2025-19825/modifying-duties-addressing-the-synthetic-opioid-supply-chain-in-the-peoples-republic-of-china",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-11-07/pdf/2025-19825.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/11/07/2025-19825.txt",
+  "enrichment": {
+    "summary": "This executive order lowers the additional tariff on products from China related to synthetic opioids from 20 percent to 10 percent as part of a deal where China commits to take stronger actions to stop the flow of fentanyl and related chemicals to the United States. It directs government agencies to monitor China's compliance and allows for further adjustments if needed to address the ongoing opioid-related national emergency.",
+    "theme_ids": [
+      "trade-policy",
+      "national-security",
+      "foreign-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "china"
+      ],
+      "negative_ids": [
+        "private-sector-rivals"
+      ]
+    },
+    "potential_concerns": [
+      "If China fails to fully implement its commitments, the reduced tariffs could weaken U.S. leverage in controlling the opioid supply chain.",
+      "Lowering tariffs may disadvantage certain U.S. domestic industries by increasing competition from Chinese imports linked to synthetic opioid supply chains.",
+      "Monitoring enforcement and compliance may be challenging given the complex international nature of chemical shipments and illicit drug flows.",
+      "The order does not provide an explicit enforcement mechanism for tariff re-escalation beyond presidential discretion, which could slow responsive action.",
+      "There may be political or public skepticism about reducing tariffs while the opioid crisis continues to affect American communities."
+    ],
+    "enriched_at": "2025-12-06T06:48:26.647Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

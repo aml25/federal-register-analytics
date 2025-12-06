@@ -5,8 +5,8 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { dirname } from 'node:path';
-import type { ThemeRegistry } from './types.js';
-import { THEMES_FILE } from './config.js';
+import type { ThemeRegistry, PopulationRegistry } from './types.js';
+import { THEMES_FILE, POPULATIONS_FILE } from './config.js';
 
 /**
  * Ensure a directory exists, creating it if necessary
@@ -63,6 +63,31 @@ export async function saveThemes(registry: ThemeRegistry): Promise<void> {
 }
 
 /**
+ * Load the population registry, creating empty one if it doesn't exist
+ */
+export async function loadPopulations(): Promise<PopulationRegistry> {
+  const existing = await readJson<PopulationRegistry>(POPULATIONS_FILE);
+  if (existing) {
+    return existing;
+  }
+
+  const empty: PopulationRegistry = {
+    populations: [],
+    updated_at: new Date().toISOString()
+  };
+  await writeJson(POPULATIONS_FILE, empty);
+  return empty;
+}
+
+/**
+ * Save the population registry
+ */
+export async function savePopulations(registry: PopulationRegistry): Promise<void> {
+  registry.updated_at = new Date().toISOString();
+  await writeJson(POPULATIONS_FILE, registry);
+}
+
+/**
  * Generate a slug ID from a theme name
  */
 export function slugify(name: string): string {
@@ -81,14 +106,31 @@ export function sleep(ms: number): Promise<void> {
 
 /**
  * Parse command line arguments
+ * Supports both --key=value and --key value formats
  */
 export function parseArgs(args: string[]): Record<string, string | boolean> {
   const result: Record<string, string | boolean> = {};
 
-  for (const arg of args) {
+  for (let i = 0; i < args.length; i++) {
+    const arg = args[i];
     if (arg.startsWith('--')) {
-      const [key, value] = arg.slice(2).split('=');
-      result[key] = value ?? true;
+      const eqIndex = arg.indexOf('=');
+      if (eqIndex !== -1) {
+        // --key=value format
+        const key = arg.slice(2, eqIndex);
+        const value = arg.slice(eqIndex + 1);
+        result[key] = value;
+      } else {
+        // --key value or --flag format
+        const key = arg.slice(2);
+        const nextArg = args[i + 1];
+        if (nextArg && !nextArg.startsWith('--')) {
+          result[key] = nextArg;
+          i++; // Skip the next arg since we consumed it as a value
+        } else {
+          result[key] = true;
+        }
+      }
     }
   }
 

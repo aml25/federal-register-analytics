@@ -1,0 +1,41 @@
+{
+  "document_number": "2025-07369",
+  "executive_order_number": "14278",
+  "title": "Preparing Americans for High-Paying Skilled Trade Jobs of the Future",
+  "abstract": null,
+  "signing_date": "2025-04-23",
+  "publication_date": "2025-04-28",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/28/2025-07369/preparing-americans-for-high-paying-skilled-trade-jobs-of-the-future",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-28/pdf/2025-07369.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/28/2025-07369.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to improve and better coordinate workforce development programs to prepare American workers for high-paying skilled trade jobs. It emphasizes expanding registered apprenticeships, investing in upskilling workers including the use of artificial intelligence, and increasing transparency and accountability in federal workforce programs.",
+    "theme_ids": [
+      "federal-workforce",
+      "artificial-intelligence",
+      "education-policy",
+      "regulatory-reform"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "manufacturing-workers",
+        "federal-agencies",
+        "education-administrators"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Fragmentation of workforce programs may persist if agencies fail to fully integrate under the proposed reviews and reforms.",
+      "Expansion of registered apprenticeships may not equally benefit all industries or demographic groups, potentially leaving some workers behind.",
+      "Increased emphasis on alternative credentials could face resistance from traditional educational institutions and accreditation bodies.",
+      "Reliance on artificial intelligence in workforce training may create challenges related to bias, accessibility, and worker displacement.",
+      "Transparency requirements may impose additional administrative burdens on federal agencies and program grantees."
+    ],
+    "enriched_at": "2025-12-06T06:56:20.560Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

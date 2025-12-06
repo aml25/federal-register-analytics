@@ -1,0 +1,46 @@
+{
+  "document_number": "2025-05523",
+  "executive_order_number": "14248",
+  "title": "Preserving and Protecting the Integrity of American Elections",
+  "abstract": null,
+  "signing_date": "2025-03-25",
+  "publication_date": "2025-03-28",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/03/28/2025-05523/preserving-and-protecting-the-integrity-of-american-elections",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-28/pdf/2025-05523.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/28/2025-05523.txt",
+  "enrichment": {
+    "summary": "This executive order aims to strengthen the integrity of American elections by enforcing citizenship requirements for voting, improving voter registration accuracy, enhancing voting system security, and ensuring all votes are cast and counted by the established Election Day. It prioritizes preventing illegal voting, foreign interference, and fraud, while updating election assistance standards and prosecuting election crimes more aggressively.",
+    "theme_ids": [
+      "immigration-enforcement",
+      "public-safety",
+      "federal-agency-management",
+      "national-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-agencies",
+        "doj",
+        "state-and-local-law-enforcement",
+        "patriotic-citizens"
+      ],
+      "negative_ids": [
+        "undocumented-immigrants",
+        "foreign-nationals-engaged-in-desecration",
+        "non-citizen-voters"
+      ]
+    },
+    "potential_concerns": [
+      "Strict enforcement of documentary proof of citizenship could disproportionately burden eligible voters, including minorities and marginalized communities, leading to disenfranchisement.",
+      "Increased coordination between federal and state agencies may raise privacy concerns due to sharing of sensitive immigration and voter registration data.",
+      "New standards limiting acceptance of mail-in ballots received after Election Day could reduce voting access for some voters, especially those facing postal delays or other barriers.",
+      "Heightened prosecution and enforcement efforts could politicize election oversight, risking accusations of voter suppression or targeting specific groups.",
+      "Mandates on voting system standards and audit enforcement could impose substantial costs and administrative burdens on smaller states or local jurisdictions."
+    ],
+    "enriched_at": "2025-12-06T06:59:21.314Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

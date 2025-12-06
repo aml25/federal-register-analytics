@@ -1,0 +1,42 @@
+{
+  "document_number": "2025-03133",
+  "executive_order_number": "14217",
+  "title": "Commencing the Reduction of the Federal Bureaucracy",
+  "abstract": null,
+  "signing_date": "2025-02-19",
+  "publication_date": "2025-02-25",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/25/2025-03133/commencing-the-reduction-of-the-federal-bureaucracy",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-25/pdf/2025-03133.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/25/2025-03133.txt",
+  "enrichment": {
+    "summary": "This executive order directs the reduction of unnecessary federal agencies, advisory committees, and government functions to shrink the size of the federal bureaucracy, limit government waste, and increase accountability. It also terminates certain federal programs and committees and mandates agency heads to identify additional entities for elimination.",
+    "theme_ids": [
+      "federal-agency-management",
+      "federal-workforce",
+      "advisory-committees-management",
+      "regulatory-reform"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "federal-agencies"
+      ],
+      "negative_ids": [
+        "displaced-federal-workers"
+      ]
+    },
+    "potential_concerns": [
+      "Significant federal workforce reductions could lead to job losses and disruption for displaced federal workers.",
+      "Elimination of federal advisory committees and programs may reduce expert input and stakeholder engagement in policymaking.",
+      "Rapid implementation timelines (14 to 30 days) may cause logistical and compliance challenges for agencies.",
+      "Cutting non-statutory and some statutory functions risks impairing essential government services and mission effectiveness.",
+      "Revoking long-standing Presidential memoranda and programs could lead to the loss of institutional knowledge and coordination mechanisms."
+    ],
+    "enriched_at": "2025-12-06T07:02:26.889Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -19,7 +19,7 @@ export interface RawExecutiveOrder {
   };
   html_url: string;
   pdf_url?: string;
-  full_text?: string;
+  raw_text_url?: string;
 }
 
 // =============================================================================
@@ -39,18 +39,35 @@ export interface ThemeRegistry {
 }
 
 // =============================================================================
+// POPULATION TYPES
+// =============================================================================
+
+export interface Population {
+  id: string;
+  name: string;
+  description: string;
+  created_at: string;
+}
+
+export interface PopulationRegistry {
+  populations: Population[];
+  updated_at: string;
+}
+
+// =============================================================================
 // ENRICHED DATA TYPES
 // =============================================================================
 
 export interface ImpactedPopulations {
-  positive: string[];
-  negative: string[];
+  positive_ids: string[];
+  negative_ids: string[];
 }
 
 export interface Enrichment {
   summary: string;
   theme_ids: string[];
   impacted_populations: ImpactedPopulations;
+  potential_concerns: string[];
   enriched_at: string;
   model_used: string;
 }
@@ -107,11 +124,24 @@ export interface LLMEnrichmentResponse {
   summary: string;
   existing_theme_ids: string[];
   proposed_themes: ProposedTheme[];
-  impacted_populations: ImpactedPopulations;
+  existing_population_ids: {
+    positive: string[];
+    negative: string[];
+  };
+  proposed_populations: {
+    positive: ProposedPopulation[];
+    negative: ProposedPopulation[];
+  };
+  potential_concerns: string[];
 }
 
 export interface ProposedTheme {
   name: string;
   description: string;
   justification: string;
+}
+
+export interface ProposedPopulation {
+  name: string;
+  description: string;
 }

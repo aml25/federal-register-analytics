@@ -1,0 +1,43 @@
+{
+  "document_number": "2025-12961",
+  "executive_order_number": "14315",
+  "title": "Ending Market Distorting Subsidies for Unreliable, Foreign-Controlled Energy Sources",
+  "abstract": null,
+  "signing_date": "2025-07-07",
+  "publication_date": "2025-07-10",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/07/10/2025-12961/ending-market-distorting-subsidies-for-unreliable-foreign-controlled-energy-sources",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-07-10/pdf/2025-12961.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/07/10/2025-12961.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to end government subsidies and tax credits for wind, solar, and other so-called green energy sources that are considered expensive, unreliable, and controlled by foreign adversaries. It requires review and adjustment of policies to eliminate preferential treatment for these energy sources and aims to protect the electric grid, national security, and taxpayer funds.",
+    "theme_ids": [
+      "trade-policy",
+      "national-security",
+      "regulatory-reform",
+      "energy-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-agencies",
+        "federal-employees",
+        "domestic-energy-producers"
+      ],
+      "negative_ids": [
+        "green-energy-industry"
+      ]
+    },
+    "potential_concerns": [
+      "The order may slow the adoption of renewable energy technologies, undermining efforts to address climate change.",
+      "Removing subsidies could increase energy costs for consumers if expensive renewable projects are replaced by more costly alternatives.",
+      "Strict restrictions related to foreign control might complicate global supply chains and reduce investment in clean energy development.",
+      "Implementation timelines of 45 days may be challenging for agencies to properly adjust complex policies and regulations.",
+      "The order’s framing as reversing green energy subsidies may cause political polarization and resistance from environmental and industry stakeholders."
+    ],
+    "enriched_at": "2025-12-06T06:52:43.659Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

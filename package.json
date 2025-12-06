@@ -9,7 +9,8 @@
     "dev": "tsc --watch",
     "fetch": "node dist/cli/fetch.js",
     "enrich": "node dist/cli/enrich.js",
-    "aggregate": "node dist/cli/aggregate.js"
+    "aggregate": "node dist/cli/aggregate.js",
+    "generate-narratives": "node dist/cli/narratives.js"
   },
   "keywords": [
     "federal-register",
@@ -20,7 +21,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.39.0"
+    "dotenv": "^17.2.3",
+    "openai": "^6.10.0"
   },
   "devDependencies": {
     "@types/node": "^24.10.1",

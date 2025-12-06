@@ -1,0 +1,45 @@
+{
+  "document_number": "2025-10804",
+  "executive_order_number": "14306",
+  "title": "Sustaining Select Efforts To Strengthen the Nation's Cybersecurity and Amending Executive Order 13694 and Executive Order 14144",
+  "abstract": null,
+  "signing_date": "2025-06-06",
+  "publication_date": "2025-06-11",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/06/11/2025-10804/sustaining-select-efforts-to-strengthen-the-nations-cybersecurity-and-amending-executive-order-13694",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-06-11/pdf/2025-10804.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/06/11/2025-10804.txt",
+  "enrichment": {
+    "summary": "This executive order updates and strengthens U.S. cybersecurity policies by amending previous orders to address emerging threats, improve software security practices, promote the use of artificial intelligence in cyber defense, and prepare for future challenges like quantum computing. It directs federal agencies to develop cybersecurity standards, foster industry collaboration, and enhance national cybersecurity capabilities while focusing on foreign cyber threats, especially from China and other nations.",
+    "theme_ids": [
+      "national-security",
+      "artificial-intelligence",
+      "federal-research-coordination",
+      "technology-development",
+      "foreign-policy",
+      "federal-agency-management"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-agencies",
+        "federal-employees",
+        "tech-industry",
+        "academic-institutions",
+        "scientific-researchers"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The accelerated adoption of AI in cybersecurity may raise concerns about privacy, ethical use, and oversight of automated cyber defense tools.",
+      "Mandates for federal agencies to adopt new cybersecurity requirements and labeling may strain resources and create implementation challenges within tight deadlines.",
+      "Focusing cybersecurity threats primarily on certain foreign nations could lead to geopolitical tensions or neglect emerging threats from other actors.",
+      "The emphasis on post-quantum cryptography and aggressive transition timelines could create technical challenges and compatibility issues for federal systems and contractors.",
+      "Reducing protections or exemptions for certain federal information systems may inadvertently expose sensitive networks to increased cyber risks if implementation is not carefully managed."
+    ],
+    "enriched_at": "2025-12-06T06:53:35.363Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

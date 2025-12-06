@@ -18,15 +18,12 @@ Thumbs.db
 .env
 .env.local
 .env.*.local
+!.env.example
 
 # Logs
 *.log
 npm-debug.log*
 
-# Data files (large, generated)
+# Data files (generated)
 data/raw/
-data/enriched/
 data/aggregated/
-
-# Keep themes.json (curated theme registry)
-!data/themes.json

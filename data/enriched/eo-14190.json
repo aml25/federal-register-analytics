@@ -1,0 +1,48 @@
+{
+  "document_number": "2025-02232",
+  "executive_order_number": "14190",
+  "title": "Ending Radical Indoctrination in K-12 Schooling",
+  "abstract": null,
+  "signing_date": "2025-01-29",
+  "publication_date": "2025-02-03",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/03/2025-02232/ending-radical-indoctrination-in-k-12-schooling",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-03/pdf/2025-02232.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/03/2025-02232.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to identify and eliminate the use of federally funded programs that promote what it calls 'radical indoctrination' in K-12 education, focusing on ideological teachings related to race and gender. It also reestablishes the President's Advisory 1776 Commission to promote patriotic education and celebrates the upcoming 250th anniversary of American Independence.",
+    "theme_ids": [
+      "education-policy",
+      "advisory-committees-management",
+      "event-coordination",
+      "parental-rights"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "parents-of-public-school-students",
+        "education-administrators",
+        "federal-employees",
+        "patriotic-citizens"
+      ],
+      "negative_ids": [
+        "diverse-student-populations",
+        "students-in-federally-funded-schools",
+        "transgender-athletes",
+        "male-athletes-seeking-womens-sports",
+        "students-impacted-by-ideological-restrictions"
+      ]
+    },
+    "potential_concerns": [
+      "The order's definitions of 'discriminatory equity ideology' and prohibitions on gender ideology could limit comprehensive education on civil rights and social issues.",
+      "Efforts to rescind federal funding based on ideological content may create legal challenges over free speech and academic freedom.",
+      "Targeted enforcement against social transition support may harm transgender and gender-nonconforming students by reducing access to affirming services.",
+      "The reestablishment of the 1776 Commission with a patriotic education focus may promote a singular, potentially exclusionary narrative of American history.",
+      "Implementation across federal agencies may be inconsistent or overly burdensome, leading to confusion among schools and educators."
+    ],
+    "enriched_at": "2025-12-06T07:05:09.564Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

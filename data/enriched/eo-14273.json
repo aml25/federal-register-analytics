@@ -1,0 +1,47 @@
+{
+  "document_number": "2025-06837",
+  "executive_order_number": "14273",
+  "title": "Lowering Drug Prices by Once Again Putting Americans First",
+  "abstract": null,
+  "signing_date": "2025-04-15",
+  "publication_date": "2025-04-18",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/18/2025-06837/lowering-drug-prices-by-once-again-putting-americans-first",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-18/pdf/2025-06837.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/18/2025-06837.txt",
+  "enrichment": {
+    "summary": "This executive order aims to lower prescription drug prices for American patients by restoring and improving policies from the previous administration, enhancing competition, increasing transparency, and reforming Medicare and Medicaid drug pricing programs. It also seeks to improve access to affordable life-saving medications, promote innovation, and reduce costly care for seniors through various regulatory and policy changes.",
+    "theme_ids": [
+      "pharmaceutical-supply-chain",
+      "regulatory-reform",
+      "public-health-promotion"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "average-americans",
+        "military-veterans",
+        "medical-patients",
+        "federal-agencies",
+        "seniors",
+        "low-income-patients"
+      ],
+      "negative_ids": [
+        "pharmaceutical-manufacturers",
+        "private-sector-rivals",
+        "medicare-part-d-insurance-companies"
+      ]
+    },
+    "potential_concerns": [
+      "Accelerating drug approvals and reclassification could risk patient safety if regulatory safeguards are weakened.",
+      "Aligning pricing rules between small molecule drugs and biologics might reduce incentives for certain pharmaceutical innovations.",
+      "Efforts to reduce premiums and costs could disrupt existing Medicare Part D plan markets and result in insurer bailouts.",
+      "Greater importation of drugs may increase risks related to drug quality or supply chain security if not properly managed.",
+      "Recommendations aimed at reducing anti-competitive practices may face legal challenges or resistance from the pharmaceutical industry."
+    ],
+    "enriched_at": "2025-12-06T06:56:57.185Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

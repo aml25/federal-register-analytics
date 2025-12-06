@@ -1,0 +1,40 @@
+{
+  "document_number": "2025-02087",
+  "executive_order_number": "14166",
+  "title": "Application of Protecting Americans From Foreign Adversary Controlled Applications Act to TikTok",
+  "abstract": null,
+  "signing_date": "2025-01-20",
+  "publication_date": "2025-01-30",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/01/30/2025-02087/application-of-protecting-americans-from-foreign-adversary-controlled-applications-act-to-tiktok",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-30/pdf/2025-02087.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/30/2025-02087.txt",
+  "enrichment": {
+    "summary": "This executive order temporarily pauses enforcement of a law that restricts TikTok and related applications controlled by a Chinese company, ByteDance, within the United States. The pause allows the new administration time to review national security risks and consider alternatives to an immediate shutdown of the popular social media platform used by millions of Americans.",
+    "theme_ids": [
+      "national-security",
+      "foreign-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees"
+      ],
+      "negative_ids": [
+        "tech-industry",
+        "china"
+      ]
+    },
+    "potential_concerns": [
+      "Delaying enforcement could allow security vulnerabilities related to TikTok to persist longer than advisable.",
+      "The order may create uncertainty for app distributors, internet service providers, and affected technology companies.",
+      "There may be political controversy over balancing national security with user access to a widely used platform.",
+      "The temporary pause might be perceived as weak enforcement, potentially encouraging other foreign adversaries to exploit regulatory gaps.",
+      "Coordinating enforcement exclusively within the executive branch could raise legal disputes over state or private attempts to act."
+    ],
+    "enriched_at": "2025-12-06T07:07:38.454Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

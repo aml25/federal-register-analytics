@@ -1,0 +1,45 @@
+{
+  "document_number": "2025-06836",
+  "executive_order_number": "14272",
+  "title": "Ensuring National Security and Economic Resilience Through Section 232 Actions on Processed Critical Minerals and Derivative Products",
+  "abstract": null,
+  "signing_date": "2025-04-15",
+  "publication_date": "2025-04-18",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/18/2025-06836/ensuring-national-security-and-economic-resilience-through-section-232-actions-on-processed-critical",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-18/pdf/2025-06836.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/18/2025-06836.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Secretary of Commerce to investigate whether imports of processed critical minerals and products made from them pose a threat to U.S. national security. It aims to assess supply chain risks, foreign market manipulation, and import dependencies to inform possible trade actions such as tariffs or policies encouraging domestic production. The goal is to strengthen economic resilience and national defense by securing critical mineral supply chains.",
+    "theme_ids": [
+      "trade-policy",
+      "national-security",
+      "supply-chain-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "manufacturing-workers",
+        "domestic-energy-producers",
+        "federal-employees",
+        "critical-minerals-industry"
+      ],
+      "negative_ids": [
+        "private-sector-rivals",
+        "foreign-nationals-engaged-in-desecration",
+        "foreign-processors-of-critical-minerals"
+      ]
+    },
+    "potential_concerns": [
+      "Trade restrictions or tariffs could provoke retaliatory measures from key foreign suppliers, potentially worsening supply chain disruptions.",
+      "Domestic industry capacity to process critical minerals may be insufficient in the short term to replace foreign imports, leading to economic or defense production challenges.",
+      "Defining which minerals and products are covered could create uncertainty or disputes among industries and trading partners.",
+      "The investigation process and resulting measures might slow down due to interagency coordination and comment periods, delaying response to urgent risks.",
+      "Focusing on import restrictions could increase prices for consumers and downstream manufacturers reliant on critical minerals."
+    ],
+    "enriched_at": "2025-12-06T06:57:03.920Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

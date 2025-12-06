@@ -1,0 +1,47 @@
+{
+  "document_number": "2025-02096",
+  "executive_order_number": "14172",
+  "title": "Restoring Names That Honor American Greatness",
+  "abstract": null,
+  "signing_date": "2025-01-20",
+  "publication_date": "2025-01-31",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/01/31/2025-02096/restoring-names-that-honor-american-greatness",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-31/pdf/2025-02096.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/31/2025-02096.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to restore historic American names to geographic features, including renaming Mount McKinley back to honor President William McKinley and renaming the Gulf of Mexico to the Gulf of America. It aims to promote national heritage by ensuring places honor patriotic Americans, and requires updates to official geographic names accordingly.",
+    "theme_ids": [
+      "public-lands-management",
+      "federal-agency-management",
+      "symbol-protection"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-agencies",
+        "domestic-tourists",
+        "national-park-visitors",
+        "native-american-students",
+        "commercial-fishermen",
+        "seafood-industry"
+      ],
+      "negative_ids": [
+        "native-american-students",
+        "alaskan-native-communities",
+        "alaskan-native-communities"
+      ]
+    },
+    "potential_concerns": [
+      "Renaming the Gulf of Mexico to Gulf of America could cause diplomatic tensions with Mexico and other neighboring countries.",
+      "The order may marginalize or conflict with indigenous place names and cultural heritage, particularly impacting Alaska Native groups.",
+      "Restoring Mount McKinley's name might alienate or offend groups who support the prior name Denali, reflecting cultural and historical disagreements.",
+      "Implementation challenges include coordinating multiple federal agencies, updating databases, maps, and federal documents consistently within the 30-day deadlines.",
+      "Potential public backlash or confusion may arise from sudden changes to widely recognized geographic names impacting tourism, education, and local identity."
+    ],
+    "enriched_at": "2025-12-06T07:07:04.059Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "document_number": "2025-03694",
+  "executive_order_number": "14224",
+  "title": "Designating English as the Official Language of the United States",
+  "abstract": null,
+  "signing_date": "2025-03-01",
+  "publication_date": "2025-03-06",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/03/06/2025-03694/designating-english-as-the-official-language-of-the-united-states",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-06/pdf/2025-03694.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/06/2025-03694.txt",
+  "enrichment": {
+    "summary": "This executive order makes English the official language of the United States for all federal government operations. While it revokes a previous order about services for people with limited English proficiency, it does not require agencies to stop providing services in other languages, but encourages use of English to promote national unity and cohesion.",
+    "theme_ids": [
+      "federal-agency-management",
+      "immigration-enforcement",
+      "language-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-agencies",
+        "federal-employees",
+        "english-proficient-citizens"
+      ],
+      "negative_ids": [
+        "non-english-proficient-drivers",
+        "immigrant-drivers",
+        "undocumented-immigrants",
+        "limited-english-proficiency-populations"
+      ]
+    },
+    "potential_concerns": [
+      "The policy may unintentionally disadvantage individuals with limited English proficiency by discouraging or limiting government services in other languages.",
+      "Revoking protections from the prior Executive Order 13166 could reduce accessibility for non-English speakers without clear guidance on accommodations.",
+      "Implementation could lead to inconsistent enforcement across agencies and ambiguity about language requirements for public services and documents.",
+      "The order may be viewed as culturally exclusionary or undermine multilingual traditions valued in many American communities.",
+      "There may be legal challenges regarding the impact on civil rights protections related to language access under existing laws."
+    ],
+    "enriched_at": "2025-12-06T07:01:43.704Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
