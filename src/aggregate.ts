@@ -372,7 +372,7 @@ function generateTimeline(
 
     // Generate theme summary text
     const themeText = formatThemeList(topThemes, 3);
-    const themeSummary = `${presidentName} signed ${monthOrders.length} executive order${monthOrders.length !== 1 ? 's' : ''}. They cover ${themeText}.`;
+    const themeSummary = `${presidentName} signed ${monthOrders.length} executive order${monthOrders.length !== 1 ? 's' : ''} focused on the themes of ${themeText}.`;
 
     periods.push({
       year,

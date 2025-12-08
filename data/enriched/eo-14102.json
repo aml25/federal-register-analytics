@@ -1,0 +1,42 @@
+{
+  "document_number": "2023-15347",
+  "executive_order_number": "14102",
+  "title": "Ordering the Selected Reserve and Certain Members of the Individual Ready Reserve of the Armed Forces to Active Duty",
+  "abstract": null,
+  "signing_date": "2023-07-13",
+  "publication_date": "2023-07-18",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/07/18/2023-15347/ordering-the-selected-reserve-and-certain-members-of-the-individual-ready-reserve-of-the-armed",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-07-18/pdf/2023-15347.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/07/18/2023-15347.txt",
+  "enrichment": {
+    "summary": "This executive order authorizes the Secretary of Defense and the Secretary of Homeland Security to recall up to 3,000 members of the Selected Reserve and Individual Ready Reserve to active duty to support Operation Atlantic Resolve. The order aims to strengthen the U.S. military presence in the European Command area and improve readiness for ongoing defense operations. It also clarifies that this activation does not create new legal rights or benefits.",
+    "theme_ids": [
+      "national-security",
+      "military-personnel-policy",
+      "foreign-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "armed-forces-personnel"
+      ],
+      "negative_ids": [
+        "undocumented-immigrants",
+        "selected-reserve-and-irr-members"
+      ]
+    },
+    "potential_concerns": [
+      "Activation of Reservists and IRR members may disrupt their civilian employment and personal lives.",
+      "Limiting the number of activated members may strain military readiness if more personnel are needed.",
+      "The lack of new legal rights or benefits could raise concerns about adequate protections and support for activated personnel.",
+      "Potential political or public backlash over increased military deployments without congressional approval or broader consultation.",
+      "Logistical and administrative challenges in rapidly mobilizing and demobilizing selected reserve members could affect operational efficiency."
+    ],
+    "enriched_at": "2025-12-08T18:08:14.610Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "document_number": "2024-31466",
+  "executive_order_number": "14132",
+  "title": "Adjustments of Certain Rates of Pay",
+  "abstract": null,
+  "signing_date": "2024-12-23",
+  "publication_date": "2024-12-30",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2024/12/30/2024-31466/adjustments-of-certain-rates-of-pay",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-12-30/pdf/2024-31466.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/12/30/2024-31466.txt",
+  "enrichment": {
+    "summary": "This executive order updates and adjusts the pay rates and salary schedules for various federal employees, including members of statutory pay systems, the Senior Executive Service, congressional offices, judges, and uniformed services. It establishes new pay schedules effective starting January 2025 and supersedes the previous order on pay adjustments.",
+    "theme_ids": [
+      "federal-workforce"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees"
+      ],
+      "negative_ids": [
+        "federal-budget-stakeholders"
+      ]
+    },
+    "potential_concerns": [
+      "Increased federal payroll costs may strain budgets at agencies and limit funding available for other programs.",
+      "Delays or complexity in implementing new pay schedules could cause administrative challenges and employee dissatisfaction.",
+      "Uniform pay adjustments may not fully reflect regional cost-of-living variations or individual merit, potentially affecting employee morale.",
+      "The order may prioritize pay raises without clear linkages to performance or recruitment needs, risking inefficiencies.",
+      "Superseding the prior pay adjustment order might create confusion or legal challenges if not well coordinated."
+    ],
+    "enriched_at": "2025-12-08T18:00:01.401Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

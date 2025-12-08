@@ -1,0 +1,44 @@
+{
+  "document_number": "2023-28662",
+  "executive_order_number": "14114",
+  "title": "Taking Additional Steps With Respect to the Russian Federation's Harmful Activities",
+  "abstract": null,
+  "signing_date": "2023-12-22",
+  "publication_date": "2023-12-26",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/12/26/2023-28662/taking-additional-steps-with-respect-to-the-russian-federations-harmful-activities",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-12-26/pdf/2023-28662.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/12/26/2023-28662.txt",
+  "enrichment": {
+    "summary": "This executive order expands U.S. sanctions against Russia by targeting foreign financial institutions that support Russia’s military-industrial sectors and restricts the import of certain Russian-origin products including seafood and diamonds. It strengthens enforcement mechanisms to isolate Russia economically in response to its harmful activities threatening U.S. national security and allies. The order updates and broadens existing sanctions authorities to further diminish Russia's access to critical goods and financial systems.",
+    "theme_ids": [
+      "national-security",
+      "trade-policy",
+      "financial-regulation",
+      "foreign-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-agencies",
+        "federal-employees"
+      ],
+      "negative_ids": [
+        "foreign-seafood-exporters",
+        "financial-institutions",
+        "sanctioned-persons-and-affiliates"
+      ]
+    },
+    "potential_concerns": [
+      "The expanded sanctions on foreign financial institutions may complicate international banking relationships and lead to retaliatory measures from foreign governments.",
+      "Restrictions on imports of Russian products like seafood and diamonds could harm U.S. importers and businesses reliant on these goods, or lead to higher prices for consumers.",
+      "The order’s broad criteria for sanctioning foreign financial institutions might create challenges in enforcement and unintended impacts on compliant entities.",
+      "Heightened sanctions risks increasing geopolitical tensions and complicating diplomatic negotiations with countries maintaining trade or financial ties to Russia.",
+      "Implementation may require significant interagency coordination and increased resource allocation to monitor and enforce expanded sanctions effectively."
+    ],
+    "enriched_at": "2025-12-08T18:06:27.712Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

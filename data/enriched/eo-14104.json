@@ -1,0 +1,48 @@
+{
+  "document_number": "2023-16636",
+  "executive_order_number": "14104",
+  "title": "Federal Research and Development in Support of Domestic Manufacturing and United States Jobs",
+  "abstract": null,
+  "signing_date": "2023-07-28",
+  "publication_date": "2023-08-02",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/08/02/2023-16636/federal-research-and-development-in-support-of-domestic-manufacturing-and-united-states-jobs",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-08-02/pdf/2023-16636.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/08/02/2023-16636.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to prioritize domestic manufacturing for technologies developed with government research funding, aiming to boost U.S. economic competitiveness, jobs, and national security. It requires better tracking and reporting of inventions’ manufacturing locations and strengthens the process for granting waivers to domestic manufacturing requirements under specific conditions.",
+    "theme_ids": [
+      "federal-research-coordination",
+      "technology-development",
+      "national-security",
+      "supply-chain-security",
+      "federal-procurement-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "manufacturing-workers",
+        "scientific-researchers",
+        "small-business-owners"
+      ],
+      "negative_ids": [
+        "foreign-entities-in-countries-of-concern",
+        "undocumented-immigrants",
+        "private-sector-rivals",
+        "foreign-manufacturers"
+      ]
+    },
+    "potential_concerns": [
+      "Increased reporting and compliance requirements could impose administrative burdens and costs on research institutions and small businesses.",
+      "Domestic manufacturing mandates might limit global collaboration or delay commercialization if U.S. production capabilities are insufficient.",
+      "Waiver processes may be subject to inconsistent interpretation and could slow innovation if overly restrictive.",
+      "Prioritizing domestic production may provoke trade tensions or retaliatory measures from foreign countries.",
+      "Implementation may strain federal agencies’ resources given the need for coordination, monitoring, and annual reporting."
+    ],
+    "enriched_at": "2025-12-08T18:08:00.019Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

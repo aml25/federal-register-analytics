@@ -1,0 +1,42 @@
+{
+  "document_number": "2024-04012",
+  "executive_order_number": "14116",
+  "title": "Amending Regulations Relating to the Safeguarding of Vessels, Harbors, Ports, and Waterfront Facilities of the United States",
+  "abstract": null,
+  "signing_date": "2024-02-21",
+  "publication_date": "2024-02-26",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2024/02/26/2024-04012/amending-regulations-relating-to-the-safeguarding-of-vessels-harbors-ports-and-waterfront-facilities",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-02-26/pdf/2024-04012.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/02/26/2024-04012.txt",
+  "enrichment": {
+    "summary": "This executive order updates Coast Guard regulations to enhance security measures for U.S. vessels, ports, harbors, and waterfront facilities by including protections against cyber threats and authorizing more comprehensive enforcement actions. It expands Coast Guard authority to control access, inspect, and take possession of vessels or waterfront areas to prevent damage from physical or cyber incidents, and requires coordination with the Department of Justice and other agencies in enforcement.",
+    "theme_ids": [
+      "national-security",
+      "maritime-security",
+      "privacy-and-data-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "coast-guard-personnel",
+        "maritime-industry-workers"
+      ],
+      "negative_ids": [
+        "maritime-transportation-users"
+      ]
+    },
+    "potential_concerns": [
+      "Expanded Coast Guard authority may lead to increased operational disruptions and delays for maritime transportation users due to stricter boarding and access controls.",
+      "Including data and digital infrastructure in security regulations could complicate enforcement and raise concerns about privacy and appropriate scope of Coast Guard actions.",
+      "The order’s broad definitions and preventative measures may increase regulatory burdens on vessel operators and waterfront facility managers.",
+      "Coordination with multiple agencies may create implementation challenges or jurisdictional conflicts.",
+      "Ambiguities about the threshold for action against cyber incidents could lead to inconsistent enforcement."
+    ],
+    "enriched_at": "2025-12-08T18:02:02.677Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

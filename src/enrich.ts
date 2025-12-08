@@ -5,7 +5,7 @@
 import OpenAI from 'openai';
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
-import { ENRICHED_DIR, OPENAI_MODEL, ENRICH_DELAY_MS } from './config.js';
+import { ENRICHED_DIR, OPENAI_MODEL, OPENAI_MODEL_POPULATIONS, ENRICH_DELAY_MS } from './config.js';
 import { loadThemes, saveThemes, loadPopulations, savePopulations, readJson, writeJson, slugify, sleep } from './utils.js';
 import { loadRawOrders } from './fetch.js';
 import type {
@@ -15,7 +15,8 @@ import type {
   PopulationRegistry,
   Theme,
   Population,
-  LLMEnrichmentResponse,
+  LLMFirstPassResponse,
+  LLMPopulationsResponse,
   Enrichment
 } from './types.js';
 
@@ -43,21 +44,16 @@ export async function fetchFullText(order: RawExecutiveOrder): Promise<string | 
 }
 
 /**
- * Build the prompt for enriching an executive order
+ * Build the first pass prompt (summary, themes, concerns - NO populations)
  */
-function buildEnrichmentPrompt(
+function buildFirstPassPrompt(
   order: RawExecutiveOrder,
   fullText: string | null,
-  themes: ThemeRegistry,
-  populations: PopulationRegistry
+  themes: ThemeRegistry
 ): string {
   const themesList = themes.themes.length > 0
     ? themes.themes.map(t => `- ${t.id}: ${t.name} - ${t.description}`).join('\n')
     : '(No themes defined yet)';
-
-  const populationsList = populations.populations.length > 0
-    ? populations.populations.map(p => `- ${p.id}: ${p.name} - ${p.description}`).join('\n')
-    : '(No populations defined yet)';
 
   return `You are analyzing an executive order to extract structured metadata.
 
@@ -80,12 +76,6 @@ These themes have already been identified from other executive orders. Prefer us
 
 ${themesList}
 
-## Existing Impacted Populations
-
-These population groups have already been identified from other executive orders. Prefer using these when they fit:
-
-${populationsList}
-
 ## Your Task
 
 Analyze this executive order and provide:
@@ -94,6 +84,8 @@ Analyze this executive order and provide:
 
 2. **Themes**: Identify the main policy themes/categories.
    - STRONGLY prefer using existing themes - only propose new ones if absolutely necessary
+   - CRITICAL: Only list theme IDs in "existing_theme_ids" if they EXACTLY match an ID from the Existing Themes list above
+   - If a theme you want to use is NOT in the existing list, you MUST add it to "proposed_themes" with a full name and description
    - Themes should be reusable across multiple executive orders
    - Use lowercase with dashes for names (e.g., "national-security", "foreign-policy")
    - Aim for 2-3 word theme names that are descriptive but not overly specific
@@ -101,32 +93,7 @@ Analyze this executive order and provide:
    - BAD (too broad): "policy", "government", "economy"
    - GOOD (balanced): "trade-policy", "immigration-enforcement", "federal-workforce", "artificial-intelligence", "environmental-regulation"
 
-3. **Impacted Populations**: Who is affected by this order?
-   - STRONGLY prefer using existing populations - only propose new ones if absolutely necessary
-   - Populations should be reusable groups that appear across multiple orders
-   - Use lowercase with dashes for names (e.g., "federal-employees", "tech-industry")
-   - Aim for 2-3 word names that are descriptive but not overly specific
-   - BAD (too specific): "large-corporations-with-legal-teams", "tiktok-users-under-18", "semiconductor-factory-workers"
-   - BAD (too broad): "researchers", "workers", "companies"
-   - GOOD (balanced): "scientific-researchers", "manufacturing-workers", "tech-companies", "undocumented-immigrants", "federal-contractors"
-
-   Categories to consider:
-   - **Countries/Regions**: Nations or regions (e.g., "china", "european-union")
-   - **Demographics**: Ethnic, cultural, or religious groups (e.g., "asian-americans", "muslim-americans")
-   - **Professions/Industries**: Workers or sectors (e.g., "federal-employees", "tech-industry", "agricultural-workers")
-   - **Economic/Social**: Life circumstances (e.g., "low-income-families", "military-veterans", "legal-immigrants")
-   - **Government entities**: Agencies or officials (e.g., "doj", "state-governments", "federal-agencies")
-   - **Advocacy/Interest groups**: Groups with policy interests (e.g., "environmental-advocates", "civil-liberties-groups", "industry-lobbyists")
-
-   For each population:
-   - First, check if any existing population IDs apply and list them
-   - Only propose NEW populations if existing ones don't cover the group
-   - IMPORTANT: Be thorough in identifying BOTH positive AND negative impacts
-   - Almost every policy has winners AND losers - think critically about who might be harmed or disadvantaged
-   - Consider indirect impacts: if one group benefits, who loses out? If regulations are removed, who was protected by them?
-   - For negative impacts, consider: groups losing protections, industries facing new competition, communities affected by environmental changes, workers displaced, etc.
-
-4. **Potential Concerns**: Identify potential concerns related to this order. Consider:
+3. **Potential Concerns**: Identify potential concerns related to this order. Consider:
    - Unintended consequences that could arise from implementation
    - Risks or potential downsides
    - Points of controversy or debate
@@ -145,24 +112,6 @@ Respond in this exact JSON format:
       "justification": "Why this theme is needed and different from existing themes"
     }
   ],
-  "existing_population_ids": {
-    "positive": ["federal-employees"],
-    "negative": ["undocumented-immigrants"]
-  },
-  "proposed_populations": {
-    "positive": [
-      {
-        "name": "population-name-here",
-        "description": "Brief description of this population group"
-      }
-    ],
-    "negative": [
-      {
-        "name": "population-name-here",
-        "description": "Brief description of this population group"
-      }
-    ]
-  },
   "potential_concerns": [
     "Concern 1 in one sentence.",
     "Concern 2 in one sentence."
@@ -171,9 +120,112 @@ Respond in this exact JSON format:
 }
 
 /**
- * Call OpenAI to enrich an executive order
+ * Build the second pass prompt (populations only - using advanced model)
  */
-async function callLLM(prompt: string): Promise<LLMEnrichmentResponse> {
+function buildPopulationsPrompt(
+  order: RawExecutiveOrder,
+  fullText: string | null,
+  summary: string,
+  populations: PopulationRegistry
+): string {
+  const populationsList = populations.populations.length > 0
+    ? populations.populations.map(p => `- ${p.id}: ${p.name} - ${p.description}`).join('\n')
+    : '(No populations defined yet)';
+
+  return `You are a policy analyst identifying which groups of people are impacted by an executive order.
+
+## Executive Order Information
+
+**EO Number:** ${order.executive_order_number}
+**Title:** ${order.title}
+**Signing Date:** ${order.signing_date}
+**President:** ${order.president.name}
+
+**Summary (already generated):**
+${summary}
+
+**Abstract:**
+${order.abstract || '(No abstract available)'}
+
+**Full Text:**
+${fullText || '(Full text not available - use abstract and title only)'}
+
+## Existing Impacted Populations
+
+These population groups have already been identified from other executive orders. Prefer using these when they fit:
+
+${populationsList}
+
+## Your Task
+
+Identify who is positively and negatively impacted by this executive order.
+
+**Guidelines:**
+- STRONGLY prefer using existing populations - only propose new ones if absolutely necessary
+- CRITICAL: Only list population IDs in "existing_population_ids" if they EXACTLY match an ID from the Existing Impacted Populations list above
+- If a population you want to use is NOT in the existing list, you MUST add it to "proposed_populations" with a full name and description
+- Populations should be reusable groups that appear across multiple orders
+- Use lowercase with dashes for names (e.g., "federal-employees", "tech-industry")
+- Aim for 2-3 word names that are descriptive but not overly specific
+- BAD (too specific): "large-corporations-with-legal-teams", "tiktok-users-under-18"
+- BAD (too broad): "researchers", "workers", "companies"
+- GOOD (balanced): "scientific-researchers", "manufacturing-workers", "tech-companies"
+
+**Categories to consider:**
+- **Countries/Regions**: Nations or regions (e.g., "china", "european-union")
+- **Demographics**: Ethnic, cultural, or religious groups (e.g., "asian-americans", "muslim-americans")
+- **Professions/Industries**: Workers or sectors (e.g., "federal-employees", "tech-industry", "agricultural-workers")
+- **Economic/Social**: Life circumstances (e.g., "low-income-families", "military-veterans", "legal-immigrants")
+- **Government entities**: Agencies or officials (e.g., "doj", "state-governments", "federal-agencies")
+- **Advocacy/Interest groups**: Groups with policy interests (e.g., "environmental-advocates", "civil-liberties-groups")
+
+**CRITICAL - NEGATIVE IMPACTS ARE REQUIRED:**
+- You MUST identify at least 1-2 negatively impacted populations for almost every executive order
+- Very few policies are universally beneficial - think critically about trade-offs
+- If you initially think there are no negative impacts, reconsider more carefully
+
+**Types of negative impacts to consider:**
+- **Resource reallocation**: If funding goes to X, who loses funding? If priorities shift, whose priorities are deprioritized?
+- **Regulatory burden**: Who faces new compliance costs, paperwork, or restrictions?
+- **Competition effects**: If one group is favored (union workers, domestic producers, specific industries), who is disadvantaged?
+- **Foreign entities**: Trade policies, sanctions, and domestic preference rules often negatively impact foreign countries, companies, or workers
+- **Opposing interests**: Labor-friendly policies may burden employers; business-friendly policies may harm workers or consumers
+- **Implementation costs**: Taxpayers, agencies with stretched resources, or entities bearing compliance costs
+
+**Examples of commonly missed negative impacts:**
+- Pro-labor orders → employers, non-union workers/contractors
+- Research funding initiatives → research areas not prioritized, competing funding recipients
+- Domestic preference policies → foreign suppliers, importers, countries affected by trade restrictions
+- New regulations → regulated industries, small businesses facing compliance costs
+- Government reorganizations → workers in eliminated programs, communities losing services
+
+Respond in this exact JSON format:
+{
+  "existing_population_ids": {
+    "positive": ["federal-employees", "tech-industry"],
+    "negative": ["undocumented-immigrants", "foreign-suppliers"]
+  },
+  "proposed_populations": {
+    "positive": [
+      {
+        "name": "population-name-here",
+        "description": "Brief description of this population group and why they benefit"
+      }
+    ],
+    "negative": [
+      {
+        "name": "population-name-here",
+        "description": "Brief description of this population group and why they are negatively impacted"
+      }
+    ]
+  }
+}`;
+}
+
+/**
+ * Call OpenAI for first pass (summary, themes, concerns)
+ */
+async function callFirstPassLLM(prompt: string): Promise<LLMFirstPassResponse> {
   const response = await openai.chat.completions.create({
     model: OPENAI_MODEL,
     max_completion_tokens: 2048,
@@ -185,19 +237,45 @@ async function callLLM(prompt: string): Promise<LLMEnrichmentResponse> {
     ]
   });
 
-  // Extract text content
   const content = response.choices[0]?.message?.content;
   if (!content) {
-    throw new Error('No text response from OpenAI');
+    throw new Error('No text response from OpenAI (first pass)');
   }
 
-  // Parse JSON from response
   const jsonMatch = content.match(/\{[\s\S]*\}/);
   if (!jsonMatch) {
-    throw new Error('Could not find JSON in OpenAI response');
+    throw new Error('Could not find JSON in OpenAI response (first pass)');
   }
 
-  return JSON.parse(jsonMatch[0]) as LLMEnrichmentResponse;
+  return JSON.parse(jsonMatch[0]) as LLMFirstPassResponse;
+}
+
+/**
+ * Call OpenAI for second pass (populations) using advanced model
+ */
+async function callPopulationsLLM(prompt: string): Promise<LLMPopulationsResponse> {
+  const response = await openai.chat.completions.create({
+    model: OPENAI_MODEL_POPULATIONS,
+    max_completion_tokens: 2048,
+    messages: [
+      {
+        role: 'user',
+        content: prompt
+      }
+    ]
+  });
+
+  const content = response.choices[0]?.message?.content;
+  if (!content) {
+    throw new Error('No text response from OpenAI (populations pass)');
+  }
+
+  const jsonMatch = content.match(/\{[\s\S]*\}/);
+  if (!jsonMatch) {
+    throw new Error('Could not find JSON in OpenAI response (populations pass)');
+  }
+
+  return JSON.parse(jsonMatch[0]) as LLMPopulationsResponse;
 }
 
 /**
@@ -215,11 +293,26 @@ function isEnriched(eoNumber: number): boolean {
 }
 
 /**
+ * Convert a slug or name to a proper display name
+ * e.g., "privacy-and-data-security" -> "Privacy And Data Security"
+ */
+function toDisplayName(nameOrSlug: string): string {
+  // If it contains dashes and no spaces, it's likely a slug
+  if (nameOrSlug.includes('-') && !nameOrSlug.includes(' ')) {
+    return nameOrSlug.split('-').map(word =>
+      word.charAt(0).toUpperCase() + word.slice(1)
+    ).join(' ');
+  }
+  // Otherwise assume it's already a proper name
+  return nameOrSlug;
+}
+
+/**
  * Add proposed themes to the registry
  */
 function addProposedThemes(
   registry: ThemeRegistry,
-  proposed: LLMEnrichmentResponse['proposed_themes']
+  proposed: LLMFirstPassResponse['proposed_themes']
 ): string[] {
   const newIds: string[] = [];
 
@@ -235,14 +328,14 @@ function addProposedThemes(
 
     const newTheme: Theme = {
       id,
-      name: theme.name,
+      name: toDisplayName(theme.name),
       description: theme.description,
       created_at: new Date().toISOString()
     };
 
     registry.themes.push(newTheme);
     newIds.push(id);
-    console.log(`    Added new theme: ${theme.name}`);
+    console.log(`    Added new theme: ${newTheme.name}`);
   }
 
   return newIds;
@@ -253,7 +346,7 @@ function addProposedThemes(
  */
 function addProposedPopulations(
   registry: PopulationRegistry,
-  proposed: LLMEnrichmentResponse['proposed_populations']['positive'] | LLMEnrichmentResponse['proposed_populations']['negative']
+  proposed: LLMPopulationsResponse['proposed_populations']['positive'] | LLMPopulationsResponse['proposed_populations']['negative']
 ): string[] {
   const newIds: string[] = [];
 
@@ -268,21 +361,21 @@ function addProposedPopulations(
 
     const newPop: Population = {
       id,
-      name: pop.name,
+      name: toDisplayName(pop.name),
       description: pop.description,
       created_at: new Date().toISOString()
     };
 
     registry.populations.push(newPop);
     newIds.push(id);
-    console.log(`    Added new population: ${pop.name}`);
+    console.log(`    Added new population: ${newPop.name}`);
   }
 
   return newIds;
 }
 
 /**
- * Enrich a single executive order
+ * Enrich a single executive order (two-pass approach)
  */
 async function enrichOrder(
   order: RawExecutiveOrder,
@@ -292,60 +385,78 @@ async function enrichOrder(
   // Fetch full text on demand
   const fullText = await fetchFullText(order);
 
-  const prompt = buildEnrichmentPrompt(order, fullText, themes, populations);
-  const response = await callLLM(prompt);
+  // =====================================================================
+  // FIRST PASS: Summary, themes, concerns (using fast model)
+  // =====================================================================
+  console.log(`    [Pass 1/${OPENAI_MODEL}] Summary, themes, concerns...`);
+  const firstPassPrompt = buildFirstPassPrompt(order, fullText, themes);
+  const firstPassResponse = await callFirstPassLLM(firstPassPrompt);
 
   // Add any proposed themes to the registry
-  const newThemeIds = addProposedThemes(themes, response.proposed_themes || []);
+  const newThemeIds = addProposedThemes(themes, firstPassResponse.proposed_themes || []);
 
   // Combine existing and new theme IDs
-  const allThemeIds = [...(response.existing_theme_ids || []), ...newThemeIds];
+  const allThemeIds = [...(firstPassResponse.existing_theme_ids || []), ...newThemeIds];
 
   // Auto-create any "existing" theme IDs that don't actually exist
-  // (LLM sometimes assumes common themes exist when they don't)
-  for (const id of response.existing_theme_ids || []) {
+  for (const id of firstPassResponse.existing_theme_ids || []) {
     if (!themes.themes.some(t => t.id === id)) {
+      const name = id.split('-').map(word =>
+        word.charAt(0).toUpperCase() + word.slice(1)
+      ).join(' ');
+      const description = `Policies related to ${id.replace(/-/g, ' ')} and associated regulatory, administrative, or legislative actions.`;
       const newTheme: Theme = {
         id,
-        name: id, // Use ID as name since we don't have a better name
-        description: `Auto-created theme for ${id.replace(/-/g, ' ')}`,
+        name,
+        description,
         created_at: new Date().toISOString()
       };
       themes.themes.push(newTheme);
+      console.log(`    Auto-added theme "${name}" - consider reviewing description`);
     }
   }
 
-  // Now all theme IDs should be valid
   const validThemeIds = allThemeIds.filter(id =>
     themes.themes.some(t => t.id === id)
   );
 
+  // =====================================================================
+  // SECOND PASS: Populations (using advanced model for nuanced analysis)
+  // =====================================================================
+  console.log(`    [Pass 2/${OPENAI_MODEL_POPULATIONS}] Population analysis...`);
+  const populationsPrompt = buildPopulationsPrompt(order, fullText, firstPassResponse.summary, populations);
+  const populationsResponse = await callPopulationsLLM(populationsPrompt);
+
   // Add any proposed populations to the registry
-  const newPositivePopIds = addProposedPopulations(populations, response.proposed_populations?.positive || []);
-  const newNegativePopIds = addProposedPopulations(populations, response.proposed_populations?.negative || []);
+  const newPositivePopIds = addProposedPopulations(populations, populationsResponse.proposed_populations?.positive || []);
+  const newNegativePopIds = addProposedPopulations(populations, populationsResponse.proposed_populations?.negative || []);
 
   // Auto-create any "existing" population IDs that don't actually exist
   const allExistingPopIds = [
-    ...(response.existing_population_ids?.positive || []),
-    ...(response.existing_population_ids?.negative || [])
+    ...(populationsResponse.existing_population_ids?.positive || []),
+    ...(populationsResponse.existing_population_ids?.negative || [])
   ];
   for (const id of allExistingPopIds) {
     if (!populations.populations.some(p => p.id === id)) {
+      const name = id.split('-').map(word =>
+        word.charAt(0).toUpperCase() + word.slice(1)
+      ).join(' ');
+      const description = `Individuals, organizations, or entities categorized as ${id.replace(/-/g, ' ')} who may be affected by federal policies.`;
       const newPop: Population = {
         id,
-        name: id, // Use ID as name
-        description: `Auto-created population for ${id.replace(/-/g, ' ')}`,
+        name,
+        description,
         created_at: new Date().toISOString()
       };
       populations.populations.push(newPop);
+      console.log(`    Auto-added population "${name}" - consider reviewing description`);
     }
   }
 
   // Combine existing and new population IDs
-  const allPositivePopIds = [...(response.existing_population_ids?.positive || []), ...newPositivePopIds];
-  const allNegativePopIds = [...(response.existing_population_ids?.negative || []), ...newNegativePopIds];
+  const allPositivePopIds = [...(populationsResponse.existing_population_ids?.positive || []), ...newPositivePopIds];
+  const allNegativePopIds = [...(populationsResponse.existing_population_ids?.negative || []), ...newNegativePopIds];
 
-  // Now all population IDs should be valid
   const validPositivePopIds = allPositivePopIds.filter(id =>
     populations.populations.some(p => p.id === id)
   );
@@ -353,16 +464,19 @@ async function enrichOrder(
     populations.populations.some(p => p.id === id)
   );
 
+  // =====================================================================
+  // Combine results from both passes
+  // =====================================================================
   const enrichment: Enrichment = {
-    summary: response.summary,
+    summary: firstPassResponse.summary,
     theme_ids: validThemeIds,
     impacted_populations: {
       positive_ids: validPositivePopIds,
       negative_ids: validNegativePopIds
     },
-    potential_concerns: response.potential_concerns,
+    potential_concerns: firstPassResponse.potential_concerns,
     enriched_at: new Date().toISOString(),
-    model_used: OPENAI_MODEL
+    model_used: `${OPENAI_MODEL} + ${OPENAI_MODEL_POPULATIONS}`
   };
 
   return {

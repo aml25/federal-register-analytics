@@ -135,6 +135,26 @@ export interface LLMEnrichmentResponse {
   potential_concerns: string[];
 }
 
+// First pass response (summary, themes, concerns - no populations)
+export interface LLMFirstPassResponse {
+  summary: string;
+  existing_theme_ids: string[];
+  proposed_themes: ProposedTheme[];
+  potential_concerns: string[];
+}
+
+// Second pass response (populations only - from advanced model)
+export interface LLMPopulationsResponse {
+  existing_population_ids: {
+    positive: string[];
+    negative: string[];
+  };
+  proposed_populations: {
+    positive: ProposedPopulation[];
+    negative: ProposedPopulation[];
+  };
+}
+
 export interface ProposedTheme {
   name: string;
   description: string;

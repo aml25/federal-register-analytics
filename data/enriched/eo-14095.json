@@ -1,0 +1,62 @@
+{
+  "document_number": "2023-08659",
+  "executive_order_number": "14095",
+  "title": "Increasing Access to High-Quality Care and Supporting Caregivers",
+  "abstract": null,
+  "signing_date": "2023-04-18",
+  "publication_date": "2023-04-21",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/04/21/2023-08659/increasing-access-to-high-quality-care-and-supporting-caregivers",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-04-21/pdf/2023-08659.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/04/21/2023-08659.txt",
+  "enrichment": {
+    "summary": "This executive order aims to improve access to affordable, high-quality child care and long-term care services, support family caregivers, and enhance compensation and working conditions for care workers. It directs federal agencies to use existing resources to expand care options, improve job quality, increase workforce training, and promote financial and mental health support for caregivers and care providers.",
+    "theme_ids": [
+      "education-policy",
+      "labor-relations",
+      "workforce-development",
+      "equity-and-inclusion-policy",
+      "tribal-policy",
+      "veterans-affairs-policy",
+      "community-development",
+      "economic-development",
+      "caregiving-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "military-veterans",
+        "american-workers",
+        "small-business-owners",
+        "tribal-nations",
+        "military-connected-families",
+        "older-women",
+        "women-and-girls",
+        "women-of-color",
+        "rural-communities",
+        "americorps-alumni",
+        "education-administrators",
+        "family-caregivers",
+        "care-workforce"
+      ],
+      "negative_ids": [
+        "non-union-workers",
+        "private-sector-employers",
+        "non-military-spouse-job-seekers",
+        "federal-budget-stakeholders"
+      ]
+    },
+    "potential_concerns": [
+      "Increased funding and focus on care jobs and higher compensation may strain federal budgets and divert resources from other programs.",
+      "Efforts to incentivize unionization and improved benefits could raise costs or reduce employment opportunities for non-union or smaller providers.",
+      "Implementation across multiple federal agencies may encounter coordination challenges and inconsistent application.",
+      "Care providers in private sectors could face higher regulatory or financial burdens as agencies require more documentation or compliance.",
+      "Without adequate long-term funding commitments from Congress, many initiatives directed in this order risk being underfunded or delayed."
+    ],
+    "enriched_at": "2025-12-08T18:09:08.976Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

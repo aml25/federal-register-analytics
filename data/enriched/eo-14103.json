@@ -1,0 +1,39 @@
+{
+  "document_number": "2023-16570",
+  "executive_order_number": "14103",
+  "title": "2023 Amendments to the Manual for Courts-Martial, United States",
+  "abstract": null,
+  "signing_date": "2023-07-28",
+  "publication_date": "2023-08-02",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/08/02/2023-16570/2023-amendments-to-the-manual-for-courts-martial-united-states",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-08-02/pdf/2023-16570.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/08/02/2023-16570.txt",
+  "enrichment": {
+    "summary": "This executive order updates and amends various parts and appendices of the Manual for Courts-Martial, which governs military legal procedures under the Uniform Code of Military Justice. It sets effective dates for different amendments, clarifies their applicability, and ensures that ongoing proceedings are not invalidated by these changes.",
+    "theme_ids": [
+      "military-personnel-policy",
+      "criminal-justice-enforcement",
+      "national-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "armed-forces-personnel"
+      ],
+      "negative_ids": [
+        "pretrial-defendants"
+      ]
+    },
+    "potential_concerns": [
+      "Amendments taking effect at different times may cause confusion or inconsistent application of military justice procedures.",
+      "Changes could inadvertently affect the rights or treatment of service members involved in ongoing or past legal proceedings.",
+      "Lack of an abstract or plain-language summary in the order may limit accessibility and understanding among affected personnel.",
+      "Detailed amendments might impose additional compliance or administrative burdens on military legal personnel and commanders."
+    ],
+    "enriched_at": "2025-12-08T18:08:07.893Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

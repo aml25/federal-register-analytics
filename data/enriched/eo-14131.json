@@ -1,0 +1,38 @@
+{
+  "document_number": "2024-31355",
+  "executive_order_number": "14131",
+  "title": "Amendments to Executive Orders Relating to Certain Certificates and Badges",
+  "abstract": null,
+  "signing_date": "2024-12-20",
+  "publication_date": "2024-12-27",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2024/12/27/2024-31355/amendments-to-executive-orders-relating-to-certain-certificates-and-badges",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-12-27/pdf/2024-31355.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/12/27/2024-31355.txt",
+  "enrichment": {
+    "summary": "This executive order updates and clarifies the rules governing the awarding and wear of Presidential and Vice Presidential Service Certificates and Badges to members of the U.S. Uniformed Services assigned to support the President and Vice President. It specifies eligibility periods, awarding authorities, and uniform wear regulations to ensure proper recognition and consistent administration of these honors.",
+    "theme_ids": [
+      "military-personnel-policy",
+      "federal-agency-management",
+      "national-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "armed-forces-personnel"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Ambiguities in award eligibility or administrative authority could lead to inconsistent application across military branches and agencies.",
+      "Implementation may create additional administrative burden on service secretaries and the White House Military Office.",
+      "The order does not address how to handle disputes or appeals regarding award eligibility, which could lead to dissatisfaction among personnel.",
+      "Changes to uniform wear policy could lead to confusion or noncompliance within services if not clearly communicated."
+    ],
+    "enriched_at": "2025-12-08T18:00:06.677Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

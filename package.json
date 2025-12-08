@@ -10,7 +10,8 @@
     "fetch": "node dist/cli/fetch.js",
     "enrich": "node dist/cli/enrich.js",
     "aggregate": "node dist/cli/aggregate.js",
-    "generate-narratives": "node dist/cli/narratives.js"
+    "generate-narratives": "node dist/cli/narratives.js",
+    "pipeline": "node dist/cli/pipeline.js"
   },
   "keywords": [
     "federal-register",

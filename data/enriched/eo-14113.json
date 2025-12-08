@@ -1,0 +1,40 @@
+{
+  "document_number": "2023-28661",
+  "executive_order_number": "14113",
+  "title": "Adjustments of Certain Rates of Pay",
+  "abstract": null,
+  "signing_date": "2023-12-21",
+  "publication_date": "2023-12-26",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/12/26/2023-28661/adjustments-of-certain-rates-of-pay",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-12-26/pdf/2023-28661.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/12/26/2023-28661.txt",
+  "enrichment": {
+    "summary": "This executive order updates and adjusts the pay rates for various federal employee groups, including general schedule workers, senior executives, judges, members of the uniformed services, and administrative law judges. It sets forth revised salary schedules effective at the start of 2024 and supersedes previous pay-related orders to reflect statutory pay system requirements and locality-based adjustments.",
+    "theme_ids": [
+      "federal-workforce",
+      "veterans-affairs-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "military-veterans"
+      ],
+      "negative_ids": [
+        "federal-budget-stakeholders"
+      ]
+    },
+    "potential_concerns": [
+      "Increased federal payroll costs could strain the federal budget and reduce funds available for other programs.",
+      "The updated pay rates may create budgetary challenges for agencies with fixed funding levels, leading to potential staffing or resource constraints.",
+      "Locality-based pay adjustments could create disparities or perceived inequities among employees in different geographic locations.",
+      "Without corresponding funding increases, agencies may face difficulties in implementing pay changes without cutting other services or personnel.",
+      "The timing and administrative complexity of implementing multiple updated pay schedules might lead to delays or errors in employee compensation."
+    ],
+    "enriched_at": "2025-12-08T18:06:34.659Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

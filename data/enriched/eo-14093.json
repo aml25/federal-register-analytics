@@ -1,0 +1,42 @@
+{
+  "document_number": "2023-06730",
+  "executive_order_number": "14093",
+  "title": "Prohibition on Use by the United States Government of Commercial Spyware That Poses Risks to National Security",
+  "abstract": null,
+  "signing_date": "2023-03-27",
+  "publication_date": "2023-03-30",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/03/30/2023-06730/prohibition-on-use-by-the-united-states-government-of-commercial-spyware-that-poses-risks-to",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-03-30/pdf/2023-06730.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/03/30/2023-06730.txt",
+  "enrichment": {
+    "summary": "This executive order prohibits U.S. government agencies from using commercial spyware that poses significant security or counterintelligence risks or that could be misused by foreign governments or persons. It requires agencies to thoroughly evaluate spyware before procurement or operational use, coordinate intelligence assessments, and report on compliance while allowing limited exceptions for testing and criminal investigations.",
+    "theme_ids": [
+      "national-security",
+      "foreign-policy",
+      "privacy-and-data-security",
+      "federal-procurement-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees"
+      ],
+      "negative_ids": [
+        "foreign-entities-in-countries-of-concern",
+        "commercial-spyware-vendors"
+      ]
+    },
+    "potential_concerns": [
+      "Implementation complexity might delay or hinder the procurement of needed cybersecurity tools for legitimate government functions.",
+      "The broad criteria for risk could limit the availability of commercial spyware, reducing government operational capabilities in intelligence and law enforcement.",
+      "Foreign vendors and governments targeted by this order may retaliate with their own restrictions, potentially escalating international tensions.",
+      "Determining credible information and risk assessments could vary between agencies, leading to inconsistent application and possible loopholes.",
+      "The waiver provision could be controversial if perceived as allowing exceptions that undermine the order's security goals."
+    ],
+    "enriched_at": "2025-12-08T18:09:27.108Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

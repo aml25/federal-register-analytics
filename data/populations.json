@@ -9,25 +9,25 @@
     {
       "id": "federal-employees",
       "name": "Federal Employees",
-      "description": "Auto-created population for federal employees",
+      "description": "Workers employed by the federal government across all departments and agencies.",
       "created_at": "2025-12-06T06:47:50.407Z"
     },
     {
       "id": "scientific-researchers",
       "name": "Scientific Researchers",
-      "description": "Auto-created population for scientific researchers",
+      "description": "Scientists and researchers working in academic, government, or private sector laboratories and research institutions.",
       "created_at": "2025-12-06T06:47:50.407Z"
     },
     {
       "id": "tech-industry",
       "name": "Tech Industry",
-      "description": "Auto-created population for tech industry",
+      "description": "Companies, workers, and entrepreneurs in the technology sector, including software, hardware, and digital services.",
       "created_at": "2025-12-06T06:47:50.407Z"
     },
     {
       "id": "academic-institutions",
       "name": "Academic Institutions",
-      "description": "Auto-created population for academic institutions",
+      "description": "Universities, colleges, and other educational institutions involved in teaching, research, and knowledge dissemination.",
       "created_at": "2025-12-06T06:47:50.407Z"
     },
     {
@@ -141,7 +141,7 @@
     {
       "id": "undocumented-immigrants",
       "name": "Undocumented Immigrants",
-      "description": "Auto-created population for undocumented immigrants",
+      "description": "Individuals residing in the United States without legal immigration status or authorization.",
       "created_at": "2025-12-06T06:49:03.514Z"
     },
     {
@@ -219,7 +219,7 @@
     {
       "id": "federal-agencies",
       "name": "Federal Agencies",
-      "description": "Auto-created population for federal agencies",
+      "description": "Departments, bureaus, and offices of the federal government responsible for implementing laws and policies.",
       "created_at": "2025-12-06T06:50:24.504Z"
     },
     {
@@ -393,7 +393,7 @@
     {
       "id": "military-veterans",
       "name": "Military Veterans",
-      "description": "Auto-created population for military veterans",
+      "description": "Individuals who have served in the United States Armed Forces and are eligible for veterans benefits and services.",
       "created_at": "2025-12-06T06:53:30.063Z"
     },
     {
@@ -537,7 +537,7 @@
     {
       "id": "medical-patients",
       "name": "Medical Patients",
-      "description": "Auto-created population for medical patients",
+      "description": "Individuals receiving medical care, treatment, or health services from healthcare providers and institutions.",
       "created_at": "2025-12-06T06:56:57.185Z"
     },
     {
@@ -560,8 +560,8 @@
     },
     {
       "id": "doj",
-      "name": "Doj",
-      "description": "Auto-created population for doj",
+      "name": "Department of Justice",
+      "description": "The federal executive department responsible for law enforcement, legal affairs, and the administration of justice.",
       "created_at": "2025-12-06T06:58:23.508Z"
     },
     {
@@ -661,12 +661,6 @@
       "created_at": "2025-12-06T07:00:40.175Z"
     },
     {
-      "id": "trade-policy",
-      "name": "Trade Policy",
-      "description": "Auto-created population for trade policy",
-      "created_at": "2025-12-06T07:01:00.966Z"
-    },
-    {
       "id": "wildlife-and-fish-habitats",
       "name": "Wildlife And Fish Habitats",
       "description": "Ecosystems and animal populations that may be harmed by expanded timber harvesting and reduced environmental protections.",
@@ -701,12 +695,6 @@
       "name": "Independent Regulatory Agencies",
       "description": "Regulatory bodies that operate with a degree of independence from presidential control, which may lose autonomy and face greater executive oversight due to this order.",
       "created_at": "2025-12-06T07:02:38.933Z"
-    },
-    {
-      "id": "public-health-promotion",
-      "name": "Public Health Promotion",
-      "description": "Auto-created population for public health promotion",
-      "created_at": "2025-12-06T07:02:44.572Z"
     },
     {
       "id": "american-businesses",
@@ -759,19 +747,19 @@
     {
       "id": "legal-immigrants",
       "name": "Legal Immigrants",
-      "description": "Auto-created population for legal immigrants",
+      "description": "Individuals who have entered or remain in the United States through authorized immigration channels and hold valid visas or permanent residency.",
       "created_at": "2025-12-06T07:04:03.633Z"
     },
     {
       "id": "mexico",
       "name": "Mexico",
-      "description": "Auto-created population for mexico",
+      "description": "The nation of Mexico and its population, industries, and government affected by U.S. trade, immigration, and foreign policy.",
       "created_at": "2025-12-06T07:04:41.374Z"
     },
     {
       "id": "canada",
       "name": "Canada",
-      "description": "Auto-created population for canada",
+      "description": "The nation of Canada and its population, industries, and government affected by U.S. trade and foreign policy.",
       "created_at": "2025-12-06T07:04:47.879Z"
     },
     {
@@ -801,7 +789,7 @@
     {
       "id": "jewish-americans",
       "name": "Jewish Americans",
-      "description": "Auto-created population for jewish americans",
+      "description": "Americans of Jewish faith or heritage who may be affected by policies related to religious liberty, civil rights, and antisemitism.",
       "created_at": "2025-12-06T07:05:21.860Z"
     },
     {
@@ -843,7 +831,7 @@
     {
       "id": "minor-transgender-patients",
       "name": "Minor Transgender Patients",
-      "description": "Auto-created population for minor transgender patients",
+      "description": "Children and adolescents who identify as transgender and may seek or receive gender-affirming medical care.",
       "created_at": "2025-12-06T07:05:52.650Z"
     },
     {
@@ -861,7 +849,7 @@
     {
       "id": "federal-contractors",
       "name": "Federal Contractors",
-      "description": "Auto-created population for federal contractors",
+      "description": "Companies and individuals that provide goods, services, or labor to the federal government under contract.",
       "created_at": "2025-12-06T07:06:49.859Z"
     },
     {
@@ -915,7 +903,7 @@
     {
       "id": "federal-grantees",
       "name": "Federal Grantees",
-      "description": "Auto-created population for federal grantees",
+      "description": "Organizations and individuals that receive federal grant funding for research, programs, or services.",
       "created_at": "2025-12-06T07:09:14.397Z"
     },
     {
@@ -933,7 +921,7 @@
     {
       "id": "rural-communities",
       "name": "Rural Communities",
-      "description": "Auto-created population for rural communities",
+      "description": "Residents, businesses, and local governments in rural and non-metropolitan areas of the United States.",
       "created_at": "2025-12-06T07:09:51.885Z"
     },
     {
@@ -947,7 +935,307 @@
       "name": "Affected Western Balkans Individuals",
       "description": "Individuals and entities in the Western Balkans subject to sanctions and restrictions due to alleged destabilizing activities, corruption, or abuses.",
       "created_at": "2025-12-06T07:10:25.562Z"
+    },
+    {
+      "id": "students-and-educators",
+      "name": "Students And Educators",
+      "description": "Students and school staff including teachers and administrators who benefit from improved safety measures and trauma-informed active-shooter drills.",
+      "created_at": "2025-12-08T17:48:45.495Z"
+    },
+    {
+      "id": "illegal-firearms-manufacturers-and-traffickers",
+      "name": "Illegal Firearms Manufacturers And Traffickers",
+      "description": "Individuals and groups involved in illicit manufacturing and distribution of unserialized or illegal firearms and conversion devices who face increased enforcement.",
+      "created_at": "2025-12-08T17:48:45.496Z"
+    },
+    {
+      "id": "american-workers",
+      "name": "American Workers",
+      "description": "Workers nationwide who benefit from strong labor protections, family-sustaining wages, and equitable job opportunities promoted by this order.",
+      "created_at": "2025-12-08T17:48:54.178Z"
+    },
+    {
+      "id": "underserved-communities",
+      "name": "Underserved Communities",
+      "description": "Populations and geographic communities historically denied equitable economic and social opportunities who will benefit from targeted workforce development and anti-discrimination measures.",
+      "created_at": "2025-12-08T17:48:54.179Z"
+    },
+    {
+      "id": "hispanic-and-latino-students",
+      "name": "Hispanic And Latino Students",
+      "description": "Hispanic and Latino undergraduate and graduate students who attend Hispanic-Serving Institutions and benefit from expanded educational support and economic opportunities.",
+      "created_at": "2025-12-08T17:49:09.643Z"
+    },
+    {
+      "id": "hispanic-serving-institutions",
+      "name": "Hispanic Serving Institutions",
+      "description": "Colleges and universities with at least 25% Hispanic undergraduate enrollment that serve predominantly Hispanic and Latino student bodies and receive enhanced federal resources under this order.",
+      "created_at": "2025-12-08T17:49:09.643Z"
+    },
+    {
+      "id": "women-and-girls",
+      "name": "Women And Girls",
+      "description": "Female and girl populations of all backgrounds whose historical contributions and stories this order seeks to recognize and honor.",
+      "created_at": "2025-12-08T17:49:37.260Z"
+    },
+    {
+      "id": "diverse-historical-communities",
+      "name": "Diverse Historical Communities",
+      "description": "Groups representing varied racial, ethnic, cultural, and social backgrounds whose histories intersect with women's contributions and are intended to have increased representation in historic recognition.",
+      "created_at": "2025-12-08T17:49:37.260Z"
+    },
+    {
+      "id": "women-of-color",
+      "name": "Women Of Color",
+      "description": "Women from racial and ethnic minority groups who have historically been underrepresented in biomedical research and face unique health disparities.",
+      "created_at": "2025-12-08T17:49:46.202Z"
+    },
+    {
+      "id": "women-with-disabilities",
+      "name": "Women With Disabilities",
+      "description": "Women living with disabilities who often face greater barriers to adequate healthcare and are underrepresented in health research.",
+      "created_at": "2025-12-08T17:49:46.202Z"
+    },
+    {
+      "id": "older-women",
+      "name": "Older Women",
+      "description": "Women in midlife and later years, particularly those experiencing menopause and related health conditions, who benefit from focused research and healthcare improvements.",
+      "created_at": "2025-12-08T17:49:46.202Z"
+    },
+    {
+      "id": "us-persons-with-sensitive-data",
+      "name": "Us Persons With Sensitive Data",
+      "description": "United States individuals whose sensitive personal or government-related data is protected by the order, including federal employees and contractors.",
+      "created_at": "2025-12-08T17:50:07.805Z"
+    },
+    {
+      "id": "data-brokerage-industry",
+      "name": "Data Brokerage Industry",
+      "description": "Companies and entities involved in collecting, aggregating, and selling bulk sensitive personal data which may face increased regulation and restrictions.",
+      "created_at": "2025-12-08T17:50:07.806Z"
+    },
+    {
+      "id": "foreign-entities-in-countries-of-concern",
+      "name": "Foreign Entities In Countries Of Concern",
+      "description": "Foreign companies, governments, or individuals in designated countries of concern that may lose access to sensitive U.S. data and face restrictions or monitoring.",
+      "created_at": "2025-12-08T17:50:07.806Z"
+    },
+    {
+      "id": "coast-guard-personnel",
+      "name": "Coast Guard Personnel",
+      "description": "Coast Guard officers and staff responsible for enforcing maritime security regulations and conducting inspections, searches, and access control under these amended rules.",
+      "created_at": "2025-12-08T17:50:17.166Z"
+    },
+    {
+      "id": "maritime-industry-workers",
+      "name": "Maritime Industry Workers",
+      "description": "Individuals working in shipping, port operations, and waterfront facilities who benefit from enhanced security measures protecting their workplaces and vessels.",
+      "created_at": "2025-12-08T17:50:17.166Z"
+    },
+    {
+      "id": "maritime-transportation-users",
+      "name": "Maritime Transportation Users",
+      "description": "Vessel operators, workers, and users who may face stricter boarding and access controls, increased inspections, or operational disruptions due to expanded Coast Guard authority.",
+      "created_at": "2025-12-08T17:50:17.166Z"
+    },
+    {
+      "id": "innocent-civilian-populations-in-west-bank-and-region",
+      "name": "Innocent Civilian Populations In West Bank And Region",
+      "description": "Civilians residing in the West Bank and surrounding Middle East region who benefit indirectly from increased peace and security resulting from the sanctions and enforcement actions.",
+      "created_at": "2025-12-08T17:50:23.143Z"
+    },
+    {
+      "id": "sanctioned-persons-and-affiliates",
+      "name": "Sanctioned Persons And Affiliates",
+      "description": "Individuals and entities targeted by sanctions under the order who face financial restrictions, asset freezes, travel bans, and legal penalties.",
+      "created_at": "2025-12-08T17:50:23.143Z"
+    },
+    {
+      "id": "competing-research-areas",
+      "name": "Competing Research Areas",
+      "description": "Research fields or projects that may receive less funding or attention due to the reallocation of resources towards women's health research.",
+      "created_at": "2025-12-08T17:58:59.537Z"
+    },
+    {
+      "id": "federal-budget-stakeholders",
+      "name": "Federal Budget Stakeholders",
+      "description": "Taxpayers, government budget officers, and agencies who may be negatively affected by increased payroll costs and budget reallocations resulting from adjusted pay rates.",
+      "created_at": "2025-12-08T18:00:01.400Z"
+    },
+    {
+      "id": "non-union-workers",
+      "name": "Non Union Workers",
+      "description": "Workers employed in sectors or projects who are not unionized and who may face reduced job opportunities or competitive disadvantage due to increased preference for union labor.",
+      "created_at": "2025-12-08T18:00:45.502Z"
+    },
+    {
+      "id": "non-hispanic-serving-institutions",
+      "name": "Non Hispanic Serving Institutions",
+      "description": "Colleges and universities that are not designated as Hispanic-Serving Institutions and may face comparatively less federal focus and resources as priorities shift towards HSIs.",
+      "created_at": "2025-12-08T18:00:58.012Z"
+    },
+    {
+      "id": "us-data-service-providers",
+      "name": "Us Data Service Providers",
+      "description": "U.S.-based companies and entities in data brokerage, cloud services, and data management that may face increased regulatory burdens and restrictions on cross-border data transactions.",
+      "created_at": "2025-12-08T18:01:55.731Z"
+    },
+    {
+      "id": "tribal-nations",
+      "name": "Tribal Nations",
+      "description": "Federally recognized Indian tribes and other Tribal Nations that are recipients of federal funding and subject to trust and treaty responsibilities.",
+      "created_at": "2025-12-08T18:06:44.396Z"
+    },
+    {
+      "id": "non-tribal-federal-funding-recipients",
+      "name": "Non Tribal Federal Funding Recipients",
+      "description": "Non-Tribal entities competing for federal funding which may face reduced access or increased competition due to prioritization of Tribal Nations.",
+      "created_at": "2025-12-08T18:06:44.397Z"
+    },
+    {
+      "id": "small-federal-contractors",
+      "name": "Small Federal Contractors",
+      "description": "Smaller contracting companies that may face increased regulatory and compliance costs due to enhanced security standards and interagency requirements.",
+      "created_at": "2025-12-08T18:06:52.283Z"
+    },
+    {
+      "id": "privacy-and-data-security",
+      "name": "Privacy And Data Security",
+      "description": "Individuals and groups whose personal information and digital data may face increased privacy risks due to AI technologies.",
+      "created_at": "2025-12-08T18:07:02.120Z"
+    },
+    {
+      "id": "asian-americans-and-nhpi-communities",
+      "name": "Asian Americans And Nhpi Communities",
+      "description": "Asian American and Native Hawaiian/Pacific Islander communities targeted for increased federal equity, justice, and opportunity initiatives.",
+      "created_at": "2025-12-08T18:07:15.685Z"
+    },
+    {
+      "id": "federal-agencies-with-increased-administrative-burden",
+      "name": "Federal Agencies With Increased Administrative Burden",
+      "description": "Federal departments and agencies required to continue managing numerous advisory committees and implement expanded reporting, which may strain resources and capacity.",
+      "created_at": "2025-12-08T18:07:15.685Z"
+    },
+    {
+      "id": "hazardous-materials-responders",
+      "name": "Hazardous Materials Responders",
+      "description": "Emergency personnel and workers involved in responding to hazardous material incidents who receive federal support and resources.",
+      "created_at": "2025-12-08T18:07:26.073Z"
+    },
+    {
+      "id": "affected-residents",
+      "name": "Affected Residents",
+      "description": "Individuals and families living in or near the communities impacted by industrial chemical releases and cleanup operations.",
+      "created_at": "2025-12-08T18:07:26.073Z"
+    },
+    {
+      "id": "industrial-transport-companies",
+      "name": "Industrial Transport Companies",
+      "description": "Companies involved in rail and hazardous material transportation that face increased regulatory scrutiny, liability, and potential financial burdens.",
+      "created_at": "2025-12-08T18:07:26.073Z"
+    },
+    {
+      "id": "local-businesses",
+      "name": "Local Businesses",
+      "description": "Small and medium-sized businesses in affected areas that may encounter economic disruption due to the incident and prolonged recovery efforts.",
+      "created_at": "2025-12-08T18:07:26.073Z"
+    },
+    {
+      "id": "coast-guard-officers",
+      "name": "Coast Guard Officers",
+      "description": "Commissioned officers of the U.S. Coast Guard subject to appointment, promotion, removal, and retirement determinations delegated by the order.",
+      "created_at": "2025-12-08T18:07:42.723Z"
+    },
+    {
+      "id": "foreign-investors-in-countries-of-concern",
+      "name": "Foreign Investors In Countries Of Concern",
+      "description": "Foreign individuals, entities, and governments in the designated countries of concern that may face restricted access to U.S. investments and technology due to enhanced regulatory controls.",
+      "created_at": "2025-12-08T18:07:53.045Z"
+    },
+    {
+      "id": "foreign-manufacturers",
+      "name": "Foreign Manufacturers",
+      "description": "Foreign companies and workers who may lose market opportunities due to increased U.S. domestic manufacturing preferences and procurement rules.",
+      "created_at": "2025-12-08T18:08:00.018Z"
+    },
+    {
+      "id": "selected-reserve-and-irr-members",
+      "name": "Selected Reserve And Irr Members",
+      "description": "Reservists and Individual Ready Reserve members who may face activation and deployment, impacting their civilian life and employment.",
+      "created_at": "2025-12-08T18:08:14.609Z"
+    },
+    {
+      "id": "women-seeking-contraception",
+      "name": "Women Seeking Contraception",
+      "description": "Women and individuals of reproductive age seeking affordable and accessible contraception and family planning services.",
+      "created_at": "2025-12-08T18:08:26.591Z"
+    },
+    {
+      "id": "private-health-insurers",
+      "name": "Private Health Insurers",
+      "description": "Insurance companies that may face increased regulatory and compliance costs due to expanded contraceptive coverage mandates and privacy protections.",
+      "created_at": "2025-12-08T18:08:26.591Z"
+    },
+    {
+      "id": "states-with-restrictive-policies",
+      "name": "States With Restrictive Policies",
+      "description": "State governments and officials who have enacted or maintain restrictive abortion or reproductive health policies that may conflict with federal efforts and face political or legal challenges.",
+      "created_at": "2025-12-08T18:08:26.591Z"
+    },
+    {
+      "id": "veterans",
+      "name": "Veterans",
+      "description": "Individuals, organizations, or entities categorized as veterans who may be affected by federal policies.",
+      "created_at": "2025-12-08T18:08:26.591Z"
+    },
+    {
+      "id": "private-sector-employers",
+      "name": "Private Sector Employers",
+      "description": "Non-federal employers who may face increased competition or challenges in hiring military spouses as some opt for federal employment opportunities.",
+      "created_at": "2025-12-08T18:08:34.639Z"
+    },
+    {
+      "id": "non-military-spouse-job-seekers",
+      "name": "Non Military Spouse Job Seekers",
+      "description": "General job seekers who may experience indirect disadvantages as federal hiring authorities and resources prioritize military-connected spouses.",
+      "created_at": "2025-12-08T18:08:34.639Z"
+    },
+    {
+      "id": "public-health-workers",
+      "name": "Public Health Workers",
+      "description": "Healthcare practitioners and public health officials who may face higher exposure risks or face new operational challenges due to the removal of vaccination mandates.",
+      "created_at": "2025-12-08T18:08:40.291Z"
+    },
+    {
+      "id": "community-development",
+      "name": "Community Development",
+      "description": "Individuals, organizations, or entities categorized as community development who may be affected by federal policies.",
+      "created_at": "2025-12-08T18:09:00.954Z"
+    },
+    {
+      "id": "family-caregivers",
+      "name": "Family Caregivers",
+      "description": "Individuals providing informal, often unpaid care to family members including older adults, people with disabilities, and wounded service members.",
+      "created_at": "2025-12-08T18:09:08.975Z"
+    },
+    {
+      "id": "care-workforce",
+      "name": "Care Workforce",
+      "description": "Individuals employed in child care and long-term care professions whose jobs and working conditions are directly impacted by the order’s provisions.",
+      "created_at": "2025-12-08T18:09:08.975Z"
+    },
+    {
+      "id": "regulated-entities",
+      "name": "Regulated Entities",
+      "description": "Businesses, organizations, and individuals subject to federal regulatory review who may face increased compliance costs and procedural requirements from updated regulatory processes.",
+      "created_at": "2025-12-08T18:09:18.072Z"
+    },
+    {
+      "id": "commercial-spyware-vendors",
+      "name": "Commercial Spyware Vendors",
+      "description": "Companies and entities that develop, market, or sell commercial spyware products potentially subject to prohibitions, restrictions, and enhanced due diligence under this order.",
+      "created_at": "2025-12-08T18:09:27.108Z"
     }
   ],
-  "updated_at": "2025-12-06T07:10:56.406Z"
+  "updated_at": "2025-12-08T18:09:45.545Z"
 }

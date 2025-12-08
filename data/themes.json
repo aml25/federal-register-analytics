@@ -9,25 +9,25 @@
     {
       "id": "artificial-intelligence",
       "name": "Artificial Intelligence",
-      "description": "Auto-created theme for artificial intelligence",
+      "description": "Policies related to the development, regulation, and deployment of artificial intelligence technologies, including AI infrastructure, safety standards, and competitive positioning.",
       "created_at": "2025-12-06T06:47:50.407Z"
     },
     {
       "id": "national-security",
       "name": "National Security",
-      "description": "Auto-created theme for national security",
+      "description": "Policies related to protecting the nation from threats, including defense, intelligence, cybersecurity, and homeland security measures.",
       "created_at": "2025-12-06T06:47:50.407Z"
     },
     {
       "id": "scientific-research",
       "name": "Scientific Research",
-      "description": "Auto-created theme for scientific research",
+      "description": "Policies supporting scientific inquiry, research funding, laboratory operations, and the advancement of knowledge across scientific disciplines.",
       "created_at": "2025-12-06T06:47:50.407Z"
     },
     {
       "id": "technology-development",
       "name": "Technology Development",
-      "description": "Auto-created theme for technology development",
+      "description": "Policies promoting the creation, innovation, and deployment of new technologies to enhance economic competitiveness and national capabilities.",
       "created_at": "2025-12-06T06:47:50.407Z"
     },
     {
@@ -45,7 +45,7 @@
     {
       "id": "trade-policy",
       "name": "Trade Policy",
-      "description": "Auto-created theme for trade policy",
+      "description": "Policies governing international trade, tariffs, trade agreements, and economic relationships with foreign countries.",
       "created_at": "2025-12-06T06:48:03.404Z"
     },
     {
@@ -117,7 +117,7 @@
     {
       "id": "federal-agency-management",
       "name": "Federal Agency Management",
-      "description": "Auto-created theme for federal agency management",
+      "description": "Policies related to the organization, leadership, succession, and operational management of federal government agencies and departments.",
       "created_at": "2025-12-06T06:50:39.246Z"
     },
     {
@@ -285,15 +285,105 @@
     {
       "id": "economic-development",
       "name": "Economic Development",
-      "description": "Auto-created theme for economic development",
+      "description": "Policies aimed at stimulating economic growth, job creation, and business expansion through investments, incentives, and infrastructure improvements.",
       "created_at": "2025-12-06T07:09:51.884Z"
     },
     {
       "id": "community-development",
       "name": "Community Development",
-      "description": "Auto-created theme for community development",
+      "description": "Policies focused on improving local communities through housing, infrastructure, services, and programs that enhance quality of life for residents.",
       "created_at": "2025-12-06T07:09:51.884Z"
+    },
+    {
+      "id": "labor-relations",
+      "name": "Labor Relations",
+      "description": "Policies addressing labor disputes, collective bargaining, and mechanisms for resolving conflicts between employers and employee unions.",
+      "created_at": "2025-12-08T17:48:32.987Z"
+    },
+    {
+      "id": "firearms-control",
+      "name": "Firearms Control",
+      "description": "Policies focused on regulating, restricting, and managing the use, manufacture, and trafficking of firearms and related devices to reduce gun violence and public safety risks.",
+      "created_at": "2025-12-08T17:48:45.494Z"
+    },
+    {
+      "id": "school-safety",
+      "name": "School Safety",
+      "description": "Policies aimed at protecting students, educators, and staff within educational environments, focusing on violence prevention, emergency preparedness, and trauma-informed practices.",
+      "created_at": "2025-12-08T17:48:45.495Z"
+    },
+    {
+      "id": "gender-history-recognition",
+      "name": "Gender History Recognition",
+      "description": "Policies focused on highlighting, preserving, and promoting the history and contributions of women and gender groups in national heritage and federal programs.",
+      "created_at": "2025-12-08T17:49:37.260Z"
+    },
+    {
+      "id": "women-health-research",
+      "name": "Women Health Research",
+      "description": "Policies focused on advancing biomedical and clinical research specifically aimed at understanding and improving women's health, including addressing disparities and unique health conditions affecting women.",
+      "created_at": "2025-12-08T17:49:46.201Z"
+    },
+    {
+      "id": "privacy-and-data-security",
+      "name": "Privacy And Data Security",
+      "description": "Policies focused on protecting individuals’ personal information, including sensitive data privacy, data access restrictions, and mitigation of privacy risks in digital environments.",
+      "created_at": "2025-12-08T17:50:07.805Z"
+    },
+    {
+      "id": "maritime-security",
+      "name": "Maritime Security",
+      "description": "Policies focused on protecting maritime vessels, ports, harbors, and waterfront facilities from physical and cyber threats to ensure safe and secure maritime operations.",
+      "created_at": "2025-12-08T17:50:17.166Z"
+    },
+    {
+      "id": "workforce-development",
+      "name": "Workforce Development",
+      "description": "Policies focused on developing skills, training, career pathways, and employment opportunities to strengthen the labor force, especially in federally supported projects and programs.",
+      "created_at": "2025-12-08T18:00:45.501Z"
+    },
+    {
+      "id": "public-health-administration",
+      "name": "Public Health Administration",
+      "description": "Policies related to the organization, management, and coordination of public health emergency response and preparedness efforts within the federal government.",
+      "created_at": "2025-12-08T18:01:11.179Z"
+    },
+    {
+      "id": "data-security-regulation",
+      "name": "Data Security Regulation",
+      "description": "Policies focused specifically on regulating access to and safeguarding bulk personal and government-related data from foreign adversaries.",
+      "created_at": "2025-12-08T18:01:55.730Z"
+    },
+    {
+      "id": "tribal-policy",
+      "name": "Tribal Policy",
+      "description": "Policies focused on federal relations, funding, and support aimed specifically at strengthening Tribal Nations, honoring trust responsibilities, and promoting Tribal sovereignty and self-determination.",
+      "created_at": "2025-12-08T18:06:44.396Z"
+    },
+    {
+      "id": "equity-and-inclusion-policy",
+      "name": "Equity And Inclusion Policy",
+      "description": "Policies focused on advancing equity, justice, and inclusion for historically underserved or minority communities within federal government efforts.",
+      "created_at": "2025-12-08T18:07:15.685Z"
+    },
+    {
+      "id": "industrial-accident-response",
+      "name": "Industrial Accident Response",
+      "description": "Policies focused on the federal government’s coordination of responses to industrial accidents involving hazardous materials, including cleanup, public health, and safety measures.",
+      "created_at": "2025-12-08T18:07:26.072Z"
+    },
+    {
+      "id": "reproductive-health-policy",
+      "name": "Reproductive Health Policy",
+      "description": "Policies focused on ensuring access to contraception, family planning services, and reproductive healthcare across federal programs and healthcare systems.",
+      "created_at": "2025-12-08T18:08:26.590Z"
+    },
+    {
+      "id": "caregiving-policy",
+      "name": "Caregiving Policy",
+      "description": "Policies aimed at improving caregiving services, support for family and professional caregivers, and the infrastructure surrounding early childhood and long-term care.",
+      "created_at": "2025-12-08T18:09:08.975Z"
     }
   ],
-  "updated_at": "2025-12-06T07:10:56.405Z"
+  "updated_at": "2025-12-08T18:09:45.544Z"
 }

@@ -1,0 +1,45 @@
+{
+  "document_number": "2024-04573",
+  "executive_order_number": "14117",
+  "title": "Preventing Access to Americans' Bulk Sensitive Personal Data and United States Government-Related Data by Countries of Concern",
+  "abstract": null,
+  "signing_date": "2024-02-28",
+  "publication_date": "2024-03-01",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2024/03/01/2024-04573/preventing-access-to-americans-bulk-sensitive-personal-data-and-united-states-government-related",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-03-01/pdf/2024-04573.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/03/01/2024-04573.txt",
+  "enrichment": {
+    "summary": "This executive order restricts access by certain foreign countries deemed threats to Americans' bulk sensitive personal data and U.S. government-related data to protect national security. It establishes rules and enforcement mechanisms to limit data transactions and sets security requirements, while supporting open data flows that do not pose such risks.",
+    "theme_ids": [
+      "national-security",
+      "privacy-and-data-security",
+      "foreign-policy",
+      "consumer-protection",
+      "data-security-regulation"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "us-persons-with-sensitive-data"
+      ],
+      "negative_ids": [
+        "foreign-entities-in-countries-of-concern",
+        "data-brokerage-industry",
+        "us-data-service-providers"
+      ]
+    },
+    "potential_concerns": [
+      "Implementation may impose significant compliance costs on U.S. data service providers and data brokerage firms, potentially impacting the data economy.",
+      "Identifying and designating countries of concern and covered persons may lead to diplomatic tensions and retaliatory actions by affected countries.",
+      "Ensuring that restrictions do not unintentionally disrupt legitimate commercial data flows or scientific collaboration could be challenging.",
+      "There is a risk of overreach or ambiguity in defining 'bulk sensitive personal data' thresholds, causing uncertainty for regulated entities.",
+      "Balancing national security with privacy, economic interests, and open data policies may result in policy conflicts and enforcement difficulties."
+    ],
+    "enriched_at": "2025-12-08T18:01:55.731Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

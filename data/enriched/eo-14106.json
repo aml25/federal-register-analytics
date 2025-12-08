@@ -1,0 +1,41 @@
+{
+  "document_number": "2023-17832",
+  "executive_order_number": "14106",
+  "title": "United States Coast Guard Officer Personnel Management",
+  "abstract": null,
+  "signing_date": "2023-08-14",
+  "publication_date": "2023-08-17",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/08/17/2023-17832/united-states-coast-guard-officer-personnel-management",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-08-17/pdf/2023-17832.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/08/17/2023-17832.txt",
+  "enrichment": {
+    "summary": "This executive order delegates the President’s authority over Coast Guard officer appointments, promotions, separations, and retirements to the Secretary of Homeland Security, streamlining personnel management within the Coast Guard. It also clarifies that during times of war or national emergency, these powers can be exercised without the President’s direct approval and sets provisions for when the Coast Guard operates as part of the Navy.",
+    "theme_ids": [
+      "military-personnel-policy",
+      "national-security",
+      "federal-agency-management"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "coast-guard-personnel"
+      ],
+      "negative_ids": [
+        "coast-guard-officers"
+      ]
+    },
+    "potential_concerns": [
+      "Delegating presidential authority to the Secretary of Homeland Security may raise concerns about reduced direct presidential oversight on key military personnel decisions.",
+      "In times of war or national emergency, broad delegation of suspension and promotion powers could be misused or lack sufficient checks and balances.",
+      "The shift in authority could create bureaucratic delays or confusion if roles between the President, Secretary of Homeland Security, and Secretary of Defense are not clearly coordinated.",
+      "Officers could face uncertainty or perceived unfairness if personnel decisions are centralized and removed from customary presidential involvement.",
+      "The order does not address transparency or appeal procedures for affected officers, which could lead to morale or legal challenges."
+    ],
+    "enriched_at": "2025-12-08T18:07:42.724Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

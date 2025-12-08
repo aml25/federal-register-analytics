@@ -1,13 +1,15 @@
 #!/usr/bin/env node
 /**
- * CLI for generating term and monthly narratives
+ * CLI for generating term, monthly, and theme narratives
  *
  * Usage:
- *   npm run generate-narratives                              # Generate all (term + monthly)
+ *   npm run generate-narratives                              # Generate all (term + monthly + theme)
  *   npm run generate-narratives -- --type term               # Generate term narratives only
  *   npm run generate-narratives -- --type monthly            # Generate monthly narratives only
+ *   npm run generate-narratives -- --type theme              # Generate theme narratives only
  *   npm run generate-narratives -- --type monthly --year 2025            # Monthly for 2025
  *   npm run generate-narratives -- --type monthly --year 2025 --month 3  # March 2025 only
+ *   npm run generate-narratives -- --type theme --theme security         # Filter themes by name
  *   npm run generate-narratives -- --president trump         # Filter by president
  *   npm run generate-narratives -- --force                   # Regenerate even if exists
  */
@@ -22,11 +24,12 @@ const type = args.type ? String(args.type) as NarrativeType : undefined;
 const president = args.president ? String(args.president) : undefined;
 const year = args.year ? Number(args.year) : undefined;
 const month = args.month ? Number(args.month) : undefined;
+const theme = args.theme ? String(args.theme) : undefined;
 const force = Boolean(args.force);
 
 // Validate type if provided
-if (type && !['term', 'monthly', 'all'].includes(type)) {
-  console.error(`Invalid --type: ${type}. Must be 'term', 'monthly', or 'all'.`);
+if (type && !['term', 'monthly', 'theme', 'all'].includes(type)) {
+  console.error(`Invalid --type: ${type}. Must be 'term', 'monthly', 'theme', or 'all'.`);
   process.exit(1);
 }
 
@@ -42,4 +45,4 @@ if (month !== undefined && year === undefined) {
   process.exit(1);
 }
 
-generateNarratives({ type, president, year, month, force }).catch(console.error);
+generateNarratives({ type, president, year, month, theme, force }).catch(console.error);

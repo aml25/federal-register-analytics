@@ -1,0 +1,54 @@
+{
+  "document_number": "2023-13889",
+  "executive_order_number": "14101",
+  "title": "Strengthening Access to Affordable, High-Quality Contraception and Family Planning Services",
+  "abstract": null,
+  "signing_date": "2023-06-23",
+  "publication_date": "2023-06-28",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/06/28/2023-13889/strengthening-access-to-affordable-high-quality-contraception-and-family-planning-services",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-06-28/pdf/2023-13889.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/06/28/2023-13889.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to improve and expand access to affordable, high-quality contraception and family planning services through existing programs like the Affordable Care Act, Medicaid, and federal healthcare facilities. It emphasizes protecting reproductive rights, increasing coverage without cost-sharing, enhancing provider networks, and supporting public awareness and training efforts to ensure more equitable access to contraception nationwide.",
+    "theme_ids": [
+      "public-health-promotion",
+      "equity-and-inclusion-policy",
+      "education-policy",
+      "veterans-affairs-policy",
+      "privacy-and-data-security",
+      "reproductive-health-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "veterans",
+        "medical-patients",
+        "low-income-patients",
+        "federal-agencies",
+        "academic-institutions",
+        "women-and-girls",
+        "reproductive-rights-advocates",
+        "women-seeking-contraception"
+      ],
+      "negative_ids": [
+        "undocumented-immigrants",
+        "federal-agencies-with-increased-administrative-burden",
+        "private-health-insurers",
+        "states-with-restrictive-policies"
+      ]
+    },
+    "potential_concerns": [
+      "Expanded contraceptive coverage requirements may increase regulatory and administrative burdens for private insurers and healthcare providers.",
+      "States with restrictive reproductive policies could face federal pushback, increasing legal conflicts and complicating service delivery in those regions.",
+      "Ensuring adequate funding and resources for Medicaid, Medicare, and Title X programs may be challenging given budget constraints and competing priorities.",
+      "Privacy protections for reproductive health information could create compliance complexities for healthcare entities balancing patient confidentiality with information sharing.",
+      "Outreach and education initiatives may face resistance or lack of uptake in areas with cultural or political opposition to contraception access."
+    ],
+    "enriched_at": "2025-12-08T18:08:26.591Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

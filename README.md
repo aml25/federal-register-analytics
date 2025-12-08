@@ -2,16 +2,18 @@
 
 Data enrichment pipeline for Federal Register executive orders. Uses OpenAI to generate summaries, themes, impact analysis, and potential concerns.
 
+**Live site**: [What Got Signed?](https://whatgotsigned.com) (or run locally with the included Express server)
+
 ## Features
 
 - **Fetch**: Download executive orders from the Federal Register API
-- **Enrich**: Use OpenAI to analyze each order and generate:
-  - Plain-language summary
-  - Thematic categorization (with cohesive theme registry)
-  - Impacted populations (with cohesive population registry)
-  - Potential concerns (risks, controversies, unintended consequences)
+- **Enrich**: Use OpenAI to analyze each order with a two-pass approach:
+  - **Pass 1** (gpt-4.1-mini): Plain-language summary, thematic categorization, and potential concerns
+  - **Pass 2** (o1-mini): Nuanced population impact analysis using an advanced reasoning model
+  - Cohesive theme and population registries maintained across all orders
 - **Aggregate**: Generate term summaries and timeline data (fast, no API calls)
-- **Generate Narratives**: LLM-generated paragraph summaries per presidential term (uses OpenAI API)
+- **Generate Narratives**: LLM-generated summaries and impact analysis per presidential term, month, and theme (uses OpenAI API)
+- **Web Frontend**: Express server with a clean UI to browse executive orders by term, month, or theme
 
 ## Installation
 
@@ -56,7 +58,12 @@ Raw data is saved to `data/raw/executive-orders.json`.
 
 ### 2. Enrich with AI Analysis
 
-Process orders through OpenAI for enrichment:
+Process orders through OpenAI for enrichment. The enrichment uses a **two-pass approach**:
+
+1. **Pass 1** (gpt-4.1-mini): Generates the summary, identifies themes, and extracts potential concerns
+2. **Pass 2** (o1-mini): Uses an advanced reasoning model for nuanced population impact analysis, determining which groups are positively or negatively affected
+
+This approach optimizes for both speed/cost (using the faster model for straightforward analysis) and quality (using the advanced reasoning model for the more nuanced population impact assessment).
 
 ```bash
 # Enrich all orders from a specific year
@@ -92,10 +99,10 @@ Aggregated data is saved to `data/aggregated/`:
 
 ### 4. Generate Narratives (Optional)
 
-Generate LLM-powered narrative summaries for presidential terms and monthly periods. This step uses the OpenAI API and may incur costs:
+Generate LLM-powered narrative summaries for presidential terms, monthly periods, and themes. This step uses the OpenAI API and may incur costs:
 
 ```bash
-# Generate all narratives (term + monthly)
+# Generate all narratives (term + monthly + theme)
 npm run generate-narratives
 
 # Generate term narratives only
@@ -103,6 +110,9 @@ npm run generate-narratives -- --type term
 
 # Generate monthly narratives only
 npm run generate-narratives -- --type monthly
+
+# Generate theme narratives only
+npm run generate-narratives -- --type theme
 
 # Generate monthly narratives for a specific year
 npm run generate-narratives -- --type monthly --year 2025
@@ -113,15 +123,49 @@ npm run generate-narratives -- --type monthly --year 2025 --month 3
 # Filter by president (term narratives only)
 npm run generate-narratives -- --president trump
 
+# Filter by theme (theme narratives only)
+npm run generate-narratives -- --type theme --theme immigration
+
 # Force regeneration (skip incremental checks)
 npm run generate-narratives -- --force
 ```
 
 Outputs:
-- `data/aggregated/narratives.json` - Term narratives with 2-3 paragraph summaries covering order count, main themes, temporal trends, impacted populations, and notable concerns
-- `data/aggregated/monthly-narratives.json` - Monthly narratives with 1-2 paragraph summaries for each month
+- `data/aggregated/narratives.json` - Term narratives with summary and potential impact paragraphs
+- `data/aggregated/monthly-narratives.json` - Monthly narratives with summary and potential impact paragraphs
+- `data/aggregated/theme-narratives.json` - Theme narratives with summary and potential impact paragraphs
 
-Monthly narratives support incremental generation - only new months are processed unless `--force` is used.
+Narratives support incremental generation - only new items are processed unless `--force` is used.
+
+### 5. Run Full Pipeline
+
+Run the entire pipeline (fetch, enrich, aggregate, generate narratives) for a given year:
+
+```bash
+# Run full pipeline for 2025
+npm run pipeline -- --year 2025
+
+# Skip fetching (use existing raw data)
+npm run pipeline -- --year 2025 --skip-fetch
+
+# Skip narrative generation
+npm run pipeline -- --year 2025 --skip-narratives
+
+# Force re-enrichment and narrative regeneration
+npm run pipeline -- --year 2025 --force
+```
+
+### 6. Run the Web Frontend
+
+Start the Express server to browse executive orders:
+
+```bash
+cd what-got-signed
+npm install
+node server.js
+```
+
+Then open http://localhost:3000 in your browser.
 
 ## Data Structure
 
@@ -189,7 +233,7 @@ Each enriched order includes:
       "Could face legal challenges on constitutional grounds."
     ],
     "enriched_at": "2025-01-15T10:30:00.000Z",
-    "model_used": "gpt-4o"
+    "model_used": "gpt-4.1-mini + o1-mini"
   }
 }
 ```
@@ -205,13 +249,17 @@ federal-register-analytics/
 │   ├── fetch.ts        # Federal Register API fetching
 │   ├── enrich.ts       # OpenAI enrichment logic
 │   ├── aggregate.ts    # Data aggregation (term summaries, timeline)
-│   ├── narratives.ts   # LLM-generated term narratives
+│   ├── narratives.ts   # LLM-generated narratives (term, monthly, theme)
 │   ├── index.ts        # Main exports
 │   └── cli/            # CLI entry points
 │       ├── fetch.ts
 │       ├── enrich.ts
 │       ├── aggregate.ts
-│       └── narratives.ts
+│       ├── narratives.ts
+│       └── pipeline.ts
+├── what-got-signed/    # Web frontend
+│   ├── server.js       # Express server
+│   └── public/         # Static HTML, CSS, JS
 ├── data/
 │   ├── themes.json     # Theme registry (committed)
 │   ├── populations.json # Population registry (committed)

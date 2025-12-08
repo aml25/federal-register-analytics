@@ -1,0 +1,43 @@
+{
+  "document_number": "2023-26569",
+  "executive_order_number": "14111",
+  "title": "Interagency Security Committee",
+  "abstract": null,
+  "signing_date": "2023-11-27",
+  "publication_date": "2023-12-01",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/12/01/2023-26569/interagency-security-committee",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-12-01/pdf/2023-26569.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/12/01/2023-26569.txt",
+  "enrichment": {
+    "summary": "This executive order establishes and updates the Interagency Security Committee to oversee and improve security standards and policies for Federal buildings and facilities occupied by Federal employees and contractors. It ensures ongoing coordination across multiple agencies to protect Federal properties from security threats and mandates regular compliance reporting and monitoring.",
+    "theme_ids": [
+      "national-security",
+      "federal-agency-management",
+      "federal-property-management"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "federal-agencies",
+        "federal-contractors"
+      ],
+      "negative_ids": [
+        "federal-contractors",
+        "small-federal-contractors"
+      ]
+    },
+    "potential_concerns": [
+      "Increased compliance and reporting requirements may impose significant administrative burdens on federal contractors, especially smaller firms.",
+      "Coordinating security policies across many diverse agencies could lead to delays or inconsistent implementation.",
+      "Some agencies may face funding or resource constraints in meeting the new security standards and monitoring requirements.",
+      "Balancing security needs with privacy and operational efficiency may prove challenging in multi-tenant federal facilities.",
+      "Exceptions for intelligence agencies could create gaps or inconsistencies in security practices across federal properties."
+    ],
+    "enriched_at": "2025-12-08T18:06:52.284Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

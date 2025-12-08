@@ -1,0 +1,59 @@
+{
+  "document_number": "2023-08955",
+  "executive_order_number": "14096",
+  "title": "Revitalizing Our Nation's Commitment to Environmental Justice for All",
+  "abstract": null,
+  "signing_date": "2023-04-21",
+  "publication_date": "2023-04-26",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/04/26/2023-08955/revitalizing-our-nations-commitment-to-environmental-justice-for-all",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-04-26/pdf/2023-08955.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/04/26/2023-08955.txt",
+  "enrichment": {
+    "summary": "This executive order strengthens the federal government’s commitment to environmental justice by requiring all federal agencies to identify and address disproportionate environmental harms faced by underserved communities. It promotes inclusive decision-making, better data collection, workforce development, and interagency collaboration to ensure clean air, water, and a healthy environment for all, especially historically marginalized populations.",
+    "theme_ids": [
+      "environmental-regulation",
+      "federal-research-coordination",
+      "scientific-research",
+      "tribal-policy",
+      "equity-and-inclusion-policy",
+      "workforce-development",
+      "community-development",
+      "civil-rights-enforcement",
+      "industrial-accident-response",
+      "federal-agency-management",
+      "advisory-committees-management"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "underserved-communities",
+        "tribal-nations",
+        "asian-americans-and-nhpi-communities",
+        "hispanic-and-latino-students",
+        "environmental-advocates",
+        "american-workers",
+        "community-development"
+      ],
+      "negative_ids": [
+        "federal-agencies-with-increased-administrative-burden",
+        "industrial-transport-companies",
+        "local-businesses",
+        "non-union-workers",
+        "non-tribal-federal-funding-recipients"
+      ]
+    },
+    "potential_concerns": [
+      "Increased regulatory requirements and reporting obligations may strain federal agencies’ resources and delay other agency priorities.",
+      "Heightened focus on environmental justice could lead to increased compliance costs and operational challenges for industries subject to stricter pollution controls and community engagement mandates.",
+      "Federally funded non-Tribal organizations may face reduced funding or competitive disadvantages as environmental justice and Tribal priorities are elevated.",
+      "Potential conflicts may arise in balancing economic development and environmental justice goals, especially in communities reliant on polluting industries or legacy infrastructure.",
+      "Effectiveness depends heavily on meaningful community engagement and data quality, which historically have been challenging to implement consistently across agencies."
+    ],
+    "enriched_at": "2025-12-08T18:09:00.954Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

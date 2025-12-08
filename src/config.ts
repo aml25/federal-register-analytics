@@ -24,6 +24,7 @@ export const FEDERAL_REGISTER_BASE_URL = 'https://www.federalregister.gov/api/v1
 
 // OpenAI API
 export const OPENAI_MODEL = 'gpt-4.1-mini';
+export const OPENAI_MODEL_POPULATIONS = 'o1-mini'; // Advanced model for nuanced population analysis
 
 // Rate limiting
 export const ENRICH_DELAY_MS = 1000; // Delay between API calls

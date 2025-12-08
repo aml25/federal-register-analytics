@@ -30,7 +30,8 @@ interface TermNarrative {
   term_start: number;
   term_end: number | 'present';
   order_count: number;
-  narrative: string[];
+  summary: string;
+  potential_impact: string;
   generated_at: string;
   model_used: string;
 }
@@ -52,7 +53,8 @@ interface MonthlyNarrative {
   month_name: string;
   presidents: PresidentOrderCount[];  // Supports transition months with multiple presidents
   total_order_count: number;
-  narrative: string[];
+  summary: string;
+  potential_impact: string;
   generated_at: string;
   model_used: string;
 }
@@ -267,11 +269,10 @@ async function generateTermNarrativeWithLLM(
   context: string,
   presidentName: string,
   orderCount: number
-): Promise<string[]> {
+): Promise<{ summary: string; potential_impact: string }> {
   const systemPrompt = `You are a political analyst writing concise summaries of executive order activity.
 
 Guidelines:
-- Write 2-3 SHORT paragraphs (50-80 words each, 150 words max total)
 - Be direct and dense with information - no filler words or fluff
 - Factual and neutral tone
 - Use specific numbers
@@ -279,14 +280,18 @@ Guidelines:
 - No editorializing
 - When discussing impacted populations, use language like "aimed to positively impact" or "aimed to negatively impact" rather than presuming actual outcomes
 
-Format: Return ONLY a JSON array of strings, each string being one paragraph. Example:
-["First paragraph here.", "Second paragraph here.", "Third paragraph here."]`;
+You must return a JSON object with two fields:
+1. "summary" - One paragraph (60-100 words) summarizing the president, number of orders signed, overall themes, and a synthesis of key executive order titles
+2. "potential_impact" - One paragraph (60-100 words) describing which populations are aimed to be positively or negatively impacted and any key concerns raised
 
-  const userPrompt = `Summarize ${presidentName}'s ${orderCount} executive orders based on this data:
+Example format:
+{"summary": "Summary paragraph here.", "potential_impact": "Potential impact paragraph here."}`;
+
+  const userPrompt = `Analyze ${presidentName}'s ${orderCount} executive orders based on this data:
 
 ${context}
 
-Return JSON array of 2-3 concise paragraphs:`;
+Return JSON with "summary" and "potential_impact" fields:`;
 
   const response = await openai.chat.completions.create({
     model: OPENAI_MODEL,
@@ -299,7 +304,7 @@ Return JSON array of 2-3 concise paragraphs:`;
     response_format: { type: 'json_object' }
   });
 
-  return parseNarrativeResponse(response.choices[0]?.message?.content?.trim() || '[]');
+  return parseSummaryImpactResponse(response.choices[0]?.message?.content?.trim() || '{}');
 }
 
 /**
@@ -312,13 +317,12 @@ async function generateMonthlyNarrativeWithLLM(
   monthName: string,
   year: number,
   totalOrderCount: number
-): Promise<string[]> {
+): Promise<{ summary: string; potential_impact: string }> {
   const isTransitionMonth = presidents.length > 1;
 
   const systemPrompt = `You are a political analyst writing concise monthly summaries of executive order activity.
 
 Guidelines:
-- Write 1-2 SHORT paragraphs (50-80 words each, 120 words max total)
 - Be direct and dense with information - no filler words or fluff
 - Factual and neutral tone
 - Use specific numbers
@@ -327,25 +331,29 @@ Guidelines:
 - When discussing impacted populations, use language like "aimed to positively impact" or "aimed to negatively impact" rather than presuming actual outcomes
 ${isTransitionMonth ? '- This is a presidential transition month - acknowledge both administrations and their respective order counts' : ''}
 
-Format: Return ONLY a JSON array of strings, each string being one paragraph. Example:
-["First paragraph here.", "Second paragraph here."]`;
+You must return a JSON object with two fields:
+1. "summary" - One paragraph (60-100 words) summarizing the president(s), number of orders signed, overall themes, and a synthesis of key executive order titles
+2. "potential_impact" - One paragraph (60-100 words) describing which populations are aimed to be positively or negatively impacted and any key concerns raised
+
+Example format:
+{"summary": "Summary paragraph here.", "potential_impact": "Potential impact paragraph here."}`;
 
   let userPrompt: string;
   if (isTransitionMonth) {
     const presidentSummary = presidents
       .map(p => `${p.president_name} (${p.order_count})`)
       .join(' and ');
-    userPrompt = `Summarize the ${totalOrderCount} executive orders from ${monthName} ${year}, signed by ${presidentSummary}, based on this data:
+    userPrompt = `Analyze the ${totalOrderCount} executive orders from ${monthName} ${year}, signed by ${presidentSummary}, based on this data:
 
 ${context}
 
-Return JSON array of 1-2 concise paragraphs:`;
+Return JSON with "summary" and "potential_impact" fields:`;
   } else {
-    userPrompt = `Summarize ${presidents[0].president_name}'s ${totalOrderCount} executive orders from ${monthName} ${year} based on this data:
+    userPrompt = `Analyze ${presidents[0].president_name}'s ${totalOrderCount} executive orders from ${monthName} ${year} based on this data:
 
 ${context}
 
-Return JSON array of 1-2 concise paragraphs:`;
+Return JSON with "summary" and "potential_impact" fields:`;
   }
 
   const response = await openai.chat.completions.create({
@@ -355,34 +363,30 @@ Return JSON array of 1-2 concise paragraphs:`;
       { role: 'user', content: userPrompt }
     ],
     temperature: 0.7,
-    max_completion_tokens: 300,
+    max_completion_tokens: 400,
     response_format: { type: 'json_object' }
   });
 
-  return parseNarrativeResponse(response.choices[0]?.message?.content?.trim() || '[]');
+  return parseSummaryImpactResponse(response.choices[0]?.message?.content?.trim() || '{}');
 }
 
 /**
- * Parse LLM response into array of paragraphs
+ * Parse LLM response into summary and potential_impact
  */
-function parseNarrativeResponse(content: string): string[] {
+function parseSummaryImpactResponse(content: string): { summary: string; potential_impact: string } {
   try {
     const parsed = JSON.parse(content);
-    if (Array.isArray(parsed)) {
-      return parsed;
-    } else if (parsed.paragraphs && Array.isArray(parsed.paragraphs)) {
-      return parsed.paragraphs;
-    } else if (parsed.narrative && Array.isArray(parsed.narrative)) {
-      return parsed.narrative;
-    }
-    const values = Object.values(parsed);
-    const arrayValue = values.find(v => Array.isArray(v));
-    if (arrayValue) {
-      return arrayValue as string[];
-    }
-    return [content];
+    return {
+      summary: parsed.summary || '',
+      potential_impact: parsed.potential_impact || ''
+    };
   } catch {
-    return content.split(/\n\n+/).filter(p => p.trim());
+    // Fallback: try to split content into two parts
+    const parts = content.split(/\n\n+/).filter(p => p.trim());
+    return {
+      summary: parts[0] || '',
+      potential_impact: parts[1] || ''
+    };
   }
 }
 
@@ -418,10 +422,24 @@ function filterByPresident(
 // =============================================================================
 
 /**
+ * Load existing term narratives file
+ */
+async function loadExistingTermNarratives(): Promise<TermNarrativesFile | null> {
+  try {
+    const filePath = join(AGGREGATED_DIR, 'narratives.json');
+    const content = await readFile(filePath, 'utf-8');
+    return JSON.parse(content);
+  } catch {
+    return null;
+  }
+}
+
+/**
  * Generate term narratives
  */
 export async function generateTermNarratives(options: {
   president?: string;
+  year?: number;
   force?: boolean;
 } = {}): Promise<void> {
   console.log(`\n=== Generating Term Narratives ===\n`);
@@ -446,13 +464,42 @@ export async function generateTermNarratives(options: {
     }
   }
 
+  // If year is specified, identify which presidents have orders in that year
+  // Only regenerate narratives for those presidents
+  let presidentsToUpdate: Set<string> | null = null;
+  if (options.year) {
+    presidentsToUpdate = new Set<string>();
+    for (const order of orders) {
+      const orderYear = new Date(order.signing_date).getFullYear();
+      if (orderYear === options.year) {
+        presidentsToUpdate.add(order.president.identifier);
+      }
+    }
+    console.log(`Year ${options.year} filter: will update narratives for ${presidentsToUpdate.size} president(s)`);
+    if (presidentsToUpdate.size === 0) {
+      console.log('No presidents have orders in that year.');
+      return;
+    }
+  }
+
   const themes = await loadThemes();
   const populations = await loadPopulations();
 
+  // Load existing narratives for incremental generation
+  const existingFile = await loadExistingTermNarratives();
+  const existingNarratives = existingFile?.narratives || [];
+
   const terms = detectPresidentTerms(orders);
-  const narratives: TermNarrative[] = [];
+  const newNarratives: TermNarrative[] = [];
+  let skipped = 0;
 
   for (const [presidentId, presTerms] of terms) {
+    // Skip this president if year filter is active and they're not in the update set
+    if (presidentsToUpdate && !presidentsToUpdate.has(presidentId)) {
+      skipped++;
+      continue;
+    }
+
     for (const term of presTerms) {
       const officialTerms = OFFICIAL_TERMS[presidentId];
       const officialTerm = officialTerms?.find(t =>
@@ -495,42 +542,65 @@ export async function generateTermNarratives(options: {
       const estimatedTokens = Math.ceil(charCount / 4);
       console.log(`  Context: ${charCount.toLocaleString()} chars, ~${estimatedTokens.toLocaleString()} tokens`);
 
-      const narrative = await generateTermNarrativeWithLLM(
+      const { summary, potential_impact } = await generateTermNarrativeWithLLM(
         openai,
         context,
         presidentName,
         termOrders.length
       );
 
-      const wordCount = narrative.reduce((acc, p) => acc + p.split(' ').length, 0);
-      console.log(`  Generated ${narrative.length} paragraphs, ${wordCount} words`);
+      const wordCount = summary.split(' ').length + potential_impact.split(' ').length;
+      console.log(`  Generated summary + impact, ${wordCount} words`);
 
-      narratives.push({
+      newNarratives.push({
         president_id: presidentId,
         president_name: presidentName,
         term_start: term.start,
         term_end: termEnd,
         order_count: termOrders.length,
-        narrative,
+        summary,
+        potential_impact,
         generated_at: new Date().toISOString(),
         model_used: OPENAI_MODEL
       });
     }
   }
 
-  narratives.sort((a, b) => {
+  if (skipped > 0) {
+    console.log(`\nSkipped ${skipped} president(s) (not in year ${options.year})`);
+  }
+
+  // Merge with existing narratives
+  const allNarratives = [...existingNarratives];
+
+  for (const newNarrative of newNarratives) {
+    const key = `${newNarrative.president_id}-${newNarrative.term_start}`;
+    const existingIndex = allNarratives.findIndex(
+      n => `${n.president_id}-${n.term_start}` === key
+    );
+    if (existingIndex >= 0) {
+      allNarratives[existingIndex] = newNarrative;
+    } else {
+      allNarratives.push(newNarrative);
+    }
+  }
+
+  allNarratives.sort((a, b) => {
     const aEnd = a.term_end === 'present' ? 9999 : a.term_end;
     const bEnd = b.term_end === 'present' ? 9999 : b.term_end;
     return bEnd - aEnd || b.term_start - a.term_start;
   });
 
   const output: TermNarrativesFile = {
-    narratives,
+    narratives: allNarratives,
     generated_at: new Date().toISOString()
   };
 
   await writeJson(join(AGGREGATED_DIR, 'narratives.json'), output);
-  console.log(`\nSaved ${narratives.length} term narratives to narratives.json`);
+  console.log(`\nSaved ${allNarratives.length} term narratives to narratives.json`);
+  if (newNarratives.length > 0) {
+    console.log(`  (${newNarratives.length} newly generated)`);
+  }
 
   console.log('\nDone!');
 }
@@ -665,7 +735,7 @@ export async function generateMonthlyNarratives(options: {
     const estimatedTokens = Math.ceil(charCount / 4);
     console.log(`  Context: ${charCount.toLocaleString()} chars, ~${estimatedTokens.toLocaleString()} tokens`);
 
-    const narrative = await generateMonthlyNarrativeWithLLM(
+    const { summary, potential_impact } = await generateMonthlyNarrativeWithLLM(
       openai,
       context,
       presidents,
@@ -674,8 +744,8 @@ export async function generateMonthlyNarratives(options: {
       monthOrders.length
     );
 
-    const wordCount = narrative.reduce((acc, p) => acc + p.split(' ').length, 0);
-    console.log(`  Generated ${narrative.length} paragraphs, ${wordCount} words`);
+    const wordCount = summary.split(' ').length + potential_impact.split(' ').length;
+    console.log(`  Generated summary + impact, ${wordCount} words`);
 
     newNarratives.push({
       year,
@@ -683,7 +753,8 @@ export async function generateMonthlyNarratives(options: {
       month_name: monthName,
       presidents,
       total_order_count: monthOrders.length,
-      narrative,
+      summary,
+      potential_impact,
       generated_at: new Date().toISOString(),
       model_used: OPENAI_MODEL
     });
@@ -729,16 +800,302 @@ export async function generateMonthlyNarratives(options: {
 }
 
 // =============================================================================
+// THEME NARRATIVES
+// =============================================================================
+
+interface ThemeNarrative {
+  theme_id: string;
+  theme_name: string;
+  order_count: number;
+  presidents: { president_id: string; president_name: string; order_count: number }[];
+  summary: string;
+  potential_impact: string;
+  generated_at: string;
+  model_used: string;
+}
+
+interface ThemeNarrativesFile {
+  narratives: ThemeNarrative[];
+  generated_at: string;
+}
+
+/**
+ * Build context for LLM to generate theme narrative
+ */
+function buildThemeContext(
+  orders: EnrichedExecutiveOrder[],
+  themeName: string,
+  populations: PopulationRegistry
+): string {
+  const positivePopulations = countPopulations(orders, populations, 'positive').slice(0, 10);
+  const negativePopulations = countPopulations(orders, populations, 'negative').slice(0, 10);
+  const concerns = collectConcerns(orders);
+
+  // Group by president
+  const byPresident = new Map<string, EnrichedExecutiveOrder[]>();
+  for (const order of orders) {
+    const id = order.president.identifier;
+    if (!byPresident.has(id)) {
+      byPresident.set(id, []);
+    }
+    byPresident.get(id)!.push(order);
+  }
+
+  const presidentSummaries = Array.from(byPresident.entries())
+    .map(([_id, presOrders]) => {
+      const name = presOrders[0].president.name;
+      return `- ${name}: ${presOrders.length} orders`;
+    })
+    .join('\n');
+
+  // Sample order titles
+  const orderTitles = orders.slice(0, 30).map(o =>
+    `- EO ${o.executive_order_number}: ${o.title} (${o.president.name})`
+  ).join('\n');
+
+  return `
+THEME: ${themeName}
+TOTAL EXECUTIVE ORDERS: ${orders.length}
+
+ORDERS BY PRESIDENT:
+${presidentSummaries}
+
+POPULATIONS AIMED TO POSITIVELY IMPACT:
+${positivePopulations.map(p => `- ${p.name}: ${p.count} orders`).join('\n')}
+
+POPULATIONS AIMED TO NEGATIVELY IMPACT:
+${negativePopulations.map(p => `- ${p.name}: ${p.count} orders`).join('\n')}
+
+SAMPLE ORDER TITLES:
+${orderTitles}
+
+NOTABLE CONCERNS RAISED:
+${concerns.slice(0, 15).map(c => `- ${c}`).join('\n')}
+`.trim();
+}
+
+/**
+ * Generate theme narrative using OpenAI
+ */
+async function generateThemeNarrativeWithLLM(
+  openai: OpenAI,
+  context: string,
+  themeName: string,
+  orderCount: number
+): Promise<{ summary: string; potential_impact: string }> {
+  const systemPrompt = `You are a political analyst writing concise summaries of executive orders by theme.
+
+Guidelines:
+- Be direct and dense with information - no filler words or fluff
+- Factual and neutral tone
+- Use specific numbers
+- Explain what this theme covers and how different presidents have approached it
+- When discussing impacted populations, use language like "aimed to positively impact" or "aimed to negatively impact" rather than presuming actual outcomes
+
+You must return a JSON object with two fields:
+1. "summary" - One paragraph (60-100 words) summarizing the theme, which presidents signed orders on it, the number of orders, and a synthesis of key executive order titles
+2. "potential_impact" - One paragraph (60-100 words) describing which populations are aimed to be positively or negatively impacted and any key concerns raised
+
+Example format:
+{"summary": "Summary paragraph here.", "potential_impact": "Potential impact paragraph here."}`;
+
+  const userPrompt = `Analyze the ${orderCount} executive orders tagged with the "${themeName}" theme based on this data:
+
+${context}
+
+Return JSON with "summary" and "potential_impact" fields:`;
+
+  const response = await openai.chat.completions.create({
+    model: OPENAI_MODEL,
+    messages: [
+      { role: 'system', content: systemPrompt },
+      { role: 'user', content: userPrompt }
+    ],
+    temperature: 0.7,
+    max_completion_tokens: 400,
+    response_format: { type: 'json_object' }
+  });
+
+  return parseSummaryImpactResponse(response.choices[0]?.message?.content?.trim() || '{}');
+}
+
+/**
+ * Load existing theme narratives file
+ */
+async function loadExistingThemeNarratives(): Promise<ThemeNarrativesFile | null> {
+  try {
+    const filePath = join(AGGREGATED_DIR, 'theme-narratives.json');
+    const content = await readFile(filePath, 'utf-8');
+    return JSON.parse(content);
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Generate theme narratives
+ */
+export async function generateThemeNarratives(options: {
+  theme?: string;
+  force?: boolean;
+} = {}): Promise<void> {
+  console.log(`\n=== Generating Theme Narratives ===\n`);
+
+  const openai = new OpenAI();
+
+  const orders = await loadAllEnriched();
+  console.log(`Loaded ${orders.length} enriched orders`);
+
+  if (orders.length === 0) {
+    console.log('No enriched orders found. Run enrich first.');
+    return;
+  }
+
+  const themes = await loadThemes();
+  const populations = await loadPopulations();
+
+  // Load existing narratives to support incremental generation
+  const existingFile = await loadExistingThemeNarratives();
+  const existingNarratives = existingFile?.narratives || [];
+  const existingKeys = new Set(existingNarratives.map(n => n.theme_id));
+
+  // Group orders by theme
+  const byTheme = new Map<string, EnrichedExecutiveOrder[]>();
+  for (const order of orders) {
+    for (const themeId of order.enrichment.theme_ids) {
+      if (!byTheme.has(themeId)) {
+        byTheme.set(themeId, []);
+      }
+      byTheme.get(themeId)!.push(order);
+    }
+  }
+
+  // Filter to specific theme if provided
+  const themeIds = options.theme
+    ? Array.from(byTheme.keys()).filter(id => id.includes(options.theme!.toLowerCase()))
+    : Array.from(byTheme.keys());
+
+  if (themeIds.length === 0) {
+    console.log('No themes match the specified criteria.');
+    return;
+  }
+
+  // Sort themes by order count descending
+  themeIds.sort((a, b) => (byTheme.get(b)?.length || 0) - (byTheme.get(a)?.length || 0));
+
+  const newNarratives: ThemeNarrative[] = [];
+  let skipped = 0;
+
+  for (const themeId of themeIds) {
+    // Skip if already exists (unless force)
+    if (!options.force && existingKeys.has(themeId)) {
+      skipped++;
+      continue;
+    }
+
+    const themeOrders = byTheme.get(themeId)!;
+    const theme = themes.themes.find(t => t.id === themeId);
+    const themeName = theme?.name || themeId;
+
+    // Skip themes with very few orders
+    if (themeOrders.length < 2) {
+      continue;
+    }
+
+    console.log(`\nGenerating narrative for "${themeName}"...`);
+    console.log(`  ${themeOrders.length} orders to analyze`);
+
+    // Count orders by president
+    const orderCountByPresident = new Map<string, { name: string; count: number }>();
+    for (const order of themeOrders) {
+      const id = order.president.identifier;
+      if (!orderCountByPresident.has(id)) {
+        orderCountByPresident.set(id, { name: order.president.name, count: 0 });
+      }
+      orderCountByPresident.get(id)!.count++;
+    }
+
+    const presidents = Array.from(orderCountByPresident.entries())
+      .sort((a, b) => b[1].count - a[1].count)
+      .map(([id, data]) => ({
+        president_id: id,
+        president_name: data.name,
+        order_count: data.count
+      }));
+
+    const context = buildThemeContext(themeOrders, themeName, populations);
+
+    const charCount = context.length;
+    const estimatedTokens = Math.ceil(charCount / 4);
+    console.log(`  Context: ${charCount.toLocaleString()} chars, ~${estimatedTokens.toLocaleString()} tokens`);
+
+    const { summary, potential_impact } = await generateThemeNarrativeWithLLM(
+      openai,
+      context,
+      themeName,
+      themeOrders.length
+    );
+
+    const wordCount = summary.split(' ').length + potential_impact.split(' ').length;
+    console.log(`  Generated summary + impact, ${wordCount} words`);
+
+    newNarratives.push({
+      theme_id: themeId,
+      theme_name: themeName,
+      order_count: themeOrders.length,
+      presidents,
+      summary,
+      potential_impact,
+      generated_at: new Date().toISOString(),
+      model_used: OPENAI_MODEL
+    });
+  }
+
+  if (skipped > 0) {
+    console.log(`\nSkipped ${skipped} themes (already generated, use --force to regenerate)`);
+  }
+
+  // Merge with existing narratives
+  const allNarratives = [...existingNarratives];
+
+  for (const newNarrative of newNarratives) {
+    const existingIndex = allNarratives.findIndex(n => n.theme_id === newNarrative.theme_id);
+    if (existingIndex >= 0) {
+      allNarratives[existingIndex] = newNarrative;
+    } else {
+      allNarratives.push(newNarrative);
+    }
+  }
+
+  // Sort by order count descending
+  allNarratives.sort((a, b) => b.order_count - a.order_count);
+
+  const output: ThemeNarrativesFile = {
+    narratives: allNarratives,
+    generated_at: new Date().toISOString()
+  };
+
+  await writeJson(join(AGGREGATED_DIR, 'theme-narratives.json'), output);
+  console.log(`\nSaved ${allNarratives.length} theme narratives to theme-narratives.json`);
+  if (newNarratives.length > 0) {
+    console.log(`  (${newNarratives.length} newly generated)`);
+  }
+
+  console.log('\nDone!');
+}
+
+// =============================================================================
 // MAIN ENTRY POINT
 // =============================================================================
 
-export type NarrativeType = 'term' | 'monthly' | 'all';
+export type NarrativeType = 'term' | 'monthly' | 'theme' | 'all';
 
 export interface GenerateNarrativesOptions {
   type?: NarrativeType;
   president?: string;
   year?: number;
   month?: number;
+  theme?: string;
   force?: boolean;
 }
 
@@ -751,6 +1108,7 @@ export async function generateNarratives(options: GenerateNarrativesOptions = {}
   if (type === 'term' || type === 'all') {
     await generateTermNarratives({
       president: options.president,
+      year: options.year,
       force: options.force
     });
   }
@@ -759,6 +1117,13 @@ export async function generateNarratives(options: GenerateNarrativesOptions = {}
     await generateMonthlyNarratives({
       year: options.year,
       month: options.month,
+      force: options.force
+    });
+  }
+
+  if (type === 'theme' || type === 'all') {
+    await generateThemeNarratives({
+      theme: options.theme,
       force: options.force
     });
   }

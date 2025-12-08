@@ -1,0 +1,43 @@
+{
+  "document_number": "2024-16225",
+  "executive_order_number": "14124",
+  "title": "White House Initiative on Advancing Educational Equity, Excellence, and Economic Opportunity Through Hispanic-Serving Institutions",
+  "abstract": null,
+  "signing_date": "2024-07-17",
+  "publication_date": "2024-07-22",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2024/07/22/2024-16225/white-house-initiative-on-advancing-educational-equity-excellence-and-economic-opportunity-through",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-07-22/pdf/2024-16225.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/07/22/2024-16225.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a White House Initiative to support Hispanic-Serving Institutions (HSIs) by increasing their access to federal resources, improving educational equity and economic opportunities for Hispanic and Latino students, and creating a presidential advisory board to guide federal policies benefitting these institutions. The initiative aims to strengthen HSIs’ capacity to serve their communities and ensure students can succeed academically and economically.",
+    "theme_ids": [
+      "education-policy",
+      "workforce-development",
+      "economic-development",
+      "advisory-committees-management"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "hispanic-serving-institutions",
+        "hispanic-and-latino-students"
+      ],
+      "negative_ids": [
+        "federal-agencies",
+        "non-hispanic-serving-institutions"
+      ]
+    },
+    "potential_concerns": [
+      "The focus on HSIs may lead to funding and resource shifts that unintentionally reduce support for non-HSI institutions, creating competition or resentment.",
+      "Coordination across multiple federal agencies could complicate implementation and delay impact due to bureaucratic challenges.",
+      "Without sustained and increased appropriations, the Initiative’s goals may be difficult to achieve, limiting meaningful improvements for HSIs.",
+      "Establishing advisory boards and new administrative structures may increase federal administrative costs without clear accountability or measurable outcomes.",
+      "Efforts to align HSI programs with national economic needs might pressure institutions to prioritize workforce demands over broader educational goals."
+    ],
+    "enriched_at": "2025-12-08T18:00:58.012Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

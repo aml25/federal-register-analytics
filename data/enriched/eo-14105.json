@@ -1,0 +1,45 @@
+{
+  "document_number": "2023-17449",
+  "executive_order_number": "14105",
+  "title": "Addressing United States Investments in Certain National Security Technologies and Products in Countries of Concern",
+  "abstract": null,
+  "signing_date": "2023-08-09",
+  "publication_date": "2023-08-11",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/08/11/2023-17449/addressing-united-states-investments-in-certain-national-security-technologies-and-products-in",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-08-11/pdf/2023-17449.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/08/11/2023-17449.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Treasury Secretary to create rules requiring U.S. persons to report certain investments involving sensitive national security technologies in designated ‘countries of concern’ and prohibits transactions that could aid these countries' military and intelligence capabilities. It aims to prevent U.S. investments from unintentionally strengthening foreign adversaries’ critical technologies like semiconductors, AI, and quantum information technologies, by regulating and monitoring outbound financial flows and applying national security controls.",
+    "theme_ids": [
+      "national-security",
+      "foreign-policy",
+      "financial-regulation",
+      "technology-development",
+      "artificial-intelligence"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "federal-agencies"
+      ],
+      "negative_ids": [
+        "foreign-entities-in-countries-of-concern",
+        "tech-industry",
+        "foreign-investors-in-countries-of-concern"
+      ]
+    },
+    "potential_concerns": [
+      "The order could impose significant compliance burdens and regulatory uncertainties on U.S. companies and investors involved in cross-border transactions.",
+      "There is a risk of retaliatory economic or diplomatic actions by countries of concern in response to investment restrictions.",
+      "Broad definitions of sensitive technologies might inadvertently hinder legitimate scientific collaboration and commercial innovation.",
+      "The effectiveness of the regulations depends heavily on interagency coordination and enforcement capabilities, which may be challenging to sustain.",
+      "Ambiguities in the scope of prohibited versus notifiable transactions could create legal uncertainty and complicate business planning."
+    ],
+    "enriched_at": "2025-12-08T18:07:53.045Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

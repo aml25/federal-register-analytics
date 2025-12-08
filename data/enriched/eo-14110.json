@@ -1,0 +1,64 @@
+{
+  "document_number": "2023-24283",
+  "executive_order_number": "14110",
+  "title": "Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence",
+  "abstract": null,
+  "signing_date": "2023-10-30",
+  "publication_date": "2023-11-01",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-11-01/pdf/2023-24283.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/11/01/2023-24283.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to promote the safe, secure, and responsible development and use of artificial intelligence (AI), while advancing innovation, protecting civil rights, supporting workers, and increasing AI talent in government. It establishes comprehensive guidelines, reporting requirements for powerful AI models, and international collaboration to manage AI risks and benefits across sectors including national security, healthcare, and critical infrastructure.",
+    "theme_ids": [
+      "artificial-intelligence",
+      "national-security",
+      "federal-workforce",
+      "consumer-protection",
+      "civil-rights-enforcement",
+      "education-policy",
+      "foreign-policy",
+      "federal-agency-management",
+      "technology-development",
+      "data-governance",
+      "workforce-development",
+      "privacy-and-data-security",
+      "advisory-committees-management"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "tech-industry",
+        "academic-institutions",
+        "small-business-owners",
+        "military-veterans",
+        "scientific-researchers",
+        "underserved-communities",
+        "diverse-student-populations",
+        "education-administrators"
+      ],
+      "negative_ids": [
+        "privacy-and-data-security",
+        "small-federal-contractors",
+        "foreign-entities-in-countries-of-concern",
+        "federal-agencies",
+        "tech-industry",
+        "small-business-owners",
+        "privacy-and-data-security"
+      ]
+    },
+    "potential_concerns": [
+      "Reporting and compliance requirements for AI developers and infrastructure providers may impose significant regulatory burdens on private-sector companies and smaller firms.",
+      "Efforts to enhance AI safety and security, particularly involving dual-use foundation models, may slow innovation or restrict access to AI capabilities.",
+      "Enhancing government hiring and training for AI talent may strain existing federal HR resources and require complex coordination across agencies.",
+      "International coordination on AI standards may face challenges due to differing national interests and technological capabilities.",
+      "Balancing AI innovation with civil rights protections could create legal and ethical complexities, especially in areas like criminal justice or consumer protections."
+    ],
+    "enriched_at": "2025-12-08T18:07:02.121Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
