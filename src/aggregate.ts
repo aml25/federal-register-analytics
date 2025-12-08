@@ -65,13 +65,56 @@ async function loadAllEnriched(): Promise<EnrichedExecutiveOrder[]> {
 }
 
 /**
+ * Official presidential term dates (inauguration dates)
+ * Used to correctly label term boundaries regardless of available data
+ */
+const OFFICIAL_TERMS: Record<string, { start: string; end: string | null }[]> = {
+  'donald-trump': [
+    { start: '2017-01-20', end: '2021-01-20' },
+    { start: '2025-01-20', end: null } // Current term
+  ],
+  'joe-biden': [
+    { start: '2021-01-20', end: '2025-01-20' }
+  ],
+  'barack-obama': [
+    { start: '2009-01-20', end: '2017-01-20' }
+  ],
+  'george-w-bush': [
+    { start: '2001-01-20', end: '2009-01-20' }
+  ],
+  'bill-clinton': [
+    { start: '1993-01-20', end: '2001-01-20' }
+  ]
+};
+
+/**
+ * Find which official term a date falls into
+ */
+function findOfficialTerm(
+  presidentId: string,
+  date: string
+): { start: string; end: string | null } | null {
+  const terms = OFFICIAL_TERMS[presidentId];
+  if (!terms) return null;
+
+  const d = new Date(date);
+  for (const term of terms) {
+    const start = new Date(term.start);
+    const end = term.end ? new Date(term.end) : new Date('2099-12-31');
+    if (d >= start && d < end) {
+      return term;
+    }
+  }
+  return null;
+}
+
+/**
  * Dynamically determine presidential terms from enriched orders
- * Detects term boundaries by looking for gaps of 2+ years between orders
+ * Uses official term dates when available, falls back to detection
  */
 function detectPresidentTerms(
   orders: EnrichedExecutiveOrder[]
 ): Map<string, { start: number; end: number | null; name: string }[]> {
-  const currentYear = new Date().getFullYear();
   const byPresident = new Map<string, EnrichedExecutiveOrder[]>();
 
   // Group orders by president
@@ -86,47 +129,77 @@ function detectPresidentTerms(
   const terms = new Map<string, { start: number; end: number | null; name: string }[]>();
 
   for (const [presidentId, presOrders] of byPresident) {
-    // Sort by signing date
-    presOrders.sort((a, b) =>
-      new Date(a.signing_date).getTime() - new Date(b.signing_date).getTime()
-    );
-
     const presidentName = presOrders[0].president.name;
-    const presTerms: { start: number; end: number | null; name: string }[] = [];
-    let currentTermStart: number | null = null;
-    let lastYear: number | null = null;
 
-    for (const order of presOrders) {
-      const year = new Date(order.signing_date).getFullYear();
+    // Check if we have official term data
+    if (OFFICIAL_TERMS[presidentId]) {
+      // Group orders by official term
+      const termMap = new Map<string, EnrichedExecutiveOrder[]>();
 
-      if (currentTermStart === null) {
-        // First order - start a new term
-        currentTermStart = year;
-      } else if (lastYear !== null && year - lastYear > 2) {
-        // Gap detected - close previous term and start new one
-        presTerms.push({
-          start: currentTermStart,
-          end: lastYear + 1, // Term ended year after last order
-          name: presidentName
-        });
-        currentTermStart = year;
+      for (const order of presOrders) {
+        const officialTerm = findOfficialTerm(presidentId, order.signing_date);
+        if (officialTerm) {
+          const key = officialTerm.start;
+          if (!termMap.has(key)) {
+            termMap.set(key, []);
+          }
+          termMap.get(key)!.push(order);
+        }
       }
 
-      lastYear = year;
-    }
+      // Create term entries only for terms that have orders
+      const presTerms: { start: number; end: number | null; name: string }[] = [];
+      for (const [termStart, _termOrders] of termMap) {
+        const officialTerm = OFFICIAL_TERMS[presidentId].find(t => t.start === termStart)!;
+        presTerms.push({
+          start: new Date(officialTerm.start).getFullYear(),
+          end: officialTerm.end ? new Date(officialTerm.end).getFullYear() : null,
+          name: presidentName
+        });
+      }
 
-    // Close final term
-    if (currentTermStart !== null && lastYear !== null) {
-      // If last order was this year or last year, term is ongoing
-      const isOngoing = currentYear - lastYear <= 1;
-      presTerms.push({
-        start: currentTermStart,
-        end: isOngoing ? null : lastYear + 1,
-        name: presidentName
-      });
-    }
+      // Sort by start year
+      presTerms.sort((a, b) => a.start - b.start);
+      terms.set(presidentId, presTerms);
+    } else {
+      // Fallback: detect terms from order gaps (for unknown presidents)
+      presOrders.sort((a, b) =>
+        new Date(a.signing_date).getTime() - new Date(b.signing_date).getTime()
+      );
 
-    terms.set(presidentId, presTerms);
+      const presTerms: { start: number; end: number | null; name: string }[] = [];
+      let currentTermStart: number | null = null;
+      let lastYear: number | null = null;
+      const currentYear = new Date().getFullYear();
+
+      for (const order of presOrders) {
+        const year = new Date(order.signing_date).getFullYear();
+
+        if (currentTermStart === null) {
+          currentTermStart = year;
+        } else if (lastYear !== null && year - lastYear > 2) {
+          presTerms.push({
+            start: currentTermStart,
+            end: lastYear + 1,
+            name: presidentName
+          });
+          currentTermStart = year;
+        }
+
+        lastYear = year;
+      }
+
+      if (currentTermStart !== null && lastYear !== null) {
+        const isOngoing = currentYear - lastYear <= 1;
+        presTerms.push({
+          start: currentTermStart,
+          end: isOngoing ? null : lastYear + 1,
+          name: presidentName
+        });
+      }
+
+      terms.set(presidentId, presTerms);
+    }
   }
 
   return terms;
@@ -209,11 +282,28 @@ function generateTermSummaries(
 
   for (const [presidentId, presTerms] of terms) {
     for (const term of presTerms) {
+      // Filter orders that belong to this term
+      // Use official term dates if available for accurate filtering
+      const officialTerms = OFFICIAL_TERMS[presidentId];
+      const officialTerm = officialTerms?.find(t =>
+        new Date(t.start).getFullYear() === term.start
+      );
+
       const termOrders = orders.filter(o => {
         if (o.president.identifier !== presidentId) return false;
-        const year = new Date(o.signing_date).getFullYear();
-        const endYear = term.end || new Date().getFullYear() + 1;
-        return year >= term.start && year < endYear;
+
+        if (officialTerm) {
+          // Use exact dates for known presidents
+          const orderDate = new Date(o.signing_date);
+          const startDate = new Date(officialTerm.start);
+          const endDate = officialTerm.end ? new Date(officialTerm.end) : new Date('2099-12-31');
+          return orderDate >= startDate && orderDate < endDate;
+        } else {
+          // Fallback to year-based filtering
+          const year = new Date(o.signing_date).getFullYear();
+          const endYear = term.end || new Date().getFullYear() + 1;
+          return year >= term.start && year < endYear;
+        }
       });
 
       if (termOrders.length === 0) continue;
@@ -221,9 +311,11 @@ function generateTermSummaries(
       const topThemes = countThemes(termOrders, themeRegistry).slice(0, 5);
       const presidentName = term.name;
       const termEnd = term.end || 'present';
+      const isPastTerm = term.end !== null;
 
       const themeNames = topThemes.slice(0, 5).map(t => t.name.toLowerCase()).join(', ');
-      const shortSummary = `${presidentName} signed ${termOrders.length} executive order${termOrders.length !== 1 ? 's' : ''} from ${term.start} until ${termEnd}. The top themes have been: ${themeNames}.`;
+      const themeVerb = isPastTerm ? 'were' : 'have been';
+      const shortSummary = `${presidentName} signed ${termOrders.length} executive order${termOrders.length !== 1 ? 's' : ''} from ${term.start} until ${termEnd}. The top themes ${themeVerb}: ${themeNames}.`;
 
       summaries.push({
         president_id: presidentId,
@@ -373,4 +465,4 @@ export async function aggregate(options: { president?: string } = {}): Promise<v
 }
 
 // Export helpers for use in narratives.ts
-export { loadAllEnriched, detectPresidentTerms, getTermKey, countThemes, formatThemeList };
+export { loadAllEnriched, detectPresidentTerms, getTermKey, countThemes, formatThemeList, OFFICIAL_TERMS };

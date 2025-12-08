@@ -92,21 +92,36 @@ Aggregated data is saved to `data/aggregated/`:
 
 ### 4. Generate Narratives (Optional)
 
-Generate LLM-powered narrative summaries for each presidential term. This step uses the OpenAI API and may incur costs:
+Generate LLM-powered narrative summaries for presidential terms and monthly periods. This step uses the OpenAI API and may incur costs:
 
 ```bash
-# Generate narratives for all presidents
+# Generate all narratives (term + monthly)
 npm run generate-narratives
 
-# Generate narrative for a specific president
+# Generate term narratives only
+npm run generate-narratives -- --type term
+
+# Generate monthly narratives only
+npm run generate-narratives -- --type monthly
+
+# Generate monthly narratives for a specific year
+npm run generate-narratives -- --type monthly --year 2025
+
+# Generate narrative for a specific month
+npm run generate-narratives -- --type monthly --year 2025 --month 3
+
+# Filter by president (term narratives only)
 npm run generate-narratives -- --president trump
+
+# Force regeneration (skip incremental checks)
+npm run generate-narratives -- --force
 ```
 
-Output is saved to `data/aggregated/narratives.json` with 1-3 paragraph summaries covering:
-- Order count and main themes
-- Temporal trends (how focus shifted over time)
-- Most impacted populations (positive and negative)
-- Notable concerns
+Outputs:
+- `data/aggregated/narratives.json` - Term narratives with 2-3 paragraph summaries covering order count, main themes, temporal trends, impacted populations, and notable concerns
+- `data/aggregated/monthly-narratives.json` - Monthly narratives with 1-2 paragraph summaries for each month
+
+Monthly narratives support incremental generation - only new months are processed unless `--force` is used.
 
 ## Data Structure
 
