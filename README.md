@@ -200,6 +200,21 @@ node server.js
 
 Then open http://localhost:3000 in your browser.
 
+#### API Security
+
+The API automatically enforces **same-origin requests only**. This means:
+- Your frontend at `whatgotsigned.com` can call `whatgotsigned.com/api/*` ✓
+- Your local dev at `localhost:3000` can call `localhost:3000/api/*` ✓
+- Another site at `evil-site.com` trying to call your API → blocked ✗
+
+No configuration needed - it works automatically in both development and production.
+
+**Adding extra allowed origins** (optional): If you need to allow additional domains (e.g., an admin dashboard on a different subdomain), set the `ALLOWED_ORIGINS` environment variable:
+
+```bash
+ALLOWED_ORIGINS=https://admin.whatgotsigned.com node server.js
+```
+
 ## Data Structure
 
 ### Theme Registry (`data/themes.json`)
@@ -292,7 +307,12 @@ federal-register-analytics/
 │       └── pipeline.ts
 ├── what-got-signed/    # Web frontend
 │   ├── server.js       # Express server
-│   └── public/         # Static HTML, CSS, JS
+│   ├── views/          # EJS templates
+│   │   ├── partials/   # Reusable header, footer, head
+│   │   ├── index.ejs
+│   │   ├── detail.ejs
+│   │   └── definitions.ejs
+│   └── public/         # Static CSS, JS, images
 ├── data/
 │   ├── themes.json     # Theme registry (committed)
 │   ├── populations.json # Population registry (committed)

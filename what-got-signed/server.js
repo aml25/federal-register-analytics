@@ -7,7 +7,48 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, '..', 'data');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
+
+// Additional allowed origins (optional, comma-separated)
+// Use this to allow extra domains beyond same-origin, e.g., for admin dashboards
+const EXTRA_ALLOWED_ORIGINS = process.env.ALLOWED_ORIGINS
+  ? process.env.ALLOWED_ORIGINS.split(',').map(o => o.trim())
+  : [];
+
+// Middleware to restrict API access to same-origin requests (plus any extra allowed origins)
+function restrictApiOrigin(req, res, next) {
+  const origin = req.get('Origin');
+  const referer = req.get('Referer');
+  const host = req.get('Host');
+
+  // No Origin header = same-origin request (browsers don't send Origin for same-origin)
+  // This covers normal page loads and same-origin fetch/XHR
+  if (!origin) {
+    return next();
+  }
+
+  // Check if Origin matches the Host (same-origin)
+  // Origin format: "https://example.com" or "http://localhost:3000"
+  // Host format: "example.com" or "localhost:3000"
+  try {
+    const originUrl = new URL(origin);
+    if (originUrl.host === host) {
+      return next();
+    }
+  } catch (e) {
+    // Invalid origin URL, reject
+  }
+
+  // Check against extra allowed origins (if configured)
+  if (EXTRA_ALLOWED_ORIGINS.length > 0) {
+    if (EXTRA_ALLOWED_ORIGINS.some(allowed => origin.startsWith(allowed))) {
+      return next();
+    }
+  }
+
+  // Reject cross-origin requests from unauthorized origins
+  res.status(403).json({ error: 'Access denied: cross-origin request not allowed' });
+}
 
 // Set up EJS as the view engine
 app.set('view engine', 'ejs');
@@ -28,6 +69,9 @@ app.get('/definitions', (req, res) => {
 
 // Serve static files (CSS, JS, images)
 app.use(express.static(join(__dirname, 'public')));
+
+// Apply origin restriction to all API routes
+app.use('/api', restrictApiOrigin);
 
 // API: Get term summaries
 app.get('/api/term-summaries', async (req, res) => {
