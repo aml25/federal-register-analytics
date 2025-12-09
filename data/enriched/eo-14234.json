@@ -21,9 +21,13 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "domestic-tourists",
+        "national-park-visitors",
+        "state-and-local-governments"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "foreign-tourists"
+      ]
     },
     "potential_concerns": [
       "The coordination across many federal agencies may lead to bureaucratic delays or overlapping responsibilities.",
@@ -32,7 +36,7 @@
       "There could be insufficient communication with local and state governments or private sector stakeholders involved in the event.",
       "The task force’s termination date could be prematurely set, not allowing sufficient time for post-event evaluations or legacy planning."
     ],
-    "enriched_at": "2025-12-06T07:00:45.081Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:42:05.283Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -27,26 +27,13 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "military-veterans",
-        "american-workers",
-        "small-business-owners",
-        "tribal-nations",
-        "military-connected-families",
-        "older-women",
-        "women-and-girls",
-        "women-of-color",
-        "rural-communities",
-        "americorps-alumni",
-        "education-administrators",
         "family-caregivers",
-        "care-workforce"
+        "care-workforce",
+        "military-connected-families"
       ],
       "negative_ids": [
-        "non-union-workers",
         "private-sector-employers",
-        "non-military-spouse-job-seekers",
-        "federal-budget-stakeholders"
+        "non-military-spouse-job-seekers"
       ]
     },
     "potential_concerns": [
@@ -56,7 +43,7 @@
       "Care providers in private sectors could face higher regulatory or financial burdens as agencies require more documentation or compliance.",
       "Without adequate long-term funding commitments from Congress, many initiatives directed in this order risk being underfunded or delayed."
     ],
-    "enriched_at": "2025-12-08T18:09:08.976Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:37:35.938Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

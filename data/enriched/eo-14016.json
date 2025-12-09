@@ -1,0 +1,39 @@
+{
+  "document_number": "2021-03874",
+  "executive_order_number": "14016",
+  "title": "Revocation of Executive Order 13801",
+  "abstract": null,
+  "signing_date": "2021-02-17",
+  "publication_date": "2021-02-23",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/02/23/2021-03874/revocation-of-executive-order-13801",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-02-23/pdf/2021-03874.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/02/23/2021-03874.txt",
+  "enrichment": {
+    "summary": "This executive order officially cancels Executive Order 13801, which focused on expanding apprenticeships in America. It directs federal agencies to dismantle any rules, policies, or groups created to implement that earlier order, ensuring those efforts are stopped promptly and legally.",
+    "theme_ids": [
+      "federal-agency-management",
+      "regulatory-reform",
+      "workforce-development"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "private-sector-rivals"
+      ],
+      "negative_ids": [
+        "federal-employees"
+      ]
+    },
+    "potential_concerns": [
+      "Revoking apprenticeship expansion efforts could slow workforce skill development and reduce opportunities for job training programs.",
+      "Federal agencies may face implementation challenges in promptly rescinding rules and dissolving established committees or task forces.",
+      "Stakeholders invested in apprenticeship programs might view this revocation as undermining workforce development priorities.",
+      "The order’s broad language could create uncertainty about which policies or actions should be rescinded, complicating agency compliance."
+    ],
+    "enriched_at": "2025-12-09T03:56:26.790Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

@@ -21,12 +21,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "federal-employees"
+        "law-firm-employees",
+        "federal-contractors"
       ],
       "negative_ids": [
-        "private-sector-rivals",
-        "law-firm-employees"
+        "law-firm-clients",
+        "foreign-suppliers"
       ]
     },
     "potential_concerns": [
@@ -36,7 +36,7 @@
       "The criteria for determining disqualifying conduct may be viewed as vague or subjective, leading to inconsistent application across agencies.",
       "Potential negative impacts on employees of Susman Godfrey who may have no direct involvement in the problematic activities identified."
     ],
-    "enriched_at": "2025-12-06T06:57:56.215Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:43:33.375Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

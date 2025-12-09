@@ -21,8 +21,7 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "government-service-users",
+        "tech-industry",
         "design-professionals"
       ],
       "negative_ids": []
@@ -34,7 +33,7 @@
       "The temporary nature of the National Design Studio may lead to loss of momentum or discontinuity after three years.",
       "Ensuring compliance with existing laws like the 21st Century Integrated Digital Experience Act could complicate implementation timelines."
     ],
-    "enriched_at": "2025-12-06T06:50:20.586Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:47:23.654Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -21,12 +21,13 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "american-youth",
-        "education-administrators",
+        "tech-industry",
         "academic-institutions",
-        "tech-industry"
+        "students-and-educators"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "private-sector-rivals"
+      ]
     },
     "potential_concerns": [
       "The order relies heavily on coordination across multiple agencies and private partners, which may result in slow or uneven implementation.",
@@ -35,7 +36,7 @@
       "Emphasis on AI skills could inadvertently de-prioritize other essential areas of education if not balanced carefully.",
       "Privacy and ethical concerns related to deploying AI technologies broadly in educational settings are not addressed in the order."
     ],
-    "enriched_at": "2025-12-06T06:56:25.826Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:44:17.300Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

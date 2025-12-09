@@ -21,8 +21,7 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "federal-employees"
+        "faith-based-organizations"
       ],
       "negative_ids": [
         "reproductive-rights-advocates",
@@ -36,7 +35,7 @@
       "Agencies might face challenges in identifying and eliminating all programs where federal funds indirectly support elective abortion.",
       "Critics may argue the order politicizes healthcare and reduces reproductive rights protections."
     ],
-    "enriched_at": "2025-12-06T07:05:58.924Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:39:41.946Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

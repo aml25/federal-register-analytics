@@ -23,15 +23,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "state-and-local-law-enforcement"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
-        "mexico",
         "terrorist-organizations",
-        "citizens-in-affected-communities",
-        "regional-stability-actors"
+        "undocumented-immigrants"
       ]
     },
     "potential_concerns": [
@@ -41,7 +37,7 @@
       "There is risk of straining diplomatic relations with neighboring countries, especially Mexico, due to cross-border enforcement and sovereignty concerns.",
       "The broad application of immigration enforcement provisions could adversely affect the rights and due process of individuals accused or affiliated with these groups."
     ],
-    "enriched_at": "2025-12-06T07:08:36.198Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:38:24.598Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

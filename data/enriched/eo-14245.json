@@ -22,13 +22,9 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "terrorist-organizations"
+        "american-businesses"
       ],
       "negative_ids": [
-        "china",
-        "undocumented-immigrants",
-        "foreign-nationals-engaged-in-desecration",
         "countries-importing-venezuelan-oil"
       ]
     },
@@ -39,7 +35,7 @@
       "Countries and companies attempting to evade tariffs through transshipment or reclassification may undermine the policy’s effectiveness.",
       "Targeting China and its special administrative regions could strain diplomatic relations and complicate broader U.S.-China economic engagement."
     ],
-    "enriched_at": "2025-12-06T06:59:38.937Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:42:35.108Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

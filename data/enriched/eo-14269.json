@@ -26,15 +26,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "manufacturing-workers",
-        "military-veterans",
-        "commercial-fishermen",
-        "seafood-industry",
-        "academic-institutions"
+        "maritime-industry-workers",
+        "manufacturing-workers"
       ],
       "negative_ids": [
-        "private-sector-rivals",
+        "foreign-manufacturers",
         "china"
       ]
     },
@@ -45,7 +41,7 @@
       "Expansion of incentives and subsidies might disadvantage smaller or non-participating shipbuilders, consolidating market power among larger actors.",
       "Deregulatory initiatives could reduce environmental and safety standards, leading to potential negative impacts on maritime workers and ecosystems."
     ],
-    "enriched_at": "2025-12-06T06:57:19.539Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:43:48.661Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -21,11 +21,11 @@
     "impacted_populations": {
       "positive_ids": [
         "federal-agencies",
-        "federal-employees"
+        "independent-regulatory-agencies"
       ],
       "negative_ids": [
-        "independent-regulatory-agencies",
-        "independent-regulatory-agencies"
+        "foreign-suppliers",
+        "regulated-entities"
       ]
     },
     "potential_concerns": [
@@ -35,7 +35,7 @@
       "Independent agencies may encounter difficulties balancing agency missions with new presidential priorities and restrictions.",
       "Regular performance evaluations and budgetary controls could politicize agency functions and affect long-term policy consistency."
     ],
-    "enriched_at": "2025-12-06T07:02:38.934Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:41:09.014Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -23,13 +23,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "us-persons-with-sensitive-data"
+        "us-persons-with-sensitive-data",
+        "data-brokerage-industry"
       ],
       "negative_ids": [
-        "foreign-entities-in-countries-of-concern",
-        "data-brokerage-industry",
-        "us-data-service-providers"
+        "foreign-entities-in-countries-of-concern"
       ]
     },
     "potential_concerns": [
@@ -39,7 +37,7 @@
       "There is a risk of overreach or ambiguity in defining 'bulk sensitive personal data' thresholds, causing uncertainty for regulated entities.",
       "Balancing national security with privacy, economic interests, and open data policies may result in policy conflicts and enforcement difficulties."
     ],
-    "enriched_at": "2025-12-08T18:01:55.731Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:35:34.031Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

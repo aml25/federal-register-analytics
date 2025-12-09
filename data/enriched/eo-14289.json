@@ -21,13 +21,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "federal-employees",
+        "small-importers",
+        "international-shippers",
         "manufacturing-workers"
       ],
       "negative_ids": [
-        "small-importers",
-        "international-shippers"
+        "foreign-manufacturers"
       ]
     },
     "potential_concerns": [
@@ -37,7 +36,7 @@
       "Complex coordination among multiple agencies to update systems and guidance within a short timeframe could lead to inconsistent application.",
       "The order may create confusion about how tariffs interact with others not listed, possibly causing legal or enforcement ambiguities."
     ],
-    "enriched_at": "2025-12-06T06:55:14.533Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:44:49.025Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

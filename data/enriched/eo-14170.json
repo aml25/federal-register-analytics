@@ -22,10 +22,9 @@
     "impacted_populations": {
       "positive_ids": [
         "federal-employees",
-        "federal-agencies"
+        "government-service-users"
       ],
       "negative_ids": [
-        "displaced-federal-workers",
         "individuals-impacted-by-race-and-equity-policy-restrictions"
       ]
     },
@@ -36,7 +35,7 @@
       "Implementation challenges may arise from coordinating multiple agencies and integrating new technical assessments and technologies within tight timelines.",
       "The order’s framing and explicit language rejecting equity and gender identity policies could generate legal challenges or employee morale issues."
     ],
-    "enriched_at": "2025-12-06T07:07:16.176Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:39:02.062Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

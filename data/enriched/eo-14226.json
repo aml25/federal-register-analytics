@@ -20,12 +20,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "federal-employees"
-      ],
-      "negative_ids": [
         "small-importers",
         "international-shippers"
+      ],
+      "negative_ids": [
+        "postal-carriers",
+        "substance-use-disorder-affected-populations"
       ]
     },
     "potential_concerns": [
@@ -35,7 +35,7 @@
       "The order’s reliance on Secretary of Commerce notifications may create delays or political influence in tariff implementation decisions.",
       "Increased tariffs and enforcement might indirectly impact consumers through higher prices or reduced availability of certain cross-border goods."
     ],
-    "enriched_at": "2025-12-06T07:01:30.650Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:41:44.874Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

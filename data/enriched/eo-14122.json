@@ -22,8 +22,8 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies"
+        "federal-agencies",
+        "public-health-workers"
       ],
       "negative_ids": [
         "displaced-federal-workers"
@@ -36,7 +36,7 @@
       "Displaced federal workers from terminated positions may face job loss or uncertainty without clear transition plans.",
       "Coordination among diverse agencies could be challenging under a single office, risking bureaucratic delays or interagency conflict."
     ],
-    "enriched_at": "2025-12-08T18:01:11.179Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:35:52.267Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

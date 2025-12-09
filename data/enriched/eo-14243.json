@@ -22,9 +22,12 @@
     "impacted_populations": {
       "positive_ids": [
         "federal-agencies",
-        "federal-employees"
+        "state-and-local-governments"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "foreign-suppliers",
+        "independent-regulatory-agencies"
+      ]
     },
     "potential_concerns": [
       "Increased data sharing may raise privacy risks or challenges in safeguarding sensitive information.",
@@ -33,7 +36,7 @@
       "Removing information silos might inadvertently expose systems to cybersecurity vulnerabilities if not carefully managed.",
       "The order’s broad language could result in overreach or conflicts with existing confidentiality or privacy laws."
     ],
-    "enriched_at": "2025-12-06T06:59:49.788Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:42:29.885Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

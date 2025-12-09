@@ -21,8 +21,8 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "armed-forces-personnel"
+        "armed-forces-personnel",
+        "coast-guard-personnel"
       ],
       "negative_ids": []
     },
@@ -32,7 +32,7 @@
       "The order does not address how to handle disputes or appeals regarding award eligibility, which could lead to dissatisfaction among personnel.",
       "Changes to uniform wear policy could lead to confusion or noncompliance within services if not clearly communicated."
     ],
-    "enriched_at": "2025-12-08T18:00:06.677Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:36:25.538Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

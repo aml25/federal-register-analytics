@@ -22,11 +22,9 @@
     "impacted_populations": {
       "positive_ids": [
         "federal-employees",
-        "federal-agencies",
         "federal-contractors"
       ],
       "negative_ids": [
-        "federal-contractors",
         "small-federal-contractors"
       ]
     },
@@ -37,7 +35,7 @@
       "Balancing security needs with privacy and operational efficiency may prove challenging in multi-tenant federal facilities.",
       "Exceptions for intelligence agencies could create gaps or inconsistencies in security practices across federal properties."
     ],
-    "enriched_at": "2025-12-08T18:06:52.284Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:38:42.629Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

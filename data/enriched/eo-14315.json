@@ -22,8 +22,6 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "federal-employees",
         "domestic-energy-producers"
       ],
       "negative_ids": [
@@ -37,7 +35,7 @@
       "Implementation timelines of 45 days may be challenging for agencies to properly adjust complex policies and regulations.",
       "The order’s framing as reversing green energy subsidies may cause political polarization and resistance from environmental and industry stakeholders."
     ],
-    "enriched_at": "2025-12-06T06:52:43.659Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:46:04.476Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

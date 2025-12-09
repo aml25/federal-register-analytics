@@ -22,11 +22,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "hispanic-serving-institutions",
-        "hispanic-and-latino-students"
+        "hispanic-and-latino-students",
+        "hispanic-serving-institutions"
       ],
       "negative_ids": [
-        "federal-agencies",
         "non-hispanic-serving-institutions"
       ]
     },
@@ -37,7 +36,7 @@
       "Establishing advisory boards and new administrative structures may increase federal administrative costs without clear accountability or measurable outcomes.",
       "Efforts to align HSI programs with national economic needs might pressure institutions to prioritize workforce demands over broader educational goals."
     ],
-    "enriched_at": "2025-12-08T18:00:58.012Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:35:59.397Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

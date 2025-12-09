@@ -19,7 +19,7 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "armed-forces-personnel"
       ],
       "negative_ids": []
     },
@@ -30,7 +30,7 @@
       "The order's emphasis on military readiness to \"fight and win wars\" rather than just defense could shift policy priorities and provoke debate over the U.S. defense posture.",
       "Potential resistance from within the Department and from Congress regarding the renaming and related legislative actions could delay or obstruct implementation."
     ],
-    "enriched_at": "2025-12-06T06:49:25.409Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:47:48.759Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

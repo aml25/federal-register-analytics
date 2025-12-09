@@ -19,12 +19,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
-      ],
-      "negative_ids": [
         "railroad-employees",
         "labor-union-members"
-      ]
+      ],
+      "negative_ids": []
     },
     "potential_concerns": [
       "The delay caused by repeated emergency boards may prolong the labor dispute, disrupting transit services.",
@@ -33,7 +31,7 @@
       "Resource constraints could impact the board’s effectiveness in thoroughly investigating the dispute.",
       "Employers and transit riders may be negatively affected if the dispute leads to service interruptions."
     ],
-    "enriched_at": "2025-12-08T18:00:27.619Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:36:16.649Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

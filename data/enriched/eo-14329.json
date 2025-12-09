@@ -21,10 +21,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "domestic-energy-producers"
       ],
       "negative_ids": [
-        "india"
+        "india",
+        "international-shippers"
       ]
     },
     "potential_concerns": [
@@ -34,7 +35,7 @@
       "Retaliatory measures by India or other impacted countries could escalate trade tensions and harm broader economic interests.",
       "The order’s broad authority to modify tariffs based on changing circumstances may create uncertainty for affected industries and trading partners."
     ],
-    "enriched_at": "2025-12-06T06:51:17.063Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:46:45.806Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

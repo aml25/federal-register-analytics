@@ -21,12 +21,11 @@
     "impacted_populations": {
       "positive_ids": [
         "faith-based-organizations",
-        "federal-agencies",
         "religious-communities"
       ],
       "negative_ids": [
-        "religious-liberty-opponents",
-        "secular-public-institutions"
+        "secular-public-institutions",
+        "religious-liberty-opponents"
       ]
     },
     "potential_concerns": [
@@ -36,7 +35,7 @@
       "Efforts to reduce burdens on religious exercise could potentially undermine nondiscrimination protections in programs receiving federal funds.",
       "The creation of an office with broad authority to influence federal policy could raise concerns about undue political influence over diverse community organizations."
     ],
-    "enriched_at": "2025-12-06T07:03:38.324Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:44.526Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

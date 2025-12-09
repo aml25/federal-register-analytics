@@ -1,0 +1,42 @@
+{
+  "document_number": "2021-01924",
+  "executive_order_number": "14003",
+  "title": "Protecting the Federal Workforce",
+  "abstract": null,
+  "signing_date": "2021-01-22",
+  "publication_date": "2021-01-27",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/01/27/2021-01924/protecting-the-federal-workforce",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-27/pdf/2021-01924.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/01/27/2021-01924.txt",
+  "enrichment": {
+    "summary": "This executive order reverses previous efforts to weaken federal civil service protections by eliminating the controversial Schedule F classification, supports and encourages union organizing and collective bargaining for federal workers, and directs steps toward ensuring a living wage for federal employees. It aims to strengthen and empower the career federal workforce as a model employer.",
+    "theme_ids": [
+      "federal-workforce",
+      "labor-relations",
+      "federal-pay-policy",
+      "federal-agency-management"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "labor-union-members"
+      ],
+      "negative_ids": [
+        "non-union-workers"
+      ]
+    },
+    "potential_concerns": [
+      "Revoking Schedule F and related orders could face resistance from agencies favoring more flexible hiring and removal processes.",
+      "Encouraging collective bargaining and union organizing might increase federal labor costs and administrative complexity.",
+      "Implementing a $15/hour minimum wage for federal employees could raise budgetary pressures and require additional appropriations.",
+      "Suspending or rescinding existing discipline and removal reforms could slow agency responsiveness and impact accountability measures.",
+      "Agencies may struggle to uniformly revise or rescind policies tied to the revoked executive orders, causing inconsistent implementation."
+    ],
+    "enriched_at": "2025-12-09T03:58:05.222Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

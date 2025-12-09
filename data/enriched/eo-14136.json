@@ -21,8 +21,7 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "doj",
-        "federal-employees"
+        "doj"
       ],
       "negative_ids": []
     },
@@ -32,7 +31,7 @@
       "Allowing presidential discretion to depart from the order may raise concerns about politicization or inconsistent application.",
       "The revocation of the prior executive order may cause transitional confusion until fully implemented."
     ],
-    "enriched_at": "2025-12-06T07:10:46.912Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:37:15.098Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

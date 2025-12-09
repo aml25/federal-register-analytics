@@ -32,7 +32,7 @@
       "Some employees required to work on December 24 may face increased workload and stress during a holiday period.",
       "Implementation challenges may arise in ensuring consistent application across diverse agencies and roles."
     ],
-    "enriched_at": "2025-12-08T18:00:22.470Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:36:19.608Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

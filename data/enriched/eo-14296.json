@@ -22,9 +22,11 @@
     "impacted_populations": {
       "positive_ids": [
         "military-veterans",
-        "federal-employees"
+        "homeless-individuals"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "undocumented-immigrants"
+      ]
     },
     "potential_concerns": [
       "The order’s directive to redirect funds previously allocated for services to illegal aliens to veteran programs may provoke interagency conflicts and legal challenges regarding funding use.",
@@ -33,7 +35,7 @@
       "The ambitious goal to house up to 6,000 homeless veterans by 2028 may be difficult to achieve given the scale of homelessness and resource constraints in Los Angeles and nationwide.",
       "Increased use of vouchers and expansion of healthcare services could face budgetary limitations and require sustained congressional support for appropriations."
     ],
-    "enriched_at": "2025-12-06T06:54:31.081Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:45:09.751Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -21,13 +21,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
         "regional-stability-actors"
       ],
       "negative_ids": [
-        "muslim-americans",
-        "terrorist-organizations",
-        "civilian-populations-in-designated-countries"
+        "civilian-populations-in-designated-countries",
+        "innocent-civilian-populations-in-west-bank-and-region"
       ]
     },
     "potential_concerns": [
@@ -37,7 +35,7 @@
       "Labeling organizations as biased or infiltrated could deepen geopolitical tensions and increase anti-American sentiment.",
       "Implementation might face legal or budgetary challenges, especially related to existing treaty obligations and funding appropriations."
     ],
-    "enriched_at": "2025-12-06T07:04:14.584Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:30.034Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

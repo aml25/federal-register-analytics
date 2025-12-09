@@ -22,16 +22,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "state-and-local-law-enforcement",
-        "doj"
+        "undocumented-immigrants",
+        "removable-aliens"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
-        "legal-immigrants",
-        "immigrant-drivers",
-        "state-and-local-governments",
-        "low-income-immigrants"
+        "sanctuary-jurisdictions"
       ]
     },
     "potential_concerns": [
@@ -41,7 +36,7 @@
       "Heightened cooperation with state and local law enforcement raises risks of racial profiling and civil rights violations.",
       "International cooperation efforts could face diplomatic challenges and affect relations with neighboring countries."
     ],
-    "enriched_at": "2025-12-06T07:07:44.335Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:38:48.567Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

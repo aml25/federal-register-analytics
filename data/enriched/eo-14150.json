@@ -20,10 +20,13 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies"
+        "regional-stability-actors",
+        "wrongfully-detained-us-nationals"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "populations-in-designated-countries",
+        "foreign-suppliers"
+      ]
     },
     "potential_concerns": [
       "The broad mandate to prioritize America First may lead to reduced cooperation with international partners, risking global alliances.",
@@ -32,7 +35,7 @@
       "Emphasis on America First could reduce attention to humanitarian and multilateral commitments.",
       "Potential conflicts may arise between this order’s priorities and existing treaty obligations or international agreements."
     ],
-    "enriched_at": "2025-12-06T07:09:19.319Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:37:59.603Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -21,12 +21,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "manufacturing-workers",
-        "pharmaceutical-manufacturers"
+        "pharmaceutical-manufacturers",
+        "domestic-energy-producers"
       ],
       "negative_ids": [
-        "private-sector-rivals"
+        "foreign-suppliers",
+        "foreign-manufacturers"
       ]
     },
     "potential_concerns": [
@@ -36,7 +36,7 @@
       "The order criticizes the previous administration's efforts, which could politicize public health initiatives and hinder bipartisan support.",
       "Logistical and operational challenges in storing and maintaining API stockpiles, including shelf-life management, could complicate effective deployment during emergencies."
     ],
-    "enriched_at": "2025-12-06T06:50:31.062Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:47:18.987Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

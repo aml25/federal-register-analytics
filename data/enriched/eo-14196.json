@@ -22,11 +22,13 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "small-business-owners",
-        "average-americans"
+        "investment-entities",
+        "american-businesses"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "foreign-manufacturers",
+        "foreign-suppliers"
+      ]
     },
     "potential_concerns": [
       "The establishment of a sovereign wealth fund may face legal and legislative hurdles that delay implementation or alter its original intent.",
@@ -35,7 +37,7 @@
       "There may be political or public debates regarding accountability, transparency, and governance structures of the fund.",
       "International reactions to a large U.S. sovereign wealth fund could affect foreign markets or diplomatic relations."
     ],
-    "enriched_at": "2025-12-06T07:04:30.837Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:21.984Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

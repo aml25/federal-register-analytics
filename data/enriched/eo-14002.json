@@ -1,0 +1,43 @@
+{
+  "document_number": "2021-01923",
+  "executive_order_number": "14002",
+  "title": "Economic Relief Related to the COVID-19 Pandemic",
+  "abstract": null,
+  "signing_date": "2021-01-22",
+  "publication_date": "2021-01-27",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/01/27/2021-01923/economic-relief-related-to-the-covid-19-pandemic",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-27/pdf/2021-01923.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/01/27/2021-01923.txt",
+  "enrichment": {
+    "summary": "This executive order directs all federal agencies to use their existing powers to help address the economic hardships caused by the COVID-19 pandemic, especially for individuals, families, small businesses, and state, local, tribal, and territorial governments. It encourages agencies to improve coordination and reduce barriers to relief programs to ensure assistance reaches those who need it most.",
+    "theme_ids": [
+      "equity-and-inclusion-policy",
+      "community-development",
+      "economic-development",
+      "tribal-policy",
+      "customer-experience-improvement",
+      "pandemic-economic-relief"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "small-business-owners",
+        "state-and-local-governments",
+        "low-income-working-families"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Agencies may face difficulties coordinating actions across diverse programs with varying eligibility requirements, leading to inconsistent relief distribution.",
+      "Without clear additional funding, agencies might struggle to effectively implement new relief measures within existing resource constraints.",
+      "Potential disparities in how relief reaches disadvantaged communities might persist if barriers in program access are not fully addressed.",
+      "The reliance on existing authority may limit the scale or speed of relief, leaving some needs inadequately met.",
+      "Encouraging independent agencies to comply is non-binding and may result in uneven federal response efforts."
+    ],
+    "enriched_at": "2025-12-09T03:58:12.930Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

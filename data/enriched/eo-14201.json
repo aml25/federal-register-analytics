@@ -23,18 +23,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "students-in-federally-funded-schools",
-        "collegiate-athletes",
-        "female-athletes",
-        "federal-agencies",
         "female-athletes"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
-        "non-citizen-voters",
-        "legal-immigrants",
         "transgender-athletes",
-        "male-athletes-seeking-womens-sports"
+        "students-in-federally-funded-schools"
       ]
     },
     "potential_concerns": [
@@ -44,7 +37,7 @@
       "Restricting visas based on sports participation could raise civil liberties and immigration fairness issues.",
       "There is potential for adverse mental health impacts on transgender athletes excluded from sports opportunities."
     ],
-    "enriched_at": "2025-12-06T07:04:03.633Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:34.546Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

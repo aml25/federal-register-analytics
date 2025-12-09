@@ -23,12 +23,13 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "military-veterans",
-        "federal-agencies",
-        "regional-stability-actors"
+        "armed-forces-personnel",
+        "tech-industry"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "foreign-suppliers",
+        "foreign-manufacturers"
+      ]
     },
     "potential_concerns": [
       "The rapid development and deployment of advanced missile defense technology may lead to significant budgetary pressures and competition for resources within the Department of Defense.",
@@ -37,7 +38,7 @@
       "Implementation challenges might arise from coordinating with allies and partners who have differing technological capabilities and strategic interests.",
       "The order lacks explicit safeguards related to civil oversight and transparency in deployment decisions, which could raise accountability issues."
     ],
-    "enriched_at": "2025-12-06T07:05:35.091Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:39:52.670Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

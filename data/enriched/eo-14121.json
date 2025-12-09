@@ -22,13 +22,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "women-and-girls",
         "diverse-historical-communities"
       ],
-      "negative_ids": [
-        "federal-budget-stakeholders"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
       "The additional reporting and study requirements may strain the Interior Department and related agencies’ resources and budgets.",
@@ -37,7 +34,7 @@
       "Implementation could be slow or inconsistent across agencies, leading to delays in achieving the objectives of greater recognition.",
       "Some stakeholders may dispute which figures or events merit inclusion, causing political or cultural controversy."
     ],
-    "enriched_at": "2025-12-08T18:01:17.389Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:35:48.534Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

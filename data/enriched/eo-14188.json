@@ -23,15 +23,13 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
+        "jewish-americans",
         "academic-institutions",
-        "students-in-federally-funded-schools",
-        "jewish-americans"
+        "students-in-federally-funded-schools"
       ],
       "negative_ids": [
         "muslim-americans",
-        "undocumented-immigrants",
-        "foreign-nationals-engaged-in-desecration"
+        "foreign-funded-institutions"
       ]
     },
     "potential_concerns": [
@@ -41,7 +39,7 @@
       "Designation of prior administration failures and political framing may politicize enforcement efforts, potentially impacting the perceived neutrality of agencies.",
       "Lack of clear guidance on balancing anti-Semitism enforcement with protections for other minority groups could result in perceived or actual inequities."
     ],
-    "enriched_at": "2025-12-06T07:05:21.860Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:39:59.273Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

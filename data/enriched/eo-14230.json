@@ -22,10 +22,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "law-firm-employees"
       ],
       "negative_ids": [
-        "law-firm-employees"
+        "federal-contractors",
+        "federal-grantees"
       ]
     },
     "potential_concerns": [
@@ -35,7 +36,7 @@
       "Broad restrictions could inadvertently affect employees not involved in the alleged misconduct, causing undue harm.",
       "The focus on race- and sex-based policies may discourage diversity and inclusion efforts in legal firms."
     ],
-    "enriched_at": "2025-12-06T07:01:07.047Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:41:54.241Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -20,8 +20,7 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies"
+        "federal-employees"
       ],
       "negative_ids": []
     },
@@ -32,7 +31,7 @@
       "Administrative challenges in implementing the succession order consistently across varied departmental offices could hamper smooth transitions.",
       "Revoking the prior order without clear differences or rationale might create confusion about changes in succession protocol among Department staff."
     ],
-    "enriched_at": "2025-12-06T07:10:56.403Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:37:08.658Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

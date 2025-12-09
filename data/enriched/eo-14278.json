@@ -22,11 +22,14 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "manufacturing-workers",
-        "federal-agencies",
-        "education-administrators"
+        "american-workers",
+        "tech-industry",
+        "hispanic-serving-institutions"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "academic-institutions",
+        "foreign-suppliers"
+      ]
     },
     "potential_concerns": [
       "Fragmentation of workforce programs may persist if agencies fail to fully integrate under the proposed reviews and reforms.",
@@ -35,7 +38,7 @@
       "Reliance on artificial intelligence in workforce training may create challenges related to bias, accessibility, and worker displacement.",
       "Transparency requirements may impose additional administrative burdens on federal agencies and program grantees."
     ],
-    "enriched_at": "2025-12-06T06:56:20.560Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:44:19.940Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

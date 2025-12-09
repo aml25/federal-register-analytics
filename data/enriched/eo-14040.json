@@ -1,0 +1,42 @@
+{
+  "document_number": "2021-19578",
+  "executive_order_number": "14040",
+  "title": "Declassification Reviews of Certain Documents Concerning the Terrorist Attacks of September 11, 2001",
+  "abstract": null,
+  "signing_date": "2021-09-03",
+  "publication_date": "2021-09-09",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/09/09/2021-19578/declassification-reviews-of-certain-documents-concerning-the-terrorist-attacks-of-september-11-2001",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-09-09/pdf/2021-19578.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/09/09/2021-19578.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies, especially the FBI and the Attorney General, to review and publicly release classified documents related to the September 11, 2001 terrorist attacks, increasing government transparency about those events. The order sets deadlines for these reviews and requires explanations for any information kept classified, aiming to balance national security with the public's right to know.",
+    "theme_ids": [
+      "national-security",
+      "counterterrorism-policy",
+      "information-transparency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "wrongfully-detained-us-nationals",
+        "muslim-americans"
+      ],
+      "negative_ids": [
+        "terrorist-organizations",
+        "foreign-entities-in-countries-of-concern"
+      ]
+    },
+    "potential_concerns": [
+      "Declassifying sensitive information may inadvertently reveal intelligence methods or compromise ongoing security operations.",
+      "Deadlines for document reviews could lead to rushed or incomplete assessments, increasing the risk of errors or inconsistent decisions.",
+      "Public release of certain information might impair confidential executive branch deliberations or interagency cooperation.",
+      "There is potential for disagreement among agencies on what should remain classified, causing delays or litigation.",
+      "The order does not address how to manage privacy concerns for individuals mentioned in the released documents."
+    ],
+    "enriched_at": "2025-12-09T03:53:12.626Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

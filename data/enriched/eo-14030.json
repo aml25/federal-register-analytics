@@ -1,0 +1,48 @@
+{
+  "document_number": "2021-11168",
+  "executive_order_number": "14030",
+  "title": "Climate-Related Financial Risk",
+  "abstract": null,
+  "signing_date": "2021-05-20",
+  "publication_date": "2021-05-25",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/05/25/2021-11168/climate-related-financial-risk",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-05-25/pdf/2021-11168.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/05/25/2021-11168.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to better identify, measure, and address financial risks related to climate change, including physical impacts and economic shifts from reducing carbon emissions. It requires government agencies to develop strategies and improve transparency around climate risks to protect the financial system, federal investments, pensions, and communities while promoting a transition to a net-zero emissions economy by 2050.",
+    "theme_ids": [
+      "financial-regulation",
+      "environmental-regulation",
+      "federal-procurement-policy",
+      "equity-and-inclusion-policy",
+      "federal-sustainability-policy",
+      "workforce-development",
+      "tribal-policy",
+      "economic-development",
+      "climate-finance-risk-management"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "green-energy-industry",
+        "financial-institutions"
+      ],
+      "negative_ids": [
+        "domestic-energy-producers",
+        "investment-entities"
+      ]
+    },
+    "potential_concerns": [
+      "The complexity and novelty of quantifying climate-related financial risks may delay timely and effective implementation.",
+      "Increased regulatory requirements for financial institutions could raise compliance costs and face pushback from industry stakeholders.",
+      "Balancing disclosure requirements with proprietary business information may create conflicts or legal challenges.",
+      "Efforts to integrate climate risk considerations into federal lending and procurement might disrupt existing contracts or slow procurement processes.",
+      "Ensuring that policies effectively address impacts on disadvantaged communities and workers without creating unintended economic hardship will be challenging."
+    ],
+    "enriched_at": "2025-12-09T03:54:46.305Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

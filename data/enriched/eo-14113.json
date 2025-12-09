@@ -21,7 +21,7 @@
     "impacted_populations": {
       "positive_ids": [
         "federal-employees",
-        "military-veterans"
+        "armed-forces-personnel"
       ],
       "negative_ids": [
         "federal-budget-stakeholders"
@@ -34,7 +34,7 @@
       "Without corresponding funding increases, agencies may face difficulties in implementing pay changes without cutting other services or personnel.",
       "The timing and administrative complexity of implementing multiple updated pay schedules might lead to delays or errors in employee compensation."
     ],
-    "enriched_at": "2025-12-08T18:06:34.659Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:38:48.533Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

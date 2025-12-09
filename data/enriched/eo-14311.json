@@ -21,10 +21,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies"
+        "regional-stability-actors",
+        "innocent-civilian-populations-in-west-bank-and-region"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "foreign-suppliers"
+      ]
     },
     "potential_concerns": [
       "The coordination role of the new office may create bureaucratic overlap or conflict with existing State and Defense department peace and diplomacy efforts.",
@@ -33,7 +35,7 @@
       "The focus on ending conflicts abroad may lead to criticism about U.S. engagement priorities or overreach in foreign affairs.",
       "Unclear metrics for success and accountability could hamper evaluation of the office's impact or waste resources."
     ],
-    "enriched_at": "2025-12-06T06:53:06.861Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:45:52.987Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -23,12 +23,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies"
+        "displaced-federal-workers"
       ],
       "negative_ids": [
-        "displaced-federal-workers",
-        "undocumented-immigrants"
+        "federal-employees"
       ]
     },
     "potential_concerns": [
@@ -38,7 +36,7 @@
       "Eliminating non-mandated functions may disproportionately impact diversity, equity, and inclusion initiatives and other social programs.",
       "The aggressive hiring freeze risks understaffing essential government functions, potentially reducing service quality or response times."
     ],
-    "enriched_at": "2025-12-06T07:03:08.722Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:56.489Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

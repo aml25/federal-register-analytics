@@ -23,10 +23,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies"
+        "federal-agencies",
+        "federal-budget-stakeholders"
       ],
       "negative_ids": [
+        "federal-contractors",
         "displaced-federal-workers"
       ]
     },
@@ -37,7 +38,7 @@
       "Excluding certain agencies and activities could lead to inconsistency in transparency and efficiency efforts across the federal government.",
       "Implementation depends heavily on timely development of technological systems, which may face delays or technical challenges."
     ],
-    "enriched_at": "2025-12-06T07:01:57.798Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:41:34.919Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

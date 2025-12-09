@@ -28,8 +28,7 @@
         "underserved-communities"
       ],
       "negative_ids": [
-        "non-union-workers",
-        "federal-contractors"
+        "private-sector-employers"
       ]
     },
     "potential_concerns": [
@@ -39,7 +38,7 @@
       "Reestablishing Labor-Management Forums may create tensions in agencies where labor-management relations are contentious or where unions have limited presence.",
       "The order’s emphasis on apprenticeship and apprenticeship-aligned hiring might inadvertently reduce flexibility in agency hiring practices or slow recruitment in urgent positions."
     ],
-    "enriched_at": "2025-12-08T18:01:31.631Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:35:40.016Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

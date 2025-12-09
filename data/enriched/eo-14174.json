@@ -21,11 +21,10 @@
     "impacted_populations": {
       "positive_ids": [
         "federal-employees",
-        "federal-agencies",
         "federal-contractors"
       ],
       "negative_ids": [
-        "public-health-promotion"
+        "public-health-workers"
       ]
     },
     "potential_concerns": [
@@ -35,7 +34,7 @@
       "Without clear replacement policies, agencies might struggle to balance employee safety with operational needs.",
       "There could be legal challenges or disputes over agencies' authority to implement health measures after revocation."
     ],
-    "enriched_at": "2025-12-06T07:06:49.859Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:39:14.636Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

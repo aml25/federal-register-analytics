@@ -22,12 +22,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "federal-employees"
+        "financial-institutions",
+        "seafood-industry"
       ],
       "negative_ids": [
         "foreign-seafood-exporters",
-        "financial-institutions",
         "sanctioned-persons-and-affiliates"
       ]
     },
@@ -38,7 +37,7 @@
       "Heightened sanctions risks increasing geopolitical tensions and complicating diplomatic negotiations with countries maintaining trade or financial ties to Russia.",
       "Implementation may require significant interagency coordination and increased resource allocation to monitor and enforce expanded sanctions effectively."
     ],
-    "enriched_at": "2025-12-08T18:06:27.712Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:38:51.592Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -23,16 +23,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "state-and-local-governments",
-        "citizens-in-affected-communities",
-        "federal-agencies",
         "hazardous-materials-responders",
-        "affected-residents"
+        "affected-residents",
+        "industrial-transport-companies"
       ],
       "negative_ids": [
-        "american-businesses",
-        "railroad-employees",
-        "industrial-transport-companies",
         "local-businesses"
       ]
     },
@@ -43,7 +38,7 @@
       "Coordination between multiple federal, state, and local agencies may face bureaucratic challenges leading to inefficiencies or duplicated efforts.",
       "Federal assistance held contingent on unmet needs could delay timely support if needs assessments are slow or incomplete."
     ],
-    "enriched_at": "2025-12-08T18:07:26.073Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:38:30.862Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

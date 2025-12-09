@@ -1,0 +1,40 @@
+{
+  "document_number": "2021-20508",
+  "executive_order_number": "14046",
+  "title": "Imposing Sanctions on Certain Persons With Respect to the Humanitarian and Human Rights Crisis in Ethiopia",
+  "abstract": null,
+  "signing_date": "2021-09-17",
+  "publication_date": "2021-09-21",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/09/21/2021-20508/imposing-sanctions-on-certain-persons-with-respect-to-the-humanitarian-and-human-rights-crisis-in",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-09-21/pdf/2021-20508.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/09/21/2021-20508.txt",
+  "enrichment": {
+    "summary": "This executive order allows the U.S. government to impose sanctions on individuals and entities responsible for the conflict, violence, and human rights abuses in northern Ethiopia. It aims to limit support to those fueling the crisis while ensuring humanitarian aid can still reach affected populations through legitimate channels. The order also restricts visas and financial activities of these targeted persons to pressure a peaceful resolution.",
+    "theme_ids": [
+      "national-security",
+      "foreign-policy",
+      "humanitarian-economic-support"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "innocent-civilian-populations-in-west-bank-and-region"
+      ],
+      "negative_ids": [
+        "sanctioned-persons-and-affiliates"
+      ]
+    },
+    "potential_concerns": [
+      "Sanctions may unintentionally restrict humanitarian access if enforcement is too broad or poorly targeted.",
+      "The designation criteria could be politically sensitive and potentially impact diplomatic relations with the Ethiopian and Eritrean governments.",
+      "Determining and proving involvement for sanctions may be challenging, leading to enforcement delays or disputes.",
+      "Blocking assets and restricting visas might push targeted actors to use illicit channels, complicating sanction enforcement.",
+      "Potential harm to innocent civilians if sanctions limit economic activity more broadly or disrupt aid flows despite exemptions."
+    ],
+    "enriched_at": "2025-12-09T03:52:25.718Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

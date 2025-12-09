@@ -21,8 +21,6 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies",
         "tech-industry"
       ],
       "negative_ids": [
@@ -36,7 +34,7 @@
       "The vague and broad characterization of DEI as a negative influence risks politicizing AI development and federal procurement decisions.",
       "There could be risks to national security if exceptions for national security systems are not clearly defined or properly implemented."
     ],
-    "enriched_at": "2025-12-06T06:52:21.351Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:46:14.838Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

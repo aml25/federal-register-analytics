@@ -24,17 +24,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "state-and-local-law-enforcement",
-        "federal-agencies",
-        "government-service-users",
-        "national-park-visitors",
-        "domestic-tourists",
-        "patriotic-citizens"
+        "state-and-local-law-enforcement"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
         "homeless-individuals",
+        "undocumented-immigrants",
         "communities-affected-by-police-aggression"
       ]
     },
@@ -45,7 +39,7 @@
       "Coordination among multiple federal and local agencies may face bureaucratic challenges, potentially limiting the effectiveness of the task force.",
       "Efforts to strictly enforce laws on protests and demonstrations might restrict lawful free speech and political expression in public spaces."
     ],
-    "enriched_at": "2025-12-06T06:58:58.684Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:42:55.672Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

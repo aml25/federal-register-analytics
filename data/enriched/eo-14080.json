@@ -1,0 +1,47 @@
+{
+  "document_number": "2022-18840",
+  "executive_order_number": "14080",
+  "title": "Implementation of the CHIPS Act of 2022",
+  "abstract": null,
+  "signing_date": "2022-08-25",
+  "publication_date": "2022-08-30",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2022/08/30/2022-18840/implementation-of-the-chips-act-of-2022",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-08-30/pdf/2022-18840.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/08/30/2022-18840.txt",
+  "enrichment": {
+    "summary": "This executive order sets up a government council to coordinate efforts across federal agencies to effectively implement the CHIPS Act of 2022, which aims to boost semiconductor research, development, and manufacturing in the United States. It emphasizes protecting taxpayer funds, promoting domestic manufacturing, creating high-skilled jobs, and strengthening the supply chain for critical technologies.",
+    "theme_ids": [
+      "economic-development",
+      "national-security",
+      "supply-chain-security",
+      "technology-development",
+      "workforce-development",
+      "federal-agency-management",
+      "tribal-policy",
+      "equity-and-inclusion-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "tech-industry",
+        "manufacturing-workers"
+      ],
+      "negative_ids": [
+        "foreign-suppliers",
+        "foreign-manufacturers"
+      ]
+    },
+    "potential_concerns": [
+      "Ensuring effective coordination among multiple federal agencies and stakeholders could be challenging and may slow implementation.",
+      "The focus on reducing dependence on foreign supply chains, particularly from China, may increase geopolitical tensions or provoke retaliatory measures.",
+      "Allocating resources equitably to support minority-owned, veteran-owned, and disadvantaged communities may face implementation or oversight difficulties.",
+      "Protecting taxpayer funds through strong compliance and accountability may require robust monitoring systems that can be complex to establish.",
+      "Rapid technological advancements could outpace policy adaptations, risking gaps in sustaining long-term U.S. leadership in microelectronics."
+    ],
+    "enriched_at": "2025-12-09T03:46:34.647Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

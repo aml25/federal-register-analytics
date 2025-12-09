@@ -23,13 +23,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "federal-employees",
         "tribal-nations"
       ],
       "negative_ids": [
-        "non-tribal-federal-funding-recipients",
-        "federal-agencies"
+        "non-tribal-federal-funding-recipients"
       ]
     },
     "potential_concerns": [
@@ -39,7 +36,7 @@
       "Identifying and addressing chronic underfunding could require significant budget increases, creating challenges for federal budgetary priorities and stakeholders.",
       "Ensuring consistent and meaningful Tribal consultation across numerous agencies may be difficult and risk uneven implementation or Tribal dissatisfaction."
     ],
-    "enriched_at": "2025-12-08T18:06:44.397Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:38:45.275Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

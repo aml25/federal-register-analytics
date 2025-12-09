@@ -23,15 +23,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "federal-employees",
+        "small-importers",
         "american-businesses"
       ],
       "negative_ids": [
-        "small-importers",
-        "international-shippers",
-        "undocumented-immigrants",
-        "canada"
+        "canada",
+        "international-shippers"
       ]
     },
     "potential_concerns": [
@@ -41,7 +38,7 @@
       "Tariffs could disrupt supply chains, including energy resources, despite a lower rate for those products, impacting industries dependent on Canadian imports.",
       "The order may complicate legal and administrative processes for certifying goods and enforcing new duties, burdening customs and importers."
     ],
-    "enriched_at": "2025-12-06T07:04:47.879Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:13.927Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -22,7 +22,7 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "federal-agencies-with-increased-administrative-burden"
       ],
       "negative_ids": []
     },
@@ -32,7 +32,7 @@
       "Some committees advising on sensitive issues, such as national security or indigenous affairs, may face politicization or lack of stakeholder representation.",
       "Limited public transparency and engagement with these committees might reduce accountability and the diversity of input."
     ],
-    "enriched_at": "2025-12-06T06:48:45.510Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:48:07.635Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

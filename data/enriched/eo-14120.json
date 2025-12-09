@@ -22,16 +22,13 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "scientific-researchers",
-        "academic-institutions",
         "women-of-color",
-        "older-women",
-        "women-with-disabilities"
+        "women-with-disabilities",
+        "older-women"
       ],
       "negative_ids": [
-        "competing-research-areas",
-        "federal-budget-stakeholders"
+        "competing-research-areas"
       ]
     },
     "potential_concerns": [
@@ -41,7 +38,7 @@
       "The emphasis on interagency coordination might lead to bureaucratic delays or conflicts over authority among federal departments.",
       "Risks exist that prioritizing innovation through specific agencies and small businesses could favor established players, limiting broader research diversity."
     ],
-    "enriched_at": "2025-12-08T18:01:25.212Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:35:45.276Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

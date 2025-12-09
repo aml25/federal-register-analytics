@@ -21,13 +21,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
         "bank-customers",
         "small-business-owners"
       ],
       "negative_ids": [
-        "financial-institutions",
-        "bank-regulators"
+        "bank-regulators",
+        "financial-institutions"
       ]
     },
     "potential_concerns": [
@@ -37,7 +36,7 @@
       "The policy could politicize banking oversight further by discouraging prudent risk management based on reputational concerns that sometimes correlate with legitimate financial risks.",
       "Financial institutions and regulators may resist or ambiguously implement the order, reducing its effectiveness or causing inconsistent enforcement."
     ],
-    "enriched_at": "2025-12-06T06:51:04.461Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:46:51.002Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

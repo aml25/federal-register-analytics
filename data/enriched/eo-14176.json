@@ -20,8 +20,7 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "government-service-users"
+        "federal-agencies"
       ],
       "negative_ids": []
     },
@@ -31,7 +30,7 @@
       "Delays or resistance from agencies in complying fully with declassification might hinder timely release of records.",
       "The order may prompt renewed public debate and conspiracy theories surrounding these assassinations, potentially fueling misinformation."
     ],
-    "enriched_at": "2025-12-06T07:06:38.280Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:39:20.851Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -22,11 +22,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies"
+        "law-firm-employees"
       ],
       "negative_ids": [
-        "law-firm-employees"
+        "federal-contractors"
       ]
     },
     "potential_concerns": [
@@ -36,7 +35,7 @@
       "Contract review and termination processes may disrupt ongoing government work and legal services.",
       "The lack of clear appeal or review mechanisms for affected individuals and firms could generate legal challenges."
     ],
-    "enriched_at": "2025-12-06T07:00:28.761Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:42:13.941Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -1,0 +1,45 @@
+{
+  "document_number": "2021-02038",
+  "executive_order_number": "14005",
+  "title": "Ensuring the Future Is Made in All of America by All of America's Workers",
+  "abstract": null,
+  "signing_date": "2021-01-25",
+  "publication_date": "2021-01-28",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/01/28/2021-02038/ensuring-the-future-is-made-in-all-of-america-by-all-of-americas-workers",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-28/pdf/2021-02038.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/01/28/2021-02038.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to prioritize buying goods, products, and services made in the United States to support American workers and businesses. It establishes a centralized office to oversee waivers to domestic purchasing rules, increases transparency of procurement decisions, and updates regulations to strengthen 'Made in America' requirements.",
+    "theme_ids": [
+      "trade-policy",
+      "federal-procurement-policy",
+      "economic-development",
+      "information-transparency",
+      "workforce-development",
+      "federal-property-management"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "american-workers",
+        "manufacturing-workers"
+      ],
+      "negative_ids": [
+        "foreign-manufacturers",
+        "foreign-suppliers"
+      ]
+    },
+    "potential_concerns": [
+      "Stricter domestic purchasing requirements may increase costs for federal agencies and delay procurement processes.",
+      "Centralizing waiver approvals could create bureaucratic bottlenecks or slow responses to urgent procurement needs.",
+      "Higher domestic content standards might limit flexibility to source specialized materials or technology internationally.",
+      "Smaller or less competitive American suppliers may struggle to meet the new standards without adequate support.",
+      "Transparency requirements could expose sensitive information or create risks if not carefully balanced with national security concerns."
+    ],
+    "enriched_at": "2025-12-09T03:57:51.448Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

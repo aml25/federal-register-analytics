@@ -1,0 +1,43 @@
+{
+  "document_number": "2021-23224",
+  "executive_order_number": "14050",
+  "title": "White House Initiative on Advancing Educational Equity, Excellence, and Economic Opportunity for Black Americans",
+  "abstract": null,
+  "signing_date": "2021-10-19",
+  "publication_date": "2021-10-22",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/10/22/2021-23224/white-house-initiative-on-advancing-educational-equity-excellence-and-economic-opportunity-for-black",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-10-22/pdf/2021-23224.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/10/22/2021-23224.txt",
+  "enrichment": {
+    "summary": "This executive order creates a White House Initiative to advance educational equity, excellence, and economic opportunity specifically for Black Americans. It establishes a federal interagency working group and a presidential advisory commission to coordinate government actions, promote access to quality education, reduce systemic disparities, and enhance career opportunities for Black students and communities.",
+    "theme_ids": [
+      "education-policy",
+      "equity-and-inclusion-policy",
+      "workforce-development",
+      "advisory-committees-management"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "hbcu-students",
+        "hbcu-administrators-and-faculty",
+        "diverse-student-populations"
+      ],
+      "negative_ids": [
+        "non-hbcu-academic-institutions"
+      ]
+    },
+    "potential_concerns": [
+      "Achieving measurable outcomes may be challenging due to the complexity and persistence of systemic inequities in education and economics.",
+      "Coordination across many federal agencies could lead to bureaucratic delays or overlapping responsibilities.",
+      "Funding and resource limitations may hinder the effective implementation and sustainability of the initiative's programs.",
+      "Some stakeholders might debate the focus on race-specific programming and its implications for broader educational equity efforts.",
+      "The initiative's success heavily depends on continuous political support and agency engagement, which may fluctuate over time."
+    ],
+    "enriched_at": "2025-12-09T03:51:51.323Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

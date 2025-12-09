@@ -25,12 +25,11 @@
     "impacted_populations": {
       "positive_ids": [
         "tech-industry",
-        "manufacturing-workers",
-        "federal-employees",
-        "military-veterans"
+        "commercial-space-operators"
       ],
       "negative_ids": [
-        "private-sector-rivals"
+        "foreign-manufacturers",
+        "foreign-suppliers"
       ]
     },
     "potential_concerns": [
@@ -40,7 +39,7 @@
       "Streamlining export controls might increase the risk of sensitive drone technologies being diverted to adversaries despite safeguards.",
       "Military prioritization of domestic drones may cause procurement challenges if commercial technology does not meet all defense requirements timely."
     ],
-    "enriched_at": "2025-12-06T06:53:30.063Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:45:42.500Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

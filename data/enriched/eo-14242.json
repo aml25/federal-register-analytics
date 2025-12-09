@@ -21,16 +21,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "state-and-local-law-enforcement"
+        "state-and-local-governments",
+        "parents-of-public-school-students"
       ],
       "negative_ids": [
-        "education-administrators",
-        "academic-institutions",
-        "children-protected-by-nondiscrimination-policies",
-        "parents-of-public-school-students",
-        "students-in-federally-funded-schools",
-        "diverse-student-populations"
+        "federal-employees",
+        "students-impacted-by-ideological-restrictions"
       ]
     },
     "potential_concerns": [
@@ -40,7 +36,7 @@
       "The order may face legal and logistical challenges related to winding down a major federal agency and reallocating its responsibilities to state and local bodies.",
       "Federal employees of the Department of Education could face significant job losses or displacement without clear transition supports."
     ],
-    "enriched_at": "2025-12-06T06:59:59.117Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:42:27.075Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

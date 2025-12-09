@@ -21,12 +21,9 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "coast-guard-personnel"
-      ],
-      "negative_ids": [
         "coast-guard-officers"
-      ]
+      ],
+      "negative_ids": []
     },
     "potential_concerns": [
       "Delegating presidential authority to the Secretary of Homeland Security may raise concerns about reduced direct presidential oversight on key military personnel decisions.",
@@ -35,7 +32,7 @@
       "Officers could face uncertainty or perceived unfairness if personnel decisions are centralized and removed from customary presidential involvement.",
       "The order does not address transparency or appeal procedures for affected officers, which could lead to morale or legal challenges."
     ],
-    "enriched_at": "2025-12-08T18:07:42.724Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:38:23.788Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

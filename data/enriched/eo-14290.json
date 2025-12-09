@@ -21,7 +21,7 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies"
+        "private-sector-rivals"
       ],
       "negative_ids": [
         "public-broadcasting-organizations",
@@ -36,7 +36,7 @@
       "Cutting funding without clear alternatives risks undermining the media diversity and public access to noncommercial news sources.",
       "Indirect funding prohibition may be difficult to monitor and enforce, causing compliance challenges for grant recipients and licensees."
     ],
-    "enriched_at": "2025-12-06T06:55:07.523Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:44:52.035Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

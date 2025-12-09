@@ -21,10 +21,8 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "religious-communities",
         "faith-based-organizations",
-        "doj",
-        "federal-agencies"
+        "religious-communities"
       ],
       "negative_ids": [
         "religious-liberty-opponents",
@@ -38,7 +36,7 @@
       "The task force may face difficulties obtaining cooperation from agencies and accurately identifying unlawful practices without bias.",
       "The order may increase tension between religious liberty protections and policies supporting LGBTQ+ rights and other civil rights."
     ],
-    "enriched_at": "2025-12-06T07:03:56.023Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:36.874Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

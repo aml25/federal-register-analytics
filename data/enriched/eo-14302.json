@@ -23,15 +23,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "domestic-energy-producers",
-        "academic-institutions",
-        "manufacturing-workers",
-        "military-veterans"
+        "scientific-researchers"
       ],
       "negative_ids": [
         "green-energy-industry",
-        "private-sector-rivals"
+        "foreign-processors-of-critical-minerals"
       ]
     },
     "potential_concerns": [
@@ -41,7 +38,7 @@
       "Ramping up uranium mining and processing may cause local environmental and community impacts that are inadequately addressed.",
       "Workforce development efforts might fall short if educational and industry partnerships fail to meet demand or if funding is insufficient."
     ],
-    "enriched_at": "2025-12-06T06:53:57.261Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:45:27.777Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

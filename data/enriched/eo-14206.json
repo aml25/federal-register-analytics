@@ -21,14 +21,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "doj",
-        "federal-agencies",
-        "patriotic-citizens"
+        "average-americans"
       ],
       "negative_ids": [
-        "state-and-local-law-enforcement",
-        "communities-affected-by-police-aggression",
-        "average-americans"
+        "illegal-firearms-manufacturers-and-traffickers"
       ]
     },
     "potential_concerns": [
@@ -38,7 +34,7 @@
       "Ambiguities in implementation timelines and scope may cause confusion and uneven enforcement across agencies.",
       "Litigation and legal challenges could arise regarding the interpretation of what constitutes an infringement on Second Amendment rights."
     ],
-    "enriched_at": "2025-12-06T07:03:30.915Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:46.858Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

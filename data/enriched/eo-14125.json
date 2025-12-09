@@ -19,14 +19,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "railroad-employees",
         "labor-union-members"
       ],
-      "negative_ids": [
-        "non-union-workers",
-        "american-businesses"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
       "The investigation and imposed work condition freeze could delay resolution and disrupt rail service affecting commuters and regional transportation.",
@@ -34,7 +30,7 @@
       "Costs associated with establishing and operating the Emergency Board could strain federal resources.",
       "Employers and taxpayers may bear indirect burdens from prolonged dispute resolution processes and related operational disruptions."
     ],
-    "enriched_at": "2025-12-08T18:00:51.521Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:36:04.172Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

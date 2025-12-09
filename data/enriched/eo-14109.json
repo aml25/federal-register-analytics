@@ -22,12 +22,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "asian-americans-and-nhpi-communities"
-      ],
-      "negative_ids": [
+        "asian-americans-and-nhpi-communities",
         "federal-agencies-with-increased-administrative-burden"
-      ]
+      ],
+      "negative_ids": []
     },
     "potential_concerns": [
       "The extension and expanded duties for many advisory committees may increase administrative burdens and resource demands on federal agencies without additional funding.",
@@ -36,7 +34,7 @@
       "Some advisory committees have overlapping scope which may lead to duplicated efforts or unclear lines of responsibility.",
       "The absence of an abstract or detailed justification limits transparency on the direct benefits or cost implications of continuing so many advisory committees simultaneously."
     ],
-    "enriched_at": "2025-12-08T18:07:15.686Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:38:35.361Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

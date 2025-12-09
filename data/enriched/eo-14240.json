@@ -20,12 +20,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "federal-employees"
+        "tech-industry"
       ],
       "negative_ids": [
-        "displaced-federal-workers",
-        "private-sector-rivals"
+        "foreign-suppliers"
       ]
     },
     "potential_concerns": [
@@ -35,7 +33,7 @@
       "Private vendors may experience reduced competition or increased barriers if procurement is overly centralized.",
       "Implementation timelines and legal authorities may cause delays or resistance among agencies reluctant to relinquish procurement control."
     ],
-    "enriched_at": "2025-12-06T07:00:10.974Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:42:20.952Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

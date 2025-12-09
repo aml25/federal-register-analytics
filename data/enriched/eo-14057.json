@@ -1,0 +1,53 @@
+{
+  "document_number": "2021-27114",
+  "executive_order_number": "14057",
+  "title": "Catalyzing Clean Energy Industries and Jobs Through Federal Sustainability",
+  "abstract": null,
+  "signing_date": "2021-12-08",
+  "publication_date": "2021-12-13",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/12/13/2021-27114/catalyzing-clean-energy-industries-and-jobs-through-federal-sustainability",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-12-13/pdf/2021-27114.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/12/13/2021-27114.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to lead efforts in combating climate change by transforming its operations to be more sustainable and clean, aiming to achieve net-zero emissions government-wide by 2050. It sets ambitious goals for clean electricity, vehicle fleets, building emissions, and sustainable procurement, while promoting environmental justice, workforce training, and supply chain transparency.",
+    "theme_ids": [
+      "climate-change-mitigation",
+      "federal-procurement-policy",
+      "energy-policy",
+      "environmental-regulation",
+      "federal-workforce",
+      "equity-and-inclusion-policy",
+      "labor-relations",
+      "supply-chain-security",
+      "federal-agency-management",
+      "workforce-development",
+      "public-lands-management",
+      "economic-development",
+      "community-development",
+      "federal-sustainability-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "green-energy-industry",
+        "federal-agencies"
+      ],
+      "negative_ids": [
+        "domestic-energy-producers",
+        "foreign-suppliers"
+      ]
+    },
+    "potential_concerns": [
+      "The ambitious timelines and inter-agency coordination required may face implementation delays due to bureaucratic challenges and resource constraints.",
+      "The transition to zero-emission vehicles and clean electricity could be costly upfront, raising budgetary concerns or trade-offs with other agency priorities.",
+      "Strict procurement requirements and Buy Clean policies might increase costs or complicate supply chains, potentially impacting small or diverse suppliers.",
+      "Environmental justice goals may face challenges in measuring and ensuring equitable benefits across all disadvantaged communities as intended.",
+      "Exemptions for national security and operational needs could limit the overall impact or create inconsistency in achieving government-wide emission targets."
+    ],
+    "enriched_at": "2025-12-09T03:50:59.686Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

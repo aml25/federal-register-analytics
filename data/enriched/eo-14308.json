@@ -24,10 +24,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "state-child-welfare-agencies"
+        "state-and-local-governments",
+        "tech-industry"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "foreign-suppliers"
+      ]
     },
     "potential_concerns": [
       "Efforts to modify or rescind environmental protections for prescribed burns and fire retardants may increase risks to ecosystems or public health.",
@@ -36,7 +38,7 @@
       "Incentivizing faster wildfire response without sufficient safeguards could lead to rushed decisions that overlook environmental or community concerns.",
       "Rule changes related to utility companies’ wildfire liability may create legal uncertainties and conflicts with ongoing litigation."
     ],
-    "enriched_at": "2025-12-06T06:53:24.406Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:45:44.864Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

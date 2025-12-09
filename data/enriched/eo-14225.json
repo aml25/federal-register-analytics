@@ -23,13 +23,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "manufacturing-workers",
-        "domestic-energy-producers"
+        "domestic-energy-producers",
+        "american-workers"
       ],
       "negative_ids": [
-        "environmental-advocates",
-        "wildlife-and-fish-habitats"
+        "wildlife-and-fish-habitats",
+        "environmental-advocates"
       ]
     },
     "potential_concerns": [
@@ -39,7 +38,7 @@
       "Balancing economic goals with sustainable land management could be difficult and lead to conflicts among stakeholders.",
       "Implementation timelines and coordination among multiple federal agencies may present logistical and bureaucratic challenges."
     ],
-    "enriched_at": "2025-12-06T07:01:36.012Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:41:42.583Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

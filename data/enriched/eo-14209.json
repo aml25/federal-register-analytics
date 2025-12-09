@@ -22,11 +22,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "private-sector-rivals"
+        "american-businesses"
       ],
       "negative_ids": [
-        "american-businesses"
+        "foreign-processors-of-critical-minerals"
       ]
     },
     "potential_concerns": [
@@ -36,7 +35,7 @@
       "The temporary suspension could lead to uncertainty and inconsistent application of the law during the review period.",
       "Critics may argue that the order prioritizes economic interests over ethics and rule of law."
     ],
-    "enriched_at": "2025-12-06T07:03:14.198Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:53.993Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

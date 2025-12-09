@@ -20,10 +20,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies"
+        "tech-industry"
       ],
       "negative_ids": [
-        "tech-industry"
+        "foreign-suppliers"
       ]
     },
     "potential_concerns": [
@@ -33,7 +33,7 @@
       "State governments or private parties might attempt to enforce the law, leading to possible legal conflicts with federal authority.",
       "The indefinite backward waiver of penalties for prior conduct may incentivize future noncompliance with similar statutes."
     ],
-    "enriched_at": "2025-12-06T06:53:12.126Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:45:50.193Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

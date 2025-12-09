@@ -1,0 +1,44 @@
+{
+  "document_number": "2021-26459",
+  "executive_order_number": "14056",
+  "title": "The National Space Council",
+  "abstract": null,
+  "signing_date": "2021-12-01",
+  "publication_date": "2021-12-03",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/12/03/2021-26459/the-national-space-council",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-12-03/pdf/2021-26459.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/12/03/2021-26459.txt",
+  "enrichment": {
+    "summary": "This executive order reestablishes and updates the National Space Council, a group chaired by the Vice President that advises the President on space policy and strategy. It defines the Council's membership, responsibilities, and operational procedures to ensure coordination among federal agencies and input from industry experts on civil, commercial, and national security space activities.",
+    "theme_ids": [
+      "space-policy",
+      "national-security",
+      "advisory-committees-management",
+      "federal-agency-management",
+      "technology-development"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "commercial-space-operators",
+        "tech-industry"
+      ],
+      "negative_ids": [
+        "foreign-suppliers",
+        "environmental-advocates"
+      ]
+    },
+    "potential_concerns": [
+      "Interagency coordination challenges may arise due to overlapping authorities and competing priorities among diverse Council members.",
+      "The broad authority given to the Chair to determine Council membership and invite participants could limit transparency or exclude important stakeholders.",
+      "Balancing national security concerns with commercial and civil space interests might lead to conflicts or policy gridlock.",
+      "Reliance on existing appropriations and legal constraints could slow down the Council’s effectiveness and responsiveness to emerging space challenges.",
+      "The lack of an explicit public or congressional oversight mechanism for the Council’s work might raise accountability concerns."
+    ],
+    "enriched_at": "2025-12-09T03:51:05.997Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

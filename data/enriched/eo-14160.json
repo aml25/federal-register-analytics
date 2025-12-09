@@ -20,12 +20,9 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies"
+        "undocumented-immigrants"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
-        "legal-immigrants",
-        "children-in-foster-care",
         "children-born-to-unauthorized-immigrants"
       ]
     },
@@ -36,7 +33,7 @@
       "The order may disproportionately impact immigrant families, raising concerns about discrimination and family separation.",
       "The definition of 'mother' and 'father' could create administrative complications and controversy regarding parental rights and citizenship eligibility."
     ],
-    "enriched_at": "2025-12-06T07:08:15.633Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:38:33.586Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

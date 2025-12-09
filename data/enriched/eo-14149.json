@@ -20,13 +20,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies",
-        "patriotic-citizens"
+        "social-media-platforms"
       ],
       "negative_ids": [
-        "social-media-platforms",
-        "civil-liberties-groups"
+        "tech-industry"
       ]
     },
     "potential_concerns": [
@@ -36,7 +33,7 @@
       "Ambiguity in defining what constitutes unconstitutional censorship may lead to uneven or inconsistent application across agencies.",
       "Potential chilling effects on government communication strategies that rely on partnerships with social media to promote public safety and health information."
     ],
-    "enriched_at": "2025-12-06T07:09:26.613Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:37:57.192Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

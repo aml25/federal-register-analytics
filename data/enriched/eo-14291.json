@@ -20,13 +20,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "faith-based-organizations",
         "religious-communities",
-        "parents-seeking-religious-education"
+        "faith-based-organizations"
       ],
       "negative_ids": [
-        "religious-liberty-opponents",
-        "secular-public-institutions"
+        "secular-public-institutions",
+        "religious-liberty-opponents"
       ]
     },
     "potential_concerns": [
@@ -36,7 +35,7 @@
       "Limited term and dependence on funding and presidential extension could affect commission effectiveness and continuity.",
       "Ambiguities in applying conscience protections in healthcare and education could lead to inconsistencies or legal disputes."
     ],
-    "enriched_at": "2025-12-06T06:54:59.858Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:44:55.050Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

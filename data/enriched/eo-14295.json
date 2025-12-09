@@ -21,10 +21,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies"
+        "regulated-entities"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "foreign-suppliers"
+      ]
     },
     "potential_concerns": [
       "Delays in implementing technology upgrades could slow expected efficiency gains.",
@@ -33,7 +34,7 @@
       "Faster publication times could pressure agencies to rush document finalization, potentially affecting document accuracy or completeness.",
       "Complexity in accurately linking fees to real costs and efficiencies could create disputes or administrative burdens."
     ],
-    "enriched_at": "2025-12-06T06:54:36.027Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:45:07.548Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

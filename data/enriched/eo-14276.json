@@ -24,13 +24,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "commercial-space-operators",
         "commercial-fishermen",
         "seafood-industry"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
         "foreign-seafood-exporters",
         "environmental-advocates"
       ]
@@ -42,7 +39,7 @@
       "Modernizing data collection and technology may face implementation delays or require substantial funding.",
       "Suspending or rescinding existing regulations could endanger sustainability efforts established under previous policies."
     ],
-    "enriched_at": "2025-12-06T06:56:40.570Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:44:12.487Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

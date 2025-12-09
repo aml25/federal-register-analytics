@@ -23,17 +23,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "female-athletes",
-        "women-seeking-elective-abortions"
+        "women-and-girls",
+        "female-athletes"
       ],
       "negative_ids": [
         "transgender-athletes",
-        "minor-transgender-patients",
-        "parents-supporting-gender-affirming-care",
-        "healthcare-providers-pediatric-transgender-care",
-        "students-impacted-by-ideological-restrictions",
-        "diverse-student-populations"
+        "minors-with-gender-dysphoria"
       ]
     },
     "potential_concerns": [
@@ -43,7 +38,7 @@
       "The prohibition on funding and promoting gender ideology in federally funded programs could reduce support for LGBTQ+ advocacy and health services.",
       "The order could intensify social and political polarization surrounding gender identity and civil rights protections."
     ],
-    "enriched_at": "2025-12-06T07:07:27.689Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:38:56.791Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

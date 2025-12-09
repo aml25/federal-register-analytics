@@ -21,8 +21,6 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "academic-institutions",
         "children-in-foster-care",
         "foster-families",
         "faith-based-organizations"
@@ -39,7 +37,7 @@
       "Implementing new data collection and modernization efforts within 180 days may be challenging for under-resourced state agencies and lead to inconsistent outcomes.",
       "Increasing faith-based organization involvement might blur the lines between government and religious activities, raising constitutional or diversity concerns."
     ],
-    "enriched_at": "2025-12-06T06:48:15.111Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:48:23.607Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

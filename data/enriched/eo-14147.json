@@ -21,14 +21,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "doj",
-        "federal-agencies"
+        "average-americans"
       ],
       "negative_ids": [
-        "civil-liberties-groups",
-        "protestors",
-        "average-americans"
+        "independent-regulatory-agencies"
       ]
     },
     "potential_concerns": [
@@ -38,7 +34,7 @@
       "Lack of clear enforcement mechanisms or timelines may reduce the effectiveness of accountability measures.",
       "Critics might see the order as undermining prosecutorial independence or interfering with ongoing criminal investigations."
     ],
-    "enriched_at": "2025-12-06T07:09:38.737Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:37:50.672Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

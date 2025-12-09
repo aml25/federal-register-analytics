@@ -21,13 +21,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "government-service-users"
+        "average-americans"
       ],
       "negative_ids": [
-        "private-sector-rivals",
-        "small-business-owners",
-        "average-americans"
+        "federal-agencies"
       ]
     },
     "potential_concerns": [
@@ -37,7 +34,7 @@
       "Focusing criminal prosecutions only on those who knowingly violate regulations could reduce enforcement deterrence for certain harmful but unintentional violations.",
       "There may be tension between the order’s reforms and agency statutory authorities, complicating implementation across diverse regulatory areas."
     ],
-    "enriched_at": "2025-12-06T06:54:42.089Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:45:04.798Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

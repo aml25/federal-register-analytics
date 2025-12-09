@@ -1,0 +1,42 @@
+{
+  "document_number": "2021-01714",
+  "executive_order_number": "13984",
+  "title": "Taking Additional Steps To Address the National Emergency With Respect to Significant Malicious Cyber- Enabled Activities",
+  "abstract": null,
+  "signing_date": "2021-01-19",
+  "publication_date": "2021-01-25",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/01/25/2021-01714/taking-additional-steps-to-address-the-national-emergency-with-respect-to-significant-malicious",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-25/pdf/2021-01714.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/01/25/2021-01714.txt",
+  "enrichment": {
+    "summary": "This executive order requires U.S.-based cloud infrastructure providers to verify and keep records of foreign customers using their services to prevent malicious cyber activities. It also allows the government to restrict certain foreign actors' access to these services and promotes increased information sharing among providers and agencies to better detect and address cyber threats.",
+    "theme_ids": [
+      "national-security",
+      "cybersecurity-policy",
+      "data-governance",
+      "foreign-policy",
+      "technology-regulation"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "tech-industry"
+      ],
+      "negative_ids": [
+        "foreign-suppliers"
+      ]
+    },
+    "potential_concerns": [
+      "Verification and record-keeping requirements may impose significant compliance costs and operational burdens on smaller IaaS providers.",
+      "Restrictions on foreign users could impede legitimate business activity or raise concerns about overreach and due process for affected parties.",
+      "Heightened data collection raises privacy concerns about how foreign users' personal and transactional information is stored, protected, and accessed.",
+      "Implementing effective information sharing among providers and agencies may face challenges due to competitive concerns and data sensitivity.",
+      "The definition and identification of 'malicious cyber-enabled activities' may be subject to interpretation, potentially leading to inconsistent enforcement."
+    ],
+    "enriched_at": "2025-12-09T04:00:31.584Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

@@ -25,17 +25,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "small-business-owners",
-        "domestic-energy-producers",
-        "tech-industry",
-        "federal-agencies"
+        "tech-industry"
       ],
       "negative_ids": [
-        "average-americans",
-        "undocumented-immigrants",
-        "environmental-advocates",
-        "small-business-owners"
+        "independent-regulatory-agencies"
       ]
     },
     "potential_concerns": [
@@ -45,7 +39,7 @@
       "The expansive definition of enforcement discretion risks legal challenges and confusion over which regulations remain enforceable.",
       "Exemptions for national security and immigration may create uncertainty about which rules apply, complicating agency compliance."
     ],
-    "enriched_at": "2025-12-06T07:02:14.811Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:41:21.172Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -25,13 +25,13 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "scientific-researchers",
         "tech-industry",
-        "academic-institutions",
-        "federal-agencies"
+        "academic-institutions"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "foreign-suppliers"
+      ]
     },
     "potential_concerns": [
       "The emphasis on achieving 'unchallenged global technological dominance' might escalate international competition and geopolitical tensions in technology development.",
@@ -40,7 +40,7 @@
       "Reliance on private-sector and non-Federal members could create conflicts of interest or bias toward industry priorities over public interest.",
       "Termination of the previous PCAST order and creation of a new council might disrupt continuity in science advisory functions during the transition."
     ],
-    "enriched_at": "2025-12-06T07:06:32.942Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:39:23.482Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

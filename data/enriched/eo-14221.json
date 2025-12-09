@@ -22,11 +22,11 @@
     "impacted_populations": {
       "positive_ids": [
         "medical-patients",
-        "average-americans"
+        "private-health-insurers",
+        "low-income-patients"
       ],
       "negative_ids": [
-        "pharmaceutical-manufacturers",
-        "private-sector-rivals"
+        "pharmaceutical-manufacturers"
       ]
     },
     "potential_concerns": [
@@ -36,7 +36,7 @@
       "Pharmaceutical companies might push back against public disclosure of true drug prices, possibly affecting drug market dynamics.",
       "There may be challenges ensuring that price transparency actually translates into lower costs and better patient outcomes rather than just more data."
     ],
-    "enriched_at": "2025-12-06T07:02:03.079Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:41:30.492Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

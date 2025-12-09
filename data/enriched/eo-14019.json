@@ -1,0 +1,44 @@
+{
+  "document_number": "2021-05087",
+  "executive_order_number": "14019",
+  "title": "Promoting Access to Voting",
+  "abstract": null,
+  "signing_date": "2021-03-07",
+  "publication_date": "2021-03-10",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/03/10/2021-05087/promoting-access-to-voting",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-03-10/pdf/2021-05087.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/03/10/2021-05087.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to take steps to make voting easier and more accessible for all eligible Americans, including improving voter registration, providing election information, supporting voters with disabilities, military personnel, and Native American communities, and modernizing Vote.gov. It also ensures federal employees have opportunities to vote and support civic participation.",
+    "theme_ids": [
+      "equity-and-inclusion-policy",
+      "federal-agency-management",
+      "tribal-policy",
+      "federal-workforce",
+      "customer-experience-improvement",
+      "voting-rights-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees",
+        "tribal-nations",
+        "persons-with-disabilities",
+        "military-veterans"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Implementation across diverse federal agencies may be uneven, leading to inconsistent voter access improvements.",
+      "Efforts to designate agencies as voter registration points could face legal or political resistance from states or agencies.",
+      "Modernization of Vote.gov and other digital efforts might not fully address barriers faced by populations with limited internet access or digital literacy.",
+      "Increased federal involvement in elections could spark controversy over federal vs. state roles in election administration.",
+      "Privacy and security risks could arise from expanded online voter registration and ballot tracking systems if not properly safeguarded."
+    ],
+    "enriched_at": "2025-12-09T03:56:08.660Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

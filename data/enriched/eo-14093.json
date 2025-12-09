@@ -22,12 +22,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
-      ],
-      "negative_ids": [
-        "foreign-entities-in-countries-of-concern",
+        "us-persons-with-sensitive-data",
         "commercial-spyware-vendors"
-      ]
+      ],
+      "negative_ids": []
     },
     "potential_concerns": [
       "Implementation complexity might delay or hinder the procurement of needed cybersecurity tools for legitimate government functions.",
@@ -36,7 +34,7 @@
       "Determining credible information and risk assessments could vary between agencies, leading to inconsistent application and possible loopholes.",
       "The waiver provision could be controversial if perceived as allowing exceptions that undermine the order's security goals."
     ],
-    "enriched_at": "2025-12-08T18:09:27.108Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:37:21.689Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

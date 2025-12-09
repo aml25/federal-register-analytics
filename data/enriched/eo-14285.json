@@ -24,18 +24,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "domestic-energy-producers",
-        "military-veterans",
-        "private-sector-rivals",
-        "foreign-tourists",
-        "federal-agencies",
-        "scientific-researchers",
-        "tech-industry"
+        "critical-minerals-industry",
+        "scientific-researchers"
       ],
       "negative_ids": [
-        "environmental-advocates",
-        "china"
+        "foreign-processors-of-critical-minerals",
+        "environmental-advocates"
       ]
     },
     "potential_concerns": [
@@ -45,7 +39,7 @@
       "Coordination among multiple federal agencies could face bureaucratic delays despite mandated timelines, hindering timely implementation.",
       "Efforts to counter China’s influence may escalate trade or diplomatic conflicts affecting broader foreign relations."
     ],
-    "enriched_at": "2025-12-06T06:55:39.013Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:44:38.729Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

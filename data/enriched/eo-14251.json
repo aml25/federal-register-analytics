@@ -21,10 +21,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies"
+        "federal-employees"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "labor-union-members"
+      ]
     },
     "potential_concerns": [
       "Excluding certain agencies from federal labor protections may reduce employee rights and collective bargaining power.",
@@ -33,7 +34,7 @@
       "The order may strain labor relations within affected agencies, impacting morale and retention.",
       "Limited transparency and oversight of exclusions could raise concerns about accountability."
     ],
-    "enriched_at": "2025-12-06T06:59:02.911Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:42:52.385Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

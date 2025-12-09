@@ -22,15 +22,10 @@
     "impacted_populations": {
       "positive_ids": [
         "parents-of-public-school-students",
-        "religious-communities",
-        "students-in-federally-funded-schools",
-        "academic-institutions"
+        "students-in-federally-funded-schools"
       ],
       "negative_ids": [
-        "diverse-student-populations",
-        "secular-public-institutions",
-        "students-in-federally-funded-schools",
-        "public-health-promotion"
+        "academic-institutions"
       ]
     },
     "potential_concerns": [
@@ -40,7 +35,7 @@
       "The emphasis on parental authority and religious freedom might lead to legal challenges and ambiguity in accommodating disability and equal protection laws.",
       "The order could contribute to misinformation by emphasizing \"remote risks\" of COVID-19, potentially reducing vaccine uptake among youth."
     ],
-    "enriched_at": "2025-12-06T07:02:44.572Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:41:05.822Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

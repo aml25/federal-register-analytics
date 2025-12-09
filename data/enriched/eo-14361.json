@@ -21,12 +21,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "brazil"
+        "brazil",
+        "agricultural-workers"
       ],
-      "negative_ids": [
-        "agricultural-workers",
-        "private-sector-rivals"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
       "Removing tariffs on certain Brazilian agricultural products could harm U.S. farmers and agricultural workers facing increased competition.",
@@ -35,7 +33,7 @@
       "Implementation and enforcement challenges could arise in properly categorizing which products are exempt from the additional duties.",
       "Tariff changes might provoke retaliatory measures from other trade partners or impact broader U.S. trade policy consistency."
     ],
-    "enriched_at": "2025-12-06T06:48:03.406Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:48:29.324Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

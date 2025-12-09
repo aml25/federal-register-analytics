@@ -22,10 +22,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies"
+        "federal-agencies",
+        "american-youth"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "private-sector-rivals"
+      ]
     },
     "potential_concerns": [
       "The complexity of coordinating multiple federal agencies could lead to bureaucratic delays or inefficiencies in preparation and response.",
@@ -34,7 +36,7 @@
       "Funding and resource allocation concentrated on the Olympics might divert attention and support from other critical federal programs.",
       "The task force's broad authority and membership could result in unclear accountability or conflicts among agencies."
     ],
-    "enriched_at": "2025-12-06T06:51:25.435Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:46:40.529Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

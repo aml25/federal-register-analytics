@@ -21,16 +21,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "federal-employees"
-      ],
-      "negative_ids": [
-        "private-sector-rivals",
-        "china",
-        "undocumented-immigrants",
-        "manufacturing-workers",
         "small-importers",
         "international-shippers"
+      ],
+      "negative_ids": [
+        "foreign-manufacturers"
       ]
     },
     "potential_concerns": [
@@ -40,7 +35,7 @@
       "Foreign trading partners could view these measures as trade barriers, potentially escalating trade tensions.",
       "Administrative challenges in coordinating multiple agencies and updating systems could delay effective enforcement."
     ],
-    "enriched_at": "2025-12-06T06:51:48.411Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:46:27.887Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

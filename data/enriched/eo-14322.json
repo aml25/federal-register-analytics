@@ -21,7 +21,6 @@
     "impacted_populations": {
       "positive_ids": [
         "academic-institutions",
-        "american-youth",
         "collegiate-athletes"
       ],
       "negative_ids": [
@@ -35,7 +34,7 @@
       "Ambiguity in defining legitimate vs. improper athlete compensation could create compliance challenges for schools and athletes.",
       "Restrictions on donor influence may reduce the overall funding available for collegiate athletics, possibly impacting the quality or breadth of programs."
     ],
-    "enriched_at": "2025-12-06T06:52:00.793Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:46:22.813Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

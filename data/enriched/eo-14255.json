@@ -21,11 +21,13 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "small-business-owners",
-        "large-investors"
+        "large-investors",
+        "american-businesses"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "foreign-manufacturers",
+        "environmental-advocates"
+      ]
     },
     "potential_concerns": [
       "The focus on facilitating investments above $1 billion may exclude small and medium investors, potentially limiting broader economic benefits.",
@@ -34,7 +36,7 @@
       "There may be national security risks if expedited processes fail to adequately vet foreign investments despite stated safeguards.",
       "The creation of a specialized office may lead to duplication or overlap with existing federal economic development or investment programs."
     ],
-    "enriched_at": "2025-12-06T06:58:39.311Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:43:05.607Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -21,11 +21,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "china"
       ],
       "negative_ids": [
-        "private-sector-rivals"
+        "foreign-manufacturers"
       ]
     },
     "potential_concerns": [
@@ -35,7 +34,7 @@
       "The order does not provide an explicit enforcement mechanism for tariff re-escalation beyond presidential discretion, which could slow responsive action.",
       "There may be political or public skepticism about reducing tariffs while the opioid crisis continues to affect American communities."
     ],
-    "enriched_at": "2025-12-06T06:48:26.647Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:48:15.732Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

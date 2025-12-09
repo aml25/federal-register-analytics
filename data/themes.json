@@ -383,7 +383,223 @@
       "name": "Caregiving Policy",
       "description": "Policies aimed at improving caregiving services, support for family and professional caregivers, and the infrastructure surrounding early childhood and long-term care.",
       "created_at": "2025-12-08T18:09:08.975Z"
+    },
+    {
+      "id": "federal-pay-policy",
+      "name": "Federal Pay Policy",
+      "description": "Policies focused on the determination, adjustment, and administration of pay rates and salary structures for federal government employees across various pay systems.",
+      "created_at": "2025-12-09T03:45:11.938Z"
+    },
+    {
+      "id": "pharmaceutical-cost-control",
+      "name": "Pharmaceutical Cost Control",
+      "description": "Policies focused on reducing prescription drug prices and managing costs within healthcare programs like Medicare and Medicaid.",
+      "created_at": "2025-12-09T03:45:34.417Z"
+    },
+    {
+      "id": "cultural-policy",
+      "name": "Cultural Policy",
+      "description": "Policies focused on supporting, preserving, and promoting the arts, humanities, museums, libraries, cultural heritage, and creative sectors.",
+      "created_at": "2025-12-09T03:45:56.430Z"
+    },
+    {
+      "id": "bioeconomy-policy",
+      "name": "Bioeconomy Policy",
+      "description": "Policies focused on fostering economic activities derived from biotechnology and biomanufacturing, including innovation, commercialization, data infrastructure, and sustainability within the life sciences sector.",
+      "created_at": "2025-12-09T03:46:24.876Z"
+    },
+    {
+      "id": "hostage-recovery-policy",
+      "name": "Hostage Recovery Policy",
+      "description": "Policies related to the prevention, response, and recovery efforts involving hostages and wrongfully detained nationals abroad, including interagency coordination, family support, and diplomatic and punitive measures.",
+      "created_at": "2025-12-09T03:46:48.948Z"
+    },
+    {
+      "id": "lgbtq-rights-policy",
+      "name": "Lgbtq+ Rights Policy",
+      "description": "Policies focused specifically on advancing the rights, protections, and well-being of LGBTQI+ individuals across federal government programs and external engagements.",
+      "created_at": "2025-12-09T03:47:10.948Z"
+    },
+    {
+      "id": "law-enforcement-accountability",
+      "name": "Law Enforcement Accountability",
+      "description": "Policies focused on improving transparency, misconduct investigations, discipline, and overall accountability within law enforcement agencies.",
+      "created_at": "2025-12-09T03:47:21.049Z"
+    },
+    {
+      "id": "climate-change-mitigation",
+      "name": "Climate Change Mitigation",
+      "description": "Policies and actions focused specifically on reducing greenhouse gas emissions and enhancing carbon sequestration to address climate change.",
+      "created_at": "2025-12-09T03:47:39.411Z"
+    },
+    {
+      "id": "nature-based-solutions",
+      "name": "Nature Based Solutions",
+      "description": "Policies that deploy ecosystem-based approaches for climate adaptation, disaster resilience, and environmental restoration.",
+      "created_at": "2025-12-09T03:47:39.411Z"
+    },
+    {
+      "id": "healthcare-access",
+      "name": "Healthcare Access",
+      "description": "Policies focused on improving access to affordable, quality healthcare coverage and services for the American population.",
+      "created_at": "2025-12-09T03:47:52.856Z"
+    },
+    {
+      "id": "digital-assets-policy",
+      "name": "Digital Assets Policy",
+      "description": "Policies focused on the regulation, development, oversight, and systemic implications of digital assets, cryptocurrencies, and central bank digital currencies.",
+      "created_at": "2025-12-09T03:48:13.012Z"
+    },
+    {
+      "id": "humanitarian-economic-support",
+      "name": "Humanitarian Economic Support",
+      "description": "Policies focused on protecting and managing financial resources to support humanitarian needs in countries facing crises, including blocking or safeguarding assets for civilian benefit.",
+      "created_at": "2025-12-09T03:48:31.796Z"
+    },
+    {
+      "id": "transnational-crime-policy",
+      "name": "Transnational Crime Policy",
+      "description": "Policies focused on preventing, disrupting, and coordinating government action against transnational criminal organizations operating across borders.",
+      "created_at": "2025-12-09T03:50:29.670Z"
+    },
+    {
+      "id": "customer-experience-improvement",
+      "name": "Customer Experience Improvement",
+      "description": "Policies focused on enhancing the quality, accessibility, and responsiveness of government services and interactions with the public across federal agencies.",
+      "created_at": "2025-12-09T03:50:48.478Z"
+    },
+    {
+      "id": "federal-sustainability-policy",
+      "name": "Federal Sustainability Policy",
+      "description": "Policies focused on integrating sustainability, environmental stewardship, and climate resilience into federal government operations and management.",
+      "created_at": "2025-12-09T03:50:58.409Z"
+    },
+    {
+      "id": "infrastructure-policy",
+      "name": "Infrastructure Policy",
+      "description": "Policies related to the planning, funding, coordination, and implementation of physical infrastructure projects and programs across federal, state, local, tribal, and territorial governments.",
+      "created_at": "2025-12-09T03:51:33.884Z"
+    },
+    {
+      "id": "disease-control-policy",
+      "name": "Disease Control Policy",
+      "description": "Policies focused on controlling communicable diseases through quarantine, isolation, and other public health measures to prevent disease spread.",
+      "created_at": "2025-12-09T03:52:17.208Z"
+    },
+    {
+      "id": "information-transparency",
+      "name": "Information Transparency",
+      "description": "Policies focused on increasing public access to government information while balancing security and privacy concerns.",
+      "created_at": "2025-12-09T03:53:06.962Z"
+    },
+    {
+      "id": "antitrust-policy",
+      "name": "Antitrust Policy",
+      "description": "Policies focused on enforcing antitrust laws and promoting competition by preventing monopolies, market concentration, and unfair business practices across industries.",
+      "created_at": "2025-12-09T03:53:51.273Z"
+    },
+    {
+      "id": "investment-restrictions",
+      "name": "Investment Restrictions",
+      "description": "Policies focused on limiting or controlling financial investments in entities that pose a risk to national security or foreign policy interests.",
+      "created_at": "2025-12-09T03:54:25.435Z"
+    },
+    {
+      "id": "anti-discrimination-policy",
+      "name": "Anti Discrimination Policy",
+      "description": "Policies focused specifically on preventing, addressing, and responding to racial, ethnic, and other forms of discrimination and hate crimes targeted at minority communities.",
+      "created_at": "2025-12-09T03:54:35.141Z"
+    },
+    {
+      "id": "climate-finance-risk-management",
+      "name": "Climate Finance Risk Management",
+      "description": "Policies focused on identifying, assessing, mitigating, and disclosing financial risks caused by climate change and transitioning economies.",
+      "created_at": "2025-12-09T03:54:43.697Z"
+    },
+    {
+      "id": "cybersecurity-policy",
+      "name": "Cybersecurity Policy",
+      "description": "Policies focused specifically on protecting digital infrastructure, networks, information systems, and responding to cyber threats and incidents at the federal level.",
+      "created_at": "2025-12-09T03:55:00.916Z"
+    },
+    {
+      "id": "judiciary-policy",
+      "name": "Judiciary Policy",
+      "description": "Policies related to the organization, structure, reform, and oversight of the judicial branch of government.",
+      "created_at": "2025-12-09T03:55:36.163Z"
+    },
+    {
+      "id": "voting-rights-policy",
+      "name": "Voting Rights Policy",
+      "description": "Policies focused on protecting, expanding, and facilitating the fundamental right to vote, including combating voter suppression and improving access to elections for all eligible citizens.",
+      "created_at": "2025-12-09T03:56:07.096Z"
+    },
+    {
+      "id": "humanitarian-immigration-policy",
+      "name": "Humanitarian Immigration Policy",
+      "description": "Policies specifically focused on refugee resettlement, humanitarian visas, and protections for populations displaced due to conflict or other crises.",
+      "created_at": "2025-12-09T03:56:49.317Z"
+    },
+    {
+      "id": "climate-migration-policy",
+      "name": "Climate Migration Policy",
+      "description": "Policies addressing migration and displacement driven directly or indirectly by climate change, including planned relocation and protection mechanisms.",
+      "created_at": "2025-12-09T03:56:49.318Z"
+    },
+    {
+      "id": "immigration-process-reform",
+      "name": "Immigration Process Reform",
+      "description": "Policies focused specifically on reviewing, improving, and streamlining the procedural aspects of the legal immigration and naturalization systems to enhance accessibility and efficiency.",
+      "created_at": "2025-12-09T03:56:58.999Z"
+    },
+    {
+      "id": "regional-migration-policy",
+      "name": "Regional Migration Policy",
+      "description": "Policies focused on collaboration and strategic frameworks addressing migration challenges and opportunities within a defined geographic region involving multiple countries.",
+      "created_at": "2025-12-09T03:57:14.306Z"
+    },
+    {
+      "id": "pandemic-economic-relief",
+      "name": "Pandemic Economic Relief",
+      "description": "Policies aimed at responding to the economic impacts caused by pandemics, focusing on relief measures for affected individuals, businesses, and government entities.",
+      "created_at": "2025-12-09T03:58:11.601Z"
+    },
+    {
+      "id": "government-ethics",
+      "name": "Government Ethics",
+      "description": "Policies focused on ethical standards, conflict of interest restrictions, and integrity requirements for government officials and appointees.",
+      "created_at": "2025-12-09T03:59:49.351Z"
+    },
+    {
+      "id": "pandemic-response-coordination",
+      "name": "Pandemic Response Coordination",
+      "description": "Policies focused on coordinating federal, state, and local efforts to respond to pandemics, including resource allocation, interagency collaboration, and public health emergency management.",
+      "created_at": "2025-12-09T04:00:04.179Z"
+    },
+    {
+      "id": "census-and-apportionment-policy",
+      "name": "Census And Apportionment Policy",
+      "description": "Policies related to the conduct, accuracy, and legal requirements of the national census and the apportionment of congressional representation based on population counts.",
+      "created_at": "2025-12-09T04:00:12.789Z"
+    },
+    {
+      "id": "technology-regulation",
+      "name": "Technology Regulation",
+      "description": "Policies related to setting rules and standards for technology providers to prevent misuse and ensure security.",
+      "created_at": "2025-12-09T04:00:30.251Z"
+    },
+    {
+      "id": "historical-commemoration",
+      "name": "Historical Commemoration",
+      "description": "Policies focused on honoring and memorializing historical figures, events, and legacies through monuments, statues, memorials, and related projects.",
+      "created_at": "2025-12-09T04:01:17.731Z"
+    },
+    {
+      "id": "wildfire-management-policy",
+      "name": "Wildfire Management Policy",
+      "description": "Policies focused on coordinating and improving federal and intergovernmental strategies, resource allocation, and operational practices for managing wildfires and related land and community protection.",
+      "created_at": "2025-12-09T04:01:35.445Z"
     }
   ],
-  "updated_at": "2025-12-08T18:09:45.544Z"
+  "updated_at": "2025-12-09T04:02:21.616Z"
 }

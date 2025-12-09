@@ -24,24 +24,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "federal-contractors",
-        "american-businesses",
-        "legal-immigrants",
-        "state-and-local-governments",
-        "academic-institutions",
-        "medical-patients",
-        "state-and-local-law-enforcement",
-        "doj"
+        "private-sector-employers"
       ],
       "negative_ids": [
-        "diverse-student-populations",
-        "minority-service-members",
-        "individuals-impacted-by-race-and-equity-policy-restrictions",
-        "minor-transgender-patients",
-        "minority-service-members",
-        "religious-liberty-opponents",
-        "academic-institutions"
+        "developers-of-ideologically-inclusive-ai",
+        "diverse-student-populations"
       ]
     },
     "potential_concerns": [
@@ -51,7 +39,7 @@
       "Enforcement actions targeting private sector DEI programs could lead to increased litigation and regulatory burdens.",
       "The order's interpretation of civil rights laws may be controversial and challenge longstanding affirmative action and diversity policies upheld by courts."
     ],
-    "enriched_at": "2025-12-06T07:06:56.576Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:39:11.973Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -22,10 +22,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies"
+        "undocumented-immigrants"
       ],
       "negative_ids": [
-        "undocumented-immigrants"
+        "mexico",
+        "small-importers"
       ]
     },
     "potential_concerns": [
@@ -35,7 +36,7 @@
       "The impacted industries and workers in the United States and Mexico may face uncertainty due to the conditional and temporary nature of the tariff pause.",
       "Effectiveness depends heavily on interagency coordination and timely, accurate assessment of Mexico's actions, which may be challenging."
     ],
-    "enriched_at": "2025-12-06T07:04:19.414Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:26.892Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

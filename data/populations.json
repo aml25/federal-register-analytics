@@ -337,12 +337,6 @@
       "created_at": "2025-12-06T06:52:09.371Z"
     },
     {
-      "id": "mental-health-patients",
-      "name": "Mental Health Patients",
-      "description": "People with mental illness who might experience loss of autonomy or civil liberties due to expanded civil commitment and treatment mandates.",
-      "created_at": "2025-12-06T06:52:09.372Z"
-    },
-    {
       "id": "housing-first-advocates",
       "name": "Housing First Advocates",
       "description": "Organizations and individuals supporting harm reduction and housing-first models who may lose federal funding and face increased opposition.",
@@ -406,12 +400,6 @@
       "id": "religious-communities",
       "name": "Religious Communities",
       "description": "Groups and individuals engaged in religious practice and institutions that benefit from legal protections of religious freedom.",
-      "created_at": "2025-12-06T06:54:59.858Z"
-    },
-    {
-      "id": "parents-seeking-religious-education",
-      "name": "Parents Seeking Religious Education",
-      "description": "Parents who prioritize the right to choose religious schooling and upbringing for their children.",
       "created_at": "2025-12-06T06:54:59.858Z"
     },
     {
@@ -739,12 +727,6 @@
       "created_at": "2025-12-06T07:04:03.633Z"
     },
     {
-      "id": "male-athletes-seeking-womens-sports",
-      "name": "Male Athletes Seeking Womens Sports",
-      "description": "Male individuals attempting to compete in female sports categories who will be barred or face legal and immigration restrictions.",
-      "created_at": "2025-12-06T07:04:03.633Z"
-    },
-    {
       "id": "legal-immigrants",
       "name": "Legal Immigrants",
       "description": "Individuals who have entered or remain in the United States through authorized immigration channels and hold valid visas or permanent residency.",
@@ -817,22 +799,10 @@
       "created_at": "2025-12-06T07:05:43.254Z"
     },
     {
-      "id": "defense-academic-institutions",
-      "name": "Defense Academic Institutions",
-      "description": "Staff and students of U.S. military academies and educational institutions under the Department of Defense and Homeland Security.",
-      "created_at": "2025-12-06T07:05:43.254Z"
-    },
-    {
       "id": "minority-service-members",
       "name": "Minority Service Members",
       "description": "Military personnel from racial, ethnic, or gender minority groups who may lose protections or support from DEI initiatives.",
       "created_at": "2025-12-06T07:05:43.254Z"
-    },
-    {
-      "id": "minor-transgender-patients",
-      "name": "Minor Transgender Patients",
-      "description": "Children and adolescents who identify as transgender and may seek or receive gender-affirming medical care.",
-      "created_at": "2025-12-06T07:05:52.650Z"
     },
     {
       "id": "reproductive-rights-advocates",
@@ -862,12 +832,6 @@
       "id": "federal-death-row-inmates",
       "name": "Federal Death Row Inmates",
       "description": "Individuals sentenced to death at the federal level who face heightened enforcement and stricter incarceration conditions.",
-      "created_at": "2025-12-06T07:07:51.051Z"
-    },
-    {
-      "id": "state-death-row-inmates",
-      "name": "State Death Row Inmates",
-      "description": "Individuals sentenced to death at the state level who may be subject to increased federal support for prosecutions and executions.",
       "created_at": "2025-12-06T07:07:51.051Z"
     },
     {
@@ -911,12 +875,6 @@
       "name": "Social Media Platforms",
       "description": "Companies and platforms that moderate online content and may face restrictions or reduced coordination with federal government efforts to regulate misinformation or disinformation.",
       "created_at": "2025-12-06T07:09:26.612Z"
-    },
-    {
-      "id": "civil-liberties-groups",
-      "name": "Civil Liberties Groups",
-      "description": "Organizations that advocate for civil rights and constitutional protections and may be concerned about government efforts that previously involved content moderation or misinformation countermeasures.",
-      "created_at": "2025-12-06T07:09:26.613Z"
     },
     {
       "id": "rural-communities",
@@ -1033,12 +991,6 @@
       "created_at": "2025-12-08T17:50:17.166Z"
     },
     {
-      "id": "maritime-transportation-users",
-      "name": "Maritime Transportation Users",
-      "description": "Vessel operators, workers, and users who may face stricter boarding and access controls, increased inspections, or operational disruptions due to expanded Coast Guard authority.",
-      "created_at": "2025-12-08T17:50:17.166Z"
-    },
-    {
       "id": "innocent-civilian-populations-in-west-bank-and-region",
       "name": "Innocent Civilian Populations In West Bank And Region",
       "description": "Civilians residing in the West Bank and surrounding Middle East region who benefit indirectly from increased peace and security resulting from the sanctions and enforcement actions.",
@@ -1075,12 +1027,6 @@
       "created_at": "2025-12-08T18:00:58.012Z"
     },
     {
-      "id": "us-data-service-providers",
-      "name": "Us Data Service Providers",
-      "description": "U.S.-based companies and entities in data brokerage, cloud services, and data management that may face increased regulatory burdens and restrictions on cross-border data transactions.",
-      "created_at": "2025-12-08T18:01:55.731Z"
-    },
-    {
       "id": "tribal-nations",
       "name": "Tribal Nations",
       "description": "Federally recognized Indian tribes and other Tribal Nations that are recipients of federal funding and subject to trust and treaty responsibilities.",
@@ -1097,12 +1043,6 @@
       "name": "Small Federal Contractors",
       "description": "Smaller contracting companies that may face increased regulatory and compliance costs due to enhanced security standards and interagency requirements.",
       "created_at": "2025-12-08T18:06:52.283Z"
-    },
-    {
-      "id": "privacy-and-data-security",
-      "name": "Privacy And Data Security",
-      "description": "Individuals and groups whose personal information and digital data may face increased privacy risks due to AI technologies.",
-      "created_at": "2025-12-08T18:07:02.120Z"
     },
     {
       "id": "asian-americans-and-nhpi-communities",
@@ -1183,12 +1123,6 @@
       "created_at": "2025-12-08T18:08:26.591Z"
     },
     {
-      "id": "veterans",
-      "name": "Veterans",
-      "description": "Individuals, organizations, or entities categorized as veterans who may be affected by federal policies.",
-      "created_at": "2025-12-08T18:08:26.591Z"
-    },
-    {
       "id": "private-sector-employers",
       "name": "Private Sector Employers",
       "description": "Non-federal employers who may face increased competition or challenges in hiring military spouses as some opt for federal employment opportunities.",
@@ -1205,12 +1139,6 @@
       "name": "Public Health Workers",
       "description": "Healthcare practitioners and public health officials who may face higher exposure risks or face new operational challenges due to the removal of vaccination mandates.",
       "created_at": "2025-12-08T18:08:40.291Z"
-    },
-    {
-      "id": "community-development",
-      "name": "Community Development",
-      "description": "Individuals, organizations, or entities categorized as community development who may be affected by federal policies.",
-      "created_at": "2025-12-08T18:09:00.954Z"
     },
     {
       "id": "family-caregivers",
@@ -1235,7 +1163,67 @@
       "name": "Commercial Spyware Vendors",
       "description": "Companies and entities that develop, market, or sell commercial spyware products potentially subject to prohibitions, restrictions, and enhanced due diligence under this order.",
       "created_at": "2025-12-08T18:09:27.108Z"
+    },
+    {
+      "id": "foreign-suppliers",
+      "name": "Foreign Suppliers",
+      "description": "Individuals, organizations, or entities categorized as foreign suppliers who may be affected by federal policies.",
+      "created_at": "2025-12-09T02:37:40.494Z"
+    },
+    {
+      "id": "paper-straw-manufacturers",
+      "name": "Paper Straw Manufacturers",
+      "description": "Individuals, organizations, or entities categorized as paper straw manufacturers who may be affected by federal policies.",
+      "created_at": "2025-12-09T02:40:51.584Z"
+    },
+    {
+      "id": "law-firm-clients",
+      "name": "Law Firm Clients",
+      "description": "Individuals, organizations, or entities categorized as law firm clients who may be affected by federal policies.",
+      "created_at": "2025-12-09T02:43:33.375Z"
+    },
+    {
+      "id": "non-hbcu-academic-institutions",
+      "name": "Non Hbcu Academic Institutions",
+      "description": "Individuals, organizations, or entities categorized as non hbcu academic institutions who may be affected by federal policies.",
+      "created_at": "2025-12-09T02:44:33.428Z"
+    },
+    {
+      "id": "civilians-populations-in-designated-countries",
+      "name": "Civilians Populations In Designated Countries",
+      "description": "Individuals, organizations, or entities categorized as civilians populations in designated countries who may be affected by federal policies.",
+      "created_at": "2025-12-09T03:45:29.287Z"
+    },
+    {
+      "id": "criminal-organizations",
+      "name": "Criminal Organizations",
+      "description": "Individuals, organizations, or entities categorized as criminal organizations who may be affected by federal policies.",
+      "created_at": "2025-12-09T03:50:31.628Z"
+    },
+    {
+      "id": "non-federal-employees",
+      "name": "Non Federal Employees",
+      "description": "Individuals, organizations, or entities categorized as non federal employees who may be affected by federal policies.",
+      "created_at": "2025-12-09T03:54:05.641Z"
+    },
+    {
+      "id": "none",
+      "name": "None",
+      "description": "Individuals, organizations, or entities categorized as none who may be affected by federal policies.",
+      "created_at": "2025-12-09T03:55:52.261Z"
+    },
+    {
+      "id": "persons-with-disabilities",
+      "name": "Persons With Disabilities",
+      "description": "Individuals, organizations, or entities categorized as persons with disabilities who may be affected by federal policies.",
+      "created_at": "2025-12-09T03:56:08.659Z"
+    },
+    {
+      "id": "essential-workers",
+      "name": "Essential Workers",
+      "description": "Individuals, organizations, or entities categorized as essential workers who may be affected by federal policies.",
+      "created_at": "2025-12-09T03:58:35.751Z"
     }
   ],
-  "updated_at": "2025-12-08T18:09:45.545Z"
+  "updated_at": "2025-12-09T04:02:21.618Z"
 }

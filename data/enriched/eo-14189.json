@@ -22,12 +22,13 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "federal-agencies",
-        "patriotic-citizens",
-        "architectural-professionals"
+        "patriotic-citizens"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "architectural-professionals",
+        "protestors"
+      ]
     },
     "potential_concerns": [
       "The reinstatement of monument protection policies may lead to increased enforcement actions that could raise tensions with protestors or civil rights advocates.",
@@ -36,7 +37,7 @@
       "Coordinating numerous federal agencies for a large-scale event may face bureaucratic delays and logistical challenges that hinder effective implementation.",
       "The order lacks explicit provisions addressing inclusivity or representation in the celebration, which might provoke criticism regarding the historical narrative presented."
     ],
-    "enriched_at": "2025-12-06T07:05:15.055Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:02.223Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

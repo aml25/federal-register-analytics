@@ -21,12 +21,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "pharmaceutical-manufacturers",
-        "manufacturing-workers"
+        "pharmaceutical-manufacturers"
       ],
       "negative_ids": [
-        "environmental-advocates"
+        "foreign-manufacturers"
       ]
     },
     "potential_concerns": [
@@ -36,7 +34,7 @@
       "Coordinating multiple federal agencies’ permitting and regulatory reviews could face bureaucratic delays or conflicts.",
       "Lack of explicit provisions addressing equitable access or support for smaller pharmaceutical manufacturers may favor large industry players."
     ],
-    "enriched_at": "2025-12-06T06:54:47.095Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:44:59.985Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

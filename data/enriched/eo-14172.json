@@ -21,16 +21,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "domestic-tourists",
-        "national-park-visitors",
-        "native-american-students",
-        "commercial-fishermen",
-        "seafood-industry"
+        "alaskan-native-communities",
+        "patriotic-citizens"
       ],
       "negative_ids": [
-        "native-american-students",
-        "alaskan-native-communities",
         "alaskan-native-communities"
       ]
     },
@@ -41,7 +35,7 @@
       "Implementation challenges include coordinating multiple federal agencies, updating databases, maps, and federal documents consistently within the 30-day deadlines.",
       "Potential public backlash or confusion may arise from sudden changes to widely recognized geographic names impacting tourism, education, and local identity."
     ],
-    "enriched_at": "2025-12-06T07:07:04.059Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:39:07.960Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

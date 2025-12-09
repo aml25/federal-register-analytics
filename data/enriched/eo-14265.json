@@ -23,10 +23,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "military-veterans"
+        "tech-industry"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "foreign-suppliers"
+      ]
     },
     "potential_concerns": [
       "Speeding up acquisitions could lead to decreased oversight and accountability, increasing risk of cost overruns or poor-quality procurements.",
@@ -35,7 +36,7 @@
       "The cancellation of major defense programs deemed behind schedule or over budget may impact defense contractors and related industries.",
       "Streamlining regulations might reduce necessary checks or legal protections, potentially exposing programs to compliance or ethical issues."
     ],
-    "enriched_at": "2025-12-06T06:57:43.412Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:43:38.182Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

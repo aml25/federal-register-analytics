@@ -23,10 +23,11 @@
     "impacted_populations": {
       "positive_ids": [
         "federal-employees",
-        "federal-agencies"
+        "displaced-federal-workers"
       ],
       "negative_ids": [
-        "displaced-federal-workers"
+        "federal-agencies",
+        "federal-budget-stakeholders"
       ]
     },
     "potential_concerns": [
@@ -36,7 +37,7 @@
       "Cutting non-statutory and some statutory functions risks impairing essential government services and mission effectiveness.",
       "Revoking long-standing Presidential memoranda and programs could lead to the loss of institutional knowledge and coordination mechanisms."
     ],
-    "enriched_at": "2025-12-06T07:02:26.889Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:41:15.015Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -21,11 +21,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "private-sector-rivals"
+        "private-sector-rivals",
+        "tech-industry"
       ],
       "negative_ids": [
-        "private-sector-rivals"
+        "independent-regulatory-agencies"
       ]
     },
     "potential_concerns": [
@@ -35,7 +35,7 @@
       "The focus on deregulation might prioritize economic effects over other public interests such as consumer protection, environmental standards, or labor rights.",
       "Some agencies might resist or inadequately justify retaining anti-competitive regulations, reducing the overall effectiveness of the order."
     ],
-    "enriched_at": "2025-12-06T06:57:30.562Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:43:43.081Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

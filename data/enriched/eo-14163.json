@@ -23,14 +23,11 @@
     "impacted_populations": {
       "positive_ids": [
         "state-and-local-governments",
-        "federal-agencies",
-        "average-americans"
+        "refugees"
       ],
       "negative_ids": [
-        "legal-immigrants",
-        "undocumented-immigrants",
         "refugees",
-        "refugees"
+        "non-investor-immigrants"
       ]
     },
     "potential_concerns": [
@@ -40,7 +37,7 @@
       "Critics may argue the order prioritizes security and resource concerns over the U.S.'s longstanding humanitarian commitments.",
       "There may be legal challenges related to the suspension under existing immigration and refugee law provisions."
     ],
-    "enriched_at": "2025-12-06T07:07:56.630Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:38:41.837Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

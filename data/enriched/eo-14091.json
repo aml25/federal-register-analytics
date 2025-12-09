@@ -28,20 +28,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
         "underserved-communities",
-        "tribal-nations",
-        "small-business-owners",
-        "women-and-girls",
-        "asian-americans-and-nhpi-communities",
-        "rural-communities",
-        "native-american-students",
-        "small-federal-contractors"
+        "tribal-nations"
       ],
       "negative_ids": [
-        "non-tribal-federal-funding-recipients",
-        "federal-agencies-with-increased-administrative-burden",
-        "non-union-workers"
+        "private-sector-rivals"
       ]
     },
     "potential_concerns": [
@@ -51,7 +42,7 @@
       "Engagement and consultation processes with underserved communities could be challenging to implement consistently and effectively across agencies.",
       "The revocation and policy shifts on Federal facility siting might create uncertainty or conflicts with existing urban development and infrastructure plans."
     ],
-    "enriched_at": "2025-12-08T18:09:45.542Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:37:14.802Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

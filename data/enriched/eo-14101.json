@@ -24,21 +24,14 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "veterans",
+        "women-seeking-contraception",
         "medical-patients",
-        "low-income-patients",
-        "federal-agencies",
-        "academic-institutions",
-        "women-and-girls",
-        "reproductive-rights-advocates",
-        "women-seeking-contraception"
+        "public-health-workers",
+        "private-health-insurers"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
-        "federal-agencies-with-increased-administrative-burden",
-        "private-health-insurers",
-        "states-with-restrictive-policies"
+        "states-with-restrictive-policies",
+        "private-sector-employers"
       ]
     },
     "potential_concerns": [
@@ -48,7 +41,7 @@
       "Privacy protections for reproductive health information could create compliance complexities for healthcare entities balancing patient confidentiality with information sharing.",
       "Outreach and education initiatives may face resistance or lack of uptake in areas with cultural or political opposition to contraception access."
     ],
-    "enriched_at": "2025-12-08T18:08:26.591Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:37:58.231Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

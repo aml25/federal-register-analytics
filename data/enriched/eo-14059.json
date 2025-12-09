@@ -1,0 +1,42 @@
+{
+  "document_number": "2021-27505",
+  "executive_order_number": "14059",
+  "title": "Imposing Sanctions on Foreign Persons Involved in the Global Illicit Drug Trade",
+  "abstract": null,
+  "signing_date": "2021-12-15",
+  "publication_date": "2021-12-17",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/12/17/2021-27505/imposing-sanctions-on-foreign-persons-involved-in-the-global-illicit-drug-trade",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-12-17/pdf/2021-27505.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/12/17/2021-27505.txt",
+  "enrichment": {
+    "summary": "This executive order allows the U.S. government to impose sanctions on foreign individuals and entities involved in the global illicit drug trade, including trafficking, financing, and production of illegal drugs like fentanyl. It blocks their assets, restricts financial transactions, and limits their ability to enter the United States to disrupt international drug networks threatening U.S. public safety and security.",
+    "theme_ids": [
+      "national-security",
+      "foreign-policy",
+      "financial-regulation",
+      "transnational-crime-policy",
+      "immigration-enforcement"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "sanctioned-persons-and-affiliates"
+      ],
+      "negative_ids": [
+        "foreign-suppliers"
+      ]
+    },
+    "potential_concerns": [
+      "Sanctions may inadvertently affect legitimate businesses or individuals linked to sanctioned entities without direct involvement in illicit drug activities.",
+      "Determining and proving involvement in international drug trafficking is complex and may lead to legal challenges or diplomatic tensions.",
+      "Restricting entry of noncitizens based on these sanctions could impact diplomatic relations or raise due process concerns.",
+      "Enforcement relies heavily on interagency coordination, which may face resource or jurisdictional challenges.",
+      "Overreliance on sanctions could push illicit drug networks to adopt more covert or technologically sophisticated methods."
+    ],
+    "enriched_at": "2025-12-09T03:50:38.653Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

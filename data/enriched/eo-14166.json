@@ -20,11 +20,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "social-media-platforms"
       ],
       "negative_ids": [
-        "tech-industry",
-        "china"
+        "foreign-entities-in-countries-of-concern"
       ]
     },
     "potential_concerns": [
@@ -34,7 +33,7 @@
       "The temporary pause might be perceived as weak enforcement, potentially encouraging other foreign adversaries to exploit regulatory gaps.",
       "Coordinating enforcement exclusively within the executive branch could raise legal disputes over state or private attempts to act."
     ],
-    "enriched_at": "2025-12-06T07:07:38.454Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:38:51.302Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

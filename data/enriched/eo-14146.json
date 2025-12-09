@@ -21,9 +21,11 @@
     "impacted_populations": {
       "positive_ids": [
         "federal-agencies",
-        "federal-employees"
+        "state-and-local-governments"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "federal-agencies-with-increased-administrative-burden"
+      ]
     },
     "potential_concerns": [
       "The revocation and restructuring of continuity governance provisions could lead to temporary confusion or gaps in federal mission resilience coordination.",
@@ -32,7 +34,7 @@
       "Implementation timing and allocation of appropriations may challenge consistent application across federal agencies.",
       "Lack of detail on how amended provisions will operate in practice might result in inconsistent interpretations across departments."
     ],
-    "enriched_at": "2025-12-06T07:09:46.105Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:37:48.041Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

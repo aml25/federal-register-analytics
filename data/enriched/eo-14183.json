@@ -20,14 +20,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "armed-forces-personnel"
+        "armed-forces-personnel",
+        "female-athletes"
       ],
       "negative_ids": [
-        "minors-with-gender-dysphoria",
-        "minor-transgender-patients",
-        "parents-supporting-gender-affirming-care",
-        "minority-service-members",
-        "military-veterans"
+        "transgender-athletes",
+        "minority-service-members"
       ]
     },
     "potential_concerns": [
@@ -37,7 +35,7 @@
       "Implementation of medical standard changes within tight deadlines may strain military healthcare and administration.",
       "Revoking prior protections may adversely affect the mental health and wellbeing of transgender and minority service members."
     ],
-    "enriched_at": "2025-12-06T07:05:52.650Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:39:45.581Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

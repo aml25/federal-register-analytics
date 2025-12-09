@@ -22,7 +22,6 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "american-youth",
         "education-administrators"
       ],
@@ -35,7 +34,7 @@
       "Some sectors or stakeholders may question the balance of public and private involvement or the criteria for Council member appointments.",
       "Measuring the effectiveness of this council and its programs could be difficult without clear metrics or accountability mechanisms."
     ],
-    "enriched_at": "2025-12-06T06:51:32.674Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:46:37.985Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

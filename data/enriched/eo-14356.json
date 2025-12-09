@@ -22,10 +22,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "federal-employees",
+        "displaced-federal-workers"
       ],
       "negative_ids": [
-        "displaced-federal-workers"
+        "small-federal-contractors",
+        "federal-agencies-with-increased-administrative-burden"
       ]
     },
     "potential_concerns": [
@@ -35,7 +37,7 @@
       "The order’s exemptions and OPM’s discretion to grant exemptions could introduce inconsistency and perceptions of politicization or uneven application across agencies.",
       "Reduced availability of federal positions may lead to increased reliance on contractors, potentially circumventing the order’s intent and raising oversight concerns."
     ],
-    "enriched_at": "2025-12-06T06:48:34.698Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:48:13.531Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -1,0 +1,37 @@
+{
+  "document_number": "2021-07239",
+  "executive_order_number": "14022",
+  "title": "Termination of Emergency With Respect to the International Criminal Court",
+  "abstract": null,
+  "signing_date": "2021-04-01",
+  "publication_date": "2021-04-07",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/04/07/2021-07239/termination-of-emergency-with-respect-to-the-international-criminal-court",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-04-07/pdf/2021-07239.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/04/07/2021-07239.txt",
+  "enrichment": {
+    "summary": "This executive order ends the national emergency and related sanctions that were imposed on the International Criminal Court (ICC) and certain individuals associated with it. It stops restrictions on travel and financial sanctions that had been previously used to oppose the ICC's jurisdictional claims over U.S. and allied personnel. The order clarifies that the U.S. still objects to the ICC's jurisdiction but will no longer use sanctions as a means of opposition.",
+    "theme_ids": [
+      "foreign-policy",
+      "national-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "international-jurisdictional-subjects"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Ending sanctions might weaken the U.S. leverage to influence the ICC's actions or discourage unwanted jurisdiction claims.",
+      "Allies or partners who supported the previous sanctions may view this change as a retreat, potentially affecting coalition unity.",
+      "The ICC and its supporters could interpret the order as U.S. acceptance or deference to the Court’s authority.",
+      "Individuals previously barred from entry may still pose concerns for national security or foreign policy interests.",
+      "The order leaves open the possibility of future actions, which could create uncertainty regarding the U.S. stance toward the ICC."
+    ],
+    "enriched_at": "2025-12-09T03:55:45.775Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

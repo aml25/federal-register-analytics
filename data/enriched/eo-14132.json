@@ -19,7 +19,8 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "federal-employees",
+        "military-veterans"
       ],
       "negative_ids": [
         "federal-budget-stakeholders"
@@ -32,7 +33,7 @@
       "The order may prioritize pay raises without clear linkages to performance or recruitment needs, risking inefficiencies.",
       "Superseding the prior pay adjustment order might create confusion or legal challenges if not well coordinated."
     ],
-    "enriched_at": "2025-12-08T18:00:01.401Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:36:29.455Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

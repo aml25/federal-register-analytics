@@ -23,15 +23,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "manufacturing-workers",
         "scientific-researchers",
         "small-business-owners"
       ],
       "negative_ids": [
-        "foreign-entities-in-countries-of-concern",
-        "undocumented-immigrants",
-        "private-sector-rivals",
         "foreign-manufacturers"
       ]
     },
@@ -42,7 +38,7 @@
       "Prioritizing domestic production may provoke trade tensions or retaliatory measures from foreign countries.",
       "Implementation may strain federal agencies’ resources given the need for coordination, monitoring, and annual reporting."
     ],
-    "enriched_at": "2025-12-08T18:08:00.019Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:38:14.793Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

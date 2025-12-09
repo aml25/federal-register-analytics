@@ -20,7 +20,6 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "railroad-employees",
         "labor-union-members"
       ],
@@ -32,7 +31,7 @@
       "If the board's recommendations are not accepted by either party, the dispute could escalate, leading to strikes or service interruptions.",
       "Costs borne by the Department of Transportation for administration and publication may be viewed as an inefficient use of public funds if the dispute resolution is not successful."
     ],
-    "enriched_at": "2025-12-06T06:49:14.139Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:47:54.278Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

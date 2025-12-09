@@ -21,10 +21,10 @@
     "impacted_populations": {
       "positive_ids": [
         "federal-employees",
-        "federal-agencies"
+        "displaced-federal-workers"
       ],
       "negative_ids": [
-        "displaced-federal-workers"
+        "independent-regulatory-agencies"
       ]
     },
     "potential_concerns": [
@@ -34,7 +34,7 @@
       "The order risks creating tension and reduced morale among federal employees who feel their oaths or professional responsibilities conflict with implementing policies they disagree with.",
       "Revoking protections and previous reform efforts might face legal challenges and impede implementation, resulting in temporary uncertainty and administrative burden."
     ],
-    "enriched_at": "2025-12-06T07:07:10.124Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:39:05.094Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

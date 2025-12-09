@@ -22,11 +22,11 @@
     "impacted_populations": {
       "positive_ids": [
         "manufacturing-workers",
-        "federal-employees"
+        "domestic-energy-producers"
       ],
       "negative_ids": [
-        "private-sector-rivals",
-        "undocumented-immigrants"
+        "foreign-manufacturers",
+        "small-importers"
       ]
     },
     "potential_concerns": [
@@ -36,7 +36,7 @@
       "The order’s broad scope and delegation to multiple agencies may result in inconsistent application or regulatory uncertainty.",
       "Countries on the cusp of agreements might delay negotiations due to ongoing tariffs, slowing resolution of trade disputes."
     ],
-    "enriched_at": "2025-12-06T06:51:37.047Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:46:34.932Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

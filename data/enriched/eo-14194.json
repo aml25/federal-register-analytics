@@ -22,13 +22,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies"
+        "american-businesses"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
-        "american-businesses",
         "small-importers",
-        "mexico"
+        "international-shippers",
+        "foreign-manufacturers"
       ]
     },
     "potential_concerns": [
@@ -38,7 +37,7 @@
       "Increased tariffs may disproportionately impact small importers and low-margin businesses unable to absorb higher costs.",
       "The effectiveness of tariffs in compelling Mexico to take specific enforcement actions is uncertain and may not resolve the immigration and drug trafficking challenges."
     ],
-    "enriched_at": "2025-12-06T07:04:41.374Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:17.038Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -1,0 +1,38 @@
+{
+  "document_number": "2021-07756",
+  "executive_order_number": "14023",
+  "title": "Establishment of the Presidential Commission on the Supreme Court of the United States",
+  "abstract": null,
+  "signing_date": "2021-04-09",
+  "publication_date": "2021-04-14",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/04/14/2021-07756/establishment-of-the-presidential-commission-on-the-supreme-court-of-the-united-states",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-04-14/pdf/2021-07756.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/04/14/2021-07756.txt",
+  "enrichment": {
+    "summary": "This executive order creates a commission to study the structure and role of the Supreme Court of the United States. The commission, made up of experts, will gather public input and deliver a report analyzing historical and current debates about Supreme Court reform within 180 days. After the report is submitted, the commission will be disbanded.",
+    "theme_ids": [
+      "advisory-committees-management",
+      "legal-profession-policy",
+      "judiciary-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "academic-institutions"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The commission's recommendations could become politically contentious and deepen divisions about Supreme Court legitimacy.",
+      "There may be disagreements over the scope and neutrality of the commission's analysis and membership selection.",
+      "Implementation of any proposed reforms based on the commission's report could face significant legal and legislative hurdles.",
+      "The commission’s advisory role may raise concerns about potential influence on judicial independence.",
+      "Public comment solicitation may not fully capture a representative range of viewpoints, potentially biasing outcomes."
+    ],
+    "enriched_at": "2025-12-09T03:55:38.108Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

@@ -23,12 +23,11 @@
     "impacted_populations": {
       "positive_ids": [
         "regional-stability-actors",
-        "federal-agencies"
+        "muslim-americans"
       ],
       "negative_ids": [
         "terrorist-organizations",
-        "civilian-populations-in-designated-countries",
-        "muslim-americans"
+        "civilian-populations-in-designated-countries"
       ]
     },
     "potential_concerns": [
@@ -38,7 +37,7 @@
       "The review and termination of USAID partnerships might disrupt essential services and create operational challenges for humanitarian actors in Yemen.",
       "Implementation delays or disagreements among agencies could slow the designation process and reduce the order's intended effectiveness."
     ],
-    "enriched_at": "2025-12-06T07:06:45.177Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:39:18.335Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -23,13 +23,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies",
         "scientific-researchers",
         "academic-institutions"
       ],
       "negative_ids": [
-        "undocumented-immigrants"
+        "competing-research-areas",
+        "non-hbcu-academic-institutions"
       ]
     },
     "potential_concerns": [
@@ -39,7 +38,7 @@
       "The requirement for senior appointees to independently override expert peer review may undermine merit-based grant evaluations and reduce scientific rigor.",
       "Implementation complexity across multiple agencies could delay grant funding and create administrative burdens without clear measures for efficiency gains."
     ],
-    "enriched_at": "2025-12-06T06:50:55.746Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:47:08.555Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

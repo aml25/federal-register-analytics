@@ -21,14 +21,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "american-businesses"
+        "small-importers",
+        "manufacturing-workers"
       ],
       "negative_ids": [
-        "china",
-        "small-importers",
-        "undocumented-immigrants",
-        "trade-policy"
+        "foreign-suppliers",
+        "china"
       ]
     },
     "potential_concerns": [
@@ -38,7 +36,7 @@
       "The order may complicate diplomatic relations and undermine efforts for bilateral cooperation on broader issues beyond opioids.",
       "Monitoring and enforcement burdens on federal agencies like Customs and Homeland Security could increase significantly, requiring additional resources."
     ],
-    "enriched_at": "2025-12-06T07:04:36.073Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:19.421Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

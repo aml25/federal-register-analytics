@@ -21,14 +21,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies",
-        "doj",
-        "law-firm-employees"
+        "law-firm-employees",
+        "federal-contractors"
       ],
       "negative_ids": [
         "law-firm-employees",
-        "undocumented-immigrants"
+        "federal-contractors"
       ]
     },
     "potential_concerns": [
@@ -38,7 +36,7 @@
       "Broad restrictions may affect third-party contractors and agencies that do business with Jenner, causing operational disruptions.",
       "The order's focus on racial discrimination allegations might lead to legal challenges over claims of improper employment practices enforcement."
     ],
-    "enriched_at": "2025-12-06T06:59:33.079Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:42:37.820Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

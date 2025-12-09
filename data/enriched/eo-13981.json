@@ -1,0 +1,42 @@
+{
+  "document_number": "2021-01646",
+  "executive_order_number": "13981",
+  "title": "Protecting the United States From Certain Unmanned Aircraft Systems",
+  "abstract": null,
+  "signing_date": "2021-01-18",
+  "publication_date": "2021-01-22",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/01/22/2021-01646/protecting-the-united-states-from-certain-unmanned-aircraft-systems",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-22/pdf/2021-01646.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/01/22/2021-01646.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to review and limit the use and procurement of unmanned aircraft systems (drones) that are manufactured or contain components from foreign adversaries, in order to protect national security and sensitive government operations. It also calls for budget planning to replace these drones with domestically produced alternatives and directs the FAA to propose regulations to limit drone use near critical infrastructure.",
+    "theme_ids": [
+      "national-security",
+      "supply-chain-security",
+      "federal-procurement-policy",
+      "technology-development",
+      "public-safety"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "tech-industry"
+      ],
+      "negative_ids": [
+        "foreign-suppliers"
+      ]
+    },
+    "potential_concerns": [
+      "Implementation may be challenged by difficulties in fully identifying and verifying the origin of drone components and software.",
+      "Replacing existing UAS with domestic alternatives could lead to increased costs and procurement delays for federal agencies.",
+      "Potential restrictions on drone use might hamper beneficial applications in law enforcement, disaster relief, and other public safety activities.",
+      "The order may affect contracts and grants with third parties, creating compliance burdens and legal complexities.",
+      "Defining and updating the list of 'adversary countries' could lead to diplomatic tensions or inconsistent enforcement."
+    ],
+    "enriched_at": "2025-12-09T04:00:55.715Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

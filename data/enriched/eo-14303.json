@@ -21,11 +21,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "scientific-researchers",
-        "federal-agencies"
+        "academic-institutions"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "foreign-suppliers"
+      ]
     },
     "potential_concerns": [
       "Strict adherence to reproducibility and transparency requirements could delay or complicate urgent scientific work or policymaking in fast-moving crises.",
@@ -34,7 +35,7 @@
       "Requirements to publicly disclose data and models could raise confidentiality, national security, or proprietary concerns that are difficult to balance.",
       "Enforcement delegated to senior appointees may lead to inconsistent application or potential internal agency disputes over scientific disagreements."
     ],
-    "enriched_at": "2025-12-06T06:53:51.967Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:45:30.415Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

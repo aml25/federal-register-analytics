@@ -1,0 +1,47 @@
+{
+  "document_number": "2021-27380",
+  "executive_order_number": "14058",
+  "title": "Transforming Federal Customer Experience and Service Delivery To Rebuild Trust in Government",
+  "abstract": null,
+  "signing_date": "2021-12-13",
+  "publication_date": "2021-12-16",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/12/16/2021-27380/transforming-federal-customer-experience-and-service-delivery-to-rebuild-trust-in-government",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-12-16/pdf/2021-27380.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/12/16/2021-27380.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to improve how they deliver services to the public by making interactions simpler, faster, and more accessible, especially for historically underserved communities. It emphasizes using technology, customer feedback, and cross-agency coordination to reduce burdens like paperwork and wait times, ultimately aiming to rebuild public trust in the government.",
+    "theme_ids": [
+      "equity-and-inclusion-policy",
+      "federal-agency-management",
+      "digital-assets-policy",
+      "privacy-and-data-security",
+      "veterans-affairs-policy",
+      "education-policy",
+      "disaster-preparedness",
+      "consumer-protection",
+      "workforce-development",
+      "tribal-policy",
+      "customer-experience-improvement"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "government-service-users",
+        "underserved-communities"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Implementing consistent customer experience improvements across numerous agencies may encounter significant coordination and resource challenges.",
+      "Efforts to streamline processes could reduce necessary oversight or protections, potentially risking privacy or equity if not carefully managed.",
+      "There may be technological barriers and digital divide issues that limit accessibility for some populations, undermining equity goals.",
+      "Mandating extensive data sharing and integration among agencies could raise privacy and security risks if safeguards are insufficient.",
+      "Some agencies or employees may resist changes required by this order, slowing progress or leading to partial compliance."
+    ],
+    "enriched_at": "2025-12-09T03:50:49.755Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

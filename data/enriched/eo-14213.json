@@ -26,8 +26,7 @@
     "impacted_populations": {
       "positive_ids": [
         "domestic-energy-producers",
-        "critical-minerals-industry",
-        "federal-employees"
+        "critical-minerals-industry"
       ],
       "negative_ids": [
         "green-energy-industry",
@@ -41,7 +40,7 @@
       "Coordination challenges could arise from integrating numerous high-level officials and agencies with diverse priorities within the Council.",
       "Potential conflicts between promoting energy dominance and commitments to international climate agreements or trade partners may lead to diplomatic friction."
     ],
-    "enriched_at": "2025-12-06T07:02:51.532Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:41:03.376Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

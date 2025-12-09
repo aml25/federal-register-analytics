@@ -1,0 +1,46 @@
+{
+  "document_number": "2021-01858",
+  "executive_order_number": "13997",
+  "title": "Improving and Expanding Access to Care and Treatments for COVID-19",
+  "abstract": null,
+  "signing_date": "2021-01-21",
+  "publication_date": "2021-01-26",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/01/26/2021-01858/improving-and-expanding-access-to-care-and-treatments-for-covid-19",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-26/pdf/2021-01858.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/01/26/2021-01858.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to improve the country's healthcare capacity to manage COVID-19, accelerate the development and equitable distribution of COVID-19 treatments, and ensure that all Americans have access to quality and affordable healthcare. It emphasizes supporting healthcare facilities, expanding clinical research, addressing treatment barriers, and promoting access to care for underserved and uninsured populations.",
+    "theme_ids": [
+      "healthcare-access",
+      "public-health-administration",
+      "equity-and-inclusion-policy",
+      "veterans-affairs-policy",
+      "tribal-policy",
+      "pharmaceutical-supply-chain",
+      "pandemic-economic-relief"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "scientific-researchers",
+        "underserved-communities",
+        "medical-patients"
+      ],
+      "negative_ids": [
+        "private-sector-rivals"
+      ]
+    },
+    "potential_concerns": [
+      "There may be challenges ensuring adequate inclusion of historically underrepresented populations in clinical trials, potentially limiting equity goals.",
+      "Coordinating surge assistance across multiple federal agencies and with state, local, Tribal, and private partners could face logistical and bureaucratic delays.",
+      "Efforts to evaluate and expand access to treatments for uninsured and vulnerable populations may be limited by available appropriations and legal constraints.",
+      "Rapid development and prioritization of therapeutics might risk overlooking long-term safety or efficacy data in the urgency to deploy treatments widely.",
+      "Barriers identified in existing COVID-19 treatment utilization may be complex and rooted in social determinants that require multi-sectoral solutions beyond federal agency control."
+    ],
+    "enriched_at": "2025-12-09T03:58:53.565Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

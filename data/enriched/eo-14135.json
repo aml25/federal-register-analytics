@@ -20,8 +20,7 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies"
+        "coast-guard-personnel"
       ],
       "negative_ids": []
     },
@@ -32,7 +31,7 @@
       "Revoking previous succession orders could cause transitional confusion if not clearly communicated to stakeholders.",
       "Implementation depends on availability of appropriations, which might restrict timely execution of duties during emergencies."
     ],
-    "enriched_at": "2025-12-06T07:10:51.923Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:37:10.941Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

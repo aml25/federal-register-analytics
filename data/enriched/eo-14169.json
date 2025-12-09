@@ -20,11 +20,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies"
+        "civilian-populations-in-designated-countries"
       ],
       "negative_ids": [
-        "foreign-nationals-engaged-in-desecration"
+        "foreign-suppliers"
       ]
     },
     "potential_concerns": [
@@ -34,7 +33,7 @@
       "Cutting or modifying aid programs abruptly may damage U.S. diplomatic relationships and global reputation.",
       "Smaller NGOs or international organizations may be disproportionately impacted by funding delays or cancellations."
     ],
-    "enriched_at": "2025-12-06T07:07:21.168Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:38:59.264Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

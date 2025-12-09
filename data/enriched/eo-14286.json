@@ -21,7 +21,6 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "truck-drivers"
       ],
       "negative_ids": [
@@ -36,7 +35,7 @@
       "The order may increase regulatory burdens for drivers and enforcement agencies, potentially slowing logistics and supply chains.",
       "Efforts to strengthen CDL security could face resistance from states due to increased administrative or verification costs."
     ],
-    "enriched_at": "2025-12-06T06:55:32.813Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:44:40.872Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

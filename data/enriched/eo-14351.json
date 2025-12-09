@@ -22,14 +22,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "high-net-worth-immigrants",
         "investment-entities"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
-        "non-investor-immigrants",
-        "low-income-immigrants"
+        "low-income-immigrants",
+        "non-investor-immigrants"
       ]
     },
     "potential_concerns": [
@@ -39,7 +37,7 @@
       "Implementation may be challenged by the need to carefully balance expedited processing with legal limits on visa numbers and public safety safeguards.",
       "The program could divert resources from addressing illegal immigration and other broader immigration enforcement priorities."
     ],
-    "enriched_at": "2025-12-06T06:49:03.514Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:48:00.270Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -22,9 +22,8 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "scientific-researchers",
-        "domestic-energy-producers"
+        "domestic-energy-producers",
+        "scientific-researchers"
       ],
       "negative_ids": [
         "environmental-advocates"
@@ -37,7 +36,7 @@
       "The ambitious timeline to achieve criticality in approved reactors may be difficult to meet, risking delays or unmet expectations.",
       "Streamlining NEPA compliance could provoke criticism from environmental groups and lead to legal challenges that could delay projects."
     ],
-    "enriched_at": "2025-12-06T06:54:02.431Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:45:24.563Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

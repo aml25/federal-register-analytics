@@ -22,10 +22,13 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "manufacturing-workers",
-        "pharmaceutical-manufacturers"
+        "pharmaceutical-manufacturers",
+        "american-businesses",
+        "manufacturing-workers"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "foreign-manufacturers"
+      ]
     },
     "potential_concerns": [
       "The reduced tariffs and quotas might increase competition for some U.S. manufacturers not covered by specific protections, potentially leading to job losses.",
@@ -34,7 +37,7 @@
       "There may be political or public backlash against easing tariffs on certain UK imports perceived as threats to domestic industries or national security.",
       "Enforcement and monitoring of supply chain security and origin requirements could prove complex and resource-intensive for federal agencies."
     ],
-    "enriched_at": "2025-12-06T06:53:17.957Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:45:48.066Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

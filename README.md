@@ -4,12 +4,23 @@ Data enrichment pipeline for Federal Register executive orders. Uses OpenAI to g
 
 **Live site**: [What Got Signed?](https://whatgotsigned.com) (or run locally with the included Express server)
 
+## TODO: Data Quality Improvements
+
+For now, the todo list is about data quality. The data pipeline was done relatively quickly to get a first version out and needs a lot of work in order to generate trusted and useful data.
+
+- [ ] Thorough spot-checking of generated data against trusted sources
+- [ ] Compare summaries and impact analysis with expert policy analysis
+- [ ] Improve prompts to reduce over-tagging (e.g., not every order impacts "federal employees")
+- [ ] Evaluate alternative models for better accuracy/cost trade-offs
+- [ ] Review and consolidate similar population categories
+- [ ] Add validation step to flag potentially inaccurate enrichments for human review
+
 ## Features
 
 - **Fetch**: Download executive orders from the Federal Register API
 - **Enrich**: Use OpenAI to analyze each order with a two-pass approach:
   - **Pass 1** (gpt-4.1-mini): Plain-language summary, thematic categorization, and potential concerns
-  - **Pass 2** (o1-mini): Nuanced population impact analysis using an advanced reasoning model
+  - **Pass 2** (gpt-4o): Nuanced population impact analysis using an advanced reasoning model
   - Cohesive theme and population registries maintained across all orders
 - **Aggregate**: Generate term summaries and timeline data (fast, no API calls)
 - **Generate Narratives**: LLM-generated summaries and impact analysis per presidential term, month, and theme (uses OpenAI API)
@@ -33,6 +44,16 @@ cp .env.example .env
 Then edit `.env` with your API key from https://platform.openai.com/api-keys
 
 ## Usage
+
+### Overview diagram
+
+flowchart LR
+    A[Fetch executive orders\nfrom Federal Register API] --> B[Enrich data:\nsummaries, themes,\nimpacted populations,\npotential concerns]
+    B --> C[Aggregate data for\npresidential term and\nmonthly timelines]
+    C --> D[Generate narratives\nfor detailed\nEO reviews]
+    
+    B --- E[Pass 1 - gpt 4.1 mini:\nSummaries, themes, concerns]
+    E --- F[Pass 2 - gpt 4o:\nImpacted populations]
 
 ### 1. Fetch Executive Orders
 
@@ -61,7 +82,7 @@ Raw data is saved to `data/raw/executive-orders.json`.
 Process orders through OpenAI for enrichment. The enrichment uses a **two-pass approach**:
 
 1. **Pass 1** (gpt-4.1-mini): Generates the summary, identifies themes, and extracts potential concerns
-2. **Pass 2** (o1-mini): Uses an advanced reasoning model for nuanced population impact analysis, determining which groups are positively or negatively affected
+2. **Pass 2** (gpt-4o): Uses an advanced reasoning model for nuanced population impact analysis, determining which groups are positively or negatively affected
 
 This approach optimizes for both speed/cost (using the faster model for straightforward analysis) and quality (using the advanced reasoning model for the more nuanced population impact assessment).
 
@@ -77,7 +98,17 @@ npm run enrich -- --force
 
 # Re-enrich a specific executive order
 npm run enrich -- --eo 14350
+
+# Re-run population analysis only (pass 2) on already-enriched orders
+npm run enrich -- --year 2025 --pass2-only
+
+# Re-run pass 2 on a specific EO
+npm run enrich -- --eo 14350 --pass2-only
 ```
+
+The `--pass2-only` flag re-runs only the population analysis (using gpt-4o) on already-enriched orders. This is useful if you want to improve population tagging without regenerating summaries, themes, or concerns. The summary, themes, and concerns from the original enrichment are preserved.
+
+After processing, orphaned populations (those no longer referenced by any enriched EO) are automatically removed from the registry.
 
 Enriched data is saved to `data/enriched/`. The theme registry is maintained in `data/themes.json` and the population registry in `data/populations.json`.
 
@@ -233,7 +264,7 @@ Each enriched order includes:
       "Could face legal challenges on constitutional grounds."
     ],
     "enriched_at": "2025-01-15T10:30:00.000Z",
-    "model_used": "gpt-4.1-mini + o1-mini"
+    "model_used": "gpt-4.1-mini + gpt-4o"
   }
 }
 ```

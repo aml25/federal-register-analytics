@@ -26,14 +26,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "american-workers",
-        "small-business-owners",
-        "underserved-communities"
+        "manufacturing-workers",
+        "federal-agencies",
+        "american-workers"
       ],
       "negative_ids": [
-        "foreign-entities-in-countries-of-concern",
-        "private-sector-rivals"
+        "foreign-manufacturers"
       ]
     },
     "potential_concerns": [
@@ -43,7 +41,7 @@
       "Balancing security goals with maintaining open, fair, and competitive markets may be challenging and lead to conflicts among stakeholders.",
       "Implementation complexity and interagency coordination might delay effective responses to urgent supply chain disruptions."
     ],
-    "enriched_at": "2025-12-08T18:01:04.610Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:35:56.444Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

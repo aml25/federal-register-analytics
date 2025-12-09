@@ -1,0 +1,45 @@
+{
+  "document_number": "2022-15138",
+  "executive_order_number": "14076",
+  "title": "Protecting Access to Reproductive Healthcare Services",
+  "abstract": null,
+  "signing_date": "2022-07-08",
+  "publication_date": "2022-07-13",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2022/07/13/2022-15138/protecting-access-to-reproductive-healthcare-services",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-07-13/pdf/2022-15138.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/07/13/2022-15138.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to protect and improve access to reproductive healthcare services, including abortion and contraception, especially for people in states restricting these services. It also focuses on safeguarding the privacy and safety of patients, providers, and clinics, and coordinates federal efforts to support reproductive healthcare access nationwide.",
+    "theme_ids": [
+      "reproductive-health-policy",
+      "privacy-and-data-security",
+      "public-safety",
+      "civil-rights-enforcement",
+      "legal-profession-policy",
+      "equity-and-inclusion-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "women-seeking-elective-abortions",
+        "women-seeking-contraception",
+        "reproductive-rights-advocates"
+      ],
+      "negative_ids": [
+        "states-with-restrictive-policies"
+      ]
+    },
+    "potential_concerns": [
+      "Efforts to protect abortion access may face legal challenges from states opposing abortion rights.",
+      "Privacy protections may struggle to keep pace with rapidly evolving digital surveillance and data-sharing technologies.",
+      "Mobilizing pro bono legal support nationwide may be challenging due to resource and capacity limitations.",
+      "Enhanced security measures for clinics could inadvertently increase tensions or confrontations at these sites.",
+      "Federal coordination efforts might face bureaucratic delays impacting timely implementation."
+    ],
+    "enriched_at": "2025-12-09T03:47:02.242Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

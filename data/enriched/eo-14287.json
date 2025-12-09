@@ -22,13 +22,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "state-and-local-law-enforcement",
-        "patriotic-citizens"
+        "undocumented-immigrants",
+        "sanctuary-jurisdictions"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
-        "communities-affected-by-police-aggression"
+        "state-and-local-governments"
       ]
     },
     "potential_concerns": [
@@ -38,7 +36,7 @@
       "Efforts to verify eligibility for federal benefits in private entities could raise privacy concerns and administrative burdens.",
       "The order may discourage local officials from adopting policies that protect immigrant communities, potentially increasing public safety risks."
     ],
-    "enriched_at": "2025-12-06T06:55:27.040Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:44:43.395Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -27,16 +27,11 @@
     "impacted_populations": {
       "positive_ids": [
         "domestic-energy-producers",
-        "manufacturing-workers",
-        "federal-agencies",
-        "regional-stability-actors",
-        "tech-industry",
         "critical-minerals-industry"
       ],
       "negative_ids": [
-        "environmental-advocates",
         "green-energy-industry",
-        "communities-affected-by-police-aggression"
+        "environmental-advocates"
       ]
     },
     "potential_concerns": [
@@ -46,7 +41,7 @@
       "Changes to federal leasing and royalty policies could face legal challenges and administrative delays impacting timely implementation.",
       "Increased coal exports may strain geopolitical relations with countries seeking cleaner energy commitments and affect global climate cooperation."
     ],
-    "enriched_at": "2025-12-06T06:58:06.963Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:43:27.016Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -21,15 +21,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "manufacturing-workers",
-        "military-veterans",
-        "federal-agencies",
-        "trade-policy"
+        "domestic-energy-producers",
+        "manufacturing-workers"
       ],
       "negative_ids": [
-        "private-sector-rivals",
-        "foreign-nationals-engaged-in-desecration",
-        "foreign-timber-and-lumber-exporters"
+        "foreign-timber-and-lumber-exporters",
+        "foreign-suppliers"
       ]
     },
     "potential_concerns": [
@@ -39,7 +36,7 @@
       "Investments in expanding domestic capacity could take time, delaying the intended national security benefits.",
       "Determining the balance between fair trade enforcement and free market competition may lead to legal and diplomatic disputes."
     ],
-    "enriched_at": "2025-12-06T07:01:50.328Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:41:37.620Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

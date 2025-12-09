@@ -132,7 +132,7 @@ function buildPopulationsPrompt(
     ? populations.populations.map(p => `- ${p.id}: ${p.name} - ${p.description}`).join('\n')
     : '(No populations defined yet)';
 
-  return `You are a policy analyst identifying which groups of people are impacted by an executive order.
+  return `You are a policy analyst identifying which groups are DIRECTLY and MEANINGFULLY impacted by an executive order.
 
 ## Executive Order Information
 
@@ -152,72 +152,56 @@ ${fullText || '(Full text not available - use abstract and title only)'}
 
 ## Existing Impacted Populations
 
-These population groups have already been identified from other executive orders. Prefer using these when they fit:
+IMPORTANT: You MUST STRONGLY consider populations from this list. Only propose new ones if absolutely no existing population fits.
 
 ${populationsList}
 
-## Your Task
+## CRITICAL: Direct vs Indirect Impact
 
-Identify who is positively and negatively impacted by this executive order.
+Only tag populations that are DIRECTLY and MEANINGFULLY impacted. Do NOT tag populations that merely:
+- Implement or administer the policy (federal employees implement most orders - that's not "impact")
+- Are tangentially related
+- Might theoretically be affected in some minor way
 
-**Guidelines:**
-- STRONGLY prefer using existing populations - only propose new ones if absolutely necessary
-- CRITICAL: Only list population IDs in "existing_population_ids" if they EXACTLY match an ID from the Existing Impacted Populations list above
-- If a population you want to use is NOT in the existing list, you MUST add it to "proposed_populations" with a full name and description
-- Populations should be reusable groups that appear across multiple orders
-- Use lowercase with dashes for names (e.g., "federal-employees", "tech-industry")
-- Aim for 2-3 word names that are descriptive but not overly specific
-- BAD (too specific): "large-corporations-with-legal-teams", "tiktok-users-under-18"
-- BAD (too broad): "researchers", "workers", "companies"
-- GOOD (balanced): "scientific-researchers", "manufacturing-workers", "tech-companies"
+**WRONG approach:**
+- Tagging "federal-employees" on every order because they implement federal policy
+- Tagging "taxpayers" on every order because government costs money
+- Tagging "american-consumers" on every trade order
 
-**Categories to consider:**
-- **Countries/Regions**: Nations or regions (e.g., "china", "european-union")
-- **Demographics**: Ethnic, cultural, or religious groups (e.g., "asian-americans", "muslim-americans")
-- **Professions/Industries**: Workers or sectors (e.g., "federal-employees", "tech-industry", "agricultural-workers")
-- **Economic/Social**: Life circumstances (e.g., "low-income-families", "military-veterans", "legal-immigrants")
-- **Government entities**: Agencies or officials (e.g., "doj", "state-governments", "federal-agencies")
-- **Advocacy/Interest groups**: Groups with policy interests (e.g., "environmental-advocates", "civil-liberties-groups")
+**RIGHT approach:**
+- Tag "federal-employees" ONLY when the order specifically changes their pay, benefits, hiring, working conditions, or job security
+- Tag "taxpayers" ONLY when there's a significant, direct fiscal impact explicitly discussed
+- Tag specific groups whose lives, livelihoods, or rights are directly changed by the order
+- Also consider at least one politically-driven impact to a population. For example, an order that helps faith-based organizations might indirectly negatively impact religious freedom advocates who fight for keeping the government out of religious bias
 
-**CRITICAL - NEGATIVE IMPACTS ARE REQUIRED:**
-- You MUST identify at least 1-2 negatively impacted populations for almost every executive order
-- Very few policies are universally beneficial - think critically about trade-offs
-- If you initially think there are no negative impacts, reconsider more carefully
+## Guidelines
 
-**Types of negative impacts to consider:**
-- **Resource reallocation**: If funding goes to X, who loses funding? If priorities shift, whose priorities are deprioritized?
-- **Regulatory burden**: Who faces new compliance costs, paperwork, or restrictions?
-- **Competition effects**: If one group is favored (union workers, domestic producers, specific industries), who is disadvantaged?
-- **Foreign entities**: Trade policies, sanctions, and domestic preference rules often negatively impact foreign countries, companies, or workers
-- **Opposing interests**: Labor-friendly policies may burden employers; business-friendly policies may harm workers or consumers
-- **Implementation costs**: Taxpayers, agencies with stretched resources, or entities bearing compliance costs
+1. **BE SELECTIVE**: Most orders should have 2-4 total populations tagged, not 6-10
+2. **USE EXISTING POPULATIONS**: Strongly prefer the list above. Propose new ones only if truly necessary.
+3. **KEEP IT BROAD**: Use general categories, not hyper-specific ones
+   - WRONG: "long-island-railroad-workers", "tiktok-users-under-18", "wilmerhale-clients"
+   - RIGHT: "railroad-workers", "social-media-users", "law-firm-clients"
+4. **MAX 1 NEW POPULATION**: Propose at most 1 new population per category (positive/negative). Usually propose none.
 
-**Examples of commonly missed negative impacts:**
-- Pro-labor orders → employers, non-union workers/contractors
-- Research funding initiatives → research areas not prioritized, competing funding recipients
-- Domestic preference policies → foreign suppliers, importers, countries affected by trade restrictions
-- New regulations → regulated industries, small businesses facing compliance costs
-- Government reorganizations → workers in eliminated programs, communities losing services
+## Negative Impacts
+
+Most orders have trade-offs. Identify 1-2 groups that face genuine negative consequences:
+- Resource reallocation (who loses funding/priority?)
+- Regulatory burden (who faces new compliance costs?)
+- Competition effects (if one group is favored, who is disadvantaged?)
+- Foreign entities affected by domestic preference or sanctions
+
+If an order is purely ceremonial/symbolic with no real policy impact, it's okay to have empty negative impacts.
 
 Respond in this exact JSON format:
 {
   "existing_population_ids": {
-    "positive": ["federal-employees", "tech-industry"],
-    "negative": ["undocumented-immigrants", "foreign-suppliers"]
+    "positive": ["tech-industry"],
+    "negative": ["foreign-suppliers"]
   },
   "proposed_populations": {
-    "positive": [
-      {
-        "name": "population-name-here",
-        "description": "Brief description of this population group and why they benefit"
-      }
-    ],
-    "negative": [
-      {
-        "name": "population-name-here",
-        "description": "Brief description of this population group and why they are negatively impacted"
-      }
-    ]
+    "positive": [],
+    "negative": []
   }
 }`;
 }
@@ -293,6 +277,66 @@ function isEnriched(eoNumber: number): boolean {
 }
 
 /**
+ * Load an existing enriched order
+ */
+async function loadEnrichedOrder(eoNumber: number): Promise<EnrichedExecutiveOrder | null> {
+  const path = getEnrichedPath(eoNumber);
+  if (!existsSync(path)) {
+    return null;
+  }
+  return readJson<EnrichedExecutiveOrder>(path);
+}
+
+/**
+ * Clean up orphaned populations that are no longer referenced by any enriched EO
+ */
+async function cleanOrphanedPopulations(populations: PopulationRegistry): Promise<number> {
+  const { readdirSync } = await import('node:fs');
+
+  // Get all enriched order files
+  const enrichedFiles = readdirSync(ENRICHED_DIR)
+    .filter(f => f.startsWith('eo-') && f.endsWith('.json'))
+    .map(f => parseInt(f.replace('eo-', '').replace('.json', ''), 10))
+    .filter(n => !isNaN(n));
+
+  // Collect all population IDs used across all enriched EOs
+  const usedPopulationIds = new Set<string>();
+
+  for (const eoNum of enrichedFiles) {
+    const enriched = await loadEnrichedOrder(eoNum);
+    if (enriched?.enrichment?.impacted_populations) {
+      for (const id of enriched.enrichment.impacted_populations.positive_ids || []) {
+        usedPopulationIds.add(id);
+      }
+      for (const id of enriched.enrichment.impacted_populations.negative_ids || []) {
+        usedPopulationIds.add(id);
+      }
+    }
+  }
+
+  // Find orphaned populations
+  const orphanedIds = populations.populations
+    .filter(p => !usedPopulationIds.has(p.id))
+    .map(p => p.id);
+
+  if (orphanedIds.length === 0) {
+    return 0;
+  }
+
+  // Remove orphaned populations
+  console.log(`\nCleaning up ${orphanedIds.length} orphaned population(s):`);
+  for (const id of orphanedIds) {
+    const pop = populations.populations.find(p => p.id === id);
+    console.log(`  - ${pop?.name || id}`);
+  }
+
+  populations.populations = populations.populations.filter(p => usedPopulationIds.has(p.id));
+  populations.updated_at = new Date().toISOString();
+
+  return orphanedIds.length;
+}
+
+/**
  * Convert a slug or name to a proper display name
  * e.g., "privacy-and-data-security" -> "Privacy And Data Security"
  */
@@ -316,7 +360,17 @@ function addProposedThemes(
 ): string[] {
   const newIds: string[] = [];
 
+  if (!proposed || !Array.isArray(proposed)) {
+    return newIds;
+  }
+
   for (const theme of proposed) {
+    // Skip invalid entries
+    if (!theme || !theme.name || typeof theme.name !== 'string') {
+      console.log(`    Skipping invalid theme entry: ${JSON.stringify(theme)}`);
+      continue;
+    }
+
     const id = slugify(theme.name);
 
     // Check if theme already exists
@@ -350,7 +404,17 @@ function addProposedPopulations(
 ): string[] {
   const newIds: string[] = [];
 
+  if (!proposed || !Array.isArray(proposed)) {
+    return newIds;
+  }
+
   for (const pop of proposed) {
+    // Skip invalid entries
+    if (!pop || !pop.name || typeof pop.name !== 'string') {
+      console.log(`    Skipping invalid population entry: ${JSON.stringify(pop)}`);
+      continue;
+    }
+
     const id = slugify(pop.name);
 
     // Check if population already exists
@@ -486,6 +550,79 @@ async function enrichOrder(
 }
 
 /**
+ * Re-run only pass 2 (population analysis) on an already-enriched order
+ * Preserves summary, themes, and concerns from the original enrichment
+ */
+async function rerunPopulationsPass(
+  enrichedOrder: EnrichedExecutiveOrder,
+  populations: PopulationRegistry
+): Promise<EnrichedExecutiveOrder> {
+  // Fetch full text on demand (needed for population analysis)
+  const fullText = await fetchFullText(enrichedOrder);
+
+  // Use the existing summary from pass 1
+  const existingSummary = enrichedOrder.enrichment.summary;
+
+  // Run pass 2 (populations) using advanced model
+  console.log(`    [Pass 2 only/${OPENAI_MODEL_POPULATIONS}] Population analysis...`);
+  const populationsPrompt = buildPopulationsPrompt(enrichedOrder, fullText, existingSummary, populations);
+  const populationsResponse = await callPopulationsLLM(populationsPrompt);
+
+  // Add any proposed populations to the registry
+  const newPositivePopIds = addProposedPopulations(populations, populationsResponse.proposed_populations?.positive || []);
+  const newNegativePopIds = addProposedPopulations(populations, populationsResponse.proposed_populations?.negative || []);
+
+  // Auto-create any "existing" population IDs that don't actually exist
+  const allExistingPopIds = [
+    ...(populationsResponse.existing_population_ids?.positive || []),
+    ...(populationsResponse.existing_population_ids?.negative || [])
+  ];
+  for (const id of allExistingPopIds) {
+    if (!populations.populations.some(p => p.id === id)) {
+      const name = id.split('-').map(word =>
+        word.charAt(0).toUpperCase() + word.slice(1)
+      ).join(' ');
+      const description = `Individuals, organizations, or entities categorized as ${id.replace(/-/g, ' ')} who may be affected by federal policies.`;
+      const newPop: Population = {
+        id,
+        name,
+        description,
+        created_at: new Date().toISOString()
+      };
+      populations.populations.push(newPop);
+      console.log(`    Auto-added population "${name}" - consider reviewing description`);
+    }
+  }
+
+  // Combine existing and new population IDs
+  const allPositivePopIds = [...(populationsResponse.existing_population_ids?.positive || []), ...newPositivePopIds];
+  const allNegativePopIds = [...(populationsResponse.existing_population_ids?.negative || []), ...newNegativePopIds];
+
+  const validPositivePopIds = allPositivePopIds.filter(id =>
+    populations.populations.some(p => p.id === id)
+  );
+  const validNegativePopIds = allNegativePopIds.filter(id =>
+    populations.populations.some(p => p.id === id)
+  );
+
+  // Update only the populations, preserve everything else
+  const updatedEnrichment: Enrichment = {
+    ...enrichedOrder.enrichment,
+    impacted_populations: {
+      positive_ids: validPositivePopIds,
+      negative_ids: validNegativePopIds
+    },
+    enriched_at: new Date().toISOString(),
+    model_used: `${enrichedOrder.enrichment.model_used.split(' + ')[0]} + ${OPENAI_MODEL_POPULATIONS} (pass2-rerun)`
+  };
+
+  return {
+    ...enrichedOrder,
+    enrichment: updatedEnrichment
+  };
+}
+
+/**
  * Main enrich function
  */
 export async function enrich(options: {
@@ -493,7 +630,110 @@ export async function enrich(options: {
   limit?: number;
   year?: number;
   eoNumber?: number;
+  pass2Only?: boolean;
 } = {}): Promise<void> {
+  // Pass 2 only mode - re-run population analysis on existing enriched orders
+  if (options.pass2Only) {
+    console.log(`\n=== Re-running Population Analysis (Pass 2 Only) ===\n`);
+
+    // Load populations registry
+    const populations = await loadPopulations();
+    console.log(`Loaded ${populations.populations.length} existing populations\n`);
+
+    // Get list of enriched order files
+    const { readdirSync } = await import('node:fs');
+    const enrichedFiles = readdirSync(ENRICHED_DIR)
+      .filter(f => f.startsWith('eo-') && f.endsWith('.json'))
+      .map(f => parseInt(f.replace('eo-', '').replace('.json', ''), 10))
+      .filter(n => !isNaN(n));
+
+    let eoNumbers = enrichedFiles;
+
+    // Filter by specific EO number if specified
+    if (options.eoNumber) {
+      if (!enrichedFiles.includes(options.eoNumber)) {
+        console.log(`EO ${options.eoNumber} is not enriched yet. Run full enrichment first.`);
+        return;
+      }
+      eoNumbers = [options.eoNumber];
+      console.log(`Targeting EO ${options.eoNumber}`);
+    } else {
+      // Filter by year if specified
+      if (options.year) {
+        const filteredNumbers: number[] = [];
+        for (const eoNum of enrichedFiles) {
+          const enriched = await loadEnrichedOrder(eoNum);
+          if (enriched && enriched.signing_date.startsWith(String(options.year))) {
+            filteredNumbers.push(eoNum);
+          }
+        }
+        eoNumbers = filteredNumbers;
+        console.log(`Filtered to ${eoNumbers.length} enriched orders from ${options.year}`);
+      }
+
+      // Apply limit
+      if (options.limit) {
+        eoNumbers = eoNumbers.slice(0, options.limit);
+        console.log(`Limited to ${eoNumbers.length} orders`);
+      }
+    }
+
+    if (eoNumbers.length === 0) {
+      console.log('No enriched orders to process.');
+      return;
+    }
+
+    // Process each enriched order
+    let processed = 0;
+    let errors = 0;
+
+    for (const eoNum of eoNumbers) {
+      const enrichedOrder = await loadEnrichedOrder(eoNum);
+      if (!enrichedOrder) {
+        console.log(`Could not load EO ${eoNum}, skipping`);
+        errors++;
+        continue;
+      }
+
+      console.log(`Processing EO ${eoNum}: ${enrichedOrder.title.slice(0, 50)}...`);
+
+      try {
+        const updated = await rerunPopulationsPass(enrichedOrder, populations);
+
+        // Save updated enriched order
+        await writeJson(getEnrichedPath(eoNum), updated);
+
+        // Save updated populations registry after each order
+        await savePopulations(populations);
+
+        const popCount = updated.enrichment.impacted_populations.positive_ids.length +
+                         updated.enrichment.impacted_populations.negative_ids.length;
+        console.log(`  ✓ Updated populations: ${popCount} total (${updated.enrichment.impacted_populations.positive_ids.length}+ / ${updated.enrichment.impacted_populations.negative_ids.length}-)`);
+        processed++;
+      } catch (err) {
+        console.error(`  ✗ Error: ${err instanceof Error ? err.message : err}`);
+        errors++;
+      }
+
+      // Rate limit
+      if (eoNumbers.indexOf(eoNum) < eoNumbers.length - 1) {
+        await sleep(ENRICH_DELAY_MS);
+      }
+    }
+
+    console.log(`\nDone! Processed: ${processed}, Errors: ${errors}`);
+
+    // Clean up orphaned populations
+    const orphanedCount = await cleanOrphanedPopulations(populations);
+    if (orphanedCount > 0) {
+      await savePopulations(populations);
+    }
+
+    console.log(`Total populations: ${populations.populations.length}`);
+    return;
+  }
+
+  // Standard full enrichment mode
   console.log(`\n=== Enriching Executive Orders ===\n`);
 
   // Load raw orders

@@ -20,14 +20,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "federal-employees"
+        "small-importers",
+        "international-shippers"
       ],
       "negative_ids": [
-        "small-importers",
-        "international-shippers",
-        "undocumented-immigrants",
-        "trade-policy"
+        "foreign-manufacturers"
       ]
     },
     "potential_concerns": [
@@ -37,7 +34,7 @@
       "Increased focus on tariff revenue collection at the southern border could heighten trade tensions with neighboring countries affected by these duties.",
       "The order lacks a public-facing explanation of how tariff revenue collection improvements will be implemented, potentially delaying its effectiveness."
     ],
-    "enriched_at": "2025-12-06T07:01:25.303Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:41:47.223Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

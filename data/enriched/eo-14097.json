@@ -20,15 +20,9 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "armed-forces-personnel",
-        "coast-guard-personnel"
+        "selected-reserve-and-irr-members"
       ],
-      "negative_ids": [
-        "selected-reserve-and-irr-members",
-        "undocumented-immigrants",
-        "military-connected-families"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
       "Activation of reservists may disrupt civilian employment and personal lives of service members called to active duty.",
@@ -37,7 +31,7 @@
       "Use of military resources in a law enforcement context could raise concerns about militarization of drug policy enforcement.",
       "Budget constraints or delayed appropriations could limit effective implementation of activation and readiness efforts."
     ],
-    "enriched_at": "2025-12-08T18:08:51.216Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:37:42.190Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

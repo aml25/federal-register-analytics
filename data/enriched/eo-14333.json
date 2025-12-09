@@ -21,10 +21,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies"
+        "state-and-local-law-enforcement"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "communities-affected-by-police-aggression",
+        "state-and-local-governments"
+      ]
     },
     "potential_concerns": [
       "The order may raise questions about local autonomy and the District of Columbia's self-governance given federal control of the local police.",
@@ -33,7 +35,7 @@
       "Potential civil liberties concerns if emergency policing measures target protests or public assemblies.",
       "Lack of explicit provisions for accountability or oversight mechanisms for the expanded federal role in local law enforcement."
     ],
-    "enriched_at": "2025-12-06T06:50:49.452Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:47:11.196Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

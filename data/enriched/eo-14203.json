@@ -22,12 +22,9 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "military-veterans",
-        "state-and-local-law-enforcement"
+        "wrongfully-detained-us-nationals"
       ],
       "negative_ids": [
-        "foreign-nationals-engaged-in-desecration",
         "international-jurisdictional-subjects"
       ]
     },
@@ -38,7 +35,7 @@
       "Entry restrictions on family members of ICC personnel may provoke reciprocal measures affecting U.S. diplomats abroad.",
       "Implementation challenges include identifying and verifying foreign persons subject to sanctions and ensuring consistent enforcement."
     ],
-    "enriched_at": "2025-12-06T07:03:51.356Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:39.494Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

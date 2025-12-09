@@ -21,11 +21,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies"
+        "american-businesses"
       ],
       "negative_ids": [
-        "china",
-        "private-sector-rivals"
+        "foreign-manufacturers"
       ]
     },
     "potential_concerns": [
@@ -35,7 +34,7 @@
       "Implementation complexity across multiple federal agencies may lead to delays or inconsistent enforcement.",
       "The executive order’s reliance on classified or undisclosed information may limit transparency and public understanding of policy rationale."
     ],
-    "enriched_at": "2025-12-06T06:52:37.015Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:46:07.195Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

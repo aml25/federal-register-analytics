@@ -21,13 +21,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "national-park-visitors",
-        "domestic-tourists",
-        "environmental-advocates"
+        "wildlife-and-fish-habitats",
+        "domestic-tourists"
       ],
       "negative_ids": [
-        "environmental-advocates"
+        "foreign-timber-and-lumber-exporters"
       ]
     },
     "potential_concerns": [
@@ -37,7 +35,7 @@
       "Efforts to restore access for hunting, fishing, and off-road activities may generate conflicts with other conservation goals or indigenous land rights.",
       "Addressing large deferred maintenance needs without guaranteed appropriations could limit the effectiveness of the order’s implementation."
     ],
-    "enriched_at": "2025-12-06T06:52:55.759Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:45:58.848Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

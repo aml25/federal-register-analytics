@@ -22,14 +22,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "students-and-educators",
-        "state-and-local-law-enforcement"
+        "illegal-firearms-manufacturers-and-traffickers"
       ],
-      "negative_ids": [
-        "illegal-firearms-manufacturers-and-traffickers",
-        "undocumented-immigrants"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
       "Efforts to regulate 3D printer technology could inadvertently restrict legitimate uses and innovation in additive manufacturing.",
@@ -38,7 +34,7 @@
       "Schools may face burdens or costs implementing new guidelines, especially smaller or under-resourced districts.",
       "Privacy and civil liberties concerns may arise from increased surveillance and data-sharing between law enforcement agencies regarding firearms threats."
     ],
-    "enriched_at": "2025-12-08T18:00:36.451Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:36:11.411Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

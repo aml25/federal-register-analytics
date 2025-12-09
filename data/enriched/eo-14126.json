@@ -27,12 +27,9 @@
         "american-workers",
         "labor-union-members",
         "underserved-communities",
-        "federal-agencies"
+        "care-workforce"
       ],
       "negative_ids": [
-        "private-sector-rivals",
-        "non-union-workers",
-        "federal-budget-stakeholders",
         "non-union-workers"
       ]
     },
@@ -43,7 +40,7 @@
       "Broad definitions of equity and anti-discrimination policies may create compliance complexities and legal challenges for project sponsors.",
       "Effective coordination among multiple federal agencies and the new task force could face implementation delays or inconsistent application."
     ],
-    "enriched_at": "2025-12-08T18:00:45.502Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:36:08.405Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

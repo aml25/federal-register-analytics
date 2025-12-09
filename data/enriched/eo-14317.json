@@ -20,10 +20,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies"
+        "federal-employees"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "displaced-federal-workers"
+      ]
     },
     "potential_concerns": [
       "The new Schedule G could blur lines between political appointments and career civil service, risking politicization of certain federal roles.",
@@ -32,7 +33,7 @@
       "By exempting removals from civil service regulations, there is potential for arbitrary or unfair dismissals of Schedule G employees.",
       "Focusing initial appointments in the Department of Veterans Affairs could raise concerns about politicizing a veteran-focused agency."
     ],
-    "enriched_at": "2025-12-06T06:52:32.391Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:46:09.555Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

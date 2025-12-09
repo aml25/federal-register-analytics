@@ -1,0 +1,39 @@
+{
+  "document_number": "2021-01755",
+  "executive_order_number": "13986",
+  "title": "Ensuring a Lawful and Accurate Enumeration and Apportionment Pursuant to the Decennial Census",
+  "abstract": null,
+  "signing_date": "2021-01-20",
+  "publication_date": "2021-01-25",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/01/25/2021-01755/ensuring-a-lawful-and-accurate-enumeration-and-apportionment-pursuant-to-the-decennial-census",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-25/pdf/2021-01755.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/01/25/2021-01755.txt",
+  "enrichment": {
+    "summary": "This executive order directs that the population counts used for congressional representation after the decennial census must include all residents of each state, regardless of immigration status, reversing a prior policy that sought to exclude undocumented immigrants. It emphasizes the importance of an accurate and lawful enumeration consistent with the Constitution and federal law.",
+    "theme_ids": [
+      "equity-and-inclusion-policy",
+      "data-governance",
+      "census-and-apportionment-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "undocumented-immigrants"
+      ],
+      "negative_ids": [
+        "none"
+      ]
+    },
+    "potential_concerns": [
+      "State or local governments might face challenges adjusting districting processes if census data is delayed or disputed due to changes in population counting methods.",
+      "Some stakeholders may argue that including undocumented immigrants in apportionment could affect political power balances and resource allocation controversies.",
+      "Ensuring data accuracy without relying on incomplete immigration status records may complicate quality assurance efforts and increase operational burdens on the Census Bureau.",
+      "Reversing prior policies might lead to legal challenges or political disputes regarding the interpretation of census statutes and constitutional requirements."
+    ],
+    "enriched_at": "2025-12-09T04:00:14.039Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

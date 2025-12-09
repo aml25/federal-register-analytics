@@ -1,0 +1,44 @@
+{
+  "document_number": "2021-17121",
+  "executive_order_number": "14037",
+  "title": "Strengthening American Leadership in Clean Cars and Trucks",
+  "abstract": null,
+  "signing_date": "2021-08-05",
+  "publication_date": "2021-08-10",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/08/10/2021-17121/strengthening-american-leadership-in-clean-cars-and-trucks",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-08-10/pdf/2021-17121.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/08/10/2021-17121.txt",
+  "enrichment": {
+    "summary": "This executive order sets a goal for half of all new cars and light trucks sold in the U.S. by 2030 to be zero-emission vehicles, such as electric or fuel cell cars. It directs the Environmental Protection Agency and the Department of Transportation to develop stricter fuel economy and emissions standards for various vehicle types, while coordinating with other agencies, states, and stakeholders to support innovation, infrastructure, and American jobs in the clean vehicle industry.",
+    "theme_ids": [
+      "environmental-regulation",
+      "climate-change-mitigation",
+      "energy-policy",
+      "workforce-development",
+      "infrastructure-policy",
+      "economic-development"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "american-workers",
+        "green-energy-industry"
+      ],
+      "negative_ids": [
+        "domestic-energy-producers"
+      ]
+    },
+    "potential_concerns": [
+      "Mandating a 50 percent zero-emission vehicle sales target by 2030 may strain current manufacturing capacity and supply chains.",
+      "Stricter emissions and fuel economy standards could increase vehicle costs, potentially affecting affordability for consumers.",
+      "Coordinating standards across federal agencies, states, and industries may present regulatory and legal challenges.",
+      "The transition might disrupt jobs in traditional automotive and fossil fuel sectors if not managed inclusively.",
+      "Infrastructure development for electric and hydrogen vehicles requires substantial investment and timely deployment to meet demand."
+    ],
+    "enriched_at": "2025-12-09T03:53:33.956Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

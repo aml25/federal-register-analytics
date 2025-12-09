@@ -21,8 +21,8 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "regional-stability-actors"
+        "regional-stability-actors",
+        "innocent-civilian-populations-in-west-bank-and-region"
       ],
       "negative_ids": [
         "muslim-americans",
@@ -36,7 +36,7 @@
       "There is risk of escalating violence or retaliation from designated groups following such official actions.",
       "The absence of an explicit abstract or detailed guidance may lead to ambiguity in enforcement and legal challenges."
     ],
-    "enriched_at": "2025-12-06T06:47:57.214Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:48:31.831Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

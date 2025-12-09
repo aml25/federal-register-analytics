@@ -1,0 +1,40 @@
+{
+  "document_number": "2021-01863",
+  "executive_order_number": "13999",
+  "title": "Protecting Worker Health and Safety",
+  "abstract": null,
+  "signing_date": "2021-01-21",
+  "publication_date": "2021-01-26",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/01/26/2021-01863/protecting-worker-health-and-safety",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-26/pdf/2021-01863.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/01/26/2021-01863.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to protect worker health and safety during the COVID-19 pandemic by issuing updated safety guidelines, considering emergency workplace standards, strengthening enforcement efforts, and conducting outreach to inform workers of their rights. It prioritizes reducing workplace exposure to COVID-19 and ensuring protections especially for essential and vulnerable workers.",
+    "theme_ids": [
+      "labor-relations",
+      "equity-and-inclusion-policy",
+      "public-health-administration"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "american-workers",
+        "public-health-workers",
+        "essential-workers"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Implementing emergency temporary standards quickly may face legal challenges or pushback from businesses and states.",
+      "Increased enforcement activities could strain OSHA resources and require significant funding that may not be immediately available.",
+      "Efforts to enforce mask-wearing and COVID-19 protections may cause conflicts between employers and workers or among political groups.",
+      "Coordination with state occupational safety agencies could be uneven, leading to inconsistent worker protections across states.",
+      "Outreach efforts may struggle to effectively reach all vulnerable populations, particularly workers in informal or less-accessible sectors."
+    ],
+    "enriched_at": "2025-12-09T03:58:35.751Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

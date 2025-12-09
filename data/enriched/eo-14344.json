@@ -20,7 +20,6 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "architectural-professionals"
       ],
       "negative_ids": [
@@ -34,7 +33,7 @@
       "The subjective criteria of 'beauty' and 'dignity' might lead to inconsistent or politicized application of the order.",
       "Additional administrative requirements, such as notifications to the President and new hiring standards, could slow project approvals and increase bureaucratic complexity."
     ],
-    "enriched_at": "2025-12-06T06:49:44.469Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:47:40.199Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

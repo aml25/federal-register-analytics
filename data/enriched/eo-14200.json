@@ -21,13 +21,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies"
+        "small-importers",
+        "international-shippers"
       ],
       "negative_ids": [
-        "china",
-        "small-importers",
-        "international-shippers",
-        "trade-policy"
+        "china"
       ]
     },
     "potential_concerns": [
@@ -37,7 +35,7 @@
       "Trade relations with China might be strained further by tightening tariff enforcement on synthetic opioid-related goods.",
       "Ambiguity in what constitutes adequate systems for tariff collection could lead to inconsistent enforcement or legal disputes."
     ],
-    "enriched_at": "2025-12-06T07:04:08.822Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:32.276Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

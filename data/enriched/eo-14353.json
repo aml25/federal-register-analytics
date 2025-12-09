@@ -20,11 +20,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "regional-stability-actors",
-        "federal-employees",
-        "qatari-government-and-security-forces"
+        "qatari-government-and-security-forces",
+        "regional-stability-actors"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "terrorist-organizations"
+      ]
     },
     "potential_concerns": [
       "This order may increase the risk of U.S. military engagement in regional conflicts involving Qatar.",
@@ -33,7 +34,7 @@
       "There is potential for escalation if adversaries perceive the U.S. security guarantee as provocative or threatening.",
       "The order does not specify funding sources beyond the publication cost, possibly limiting operational readiness or response capability."
     ],
-    "enriched_at": "2025-12-06T06:48:50.265Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:48:05.010Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

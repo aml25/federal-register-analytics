@@ -21,14 +21,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "manufacturing-workers"
+        "manufacturing-workers",
+        "china"
       ],
       "negative_ids": [
-        "china",
-        "private-sector-rivals",
-        "small-importers",
-        "international-shippers"
+        "foreign-manufacturers",
+        "foreign-suppliers"
       ]
     },
     "potential_concerns": [
@@ -38,7 +36,7 @@
       "Small importers and international shipping firms may face increased administrative burdens and higher costs due to new duty increases.",
       "The order's reliance on quick modifications and suspensions may create legal and regulatory uncertainty for traders and enforcement agencies."
     ],
-    "enriched_at": "2025-12-06T06:57:37.149Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:43:40.481Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

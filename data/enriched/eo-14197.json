@@ -23,13 +23,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "domestic-energy-producers"
+        "canada"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
-        "american-businesses",
-        "foreign-nationals-engaged-in-desecration"
+        "american-businesses"
       ]
     },
     "potential_concerns": [
@@ -39,7 +36,7 @@
       "Unclear metrics or criteria for determining sufficiency of Canadian actions could cause ambiguity and inconsistent enforcement.",
       "Potential diplomatic tensions with Canada if tariffs are reinstated, affecting broader U.S.-Canada relations beyond border security."
     ],
-    "enriched_at": "2025-12-06T07:04:25.167Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:24.089Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

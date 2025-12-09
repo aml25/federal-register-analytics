@@ -19,9 +19,11 @@
       "national-security"
     ],
     "impacted_populations": {
-      "positive_ids": [],
-      "negative_ids": [
+      "positive_ids": [
         "agricultural-workers"
+      ],
+      "negative_ids": [
+        "foreign-suppliers"
       ]
     },
     "potential_concerns": [
@@ -30,7 +32,7 @@
       "Critics might argue that exempting agricultural products weakens the original intent of the tariffs to reduce trade deficits and protect domestic industry.",
       "Adjusting tariffs based on ongoing negotiations could create uncertainty for businesses planning production and imports in affected sectors."
     ],
-    "enriched_at": "2025-12-06T06:48:07.407Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:48:27.066Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -23,15 +23,11 @@
     "impacted_populations": {
       "positive_ids": [
         "manufacturing-workers",
-        "critical-minerals-industry",
-        "domestic-energy-producers",
-        "federal-employees"
+        "american-workers"
       ],
       "negative_ids": [
-        "china",
-        "brazil",
-        "india",
-        "undocumented-immigrants"
+        "foreign-manufacturers",
+        "foreign-suppliers"
       ]
     },
     "potential_concerns": [
@@ -41,7 +37,7 @@
       "The broad use of national emergency powers to impose tariffs could face legal challenges related to the scope of presidential authority under trade laws.",
       "Excluding certain critical goods and trade agreements could limit the effectiveness of the tariffs in achieving full reciprocity and trade balance improvements."
     ],
-    "enriched_at": "2025-12-06T06:58:28.961Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:43:11.389Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

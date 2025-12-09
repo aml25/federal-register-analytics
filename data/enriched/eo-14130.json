@@ -21,12 +21,9 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "armed-forces-personnel"
       ],
-      "negative_ids": [
-        "pretrial-defendants"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
       "Randomized selection of court-martial members may face implementation challenges in maintaining uniformity across military services.",
@@ -35,7 +32,7 @@
       "The lack of an accessible abstract and detailed annexes limits transparency for service members and legal practitioners.",
       "Potential resource burdens on military legal offices to train personnel and adjust processes to comply with the new randomized selection regulation."
     ],
-    "enriched_at": "2025-12-08T18:00:14.344Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:36:23.142Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

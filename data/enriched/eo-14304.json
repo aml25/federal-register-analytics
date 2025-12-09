@@ -22,15 +22,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "tech-industry",
-        "scientific-researchers",
-        "federal-agencies"
+        "scientific-researchers"
       ],
       "negative_ids": [
-        "private-sector-rivals",
-        "environmental-advocates",
-        "regional-stability-actors"
+        "foreign-manufacturers"
       ]
     },
     "potential_concerns": [
@@ -40,7 +36,7 @@
       "Technological and safety challenges in certifying new supersonic aircraft could slow implementation or risk accidents.",
       "Industry competition may disadvantage companies that lacked early access to research funding or regulatory input."
     ],
-    "enriched_at": "2025-12-06T06:53:46.556Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:45:33.758Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

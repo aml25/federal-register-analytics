@@ -22,12 +22,13 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies",
         "tech-industry",
         "government-service-users"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "foreign-suppliers",
+        "displaced-federal-workers"
+      ]
     },
     "potential_concerns": [
       "The establishment of the U.S. DOGE Service Temporary Organization may create coordination challenges or overlap with existing agencies and services.",
@@ -36,7 +37,7 @@
       "Agencies may face hiring and resource challenges to form DOGE Teams within thirty days, potentially delaying implementation.",
       "Displacement of prior executive orders and regulations could cause legal ambiguity and resistance within agencies accustomed to previous rules."
     ],
-    "enriched_at": "2025-12-06T07:08:30.909Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:38:27.399Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -1,0 +1,40 @@
+{
+  "document_number": "2021-01753",
+  "executive_order_number": "13985",
+  "title": "Advancing Racial Equity and Support for Underserved Communities Through the Federal Government",
+  "abstract": null,
+  "signing_date": "2021-01-20",
+  "publication_date": "2021-01-25",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/01/25/2021-01753/advancing-racial-equity-and-support-for-underserved-communities-through-the-federal-government",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-25/pdf/2021-01753.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/01/25/2021-01753.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to identify and remove barriers that prevent historically underserved communities from accessing government programs and resources. It establishes processes for assessing equity in policies, improving data collection on diverse populations, and ensuring that government benefits and contracting opportunities are fairly distributed to everyone.",
+    "theme_ids": [
+      "equity-and-inclusion-policy",
+      "civil-rights-enforcement",
+      "data-governance",
+      "federal-procurement-policy",
+      "community-development"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "underserved-communities"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Agencies may face challenges accurately identifying systemic barriers due to limited data or implicit biases.",
+      "The order’s broad scope could create implementation burdens for federal agencies with limited resources or expertise in equity assessments.",
+      "Efforts to prioritize underserved communities might generate controversy or pushback from groups feeling excluded or disadvantaged by equity initiatives.",
+      "Balancing privacy concerns with the need for more detailed demographic data may complicate data collection and sharing efforts.",
+      "Coordination across multiple agencies and interagency bodies may slow progress or produce inconsistent application of equity policies."
+    ],
+    "enriched_at": "2025-12-09T04:00:22.931Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

@@ -22,14 +22,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "government-service-users",
-        "federal-employees",
-        "foreign-nationals-engaged-in-desecration",
-        "domestic-tourists",
-        "national-park-visitors"
+        "national-park-visitors",
+        "domestic-tourists"
       ],
       "negative_ids": [
-        "foreign-nationals-engaged-in-desecration",
         "foreign-tourists"
       ]
     },
@@ -40,7 +36,7 @@
       "Increased entrance fees might create barriers for certain international visitors, affecting diversity and global engagement with national parks.",
       "Implementation challenges include balancing fee increases against visitor experience and ensuring sufficient funding is allocated effectively to park improvements."
     ],
-    "enriched_at": "2025-12-06T06:52:51.206Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:46:02.209Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

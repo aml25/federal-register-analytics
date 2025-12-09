@@ -21,11 +21,9 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "domestic-energy-producers"
       ],
       "negative_ids": [
-        "environmental-advocates",
         "green-energy-industry"
       ]
     },
@@ -36,7 +34,7 @@
       "The policy may disproportionately favor fossil fuel and traditional energy producers over renewable energy sectors.",
       "Public participation could be limited if sunset extensions and regulatory reviews occur without robust comment opportunities."
     ],
-    "enriched_at": "2025-12-06T06:57:13.258Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:43:51.593Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

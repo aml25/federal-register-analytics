@@ -29,21 +29,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "underserved-communities",
-        "tribal-nations",
-        "asian-americans-and-nhpi-communities",
-        "hispanic-and-latino-students",
-        "environmental-advocates",
-        "american-workers",
-        "community-development"
+        "scientific-researchers"
       ],
       "negative_ids": [
-        "federal-agencies-with-increased-administrative-burden",
-        "industrial-transport-companies",
-        "local-businesses",
-        "non-union-workers",
-        "non-tribal-federal-funding-recipients"
+        "private-sector-rivals"
       ]
     },
     "potential_concerns": [
@@ -53,7 +43,7 @@
       "Potential conflicts may arise in balancing economic development and environmental justice goals, especially in communities reliant on polluting industries or legacy infrastructure.",
       "Effectiveness depends heavily on meaningful community engagement and data quality, which historically have been challenging to implement consistently across agencies."
     ],
-    "enriched_at": "2025-12-08T18:09:00.954Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:37:38.922Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

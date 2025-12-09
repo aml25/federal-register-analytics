@@ -1,0 +1,41 @@
+{
+  "document_number": "2021-12382",
+  "executive_order_number": "14033",
+  "title": "Blocking Property and Suspending Entry Into the United States of Certain Persons Contributing to the Destabilizing Situation in the Western Balkans",
+  "abstract": null,
+  "signing_date": "2021-06-08",
+  "publication_date": "2021-06-10",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/06/10/2021-12382/blocking-property-and-suspending-entry-into-the-united-states-of-certain-persons-contributing-to-the",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-06-10/pdf/2021-12382.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/06/10/2021-12382.txt",
+  "enrichment": {
+    "summary": "This executive order blocks the property and economic activity of certain people who threaten peace, stability, and democratic processes in the Western Balkans, and suspends their entry into the United States. It aims to pressure individuals involved in corruption, human rights abuses, or violations of regional agreements to promote security and democratic governance in the region.",
+    "theme_ids": [
+      "national-security",
+      "foreign-policy",
+      "immigration-enforcement",
+      "humanitarian-economic-support"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "affected-western-balkans-individuals"
+      ],
+      "negative_ids": [
+        "sanctioned-persons-and-affiliates"
+      ]
+    },
+    "potential_concerns": [
+      "Designation criteria could be viewed as politically motivated, potentially affecting diplomatic relations with Western Balkan countries.",
+      "Broad authority to block property might unintentionally impact innocent parties or businesses with indirect ties.",
+      "Suspension of entry could hinder engagement with reform-minded individuals critical to regional stability efforts.",
+      "Enforcement requires complex interagency coordination which could delay implementation or lead to inconsistent application.",
+      "Lack of transparency in listings and delistings might raise legal and due process concerns for affected persons."
+    ],
+    "enriched_at": "2025-12-09T03:54:18.913Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

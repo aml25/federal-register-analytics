@@ -26,15 +26,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "domestic-energy-producers",
-        "critical-minerals-industry",
-        "small-business-owners"
+        "critical-minerals-industry"
       ],
       "negative_ids": [
-        "environmental-advocates",
         "foreign-processors-of-critical-minerals",
-        "private-sector-rivals"
+        "environmental-advocates"
       ]
     },
     "potential_concerns": [
@@ -44,7 +40,7 @@
       "Delegation of broad authorities to agencies like the Secretary of Defense and the DFC could result in limited transparency and oversight.",
       "Domestic producers may face increased competition or market displacement effects impacting existing foreign processors and mineral supply partners."
     ],
-    "enriched_at": "2025-12-06T07:00:05.458Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:42:23.838Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

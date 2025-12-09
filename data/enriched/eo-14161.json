@@ -23,14 +23,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "legal-immigrants",
-        "federal-agencies"
+        "refugees",
+        "terrorist-organizations"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
-        "refugees",
-        "muslim-americans"
+        "non-investor-immigrants",
+        "low-income-immigrants"
       ]
     },
     "potential_concerns": [
@@ -40,7 +38,7 @@
       "Vague standards on identifying 'hostile attitudes' may result in inconsistent application and potential civil liberties infringements.",
       "Implementation requires coordination across multiple agencies, risking bureaucratic delays or gaps in enforcement."
     ],
-    "enriched_at": "2025-12-06T07:08:07.917Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:38:36.043Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

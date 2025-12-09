@@ -21,11 +21,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "wrongfully-detained-us-nationals"
+        "wrongfully-detained-us-nationals",
+        "populations-in-designated-countries"
       ],
       "negative_ids": [
-        "populations-in-designated-countries"
+        "foreign-entities-in-countries-of-concern"
       ]
     },
     "potential_concerns": [
@@ -35,7 +35,7 @@
       "Coordinating enforcement across multiple agencies involves significant administrative challenges and may delay timely responses to wrongful detentions.",
       "Critics may argue the order risks politicizing hostage and detention issues, potentially complicating negotiations and diplomatic resolutions."
     ],
-    "enriched_at": "2025-12-06T06:49:20.651Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:47:51.286Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

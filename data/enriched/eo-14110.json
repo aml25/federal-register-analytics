@@ -31,24 +31,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "tech-industry",
-        "academic-institutions",
-        "small-business-owners",
-        "military-veterans",
-        "scientific-researchers",
-        "underserved-communities",
-        "diverse-student-populations",
-        "education-administrators"
+        "scientific-researchers"
       ],
       "negative_ids": [
-        "privacy-and-data-security",
-        "small-federal-contractors",
         "foreign-entities-in-countries-of-concern",
-        "federal-agencies",
-        "tech-industry",
-        "small-business-owners",
-        "privacy-and-data-security"
+        "foreign-investors-in-countries-of-concern"
       ]
     },
     "potential_concerns": [
@@ -58,7 +46,7 @@
       "International coordination on AI standards may face challenges due to differing national interests and technological capabilities.",
       "Balancing AI innovation with civil rights protections could create legal and ethical complexities, especially in areas like criminal justice or consumer protections."
     ],
-    "enriched_at": "2025-12-08T18:07:02.121Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:38:38.961Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -1,0 +1,42 @@
+{
+  "document_number": "2021-01228",
+  "executive_order_number": "13974",
+  "title": "Amending Executive Order 13959Addressing the Threat From Securities Investments That Finance Communist Chinese Military Companies",
+  "abstract": null,
+  "signing_date": "2021-01-13",
+  "publication_date": "2021-01-19",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/01/19/2021-01228/amending-executive-order-13959addressing-the-threat-from-securities-investments-that-finance",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-19/pdf/2021-01228.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/01/19/2021-01228.txt",
+  "enrichment": {
+    "summary": "This executive order updates an earlier order to further restrict U.S. investments in companies identified as Communist Chinese military companies. It establishes deadlines for divesting from such securities and clarifies definitions and lists related to these companies to protect U.S. national security interests.",
+    "theme_ids": [
+      "investment-restrictions",
+      "national-security",
+      "foreign-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "investment-entities",
+        "large-investors"
+      ],
+      "negative_ids": [
+        "china",
+        "foreign-investors-in-countries-of-concern"
+      ]
+    },
+    "potential_concerns": [
+      "The order could complicate compliance for U.S. investors due to changing lists and deadlines.",
+      "Divestment requirements might cause financial losses or market instability for investors holding affected securities.",
+      "The designation criteria and list updates could be contested or viewed as politically motivated by affected companies or international partners.",
+      "Enforcement and oversight challenges may emerge given the complexity of tracking indirect holdings and subsidiaries.",
+      "The order may impact broader U.S.-China economic relations, potentially escalating trade or diplomatic tensions."
+    ],
+    "enriched_at": "2025-12-09T04:01:52.369Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

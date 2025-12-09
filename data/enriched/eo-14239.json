@@ -23,13 +23,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "state-and-local-law-enforcement",
-        "federal-agencies",
-        "state-child-welfare-agencies",
         "state-and-local-governments",
         "citizens-in-affected-communities"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "federal-agencies-with-increased-administrative-burden"
+      ]
     },
     "potential_concerns": [
       "The shift from an all-hazards approach to a risk-informed approach could overlook less likely but still critical threats.",
@@ -38,7 +37,7 @@
       "Streamlining preparedness policies risks oversimplifying complex threats or reducing safeguards previously embedded in older policies.",
       "The absence of policies addressing misinformation and cognitive infrastructure in this order may create regulatory gaps in handling information threats."
     ],
-    "enriched_at": "2025-12-06T07:00:19.513Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:42:18.829Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

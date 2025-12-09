@@ -33,7 +33,7 @@
       "Unions and employee advocates might argue the order disproportionately limits labor rights for workers in sensitive but non-combat roles.",
       "The order could set a precedent for further exemptions that might erode established labor protections in other federal agencies."
     ],
-    "enriched_at": "2025-12-06T06:49:49.607Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:47:37.278Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

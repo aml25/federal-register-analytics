@@ -22,15 +22,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "national-park-visitors",
-        "domestic-tourists",
-        "patriotic-citizens"
+        "patriotic-citizens",
+        "national-park-visitors"
       ],
       "negative_ids": [
-        "individuals-impacted-by-race-and-equity-policy-restrictions",
-        "academic-institutions",
-        "federal-agencies"
+        "diverse-historical-communities",
+        "individuals-impacted-by-race-and-equity-policy-restrictions"
       ]
     },
     "potential_concerns": [
@@ -40,7 +37,7 @@
       "The order’s language targeting certain ideological perspectives may deepen cultural and political divisions rather than promote unity.",
       "Ambiguity in definitions of “improper ideology” risks inconsistent enforcement and potential censorship of critical engagement with complex historical issues."
     ],
-    "enriched_at": "2025-12-06T06:58:52.821Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:43:00.344Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

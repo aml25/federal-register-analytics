@@ -21,12 +21,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies"
+        "tech-industry"
       ],
       "negative_ids": [
         "brazil",
-        "private-sector-rivals",
-        "tech-industry"
+        "foreign-manufacturers"
       ]
     },
     "potential_concerns": [
@@ -36,7 +35,7 @@
       "Implementation and enforcement of the tariff and emergency measures could create administrative burdens for customs and trade agencies.",
       "The broad scope of the order may risk unintended economic impacts beyond the targeted sectors or companies."
     ],
-    "enriched_at": "2025-12-06T06:51:53.050Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:46:25.384Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

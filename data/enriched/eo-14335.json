@@ -23,9 +23,8 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "tech-industry",
-        "commercial-space-operators"
+        "commercial-space-operators",
+        "tech-industry"
       ],
       "negative_ids": [
         "environmental-advocates"
@@ -38,7 +37,7 @@
       "Interagency coordination challenges and conflicting priorities could delay implementation despite the intended streamlining.",
       "Possible tension between national security needs and commercial innovation could lead to ambiguous or conflicting regulatory requirements."
     ],
-    "enriched_at": "2025-12-06T06:50:39.247Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:47:16.415Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

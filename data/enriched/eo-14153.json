@@ -24,18 +24,11 @@
     "impacted_populations": {
       "positive_ids": [
         "domestic-energy-producers",
-        "federal-employees",
-        "commercial-fishermen",
-        "seafood-industry",
-        "american-businesses",
-        "state-and-local-governments",
         "alaskan-native-communities"
       ],
       "negative_ids": [
-        "environmental-advocates",
-        "wildlife-and-fish-habitats",
-        "undocumented-immigrants",
-        "indigenous-communities"
+        "indigenous-communities",
+        "environmental-advocates"
       ]
     },
     "potential_concerns": [
@@ -45,7 +38,7 @@
       "Prioritizing fossil fuel development and infrastructure may conflict with broader climate change goals and trigger opposition from environmental groups and some stakeholders.",
       "Rapid policy reversals may strain agency resources and create administrative challenges in balancing expedited development with environmental and cultural considerations."
     ],
-    "enriched_at": "2025-12-06T07:09:03.347Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:38:12.242Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -22,16 +22,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "tech-industry",
-        "financial-institutions",
-        "bank-customers",
-        "federal-agencies"
+        "tech-industry"
       ],
       "negative_ids": [
-        "bank-regulators",
-        "undocumented-immigrants",
-        "average-americans"
+        "foreign-suppliers"
       ]
     },
     "potential_concerns": [
@@ -41,7 +35,7 @@
       "The order restricts regulatory agencies’ discretion, potentially limiting effective oversight and consumer protections in the evolving digital asset space.",
       "Privacy and security concerns may arise if protections against emerging digital financial threats are insufficiently addressed."
     ],
-    "enriched_at": "2025-12-06T07:06:25.954Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:39:25.866Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

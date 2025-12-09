@@ -1,0 +1,45 @@
+{
+  "document_number": "2021-02176",
+  "executive_order_number": "14007",
+  "title": "President's Council of Advisors on Science and Technology",
+  "abstract": null,
+  "signing_date": "2021-01-27",
+  "publication_date": "2021-02-01",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/02/01/2021-02176/presidents-council-of-advisors-on-science-and-technology",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-02-01/pdf/2021-02176.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/02/01/2021-02176.txt",
+  "enrichment": {
+    "summary": "This executive order establishes the President's Council of Advisors on Science and Technology (PCAST), a group of experts who advise the President on science, technology, and innovation policy. The council is tasked with providing evidence-based advice on a wide range of issues affecting the economy, national security, public health, and equity, and will include members from outside the federal government as well as top science officials.",
+    "theme_ids": [
+      "scientific-research",
+      "technology-development",
+      "national-security",
+      "advisory-committees-management",
+      "equity-and-inclusion-policy",
+      "public-health-promotion"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "scientific-researchers",
+        "tech-industry",
+        "academic-institutions"
+      ],
+      "negative_ids": [
+        "foreign-suppliers"
+      ]
+    },
+    "potential_concerns": [
+      "The political appointment of non-federal members may lead to potential biases or a lack of diversity in viewpoints.",
+      "Security clearance requirements may limit the pool of experts able to contribute to classified discussions.",
+      "The council’s advice might overlap or conflict with other existing science and technology advisory bodies, causing coordination challenges.",
+      "Without ensured funding beyond existing appropriations, the PCAST may face resource constraints affecting its effectiveness.",
+      "The termination date without automatic renewal may lead to discontinuity in long-term advisory efforts."
+    ],
+    "enriched_at": "2025-12-09T03:57:37.686Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

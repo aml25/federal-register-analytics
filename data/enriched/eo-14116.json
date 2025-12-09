@@ -21,12 +21,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "coast-guard-personnel",
         "maritime-industry-workers"
       ],
       "negative_ids": [
-        "maritime-transportation-users"
+        "foreign-seafood-exporters"
       ]
     },
     "potential_concerns": [
@@ -36,7 +35,7 @@
       "Coordination with multiple agencies may create implementation challenges or jurisdictional conflicts.",
       "Ambiguities about the threshold for action against cyber incidents could lead to inconsistent enforcement."
     ],
-    "enriched_at": "2025-12-08T18:02:02.677Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:35:29.403Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

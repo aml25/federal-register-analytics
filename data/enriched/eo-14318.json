@@ -24,10 +24,11 @@
     "impacted_populations": {
       "positive_ids": [
         "tech-industry",
-        "federal-agencies",
-        "manufacturing-workers"
+        "domestic-energy-producers",
+        "investment-entities"
       ],
       "negative_ids": [
+        "foreign-suppliers",
         "environmental-advocates"
       ]
     },
@@ -38,7 +39,7 @@
       "Streamlining permitting could reduce public input and transparency in the approval process for large infrastructure projects.",
       "Federal regulatory changes might face legal challenges or implementation difficulties across multiple agencies, causing delays or inconsistencies."
     ],
-    "enriched_at": "2025-12-06T06:52:27.422Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:46:12.213Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -27,23 +27,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "tech-industry",
-        "small-business-owners",
-        "manufacturing-workers",
-        "domestic-energy-producers",
-        "green-energy-industry",
-        "indigenous-communities",
-        "state-and-local-governments",
-        "academic-institutions",
-        "environmental-advocates",
-        "private-sector-rivals",
-        "federal-agencies"
+        "green-energy-industry"
       ],
       "negative_ids": [
-        "private-sector-rivals",
-        "undocumented-immigrants",
-        "indigenous-communities"
+        "foreign-manufacturers"
       ]
     },
     "potential_concerns": [
@@ -53,7 +41,7 @@
       "Balancing rapid development with strong labor and community protections may be challenging, risking labor disputes or community opposition.",
       "International engagement goals could cause geopolitical tensions or complicate export controls related to sensitive AI technologies."
     ],
-    "enriched_at": "2025-12-06T07:10:16.127Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:37:31.955Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

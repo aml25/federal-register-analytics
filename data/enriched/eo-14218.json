@@ -20,12 +20,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "federal-employees",
-        "military-veterans"
+        "state-and-local-law-enforcement",
+        "legal-immigrants"
       ],
       "negative_ids": [
-        "undocumented-immigrants"
+        "undocumented-immigrants",
+        "sanctuary-jurisdictions"
       ]
     },
     "potential_concerns": [
@@ -35,7 +35,7 @@
       "The broad directive against 'sanctuary' policies could create tension between federal and state/local governments, affecting cooperation.",
       "Lack of clear guidance on balancing enforcement with humanitarian needs might result in inconsistent application across agencies."
     ],
-    "enriched_at": "2025-12-06T07:02:21.525Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:41:17.653Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

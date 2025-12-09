@@ -21,13 +21,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
+        "small-importers",
         "international-shippers"
       ],
       "negative_ids": [
         "china",
-        "small-importers",
-        "postal-carriers"
+        "foreign-manufacturers"
       ]
     },
     "potential_concerns": [
@@ -37,7 +36,7 @@
       "There is a risk that illicit shipments may shift to other countries or channels not covered by the order, limiting its effectiveness.",
       "Monitoring and accurately assessing the economic impact on U.S. industries and consumers may be difficult due to varying compliance and enforcement across agencies."
     ],
-    "enriched_at": "2025-12-06T06:58:34.471Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:43:08.257Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -23,13 +23,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "academic-institutions",
-        "federal-agencies",
-        "private-sector-rivals",
         "hbcu-students",
         "hbcu-administrators-and-faculty"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "non-hbcu-academic-institutions"
+      ]
     },
     "potential_concerns": [
       "The effectiveness of the initiative depends on sustained appropriations and cooperation from multiple agencies, posing risks to consistent implementation.",
@@ -38,7 +37,7 @@
       "States and agencies may have variable commitment to matching funds and collaborative frameworks, limiting the impact of certain provisions.",
       "Annual reporting requirements might not fully capture qualitative improvements in HBCU student outcomes or institutional success."
     ],
-    "enriched_at": "2025-12-06T06:55:53.962Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:44:33.429Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

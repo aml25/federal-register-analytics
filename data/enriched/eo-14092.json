@@ -23,16 +23,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "federal-employees",
         "state-and-local-law-enforcement",
-        "veterans",
-        "students-and-educators"
+        "illegal-firearms-manufacturers-and-traffickers"
       ],
       "negative_ids": [
-        "illegal-firearms-manufacturers-and-traffickers",
-        "undocumented-immigrants",
-        "average-americans"
+        "illegal-firearms-manufacturers-and-traffickers"
       ]
     },
     "potential_concerns": [
@@ -42,7 +37,7 @@
       "Limited funding or attention to other public health or safety priorities could occur as resources are redirected toward gun violence prevention.",
       "Ensuring coordination among multiple federal agencies with different missions may cause implementation delays or inefficiencies."
     ],
-    "enriched_at": "2025-12-08T18:09:34.487Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:37:18.269Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

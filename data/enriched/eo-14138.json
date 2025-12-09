@@ -20,10 +20,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "federal-agencies"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "independent-regulatory-agencies"
+      ]
     },
     "potential_concerns": [
       "Succession may be disrupted if multiple positions listed are filled by acting officials simultaneously, limiting the pool of eligible successors.",
@@ -32,7 +33,7 @@
       "Lack of clarity on implementation protocols might cause operational delays during leadership transitions.",
       "Revoking the previous succession order may create transitional ambiguity if proper communication is not ensured."
     ],
-    "enriched_at": "2025-12-06T07:10:36.294Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:37:22.225Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

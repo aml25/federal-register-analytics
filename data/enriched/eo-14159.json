@@ -24,15 +24,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "state-and-local-law-enforcement",
-        "doj",
-        "state-and-local-governments"
+        "patriotic-citizens",
+        "removable-aliens"
       ],
       "negative_ids": [
         "undocumented-immigrants",
-        "legal-immigrants",
-        "removable-aliens",
         "sanctuary-jurisdictions"
       ]
     },
@@ -43,7 +40,7 @@
       "The order's broad enforcement priorities risk targeting diverse immigrant populations, including those with temporary legal status or protections.",
       "Operation of Homeland Security Task Forces nationwide may increase militarization of immigration enforcement and impact local communities."
     ],
-    "enriched_at": "2025-12-06T07:08:24.840Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:38:30.210Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

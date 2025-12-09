@@ -1,0 +1,43 @@
+{
+  "document_number": "2021-01859",
+  "executive_order_number": "13998",
+  "title": "Promoting COVID-19 Safety in Domestic and International Travel",
+  "abstract": null,
+  "signing_date": "2021-01-21",
+  "publication_date": "2021-01-26",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/01/26/2021-01859/promoting-covid-19-safety-in-domestic-and-international-travel",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-26/pdf/2021-01859.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/01/26/2021-01859.txt",
+  "enrichment": {
+    "summary": "This executive order requires mask-wearing and other public health measures to reduce the spread of COVID-19 during domestic and international travel. It directs federal agencies to implement these safety protocols on planes, trains, buses, ships, and at airports and ports of entry, including testing and quarantine requirements for international travelers.",
+    "theme_ids": [
+      "public-health-promotion",
+      "disease-control-policy",
+      "national-security",
+      "foreign-policy",
+      "maritime-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "state-and-local-governments",
+        "domestic-tourists"
+      ],
+      "negative_ids": [
+        "foreign-tourists"
+      ]
+    },
+    "potential_concerns": [
+      "Implementation of mask mandates and travel restrictions may face resistance from travelers and transportation industry stakeholders.",
+      "Ensuring equitable access to COVID-19 testing and compliance with quarantine measures could be challenging, especially for vulnerable populations.",
+      "Coordination across multiple federal agencies and with state, local, Tribal, and international partners could delay or complicate effective enforcement.",
+      "Balancing public health goals with individual rights such as freedom of movement and privacy might provoke legal and political debates.",
+      "Potential operational disruptions and economic impacts on the transportation and travel industries may arise due to the enhanced safety measures."
+    ],
+    "enriched_at": "2025-12-09T03:58:44.542Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

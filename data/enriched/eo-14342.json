@@ -19,10 +19,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "state-and-local-law-enforcement",
+        "pretrial-defendants"
       ],
       "negative_ids": [
-        "pretrial-defendants"
+        "state-and-local-governments",
+        "communities-affected-by-police-aggression"
       ]
     },
     "potential_concerns": [
@@ -32,7 +34,7 @@
       "Implementation could strain federal-state relations and complicate coordination with jurisdictions pursuing alternative pretrial practices.",
       "Potential public safety benefits might be offset by increased jail populations and related costs without addressing root causes of crime or systemic issues."
     ],
-    "enriched_at": "2025-12-06T06:49:55.128Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:47:34.095Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -23,13 +23,13 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "scientific-researchers",
         "tech-industry",
         "academic-institutions"
       ],
       "negative_ids": [
-        "private-sector-rivals"
+        "private-sector-rivals",
+        "foreign-suppliers"
       ]
     },
     "potential_concerns": [
@@ -39,7 +39,7 @@
       "There may be intellectual property conflicts or disputes over data and model ownership between federal entities and private partners.",
       "The order could raise privacy, data protection, and export control concerns due to sharing of sensitive scientific and AI-related information."
     ],
-    "enriched_at": "2025-12-06T06:47:50.407Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:48:34.841Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

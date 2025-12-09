@@ -1,0 +1,43 @@
+{
+  "document_number": "2021-05200",
+  "executive_order_number": "14021",
+  "title": "Guaranteeing an Educational Environment Free From Discrimination on the Basis of Sex, Including Sexual Orientation or Gender Identity",
+  "abstract": null,
+  "signing_date": "2021-03-08",
+  "publication_date": "2021-03-11",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/03/11/2021-05200/guaranteeing-an-educational-environment-free-from-discrimination-on-the-basis-of-sex-including",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-03-11/pdf/2021-05200.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/03/11/2021-05200.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Department of Education to review and revise policies to ensure all students have an educational environment free from discrimination based on sex, including sexual orientation, gender identity, and sexual harassment. It emphasizes enforcing protections under Title IX and providing fair, equitable treatment and support for students affected by sex discrimination.",
+    "theme_ids": [
+      "education-policy",
+      "civil-rights-enforcement",
+      "equity-and-inclusion-policy",
+      "lgbtq-rights-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "students-in-federally-funded-schools",
+        "diverse-student-populations",
+        "academic-institutions"
+      ],
+      "negative_ids": [
+        "none"
+      ]
+    },
+    "potential_concerns": [
+      "The order may lead to legal challenges over the interpretation and scope of protections related to gender identity and sexual orientation under Title IX.",
+      "School districts and educational institutions could face increased administrative and compliance burdens implementing new guidance and enforcement actions.",
+      "There may be controversy or opposition from groups who believe the policy infringes on religious liberties or parental rights.",
+      "Balancing enforcement of anti-discrimination measures with protections for free speech and due process could present implementation challenges.",
+      "The timing and clarity of guidance revisions could create uncertainty for schools and students during the transition."
+    ],
+    "enriched_at": "2025-12-09T03:55:52.261Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

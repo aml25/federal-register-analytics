@@ -20,11 +20,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "armed-forces-personnel"
+        "armed-forces-personnel",
+        "state-and-local-law-enforcement"
       ],
       "negative_ids": [
-        "undocumented-immigrants"
+        "undocumented-immigrants",
+        "foreign-nationals-engaged-in-desecration"
       ]
     },
     "potential_concerns": [
@@ -34,7 +35,7 @@
       "Implementation depends on appropriations, which could delay or limit enforcement effectiveness and create uncertainty about resource allocation.",
       "Intensified border security efforts might strain relations with neighboring countries and complicate diplomatic or foreign policy efforts related to migration and regional security."
     ],
-    "enriched_at": "2025-12-06T07:07:33.595Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:38:54.176Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

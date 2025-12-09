@@ -23,13 +23,13 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "citizens-in-affected-communities",
-        "indigenous-communities",
         "rural-communities",
-        "state-and-local-governments",
-        "federal-agencies"
+        "tribal-nations",
+        "nonprofit-organizations"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "foreign-suppliers"
+      ]
     },
     "potential_concerns": [
       "Coordination among multiple federal agencies may be challenging, leading to inefficiencies or overlapping efforts.",
@@ -38,7 +38,7 @@
       "Implementation depends on availability of appropriations, which could limit effectiveness or create uncertainty.",
       "The broad definitions of covered communities and criteria might create confusion or inconsistent application across agencies."
     ],
-    "enriched_at": "2025-12-06T07:09:51.885Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:37:44.265Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

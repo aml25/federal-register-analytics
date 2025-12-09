@@ -24,15 +24,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "domestic-energy-producers",
-        "scientific-researchers",
-        "tech-industry",
-        "federal-agencies"
+        "independent-regulatory-agencies"
       ],
       "negative_ids": [
         "displaced-federal-workers",
-        "environmental-advocates",
         "green-energy-industry"
       ]
     },
@@ -43,7 +39,7 @@
       "Workforce reductions at the NRC could cause loss of institutional knowledge and reduce regulatory capacity.",
       "Emphasizing rapid nuclear power expansion may lead to less attention on environmental impacts and alternatives like renewable energy sources."
     ],
-    "enriched_at": "2025-12-06T06:54:09.680Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:45:21.635Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

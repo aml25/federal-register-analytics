@@ -24,13 +24,11 @@
     "impacted_populations": {
       "positive_ids": [
         "domestic-energy-producers",
-        "federal-agencies",
-        "armed-forces-personnel"
+        "domestic-tourists"
       ],
       "negative_ids": [
-        "environmental-advocates",
-        "wildlife-and-fish-habitats",
-        "state-and-local-governments"
+        "green-energy-industry",
+        "indigenous-communities"
       ]
     },
     "potential_concerns": [
@@ -40,7 +38,7 @@
       "Increased production and reliance on fossil fuels and critical minerals could conflict with climate change goals and green energy initiatives.",
       "Implementation complexity and interagency coordination challenges may delay or hinder the intended acceleration of energy infrastructure projects."
     ],
-    "enriched_at": "2025-12-06T07:08:44.106Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:38:21.500Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -23,10 +23,7 @@
         "federal-employees",
         "federal-contractors"
       ],
-      "negative_ids": [
-        "displaced-federal-workers",
-        "public-health-workers"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
       "Removing vaccination requirements may increase COVID-19 exposure risk among federal employees and contractors, especially vulnerable individuals.",
@@ -35,7 +32,7 @@
       "There could be uneven implementation across agencies causing confusion about vaccine and safety policies.",
       "Public perception of rolling back vaccination requirements may reduce voluntary vaccination uptake among the general population."
     ],
-    "enriched_at": "2025-12-08T18:08:40.291Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:37:47.981Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -19,10 +19,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "americorps-alumni"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "private-sector-employers",
+        "non-military-spouse-job-seekers"
+      ]
     },
     "potential_concerns": [
       "Noncompetitive hiring eligibility could be perceived as reducing fairness or transparency in federal hiring processes.",
@@ -31,7 +33,7 @@
       "Potential for confusion or overlap with existing noncompetitive eligibility programs for other service-based groups.",
       "Concerns might arise if this hiring preference indirectly disadvantages other equally qualified applicants."
     ],
-    "enriched_at": "2025-12-06T07:10:03.755Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:37:37.106Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

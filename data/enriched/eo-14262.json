@@ -22,9 +22,12 @@
     "impacted_populations": {
       "positive_ids": [
         "domestic-energy-producers",
-        "federal-agencies"
+        "tech-industry"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "green-energy-industry",
+        "foreign-suppliers"
+      ]
     },
     "potential_concerns": [
       "The order’s broad authority to restrict generation resources from leaving the bulk power system could harm investment incentives in certain energy sectors.",
@@ -33,7 +36,7 @@
       "The development and publication of reserve margin methodologies may lead to regional disputes or disagreements about grid reliability standards.",
       "Potential challenges could arise in balancing grid security needs with market competition and private-sector operational decisions."
     ],
-    "enriched_at": "2025-12-06T06:58:00.898Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:43:30.110Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

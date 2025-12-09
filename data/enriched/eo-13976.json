@@ -1,0 +1,48 @@
+{
+  "document_number": "2021-01476",
+  "executive_order_number": "13976",
+  "title": "Establishing the Wildland Fire Management Policy Committee",
+  "abstract": null,
+  "signing_date": "2021-01-14",
+  "publication_date": "2021-01-21",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/01/21/2021-01476/establishing-the-wildland-fire-management-policy-committee",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-21/pdf/2021-01476.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/01/21/2021-01476.txt",
+  "enrichment": {
+    "summary": "This executive order creates a new committee called the Wildland Fire Management Policy Committee to improve coordination among federal agencies on wildland fire policies and activities. It aims to reduce duplication, improve resource use, support firefighting workforce development, and strengthen cooperation with state, local, and tribal governments to better manage wildfire risks and recovery efforts.",
+    "theme_ids": [
+      "public-safety",
+      "federal-agency-management",
+      "federal-workforce",
+      "workforce-development",
+      "disaster-preparedness",
+      "public-lands-management",
+      "federal-procurement-policy",
+      "tribal-policy",
+      "regulatory-reform",
+      "infrastructure-policy",
+      "wildfire-management-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "state-and-local-governments",
+        "tribal-nations",
+        "federal-agencies"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The consolidation of multiple wildfire-related groups could lead to loss of specialized knowledge or slower decision-making due to broader coordination efforts.",
+      "Implementation of cross-agency performance measures and data standards may face technical and bureaucratic challenges across diverse agencies.",
+      "The order’s effectiveness relies heavily on agency cooperation and availability of appropriated funds, which may vary and delay progress.",
+      "States, tribes, or local agencies might feel underrepresented or inadequately consulted in federal policy coordination.",
+      "Efforts to balance funding between suppression, rehabilitation, and fuels treatment could generate internal conflicts over resource priorities."
+    ],
+    "enriched_at": "2025-12-09T04:01:37.323Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

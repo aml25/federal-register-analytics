@@ -1,0 +1,42 @@
+{
+  "document_number": "2021-01864",
+  "executive_order_number": "14000",
+  "title": "Supporting the Reopening and Continuing Operation of Schools and Early Childhood Education Providers",
+  "abstract": null,
+  "signing_date": "2021-01-21",
+  "publication_date": "2021-01-26",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/01/26/2021-01864/supporting-the-reopening-and-continuing-operation-of-schools-and-early-childhood-education-providers",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-26/pdf/2021-01864.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/01/26/2021-01864.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to support the safe reopening and ongoing operation of schools, child care providers, Head Start programs, and higher education during the COVID-19 pandemic. It emphasizes health and safety measures, addresses learning loss, promotes equitable educational opportunities, and encourages data collection and technical assistance to help schools operate safely and effectively.",
+    "theme_ids": [
+      "education-policy",
+      "public-health-promotion",
+      "equity-and-inclusion-policy",
+      "data-governance",
+      "school-safety"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "students-in-federally-funded-schools",
+        "academic-institutions",
+        "care-workforce"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The effectiveness of guidance depends heavily on coordination and resource availability at state and local levels, which may vary widely.",
+      "Data collection efforts may raise privacy and equity concerns, especially regarding the disaggregation and use of sensitive student demographic information.",
+      "Financial and operational support for child care providers may be insufficient to prevent closures amid ongoing pandemic-related disruptions.",
+      "Implementation challenges may arise from balancing health protocols with the goal of minimizing educational disruption and learning loss.",
+      "Differences in community COVID-19 prevalence could lead to uneven application and effectiveness of reopening strategies."
+    ],
+    "enriched_at": "2025-12-09T03:58:29.486Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

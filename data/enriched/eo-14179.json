@@ -23,10 +23,8 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "tech-industry",
-        "scientific-researchers",
-        "federal-agencies"
+        "scientific-researchers"
       ],
       "negative_ids": [
         "developers-of-ideologically-inclusive-ai"
@@ -39,7 +37,7 @@
       "Rapid policy changes may challenge federal agencies' capacity to comply effectively and consistently, risking fragmentation in AI oversight.",
       "The lack of an explicit implementation timeline or enforcement mechanisms could delay achieving the intended policy goals."
     ],
-    "enriched_at": "2025-12-06T07:06:20.021Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:39:31.065Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

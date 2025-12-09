@@ -20,11 +20,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "us-persons-with-sensitive-data"
       ],
       "negative_ids": [
-        "federal-contractors",
-        "legal-immigrants"
+        "law-firm-employees"
       ]
     },
     "potential_concerns": [
@@ -34,7 +33,7 @@
       "Targeting specific individuals without a transparent process risks legal challenges and appeals. ",
       "Restricting publication of memoirs may raise free speech and whistleblower protection debates."
     ],
-    "enriched_at": "2025-12-06T07:09:08.167Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:38:09.068Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

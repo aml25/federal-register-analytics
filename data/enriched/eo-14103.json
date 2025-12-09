@@ -21,11 +21,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "armed-forces-personnel"
+        "armed-forces-personnel",
+        "military-veterans"
       ],
-      "negative_ids": [
-        "pretrial-defendants"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
       "Amendments taking effect at different times may cause confusion or inconsistent application of military justice procedures.",
@@ -33,7 +32,7 @@
       "Lack of an abstract or plain-language summary in the order may limit accessibility and understanding among affected personnel.",
       "Detailed amendments might impose additional compliance or administrative burdens on military legal personnel and commanders."
     ],
-    "enriched_at": "2025-12-08T18:08:07.893Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:38:10.535Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -24,16 +24,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "tech-industry",
-        "federal-agencies",
-        "doj",
-        "academic-institutions",
-        "commercial-space-operators"
+        "government-service-users"
       ],
       "negative_ids": [
-        "private-sector-rivals",
-        "china"
+        "foreign-suppliers",
+        "data-brokerage-industry"
       ]
     },
     "potential_concerns": [
@@ -43,7 +39,7 @@
       "Mandating post-quantum cryptography and updated encryption protocols could disrupt existing IT systems and require costly upgrades.",
       "The focus on adversaries like China may escalate geopolitical tensions and provoke retaliatory cyber or diplomatic actions."
     ],
-    "enriched_at": "2025-12-06T07:09:58.038Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:37:40.494Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

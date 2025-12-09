@@ -23,12 +23,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies"
+        "tech-industry",
+        "investment-entities"
       ],
       "negative_ids": [
         "foreign-entities-in-countries-of-concern",
-        "tech-industry",
         "foreign-investors-in-countries-of-concern"
       ]
     },
@@ -39,7 +38,7 @@
       "The effectiveness of the regulations depends heavily on interagency coordination and enforcement capabilities, which may be challenging to sustain.",
       "Ambiguities in the scope of prohibited versus notifiable transactions could create legal uncertainty and complicate business planning."
     ],
-    "enriched_at": "2025-12-08T18:07:53.045Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:38:20.146Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

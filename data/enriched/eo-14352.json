@@ -21,12 +21,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry",
-        "federal-employees"
+        "tech-industry"
       ],
       "negative_ids": [
-        "china",
-        "private-sector-rivals"
+        "foreign-suppliers"
       ]
     },
     "potential_concerns": [
@@ -36,7 +34,7 @@
       "The order could be viewed as favoring TikTok over other similar foreign-controlled applications, raising fairness concerns.",
       "Investors and firms competing with the new joint venture might face disadvantage or market uncertainty due to altered enforcement timelines."
     ],
-    "enriched_at": "2025-12-06T06:48:55.665Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:48:02.689Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

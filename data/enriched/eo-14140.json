@@ -21,12 +21,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies"
+        "affected-western-balkans-individuals"
       ],
       "negative_ids": [
-        "regional-stability-actors",
-        "international-jurisdictional-subjects",
-        "affected-western-balkans-individuals"
+        "sanctioned-persons-and-affiliates"
       ]
     },
     "potential_concerns": [
@@ -36,7 +34,7 @@
       "The order could increase tensions with countries or actors who view U.S. sanctions as overreach or politically motivated interference.",
       "There may be legal or procedural challenges in determining who qualifies under various criteria, potentially leading to disputes or delays in implementation."
     ],
-    "enriched_at": "2025-12-06T07:10:25.563Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:37:27.352Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

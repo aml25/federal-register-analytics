@@ -1,0 +1,42 @@
+{
+  "document_number": "2021-03139",
+  "executive_order_number": "14014",
+  "title": "Blocking Property With Respect to the Situation in Burma",
+  "abstract": null,
+  "signing_date": "2021-02-10",
+  "publication_date": "2021-02-12",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/02/12/2021-03139/blocking-property-with-respect-to-the-situation-in-burma",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-02-12/pdf/2021-03139.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/02/12/2021-03139.txt",
+  "enrichment": {
+    "summary": "This executive order blocks the assets of persons involved with or supporting the Burmese military following the February 1, 2021 coup, including those undermining democracy or committing human rights abuses. It also restricts their entry into the United States and prohibits financial or material support to them. The order aims to pressure the military and its affiliates to restore democratic governance in Burma.",
+    "theme_ids": [
+      "foreign-policy",
+      "national-security",
+      "investment-restrictions",
+      "immigration-enforcement",
+      "humanitarian-economic-support"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "sanctioned-persons-and-affiliates"
+      ],
+      "negative_ids": [
+        "civilians-populations-in-designated-countries"
+      ]
+    },
+    "potential_concerns": [
+      "The broad criteria for blocking property might inadvertently impact non-military Burmese entities or civilians with indirect ties.",
+      "Enforcement challenges may arise due to difficulty in identifying all persons or entities subject to sanctions and control.",
+      "The restrictions could potentially limit diplomatic engagement options and complicate humanitarian aid delivery.",
+      "Critics might argue the executive order impacts the Burmese population economically without immediately restoring democratic governance.",
+      "There could be concerns about due process for persons designated under the order given the lack of prior notice."
+    ],
+    "enriched_at": "2025-12-09T03:56:42.013Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

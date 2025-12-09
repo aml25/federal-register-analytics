@@ -21,15 +21,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "manufacturing-workers",
-        "domestic-energy-producers",
-        "federal-employees",
-        "critical-minerals-industry"
+        "critical-minerals-industry",
+        "domestic-energy-producers"
       ],
       "negative_ids": [
-        "private-sector-rivals",
-        "foreign-nationals-engaged-in-desecration",
-        "foreign-processors-of-critical-minerals"
+        "foreign-processors-of-critical-minerals",
+        "foreign-suppliers"
       ]
     },
     "potential_concerns": [
@@ -39,7 +36,7 @@
       "The investigation process and resulting measures might slow down due to interagency coordination and comment periods, delaying response to urgent risks.",
       "Focusing on import restrictions could increase prices for consumers and downstream manufacturers reliant on critical minerals."
     ],
-    "enriched_at": "2025-12-06T06:57:03.920Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:43:57.643Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

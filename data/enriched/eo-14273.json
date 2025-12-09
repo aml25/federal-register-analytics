@@ -21,17 +21,13 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "average-americans",
-        "military-veterans",
-        "medical-patients",
-        "federal-agencies",
         "seniors",
-        "low-income-patients"
+        "low-income-patients",
+        "pharmaceutical-manufacturers"
       ],
       "negative_ids": [
-        "pharmaceutical-manufacturers",
-        "private-sector-rivals",
-        "medicare-part-d-insurance-companies"
+        "medicare-part-d-insurance-companies",
+        "pharmaceutical-manufacturers"
       ]
     },
     "potential_concerns": [
@@ -41,7 +37,7 @@
       "Greater importation of drugs may increase risks related to drug quality or supply chain security if not properly managed.",
       "Recommendations aimed at reducing anti-competitive practices may face legal challenges or resistance from the pharmaceutical industry."
     ],
-    "enriched_at": "2025-12-06T06:56:57.185Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:44:04.479Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

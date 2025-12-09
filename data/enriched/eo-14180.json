@@ -22,13 +22,9 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "state-and-local-governments",
-        "citizens-in-affected-communities"
+        "state-and-local-governments"
       ],
-      "negative_ids": [
-        "undocumented-immigrants"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
       "The accused political bias within FEMA and the focus on immigration enforcement may politicize disaster response and undermine trust in FEMA’s impartiality.",
@@ -37,7 +33,7 @@
       "Soliciting public comments and diverse stakeholder input may slow down the council’s work, delaying important reforms.",
       "FEMA’s resources and priorities may shift away from non-immigration disaster missions, potentially neglecting some vulnerable populations affected by disasters."
     ],
-    "enriched_at": "2025-12-06T07:06:13.903Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:39:33.330Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

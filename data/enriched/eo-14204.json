@@ -21,11 +21,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "afrikaner-refugees"
+        "afrikaner-refugees",
+        "afrikaners-in-south-africa"
       ],
       "negative_ids": [
-        "south-african-government",
-        "afrikaners-in-south-africa"
+        "south-african-government"
       ]
     },
     "potential_concerns": [
@@ -35,7 +35,7 @@
       "Implementation challenges could arise in coordinating agencies to halt aid promptly while allowing exceptions deemed necessary.",
       "The order could be criticized for focusing on a specific ethnic group and for potential racial or political implications in foreign policy."
     ],
-    "enriched_at": "2025-12-06T07:03:45.259Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:41.954Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

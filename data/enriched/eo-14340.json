@@ -19,10 +19,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "pretrial-defendants"
       ],
       "negative_ids": [
-        "pretrial-defendants"
+        "communities-affected-by-police-aggression"
       ]
     },
     "potential_concerns": [
@@ -32,7 +32,7 @@
       "The lack of an explicit focus on due process rights could raise civil liberties concerns.",
       "Implementation may overwhelm federal detention facilities and courts handling additional pretrial detainees."
     ],
-    "enriched_at": "2025-12-06T06:50:09.367Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:47:28.573Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -26,9 +26,8 @@
         "domestic-energy-producers"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
         "green-energy-industry",
-        "labor-union-members"
+        "foreign-suppliers"
       ]
     },
     "potential_concerns": [
@@ -38,7 +37,7 @@
       "Eliminating policies aimed at advancing biotechnology and human rights initiatives may stall progress in innovation and social equity.",
       "The broad revocation of multiple prior actions might create legal uncertainty or hinder continuity in federal programs and policies."
     ],
-    "enriched_at": "2025-12-06T07:00:34.215Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:42:11.092Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

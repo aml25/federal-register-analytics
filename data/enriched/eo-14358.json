@@ -21,14 +21,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "china",
         "manufacturing-workers",
         "agricultural-workers"
       ],
       "negative_ids": [
-        "private-sector-rivals",
-        "private-sector-rivals"
+        "small-importers",
+        "foreign-manufacturers"
       ]
     },
     "potential_concerns": [
@@ -38,7 +36,7 @@
       "The agreement may face criticism for granting economic concessions to China despite ongoing concerns about trade imbalances and intellectual property protections.",
       "There is a risk that geopolitical or security events could disrupt the trade relationship despite the tariff suspension."
     ],
-    "enriched_at": "2025-12-06T06:48:21.053Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:48:18.311Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

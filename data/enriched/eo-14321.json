@@ -22,17 +22,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "federal-employees",
-        "homeless-individuals"
+        "homeless-individuals",
+        "state-and-local-law-enforcement"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
-        "low-income-immigrants",
-        "homeless-individuals",
-        "substance-use-disorder-affected-populations",
-        "mental-health-patients",
-        "housing-first-advocates"
+        "housing-first-advocates",
+        "substance-use-disorder-affected-populations"
       ]
     },
     "potential_concerns": [
@@ -42,7 +37,7 @@
       "Implementation may be hindered by legal challenges to reversing judicial precedents and terminating consent decrees protecting rights.",
       "There is risk of inadequate resources to ensure quality care in expanded institutional settings leading to poor outcomes."
     ],
-    "enriched_at": "2025-12-06T06:52:09.372Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:46:20.660Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

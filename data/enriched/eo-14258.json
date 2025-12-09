@@ -20,12 +20,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "doj"
+        "tech-industry",
+        "social-media-platforms"
       ],
       "negative_ids": [
-        "tech-industry",
-        "private-sector-rivals"
+        "foreign-suppliers"
       ]
     },
     "potential_concerns": [
@@ -35,7 +34,7 @@
       "There may be challenges in balancing national security with protecting companies' operational and compliance rights during the extension period.",
       "Critics may argue that delaying enforcement undermines the legislative intent of protecting Americans from foreign adversaries."
     ],
-    "enriched_at": "2025-12-06T06:58:23.508Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:43:14.682Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

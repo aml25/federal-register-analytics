@@ -21,10 +21,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "law-firm-employees",
-        "military-veterans"
+        "military-veterans",
+        "average-americans"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "law-firm-employees"
+      ]
     },
     "potential_concerns": [
       "The order's revocation of a previous critical order may be seen as prematurely trusting the law firm's commitments without independent verification or enforcement mechanisms.",
@@ -33,7 +35,7 @@
       "Relying on voluntary pro bono commitments tied to a firm’s goodwill could reduce accountability compared to formal regulatory or oversight approaches.",
       "The order lacks specific mechanisms to monitor or enforce the firm’s stated policy changes, possibly limiting practical impact."
     ],
-    "enriched_at": "2025-12-06T06:59:44.813Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:42:32.559Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

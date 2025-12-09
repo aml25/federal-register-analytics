@@ -22,14 +22,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "domestic-energy-producers",
-        "american-businesses",
-        "federal-employees"
+        "domestic-energy-producers"
       ],
       "negative_ids": [
-        "green-energy-industry",
-        "environmental-advocates",
-        "international-shippers"
+        "green-energy-industry"
       ]
     },
     "potential_concerns": [
@@ -39,7 +35,7 @@
       "Requiring agencies to focus on fiscal restraint and economic efficiency might limit investments in green technologies and renewable energy development.",
       "Implementation challenges may arise due to the breadth of required agency reports, rescissions, and coordination, potentially causing bureaucratic delays or confusion."
     ],
-    "enriched_at": "2025-12-06T07:08:01.884Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:38:38.969Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

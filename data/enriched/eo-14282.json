@@ -22,7 +22,8 @@
     "impacted_populations": {
       "positive_ids": [
         "academic-institutions",
-        "federal-agencies"
+        "scientific-researchers",
+        "federal-grantees"
       ],
       "negative_ids": [
         "foreign-funded-institutions"
@@ -35,7 +36,7 @@
       "Identifying the 'true source' of foreign funds may be difficult, potentially leading to legal disputes or inconsistent enforcement.",
       "The order could politicize higher education institutions perceived to have foreign connections, affecting their reputation and funding."
     ],
-    "enriched_at": "2025-12-06T06:55:59.432Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:44:30.878Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -22,11 +22,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "patriotic-citizens"
+        "patriotic-citizens",
+        "state-and-local-law-enforcement"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
         "protestors",
         "foreign-nationals-engaged-in-desecration"
       ]
@@ -38,7 +37,7 @@
       "Referral to state and local authorities could result in inconsistent enforcement depending on local law variations and priorities.",
       "The broad language regarding incitement and violence might lead to subjective interpretation, creating risks of overreach or selective enforcement."
     ],
-    "enriched_at": "2025-12-06T06:50:04.760Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:47:31.038Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

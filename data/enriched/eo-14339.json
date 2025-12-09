@@ -21,9 +21,13 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "state-and-local-law-enforcement",
+        "federal-agencies"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "communities-affected-by-police-aggression",
+        "individuals-impacted-by-race-and-equity-policy-restrictions"
+      ]
     },
     "potential_concerns": [
       "Deploying National Guard and specialized law enforcement units in civilian settings could raise civil liberties and policing oversight concerns.",
@@ -32,7 +36,7 @@
       "Coordination among multiple federal and local agencies may present logistical and jurisdictional challenges.",
       "Investigations into housing authority compliance could strain relationships with local housing providers and tenants."
     ],
-    "enriched_at": "2025-12-06T06:50:14.176Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:47:25.987Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

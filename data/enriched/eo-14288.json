@@ -21,13 +21,9 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "state-child-welfare-agencies",
-        "small-business-owners",
         "state-and-local-law-enforcement"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
         "communities-affected-by-police-aggression",
         "individuals-impacted-by-race-and-equity-policy-restrictions"
       ]
@@ -39,7 +35,7 @@
       "The order's explicit opposition to race- and sex-based equity policies could undermine efforts to promote fairness and reduce discrimination within policing.",
       "There may be legal and logistical challenges in implementing indemnification and pro bono legal support for law enforcement officers."
     ],
-    "enriched_at": "2025-12-06T06:55:21.491Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:44:46.026Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

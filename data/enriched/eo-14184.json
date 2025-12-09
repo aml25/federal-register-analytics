@@ -20,7 +20,6 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "armed-forces-personnel"
       ],
       "negative_ids": []
@@ -32,7 +31,7 @@
       "The order may cause morale issues among service members who complied with the vaccine mandate.",
       "Processing large numbers of reinstatements within 60 days reporting deadlines may strain agency administrative capacity."
     ],
-    "enriched_at": "2025-12-06T07:05:47.803Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:39:48.132Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

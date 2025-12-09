@@ -21,12 +21,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "government-service-users",
-        "pharmaceutical-manufacturers",
-        "federal-agencies"
+        "seniors",
+        "low-income-patients",
+        "medical-patients"
       ],
       "negative_ids": [
-        "private-sector-rivals"
+        "pharmaceutical-manufacturers"
       ]
     },
     "potential_concerns": [
@@ -36,7 +36,7 @@
       "Efforts to impose most-favored-nation pricing could lead to unintended drug shortages or reduced drug availability.",
       "Administrative challenges in coordinating multiple federal agencies and implementing price negotiation rules quickly."
     ],
-    "enriched_at": "2025-12-06T06:54:24.686Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:45:12.889Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

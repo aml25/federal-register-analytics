@@ -22,16 +22,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "parents-of-public-school-students",
-        "education-administrators",
-        "federal-employees",
-        "patriotic-citizens"
+        "students-in-federally-funded-schools",
+        "parents-of-public-school-students"
       ],
       "negative_ids": [
         "diverse-student-populations",
-        "students-in-federally-funded-schools",
-        "transgender-athletes",
-        "male-athletes-seeking-womens-sports",
         "students-impacted-by-ideological-restrictions"
       ]
     },
@@ -42,7 +37,7 @@
       "The reestablishment of the 1776 Commission with a patriotic education focus may promote a singular, potentially exclusionary narrative of American history.",
       "Implementation across federal agencies may be inconsistent or overly burdensome, leading to confusion among schools and educators."
     ],
-    "enriched_at": "2025-12-06T07:05:09.564Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:05.738Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

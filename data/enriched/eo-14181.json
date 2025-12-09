@@ -23,13 +23,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "citizens-in-affected-communities",
-        "state-and-local-governments"
+        "state-and-local-governments",
+        "citizens-in-affected-communities"
       ],
       "negative_ids": [
-        "environmental-advocates",
-        "undocumented-immigrants"
+        "state-and-local-governments"
       ]
     },
     "potential_concerns": [
@@ -39,7 +37,7 @@
       "Rapid debris removal and rebuilding efforts may overlook important environmental and cultural considerations in affected communities.",
       "Implementation challenges could arise due to the multiple agencies involved and tight reporting and action deadlines."
     ],
-    "enriched_at": "2025-12-06T07:06:05.179Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:39:38.944Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -22,12 +22,11 @@
     "impacted_populations": {
       "positive_ids": [
         "manufacturing-workers",
-        "federal-employees"
+        "pharmaceutical-manufacturers"
       ],
       "negative_ids": [
-        "private-sector-rivals",
-        "china",
-        "undocumented-immigrants"
+        "foreign-manufacturers",
+        "small-importers"
       ]
     },
     "potential_concerns": [
@@ -37,7 +36,7 @@
       "Coordination among multiple agencies may face bureaucratic challenges affecting effective monitoring and enforcement.",
       "Reliance on future final agreements for tariff suspensions may create uncertainty for businesses and trading partners."
     ],
-    "enriched_at": "2025-12-06T06:49:30.849Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:47:46.072Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

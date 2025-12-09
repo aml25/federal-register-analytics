@@ -22,12 +22,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "public-health-promotion"
+        "scientific-researchers"
       ],
       "negative_ids": [
-        "china",
-        "american-businesses"
+        "public-health-workers",
+        "state-and-local-governments"
       ]
     },
     "potential_concerns": [
@@ -37,7 +36,7 @@
       "Reassigning U.S. personnel away from WHO could lead to inefficiencies or loss of expertise in global health security coordination.",
       "Revoking previous orders and strategies may delay critical updates or improvements to U.S. pandemic preparedness and response."
     ],
-    "enriched_at": "2025-12-06T07:08:49.940Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:38:18.666Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

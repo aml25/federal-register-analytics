@@ -24,13 +24,11 @@
     "impacted_populations": {
       "positive_ids": [
         "regional-stability-actors",
-        "federal-agencies"
+        "civilian-populations-in-designated-countries"
       ],
       "negative_ids": [
-        "muslim-americans",
-        "wrongfully-detained-us-nationals",
         "terrorist-organizations",
-        "terrorist-organizations"
+        "sanctioned-persons-and-affiliates"
       ]
     },
     "potential_concerns": [
@@ -40,7 +38,7 @@
       "Suspension of sanctions risks criticism from human rights advocates concerned about accountability for past abuses under the former regime.",
       "The order’s complexity may cause administrative delays or legal challenges in coordinating revocations, waivers, and ongoing counterterrorism designations."
     ],
-    "enriched_at": "2025-12-06T06:53:01.933Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:45:56.096Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

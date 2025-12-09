@@ -21,15 +21,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "china"
+        "china",
+        "american-businesses"
       ],
       "negative_ids": [
-        "manufacturing-workers",
-        "private-sector-rivals",
-        "china",
-        "small-importers",
-        "international-shippers"
+        "foreign-manufacturers"
       ]
     },
     "potential_concerns": [
@@ -39,7 +35,7 @@
       "Implementation requires coordination across multiple agencies, which could delay effective enforcement or cause inconsistent application.",
       "The 90-day suspension period may be too short to realize meaningful progress in bilateral trade negotiations."
     ],
-    "enriched_at": "2025-12-06T06:54:19.961Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:45:15.218Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

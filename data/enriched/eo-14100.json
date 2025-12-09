@@ -23,9 +23,9 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "military-veterans",
-        "military-connected-families"
+        "military-connected-families",
+        "care-workforce",
+        "small-business-owners"
       ],
       "negative_ids": [
         "private-sector-employers",
@@ -39,7 +39,7 @@
       "Support for military spouse entrepreneurs may not fully mitigate frequent relocation disruptions inherent to military life.",
       "Data collection and reporting requirements could raise privacy concerns or require new systems that take time and resources to develop."
     ],
-    "enriched_at": "2025-12-08T18:08:34.640Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:37:54.821Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

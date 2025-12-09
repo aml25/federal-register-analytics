@@ -22,11 +22,10 @@
     "impacted_populations": {
       "positive_ids": [
         "manufacturing-workers",
-        "trade-policy",
-        "regional-stability-actors"
+        "canada"
       ],
       "negative_ids": [
-        "undocumented-immigrants"
+        "private-sector-rivals"
       ]
     },
     "potential_concerns": [
@@ -36,7 +35,7 @@
       "Lower tariffs on potash might affect domestic producers negatively by increasing Canadian competition.",
       "Implementation timing and clarity on which goods qualify for exemptions could cause confusion among importers and customs officials."
     ],
-    "enriched_at": "2025-12-06T07:01:00.966Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:41:57.098Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -22,11 +22,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "domestic-energy-producers",
+        "american-workers"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
-        "manufacturing-workers"
+        "canada"
       ]
     },
     "potential_concerns": [
@@ -36,7 +36,7 @@
       "Focusing on tariffs as a tool against illicit drugs could be criticized as an indirect or blunt instrument with limited impact on drug trafficking.",
       "Monitoring and enforcement efforts may increase burdens on customs and trade agencies, requiring additional resources and coordination."
     ],
-    "enriched_at": "2025-12-06T06:51:42.010Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:46:30.769Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

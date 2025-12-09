@@ -21,12 +21,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
+        "regulated-entities",
         "underserved-communities"
       ],
       "negative_ids": [
-        "federal-agencies",
-        "regulated-entities"
+        "independent-regulatory-agencies"
       ]
     },
     "potential_concerns": [
@@ -36,7 +35,7 @@
       "Efforts to include underserved communities may require additional resources and expertise that agencies may lack or find difficult to implement fully.",
       "Revising regulatory guidelines could inadvertently create legal challenges if not well aligned with existing statutes and prior executive orders."
     ],
-    "enriched_at": "2025-12-08T18:09:18.072Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:37:24.291Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

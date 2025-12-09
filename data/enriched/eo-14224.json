@@ -21,14 +21,9 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "federal-employees",
         "english-proficient-citizens"
       ],
       "negative_ids": [
-        "non-english-proficient-drivers",
-        "immigrant-drivers",
-        "undocumented-immigrants",
         "limited-english-proficiency-populations"
       ]
     },
@@ -39,7 +34,7 @@
       "The order may be viewed as culturally exclusionary or undermine multilingual traditions valued in many American communities.",
       "There may be legal challenges regarding the impact on civil rights protections related to language access under existing laws."
     ],
-    "enriched_at": "2025-12-06T07:01:43.704Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:41:40.176Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

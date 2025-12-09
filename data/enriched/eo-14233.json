@@ -21,10 +21,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "federal-employees"
+        "tech-industry",
+        "financial-institutions"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "foreign-suppliers"
+      ]
     },
     "potential_concerns": [
       "The fixed holding and non-sale of bitcoin could limit the government’s financial flexibility and expose reserves to digital asset market volatility.",
@@ -33,7 +35,7 @@
       "Budget neutrality requirements for acquiring additional bitcoin could constrain Treasury’s ability to effectively grow the reserve.",
       "Potential criticism may arise over the government holding and managing cryptocurrency assets, given public concerns about cryptocurrency legitimacy and security."
     ],
-    "enriched_at": "2025-12-06T07:00:50.033Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:42:02.455Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

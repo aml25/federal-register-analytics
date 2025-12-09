@@ -24,14 +24,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
         "domestic-energy-producers",
         "tech-industry",
-        "private-sector-rivals",
-        "federal-agencies",
-        "military-veterans"
+        "scientific-researchers"
       ],
       "negative_ids": [
+        "foreign-suppliers",
         "green-energy-industry"
       ]
     },
@@ -42,7 +40,7 @@
       "The goal to operate reactors on military bases and DOE sites by stringent deadlines may lead to implementation delays or cost overruns due to technical and regulatory complexities.",
       "The focus on uranium resource allocation and fuel stockpiling might strain existing resources, potentially impacting other defense or naval nuclear programs."
     ],
-    "enriched_at": "2025-12-06T06:54:15.055Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:45:18.643Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

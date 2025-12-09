@@ -19,13 +19,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "education-administrators",
-        "federal-employees",
-        "american-youth"
+        "parents-of-public-school-students",
+        "education-administrators"
       ],
       "negative_ids": [
-        "individuals-impacted-by-race-and-equity-policy-restrictions",
-        "children-protected-by-nondiscrimination-policies"
+        "diverse-student-populations",
+        "students-impacted-by-ideological-restrictions"
       ]
     },
     "potential_concerns": [
@@ -35,7 +34,7 @@
       "Implementation may create conflicts between federal nondiscrimination law enforcement and local school discipline practices.",
       "Mandated reports and policies could politicize school discipline and shift focus away from evidence-based behavioral interventions."
     ],
-    "enriched_at": "2025-12-06T06:56:09.745Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:44:25.241Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

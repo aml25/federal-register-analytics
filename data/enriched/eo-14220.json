@@ -22,14 +22,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "domestic-energy-producers",
         "critical-minerals-industry",
         "manufacturing-workers"
       ],
       "negative_ids": [
-        "foreign-processors-of-critical-minerals",
-        "private-sector-rivals"
+        "foreign-suppliers",
+        "foreign-processors-of-critical-minerals"
       ]
     },
     "potential_concerns": [
@@ -39,7 +37,7 @@
       "Focusing on a single critical mineral could divert attention and resources away from securing other essential supply chains.",
       "The 270-day investigation and resulting policy actions could create market uncertainty affecting commodity prices and investment decisions."
     ],
-    "enriched_at": "2025-12-06T07:02:08.747Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:41:27.722Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -22,10 +22,9 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies"
+        "regional-stability-actors"
       ],
       "negative_ids": [
-        "sanctioned-persons-and-affiliates",
         "populations-in-designated-countries"
       ]
     },
@@ -36,7 +35,7 @@
       "Restrictions on travel and transactions might hinder diplomatic engagement and conflict resolution efforts.",
       "The order's broad criteria for designation could lead to uncertainty and increased compliance burdens on financial institutions and U.S. persons."
     ],
-    "enriched_at": "2025-12-08T18:08:46.376Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T01:37:45.228Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

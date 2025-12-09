@@ -21,7 +21,7 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies"
+        "undocumented-immigrants"
       ],
       "negative_ids": [
         "undocumented-immigrants"
@@ -34,7 +34,7 @@
       "The order lacks an abstract or broader context that explains any additional conservation or memorial efforts, potentially limiting public understanding and support.",
       "The order’s framing could deepen partisan divisions over immigration policy and risk alienating immigrant communities and advocates."
     ],
-    "enriched_at": "2025-12-06T07:01:13.039Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:41:51.557Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

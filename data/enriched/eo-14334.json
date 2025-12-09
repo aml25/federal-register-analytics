@@ -21,12 +21,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "china"
+        "american-businesses",
+        "manufacturing-workers"
       ],
       "negative_ids": [
-        "china",
-        "manufacturing-workers"
+        "china"
       ]
     },
     "potential_concerns": [
@@ -35,7 +34,7 @@
       "Implementation requires coordination among numerous federal agencies, risking delays or inconsistent enforcement.",
       "Suspension of tariffs may reduce U.S. leverage in ongoing trade negotiations with China, potentially weakening long-term outcomes."
     ],
-    "enriched_at": "2025-12-06T06:50:43.625Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:47:13.751Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

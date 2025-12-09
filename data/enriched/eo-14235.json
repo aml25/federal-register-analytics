@@ -22,12 +22,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "public-service-workers",
+        "federal-budget-stakeholders"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
-        "low-income-immigrants",
-        "public-service-workers",
         "nonprofit-organizations"
       ]
     },
@@ -38,7 +36,7 @@
       "The complex coordination needed between the Department of Education and Treasury to revise regulations may delay implementation.",
       "Potential legal challenges could arise claiming the order restricts access to a statutorily authorized student loan forgiveness benefit."
     ],
-    "enriched_at": "2025-12-06T07:00:40.175Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:42:08.162Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

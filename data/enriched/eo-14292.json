@@ -22,13 +22,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
         "scientific-researchers",
         "academic-institutions"
       ],
       "negative_ids": [
-        "china",
-        "private-sector-rivals"
+        "foreign-suppliers",
+        "china"
       ]
     },
     "potential_concerns": [
@@ -38,7 +37,7 @@
       "Limiting gain-of-function research might reduce preparedness or delay breakthroughs needed to understand and respond to biological threats.",
       "The policy’s focus on stricter controls without corresponding federal funding increases for safer research environments could disadvantage some researchers and institutions."
     ],
-    "enriched_at": "2025-12-06T06:54:52.077Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:44:57.506Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

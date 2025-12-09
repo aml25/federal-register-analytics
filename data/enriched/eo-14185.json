@@ -21,15 +21,9 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "military-veterans",
-        "armed-forces-personnel",
-        "defense-academic-institutions"
+        "armed-forces-personnel"
       ],
       "negative_ids": [
-        "diverse-student-populations",
-        "students-impacted-by-ideological-restrictions",
-        "individuals-impacted-by-race-and-equity-policy-restrictions",
         "minority-service-members"
       ]
     },
@@ -40,7 +34,7 @@
       "The order's broad language on race and sex preferences could inadvertently affect legitimate equal opportunity efforts and protections.",
       "Affected minority service members and civilian employees may feel marginalized or unsupported, potentially harming morale and retention."
     ],
-    "enriched_at": "2025-12-06T07:05:43.254Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:39:50.484Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

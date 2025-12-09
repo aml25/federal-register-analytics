@@ -1,0 +1,42 @@
+{
+  "document_number": "2021-02034",
+  "executive_order_number": "14004",
+  "title": "Enabling All Qualified Americans To Serve Their Country in Uniform",
+  "abstract": null,
+  "signing_date": "2021-01-25",
+  "publication_date": "2021-01-28",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/01/28/2021-02034/enabling-all-qualified-americans-to-serve-their-country-in-uniform",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-28/pdf/2021-02034.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/01/28/2021-02034.txt",
+  "enrichment": {
+    "summary": "This executive order directs the military to allow all qualified Americans, including transgender individuals, to serve openly without discrimination based on gender identity. It revokes previous policies barring transgender service members and requires military branches to correct related injustices and support transgender personnel, including facilitating gender transition while serving.",
+    "theme_ids": [
+      "national-security",
+      "military-personnel-policy",
+      "equity-and-inclusion-policy",
+      "lgbtq-rights-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "armed-forces-personnel",
+        "military-veterans"
+      ],
+      "negative_ids": [
+        "none"
+      ]
+    },
+    "potential_concerns": [
+      "Some military personnel or leaders may resist changes, posing challenges to policy implementation and unit cohesion.",
+      "Opponents might argue that accommodating transgender service members could increase healthcare costs or affect military readiness despite evidence to the contrary.",
+      "Correcting past unjust discharges could raise complex legal and administrative issues within the military justice system.",
+      "There may be political or public backlash from groups opposed to transgender military service, impacting broader social and political debates.",
+      "Ensuring consistent policy enforcement across all branches, especially the Coast Guard, could face logistical and oversight difficulties."
+    ],
+    "enriched_at": "2025-12-09T03:57:58.048Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}

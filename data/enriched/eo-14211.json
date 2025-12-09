@@ -21,10 +21,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies"
+        "federal-employees"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "displaced-federal-workers"
+      ]
     },
     "potential_concerns": [
       "The order may undermine the independence and professionalism of the Foreign Service by subjecting personnel decisions solely to political discretion.",
@@ -33,7 +34,7 @@
       "Delegating sole discretion to the Secretary without independent oversight risks abuse of authority and lack of accountability.",
       "Implementation might face legal challenges if perceived to conflict with existing laws or protections for career foreign service members."
     ],
-    "enriched_at": "2025-12-06T07:03:02.705Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:58.580Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

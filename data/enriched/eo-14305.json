@@ -22,11 +22,13 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "state-child-welfare-agencies",
-        "federal-employees"
+        "tech-industry",
+        "state-and-local-law-enforcement"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "foreign-suppliers",
+        "limited-english-proficiency-populations"
+      ]
     },
     "potential_concerns": [
       "Increased surveillance and drone detection measures may raise privacy concerns, particularly regarding the collection of personal identifying information tied to drone operators.",
@@ -35,7 +37,7 @@
       "Technical and regulatory challenges could delay the establishment of effective geofencing and drone flight restrictions, limiting timely protection of sensitive sites.",
       "Reliance on evolving technology and legal frameworks risks gaps in airspace security if laws and regulations fail to keep pace with emerging unmanned aircraft system threats."
     ],
-    "enriched_at": "2025-12-06T06:53:40.652Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:45:37.646Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

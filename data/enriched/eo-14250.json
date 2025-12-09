@@ -22,14 +22,11 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies",
-        "doj",
         "law-firm-employees"
       ],
       "negative_ids": [
-        "law-firm-employees",
-        "undocumented-immigrants"
+        "federal-contractors",
+        "foreign-suppliers"
       ]
     },
     "potential_concerns": [
@@ -39,7 +36,7 @@
       "The order risks politicizing the granting and revocation of security clearances and law firm interactions with the government.",
       "Ambiguities around what constitutes prohibited conduct and relationships could create enforcement and compliance difficulties."
     ],
-    "enriched_at": "2025-12-06T06:59:08.028Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:42:49.544Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -23,20 +23,12 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "doj",
-        "federal-employees"
+        "minors-with-gender-dysphoria",
+        "parents-supporting-gender-affirming-care"
       ],
       "negative_ids": [
-        "medical-patients",
-        "children-in-foster-care",
-        "american-youth",
-        "parents-of-public-school-students",
-        "transgender-athletes",
-        "legal-immigrants",
-        "minors-with-gender-dysphoria",
         "healthcare-providers-pediatric-transgender-care",
-        "parents-supporting-gender-affirming-care"
+        "federal-grantees"
       ]
     },
     "potential_concerns": [
@@ -46,7 +38,7 @@
       "Excluding coverage from federal insurance programs like TRICARE and FEHB may impose financial burdens on affected families and minors.",
       "The order’s negative language about gender-affirming care and associated groups risks increased stigma and discrimination against transgender youth."
     ],
-    "enriched_at": "2025-12-06T07:05:29.532Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:39:56.436Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

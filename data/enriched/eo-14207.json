@@ -21,8 +21,7 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "federal-agencies"
+        "federal-employees"
       ],
       "negative_ids": [
         "displaced-federal-workers"
@@ -35,7 +34,7 @@
       "Implementation timelines and legal compliance for eliminating the institute could face administrative delays or resistance.",
       "Critics may argue that the order undermines efforts to improve government leadership and citizen service by targeting a long-standing training institution."
     ],
-    "enriched_at": "2025-12-06T07:03:25.680Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:40:49.000Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

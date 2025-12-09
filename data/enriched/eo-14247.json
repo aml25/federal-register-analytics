@@ -21,15 +21,10 @@
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "federal-employees",
-        "government-service-users",
-        "financial-institutions",
+        "tech-industry",
         "bank-customers"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
-        "low-income-patients",
         "unbanked-and-underbanked-populations"
       ]
     },
@@ -40,7 +35,7 @@
       "Limited exceptions may be inconsistently applied, creating confusion or delays for legitimate recipients who cannot use electronic payment methods.",
       "Small businesses and recipients unfamiliar with digital payment technologies may experience complications or delays in receiving payments during transition."
     ],
-    "enriched_at": "2025-12-06T06:59:27.286Z",
-    "model_used": "gpt-4.1-mini"
+    "enriched_at": "2025-12-09T02:42:40.835Z",
+    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
   }
 }

@@ -1,0 +1,43 @@
+{
+  "document_number": "2021-03424",
+  "executive_order_number": "14015",
+  "title": "Establishment of the White House Office of Faith- Based and Neighborhood Partnerships",
+  "abstract": null,
+  "signing_date": "2021-02-14",
+  "publication_date": "2021-02-18",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/02/18/2021-03424/establishment-of-the-white-house-office-of-faith--based-and-neighborhood-partnerships",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-02-18/pdf/2021-03424.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/02/18/2021-03424.txt",
+  "enrichment": {
+    "summary": "This executive order creates a new White House office focused on partnering with faith-based and neighborhood organizations to better serve low-income and underserved communities across the country and abroad. It aims to improve coordination and support for these community-serving groups while ensuring constitutional protections related to religion are upheld.",
+    "theme_ids": [
+      "equity-and-inclusion-policy",
+      "religious-liberty",
+      "community-development",
+      "foreign-policy",
+      "federal-agency-management"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "faith-based-organizations",
+        "underserved-communities"
+      ],
+      "negative_ids": [
+        "secular-public-institutions"
+      ]
+    },
+    "potential_concerns": [
+      "Balancing respect for religious freedom with strict adherence to constitutional prohibitions against government establishment of religion could create legal challenges.",
+      "The initiative might face implementation difficulties in coordinating across diverse federal agencies and ensuring consistent cooperation.",
+      "Faith-based organizations receiving federal support may raise concerns about favoritism or uneven access compared to secular groups.",
+      "Measuring the effectiveness and impact of the new office’s partnerships could be challenging due to diverse missions and scopes of community organizations.",
+      "Critics may worry that the order places too much influence on faith-based groups in public programs without sufficient oversight."
+    ],
+    "enriched_at": "2025-12-09T03:56:34.481Z",
+    "model_used": "gpt-4.1-mini + gpt-4o"
+  }
+}
