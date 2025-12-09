@@ -348,6 +348,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "veterans-affairs-policy",
+      "theme_name": "Veterans Affairs Policy",
+      "order_count": 14,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 11
+        },
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 3
+        }
+      ],
+      "summary": "The Veterans Affairs Policy theme encompasses 14 executive orders, with Joseph R. Biden Jr. issuing 11 and Donald Trump 3. These orders address diverse issues including veteran care (EO 13982, EO 14296), COVID-19 treatment access (EO 13997), federal workforce diversity (EO 14035), pay adjustments (EO 14061, EO 14090, EO 14113), and support for military families and caregivers (EO 14100, EO 14095). Key focuses include improving healthcare access, expanding equity and inclusion in federal service, and enhancing support systems for veterans, military-connected families, and caregivers. Titles reflect efforts to rebuild trust in government service delivery and promote arts and humanities within the veteran community.",
+      "potential_impact": "These executive orders aim to positively impact federal employees, military veterans, underserved communities, medical patients, care workforce, and military-connected families by expanding healthcare access, improving workplace inclusion, and advancing economic security. However, concerns arise regarding potential negative impacts on federal budget stakeholders and private sector employers due to increased appropriations or regulatory changes. Additional populations potentially negatively affected include non-military spouse job seekers, undocumented immigrants, and entities involved in illegal firearms manufacturing. Implementation challenges include scientific rigor of health studies, interagency coordination, administrative burdens, and equitable inclusion of historically underrepresented groups.",
+      "generated_at": "2025-12-09T23:00:01.706Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "financial-regulation",
       "theme_name": "Financial Regulation",
       "order_count": 13,
@@ -1143,22 +1164,6 @@
       "model_used": "gpt-4.1-mini"
     },
     {
-      "theme_id": "veterans-affairs-policy",
-      "theme_name": "Veterans Affairs Policy",
-      "order_count": 2,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 2
-        }
-      ],
-      "summary": "The Veterans Affairs Policy theme encompasses 2 executive orders both signed by President Donald Trump. These orders, titled \"EO 14244: Addressing Remedial Action by Paul Weiss\" and \"EO 14296: Keeping Promises to Veterans and Establishing a National Center for Warrior Independence,\" focus on reforming legal oversight and enhancing support services for military veterans. Key initiatives include redirecting funds towards veteran programs, establishing centers for veteran independence, and modifying hiring practices within relevant agencies. The theme highlights a shift toward merit-based hiring and voluntary industry commitments, reflecting a complex approach to veterans' welfare and organizational accountability.",
-      "potential_impact": "These executive orders aimed to positively impact military veterans by improving services, housing, and healthcare access, as well as law firm and federal employees through changes in oversight and employment policies. However, concerns include potential negative impacts from reduced regulatory scrutiny of law firms, possible undermining of diversity and equity efforts, and challenges in enforcing voluntary commitments. Funding reallocations and ambitious housing goals may provoke legal disputes, interagency conflicts, and operational difficulties, potentially limiting the orders' effectiveness in addressing veterans' needs.",
-      "generated_at": "2025-12-08T18:05:56.428Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
       "theme_id": "privacy-and-data-security",
       "theme_name": "Privacy And Data Security",
       "order_count": 2,
@@ -1393,5 +1398,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2025-12-09T04:05:05.838Z"
+  "generated_at": "2025-12-09T23:00:01.707Z"
 }
