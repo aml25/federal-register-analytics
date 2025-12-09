@@ -8,9 +8,9 @@ import { dirname, join } from 'node:path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-// Data directory is at the root of the project
-// __dirname is dist/ at runtime, so go up one level
-export const DATA_DIR = join(__dirname, '..', 'data');
+// Data directory is in what-got-signed/ for deployment simplicity
+// __dirname is dist/ at runtime, so go up one level then into what-got-signed
+export const DATA_DIR = join(__dirname, '..', 'what-got-signed', 'data');
 export const RAW_DIR = join(DATA_DIR, 'raw');
 export const ENRICHED_DIR = join(DATA_DIR, 'enriched');
 export const AGGREGATED_DIR = join(DATA_DIR, 'aggregated');

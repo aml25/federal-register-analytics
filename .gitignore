@@ -26,5 +26,5 @@ Thumbs.db
 npm-debug.log*
 
 # Data files (generated)
-data/raw/
-data/aggregated/
+what-got-signed/data/raw/
+what-got-signed/data/aggregated/

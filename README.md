@@ -305,35 +305,49 @@ federal-register-analytics/
 │       ├── aggregate.ts
 │       ├── narratives.ts
 │       └── pipeline.ts
-├── what-got-signed/    # Web frontend
+├── what-got-signed/    # Web frontend (deployable standalone)
 │   ├── server.js       # Express server
 │   ├── views/          # EJS templates
 │   │   ├── partials/   # Reusable header, footer, head
 │   │   ├── index.ejs
 │   │   ├── detail.ejs
 │   │   └── definitions.ejs
-│   └── public/         # Static CSS, JS, images
-├── data/
-│   ├── themes.json     # Theme registry (committed)
-│   ├── populations.json # Population registry (committed)
-│   ├── enriched/       # Enriched data (committed)
-│   ├── raw/            # Raw API data (gitignored)
-│   └── aggregated/     # Aggregated data (gitignored)
+│   ├── public/         # Static CSS, JS, images
+│   └── data/           # All data files (pipeline output)
+│       ├── themes.json     # Theme registry (committed)
+│       ├── populations.json # Population registry (committed)
+│       ├── enriched/       # Enriched data (committed)
+│       ├── raw/            # Raw API data (gitignored)
+│       └── aggregated/     # Aggregated data (gitignored)
 └── dist/               # Compiled JavaScript (gitignored)
 ```
 
 ## Data Files
 
-- `data/enriched/` - Enriched executive order data (committed to repo)
-- `data/themes.json` - Theme registry (committed to repo)
-- `data/populations.json` - Population registry (committed to repo)
-- `data/raw/` - Raw API data (gitignored)
-- `data/aggregated/` - Aggregated data (gitignored)
+All data files are stored in `what-got-signed/data/` for deployment simplicity:
+
+- `what-got-signed/data/enriched/` - Enriched executive order data (committed to repo)
+- `what-got-signed/data/themes.json` - Theme registry (committed to repo)
+- `what-got-signed/data/populations.json` - Population registry (committed to repo)
+- `what-got-signed/data/raw/` - Raw API data (gitignored)
+- `what-got-signed/data/aggregated/` - Aggregated data (gitignored)
 
 To generate the raw and aggregated data locally:
 1. `npm run fetch -- --from 2017 --to 2025`
 2. `npm run aggregate`
 3. `npm run generate-narratives` (optional)
+
+## Deployment
+
+The `what-got-signed/` folder is self-contained and can be deployed standalone:
+
+```bash
+cd what-got-signed
+npm install
+node server.js
+```
+
+On platforms like Railway or Render, set the root directory to `what-got-signed/`.
 
 ## License
 
