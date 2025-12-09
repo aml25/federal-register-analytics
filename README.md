@@ -47,13 +47,15 @@ Then edit `.env` with your API key from https://platform.openai.com/api-keys
 
 ### Overview diagram
 
+```mermaid
 flowchart LR
-    A[Fetch executive orders\nfrom Federal Register API] --> B[Enrich data:\nsummaries, themes,\nimpacted populations,\npotential concerns]
-    B --> C[Aggregate data for\npresidential term and\nmonthly timelines]
-    C --> D[Generate narratives\nfor detailed\nEO reviews]
+    A[Fetch executive orders from Federal Register API] --> B[Enrich data: summaries, themes,impacted populations, potential concerns]
+    B --> C[Aggregate data for presidential term and monthly timelines]
+    C --> D[Generate narratives for detailed EO reviews]
     
-    B --- E[Pass 1 - gpt 4.1 mini:\nSummaries, themes, concerns]
-    E --- F[Pass 2 - gpt 4o:\nImpacted populations]
+    B --- E[Pass 1 - gpt 4.1 mini for: summaries, themes, concerns]
+    E --- F[Pass 2 - gpt 4o for: mpacted populations]
+```
 
 ### 1. Fetch Executive Orders
 
