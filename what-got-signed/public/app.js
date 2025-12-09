@@ -21,7 +21,7 @@ async function loadTermSummaries() {
       return `
         <div class="term-summary">
           <p>${term.president_name} signed ${term.order_count} executive order${term.order_count !== 1 ? 's' : ''} from ${term.term_start} until ${termEnd}. The top themes ${themeVerb}: ${themeLinks}.</p>
-          <a href="/detail?type=term&president=${term.president_id}&start=${term.term_start}" class="arrow-link"><span class="arrow-icon">&rarr;</span></a>
+          <a href="/detail?type=term&president=${term.president_id}&start=${term.term_start}" class="arrow-link"><i class="fa-solid fa-arrow-right arrow-icon"></i></a>
         </div>
       `;
     }).join('');
@@ -62,7 +62,7 @@ async function loadTimeline() {
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <p>${summary}</p>
-            <a href="/detail?type=month&year=${period.year}&month=${period.month}" class="arrow-link"><span class="arrow-icon">&rarr;</span></a>
+            <a href="/detail?type=month&year=${period.year}&month=${period.month}" class="arrow-link"><i class="fa-solid fa-arrow-right arrow-icon"></i></a>
           </div>
         </div>
       `;
