@@ -1,0 +1,1397 @@
+{
+  "narratives": [
+    {
+      "theme_id": "national-security",
+      "theme_name": "National Security",
+      "order_count": 138,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 121
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 17
+        }
+      ],
+      "summary": "The National Security theme encompasses 138 executive orders primarily focused on safeguarding U.S. interests through sanctions, border security, cybersecurity, and emergency preparedness. Donald Trump signed 121 orders emphasizing border protection, designation of terrorist organizations, and energy independence, exemplified by EO 14165 (Securing Our Borders) and EO 14156 (Declaring a National Energy Emergency). Joseph R. Biden Jr. issued 17 orders addressing cyber threats, supply chain resilience, and regional stability, such as EO 14117 (Preventing Access to Sensitive Data) and EO 14115 (Sanctions on Persons Undermining West Bank Stability). Key orders involve cybersecurity infrastructure, data protection, and counterterrorism, reflecting a mix of defensive and strategic national security priorities.",
+      "potential_impact": "These orders aim to positively impact federal employees, agencies, manufacturing workers, and domestic energy producers by enhancing security protocols and operational readiness. Conversely, they aim to negatively impact undocumented immigrants, private sector rivals, and foreign actors like China through restrictive measures and sanctions. Concerns include potential overreach, diplomatic tensions, unintended harm to civilian populations, increased regulatory burdens, and privacy issues related to data protection. Enforcement complexities and interagency coordination pose implementation challenges, while balancing national security with economic and humanitarian considerations remains critical.",
+      "generated_at": "2025-12-08T18:02:52.047Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "federal-agency-management",
+      "theme_name": "Federal Agency Management",
+      "order_count": 92,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 77
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 15
+        }
+      ],
+      "summary": "The Federal Agency Management theme encompasses 92 executive orders primarily focused on optimizing federal workforce structure, agency succession planning, regulatory reform, and strategic leadership in areas such as artificial intelligence and public health preparedness. Donald Trump signed 77 orders, emphasizing government efficiency, merit-based hiring, energy independence, and policy realignment, including orders like EO 14147 and EO 14158. Joseph R. Biden Jr. issued 15 orders targeting succession planning across agencies, COVID-19 response, supply chain resilience, and AI infrastructure leadership, illustrated by EO 14122 and EO 14141. Key titles also include directives addressing government accountability, diversity, and historical recognition within federal management.",
+      "potential_impact": "The executive orders aim to positively impact federal employees (77 orders) and agencies (65 orders) by improving organizational efficiency and policy coherence, with additional intended benefits for tech industries, small businesses, and local governments. Conversely, 16 orders aim to negatively impact undocumented immigrants, while 11 orders target displaced federal workers, raising concerns about job security. Environmental advocates and green energy sectors are affected by 9 and 3 orders respectively, reflecting tensions in energy and regulatory policies. Concerns include increased administrative burdens, potential resource diversion, bureaucratic delays, and contested cultural representations, highlighting challenges in balancing efficiency with equity and stakeholder interests.",
+      "generated_at": "2025-12-08T18:02:56.724Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "foreign-policy",
+      "theme_name": "Foreign Policy",
+      "order_count": 72,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 66
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 6
+        }
+      ],
+      "summary": "The Foreign Policy theme encompasses 72 executive orders primarily focused on national security, sanctions, border control, and international relations, with 66 signed by Donald Trump and 6 by Joseph R. Biden Jr. Key orders include Trump’s America First Policy Directive, designation of foreign terrorist organizations, withdrawal from the World Health Organization, and Biden’s sanctions related to the West Bank and data protection from countries of concern. The theme addresses issues like supply chain resilience, energy emergencies, and international environmental agreements, highlighting divergent presidential approaches to multilateralism and unilateralism.",
+      "potential_impact": "These orders aim to positively impact federal employees (46 orders), agencies (40 orders), and sectors like tech (10) and manufacturing (9), enhancing national security and economic interests. Conversely, they aim to negatively impact undocumented immigrants (19 orders), private sector rivals (18), China (16), and environmental advocates (8), raising concerns over potential harm to innocent civilians, diplomatic tensions, enforcement complexity, and economic disruptions. Issues include risks of wrongful designation, unintended humanitarian consequences, and challenges balancing security with privacy, economic, and international cooperation priorities.",
+      "generated_at": "2025-12-08T18:03:00.956Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "regulatory-reform",
+      "theme_name": "Regulatory Reform",
+      "order_count": 69,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 69
+        }
+      ],
+      "summary": "The Regulatory Reform theme comprises 69 executive orders exclusively signed by President Donald Trump, focusing on deregulation, federal workforce optimization, and energy sector expansion. Key orders include EO 14148 and EO 14236 on rescissions of previous executive actions, EO 14154 and EO 14213 promoting American energy dominance, and EO 14179 advancing digital financial technology and AI leadership. The theme covers dismantling diversity, equity, and inclusion (DEI) programs, streamlining federal hiring, and accelerating resource production. Efforts emphasize reducing bureaucracy, enhancing economic competitiveness, and reshaping federal governance structures through numerous directives targeting various regulatory frameworks and federal policies.",
+      "potential_impact": "These orders aim to positively impact federal employees (49 orders), federal agencies (42), domestic energy producers (17), and sectors like tech and manufacturing by reducing regulatory burdens. Conversely, they aim to negatively impact environmental advocates (21 orders), green energy industries (8), undocumented immigrants (10), and populations affected by race and equity policy restrictions (5). Concerns include potential setbacks in environmental protections, civil rights, and DEI initiatives, risking adverse effects on minority groups, diverse students, and wildlife habitats. The rollback of climate and equity programs raises issues of legal uncertainty, cultural harm to indigenous communities, and challenges in maintaining workforce diversity and public health preparedness.",
+      "generated_at": "2025-12-08T18:03:05.954Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "trade-policy",
+      "theme_name": "Trade Policy",
+      "order_count": 67,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 64
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        }
+      ],
+      "summary": "The Trade Policy theme encompasses 67 executive orders primarily focused on tariffs, sanctions, supply chain resilience, and domestic economic prioritization, with Donald Trump issuing 64 orders and Joseph R. Biden Jr. 3. Key orders include Trump’s measures imposing duties targeting illicit drug flows and Chinese imports, and Biden’s establishment of the White House Council on Supply Chain Resilience. The theme covers efforts to bolster domestic manufacturing, energy, critical minerals, and AI infrastructure, while addressing international trade challenges and security threats. Orders also emphasize sanction regimes and investment accelerators to reshape U.S. trade posture and competitiveness.",
+      "potential_impact": "These orders aim to positively impact federal employees and agencies (35 and 33 orders respectively), manufacturing workers (19), domestic energy producers (15), and American businesses by promoting domestic production and security. Conversely, they aim to negatively impact private sector rivals (27 orders), undocumented immigrants (19), China (15), and international shippers (10), reflecting a protectionist stance. Key concerns include increased regulatory burdens, potential trade disruptions, environmental risks from expedited permitting, market consolidation in tech, enforcement complexities, and diplomatic tensions arising from expanded sanctions and aggressive trade restrictions.",
+      "generated_at": "2025-12-08T18:03:09.969Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "federal-workforce",
+      "theme_name": "Federal Workforce",
+      "order_count": 45,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 36
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 9
+        }
+      ],
+      "summary": "The Federal Workforce theme comprises 45 executive orders, with Donald Trump issuing 36 and Joseph R. Biden Jr. 9. These orders focus on federal employee pay adjustments, succession planning, labor-management relations, workforce restructuring, and federal agency operations. Key titles include Biden's EO 14119 on expanding registered apprenticeships and Trump's EO 14170 on reforming federal hiring processes. Trump's orders often emphasize workforce reduction, merit restoration, and government efficiency, while Biden's focus on apprenticeship expansion and operational closures. The theme covers federal employees, agencies, veterans, and contractors, addressing pay, hiring, and organizational management across the federal workforce.",
+      "potential_impact": "These orders aim to positively impact federal employees (43 orders), agencies (24), veterans (5), and select sectors like academic institutions and manufacturing workers. Conversely, they may negatively impact displaced federal workers, minority service members, and law firm employees due to workforce reductions and policy shifts. Concerns include increased compliance burdens from apprenticeship mandates, potential disadvantaging of non-traditional workers, increased federal payroll costs from paid leave on closure days, and risks to essential service continuity. Implementation variability and administrative complexities could affect employee morale, recruitment flexibility, and federal budget stakeholders.",
+      "generated_at": "2025-12-08T18:03:14.261Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "public-safety",
+      "theme_name": "Public Safety",
+      "order_count": 36,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 36
+        }
+      ],
+      "summary": "The Public Safety theme encompasses 36 executive orders exclusively signed by President Donald Trump, focusing on border security, law enforcement enhancement, immigration control, and national security. Key orders include \"Securing Our Borders\" (EO 14165), \"Protecting the United States From Foreign Terrorists\" (EO 14161), and \"Restoring the Death Penalty and Protecting Public Safety\" (EO 14164). The orders also address drug interdiction, election integrity, and disaster response. Trump's approach centers on strengthening enforcement mechanisms, realigning refugee admissions, and revoking prior policies deemed harmful, with an emphasis on operational efficiency and conservative social issues.",
+      "potential_impact": "These orders aimed to positively impact federal employees (27 orders), federal agencies (21), law enforcement (8), and justice departments by enhancing security and operational control. Conversely, they aimed to negatively impact undocumented immigrants (19 orders), legal immigrants (5), refugees (4), and communities affected by policing (4), raising concerns about due process, civil liberties, and humanitarian protections. Additional concerns include potential disproportionate effects on minority populations, disruption of immigration legal frameworks, increased federal-state tensions, and environmental advocates’ apprehensions due to rescinded climate-related measures. The broad enforcement directives risk inconsistent implementation and targeting of diverse groups under vague standards.",
+      "generated_at": "2025-12-08T18:03:18.457Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "technology-development",
+      "theme_name": "Technology Development",
+      "order_count": 32,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 30
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "The Technology Development theme encompasses 32 executive orders primarily signed by Donald Trump (30 orders) with a smaller contribution from Joseph R. Biden Jr. (2 orders). These orders address advancements in artificial intelligence, cybersecurity, digital financial technology, nuclear reactor innovation, space industry competition, and government efficiency. Key orders include EO 14141 (Biden's AI leadership), EO 14144 (Biden's cybersecurity innovation), EO 14179 (Trump's AI leadership removal barriers), EO 14233 (Trump's Strategic Bitcoin Reserve), and EO 14355 (Trump's AI for pediatric cancer). The Trump administration focused on deregulation, energy dominance, and military technological superiority, while Biden emphasized infrastructure and cybersecurity modernization.",
+      "potential_impact": "These executive orders aim to positively impact federal employees and agencies (26 and 21 orders respectively), the tech industry (18 orders), academic and scientific communities (9 orders each), and sectors like domestic energy producers and manufacturing workers. Conversely, they aim to negatively impact environmental advocates (10 orders), private sector rivals (7 orders), the green energy industry (5 orders), and certain marginalized groups including undocumented immigrants and Indigenous communities. Key concerns include environmental risks from expedited permitting, market consolidation favoring major tech firms, increased compliance costs for smaller vendors, privacy and civil liberties issues from expanded government data access, and potential geopolitical tensions with adversaries such as China.",
+      "generated_at": "2025-12-08T18:03:27.529Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "immigration-enforcement",
+      "theme_name": "Immigration Enforcement",
+      "order_count": 32,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 31
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "The Immigration Enforcement theme encompasses 32 executive orders primarily signed by Donald Trump (31 orders) with a single order from Joseph R. Biden Jr. Key orders include EO 14159 'Protecting the American People Against Invasion,' EO 14165 'Securing Our Borders,' and EO 14163 'Realigning the United States Refugee Admissions Program.' These orders focus on border security, designation of criminal organizations as terrorist entities, and restructuring refugee admissions. Trump's approach emphasizes stringent enforcement and sanctions, whereas Biden's order involves targeted sanctions related to international security. The theme reflects a comprehensive federal effort to regulate immigration and national security through interagency coordination and legal designations.",
+      "potential_impact": "These orders aim to positively impact federal employees (22 orders), federal agencies (16), and law enforcement entities at state and local levels (11 combined), enhancing operational capacity and national security. Conversely, they are aimed to negatively impact undocumented immigrants (27 orders), legal immigrants (6), refugees (4), and certain foreign nationals, raising concerns about due process, potential humanitarian issues, and diplomatic tensions, notably with Mexico. Critics highlight risks of overreach, adverse effects on immigrant communities, and possible escalation of violence or retaliation by designated organizations, alongside challenges in interagency implementation and safeguarding minority rights.",
+      "generated_at": "2025-12-08T18:03:22.867Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "energy-policy",
+      "theme_name": "Energy Policy",
+      "order_count": 24,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 23
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "The Energy Policy theme encompasses 24 executive orders, predominantly signed by Donald Trump (23 orders) with a single order by Joseph R. Biden Jr. Key titles include Trump's EO 14154 'Unleashing American Energy,' EO 14213 'Establishing the National Energy Dominance Council,' and EO 14262 'Strengthening the Reliability and Security of the United States Electric Grid,' emphasizing fossil fuel development, deregulation, and mineral production. Biden's EO 14141 on AI infrastructure represents a distinct focus. The orders collectively prioritize domestic energy production, mineral extraction, and deregulation, often rescinding prior environmental protections and advancing national security through energy dominance and regulatory reform.",
+      "potential_impact": "The executive orders aim to positively impact domestic energy producers (23 orders), federal employees (16), federal agencies (13), and sectors such as manufacturing, critical minerals, and technology. Conversely, they are aimed to negatively impact environmental advocates (13 orders), the green energy industry (11), undocumented immigrants (7), and indigenous communities (2). Concerns include environmental degradation from expedited permitting, adverse effects on wildlife and habitats, undermining of climate commitments, and challenges to indigenous rights. The rollback of clean energy subsidies and regulations may slow renewable energy adoption and provoke opposition from environmental groups and local stakeholders.",
+      "generated_at": "2025-12-08T18:03:32.065Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "education-policy",
+      "theme_name": "Education Policy",
+      "order_count": 22,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 19
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        }
+      ],
+      "summary": "The Education Policy theme encompasses 22 executive orders, predominantly signed by Donald Trump (19) with 3 by Joseph R. Biden Jr. These orders cover initiatives such as advancing educational equity through Hispanic-Serving Institutions, expanding educational freedom, combating indoctrination in K-12, and promoting innovation at historically Black colleges and universities. Key orders include Biden’s EO 14124 on educational equity and Trump’s EO 14191 on educational freedom. The theme addresses federal employee training, academic institution support, and school safety protocols, reflecting contrasting presidential priorities from equity and inclusion to educational freedom and discipline reform.",
+      "potential_impact": "These orders aim to positively impact federal employees, academic institutions, education administrators, and students in federally funded schools, with specific focus on Hispanic-Serving Institutions and historically Black colleges. Conversely, several orders potentially negatively impact diverse student populations, undocumented immigrants, transgender athletes, and minority service members, often through ideological restrictions and equity policy limitations. Concerns include the potential for resource reallocation disadvantaging non-targeted institutions, increased administrative burdens, legal complexities from broad equity definitions, and risks of ineffective school safety measures, raising issues about equity, access, and civil liberties.",
+      "generated_at": "2025-12-08T18:03:37.147Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "supply-chain-security",
+      "theme_name": "Supply Chain Security",
+      "order_count": 19,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 16
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        }
+      ],
+      "summary": "The Supply Chain Security theme encompasses 19 executive orders, predominantly signed by Donald Trump (16) with 3 by Joseph R. Biden Jr. These orders focus on enhancing national resilience through initiatives such as the White House Council on Supply Chain Resilience (EO 14123), advancing AI infrastructure (EO 14141), and energy emergency declarations (EO 14156). Key directives involve regulating imports (e.g., copper, timber), increasing domestic mineral production, and addressing illicit drug supply chains. The Trump administration emphasized tariffs, import duties, and energy dominance, while Biden’s orders prioritize innovation, cybersecurity, and supply chain coordination.",
+      "potential_impact": "These orders aim to positively impact federal agencies and employees, manufacturing workers, domestic energy producers, and the critical minerals industry by promoting domestic production and security. Small business owners, academic institutions, and regional stability actors are also targeted for benefits. Conversely, private sector rivals, foreign processors, and specific foreign entities including China are aimed to be negatively impacted through tariffs and restrictions. Concerns include increased regulatory burdens, potential environmental harm from expedited permits, heightened compliance costs, geopolitical tensions, and challenges balancing security with market openness and privacy protections.",
+      "generated_at": "2025-12-08T18:03:47.903Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "federal-procurement-policy",
+      "theme_name": "Federal Procurement Policy",
+      "order_count": 19,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 15
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 4
+        }
+      ],
+      "summary": "The Federal Procurement Policy theme encompasses 19 executive orders primarily signed by Donald Trump (15 orders) and Joseph R. Biden Jr. (4 orders). These orders focus on enhancing federal procurement efficiency, promoting domestic manufacturing, addressing risks from specific law firms, scaling registered apprenticeships, improving supply chain resilience, and reforming defense acquisitions. Key orders include Biden’s EO 14119 on registered apprenticeships and Trump’s EO 14240 on consolidating procurement. The theme covers labor standards, anti-competitive barriers, supply chain security, and innovation in defense procurement, reflecting divergent presidential priorities on workforce inclusion and regulatory reform.",
+      "potential_impact": "These orders aim to positively impact federal employees (18 orders), federal agencies (10), American workers (3), underserved communities (3), and academic institutions (3), by promoting apprenticeships, labor-management forums, and supply chain resilience. Conversely, they aim to negatively impact private sector rivals (7 orders), law firm employees (5), non-union workers (3), undocumented immigrants (3), and certain foreign entities (1). Concerns include increased compliance costs for contractors, potential disadvantages for non-union and small businesses, administrative burdens on agencies, and challenges balancing security with competitive markets. The emphasis on union labor and apprenticeship programs may also restrict hiring flexibility and raise project costs.",
+      "generated_at": "2025-12-08T18:03:42.776Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "artificial-intelligence",
+      "theme_name": "Artificial Intelligence",
+      "order_count": 17,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 14
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        }
+      ],
+      "summary": "The Artificial Intelligence theme encompasses 17 executive orders, predominantly signed by Donald Trump (14 orders) with 3 by Joseph R. Biden Jr. These orders address AI infrastructure leadership, innovation removal barriers, cybersecurity strengthening, AI education, and export promotion. Key titles include EO 14141 (Biden: Advancing US Leadership in AI Infrastructure), EO 14144 (Biden: Strengthening Cybersecurity Innovation), EO 14179 (Trump: Removing Barriers to AI Leadership), and EO 14319 (Trump: Preventing Woke AI). The theme covers federal agency coordination, tech industry growth, skilled workforce development, cybersecurity, and AI export strategy, reflecting a focus on maintaining US dominance in AI technologies and infrastructure.",
+      "potential_impact": "The executive orders aim to positively impact the tech industry (12 orders), federal agencies (11), federal employees (10), academic institutions (9), and scientific researchers (6), fostering innovation and workforce preparedness. Manufacturing workers and small business owners are also targeted for positive effects. Conversely, private sector rivals face negative impacts in 5 orders, potentially limiting competition. Additional concerns include adverse effects on developers of ideologically inclusive AI, environmental advocates, and competing research areas. Privacy, civil liberties, environmental protections, and geopolitical tensions, particularly relating to China, are key issues raised by accelerated AI development and cybersecurity mandates.",
+      "generated_at": "2025-12-08T18:03:52.226Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "advisory-committees-management",
+      "theme_name": "Advisory Committees Management",
+      "order_count": 16,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 14
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "The Advisory Committees Management theme encompasses 16 executive orders predominantly signed by Donald Trump (14) with 2 by Joseph R. Biden Jr. These orders focus on establishing, reforming, or rescinding federal advisory committees and initiatives such as the President's Council of Advisors on Science and Technology, National Energy Dominance Council, and White House initiatives on educational equity. Key titles include EO 14121 on Women's History recognition (Biden) and EO 14148 on rescissions of prior orders (Trump). The orders address federal bureaucracy reduction, emergency management assessment, and educational institution support, reflecting divergent administrative priorities and approaches to advisory committee roles.",
+      "potential_impact": "These orders aim to positively impact federal employees (13 orders) and agencies (6), as well as specific sectors like domestic energy producers, scientific researchers, and academic institutions. Conversely, they may negatively impact environmental advocates, undocumented immigrants, diverse student populations, and green energy industries through rescinded protections and shifted priorities. Concerns include increased administrative costs, strained agency resources, potential inequities in educational funding, and reduced support for minority-serving institutions. The rollback of diversity, equity, and inclusion programs and climate-related policies may disproportionately affect vulnerable populations and hinder comprehensive policy implementation.",
+      "generated_at": "2025-12-08T18:03:56.406Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "public-lands-management",
+      "theme_name": "Public Lands Management",
+      "order_count": 15,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 14
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "The Public Lands Management theme encompasses 15 executive orders, predominantly signed by Donald Trump (14) with one by Joseph R. Biden Jr. These orders focus on energy development, resource extraction, national park improvements, and wildfire prevention, as reflected in titles like EO 14154 (Unleashing American Energy), EO 14241 (Immediate Measures To Increase American Mineral Production), and EO 14314 (Making America Beautiful Again by Improving Our National Parks). Trump's orders often prioritized accelerating resource exploitation and reducing regulatory barriers, while Biden's single order appears more symbolic. The theme covers federal land use, resource management, and infrastructure development across various ecosystems and agencies.",
+      "potential_impact": "These executive orders aimed to positively impact federal employees, federal agencies, domestic energy producers, and industries such as commercial fishing and critical minerals, promoting economic and operational benefits. Conversely, many orders targeted environmental advocates and undocumented immigrants negatively, with concerns about harm to wildlife habitats, indigenous and Alaskan Native communities, and the green energy sector. Key issues include potential environmental degradation, cultural resource impacts, strained agency resources, and conflicts with climate change objectives, raising concerns about sustainability, legal uncertainties, and the balance between development and conservation.",
+      "generated_at": "2025-12-08T18:04:04.494Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "federal-research-coordination",
+      "theme_name": "Federal Research Coordination",
+      "order_count": 15,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 14
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "The Federal Research Coordination theme encompasses 15 executive orders primarily signed by Donald Trump (14) with one from Joseph R. Biden Jr. These orders focus on advancing scientific research, technology innovation, and interagency collaboration, with key titles including the President's Council of Advisors on Science and Technology, advancing AI education, strengthening nuclear technologies, and women's health research. The initiatives cover diverse areas such as health innovation, cybersecurity, critical minerals, and pediatric cancer. Trump’s orders emphasize national security and technological dominance, while Biden’s singular order centers on women's health research and innovation, reflecting differing presidential priorities within federal research coordination.",
+      "potential_impact": "These executive orders aim to positively impact federal employees, scientific researchers, academic institutions, federal agencies, and the tech industry by enhancing research collaboration and innovation capacity. They also target domestic energy producers and American youth through specialized programs. Conversely, some orders may negatively impact private sector rivals, environmental advocates, and the green energy industry by prioritizing certain technologies and sectors. Concerns include potential bureaucratic delays, increased administrative burdens, competition for funding, politicization of science advisory roles, and privacy issues arising from data sharing, which could affect the equitable distribution of research benefits and stakeholder trust.",
+      "generated_at": "2025-12-08T18:04:00.333Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "financial-regulation",
+      "theme_name": "Financial Regulation",
+      "order_count": 13,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 11
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "The Financial Regulation theme encompasses 13 executive orders, predominantly signed by Donald Trump (11 orders) with 2 by Joseph R. Biden Jr. These orders address sanctions, digital financial technology, deregulation, sovereign wealth funds, and banking protections. Key titles include Biden's EO 14115 imposing sanctions in the West Bank and EO 14142 on Syria, alongside Trump's EO 14178 on digital financial leadership, EO 14192 for deregulation, and EO 14331 guaranteeing fair banking. The focus spans enhancing federal financial oversight, promoting digital asset management, and tightening sanctions regimes, reflecting contrasting presidential priorities between deregulation and targeted sanctions enforcement.",
+      "potential_impact": "These orders aim to positively impact federal agencies (8 orders), federal employees (7), bank customers (4), and small business owners (3), promoting operational efficiency, financial inclusion, and regional stability. Conversely, they aim to negatively impact terrorist organizations (3 orders), undocumented immigrants (2), environmental advocates (2), and sanctioned entities, raising concerns about the potential inadvertent harm to innocent civilians in conflict zones and economic actors. Key issues include risks of executive overreach, enforcement complexity, diplomatic tensions, regulatory uncertainty, and limitations on innovation in digital currencies, all affecting compliance, consumer protections, and international financial competitiveness.",
+      "generated_at": "2025-12-08T18:04:08.531Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "legal-profession-policy",
+      "theme_name": "Legal Profession Policy",
+      "order_count": 9,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 8
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "The Legal Profession Policy theme encompasses 9 executive orders, with Donald Trump issuing 8 and Joseph R. Biden Jr. 1. Key orders include Biden's EO 14136 on Department of Justice succession and Trump's series addressing alleged legal risks from law firms (EOs 14230, 14237, 14244), death penalty restoration (EO 14164), and limitations on federal engagement with social media (EO 14149). Other notable orders target gender ideology (EO 14168), anti-Semitism (EO 14188), and Second Amendment rights (EO 14206). The theme primarily covers DOJ administrative structure, legal ethics, capital punishment policy, freedom of speech in federal contexts, and ideological governance within federal legal institutions.",
+      "potential_impact": "These orders aim to positively impact federal employees, DOJ personnel, federal agencies, and various interest groups including women, Jewish Americans, and state/local law enforcement by restructuring legal governance and reinforcing specific policy stances. Conversely, they aim to negatively impact undocumented immigrants, legal immigrants, law firm employees, civil liberties groups, transgender individuals, and death row inmates by enhancing enforcement mechanisms, restricting gender identity recognition, and expanding capital punishment use. Concerns include potential politicization of DOJ succession, chilling effects on government-private platform cooperation, increased risks of wrongful convictions, and discrimination against marginalized populations.",
+      "generated_at": "2025-12-08T18:04:16.384Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "public-health-promotion",
+      "theme_name": "Public Health Promotion",
+      "order_count": 9,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 9
+        }
+      ],
+      "summary": "The Public Health Promotion theme encompasses 9 executive orders exclusively signed by President Donald Trump, addressing issues such as global health engagement, healthcare pricing transparency, drug pricing, youth fitness, and access to reproductive technologies. Key orders include withdrawing from the World Health Organization (EO 14155), establishing health commissions (EO 14212), ending COVID-19 vaccine mandates in schools (EO 14214), and lowering drug prices (EO 14273). These orders seek to reform U.S. public health policy by altering international collaborations, promoting patient empowerment, and reshaping federal healthcare mandates, reflecting a focus on sovereignty and deregulation in public health governance.",
+      "potential_impact": "The orders aim to positively impact federal employees, agencies, medical patients, American youth, and families by promoting healthcare transparency, fitness initiatives, and expanded reproductive access. Conversely, they target pharmaceutical manufacturers, private sector competitors, and certain vulnerable groups—including transgender athletes, legal immigrants, and children in foster care—with restrictive policies. Notable concerns include potential disruptions to global health cooperation, increased stigma and limited care access for transgender youth, legal challenges over civil rights, and possible financial burdens from reduced federal coverage. These tensions highlight conflicts between public health priorities and political or economic interests.",
+      "generated_at": "2025-12-08T18:04:20.331Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "federal-property-management",
+      "theme_name": "Federal Property Management",
+      "order_count": 9,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 9
+        }
+      ],
+      "summary": "The Federal Property Management theme encompasses 9 executive orders exclusively signed by President Donald Trump, focusing on improving federal office space management, national parks, and federal architecture, alongside initiatives targeting government efficiency and veteran services. Key orders include EO 14222 on government cost efficiency, EO 14274 on office space management, and EO 14314 on national park improvements. These orders emphasize streamlining federal property use, enhancing public spaces, and accelerating infrastructure permitting. The theme reflects a centralized effort to reform federal property policies through directives aimed at beautification, efficiency, and historical narrative control within federal sites and assets.",
+      "potential_impact": "The orders mainly aimed to positively impact federal employees (8 orders), federal agencies (4), government service users (3), national park visitors (3), and domestic tourists (3), enhancing workplace environments and public federal spaces. However, concerns include negative impacts on displaced federal workers, undocumented immigrants, homeless individuals, communities affected by police aggression, and environmental advocates. Issues raised involve potential over-policing, displacement without support, restrictions on free speech and academic freedom, and politicization of federal cultural sites, heightening civil rights and equity concerns among marginalized populations and broader public stakeholders.",
+      "generated_at": "2025-12-08T18:04:24.424Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "counterterrorism-policy",
+      "theme_name": "Counterterrorism Policy",
+      "order_count": 9,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 8
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "The Counterterrorism Policy theme encompasses 9 executive orders, primarily signed by Donald Trump (8 orders) with one by Joseph R. Biden Jr. Key orders include designations of organizations such as Ansar Allah and Muslim Brotherhood chapters as foreign terrorist entities, sanctions on persons undermining peace in the West Bank, and measures targeting transnational cartels and terrorist threats to U.S. security. These orders focus on imposing sanctions, designating terrorist organizations, and restricting funding or support to certain international bodies. The theme reflects a strong emphasis on national security, border protection, and regional stability through aggressive counterterrorism measures.",
+      "potential_impact": "The orders aim to positively impact federal employees, agencies, law enforcement, and regional stability actors by enhancing counterterrorism capabilities and security. However, they also aim to negatively impact terrorist organizations through sanctions and designations. Concerns include potential adverse effects on Muslim Americans, undocumented immigrants, refugees, and innocent civilians in designated regions due to broad and sometimes vague enforcement criteria. Additional risks involve strained diplomatic relations, legal challenges in designating cartels as terrorists, and possible civil liberties infringements, particularly regarding immigration and religious profiling.",
+      "generated_at": "2025-12-08T18:04:12.584Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "disaster-preparedness",
+      "theme_name": "Disaster Preparedness",
+      "order_count": 7,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 5
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "The Disaster Preparedness theme encompasses 7 executive orders, with 5 signed by Donald Trump and 2 by Joseph R. Biden Jr. These orders address federal emergency management reforms, public health responses, and community recovery initiatives. Key titles include Biden's EO 14122 on COVID-19 preparedness and EO 14145 on aiding left-behind communities, alongside Trump's EO 14180 establishing a FEMA assessment council and EO 14181 focusing on water resource emergency measures. The orders collectively emphasize governance efficiency, interagency coordination, and targeted support for disaster-affected areas, reflecting divergent priorities between administrations on public health and regulatory approaches.",
+      "potential_impact": "The executive orders aim to positively impact federal employees, agencies, citizens in affected communities, and state/local governments by enhancing disaster response capabilities and recovery efforts. Additional focus includes domestic energy producers, indigenous and rural communities, and small businesses. Conversely, several orders are designed to negatively impact undocumented immigrants and environmental advocates, with some also affecting displaced federal workers, average Americans, small business owners, and wildlife habitats. Concerns include potential leadership gaps, bureaucratic inefficiencies, politicization of agencies like FEMA, and possible neglect of certain vulnerable populations due to shifting priorities and funding allocations.",
+      "generated_at": "2025-12-08T18:04:38.203Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "consumer-protection",
+      "theme_name": "Consumer Protection",
+      "order_count": 7,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 6
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "The consumer protection theme encompasses 7 executive orders, with Donald Trump issuing 6 and Joseph R. Biden Jr. 1. These orders cover data privacy (EO 14117), energy policy (EO 14154), healthcare pricing transparency (EO 14221), financial fraud prevention (EO 14249), live entertainment market fairness (EO 14254), and protections against medical mutilation of minors (EO 14187). Key focuses include safeguarding sensitive personal data from foreign countries of concern, modernizing banking payments, and promoting transparency in healthcare costs. The orders collectively address federal employees, agencies, financial institutions, and average Americans, reflecting a broad approach to consumer protection ranging from data security to health and financial market fairness.",
+      "potential_impact": "Populations aimed to be positively impacted include federal employees, agencies, average Americans, financial institutions, and bank customers, enhancing data security, healthcare cost transparency, and financial fraud prevention. However, concerns arise regarding negative impacts on undocumented immigrants, data brokerage and service providers due to compliance costs, and foreign entities in countries of concern. Environmental advocates and green energy industries may be negatively affected by policy shifts favoring domestic energy producers. Additionally, medical patients and children in foster care may face adverse consequences from restrictive healthcare-related orders, with legal challenges anticipated over civil rights and medical privacy protections.",
+      "generated_at": "2025-12-08T18:04:29.943Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "scientific-research",
+      "theme_name": "Scientific Research",
+      "order_count": 7,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 6
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "The Scientific Research theme encompasses 7 executive orders primarily issued by Donald Trump (6 orders) with one by Joseph R. Biden Jr. These orders focus on advancing scientific innovation, improving oversight of federal grantmaking, enhancing biological research safety, and promoting women's health research. Key titles include EO 14120 advancing women's health, EO 14292 on biological research safety, and EO 14303 restoring gold standard science. The orders emphasize interagency coordination, innovation in artificial intelligence, and launching scientific missions, reflecting an approach balancing regulatory oversight and technological advancement while addressing specific demographics and research priorities.",
+      "potential_impact": "These orders aim to positively impact scientific researchers, academic institutions, federal employees, and federal agencies, with targeted efforts to benefit women of color, older women, and women with disabilities. However, concerns arise over increased administrative burdens, potential funding competition disadvantaging some research areas, and possible bureaucratic delays. Negative impacts are aimed at private sector rivals and competing research areas, with restrictions on foreign collaboration, particularly involving China, potentially hindering international cooperation. The emphasis on security and ideological neutrality may limit participation and politicize science advisory roles, while stricter controls on gain-of-function research could delay vital biological research advancements.",
+      "generated_at": "2025-12-08T18:04:33.714Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "equity-and-inclusion-policy",
+      "theme_name": "Equity And Inclusion Policy",
+      "order_count": 7,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 7
+        }
+      ],
+      "summary": "The Equity And Inclusion Policy theme encompasses 7 executive orders exclusively signed by President Joseph R. Biden Jr., focusing on advancing racial equity, environmental justice, economic security for military families, and access to high-quality care. Key orders include EO 14091 and EO 14096, emphasizing support for underserved communities, Tribal Nations, women, and Asian American and NHPI populations. Several orders target federal employees and agencies to embed equity principles institutionally, while others address regulatory modernization and advisory committee reforms. These orders collectively seek to institutionalize equity across federal operations, procurement, and service delivery.",
+      "potential_impact": "These executive orders aim to positively impact diverse populations including federal employees, underserved communities, Tribal Nations, women and girls, small business owners, rural communities, military veterans, and American workers. However, they may impose increased administrative burdens on federal agencies, regulated entities, and private sector employers, potentially causing resource strains and operational delays. Concerns include challenges in consistent implementation, possible reduced funding opportunities for non-tribal contractors, slowed technological development due to regulatory oversight, and risks of legal challenges or budgetary constraints, especially affecting non-union workers, non-tribal funding recipients, and local businesses.",
+      "generated_at": "2025-12-08T18:10:40.660Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "humanitarian-economic-support",
+      "theme_name": "Humanitarian Economic Support",
+      "order_count": 7,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 7
+        }
+      ],
+      "summary": "The Humanitarian Economic Support theme encompasses 7 executive orders, all signed by President Joseph R. Biden Jr., focusing on blocking property and imposing sanctions related to crises in Burma, the Western Balkans, Belarus, Russia, Ethiopia, Burundi, and Afghanistan. Key orders include EO 14014 (Burma), EO 14033 (Western Balkans), EO 14038 (Belarus), EO 14039 (Russian energy pipelines), EO 14046 (Ethiopia), EO 14054 (Burundi emergency termination), and EO 14064 (Afghanistan bank property protection). These orders primarily aim to restrict financial assets and entry of persons contributing to destabilizing situations, employing broad criteria to identify targets and manage humanitarian crises through economic measures.",
+      "potential_impact": "These orders aim to positively impact sanctioned persons and affiliates (3 orders), affected individuals in the Western Balkans, civilian populations in the West Bank, and populations in designated countries by limiting harmful actors' access to resources. Conversely, they also aim to negatively impact sanctioned persons (2 orders), civilian populations in designated countries, foreign manufacturers, suppliers, and financial institutions by restricting economic activities and access. Concerns include potential inadvertent impacts on innocent civilians and businesses, due process and transparency issues, enforcement challenges, diplomatic complications, and possible escalation of regional tensions.",
+      "generated_at": "2025-12-09T04:03:27.635Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "civil-rights-enforcement",
+      "theme_name": "Civil Rights Enforcement",
+      "order_count": 6,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 6
+        }
+      ],
+      "summary": "The Civil Rights Enforcement theme encompasses 6 executive orders, all signed by President Donald Trump, focusing on rescinding diversity, equity, and inclusion (DEI) initiatives and reinforcing merit-based policies. Key orders include EO 14148 (Initial Rescissions of Harmful Executive Orders and Actions), EO 14151 (Ending Radical and Wasteful Government DEI Programs), and EO 14168 (Defending Women From Gender Ideology Extremism). These orders target a wide range of federal entities, including employees, agencies, academic institutions, and contractors, aiming to eliminate previous DEI policies and related protections while emphasizing traditional civil rights enforcement and biological definitions in federal programs.",
+      "potential_impact": "These orders are aimed to positively impact federal employees, agencies, and certain business sectors by promoting merit-based opportunity and reducing DEI program expenditures. However, they are aimed to negatively impact diverse student populations, minority service members, transgender individuals (including athletes and minors), undocumented immigrants, and federal grantees by rescinding protections and guidance. Concerns include potential disproportionate disadvantages for minority and marginalized groups, legal uncertainties in civil rights compliance, challenges to transgender rights and healthcare access, and weakened environmental and public health protections. The orders may also cause operational disruptions for contractors reliant on DEI requirements and intensify social polarization on gender identity and inclusion.",
+      "generated_at": "2025-12-08T18:04:42.726Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "event-coordination",
+      "theme_name": "Event Coordination",
+      "order_count": 6,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 6
+        }
+      ],
+      "summary": "The Event Coordination theme encompasses six executive orders, all signed by President Donald Trump, focusing on organizing major national and international events including America's 250th birthday, the FIFA 2026 World Cup, and the 2028 Summer Olympics. Key orders also address educational content reforms and the reestablishment of fitness and patriotic councils. These orders involve coordination among multiple federal agencies, such as the Department of Defense and education administrators, highlighting efforts to centralize federal event planning and patriotic initiatives. Titles like EO 14189 and EO 14234 reflect a strong emphasis on large-scale event management and national celebrations under a unified federal strategy.",
+      "potential_impact": "The orders aim to positively impact federal employees, agencies, patriotic citizens, and education administrators by enhancing event coordination and patriotic programs. Conversely, they may negatively affect diverse student populations, transgender athletes, and students in federally funded schools due to ideological restrictions and prohibitions on gender-related content. Concerns include potential exclusionary historical narratives, challenges to academic freedom, bureaucratic delays, and resource allocation conflicts. These factors raise issues about inclusivity, representation, and the balance between nationalistic event planning and civil rights protections.",
+      "generated_at": "2025-12-08T18:04:46.280Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "lgbtq-rights-policy",
+      "theme_name": "Lgbtq+ Rights Policy",
+      "order_count": 6,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 6
+        }
+      ],
+      "summary": "The LGBTQ+ Rights Policy theme encompasses six executive orders exclusively signed by President Joseph R. Biden Jr., focusing on combating discrimination based on gender identity and sexual orientation. Key orders include EO 13988 on preventing discrimination, EO 14004 enabling military service by all qualified Americans, and EO 14021 ensuring discrimination-free educational environments. Other orders address diversity and inclusion in federal workforce (EO 14035), public safety for Native Americans (EO 14053), and advancing equality for LGBTQ+ individuals (EO 14075). These orders collectively emphasize nondiscrimination across federal employment, education, military service, and public safety sectors, representing a comprehensive federal approach to LGBTQ+ rights advancement.",
+      "potential_impact": "These orders aim to positively impact a broad spectrum of populations including students in federally funded schools, transgender athletes, women and girls, armed forces personnel, military veterans, diverse student populations, academic institutions, federal employees, and underserved communities. Potential negative impacts are identified for religious liberty opponents, non-federal employees, non-tribal federal funding recipients, and communities affected by police aggression. Key concerns include legal and procedural challenges in revising regulations, conflicts between anti-discrimination policies and religious liberty claims, resistance within military ranks, administrative burdens for schools, and possible political or public backlash, highlighting complexities in effective implementation and enforcement across agencies and sectors.",
+      "generated_at": "2025-12-09T04:03:31.677Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "healthcare-access",
+      "theme_name": "Healthcare Access",
+      "order_count": 6,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 6
+        }
+      ],
+      "summary": "The Healthcare Access theme encompasses 6 executive orders exclusively signed by President Joseph R. Biden Jr., focusing on expanding equitable healthcare access, strengthening Medicaid and the Affordable Care Act, combating discrimination based on gender identity or sexual orientation, and improving COVID-19 response infrastructure. Key orders include EO 13988 on anti-discrimination protections, EO 13995 on equitable pandemic response, and EO 14009 on Medicaid strengthening, reflecting an integrated approach to health equity, pandemic preparedness, and inclusivity. These orders collectively target systemic barriers, public health workforce sustainability, and care affordability, highlighting a comprehensive federal healthcare agenda under Biden's administration.",
+      "potential_impact": "The executive orders aim to positively impact medical patients, underserved communities, low-income patients, seniors, and marginalized groups such as transgender athletes and persons with disabilities by enhancing access and nondiscrimination protections. Conversely, private health insurers and certain religious liberty opponents face targeted restrictions or challenges, potentially limiting their operational scope. Concerns include legal and procedural hurdles in implementing broad anti-discrimination mandates, conflicts between religious liberty and inclusion policies, enforcement inconsistencies, privacy issues in data collection, and sustainability of public health workforce initiatives, all of which could affect the effective realization of intended equitable healthcare improvements.",
+      "generated_at": "2025-12-09T04:03:35.038Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "environmental-regulation",
+      "theme_name": "Environmental Regulation",
+      "order_count": 5,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 4
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "The Environmental Regulation theme encompasses 5 executive orders, with 4 signed by Donald Trump and 1 by Joseph R. Biden Jr., focusing on federal energy policies, environmental protections, and technology infrastructure. Key orders include Trump’s EO 14154 'Unleashing American Energy,' EO 14162 'Putting America First in International Environmental Agreements,' and EO 14148 'Initial Rescissions of Harmful Executive Orders and Actions,' alongside Biden’s EO 14141 'Advancing United States Leadership in Artificial Intelligence Infrastructure.' These orders balance deregulation, expedited permitting, and shifts in environmental priorities, reflecting contrasting approaches to climate and energy policy between administrations.",
+      "potential_impact": "The executive orders aim to positively impact federal employees, domestic energy producers, American businesses, and select sectors like tech and green energy, while also targeting federal agencies and local governments. Conversely, they may negatively impact environmental advocates, undocumented immigrants, the green energy industry, and various minority and underserved groups due to rollbacks in environmental protections, equity programs, and immigration-related policies. Key concerns include potential environmental degradation, reduced climate action capacity, increased barriers for small businesses and minority communities, and geopolitical tensions arising from altered international environmental commitments.",
+      "generated_at": "2025-12-08T18:05:04.209Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "symbol-protection",
+      "theme_name": "Symbol Protection",
+      "order_count": 5,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 5
+        }
+      ],
+      "summary": "The Symbol Protection theme encompasses 5 executive orders exclusively signed by President Donald Trump, focusing on preserving and restoring American historical symbols, geographic names, and patriotic celebrations. Key orders include EO 14172 (Restoring Names That Honor American Greatness), EO 14189 (Celebrating America's 250th Birthday), EO 14252 (Making the District of Columbia Safe and Beautiful), EO 14253 (Restoring Truth and Sanity to American History), and EO 14341 (Prosecuting Burning of the American Flag). These orders collectively aim to reinforce national identity, protect monuments, and regulate symbolic expressions, involving federal employees, agencies, and public visitors in implementation efforts.",
+      "potential_impact": "These orders are aimed to positively impact federal employees, patriotic citizens, federal agencies, domestic tourists, and national park visitors by promoting national heritage and security. However, they also aim to negatively impact Alaskan Native communities, undocumented immigrants, Native American students, homeless individuals, protestors, and academic institutions through renaming initiatives, enforcement policies, and restricted demonstrations. Concerns include potential marginalization of indigenous cultural heritage, diplomatic tensions, displacement of homeless populations, over-policing, limitations on free speech, and bureaucratic challenges in interagency coordination and public acceptance.",
+      "generated_at": "2025-12-08T18:05:10.595Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "religious-liberty",
+      "theme_name": "Religious Liberty",
+      "order_count": 5,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 5
+        }
+      ],
+      "summary": "The Religious Liberty theme encompasses 5 executive orders exclusively signed by President Donald Trump, focusing on expanding protections and opportunities for faith-based organizations, religious communities, and families in educational settings. Key orders include EO 14191 (Expanding Educational Freedom and Opportunity for Families), EO 14202 (Eradicating Anti-Christian Bias), and EO 14205 (Establishment of the White House Faith Office). These orders emphasize educational choice, establishment of federal commissions, and rollback of vaccine mandates, aiming to reduce perceived burdens on religious exercise within federal programs and schools. The theme centers on enhancing religious liberty via federal funding, policy influence, and regulatory adjustments over a 60-90 day implementation horizon.",
+      "potential_impact": "The orders aim to positively impact faith-based organizations, religious communities, parents, and students by expanding funding and protections, especially benefiting low-income patients, military veterans, and Native American students. Conversely, they are poised to negatively impact secular public institutions, diverse student populations, and state and local governments by potentially diverting resources and reducing oversight. Key concerns include challenges to church-state separation, risks of undermining anti-discrimination protections, particularly for non-Christian groups and LGBTQ+ individuals, and increased political influence over federal policy. Implementation may yield uneven enforcement and heightened tensions between religious liberty and civil rights protections.",
+      "generated_at": "2025-12-08T18:05:15.024Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "pharmaceutical-supply-chain",
+      "theme_name": "Pharmaceutical Supply Chain",
+      "order_count": 5,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 5
+        }
+      ],
+      "summary": "The Pharmaceutical Supply Chain theme encompasses 5 executive orders, all signed by President Donald Trump, focusing on drug pricing, domestic production, and supply chain resilience. Key orders include EO 14273 targeting drug price reductions, EO 14293 promoting regulatory relief for domestic medicine production, EO 14297 implementing most-favored-nation drug pricing, EO 14309 reinforcing US-UK economic cooperation, and EO 14336 establishing a strategic reserve for active pharmaceutical ingredients. These orders primarily aim to enhance regulatory frameworks, promote domestic manufacturing, and control drug costs through pricing strategies and supply chain management.",
+      "potential_impact": "These executive orders aim to positively impact federal agencies, pharmaceutical manufacturers, manufacturing workers, and select patient populations including seniors, veterans, and low-income individuals by lowering drug costs and bolstering supply chain stability. However, they may negatively impact private sector rivals, some pharmaceutical manufacturers, Medicare Part D insurers, and environmental advocates due to increased regulatory fees, potential market disruptions, and expedited permitting processes. Concerns include risks to drug safety from accelerated approvals, weakened environmental safeguards, legal challenges from industry, and potential diplomatic tensions arising from pricing enforcement on foreign entities.",
+      "generated_at": "2025-12-08T18:05:17.619Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "economic-development",
+      "theme_name": "Economic Development",
+      "order_count": 5,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 5
+        }
+      ],
+      "summary": "The Economic Development theme encompasses five executive orders, all signed by President Joseph R. Biden Jr., focusing on workforce development, supply chain resilience, and support for underserved communities. Key orders include EO 14119 on expanding Registered Apprenticeships, EO 14123 establishing the White House Council on Supply Chain Resilience, EO 14124 advancing Hispanic-Serving Institutions (HSIs), EO 14126 investing in American workers, and EO 14145 aiding left-behind communities. These orders target federal agencies, workers, and educational institutions to promote economic equity and domestic investment, reflecting a comprehensive approach to strengthen economic infrastructure and workforce capacity.",
+      "potential_impact": "These orders aim to positively impact American workers, underserved and indigenous communities, Hispanic and Latino students, labor union members, small business owners, and federal employees by fostering apprenticeship programs, supply chain improvements, and educational equity. Conversely, they may negatively impact non-union workers, private sector rivals, federal contractors, foreign entities in countries of concern, and non-HSI institutions by increasing compliance burdens, prioritizing unionized labor, and shifting procurement preferences. Concerns include increased administrative costs, potential disadvantages for non-traditional workers and small businesses, resource constraints, and challenges balancing security with market competitiveness and educational priorities.",
+      "generated_at": "2025-12-08T18:04:51.044Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "criminal-justice-enforcement",
+      "theme_name": "Criminal Justice Enforcement",
+      "order_count": 5,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 4
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "The Criminal Justice Enforcement theme encompasses 5 executive orders, with 4 signed by Donald Trump and 1 by Joseph R. Biden Jr. These orders focus on military judicial reforms, federal government accountability, designation of criminal organizations as terrorist entities, immigration enforcement, and the restoration of the death penalty. Key titles include Biden's EO 14130 on amendments to the Manual for Courts Martial and Trump's EOs addressing weaponization of government, cartel designations, invasion protection, and public safety via capital punishment. The theme covers federal and state law enforcement, military personnel, and justice administration improvements.",
+      "potential_impact": "These orders aim to positively impact federal employees, Department of Justice officials, state and local law enforcement, armed forces personnel, and government agencies by enhancing enforcement capabilities and judicial procedures. Conversely, they aim to negatively impact undocumented and legal immigrants, pretrial defendants, civil liberties groups, protestors, and certain communities, raising concerns about due process, civil rights, and diplomatic relations, particularly with Mexico. Key issues include procedural uncertainties in military justice, potential politicization of law enforcement, enforcement overreach, and risks of increased violence or legal challenges arising from terrorism designations of criminal groups.",
+      "generated_at": "2025-12-08T18:04:54.416Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "military-personnel-policy",
+      "theme_name": "Military Personnel Policy",
+      "order_count": 5,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 3
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "The Military Personnel Policy theme encompasses 5 executive orders, with 3 signed by Donald Trump and 2 by Joseph R. Biden Jr. These orders address military court-martial procedures, military readiness, reinstatement of service members discharged under COVID-19 vaccine mandates, amendments to badges and certificates, and overall military excellence. Key titles include EO 14130 and EO 14131 by Biden focusing on court-martial amendments and awards, alongside Trump's EO 14183, EO 14184, and EO 14185 emphasizing readiness, reinstatement, and restoring fighting force capabilities. The theme covers personnel policy reforms, military justice, and administrative regulations affecting armed forces and federal employees.",
+      "potential_impact": "The orders aim to positively impact armed forces personnel (all 5 orders), federal employees (4 orders), military veterans (1 order), and defense academic institutions (1 order) by improving military justice procedures, readiness, and personnel policies. However, some orders are aimed to negatively impact minority service members (2 orders), transgender individuals including minors and their parents (multiple orders), pretrial defendants, diverse student populations, and veterans (1 order each). Concerns include potential discrimination claims, reduced recruitment and retention of transgender personnel, administrative burden, confusion over procedural changes, and adverse effects on morale and mental health within affected populations.",
+      "generated_at": "2025-12-08T18:05:00.560Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "investment-restrictions",
+      "theme_name": "Investment Restrictions",
+      "order_count": 5,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        },
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 2
+        }
+      ],
+      "summary": "The theme \"Investment Restrictions\" comprises 5 executive orders, with 2 signed by Donald Trump and 3 by Joseph R. Biden Jr. These orders focus on restricting investments related to Chinese companies, sanctioning activities in Burma and Russia, and limiting securities investments that finance military or foreign adversarial entities. Key orders include EO 13971 and EO 13974 under Trump addressing Chinese software and military-linked investments, and Biden’s EO 14014, EO 14024, and EO 14032 targeting foreign property blocking and securities investments tied to China and Russia. The orders reflect a strategic approach to curtail financial flows supporting geopolitical rivalries and harmful foreign activities.",
+      "potential_impact": "These executive orders aim to positively impact investment entities, the tech industry, large investors, sanctioned persons, regional stability actors, and patriotic citizens by curbing harmful foreign investment and enhancing national security. Conversely, they are designed to negatively impact foreign suppliers, China, foreign investors in countries of concern, civilian populations in designated countries like Burma, and sanctioned persons and affiliates. Key concerns include potential economic retaliation from China, enforcement complexities, due process issues, unintended impacts on civilians and legitimate users, financial market instability, and broader diplomatic tensions potentially limiting humanitarian and diplomatic engagements.",
+      "generated_at": "2025-12-09T04:03:38.453Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "infrastructure-policy",
+      "theme_name": "Infrastructure Policy",
+      "order_count": 5,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 4
+        },
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 1
+        }
+      ],
+      "summary": "The Infrastructure Policy theme encompasses 5 executive orders, with 4 signed by Joseph R. Biden Jr. and 1 by Donald Trump. These orders focus on climate crisis mitigation, wildfire management, clean vehicle leadership, advancing equity via HBCUs, and implementing the Infrastructure Investment and Jobs Act. Key titles include EO 13976 (wildland fire management), EO 14008 (climate crisis), EO 14037 (clean cars and trucks), EO 14041 (HBCU educational equity), and EO 14052 (Infrastructure Investment Act implementation). The Biden administration emphasizes clean energy transition, interagency coordination, and equity, while Trump’s order addressed wildfire policy consolidation.",
+      "potential_impact": "These orders aim to positively impact state and local governments, tribal nations, green energy industries, American workers, federal agencies, environmental advocates, agricultural workers, and HBCU communities. Conversely, they are aimed to negatively impact domestic energy producers, foreign processors of critical minerals, non-HBCU academic institutions, foreign manufacturers, and non-union workers. Concerns include potential job disruptions in fossil fuel and automotive sectors, challenges in interagency coordination, risks of underrepresentation of local entities, opposition from energy sectors, and regulatory complexities in clean energy deployment and vehicle standards.",
+      "generated_at": "2025-12-09T04:03:42.637Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "information-transparency",
+      "theme_name": "Information Transparency",
+      "order_count": 5,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 4
+        },
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 1
+        }
+      ],
+      "summary": "The Information Transparency theme encompasses 5 executive orders, with 1 signed by Donald Trump and 4 by Joseph R. Biden Jr. These orders focus on regulatory reform (EO 13980), data-driven public health responses (EO 13994), reshoring manufacturing (EO 14005), refugee resettlement and climate migration (EO 14013), and declassification related to 9/11 (EO 14040). The theme addresses transparency in criminal justice, public health data, domestic manufacturing, refugee programs, and intelligence declassification, reflecting varied approaches to enhancing accountability, data accessibility, and operational clarity across sectors.",
+      "potential_impact": "These orders aim to positively impact Muslim Americans, average Americans, scientific researchers, tech and academic institutions, American and manufacturing workers, refugees, and wrongfully detained US nationals by increasing transparency and support. Conversely, they seek to negatively impact foreign suppliers, manufacturers, certain foreign entities, terrorist organizations, and potentially the Department of Justice by restricting access or imposing stricter oversight. Key concerns include balancing transparency with national security, potential enforcement inconsistencies, bureaucratic delays, privacy risks, misinformation, and challenges in coordinating data sharing and workforce expansions.",
+      "generated_at": "2025-12-09T04:03:46.729Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "disease-control-policy",
+      "theme_name": "Disease Control Policy",
+      "order_count": 5,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 5
+        }
+      ],
+      "summary": "The Disease Control Policy theme encompasses 5 executive orders exclusively signed by President Joseph R. Biden Jr., focusing on pandemic response, public health workforce sustainability, and communicable disease management. Key orders include EO 13991 on federal workforce mask mandates, EO 13996 establishing a COVID-19 testing board, EO 13998 promoting travel safety, EO 14043 requiring vaccination for federal employees, and EO 14047 adding measles to quarantinable diseases. These orders collectively address federal employee protections, testing infrastructure, vaccine mandates, and travel-related safety protocols, highlighting a comprehensive federal approach to disease control and public health emergency preparedness.",
+      "potential_impact": "The executive orders aim to positively impact federal employees, public health workers, state and local governments, federal contractors, essential workers, and domestic tourists by enhancing workplace safety, testing, vaccination, and travel health measures. Conversely, they are aimed to negatively impact non-federal employees, limited English proficiency populations, foreign tourists, and undocumented immigrants through restrictions and compliance requirements. Key concerns include enforcement challenges, legal opposition to mandates, resource limitations, coordination complexities across jurisdictions, equity in access to health resources, privacy issues, and potential economic disruptions in transportation and travel sectors.",
+      "generated_at": "2025-12-09T04:03:50.186Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "pandemic-economic-relief",
+      "theme_name": "Pandemic Economic Relief",
+      "order_count": 5,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 5
+        }
+      ],
+      "summary": "The Pandemic Economic Relief theme encompasses five executive orders exclusively signed by President Joseph R. Biden Jr., including EO 13992, EO 13995, EO 13997, EO 14001, and EO 14002. These orders focus on revoking prior regulatory constraints, ensuring equitable pandemic response and recovery, improving access to COVID-19 care and treatments, sustaining public health supply chains, and delivering economic relief. The theme addresses diverse stakeholders such as underserved communities, state and local governments, federal agencies, regulated entities, persons with disabilities, scientific researchers, medical patients, pharmaceutical manufacturers, manufacturing workers, and small business owners, while also impacting private sector rivals, independent regulatory agencies, and foreign suppliers.",
+      "potential_impact": "The orders aim to positively impact underserved communities, state and local governments, persons with disabilities, and small business owners by promoting equitable access and support during the pandemic. Scientific researchers and pharmaceutical manufacturers are also targeted for enhanced collaboration and resource allocation. Conversely, private sector rivals, independent regulatory agencies, and foreign suppliers face potential negative impacts through increased competition and regulatory changes. Concerns include increased regulatory burdens on businesses, potential delays in implementation, legal challenges, equity-focused modifications facing political resistance, and logistical difficulties coordinating multi-agency efforts, all of which may affect the efficacy and fairness of pandemic economic relief measures.",
+      "generated_at": "2025-12-09T04:03:54.000Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "federal-pay-policy",
+      "theme_name": "Federal Pay Policy",
+      "order_count": 5,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 5
+        }
+      ],
+      "summary": "The Federal Pay Policy theme encompasses 5 executive orders exclusively signed by President Joseph R. Biden Jr., focusing on federal workforce protections, pay adjustments, minimum wage increases for federal contractors, and diversity, equity, inclusion, and accessibility (DEIA) initiatives. Key orders include EO 14003 (Protecting the Federal Workforce), EO 14026 (Increasing the Minimum Wage for Federal Contractors), EO 14035 (DEIA in the Federal Workforce), and EO 14061 and EO 14090 (Adjustments of Certain Rates of Pay). These orders collectively address pay equity, labor rights, and workforce diversity, while rescinding prior policies such as Schedule F to reshape federal employment frameworks.",
+      "potential_impact": "These orders aim to positively impact federal employees (4 orders), labor union members (1 order), federal contractors (1 order), and underserved communities (1 order) by improving pay standards, promoting collective bargaining, and enhancing DEIA efforts. Conversely, they may negatively impact federal budget stakeholders (2 orders) due to increased labor costs, non-union workers (1 order), small federal contractors (1 order) who might face compliance challenges, and non-federal employees (1 order). Concerns include budgetary pressures from wage increases, administrative complexity, resistance to revoking prior workforce policies, potential loss of small contractors, and enforcement difficulties tied to overlapping wage laws and DEIA implementation.",
+      "generated_at": "2025-12-09T04:03:59.834Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "labor-relations",
+      "theme_name": "Labor Relations",
+      "order_count": 4,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 4
+        }
+      ],
+      "summary": "The Labor Relations theme encompasses 4 executive orders, all signed by President Joseph R. Biden Jr., focusing on enhancing labor-management collaboration, expanding registered apprenticeships, and addressing labor disputes in the railroad sector. Key orders include EO 14119 on expanding apprenticeships and labor-management forums, EO 14126 on investing in American workers, and EOs 14125 and 14128 establishing Emergency Boards to resolve New Jersey Transit rail labor disputes. These orders emphasize unionized labor support, apprenticeship programs, and dispute resolution mechanisms, reflecting a coordinated federal approach to labor relations and workforce development.",
+      "potential_impact": "The executive orders aim to positively impact federal employees, American workers, underserved communities, labor union members, and railroad employees by promoting apprenticeship opportunities and resolving labor disputes. Conversely, they may negatively impact non-union workers, federal contractors, American businesses, private sector rivals, and federal budget stakeholders due to increased compliance burdens, potential hiring inflexibility, and elevated labor costs. Concerns include administrative burdens on contractors, possible disadvantages for non-traditional workers, prolonged transit disruptions from dispute resolutions, and federal resource strains arising from extended labor board operations.",
+      "generated_at": "2025-12-08T18:05:21.639Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "workforce-development",
+      "theme_name": "Workforce Development",
+      "order_count": 4,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 4
+        }
+      ],
+      "summary": "The Workforce Development theme encompasses 4 executive orders exclusively signed by President Joseph R. Biden Jr., focusing on expanding registered apprenticeships, advancing educational equity through Hispanic-Serving Institutions (HSIs), strengthening supply chain resilience, and investing in American workers. Key orders include EO 14119 on apprenticeships, EO 14123 on supply chains, EO 14124 on HSIs, and EO 14126 on workforce investment. These orders collectively aim to enhance workforce skills, promote labor-management collaboration, and prioritize domestic economic opportunities, reflecting a strategic federal approach to workforce and economic development.",
+      "potential_impact": "These executive orders aim to positively impact American workers, underserved communities, federal employees, small business owners, Hispanic and Latino students, labor union members, and federal agencies by promoting apprenticeships, educational equity, and domestic investment. Conversely, they may negatively affect non-union workers, private sector rivals, federal contractors, foreign entities in countries of concern, non-HSI institutions, and certain federal budget stakeholders. Concerns include increased compliance burdens, potential disadvantages for non-apprenticeship workers, administrative complexities, and possible tensions in labor relations, alongside challenges balancing domestic priorities with open market competitiveness.",
+      "generated_at": "2025-12-08T18:05:25.629Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "tribal-policy",
+      "theme_name": "Tribal Policy",
+      "order_count": 4,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 4
+        }
+      ],
+      "summary": "The Tribal Policy theme encompasses 4 executive orders, all signed by President Joseph R. Biden Jr., focusing on advancing racial equity, environmental justice, and tribal self-determination. Key orders include EO 14091 on racial equity for underserved communities and EO 14112 on reforming federal funding to enhance tribal self-governance. These orders collectively address support for Tribal Nations, federal employees, underserved and rural communities, and promote inclusive federal procurement and care workforce improvements. The theme highlights a federal commitment to trust responsibilities and prioritizes equity and environmental justice within tribal and marginalized populations.",
+      "potential_impact": "These orders aim to positively impact Tribal Nations, underserved communities, federal employees, small business owners, and women and girls by enhancing access to funding, care, and self-determination. Conversely, they may negatively impact non-tribal federal funding recipients, non-union workers, and certain private sector employers due to increased administrative burdens, stricter equity requirements, and procurement prioritization. Concerns include resource strain on federal agencies, potential funding shifts away from non-tribal entities, challenges in consistent community engagement, and possible conflicts between environmental justice goals and economic development, raising issues about long-term funding and implementation efficacy.",
+      "generated_at": "2025-12-08T18:10:45.525Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "reproductive-health-policy",
+      "theme_name": "Reproductive Health Policy",
+      "order_count": 4,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 4
+        }
+      ],
+      "summary": "The Reproductive Health Policy theme includes 4 executive orders exclusively signed by President Joseph R. Biden Jr., focusing on expanding access to contraception, reproductive healthcare, and affordable health coverage. Key orders include EO 14070, EO 14076, EO 14079, and EO 14101, emphasizing strengthening access to high-quality family planning services and protecting reproductive healthcare services. These orders seek to address gaps in coverage, access, and affordability, with a strong federal stance on safeguarding reproductive rights amid varying state policies. The measures also involve regulatory changes and coordination efforts to improve healthcare service delivery and legal protections.",
+      "potential_impact": "The executive orders aim to positively impact women seeking contraception and elective abortions, medical patients, reproductive rights advocates, low-income patients, seniors, public health workers, and private health insurers by expanding access and affordability. Conversely, they target states with restrictive reproductive policies, private health insurers, and private sector employers with increased regulatory requirements and potential pushback. Key concerns include legal challenges from states opposing abortion rights, administrative strains, privacy issues, interstate access burdens, and conflicts between federal directives and restrictive state laws, potentially complicating healthcare delivery and patient access.",
+      "generated_at": "2025-12-09T03:49:34.817Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "cybersecurity-policy",
+      "theme_name": "Cybersecurity Policy",
+      "order_count": 4,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 2
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "The Cybersecurity Policy theme encompasses 4 executive orders, evenly split between Presidents Donald Trump and Joseph R. Biden Jr. Trump's 2 orders focus on addressing threats from Chinese software and malicious cyber activities (EO 13971, EO 13984), emphasizing national security risks from foreign technology. Biden’s 2 orders (EO 14024, EO 14028) target harmful foreign activities, notably from Russia, and aim to improve national cybersecurity infrastructure. Key titles reflect measures to block property, restrict transactions, and enhance federal cybersecurity protocols. Overall, these orders highlight a strategic approach combining sanctions, technology bans, and infrastructure improvements to counteract cyber threats and foreign influence.",
+      "potential_impact": "These orders aim to positively impact the U.S. tech industry, federal agencies, regional stability actors, and patriotic citizens by strengthening cybersecurity defenses and reducing foreign technological risks. Conversely, they target foreign suppliers—mainly Chinese and Russian entities—and sanctioned persons and affiliates with restrictions and sanctions. Concerns include potential economic retaliation, enforcement challenges due to complex transactions and definitions, privacy issues related to data collection, and risks of overreach affecting legitimate users and businesses. Additionally, diplomatic tensions and due process questions arise from broad sanctions and software bans.",
+      "generated_at": "2025-12-09T04:04:04.436Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "customer-experience-improvement",
+      "theme_name": "Customer Experience Improvement",
+      "order_count": 4,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 4
+        }
+      ],
+      "summary": "The Customer Experience Improvement theme encompasses 4 executive orders, all signed by President Joseph R. Biden Jr., focusing on enhancing federal service delivery and inclusion. Key orders include EO 14002 on COVID-19 economic relief, EO 14012 addressing legal immigration and integration, EO 14019 promoting voting access, and EO 14058 targeting federal customer experience transformation. These orders collectively aim to improve interactions with government services, streamline processes, and rebuild trust, reflecting a comprehensive approach to addressing diverse stakeholder needs across small businesses, local governments, immigrants, veterans, and persons with disabilities.",
+      "potential_impact": "These executive orders are aimed to positively impact a broad range of populations including small business owners, state and local governments, low-income working families, legal immigrants, refugees, federal employees, tribal nations, persons with disabilities, military veterans, and general government service users, by improving access and service delivery. Conversely, undocumented immigrants are aimed to be negatively impacted by certain immigration-related provisions. Key concerns include potential inconsistencies in relief distribution, resource limitations, legal challenges, uneven implementation across agencies, and privacy risks in digital initiatives, which may affect the efficacy and equity of these measures.",
+      "generated_at": "2025-12-09T04:04:08.537Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "humanitarian-immigration-policy",
+      "theme_name": "Humanitarian Immigration Policy",
+      "order_count": 4,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 4
+        }
+      ],
+      "summary": "The Humanitarian Immigration Policy theme comprises 4 executive orders exclusively signed by President Joseph R. Biden Jr., focusing on comprehensive migration management, family reunification, legal immigration system restoration, and refugee resettlement with climate change considerations. Key orders include EO 14010 addressing regional migration causes and asylum processing; EO 14011 establishing an interagency task force for family reunification; EO 14012 aimed at strengthening legal immigration integration; and EO 14013 enhancing refugee programs. These orders collectively seek to reform and coordinate immigration policies across multiple agencies and regional partners, emphasizing humanitarian and systemic improvements.",
+      "potential_impact": "These orders aim to positively impact refugees (3 orders), regional stability actors, undocumented immigrants, children in foster care, legal immigrants, and Muslim Americans by addressing asylum processing, family reunification, and naturalization efforts. Negative impacts are targeted primarily at criminal organizations and undocumented immigrants in one order each, with two orders indicating no intended negative impacts. Key concerns include implementation complexity due to multi-agency coordination, legal uncertainties, potential resource shortfalls, challenges in family reunification logistics, and political pushback regarding border enforcement and immigration system integrity.",
+      "generated_at": "2025-12-09T04:04:12.530Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "space-policy",
+      "theme_name": "Space Policy",
+      "order_count": 3,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 2
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "The Space Policy theme encompasses 3 executive orders issued by Presidents Donald Trump (2 orders) and Joseph R. Biden Jr. (1 order), focusing on advancing U.S. space innovation, competition, and defense capabilities. Key titles include Trump’s EO 14186 \"The Iron Dome for America\" and EO 14335 \"Enabling Competition in the Commercial Space Industry,\" alongside Biden’s EO 14144 \"Strengthening and Promoting Innovation in the Nation's Cybersecurity.\" These orders address cybersecurity enhancements, missile defense developments, and commercial space industry regulations, reflecting a blend of national security priorities and efforts to foster commercial space sector growth.",
+      "potential_impact": "The orders aim to positively impact federal employees, federal agencies, the tech industry, commercial space operators, Department of Justice, academic institutions, military veterans, and regional stability actors by advancing technological capabilities and operational efficiencies. Conversely, they appear to negatively impact private sector rivals, China, and environmental advocates due to competitive restrictions, geopolitical tensions, and streamlined environmental reviews. Concerns include increased compliance costs for smaller vendors, privacy risks, possible escalation of arms races, compromised environmental and safety standards, and challenges for smaller commercial entrants navigating accelerated regulatory processes.",
+      "generated_at": "2025-12-08T18:05:33.381Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "data-governance",
+      "theme_name": "Data Governance",
+      "order_count": 3,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 3
+        }
+      ],
+      "summary": "The Data Governance theme encompasses three executive orders, all signed by President Donald Trump, focusing on government efficiency, cost reduction, and eliminating information silos. Key orders include EO 14158 establishing the Department of Government Efficiency (DOGE), EO 14222 implementing cost efficiency initiatives, and EO 14243 targeting waste reduction through enhanced data sharing. These orders mandate broad access to agency records and rapid organizational changes, emphasizing modernization within an 18-month temporary framework. The approach reflects a centralized push to streamline federal data governance and transparency, primarily targeting federal employees and agencies, with limited engagement of the tech industry and government service users.",
+      "potential_impact": "These orders aim to positively impact federal employees and agencies by improving efficiency and reducing waste, while also involving limited benefits to the tech industry and government service users. However, displaced federal workers face negative impacts due to restructuring. Key concerns include privacy, security, and data protection risks from extensive data access, potential legal ambiguities from rescinded regulations, and operational disruptions from rapid implementation timelines. Additionally, tensions between federal and state agencies may arise over data control, and cybersecurity vulnerabilities could emerge from efforts to remove information silos.",
+      "generated_at": "2025-12-08T18:05:36.643Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "sports-policy",
+      "theme_name": "Sports Policy",
+      "order_count": 3,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 3
+        }
+      ],
+      "summary": "The Sports Policy theme encompasses three executive orders, all signed by President Donald Trump, focusing on collegiate and female athletes, federal agencies, and large-scale sports events. Key orders include EO 14201, targeting the exclusion of male and transgender athletes from women's sports; EO 14234, creating a task force for the 2026 FIFA World Cup; and EO 14322, aimed at reforming college sports funding and compensation. These orders address collegiate sports integrity, gender participation, and international event coordination, reflecting a strong federal involvement in sports governance and compliance with Title IX.",
+      "potential_impact": "These executive orders aim to positively impact collegiate athletes, female athletes, students in federally funded schools, and American youth by enforcing gender-based sports participation and enhancing college sports structures. Conversely, they aim to negatively impact transgender athletes, undocumented immigrants, non-citizen voters, and donor-supported collegiate programs through restrictive participation policies and funding limitations. Concerns include potential legal challenges on discrimination grounds, mental health effects on excluded athletes, inconsistent enforcement across states, strained international relations, civil liberties issues, bureaucratic inefficiencies, and financial strains on smaller institutions.",
+      "generated_at": "2025-12-08T18:05:42.027Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "community-development",
+      "theme_name": "Community Development",
+      "order_count": 3,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        }
+      ],
+      "summary": "The Community Development theme encompasses 3 executive orders exclusively signed by President Joseph R. Biden Jr. These orders focus on investing in American workers, advancing AI infrastructure, and revitalizing left-behind communities, as reflected in EO 14126, EO 14141, and EO 14145. The initiatives prioritize federal agencies, indigenous populations, state and local governments, labor unions, and underserved communities, highlighting a multifaceted approach to economic and technological development. Key strategies include promoting high labor standards, enhancing AI leadership, and supporting distressed areas, with significant emphasis on equity and inter-agency coordination.",
+      "potential_impact": "These orders aim to positively impact federal agencies, indigenous communities, labor union members, small business owners, and manufacturing workers by fostering inclusive growth and technological advancement. Conversely, private sector rivals, non-union workers, undocumented immigrants, and certain indigenous groups may face negative impacts due to preferences for union labor, increased regulatory demands, and federal budget constraints. Concerns include potential cost escalations, administrative burdens, market consolidation risks, environmental trade-offs, and challenges in equitable resource distribution and agency coordination, which may affect implementation efficacy and community outcomes.",
+      "generated_at": "2025-12-08T18:05:29.805Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "public-health-administration",
+      "theme_name": "Public Health Administration",
+      "order_count": 3,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        }
+      ],
+      "summary": "The Public Health Administration theme encompasses 3 executive orders exclusively signed by President Joseph R. Biden Jr., focusing on COVID-19 vaccination policies, community protection, and public health preparedness. Key orders include EO 14099 on removing federal vaccination mandates, EO 14108 addressing protections for the East Palestine community post-rail disaster, and EO 14122 on enhancing public health response coordination. These orders target federal employees, agencies, contractors, state and local governments, hazardous materials responders, and affected residents, aiming to restructure federal public health approaches and disaster response frameworks.",
+      "potential_impact": "The orders aim to positively impact federal employees, agencies, contractors, state and local governments, and affected communities by adjusting health policies and increasing public health preparedness. Conversely, displaced federal workers, public health workers, American businesses, railroad employees, industrial transport companies, and local businesses may face negative impacts including job displacement, operational challenges, and economic strain. Concerns include increased COVID-19 exposure risks, potential gaps in leadership and coordination, bureaucratic inefficiencies, delayed federal assistance, and prolonged litigation affecting timely recovery and public trust.",
+      "generated_at": "2025-12-08T18:10:49.200Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "government-ethics",
+      "theme_name": "Government Ethics",
+      "order_count": 3,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 2
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "The \"Government Ethics\" theme encompasses 3 executive orders, with 2 signed by Donald Trump and 1 by Joseph R. Biden Jr. Key orders include Trump's EO 13979 on Democratic Accountability in Agency Rulemaking and EO 13983 revoking a prior ethics order, alongside Biden's EO 13989 establishing Ethics Commitments by Executive Branch Personnel. These orders address ethical standards, rulemaking oversight, and accountability within federal agencies, focusing on enhancing or modifying ethical guidelines and administrative processes affecting federal employees and regulatory agencies.",
+      "potential_impact": "These orders aim to positively impact federal employees by establishing or modifying ethical commitments and reinforcing accountability, while independent regulatory agencies face increased oversight demands. Conversely, federal agencies may encounter heightened administrative burdens, potentially straining resources, and private sector employers might be negatively impacted by restrictions related to post-government employment. Concerns include potential politicization of rulemaking, slowed agency processes, weakened ethics enforcement, reduced public trust, and challenges in consistent application and legal compliance across agencies.",
+      "generated_at": "2025-12-09T04:04:21.133Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "federal-sustainability-policy",
+      "theme_name": "Federal Sustainability Policy",
+      "order_count": 3,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        }
+      ],
+      "summary": "The Federal Sustainability Policy theme encompasses three executive orders, all signed by President Joseph R. Biden Jr., focusing on climate action, clean energy, and financial risk related to climate change. Key orders include EO 14008 targeting the climate crisis domestically and internationally, EO 14030 addressing climate-related financial risks, and EO 14057 promoting clean energy industries through federal sustainability. These orders aim to integrate sustainability into federal operations, financial systems, and energy sectors, reflecting a comprehensive approach to reducing emissions and fostering green industries.",
+      "potential_impact": "These policies are aimed to positively impact the green energy industry, environmental advocates, agricultural workers, financial institutions, and federal agencies by promoting clean energy and climate risk management. Conversely, they aim to negatively impact domestic energy producers through restrictions and subsidy eliminations, as well as foreign processors of critical minerals, investment entities, and foreign suppliers via tightened regulations. Key concerns include bureaucratic delays, opposition from energy sectors, economic impacts on affected workers, compliance costs for financial institutions, and challenges in ensuring equitable environmental justice outcomes without unintended hardships.",
+      "generated_at": "2025-12-09T04:04:25.026Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "immigration-process-reform",
+      "theme_name": "Immigration Process Reform",
+      "order_count": 3,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        }
+      ],
+      "summary": "The Immigration Process Reform theme encompasses three executive orders exclusively signed by President Joseph R. Biden Jr., focusing on comprehensive regional frameworks, family reunification, and restoring faith in legal immigration systems. Key orders include EO 14010 addressing migration causes and asylum processing, EO 14011 establishing a task force for family reunification, and EO 14012 aimed at integration and inclusion of new Americans. These orders collectively seek to reform asylum procedures, enhance legal immigration pathways, and coordinate interagency efforts to manage migration and support immigrant communities, reflecting a shift toward humanitarian and systemic reform approaches.",
+      "potential_impact": "The orders aim to positively impact refugees (2 orders), regional stability actors, undocumented immigrants, children in foster care, and legal immigrants by improving asylum processes, family reunification, and inclusion efforts. Conversely, one order targets criminal organizations negatively, while another may negatively impact undocumented immigrants, reflecting tensions in enforcement. Concerns include interagency coordination challenges, potential legal uncertainties, resource constraints, and possible public or political resistance, particularly regarding border enforcement, naturalization reforms, and family reunification logistics, which could affect implementation efficacy and immigrant well-being.",
+      "generated_at": "2025-12-09T04:04:29.094Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "transnational-crime-policy",
+      "theme_name": "Transnational Crime Policy",
+      "order_count": 3,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        }
+      ],
+      "summary": "The Transnational Crime Policy theme encompasses three executive orders all signed by President Joseph R. Biden Jr., including EO 14010, EO 14059, and EO 14060. These orders focus on creating regional frameworks to address migration causes, imposing sanctions on foreign persons involved in illicit drug trade, and establishing the U.S. Council on Transnational Organized Crime. The theme covers coordinated federal and state law enforcement efforts, sanctions targeting criminal organizations and foreign suppliers, and initiatives supporting refugees and regional stability actors. Key elements include asylum process management, sanctions enforcement, and interagency coordination to combat transnational criminal networks.",
+      "potential_impact": "These orders aim to positively impact refugees by improving asylum processing, support regional stability actors through coordinated frameworks, and enhance federal and local law enforcement capacities. Sanctioned persons and affiliates face restrictions, while criminal organizations and foreign suppliers are targeted negatively. Concerns include potential bureaucratic inefficiencies, legal challenges in sanction enforcement, risks to civil liberties from increased intelligence powers, and diplomatic tensions arising from sanctions. Implementation complexities and resource constraints may delay measurable outcomes, with risks of unintended impacts on legitimate businesses and international cooperation challenges.",
+      "generated_at": "2025-12-09T04:04:33.011Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "caregiving-policy",
+      "theme_name": "Caregiving Policy",
+      "order_count": 3,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        }
+      ],
+      "summary": "The Caregiving Policy theme encompasses 3 executive orders exclusively signed by President Joseph R. Biden Jr., including EO 14020, EO 14035, and EO 14095. These orders focus on establishing the White House Gender Policy Council, promoting diversity, equity, inclusion, and accessibility (DEIA) in the federal workforce, and increasing access to quality caregiving while supporting caregivers. The initiatives address gender equity, workforce diversity, support for family and military-connected caregivers, and improvements in care job quality. The theme integrates broad federal coordination efforts and policy frameworks aimed at systemic caregiving challenges.",
+      "potential_impact": "These orders aim to positively impact women and girls, federal employees, underserved communities, family caregivers, the care workforce, and military-connected families by enhancing support, equity, and workforce inclusion. Conversely, non-federal employees, private sector employers, and non-military spouse job seekers may face increased regulatory or financial burdens and employment challenges. Concerns include coordination difficulties, privacy and resource issues in data collection, political contention over gender and reproductive rights, budget strains from increased funding and benefits, and inconsistent policy application across agencies. Potential legal challenges and resistance from some stakeholders are also noted.",
+      "generated_at": "2025-12-09T04:04:37.679Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "child-welfare-policy",
+      "theme_name": "Child Welfare Policy",
+      "order_count": 2,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 2
+        }
+      ],
+      "summary": "The Child Welfare Policy theme encompasses two executive orders, both signed by President Donald Trump, focusing on child welfare reform and protections. Key orders include EO 14187: Protecting Children From Chemical and Surgical Mutilation and EO 14359: Fostering the Future for American Children and Families. These orders address foster care system improvements, restrictions on gender-affirming medical treatments for minors, and increased roles for faith-based organizations. They involve federal employees, agencies, and multiple sectors such as the Department of Justice and academic institutions, reflecting a broad approach to child welfare and family support within federal governance.",
+      "potential_impact": "These orders aim to positively impact federal employees, agencies, children in foster care, foster families, faith-based organizations, and academic institutions by promoting child welfare reforms and family support initiatives. Conversely, they are aimed to negatively impact transgender and gender non-conforming minors, medical patients, American youth, parents of public school students, legal immigrants, and healthcare providers involved in pediatric transgender care. Concerns include restricted access to medically recommended care, increased stigma and discrimination, legal challenges related to civil and parental rights, financial burdens from coverage exclusions, and risks of discrimination in foster care placements and data privacy issues arising from new technologies and agency resource constraints.",
+      "generated_at": "2025-12-08T18:05:52.417Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "veterans-affairs-policy",
+      "theme_name": "Veterans Affairs Policy",
+      "order_count": 2,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 2
+        }
+      ],
+      "summary": "The Veterans Affairs Policy theme encompasses 2 executive orders both signed by President Donald Trump. These orders, titled \"EO 14244: Addressing Remedial Action by Paul Weiss\" and \"EO 14296: Keeping Promises to Veterans and Establishing a National Center for Warrior Independence,\" focus on reforming legal oversight and enhancing support services for military veterans. Key initiatives include redirecting funds towards veteran programs, establishing centers for veteran independence, and modifying hiring practices within relevant agencies. The theme highlights a shift toward merit-based hiring and voluntary industry commitments, reflecting a complex approach to veterans' welfare and organizational accountability.",
+      "potential_impact": "These executive orders aimed to positively impact military veterans by improving services, housing, and healthcare access, as well as law firm and federal employees through changes in oversight and employment policies. However, concerns include potential negative impacts from reduced regulatory scrutiny of law firms, possible undermining of diversity and equity efforts, and challenges in enforcing voluntary commitments. Funding reallocations and ambitious housing goals may provoke legal disputes, interagency conflicts, and operational difficulties, potentially limiting the orders' effectiveness in addressing veterans' needs.",
+      "generated_at": "2025-12-08T18:05:56.428Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "privacy-and-data-security",
+      "theme_name": "Privacy And Data Security",
+      "order_count": 2,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "The Privacy And Data Security theme encompasses 2 executive orders signed exclusively by President Joseph R. Biden Jr., focusing on safeguarding U.S. maritime infrastructure and protecting sensitive American data from foreign access. Key orders include EO 14116, which amends regulations on vessel and port security, and EO 14117, which restricts access to bulk sensitive personal data by countries of concern. These orders expand Coast Guard authority and regulate digital infrastructure, aiming to strengthen national security through enhanced physical and cyber protections, with complex interagency coordination and broad regulatory scope.",
+      "potential_impact": "These executive orders aim to positively impact federal employees, Coast Guard personnel, maritime industry workers, and U.S. persons with sensitive data by enhancing security and data protection measures. Conversely, they are designed to negatively impact maritime transportation users, foreign entities in designated countries, the data brokerage industry, and U.S. data service providers through increased regulatory burdens, operational disruptions, and restricted data flows. Key concerns include potential delays in maritime transport, enforcement ambiguities, increased compliance costs, diplomatic tensions, risks of regulatory overreach, and challenges balancing national security with privacy and economic interests.",
+      "generated_at": "2025-12-08T18:05:47.289Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "place-based-economic-development",
+      "theme_name": "Place Based Economic Development",
+      "order_count": 2,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "The theme \"Place Based Economic Development\" comprises 2 executive orders, both signed by President Joseph R. Biden Jr., including EO 14091 and EO 14145. These orders focus on advancing racial equity, supporting underserved and left-behind communities, and promoting economic recovery in rural and tribal areas. The initiatives emphasize federal government roles in equitable resource allocation, procurement preferences for small disadvantaged businesses and Tribal Nations, and inclusive community engagement. The orders collectively target improvements in federal agency operations, economic opportunities for diverse populations, and infrastructure development tailored to specific community needs.",
+      "potential_impact": "The executive orders aim to positively impact rural and underserved communities, Tribal Nations, small business owners, women and girls, Asian Americans and NHPI communities, and federal agencies by fostering equitable economic growth and inclusive federal contracting. Conversely, they may negatively affect non-tribal federal funding recipients and non-union workers due to shifted procurement priorities, and federal agencies may face increased administrative burdens from new equity requirements. Concerns include potential inefficiencies in agency coordination, resource diversion, challenges in community engagement, and uncertainties in funding and policy consistency.",
+      "generated_at": "2025-12-08T18:10:52.206Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "firearms-control",
+      "theme_name": "Firearms Control",
+      "order_count": 2,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "The Firearms Control theme encompasses two executive orders signed exclusively by President Joseph R. Biden Jr., namely EO 14092 and EO 14127, focusing on reducing gun violence, enhancing community safety, and addressing emerging firearms threats including school-based active-shooter drills. These orders target federal employees, state and local law enforcement, students, educators, federal agencies, and veterans, while imposing regulatory measures against illegal firearms manufacturers, traffickers, undocumented immigrants, and to a lesser extent, average Americans. Key initiatives include expanding extreme risk protection orders, increasing enforcement of untraceable firearms, and improving inter-agency coordination to mitigate gun-related threats nationwide.",
+      "potential_impact": "The executive orders aim to positively impact federal employees, law enforcement personnel, students, educators, federal agencies, and veterans by enhancing safety protocols and reducing firearms-related risks. Conversely, they are designed to negatively impact illegal firearms manufacturers, traffickers, undocumented immigrants, and potentially average Americans through stricter regulations and enforcement. Concerns include burdens on lawful gun owners due to increased compliance, privacy and reputational risks for licensed dealers, civil liberties issues from expanded 'red flag' laws and surveillance, challenges in coordination among agencies, and financial or operational strain on schools implementing active-shooter drill guidelines.",
+      "generated_at": "2025-12-08T18:10:56.699Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "industrial-accident-response",
+      "theme_name": "Industrial Accident Response",
+      "order_count": 2,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "The Industrial Accident Response theme encompasses 2 executive orders, both signed by President Joseph R. Biden Jr., focusing on environmental justice and community protection following industrial incidents. Key orders include EO 14096, which revitalizes environmental justice commitments, and EO 14108, designed to protect East Palestine residents. These orders address federal employee roles, underserved and tribal communities, and environmental advocates, emphasizing coordinated response and long-term monitoring. They impose stricter regulatory and reporting requirements on industrial transport and related businesses, aiming to balance environmental remediation with community safety through enhanced federal, state, and local government collaboration.",
+      "potential_impact": "These orders aim to positively impact federal employees, underserved communities, tribal nations, minority groups such as Asian Americans and NHPI communities, Hispanic and Latino students, environmental advocates, American workers, state and local governments, and citizens in affected areas by prioritizing environmental justice and public health protections. Conversely, they may negatively impact industrial transport companies, local businesses, non-union workers, certain federal agencies due to increased administrative burdens, non-tribal federal funding recipients, American businesses broadly, and railroad employees by imposing costly compliance mandates and operational constraints. Key concerns include resource strains on federal agencies, prolonged litigation risks, potential delays in economic recovery, and challenges in agency coordination and community engagement effectiveness.",
+      "generated_at": "2025-12-08T18:11:00.396Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "maritime-security",
+      "theme_name": "Maritime Security",
+      "order_count": 2,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "The Maritime Security theme encompasses two executive orders signed exclusively by President Joseph R. Biden Jr. These orders focus on enhancing national security through military readiness and regulatory measures for maritime infrastructure. EO 14097 authorizes activation of the Ready Reserve to combat international drug trafficking, while EO 14116 amends regulations to safeguard vessels, harbors, ports, and waterfront facilities. Together, they emphasize both operational readiness and expanded regulatory oversight, addressing drug interdiction and infrastructure protection within the maritime domain, involving military and Coast Guard personnel as primary actors.",
+      "potential_impact": "The orders aim to positively impact federal employees, Coast Guard personnel, armed forces members, and maritime industry workers by enhancing security and operational capacity. Conversely, selected reserve members, undocumented immigrants, military-connected families, and maritime transportation users are targeted for negative impacts, including potential activation disruptions, increased regulatory burdens, and stricter security measures. Key concerns include the militarization of drug enforcement, operational delays for maritime users, privacy issues related to expanded digital security measures, and jurisdictional challenges arising from multi-agency coordination and broad regulatory scopes.",
+      "generated_at": "2025-12-08T18:11:03.832Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "climate-change-mitigation",
+      "theme_name": "Climate Change Mitigation",
+      "order_count": 2,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "The Climate Change Mitigation theme encompasses 2 executive orders exclusively signed by President Joseph R. Biden Jr., focusing on responsible digital asset development (EO 14067) and forest, community, and economic strengthening (EO 14072). These orders address the intersection of technological innovation, environmental stewardship, and economic resilience, targeting sectors such as tech and finance while emphasizing sustainable forest management and tribal nation involvement. Key initiatives include digital asset regulation frameworks and comprehensive forest conservation strategies that aim to mitigate climate impacts through both financial system modernization and natural resource protection.",
+      "potential_impact": "The orders aim to positively impact the tech industry, financial institutions, Indigenous communities, and tribal nations by promoting responsible innovation, sustainable economic development, and community-led conservation. Conversely, foreign suppliers, foreign timber and lumber exporters, and unbanked or underbanked populations are positioned as negatively impacted due to increased regulatory scrutiny, trade restrictions, and potential financial exclusion. Concerns include balancing innovation with consumer protection, regulatory challenges given digital asset evolution, privacy issues, and difficulties in international coordination. Environmental and jurisdictional complexities related to forest management and commodity trade also present implementation challenges.",
+      "generated_at": "2025-12-09T03:49:39.153Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "free-speech-policy",
+      "theme_name": "Free Speech Policy",
+      "order_count": 2,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        },
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 1
+        }
+      ],
+      "summary": "The theme 'Free Speech Policy' encompasses 2 executive orders issued by Presidents Joseph R. Biden Jr. and Donald Trump. Biden's EO 14088 focuses on imposing additional sanctions related to Nicaragua, addressing national security concerns while indirectly influencing free speech through economic and media restrictions. Trump's EO 14149 aims to restore free speech by ending federal censorship and limiting government engagement with social media platforms. Key titles reflect approaches ranging from sanction-based measures to deregulation of content moderation. These orders collectively address government-media relations, censorship policies, and international sanctions with a combined total of 2 orders.",
+      "potential_impact": "The executive orders aim to positively impact sanctioned persons and affiliates, civilians in designated countries, and social media platforms by targeting regimes and reducing perceived federal censorship. Conversely, they may negatively impact populations in designated countries such as Nicaragua and the tech industry through economic sanctions and constraints on content moderation. Concerns include worsening civilian economic hardship, enforcement difficulties, threats to legitimate journalism, diplomatic strains, compliance challenges, and potential chilling effects on government communication and misinformation management, alongside risks of selective enforcement and inconsistent application.",
+      "generated_at": "2025-12-09T03:49:42.868Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "cultural-policy",
+      "theme_name": "Cultural Policy",
+      "order_count": 2,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 1
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "The Cultural Policy theme encompasses 2 executive orders issued by Presidents Donald Trump and Joseph R. Biden Jr., focusing on national heritage and support for arts, humanities, and cultural institutions. Trump's EO 13978 established the National Garden of American Heroes, aiming to celebrate notable American figures, while Biden's EO 14084 promotes arts, humanities, and museum and library services through federal support. These orders engage diverse sectors including patriotic citizens, architectural professionals, nonprofit organizations, public broadcasting employees, and academic institutions, reflecting an intersection of cultural commemoration and institutional support.",
+      "potential_impact": "The orders are aimed to positively impact patriotic citizens, cultural professionals, nonprofit and academic sectors by fostering heritage appreciation and supporting arts and humanities infrastructure. Conversely, environmental advocates may be negatively impacted due to potential site and construction concerns, and private sector rivals might face competition from federally backed initiatives. Key concerns include controversies over honoree selection, funding sustainability, political biases in cultural representation, bureaucratic inefficiencies, and challenges in balancing equity efforts with public perceptions.",
+      "generated_at": "2025-12-09T04:04:41.839Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "school-safety",
+      "theme_name": "School Safety",
+      "order_count": 2,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "The School Safety theme encompasses 2 executive orders exclusively signed by President Joseph R. Biden Jr., focusing on the reopening and operation of schools and early childhood education providers as well as combating firearms threats and enhancing active-shooter drills. Key orders include EO 14000, which supports educational institutions and care workforce continuity, and EO 14127, targeting illegal firearms manufacturers and traffickers to improve school safety protocols. These orders collectively address operational support, threat mitigation, and safety preparedness within federally funded schools and academic settings.",
+      "potential_impact": "These executive orders are aimed to positively impact students in federally funded schools, academic institutions, educators, and the care workforce by promoting safer learning environments and operational stability. Conversely, they target illegal firearms manufacturers and traffickers to reduce firearm-related threats in schools. Concerns include variable state and local resource availability affecting guidance effectiveness, privacy and equity issues from data collection, potential operational burdens on smaller districts, legal challenges from increased firearm enforcement, and civil liberties concerns tied to surveillance measures.",
+      "generated_at": "2025-12-09T04:04:46.221Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "climate-finance-risk-management",
+      "theme_name": "Climate Finance Risk Management",
+      "order_count": 2,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "The Climate Finance Risk Management theme encompasses 2 executive orders signed exclusively by President Joseph R. Biden Jr., notably EO 14008 and EO 14030. These orders focus on integrating climate-related financial risk considerations into federal policies, targeting the reduction of fossil fuel dependency and promoting green energy and sustainable finance. Key initiatives involve addressing climate risks within financial institutions, pausing fossil fuel leasing, and enhancing climate crisis responses both domestically and internationally. The orders collectively aim to establish new offices and task forces for coordinated climate finance risk management and to embed climate concerns into federal lending and procurement processes.",
+      "potential_impact": "These executive orders aim to positively impact the green energy industry, environmental advocates, agricultural workers, and financial institutions by fostering sustainable investment and climate resilience. Conversely, domestic energy producers, foreign processors of critical minerals, and certain investment entities face regulatory constraints and potential economic disadvantages. Concerns include bureaucratic delays, resistance from energy sectors, challenges balancing rapid clean energy deployment with environmental and community interests, and the risk of inadequate engagement with disadvantaged communities. Increased compliance costs and potential disruptions in procurement and lending processes also pose significant challenges.",
+      "generated_at": "2025-12-09T04:04:50.657Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "gender-history-recognition",
+      "theme_name": "Gender History Recognition",
+      "order_count": 2,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "The Gender History Recognition theme encompasses 2 executive orders, both signed by President Joseph R. Biden Jr., including EO 14020 establishing the White House Gender Policy Council and EO 14121 focusing on recognizing and honoring women's history. These orders aim to institutionalize gender equity initiatives and enhance historical recognition of women and diverse communities. The Council's broad mandate involves coordinating federal efforts on gender policy, while initiatives emphasize historical acknowledgment and intersectional discrimination. Challenges noted include potential coordination overlaps, resource constraints, and political sensitivities surrounding gender identity and reproductive rights.",
+      "potential_impact": "The executive orders aim to positively impact women and girls through enhanced policy focus and historical recognition, with an additional emphasis on diverse historical communities. No populations are explicitly targeted for negative impact. Key concerns include the risk of uneven representation of women's diverse experiences, potential diversion of resources from other cultural priorities, and resistance within agencies due to budget or priority conflicts. Political and cultural controversies may arise over inclusion criteria, and implementation may be hindered by resource limitations and coordination challenges, affecting the consistency and speed of achieving intended gender equity outcomes.",
+      "generated_at": "2025-12-09T04:04:54.432Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "women-health-research",
+      "theme_name": "Women Health Research",
+      "order_count": 2,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "The \"Women Health Research\" theme encompasses 2 executive orders signed solely by President Joseph R. Biden Jr., including EO 14020 establishing the White House Gender Policy Council and EO 14120 focused on advancing women's health research and innovation. These orders emphasize gender policy coordination, intersectional discrimination, and increased research innovation targeting women’s health. Key initiatives involve interagency collaboration, enhancing clinical trial inclusion, and promoting innovation through federal agencies and small businesses. The theme addresses systemic gender disparities in health research and policy and aims to elevate women’s health within federal priorities, though concerns about overlap and resource competition persist.",
+      "potential_impact": "These orders aim to positively impact women and girls broadly, including subpopulations such as women of color, women with disabilities, and older women, as well as scientific researchers focused on gender-specific health issues. They are designed to enhance inclusivity and innovation in health research while addressing intersectional discrimination. However, concerns include potential negative impacts on competing research areas due to resource reallocation, increased administrative burdens on researchers, and political contention around gender identity and reproductive rights initiatives. Bureaucratic challenges and resistance within agencies may also affect implementation effectiveness.",
+      "generated_at": "2025-12-09T04:04:58.379Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "pharmaceutical-cost-control",
+      "theme_name": "Pharmaceutical Cost Control",
+      "order_count": 2,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "The Pharmaceutical Cost Control theme encompasses two executive orders signed exclusively by President Joseph R. Biden Jr., including EO 14036 and EO 14087. These orders focus on promoting competition in the American economy and lowering prescription drug costs for Americans. Key measures involve antitrust actions, price negotiations, and regulatory reforms aimed at reducing pharmaceutical expenses. The approach combines initiatives targeting both market dynamics and specific pricing mechanisms, reflecting a comprehensive strategy toward cost containment in the pharmaceutical sector.",
+      "potential_impact": "These orders are aimed to positively impact seniors, low-income patients, medical patients, and the tech industry by seeking lower drug prices and enhanced competition. Conversely, foreign suppliers and pharmaceutical manufacturers are aimed to be negatively impacted through stricter regulations and price controls. Key concerns include increased regulatory burdens potentially hindering business growth and innovation, bureaucratic inefficiencies from multi-agency coordination, opposition from industry groups, risks of price increases in other markets, and uncertainties regarding the effectiveness of cost-lowering models and potential disruptions to Medicare and Medicaid beneficiaries.",
+      "generated_at": "2025-12-09T04:05:02.138Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "digital-assets-policy",
+      "theme_name": "Digital Assets Policy",
+      "order_count": 2,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "The Digital Assets Policy theme comprises 2 executive orders signed exclusively by President Joseph R. Biden Jr., notably EO 14058 and EO 14067. These orders focus on transforming federal customer experience to enhance trust and ensuring responsible development of digital assets. The theme covers government service modernization, regulatory frameworks for digital currencies, and the intersection of technology with financial institutions. Key initiatives involve improving service delivery, safeguarding innovation, and addressing the evolving landscape of digital finance while navigating coordination challenges across agencies and sectors.",
+      "potential_impact": "These orders aim to positively impact government service users, underserved communities, the tech industry, and financial institutions by enhancing service efficiency and fostering responsible innovation. Conversely, they may negatively affect foreign suppliers through tightened regulations and unbanked or underbanked populations due to potential exclusion or reduced accessibility. Concerns include privacy risks, surveillance implications, digital divide barriers, environmental effects of cryptocurrency mining, and the challenge of maintaining balanced oversight amid rapid technological change and international regulatory coordination difficulties.",
+      "generated_at": "2025-12-09T04:05:05.837Z",
+      "model_used": "gpt-4.1-mini"
+    }
+  ],
+  "generated_at": "2025-12-09T04:05:05.838Z"
+}

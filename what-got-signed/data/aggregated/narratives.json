@@ -1,0 +1,38 @@
+{
+  "narratives": [
+    {
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "term_start": 2025,
+      "term_end": "present",
+      "order_count": 217,
+      "summary": "Donald Trump, serving from 2025 to present, signed 217 executive orders predominantly focused on National Security (121), Federal Agency Management (77), Regulatory Reform (69), Foreign Policy (66), and Trade Policy (64). Key orders included EO 14147 ending government weaponization, EO 14154 unleashing American energy, EO 14155 withdrawing from WHO, and EO 14165 securing borders. Temporal progression showed a frontloaded issuance with 109 orders in Q1 emphasizing national security and agency management. Thematic breadth extended to technology, energy, immigration, and public safety, reflecting a comprehensive agenda targeting federal operations, international relations, and domestic policy priorities.",
+      "potential_impact": "The orders aimed to positively impact the tech industry (33 orders), domestic energy producers (26), manufacturing workers (17), scientific researchers (16), and federal employees (15), among others. Conversely, foreign suppliers (41 orders), foreign manufacturers (30), environmental advocates (13), and the green energy sector (12) were targeted for negative impacts. Concerns include politicization of justice and intelligence agencies, undermining of equity programs, weakening of environmental protections, challenges to public health efforts, and potential diplomatic fallout from America First policies. The rollback of DEI and climate initiatives may disproportionately affect minority and underserved populations.",
+      "generated_at": "2025-12-09T04:03:18.817Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "term_start": 2021,
+      "term_end": 2025,
+      "order_count": 161,
+      "summary": "Joseph R. Biden Jr. signed 161 executive orders from 2021 to 2025, focusing primarily on national security (68 orders), equity and inclusion (52), and federal agency management (44). Other significant themes included foreign policy (44), economic development (30), and workforce development (27). Key orders addressed racial equity (EO 13985), COVID-19 response (EOs 13987, 13994-96), climate crisis (EO 13990, 14008), immigration reform (EO 13993, 14012), and supply chain security (EO 14017). The temporal pattern shows an intense initial period in 2021 Q1 with 38 orders, then a steady issuance spanning diverse policy areas throughout the term, emphasizing coordination across federal agencies and inclusive governance.",
+      "potential_impact": "The executive orders aimed to positively impact federal employees, underserved communities, and sectors such as tech, scientific research, tribal nations, and American workers by promoting equity, workforce development, and public health. Conversely, foreign suppliers, private sector employers, and domestic energy producers were among populations targeted for restrictive measures, often linked to sanctions or regulatory shifts. Concerns include implementation challenges due to data limitations, interagency coordination complexities, potential legal disputes over equity and immigration policies, privacy issues, and resistance from groups affected by anti-discrimination expansions or regulatory reversals.",
+      "generated_at": "2025-12-09T04:03:23.357Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "term_start": 2017,
+      "term_end": 2021,
+      "order_count": 14,
+      "summary": "Donald Trump signed 14 executive orders primarily in 2021 Q1, focusing on national security (7 orders), federal agency management (3 orders), and federal procurement policy (3 orders). Key orders addressed threats from Chinese software (EO 13971), promoted small modular nuclear reactors for defense and space (EO 13972), and amended investment restrictions on Chinese military-linked companies (EO 13974). Other significant orders included succession planning at the EPA (EO 13973), Buy American policies for USPS (EO 13975), and regulatory reforms to reduce overcriminalization (EO 13980). The orders collectively targeted cybersecurity, trade, public safety, and regulatory reform themes.",
+      "potential_impact": "The executive orders aimed to positively impact the tech industry, federal employees, scientific researchers, domestic energy producers, investors, manufacturing workers, state and local governments, and military veterans. Conversely, they aimed to negatively impact foreign suppliers, foreign manufacturers, China, and foreign investors linked to countries of concern. Concerns include economic retaliation from China, enforcement complexities especially around software bans, potential financial losses for investors due to divestment mandates, bureaucratic delays in agency succession and nuclear reactor deployment, and increased costs from Buy American policies potentially affecting USPS operations and service pricing.",
+      "generated_at": "2025-12-09T04:03:14.649Z",
+      "model_used": "gpt-4.1-mini"
+    }
+  ],
+  "generated_at": "2025-12-09T04:03:23.358Z"
+}

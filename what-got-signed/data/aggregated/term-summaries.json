@@ -1,0 +1,110 @@
+{
+  "summaries": [
+    {
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "term_start": 2025,
+      "term_end": "present",
+      "order_count": 217,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security",
+          "count": 121
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management",
+          "count": 77
+        },
+        {
+          "id": "regulatory-reform",
+          "name": "Regulatory Reform",
+          "count": 69
+        },
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy",
+          "count": 66
+        },
+        {
+          "id": "trade-policy",
+          "name": "Trade Policy",
+          "count": 64
+        }
+      ],
+      "short_summary": "Donald Trump signed 217 executive orders from 2025 until present. The top themes have been: national security, federal agency management, regulatory reform, foreign policy, trade policy."
+    },
+    {
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "term_start": 2021,
+      "term_end": 2025,
+      "order_count": 161,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security",
+          "count": 68
+        },
+        {
+          "id": "equity-and-inclusion-policy",
+          "name": "Equity And Inclusion Policy",
+          "count": 52
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management",
+          "count": 44
+        },
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy",
+          "count": 44
+        },
+        {
+          "id": "economic-development",
+          "name": "Economic Development",
+          "count": 30
+        }
+      ],
+      "short_summary": "Joseph R. Biden Jr. signed 161 executive orders from 2021 until 2025. The top themes were: national security, equity and inclusion policy, federal agency management, foreign policy, economic development."
+    },
+    {
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "term_start": 2017,
+      "term_end": 2021,
+      "order_count": 14,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security",
+          "count": 7
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management",
+          "count": 3
+        },
+        {
+          "id": "federal-procurement-policy",
+          "name": "Federal Procurement Policy",
+          "count": 3
+        },
+        {
+          "id": "public-safety",
+          "name": "Public Safety",
+          "count": 3
+        },
+        {
+          "id": "regulatory-reform",
+          "name": "Regulatory Reform",
+          "count": 3
+        }
+      ],
+      "short_summary": "Donald Trump signed 14 executive orders from 2017 until 2021. The top themes were: national security, federal agency management, federal procurement policy, public safety, regulatory reform."
+    }
+  ],
+  "generated_at": "2025-12-09T04:02:21.708Z"
+}

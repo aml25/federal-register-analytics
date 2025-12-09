@@ -1,0 +1,2135 @@
+{
+  "periods": [
+    {
+      "year": 2025,
+      "month": 11,
+      "month_name": "November",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 7,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "trade-policy",
+          "name": "Trade Policy"
+        },
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "artificial-intelligence",
+          "name": "Artificial Intelligence"
+        },
+        {
+          "id": "technology-development",
+          "name": "Technology Development"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 7 executive orders focused on the themes of national security, trade policy, foreign policy, and 2 others.",
+      "order_ids": [
+        "14357",
+        "14358",
+        "14359",
+        "14360",
+        "14361",
+        "14362",
+        "14363"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "month_name": "October",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "federal-workforce",
+          "name": "Federal Workforce"
+        },
+        {
+          "id": "immigration-enforcement",
+          "name": "Immigration Enforcement"
+        },
+        {
+          "id": "public-safety",
+          "name": "Public Safety"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 1 executive order focused on the themes of national security, federal workforce, immigration enforcement, and 1 other.",
+      "order_ids": [
+        "14356"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "month_name": "September",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 11,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "trade-policy",
+          "name": "Trade Policy"
+        },
+        {
+          "id": "immigration-enforcement",
+          "name": "Immigration Enforcement"
+        },
+        {
+          "id": "federal-workforce",
+          "name": "Federal Workforce"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 11 executive orders focused on the themes of national security, foreign policy, trade policy, and 2 others.",
+      "order_ids": [
+        "14345",
+        "14346",
+        "14347",
+        "14348",
+        "14349",
+        "14350",
+        "14351",
+        "14352",
+        "14353",
+        "14354",
+        "14355"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "month_name": "August",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 17,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "public-safety",
+          "name": "Public Safety"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        },
+        {
+          "id": "federal-workforce",
+          "name": "Federal Workforce"
+        },
+        {
+          "id": "trade-policy",
+          "name": "Trade Policy"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 17 executive orders focused on the themes of national security, public safety, federal agency management, and 2 others.",
+      "order_ids": [
+        "14328",
+        "14329",
+        "14330",
+        "14331",
+        "14332",
+        "14333",
+        "14334",
+        "14335",
+        "14336",
+        "14337",
+        "14338",
+        "14339",
+        "14340",
+        "14341",
+        "14342",
+        "14343",
+        "14344"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "month_name": "July",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 15,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "trade-policy",
+          "name": "Trade Policy"
+        },
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        },
+        {
+          "id": "regulatory-reform",
+          "name": "Regulatory Reform"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 15 executive orders focused on the themes of national security, trade policy, foreign policy, and 2 others.",
+      "order_ids": [
+        "14313",
+        "14314",
+        "14315",
+        "14316",
+        "14317",
+        "14318",
+        "14319",
+        "14320",
+        "14321",
+        "14322",
+        "14323",
+        "14324",
+        "14325",
+        "14326",
+        "14327"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "month_name": "June",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 9,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "technology-development",
+          "name": "Technology Development"
+        },
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        },
+        {
+          "id": "trade-policy",
+          "name": "Trade Policy"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 9 executive orders focused on the themes of national security, technology development, foreign policy, and 2 others.",
+      "order_ids": [
+        "14304",
+        "14305",
+        "14306",
+        "14307",
+        "14308",
+        "14309",
+        "14310",
+        "14311",
+        "14312"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "month_name": "May",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 12,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "regulatory-reform",
+          "name": "Regulatory Reform"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        },
+        {
+          "id": "technology-development",
+          "name": "Technology Development"
+        },
+        {
+          "id": "federal-research-coordination",
+          "name": "Federal Research Coordination"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 12 executive orders focused on the themes of national security, regulatory reform, federal agency management, and 2 others.",
+      "order_ids": [
+        "14292",
+        "14293",
+        "14294",
+        "14295",
+        "14296",
+        "14297",
+        "14298",
+        "14299",
+        "14300",
+        "14301",
+        "14302",
+        "14303"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "month_name": "April",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 36,
+      "top_themes": [
+        {
+          "id": "regulatory-reform",
+          "name": "Regulatory Reform"
+        },
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        },
+        {
+          "id": "trade-policy",
+          "name": "Trade Policy"
+        },
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 36 executive orders focused on the themes of regulatory reform, national security, federal agency management, and 2 others.",
+      "order_ids": [
+        "14256",
+        "14257",
+        "14258",
+        "14259",
+        "14260",
+        "14261",
+        "14262",
+        "14263",
+        "14264",
+        "14265",
+        "14266",
+        "14267",
+        "14268",
+        "14269",
+        "14270",
+        "14271",
+        "14272",
+        "14273",
+        "14274",
+        "14275",
+        "14276",
+        "14277",
+        "14278",
+        "14279",
+        "14280",
+        "14281",
+        "14282",
+        "14283",
+        "14284",
+        "14285",
+        "14286",
+        "14287",
+        "14288",
+        "14289",
+        "14290",
+        "14291"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "month_name": "March",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 30,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        },
+        {
+          "id": "trade-policy",
+          "name": "Trade Policy"
+        },
+        {
+          "id": "federal-workforce",
+          "name": "Federal Workforce"
+        },
+        {
+          "id": "regulatory-reform",
+          "name": "Regulatory Reform"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 30 executive orders focused on the themes of national security, federal agency management, trade policy, and 2 others.",
+      "order_ids": [
+        "14226",
+        "14227",
+        "14228",
+        "14229",
+        "14230",
+        "14231",
+        "14232",
+        "14233",
+        "14234",
+        "14235",
+        "14236",
+        "14237",
+        "14238",
+        "14239",
+        "14240",
+        "14241",
+        "14242",
+        "14243",
+        "14244",
+        "14245",
+        "14246",
+        "14247",
+        "14248",
+        "14249",
+        "14250",
+        "14251",
+        "14252",
+        "14253",
+        "14254",
+        "14255"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "month_name": "February",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 30,
+      "top_themes": [
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "regulatory-reform",
+          "name": "Regulatory Reform"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        },
+        {
+          "id": "trade-policy",
+          "name": "Trade Policy"
+        },
+        {
+          "id": "national-security",
+          "name": "National Security"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 30 executive orders focused on the themes of foreign policy, regulatory reform, federal agency management, and 2 others.",
+      "order_ids": [
+        "14196",
+        "14197",
+        "14198",
+        "14199",
+        "14200",
+        "14201",
+        "14202",
+        "14203",
+        "14204",
+        "14205",
+        "14206",
+        "14207",
+        "14208",
+        "14209",
+        "14210",
+        "14211",
+        "14212",
+        "14213",
+        "14214",
+        "14215",
+        "14216",
+        "14217",
+        "14218",
+        "14219",
+        "14220",
+        "14221",
+        "14222",
+        "14223",
+        "14224",
+        "14225"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "month_name": "January",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr. and Donald Trump",
+      "order_count": 62,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        },
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "federal-workforce",
+          "name": "Federal Workforce"
+        },
+        {
+          "id": "regulatory-reform",
+          "name": "Regulatory Reform"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. and Donald Trump signed 62 executive orders focused on the themes of national security, federal agency management, foreign policy, and 2 others.",
+      "order_ids": [
+        "14134",
+        "14135",
+        "14136",
+        "14137",
+        "14138",
+        "14139",
+        "14140",
+        "14141",
+        "14142",
+        "14143",
+        "14144",
+        "14145",
+        "14146",
+        "14147",
+        "14148",
+        "14149",
+        "14150",
+        "14151",
+        "14152",
+        "14153",
+        "14154",
+        "14155",
+        "14156",
+        "14157",
+        "14158",
+        "14159",
+        "14160",
+        "14161",
+        "14162",
+        "14163",
+        "14164",
+        "14165",
+        "14166",
+        "14167",
+        "14168",
+        "14169",
+        "14170",
+        "14171",
+        "14172",
+        "14173",
+        "14174",
+        "14175",
+        "14176",
+        "14177",
+        "14178",
+        "14179",
+        "14180",
+        "14181",
+        "14182",
+        "14183",
+        "14184",
+        "14185",
+        "14186",
+        "14187",
+        "14188",
+        "14189",
+        "14190",
+        "14191",
+        "14192",
+        "14193",
+        "14194",
+        "14195"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "month_name": "December",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 5,
+      "top_themes": [
+        {
+          "id": "federal-workforce",
+          "name": "Federal Workforce"
+        },
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        },
+        {
+          "id": "military-personnel-policy",
+          "name": "Military Personnel Policy"
+        },
+        {
+          "id": "criminal-justice-enforcement",
+          "name": "Criminal Justice Enforcement"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 5 executive orders focused on the themes of federal workforce, national security, federal agency management, and 2 others.",
+      "order_ids": [
+        "14129",
+        "14130",
+        "14131",
+        "14132",
+        "14133"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "month_name": "November",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "labor-relations",
+          "name": "Labor Relations"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 1 executive order focused on the themes of labor relations.",
+      "order_ids": [
+        "14128"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "month_name": "September",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "education-policy",
+          "name": "Education Policy"
+        },
+        {
+          "id": "economic-development",
+          "name": "Economic Development"
+        },
+        {
+          "id": "labor-relations",
+          "name": "Labor Relations"
+        },
+        {
+          "id": "federal-procurement-policy",
+          "name": "Federal Procurement Policy"
+        },
+        {
+          "id": "community-development",
+          "name": "Community Development"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 2 executive orders focused on the themes of education policy, economic development, labor relations, and 2 others.",
+      "order_ids": [
+        "14126",
+        "14127"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "month_name": "July",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "education-policy",
+          "name": "Education Policy"
+        },
+        {
+          "id": "workforce-development",
+          "name": "Workforce Development"
+        },
+        {
+          "id": "economic-development",
+          "name": "Economic Development"
+        },
+        {
+          "id": "advisory-committees-management",
+          "name": "Advisory Committees Management"
+        },
+        {
+          "id": "labor-relations",
+          "name": "Labor Relations"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 2 executive orders focused on the themes of education policy, workforce development, economic development, and 2 others.",
+      "order_ids": [
+        "14124",
+        "14125"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "month_name": "June",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "supply-chain-security",
+          "name": "Supply Chain Security"
+        },
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "trade-policy",
+          "name": "Trade Policy"
+        },
+        {
+          "id": "economic-development",
+          "name": "Economic Development"
+        },
+        {
+          "id": "workforce-development",
+          "name": "Workforce Development"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 1 executive order focused on the themes of supply chain security, national security, trade policy, and 2 others.",
+      "order_ids": [
+        "14123"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "month_name": "April",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        },
+        {
+          "id": "disaster-preparedness",
+          "name": "Disaster Preparedness"
+        },
+        {
+          "id": "public-health-administration",
+          "name": "Public Health Administration"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 1 executive order focused on the themes of national security, federal agency management, disaster preparedness, and 1 other.",
+      "order_ids": [
+        "14122"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "month_name": "March",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 4,
+      "top_themes": [
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "federal-workforce",
+          "name": "Federal Workforce"
+        },
+        {
+          "id": "labor-relations",
+          "name": "Labor Relations"
+        },
+        {
+          "id": "workforce-development",
+          "name": "Workforce Development"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 4 executive orders focused on the themes of foreign policy, national security, federal workforce, and 2 others.",
+      "order_ids": [
+        "14118",
+        "14119",
+        "14120",
+        "14121"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "month_name": "February",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "privacy-and-data-security",
+          "name": "Privacy And Data Security"
+        },
+        {
+          "id": "maritime-security",
+          "name": "Maritime Security"
+        },
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "consumer-protection",
+          "name": "Consumer Protection"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 2 executive orders focused on the themes of national security, privacy and data security, maritime security, and 2 others.",
+      "order_ids": [
+        "14116",
+        "14117"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "month_name": "January",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "counterterrorism-policy",
+          "name": "Counterterrorism Policy"
+        },
+        {
+          "id": "immigration-enforcement",
+          "name": "Immigration Enforcement"
+        },
+        {
+          "id": "financial-regulation",
+          "name": "Financial Regulation"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 1 executive order focused on the themes of national security, foreign policy, counterterrorism policy, and 2 others.",
+      "order_ids": [
+        "14115"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "month_name": "December",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "regulatory-reform",
+          "name": "Regulatory Reform"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        },
+        {
+          "id": "economic-development",
+          "name": "Economic Development"
+        },
+        {
+          "id": "community-development",
+          "name": "Community Development"
+        },
+        {
+          "id": "tribal-policy",
+          "name": "Tribal Policy"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 3 executive orders focused on the themes of regulatory reform, federal agency management, economic development, and 2 others.",
+      "order_ids": [
+        "14112",
+        "14113",
+        "14114"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "month_name": "November",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        },
+        {
+          "id": "federal-property-management",
+          "name": "Federal Property Management"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 1 executive order focused on the themes of national security, federal agency management, and federal property management.",
+      "order_ids": [
+        "14111"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 10,
+      "month_name": "October",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "artificial-intelligence",
+          "name": "Artificial Intelligence"
+        },
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "federal-workforce",
+          "name": "Federal Workforce"
+        },
+        {
+          "id": "consumer-protection",
+          "name": "Consumer Protection"
+        },
+        {
+          "id": "civil-rights-enforcement",
+          "name": "Civil Rights Enforcement"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 1 executive order focused on the themes of artificial intelligence, national security, federal workforce, and 2 others.",
+      "order_ids": [
+        "14110"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "month_name": "September",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        },
+        {
+          "id": "federal-workforce",
+          "name": "Federal Workforce"
+        },
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "environmental-regulation",
+          "name": "Environmental Regulation"
+        },
+        {
+          "id": "disaster-preparedness",
+          "name": "Disaster Preparedness"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 3 executive orders focused on the themes of federal agency management, federal workforce, national security, and 2 others.",
+      "order_ids": [
+        "14107",
+        "14108",
+        "14109"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "month_name": "August",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "financial-regulation",
+          "name": "Financial Regulation"
+        },
+        {
+          "id": "technology-development",
+          "name": "Technology Development"
+        },
+        {
+          "id": "artificial-intelligence",
+          "name": "Artificial Intelligence"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 2 executive orders focused on the themes of national security, foreign policy, financial regulation, and 2 others.",
+      "order_ids": [
+        "14105",
+        "14106"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "month_name": "July",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "military-personnel-policy",
+          "name": "Military Personnel Policy"
+        },
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "criminal-justice-enforcement",
+          "name": "Criminal Justice Enforcement"
+        },
+        {
+          "id": "federal-research-coordination",
+          "name": "Federal Research Coordination"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 3 executive orders focused on the themes of national security, military personnel policy, foreign policy, and 2 others.",
+      "order_ids": [
+        "14102",
+        "14103",
+        "14104"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "month_name": "June",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "veterans-affairs-policy",
+          "name": "Veterans Affairs Policy"
+        },
+        {
+          "id": "equity-and-inclusion-policy",
+          "name": "Equity And Inclusion Policy"
+        },
+        {
+          "id": "federal-workforce",
+          "name": "Federal Workforce"
+        },
+        {
+          "id": "economic-development",
+          "name": "Economic Development"
+        },
+        {
+          "id": "workforce-development",
+          "name": "Workforce Development"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 2 executive orders focused on the themes of veterans affairs policy, equity and inclusion policy, federal workforce, and 2 others.",
+      "order_ids": [
+        "14100",
+        "14101"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "month_name": "May",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "immigration-enforcement",
+          "name": "Immigration Enforcement"
+        },
+        {
+          "id": "trade-policy",
+          "name": "Trade Policy"
+        },
+        {
+          "id": "federal-workforce",
+          "name": "Federal Workforce"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 2 executive orders focused on the themes of national security, foreign policy, immigration enforcement, and 2 others.",
+      "order_ids": [
+        "14098",
+        "14099"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "month_name": "April",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 4,
+      "top_themes": [
+        {
+          "id": "equity-and-inclusion-policy",
+          "name": "Equity And Inclusion Policy"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        },
+        {
+          "id": "workforce-development",
+          "name": "Workforce Development"
+        },
+        {
+          "id": "tribal-policy",
+          "name": "Tribal Policy"
+        },
+        {
+          "id": "community-development",
+          "name": "Community Development"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 4 executive orders focused on the themes of equity and inclusion policy, federal agency management, workforce development, and 2 others.",
+      "order_ids": [
+        "14094",
+        "14095",
+        "14096",
+        "14097"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "month_name": "March",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "public-safety",
+          "name": "Public Safety"
+        },
+        {
+          "id": "firearms-control",
+          "name": "Firearms Control"
+        },
+        {
+          "id": "public-health-promotion",
+          "name": "Public Health Promotion"
+        },
+        {
+          "id": "education-policy",
+          "name": "Education Policy"
+        },
+        {
+          "id": "veterans-affairs-policy",
+          "name": "Veterans Affairs Policy"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 2 executive orders focused on the themes of public safety, firearms control, public health promotion, and 2 others.",
+      "order_ids": [
+        "14092",
+        "14093"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "month_name": "February",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "equity-and-inclusion-policy",
+          "name": "Equity And Inclusion Policy"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        },
+        {
+          "id": "federal-procurement-policy",
+          "name": "Federal Procurement Policy"
+        },
+        {
+          "id": "community-development",
+          "name": "Community Development"
+        },
+        {
+          "id": "tribal-policy",
+          "name": "Tribal Policy"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 1 executive order focused on the themes of equity and inclusion policy, federal agency management, federal procurement policy, and 2 others.",
+      "order_ids": [
+        "14091"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 12,
+      "month_name": "December",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "advisory-committees-management",
+          "name": "Advisory Committees Management"
+        },
+        {
+          "id": "equity-and-inclusion-policy",
+          "name": "Equity And Inclusion Policy"
+        },
+        {
+          "id": "economic-development",
+          "name": "Economic Development"
+        },
+        {
+          "id": "education-policy",
+          "name": "Education Policy"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 2 executive orders focused on the themes of foreign policy, advisory committees management, equity and inclusion policy, and 2 others.",
+      "order_ids": [
+        "14089",
+        "14090"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 10,
+      "month_name": "October",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "privacy-and-data-security",
+          "name": "Privacy And Data Security"
+        },
+        {
+          "id": "consumer-protection",
+          "name": "Consumer Protection"
+        },
+        {
+          "id": "public-health-administration",
+          "name": "Public Health Administration"
+        },
+        {
+          "id": "pharmaceutical-cost-control",
+          "name": "Pharmaceutical Cost Control"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 3 executive orders focused on the themes of national security, privacy and data security, consumer protection, and 2 others.",
+      "order_ids": [
+        "14086",
+        "14087",
+        "14088"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 9,
+      "month_name": "September",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 4,
+      "top_themes": [
+        {
+          "id": "technology-development",
+          "name": "Technology Development"
+        },
+        {
+          "id": "economic-development",
+          "name": "Economic Development"
+        },
+        {
+          "id": "equity-and-inclusion-policy",
+          "name": "Equity And Inclusion Policy"
+        },
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "supply-chain-security",
+          "name": "Supply Chain Security"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 4 executive orders focused on the themes of technology development, economic development, equity and inclusion policy, and 2 others.",
+      "order_ids": [
+        "14081",
+        "14082",
+        "14083",
+        "14084"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 8,
+      "month_name": "August",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "reproductive-health-policy",
+          "name": "Reproductive Health Policy"
+        },
+        {
+          "id": "civil-rights-enforcement",
+          "name": "Civil Rights Enforcement"
+        },
+        {
+          "id": "public-health-administration",
+          "name": "Public Health Administration"
+        },
+        {
+          "id": "data-governance",
+          "name": "Data Governance"
+        },
+        {
+          "id": "economic-development",
+          "name": "Economic Development"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 2 executive orders focused on the themes of reproductive health policy, civil rights enforcement, public health administration, and 2 others.",
+      "order_ids": [
+        "14079",
+        "14080"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "month_name": "July",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "public-safety",
+          "name": "Public Safety"
+        },
+        {
+          "id": "reproductive-health-policy",
+          "name": "Reproductive Health Policy"
+        },
+        {
+          "id": "privacy-and-data-security",
+          "name": "Privacy And Data Security"
+        },
+        {
+          "id": "civil-rights-enforcement",
+          "name": "Civil Rights Enforcement"
+        },
+        {
+          "id": "legal-profession-policy",
+          "name": "Legal Profession Policy"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 3 executive orders focused on the themes of public safety, reproductive health policy, privacy and data security, and 2 others.",
+      "order_ids": [
+        "14076",
+        "14077",
+        "14078"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 6,
+      "month_name": "June",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "equity-and-inclusion-policy",
+          "name": "Equity And Inclusion Policy"
+        },
+        {
+          "id": "child-welfare-policy",
+          "name": "Child Welfare Policy"
+        },
+        {
+          "id": "public-health-promotion",
+          "name": "Public Health Promotion"
+        },
+        {
+          "id": "education-policy",
+          "name": "Education Policy"
+        },
+        {
+          "id": "consumer-protection",
+          "name": "Consumer Protection"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 1 executive order focused on the themes of equity and inclusion policy, child welfare policy, public health promotion, and 2 others.",
+      "order_ids": [
+        "14075"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 5,
+      "month_name": "May",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "technology-development",
+          "name": "Technology Development"
+        },
+        {
+          "id": "advisory-committees-management",
+          "name": "Advisory Committees Management"
+        },
+        {
+          "id": "federal-research-coordination",
+          "name": "Federal Research Coordination"
+        },
+        {
+          "id": "scientific-research",
+          "name": "Scientific Research"
+        },
+        {
+          "id": "national-security",
+          "name": "National Security"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 2 executive orders focused on the themes of technology development, advisory committees management, federal research coordination, and 2 others.",
+      "order_ids": [
+        "14073",
+        "14074"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 4,
+      "month_name": "April",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "trade-policy",
+          "name": "Trade Policy"
+        },
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "consumer-protection",
+          "name": "Consumer Protection"
+        },
+        {
+          "id": "reproductive-health-policy",
+          "name": "Reproductive Health Policy"
+        },
+        {
+          "id": "healthcare-access",
+          "name": "Healthcare Access"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 3 executive orders focused on the themes of trade policy, foreign policy, consumer protection, and 2 others.",
+      "order_ids": [
+        "14070",
+        "14071",
+        "14072"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 3,
+      "month_name": "March",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 4,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "trade-policy",
+          "name": "Trade Policy"
+        },
+        {
+          "id": "financial-regulation",
+          "name": "Financial Regulation"
+        },
+        {
+          "id": "energy-policy",
+          "name": "Energy Policy"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 4 executive orders focused on the themes of national security, foreign policy, trade policy, and 2 others.",
+      "order_ids": [
+        "14066",
+        "14067",
+        "14068",
+        "14069"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 2,
+      "month_name": "February",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "federal-procurement-policy",
+          "name": "Federal Procurement Policy"
+        },
+        {
+          "id": "labor-relations",
+          "name": "Labor Relations"
+        },
+        {
+          "id": "federal-property-management",
+          "name": "Federal Property Management"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 3 executive orders focused on the themes of foreign policy, national security, federal procurement policy, and 2 others.",
+      "order_ids": [
+        "14063",
+        "14064",
+        "14065"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 1,
+      "month_name": "January",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "military-personnel-policy",
+          "name": "Military Personnel Policy"
+        },
+        {
+          "id": "criminal-justice-enforcement",
+          "name": "Criminal Justice Enforcement"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 1 executive order focused on the themes of military personnel policy and criminal justice enforcement.",
+      "order_ids": [
+        "14062"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 12,
+      "month_name": "December",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 5,
+      "top_themes": [
+        {
+          "id": "federal-workforce",
+          "name": "Federal Workforce"
+        },
+        {
+          "id": "equity-and-inclusion-policy",
+          "name": "Equity And Inclusion Policy"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        },
+        {
+          "id": "workforce-development",
+          "name": "Workforce Development"
+        },
+        {
+          "id": "veterans-affairs-policy",
+          "name": "Veterans Affairs Policy"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 5 executive orders focused on the themes of federal workforce, equity and inclusion policy, federal agency management, and 2 others.",
+      "order_ids": [
+        "14057",
+        "14058",
+        "14059",
+        "14060",
+        "14061"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 11,
+      "month_name": "November",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 5,
+      "top_themes": [
+        {
+          "id": "equity-and-inclusion-policy",
+          "name": "Equity And Inclusion Policy"
+        },
+        {
+          "id": "labor-relations",
+          "name": "Labor Relations"
+        },
+        {
+          "id": "tribal-policy",
+          "name": "Tribal Policy"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        },
+        {
+          "id": "national-security",
+          "name": "National Security"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 5 executive orders focused on the themes of equity and inclusion policy, labor relations, tribal policy, and 2 others.",
+      "order_ids": [
+        "14052",
+        "14053",
+        "14054",
+        "14055",
+        "14056"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 10,
+      "month_name": "October",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "education-policy",
+          "name": "Education Policy"
+        },
+        {
+          "id": "equity-and-inclusion-policy",
+          "name": "Equity And Inclusion Policy"
+        },
+        {
+          "id": "workforce-development",
+          "name": "Workforce Development"
+        },
+        {
+          "id": "advisory-committees-management",
+          "name": "Advisory Committees Management"
+        },
+        {
+          "id": "tribal-policy",
+          "name": "Tribal Policy"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 3 executive orders focused on the themes of education policy, equity and inclusion policy, workforce development, and 2 others.",
+      "order_ids": [
+        "14049",
+        "14050",
+        "14051"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 9,
+      "month_name": "September",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 9,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "education-policy",
+          "name": "Education Policy"
+        },
+        {
+          "id": "public-health-administration",
+          "name": "Public Health Administration"
+        },
+        {
+          "id": "equity-and-inclusion-policy",
+          "name": "Equity And Inclusion Policy"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 9 executive orders focused on the themes of national security, education policy, public health administration, and 2 others.",
+      "order_ids": [
+        "14040",
+        "14041",
+        "14042",
+        "14043",
+        "14044",
+        "14045",
+        "14046",
+        "14047",
+        "14048"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 8,
+      "month_name": "August",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "trade-policy",
+          "name": "Trade Policy"
+        },
+        {
+          "id": "humanitarian-economic-support",
+          "name": "Humanitarian Economic Support"
+        },
+        {
+          "id": "environmental-regulation",
+          "name": "Environmental Regulation"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 3 executive orders focused on the themes of foreign policy, national security, trade policy, and 2 others.",
+      "order_ids": [
+        "14037",
+        "14038",
+        "14039"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 7,
+      "month_name": "July",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "economic-development",
+          "name": "Economic Development"
+        },
+        {
+          "id": "consumer-protection",
+          "name": "Consumer Protection"
+        },
+        {
+          "id": "regulatory-reform",
+          "name": "Regulatory Reform"
+        },
+        {
+          "id": "labor-relations",
+          "name": "Labor Relations"
+        },
+        {
+          "id": "financial-regulation",
+          "name": "Financial Regulation"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 1 executive order focused on the themes of economic development, consumer protection, regulatory reform, and 2 others.",
+      "order_ids": [
+        "14036"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 6,
+      "month_name": "June",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 4,
+      "top_themes": [
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "privacy-and-data-security",
+          "name": "Privacy And Data Security"
+        },
+        {
+          "id": "trade-policy",
+          "name": "Trade Policy"
+        },
+        {
+          "id": "financial-regulation",
+          "name": "Financial Regulation"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 4 executive orders focused on the themes of national security, foreign policy, privacy and data security, and 2 others.",
+      "order_ids": [
+        "14032",
+        "14033",
+        "14034",
+        "14035"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 5,
+      "month_name": "May",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 5,
+      "top_themes": [
+        {
+          "id": "climate-change-mitigation",
+          "name": "Climate Change Mitigation"
+        },
+        {
+          "id": "federal-procurement-policy",
+          "name": "Federal Procurement Policy"
+        },
+        {
+          "id": "federal-workforce",
+          "name": "Federal Workforce"
+        },
+        {
+          "id": "equity-and-inclusion-policy",
+          "name": "Equity And Inclusion Policy"
+        },
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 5 executive orders focused on the themes of climate change mitigation, federal procurement policy, federal workforce, and 2 others.",
+      "order_ids": [
+        "14027",
+        "14028",
+        "14029",
+        "14030",
+        "14031"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 4,
+      "month_name": "April",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 4,
+      "top_themes": [
+        {
+          "id": "labor-relations",
+          "name": "Labor Relations"
+        },
+        {
+          "id": "advisory-committees-management",
+          "name": "Advisory Committees Management"
+        },
+        {
+          "id": "legal-profession-policy",
+          "name": "Legal Profession Policy"
+        },
+        {
+          "id": "judiciary-policy",
+          "name": "Judiciary Policy"
+        },
+        {
+          "id": "national-security",
+          "name": "National Security"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 4 executive orders focused on the themes of labor relations, advisory committees management, legal profession policy, and 2 others.",
+      "order_ids": [
+        "14023",
+        "14024",
+        "14025",
+        "14026"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 3,
+      "month_name": "March",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 4,
+      "top_themes": [
+        {
+          "id": "equity-and-inclusion-policy",
+          "name": "Equity And Inclusion Policy"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        },
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "tribal-policy",
+          "name": "Tribal Policy"
+        },
+        {
+          "id": "federal-workforce",
+          "name": "Federal Workforce"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 4 executive orders focused on the themes of equity and inclusion policy, federal agency management, foreign policy, and 2 others.",
+      "order_ids": [
+        "14019",
+        "14020",
+        "14021",
+        "14022"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 2,
+      "month_name": "February",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 9,
+      "top_themes": [
+        {
+          "id": "foreign-policy",
+          "name": "Foreign Policy"
+        },
+        {
+          "id": "humanitarian-immigration-policy",
+          "name": "Humanitarian Immigration Policy"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        },
+        {
+          "id": "immigration-enforcement",
+          "name": "Immigration Enforcement"
+        },
+        {
+          "id": "immigration-process-reform",
+          "name": "Immigration Process Reform"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 9 executive orders focused on the themes of foreign policy, humanitarian immigration policy, federal agency management, and 2 others.",
+      "order_ids": [
+        "14010",
+        "14011",
+        "14012",
+        "14013",
+        "14014",
+        "14015",
+        "14016",
+        "14017",
+        "14018"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 1,
+      "month_name": "January",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump and Joseph R. Biden Jr.",
+      "order_count": 39,
+      "top_themes": [
+        {
+          "id": "equity-and-inclusion-policy",
+          "name": "Equity And Inclusion Policy"
+        },
+        {
+          "id": "national-security",
+          "name": "National Security"
+        },
+        {
+          "id": "public-health-administration",
+          "name": "Public Health Administration"
+        },
+        {
+          "id": "federal-procurement-policy",
+          "name": "Federal Procurement Policy"
+        },
+        {
+          "id": "federal-agency-management",
+          "name": "Federal Agency Management"
+        }
+      ],
+      "theme_summary": "Donald Trump and Joseph R. Biden Jr. signed 39 executive orders focused on the themes of equity and inclusion policy, national security, public health administration, and 2 others.",
+      "order_ids": [
+        "13971",
+        "13972",
+        "13973",
+        "13974",
+        "13975",
+        "13976",
+        "13977",
+        "13978",
+        "13979",
+        "13980",
+        "13981",
+        "13982",
+        "13983",
+        "13984",
+        "13985",
+        "13986",
+        "13987",
+        "13988",
+        "13989",
+        "13990",
+        "13991",
+        "13992",
+        "13993",
+        "13994",
+        "13995",
+        "13996",
+        "13997",
+        "13998",
+        "13999",
+        "14000",
+        "14001",
+        "14002",
+        "14003",
+        "14004",
+        "14005",
+        "14006",
+        "14007",
+        "14008",
+        "14009"
+      ]
+    }
+  ],
+  "generated_at": "2025-12-09T04:02:21.710Z"
+}
