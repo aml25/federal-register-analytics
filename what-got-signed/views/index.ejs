@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head', { title: 'What Got Signed?' }) %>
+</head>
+<body>
+  <div class="page">
+    <div class="content">
+      <%- include('partials/header', { isHome: true }) %>
+
+      <section class="about">
+        <h2>About</h2>
+        <p>Executive orders are directives from the President to federal agencies. They tell departments like Homeland Security, the EPA, or the IRS what to prioritize, how to enforce existing laws, or what policies to adopt. They can change how the government operates without needing a vote from Congress. This site helps you keep track of what's been signed and explains what each order actually means.</p>
+
+        <p>Check out the <a href="/definitions">definitions</a> for themes and populations used in our analysis.</p>
+      </section>
+
+      <section class="overview">
+        <h2>The record</h2>
+        <div id="term-summaries"></div>
+      </section>
+    </div>
+
+    <div class="timeline-wrapper">
+      <div class="timeline-header">
+        <h2>Timeline</h2>
+      </div>
+      <div class="timeline-scroll">
+        <div id="timeline-items" class="timeline-items">
+          <div class="timeline-line"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <%- include('partials/footer') %>
+
+  <script src="/app.js"></script>
+</body>
+</html>

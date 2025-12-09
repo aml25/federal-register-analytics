@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head', { title: 'What Got Signed?', fontAwesome: true }) %>
+</head>
+<body>
+  <div class="page">
+    <div class="content">
+      <%- include('partials/header', { isHome: false }) %>
+
+      <h2 class="detail-title" id="page-title">Review of executive orders for [name or duration].</h2>
+
+      <section class="summary">
+        <h3>Summary</h3>
+        <div id="summary-content"></div>
+      </section>
+
+      <section class="potential-impact">
+        <h3>Potential impact</h3>
+        <div id="impact-content"></div>
+      </section>
+
+      <section class="orders-list">
+        <h3>List of executive orders</h3>
+        <div id="orders-content"></div>
+      </section>
+    </div>
+  </div>
+
+  <%- include('partials/footer') %>
+
+  <script src="/detail.js"></script>
+</body>
+</html>

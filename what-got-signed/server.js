@@ -9,7 +9,24 @@ const DATA_DIR = join(__dirname, '..', 'data');
 const app = express();
 const PORT = 3000;
 
-// Serve static files
+// Set up EJS as the view engine
+app.set('view engine', 'ejs');
+app.set('views', join(__dirname, 'views'));
+
+// Page routes (before static middleware to take priority)
+app.get('/', (req, res) => {
+  res.render('index');
+});
+
+app.get('/detail', (req, res) => {
+  res.render('detail');
+});
+
+app.get('/definitions', (req, res) => {
+  res.render('definitions');
+});
+
+// Serve static files (CSS, JS, images)
 app.use(express.static(join(__dirname, 'public')));
 
 // API: Get term summaries

@@ -12,7 +12,7 @@ async function loadThemes() {
     container.innerHTML = sorted.map(theme => `
       <div class="definition-item">
         <div class="definition-name">
-          <a href="/detail.html?type=theme&theme=${encodeURIComponent(theme.id)}" class="theme-link">${theme.name}</a>
+          <a href="/detail?type=theme&theme=${encodeURIComponent(theme.id)}" class="theme-link">${theme.name}</a>
         </div>
         <div class="definition-description">${theme.description}</div>
       </div>

@@ -21,7 +21,7 @@ function formatDate(dateStr) {
 function renderThemes(themeIds, themeMap) {
   return themeIds.map(id => {
     const name = themeMap.get(id) || id;
-    return `<a href="/detail.html?type=theme&theme=${encodeURIComponent(id)}" class="theme-link">${name}</a>`;
+    return `<a href="/detail?type=theme&theme=${encodeURIComponent(id)}" class="theme-link">${name}</a>`;
   }).join(', ');
 }
 

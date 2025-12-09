@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head', { title: 'Definitions - What Got Signed?' }) %>
+</head>
+<body>
+  <div class="page">
+    <div class="content">
+      <%- include('partials/header', { isHome: false }) %>
+
+      <h2 class="detail-title">Definitions</h2>
+
+      <div class="definitions-container">
+        <div class="tabs">
+          <button class="tab active" data-tab="themes">Themes</button>
+          <button class="tab" data-tab="populations">Populations</button>
+        </div>
+
+        <p class="tab-description" id="themes-description">Themes are policy areas that executive orders address. Each order can have multiple themes.</p>
+        <p class="tab-description" id="populations-description" style="display: none;">Populations are groups of people, organizations, or entities that may be impacted by executive orders.</p>
+
+        <div id="themes-list" class="definitions-list"></div>
+        <div id="populations-list" class="definitions-list" style="display: none;"></div>
+      </div>
+    </div>
+  </div>
+
+  <%- include('partials/footer') %>
+
+  <script src="/definitions.js"></script>
+</body>
+</html>

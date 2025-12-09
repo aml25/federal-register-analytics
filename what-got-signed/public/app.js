@@ -1,7 +1,7 @@
 // Render themes as clickable links
 function renderThemeLinks(themes) {
   return themes.map(t =>
-    `<a href="/detail.html?type=theme&theme=${encodeURIComponent(t.id)}" class="theme-link">${t.name.toLowerCase()}</a>`
+    `<a href="/detail?type=theme&theme=${encodeURIComponent(t.id)}" class="theme-link">${t.name.toLowerCase()}</a>`
   ).join(', ');
 }
 
@@ -21,7 +21,7 @@ async function loadTermSummaries() {
       return `
         <div class="term-summary">
           <p>${term.president_name} signed ${term.order_count} executive order${term.order_count !== 1 ? 's' : ''} from ${term.term_start} until ${termEnd}. The top themes ${themeVerb}: ${themeLinks}.</p>
-          <a href="/detail.html?type=term&president=${term.president_id}&start=${term.term_start}" class="arrow-link">&rarr;</a>
+          <a href="/detail?type=term&president=${term.president_id}&start=${term.term_start}" class="arrow-link"><span class="arrow-icon">&rarr;</span></a>
         </div>
       `;
     }).join('');
@@ -52,7 +52,7 @@ async function loadTimeline() {
       for (const theme of period.top_themes || []) {
         const regex = new RegExp(`\\b${theme.name.toLowerCase()}\\b`, 'gi');
         summary = summary.replace(regex,
-          `<a href="/detail.html?type=theme&theme=${encodeURIComponent(theme.id)}" class="theme-link">${theme.name.toLowerCase()}</a>`
+          `<a href="/detail?type=theme&theme=${encodeURIComponent(theme.id)}" class="theme-link">${theme.name.toLowerCase()}</a>`
         );
       }
 
@@ -62,7 +62,7 @@ async function loadTimeline() {
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <p>${summary}</p>
-            <a href="/detail.html?type=month&year=${period.year}&month=${period.month}" class="arrow-link">&rarr;</a>
+            <a href="/detail?type=month&year=${period.year}&month=${period.month}" class="arrow-link"><span class="arrow-icon">&rarr;</span></a>
           </div>
         </div>
       `;
