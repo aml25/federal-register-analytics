@@ -11,12 +11,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 :root {
   --content-width: 720px;
-  --content-padding: 24px;
-  --section-gap: 48px;
-  --item-gap: 24px;
+  --content-padding: var(--wa-space-l);
+  --section-gap: var(--wa-space-3xl);
+  --item-gap: var(--wa-space-l);
 
   /* Timeline shared styles */
-  --timeline-dot-size: 8px;
+  --timeline-dot-size: var(--wa-space-xs);
   --timeline-dot-color: var(--wa-color-neutral-border-normal);
   --timeline-line-color: var(--wa-color-neutral-border-normal);
 }
@@ -38,7 +38,7 @@ body {
   gap: var(--section-gap);
   max-width: var(--content-width);
   margin: 0 auto;
-  padding: 40px var(--content-padding);
+  padding: var(--wa-space-2xl) var(--content-padding);
 }
 
 /* Header */
@@ -55,7 +55,7 @@ header {
 section {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: var(--wa-space-m);
 }
 
 
@@ -95,7 +95,7 @@ section {
 .timeline-header {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: var(--wa-space-m);
   max-width: var(--content-width);
   margin: 0 auto;
   padding: 0 var(--content-padding);
@@ -117,7 +117,7 @@ section {
 .timeline-item {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: var(--wa-space-xs);
   min-width: 200px;
   max-width: 200px;
 }
@@ -156,7 +156,7 @@ section {
   display: flex;
   flex-direction: column;
   position: relative;
-  padding-left: 24px;
+  padding-left: var(--wa-space-l);
 }
 
 #orders-content::before {
@@ -172,8 +172,8 @@ section {
 .order-item {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  padding-bottom: var(--section-gap);
+  gap: var(--wa-space-l);
+  margin-bottom: var(--section-gap);
   position: relative;
 }
 
@@ -199,45 +199,50 @@ section {
   gap: 0px;
 }
 
+.order-summary {
+  margin-top: -3px;
+}
+
 .order-themes-section {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: var(--wa-space-2xs);
 }
 
 .order-impact-section {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: var(--wa-space-2xs);
 }
 
 .order-populations {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: var(--wa-space-2xs);
 }
 
 .order-external-link {
   vertical-align: middle;
+  margin-bottom: var(--wa-space-2xs);
 }
 
 /* Definitions page */
 wa-tab-panel::part(base) {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: var(--wa-space-xl);
 }
 
 .definitions-list {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: var(--wa-space-m);
 }
 
 .definition-item {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: var(--wa-space-2xs);
 }
 
 /* Disclaimer footer */
@@ -247,6 +252,6 @@ wa-tab-panel::part(base) {
   gap: var(--item-gap);
   max-width: var(--content-width);
   margin: 0 auto;
-  padding: 80px var(--content-padding) 32px var(--content-padding);
+  padding: var(--wa-space-4xl) var(--content-padding) var(--wa-space-xl) var(--content-padding);
 }
 
