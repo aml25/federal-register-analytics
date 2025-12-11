@@ -54,7 +54,7 @@ function renderOrderItem(order, themeMap, popMap) {
         <h5 class="order-impact-label">Potential impact</h5>
         <div class="order-populations wa-body-m">
           ${positive ? `<div>👍 ${positive}</div>` : ''}
-          ${negative ? `<div>👎 ${negative}</div>` : ''}
+          ${negative ? `<div>😢 ${negative}</div>` : ''}
         </div>
       </div>
     </div>
