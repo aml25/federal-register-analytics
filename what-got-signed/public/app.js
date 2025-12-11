@@ -1,7 +1,7 @@
 // Render themes as clickable links
 function renderThemeLinks(themes) {
   return themes.map(t =>
-    `<a href="/detail?type=theme&theme=${encodeURIComponent(t.id)}" class="theme-link">${t.name.toLowerCase()}</a>`
+    `<a href="/detail?type=theme&theme=${encodeURIComponent(t.id)}" class="wa-link">${t.name.toLowerCase()}</a>`
   ).join(', ');
 }
 
@@ -20,8 +20,10 @@ async function loadTermSummaries() {
 
       return `
         <div class="term-summary">
-          <p>${term.president_name} signed ${term.order_count} executive order${term.order_count !== 1 ? 's' : ''} from ${term.term_start} until ${termEnd}. The top themes ${themeVerb}: ${themeLinks}.</p>
-          <a href="/detail?type=term&president=${term.president_id}&start=${term.term_start}" class="arrow-link"><i class="fa-solid fa-arrow-right arrow-icon"></i></a>
+          <p class="wa-body-m">${term.president_name} signed ${term.order_count} executive order${term.order_count !== 1 ? 's' : ''} from ${term.term_start} until ${termEnd}. The top themes ${themeVerb}: ${themeLinks}.</p>
+          <wa-button class="arrow-button" variant="brand" appearance="plain" href="/detail?type=term&president=${term.president_id}&start=${term.term_start}">
+            <wa-icon name="arrow-right" label="View details"></wa-icon>
+          </wa-button>
         </div>
       `;
     }).join('');
@@ -52,17 +54,19 @@ async function loadTimeline() {
       for (const theme of period.top_themes || []) {
         const regex = new RegExp(`\\b${theme.name.toLowerCase()}\\b`, 'gi');
         summary = summary.replace(regex,
-          `<a href="/detail?type=theme&theme=${encodeURIComponent(theme.id)}" class="theme-link">${theme.name.toLowerCase()}</a>`
+          `<a href="/detail?type=theme&theme=${encodeURIComponent(theme.id)}" class="wa-link">${theme.name.toLowerCase()}</a>`
         );
       }
 
       return `
         <div class="timeline-item">
-          <div class="timeline-date">${period.month_name} ${period.year}</div>
+          <div class="timeline-date wa-caption-s wa-color-text-quiet">${period.month_name} ${period.year}</div>
           <div class="timeline-dot"></div>
           <div class="timeline-content">
-            <p>${summary}</p>
-            <a href="/detail?type=month&year=${period.year}&month=${period.month}" class="arrow-link"><i class="fa-solid fa-arrow-right arrow-icon"></i></a>
+            <p class="wa-body-s">${summary}</p>
+            <wa-button class="arrow-button" variant="brand" appearance="plain" href="/detail?type=month&year=${period.year}&month=${period.month}">
+              <wa-icon name="arrow-right" label="View details"></wa-icon>
+            </wa-button>
           </div>
         </div>
       `;

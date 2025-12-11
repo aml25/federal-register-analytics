@@ -21,7 +21,7 @@ function formatDate(dateStr) {
 function renderThemes(themeIds, themeMap) {
   return themeIds.map(id => {
     const name = themeMap.get(id) || id;
-    return `<a href="/detail?type=theme&theme=${encodeURIComponent(id)}" class="theme-link">${name}</a>`;
+    return `<a href="/detail?type=theme&theme=${encodeURIComponent(id)}" class="wa-link">${name}</a>`;
   }).join(', ');
 }
 
@@ -41,16 +41,18 @@ function renderOrderItem(order, themeMap, popMap) {
 
   return `
     <div class="order-item">
-      <div class="order-meta">${formatDateShort(order.signing_date)} • ${order.president.name}</div>
-      <div class="order-title">${order.title} <a href="${order.html_url}" target="_blank" rel="noopener" class="order-external-link" title="Read full executive order"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
-      <div class="order-summary">${order.enrichment.summary}</div>
+      <p class="order-meta wa-caption-s wa-color-text-quiet">${formatDateShort(order.signing_date)} • ${order.president.name}</p>
+      <div class="order-header">
+        <h4 class="order-title">${order.title} <wa-button class="order-external-link" variant="brand" appearance="plain" size="small" href="${order.html_url}" target="_blank"><wa-icon name="arrow-up-right-from-square" label="Read full executive order"></wa-icon></wa-button></h4>
+        <p class="order-summary">${order.enrichment.summary}</p>
+      </div>
       <div class="order-themes-section">
-        <div class="order-themes-label">Themes</div>
-        <div class="order-themes">${themes}</div>
+        <h5 class="order-themes-label">Themes</h5>
+        <div class="order-themes wa-body-m">${themes}</div>
       </div>
       <div class="order-impact-section">
-        <div class="order-impact-label">Potential impact</div>
-        <div class="order-populations">
+        <h5 class="order-impact-label">Potential impact</h5>
+        <div class="order-populations wa-body-m">
           ${positive ? `<div>👍 ${positive}</div>` : ''}
           ${negative ? `<div>👎 ${negative}</div>` : ''}
         </div>
