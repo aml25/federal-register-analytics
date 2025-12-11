@@ -14,10 +14,15 @@ h1, h2, h3, h4, h5, h6, p {
   --content-padding: 24px;
   --section-gap: 48px;
   --item-gap: 24px;
+
+  /* Timeline shared styles */
+  --timeline-dot-size: 8px;
+  --timeline-dot-color: var(--wa-color-neutral-border-normal);
+  --timeline-line-color: var(--wa-color-neutral-border-normal);
 }
 
 body {
-  background: #fff;
+  background: var(--wa-color-surface-default);
 }
 
 /* Main Layout */
@@ -44,10 +49,6 @@ header {
 .site-title {
   letter-spacing: 0.5px;
   text-decoration: none;
-}
-
-a.site-title:hover {
-  opacity: 0.7;
 }
 
 /* Sections */
@@ -122,9 +123,9 @@ section {
 }
 
 .timeline-dot {
-  width: 8px;
-  height: 8px;
-  background: #666;
+  width: var(--timeline-dot-size);
+  height: var(--timeline-dot-size);
+  background: var(--timeline-dot-color);
   border-radius: 50%;
   position: relative;
   z-index: 1;
@@ -136,7 +137,7 @@ section {
   left: 0;
   right: 0;
   height: 1px;
-  background: #666;
+  background: var(--timeline-line-color);
 }
 
 .timeline-content {
@@ -165,7 +166,7 @@ section {
   top: 6px;
   bottom: 0;
   width: 1px;
-  background: #666;
+  background: var(--timeline-line-color);
 }
 
 .order-item {
@@ -179,11 +180,11 @@ section {
 .order-item::before {
   content: '';
   position: absolute;
-  left: -24px;
+  left: -23.5px;
   top: 4.5px;
-  width: 9px;
-  height: 9px;
-  background: #666;
+  width: var(--timeline-dot-size);
+  height: var(--timeline-dot-size);
+  background: var(--timeline-dot-color);
   border-radius: 50%;
   z-index: 1;
 }
