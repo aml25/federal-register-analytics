@@ -11,10 +11,10 @@ async function loadThemes() {
 
     container.innerHTML = sorted.map(theme => `
       <div class="definition-item">
-        <div class="definition-name">
-          <a href="/detail?type=theme&theme=${encodeURIComponent(theme.id)}" class="theme-link">${theme.name}</a>
+        <div class="definition-name wa-font-weight-semibold">
+          <a href="/detail?type=theme&theme=${encodeURIComponent(theme.id)}" class="wa-link">${theme.name}</a>
         </div>
-        <div class="definition-description">${theme.description}</div>
+        <div class="definition-description wa-body-s wa-color-text-quiet">${theme.description}</div>
       </div>
     `).join('');
   } catch (err) {
@@ -35,8 +35,8 @@ async function loadPopulations() {
 
     container.innerHTML = sorted.map(pop => `
       <div class="definition-item">
-        <div class="definition-name">${pop.name}</div>
-        <div class="definition-description">${pop.description}</div>
+        <div class="definition-name wa-font-weight-semibold">${pop.name}</div>
+        <div class="definition-description wa-body-s wa-color-text-quiet">${pop.description}</div>
       </div>
     `).join('');
   } catch (err) {
@@ -44,40 +44,8 @@ async function loadPopulations() {
   }
 }
 
-// Tab switching
-function setupTabs() {
-  const tabs = document.querySelectorAll('.tab');
-  const themesDescription = document.getElementById('themes-description');
-  const populationsDescription = document.getElementById('populations-description');
-  const themesList = document.getElementById('themes-list');
-  const populationsList = document.getElementById('populations-list');
-
-  tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      // Update active tab
-      tabs.forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-
-      // Show/hide content
-      const selected = tab.dataset.tab;
-      if (selected === 'themes') {
-        themesDescription.style.display = 'block';
-        populationsDescription.style.display = 'none';
-        themesList.style.display = 'flex';
-        populationsList.style.display = 'none';
-      } else {
-        themesDescription.style.display = 'none';
-        populationsDescription.style.display = 'block';
-        themesList.style.display = 'none';
-        populationsList.style.display = 'flex';
-      }
-    });
-  });
-}
-
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
   loadThemes();
   loadPopulations();
-  setupTabs();
 });

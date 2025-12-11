@@ -161,8 +161,9 @@ app.get('/api/orders/term/:presidentId/:termStart', async (req, res) => {
       if (order.president.identifier === presidentId) {
         const orderYear = new Date(order.signing_date).getFullYear();
         const termStartYear = parseInt(termStart, 10);
-        // Simple year-based filtering for now
-        if (orderYear >= termStartYear && orderYear < termStartYear + 4) {
+        // Include orders from term start year through term start + 4 (inclusive)
+        // This handles cases like Trump Jan 2021 orders (part of 2017-2021 term)
+        if (orderYear >= termStartYear && orderYear <= termStartYear + 4) {
           orders.push(order);
         }
       }

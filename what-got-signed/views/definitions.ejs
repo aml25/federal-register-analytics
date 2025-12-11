@@ -10,18 +10,20 @@
 
       <h2 class="detail-title">Definitions</h2>
 
-      <div class="definitions-container">
-        <div class="tabs">
-          <button class="tab active" data-tab="themes">Themes</button>
-          <button class="tab" data-tab="populations">Populations</button>
-        </div>
+      <wa-tab-group>
+        <wa-tab slot="nav" panel="themes">Themes</wa-tab>
+        <wa-tab slot="nav" panel="populations">Populations</wa-tab>
 
-        <p class="tab-description" id="themes-description">Themes are policy areas that executive orders address. Each order can have multiple themes.</p>
-        <p class="tab-description" id="populations-description" style="display: none;">Populations are groups of people, organizations, or entities that may be impacted by executive orders.</p>
+        <wa-tab-panel name="themes">
+          <p class="wa-color-text-quiet">Themes are policy areas that executive orders address. Each order can have multiple themes.</p>
+          <div id="themes-list" class="definitions-list"></div>
+        </wa-tab-panel>
 
-        <div id="themes-list" class="definitions-list"></div>
-        <div id="populations-list" class="definitions-list" style="display: none;"></div>
-      </div>
+        <wa-tab-panel name="populations">
+          <p class="wa-color-text-quiet">Populations are groups of people, organizations, or entities that may be impacted by executive orders.</p>
+          <div id="populations-list" class="definitions-list"></div>
+        </wa-tab-panel>
+      </wa-tab-group>
     </div>
   </div>
 
