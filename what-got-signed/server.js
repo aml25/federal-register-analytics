@@ -278,6 +278,20 @@ app.get('/api/theme-narratives', async (req, res) => {
 app.get('/api/orders/term/:presidentId/:termStart', async (req, res) => {
   try {
     const { presidentId, termStart } = req.params;
+    const termStartYear = parseInt(termStart, 10);
+
+    // Look up the actual term end from term summaries
+    const termSummariesData = await readFile(join(DATA_DIR, 'aggregated', 'term-summaries.json'), 'utf-8');
+    const termSummaries = JSON.parse(termSummariesData);
+    const term = termSummaries.summaries.find(t =>
+      t.president_id === presidentId && t.term_start === termStartYear
+    );
+
+    // Use actual term end, or default to start + 4 if not found
+    const termEndYear = term?.term_end === 'present'
+      ? new Date().getFullYear() + 1
+      : (term?.term_end || termStartYear + 4);
+
     const enrichedDir = join(DATA_DIR, 'enriched');
     const { readdir } = await import('node:fs/promises');
     const files = await readdir(enrichedDir);
@@ -288,13 +302,11 @@ app.get('/api/orders/term/:presidentId/:termStart', async (req, res) => {
       const content = await readFile(join(enrichedDir, file), 'utf-8');
       const order = JSON.parse(content);
 
-      // Filter by president and term year
+      // Filter by president and term year range
+      // Use <= for end year since presidents sign EOs until Jan 20 of their final year
       if (order.president.identifier === presidentId) {
         const orderYear = new Date(order.signing_date).getFullYear();
-        const termStartYear = parseInt(termStart, 10);
-        // Include orders from term start year through term start + 4 (inclusive)
-        // This handles cases like Trump Jan 2021 orders (part of 2017-2021 term)
-        if (orderYear >= termStartYear && orderYear <= termStartYear + 4) {
+        if (orderYear >= termStartYear && orderYear <= termEndYear) {
           orders.push(order);
         }
       }
