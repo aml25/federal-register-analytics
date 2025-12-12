@@ -1,0 +1,41 @@
+{
+  "document_number": "2013-12650",
+  "executive_order_number": "13644",
+  "title": "Amendment to Executive Order 13639",
+  "abstract": null,
+  "signing_date": "2013-05-21",
+  "publication_date": "2013-05-24",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2013/05/24/2013-12650/amendment-to-executive-order-13639",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2013-05-24/pdf/2013-12650.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2013/05/24/2013-12650.txt",
+  "enrichment": {
+    "summary": "This executive order modifies an earlier order that established the Presidential Commission on Election Administration. It changes the composition of the commission by specifying the types of members the President may appoint, emphasizing election administration experts and customer service-oriented business representatives. It also clarifies that the order does not affect existing legal authorities or create enforceable rights.",
+    "theme_ids": [
+      "presidential-commissions-task-forces",
+      "voting-rights"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens",
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "white-americans",
+        "working-age-adults",
+        "seniors-elderly"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The commission composition emphasizing customer service-oriented business representatives may unintentionally prioritize efficiency over equitable voting access for minority groups such as African Americans and Hispanic/Latino Americans.",
+      "Stakeholders from diverse demographic and age groups like seniors and working-age adults might feel underrepresented if the commission's appointments skew toward specific expertise without sufficient community input.",
+      "Although the order clarifies that it does not create enforceable rights, recommendations from the commission could lead to inconsistent election administration practices across states, potentially disadvantaging certain populations such as racial minorities and elderly voters.",
+      "There is a risk that the focus on administrative expertise might overshadow the critical voting rights concerns of marginalized groups, leading to solutions that improve process but not accessibility or fairness."
+    ],
+    "enriched_at": "2025-12-12T08:07:45.878Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

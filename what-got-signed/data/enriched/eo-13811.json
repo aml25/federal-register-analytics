@@ -1,0 +1,39 @@
+{
+  "document_number": "2017-21555",
+  "executive_order_number": "13811",
+  "title": "Continuance of Certain Federal Advisory Committees",
+  "abstract": null,
+  "signing_date": "2017-09-29",
+  "publication_date": "2017-10-04",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/10/04/2017-21555/continuance-of-certain-federal-advisory-committees",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-10-04/pdf/2017-21555.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/10/04/2017-21555.txt",
+  "enrichment": {
+    "summary": "This executive order extends the existence of multiple federal advisory committees until September 30, 2019. It assigns the heads of various federal departments and agencies responsibility for managing these committees and rescinds certain previous executive orders related to advisory councils.",
+    "theme_ids": [
+      "federal-advisory-committees",
+      "revocation-of-previous-executive-orders",
+      "delegation-of-authority"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "veterans",
+        "hbcu-students-communities",
+        "native-americans-indigenous-peoples"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The extension and delegation of authority over advisory committees may reduce direct Presidential oversight, potentially diluting the influence of key stakeholder groups such as veterans and Native American communities on policy recommendations.",
+      "Revoking previous executive orders and reorganizing advisory committees might disrupt continuity and coordination, adversely impacting HBCU communities whose advisory council is continued under this order.",
+      "The consolidation of responsibility to agency heads could lead to inconsistent prioritization or under-resourcing of advisory committees addressing critical issues like indigenous peoples' concerns and veterans' affairs.",
+      "The order's approach to managing multiple advisory committees simultaneously may unintentionally marginalize smaller or less politically prominent groups, leading to less effective advocacy and representation."
+    ],
+    "enriched_at": "2025-12-12T08:13:46.656Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

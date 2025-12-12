@@ -1,0 +1,42 @@
+{
+  "document_number": "2019-22624",
+  "executive_order_number": "13892",
+  "title": "Promoting the Rule of Law Through Transparency and Fairness in Civil Administrative Enforcement and Adjudication",
+  "abstract": null,
+  "signing_date": "2019-10-09",
+  "publication_date": "2019-10-15",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/10/15/2019-22624/promoting-the-rule-of-law-through-transparency-and-fairness-in-civil-administrative-enforcement-and",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-10-15/pdf/2019-22624.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/10/15/2019-22624.txt",
+  "enrichment": {
+    "summary": "This executive order requires federal agencies to be clear and fair when enforcing civil administrative laws, ensuring people know the rules and standards ahead of time. It promotes transparency by requiring public notice of agency rules and guidance, guarantees an opportunity to contest agency actions, and encourages cooperation between agencies and regulated parties.",
+    "theme_ids": [
+      "regulatory-reform-deregulation",
+      "foia-information-disclosure",
+      "government-efficiency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "small-business-owners",
+        "entrepreneurs-startups"
+      ],
+      "negative_ids": [
+        "small-business-owners",
+        "entrepreneurs-startups"
+      ]
+    },
+    "potential_concerns": [
+      "The requirement for greater transparency and publication of enforcement standards may increase compliance costs and administrative burdens on small business owners and entrepreneurs, potentially slowing regulatory responsiveness.",
+      "Encouraging voluntary self-reporting and information sharing could inadvertently expose small businesses and startups to increased scrutiny or penalties if protections are not clearly defined, raising fairness concerns.",
+      "The emphasis on public notice and fair warning might limit agencies' ability to act swiftly in cases of emergent threats, possibly reducing regulatory effectiveness in protecting consumers and the public.",
+      "The order's procedures could result in inconsistent implementation across agencies, creating variability and confusion for regulated entities like small businesses that operate in multiple sectors.",
+      "While promoting cooperation, there is a risk that smaller regulated parties without strong legal resources may find it challenging to contest agency determinations adequately, potentially leading to unequal enforcement outcomes."
+    ],
+    "enriched_at": "2025-12-12T08:15:33.920Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

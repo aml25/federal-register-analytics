@@ -1,0 +1,44 @@
+{
+  "document_number": "2011-33089",
+  "executive_order_number": "13595",
+  "title": "Instituting a National Action Plan On Women, Peace, And Security",
+  "abstract": null,
+  "signing_date": "2011-12-19",
+  "publication_date": "2011-12-23",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2011/12/23/2011-33089/instituting-a-national-action-plan-on-women-peace-and-security",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2011-12-23/pdf/2011-33089.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2011/12/23/2011-33089.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a National Action Plan to promote and support women's full participation in peace and security efforts, including conflict prevention, resolution, relief, and recovery. It directs U.S. government agencies to coordinate, implement, and report on activities that protect women and children, prevent violence, and include women in peace processes and decision-making.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "violence-against-women",
+      "gender-equality",
+      "foreign-aid",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "women",
+        "children-minors",
+        "human-trafficking-victims",
+        "domestic-violence-survivors",
+        "refugees",
+        "international-aid-recipients"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to enhance women's participation in peace processes may face resistance in some conflict-affected regions due to cultural or political barriers, limiting the effectiveness of gender equality initiatives for women and girls.",
+      "The focus on protecting women and children from sexual and gender-based violence might strain limited humanitarian resources, potentially impacting the quality and accessibility of aid for other vulnerable groups such as refugees and international aid recipients.",
+      "Interagency coordination challenges could delay or complicate the implementation of the National Action Plan, reducing timely protection and support for human trafficking victims and domestic violence survivors in crisis zones.",
+      "Emphasizing women's roles in military and peace operations might unintentionally generate tensions within existing military structures, affecting military personnel active duty and veterans due to shifts in force structure and readiness priorities."
+    ],
+    "enriched_at": "2025-12-12T08:23:20.921Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

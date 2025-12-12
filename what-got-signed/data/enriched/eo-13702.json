@@ -1,0 +1,42 @@
+{
+  "document_number": "2015-19183",
+  "executive_order_number": "13702",
+  "title": "Creating a National Strategic Computing Initiative",
+  "abstract": null,
+  "signing_date": "2015-07-29",
+  "publication_date": "2015-08-03",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2015/08/03/2015-19183/creating-a-national-strategic-computing-initiative",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-08-03/pdf/2015-19183.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/08/03/2015-19183.txt",
+  "enrichment": {
+    "summary": "This executive order establishes the National Strategic Computing Initiative, a government-wide effort to improve high-performance computing (HPC) technology through collaboration among federal agencies, industry, and academia. Its goal is to accelerate the development of advanced supercomputers to support economic competitiveness, scientific discovery, and national needs. The order also sets up leadership roles and a coordinating council to oversee progress and implementation.",
+    "theme_ids": [
+      "economic-competitiveness",
+      "science-and-technology-policy",
+      "workforce-development",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "technology-workers",
+        "scientific-researchers",
+        "college-university-students",
+        "graduate-professional-students"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The focus on accelerating exascale computing and advanced HPC could widen the technology gap, potentially leaving some technology workers behind who lack access to updated training or resources.",
+      "Workforce development efforts may unintentionally favor highly skilled or specialized workers, limiting opportunities for broader inclusion of underrepresented demographic groups in technology and scientific research sectors.",
+      "Intensive public-private collaboration might result in prioritizing corporate interests over academic freedom or open scientific inquiry, impacting scientific researchers and institutions.",
+      "Relying on interagency coordination could slow implementation or reduce agility in addressing emerging HPC challenges, which may frustrate technology workers and researchers awaiting updated tools and systems.",
+      "The emphasis on U.S. economic competitiveness might create pressure to limit international collaboration, potentially impacting graduate and university students engaged in global research partnerships."
+    ],
+    "enriched_at": "2025-12-12T08:12:02.855Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

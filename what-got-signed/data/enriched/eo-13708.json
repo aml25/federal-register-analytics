@@ -1,0 +1,51 @@
+{
+  "document_number": "2015-25489",
+  "executive_order_number": "13708",
+  "title": "Continuance or Reestablishment of Certain Federal Advisory Committees",
+  "abstract": null,
+  "signing_date": "2015-09-30",
+  "publication_date": "2015-10-05",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2015/10/05/2015-25489/continuance-or-reestablishment-of-certain-federal-advisory-committees",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-10-05/pdf/2015-25489.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/10/05/2015-25489.txt",
+  "enrichment": {
+    "summary": "This executive order extends or reestablishes the existence of various federal advisory committees through September 30, 2017. It assigns agency heads to carry out the President's responsibilities under the Federal Advisory Committee Act for these committees, ensuring they continue to advise the government on a wide range of topics.",
+    "theme_ids": [
+      "federal-advisory-committees",
+      "government-efficiency",
+      "federal-labor-management-relations",
+      "arts-and-humanities",
+      "national-monuments-antiquities"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "individuals-with-disabilities",
+        "hbcu-students-communities",
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "asian-americans",
+        "native-americans-indigenous-peoples",
+        "veterans",
+        "small-business-owners",
+        "union-members",
+        "environmental-justice-communities",
+        "faith-based-communities",
+        "patients-general"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The continuation of numerous advisory committees could inadvertently perpetuate bureaucratic inefficiencies, delaying timely input from key populations such as environmental-justice-communities and small-business-owners seeking policy guidance.",
+      "Populations like individuals-with-disabilities and hbcu-students-communities might not see sufficient representation or substantive policy change despite the advisory committees’ existence, limiting the positive impact on those historically underserved groups.",
+      "The reestablishment of advisory groups related to labor-management relations and federal labor policy might lead to conflicts or perceived biases affecting union-members and veterans engaged in workforce transition programs.",
+      "Faith-based-communities involved in advisory roles could face challenges balancing diverse religious perspectives, potentially causing unintended exclusion of minority religious or secular groups.",
+      "There is a risk that national monuments and cultural preservation advisory committees may prioritize certain demographic interests (e.g., african-americans-black-americans, native-americans-indigenous-peoples) unevenly, leading to disputes or dissatisfaction among marginalized ethnic populations."
+    ],
+    "enriched_at": "2025-12-12T08:11:07.119Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

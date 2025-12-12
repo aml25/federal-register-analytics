@@ -1,0 +1,45 @@
+{
+  "document_number": "2017-22677",
+  "executive_order_number": "13813",
+  "title": "Promoting Healthcare Choice and Competition Across the United States",
+  "abstract": null,
+  "signing_date": "2017-10-12",
+  "publication_date": "2017-10-17",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/10/17/2017-22677/promoting-healthcare-choice-and-competition-across-the-united-states",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-10-17/pdf/2017-22677.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/10/17/2017-22677.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to make it easier for Americans to access more affordable health insurance options outside of the Affordable Care Act, such as association health plans, short-term limited-duration insurance, and health reimbursement arrangements. It aims to increase competition in health insurance markets, reduce regulatory barriers, and improve consumer choice and information to help lower healthcare costs.",
+    "theme_ids": [
+      "healthcare-competition-markets",
+      "affordable-care-act-aca",
+      "small-business-support"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "small-business-owners",
+        "entrepreneurs-startups",
+        "agricultural-workers-farmers",
+        "working-age-adults",
+        "uninsured-individuals"
+      ],
+      "negative_ids": [
+        "aca-marketplace-enrollees",
+        "individuals-with-chronic-illnesses",
+        "low-income-individuals-families"
+      ]
+    },
+    "potential_concerns": [
+      "Expanding association health plans (AHPs) and short-term limited-duration insurance (STLDI) may undermine ACA marketplace enrollees by drawing healthier individuals away, potentially increasing premiums and reducing coverage options for individuals with chronic illnesses and low-income families.",
+      "Greater access to less-regulated insurance products like STLDI could increase the number of underinsured working-age adults, exposing them to significant out-of-pocket costs and coverage gaps.",
+      "Small business owners and entrepreneurs may benefit from increased affordability and flexibility, but there is a risk that reduced regulatory protections in AHPs could result in less comprehensive coverage for their employees, including agricultural workers and hourly wage earners.",
+      "The order’s push to increase competition by reducing regulatory barriers might lead to the proliferation of plans with limited benefits that do not adequately protect vulnerable populations, such as uninsured individuals seeking affordable coverage alternatives."
+    ],
+    "enriched_at": "2025-12-12T08:13:31.362Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

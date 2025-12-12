@@ -1,0 +1,41 @@
+{
+  "document_number": "2013-31445",
+  "executive_order_number": "13655",
+  "title": "Adjustments of Certain Rates of Pay",
+  "abstract": null,
+  "signing_date": "2013-12-23",
+  "publication_date": "2013-12-31",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2013/12/31/2013-31445/adjustments-of-certain-rates-of-pay",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2013-12-31/pdf/2013-31445.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2013/12/31/2013-31445.txt",
+  "enrichment": {
+    "summary": "This executive order updates the pay rates for various federal employees, including those under statutory pay systems, senior executives, judges, members of Congress, uniformed service members, and administrative law judges. It sets new salary schedules and locality-based comparability payments effective at the start of 2014 and supersedes a previous order with similar adjustments.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "retirement-security",
+      "veterans-healthcare",
+      "military-readiness-force-structure"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants",
+        "military-personnel-active-duty",
+        "veterans",
+        "foreign-service-officers"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Adjustments to pay rates, including locality-based comparability payments, may increase federal workforce management costs, potentially impacting retirement security funding for veterans and federal employees.",
+      "Military personnel and veterans might face pay disparities if implementation lags behind cost-of-living changes, affecting military readiness and force structure morale.",
+      "The updated pay for judges and Senior Executive Service members could heighten scrutiny over federal payroll fairness and transparency.",
+      "Foreign Service Officers’ salary adjustments may affect recruitment and retention, influencing diplomatic effectiveness abroad."
+    ],
+    "enriched_at": "2025-12-12T08:06:05.859Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

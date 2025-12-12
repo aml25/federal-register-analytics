@@ -1,0 +1,37 @@
+{
+  "document_number": "2013-12157",
+  "executive_order_number": "13643",
+  "title": "2013 Amendments to the Manual for Courts-Martial, United States",
+  "abstract": null,
+  "signing_date": "2013-05-15",
+  "publication_date": "2013-05-21",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2013/05/21/2013-12157/2013-amendments-to-the-manual-for-courts-martial-united-states",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2013-05-21/pdf/2013-12157.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2013/05/21/2013-12157.txt",
+  "enrichment": {
+    "summary": "This executive order updates specific parts of the Manual for Courts-Martial, which governs military justice procedures for the U.S. armed forces. It clarifies that the amendments apply only going forward and do not retroactively affect past actions or ongoing legal processes.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "criminal-justice-reform"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "veterans"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The amendments to the Manual for Courts-Martial may raise concerns among active-duty military personnel about changes to their legal rights and due process protections under the Uniform Code of Military Justice, potentially impacting morale and trust in military justice.",
+      "Veterans could be indirectly affected if procedural changes lead to differences in adjudication outcomes or precedent-setting cases that later influence benefits or discharge characterizations.",
+      "There is a risk that clarifying the non-retroactivity of the amendments may cause confusion or inconsistent application in ongoing cases for defendants-accused persons in military courts, possibly affecting perceptions of fairness.",
+      "The order’s focus on military justice reform could unintentionally complicate the balance between maintaining military readiness and ensuring comprehensive criminal justice reform within the armed forces."
+    ],
+    "enriched_at": "2025-12-12T08:07:54.183Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

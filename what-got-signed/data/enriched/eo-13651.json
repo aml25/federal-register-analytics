@@ -1,0 +1,42 @@
+{
+  "document_number": "2013-19520",
+  "executive_order_number": "13651",
+  "title": "Prohibiting Certain Imports of Burmese Jadeite and Rubies",
+  "abstract": null,
+  "signing_date": "2013-08-06",
+  "publication_date": "2013-08-09",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2013/08/09/2013-19520/prohibiting-certain-imports-of-burmese-jadeite-and-rubies",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2013-08-09/pdf/2013-19520.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2013/08/09/2013-19520.txt",
+  "enrichment": {
+    "summary": "This executive order prohibits the importation into the United States of jadeite and rubies that are mined or extracted from Burma (Myanmar), including jewelry containing these gems. It also bans transactions intended to evade this prohibition and delegates authority to enforce these restrictions, while allowing certain exceptions such as reimportation of personal items. The order aims to restrict U.S. trade in these gemstones from Burma as part of broader national emergency and sanction efforts.",
+    "theme_ids": [
+      "economic-sanctions",
+      "burma-myanmar",
+      "export-import-policy",
+      "revocation-of-previous-executive-orders"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "corporations-businesses",
+        "small-business-owners",
+        "foreign-nationals-general",
+        "citizens-of-specific-countries-by-eo-designation"
+      ]
+    },
+    "potential_concerns": [
+      "The prohibition on importing Burmese jadeite and rubies may disproportionately harm Burmese miners and gem traders (citizens-of-specific-countries-by-eo-designation) who rely economically on gemstone exports, intensifying the economic sanctions impact.",
+      "U.S. small business owners and corporations involved in jewelry retail or import/export businesses may face supply chain disruptions and financial losses due to the sudden restriction on Burmese gemstones.",
+      "Evasion attempts by businesses to circumvent the embargo could complicate enforcement and undermine the intended sanctions effect, requiring increased regulatory scrutiny of importers and trading partners (corporations-businesses).",
+      "Unintended economic harm may extend to foreign nationals and communities indirectly involved in the jadeite and ruby trade beyond Burma, potentially fostering black-market activities or incentivizing smuggling.",
+      "The revocation of parts of previous executive orders could create regulatory uncertainty for businesses relying on prior permits or licenses, complicating compliance efforts for affected companies."
+    ],
+    "enriched_at": "2025-12-12T08:06:40.972Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

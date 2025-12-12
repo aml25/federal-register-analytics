@@ -12,9 +12,9 @@
         }
       ],
       "total_order_count": 7,
-      "summary": "In November 2025, President Donald Trump signed seven executive orders predominantly focused on national security (6), trade policy (4), and foreign policy (4), with additional attention to artificial intelligence, technology development, and child welfare. Key orders included modifying tariffs related to China and Brazil, addressing the synthetic opioid supply chain, designating Muslim Brotherhood chapters as terrorist organizations, and launching the Genesis Mission. These directives aimed to influence international trade dynamics, counterterrorism efforts, and support scientific advancement while fostering child and family welfare.",
-      "potential_impact": "The executive orders aimed to positively impact federal employees, academic institutions, manufacturing and agricultural workers, children in foster care, foster families, faith-based organizations, and regional stability actors, including populations in China and Brazil. Conversely, they targeted private sector rivals, certain agricultural workers, state child welfare agencies, Muslim Americans, and civilian populations in designated countries for negative impact. Key concerns include challenges in enforcing trade and opioid supply commitments with China, risks to U.S. domestic industries from reduced tariffs, and potential geopolitical instability affecting trade and security outcomes.",
-      "generated_at": "2025-12-08T07:10:29.670Z",
+      "summary": "In November 2025, President Trump focused executive actions on recalibrating trade relations, particularly through modifying tariffs and duties linked to China and Brazil, signaling a strategic shift toward stabilizing economic ties amid ongoing national emergencies. The administration sought to balance agricultural interests and supply chain security with broader defense and industrial priorities, while also addressing domestic issues such as child welfare and the opioid crisis. Notably, efforts to designate certain groups as terrorist organizations and to launch new missions reflected a multifaceted approach intertwining security, economic, and social policy objectives.",
+      "potential_impact": "These executive orders aimed to benefit a diverse array of stakeholders, including large corporation employees, agricultural workers, and defense industry personnel, by easing tariff burdens and stabilizing supply chains. However, the adjustments raised concerns about potential negative effects on middle-class Americans, small businesses, and consumers, particularly regarding opioid-related trade concessions that might exacerbate addiction risks. Additionally, new child welfare policies and counterterrorism designations invited scrutiny over possible discrimination and civil liberties implications for vulnerable groups such as children, caregivers, religious organizations, and Muslim communities.",
+      "generated_at": "2025-12-12T08:35:43.325Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -29,9 +29,9 @@
         }
       ],
       "total_order_count": 1,
-      "summary": "In October 2025, President Donald Trump signed one executive order, EO 14356, titled Ensuring Continued Accountability in Federal Hiring. This order focused on national security, federal workforce management, immigration enforcement, and public safety. It instituted a strict hiring freeze with exemption processes and established Strategic Hiring Committees to oversee federal hiring priorities. The order aimed to maintain accountability in federal hiring practices, particularly emphasizing roles connected to security and law enforcement.",
-      "potential_impact": "The order aimed to positively impact federal employees by prioritizing hiring for critical national security and public safety positions. Conversely, it aimed to negatively impact displaced federal workers due to the hiring freeze and restrictive approval processes. Key concerns included potential understaffing in non-exempted government functions, delayed hiring decisions from committee reviews, inconsistent exemption applications, and increased reliance on contractors, which may undermine oversight and agency efficiency.",
-      "generated_at": "2025-12-08T07:10:25.120Z",
+      "summary": "In October 2025, President Trump issued a single executive order aimed at reinforcing accountability in federal hiring practices. This directive sought to enhance government efficiency by imposing stricter hiring controls and establishing Strategic Hiring Committees, particularly emphasizing immigration enforcement and national security roles. The order reflected a broader priority to reshape the federal workforce, balancing reductions in civilian employees and contractors with efforts to maintain critical operational capacity.",
+      "potential_impact": "The executive order targeted law enforcement officers within the federal government for support, while imposing tighter hiring restrictions that could strain federal employees and contractors. Observers expressed concerns that these measures might deepen workforce shortages and morale issues among civil servants, disproportionately burden non-exempt agencies, and risk disrupting services reliant on federal contractors. Additionally, the focus on efficiency raised questions about potential declines in workforce diversity and equitable hiring.",
+      "generated_at": "2025-12-12T08:35:37.700Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -42,307 +42,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 11
-        }
-      ],
-      "total_order_count": 11,
-      "summary": "In September 2025, President Donald Trump signed 11 executive orders predominantly addressing national security (9 orders), foreign policy (6), and trade policy (5). Key orders included EO 14345 on the U.S.-Japan Agreement, EO 14346 modifying reciprocal tariffs, and EO 14347 restoring the Department of War. Other notable orders targeted wrongfully detained U.S. nationals (EO 14348), labor disputes (EO 14349), TikTok enforcement delays (EO 14350, 14352), and the use of AI in pediatric cancer research (EO 14355). The administration also focused on immigration enforcement, federal workforce management, and advisory committee continuance.",
-      "potential_impact": "The executive orders aimed to positively impact federal employees (10 orders), manufacturing and tech workers (2 each), and specific groups such as wrongfully detained U.S. nationals, railroad employees, labor union members, and high-net-worth immigrants. Conversely, private sector rivals (4 orders), China (2), undocumented immigrants (2), and populations in designated countries faced potential negative impacts. Key concerns include increased tariffs on Japanese imports raising costs, foreign investment influence risks, diplomatic strain from enforcement complexities, potential supply chain disruptions, and challenges in coordinating multi-agency monitoring and enforcement.",
-      "generated_at": "2025-12-08T07:11:00.441Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2025,
-      "month": 8,
-      "month_name": "August",
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 17
-        }
-      ],
-      "total_order_count": 17,
-      "summary": "In August 2025, President Donald Trump signed 17 executive orders primarily focused on national security (9 orders), public safety (6), and federal agency management and workforce issues (5 each). Key directives included establishing a White House Task Force on the 2028 Olympics, addressing threats from Russia, modifying tariff rates with China, and enacting measures to end cashless bail in the District of Columbia. Additional orders targeted competition in commercial space, pharmaceutical supply chain resilience, and federal architecture improvements. Themes also encompassed trade policy, foreign policy, regulatory reform, and financial and technology development.",
-      "potential_impact": "The orders aimed to positively impact federal employees (12 orders), federal agencies (7), and sectors such as banking, small businesses, scientific research, and the tech and commercial space industries. Conversely, undocumented immigrants, pretrial defendants, and private sector rivals were targeted negatively, alongside populations linked to India, China, retirement plans, financial institutions, and manufacturing workers. Concerns included bureaucratic inefficiencies, civil liberties implications from enhanced security measures, visa processing backlogs for Olympic participants, potential diversion of federal resources, and trade tensions with India due to tariff adjustments, introducing uncertainty and enforcement challenges for affected industries.",
-      "generated_at": "2025-12-08T07:10:56.969Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2025,
-      "month": 7,
-      "month_name": "July",
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 15
-        }
-      ],
-      "total_order_count": 15,
-      "summary": "In July 2025, President Donald Trump signed 15 executive orders focusing primarily on national security (10), trade policy (8), and foreign policy (7). Key initiatives included establishing the President's Make America Beautiful Again Commission, improving national parks, modifying reciprocal tariff rates, accelerating federal permitting for data centers, and addressing threats from foreign governments. Several orders targeted AI development and regulation, including preventing 'woke AI' in federal agencies and promoting American AI exports. Other notable orders addressed crime reduction, college sports, and border drug flow control, reflecting a broad agenda spanning security, economic, and technological domains.",
-      "potential_impact": "The orders aimed to positively impact federal employees and agencies, the tech industry, national park visitors, domestic tourists, manufacturing workers, and American youth. Conversely, populations such as private sector rivals, undocumented immigrants, environmental advocates, and foreign nationals involved in desecration were aimed to be negatively impacted. Concerns raised include potential environmental degradation from deregulation, conflicts over conservation and indigenous rights, challenges in interagency coordination, and adverse effects on foreign tourists and international park visitation due to fee increases and preferential treatment policies.",
-      "generated_at": "2025-12-08T07:10:53.009Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2025,
-      "month": 6,
-      "month_name": "June",
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 9
-        }
-      ],
-      "total_order_count": 9,
-      "summary": "In June 2025, President Donald Trump signed 9 executive orders focusing primarily on national security (7), technology development (5), and foreign policy (5). Key orders included efforts to lead in supersonic flight (EO 14304), strengthen cybersecurity (EO 14306), dominate drone technology (EO 14307), and manage US-UK economic relations (EO 14309). Other significant actions addressed wildfire prevention (EO 14308), TikTok enforcement delays (EO 14310), special peace missions (EO 14311), and revoking Syria sanctions (EO 14312). Federal agency management and trade policy were also prominent themes, reflecting a broad approach to security, technology, and international economic coordination.",
-      "potential_impact": "The executive orders aimed to positively impact federal agencies and employees, the tech industry, scientific researchers, and manufacturing workers, among others. Specific populations targeted included state child welfare agencies, academic institutions, military veterans, and pharmaceutical manufacturers. Conversely, the orders aimed to negatively impact private sector rivals, terrorist organizations, environmental advocates, Muslim Americans, and certain regional stability actors. Key concerns raised involved potential environmental harm from relaxed flight restrictions, privacy and safety issues related to drone surveillance, regulatory and implementation challenges, and possible disproportionate impacts on small operators and affected communities.",
-      "generated_at": "2025-12-08T07:10:49.812Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2025,
-      "month": 5,
-      "month_name": "May",
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 12
-        }
-      ],
-      "total_order_count": 12,
-      "summary": "In May 2025, President Donald Trump signed 12 executive orders predominantly focused on national security (7 orders), regulatory reform (6), and federal agency management (5). Key orders included EO 14292 on biological research safety, EO 14293 promoting domestic critical medicine production, EO 14297 on prescription drug pricing, and a series of orders (EO 14299 to EO 14302) targeting nuclear technology development and regulatory reform. Other notable orders addressed tariff modifications with China (EO 14298) and restoring scientific standards (EO 14303). The administration emphasized advancing federal research coordination, energy policy, and trade measures through these directives.",
-      "potential_impact": "The executive orders aimed to positively impact federal agencies, employees, scientific researchers, domestic energy producers, and military veterans by enhancing research safety, streamlining regulations, and advancing nuclear and pharmaceutical sectors. Conversely, private sector rivals, environmental advocates, and the green energy industry faced restrictive measures. Concerns include potential hindrances to international scientific collaboration, administrative burdens slowing research, risks to drug safety due to reduced oversight, environmental safeguard reductions, and possible disadvantages for smaller pharmaceutical manufacturers amid increased fees and regulatory reforms.",
-      "generated_at": "2025-12-08T07:10:45.678Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2025,
-      "month": 4,
-      "month_name": "April",
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 36
-        }
-      ],
-      "total_order_count": 36,
-      "summary": "In April 2025, President Donald Trump signed 36 executive orders focusing primarily on regulatory reform (21 orders) and national security (20 orders), with significant activity in federal agency management (12 orders) and trade policy (11 orders). Key orders addressed tariff adjustments on low-value imports from China, energy policy initiatives such as clean coal revitalization and electric grid security, and reforms in federal procurement and workforce management. Additional orders targeted education policy improvements, defense acquisitions modernization, and enhancing enforcement related to immigration and drug pricing, reflecting a broad agenda aimed at economic protectionism, energy independence, and institutional reforms.",
-      "potential_impact": "The executive orders aimed to positively impact federal agencies (22 orders), federal employees (18 orders), manufacturing workers, domestic energy producers, and the tech industry by promoting deregulation, energy sector support, and workforce development. Conversely, they aimed to negatively impact private sector rivals, China, small importers, undocumented immigrants, environmental advocates, and communities affected by police aggression, primarily through trade restrictions, increased tariffs, and enforcement policies. Concerns include potential increased costs and administrative burdens on small importers, risks of trade retaliation, logistical challenges for carriers, and legal challenges related to the use of emergency powers and complex compliance requirements.",
-      "generated_at": "2025-12-08T07:10:42.474Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2025,
-      "month": 3,
-      "month_name": "March",
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 30
-        }
-      ],
-      "total_order_count": 30,
-      "summary": "In March 2025, President Donald Trump signed 30 executive orders primarily focused on national security (16 orders) and federal agency management (14 orders), with significant attention to trade policy (9 orders) and regulatory reform (7 orders). Key orders addressed illicit drug flow at borders (EO 14226, 14227, 14231, 14232), tariff impositions (EO 14245), and federal procurement efficiency (EO 14240). Other notable actions included establishing a Strategic Bitcoin Reserve (EO 14233), restoring public service loan forgiveness (EO 14235), and enhancing election integrity (EO 14248). Several orders targeted risks associated with law firms (EO 14230, 14237, 14244, 14246, 14250) and aimed to reduce federal bureaucracy (EO 14238).",
-      "potential_impact": "The executive orders aimed to positively impact federal employees (21 orders), federal agencies (18 orders), state and local law enforcement (4 orders), and patriotic citizens (3 orders). Conversely, undocumented immigrants were targeted by 12 orders, alongside law firm employees (4 orders) and private sector rivals (3 orders). Key concerns include increased costs and administrative burdens for small importers and international shippers due to withdrawn duty-free treatments, potential disruptions to supply chains, and heightened trade tensions. Enforcement-focused orders may indirectly affect consumers through higher prices and raise compliance challenges amid uncertain tariff implementation timelines.",
-      "generated_at": "2025-12-08T07:10:39.165Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2025,
-      "month": 2,
-      "month_name": "February",
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 30
-        }
-      ],
-      "total_order_count": 30,
-      "summary": "In February 2025, President Donald Trump signed 30 executive orders focusing primarily on foreign policy (12 orders), regulatory reform (12), and federal agency management (11). Key actions included the establishment of a U.S. Sovereign Wealth Fund (EO 14196), border security updates (EOs 14197, 14198), withdrawal of funding from certain U.N. organizations (EO 14199), and multiple initiatives to optimize government efficiency (EOs 14210, 14217, 14219, 14222). Other notable orders addressed energy dominance (EO 14213), national security via import controls (EOs 14220, 14223), and public health reforms (EOs 14212, 14214, 14221). The orders reflect a broad agenda targeting economic, security, and regulatory priorities.",
-      "potential_impact": "The executive orders aimed to positively impact federal agencies (19 orders) and employees (16), domestic energy producers (5), religious communities (3), veterans (3), manufacturing workers (3), and small business owners (2). Conversely, they aimed to negatively impact undocumented immigrants (7 orders), displaced federal workers (4), environmental advocates (4), foreign nationals engaged in desecration (3), secular public institutions (3), and private sector rivals (3). Concerns include legal and financial risks related to the sovereign wealth fund, potential economic harm to American businesses from tariffs and border policies, and diplomatic tensions with Canada and international bodies.",
-      "generated_at": "2025-12-08T07:10:34.708Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2025,
-      "month": 1,
-      "month_name": "January",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 13
-        },
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 49
-        }
-      ],
-      "total_order_count": 62,
-      "summary": "In January 2025, during the presidential transition, Joseph R. Biden Jr. signed 13 executive orders primarily focused on federal agency succession, cybersecurity leadership, and foreign policy in the Western Balkans and Syria. Donald Trump issued 49 orders emphasizing national security, deregulation, immigration enforcement, and federal workforce reforms. Key orders include Biden's establishment of succession protocols within major federal departments and Trump's directives on border security, energy policy, and restoring merit-based government service. National security and federal agency management dominated themes, with significant attention to artificial intelligence, energy, and public safety across both administrations.",
-      "potential_impact": "The executive orders collectively aimed to positively impact federal employees, agencies, and the Department of Justice, while also targeting state and local governments, American businesses, and the tech industry. Populations aimed to be negatively impacted included undocumented and legal immigrants, diverse student populations, environmental advocates, and minority service members. Concerns arose regarding ambiguities and presidential discretion in succession orders, potentially affecting emergency leadership continuity and administrative consistency during transitions.",
-      "generated_at": "2025-12-08T07:10:22.417Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2024,
-      "month": 12,
-      "month_name": "December",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 5
-        }
-      ],
-      "total_order_count": 5,
-      "summary": "In December 2024, President Joseph R. Biden Jr. signed 5 executive orders focusing on federal workforce management, national security, and federal agency operations. Key orders included closures of federal departments on December 24, 2024, and January 9, 2025 (EO 14129, EO 14133), amendments to the Manual for Courts Martial (EO 14130), adjustments to pay rates (EO 14132), and changes to executive order-related certificates and badges (EO 14131). These orders predominantly addressed workforce scheduling, military personnel policies, and federal agency administration, reflecting efforts to manage federal operations and military justice procedures.",
-      "potential_impact": "The executive orders aimed to positively impact federal employees, armed forces personnel, and federal agencies by providing structured closures and updating military justice and compensation protocols. However, concerns include potential negative impacts on federal budget stakeholders due to increased payroll costs from paid leave, heightened workload and stress for employees required to work during holiday closures, and procedural uncertainties for military personnel due to amendments in court-martial rules. Challenges in consistent implementation and resource burdens for military legal offices were also noted, potentially affecting service members and agency operations.",
-      "generated_at": "2025-12-08T18:02:18.275Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2024,
-      "month": 11,
-      "month_name": "November",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "total_order_count": 1,
-      "summary": "In November 2024, President Joseph R. Biden Jr. signed one executive order focused on labor relations. EO 14128 established a Second Emergency Board to investigate a dispute between New Jersey Transit Rail Operations and its locomotive engineers represented by the Brotherhood of Locomotive Engineers and Trainmen. This action aimed to address ongoing labor tensions and facilitate dispute resolution through formal investigation, highlighting the administration's involvement in critical labor conflicts affecting public transit.",
-      "potential_impact": "The executive order aimed to positively impact federal employees involved in the investigation process while potentially negatively impacting railroad employees and labor union members by imposing constraints during the dispute. Key concerns include possible prolonged disruption to transit services due to delays from repeated emergency boards, limited negotiation flexibility, strained labor-management relations, and adverse effects on employers and transit riders if service interruptions occur.",
-      "generated_at": "2025-12-08T18:02:12.316Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2024,
-      "month": 9,
-      "month_name": "September",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
           "order_count": 2
         }
       ],
       "total_order_count": 2,
-      "summary": "In September 2024, President Joseph R. Biden Jr. signed two executive orders focusing primarily on education policy. EO 14126 centered on investing in American workers, addressing economic development, labor relations, federal procurement, community and workforce development. EO 14127 targeted firearms control, school safety, and national security by combating emerging firearms threats and improving school-based active-shooter drills. These orders collectively emphasized strengthening labor standards, enhancing federal agency roles, and increasing safety protocols in educational environments while addressing firearms regulation challenges.",
-      "potential_impact": "The executive orders aimed to positively impact American workers, labor union members, underserved communities, federal employees and agencies, students and educators, and state and local law enforcement. Conversely, they aimed to negatively impact non-union workers, private sector rivals, federal budget stakeholders, illegal firearms manufacturers and traffickers, and undocumented immigrants. Key concerns include potential increased project costs and administrative burdens, limited opportunities for non-union workers, regulatory complexities, implementation delays across federal entities, risks to innovation in additive manufacturing, legal challenges from firearms enforcement, burdens on schools for active-shooter drills, and privacy issues from enhanced law enforcement surveillance.",
-      "generated_at": "2025-12-08T18:02:39.149Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2024,
-      "month": 7,
-      "month_name": "July",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 2
-        }
-      ],
-      "total_order_count": 2,
-      "summary": "In July 2024, President Joseph R. Biden Jr. signed 2 executive orders focusing on education policy, workforce development, economic development, advisory committees management, and labor relations. EO 14124 initiated the White House Initiative on Advancing Educational Equity, Excellence, and Economic Opportunity Through Hispanic-Serving Institutions, targeting educational and economic support for Hispanic and Latino students. EO 14125 established an Emergency Board to investigate a labor dispute involving New Jersey Transit rail operations and the Brotherhood of Locomotive Engineers and Trainmen, aiming to address workforce and labor relations challenges in the railroad sector.",
-      "potential_impact": "The executive orders aimed to positively impact Hispanic Serving Institutions, Hispanic and Latino students, federal employees, railroad employees, and labor union members by enhancing educational equity and resolving labor disputes. Conversely, federal agencies, non-Hispanic Serving Institutions, non-union workers, and American businesses faced potential negative impacts due to resource reallocations, administrative burdens, and disruptions from labor dispute interventions. Key concerns include shifts in funding that may disadvantage non-HSI institutions, bureaucratic delays, increased federal costs, pressure on educational priorities, potential service disruptions, and indirect economic burdens on employers and taxpayers.",
-      "generated_at": "2025-12-08T18:02:34.739Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2024,
-      "month": 6,
-      "month_name": "June",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "total_order_count": 1,
-      "summary": "In June 2024, President Joseph R. Biden Jr. signed one executive order focused on enhancing supply chain security and resilience, titled EO 14123: White House Council on Supply Chain Resilience. The order addressed interconnected themes including national security, trade policy, economic and workforce development, foreign policy, federal agency management, and procurement policy. It aimed to coordinate federal efforts to bolster domestic manufacturing and secure critical supply chains while managing interagency collaboration and regulatory oversight.",
-      "potential_impact": "The executive order aimed to positively impact federal employees, American workers, small business owners, and underserved communities by promoting domestic investment and workforce development. Conversely, it targeted foreign entities in countries of concern and private sector rivals, potentially restricting their market access. Concerns include increased administrative burdens, possible disruptions to international trade, higher costs for federal agencies and businesses, and challenges in balancing security objectives with maintaining competitive and open markets.",
-      "generated_at": "2025-12-08T18:02:30.796Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2024,
-      "month": 4,
-      "month_name": "April",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "total_order_count": 1,
-      "summary": "In April 2024, President Joseph R. Biden Jr. signed 1 executive order, EO 14122, focused on national security, federal agency management, disaster preparedness, and public health administration. This order addressed COVID-19 and public health preparedness and response by terminating the COVID-19 Response Coordinator position and consolidating responsibilities into the Office of Pandemic Preparedness and Response (OPPR). The order revoked earlier COVID-19 executive orders to streamline federal efforts under the new structure, impacting federal agencies and employees by restructuring leadership and operational protocols.",
-      "potential_impact": "The executive order aimed to positively impact federal employees and agencies by centralizing pandemic response functions within OPPR, potentially enhancing coordinated public health administration. However, it also aimed to negatively impact displaced federal workers due to position terminations, raising concerns about job security and transition planning. Additional concerns include possible leadership gaps during the transition, risk of overburdening OPPR, elimination of prior targeted protections, and challenges in interagency coordination that could affect responsiveness and effectiveness.",
-      "generated_at": "2025-12-08T18:02:27.648Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2024,
-      "month": 3,
-      "month_name": "March",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 4
-        }
-      ],
-      "total_order_count": 4,
-      "summary": "In March 2024, President Joseph R. Biden Jr. signed 4 executive orders focusing on foreign policy, national security, federal workforce, labor relations, workforce development, federal procurement policy, economic development, scientific research, federal research coordination, and women's health research. Key orders included terminating the emergency concerning Zimbabwe (EO 14118), expanding registered apprenticeships and labor-management forums (EO 14119), advancing women's health research and innovation (EO 14120), and recognizing women's history (EO 14121). These actions collectively addressed diplomatic relations, workforce modernization, and gender-focused research and recognition.",
-      "potential_impact": "The executive orders aimed to positively impact federal employees, American workers, underserved communities, scientific researchers, academic institutions, women of color, older women, women with disabilities, women and girls, and diverse historical communities. Conversely, they targeted negatively federal budget stakeholders, populations in designated countries, sanctioned persons and affiliates, non-union workers, federal contractors, and competing research areas. Concerns include reduced leverage over Zimbabwe regarding human rights, potential resurgence of sanctioned entities, increased compliance burdens on contractors, disadvantages for non-apprenticeship workers, labor-management tensions, and resource competition in medical research.",
-      "generated_at": "2025-12-08T18:02:24.623Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2024,
-      "month": 2,
-      "month_name": "February",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 2
-        }
-      ],
-      "total_order_count": 2,
-      "summary": "In February 2024, President Joseph R. Biden Jr. signed 2 executive orders focused on national security and privacy and data security. EO 14116 amended regulations to enhance safeguarding of U.S. vessels, harbors, ports, and waterfront facilities, emphasizing maritime security and consumer protection. EO 14117 targeted preventing foreign access to Americans' bulk sensitive personal data and government-related data, addressing foreign policy and data security regulation. Both orders aimed to strengthen federal oversight and protective measures across maritime and data sectors, involving expanded Coast Guard authority and new restrictions on data handling by countries of concern.",
-      "potential_impact": "The executive orders aimed to positively impact federal employees, Coast Guard personnel, maritime industry workers, and U.S. persons with sensitive data by enhancing security and data protection. Conversely, they aimed to negatively impact maritime transportation users through operational disruptions, foreign entities in countries of concern by restricting data access, and U.S. data service providers and data brokerage industries by imposing compliance costs and regulatory burdens. Concerns include increased enforcement complexity, potential privacy issues, diplomatic tensions, implementation challenges, and risks of overreach or inconsistent application affecting commercial and scientific data flows.",
-      "generated_at": "2025-12-08T18:02:20.925Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2024,
-      "month": 1,
-      "month_name": "January",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "total_order_count": 1,
-      "summary": "In January 2024, President Joseph R. Biden Jr. signed one executive order focused on national security, foreign policy, counterterrorism, immigration enforcement, and financial regulation. EO 14115 imposed sanctions on individuals undermining peace, security, and stability in the West Bank. The order targets persons deemed responsible for destabilizing activities, aiming to enhance regional stability and uphold counterterrorism policies. This measure integrates immigration and financial regulatory mechanisms to enforce sanctions effectively.",
-      "potential_impact": "The executive order aims to positively impact federal employees involved in enforcement, regional stability actors, and innocent civilian populations in the West Bank by addressing destabilizing elements. Conversely, it targets sanctioned persons and their affiliates negatively by restricting their activities and financial transactions. Key concerns include potential unintended harm to innocent civilians due to economic restrictions, challenges in accurately designating responsible parties, diplomatic complications, resource-intensive enforcement, and risks of escalating regional tensions or retaliation.",
-      "generated_at": "2025-12-08T18:02:10.105Z",
+      "summary": "In September 2025, President Donald Trump focused executive actions on sustaining federal advisory committees and advancing innovative healthcare solutions. One order extended the operation of advisory committees overseeing national monuments and public lands, reflecting a commitment to ongoing consultation in land management and religious liberty issues. Simultaneously, the administration launched a forward-looking initiative to harness artificial intelligence in combating pediatric cancer, aiming to accelerate research and improve treatment outcomes through cutting-edge technology integration.",
+      "potential_impact": "These orders aimed to benefit a diverse range of groups including Native American communities connected to ancestral lands, small business owners, religious organizations, and vulnerable populations such as children with cancer. However, concerns arose about prolonged deliberations potentially delaying Native American interests, regulatory burdens on small businesses, and privacy risks for youth amid increased AI use. Additionally, disparities in access to AI-driven healthcare and challenges for medical professionals adapting to new technologies highlighted the complex implications for patients, caregivers, and the scientific research community.",
+      "generated_at": "2025-12-12T08:35:46.198Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -357,9 +63,9 @@
         }
       ],
       "total_order_count": 3,
-      "summary": "In December 2023, President Joseph R. Biden Jr. signed three executive orders focused on regulatory reform, federal agency management, economic and community development, tribal policy, federal workforce, veterans affairs, national security, trade policy, and financial regulation. EO 14112 addressed reforming federal funding and promoting tribal self-determination, EO 14113 adjusted federal pay rates, and EO 14114 imposed additional measures against harmful activities by the Russian Federation. These orders reflect an emphasis on enhancing federal workforce conditions, strengthening tribal relations, and reinforcing national security through trade and sanctions policy.",
-      "potential_impact": "The executive orders aimed to positively impact federal employees, federal agencies, tribal nations, and military veterans by improving pay and funding structures and advancing tribal self-determination. They also targeted negatively foreign seafood exporters, financial institutions, sanctioned persons, non-tribal federal funding recipients, and federal budget stakeholders. Key concerns include increased administrative burdens on agencies, potential delays or confusion in funding processes, resource competition between tribal and non-tribal entities, budgetary strains from payroll increases, and challenges in consistent implementation and employee compensation adjustments.",
-      "generated_at": "2025-12-08T18:09:54.978Z",
+      "summary": "In December 2023, President Biden focused on advancing tribal self-determination through a significant executive order aimed at reforming federal funding and support for Tribal Nations, emphasizing trust responsibilities and enhanced autonomy. Concurrently, adjustments to federal pay rates sought to address workforce management challenges amid concerns about fairness and budget impacts. Additionally, steps targeting Russia’s harmful activities reflected a continued emphasis on economic sanctions and defense policy, underscoring a broad approach spanning domestic tribal affairs, federal workforce priorities, and international security.",
+      "potential_impact": "The orders sought to benefit Native American communities, tribal governments, and students by improving funding flexibility and promoting sovereignty, while also addressing the needs of federal employees, veterans, and military personnel through pay adjustments. However, observers raised concerns that disparities might widen among tribal nations with varying capacities, and that changes in federal pay could strain veterans’ healthcare funding and affect morale among uniformed service members. Meanwhile, sanctions against Russia aimed to impact foreign entities but could also influence industries connected to defense and financial services.",
+      "generated_at": "2025-12-12T08:35:28.676Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -374,9 +80,9 @@
         }
       ],
       "total_order_count": 1,
-      "summary": "In November 2023, President Joseph R. Biden Jr. signed one executive order focused on national security, federal agency management, and federal property management. EO 14111, titled 'Interagency Security Committee,' aimed to enhance coordination and standards across federal agencies managing security operations at federal properties. The order emphasized interagency collaboration and improved oversight of security protocols within federal facilities, reflecting a strategic effort to strengthen federal security infrastructure and management controls.",
-      "potential_impact": "The executive order aimed to positively impact federal employees, agencies, and contractors by establishing clearer security standards and coordination mechanisms. However, it also aimed to negatively impact federal contractors, particularly smaller firms, by imposing increased compliance and reporting requirements. Key concerns include administrative burden on contractors, potential delays or inconsistencies in policy implementation, resource constraints in agencies, challenges balancing security with privacy and efficiency, and possible security gaps due to exceptions for intelligence agencies.",
-      "generated_at": "2025-12-08T18:09:51.515Z",
+      "summary": "In November 2023, President Joseph R. Biden Jr. signed a single executive order focusing on enhancing homeland security through improved interagency coordination. This order aimed to strengthen federal law enforcement collaboration by establishing more rigorous security standards under the Interagency Security Committee. The initiative sought to create a more unified approach to safeguarding federal facilities, emphasizing specialized measures such as blast-resistant structures to address evolving security threats while fostering cooperation across multiple agencies.",
+      "potential_impact": "The executive order primarily targeted federal employees and contractors by aiming to bolster their workplace security through stricter compliance and facility upgrades. However, the heightened security protocols raised concerns about increased surveillance and data sharing that might affect privacy. Additionally, federal contractors faced potential operational challenges and higher costs due to stricter standards, while uneven resource allocation and possible jurisdictional tensions could influence daily workflows and the overall safety environment within federal workplaces.",
+      "generated_at": "2025-12-12T08:35:25.321Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -391,9 +97,9 @@
         }
       ],
       "total_order_count": 1,
-      "summary": "In October 2023, President Joseph R. Biden Jr. signed one executive order, EO 14110, focused on the safe, secure, and trustworthy development and use of artificial intelligence. The order addressed multiple themes including national security, federal workforce enhancement, consumer protection, civil rights enforcement, education policy, foreign policy, federal agency management, technology development, and data governance. It emphasized improving AI governance frameworks, federal hiring for AI expertise, and international coordination on AI standards to balance innovation with safety and civil rights.",
-      "potential_impact": "The executive order aimed to positively impact federal employees, the tech industry, academic institutions, small business owners, military veterans, scientific researchers, underserved communities, diverse student populations, and education administrators by promoting responsible AI use and workforce development. Conversely, it posed potential negative impacts on privacy and data security, small federal contractors, foreign entities in countries of concern, federal agencies, the tech industry, and small business owners due to increased regulatory burdens, compliance demands, and restrictions on AI capabilities. Key concerns included regulatory strain on smaller firms, challenges in international cooperation, and complex legal and ethical issues balancing innovation with civil rights protections.",
-      "generated_at": "2025-12-08T18:09:49.091Z",
+      "summary": "In October 2023, President Joseph R. Biden Jr. focused executive action on the multifaceted challenges and opportunities presented by artificial intelligence through EO 14110. This order aimed to establish a framework for the safe, secure, and trustworthy development and use of AI, intertwining themes of national security, data privacy, and federal workforce management. By addressing AI's impact on both technology sectors and governmental operations, the administration sought to balance innovation with robust safeguards to mitigate risks associated with AI deployment.",
+      "potential_impact": "The executive order targeted a broad spectrum of stakeholders, including technology workers, federal employees, law enforcement officers, and various student populations, indicating an effort to support innovation, security, and education. However, concerns arose regarding potential adverse effects on individuals with disabilities, low-income families, and both union and non-union workers, as well as the risk of exacerbating biases in AI applications. Additionally, the order's regulatory demands and restrictions on foreign collaboration raised worries about limiting opportunities for small businesses and international researchers, potentially impacting diversity and inclusion across sectors.",
+      "generated_at": "2025-12-12T08:35:22.328Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -408,9 +114,9 @@
         }
       ],
       "total_order_count": 3,
-      "summary": "In September 2023, President Joseph R. Biden Jr. signed three executive orders focusing primarily on federal agency management and workforce issues, with additional emphasis on national security, environmental regulation, disaster preparedness, public health administration, public safety, industrial accident response, advisory committees management, and civil rights enforcement. EO 14107 exempted Paul H. Maurer from mandatory separation, EO 14108 addressed protections for the people of East Palestine, and EO 14109 continued certain federal advisory committees and amended related orders. These orders collectively aimed to enhance federal workforce management, environmental safety, and advisory committee oversight.",
-      "potential_impact": "The executive orders aimed to positively impact federal employees, state and local governments, citizens in affected communities, federal agencies, hazardous materials responders, affected residents, and Asian American and NHPI communities. Conversely, they potentially negatively impacted federal budget stakeholders, American businesses, railroad employees, industrial transport companies, local businesses, and federal agencies facing increased administrative burdens. Key concerns included possible complications in workforce management and federal payroll costs due to exemptions, resource strains and delayed recovery in East Palestine, risks of preferential treatment, bureaucratic inefficiencies, prolonged litigation, public mistrust in environmental monitoring, and increased administrative demands on federal agencies without additional funding.",
-      "generated_at": "2025-12-08T18:10:27.122Z",
+      "summary": "In September 2023, President Biden's executive orders underscored a commitment to strengthening federal workforce management and law enforcement, exemplified by an exemption allowing a key Secret Service agent to continue service beyond mandatory retirement. Concurrently, the administration prioritized disaster response and long-term recovery for communities affected by the East Palestine incident, emphasizing environmental regulation and public health oversight. Additionally, the continuation and amendment of federal advisory committees highlighted ongoing efforts to integrate environmental justice and civil rights perspectives into policymaking.",
+      "potential_impact": "These orders aimed to benefit federal law enforcement officers and employees by providing workforce flexibility, while addressing the urgent needs of disaster-affected communities in Ohio and Pennsylvania, including diverse populations such as African Americans, Hispanic, Asian, Native Hawaiian, Pacific Islander, and tribal groups. However, concerns arose about potential morale issues within federal agencies, prolonged health anxieties for affected residents, and possible negative consequences for employees of large corporations like Norfolk Southern Railroad due to accountability measures. Observers also noted risks that extended federal involvement and advisory processes might slow disaster recovery and environmental remediation efforts.",
+      "generated_at": "2025-12-12T08:35:35.028Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -425,298 +131,9 @@
         }
       ],
       "total_order_count": 2,
-      "summary": "In August 2023, President Joseph R. Biden Jr. signed two executive orders focusing primarily on national security. EO 14105 targeted United States investments in certain national security technologies and products in countries of concern, intersecting foreign policy, financial regulation, and technology development. EO 14106 addressed United States Coast Guard officer personnel management, involving military personnel policy and federal agency management. These orders aimed to regulate foreign investment risks and reform personnel management within the Coast Guard, reflecting concerns over technological security and military administrative efficiency.",
-      "potential_impact": "The executive orders aimed to positively impact federal employees and agencies, including Coast Guard personnel, through enhanced management and regulatory oversight. Conversely, foreign entities and investors in countries of concern, as well as the tech industry, faced increased restrictions potentially impacting cross-border investments and innovation. Coast Guard officers could experience negative effects due to centralized personnel decision-making, with concerns about transparency, appeal rights, and potential morale issues. Regulatory uncertainties and possible retaliatory actions by foreign governments also represent notable risks.",
-      "generated_at": "2025-12-08T18:10:22.905Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2023,
-      "month": 7,
-      "month_name": "July",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 3
-        }
-      ],
-      "total_order_count": 3,
-      "summary": "In July 2023, President Joseph R. Biden Jr. signed three executive orders focused primarily on national security, with two orders addressing military personnel policy and one on federal research coordination to support domestic manufacturing and job creation. The orders included EO 14102 activating selected reserve and individual ready reserve members, EO 14103 amending the Manual for Courts-Martial, and EO 14104 enhancing federal research and development efforts. Additional themes covered foreign policy, criminal justice enforcement, technology development, supply chain security, and federal procurement policy, reflecting a multifaceted approach to national security and defense-related priorities.",
-      "potential_impact": "The executive orders aimed to positively impact federal employees, armed forces personnel, manufacturing workers, scientific researchers, and small business owners by enhancing military readiness and supporting domestic industry. However, they also aimed to negatively impact undocumented immigrants, selected reserve and IRR members, pretrial defendants, foreign entities in countries of concern, private sector rivals, and foreign manufacturers. Concerns include potential disruptions to civilian employment for reserve activations, administrative and compliance burdens, possible confusion over military justice amendments, and risks of political backlash due to increased military deployments without broader consultation.",
-      "generated_at": "2025-12-08T18:10:19.761Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2023,
-      "month": 6,
-      "month_name": "June",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 2
-        }
-      ],
-      "total_order_count": 2,
-      "summary": "In June 2023, President Joseph R. Biden Jr. signed two executive orders focused primarily on Veterans Affairs Policy and Equity and Inclusion Policy. EO 14100 advanced economic security for military and veteran spouses, caregivers, and survivors, addressing workforce development and federal workforce issues. EO 14101 aimed to strengthen access to affordable, high-quality contraception and family planning services, touching on reproductive health policy, public health promotion, privacy, and data security. These orders collectively emphasized support for veterans, military families, reproductive rights, and federal employee equity.",
-      "potential_impact": "The orders aimed to positively impact federal employees, military veterans, military-connected families, medical patients, low-income patients, women and girls, reproductive rights advocates, academic institutions, and federal agencies. Conversely, they posed potential negative impacts on private sector employers, non-military spouse job seekers, undocumented immigrants, private health insurers, federal agencies facing increased administrative burdens, and states with restrictive reproductive policies. Key concerns included administrative burden increases for federal agencies and private insurers, privacy and compliance challenges, potential reduction in job opportunities for non-military spouses, legal conflicts in restrictive states, and difficulties ensuring adequate funding under budget constraints.",
-      "generated_at": "2025-12-08T18:10:15.744Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2023,
-      "month": 5,
-      "month_name": "May",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 2
-        }
-      ],
-      "total_order_count": 2,
-      "summary": "In May 2023, President Joseph R. Biden Jr. signed two executive orders focusing on national security, foreign policy, immigration enforcement, trade policy, federal workforce, and public health administration. EO 14098 imposed sanctions targeting individuals destabilizing Sudan and obstructing democratic transition efforts. EO 14099 ended COVID-19 vaccination requirements for federal workers, shifting federal public health policy. These orders addressed sanctioning specific persons and adjusting federal workforce health mandates, reflecting a balance between international security measures and domestic workforce health policy changes.",
-      "potential_impact": "The sanctions in EO 14098 aimed to negatively impact sanctioned persons, affiliates, and populations in designated countries, potentially restricting humanitarian aid and economic activity. Positively, the order targeted destabilizing actors to support democratic transition goals. EO 14099 aimed to positively impact federal agencies, employees, and contractors by lifting vaccination mandates but posed risks to public health workers and displaced federal workers, raising concerns over increased COVID-19 exposure, potential stigmatization, and uneven policy implementation across agencies.",
-      "generated_at": "2025-12-08T18:10:11.809Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2023,
-      "month": 4,
-      "month_name": "April",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 4
-        }
-      ],
-      "total_order_count": 4,
-      "summary": "In April 2023, President Joseph R. Biden Jr. signed four executive orders focusing predominantly on equity and inclusion policy (3 orders), federal agency management (2 orders), workforce development (2 orders), tribal and community development (2 orders each), alongside regulatory reform, education, labor relations, veterans affairs, and economic development. The orders—EO 14094 on modernizing regulatory review, EO 14095 on increasing access to high-quality care and supporting caregivers, EO 14096 on environmental justice, and EO 14097 on activating the Ready Reserve to address drug trafficking—reflect a multifaceted approach to federal governance and social policy enhancement.",
-      "potential_impact": "The executive orders aim to positively impact federal employees, underserved communities, American workers, tribal nations, military veterans, women (including women of color and older women), small business owners, and military-connected families. Conversely, they pose potential negative impacts on non-union workers, federal agencies facing increased administrative burdens, regulated entities, private sector employers, non-military spouse job seekers, federal budget stakeholders, industrial transport companies, local businesses, and non-tribal federal funding recipients. Concerns include increased regulatory complexity, potential delays due to transparency measures, inconsistent regulatory applications, resource constraints for agencies, legal challenges, budget strains, and possible employment cost increases or reductions in opportunities for some groups.",
-      "generated_at": "2025-12-08T18:10:08.078Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2023,
-      "month": 3,
-      "month_name": "March",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 2
-        }
-      ],
-      "total_order_count": 2,
-      "summary": "In March 2023, President Joseph R. Biden Jr. signed 2 executive orders focusing on public safety, firearms control, national security, and privacy and data security. EO 14092 aimed to reduce gun violence and enhance community safety through expanded regulations and extreme risk protection orders. EO 14093 prohibited the U.S. government from using commercial spyware posing national security risks. These orders addressed federal procurement policy, veterans affairs, and education policy by targeting firearm regulation, government cybersecurity practices, and interagency coordination.",
-      "potential_impact": "The executive orders aimed to positively impact federal employees, federal agencies, state and local law enforcement, veterans, and students and educators by improving safety and security measures. They targeted illegal firearms manufacturers, undocumented immigrants, commercial spyware vendors, foreign entities in countries of concern, and potentially average Americans with increased firearm regulations. Key concerns include the burden on lawful gun owners, privacy issues for firearms dealers, civil liberties implications of expanded 'red flag' laws, implementation challenges across agencies, and possible international retaliation affecting government cybersecurity operations.",
-      "generated_at": "2025-12-08T18:10:01.848Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2023,
-      "month": 2,
-      "month_name": "February",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "total_order_count": 1,
-      "summary": "In February 2023, President Joseph R. Biden Jr. signed one executive order, EO 14091, focusing on advancing racial equity and support for underserved communities through federal government actions. The order encompassed themes including equity and inclusion policy, federal agency management, procurement policy, community and tribal development, data governance, artificial intelligence, civil rights enforcement, and economic development. It aimed to enhance federal engagement with tribal nations, small businesses, women and girls, Asian American and NHPI communities, rural areas, and Native American students, while promoting place-based economic development and improved data practices across federal agencies.",
-      "potential_impact": "EO 14091 aimed to positively impact federal agencies, underserved communities, tribal nations, small business owners, women and girls, Asian Americans and NHPI communities, rural communities, Native American students, and small federal contractors. Conversely, it aimed to negatively impact non-tribal federal funding recipients, federal agencies facing increased administrative burdens, and non-union workers. Concerns include added administrative strain on agencies, potential reduced opportunities for non-tribal and larger contractors, slowed AI and technology development due to regulatory requirements, challenges in consistent community engagement, and uncertainty in federal facility siting affecting urban development plans.",
-      "generated_at": "2025-12-08T18:09:58.660Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2022,
-      "month": 12,
-      "month_name": "December",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 2
-        }
-      ],
-      "total_order_count": 2,
-      "summary": "In December 2022, President Joseph R. Biden Jr. signed two executive orders focusing on foreign policy, advisory committees management, equity and inclusion, economic and community development, education, federal workforce, veterans affairs, military personnel, and federal pay policy. EO 14089 established the President's Advisory Council on African Diaspora Engagement in the United States, aiming to enhance representation and policy coordination. EO 14090 adjusted certain federal pay rates, impacting federal workforce compensation. These orders collectively addressed diverse policy areas ranging from international engagement to federal employee pay adjustments.",
-      "potential_impact": "The executive orders aimed to positively impact HBCU students, administrators, faculty, and federal employees by promoting inclusion and adjusting pay rates. Conversely, federal budget stakeholders faced potential negative impacts due to increased payroll expenses. Concerns included challenges in ensuring diverse and effective advisory council representation, potential bureaucratic delays, insufficient funding, controversies balancing foreign and domestic policy goals, and complexities in implementing pay adjustments, which could lead to perceptions of unfairness or dissatisfaction among federal employees.",
-      "generated_at": "2025-12-09T03:48:56.833Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2022,
-      "month": 10,
-      "month_name": "October",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 3
-        }
-      ],
-      "total_order_count": 3,
-      "summary": "In October 2022, President Joseph R. Biden Jr. signed three executive orders focusing primarily on national security and healthcare cost reduction. EO 14086 enhanced safeguards for U.S. signals intelligence activities, addressing privacy and security tensions. EO 14087 targeted lowering prescription drug costs for Americans, involving consumer protection and pharmaceutical price controls. EO 14088 took additional steps to address the national emergency concerning Nicaragua, involving trade and foreign policy measures. These orders collectively reflect priorities in safeguarding intelligence operations, reducing healthcare expenses, and managing foreign relations with designated countries.",
-      "potential_impact": "The executive orders aimed to positively impact U.S. persons with sensitive data, seniors, low-income and medical patients, sanctioned individuals, and civilian populations in designated countries. Conversely, they targeted foreign entities in countries of concern, pharmaceutical manufacturers, and populations in designated countries negatively. Key concerns include balancing national security with privacy, limited transparency, implementation complexity, potential price shifts by pharmaceutical companies, disruptions in Medicare/Medicaid, and challenges in enforcing inflation-based drug price rebates.",
-      "generated_at": "2025-12-09T03:48:53.332Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2022,
-      "month": 9,
-      "month_name": "September",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 4
-        }
-      ],
-      "total_order_count": 4,
-      "summary": "In September 2022, President Joseph R. Biden Jr. signed 4 executive orders focusing on technology development, economic development, equity and inclusion, national security, supply chain security, privacy and data security, workforce development, and environmental regulation. Key orders included EO 14081 advancing biotechnology and biomanufacturing innovation; EO 14082 implementing the Inflation Reduction Act's energy and infrastructure provisions; EO 14083 addressing national security risks in foreign investment; and EO 14084 promoting arts, humanities, and museum and library services. These orders collectively emphasized fostering innovation, securing supply chains, and promoting equitable access across industries and communities.",
-      "potential_impact": "The executive orders aimed to positively impact scientific researchers, academic institutions, the tech and green energy industries, manufacturing workers, investment entities, nonprofit organizations, and public broadcasting employees by enhancing innovation, workforce opportunities, and infrastructure. Conversely, foreign suppliers, foreign processors of critical minerals, domestic energy producers, foreign investors in countries of concern, and private sector rivals were targeted for regulatory restrictions. Concerns included balancing data sharing with privacy, potential delays from regulatory complexity, challenges ensuring equitable access for underserved communities, and tensions between rapid clean energy deployment and environmental or community protections.",
-      "generated_at": "2025-12-09T03:49:26.152Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2022,
-      "month": 8,
-      "month_name": "August",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 2
-        }
-      ],
-      "total_order_count": 2,
-      "summary": "In August 2022, President Joseph R. Biden Jr. signed two executive orders focusing on reproductive health and technology development. EO 14079 aimed to secure access to reproductive and other healthcare services, addressing reproductive rights, civil rights enforcement, and public health administration. EO 14080 implemented the CHIPS Act of 2022, targeting economic development, supply chain security, technology development, workforce development, and federal agency management. These orders collectively emphasized improving reproductive health policy access and strengthening domestic semiconductor manufacturing capabilities.",
-      "potential_impact": "The executive orders aimed to positively impact women seeking elective abortions and contraception, reproductive rights advocates, the tech industry, and manufacturing workers. Conversely, they targeted states with restrictive abortion policies, private health insurers, foreign suppliers, and foreign manufacturers, potentially creating challenges for these groups. Key concerns included legal conflicts between federal directives and state laws, privacy issues related to reproductive health data, burdens on patients traveling across states, coordination complexities among federal agencies, geopolitical tensions from supply chain shifts, and difficulties in equitable resource allocation and effective policy adaptation in rapidly evolving technology sectors.",
-      "generated_at": "2025-12-09T03:49:21.782Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2022,
-      "month": 7,
-      "month_name": "July",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 3
-        }
-      ],
-      "total_order_count": 3,
-      "summary": "In July 2022, President Joseph R. Biden Jr. signed three executive orders focusing primarily on public safety and reproductive health policy. EO 14076 protected access to reproductive healthcare services, EO 14077 established an Emergency Board to investigate labor disputes between railroads and their employees, and EO 14078 intensified efforts to bring home hostages and wrongfully detained U.S. nationals. Other themes addressed include privacy, civil rights enforcement, labor relations, economic development, national security, and foreign policy, reflecting a broad approach to domestic and international challenges during the period.",
-      "potential_impact": "The executive orders aimed to positively impact women seeking elective abortions and contraception, reproductive rights advocates, railroad employees, labor union members, and wrongfully detained U.S. nationals. Conversely, states with restrictive abortion policies and populations in designated foreign countries were targeted for negative impact. Key concerns included potential legal challenges to abortion protections, difficulties in mobilizing pro bono legal support, risks of increased clinic confrontations, bureaucratic delays, prolonged labor tensions, concerns about impartiality in labor dispute resolution, and diplomatic complications arising from sanctions and asset blocking measures.",
-      "generated_at": "2025-12-09T03:49:17.441Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2022,
-      "month": 6,
-      "month_name": "June",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "total_order_count": 1,
-      "summary": "In June 2022, President Joseph R. Biden Jr. signed 1 executive order, EO 14075, titled \"Advancing Equality for Lesbian, Gay, Bisexual, Transgender, Queer, and Intersex Individuals.\" The order addressed multiple themes including equity and inclusion, child welfare, public health, education, consumer protection, foreign policy, data governance, community development, and LGBTQ+ rights. It aimed to promote equality and protections through comprehensive policy measures spanning domestic and international spheres.",
-      "potential_impact": "The executive order aimed to positively impact children in foster care, homeless individuals, and students in federally funded schools by enhancing protections and inclusivity. Key concerns included potential legal challenges in states with conflicting LGBTQI+ laws, debates over parental rights and religious freedom related to conversion therapy restrictions, privacy and security issues from data collection on sexual orientation and gender identity, bureaucratic hurdles in policy enforcement, and possible diplomatic tensions internationally over differing LGBTQ+ policies.",
-      "generated_at": "2025-12-09T03:49:14.440Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2022,
-      "month": 5,
-      "month_name": "May",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 2
-        }
-      ],
-      "total_order_count": 2,
-      "summary": "In May 2022, President Joseph R. Biden Jr. signed 2 executive orders focusing on technology development and advisory committee management. EO 14073 enhanced the National Quantum Initiative Advisory Committee, emphasizing federal research coordination and scientific research. EO 14074 advanced policing and criminal justice reforms to improve public trust and safety, addressing national security, civil rights enforcement, and federal workforce concerns. These orders collectively targeted technology innovation and accountable law enforcement practices, reflecting priorities in advancing scientific advisory bodies and reforming policing systems.",
-      "potential_impact": "The orders aimed to positively impact the tech industry, scientific researchers, academic institutions, state and local law enforcement, and communities affected by police aggression. Conversely, foreign suppliers were targeted negatively due to restrictions or policies favoring domestic technology development. Key concerns included challenges in maintaining diverse, balanced advisory committees, bureaucratic delays, funding uncertainties, privacy and data security issues, burdens on smaller law enforcement agencies, potential resistance to equipment restrictions, legal challenges regarding officer accountability, and political controversy surrounding systemic racism interventions.",
-      "generated_at": "2025-12-09T03:49:10.960Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2022,
-      "month": 4,
-      "month_name": "April",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 3
-        }
-      ],
-      "total_order_count": 3,
-      "summary": "In April 2022, President Joseph R. Biden Jr. signed three executive orders focusing primarily on trade and foreign policy, with additional emphasis on consumer protection, reproductive health, healthcare access, national security, public lands management, environmental regulation, tribal policy, and place-based economic development. EO 14070 aimed to strengthen access to affordable health coverage, EO 14071 imposed prohibitions on new investments and services to Russia amid ongoing aggression, and EO 14072 targeted enhancement of forests, communities, and local economies. The orders collectively addressed healthcare affordability, sanctions, and environmental conservation.",
-      "potential_impact": "The executive orders aimed to positively impact low-income patients, seniors, medical patients, investment entities, indigenous communities, and tribal nations by improving healthcare access, safeguarding tribal lands, and supporting local economies. Conversely, they aimed to negatively impact private health insurers, foreign investors in countries of concern, and foreign timber and lumber exporters through restrictions and regulatory changes. Concerns include potential resistance from states not expanding Medicaid, increased administrative burdens, legal challenges, complexities in sanction enforcement against Russia, possible economic repercussions for U.S. businesses and allies, and delays in forest protection due to jurisdictional issues.",
-      "generated_at": "2025-12-09T03:49:07.534Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2022,
-      "month": 3,
-      "month_name": "March",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 4
-        }
-      ],
-      "total_order_count": 4,
-      "summary": "In March 2022, President Joseph R. Biden Jr. signed 4 executive orders focused predominantly on national security and foreign policy, with significant attention to trade and financial regulation. Key orders included EO 14066 and EO 14068, which imposed prohibitions on imports and investments tied to Russian aggression, reflecting efforts to counteract sovereignty violations in Ukraine. EO 14067 addressed responsible development of digital assets, intersecting technology, privacy, and financial sectors. EO 14069 aimed to enhance federal contracting through pay equity and transparency, promoting economic efficiency. Themes also encompassed energy policy, consumer protection, and climate mitigation.",
-      "potential_impact": "The executive orders aimed to positively impact domestic energy producers, the tech industry, financial institutions, investment entities, and federal contractors by bolstering regulatory frameworks and promoting equitable federal contracting. Conversely, they aimed to negatively impact foreign suppliers, manufacturers, seafood exporters, as well as unbanked and underbanked populations, and private sector employers through import bans and investment restrictions. Concerns include increased U.S. energy prices, market volatility, enforcement challenges, risk of evasion, retaliatory geopolitical actions, regulatory complexities in digital asset oversight, privacy issues, and environmental effects related to cryptocurrency mining.",
-      "generated_at": "2025-12-09T03:49:03.627Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2022,
-      "month": 2,
-      "month_name": "February",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 3
-        }
-      ],
-      "total_order_count": 3,
-      "summary": "In February 2022, President Joseph R. Biden Jr. signed three executive orders focusing on foreign policy, national security, and federal procurement. EO 14063 mandated the use of project labor agreements for federal construction projects, aiming to strengthen labor relations and workforce development. EO 14064 addressed protection of Da Afghanistan Bank's property to support the Afghan people. EO 14065 imposed sanctions blocking property and prohibiting transactions related to Russian actions undermining Ukraine's sovereignty. These orders collectively emphasized labor policies, humanitarian economic support, and trade restrictions linked to geopolitical conflicts.",
-      "potential_impact": "The orders aimed to positively impact labor union members, federal contractors, civilian populations in Afghanistan, and sanctioned persons and affiliates. Conversely, they aimed to negatively impact non-union workers, financial institutions, and populations in designated countries such as Afghanistan and Russia. Concerns include potential reduced contractor competition and increased costs from labor agreement requirements, challenges for small businesses, possible harm to Afghan civilians due to frozen assets, and complications arising from enforcement and coordination among agencies and institutions.",
-      "generated_at": "2025-12-09T03:48:59.892Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2022,
-      "month": 1,
-      "month_name": "January",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "total_order_count": 1,
-      "summary": "In January 2022, President Joseph R. Biden Jr. signed one executive order focusing on military personnel policy and criminal justice enforcement. The order, EO 14062, involved amendments to the Manual for Courts-Martial, United States. This measure aimed to update military justice procedures, reflecting adjustments in legal and enforcement practices within the Armed Forces. The executive order's key themes centered on reforming military judicial processes and enforcement standards.",
-      "potential_impact": "EO 14062 aimed to positively impact armed forces personnel by updating military justice protocols. However, concerns include potential confusion or inconsistency in rule application without adequate training, disparities due to the non-retroactive nature of amendments, and challenges in distinguishing ongoing cases from those subject to changes. Additionally, limited public detail on amendments may reduce transparency and public understanding of the military justice adjustments.",
-      "generated_at": "2025-12-09T03:48:49.944Z",
+      "summary": "In August 2023, President Biden focused executive actions on safeguarding national security through technology and enhancing military personnel management. One order tightened controls on U.S. investments in sensitive technologies linked to countries of concern, addressing risks in quantum computing, artificial intelligence, and cybersecurity sectors. The other restructured Coast Guard officer management by delegating appointment and promotion authority to the Secretary of Homeland Security, aiming to streamline military readiness and operational command, especially during emergencies or when integrated with the Navy.",
+      "potential_impact": "These orders sought to protect defense and technology workers by limiting foreign influence in critical sectors and refining Coast Guard personnel oversight. However, restrictions on investments could challenge U.S. corporations and investors by complicating international collaborations and imposing administrative burdens. The delegation of military personnel decisions raised concerns about transparency and morale among active-duty and reserve personnel, while designations of specific countries of concern risked diplomatic tensions and fairness issues for affected international actors.",
+      "generated_at": "2025-12-12T08:35:31.541Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -731,9 +148,9 @@
         }
       ],
       "total_order_count": 5,
-      "summary": "In December 2021, President Joseph R. Biden Jr. signed 5 executive orders focusing on federal workforce enhancement, equity and inclusion policies, federal agency management, workforce development, veterans affairs, national security, foreign policy, financial regulation, transnational crime policy, and climate change mitigation. Key orders included EO 14057 on clean energy industries and federal sustainability, EO 14058 on transforming federal customer experience, EO 14059 imposing sanctions on foreign persons involved in illicit drug trade, EO 14060 establishing the U.S. Council on Transnational Organized Crime, and EO 14061 adjusting certain federal pay rates. These orders collectively aimed to improve government service delivery, enforce sanctions, and promote clean energy and workforce equity.",
-      "potential_impact": "The executive orders aimed to positively impact federal agencies, the green energy industry, government service users, underserved communities, sanctioned persons and affiliates, state and local law enforcement, and federal employees. Conversely, they aimed to negatively impact foreign suppliers, domestic energy producers, criminal organizations, and federal budget stakeholders. Concerns include potential implementation delays due to bureaucratic challenges, budgetary impacts from clean energy transitions, increased costs or supply chain complications from procurement policies, difficulties in measuring environmental justice outcomes, risks to privacy and equity from data integration, resistance within agencies, and technological barriers limiting accessibility and equity.",
-      "generated_at": "2025-12-09T04:02:36.615Z",
+      "summary": "In December 2021, President Biden's executive orders reflected a dual focus on strengthening federal workforce management and combating transnational crime, particularly drug trafficking. Efforts to modernize government services aimed to rebuild public trust through improved customer experience, while a landmark sustainability order sought to catalyze clean energy industries by advancing federal climate goals. These actions underscored a commitment to both national security and environmental priorities, alongside enhancing government efficiency and equity.",
+      "potential_impact": "The orders targeted federal and state law enforcement officers, veterans, and border communities to bolster public safety and support crime victims, while also promoting job growth among union and renewable energy workers. However, concerns arose about economic disruption for fossil fuel sector workers and small businesses facing new compliance costs. Vulnerable groups including environmental justice and tribal communities, as well as digitally underserved veterans and elderly beneficiaries, risked facing barriers to accessing benefits amid rapid policy shifts.",
+      "generated_at": "2025-12-12T08:35:17.387Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -748,186 +165,453 @@
         }
       ],
       "total_order_count": 5,
-      "summary": "In November 2021, President Joseph R. Biden Jr. signed five executive orders focusing on equity and inclusion, labor relations, tribal policy, federal agency management, and national security. Key orders included EO 14052 implementing the Infrastructure Investment and Jobs Act, EO 14053 aimed at improving public safety and criminal justice for Native Americans, EO 14054 terminating an emergency in Burundi, EO 14055 on nondisplacement of qualified workers under service contracts, and EO 14056 establishing the National Space Council. Themes also touched on economic development, climate change mitigation, infrastructure policy, public safety, and criminal justice enforcement, reflecting a broad policy agenda.",
-      "potential_impact": "The executive orders aimed to positively impact tribal nations, state and local governments, American workers, Native American students, federal contractors, commercial space operators, and populations in designated countries. Conversely, they aimed to negatively impact non-union workers, foreign manufacturers and suppliers, non-tribal federal funding recipients, environmental advocates, and communities affected by police aggression. Concerns include potential delays and inefficiencies from multi-agency coordination, challenges in equitable investment distribution, increased project costs due to labor standards, jurisdictional complexities in tribal law enforcement, and resource limitations for culturally appropriate services.",
-      "generated_at": "2025-12-09T04:02:33.098Z",
+      "summary": "In November 2021, President Biden’s executive actions emphasized strengthening worker protections and enhancing coordination across federal agencies, reflecting a commitment to equitable infrastructure implementation and public safety improvements. Key orders addressed labor standards under the Infrastructure Investment and Jobs Act, while others targeted the crisis of missing and murdered Indigenous people by improving law enforcement collaboration and victim services. The administration’s focus also extended to advancing broadband access, water infrastructure, and economic competitiveness, intertwining labor, environmental justice, and tribal community priorities.",
+      "potential_impact": "These orders aimed to benefit union members, tribal and Indigenous communities, and low-income families by promoting higher labor standards and targeted public safety measures. However, concerns arose that non-union workers and small business owners might face challenges due to stringent labor requirements and increased compliance costs. Tribal sovereignty and the capacity of tribal governments to manage expanded law enforcement roles also raised questions, while rural and environmental justice communities confronted potential delays amid complex interagency coordination, highlighting the delicate balance between federal involvement and local autonomy.",
+      "generated_at": "2025-12-12T08:35:11.411Z",
       "model_used": "gpt-4.1-mini"
     },
     {
-      "year": 2021,
-      "month": 10,
-      "month_name": "October",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 3
-        }
-      ],
-      "total_order_count": 3,
-      "summary": "In October 2021, President Joseph R. Biden Jr. signed three executive orders focused on education policy, equity and inclusion, workforce development, advisory committees management, tribal policy, data governance, economic development, national security, and supply chain security. Key orders included EO 14049 and EO 14050 establishing White House initiatives to advance educational equity and economic opportunity for Native Americans and Black Americans, respectively, and EO 14051 designating authority over the National Defense Stockpile. These orders emphasized improving educational outcomes and workforce opportunities for underserved communities while securing critical national resources.",
-      "potential_impact": "The executive orders aimed to positively impact Native American students, Tribal Nations, HBCU students, administrators, and faculty, diverse student populations, and the critical minerals industry. Conversely, they aimed to negatively impact non-Tribal federal funding recipients, non-HBCU academic institutions, and foreign processors of critical minerals. Concerns included challenges in interagency coordination, sustained funding, data privacy in Native communities, potential federal overreach on Tribal sovereignty, underestimation of long-term structural issues, and risks of bureaucratic delays and fluctuating political support affecting program implementation and outcomes.",
-      "generated_at": "2025-12-09T04:02:28.623Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2021,
-      "month": 9,
-      "month_name": "September",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 9
-        }
-      ],
-      "total_order_count": 9,
-      "summary": "In September 2021, President Joseph R. Biden Jr. signed 9 executive orders addressing national security, education policy, public health administration, equity and inclusion, federal agency management, workforce development, public health promotion, disease control, advisory committees management, and foreign policy. Key orders included EO 14040 on declassification reviews related to 9/11, EO 14041 advancing equity through historically black colleges and universities, EO 14042 mandating COVID safety protocols for federal contractors, EO 14043 requiring COVID-19 vaccination for federal employees, and EO 14046 imposing sanctions linked to the Ethiopia crisis. The orders reflect a focus on pandemic response, educational equity, and national security concerns.",
-      "potential_impact": "The executive orders aimed to positively impact scientific researchers, academic institutions including HBCUs and Hispanic-serving institutions, federal contractors and employees, Muslim Americans, and students from underrepresented groups. Conversely, they targeted terrorist organizations, sanctioned persons, foreign entities in countries of concern, undocumented immigrants, non-HBCU and non-Hispanic-serving institutions, small federal contractors, competing research areas, and federal agencies facing increased administrative burdens. Concerns include potential risks from declassification compromising intelligence methods, bureaucratic challenges in implementation, privacy issues, funding constraints, and difficulties addressing systemic inequities across diverse educational institutions.",
-      "generated_at": "2025-12-09T04:03:10.671Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2021,
-      "month": 8,
-      "month_name": "August",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 3
-        }
-      ],
-      "total_order_count": 3,
-      "summary": "In August 2021, President Joseph R. Biden Jr. signed three executive orders focusing primarily on foreign policy, national security, and trade policy, with additional attention to environmental regulation and climate change mitigation. The orders included EO 14037 on advancing clean car and truck leadership, EO 14038 targeting property of individuals linked to Belarus, and EO 14039 addressing Russian energy export pipelines. These actions combined efforts to promote green energy, impose sanctions on foreign entities, and enhance American workforce and infrastructure development related to clean vehicles.",
-      "potential_impact": "The executive orders aimed to positively impact sanctioned persons and affiliates through targeted economic restrictions, support American workers in the green energy sector, and bolster the green energy industry. Conversely, domestic energy producers, foreign manufacturers, and foreign suppliers faced negative impacts due to sanctions and regulatory changes. Key concerns include potential manufacturing and supply chain strains, increased vehicle costs, regulatory challenges, job disruptions in traditional energy sectors, infrastructure investment demands, risks of overbroad sanction criteria affecting uninvolved parties, and possible diplomatic tensions with Belarus.",
-      "generated_at": "2025-12-09T04:03:05.341Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2021,
-      "month": 7,
-      "month_name": "July",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "total_order_count": 1,
-      "summary": "In July 2021, President Joseph R. Biden Jr. signed one executive order, EO 14036, titled Promoting Competition in the American Economy. This order addressed multiple themes including economic development, consumer protection, regulatory reform, labor relations, financial regulation, pharmaceutical cost control, federal procurement policy, privacy and data security, trade policy, and national security. The executive order aimed to enhance competition across various sectors, with a particular focus on the tech industry, seeking to curb anti-competitive practices through comprehensive federal coordination and regulatory measures.",
-      "potential_impact": "The executive order aimed to positively impact the tech industry by promoting competition and reducing restrictive practices such as non-compete clauses and occupational licensing. Conversely, it aimed to negatively impact foreign suppliers by imposing stricter trade and procurement policies. Key concerns include potential burdens on businesses attempting growth via mergers and acquisitions, bureaucratic inefficiencies from multi-agency coordination, opposition from industry and states on reform efforts, challenges in enforcement across sectors, and possible unintended effects on innovation and consumer choices due to aggressive antitrust actions against large technology firms.",
-      "generated_at": "2025-12-09T04:03:02.114Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2021,
-      "month": 6,
-      "month_name": "June",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 4
-        }
-      ],
-      "total_order_count": 4,
-      "summary": "In June 2021, President Joseph R. Biden Jr. signed 4 executive orders focusing primarily on national security and foreign policy, with additional attention to privacy, data security, and federal workforce diversity. Key orders included EO 14032 addressing securities investments linked to Chinese companies, EO 14033 targeting destabilizing actors in the Western Balkans, EO 14034 enhancing protections for Americans' sensitive data from foreign adversaries, and EO 14035 promoting diversity, equity, inclusion, and accessibility within the federal workforce. Themes also encompassed trade policy, financial regulation, immigration enforcement, humanitarian economic support, supply chain security, and investment restrictions.",
-      "potential_impact": "The executive orders aimed to positively impact investment entities, affected Western Balkans individuals, the tech industry, federal employees, and underserved communities by enhancing security measures and promoting workforce inclusion. Conversely, foreign suppliers, China, sanctioned persons and affiliates, and non-federal employees were targeted for negative impact through investment restrictions, property blocking, and entry suspensions. Concerns included potential adverse effects on legitimate investors due to broad prohibitions, risks of escalating tensions with China, legal challenges over designation criteria, compliance burdens on businesses, and possible unintended harm to innocent parties or reform-minded individuals in the Western Balkans. Enforcement complexities and transparency issues raised additional legal and diplomatic considerations.",
-      "generated_at": "2025-12-09T04:02:57.677Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2021,
-      "month": 5,
-      "month_name": "May",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 5
-        }
-      ],
-      "total_order_count": 5,
-      "summary": "In May 2021, President Joseph R. Biden Jr. signed five executive orders addressing climate change mitigation, federal procurement policy, federal workforce, equity and inclusion, and cybersecurity. Key orders included EO 14027 establishing the Climate Change Support Office, EO 14028 improving national cybersecurity, and EO 14031 advancing equity for Asian Americans, Native Hawaiians, and Pacific Islanders. Themes prominently featured environmental policy, federal workforce enhancement, and strengthening cybersecurity measures. Orders also targeted financial risk related to climate change and revoked certain prior presidential actions, reflecting a broad agenda spanning domestic and foreign policy concerns.",
-      "potential_impact": "These executive orders aimed to positively impact federal agencies, scientific researchers, the tech industry, federal employees, the green energy sector, financial institutions, and Asian American and NHPI communities. Conversely, they aimed to negatively impact foreign suppliers, certain tech companies, domestic energy producers, investment entities, and private sector rivals. Concerns included potential limitations due to the temporary status of the Climate Change Support Office, coordination challenges, resource constraints, privacy and civil liberties risks from enhanced information sharing, increased compliance costs, and bureaucratic delays in cybersecurity implementation.",
-      "generated_at": "2025-12-09T04:02:53.348Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2021,
-      "month": 4,
-      "month_name": "April",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 4
-        }
-      ],
-      "total_order_count": 4,
-      "summary": "President Joseph R. Biden Jr. issued 4 executive orders in April 2021 focusing on labor relations, advisory committee management, legal and judiciary policy, national security, foreign policy, trade, cybersecurity, investment restrictions, and federal workforce issues. Key orders included EO 14023 establishing a Presidential Commission on the Supreme Court, EO 14024 imposing sanctions on Russia for harmful foreign activities, EO 14025 promoting worker organizing and empowerment, and EO 14026 raising the minimum wage for federal contractors. These orders collectively address judicial analysis, sanctions enforcement, labor rights, and wage standards within federal contracting.",
-      "potential_impact": "The executive orders aimed to positively impact academic institutions, regional stability actors, patriotic citizens, labor union members, American workers, and federal contractors by enhancing judicial review, imposing foreign sanctions, and improving labor conditions and wages. Conversely, they aimed to negatively impact sanctioned persons and affiliates, non-union workers, and small federal contractors through restrictions and sanctions enforcement. Concerns include potential politicization of the Supreme Court commission, legal challenges to proposed reforms, risk of economic disruption from sanctions, enforcement complexities, due process issues, and possible diplomatic retaliation.",
-      "generated_at": "2025-12-09T04:02:48.956Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2021,
-      "month": 3,
-      "month_name": "March",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 4
-        }
-      ],
-      "total_order_count": 4,
-      "summary": "In March 2021, President Joseph R. Biden Jr. signed 4 executive orders focusing primarily on equity and inclusion policies (3 orders), federal agency management (2 orders), and foreign policy (2 orders). Key orders included EO 14019 promoting access to voting, EO 14020 establishing the White House Gender Policy Council, EO 14021 guaranteeing discrimination-free educational environments, and EO 14022 terminating the emergency with respect to the International Criminal Court. These orders also addressed tribal policy, federal workforce improvements, caregiving, public health, economic development, and customer experience enhancements.",
-      "potential_impact": "The executive orders aimed to positively impact federal employees, tribal nations, persons with disabilities, military veterans, women and girls, diverse student populations, academic institutions, and international jurisdictional subjects. Potential concerns include uneven implementation across federal agencies, legal and political resistance to expanded voter registration efforts, digital access barriers, and privacy risks related to online voter systems. Additionally, challenges include federal-state election administration tensions, coordination difficulties within the Gender Policy Council, political contention over gender identity initiatives, and complexities in measuring progress on equity goals.",
-      "generated_at": "2025-12-09T04:02:45.091Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2021,
-      "month": 2,
-      "month_name": "February",
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 9
-        }
-      ],
-      "total_order_count": 9,
-      "summary": "In February 2021, President Joseph R. Biden Jr. signed 9 executive orders focusing primarily on foreign policy, humanitarian immigration policy, and federal agency management. Key orders included EO 14010 addressing migration causes and asylum processing, EO 14011 establishing a task force for family reunification, EO 14012 enhancing legal immigration systems, and EO 14013 rebuilding refugee resettlement programs with climate change considerations. Additional orders targeted sanctions on Burma (EO 14014), faith-based partnerships (EO 14015), supply chain security (EO 14017), and revocations of previous policies (EO 14016 and EO 14018). Themes of equity, national security, and regulatory reform were also present.",
-      "potential_impact": "The executive orders aimed to positively impact refugees, legal and undocumented immigrants, children in foster care, Muslim Americans, faith-based organizations, underserved communities, and regional stability actors. Negative impacts were aimed at criminal organizations, undocumented immigrants, certain foreign suppliers and processors, secular public institutions, federal employees, civilians in designated countries, and independent regulatory agencies. Concerns include complex interagency coordination, potential legal uncertainties from policy revocations, challenges in family reunification logistics, resource limitations at the border, and potential disputes over enforcement and resource prioritization.",
-      "generated_at": "2025-12-09T04:02:40.577Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "year": 2021,
-      "month": 1,
-      "month_name": "January",
+      "year": 2019,
+      "month": 12,
+      "month_name": "December",
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 14
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 25
+          "order_count": 3
         }
       ],
-      "total_order_count": 39,
-      "summary": "In January 2021, both Donald Trump and Joseph R. Biden Jr. signed a total of 39 executive orders during the presidential transition, with Trump issuing 14 and Biden 25. The dominant themes across these orders included Equity and Inclusion Policy (18 orders), National Security (13), and Public Health Administration (10). Key orders from Trump focused on national security risks related to Chinese technology and promoting small modular nuclear reactors, while Biden's orders emphasized advancing racial equity, COVID-19 response, climate crisis action, and healthcare access, including strengthening Medicaid and the ACA.",
-      "potential_impact": "The executive orders aimed to positively impact populations such as state and local governments, the tech industry, scientific researchers, federal employees, and underserved communities. Conversely, orders targeted foreign suppliers, foreign manufacturers, private sector rivals, and specific countries like China, potentially imposing negative impacts. Key concerns include challenges enforcing bans on Chinese software, risks linked to deploying nuclear micro-reactors for defense and space, and potential bureaucratic delays in implementation across federal agencies.",
-      "generated_at": "2025-12-09T04:02:25.421Z",
+      "total_order_count": 3,
+      "summary": "In December 2019, President Trump issued three executive orders that underscored his administration’s focus on federal workforce management and combating anti-Semitism. Two orders addressed federal employee pay and holiday work schedules, aiming to refine workforce policies and operational continuity during the holiday season. Meanwhile, the administration took a significant step toward addressing anti-Semitism by adopting the IHRA definition, signaling a commitment to strengthen civil rights enforcement in educational settings and beyond, though this move intertwined with concerns about free speech and religious discrimination protections.",
+      "potential_impact": "These orders primarily targeted federal employees, Jewish Americans, and students across educational levels, seeking to enhance protections against anti-Semitism and adjust workforce conditions. However, federal employees faced mixed effects, with some benefiting from pay adjustments while others contended with mandated holiday work and potential inequities. The anti-Semitism order raised concerns about free speech limitations on campuses and the adequacy of protections for religious bias, potentially affecting Jewish communities and religious organizations while sparking debate over enforcement fairness and administrative burdens.",
+      "generated_at": "2025-12-12T08:35:07.683Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2019,
+      "month": 11,
+      "month_name": "November",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 1
+        }
+      ],
+      "total_order_count": 1,
+      "summary": "In November 2019, President Trump signed a single executive order establishing the Task Force on Missing and Murdered American Indians and Alaska Natives, signaling a focused federal effort to address the crisis of violence affecting Indigenous women and communities. This order highlighted a commitment to interagency coordination, aiming to unify federal, state, local, and tribal resources in tackling a deeply complex issue. The creation of the task force underscored the administration’s intent to bring greater visibility and structured response to a longstanding problem impacting Native populations.",
+      "potential_impact": "The executive order sought to benefit Native American and Alaska Native women, tribal governments, and Indigenous communities grappling with disproportionate rates of missing and murdered persons. However, concerns emerged regarding potential jurisdictional conflicts and the challenge of fully respecting tribal sovereignty within a federally dominated task force. Questions about data privacy and the limited two-year mandate raised doubts about the task force’s ability to foster lasting change, while the effectiveness of outreach efforts faced scrutiny given the diverse needs of rural and urban tribal populations.",
+      "generated_at": "2025-12-12T08:35:03.717Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2019,
+      "month": 10,
+      "month_name": "October",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 6
+        }
+      ],
+      "total_order_count": 6,
+      "summary": "In October 2019, President Trump focused his executive actions on enhancing government efficiency and regulatory reform, with half of his six orders aiming to streamline administrative processes and increase transparency in enforcement. These directives sought to balance accountability with fiscal responsibility, particularly through reinvigorating Administrative PAYGO to control federal spending. Simultaneously, the administration addressed foreign policy concerns by imposing sanctions related to Syria and established advisory bodies to advance science and law enforcement policy, reflecting a blend of domestic governance priorities and strategic international considerations.",
+      "potential_impact": "The orders aimed to benefit entrepreneurs, small business owners, military personnel, and scientific researchers by promoting clearer rules and more efficient government operations. However, concerns arose that increased transparency and regulatory burdens could inadvertently hinder startups and small businesses, while spending offset requirements might reduce benefits for Medicare, Medicaid, and Social Security recipients, disproportionately affecting low-income families and the elderly. Additionally, sanctions targeting foreign officials risked straining diplomatic relations, illustrating the complex balance between domestic reform and international consequences.",
+      "generated_at": "2025-12-12T08:35:00.408Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2017,
+      "month": 12,
+      "month_name": "December",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 4
+        }
+      ],
+      "total_order_count": 4,
+      "summary": "In December 2017, President Trump signed four executive orders that collectively advanced a dual agenda of strengthening national security and economic competitiveness while underscoring patriotic symbolism. One order revamped the National Credit Union Administration’s seal to reflect American heritage, signaling a focus on national identity. Another prioritized securing critical mineral supplies, aiming to reduce import reliance and bolster the defense industrial base. Additional orders addressed human rights abuses through targeted sanctions and adjusted federal pay rates, reflecting an intertwined emphasis on economic measures and international accountability.",
+      "potential_impact": "These orders aimed to benefit veterans, active-duty military personnel, and workers in defense, manufacturing, and financial services sectors by enhancing supply chain security and economic conditions. Small business owners and rural communities stood to gain from expanded mining and infrastructure initiatives. However, environmental justice and tribal communities faced concerns over potential ecological harm and cultural disruption from expedited permitting and mining activities. On the international front, sanctions risked inadvertently impacting innocent foreign nationals and officials, illustrating the delicate balance between security objectives and humanitarian considerations.",
+      "generated_at": "2025-12-12T08:34:53.935Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2017,
+      "month": 10,
+      "month_name": "October",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 3
+        }
+      ],
+      "total_order_count": 3,
+      "summary": "In October 2017, President Trump’s executive orders reflected a focus on counterterrorism and healthcare market reform, alongside adjustments to military readiness and refugee policy. Two orders targeted national security by expanding reserve force activation powers and enhancing interagency intelligence sharing. Meanwhile, efforts to promote healthcare choice sought to increase competition by easing regulations on association health plans and short-term insurance, aiming to reduce costs for small businesses and entrepreneurs. The administration also resumed refugee admissions with stricter vetting, underscoring a cautious approach to national security amid humanitarian concerns.",
+      "potential_impact": "These orders aimed to benefit small business owners, entrepreneurs, and military personnel by providing more flexible insurance options and strengthening reserve mobilization capabilities. However, critics raised concerns that loosening healthcare regulations might destabilize ACA marketplaces, potentially harming low-income individuals, the chronically ill, and uninsured populations through higher premiums and reduced coverage. Military reservists faced potential hardships from expanded activation authority, while refugees experienced delays and stricter scrutiny, highlighting tensions between security priorities and vulnerable populations’ needs.",
+      "generated_at": "2025-12-12T08:34:50.642Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2017,
+      "month": 9,
+      "month_name": "September",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 3
+        }
+      ],
+      "total_order_count": 3,
+      "summary": "In September 2017, President Trump focused on tightening economic and travel restrictions related to North Korea while restructuring federal advisory committees. One executive order intensified sanctions targeting North Korea’s financial and transportation sectors, signaling a firm stance on national security and international pressure. Concurrently, efforts to streamline government operations led to the continuation and revocation of certain advisory committees, reflecting a shift in how stakeholder input, especially from veterans, indigenous peoples, and HBCU communities, would be managed going forward.",
+      "potential_impact": "The sanctions and travel restrictions aimed to pressure North Korea, but they also risked impacting a broad range of individuals including visa holders, foreign nationals, and workers in maritime, aviation, and financial sectors who might face operational challenges or increased compliance burdens. Meanwhile, the reorganization of advisory committees sought to benefit veterans and indigenous communities but raised concerns about reduced oversight and diminished influence for smaller or marginalized groups, as well as the potential negative effects on federal employees and labor unions previously engaged through labor-management forums.",
+      "generated_at": "2025-12-12T08:34:57.444Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2015,
+      "month": 12,
+      "month_name": "December",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 3
+        }
+      ],
+      "total_order_count": 3,
+      "summary": "In December 2015, President Obama focused executive actions on strengthening federal workforce management, particularly targeting the Senior Executive Service (SES) through efforts to enhance hiring processes, increase rotational assignments, and adjust pay structures. Alongside these workforce reforms, the administration also enacted a half-day federal government closure for the holidays, balancing operational needs with employee considerations. These measures reflected a broader aim to improve leadership capacity and efficiency within federal agencies while addressing workforce development and compensation.",
+      "potential_impact": "The executive orders primarily sought to benefit federal employees by improving career development and compensation frameworks, including political appointees and Foreign Service officers. However, the half-day closure posed challenges for active duty military personnel and essential federal workers required to remain on duty, potentially affecting morale and operational readiness. Observers noted concerns about pay disparities, implementation inconsistencies, and the risk that streamlining SES hiring might inadvertently impact leadership quality, all of which could influence employee perceptions and agency stability.",
+      "generated_at": "2025-12-12T08:34:34.368Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2015,
+      "month": 11,
+      "month_name": "November",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 3
+        }
+      ],
+      "total_order_count": 3,
+      "summary": "In November 2015, President Obama focused executive actions on managing national emergencies and enforcing targeted sanctions, particularly concerning Liberia and Burundi. By terminating the emergency related to former Liberian President Charles Taylor, the administration aimed to shift toward renewed economic engagement with Africa while balancing ongoing concerns about past abuses. Concurrently, an emergency board was established to address labor disputes within New Jersey Transit, reflecting a priority on maintaining transportation infrastructure and labor stability amid complex union dynamics.",
+      "potential_impact": "These orders sought to benefit citizens of Liberia through lifted sanctions and enhanced trade opportunities, yet raised questions about equitable economic gains and the recovery of misappropriated assets. The labor-related order affected transportation workers and union members by imposing external dispute resolution, which could constrain bargaining power and prolong uncertainty. Meanwhile, sanctions on Burundi targeted individuals linked to violence, but risked unintended consequences for legitimate visa holders, refugees, and asylum seekers, highlighting tensions between security measures and humanitarian protections.",
+      "generated_at": "2025-12-12T08:34:29.267Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2015,
+      "month": 10,
+      "month_name": "October",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "total_order_count": 1,
+      "summary": "In October 2015, President Obama focused executive action on recognizing exceptional service within the national security and intelligence communities by issuing an order establishing the National Security Medal. This action underscored the administration’s intent to formally honor veterans, active military personnel, and intelligence officers whose contributions to national security might otherwise remain unacknowledged. The emphasis on classification and intelligence operations highlighted the sensitive nature of these awards and the complexities involved in balancing recognition with operational secrecy.",
+      "potential_impact": "The order aimed to benefit veterans, active-duty military members, and intelligence community personnel by providing a formal mechanism for acknowledging their service. However, concerns emerged that stringent documentation and verification requirements could unintentionally exclude deserving individuals, particularly those whose acts remain classified or are less documented. Additionally, the potential involvement of non-U.S. recipients raised diplomatic sensitivities, while the secrecy surrounding recipients’ identities might limit public awareness and appreciation of their contributions.",
+      "generated_at": "2025-12-12T08:34:26.080Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2015,
+      "month": 9,
+      "month_name": "September",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 4
+        }
+      ],
+      "total_order_count": 4,
+      "summary": "In September 2015, President Obama emphasized enhancing government efficiency through three executive orders aimed at streamlining federal advisory committees and applying behavioral science insights to improve public service delivery. Alongside these efforts, he advanced renewable energy and global engagement by designating the International Renewable Energy Agency as a recognized public international organization. Additionally, the administration took a notable step toward worker protections by establishing paid sick leave requirements for federal contractors, reflecting a focus on caregiving and workforce wellbeing within federal operations.",
+      "potential_impact": "These orders targeted a broad spectrum of populations, from working-age adults employed by federal contractors to renewable energy workers and international organizations engaged in climate initiatives. While paid sick leave aimed to support caregivers and employees with chronic illnesses, concerns arose about increased costs potentially reducing contract opportunities. The international designation of IRENA promised to bolster renewable energy collaboration but also raised questions about U.S. sovereignty and possible challenges for domestic energy sectors and transparency. Moreover, efforts to streamline government services risked unintended barriers for low-income families and those with limited digital access.",
+      "generated_at": "2025-12-12T08:34:47.103Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2015,
+      "month": 8,
+      "month_name": "August",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "total_order_count": 1,
+      "summary": "In August 2015, President Obama signed a single executive order focused on enhancing government efficiency through the Presidential Innovation Fellows Program. This initiative aimed to modernize government IT systems and improve interagency coordination by integrating emerging technologies and specialized expertise into federal workforce management. The order reflected a strategic effort to harness entrepreneurial and technological talent to drive innovation within government operations, seeking to bridge public sector challenges with private sector agility.",
+      "potential_impact": "The executive order targeted entrepreneurs and technology workers, offering opportunities to contribute to federal innovation projects. However, concerns surfaced about the program’s selective recruitment potentially limiting diversity and creating barriers for underrepresented groups in technology. Additionally, the reliance on short-term fellows raised questions about continuity and possible friction within agencies, as well as the risk of sidelining long-term internal staff development and capacity-building efforts.",
+      "generated_at": "2025-12-12T08:34:43.027Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2015,
+      "month": 7,
+      "month_name": "July",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 3
+        }
+      ],
+      "total_order_count": 3,
+      "summary": "In July 2015, President Obama signed three executive orders that collectively emphasized strengthening interagency coordination to advance key national priorities. These orders sought to enhance trade policy implementation through delegated authorities, accelerate scientific progress via the National Strategic Computing Initiative, and address public health disparities by implementing the National HIV/AIDS Strategy. Together, they reflected a focus on integrating efforts across agencies to bolster economic competitiveness, promote worker protections, and improve health outcomes for marginalized communities.",
+      "potential_impact": "The executive actions aimed to benefit a broad spectrum of groups, including union members, working-age adults, environmental justice communities, technology and scientific workers, and populations affected by HIV/AIDS such as African Americans, LGBTQ+, and transgender individuals. However, concerns arose over possible negative effects on non-union workers due to trade authority delegation, challenges in adequately involving vulnerable environmental communities, and potential exclusion of less specialized workers from workforce development. Additionally, the push for competitiveness and interagency coordination risked slowing implementation and narrowing inclusivity in research and public health efforts.",
+      "generated_at": "2025-12-12T08:34:38.256Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2013,
+      "month": 12,
+      "month_name": "December",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "total_order_count": 1,
+      "summary": "In December 2013, President Obama focused executive action on federal workforce compensation, issuing a single order that adjusted various rates of pay across multiple government sectors. This directive addressed salary updates for federal employees, military personnel, veterans, and foreign service officers, reflecting an effort to align pay scales with locality and role-specific considerations. By tackling compensation, the administration aimed to support retirement security, maintain military readiness, and strengthen the federal workforce’s overall management.",
+      "potential_impact": "The pay adjustments targeted a broad range of government workers, from active duty military members and veterans to civil servants and foreign service officers, aiming to enhance their financial stability and job satisfaction. However, concerns surfaced about potential increased costs to federal workforce management and possible pay disparities if implementation lagged, which could affect military morale and diplomatic staffing. Additionally, heightened scrutiny over pay fairness, especially for senior officials, underscored the delicate balance between equitable compensation and budgetary constraints.",
+      "generated_at": "2025-12-12T08:33:59.386Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2013,
+      "month": 11,
+      "month_name": "November",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "total_order_count": 1,
+      "summary": "In November 2013, President Obama focused executive action on labor relations within the transportation sector by establishing an Emergency Board to investigate disputes between the Long Island Rail Road Company and its unionized employees. This move underscored a commitment to addressing union concerns and managing labor-management dynamics in critical infrastructure, while also aiming to stabilize ongoing conflicts in a high-stakes industry reliant on reliable commuter services.",
+      "potential_impact": "The executive order sought to benefit union members and transportation workers by providing a structured process for resolving disputes, potentially safeguarding their interests and working conditions. However, the prolonged investigation period raised concerns about delayed resolutions that could dampen worker morale and disrupt rail services. Large corporation employees involved in management and suburban commuters dependent on the rail line stood to face uncertainty and operational challenges during the extended dispute process.",
+      "generated_at": "2025-12-12T08:33:54.707Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2013,
+      "month": 10,
+      "month_name": "October",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "total_order_count": 1,
+      "summary": "In October 2013, President Obama signed a pivotal executive order focused on preparing the United States for the impacts of climate change. This directive underscored a multifaceted approach, emphasizing critical infrastructure protection, government efficiency, and interagency coordination while prioritizing public lands management. By integrating these themes, the administration sought to build resilience against climate threats, aiming for a comprehensive strategy that addressed environmental challenges and streamlined federal efforts to safeguard vulnerable communities and resources.",
+      "potential_impact": "The executive order targeted a diverse range of populations, including tribal and coastal communities, disaster-affected areas, low-income individuals, environmental justice groups, and agricultural workers. While it aimed to bolster their resilience against climate risks, concerns arose that the emphasis on federal data and streamlined processes might overlook Indigenous knowledge, delay urgent infrastructure projects, or fail to fully address social equity. Agricultural stakeholders faced potential new constraints, highlighting the delicate balance between advancing climate preparedness and meeting immediate community needs.",
+      "generated_at": "2025-12-12T08:33:51.810Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2013,
+      "month": 9,
+      "month_name": "September",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "total_order_count": 1,
+      "summary": "In September 2013, President Obama signed a single executive order focusing on the continuation and restructuring of federal advisory committees, particularly the National Infrastructure Advisory Council. This move underscored a commitment to enhancing homeland security and protecting critical infrastructure by involving a broader range of stakeholders, including corporate executives and tribal governments. The order aimed to strengthen collaboration across sectors, balancing national security interests with labor-management relations within federal entities.",
+      "potential_impact": "The executive order targeted corporate leaders, security clearance holders, small business owners, and tribal governments, intending to integrate diverse perspectives into critical infrastructure protection. However, observers expressed concerns that expanding private sector involvement might introduce conflicts between security objectives and business interests. Additionally, tribal governments feared limited influence, while small businesses faced potential increased scrutiny amid intensified public-private security partnerships.",
+      "generated_at": "2025-12-12T08:34:22.320Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2013,
+      "month": 8,
+      "month_name": "August",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "total_order_count": 1,
+      "summary": "In August 2013, President Obama issued a single executive order aimed at intensifying economic sanctions on Burma by prohibiting the import of Burmese jadeite and rubies. This action sought to cut off key revenue streams linked to the gemstone trade, reflecting a strategic effort to pressure Myanmar’s government. The order also revoked aspects of prior executive directives, signaling a tightening of export-import controls and a recalibration of U.S. sanctions policy toward the region.",
+      "potential_impact": "The executive order primarily targeted foreign nationals involved in the Burmese gemstone industry, a sector critical to local economies, potentially exacerbating hardships for miners and traders in Myanmar. Domestically, U.S. corporations and small business owners engaged in jewelry import and retail faced disruptions to their supply chains and financial risks. Observers voiced concerns about enforcement challenges, possible smuggling, and regulatory uncertainties stemming from the revocation of earlier orders, all of which could undermine the sanctions’ effectiveness and ripple beyond the intended targets.",
+      "generated_at": "2025-12-12T08:34:18.987Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2013,
+      "month": 7,
+      "month_name": "July",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 2
+        }
+      ],
+      "total_order_count": 2,
+      "summary": "In July 2013, President Obama signed two executive orders emphasizing interagency coordination to address public health and safety concerns. One order focused on accelerating HIV prevention and care by leveraging Affordable Care Act provisions and improving collaboration among federal agencies. The second sought to enhance chemical facility safety and security through updated regulations and cross-agency efforts. Together, these actions signaled a commitment to strengthening federal responses to health emergencies and critical infrastructure vulnerabilities while balancing public health with homeland security.",
+      "potential_impact": "These orders aimed to benefit marginalized populations including LGBTQ+ individuals, low-income families, racial minorities, veterans, and workers in manufacturing and agriculture by improving access to health services and workplace safety. However, concerns arose about potential bureaucratic delays, privacy issues related to sensitive health data, and the risk that standardized approaches might overlook culturally specific needs. Additionally, small businesses and corporations faced increased regulatory burdens, while environmental justice communities worried about transparency and effective inclusion in chemical safety efforts.",
+      "generated_at": "2025-12-12T08:34:14.640Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2013,
+      "month": 6,
+      "month_name": "June",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 4
+        }
+      ],
+      "total_order_count": 4,
+      "summary": "In June 2013, President Obama’s executive actions reflected a dual focus on international security and domestic community empowerment. One order reinforced economic sanctions against Iran, targeting financial and trade activities to curb proliferation risks. Concurrently, efforts to enhance financial literacy and workforce development emerged through the establishment of advisory councils aimed at young Americans and Native communities. The creation of the White House Council on Native American Affairs underscored a commitment to improving tribal governance and economic opportunities, while wildlife trafficking was addressed as a pressing environmental and legal concern.",
+      "potential_impact": "These orders were designed to benefit a broad spectrum of populations, including tribal communities, low-income families, youth, and various minority groups such as African Americans, Hispanics, and Native Americans. However, the sanctions on Iran risked unintended consequences for legitimate visa holders, international businesses, and consumers due to increased compliance burdens and travel restrictions. Meanwhile, the success of financial literacy initiatives depended heavily on equitable access and culturally relevant programming, with concerns that bureaucratic challenges might hinder timely support for rural tribal areas and marginalized youth.",
+      "generated_at": "2025-12-12T08:34:11.057Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2013,
+      "month": 5,
+      "month_name": "May",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 3
+        }
+      ],
+      "total_order_count": 3,
+      "summary": "In May 2013, President Obama’s executive actions reflected a push toward greater government transparency and modernization alongside military justice reform. By mandating open, machine-readable government data, the administration sought to enhance accessibility and efficiency, while amendments to the Manual for Courts-Martial aimed to update military legal procedures. These moves combined efforts to improve government operations and military readiness, with a nuanced focus on data privacy and judicial process integrity highlighting the complexities of reform within both civilian and defense spheres.",
+      "potential_impact": "The orders aimed to benefit a broad spectrum including entrepreneurs, small business owners, technology workers, and military personnel by fostering innovation, economic opportunity, and updated justice protocols. However, concerns arose about potential privacy risks for vulnerable populations such as individuals with disabilities and chronic illnesses, as well as the financial strain on taxpayers and smaller agencies adapting to new data standards. Military members and veterans faced uncertainties regarding legal protections, while minority groups like African Americans and Hispanic Americans could experience diminished influence through commission compositions emphasizing business interests over equitable representation.",
+      "generated_at": "2025-12-12T08:34:07.055Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2013,
+      "month": 4,
+      "month_name": "April",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "total_order_count": 1,
+      "summary": "In April 2013, President Obama issued a single executive order focused on federal workforce compensation, specifically adjusting pay rates for federal employees, including veterans and military personnel. This order also revoked a previous directive, signaling an attempt to streamline pay policies amidst fiscal constraints. The administration aimed to balance maintaining existing pay levels with the challenges of ensuring military readiness and supporting the federal workforce, while addressing complexities in pay structures for geographically dispersed employees.",
+      "potential_impact": "The order targeted federal employees broadly, including civil servants, foreign service officers, veterans, and active as well as reserve military personnel. While intended to manage costs, maintaining pay at 2010 levels risked lowering morale and financial stability, potentially hindering recruitment and retention in the uniformed services. Observers expressed concern that capped locality pay could disproportionately strain employees in high-cost areas, and revoking prior orders might lead to administrative confusion and pay inconsistencies among senior officials.",
+      "generated_at": "2025-12-12T08:34:03.110Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2011,
+      "month": 12,
+      "month_name": "December",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 5
+        }
+      ],
+      "total_order_count": 5,
+      "summary": "In December 2011, President Obama focused his executive actions on strengthening interagency coordination and federal advisory committees, particularly to enhance military readiness and support Native American education. The administration sought to improve educational opportunities for American Indian and Alaska Native students through tribal colleges while updating military justice procedures and federal workforce pay adjustments. These orders reflected a blend of advancing national security, promoting gender equality in peace and security efforts, and addressing the unique needs of Indigenous communities within the federal system.",
+      "potential_impact": "The executive orders aimed to benefit active-duty military personnel and veterans by refining military justice and readiness, while also targeting Native American and Alaska Native students and tribal communities with educational enhancements. However, concerns arose about potential challenges respecting tribal sovereignty and resource allocation in education, as well as fairness in military justice proceedings affecting defendants. Federal employees faced varied pay adjustments that could impact morale, while the complex interagency mandates risked bureaucratic delays and privacy concerns, underscoring the delicate balance between policy goals and their real-world effects.",
+      "generated_at": "2025-12-12T08:33:48.223Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2011,
+      "month": 11,
+      "month_name": "November",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 3
+        }
+      ],
+      "total_order_count": 3,
+      "summary": "In November 2011, President Obama focused on enhancing government efficiency and fiscal responsibility while addressing critical foreign policy concerns. His executive orders aimed to promote efficient federal spending by imposing strict cost-cutting measures across travel, IT, and fleet use, reflecting a commitment to reduce waste. Concurrently, he authorized targeted economic sanctions against Iran's energy and petrochemical sectors to curb its nuclear ambitions. Additionally, he ensured the continuity of federal advisory committees to maintain informed governance amid these policy shifts.",
+      "potential_impact": "These actions sought to benefit taxpayers through reduced government expenditures and aimed to impact energy sector workers by disrupting Iran's oil and gas industries. However, federal employees and contractors faced potential increased workloads and operational challenges due to spending cuts and sanctions enforcement. Businesses engaged with Iran's energy sector, along with large corporations and their employees, confronted compliance complexities and economic losses. The sanctions also risked straining diplomatic relations by targeting foreign officials and Iranian citizens, thereby influencing broader geopolitical dynamics.",
+      "generated_at": "2025-12-12T08:33:44.858Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2011,
+      "month": 10,
+      "month_name": "October",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 2
+        }
+      ],
+      "total_order_count": 2,
+      "summary": "In October 2011, President Obama signed two executive orders addressing critical national security and public health challenges. One order focused on strengthening the security of classified networks by enhancing intelligence sharing and interagency coordination, aiming to safeguard sensitive information amid evolving cyber threats. The other sought to alleviate prescription drug shortages by improving market competition and regulatory responsiveness, reflecting a commitment to protect public health through better drug availability and pricing controls.",
+      "potential_impact": "These orders intended to benefit security clearance holders, intelligence personnel, and healthcare workers by bolstering information security and ensuring more reliable drug supplies. However, heightened insider threat programs raised privacy concerns and operational burdens for federal contractors. Meanwhile, increased regulatory demands placed on pharmaceutical companies risked higher costs and production challenges, potentially affecting patients who depend on timely access to essential medications, especially those with chronic or severe conditions.",
+      "generated_at": "2025-12-12T08:33:41.567Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2009,
+      "month": 12,
+      "month_name": "December",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 6
+        }
+      ],
+      "total_order_count": 6,
+      "summary": "In December 2009, President Obama focused his executive orders on refining federal workforce management, national security information protocols, and federal law enforcement capabilities. These actions included establishing labor-management forums aimed at improving government services and adjusting pay rates to address workforce concerns. Simultaneously, he addressed national security by updating classification policies and enhancing medical countermeasure readiness against biological threats. The recognition of Interpol as a public international organization also underscored a commitment to strengthening diplomatic and international law enforcement cooperation.",
+      "potential_impact": "These orders primarily targeted federal employees, civil servants, and federal law enforcement officers, aiming to foster better labor relations and improve operational efficiency particularly in sensitive national security roles. However, concerns arose about potential limitations on worker rights within labor-management forums and uneven application of workforce policies. Federal employees required to maintain duties during holiday closures and enhanced privileges granted to Interpol also raised questions about fairness, oversight, and the balance between security needs and employee protections.",
+      "generated_at": "2025-12-12T08:33:38.522Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2009,
+      "month": 11,
+      "month_name": "November",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 4
+        }
+      ],
+      "total_order_count": 4,
+      "summary": "In November 2009, President Obama focused his executive actions on enhancing interagency coordination and strengthening the federal response to financial fraud. Three of the four orders aimed to improve collaboration across government bodies, particularly in supporting veterans’ employment and reducing improper payments. The establishment of the Financial Fraud Enforcement Task Force highlighted a commitment to prosecuting white-collar crime, reflecting a broader effort to protect economic recovery while promoting government efficiency and ethical oversight.",
+      "potential_impact": "These orders sought to benefit veterans transitioning to federal employment, crime victims, and small business owners affected by financial misconduct, while also aiming to safeguard investors and Medicare and Medicaid beneficiaries. However, increased emphasis on veterans’ hiring raised concerns about potential delays and fairness in federal recruitment. Meanwhile, heightened fraud enforcement posed risks to corporate executives and employees, with fears that aggressive measures might unintentionally hamper legitimate business activities and introduce bureaucratic challenges across agencies.",
+      "generated_at": "2025-12-12T08:33:35.097Z",
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2025-12-09T04:03:10.672Z"
+  "generated_at": "2025-12-12T08:35:46.199Z"
 }

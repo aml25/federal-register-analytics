@@ -1,0 +1,47 @@
+{
+  "document_number": "E9-28493",
+  "executive_order_number": "13520",
+  "title": "Reducing Improper Payments",
+  "abstract": null,
+  "signing_date": "2009-11-20",
+  "publication_date": "2009-11-25",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/11/25/E9-28493/reducing-improper-payments",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-11-25/pdf/E9-28493.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/11/25/E9-28493.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to reduce improper payments by improving transparency, accountability, and coordination across federal, state, and local governments. It sets requirements for identifying programs with the highest improper payments, establishing reduction targets, reporting errors and recovery efforts publicly, and enhancing oversight of contractors and grantees to prevent waste, fraud, and abuse.",
+    "theme_ids": [
+      "government-efficiency",
+      "federal-spending",
+      "corporate-fraud-white-collar-crime",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "medicare-beneficiaries",
+        "medicaid-beneficiaries",
+        "low-income-individuals-families",
+        "nonprofit-organizations",
+        "state-governments",
+        "local-governments",
+        "corporations-businesses"
+      ],
+      "negative_ids": [
+        "federal-contractors"
+      ]
+    },
+    "potential_concerns": [
+      "Efforts to reduce improper payments could inadvertently restrict or delay benefits access for eligible Medicare, Medicaid, and low-income beneficiaries if the verification processes become overly burdensome.",
+      "The increased public transparency and naming of entities with improper payments might stigmatize nonprofit organizations, corporations, and contractors before investigations are concluded, potentially harming reputations unjustly.",
+      "Federal contractors may face heightened compliance costs and risk of penalties, including debarment or suspension, which could reduce competition and increase costs for government procurement.",
+      "State and local governments may experience added administrative burdens from intensified oversight and coordination efforts to identify and reduce improper payments, potentially diverting resources from service delivery.",
+      "Information-sharing enhancements across agencies and governments could raise privacy concerns for beneficiaries while attempting to improve eligibility verification and fraud prevention."
+    ],
+    "enriched_at": "2025-12-12T08:26:00.661Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

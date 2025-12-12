@@ -1,0 +1,44 @@
+{
+  "document_number": "2010-38",
+  "executive_order_number": "13527",
+  "title": "Establishing Federal Capability for the Timely Provision of Medical Countermeasures Following a Biological Attack",
+  "abstract": null,
+  "signing_date": "2009-12-30",
+  "publication_date": "2010-01-06",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2010/01/06/2010-38/establishing-federal-capability-for-the-timely-provision-of-medical-countermeasures-following-a",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2010-01-06/pdf/2010-38.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2010/01/06/2010-38.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to prepare for and rapidly respond to a biological attack by ensuring quick delivery of medical treatments through the U.S. Postal Service and a federal rapid response system. It also requires plans to maintain essential government functions during such an emergency and coordinates with local and federal officials to safely distribute medical countermeasures.",
+    "theme_ids": [
+      "homeland-security",
+      "public-health-emergency-response",
+      "federal-law-enforcement",
+      "postal-service",
+      "fema-emergency-management"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens",
+        "law-enforcement-officers-federal",
+        "postal-workers",
+        "federal-employees-civil-servants"
+      ],
+      "negative_ids": [
+        "law-enforcement-officers-state-local"
+      ]
+    },
+    "potential_concerns": [
+      "The increased deployment of federal law enforcement to escort Postal Workers may cause jurisdictional conflicts and strain relations with State and Local Law Enforcement Officers.",
+      "Relying on the U.S. Postal Service for rapid medical countermeasure delivery could place Postal Workers at increased risk, with concerns about their safety and operational capacity during a biological attack.",
+      "The plan to maintain continuity of essential federal government functions might prioritize Federal Employees, potentially limiting timely access to medical countermeasures for the general U.S. citizen population.",
+      "The coordination required across multiple federal and local agencies may result in logistical delays, reducing the effectiveness of rapid response intended to mitigate morbidity and mortality among U.S. citizens."
+    ],
+    "enriched_at": "2025-12-12T08:24:58.241Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

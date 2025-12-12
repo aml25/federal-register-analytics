@@ -13,31 +13,33 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-12-26/pdf/2023-28662.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/12/26/2023-28662.txt",
   "enrichment": {
-    "summary": "This executive order expands U.S. sanctions against Russia by targeting foreign financial institutions that support Russia’s military-industrial sectors and restricts the import of certain Russian-origin products including seafood and diamonds. It strengthens enforcement mechanisms to isolate Russia economically in response to its harmful activities threatening U.S. national security and allies. The order updates and broadens existing sanctions authorities to further diminish Russia's access to critical goods and financial systems.",
+    "summary": "This executive order expands U.S. sanctions against Russia by targeting foreign financial institutions involved with Russia's military-industrial sectors and restricting imports of Russian goods such as seafood, diamonds, and alcoholic beverages. It strengthens measures to hinder Russia's access to international financial systems and closes loopholes in trade and financial transactions to further pressure Russia amid national security concerns.",
     "theme_ids": [
-      "national-security",
-      "trade-policy",
-      "financial-regulation",
-      "foreign-policy"
+      "defense-industrial-base",
+      "economic-sanctions",
+      "financial-system-regulation",
+      "export-import-policy",
+      "russia"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "financial-institutions",
-        "seafood-industry"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "foreign-seafood-exporters",
-        "sanctioned-persons-and-affiliates"
+        "foreign-nationals-general",
+        "foreign-governments",
+        "corporations-businesses",
+        "seafood-fishery-workers",
+        "defense-industry-workers",
+        "financial-services-workers"
       ]
     },
     "potential_concerns": [
-      "The expanded sanctions on foreign financial institutions may complicate international banking relationships and lead to retaliatory measures from foreign governments.",
-      "Restrictions on imports of Russian products like seafood and diamonds could harm U.S. importers and businesses reliant on these goods, or lead to higher prices for consumers.",
-      "The order’s broad criteria for sanctioning foreign financial institutions might create challenges in enforcement and unintended impacts on compliant entities.",
-      "Heightened sanctions risks increasing geopolitical tensions and complicating diplomatic negotiations with countries maintaining trade or financial ties to Russia.",
-      "Implementation may require significant interagency coordination and increased resource allocation to monitor and enforce expanded sanctions effectively."
+      "The expanded sanctions on foreign financial institutions involved with Russia’s military-industrial base may disrupt global financial markets and complicate compliance for financial services workers operating internationally.",
+      "The import bans on Russian seafood, diamonds, and alcoholic beverages could lead to economic hardship and job losses for seafood fishery workers and related businesses dependent on trade with Russia or Russian-origin products.",
+      "Restrictive measures against corporations doing business in or with Russia might strain U.S. and allied multinational companies, affecting corporate balance sheets and possibly leading to litigation or diplomatic tensions with foreign governments.",
+      "The aggressive financial restrictions may push Russia and affected foreign financial institutions to seek alternative financial systems, potentially undermining long-term U.S. influence in international finance.",
+      "There is a risk that enforcement complexities around tracing goods partially sourced or manufactured in Russia could create disputes and compliance burdens for customs and trade sectors, indirectly impacting shipping and transportation workers."
     ],
-    "enriched_at": "2025-12-09T01:38:51.592Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-12T08:19:09.555Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

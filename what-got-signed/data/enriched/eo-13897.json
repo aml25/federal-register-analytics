@@ -1,0 +1,41 @@
+{
+  "document_number": "2019-24288",
+  "executive_order_number": "13897",
+  "title": "Improving Federal Contractor Operations by Revoking Executive Order 13495",
+  "abstract": null,
+  "signing_date": "2019-10-31",
+  "publication_date": "2019-11-05",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/11/05/2019-24288/improving-federal-contractor-operations-by-revoking-executive-order-13495",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-11-05/pdf/2019-24288.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/11/05/2019-24288.txt",
+  "enrichment": {
+    "summary": "This executive order cancels a previous order that required federal contractors to offer current employees a chance to keep their jobs when contracts change hands. It directs federal agencies to stop enforcing that previous order and related policies immediately. The goal is to improve efficiency in how federal contracts are managed.",
+    "theme_ids": [
+      "revocation-of-previous-executive-orders",
+      "government-efficiency",
+      "federal-labor-management-relations"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-contractors"
+      ],
+      "negative_ids": [
+        "federal-contractors",
+        "union-members",
+        "working-age-adults"
+      ]
+    },
+    "potential_concerns": [
+      "Revoking the nondisplacement protections could lead to increased job insecurity and layoffs for working-age federal contractors who lose rights to reemployment during contract transitions, worsening labor-management relations.",
+      "The removal of the right of first refusal for incumbent contractor employees may weaken union influence and reduce employee bargaining power, negatively impacting union members in federal contracts.",
+      "While aiming to improve procurement efficiency, this order may decrease workforce stability and institutional knowledge continuity among federal contractors, inadvertently harming service quality.",
+      "Immediate termination of investigations enforcing prior protections might leave displaced workers without recourse or compensation, raising concerns about fair treatment for affected employees."
+    ],
+    "enriched_at": "2025-12-12T08:14:49.695Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

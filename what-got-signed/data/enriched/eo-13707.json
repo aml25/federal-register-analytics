@@ -1,0 +1,41 @@
+{
+  "document_number": "2015-23630",
+  "executive_order_number": "13707",
+  "title": "Using Behavioral Science Insights To Better Serve the American People",
+  "abstract": null,
+  "signing_date": "2015-09-15",
+  "publication_date": "2015-09-18",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2015/09/18/2015-23630/using-behavioral-science-insights-to-better-serve-the-american-people",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-09-18/pdf/2015-23630.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/09/18/2015-23630.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to use insights from behavioral science to improve government programs and policies, making them more effective and easier for people to use. It encourages testing these approaches, hiring experts, and simplifying processes to better serve individuals, families, and businesses. The goal is to improve public outcomes in areas such as retirement savings, education, and health, while reducing costs.",
+    "theme_ids": [
+      "government-efficiency",
+      "federal-workforce-management",
+      "science-and-technology-policy",
+      "higher-education",
+      "retirement-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "working-age-adults",
+        "college-university-students",
+        "low-income-individuals-families"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Incorporating behavioral science insights into federal programs could unintentionally disadvantage working-age adults with limited access to digital technology, increasing disparities in program participation.",
+      "Simplifying forms and streamlining processes may lead to oversights or errors that negatively affect low-income individuals and families reliant on public benefits.",
+      "Focusing on default options in programs like retirement savings might reduce personal autonomy for some individuals in choosing their options, particularly affecting college and university students who are new to these decisions.",
+      "There may be uneven implementation across agencies leading to inconsistent benefits for retirement security among different populations, especially vulnerable groups with less behavioral science-informed outreach."
+    ],
+    "enriched_at": "2025-12-12T08:11:15.688Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

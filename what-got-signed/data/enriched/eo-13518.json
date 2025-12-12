@@ -1,0 +1,40 @@
+{
+  "document_number": "E9-27441",
+  "executive_order_number": "13518",
+  "title": "Employment of Veterans in the Federal Government",
+  "abstract": null,
+  "signing_date": "2009-11-09",
+  "publication_date": "2009-11-13",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/11/13/E9-27441/employment-of-veterans-in-the-federal-government",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-11-13/pdf/E9-27441.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/11/13/E9-27441.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to increase hiring and support of veterans by creating an interagency council to coordinate efforts, establish agency-specific plans, and provide training and counseling programs. It aims to help veterans transition to civilian federal jobs by aligning their skills with government needs and promoting veterans' preference laws.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "federal-workforce-management",
+      "federal-hiring",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "veterans",
+        "military-personnel-active-duty"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Prioritizing veterans in federal hiring could unintentionally slow hiring processes or limit opportunities for non-veteran working-age adults seeking federal employment, impacting overall federal workforce diversity and efficiency.",
+      "Enhanced focus on veterans' preference and targeted recruitment may lead to perceived or actual unfairness among other qualified job applicants, potentially causing morale or legal challenges within federal agencies.",
+      "Coordination among multiple federal agencies through the Council on Veterans Employment may encounter bureaucratic delays or inconsistent implementation, undermining the effectiveness of training and counseling programs for transitioning military personnel.",
+      "Active-duty military personnel nearing transition might face mismatches between their skills and agency staffing needs despite counseling efforts, potentially leaving some veterans underemployed or unemployed after service.",
+      "Focusing training and recruitment on certain key federal occupations may disadvantage veterans with skills that do not align clearly with those occupations, limiting the inclusiveness of the initiative."
+    ],
+    "enriched_at": "2025-12-12T08:26:16.204Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

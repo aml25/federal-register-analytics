@@ -13,41 +13,36 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-12-13/pdf/2021-27114.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/12/13/2021-27114.txt",
   "enrichment": {
-    "summary": "This executive order directs the federal government to lead efforts in combating climate change by transforming its operations to be more sustainable and clean, aiming to achieve net-zero emissions government-wide by 2050. It sets ambitious goals for clean electricity, vehicle fleets, building emissions, and sustainable procurement, while promoting environmental justice, workforce training, and supply chain transparency.",
+    "summary": "This executive order directs the federal government to lead efforts in combating climate change by transitioning to clean energy, reducing greenhouse gas emissions, and making federal operations more sustainable. It sets specific goals for carbon-free electricity, zero-emission vehicles, net-zero emissions buildings, and climate resilience, while promoting environmental justice and workforce training to support these changes.",
     "theme_ids": [
-      "climate-change-mitigation",
-      "federal-procurement-policy",
-      "energy-policy",
-      "environmental-regulation",
-      "federal-workforce",
-      "equity-and-inclusion-policy",
-      "labor-relations",
-      "supply-chain-security",
-      "federal-agency-management",
-      "workforce-development",
-      "public-lands-management",
-      "economic-development",
-      "community-development",
-      "federal-sustainability-policy"
+      "climate-change-policy",
+      "renewable-energy",
+      "environmental-justice",
+      "federal-workforce-management",
+      "buy-american-domestic-preference"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "green-energy-industry",
-        "federal-agencies"
+        "union-members",
+        "renewable-energy-workers",
+        "environmental-justice-communities",
+        "tribal-communities-reservations",
+        "construction-workers",
+        "federal-contractors"
       ],
       "negative_ids": [
-        "domestic-energy-producers",
-        "foreign-suppliers"
+        "energy-sector-workers-oil-gas-coal",
+        "small-business-owners"
       ]
     },
     "potential_concerns": [
-      "The ambitious timelines and inter-agency coordination required may face implementation delays due to bureaucratic challenges and resource constraints.",
-      "The transition to zero-emission vehicles and clean electricity could be costly upfront, raising budgetary concerns or trade-offs with other agency priorities.",
-      "Strict procurement requirements and Buy Clean policies might increase costs or complicate supply chains, potentially impacting small or diverse suppliers.",
-      "Environmental justice goals may face challenges in measuring and ensuring equitable benefits across all disadvantaged communities as intended.",
-      "Exemptions for national security and operational needs could limit the overall impact or create inconsistency in achieving government-wide emission targets."
+      "The transition to zero-emission vehicle fleets and 100% carbon pollution-free electricity by 2030-2035 may create economic displacement and job insecurity for energy-sector-workers-oil-gas-coal who depend on fossil fuel industries (theme: climate-change-policy).",
+      "Buy Clean procurement preferences and strict sustainability requirements may impose compliance costs and competitive challenges on small-business-owners and certain federal contractors who lack resources to rapidly meet these standards (theme: buy-american-domestic-preference).",
+      "Environmental justice communities and tribal-communities-reservations may face delays or barriers if adequate consultation and inclusion in planning for federal sustainability projects are not ensured, threatening equitable benefit distribution (theme: environmental-justice).",
+      "Union-members and construction-workers could experience both job growth and rapidly evolving skill demands, necessitating effective workforce training programs to prevent workforce displacement and ensure just transition outcomes (themes: federal-workforce-management, renewable-energy).",
+      "The accelerated federal sustainability mandates may unintentionally strain supply chains and increase costs for renewable energy and construction sectors, potentially affecting project timelines and market stability (themes: renewable-energy, buy-american-domestic-preference)."
     ],
-    "enriched_at": "2025-12-09T03:50:59.686Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-12T08:17:11.420Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -1,0 +1,36 @@
+{
+  "document_number": "2015-29403",
+  "executive_order_number": "13710",
+  "title": "Termination of Emergency With Respect to the Actions and Policies of Former Liberian President Charles Taylor",
+  "abstract": null,
+  "signing_date": "2015-11-12",
+  "publication_date": "2015-11-16",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2015/11/16/2015-29403/termination-of-emergency-with-respect-to-the-actions-and-policies-of-former-liberian-president",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-11-16/pdf/2015-29403.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/11/16/2015-29403.txt",
+  "enrichment": {
+    "summary": "This executive order officially ends the national emergency declared in 2004 concerning the actions and policies of former Liberian President Charles Taylor. It acknowledges Liberia's progress in establishing democracy and law, including the conviction of Charles Taylor, and revokes prior sanctions related to that emergency.",
+    "theme_ids": [
+      "national-emergencies",
+      "africa-engagement-trade",
+      "sanctions-country-specific"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "citizens-of-specific-countries-by-eo-designation"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The termination of sanctions related to former Liberian President Charles Taylor may raise concerns about whether all assets unlawfully taken have been fully recovered, potentially affecting citizens of Liberia seeking restitution.",
+      "The lifting of sanctions could unintentionally enable individuals or entities linked to Charles Taylor to regain economic influence, undermining Liberia's ongoing democratic and economic development.",
+      "Changes in trade and engagement policies following the termination of the emergency may have uneven economic impacts on Liberian populations, including marginalized groups who may not benefit equally from renewed trade relations."
+    ],
+    "enriched_at": "2025-12-12T08:10:47.246Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

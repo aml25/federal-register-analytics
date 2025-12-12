@@ -13,29 +13,26 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-12-01/pdf/2023-26569.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/12/01/2023-26569.txt",
   "enrichment": {
-    "summary": "This executive order establishes and updates the Interagency Security Committee to oversee and improve security standards and policies for Federal buildings and facilities occupied by Federal employees and contractors. It ensures ongoing coordination across multiple agencies to protect Federal properties from security threats and mandates regular compliance reporting and monitoring.",
+    "summary": "This executive order establishes the Interagency Security Committee to improve and oversee the security of federal buildings and facilities occupied by federal employees and contractors. It sets policies, standards, and compliance measures to ensure effective protection and coordination across various federal agencies.",
     "theme_ids": [
-      "national-security",
-      "federal-agency-management",
-      "federal-property-management"
+      "homeland-security",
+      "interagency-coordination",
+      "federal-law-enforcement"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
+        "federal-employees-civil-servants",
         "federal-contractors"
       ],
-      "negative_ids": [
-        "small-federal-contractors"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Increased compliance and reporting requirements may impose significant administrative burdens on federal contractors, especially smaller firms.",
-      "Coordinating security policies across many diverse agencies could lead to delays or inconsistent implementation.",
-      "Some agencies may face funding or resource constraints in meeting the new security standards and monitoring requirements.",
-      "Balancing security needs with privacy and operational efficiency may prove challenging in multi-tenant federal facilities.",
-      "Exceptions for intelligence agencies could create gaps or inconsistencies in security practices across federal properties."
+      "Enhanced interagency security coordination may lead to increased surveillance and data sharing that could raise privacy concerns among federal employees and contractors.",
+      "Strict security standards and compliance requirements could impose operational burdens and increased costs on federal contractors, potentially impacting contract performance and worker conditions.",
+      "The focus on blast-resistant structures and specialized facility security may divert resources from other federal buildings, potentially creating uneven security protections across different federal employee work sites.",
+      "Coordination in multi-agency, multi-use facilities might lead to jurisdictional conflicts or slowed decision-making affecting the safety and daily workflow of federal employees and contractors."
     ],
-    "enriched_at": "2025-12-09T01:38:42.629Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-12T08:19:37.523Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

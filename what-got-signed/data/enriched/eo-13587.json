@@ -1,0 +1,43 @@
+{
+  "document_number": "2011-26729",
+  "executive_order_number": "13587",
+  "title": "Structural Reforms To Improve the Security of Classified Networks and the Responsible Sharing and Safeguarding of Classified Information",
+  "abstract": null,
+  "signing_date": "2011-10-07",
+  "publication_date": "2011-10-13",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2011/10/13/2011-26729/structural-reforms-to-improve-the-security-of-classified-networks-and-the-responsible-sharing-and",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2011-10-13/pdf/2011-26729.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2011/10/13/2011-26729.txt",
+  "enrichment": {
+    "summary": "This executive order establishes measures to improve the security and responsible sharing of classified information on government computer networks. It requires agencies to coordinate on policies, insider threat programs, and compliance assessments, ensuring classified data is protected while being shared with authorized users. It sets up new interagency committees, offices, and task forces to oversee these efforts and define standards.",
+    "theme_ids": [
+      "intelligence-sharing",
+      "cybersecurity-national-security",
+      "national-security-information-classification",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "security-clearance-holders",
+        "intelligence-community-personnel",
+        "federal-contractors"
+      ],
+      "negative_ids": [
+        "security-clearance-holders",
+        "federal-contractors"
+      ]
+    },
+    "potential_concerns": [
+      "The implementation of enhanced insider threat detection programs may raise privacy and civil liberties concerns among security-clearance holders, including federal contractors and intelligence community personnel.",
+      "Increased surveillance and compliance assessments could lead to a chilling effect on whistleblowers despite protections referenced, potentially discouraging lawful reporting among security clearance holders.",
+      "Coordination among multiple agencies might result in inconsistent or overly burdensome policies for federal contractors, creating operational and compliance difficulties.",
+      "Technical safeguarding standards advancing rapidly could impose resource and adaptation challenges on federal contractors and clearance holders, possibly delaying necessary security improvements."
+    ],
+    "enriched_at": "2025-12-12T08:24:24.183Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

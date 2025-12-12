@@ -13,32 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-12-03/pdf/2021-26459.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/12/03/2021-26459.txt",
   "enrichment": {
-    "summary": "This executive order reestablishes and updates the National Space Council, a group chaired by the Vice President that advises the President on space policy and strategy. It defines the Council's membership, responsibilities, and operational procedures to ensure coordination among federal agencies and input from industry experts on civil, commercial, and national security space activities.",
+    "summary": "This executive order establishes the National Space Council to advise the President on national space policy and strategy. It defines the Council's membership, responsibilities, and functions, including coordinating space activities across government agencies and engaging industry through an advisory group.",
     "theme_ids": [
       "space-policy",
-      "national-security",
-      "advisory-committees-management",
-      "federal-agency-management",
-      "technology-development"
+      "interagency-coordination",
+      "science-and-technology-policy",
+      "national-security-information-classification"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "commercial-space-operators",
-        "tech-industry"
+        "defense-industry-workers",
+        "technology-workers",
+        "scientific-researchers",
+        "veterans"
       ],
-      "negative_ids": [
-        "foreign-suppliers",
-        "environmental-advocates"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Interagency coordination challenges may arise due to overlapping authorities and competing priorities among diverse Council members.",
-      "The broad authority given to the Chair to determine Council membership and invite participants could limit transparency or exclude important stakeholders.",
-      "Balancing national security concerns with commercial and civil space interests might lead to conflicts or policy gridlock.",
-      "Reliance on existing appropriations and legal constraints could slow down the Council’s effectiveness and responsiveness to emerging space challenges.",
-      "The lack of an explicit public or congressional oversight mechanism for the Council’s work might raise accountability concerns."
+      "Coordination led by the National Space Council could centralize space policy in ways that slow innovation or disadvantage private-sector technology workers and scientific researchers.",
+      "Prioritizing national security space activities may inadvertently limit resources or opportunities for civil and commercial space sectors, affecting technology workers and defense-industry workers differently.",
+      "The involvement of classified national security information in space policy could reduce transparency and limit input from commercial and scientific communities, potentially undermining broader industry engagement.",
+      "Emphasis on interagency coordination risks bureaucratic delays that could affect timely advancement and competitiveness for U.S. veterans transitioning into aerospace and defense technology jobs.",
+      "The executive order’s direction for agencies to conform space activities to the President’s policy may restrict independent research initiatives by scientific researchers working in government-funded programs."
     ],
-    "enriched_at": "2025-12-09T03:51:05.997Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-12T08:17:17.659Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

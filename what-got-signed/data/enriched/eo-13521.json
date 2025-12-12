@@ -1,0 +1,40 @@
+{
+  "document_number": "E9-28805",
+  "executive_order_number": "13521",
+  "title": "Establishing the Presidential Commission for the Study of Bioethical Issues",
+  "abstract": null,
+  "signing_date": "2009-11-24",
+  "publication_date": "2009-11-30",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/11/30/E9-28805/establishing-the-presidential-commission-for-the-study-of-bioethical-issues",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-11-30/pdf/E9-28805.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/11/30/E9-28805.txt",
+  "enrichment": {
+    "summary": "This order creates a Presidential Commission within the Department of Health and Human Services to study bioethical issues arising from advances in science and technology. The Commission advises the President on ethical policies related to biomedical research, healthcare, and technological innovation, and conducts research and reports on relevant topics. It is composed of expert members appointed by the President and operates for two years unless extended.",
+    "theme_ids": [
+      "bioethics",
+      "stem-cell-biomedical-research",
+      "presidential-commissions-task-forces",
+      "science-and-technology-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "scientific-researchers",
+        "patients-general",
+        "healthcare-workers"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The Commission’s bioethical guidance on stem-cell and biomedical research may generate controversy among healthcare workers and patients-general regarding the acceptability of certain medical procedures or research methods.",
+      "Recommendations from the Commission could unintentionally delay important biomedical research advancements that scientific researchers depend on due to prolonged ethical reviews or regulations.",
+      "The Commission's focus on protecting human research participants might unintentionally limit participation opportunities for certain patient populations, particularly those with chronic illnesses or disabilities, if safeguards become overly restrictive.",
+      "Ethical policies developed by the Commission might not adequately address diverse cultural or social perspectives, potentially marginalizing minority patient groups or healthcare workers from varied backgrounds."
+    ],
+    "enriched_at": "2025-12-12T08:25:51.723Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -13,30 +13,29 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-12-11/pdf/2023-27318.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/12/11/2023-27318.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to simplify and improve how they provide funding and support to Tribal Nations, respecting their sovereignty and self-determination. It aims to reduce bureaucratic burdens, enhance flexibility in how Tribal Nations use federal resources, and identify funding shortfalls to better fulfill the federal government’s trust responsibilities to Tribal communities.",
+    "summary": "This executive order directs federal agencies to simplify and improve the way federal funding and support are provided to Tribal Nations. It aims to honor Tribal sovereignty by reducing bureaucratic barriers, increasing flexibility and access to funds, and improving government-to-government relationships to better meet Tribal Nations’ unique needs and support their self-determination.",
     "theme_ids": [
-      "regulatory-reform",
-      "federal-agency-management",
-      "economic-development",
-      "community-development",
-      "tribal-policy"
+      "civil-rights-enforcement",
+      "tribal-colleges-native-american-education",
+      "interagency-coordination"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tribal-nations"
+        "native-americans-indigenous-peoples",
+        "tribal-communities-reservations",
+        "tribal-governments",
+        "tribal-college-students-communities"
       ],
-      "negative_ids": [
-        "non-tribal-federal-funding-recipients"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Implementation may increase administrative workloads on federal agencies required to coordinate and reform funding processes.",
-      "Efforts to consolidate and streamline funding could inadvertently delay programs during transition or create confusion about eligibility and application procedures.",
-      "Prioritizing Tribal set-asides or funding flexibility may reduce resources or competitiveness for non-Tribal entities currently receiving similar federal funds.",
-      "Identifying and addressing chronic underfunding could require significant budget increases, creating challenges for federal budgetary priorities and stakeholders.",
-      "Ensuring consistent and meaningful Tribal consultation across numerous agencies may be difficult and risk uneven implementation or Tribal dissatisfaction."
+      "The reform may unintentionally favor Tribal Nations with greater administrative capacity, potentially widening disparities among smaller or resource-limited tribal communities.",
+      "Efforts to streamline application and reporting processes could risk insufficient oversight, possibly reducing accountability in the use of federal funds intended for tribal self-determination.",
+      "Interagency coordination mandates may be challenging to implement effectively, causing delays or discrepancies in funding benefits reaching tribal populations, especially impacting tribal governments and communities.",
+      "Expanding flexibility in funding use, including administrative costs, may raise concerns among stakeholders about the appropriate allocation of federal resources intended for direct community services and development.",
+      "Changes to consultation and reporting processes involving tribal colleges may require careful balancing to respect tribal sovereignty while ensuring compliance with civil-rights-enforcement requirements."
     ],
-    "enriched_at": "2025-12-09T01:38:45.275Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-12T08:19:32.060Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

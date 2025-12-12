@@ -1,0 +1,47 @@
+{
+  "document_number": "2019-22849",
+  "executive_order_number": "13894",
+  "title": "Blocking Property and Suspending Entry of Certain Persons Contributing to the Situation in Syria",
+  "abstract": null,
+  "signing_date": "2019-10-14",
+  "publication_date": "2019-10-17",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/10/17/2019-22849/blocking-property-and-suspending-entry-of-certain-persons-contributing-to-the-situation-in-syria",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-10-17/pdf/2019-22849.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/10/17/2019-22849.txt",
+  "enrichment": {
+    "summary": "This executive order blocks the property and financial dealings of individuals and entities contributing to the conflict and instability in Syria, especially related to the Turkish military offensive in northeast Syria. It also suspends the entry of those persons into the United States and imposes various sanctions to pressure them to cease activities that threaten peace and human rights in the region.",
+    "theme_ids": [
+      "national-emergencies",
+      "economic-sanctions",
+      "syria",
+      "foreign-aid",
+      "travel-restrictions-bans"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "veterans"
+      ],
+      "negative_ids": [
+        "foreign-government-officials",
+        "corporations-businesses",
+        "refugees",
+        "asylum-seekers",
+        "foreign-nationals-general"
+      ]
+    },
+    "potential_concerns": [
+      "The economic sanctions targeting Turkish government entities and officials could escalate diplomatic tensions and adversely affect U.S.-Turkey relations, impacting foreign policy stability.",
+      "Travel restrictions and visa suspensions on foreign nationals connected to the conflict may unintentionally hinder legitimate asylum seekers and refugees from accessing protection in the United States.",
+      "The blocking of property and financial transactions might disrupt humanitarian aid operations, negatively affecting refugees and displaced persons in Syria who rely on such aid.",
+      "Sanctions on foreign financial institutions and businesses could result in over-compliance by global banks, limiting legal financial flows and complicating humanitarian or commercial activities involving innocent parties.",
+      "Military personnel and veterans involved in operations against ISIS may face indirect strategic and operational challenges due to the evolving geopolitical environment created by this order."
+    ],
+    "enriched_at": "2025-12-12T08:15:17.398Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

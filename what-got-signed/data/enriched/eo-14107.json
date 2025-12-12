@@ -13,27 +13,25 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-09-12/pdf/2023-19798.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/09/12/2023-19798.txt",
   "enrichment": {
-    "summary": "This executive order exempts Paul H. Maurer, a Special Agent in Charge of the George W. Bush Protective Detail, from mandatory automatic separation that would otherwise apply to federal employees in his position. It allows him to continue serving beyond standard separation rules, while maintaining the existing supervisory authority over him.",
+    "summary": "This executive order exempts Paul H. Maurer, a current Special Agent in Charge of the George W. Bush Protective Detail, from mandatory retirement based on federal law. It permits him to continue serving in his position, while maintaining supervisory authority by the Secret Service Director.",
     "theme_ids": [
-      "federal-workforce",
-      "national-security",
-      "federal-agency-management"
+      "federal-law-enforcement",
+      "federal-workforce-management"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "law-enforcement-officers-federal",
+        "federal-employees-civil-servants"
       ],
-      "negative_ids": [
-        "displaced-federal-workers"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "The exemption may set a precedent allowing other federal employees to seek similar exemptions, possibly complicating workforce management and separation policies.",
-      "Extending employment beyond mandatory separation could increase personnel costs and impact federal payroll budgets.",
-      "There is a potential risk of perceived or actual preferential treatment, which might raise concerns about fairness and transparency in federal employment policies.",
-      "The order places sole reliance on the Director of the Secret Service for oversight, which may limit broader agency checks on the exemption's implementation."
+      "Exempting Special Agent Maurer from mandatory separation may raise concerns among other federal law enforcement officers about fairness and potential impacts on morale within the United States Secret Service.",
+      "Continuing to extend mandatory retirement exemptions could complicate federal workforce management and succession planning for federal employees in critical law enforcement roles.",
+      "The order places significant discretionary power with the Secret Service Director regarding supervisory authority, which may lead to inconsistencies or perceived favoritism affecting other federal employees.",
+      "This exemption might set a precedent for future exemptions, potentially exacerbating workforce stagnation concerns within federal law enforcement agencies."
     ],
-    "enriched_at": "2025-12-09T01:38:27.098Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-12T08:20:12.114Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

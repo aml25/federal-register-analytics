@@ -1,0 +1,38 @@
+{
+  "document_number": "2011-32486",
+  "executive_order_number": "13593",
+  "title": "2011 Amendments to the Manual for Courts-Martial, United States",
+  "abstract": null,
+  "signing_date": "2011-12-13",
+  "publication_date": "2011-12-16",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2011/12/16/2011-32486/2011-amendments-to-the-manual-for-courts-martial-united-states",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2011-12-16/pdf/2011-32486.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2011/12/16/2011-32486.txt",
+  "enrichment": {
+    "summary": "This executive order updates specific parts of the U.S. Manual for Courts-Martial to reflect new amendments, ensuring current military justice procedures are properly codified. The changes take effect 30 days after the order without affecting any ongoing or past proceedings.",
+    "theme_ids": [
+      "military-readiness-force-structure"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "veterans"
+      ],
+      "negative_ids": [
+        "defendants-accused-persons"
+      ]
+    },
+    "potential_concerns": [
+      "Amendments to the Manual for Courts-Martial may increase procedural complexity, potentially prolonging military justice proceedings and impacting timely resolution for military personnel active duty and defendants.",
+      "Changes in the military justice procedures could unintentionally affect the rights and protections of defendants accused persons, leading to concerns about fairness and due process within the military justice system.",
+      "Updates to the Manual might influence perceptions of military readiness if perceived as either strengthening discipline or creating legal ambiguities that impair command authority among active-duty personnel.",
+      "Veterans might experience indirect impacts if changes affect the record or outcome of military justice cases related to their service, influencing benefits or reputational factors post-service."
+    ],
+    "enriched_at": "2025-12-12T08:23:33.420Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

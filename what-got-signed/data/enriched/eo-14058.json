@@ -13,35 +13,35 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-12-16/pdf/2021-27380.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/12/16/2021-27380.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to improve how they deliver services to the public by making interactions simpler, faster, and more accessible, especially for historically underserved communities. It emphasizes using technology, customer feedback, and cross-agency coordination to reduce burdens like paperwork and wait times, ultimately aiming to rebuild public trust in the government.",
+    "summary": "This executive order directs federal agencies to improve how government services are designed and delivered to the public, making them simpler, faster, more accessible, and equitable. It emphasizes using customer feedback, modern technology, and coordinated efforts across agencies to reduce bureaucratic burdens and build public trust in government.",
     "theme_ids": [
-      "equity-and-inclusion-policy",
-      "federal-agency-management",
-      "digital-assets-policy",
-      "privacy-and-data-security",
-      "veterans-affairs-policy",
-      "education-policy",
-      "disaster-preparedness",
-      "consumer-protection",
-      "workforce-development",
-      "tribal-policy",
-      "customer-experience-improvement"
+      "government-efficiency",
+      "civil-rights-enforcement",
+      "racial-equity",
+      "telehealth-telemedicine"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "government-service-users",
-        "underserved-communities"
+        "individuals-with-disabilities",
+        "low-income-individuals-families",
+        "veterans",
+        "medicare-beneficiaries",
+        "medicaid-beneficiaries",
+        "small-business-owners",
+        "tribal-governments",
+        "undocumented-immigrants",
+        "native-americans-indigenous-peoples"
       ],
       "negative_ids": []
     },
     "potential_concerns": [
-      "Implementing consistent customer experience improvements across numerous agencies may encounter significant coordination and resource challenges.",
-      "Efforts to streamline processes could reduce necessary oversight or protections, potentially risking privacy or equity if not carefully managed.",
-      "There may be technological barriers and digital divide issues that limit accessibility for some populations, undermining equity goals.",
-      "Mandating extensive data sharing and integration among agencies could raise privacy and security risks if safeguards are insufficient.",
-      "Some agencies or employees may resist changes required by this order, slowing progress or leading to partial compliance."
+      "Efforts to modernize digital government services may unintentionally create accessibility barriers for individuals-with-disabilities lacking assistive technologies or digital literacy.",
+      "Streamlining application and enrollment processes may inadequately protect privacy or civil rights safeguards, particularly impacting low-income individuals and underserved racial/ethnic groups such as native-americans-indigenous-peoples and undocumented immigrants.",
+      "Consolidation of services and reliance on online platforms could disadvantage veterans and elderly Medicare and Medicaid beneficiaries who may have limited internet access or prefer in-person assistance.",
+      "Coordination across federal and state agencies to reduce paperwork burdens might face legal and bureaucratic challenges that delay relief to small-business-owners and tribal-governments relying heavily on timely federal assistance.",
+      "Efforts to reduce 'time taxes' risk oversimplifying complex eligibility criteria, potentially excluding or confusing marginalized groups and undermining equitable access."
     ],
-    "enriched_at": "2025-12-09T03:50:49.755Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-12T08:16:59.984Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

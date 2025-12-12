@@ -13,25 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-11-19/pdf/2021-25548.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/11/19/2021-25548.txt",
   "enrichment": {
-    "summary": "This executive order officially ends the national emergency declared in 2015 concerning the situation in Burundi, recognizing positive political changes and reduced violence in the country. As a result, restrictions on certain individuals related to that emergency, including travel and immigration bans, are lifted.",
+    "summary": "This executive order officially ends the national emergency concerning the situation in Burundi that was declared in 2015 due to violence and political unrest. It revokes the previous order imposing sanctions and travel restrictions related to that emergency, reflecting improvements in Burundi’s political situation and decreased violence.",
     "theme_ids": [
-      "foreign-policy",
-      "national-security",
-      "humanitarian-economic-support"
+      "sanctions-country-specific",
+      "foreign-aid",
+      "africa-engagement-trade",
+      "revocation-of-previous-executive-orders"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "populations-in-designated-countries"
+        "citizens-of-specific-countries-by-eo-designation",
+        "foreign-government-officials",
+        "international-aid-recipients"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "citizens-of-specific-countries-by-eo-designation"
+      ]
     },
     "potential_concerns": [
-      "Premature termination of the emergency could reduce U.S. leverage if political reforms in Burundi do not continue or regress.",
-      "Lifting restrictions may allow individuals previously sanctioned for contributing to violence or repression more freedom, raising human rights concerns.",
-      "Reduced sanctions and entry suspensions could be seen as weakening U.S. commitment to regional stability and democracy promotion.",
-      "Implementation may require careful coordination to ensure that ongoing legal actions or investigations linked to the prior emergency remain unaffected."
+      "The termination of sanctions may reduce pressure on certain Burundian officials but could risk enabling lingering human rights abuses by those previously targeted, directly affecting citizens-of-specific-countries-by-eo-designation and foreign-government-officials.",
+      "Revoking travel restrictions might complicate U.S. efforts to monitor political stability and human rights conditions in Burundi, potentially limiting foreign-service-officers' ability to engage in oversight.",
+      "Lifting sanctions may impact international-aid-recipients if donor confidence shifts, possibly leading to fluctuations in aid flows that affect vulnerable populations in Burundi.",
+      "Some Burundian individuals previously restricted might exploit the revocation to engage in activities counter to U.S. foreign policy interests, raising concerns about enforcement and ongoing monitoring."
     ],
-    "enriched_at": "2025-12-09T03:51:19.753Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-12T08:17:34.065Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

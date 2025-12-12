@@ -13,26 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-11-25/pdf/2025-21203.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/11/25/2025-21203.txt",
   "enrichment": {
-    "summary": "This executive order adjusts which agricultural products are excluded from reciprocal tariffs previously imposed to address U.S. trade deficits. It exempts certain agricultural goods from these tariffs starting November 13, 2025, to reflect updated trade negotiations, domestic demand, and production capacity, while continuing to manage the national emergency related to trade imbalances.",
+    "summary": "This order updates and narrows the list of agricultural products that are exempt from reciprocal tariffs imposed to address large trade deficits. It adjusts tariff schedules to exclude certain agricultural goods from previous tariffs, effective November 13, 2025, in order to better manage trade relations and domestic economic needs under a national emergency related to trade deficits.",
     "theme_ids": [
-      "trade-policy",
-      "national-security"
+      "tariffs-duties",
+      "trade-policy-agreements",
+      "agricultural-policy",
+      "national-emergencies"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "agricultural-workers"
+        "agricultural-workers-farmers",
+        "small-business-owners"
       ],
       "negative_ids": [
-        "foreign-suppliers"
+        "foreign-governments",
+        "corporations-businesses"
       ]
     },
     "potential_concerns": [
-      "Removing tariffs on certain agricultural products could increase competition for U.S. farmers and agricultural workers, potentially threatening their livelihoods.",
-      "There may be challenges in monitoring and enforcing the updated scope of tariff exclusions effectively across importers and customs agents.",
-      "Critics might argue that exempting agricultural products weakens the original intent of the tariffs to reduce trade deficits and protect domestic industry.",
-      "Adjusting tariffs based on ongoing negotiations could create uncertainty for businesses planning production and imports in affected sectors."
+      "Excluding certain agricultural products from reciprocal tariffs may benefit U.S. farmers and small agricultural businesses but could weaken bargaining power in trade negotiations with foreign governments.",
+      "Adjustments to tariff schedules may disrupt supply chains for corporations relying on imported agricultural inputs, potentially increasing costs and affecting product prices.",
+      "The national emergency designation could lead to prolonged trade restrictions, causing uncertainties for foreign governments and their businesses, possibly provoking retaliatory trade measures.",
+      "Domestic producers of agricultural goods not exempted from tariffs may face competitive disadvantages compared to exempted products, impacting agricultural workers unevenly."
     ],
-    "enriched_at": "2025-12-09T02:48:27.066Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-12T08:21:08.253Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

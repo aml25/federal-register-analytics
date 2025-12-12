@@ -13,29 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-12-28/pdf/2021-28313.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/12/28/2021-28313.txt",
   "enrichment": {
-    "summary": "This executive order updates the salary rates and pay schedules for various federal employees, including those in statutory pay systems, senior executives, judges, military personnel, and others. It sets new pay adjustments effective in 2022 and supersedes the previous similar order from 2020.",
+    "summary": "This executive order updates and sets the pay rates for various federal employees, including those under statutory pay systems, senior executives, judges, uniformed service members, and others. It establishes the effective dates for these pay adjustments and supersedes a previous executive order regarding federal pay. The order ensures that federal compensation schedules are current and consistent across relevant government positions.",
     "theme_ids": [
-      "federal-pay-policy",
-      "federal-workforce",
-      "veterans-affairs-policy",
-      "military-personnel-policy"
+      "federal-workforce-management",
+      "retirement-security",
+      "veterans-healthcare"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "federal-employees-civil-servants",
+        "veterans",
+        "military-personnel-active-duty",
+        "foreign-service-officers",
+        "law-enforcement-officers-federal",
+        "political-appointees"
       ],
-      "negative_ids": [
-        "federal-budget-stakeholders"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Increased pay rates may strain federal budgets if not offset by appropriations or other savings.",
-      "Delays or errors in implementing new pay schedules could cause payroll disruption or employee dissatisfaction.",
-      "Differences in pay adjustments among various schedules may lead to perceptions of unfairness or inequity among federal employees.",
-      "Locality-based comparability payments could be controversial if perceived as favoring certain regions over others.",
-      "Superseding prior orders may require coordination to ensure smooth transition without gaps in pay adjustments."
+      "Adjustments in pay rates might lead to budget constraints that could limit hiring or benefits, indirectly affecting federal employees’ job security and retirement options.",
+      "Veterans employed within the Veterans Health Administration may face challenges if pay adjustments do not keep pace with cost-of-living increases, potentially impacting retention.",
+      "Uniformed service members could experience disparities in locality-based comparability payments if geographic pay adjustments do not accurately reflect high-cost areas.",
+      "Foreign Service Officers and federal judges might have concerns if pay increases are perceived as inadequate compared to private sector or international standards, affecting morale and recruitment.",
+      "Implementation complexity in coordinating pay adjustments across multiple statutory pay systems could create administrative delays, temporarily affecting federal employees’ paychecks."
     ],
-    "enriched_at": "2025-12-09T03:50:23.634Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-12T08:16:32.196Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

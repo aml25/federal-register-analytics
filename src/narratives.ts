@@ -268,24 +268,34 @@ async function generateTermNarrativeWithLLM(
   openai: OpenAI,
   context: string,
   presidentName: string,
-  orderCount: number
+  orderCount: number,
+  termEnd: number | 'present'
 ): Promise<{ summary: string; potential_impact: string }> {
-  const systemPrompt = `You are a political analyst writing concise summaries of executive order activity.
+  const isOngoing = termEnd === 'present';
+
+  const systemPrompt = `You are a journalist writing engaging summaries of presidential executive order activity for an informed general audience.
+
+Your goal is to write NARRATIVE PROSE that tells a story - NOT bullet points or lists in paragraph form.
 
 Guidelines:
-- Be direct and dense with information - no filler words or fluff
-- Factual and neutral tone
-- Use specific numbers
-- Past tense for completed terms, present tense for ongoing
-- No editorializing
-- When discussing impacted populations, use language like "aimed to positively impact" or "aimed to negatively impact" rather than presuming actual outcomes
+- Write in flowing, narrative prose that weaves facts into a coherent story
+- Neutral, factual tone but engaging and readable - like quality journalism
+- Use specific numbers naturally within sentences
+- Show how themes connect and what priorities defined the term
+- Avoid list-like structures ("First... Second... Third..." or "The top themes were X, Y, and Z")
+- ${isOngoing ? 'Present tense for ongoing administration' : 'Past tense for completed term'}
+- No editorializing - let the facts tell the story
+- When discussing impacted populations, use language like "aimed to benefit" or "would affect" rather than presuming actual outcomes
 
 You must return a JSON object with two fields:
-1. "summary" - One paragraph (60-100 words) summarizing the president, number of orders signed, overall themes, and a synthesis of key executive order titles
-2. "potential_impact" - One paragraph (60-100 words) describing which populations are aimed to be positively or negatively impacted and any key concerns raised
+1. "summary" - One concise paragraph (60-90 words) telling the story of this president's executive order activity: what policy priorities dominated and what defined the administration's approach. Don't enumerate themes - explain what the president was trying to accomplish.
+2. "potential_impact" - One concise paragraph (60-90 words) narratively describing who these orders aimed to affect and what concerns observers raised. Don't list populations - tell the story of winners and losers.
 
-Example format:
-{"summary": "Summary paragraph here.", "potential_impact": "Potential impact paragraph here."}`;
+BAD example (too listy): "Biden signed 162 orders. The top themes were climate (25), healthcare (20), and immigration (18). Populations affected include federal employees, businesses, and immigrants."
+
+GOOD example: "Climate action anchored the administration's executive agenda from day one, with early orders rejoining the Paris Agreement and pausing new oil and gas leases on federal lands. Healthcare policy emerged as another defining priority, particularly efforts to strengthen the Affordable Care Act and expand access during the pandemic..."
+
+Return JSON with "summary" and "potential_impact" fields:`;
 
   const userPrompt = `Analyze ${presidentName}'s ${orderCount} executive orders based on this data:
 
@@ -320,23 +330,30 @@ async function generateMonthlyNarrativeWithLLM(
 ): Promise<{ summary: string; potential_impact: string }> {
   const isTransitionMonth = presidents.length > 1;
 
-  const systemPrompt = `You are a political analyst writing concise monthly summaries of executive order activity.
+  const systemPrompt = `You are a journalist writing engaging monthly summaries of executive order activity for an informed general audience.
+
+Your goal is to write NARRATIVE PROSE that tells a story - NOT bullet points or lists in paragraph form.
 
 Guidelines:
-- Be direct and dense with information - no filler words or fluff
-- Factual and neutral tone
-- Use specific numbers
+- Write in flowing, narrative prose that weaves facts into a coherent story
+- Neutral, factual tone but engaging and readable - like quality journalism
+- Use specific numbers naturally within sentences (e.g., "signed 12 orders focused on..." not "12 orders were signed")
+- Show connections between orders and themes - don't just enumerate them
+- Avoid list-like structures ("First... Second... Third..." or "The top themes were X, Y, and Z")
 - Past tense for past months, present tense for current month
-- No editorializing
-- When discussing impacted populations, use language like "aimed to positively impact" or "aimed to negatively impact" rather than presuming actual outcomes
-${isTransitionMonth ? '- This is a presidential transition month - acknowledge both administrations and their respective order counts' : ''}
+- No editorializing or opinion - let the facts tell the story
+- When discussing impacted populations, use language like "aimed to benefit" or "would affect" rather than presuming actual outcomes
+${isTransitionMonth ? '- This is a presidential transition month - weave in the narrative of power changing hands' : ''}
 
 You must return a JSON object with two fields:
-1. "summary" - One paragraph (60-100 words) summarizing the president(s), number of orders signed, overall themes, and a synthesis of key executive order titles
-2. "potential_impact" - One paragraph (60-100 words) describing which populations are aimed to be positively or negatively impacted and any key concerns raised
+1. "summary" - One concise paragraph (50-80 words) that tells the story of this month's executive actions: what policy directions emerged and what priorities were evident. Don't just list themes - explain what the president was trying to accomplish.
+2. "potential_impact" - One concise paragraph (50-80 words) that narratively describes who these orders aimed to affect and what concerns observers raised. Don't just list populations - tell the story of who stands to gain or lose.
 
-Example format:
-{"summary": "Summary paragraph here.", "potential_impact": "Potential impact paragraph here."}`;
+BAD example (too listy): "Trump signed 15 orders. The top themes were immigration (5 orders), trade (4 orders), and government reform (3 orders). Populations affected include federal employees, immigrants, and businesses."
+
+GOOD example: "The administration moved aggressively on immigration policy, with five orders tightening border enforcement and interior deportation procedures. Trade policy emerged as another priority, as four orders imposed new tariffs and renegotiated existing agreements. A quieter but significant thread involved government restructuring..."
+
+Return JSON with "summary" and "potential_impact" fields:`;
 
   let userPrompt: string;
   if (isTransitionMonth) {
@@ -363,7 +380,7 @@ Return JSON with "summary" and "potential_impact" fields:`;
       { role: 'user', content: userPrompt }
     ],
     temperature: 0.7,
-    max_completion_tokens: 400,
+    max_completion_tokens: 350,
     response_format: { type: 'json_object' }
   });
 
@@ -546,7 +563,8 @@ export async function generateTermNarratives(options: {
         openai,
         context,
         presidentName,
-        termOrders.length
+        termOrders.length,
+        termEnd
       );
 
       const wordCount = summary.split(' ').length + potential_impact.split(' ').length;
@@ -883,21 +901,28 @@ async function generateThemeNarrativeWithLLM(
   themeName: string,
   orderCount: number
 ): Promise<{ summary: string; potential_impact: string }> {
-  const systemPrompt = `You are a political analyst writing concise summaries of executive orders by theme.
+  const systemPrompt = `You are a journalist writing engaging thematic summaries of executive order activity for an informed general audience.
+
+Your goal is to write NARRATIVE PROSE that tells a story - NOT bullet points or lists in paragraph form.
 
 Guidelines:
-- Be direct and dense with information - no filler words or fluff
-- Factual and neutral tone
-- Use specific numbers
-- Explain what this theme covers and how different presidents have approached it
-- When discussing impacted populations, use language like "aimed to positively impact" or "aimed to negatively impact" rather than presuming actual outcomes
+- Write in flowing, narrative prose that weaves facts into a coherent story
+- Neutral, factual tone but engaging and readable - like quality journalism
+- Use specific numbers naturally within sentences
+- Show how different presidents approached this theme and what patterns emerge
+- Avoid list-like structures ("First... Second... Third..." or "Presidents who addressed this include X, Y, and Z")
+- No editorializing - let the facts tell the story
+- When discussing impacted populations, use language like "aimed to benefit" or "would affect" rather than presuming actual outcomes
 
 You must return a JSON object with two fields:
-1. "summary" - One paragraph (60-100 words) summarizing the theme, which presidents signed orders on it, the number of orders, and a synthesis of key executive order titles
-2. "potential_impact" - One paragraph (60-100 words) describing which populations are aimed to be positively or negatively impacted and any key concerns raised
+1. "summary" - One concise paragraph (50-80 words) telling the story of executive action on this theme: what policies presidents pursued and how approaches differed across administrations. Don't list presidents and counts - explain what was done and why it matters.
+2. "potential_impact" - One concise paragraph (50-80 words) narratively describing who these orders aimed to affect and what concerns observers raised. Don't list populations - tell the story of who stands to gain or lose.
 
-Example format:
-{"summary": "Summary paragraph here.", "potential_impact": "Potential impact paragraph here."}`;
+BAD example (too listy): "This theme covers 45 orders. Trump signed 25 orders on this topic, Biden signed 20. Populations affected include businesses, workers, and consumers."
+
+GOOD example: "Immigration policy has been shaped by sharply contrasting visions across administrations. The Trump administration focused on border enforcement and interior deportation, with orders expanding detention capacity and restricting asylum pathways. The Biden administration largely reversed course, halting wall construction and directing agencies to review enforcement priorities..."
+
+Return JSON with "summary" and "potential_impact" fields:`;
 
   const userPrompt = `Analyze the ${orderCount} executive orders tagged with the "${themeName}" theme based on this data:
 
@@ -912,7 +937,7 @@ Return JSON with "summary" and "potential_impact" fields:`;
       { role: 'user', content: userPrompt }
     ],
     temperature: 0.7,
-    max_completion_tokens: 400,
+    max_completion_tokens: 350,
     response_format: { type: 'json_object' }
   });
 

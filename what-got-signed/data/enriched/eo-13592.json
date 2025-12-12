@@ -1,0 +1,45 @@
+{
+  "document_number": "2011-31624",
+  "executive_order_number": "13592",
+  "title": "Improving American Indian and Alaska Native Educational Opportunities and Strengthening Tribal Colleges and Universities",
+  "abstract": null,
+  "signing_date": "2011-12-02",
+  "publication_date": "2011-12-08",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2011/12/08/2011-31624/improving-american-indian-and-alaska-native-educational-opportunities-and-strengthening-tribal",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2011-12-08/pdf/2011-31624.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2011/12/08/2011-31624.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a White House Initiative to improve educational opportunities and outcomes for American Indian and Alaska Native students. It focuses on supporting Tribal Colleges and Universities, preserving Native languages and cultures, reducing dropout rates, and coordinating efforts across federal agencies. The order also creates an interagency working group to develop plans and promote partnerships to better serve AI/AN students' educational needs.",
+    "theme_ids": [
+      "tribal-colleges-native-american-education",
+      "educational-excellence-initiatives-by-demographic",
+      "interagency-coordination",
+      "federal-advisory-committees"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "native-americans-indigenous-peoples",
+        "alaska-natives",
+        "tribal-college-students-communities",
+        "k-12-students",
+        "youth-young-adults",
+        "tribal-governments",
+        "educational-institutions"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The interagency coordination efforts may face challenges in respecting tribal sovereignty fully, possibly leading to tensions with tribal governments despite intentions to support self-determination.",
+      "The focus on improving educational outcomes could unintentionally divert limited federal resources from other critical social services for Native American and Alaska Native communities.",
+      "Ensuring equitable access to high-quality teachers—especially in remote tribal or rural areas—may be difficult, potentially limiting the impact for AI/AN k-12 students and youth despite programmatic intentions.",
+      "The emphasis on preserving Native languages and cultures through formal education might not sufficiently accommodate diverse tribal preferences, risking some tribes feeling underrepresented or marginalized by federal programs.",
+      "Data collection and reporting requirements across multiple agencies could create bureaucratic burdens that slow implementation and might unintentionally reduce students' privacy protections."
+    ],
+    "enriched_at": "2025-12-12T08:23:41.887Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

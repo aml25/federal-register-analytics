@@ -5,10 +5,10 @@
       "president_name": "Donald Trump",
       "term_start": 2025,
       "term_end": "present",
-      "order_count": 217,
-      "summary": "Donald Trump, serving from 2025 to present, signed 217 executive orders predominantly focused on National Security (121), Federal Agency Management (77), Regulatory Reform (69), Foreign Policy (66), and Trade Policy (64). Key orders included EO 14147 ending government weaponization, EO 14154 unleashing American energy, EO 14155 withdrawing from WHO, and EO 14165 securing borders. Temporal progression showed a frontloaded issuance with 109 orders in Q1 emphasizing national security and agency management. Thematic breadth extended to technology, energy, immigration, and public safety, reflecting a comprehensive agenda targeting federal operations, international relations, and domestic policy priorities.",
-      "potential_impact": "The orders aimed to positively impact the tech industry (33 orders), domestic energy producers (26), manufacturing workers (17), scientific researchers (16), and federal employees (15), among others. Conversely, foreign suppliers (41 orders), foreign manufacturers (30), environmental advocates (13), and the green energy sector (12) were targeted for negative impacts. Concerns include politicization of justice and intelligence agencies, undermining of equity programs, weakening of environmental protections, challenges to public health efforts, and potential diplomatic fallout from America First policies. The rollback of DEI and climate initiatives may disproportionately affect minority and underserved populations.",
-      "generated_at": "2025-12-09T04:03:18.817Z",
+      "order_count": 10,
+      "summary": "President Donald Trump's executive orders since 2025 emphasize a strategic recalibration of trade and national security, with a strong focus on tariffs, national emergencies, and trade agreements, particularly involving China. This period reflects an administration intent on leveraging economic tools to shape international relations and domestic industry competitiveness. Simultaneously, the integration of artificial intelligence into healthcare and research signals an ambition to modernize critical sectors, while federal workforce and advisory committee adjustments aim to streamline government operations amid shifting priorities.",
+      "potential_impact": "The administration’s directives aim to benefit key economic groups such as small business owners, agricultural workers, and manufacturing employees, alongside veterans and scientific researchers. However, these policies also raise concerns about uneven burdens, with federal employees facing hiring restrictions and contractors risking job losses. The pivot toward AI in pediatric healthcare stirs privacy and access worries, while tariff modifications provoke debate over potential public health risks and the balance between trade advantages and community safety, affecting diverse groups from middle-class Americans to law enforcement and foreign governments.",
+      "generated_at": "2025-12-12T08:33:27.911Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -16,10 +16,10 @@
       "president_name": "Joseph R. Biden Jr.",
       "term_start": 2021,
       "term_end": 2025,
-      "order_count": 161,
-      "summary": "Joseph R. Biden Jr. signed 161 executive orders from 2021 to 2025, focusing primarily on national security (68 orders), equity and inclusion (52), and federal agency management (44). Other significant themes included foreign policy (44), economic development (30), and workforce development (27). Key orders addressed racial equity (EO 13985), COVID-19 response (EOs 13987, 13994-96), climate crisis (EO 13990, 14008), immigration reform (EO 13993, 14012), and supply chain security (EO 14017). The temporal pattern shows an intense initial period in 2021 Q1 with 38 orders, then a steady issuance spanning diverse policy areas throughout the term, emphasizing coordination across federal agencies and inclusive governance.",
-      "potential_impact": "The executive orders aimed to positively impact federal employees, underserved communities, and sectors such as tech, scientific research, tribal nations, and American workers by promoting equity, workforce development, and public health. Conversely, foreign suppliers, private sector employers, and domestic energy producers were among populations targeted for restrictive measures, often linked to sanctions or regulatory shifts. Concerns include implementation challenges due to data limitations, interagency coordination complexities, potential legal disputes over equity and immigration policies, privacy issues, and resistance from groups affected by anti-discrimination expansions or regulatory reversals.",
-      "generated_at": "2025-12-09T04:03:23.357Z",
+      "order_count": 20,
+      "summary": "Throughout his term, President Joseph R. Biden Jr. focused his executive orders on strengthening federal coordination and workforce management, aiming to create a more cohesive and efficient government. Early initiatives emphasized environmental justice and worker protections, reflecting a commitment to sustainable development and labor rights. Over time, attention shifted towards emerging technologies such as artificial intelligence and national security concerns, while continuing to address civil rights enforcement and tribal community support. This pattern illustrated an effort to balance modernization with social equity and interagency collaboration, seeking systemic improvements across multiple domains.",
+      "potential_impact": "The administration’s orders sought to benefit veterans, tribal communities, federal employees, and union members by enhancing job security, public safety, and equitable resource distribution. However, these measures posed challenges for small businesses and non-union workers facing stricter labor standards and compliance costs. Tribal sovereignty concerns arose amid expanded federal law enforcement roles, while privacy and jurisdictional issues complicated protections for indigenous and marginalized groups. Additionally, foreign policy adjustments, such as sanction terminations, raised questions about enforcement and the potential unintended effects on international stability and human rights.",
+      "generated_at": "2025-12-12T08:33:30.755Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -27,12 +27,23 @@
       "president_name": "Donald Trump",
       "term_start": 2017,
       "term_end": 2021,
-      "order_count": 14,
-      "summary": "Donald Trump signed 14 executive orders primarily in 2021 Q1, focusing on national security (7 orders), federal agency management (3 orders), and federal procurement policy (3 orders). Key orders addressed threats from Chinese software (EO 13971), promoted small modular nuclear reactors for defense and space (EO 13972), and amended investment restrictions on Chinese military-linked companies (EO 13974). Other significant orders included succession planning at the EPA (EO 13973), Buy American policies for USPS (EO 13975), and regulatory reforms to reduce overcriminalization (EO 13980). The orders collectively targeted cybersecurity, trade, public safety, and regulatory reform themes.",
-      "potential_impact": "The executive orders aimed to positively impact the tech industry, federal employees, scientific researchers, domestic energy producers, investors, manufacturing workers, state and local governments, and military veterans. Conversely, they aimed to negatively impact foreign suppliers, foreign manufacturers, China, and foreign investors linked to countries of concern. Concerns include economic retaliation from China, enforcement complexities especially around software bans, potential financial losses for investors due to divestment mandates, bureaucratic delays in agency succession and nuclear reactor deployment, and increased costs from Buy American policies potentially affecting USPS operations and service pricing.",
-      "generated_at": "2025-12-09T04:03:14.649Z",
+      "order_count": 20,
+      "summary": "Throughout his term, President Donald Trump's executive orders reflected a concerted effort to reshape government operations, tighten economic sanctions, and recalibrate federal advisory frameworks. Early actions targeted national security through sanctions and travel restrictions, while later orders emphasized government efficiency and regulatory reform. By revoking previous executive mandates and reorganizing advisory committees, the administration sought to streamline interagency coordination and federal workforce management, signaling a priority on consolidating authority and enhancing administrative accountability alongside a focus on military readiness and counterterrorism.",
+      "potential_impact": "These executive orders aimed to benefit veterans, active-duty military personnel, small business owners, and federal employees by improving operational efficiency and supporting defense priorities. However, they also raised concerns about adverse effects on foreign nationals, visa holders, and certain corporations due to expanded sanctions and travel bans. The dismantling of labor-management forums and shifts in advisory committee oversight risked reducing representation for federal workers and vulnerable communities, while changes in healthcare insurance regulations threatened coverage stability for low-income and chronically ill individuals, illustrating a complex balance of winners and losers across diverse populations.",
+      "generated_at": "2025-12-12T08:33:24.569Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "term_start": 2009,
+      "term_end": 2017,
+      "order_count": 50,
+      "summary": "During his two terms from 2009 to 2017, President Barack Obama issued 50 executive orders that emphasized enhancing coordination across federal agencies and improving the management of the federal workforce. Military readiness and government efficiency were consistent priorities, reflecting a commitment to strengthening national defense while streamlining operations. The administration also focused on labor relations and advisory committees to foster collaborative governance. Over time, efforts expanded to address national security information, homeland security, and emerging challenges such as climate change and financial fraud, illustrating a multifaceted approach to modernizing and securing government functions.",
+      "potential_impact": "Obama’s executive orders aimed to benefit veterans, federal employees, and active-duty military personnel by prioritizing employment, training, and healthcare initiatives, while also addressing the needs of low-income families and minority communities. However, these measures raised concerns about potential unintended consequences, such as slowing federal hiring or disadvantaging non-veteran applicants. Enhanced financial fraud enforcement and stricter oversight imposed increased risks on corporations and contractors, possibly affecting business innovation and competition. Meanwhile, ethical guidelines in biomedical research sparked debate over patient protections and research progress, highlighting tensions between safeguarding vulnerable populations and advancing science.",
+      "generated_at": "2025-12-12T08:33:20.475Z",
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2025-12-09T04:03:23.358Z"
+  "generated_at": "2025-12-12T08:33:30.755Z"
 }

@@ -6,6 +6,127 @@ import { fileURLToPath } from 'node:url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, 'data');
 
+// Category labels for themes
+const THEME_CATEGORY_LABELS = {
+  national_security_defense: 'National Security & Defense',
+  immigration: 'Immigration',
+  economy_trade: 'Economy & Trade',
+  energy_environment: 'Energy & Environment',
+  healthcare: 'Healthcare',
+  civil_rights_equity: 'Civil Rights & Equity',
+  education: 'Education',
+  government_operations: 'Government Operations',
+  foreign_policy: 'Foreign Policy',
+  country_region_specific: 'Country/Region-Specific',
+  law_enforcement_justice: 'Law Enforcement & Justice',
+  technology_innovation: 'Technology & Innovation',
+  infrastructure: 'Infrastructure',
+  labor_workforce: 'Labor & Workforce',
+  agriculture_rural: 'Agriculture & Rural',
+  disaster_emergency: 'Disaster & Emergency',
+  administrative_procedural: 'Administrative/Procedural',
+  social_cultural: 'Social & Cultural',
+  international_institutions: 'International Institutions'
+};
+
+/**
+ * Generate slug ID from a name
+ */
+function slugify(name) {
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+/**
+ * Load taxonomy from data folder
+ */
+async function loadTaxonomy() {
+  const content = await readFile(join(DATA_DIR, 'taxonomy.json'), 'utf-8');
+  return JSON.parse(content);
+}
+
+/**
+ * Generate themes registry from taxonomy
+ */
+function generateThemesFromTaxonomy(taxonomy) {
+  const themes = [];
+  const now = new Date().toISOString();
+
+  for (const [key, items] of Object.entries(taxonomy.themes)) {
+    const category = THEME_CATEGORY_LABELS[key] || key;
+    for (const item of items) {
+      themes.push({
+        id: slugify(item),
+        name: item,
+        description: category,
+        created_at: now
+      });
+    }
+  }
+
+  return { themes, updated_at: now };
+}
+
+/**
+ * Generate populations registry from taxonomy
+ */
+function generatePopulationsFromTaxonomy(taxonomy) {
+  const populations = [];
+  const now = new Date().toISOString();
+  const pops = taxonomy.impacted_populations;
+
+  const addFromCategory = (items, category) => {
+    for (const item of items) {
+      populations.push({
+        id: slugify(item),
+        name: item,
+        description: category,
+        created_at: now
+      });
+    }
+  };
+
+  // Demographic groups
+  addFromCategory(pops.demographic_groups.racial_ethnic, 'Demographic Groups > Racial/Ethnic');
+  addFromCategory(pops.demographic_groups.gender_identity_sexuality, 'Demographic Groups > Gender Identity & Sexuality');
+  addFromCategory(pops.demographic_groups.age_groups, 'Demographic Groups > Age Groups');
+  addFromCategory(pops.demographic_groups.religious_groups, 'Demographic Groups > Religious Groups');
+  addFromCategory(pops.demographic_groups.disability_status, 'Demographic Groups > Disability Status');
+
+  // Immigration status
+  addFromCategory(pops.immigration_status, 'Immigration Status');
+
+  // Employment sectors
+  addFromCategory(pops.employment_sectors.government, 'Employment Sectors > Government');
+  addFromCategory(pops.employment_sectors.private_sector, 'Employment Sectors > Private Sector');
+  addFromCategory(pops.employment_sectors.industry_specific, 'Employment Sectors > Industry-Specific');
+
+  // Economic status
+  addFromCategory(pops.economic_status, 'Economic Status');
+
+  // Geographic communities
+  addFromCategory(pops.geographic_communities.domestic, 'Geographic Communities > Domestic');
+  addFromCategory(pops.geographic_communities.regional, 'Geographic Communities > Regional');
+
+  // Institutional groups
+  addFromCategory(pops.institutional_groups.education, 'Institutional Groups > Education');
+  addFromCategory(pops.institutional_groups.healthcare, 'Institutional Groups > Healthcare');
+  addFromCategory(pops.institutional_groups.justice_system, 'Institutional Groups > Justice System');
+
+  // Special populations
+  addFromCategory(pops.special_populations, 'Special Populations');
+
+  // Foreign populations
+  addFromCategory(pops.foreign_populations, 'Foreign Populations');
+
+  // Organizational entities
+  addFromCategory(pops.organizational_entities, 'Organizational Entities');
+
+  return { populations, updated_at: now };
+}
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -113,23 +234,33 @@ app.get('/api/monthly-narratives', async (req, res) => {
   }
 });
 
-// API: Get themes registry
+// API: Get themes (generated from taxonomy)
 app.get('/api/themes', async (req, res) => {
   try {
-    const data = await readFile(join(DATA_DIR, 'themes.json'), 'utf-8');
-    res.json(JSON.parse(data));
+    const taxonomy = await loadTaxonomy();
+    res.json(generateThemesFromTaxonomy(taxonomy));
   } catch (err) {
     res.status(500).json({ error: 'Failed to load themes' });
   }
 });
 
-// API: Get populations registry
+// API: Get populations (generated from taxonomy)
 app.get('/api/populations', async (req, res) => {
   try {
-    const data = await readFile(join(DATA_DIR, 'populations.json'), 'utf-8');
-    res.json(JSON.parse(data));
+    const taxonomy = await loadTaxonomy();
+    res.json(generatePopulationsFromTaxonomy(taxonomy));
   } catch (err) {
     res.status(500).json({ error: 'Failed to load populations' });
+  }
+});
+
+// API: Get full taxonomy (hierarchical structure)
+app.get('/api/taxonomy', async (req, res) => {
+  try {
+    const taxonomy = await loadTaxonomy();
+    res.json(taxonomy);
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to load taxonomy' });
   }
 });
 

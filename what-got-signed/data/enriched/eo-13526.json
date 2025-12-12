@@ -1,0 +1,45 @@
+{
+  "document_number": "E9-31418",
+  "executive_order_number": "13526",
+  "title": "Classified National Security Information",
+  "abstract": null,
+  "signing_date": "2009-12-29",
+  "publication_date": "2010-01-05",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2010/01/05/E9-31418/classified-national-security-information",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2010-01-05/pdf/E9-31418.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2010/01/05/E9-31418.txt",
+  "enrichment": {
+    "summary": "This executive order establishes uniform rules for classifying, safeguarding, and declassifying national security information to protect the United States from threats while promoting transparency when possible. It outlines who may classify information, how information must be marked and protected, and procedures for reviewing and releasing classified materials.",
+    "theme_ids": [
+      "national-security-information-classification",
+      "intelligence-operations",
+      "counterterrorism",
+      "homeland-security",
+      "weapons-of-mass-destruction-wmd-proliferation"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "security-clearance-holders",
+        "intelligence-community-personnel",
+        "military-personnel-active-duty"
+      ],
+      "negative_ids": [
+        "whistleblowers",
+        "journalists-media-professionals"
+      ]
+    },
+    "potential_concerns": [
+      "The order's strict classification and safeguarding rules may limit transparency, negatively impacting journalists-media-professionals' ability to report on government activities related to national-security-information-classification and counterterrorism.",
+      "Whistleblowers may face challenges when attempting to disclose classified information, as the order imposes strong protections and sanctions around unauthorized disclosures, potentially deterring reporting of government wrongdoing.",
+      "Security-clearance-holders and intelligence-community-personnel could experience increased administrative burden and risks of sanctions due to the rigorous training and compliance requirements imposed by the order for classification and safeguarding.",
+      "Military-personnel-active-duty might be affected by special access programs and classification restrictions that limit information sharing, which could complicate operational coordination in homeland-security and defense against WMD proliferation contexts.",
+      "The automatic declassification provisions and exemptions may create inconsistencies or delays in declassifying historically significant information, affecting both security-clearance-holders and public understanding mediated by journalists."
+    ],
+    "enriched_at": "2025-12-12T08:25:11.061Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

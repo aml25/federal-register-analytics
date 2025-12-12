@@ -5,106 +5,141 @@
       "president_name": "Donald Trump",
       "term_start": 2025,
       "term_end": "present",
-      "order_count": 217,
+      "order_count": 10,
       "top_themes": [
         {
-          "id": "national-security",
-          "name": "National Security",
-          "count": 121
+          "id": "tariffs-duties",
+          "name": "Tariffs / Duties",
+          "count": 4
         },
         {
-          "id": "federal-agency-management",
-          "name": "Federal Agency Management",
-          "count": 77
+          "id": "national-emergencies",
+          "name": "National Emergencies",
+          "count": 3
         },
         {
-          "id": "regulatory-reform",
-          "name": "Regulatory Reform",
-          "count": 69
+          "id": "trade-policy-agreements",
+          "name": "Trade Policy / Agreements",
+          "count": 3
         },
         {
-          "id": "foreign-policy",
-          "name": "Foreign Policy",
-          "count": 66
+          "id": "artificial-intelligence",
+          "name": "Artificial Intelligence",
+          "count": 2
         },
         {
-          "id": "trade-policy",
-          "name": "Trade Policy",
-          "count": 64
+          "id": "china",
+          "name": "China",
+          "count": 2
         }
       ],
-      "short_summary": "Donald Trump signed 217 executive orders from 2025 until present. The top themes have been: national security, federal agency management, regulatory reform, foreign policy, trade policy."
+      "short_summary": "Donald Trump signed 10 executive orders from 2025 until present. The top themes have been: tariffs / duties, national emergencies, trade policy / agreements, artificial intelligence, china."
     },
     {
       "president_id": "joe-biden",
       "president_name": "Joseph R. Biden Jr.",
       "term_start": 2021,
       "term_end": 2025,
-      "order_count": 161,
+      "order_count": 20,
       "top_themes": [
         {
-          "id": "national-security",
-          "name": "National Security",
-          "count": 68
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination",
+          "count": 5
         },
         {
-          "id": "equity-and-inclusion-policy",
-          "name": "Equity And Inclusion Policy",
-          "count": 52
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management",
+          "count": 5
         },
         {
-          "id": "federal-agency-management",
-          "name": "Federal Agency Management",
-          "count": 44
+          "id": "environmental-justice",
+          "name": "Environmental Justice",
+          "count": 3
         },
         {
-          "id": "foreign-policy",
-          "name": "Foreign Policy",
-          "count": 44
+          "id": "federal-law-enforcement",
+          "name": "Federal Law Enforcement",
+          "count": 3
         },
         {
-          "id": "economic-development",
-          "name": "Economic Development",
-          "count": 30
+          "id": "civil-rights-enforcement",
+          "name": "Civil Rights Enforcement",
+          "count": 3
         }
       ],
-      "short_summary": "Joseph R. Biden Jr. signed 161 executive orders from 2021 until 2025. The top themes were: national security, equity and inclusion policy, federal agency management, foreign policy, economic development."
+      "short_summary": "Joseph R. Biden Jr. signed 20 executive orders from 2021 until 2025. The top themes were: interagency coordination, federal workforce management, environmental justice, federal law enforcement, civil rights enforcement."
     },
     {
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
       "term_start": 2017,
       "term_end": 2021,
-      "order_count": 14,
+      "order_count": 20,
       "top_themes": [
         {
-          "id": "national-security",
-          "name": "National Security",
-          "count": 7
+          "id": "government-efficiency",
+          "name": "Government Efficiency",
+          "count": 4
         },
         {
-          "id": "federal-agency-management",
-          "name": "Federal Agency Management",
+          "id": "economic-sanctions",
+          "name": "Economic Sanctions",
           "count": 3
         },
         {
-          "id": "federal-procurement-policy",
-          "name": "Federal Procurement Policy",
+          "id": "travel-restrictions-bans",
+          "name": "Travel Restrictions / Bans",
           "count": 3
         },
         {
-          "id": "public-safety",
-          "name": "Public Safety",
+          "id": "federal-advisory-committees",
+          "name": "Federal Advisory Committees",
           "count": 3
         },
         {
-          "id": "regulatory-reform",
-          "name": "Regulatory Reform",
+          "id": "revocation-of-previous-executive-orders",
+          "name": "Revocation of Previous Executive Orders",
           "count": 3
         }
       ],
-      "short_summary": "Donald Trump signed 14 executive orders from 2017 until 2021. The top themes were: national security, federal agency management, federal procurement policy, public safety, regulatory reform."
+      "short_summary": "Donald Trump signed 20 executive orders from 2017 until 2021. The top themes were: government efficiency, economic sanctions, travel restrictions / bans, federal advisory committees, revocation of previous executive orders."
+    },
+    {
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "term_start": 2009,
+      "term_end": 2017,
+      "order_count": 50,
+      "top_themes": [
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination",
+          "count": 13
+        },
+        {
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management",
+          "count": 11
+        },
+        {
+          "id": "military-readiness-force-structure",
+          "name": "Military Readiness / Force Structure",
+          "count": 9
+        },
+        {
+          "id": "government-efficiency",
+          "name": "Government Efficiency",
+          "count": 9
+        },
+        {
+          "id": "federal-labor-management-relations",
+          "name": "Federal Labor-Management Relations",
+          "count": 6
+        }
+      ],
+      "short_summary": "Barack Obama signed 50 executive orders from 2009 until 2017. The top themes were: interagency coordination, federal workforce management, military readiness / force structure, government efficiency, federal labor-management relations."
     }
   ],
-  "generated_at": "2025-12-09T04:02:21.708Z"
+  "generated_at": "2025-12-12T08:29:14.104Z"
 }

@@ -13,31 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-10-20/pdf/2025-19614.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/10/20/2025-19614.txt",
   "enrichment": {
-    "summary": "This executive order restricts federal hiring by requiring agencies to meet strict approval processes for filling vacancies or creating new positions, focusing on reducing workforce size while prioritizing national security, immigration enforcement, and public safety roles. It mandates agencies to create staffing plans aligned with administration priorities and establishes Strategic Hiring Committees to oversee hiring decisions, with some exceptions for key positions and agencies.",
+    "summary": "This executive order restricts federal hiring by requiring agencies to limit new hires and new positions except under specific conditions. It mandates strategic oversight committees and annual staffing plans focused on priority areas like national security and public safety, while allowing certain exceptions and requiring quarterly progress reports to ensure accountability in federal workforce management.",
     "theme_ids": [
-      "national-security",
-      "federal-workforce",
-      "immigration-enforcement",
-      "public-safety"
+      "federal-hiring",
+      "federal-workforce-management",
+      "government-efficiency",
+      "immigration-enforcement-interior"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "displaced-federal-workers"
+        "law-enforcement-officers-federal"
       ],
       "negative_ids": [
-        "small-federal-contractors",
-        "federal-agencies-with-increased-administrative-burden"
+        "federal-employees-civil-servants",
+        "federal-contractors"
       ]
     },
     "potential_concerns": [
-      "The strict hiring freeze and approval requirements could lead to understaffing in essential government functions unrelated to the exempted priorities.",
-      "The focus on national security, immigration enforcement, and public safety positions may disproportionately deprioritize other important federal roles, potentially harming service delivery.",
-      "Implementation of Strategic Hiring Committees may delay urgent hiring decisions, reducing agency responsiveness and operational efficiency.",
-      "The order’s exemptions and OPM’s discretion to grant exemptions could introduce inconsistency and perceptions of politicization or uneven application across agencies.",
-      "Reduced availability of federal positions may lead to increased reliance on contractors, potentially circumventing the order’s intent and raising oversight concerns."
+      "The stringent hiring restrictions on federal civilian employees may exacerbate workforce shortages and reduce morale among existing federal-employees-civil-servants, potentially hampering agency effectiveness.",
+      "Exemptions for immigration enforcement and national security roles could create uneven workforce reductions, placing disproportionate operational burdens on non-exempt agencies and personnel.",
+      "Limiting new federal contracts to reduce contractor roles might lead to job losses among federal-contractors and disrupt ongoing services if transitions are poorly managed.",
+      "The requirement for Strategic Hiring Committees may introduce bureaucratic delays, potentially slowing urgent federal hiring processes even in priority areas.",
+      "The focus on reducing the federal workforce could unintentionally reduce diversity and equitable hiring practices if agencies prioritize efficiency over broader workforce representation."
     ],
-    "enriched_at": "2025-12-09T02:48:13.531Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-12T08:21:43.221Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

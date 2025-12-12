@@ -18,10 +18,11 @@ For now, the todo list is about data quality. The data pipeline was done relativ
 ## Features
 
 - **Fetch**: Download executive orders from the Federal Register API
-- **Enrich**: Use OpenAI to analyze each order with a two-pass approach:
-  - **Pass 1** (gpt-4.1-mini): Plain-language summary, thematic categorization, and potential concerns
-  - **Pass 2** (gpt-4o): Nuanced population impact analysis using an advanced reasoning model
-  - Cohesive theme and population registries maintained across all orders
+- **Enrich**: Use OpenAI to analyze each order with a two-pass approach using a **static taxonomy**:
+  - **Pass 1** (gpt-4.1-mini): Plain-language summary and thematic categorization from static taxonomy
+  - **Pass 2** (gpt-4.1-mini): Population impact analysis and potential concerns, using themes from Pass 1
+  - LLM selects from a comprehensive static taxonomy (280 themes, 158 populations)
+  - Suggestions for new taxonomy items are logged for human review
 - **Aggregate**: Generate term summaries and timeline data (fast, no API calls)
 - **Generate Narratives**: LLM-generated summaries and impact analysis per presidential term, month, and theme (uses OpenAI API)
 - **Web Frontend**: Express server with a clean UI to browse executive orders by term, month, or theme
@@ -49,12 +50,12 @@ Then edit `.env` with your API key from https://platform.openai.com/api-keys
 
 ```mermaid
 flowchart LR
-    A[Fetch executive orders from Federal Register API] --> B[Enrich data: summaries, themes,impacted populations, potential concerns]
+    A[Fetch executive orders from Federal Register API] --> B[Enrich data using static taxonomy]
     B --> C[Aggregate data for presidential term and monthly timelines]
     C --> D[Generate narratives for detailed EO reviews]
-    
-    B --- E[Pass 1 - gpt 4.1 mini for: summaries, themes, concerns]
-    E --- F[Pass 2 - gpt 4o for: mpacted populations]
+
+    B --- E[Pass 1 - gpt 4.1 mini: summaries + themes]
+    E --- F[Pass 2 - gpt 4.1 mini: populations + concerns]
 ```
 
 ### 1. Fetch Executive Orders
@@ -81,12 +82,12 @@ Raw data is saved to `data/raw/executive-orders.json`.
 
 ### 2. Enrich with AI Analysis
 
-Process orders through OpenAI for enrichment. The enrichment uses a **two-pass approach**:
+Process orders through OpenAI for enrichment. The enrichment uses a **two-pass approach** with a **static taxonomy**:
 
-1. **Pass 1** (gpt-4.1-mini): Generates the summary, identifies themes, and extracts potential concerns
-2. **Pass 2** (gpt-4o): Uses an advanced reasoning model for nuanced population impact analysis, determining which groups are positively or negatively affected
+1. **Pass 1** (gpt-4.1-mini): Generates the summary and identifies themes from the taxonomy
+2. **Pass 2** (gpt-4.1-mini): Identifies impacted populations and potential concerns, using the themes from Pass 1 for context
 
-This approach optimizes for both speed/cost (using the faster model for straightforward analysis) and quality (using the advanced reasoning model for the more nuanced population impact assessment).
+The LLM selects tags from a comprehensive static taxonomy (`what-got-signed/data/taxonomy.json`). If the LLM suggests a new tag, it's logged to `metadata-config/executive_order_taxonomy_guide.md` for human review rather than being automatically added.
 
 ```bash
 # Enrich all orders from a specific year
@@ -95,24 +96,17 @@ npm run enrich -- --year 2025
 # Limit number of orders to process
 npm run enrich -- --year 2025 --limit 5
 
-# Re-process already enriched orders
+# Re-process already enriched orders (includes new ones too)
 npm run enrich -- --force
+
+# Re-enrich only already-enriched orders (no new ones)
+npm run enrich -- --existing-only
 
 # Re-enrich a specific executive order
 npm run enrich -- --eo 14350
-
-# Re-run population analysis only (pass 2) on already-enriched orders
-npm run enrich -- --year 2025 --pass2-only
-
-# Re-run pass 2 on a specific EO
-npm run enrich -- --eo 14350 --pass2-only
 ```
 
-The `--pass2-only` flag re-runs only the population analysis (using gpt-4o) on already-enriched orders. This is useful if you want to improve population tagging without regenerating summaries, themes, or concerns. The summary, themes, and concerns from the original enrichment are preserved.
-
-After processing, orphaned populations (those no longer referenced by any enriched EO) are automatically removed from the registry.
-
-Enriched data is saved to `data/enriched/`. The theme registry is maintained in `data/themes.json` and the population registry in `data/populations.json`.
+Enriched data is saved to `data/enriched/`.
 
 ### 3. Aggregate Data
 
@@ -217,39 +211,25 @@ ALLOWED_ORIGINS=https://admin.whatgotsigned.com node server.js
 
 ## Data Structure
 
-### Theme Registry (`data/themes.json`)
+### Static Taxonomy (`what-got-signed/data/taxonomy.json`)
 
-Themes are tracked globally to ensure consistency across all executive orders:
-
-```json
-{
-  "themes": [
-    {
-      "id": "immigration-enforcement",
-      "name": "Immigration Enforcement",
-      "description": "Policies related to border security and immigration law enforcement",
-      "created_at": "2025-01-15T10:30:00.000Z"
-    }
-  ],
-  "updated_at": "2025-01-15T10:30:00.000Z"
-}
-```
-
-### Population Registry (`data/populations.json`)
-
-Impacted populations are tracked globally to ensure consistency. Populations can include countries, demographics, professions, industries, political groups, government entities, and more:
+The master taxonomy defines all available themes and populations. The LLM selects from this taxonomy during enrichment. The frontend generates flat registries from this hierarchical structure on-the-fly:
 
 ```json
 {
-  "populations": [
-    {
-      "id": "federal-employees",
-      "name": "Federal Employees",
-      "description": "Workers employed by the federal government",
-      "created_at": "2025-01-15T10:30:00.000Z"
+  "themes": {
+    "national_security_defense": ["Military Readiness / Force Structure", "..."],
+    "immigration": ["Border Enforcement", "Visa Policy", "..."],
+    "economy_trade": ["Trade Policy / Agreements", "..."]
+  },
+  "impacted_populations": {
+    "demographic_groups": {
+      "racial_ethnic": ["African Americans / Black Americans", "..."]
+    },
+    "employment_sectors": {
+      "government": ["Federal Employees / Civil Servants", "..."]
     }
-  ],
-  "updated_at": "2025-01-15T10:30:00.000Z"
+  }
 }
 ```
 
@@ -281,7 +261,7 @@ Each enriched order includes:
       "Could face legal challenges on constitutional grounds."
     ],
     "enriched_at": "2025-01-15T10:30:00.000Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "model_used": "gpt-4.1-mini"
   }
 }
 ```
@@ -293,9 +273,10 @@ federal-register-analytics/
 ├── src/
 │   ├── types.ts        # TypeScript type definitions
 │   ├── config.ts       # Configuration constants
-│   ├── utils.ts        # Utility functions
+│   ├── utils.ts        # Utility functions (loads taxonomy)
 │   ├── fetch.ts        # Federal Register API fetching
-│   ├── enrich.ts       # OpenAI enrichment logic
+│   ├── enrich.ts       # OpenAI enrichment logic (two-pass with static taxonomy)
+│   ├── taxonomy.ts     # Taxonomy loader and formatter
 │   ├── aggregate.ts    # Data aggregation (term summaries, timeline)
 │   ├── narratives.ts   # LLM-generated narratives (term, monthly, theme)
 │   ├── index.ts        # Main exports
@@ -305,17 +286,18 @@ federal-register-analytics/
 │       ├── aggregate.ts
 │       ├── narratives.ts
 │       └── pipeline.ts
+├── metadata-config/    # Taxonomy documentation
+│   └── executive_order_taxonomy_guide.md  # Usage guide + LLM suggestions
 ├── what-got-signed/    # Web frontend (deployable standalone)
-│   ├── server.js       # Express server
+│   ├── server.js       # Express server (generates registries from taxonomy)
 │   ├── views/          # EJS templates
 │   │   ├── partials/   # Reusable header, footer, head
 │   │   ├── index.ejs
 │   │   ├── detail.ejs
 │   │   └── definitions.ejs
 │   ├── public/         # Static CSS, JS, images
-│   └── data/           # All data files (pipeline output)
-│       ├── themes.json     # Theme registry (committed)
-│       ├── populations.json # Population registry (committed)
+│   └── data/           # All data files
+│       ├── taxonomy.json   # Master taxonomy (themes + populations)
 │       ├── enriched/       # Enriched data (committed)
 │       ├── raw/            # Raw API data (gitignored)
 │       └── aggregated/     # Aggregated data (gitignored)
@@ -326,9 +308,8 @@ federal-register-analytics/
 
 All data files are stored in `what-got-signed/data/` for deployment simplicity:
 
+- `what-got-signed/data/taxonomy.json` - Master taxonomy (committed to repo)
 - `what-got-signed/data/enriched/` - Enriched executive order data (committed to repo)
-- `what-got-signed/data/themes.json` - Theme registry (committed to repo)
-- `what-got-signed/data/populations.json` - Population registry (committed to repo)
 - `what-got-signed/data/raw/` - Raw API data (gitignored)
 - `what-got-signed/data/aggregated/` - Aggregated data (gitignored)
 

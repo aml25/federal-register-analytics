@@ -1,0 +1,45 @@
+{
+  "document_number": "2013-26785",
+  "executive_order_number": "13653",
+  "title": "Preparing the United States for the Impacts of Climate Change",
+  "abstract": null,
+  "signing_date": "2013-11-01",
+  "publication_date": "2013-11-06",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2013/11/06/2013-26785/preparing-the-united-states-for-the-impacts-of-climate-change",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2013-11-06/pdf/2013-26785.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2013/11/06/2013-26785.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to prepare the United States for the impacts of climate change by improving resilience and adaptive planning across government operations and infrastructure. It establishes a Council to coordinate climate preparedness efforts among agencies and creates a Task Force to engage state, local, and tribal leaders in developing recommendations to support climate resilience. The order also mandates that agencies update their climate adaptation plans, remove barriers to climate-resilient investments, and provide accessible climate data and tools for decision-making.",
+    "theme_ids": [
+      "climate-change-policy",
+      "critical-infrastructure-protection",
+      "government-efficiency",
+      "interagency-coordination",
+      "public-lands-management"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "tribal-communities-reservations",
+        "coastal-communities",
+        "disaster-affected-communities",
+        "low-income-individuals-families",
+        "environmental-justice-communities",
+        "agricultural-workers-farmers"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to reform or remove barriers to climate-resilient investments may inadvertently slow critical infrastructure projects, adversely affecting disaster-affected communities and coastal communities reliant on timely aid, highlighting tension between climate goals and immediate community needs.",
+      "The focus on climate preparedness and resilience could unintentionally prioritize federal and scientific data inputs over traditional knowledge from tribal communities, risking insufficient consideration of Indigenous perspectives in land and resource management decisions.",
+      "Low-income individuals and environmental justice communities may face disproportionate impacts if climate adaptation investments do not adequately address social equity, potentially exacerbating existing economic and health disparities under the guise of resilience planning.",
+      "Agricultural workers and farmers may be directly impacted by new climate-related policies and reforms in land and water management, which could impose additional operational constraints or costs if not paired with tailored support and incentives.",
+      "Coordination across multiple federal agencies and levels of government might lead to bureaucratic delays and inconsistent policy implementation, which could undermine timely assistance and resilience-building efforts for communities most vulnerable to climate change effects."
+    ],
+    "enriched_at": "2025-12-12T08:06:24.585Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

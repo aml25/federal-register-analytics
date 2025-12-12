@@ -5,8 +5,9 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { dirname } from 'node:path';
-import type { ThemeRegistry, PopulationRegistry } from './types.js';
-import { THEMES_FILE, POPULATIONS_FILE } from './config.js';
+import type { ThemeRegistry, PopulationRegistry, Theme, Population } from './types.js';
+import { TAXONOMY_FILE } from './config.js';
+import type { TaxonomyData } from './taxonomy.js';
 
 /**
  * Ensure a directory exists, creating it if necessary
@@ -37,54 +38,123 @@ export async function writeJson<T>(filePath: string, data: T): Promise<void> {
   await writeFile(filePath, JSON.stringify(data, null, 2), 'utf-8');
 }
 
+// Category labels for themes
+const THEME_CATEGORY_LABELS: Record<string, string> = {
+  national_security_defense: 'National Security & Defense',
+  immigration: 'Immigration',
+  economy_trade: 'Economy & Trade',
+  energy_environment: 'Energy & Environment',
+  healthcare: 'Healthcare',
+  civil_rights_equity: 'Civil Rights & Equity',
+  education: 'Education',
+  government_operations: 'Government Operations',
+  foreign_policy: 'Foreign Policy',
+  country_region_specific: 'Country/Region-Specific',
+  law_enforcement_justice: 'Law Enforcement & Justice',
+  technology_innovation: 'Technology & Innovation',
+  infrastructure: 'Infrastructure',
+  labor_workforce: 'Labor & Workforce',
+  agriculture_rural: 'Agriculture & Rural',
+  disaster_emergency: 'Disaster & Emergency',
+  administrative_procedural: 'Administrative/Procedural',
+  social_cultural: 'Social & Cultural',
+  international_institutions: 'International Institutions'
+};
+
 /**
- * Load the theme registry, creating empty one if it doesn't exist
+ * Load taxonomy from the data folder
+ */
+async function loadTaxonomyData(): Promise<TaxonomyData> {
+  const content = await readFile(TAXONOMY_FILE, 'utf-8');
+  return JSON.parse(content) as TaxonomyData;
+}
+
+/**
+ * Load themes from taxonomy (generates ThemeRegistry format for compatibility)
  */
 export async function loadThemes(): Promise<ThemeRegistry> {
-  const existing = await readJson<ThemeRegistry>(THEMES_FILE);
-  if (existing) {
-    return existing;
+  const taxonomy = await loadTaxonomyData();
+  const themes: Theme[] = [];
+  const now = new Date().toISOString();
+
+  for (const [key, items] of Object.entries(taxonomy.themes)) {
+    const category = THEME_CATEGORY_LABELS[key] || key;
+    for (const item of items) {
+      themes.push({
+        id: slugify(item),
+        name: item,
+        description: category,
+        created_at: now
+      });
+    }
   }
 
-  const empty: ThemeRegistry = {
-    themes: [],
-    updated_at: new Date().toISOString()
+  return {
+    themes,
+    updated_at: now
   };
-  await writeJson(THEMES_FILE, empty);
-  return empty;
 }
 
 /**
- * Save the theme registry
- */
-export async function saveThemes(registry: ThemeRegistry): Promise<void> {
-  registry.updated_at = new Date().toISOString();
-  await writeJson(THEMES_FILE, registry);
-}
-
-/**
- * Load the population registry, creating empty one if it doesn't exist
+ * Load populations from taxonomy (generates PopulationRegistry format for compatibility)
  */
 export async function loadPopulations(): Promise<PopulationRegistry> {
-  const existing = await readJson<PopulationRegistry>(POPULATIONS_FILE);
-  if (existing) {
-    return existing;
-  }
+  const taxonomy = await loadTaxonomyData();
+  const populations: Population[] = [];
+  const now = new Date().toISOString();
+  const pops = taxonomy.impacted_populations;
 
-  const empty: PopulationRegistry = {
-    populations: [],
-    updated_at: new Date().toISOString()
+  const addFromCategory = (items: string[], category: string) => {
+    for (const item of items) {
+      populations.push({
+        id: slugify(item),
+        name: item,
+        description: category,
+        created_at: now
+      });
+    }
   };
-  await writeJson(POPULATIONS_FILE, empty);
-  return empty;
-}
 
-/**
- * Save the population registry
- */
-export async function savePopulations(registry: PopulationRegistry): Promise<void> {
-  registry.updated_at = new Date().toISOString();
-  await writeJson(POPULATIONS_FILE, registry);
+  // Demographic groups
+  addFromCategory(pops.demographic_groups.racial_ethnic, 'Demographic Groups > Racial/Ethnic');
+  addFromCategory(pops.demographic_groups.gender_identity_sexuality, 'Demographic Groups > Gender Identity & Sexuality');
+  addFromCategory(pops.demographic_groups.age_groups, 'Demographic Groups > Age Groups');
+  addFromCategory(pops.demographic_groups.religious_groups, 'Demographic Groups > Religious Groups');
+  addFromCategory(pops.demographic_groups.disability_status, 'Demographic Groups > Disability Status');
+
+  // Immigration status
+  addFromCategory(pops.immigration_status, 'Immigration Status');
+
+  // Employment sectors
+  addFromCategory(pops.employment_sectors.government, 'Employment Sectors > Government');
+  addFromCategory(pops.employment_sectors.private_sector, 'Employment Sectors > Private Sector');
+  addFromCategory(pops.employment_sectors.industry_specific, 'Employment Sectors > Industry-Specific');
+
+  // Economic status
+  addFromCategory(pops.economic_status, 'Economic Status');
+
+  // Geographic communities
+  addFromCategory(pops.geographic_communities.domestic, 'Geographic Communities > Domestic');
+  addFromCategory(pops.geographic_communities.regional, 'Geographic Communities > Regional');
+
+  // Institutional groups
+  addFromCategory(pops.institutional_groups.education, 'Institutional Groups > Education');
+  addFromCategory(pops.institutional_groups.healthcare, 'Institutional Groups > Healthcare');
+  addFromCategory(pops.institutional_groups.justice_system, 'Institutional Groups > Justice System');
+
+  // Special populations
+  addFromCategory(pops.special_populations, 'Special Populations');
+
+  // Foreign populations
+  addFromCategory(pops.foreign_populations, 'Foreign Populations');
+
+  // Organizational entities
+  addFromCategory(pops.organizational_entities, 'Organizational Entities');
+
+  return {
+    populations,
+    updated_at: now
+  };
 }
 
 /**

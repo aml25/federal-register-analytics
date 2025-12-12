@@ -1,0 +1,43 @@
+{
+  "document_number": "2015-18292",
+  "executive_order_number": "13701",
+  "title": "Delegation of Certain Authorities and Assignment of Certain Functions Under the Bipartisan Congressional Trade Priorities and Accountability Act of 2015",
+  "abstract": null,
+  "signing_date": "2015-07-17",
+  "publication_date": "2015-07-23",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2015/07/23/2015-18292/delegation-of-certain-authorities-and-assignment-of-certain-functions-under-the-bipartisan",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-07-23/pdf/2015-18292.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/07/23/2015-18292.txt",
+  "enrichment": {
+    "summary": "This executive order delegates and assigns specific trade-related authorities and responsibilities under the Bipartisan Congressional Trade Priorities and Accountability Act of 2015 from the President to various officials, primarily the U.S. Trade Representative, Secretary of State, Secretary of Labor, and Director of the Office of Management and Budget. It clarifies which functions are delegated, which are retained by the President, and emphasizes coordination among agencies for trade-related reviews and reports.",
+    "theme_ids": [
+      "trade-policy-agreements",
+      "delegation-of-authority",
+      "interagency-coordination",
+      "environmental-review-process",
+      "worker-rights-protections"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "union-members",
+        "working-age-adults",
+        "environmental-justice-communities"
+      ],
+      "negative_ids": [
+        "non-union-workers"
+      ]
+    },
+    "potential_concerns": [
+      "Delegating trade-related authorities to the U.S. Trade Representative and other officials may result in insufficient labor protections impacting non-union workers adversely, despite intended worker-rights-protections.",
+      "Environmental review processes coordinated under this order might inadequately involve environmental justice communities, leading to overlooked negative environmental impacts in vulnerable areas.",
+      "Interagency coordination challenges could delay or weaken effective enforcement of trade agreements, resulting in labor rights and environmental standards not being fully upheld for working-age adults and union members.",
+      "The delegation of authority might concentrate trade negotiation power within a few offices, potentially reducing transparency and diminishing opportunities for affected workers and communities to influence trade policy outcomes."
+    ],
+    "enriched_at": "2025-12-12T08:12:10.548Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
