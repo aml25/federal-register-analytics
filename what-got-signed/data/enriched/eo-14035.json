@@ -13,38 +13,38 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-06-30/pdf/2021-14127.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/06/30/2021-14127.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to promote diversity, equity, inclusion, and accessibility (DEIA) across the federal workforce by setting standards, collecting and analyzing workforce data, improving recruitment and retention of underserved communities, providing training, and removing barriers related to disabilities and LGBTQ+ inclusion. It establishes government-wide and agency-specific strategic plans, enhances paid internship opportunities, encourages partnerships with diverse educational and community organizations, and addresses pay equity and employment opportunities for formerly incarcerated individuals.",
+    "summary": "This executive order directs federal agencies to promote diversity, equity, inclusion, and accessibility within the federal workforce. It requires agencies to assess and improve their hiring, retention, training, and workplace practices to better represent underserved communities, support employees with disabilities and LGBTQ+ individuals, and ensure equitable pay and career opportunities.",
     "theme_ids": [
-      "federal-workforce",
-      "equity-and-inclusion-policy",
-      "federal-agency-management",
-      "veterans-affairs-policy",
-      "caregiving-policy",
-      "religious-liberty",
-      "lgbtq-rights-policy",
-      "federal-property-management",
-      "privacy-and-data-security",
-      "workforce-development",
-      "civil-rights-enforcement",
-      "federal-pay-policy"
+      "dei-diversity-equity-inclusion",
+      "federal-workforce-management",
+      "employment-discrimination",
+      "pay-equity-equal-pay",
+      "lgbtq-rights",
+      "disability-rights"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "underserved-communities"
+        "federal-employees-civil-servants",
+        "individuals-with-disabilities",
+        "lgbtq-individuals",
+        "formerly-incarcerated-returning-citizens",
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "native-americans-indigenous-peoples",
+        "women",
+        "military-spouses",
+        "veterans"
       ],
-      "negative_ids": [
-        "non-federal-employees"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Implementation complexity may vary across agencies, potentially leading to inconsistent application of DEIA policies.",
-      "Expanding reporting and data collection could increase administrative burden and raise privacy concerns despite protections.",
-      "Efforts to prioritize hiring from underserved communities may face criticism or legal challenges related to perceived fairness or merit principles.",
-      "Challenges may arise in measuring and evaluating the effectiveness of DEIA initiatives due to the complexity of intersectional identities and systemic barriers.",
-      "Advancing LGBTQ+ and disability accommodations may face resistance in some federal workplaces or conflicts with existing policies."
+      "The focus on expanding hiring and advancement opportunities for underserved populations, including formerly incarcerated individuals and individuals with disabilities, might cause concerns about perceptions of lowered meritocratic standards among some federal employees or applicants.",
+      "Implementation of non-binary and transgender-inclusive workplace policies may cause resistance or administrative challenges within agencies unprepared for updating identity systems and facilities, potentially leading to confusion or delays for transgender and non-binary federal employees.",
+      "The increased data collection of voluntarily self-reported demographic information raises potential privacy concerns for employees, especially LGBTQ+ individuals and those with disabilities, if confidentiality protections are inadequate or inconsistently applied.",
+      "Efforts to eliminate pay inequities by restricting reliance on salary history may unintentionally burden agencies with increased complexity in salary determination, potentially delaying or complicating hiring and promotion decisions that affect federal employees.",
+      "Expanding paid internship opportunities and outreach to underserved communities could unintentionally reduce opportunities for unpaid internships that some agencies rely on, potentially straining agency resources or limiting placement capacity."
     ],
-    "enriched_at": "2025-12-09T03:54:05.641Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T07:31:47.837Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

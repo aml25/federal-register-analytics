@@ -13,34 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-31/pdf/2025-02121.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/31/2025-02121.txt",
   "enrichment": {
-    "summary": "This executive order establishes the President's Council of Advisors on Science and Technology (PCAST) to bring together experts from government, academia, and industry to advise the President on science, technology, innovation, and education policy. The council aims to help the United States maintain global leadership in key advanced technologies like artificial intelligence, quantum computing, and biotechnology while addressing challenges such as political interference in research. It also tasks federal agencies with supporting the council and sets terms for its operation and membership.",
+    "summary": "This executive order establishes the President's Council of Advisors on Science and Technology (PCAST) to bring together experts from government, industry, and academia to advise the President on science and technology matters. The council aims to maintain U.S. leadership in emerging technologies like artificial intelligence, quantum computing, and biotechnology, ensuring national security and innovation. It also replaces a previous similar council and sets guidelines for its membership, operation, and termination.",
     "theme_ids": [
+      "science-and-technology-policy",
       "artificial-intelligence",
-      "national-security",
-      "scientific-research",
-      "technology-development",
-      "federal-research-coordination",
-      "advisory-committees-management",
-      "education-policy"
+      "quantum-computing-quantum-technology",
+      "biotechnology-biomanufacturing",
+      "national-security-information-classification",
+      "federal-advisory-committees"
     ],
     "impacted_populations": {
       "positive_ids": [
         "scientific-researchers",
-        "tech-industry",
-        "academic-institutions"
+        "technology-workers",
+        "entrepreneurs-startups",
+        "college-university-students"
       ],
-      "negative_ids": [
-        "foreign-suppliers"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "The emphasis on achieving 'unchallenged global technological dominance' might escalate international competition and geopolitical tensions in technology development.",
-      "The order’s critique of ideological influence in science may be viewed as politically charged, potentially risking politicization of scientific advisory roles.",
-      "Security clearance requirements for council members might limit participation and slow the council's responsiveness.",
-      "Reliance on private-sector and non-Federal members could create conflicts of interest or bias toward industry priorities over public interest.",
-      "Termination of the previous PCAST order and creation of a new council might disrupt continuity in science advisory functions during the transition."
+      "The emphasis on achieving 'unchallenged global technological dominance' in AI, quantum computing, and biotechnology may intensify competitive pressures on entrepreneurs and startups, potentially leading to increased regulatory scrutiny or rushed innovation cycles.",
+      "Requiring PCAST members and advisors to obtain security clearances to access classified information could limit diversity in scientific and technological expertise, thereby excluding some scientific researchers and academics from meaningful participation.",
+      "The criticism of 'ideological dogmas' and promotion of a particular approach to science may undermine inclusion efforts and could discourage participation of diverse perspectives among college/university students and researchers, potentially stifling innovation.",
+      "Heightened focus on national security in emerging technologies may increase surveillance and information-sharing requirements that affect technology workers in the private sector, raising concerns about privacy and intellectual property protections.",
+      "The two-year termination clause without guaranteed extension might create instability for technology workers and researchers planning long-term projects dependent on PCAST’s guidance and federal advisory continuity."
     ],
-    "enriched_at": "2025-12-09T02:39:23.482Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:33:10.794Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

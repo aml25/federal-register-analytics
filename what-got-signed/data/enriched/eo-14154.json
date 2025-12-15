@@ -13,37 +13,35 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-29/pdf/2025-01956.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/29/2025-01956.txt",
   "enrichment": {
-    "summary": "This executive order prioritizes expanding domestic energy production and mineral mining by reducing regulations and streamlining permitting processes. It revokes previous climate-related orders and restricts funding for certain clean energy programs, emphasizing energy dominance, economic growth, consumer choice, and national security.",
+    "summary": "This executive order directs federal agencies to remove regulatory barriers that limit the development and use of America's energy and mineral resources, aiming to boost domestic energy production and lower costs. It revokes multiple previous climate-related orders, prioritizes rapid permitting for energy projects, and focuses on enhancing national security through mineral resource management and efficient infrastructure development.",
     "theme_ids": [
-      "energy-policy",
-      "national-security",
-      "regulatory-reform",
-      "trade-policy",
-      "environmental-regulation",
-      "federal-agency-management",
-      "federal-procurement-policy",
-      "consumer-protection",
-      "public-lands-management",
-      "supply-chain-security"
+      "oil-and-gas-development",
+      "critical-minerals-supply-chain-security",
+      "regulatory-reform-deregulation",
+      "infrastructure-permitting",
+      "energy-independence-security"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "domestic-energy-producers",
-        "critical-minerals-industry"
+        "energy-sector-workers-oil-gas-coal",
+        "manufacturing-workers",
+        "small-business-owners",
+        "military-personnel-active-duty"
       ],
       "negative_ids": [
-        "green-energy-industry",
-        "foreign-processors-of-critical-minerals"
+        "environmental-justice-communities",
+        "consumers",
+        "renewable-energy-workers"
       ]
     },
     "potential_concerns": [
-      "Expedited permitting and regulatory rollbacks may lead to environmental degradation and weakened environmental protections.",
-      "Eliminating subsidies and mandates for electric vehicles could slow clean energy adoption and counteract climate change efforts.",
-      "Revoking prior climate-focused executive orders may undermine U.S. commitments to climate action and international environmental agreements.",
-      "Reducing the use of social cost of greenhouse gas calculations may impair comprehensive assessment of climate-related regulatory impacts.",
-      "Shifting resources away from green energy and climate initiatives could negatively impact workers and industries in renewable energy sectors."
+      "Accelerated permitting and deregulation could increase environmental risks and disproportionately harm environmental justice communities through greater pollution and degradation.",
+      "Eliminating EV mandates and subsidies may slow electric vehicle adoption, adversely impacting renewable energy workers and efforts to reduce greenhouse gas emissions.",
+      "Revoking climate-focused executive orders risks undermining long-term climate resilience, potentially increasing costs for consumers due to environmental damages and health impacts.",
+      "Prioritizing fossil fuel and mineral extraction could create conflicts over land use, especially affecting small business owners and local communities dependent on environmental sustainability.",
+      "Emphasis on national security and rapid resource exploitation might increase environmental degradation near military bases, directly impacting active duty military personnel's health and readiness."
     ],
-    "enriched_at": "2025-12-09T02:38:15.564Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:36:45.789Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

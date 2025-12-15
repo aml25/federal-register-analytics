@@ -13,28 +13,29 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-11-23/pdf/2021-25715.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/11/23/2021-25715.txt",
   "enrichment": {
-    "summary": "This executive order requires federal contractors who win new service contracts to offer employment to qualified workers from the previous contractor to avoid layoffs and reduce service disruptions. It also encourages agencies to keep services performed in the same location when possible and sets procedures for enforcement and exceptions.",
+    "summary": "This executive order requires federal contractors who win follow-on service contracts to offer employment to qualified workers from the previous contractor, helping workers keep their jobs when contracts change hands. It also encourages agencies to maintain contract performance at the same location to provide continuity and efficiency in federal service delivery.",
     "theme_ids": [
-      "labor-relations",
-      "federal-procurement-policy",
-      "workforce-development"
+      "worker-rights-protections",
+      "federal-labor-management-relations",
+      "government-efficiency"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-contractors"
+        "federal-contractors",
+        "union-members",
+        "working-age-adults",
+        "low-income-individuals-families"
       ],
-      "negative_ids": [
-        "non-union-workers"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "The requirement to offer jobs to predecessor employees may limit competition or increase contract costs.",
-      "Some contractors might face challenges in fairly assessing which employees are qualified or suitable to rehire.",
-      "Enforcement relies heavily on the Department of Labor, which may face resource constraints or delays in addressing violations.",
-      "Exceptions granted by agencies could be used too broadly, undermining the order’s intent.",
-      "The order does not cover relocation costs, which could discourage eligible workers from accepting new employment offers."
+      "The requirement for successor contractors to hire predecessor employees may reduce competition and limit bidding flexibility, potentially impacting agencies' ability to obtain cost-effective contracts (government-efficiency, federal-contractors).",
+      "Federal contractors might face increased administrative burdens and transition costs to comply with nondisplacement clauses, possibly affecting contract pricing and the availability of service contracts (federal-contractors, working-age-adults).",
+      "While protecting jobs for successor employees, the order may unintentionally limit opportunities for new workers or demographic groups seeking employment in federal service contracts (working-age-adults, low-income-individuals-families).",
+      "Union members may benefit from greater job security but employer resistance or exceptions granted by agencies could undermine consistent application and weaken worker protections (worker-rights-protections, union-members).",
+      "Implementation complexities and enforcement by the Department of Labor could delay transitions and create uncertainty for both contractors and workers during contract changes (worker-rights-protections, federal-contractors, working-age-adults)."
     ],
-    "enriched_at": "2025-12-09T03:51:14.043Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-12T08:17:27.176Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

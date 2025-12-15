@@ -13,31 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-30/pdf/2025-02012.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/30/2025-02012.txt",
   "enrichment": {
-    "summary": "This executive order directs the Department of Justice to aggressively pursue and enforce the federal death penalty for serious crimes, especially murder of law enforcement officers and crimes committed by illegal aliens. It aims to end moratoriums on executions, support state capital punishment efforts, seek overruling of limiting Supreme Court decisions, and enhance prosecutions to protect public safety.",
+    "summary": "This executive order directs the federal government to restore the use of the death penalty for serious federal crimes, actively pursue capital punishment for certain offenses, and support states in maintaining their death penalty systems. It also prioritizes public safety by encouraging prosecution of violent crimes and dismantling transnational criminal activity, reversing recent federal actions that limited capital punishment enforcement.",
     "theme_ids": [
-      "public-safety",
-      "immigration-enforcement",
-      "legal-profession-policy",
-      "criminal-justice-enforcement"
+      "death-penalty",
+      "federal-law-enforcement",
+      "state-local-law-enforcement-support",
+      "transnational-crime-cartels",
+      "crime-reduction"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-death-row-inmates",
-        "state-and-local-law-enforcement"
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local",
+        "crime-victims"
       ],
       "negative_ids": [
-        "undocumented-immigrants",
-        "communities-affected-by-police-aggression"
+        "incarcerated-individuals",
+        "undocumented-immigrants"
       ]
     },
     "potential_concerns": [
-      "Increased use of the death penalty may raise concerns about fairness, potential wrongful convictions, and disparate impacts on marginalized groups.",
-      "The focus on prosecuting crimes committed by illegal aliens could exacerbate tensions around immigration enforcement and civil rights.",
-      "Efforts to override Supreme Court precedents might lead to prolonged legal battles and uncertainty in capital punishment policy.",
-      "The order's strong dismissal of judicial objections could weaken the checks and balances on executive and prosecutorial power.",
-      "Prioritizing capital punishment could divert resources from other public safety and crime prevention strategies."
+      "The increased pursuit and application of the death penalty may disproportionately affect incarcerated individuals, especially those convicted of capital crimes, raising concerns of fairness and potential wrongful executions.",
+      "The explicit targeting of capital crimes committed by aliens illegally present in the country may lead to intensified prosecutions and harsher penalties for undocumented immigrants, potentially increasing fear and reducing cooperation with law enforcement in immigrant communities.",
+      "Efforts to dismantle transnational criminal activity and prioritize violent crime prosecution could increase pressure on federal and state law enforcement, possibly resulting in escalated policing tactics that impact urban and border communities disproportionately.",
+      "Supporting states in maintaining the death penalty and ensuring drug supplies for lethal injections may reignite contentious debates around capital punishment, affecting crime victims and their families differently depending on their stance toward justice and closure."
     ],
-    "enriched_at": "2025-12-09T02:38:44.965Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:35:07.965Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

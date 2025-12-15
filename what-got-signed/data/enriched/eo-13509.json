@@ -1,0 +1,49 @@
+{
+  "document_number": "E9-15368",
+  "executive_order_number": "13509",
+  "title": "Establishing a White House Council on Automotive Communities and Workers",
+  "abstract": null,
+  "signing_date": "2009-06-23",
+  "publication_date": "2009-06-26",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/06/26/E9-15368/establishing-a-white-house-council-on-automotive-communities-and-workers",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-06-26/pdf/E9-15368.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/06/26/E9-15368.txt",
+  "enrichment": {
+    "summary": "This executive order creates a White House Council to coordinate the federal government’s efforts to help communities and workers affected by job losses in the automotive industry. The Council brings together leaders from many government agencies to develop policies, provide advice, and support outreach to revitalize these impacted regions. It is designed to ensure a unified federal response to challenges faced by automotive communities and workers.",
+    "theme_ids": [
+      "manufacturing-policy",
+      "economic-recovery-post-crisis",
+      "interagency-coordination",
+      "worker-rights-protections",
+      "small-business-support"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "automotive-industry-workers",
+        "manufacturing-workers",
+        "union-members",
+        "small-business-owners",
+        "urban-communities",
+        "suburban-communities",
+        "rural-communities",
+        "low-income-individuals-families",
+        "individuals-experiencing-poverty",
+        "working-age-adults"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Coordination challenges among numerous federal agencies might delay or dilute effective support to automotive-industry-workers and impacted communities, undermining manufacturing-policy goals.",
+      "Small-business-owners in automotive supply chains may face difficulties adapting to federal programs if support is unevenly distributed, potentially exacerbating economic disparities in suburban and rural-communities.",
+      "Union-members and working-age adults might experience tensions if federal assistance prioritizes some regions or industries over others, raising concerns about worker-rights-protections and equitable economic-recovery-post-crisis.",
+      "Increased federal outreach and intervention could unintentionally lead to bureaucratic complexity that deters low-income individuals and families from accessing needed resources.",
+      "There is a risk that efforts to revitalize automotive communities might insufficiently address the unique needs of individual localities, especially urban-communities severely affected by unemployment and poverty, limiting overall effectiveness."
+    ],
+    "enriched_at": "2025-12-15T01:58:33.956Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

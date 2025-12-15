@@ -1,0 +1,43 @@
+{
+  "document_number": "2015-07788",
+  "executive_order_number": "13694",
+  "title": "Blocking the Property of Certain Persons Engaging in Significant Malicious Cyber-Enabled Activities",
+  "abstract": null,
+  "signing_date": "2015-04-01",
+  "publication_date": "2015-04-02",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2015/04/02/2015-07788/blocking-the-property-of-certain-persons-engaging-in-significant-malicious-cyber-enabled-activities",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-04-02/pdf/2015-07788.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/04/02/2015-07788.txt",
+  "enrichment": {
+    "summary": "This executive order blocks the property and restricts transactions with individuals and entities outside the United States who engage in significant malicious cyber activities that threaten U.S. national security, economy, or critical infrastructure. It also restricts entry into the U.S. of those persons and authorizes government officials to enforce these measures to address the cyber threats.",
+    "theme_ids": [
+      "cybersecurity-national-security",
+      "critical-infrastructure-protection",
+      "economic-sanctions",
+      "travel-restrictions-bans",
+      "national-emergencies"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "cybersecurity-professionals"
+      ],
+      "negative_ids": [
+        "foreign-nationals-general",
+        "visa-holders-work-student-tourist",
+        "corporations-businesses"
+      ]
+    },
+    "potential_concerns": [
+      "The executive order’s broad sanctions on foreign nationals engaged in malicious cyber activities may lead to diplomatic tensions and retaliatory cyber or economic actions, affecting foreign nationals and corporations doing business internationally.",
+      "Restrictions on visa holders suspected of cyber-enabled malicious activities might inadvertently restrict legitimate travelers and researchers, impacting international collaboration and cultural exchange.",
+      "Blocking property and transactions of entities deemed responsible for cyber threats could inadvertently disrupt global supply chains and business partnerships, negatively impacting corporations and economic stability.",
+      "Identification and designation criteria for cyber threats may risk misclassification or abuse, possibly leading to wrongful sanctions against innocent individuals or corporations, undermining due process protections."
+    ],
+    "enriched_at": "2025-12-15T02:15:22.518Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

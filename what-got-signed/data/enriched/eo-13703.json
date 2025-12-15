@@ -1,0 +1,48 @@
+{
+  "document_number": "2015-19209",
+  "executive_order_number": "13703",
+  "title": "Implementing the National HIV/AIDS Strategy for the United States for 2015-2020",
+  "abstract": null,
+  "signing_date": "2015-07-30",
+  "publication_date": "2015-08-04",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2015/08/04/2015-19209/implementing-the-national-hivaids-strategy-for-the-united-states-for-2015-2020",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-08-04/pdf/2015-19209.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/08/04/2015-19209.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to coordinate and implement the updated National HIV/AIDS Strategy for 2015-2020, aiming to improve prevention, care, and reduce disparities among affected populations. It establishes roles for key agencies and advisory groups to ensure progress, accountability, and collaboration in the government's response to the domestic HIV/AIDS epidemic.",
+    "theme_ids": [
+      "racial-equity",
+      "lgbtq-rights",
+      "gender-equality",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "lgbtq-individuals",
+        "transgender-individuals",
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "women",
+        "youth-young-adults",
+        "medicaid-beneficiaries",
+        "patients-general",
+        "low-income-individuals-families",
+        "tribal-communities-reservations"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The order’s focus on reducing HIV-related disparities among African Americans, Hispanic/Latino Americans, LGBTQ+ individuals, transgender individuals, women, and youth may inadvertently strain limited resources and create perceptions of unequal support among other populations not explicitly prioritized.",
+      "Coordination challenges across multiple federal agencies and levels of government could lead to inconsistent implementation, undermining efforts to reach rural, tribal, and Southern U.S. communities where healthcare access disparities are pronounced.",
+      "Efforts to expand HIV screening and prevention among stigmatized groups such as people who inject drugs might encounter community resistance or legal barriers, potentially limiting the effectiveness of the Updated Strategy in these populations.",
+      "Reliance on Medicaid and Affordable Care Act mechanisms to improve HIV care access may leave uninsured or undocumented populations behind, exacerbating health inequities despite overall progress.",
+      "Measures aimed at increasing employment opportunities and combating discrimination for people living with HIV may face enforcement difficulties without clear mandates or sufficient funding, leaving systemic stigma and discrimination insufficiently addressed."
+    ],
+    "enriched_at": "2025-12-12T08:11:55.523Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "document_number": "E9-23886",
+  "executive_order_number": "13511",
+  "title": "Continuance of Certain Federal Advisory Committees",
+  "abstract": null,
+  "signing_date": "2009-09-29",
+  "publication_date": "2009-10-01",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/10/01/E9-23886/continuance-of-certain-federal-advisory-committees",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-10-01/pdf/E9-23886.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/10/01/E9-23886.txt",
+  "enrichment": {
+    "summary": "This executive order extends the operation of several federal advisory committees until September 30, 2011. It also assigns responsibility for these committees’ functions to the designated heads of relevant federal departments or agencies and supersedes earlier related orders.",
+    "theme_ids": [
+      "federal-advisory-committees",
+      "government-efficiency",
+      "presidential-commissions-task-forces",
+      "civil-rights-enforcement",
+      "hbcus",
+      "tribal-colleges-native-american-education",
+      "arts-and-humanities",
+      "workplace-safety-osha",
+      "physical-fitness-health-promotion"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "hbcu-students-communities",
+        "tribal-college-students-communities",
+        "individuals-with-disabilities",
+        "working-age-adults"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The continuance of advisory committees on HBCUs and tribal colleges could lead to disproportionate influence by agency heads, potentially diluting the committees' ability to advocate effectively for these educational institutions and their communities.",
+      "Assigning responsibility for advisory committee functions to designated agency heads risks inconsistent attention and priority, which could undermine the advocacy for individuals with disabilities and workplace safety.",
+      "Extending these federal advisory committees without broader stakeholder input may perpetuate existing inefficiencies or fail to address evolving civil rights enforcement and health promotion challenges affecting working-age adults.",
+      "The overlapping functions of multiple advisory committees on arts, humanities, and physical fitness could cause fragmentation of efforts and limit the overall impact on cultural and health-related policies."
+    ],
+    "enriched_at": "2025-12-15T01:58:19.124Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

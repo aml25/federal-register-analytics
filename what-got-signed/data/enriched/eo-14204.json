@@ -13,29 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-12/pdf/2025-02630.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/12/2025-02630.txt",
   "enrichment": {
-    "summary": "This executive order cuts U.S. aid to South Africa due to its new law allowing land confiscation from ethnic minority Afrikaners without compensation and other human rights abuses. It also directs the U.S. to support resettlement of Afrikaner refugees facing racial discrimination in South Africa.",
+    "summary": "This executive order stops U.S. aid to South Africa due to its new law allowing the seizure of minority Afrikaners' farmland without compensation and other policies seen as discriminatory. It also directs U.S. agencies to support the resettlement of Afrikaner refugees facing racial discrimination in South Africa. The order aims to respond to human rights violations and security concerns related to South Africa's recent actions.",
     "theme_ids": [
-      "foreign-policy",
-      "national-security",
-      "immigration-enforcement"
+      "foreign-aid",
+      "human-rights-international",
+      "refugee-policy",
+      "sanctions-country-specific",
+      "africa-engagement-trade"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "afrikaner-refugees",
-        "afrikaners-in-south-africa"
+        "refugees"
       ],
       "negative_ids": [
-        "south-african-government"
+        "citizens-of-specific-countries-by-eo-designation"
       ]
     },
     "potential_concerns": [
-      "The order may strain U.S.-South Africa diplomatic relations and reduce cooperation on broader strategic issues in Africa.",
-      "Halting aid could negatively impact broader South African populations who rely on U.S.-funded programs not directly connected to the disputed policies.",
-      "Prioritizing refugee resettlement for Afrikaners might raise concerns about fairness and resource allocation compared to other refugee groups.",
-      "Implementation challenges could arise in coordinating agencies to halt aid promptly while allowing exceptions deemed necessary.",
-      "The order could be criticized for focusing on a specific ethnic group and for potential racial or political implications in foreign policy."
+      "Halting U.S. aid to South Africa may exacerbate economic and social instability, potentially harming broader South African populations beyond the targeted Afrikaner minority, complicating U.S.-Africa diplomatic relations under africa-engagement-trade themes.",
+      "Prioritizing refugee resettlement for Afrikaners could create perceptions of bias or exclusion among other oppressed groups in South Africa, risking allegations of racial favoritism within refugee-policy frameworks.",
+      "Labeling South Africa as undermining U.S. foreign policy and imposing sanctions may provoke retaliatory actions affecting U.S. businesses and citizens involved in africa-engagement-trade, impacting economic interests.",
+      "Implementation challenges in identifying and processing Afrikaner refugees might create delays or hardships for them within the refugee admissions process, raising human-rights-international concerns over equitable treatment.",
+      "The singular focus on Afrikaner victims may overlook broader systemic racial inequalities in South Africa, potentially undermining comprehensive human rights efforts and engendering criticism from international human rights advocates."
     ],
-    "enriched_at": "2025-12-09T02:40:41.954Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:29:06.283Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -1,0 +1,46 @@
+{
+  "document_number": "2020-17699",
+  "executive_order_number": "13942",
+  "title": "Addressing the Threat Posed by TikTok, and Taking Additional Steps To Address the National Emergency With Respect to the Information and Communications Technology and Services Supply Chain",
+  "abstract": null,
+  "signing_date": "2020-08-06",
+  "publication_date": "2020-08-11",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/08/11/2020-17699/addressing-the-threat-posed-by-tiktok-and-taking-additional-steps-to-address-the-national-emergency",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-08-11/pdf/2020-17699.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/08/11/2020-17699.txt",
+  "enrichment": {
+    "summary": "This executive order bans transactions with the Chinese company ByteDance and its subsidiaries, including TikTok, to protect U.S. national security. It seeks to prevent the collection and potential misuse of Americans' personal data by requiring the Secretary of Commerce to identify and prohibit related transactions within 45 days.",
+    "theme_ids": [
+      "cybersecurity-national-security",
+      "foreign-technology-threats",
+      "china",
+      "supply-chain-security",
+      "national-emergencies"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants",
+        "military-personnel-active-duty"
+      ],
+      "negative_ids": [
+        "technology-workers",
+        "large-corporation-employees",
+        "college-university-students",
+        "youth-young-adults"
+      ]
+    },
+    "potential_concerns": [
+      "The ban on ByteDance transactions may disrupt technology workers and large corporations involved with TikTok-related services, leading to job losses or halted innovation.",
+      "College and university students and youth may be adversely affected by restricted access to a popular social media platform, impacting their communication and creative outlets.",
+      "Federal employees and active-duty military personnel will benefit from enhanced cybersecurity protections, but enforcing this ban may require ongoing resources and pose challenges in compliance monitoring.",
+      "The order could inadvertently incentivize the development of alternative Chinese-owned apps that evade U.S. restrictions, undermining the national security objective.",
+      "Broad prohibitions may lead to over-compliance or confusion among businesses regarding what constitutes prohibited transactions, potentially causing economic inefficiencies for U.S. firms."
+    ],
+    "enriched_at": "2025-12-15T07:30:38.494Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

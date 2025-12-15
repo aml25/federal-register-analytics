@@ -13,44 +13,47 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-28/pdf/2025-01901.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/28/2025-01901.txt",
   "enrichment": {
-    "summary": "This executive order revokes a large number of previous executive orders and presidential memoranda from the prior administration, many of which focused on diversity, equity, inclusion (DEI), climate change, immigration, COVID-19 response, and various social policies. It directs federal agencies to end implementation of these policies and initiates reviews to identify further rescissions to reshape federal government priorities toward restoring what it describes as common sense, merit, and economic prosperity.",
+    "summary": "This executive order cancels a large number of previous executive orders and presidential memoranda issued from 2021 to early 2025, particularly those related to diversity, equity, inclusion, climate change policies, immigration, COVID-19 response, and certain national security memoranda. It directs federal agencies to stop implementing these policies and requires reviews to identify additional actions to rescind or replace with new policies aimed at promoting American prosperity and national security.",
     "theme_ids": [
-      "regulatory-reform",
-      "federal-workforce",
-      "immigration-enforcement",
-      "national-security",
-      "environmental-regulation",
-      "public-safety",
-      "civil-rights-enforcement",
-      "education-policy",
-      "foreign-policy",
-      "advisory-committees-management"
+      "dei-diversity-equity-inclusion",
+      "climate-change-policy",
+      "border-security",
+      "covid-19-response",
+      "revocation-of-previous-executive-orders"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "domestic-energy-producers",
-        "average-americans",
-        "federal-agencies"
+        "u-s-citizens",
+        "working-age-adults",
+        "small-business-owners"
       ],
       "negative_ids": [
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "asian-americans",
+        "native-americans-indigenous-peoples",
+        "lgbtq-individuals",
+        "transgender-individuals",
         "undocumented-immigrants",
-        "diverse-student-populations",
-        "minority-service-members",
-        "environmental-advocates",
+        "asylum-seekers",
         "refugees",
-        "federal-grantees",
-        "low-income-patients"
+        "healthcare-workers",
+        "k-12-students",
+        "teachers-educators",
+        "environmental-justice-communities",
+        "low-income-individuals-families",
+        "medicaid-beneficiaries",
+        "aca-marketplace-enrollees"
       ]
     },
     "potential_concerns": [
-      "The wholesale revocation of numerous DEI-related orders may disproportionately disadvantage minority and underserved populations by reducing equity programs and protections.",
-      "Ending climate-related executive orders could weaken environmental protections and hinder responses to climate change, raising concerns among environmental advocates and the public.",
-      "The order’s broad language directing elimination of previous policies risks implementation confusion and inconsistency across federal agencies.",
-      "Rolling back COVID-19 pandemic response measures may undermine ongoing public health preparedness and recovery efforts.",
-      "Rescinding immigration-related orders could increase enforcement without addressing humanitarian concerns, potentially affecting refugee and immigrant communities."
+      "Rescinding diversity, equity, and inclusion (DEI) initiatives may disproportionately harm racial/ethnic minorities such as African Americans, Hispanic/Latino Americans, Asian Americans, Native Americans, LGBTQ+ individuals, and transgender individuals by reducing protections against discrimination and limiting access to equitable opportunities.",
+      "Revoking climate policy executive orders could increase environmental and economic risks for environmental justice communities and low-income families who are more vulnerable to pollution and climate-related harms.",
+      "Cancellations of COVID-19 response orders may negatively impact healthcare workers, Medicaid beneficiaries, ACA enrollees, and vulnerable populations by weakening pandemic preparedness and healthcare access.",
+      "Ending executive actions focused on immigration enforcement and refugee resettlement will directly burden undocumented immigrants, asylum seekers, and refugees by tightening legal protections and restricting immigration pathways.",
+      "Small business owners and working-age U.S. citizens who perceive that deregulation and rollbacks promote economic growth might face long-term instability if social inequities and public health needs are insufficiently addressed."
     ],
-    "enriched_at": "2025-12-06T07:09:33.881Z",
+    "enriched_at": "2025-12-15T08:37:42.246Z",
     "model_used": "gpt-4.1-mini"
   }
 }

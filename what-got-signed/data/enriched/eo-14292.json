@@ -13,31 +13,33 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-08/pdf/2025-08266.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/08/2025-08266.txt",
   "enrichment": {
-    "summary": "This executive order bans federal funding for dangerous gain-of-function biological research conducted abroad in countries without adequate oversight, such as China, and strengthens safety and oversight measures for federally funded life-science research in the U.S. It requires stricter accountability, transparent reporting, and periodic review of research policies to reduce risks to public health, national security, and the economy, while maintaining U.S. global leadership in biotechnology.",
+    "summary": "This executive order directs the U.S. government to stop funding risky biological research that could make viruses or pathogens more dangerous, especially when done by foreign entities with limited oversight. It also establishes stronger rules and transparency measures to ensure that all federally funded life-science research is safe and secure, aiming to protect public health and national security.",
     "theme_ids": [
-      "national-security",
-      "scientific-research",
-      "federal-research-coordination",
-      "public-safety"
+      "weapons-of-mass-destruction-wmd-proliferation",
+      "biotechnology-biomanufacturing",
+      "pandemic-preparedness",
+      "national-security-information-classification"
     ],
     "impacted_populations": {
       "positive_ids": [
+        "u-s-citizens",
         "scientific-researchers",
-        "academic-institutions"
+        "healthcare-workers"
       ],
       "negative_ids": [
-        "foreign-suppliers",
-        "china"
+        "scientific-researchers",
+        "foreign-nationals-general",
+        "corporations-businesses"
       ]
     },
     "potential_concerns": [
-      "The restriction on funding foreign research, especially in countries like China, could hinder international scientific collaboration and innovation.",
-      "Increased enforcement and reporting requirements may impose administrative burdens and slow down urgent scientific research.",
-      "Defining and policing 'dangerous gain-of-function research' could lead to disputes or inconsistencies in implementation across agencies.",
-      "Limiting gain-of-function research might reduce preparedness or delay breakthroughs needed to understand and respond to biological threats.",
-      "The policy’s focus on stricter controls without corresponding federal funding increases for safer research environments could disadvantage some researchers and institutions."
+      "Restricting federally funded gain-of-function research, especially abroad, may hinder scientific researchers' ability to conduct important biotechnology work, potentially slowing innovation and public health preparedness.",
+      "Cutting funding to foreign entities involved in high-risk biological research could strain international scientific collaboration and reduce global pandemic preparedness, affecting both foreign nationals and U.S. citizens indirectly.",
+      "Enhanced enforcement and transparency requirements may impose administrative burdens on scientific researchers and corporations, potentially diverting resources from research to compliance rather than scientific progress.",
+      "Limitations on synthetic nucleic acid procurement and strict oversight could increase operational costs for biotechnology companies, potentially impacting their competitiveness and slowing industry growth.",
+      "The order's focus on security classification and enforcement may create concerns among healthcare workers and researchers about confidentiality, data sharing, and the balance between transparency and national security."
     ],
-    "enriched_at": "2025-12-09T02:44:57.506Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:17:10.473Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

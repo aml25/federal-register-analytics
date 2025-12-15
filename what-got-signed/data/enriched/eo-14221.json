@@ -13,30 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-28/pdf/2025-03440.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/28/2025-03440.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to strengthen enforcement of healthcare price transparency rules, requiring clearer, more accurate, and fully disclosed pricing for medical services and prescription drugs. It aims to empower patients with better information to make informed healthcare decisions and reduce overall healthcare costs by promoting competition and accountability.",
+    "summary": "This executive order directs federal agencies to strengthen and enforce healthcare price transparency rules so patients can access clear, accurate, and comparable pricing information for medical services and prescription drugs. It aims to empower patients to make better healthcare decisions and reduce overall healthcare costs by building on previous transparency efforts.",
     "theme_ids": [
-      "consumer-protection",
-      "regulatory-reform",
-      "public-health-promotion"
+      "prescription-drug-pricing",
+      "healthcare-competition-markets"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "medical-patients",
-        "private-health-insurers",
-        "low-income-patients"
+        "patients-general",
+        "medicaid-beneficiaries",
+        "aca-marketplace-enrollees",
+        "low-income-individuals-families"
       ],
       "negative_ids": [
-        "pharmaceutical-manufacturers"
+        "healthcare-organizations",
+        "corporations-businesses"
       ]
     },
     "potential_concerns": [
-      "Increased regulatory enforcement may raise compliance costs for hospitals and insurers, potentially leading to higher administrative overhead.",
-      "Incomplete or inaccurate price disclosures could persist if enforcement mechanisms are insufficient or if providers manipulate data.",
-      "Hospitals and health plans might struggle to standardize and compare prices effectively, causing patient confusion instead of clarity.",
-      "Pharmaceutical companies might push back against public disclosure of true drug prices, possibly affecting drug market dynamics.",
-      "There may be challenges ensuring that price transparency actually translates into lower costs and better patient outcomes rather than just more data."
+      "Patients and low-income individuals may face challenges if price transparency reveals high costs but does not sufficiently improve affordability or access to care.",
+      "Healthcare organizations might experience increased administrative burdens and compliance costs to meet enhanced transparency and enforcement requirements.",
+      "Greater transparency in prescription-drug pricing could lead some corporations to adjust pricing strategies in ways that reduce market competition or limit drug availability.",
+      "ACA marketplace enrollees and Medicaid beneficiaries could benefit from clearer pricing but might also encounter discrimination or price variability if insurers react by narrowing provider networks.",
+      "Mandating actual price disclosures rather than estimates could expose data quality issues in pricing information, confusing patients and undermining trust in the system."
     ],
-    "enriched_at": "2025-12-09T02:41:30.492Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:26:50.648Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

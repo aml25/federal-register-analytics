@@ -1,0 +1,41 @@
+{
+  "document_number": "2012-31574",
+  "executive_order_number": "13634",
+  "title": "Reestablishment of Advisory Commission",
+  "abstract": null,
+  "signing_date": "2012-12-21",
+  "publication_date": "2012-12-31",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2012/12/31/2012-31574/reestablishment-of-advisory-commission",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2012-12-31/pdf/2012-31574.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2012/12/31/2012-31574.txt",
+  "enrichment": {
+    "summary": "This executive order reestablishes the President's Advisory Commission on Educational Excellence for Hispanics, continuing the work of the commission with its existing members through September 30, 2013, unless further extended. The commission provides advice on improving educational opportunities and outcomes for Hispanic students.",
+    "theme_ids": [
+      "educational-excellence-initiatives-by-demographic",
+      "federal-advisory-committees",
+      "presidential-commissions-task-forces"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "hispanic-latino-americans",
+        "k-12-students",
+        "public-school-communities",
+        "teachers-educators"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The commission’s advice might focus primarily on Hispanic students but overlook intersectional challenges faced by subgroups such as recent immigrants or undocumented students within the Hispanic community.",
+      "Reestablishing the commission for a limited term through September 2013 may limit long-term policy continuity, causing uncertainty for teachers and public school communities relying on sustained guidance for educational initiatives.",
+      "There is a risk that federal advisory commissions like this may facilitate symbolic representation without leading to meaningful systemic change in educational equity for Hispanic students.",
+      "Teachers and educators might face increased pressure or expectations to implement recommendations without adequate resources or support, potentially straining already underfunded public school communities.",
+      "The focus on a single demographic group could unintentionally marginalize other minority student populations who experience educational disparities, potentially causing concerns about equitable allocation of attention and resources."
+    ],
+    "enriched_at": "2025-12-15T02:09:43.219Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

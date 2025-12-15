@@ -13,31 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-10/pdf/2025-02477.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/10/2025-02477.txt",
   "enrichment": {
-    "summary": "This executive order directs the Treasury and Commerce Departments to develop a plan to create a U.S. sovereign wealth fund aimed at managing national wealth to benefit American citizens, support economic security, reduce tax burdens, and enhance the country's economic and strategic leadership globally. The plan will cover funding, investments, governance, and legal considerations, but does not immediately establish the fund itself.",
+    "summary": "This executive order directs the Treasury and Commerce departments to develop a plan to create a United States sovereign wealth fund. The fund aims to manage national wealth to benefit American citizens by promoting fiscal sustainability, reducing tax burdens, securing economic stability for future generations, and enhancing U.S. economic and strategic leadership globally.",
     "theme_ids": [
-      "financial-regulation",
-      "trade-policy",
-      "foreign-policy",
-      "sovereign-wealth-fund-management"
+      "sovereign-wealth-fund",
+      "tax-policy-tax-reform",
+      "small-business-support",
+      "economic-competitiveness"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "investment-entities",
-        "american-businesses"
+        "small-business-owners",
+        "working-age-adults",
+        "middle-class-americans",
+        "u-s-citizens"
       ],
       "negative_ids": [
-        "foreign-manufacturers",
-        "foreign-suppliers"
+        "high-income-wealthy-individuals"
       ]
     },
     "potential_concerns": [
-      "The establishment of a sovereign wealth fund may face legal and legislative hurdles that delay implementation or alter its original intent.",
-      "Investment strategies could expose the fund and ultimately taxpayers to financial risks or losses if poorly managed.",
-      "The source of funding for the sovereign wealth fund might require reallocation of existing federal resources or increased borrowing, potentially impacting other government programs.",
-      "There may be political or public debates regarding accountability, transparency, and governance structures of the fund.",
-      "International reactions to a large U.S. sovereign wealth fund could affect foreign markets or diplomatic relations."
+      "The plan to lessen tax burdens on American families and small businesses could face challenges ensuring that middle-class Americans and small-business owners receive meaningful tax relief without unintended benefits skewed toward wealthier individuals.",
+      "Investment decisions made by the sovereign wealth fund may prioritize economic competitiveness and strategic leadership at the expense of smaller domestic sectors or disrupt existing private investment markets, negatively impacting certain working-age adults who depend on those markets for employment.",
+      "The governance model and funding mechanisms may raise concerns about transparency and accountability, potentially leading to misuse or politicization of the fund that could erode trust among U.S. citizens.",
+      "Legal or legislative hurdles in establishing the fund could delay benefits to intended populations like small-business owners and working-age adults, while wealthy individuals might find ways to minimize impacts on their tax liabilities.",
+      "There is a risk that the fund’s focus on international economic leadership could prioritize investments that neglect domestic economic needs, thereby disadvantaging middle-class Americans and working-age adults reliant on more localized economic growth."
     ],
-    "enriched_at": "2025-12-09T02:40:21.984Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:30:18.167Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

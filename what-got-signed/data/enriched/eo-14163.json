@@ -13,31 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-30/pdf/2025-02011.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/30/2025-02011.txt",
   "enrichment": {
-    "summary": "This executive order pauses the United States Refugee Admissions Program due to concerns about the country’s ability to absorb new refugees safely and effectively. It directs federal agencies to review and potentially realign US refugee policy to prioritize national security, public safety, and community input before allowing refugee admissions to resume.",
+    "summary": "This executive order suspends the United States Refugee Admissions Program until refugee admissions align with the country's interests. It emphasizes public safety and national security, allows select case-by-case refugee admissions, and involves state and local jurisdictions more in refugee resettlement decisions. The order also revokes a previous executive order on refugee resettlement.",
     "theme_ids": [
-      "immigration-enforcement",
-      "national-security",
-      "public-safety",
-      "federal-agency-management"
+      "refugee-policy",
+      "homeland-security",
+      "immigration-enforcement-interior",
+      "revocation-of-previous-executive-orders"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "state-and-local-governments",
-        "refugees"
-      ],
+      "positive_ids": [],
       "negative_ids": [
         "refugees",
-        "non-investor-immigrants"
+        "local-governments",
+        "urban-communities",
+        "rural-communities",
+        "specific-state-populations"
       ]
     },
     "potential_concerns": [
-      "Suspending the refugee program may cause humanitarian hardships and delay protection for vulnerable populations fleeing danger.",
-      "Increased involvement of state and local jurisdictions in refugee placement could lead to inconsistent policies and potential discrimination.",
-      "The order’s broad suspension and discretionary exceptions may create uncertainty and administrative backlogs for applicants and agencies.",
-      "Critics may argue the order prioritizes security and resource concerns over the U.S.'s longstanding humanitarian commitments.",
-      "There may be legal challenges related to the suspension under existing immigration and refugee law provisions."
+      "The suspension of refugee admissions may severely limit protection and resettlement opportunities for refugees fleeing persecution, contradicting humanitarian commitments under international law.",
+      "Increased involvement of state and local jurisdictions in refugee placement could lead to inconsistent policies and potential refusal of resettlement in certain areas, exacerbating geographic disparities impacting urban and rural communities differently.",
+      "Local governments and communities facing sudden refugee inflows may experience resource strains, especially if federal support diminishes, potentially heightening tensions in urban and rural populations unprepared for abrupt demographic changes.",
+      "The case-by-case admission process might introduce subjectivity and prolonged uncertainty for vulnerable refugees, resulting in prolonged family separations and humanitarian delays.",
+      "Revocation of the previous executive order signals a rollback of prior climate-migration planning, which may reduce preparedness for refugee flows related to environmental and climate-induced displacement affecting certain states and regions disproportionately."
     ],
-    "enriched_at": "2025-12-09T02:38:41.837Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:35:19.610Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

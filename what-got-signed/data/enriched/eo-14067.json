@@ -13,36 +13,36 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-03-14/pdf/2022-05471.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/03/14/2022-05471.txt",
   "enrichment": {
-    "summary": "This executive order directs the U.S. government to create a coordinated approach to the development and regulation of digital assets like cryptocurrencies and central bank digital currencies (CBDCs). It aims to protect consumers, promote financial stability, combat illicit finance and national security risks, and maintain U.S. leadership in the global financial system while supporting innovation and equitable access to financial services.",
+    "summary": "This executive order directs the U.S. government to take coordinated actions to ensure the safe and responsible growth of digital assets like cryptocurrencies and central bank digital currencies (CBDCs). It aims to protect consumers and investors, promote financial stability, combat illicit uses of digital assets, encourage technological innovation, and strengthen U.S. leadership and international cooperation in digital finance.",
     "theme_ids": [
-      "national-security",
-      "financial-regulation",
-      "consumer-protection",
-      "technology-development",
-      "foreign-policy",
-      "economic-development",
-      "privacy-and-data-security",
-      "climate-change-mitigation",
-      "digital-assets-policy"
+      "cryptocurrency-digital-assets",
+      "financial-system-regulation",
+      "cybersecurity-national-security",
+      "economic-competitiveness",
+      "interagency-coordination"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry",
-        "financial-institutions"
+        "cryptocurrency-digital-asset-holders",
+        "investors",
+        "consumers",
+        "financial-services-workers",
+        "entrepreneurs-startups",
+        "low-income-individuals-families"
       ],
       "negative_ids": [
-        "foreign-suppliers",
-        "unbanked-and-underbanked-populations"
+        "cryptocurrency-digital-asset-holders",
+        "entrepreneurs-startups"
       ]
     },
     "potential_concerns": [
-      "Challenges in balancing innovation with consumer protection may slow technological progress or leave gaps in oversight.",
-      "The rapid evolution of digital assets could outpace the regulatory frameworks developed, leading to implementation difficulties.",
-      "Privacy and surveillance concerns may arise around CBDC design choices and digital asset oversight, potentially impacting civil liberties.",
-      "International coordination difficulties may hamper efforts to establish consistent global standards, risking regulatory arbitrage.",
-      "Environmental impacts related to cryptocurrency mining and energy consumption may be difficult to mitigate effectively."
+      "Stricter regulatory oversight aimed at protecting consumers and investors may increase compliance costs and operational burdens on cryptocurrency holders and startups, potentially reducing innovation and market participation.",
+      "Efforts to mitigate illicit finance risks could lead to enhanced surveillance and data sharing requirements that may infringe on the privacy and civil liberties of cryptocurrency users, affecting their rights to privacy and possibly human rights.",
+      "Low-income individuals who use digital assets to access financial services might face new barriers or reduced access due to increased regulation, potentially exacerbating financial exclusion despite the order’s goal to promote inclusion.",
+      "Financial services workers could experience disruptions as the regulatory framework evolves rapidly, requiring retraining or adapting to new digital asset compliance standards, which might strain workforce capacity.",
+      "International cooperation on standards for digital assets and CBDCs might limit domestic policy flexibility, possibly slowing the adoption of locally tailored innovations that benefit entrepreneurs and investors."
     ],
-    "enriched_at": "2025-12-09T03:48:14.230Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T07:35:28.136Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

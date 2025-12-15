@@ -13,33 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-11-28/pdf/2025-21665.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/11/28/2025-21665.txt",
   "enrichment": {
-    "summary": "This executive order establishes the Genesis Mission, a coordinated national effort led by the Department of Energy to use artificial intelligence (AI) to accelerate scientific research and solve major national challenges. It creates a secure, integrated AI platform using federal scientific data and computing resources, promotes collaboration among government agencies, academic institutions, and private partners, and sets goals for advancing key technology areas like energy, manufacturing, and biotechnology.",
+    "summary": "This executive order creates the Genesis Mission, a new national initiative led by the Department of Energy to use artificial intelligence and federal scientific data to accelerate scientific discovery and innovation. It establishes a secure, integrated AI platform that brings together government agencies, national labs, universities, and private partners to tackle major science and technology challenges with AI-driven research and development.",
     "theme_ids": [
       "artificial-intelligence",
-      "national-security",
-      "scientific-research",
-      "technology-development",
-      "federal-research-coordination"
+      "science-and-technology-policy",
+      "energy-independence-security",
+      "cybersecurity-national-security",
+      "interagency-coordination"
     ],
     "impacted_populations": {
       "positive_ids": [
         "scientific-researchers",
-        "tech-industry",
-        "academic-institutions"
+        "technology-workers",
+        "college-university-students",
+        "large-corporation-employees"
       ],
-      "negative_ids": [
-        "private-sector-rivals",
-        "foreign-suppliers"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "The concentration of AI development and data access within federal agencies and select partners could disadvantage smaller companies or independent researchers.",
-      "Security requirements and vetting processes might slow down collaborations or limit access for some potential contributors.",
-      "Implementation depends heavily on adequate funding and coordination among many agencies, which could lead to delays or inconsistent progress.",
-      "There may be intellectual property conflicts or disputes over data and model ownership between federal entities and private partners.",
-      "The order could raise privacy, data protection, and export control concerns due to sharing of sensitive scientific and AI-related information."
+      "The integration of vast federal scientific datasets into a secure AI platform raises cybersecurity and data privacy risks that could impact technology workers and scientific researchers handling sensitive information.",
+      "The prioritization of national security and competitiveness objectives may limit international collaboration opportunities, potentially limiting benefits to college/university students and researchers engaged in global scientific efforts.",
+      "Large corporation employees and technology workers might face challenges navigating intellectual property rules and partnership frameworks, potentially creating barriers to effective innovation and collaboration.",
+      "Accelerating AI-directed automation in research workflows could disrupt existing scientific roles and job functions, raising workforce adjustment concerns for scientific researchers and technology workers."
     ],
-    "enriched_at": "2025-12-09T02:48:34.841Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-12T08:20:44.089Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

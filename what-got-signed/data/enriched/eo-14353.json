@@ -13,28 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-10-06/pdf/2025-19483.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/10/06/2025-19483.txt",
   "enrichment": {
-    "summary": "This executive order commits the United States to guaranteeing the security and territorial integrity of the State of Qatar against any foreign attack. It establishes a policy of mutual defense support, including diplomatic, economic, and military measures, and directs federal agencies to coordinate with Qatar and allies for rapid response and ongoing partnership in regional conflict mediation.",
+    "summary": "This executive order commits the United States to defending the State of Qatar against any armed attack, viewing such aggression as a threat to U.S. security. It directs relevant officials to maintain coordinated planning and to take necessary diplomatic, economic, or military actions to protect Qatar and promote peace and stability in the region.",
     "theme_ids": [
-      "national-security",
-      "foreign-policy"
+      "military-readiness-force-structure",
+      "critical-infrastructure-protection",
+      "diplomatic-relations",
+      "middle-east-general"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "qatari-government-and-security-forces",
-        "regional-stability-actors"
+        "military-personnel-active-duty",
+        "foreign-government-officials",
+        "citizens-of-specific-countries-by-eo-designation"
       ],
       "negative_ids": [
-        "terrorist-organizations"
+        "military-personnel-active-duty",
+        "foreign-government-officials"
       ]
     },
     "potential_concerns": [
-      "This order may increase the risk of U.S. military engagement in regional conflicts involving Qatar.",
-      "Heightened U.S. commitment to Qatar could strain relations with other regional actors opposed to Qatar's policies or alliances.",
-      "Implementation requires extensive interagency coordination which may face bureaucratic delays or resource challenges.",
-      "There is potential for escalation if adversaries perceive the U.S. security guarantee as provocative or threatening.",
-      "The order does not specify funding sources beyond the publication cost, possibly limiting operational readiness or response capability."
+      "The commitment to defend Qatar militarily may increase deployment frequency and combat risks for military-personnel-active-duty, affecting their safety and family stability.",
+      "The order could escalate tensions with rival Middle East states, potentially straining U.S. diplomatic relations and increasing risks to foreign-government-officials in the region.",
+      "Enhanced U.S. military involvement in Qatar might provoke retaliatory attacks on critical infrastructure, indirectly impacting citizens-of-specific-countries-by-eo-designation including civilians in Qatar.",
+      "Extended diplomatic and military commitments could divert resources from other foreign policy priorities, affecting U.S. ability to respond to other global conflicts or crises."
     ],
-    "enriched_at": "2025-12-09T02:48:05.010Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:00:26.036Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

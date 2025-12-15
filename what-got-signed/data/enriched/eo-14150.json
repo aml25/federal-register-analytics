@@ -13,29 +13,29 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-29/pdf/2025-01952.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/29/2025-01952.txt",
   "enrichment": {
-    "summary": "This executive order directs the Secretary of State to align U.S. foreign policy with the 'America First' approach, prioritizing American interests and citizens in all diplomatic and policy decisions. It requires the Department of State to adjust its policies, programs, personnel, and operations accordingly without altering existing legal authorities or budget procedures.",
+    "summary": "This executive order directs the Secretary of State to ensure that the U.S. foreign policy prioritizes American interests and citizens above all else. It requires the Department of State to revise its policies and operations to align with this 'America First' approach.",
     "theme_ids": [
-      "foreign-policy",
-      "federal-agency-management"
+      "diplomatic-relations"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "regional-stability-actors",
-        "wrongfully-detained-us-nationals"
+        "u-s-citizens",
+        "birthright-citizens"
       ],
       "negative_ids": [
-        "populations-in-designated-countries",
-        "foreign-suppliers"
+        "foreign-nationals-general",
+        "foreign-governments",
+        "naturalized-citizens",
+        "lawful-permanent-residents-green-card-holders"
       ]
     },
     "potential_concerns": [
-      "The broad mandate to prioritize America First may lead to reduced cooperation with international partners, risking global alliances.",
-      "The order lacks detailed guidance, which could result in inconsistent implementation across the Department of State.",
-      "Prioritizing American interests in foreign policy may inadvertently harm U.S. credibility and influence abroad.",
-      "Emphasis on America First could reduce attention to humanitarian and multilateral commitments.",
-      "Potential conflicts may arise between this order’s priorities and existing treaty obligations or international agreements."
+      "Prioritizing U.S. citizens and birthright citizens may lead to diminished diplomatic relations and cooperation with foreign governments and foreign nationals, potentially reducing global influence and strategic alliances.",
+      "Naturalized citizens and lawful permanent residents could face unintended discrimination or reduced consideration in U.S. foreign policy decisions stressing 'America First,' affecting their international mobility or family members abroad.",
+      "The America First policy might reduce U.S. participation in international agreements or foreign aid initiatives, which could harm global stability and increase security risks that ultimately affect U.S. citizens.",
+      "There is a risk that this directive could foster an isolationist stance, limiting engagement with foreign governments and harming economic or security interests tied to multinational cooperation."
     ],
-    "enriched_at": "2025-12-09T02:37:59.603Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:37:23.065Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

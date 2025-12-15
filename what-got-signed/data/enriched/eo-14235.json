@@ -13,30 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-12/pdf/2025-04103.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/12/2025-04103.txt",
   "enrichment": {
-    "summary": "This executive order restricts public service loan forgiveness eligibility to individuals working for organizations that do not engage in illegal activities, such as immigration violations, terrorism support, child abuse, or certain types of illegal discrimination and vandalism. It aims to protect taxpayer funds and national security by excluding organizations involved in unlawful or harmful conduct from benefiting from the loan forgiveness program.",
+    "summary": "This executive order changes the Public Service Loan Forgiveness program to exclude workers employed by organizations involved in illegal activities, such as human trafficking, immigration violations, and terrorism. It aims to ensure that only jobs serving the legitimate public interest qualify for loan forgiveness.",
     "theme_ids": [
-      "national-security",
-      "immigration-enforcement",
-      "education-policy",
-      "counterterrorism-policy"
+      "national-security-information-classification",
+      "border-security",
+      "transnational-crime-cartels",
+      "human-trafficking",
+      "student-loans-financial-aid"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "public-service-workers",
-        "federal-budget-stakeholders"
+        "working-age-adults",
+        "college-university-students",
+        "graduate-professional-students"
       ],
       "negative_ids": [
-        "nonprofit-organizations"
+        "nonprofit-organizations",
+        "undocumented-immigrants",
+        "daca-recipients-dreamers"
       ]
     },
     "potential_concerns": [
-      "The broad criteria for excluding organizations could unintentionally disqualify legitimate nonprofits or public service employers, reducing access to loan forgiveness for eligible workers.",
-      "The order’s focus on illegal activities within some organizations may lead to inconsistent or politically influenced enforcement decisions.",
-      "Limiting loan forgiveness could discourage employment in public service roles, worsening staffing shortages in critical sectors.",
-      "The complex coordination needed between the Department of Education and Treasury to revise regulations may delay implementation.",
-      "Potential legal challenges could arise claiming the order restricts access to a statutorily authorized student loan forgiveness benefit."
+      "The exclusion of organizations involved in immigration violations may disproportionately restrict loan forgiveness eligibility for undocumented immigrants and DACA recipients working in public service roles.",
+      "Restricting PSLF to exclude nonprofit organizations alleged to engage in illegal activities could lead to disputes over which nonprofits qualify, causing uncertainty for students and workers relying on these programs.",
+      "The broad definitions of illegal purposes, such as 'aiding and abetting illegal discrimination' or 'violating State tort laws,' might unintentionally disqualify legitimate public service employers, negatively impacting working-age adults and graduate students seeking loan forgiveness.",
+      "Limiting PSLF eligibility based on perceived national security concerns may deter qualified individuals from entering public service, especially in roles focused on border security and transnational crime prevention.",
+      "The policy's focus on excluding workers affiliated with organizations linked to human trafficking and terrorism could complicate loan forgiveness for employees in complex social service fields where organizational affiliations are not always clear-cut."
     ],
-    "enriched_at": "2025-12-09T02:42:08.162Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:24:48.777Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

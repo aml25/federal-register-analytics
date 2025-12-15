@@ -13,31 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-19/pdf/2025-02871.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/19/2025-02871.txt",
   "enrichment": {
-    "summary": "This executive order creates a commission to tackle the rising crisis of chronic and childhood diseases in the United States by studying causes, improving health research transparency, and recommending new policies to promote healthier lifestyles and reduce reliance on medication. The commission is made up of federal leaders from various agencies and must deliver assessments and strategic recommendations within 180 days.",
+    "summary": "This executive order creates a commission to address America's growing health crisis, especially focusing on childhood chronic diseases. The commission will study causes, evaluate current government efforts, and recommend strategies to improve health outcomes and reduce disease rates among Americans.",
     "theme_ids": [
-      "federal-research-coordination",
-      "public-health-promotion",
-      "advisory-committees-management",
-      "education-policy"
+      "mental-health",
+      "public-health-emergency-response",
+      "federal-advisory-committees",
+      "child-welfare-foster-care",
+      "food-security-nutrition"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "scientific-researchers",
-        "academic-institutions",
-        "agricultural-workers"
+        "children-minors",
+        "individuals-with-chronic-illnesses",
+        "individuals-with-mental-health-conditions",
+        "food-insecure-populations"
       ],
-      "negative_ids": [
-        "pharmaceutical-manufacturers"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "The focus on reducing medication use may restrict access to necessary treatments and complicate care for patients with chronic conditions.",
-      "Efforts to eliminate conflicts of interest and industry influence in research could face resistance from pharmaceutical and food industries, slowing implementation.",
-      "The timeline for assessment and strategy may be ambitious given the complexity and scope of chronic and childhood disease factors.",
-      "Broad mandates regarding food production and environmental factors might create regulatory conflicts with agricultural and manufacturing sectors.",
-      "Transparency requirements and data sharing might raise privacy issues related to sensitive health information or proprietary research."
+      "Efforts to restrict or reduce prescription medication, as suggested by scrutiny of psychotropic and stimulant drugs, might limit treatment options for children-minors with ADHD or mental health conditions, potentially causing unintended harm.",
+      "Emphasizing nutrition and environmental factors could overlook socioeconomic barriers faced by food-insecure-populations, limiting their ability to adopt recommended lifestyle changes.",
+      "The commission's focus on eliminating industry influence may delay timely public health interventions if data transparency and conflicts of interest assessments slow research dissemination.",
+      "Children-minors with chronic illnesses or mental health conditions may face stigma or inadequate support if the strategy advocates replacing medication with lifestyle changes without ensuring accessible alternative therapies."
     ],
-    "enriched_at": "2025-12-09T02:41:00.945Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:28:01.903Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

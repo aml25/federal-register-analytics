@@ -13,32 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-07-03/pdf/2025-12506.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/07/03/2025-12506.txt",
   "enrichment": {
-    "summary": "This executive order removes various U.S. sanctions on Syria following positive developments by the new Syrian government, while maintaining targeted restrictions on terrorist groups and human rights violators. It authorizes U.S. officials to relax export controls, encourages accountability for the former Syrian regime, and directs engagement with international partners to support peace and stability in Syria.",
+    "summary": "This executive order lifts most U.S. sanctions on Syria, recognizing changes under the new Syrian government and supporting efforts for stability and peace. It also maintains restrictions on terrorist groups and individuals linked to human rights abuses or illicit activities, while authorizing U.S. agencies to implement these changes and adjust sanctions as needed.",
     "theme_ids": [
-      "national-security",
-      "foreign-policy",
-      "counterterrorism-policy",
-      "trade-policy",
-      "financial-regulation"
+      "sanctions-country-specific",
+      "syria",
+      "counterterrorism",
+      "terrorism-designations",
+      "united-nations"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "regional-stability-actors",
-        "civilian-populations-in-designated-countries"
+        "foreign-government-officials",
+        "corporations-businesses",
+        "international-organizations",
+        "citizens-of-specific-countries-by-eo-designation"
       ],
       "negative_ids": [
-        "terrorist-organizations",
-        "sanctioned-persons-and-affiliates"
+        "terrorism-victims-survivors",
+        "refugees",
+        "human-trafficking-victims"
       ]
     },
     "potential_concerns": [
-      "Removing broad sanctions may inadvertently ease economic or political pressure on actors still engaged in harmful activities despite new government changes.",
-      "Implementation may be challenged by verifying compliance and distinguishing legitimate Syrian government entities from terrorist-linked or human rights-violating actors.",
-      "There could be heightened risks if sanctions relief benefits actors associated with narcotics trafficking or chemical weapon proliferation inadvertently.",
-      "Suspension of sanctions risks criticism from human rights advocates concerned about accountability for past abuses under the former regime.",
-      "The order’s complexity may cause administrative delays or legal challenges in coordinating revocations, waivers, and ongoing counterterrorism designations."
+      "Lifting most U.S. sanctions on Syria may be perceived as legitimizing the new Syrian government, raising concerns among terrorism-victims-survivors and foreign governments about potential impunity for past human rights violations under the former regime.",
+      "The revocation could unintentionally empower networks involved in illicit narcotics and captagon trafficking, adversely affecting refugees and human-trafficking victims by exacerbating regional instability and criminal activity.",
+      "Relaxing export controls and sanctions might create challenges for corporations-businesses in monitoring compliance, increasing legal risks if inadvertently supporting blacklisted individuals or terrorist-linked entities despite maintained restrictions.",
+      "Changes in U.S. policy towards Syria may complicate coordination with international-organizations and allied foreign-government-officials who remain skeptical of the new regime's commitments to peace and counterterrorism, potentially undermining unified diplomatic efforts."
     ],
-    "enriched_at": "2025-12-09T02:45:56.096Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T07:37:31.901Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

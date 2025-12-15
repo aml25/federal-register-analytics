@@ -1,0 +1,43 @@
+{
+  "document_number": "2019-15449",
+  "executive_order_number": "13881",
+  "title": "Maximizing Use of American-Made Goods, Products, and Materials",
+  "abstract": null,
+  "signing_date": "2019-07-15",
+  "publication_date": "2019-07-18",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/07/18/2019-15449/maximizing-use-of-american-made-goods-products-and-materials",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-07-18/pdf/2019-15449.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/07/18/2019-15449.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to strengthen enforcement of the Buy American Act by increasing the required percentage of American-made content in government procurement, particularly for iron, steel, and other products. It also mandates revisions to federal acquisition regulations to better ensure government purchases prioritize American goods and materials, supporting domestic manufacturing and small businesses.",
+    "theme_ids": [
+      "buy-american-domestic-preference",
+      "manufacturing-policy",
+      "small-business-support",
+      "government-efficiency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "small-business-owners",
+        "manufacturing-workers"
+      ],
+      "negative_ids": [
+        "federal-contractors",
+        "large-corporation-employees"
+      ]
+    },
+    "potential_concerns": [
+      "Increasing domestic content requirements may raise costs and compliance burdens for federal contractors and large corporations relying on global supply chains, potentially delaying government procurement and affecting contract competitiveness.",
+      "While intended to support small businesses and manufacturing workers, stricter Buy American enforcement may limit subcontracting opportunities from foreign suppliers that previously enabled affordable production, potentially reducing overall project efficiency and increasing prices.",
+      "The order's focus on iron and steel with a very low foreign content threshold (5%) may disproportionately impact industries dependent on such materials, causing supply shortages or price spikes that could negatively affect both contractors and manufacturing employment.",
+      "Small-business owners might benefit from increased preference, but they could also face challenges meeting the stricter domestic content thresholds without sufficient access to competitively priced American-made inputs, possibly limiting their ability to compete.",
+      "The shift in determination formulas (with higher percentage penalties for foreign materials) could create operational uncertainty among federal contractors and manufacturing firms, complicating contract bidding and supply chain management."
+    ],
+    "enriched_at": "2025-12-15T02:29:09.058Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

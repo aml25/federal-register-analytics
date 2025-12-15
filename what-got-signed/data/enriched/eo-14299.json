@@ -13,34 +13,33 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-29/pdf/2025-09796.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/29/2025-09796.txt",
   "enrichment": {
-    "summary": "This executive order directs the U.S. government to rapidly develop, deploy, and export advanced nuclear reactor technologies to enhance national security and energy resilience at military and Department of Energy sites. It prioritizes private sector involvement, interagency coordination, and international cooperation to bolster nuclear energy capabilities for defense and AI infrastructure needs. The order also aims to strengthen American nuclear industry competitiveness globally through diplomatic and export initiatives.",
+    "summary": "This executive order directs the rapid development and deployment of advanced nuclear reactor technologies to provide secure and reliable energy for critical military and national security facilities. It emphasizes accelerating U.S. nuclear technology innovation, coordinating among government agencies, supporting private sector involvement, and expanding American nuclear exports to strengthen national security and global competitiveness.",
     "theme_ids": [
-      "national-security",
-      "energy-policy",
-      "federal-research-coordination",
-      "technology-development",
-      "foreign-policy",
-      "trade-policy"
+      "military-readiness-force-structure",
+      "defense-industrial-base",
+      "critical-infrastructure-protection",
+      "energy-independence-security",
+      "international-agreements-treaties"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "domestic-energy-producers",
-        "tech-industry",
-        "scientific-researchers"
+        "military-personnel-active-duty",
+        "defense-industry-workers",
+        "technology-workers",
+        "large-corporation-employees"
       ],
       "negative_ids": [
-        "foreign-suppliers",
-        "green-energy-industry"
+        "environmental-justice-communities",
+        "rural-communities"
       ]
     },
     "potential_concerns": [
-      "Accelerated deployment of advanced nuclear reactors may face environmental and safety scrutiny, including challenges with compliance under the National Environmental Policy Act.",
-      "The prioritization of nuclear technology export could raise proliferation and nonproliferation risks if not managed with sufficient safeguards and international oversight.",
-      "Relying on private sector entities for deployment and fuel supply could create market distortions or exacerbate competition challenges for smaller or emerging nuclear technology companies.",
-      "The goal to operate reactors on military bases and DOE sites by stringent deadlines may lead to implementation delays or cost overruns due to technical and regulatory complexities.",
-      "The focus on uranium resource allocation and fuel stockpiling might strain existing resources, potentially impacting other defense or naval nuclear programs."
+      "The rapid deployment of advanced nuclear reactors on military installations may raise safety, environmental, and health concerns for nearby rural and environmental justice communities due to potential radiation risks or nuclear accidents.",
+      "Prioritizing nuclear technology exports to allies and partners might heighten geopolitical tensions and complicate adherence to international nonproliferation agreements, impacting global diplomatic relations.",
+      "The focus on private sector investment and large corporations could marginalize smaller nuclear technology startups or local renewable energy initiatives, affecting the diversity of the energy sector workforce.",
+      "Accelerated siting and construction timelines may pressure regulatory bodies and risk insufficient community engagement, leading to public distrust particularly in communities near proposed reactor sites."
     ],
-    "enriched_at": "2025-12-09T02:45:18.643Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T07:39:07.382Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

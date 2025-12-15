@@ -1,0 +1,42 @@
+{
+  "document_number": "2012-30310",
+  "executive_order_number": "13632",
+  "title": "Establishing the Hurricane Sandy Rebuilding Task Force",
+  "abstract": null,
+  "signing_date": "2012-12-07",
+  "publication_date": "2012-12-14",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2012/12/14/2012-30310/establishing-the-hurricane-sandy-rebuilding-task-force",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2012-12-14/pdf/2012-30310.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2012/12/14/2012-30310.txt",
+  "enrichment": {
+    "summary": "This executive order creates a special task force led by the Secretary of Housing and Urban Development to coordinate the rebuilding efforts after Hurricane Sandy. The task force brings together multiple federal agencies to develop a long-term plan to restore infrastructure, housing, and economic health in the affected regions, ensuring future resilience against severe weather events.",
+    "theme_ids": [
+      "disaster-rebuilding-long-term-recovery",
+      "fema-emergency-management",
+      "housing-policy-affordable-housing",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "disaster-affected-communities",
+        "renters-homeowners",
+        "low-income-individuals-families",
+        "tribal-communities-reservations"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The comprehensive rebuilding efforts might inadequately prioritize low-income individuals and renters, potentially prolonging displacement in disaster-affected communities.",
+      "Coordination among numerous federal agencies could cause delays or bureaucratic obstacles that hinder timely support for tribal communities and local jurisdictions.",
+      "Without clear accountability measures, rebuilding funds might be inefficiently allocated, impacting the quality and resilience of housing and infrastructure for disaster-affected populations.",
+      "Efforts to rebuild infrastructure with future climate resilience in mind may overlook immediate economic recovery needs for affected homeowners and small businesses.",
+      "Engagement with tribal communities could be insufficient, risking failure to fully incorporate tribal priorities and cultural considerations into the rebuilding strategy."
+    ],
+    "enriched_at": "2025-12-15T02:10:02.562Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

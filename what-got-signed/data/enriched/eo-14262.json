@@ -13,30 +13,35 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-14/pdf/2025-06381.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/14/2025-06381.txt",
   "enrichment": {
-    "summary": "This executive order directs the Department of Energy to strengthen the reliability and security of the U.S. electric grid amid rising electricity demand. It mandates improved analysis of electricity reserve margins and authorizes streamlined emergency measures to keep critical power generation resources available, helping to prevent grid failures and support all types of energy sources during emergencies.",
+    "summary": "This executive order directs the Department of Energy to improve the reliability and security of the U.S. electric grid in response to increased electricity demand and potential supply interruptions. It requires developing methods to assess electric grid capacity and reserve margins, and to take emergency actions to prevent grid failures by using all available power resources.",
     "theme_ids": [
-      "energy-policy",
-      "national-security",
-      "regulatory-reform"
+      "critical-infrastructure-protection",
+      "energy-independence-security",
+      "energy-infrastructure",
+      "national-emergencies",
+      "interagency-coordination"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "domestic-energy-producers",
-        "tech-industry"
+        "energy-sector-workers-oil-gas-coal",
+        "renewable-energy-workers",
+        "manufacturing-workers",
+        "technology-workers",
+        "large-corporation-employees"
       ],
       "negative_ids": [
-        "green-energy-industry",
-        "foreign-suppliers"
+        "consumers",
+        "small-business-owners"
       ]
     },
     "potential_concerns": [
-      "The order’s broad authority to restrict generation resources from leaving the bulk power system could harm investment incentives in certain energy sectors.",
-      "Streamlining emergency powers under the Federal Power Act may risk insufficient oversight or rushed decisions during grid emergencies.",
-      "Emphasis on utilizing all available generation, including secure fuel supplies, may conflict with environmental or clean energy goals.",
-      "The development and publication of reserve margin methodologies may lead to regional disputes or disagreements about grid reliability standards.",
-      "Potential challenges could arise in balancing grid security needs with market competition and private-sector operational decisions."
+      "The expedited emergency authority to force power generation at maximum capacity may raise costs and reliability concerns for consumers and small businesses due to potential price increases and supply restrictions.",
+      "Restrictions preventing generation resources from converting fuel sources could hinder transitions towards cleaner energy, negatively impacting renewable-energy workers and long-term energy infrastructure modernization.",
+      "The mandated use of all available power generation resources may disproportionately benefit fossil fuel energy-sector workers, creating tension with renewable-energy workers and potentially conflicting with environmental goals under critical-infrastructure-protection themes.",
+      "Manufacturing and technology workers may face amplified grid stability risks if emergency measures are insufficient to prevent outages during surges in electricity demand, affecting national economic security and technological innovation.",
+      "The policy’s reliance on reserve margin methodologies may inadvertently exclude or delay needed investments in emerging energy technologies, impacting large corporations involved in the energy and technology sectors."
     ],
-    "enriched_at": "2025-12-09T02:43:30.110Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:21:10.844Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

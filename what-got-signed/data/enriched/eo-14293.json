@@ -13,28 +13,29 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-08/pdf/2025-08267.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/08/2025-08267.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to streamline regulations and speed up approvals to encourage more pharmaceutical manufacturing within the United States, improving the domestic supply of critical medicines. It also increases oversight and fees on foreign drug manufacturers to support these efforts and improve transparency about foreign inspections.",
+    "summary": "This executive order directs federal agencies to simplify and speed up the rules and inspections related to pharmaceutical manufacturing in the United States. Its goal is to remove regulatory hurdles to help build and expand domestic production of critical medicines faster, improving national security and supply chain resilience.",
     "theme_ids": [
-      "pharmaceutical-supply-chain",
-      "regulatory-reform",
-      "national-security"
+      "defense-industrial-base",
+      "manufacturing-policy",
+      "supply-chain-security",
+      "regulatory-reform-deregulation",
+      "healthcare-competition-markets"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "pharmaceutical-manufacturers"
+        "manufacturing-workers",
+        "patients-general",
+        "defense-industry-workers"
       ],
-      "negative_ids": [
-        "foreign-manufacturers"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Accelerated permitting and regulatory streamlining may reduce environmental safeguards and increase risks of pollution or habitat damage.",
-      "Increased fees on foreign facilities could raise drug costs or lead to reduced international supply cooperation.",
-      "The FDA’s promise to reduce inspections and oversight for domestic manufacturers may risk drug safety or quality issues.",
-      "Coordinating multiple federal agencies’ permitting and regulatory reviews could face bureaucratic delays or conflicts.",
-      "Lack of explicit provisions addressing equitable access or support for smaller pharmaceutical manufacturers may favor large industry players."
+      "Streamlining and accelerating regulatory reviews may compromise thorough safety and quality inspections, potentially putting patients-general at risk.",
+      "Efforts to expedite domestic pharmaceutical manufacturing might disproportionately benefit manufacturing-workers and defense-industry-workers, while smaller manufacturers or startups may struggle to keep pace, raising concerns about market competition and healthcare-competition-markets.",
+      "Reducing inspection frequency or modifying risk-based inspection protocols could create gaps that foreign firms might exploit, potentially weakening overall supply-chain-security.",
+      "Centralizing and expediting environmental permitting processes may lead to insufficient environmental review, raising risks to local communities near manufacturing facilities and potential environmental-justice concerns not directly addressed in this order."
     ],
-    "enriched_at": "2025-12-09T02:44:59.985Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:17:01.246Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

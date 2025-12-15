@@ -1,0 +1,33 @@
+{
+  "document_number": "2014-29625",
+  "executive_order_number": "13683",
+  "title": "Amendments to Executive Orders 11030, 13653, and 13673",
+  "abstract": null,
+  "signing_date": "2014-12-11",
+  "publication_date": "2014-12-16",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2014/12/16/2014-29625/amendments-to-executive-orders-11030-13653-and-13673",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2014-12-16/pdf/2014-29625.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2014/12/16/2014-29625.txt",
+  "enrichment": {
+    "summary": "This executive order updates three previous executive orders by clarifying procedures related to proclamations for special observances and trade actions, modifies aspects of the Council on Climate Preparedness and Resilience, and adjusts labor-related legal references in workplace fairness policies. It assigns responsibilities for certain proclamations, refines interagency coordination on climate change preparedness, and updates references concerning veteran-related labor laws.",
+    "theme_ids": [],
+    "impacted_populations": {
+      "positive_ids": [
+        "veterans"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Updating the labor law references to include veteran-specific protections may create compliance challenges for contractors and employers attempting to align with Fair Pay and Safe Workplaces requirements.",
+      "Clarification of trade proclamation procedures may accelerate or restrict trade actions, potentially impacting industries and workers affected by trade policies though not directly addressed in this order.",
+      "Changes to the Council on Climate Preparedness and Resilience structure could impact the effectiveness of climate adaptation efforts, indirectly affecting vulnerable communities not explicitly referenced, such as disaster-affected communities or environmental justice communities.",
+      "The procedural requirements for special observance proclamations may delay recognition of important events, potentially affecting communities that rely on such proclamations for awareness and advocacy."
+    ],
+    "enriched_at": "2025-12-15T02:13:00.523Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -13,24 +13,28 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-09-10/pdf/2025-17508.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/09/10/2025-17508.txt",
   "enrichment": {
-    "summary": "This executive order authorizes the continued use of the historic name \"Department of War\" as a secondary title for the existing Department of Defense and its officials, emphasizing a focus on military strength and readiness to wage war if necessary. It directs the Secretary of Defense (also called the Secretary of War) to submit notifications and recommendations toward permanently renaming the Department of Defense to the Department of War, while preserving current statutory and legal frameworks.",
+    "summary": "This executive order directs that the Department of Defense and its Secretary optionally use the historic title 'Department of War' and 'Secretary of War' in certain official and ceremonial contexts, reflecting a focus on strength and the ability to wage war. It also requires the Secretary to report to the President and Congress about these changes and provide recommendations for permanently renaming the Department.",
     "theme_ids": [
-      "national-security"
+      "military-readiness-force-structure",
+      "government-reorganization",
+      "american-heritage-patriotism"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "armed-forces-personnel"
+        "veterans",
+        "military-personnel-active-duty",
+        "military-personnel-reserves-guard",
+        "military-reservists-called-to-active-duty"
       ],
       "negative_ids": []
     },
     "potential_concerns": [
-      "The use of the term \"Department of War\" may be viewed as unnecessarily aggressive and could raise diplomatic tensions or alarm international partners.",
-      "Maintaining statutory references to the Department of Defense while using the secondary title \"Department of War\" could cause confusion in legal, administrative, and international contexts.",
-      "Implementing dual naming might complicate interagency communications and legal interpretations during wartime or defense-related decision-making.",
-      "The order's emphasis on military readiness to \"fight and win wars\" rather than just defense could shift policy priorities and provoke debate over the U.S. defense posture.",
-      "Potential resistance from within the Department and from Congress regarding the renaming and related legislative actions could delay or obstruct implementation."
+      "The reintroduction of the historic 'Department of War' title may be perceived by veterans and active military personnel as signaling a more aggressive military posture, potentially affecting morale and public perception.",
+      "Using war-centric terminology could complicate recruitment and retention for military personnel reserves and active duty by emphasizing combat readiness over defense, possibly leading to increased anxiety or resistance among service members.",
+      "The optional use of secondary titles might create confusion internally within the Department and externally among allied governments and international partners, impacting communication clarity and diplomatic relations.",
+      "Recommendations for permanently renaming the Department may trigger legislative and bureaucratic delays, causing uncertainty and instability for military personnel categories during the transition period."
     ],
-    "enriched_at": "2025-12-09T02:47:48.759Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:01:11.082Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

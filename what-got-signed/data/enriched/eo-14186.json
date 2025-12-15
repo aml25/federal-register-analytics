@@ -13,32 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-03/pdf/2025-02182.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/03/2025-02182.txt",
   "enrichment": {
-    "summary": "This executive order directs the Department of Defense to develop and deploy a next-generation missile defense system to protect the United States against ballistic, hypersonic, cruise missiles, and other advanced aerial threats. It emphasizes cooperation with allied countries to enhance missile defense capabilities and requires plans for rapid implementation, including space-based interceptors and secure supply chains to ensure national security.",
+    "summary": "This executive order directs the Department of Defense to develop and deploy a next-generation missile defense system to protect the United States from advanced missile threats, including ballistic, hypersonic, and cruise missiles. It calls for accelerated development of space-based sensors and interceptors, cooperation with allies on missile defense, and securing the supply chain for these technologies.",
     "theme_ids": [
-      "national-security",
-      "technology-development",
-      "supply-chain-security",
-      "space-policy",
-      "foreign-policy"
+      "missile-defense",
+      "defense-industrial-base",
+      "critical-infrastructure-protection",
+      "national-security-information-classification"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "armed-forces-personnel",
-        "tech-industry"
+        "military-personnel-active-duty",
+        "defense-industry-workers"
       ],
       "negative_ids": [
-        "foreign-suppliers",
-        "foreign-manufacturers"
+        "large-corporation-employees",
+        "taxpayers"
       ]
     },
     "potential_concerns": [
-      "The rapid development and deployment of advanced missile defense technology may lead to significant budgetary pressures and competition for resources within the Department of Defense.",
-      "Increased reliance on space-based interceptors and sensors raises concerns about the vulnerability of space assets to attack or interference.",
-      "Heightened focus on missile defense could escalate arms races or tensions with peer and near-peer adversaries.",
-      "Implementation challenges might arise from coordinating with allies and partners who have differing technological capabilities and strategic interests.",
-      "The order lacks explicit safeguards related to civil oversight and transparency in deployment decisions, which could raise accountability issues."
+      "The accelerated development and deployment of advanced missile defenses may strain the defense-industrial base, potentially causing workforce shortages or supply chain disruptions impacting defense-industry-workers.",
+      "Heavy investment in space-based sensors and interceptors risks large budget overruns, imposing significant costs on taxpayers without guaranteed success.",
+      "Enhanced missile defense capabilities might provoke increased strategic tensions with peer adversaries, potentially escalating threats to military-personnel-active-duty and allied populations.",
+      "Supply chain security requirements could restrict subcontracting and sourcing options, negatively affecting large-corporation-employees in the defense sector.",
+      "The rapid push for novel technologies in critical infrastructure may lead to insufficient testing and vulnerabilities, raising risks of failure during an actual missile attack and undermining the protection of U.S. citizens."
     ],
-    "enriched_at": "2025-12-09T02:39:52.670Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:31:50.059Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -1,0 +1,41 @@
+{
+  "document_number": "2015-05677",
+  "executive_order_number": "13692",
+  "title": "Blocking Property and Suspending Entry of Certain Persons Contributing to the Situation in Venezuela",
+  "abstract": null,
+  "signing_date": "2015-03-08",
+  "publication_date": "2015-03-11",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2015/03/11/2015-05677/blocking-property-and-suspending-entry-of-certain-persons-contributing-to-the-situation-in-venezuela",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-03-11/pdf/2015-05677.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/03/11/2015-05677.txt",
+  "enrichment": {
+    "summary": "This executive order blocks the property and suspends the entry into the United States of certain Venezuelan officials and others involved in undermining democracy, committing human rights abuses, and engaging in corruption related to the situation in Venezuela. It aims to pressure those responsible by imposing economic sanctions and travel restrictions to address threats to U.S. national security and foreign policy interests.",
+    "theme_ids": [
+      "sanctions-country-specific",
+      "human-rights-international",
+      "venezuela",
+      "national-emergencies",
+      "travel-restrictions-bans"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "citizens-of-specific-countries-by-eo-designation"
+      ],
+      "negative_ids": [
+        "foreign-government-officials"
+      ]
+    },
+    "potential_concerns": [
+      "Sanctions and travel bans targeting Venezuelan officials (foreign-government-officials) may escalate diplomatic tensions and reduce opportunities for dialogue, impacting broader U.S.-Venezuela relations.",
+      "Blocked Venezuelan officials may respond with increased repression against antigovernment protestors, possibly worsening human rights conditions contrary to the order's intent.",
+      "Travel restrictions could impede legitimate international travel or humanitarian efforts involving Venezuelan nationals (citizens-of-specific-countries-by-eo-designation) not subject to sanctions, raising concerns about overreach.",
+      "The designation criteria may inadvertently affect individuals with tenuous links to sanctioned persons or entities, risking unfair restrictions on their property or movement."
+    ],
+    "enriched_at": "2025-12-15T02:15:40.822Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

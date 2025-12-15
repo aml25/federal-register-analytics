@@ -1,0 +1,41 @@
+{
+  "document_number": "2016-29169",
+  "executive_order_number": "13750",
+  "title": "Providing for the Appointment of Alumni of the Fulbright U.S. Student Program, the Benjamin A. Gilman International Scholarship Program, and the Critical Language Scholarship Program to the Competitive Service",
+  "abstract": null,
+  "signing_date": "2016-11-29",
+  "publication_date": "2016-12-02",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2016/12/02/2016-29169/providing-for-the-appointment-of-alumni-of-the-fulbright-us-student-program-the-benjamin-a-gilman",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2016-12-02/pdf/2016-29169.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2016/12/02/2016-29169.txt",
+  "enrichment": {
+    "summary": "This executive order allows federal agencies to hire alumni of three specific U.S. academic exchange programs—the Fulbright, Gilman, and Critical Language Scholarship programs—without using the usual competitive hiring process. The goal is to retain highly skilled individuals with advanced language and cultural knowledge that benefits the federal government’s work.",
+    "theme_ids": [
+      "federal-hiring",
+      "federal-workforce-management",
+      "foreign-aid"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "college-university-students",
+        "graduate-professional-students",
+        "u-s-citizens",
+        "federal-employees-civil-servants"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The non-competitive hiring advantage for alumni of the Fulbright, Gilman, and CLS programs may reduce hiring opportunities for equally qualified but non-participating U.S. citizens, potentially impacting merit-based fairness in federal hiring.",
+      "There may be unintended disparities if these language and cultural exchange programs lack demographic diversity, potentially disadvantaging racial/ethnic minority groups or lower-income applicants who have less access to such programs.",
+      "Federal agencies might prioritize foreign language skills over other critical competencies, possibly misaligning workforce skills and agency mission needs, especially if oversight of qualification standards is insufficient.",
+      "The order’s emphasis on U.S. citizens excludes lawful permanent residents and other non-citizen populations who may also possess valuable language and cultural skills, limiting the talent pool.",
+      "Delays or bureaucratic challenges in certification issuance by the Department of State could hinder timely appointments within the allowed hiring period, impacting alumni’s employment prospects."
+    ],
+    "enriched_at": "2025-12-15T02:17:37.117Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,29 @@
+<div class="back-to-top-wrapper">
+  <wa-button size="small" id="back-to-top">
+    <wa-icon slot="start" name="arrow-up"></wa-icon>
+    Back to top
+  </wa-button>
+</div>
+
+<script>
+(function() {
+  const backToTop = document.getElementById('back-to-top');
+  const backToTopWrapper = document.querySelector('.back-to-top-wrapper');
+
+  if (backToTop) {
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  if (backToTopWrapper) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > window.innerHeight) {
+        backToTopWrapper.classList.add('visible');
+      } else {
+        backToTopWrapper.classList.remove('visible');
+      }
+    });
+  }
+})();
+</script>

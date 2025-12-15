@@ -1,0 +1,39 @@
+{
+  "document_number": "E9-26834",
+  "executive_order_number": "13517",
+  "title": "Amendments to Executive Orders 13183 and 13494",
+  "abstract": null,
+  "signing_date": "2009-10-30",
+  "publication_date": "2009-11-05",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/11/05/E9-26834/amendments-to-executive-orders-13183-and-13494",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-11-05/pdf/E9-26834.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/11/05/E9-26834.txt",
+  "enrichment": {
+    "summary": "This executive order updates two previous orders by improving the federal government's treatment of Puerto Rico, focusing on job creation, education, health care, clean energy, and economic development on the islands. It also clarifies allowable costs related to labor management in federal contracts. Finally, it outlines reporting requirements for a Task Force that advises the President and Congress on matters affecting Puerto Rico.",
+    "theme_ids": [
+      "economic-competitiveness",
+      "renewable-energy",
+      "federal-labor-management-relations"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "puerto-rico-residents",
+        "renewable-energy-workers",
+        "union-members"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to promote clean energy and economic development in Puerto Rico may face challenges due to limited local infrastructure or regulatory hurdles, impacting renewable-energy-workers' job creation prospects.",
+      "The clarification of allowable labor management costs in federal contracts could lead to increased administrative burdens for contractors operating in Puerto Rico, indirectly affecting union-members negotiating labor conditions.",
+      "Improvements in federal treatment and programs aimed at Puerto Rico residents may raise expectations that could strain federal resources or lead to uneven implementation across other U.S. territories.",
+      "The focus on job creation and health care initiatives could unintentionally overlook disadvantaged subpopulations within Puerto Rico residents if tailored outreach and equity considerations are not explicitly incorporated."
+    ],
+    "enriched_at": "2025-12-15T01:57:25.902Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

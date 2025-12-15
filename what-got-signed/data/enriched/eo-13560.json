@@ -1,0 +1,42 @@
+{
+  "document_number": "2010-31878",
+  "executive_order_number": "13560",
+  "title": "White House Council for Community Solutions",
+  "abstract": null,
+  "signing_date": "2010-12-14",
+  "publication_date": "2010-12-17",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2010/12/17/2010-31878/white-house-council-for-community-solutions",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2010-12-17/pdf/2010-31878.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2010/12/17/2010-31878.txt",
+  "enrichment": {
+    "summary": "This executive order establishes the White House Council for Community Solutions to promote and support effective, innovative community initiatives across the country. The Council identifies successful community solutions, encourages collaboration among various sectors, and provides recommendations to the President to foster civic engagement and social innovation.",
+    "theme_ids": [
+      "federal-advisory-committees",
+      "social-media-platform-policy",
+      "civic-participation",
+      "volunteerism-national-service"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "nonprofit-organizations",
+        "volunteers-national-service-participants",
+        "state-governments",
+        "local-governments",
+        "college-university-students"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The Council's recommendations may favor well-established nonprofits and community groups, potentially overlooking smaller or emerging organizations, limiting equitable support.",
+      "Increased emphasis on civic participation and volunteerism could unintentionally pressure college-university-students and volunteers-national-service-participants to engage beyond their capacity, risking burnout or exclusion.",
+      "Cross-sector collaboration initiatives involving state-governments and local-governments may lead to bureaucratic delays or conflicts that slow down community solutions implementation.",
+      "Without clear safeguards, the promotion of social innovation via social-media-platform-policy could inadvertently marginalize communities with limited digital access, reducing inclusive civic engagement."
+    ],
+    "enriched_at": "2025-12-15T02:05:44.912Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

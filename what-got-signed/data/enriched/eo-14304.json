@@ -13,30 +13,33 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-06-11/pdf/2025-10800.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/06/11/2025-10800.txt",
   "enrichment": {
-    "summary": "This executive order directs the Federal Aviation Administration (FAA) to update and remove outdated regulations that currently prohibit supersonic flight over land, aiming to enable safe, quieter, and more efficient supersonic air travel in the United States. It also coordinates federal research efforts and promotes international cooperation to set noise and safety standards for civil supersonic aircraft.",
+    "summary": "This executive order directs the Federal Aviation Administration to update rules to allow and regulate supersonic flight over land, which has been banned for decades due to noise concerns. It also coordinates government research to advance supersonic technology, and promotes international cooperation to align regulations for safe and efficient supersonic air travel.",
     "theme_ids": [
-      "regulatory-reform",
-      "federal-research-coordination",
-      "technology-development",
-      "foreign-policy"
+      "regulatory-reform-deregulation",
+      "science-and-technology-policy",
+      "air-traffic-aviation-system",
+      "international-agreements-treaties"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry",
-        "scientific-researchers"
+        "entrepreneurs-startups",
+        "technology-workers",
+        "large-corporation-employees",
+        "airline-aviation-workers"
       ],
       "negative_ids": [
-        "foreign-manufacturers"
+        "urban-communities",
+        "suburban-communities",
+        "environmental-justice-communities"
       ]
     },
     "potential_concerns": [
-      "Relaxing supersonic flight restrictions may increase noise pollution and disturb communities, leading to local opposition.",
-      "Environmental groups may worry that expedited approvals could weaken environmental review and protections.",
-      "Foreign countries might disagree with U.S. standards, complicating international regulatory alignment and operations.",
-      "Technological and safety challenges in certifying new supersonic aircraft could slow implementation or risk accidents.",
-      "Industry competition may disadvantage companies that lacked early access to research funding or regulatory input."
+      "Relaxing supersonic flight regulations may increase noise pollution over urban and suburban communities, raising environmental justice concerns for populations already burdened by industrial or aviation noise.",
+      "Advancement and deregulation of supersonic technology could disproportionately benefit well-funded entrepreneurs and large aviation corporations while limiting access or affordability for broader populations.",
+      "International regulatory coordination challenges under the theme of international-agreements-treaties may create barriers for startups and technology workers attempting to scale supersonic innovations globally.",
+      "Operational integration of supersonic aircraft into the National Airspace System could create air-traffic management complexity affecting airline and aviation workers, potentially increasing safety risks during transition periods."
     ],
-    "enriched_at": "2025-12-09T02:45:33.758Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T07:38:28.850Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

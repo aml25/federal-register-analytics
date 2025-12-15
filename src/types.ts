@@ -135,7 +135,7 @@ export interface LLMEnrichmentResponse {
   potential_concerns: string[];
 }
 
-// First pass response (summary, themes, concerns - no populations)
+// First pass response (summary, themes - no populations)
 export interface LLMFirstPassResponse {
   summary: string;
   existing_theme_ids: string[];
@@ -153,6 +153,37 @@ export interface LLMPopulationsResponse {
     positive: ProposedPopulation[];
     negative: ProposedPopulation[];
   };
+}
+
+// =============================================================================
+// TAXONOMY-BASED LLM RESPONSE TYPES (Two-pass with static taxonomy)
+// =============================================================================
+
+// Pass 1: Summary + Themes (using static taxonomy)
+export interface LLMTaxonomyPass1Response {
+  summary: string;
+  theme_ids: string[];
+  suggested_themes: SuggestedTaxonomyItem[];
+}
+
+// Pass 2: Populations + Concerns (using static taxonomy + themes from Pass 1)
+export interface LLMTaxonomyPass2Response {
+  population_ids: {
+    positive: string[];
+    negative: string[];
+  };
+  suggested_populations: {
+    positive: SuggestedTaxonomyItem[];
+    negative: SuggestedTaxonomyItem[];
+  };
+  potential_concerns: string[];
+}
+
+// Suggestion for a new taxonomy item (not auto-added, saved to markdown)
+export interface SuggestedTaxonomyItem {
+  name: string;
+  category: string;
+  justification: string;
 }
 
 export interface ProposedTheme {

@@ -13,29 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-08-24/pdf/2021-18306.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/08/24/2021-18306.txt",
   "enrichment": {
-    "summary": "This executive order blocks the property and interests of certain foreign persons involved with specific Russian energy export pipelines, restricting U.S. persons from engaging in financial or other transactions with them. It enforces sanctions related to Russian energy infrastructure to address national security concerns and supports visa and admission restrictions consistent with these sanctions.",
+    "summary": "This executive order blocks the property and interests of certain foreign persons linked to Russian energy export pipelines, prohibiting U.S. persons from engaging in transactions with them. It implements sanctions and visa restrictions to support U.S. national security interests and prevent harmful activities related to these pipelines.",
     "theme_ids": [
-      "national-security",
-      "trade-policy",
-      "foreign-policy",
-      "humanitarian-economic-support"
+      "economic-sanctions",
+      "russia",
+      "energy-independence-security",
+      "national-emergencies"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "sanctioned-persons-and-affiliates"
+        "energy-sector-workers-oil-gas-coal",
+        "working-age-adults"
       ],
       "negative_ids": [
-        "foreign-suppliers"
+        "corporations-businesses",
+        "foreign-nationals-general"
       ]
     },
     "potential_concerns": [
-      "Sanctions may disrupt global energy markets, potentially leading to increased energy costs or supply instability.",
-      "The order could escalate tensions between the U.S. and Russia, affecting broader diplomatic relations.",
-      "Implementation challenges may arise in accurately identifying and enforcing restrictions on all relevant foreign persons and entities.",
-      "U.S. businesses with indirect ties to affected entities might face compliance difficulties or financial losses.",
-      "The measure could lead to retaliation against U.S. interests or affect allied nations involved in related energy projects."
+      "Sanctioning foreign persons involved in Russian energy pipelines could disrupt global energy supply chains, negatively impacting energy-sector-workers-oil-gas-coal and working-age-adults reliant on stable energy markets.",
+      "Blocking property and restricting transactions may lead to retaliatory economic actions by Russia, affecting U.S. corporations-businesses engaged in energy or related sectors.",
+      "Visa restrictions on involved foreign nationals might complicate diplomatic relations and harm foreign-nationals-general seeking legitimate business or travel in the U.S.",
+      "There is a risk that limitations on transactions may inadvertently disrupt lawful contracts or partnerships, harming U.S. businesses and their employees downstream.",
+      "The sanctions could increase global energy prices, placing an economic burden on working-age-adults, especially those in energy-intensive industries or lower-income brackets."
     ],
-    "enriched_at": "2025-12-09T03:53:19.624Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T02:32:24.926Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -13,25 +13,22 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-13/pdf/2025-00603.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/13/2025-00603.txt",
   "enrichment": {
-    "summary": "This executive order establishes a clear order of succession for who will serve as Acting Secretary of Homeland Security if the current Secretary, Deputy Secretary, Under Secretary for Management, and other designated officials are unable to serve. It also revokes prior conflicting succession orders and confirms the President's discretion to deviate from this order as allowed by law.",
+    "summary": "This executive order sets the official sequence of officials who will take over as acting Secretary of Homeland Security if the Secretary and other key leaders are unable to serve. It clarifies exceptions and revokes previous related orders to ensure a clear line of succession within the Department of Homeland Security.",
     "theme_ids": [
-      "national-security",
-      "federal-agency-management"
+      "homeland-security",
+      "order-of-succession"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "coast-guard-personnel"
-      ],
+      "positive_ids": [],
       "negative_ids": []
     },
     "potential_concerns": [
-      "Ambiguities in eligibility and acting capacity rules could delay prompt succession during a crisis.",
-      "The order allows broad presidential discretion which may create uncertainty or political conflicts in succession scenarios.",
-      "Officials serving in an acting capacity are excluded from succession, potentially limiting available experienced personnel.",
-      "Revoking previous succession orders could cause transitional confusion if not clearly communicated to stakeholders.",
-      "Implementation depends on availability of appropriations, which might restrict timely execution of duties during emergencies."
+      "The established order of succession could concentrate decision-making power within a small set of DHS officials, potentially sidelining other senior leaders and impacting agency accountability.",
+      "If the designated succession includes officials who are serving in acting capacities or lack eligibility under the Federal Vacancies Reform Act, this could create legal ambiguity and operational disruptions during critical homeland security incidents.",
+      "The rigidity of the succession order may not adequately address rapidly evolving threat environments, possibly delaying effective leadership response that affects national security and public safety.",
+      "Lack of transparency about the criteria for selecting lower-tier officials in the succession order might raise concerns among related communities about potential politicization or bias influencing homeland security priorities."
     ],
-    "enriched_at": "2025-12-09T02:37:10.941Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:39:20.880Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

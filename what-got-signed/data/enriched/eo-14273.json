@@ -13,31 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-18/pdf/2025-06837.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/18/2025-06837.txt",
   "enrichment": {
-    "summary": "This executive order aims to lower prescription drug prices for American patients by restoring and improving policies from the previous administration, enhancing competition, increasing transparency, and reforming Medicare and Medicaid drug pricing programs. It also seeks to improve access to affordable life-saving medications, promote innovation, and reduce costly care for seniors through various regulatory and policy changes.",
+    "summary": "This executive order directs federal agencies to take multiple steps to lower prescription drug prices for American patients, including improving Medicare drug price negotiation, increasing drug importation, promoting competition, and enhancing price transparency. It aims to restore and build upon policies from the previous administration to make prescription medications more affordable and accessible, especially for seniors and low-income individuals.",
     "theme_ids": [
-      "pharmaceutical-supply-chain",
-      "regulatory-reform",
-      "public-health-promotion"
+      "prescription-drug-pricing",
+      "medicare",
+      "medicaid",
+      "healthcare-competition-markets"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "seniors",
-        "low-income-patients",
-        "pharmaceutical-manufacturers"
+        "medicare-beneficiaries",
+        "medicaid-beneficiaries",
+        "low-income-individuals-families",
+        "seniors-elderly",
+        "individuals-with-chronic-illnesses"
       ],
       "negative_ids": [
-        "medicare-part-d-insurance-companies",
-        "pharmaceutical-manufacturers"
+        "corporations-businesses"
       ]
     },
     "potential_concerns": [
-      "Accelerating drug approvals and reclassification could risk patient safety if regulatory safeguards are weakened.",
-      "Aligning pricing rules between small molecule drugs and biologics might reduce incentives for certain pharmaceutical innovations.",
-      "Efforts to reduce premiums and costs could disrupt existing Medicare Part D plan markets and result in insurer bailouts.",
-      "Greater importation of drugs may increase risks related to drug quality or supply chain security if not properly managed.",
-      "Recommendations aimed at reducing anti-competitive practices may face legal challenges or resistance from the pharmaceutical industry."
+      "Efforts to increase Medicare negotiation power and align drug pricing policies may lead to pushback or reduced innovation incentives among pharmaceutical corporations, potentially affecting the availability of new medications.",
+      "Streamlining drug importation programs to lower costs could raise questions about drug safety and quality, impacting vulnerable populations such as seniors and low-income individuals who rely on affordable medications.",
+      "Reforms aimed at reducing Medicare Part D premiums might inadvertently reduce coverage choices for seniors, potentially limiting access to specific drugs or pharmacy networks.",
+      "Changes to Medicaid drug payment and rebate systems could complicate state program budgets and operations, potentially affecting Medicaid beneficiaries' access to medications in the short term."
     ],
-    "enriched_at": "2025-12-09T02:44:04.479Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:19:41.553Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

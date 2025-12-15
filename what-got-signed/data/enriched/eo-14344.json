@@ -13,27 +13,29 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-09-03/pdf/2025-16928.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/09/03/2025-16928.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to prioritize traditional and classical architecture in the design of federal public buildings, aiming to make these buildings more beautiful, dignified, and reflective of American civic values. It requires the General Services Administration to update its policies, emphasize classical design experience in selecting architects, and involve local input to ensure federal buildings better serve and inspire the public.",
+    "summary": "This executive order directs federal agencies to prioritize traditional and classical architectural styles for new federal buildings and renovations, especially in Washington, D.C., aiming to make public buildings more beautiful, dignified, and reflective of American heritage. It requires the General Services Administration to update its policies accordingly and involve architects skilled in classical design to better serve public preferences.",
     "theme_ids": [
-      "federal-workforce",
-      "federal-property-management"
+      "government-efficiency",
+      "american-heritage-patriotism",
+      "arts-and-humanities"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "architectural-professionals"
+        "construction-workers",
+        "urban-communities"
       ],
       "negative_ids": [
-        "modernist-architectural-practitioners"
+        "federal-contractors"
       ]
     },
     "potential_concerns": [
-      "This order could limit architectural innovation and diversity by strongly favoring classical and traditional styles over modern designs.",
-      "Local architectural preferences might be overlooked outside the District of Columbia, despite the stated goal of regional respect.",
-      "Requiring classical design experience may reduce the pool of qualified architects, potentially increasing costs or delaying projects.",
-      "The subjective criteria of 'beauty' and 'dignity' might lead to inconsistent or politicized application of the order.",
-      "Additional administrative requirements, such as notifications to the President and new hiring standards, could slow project approvals and increase bureaucratic complexity."
+      "The EO’s prioritization of traditional and classical architecture may disadvantage federal contractors and architectural firms specializing in modern or contemporary styles, potentially reducing competition and innovation in federal building projects.",
+      "Mandating classical architecture, especially as default in Washington, D.C., could increase construction costs or timeline delays, negatively affecting construction workers’ job stability and economic efficiency (government-efficiency theme).",
+      "Urban communities, particularly in the National Capital Region, may face limitations on diverse architectural expressions, potentially restricting the region’s cultural and aesthetic evolution beyond historical styles (arts-and-humanities theme).",
+      "The requirement for architects with classical/traditional experience might narrow the pool of designers, inadvertently excluding younger or emerging architects skilled in modern design, potentially impacting workforce diversity and opportunity.",
+      "The focus on a narrow set of architectural styles risks alienating parts of the American public who may value contemporary or innovative civic architecture, complicating the EO’s goal to reflect broad American heritage and preferences (american-heritage-patriotism theme)."
     ],
-    "enriched_at": "2025-12-09T02:47:40.199Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:01:38.599Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

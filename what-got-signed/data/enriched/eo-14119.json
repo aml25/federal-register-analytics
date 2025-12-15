@@ -13,32 +13,35 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-03-11/pdf/2024-05220.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/03/11/2024-05220.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to expand and promote Registered Apprenticeship programs to create more equitable and accessible pathways for workforce development and Federal employment. It also reestablishes Labor-Management Forums across the executive branch to foster cooperative labor relations and improve agency effectiveness.",
+    "summary": "This executive order directs federal agencies to increase the use of Registered Apprenticeship programs to provide paid training and career development opportunities, especially for underserved workers, while also encouraging cooperative labor-management forums to improve workplace relations and productivity. It establishes an interagency working group to coordinate these efforts, integrate apprenticeship opportunities into federal hiring, grants, and contracts, and promote equity and workforce development across the federal government.",
     "theme_ids": [
-      "federal-workforce",
-      "labor-relations",
+      "apprenticeships-vocational-training",
+      "federal-workforce-management",
+      "federal-labor-management-relations",
       "workforce-development",
-      "federal-procurement-policy",
-      "economic-development"
+      "dei-diversity-equity-inclusion"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "american-workers",
-        "underserved-communities"
+        "federal-employees-civil-servants",
+        "union-members",
+        "individuals-experiencing-poverty",
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "women",
+        "working-age-adults",
+        "veterans"
       ],
-      "negative_ids": [
-        "private-sector-employers"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Expanding apprenticeship requirements in federal grants and contracts may increase compliance burdens and costs for contractors and grantees, potentially disadvantaging small businesses and non-union employers.",
-      "Focusing hiring and career advancement on Registered Apprenticeships might disadvantage workers who do not participate in such programs or who come from non-traditional backgrounds.",
-      "Implementation depends on agency coordination and sufficient appropriations, so resource constraints or uneven adoption could limit effectiveness.",
-      "Reestablishing Labor-Management Forums may create tensions in agencies where labor-management relations are contentious or where unions have limited presence.",
-      "The order’s emphasis on apprenticeship and apprenticeship-aligned hiring might inadvertently reduce flexibility in agency hiring practices or slow recruitment in urgent positions."
+      "The shift toward Registered Apprenticeships may inadvertently create barriers for individuals in underserved communities (e.g., african-americans-black-americans, hispanic-latino-americans, women) if recruitment and outreach efforts are not sufficiently inclusive or culturally competent, undermining workforce equity goals.",
+      "Federal employees participating in Registered Apprenticeship programs may experience challenges balancing apprenticeship requirements with their existing job duties, potentially causing workload strain or impacting retention.",
+      "Union members might perceive the expansion of Registered Apprenticeships as a threat to traditional hiring and seniority systems, creating tension in labor-management relations despite the goal of cooperative forums.",
+      "Agencies’ incorporation of Registered Apprenticeships into procurement and grants may increase administrative burdens on contractors and grantees who must comply with new workforce requirements, potentially impacting project costs and timelines.",
+      "The policy’s focus on apprenticeship pathways within federal hiring might unintentionally limit opportunities for non-apprenticeship qualified applicants, affecting working-age adults and veterans seeking federal employment through other traditional channels."
     ],
-    "enriched_at": "2025-12-09T01:35:40.016Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:41:09.157Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

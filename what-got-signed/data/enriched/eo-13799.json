@@ -1,0 +1,43 @@
+{
+  "document_number": "2017-10003",
+  "executive_order_number": "13799",
+  "title": "Establishment of Presidential Advisory Commission on Election Integrity",
+  "abstract": null,
+  "signing_date": "2017-05-11",
+  "publication_date": "2017-05-16",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/05/16/2017-10003/establishment-of-presidential-advisory-commission-on-election-integrity",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-05-16/pdf/2017-10003.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/05/16/2017-10003.txt",
+  "enrichment": {
+    "summary": "This executive order creates a Presidential Advisory Commission on Election Integrity to study and report on the registration and voting processes used in federal elections, identifying practices that either strengthen or undermine public confidence and detecting vulnerabilities to improper or fraudulent voting. The commission is chaired by the Vice President and consists of appointed members with relevant expertise, and it will conclude shortly after delivering its advisory report to the President.",
+    "theme_ids": [
+      "presidential-commissions-task-forces",
+      "voting-rights",
+      "federal-advisory-committees"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens"
+      ],
+      "negative_ids": [
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "native-americans-indigenous-peoples",
+        "naturalized-citizens",
+        "low-income-individuals-families"
+      ]
+    },
+    "potential_concerns": [
+      "The Commission's focus on identifying 'fraudulent voter registrations' and 'improper voting' may lead to increased scrutiny and potential disenfranchisement of racial and ethnic minority groups such as African Americans, Hispanic/Latino Americans, and Native Americans who historically face voting access challenges.",
+      "Low-income individuals and families may experience greater barriers to voting if the commission's recommendations result in stricter voter registration requirements or purging of voter rolls, thereby undermining voting access rather than enhancing integrity.",
+      "Naturalized citizens might be disproportionately impacted by aggressive investigations into voter eligibility, raising concerns about privacy and potential intimidation that could suppress their participation in federal elections.",
+      "The advisory commission’s work may unintentionally promote policies that reduce public confidence among certain populations rather than strengthen it, particularly if findings are used to justify restrictive voting measures under the guise of combating fraud despite low evidence of widespread voter fraud."
+    ],
+    "enriched_at": "2025-12-15T02:25:56.727Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

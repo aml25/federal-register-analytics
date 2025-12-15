@@ -1,0 +1,44 @@
+{
+  "document_number": "2012-24374",
+  "executive_order_number": "13627",
+  "title": "Strengthening Protections Against Trafficking in Persons in Federal Contracts",
+  "abstract": null,
+  "signing_date": "2012-09-25",
+  "publication_date": "2012-10-02",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2012/10/02/2012-24374/strengthening-protections-against-trafficking-in-persons-in-federal-contracts",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2012-10-02/pdf/2012-24374.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2012/10/02/2012-24374.txt",
+  "enrichment": {
+    "summary": "This executive order strengthens protections against human trafficking in federal contracts by enforcing a zero-tolerance policy for trafficking-related activities by contractors and subcontractors. It requires contractors to implement compliance plans, certify no involvement in trafficking, and allows government agencies to monitor and enforce these requirements to protect vulnerable workers and ensure taxpayer dollars are not supporting trafficking.",
+    "theme_ids": [
+      "human-trafficking",
+      "worker-rights-protections",
+      "federal-workforce-management",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "human-trafficking-victims",
+        "federal-contractors",
+        "visa-holders-work-student-tourist",
+        "undocumented-immigrants"
+      ],
+      "negative_ids": [
+        "federal-contractors"
+      ]
+    },
+    "potential_concerns": [
+      "The order may increase administrative and compliance burdens on federal contractors, potentially raising costs and complicating contract performance.",
+      "Vulnerable workers who are visa holders or undocumented immigrants might face challenges in reporting trafficking abuses due to fear of retaliation or immigration consequences.",
+      "Strict certifications and auditing requirements might lead some contractors to limit hiring from populations perceived at higher trafficking risk, inadvertently reducing job opportunities for marginalized workers.",
+      "Ensuring consistent interagency coordination and effective monitoring could be difficult, potentially allowing some trafficking activities to go undetected despite the order.",
+      "Implementation gaps could result in uneven protections across industries or geographic areas, leaving some human trafficking victims insufficiently safeguarded."
+    ],
+    "enriched_at": "2025-12-15T02:10:45.935Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

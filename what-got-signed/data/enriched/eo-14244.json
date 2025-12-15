@@ -13,29 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-26/pdf/2025-05291.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/26/2025-05291.txt",
   "enrichment": {
-    "summary": "This executive order revokes a previous order that criticized the law firm Paul Weiss and instead recognizes the firm's commitment to remedial actions, such as adopting political neutrality, merit-based hiring, and increasing pro bono legal services for various causes including veterans and justice fairness. It encourages hope that the legal profession can focus more on justice and equality to benefit the nation.",
+    "summary": "This executive order revokes a previous order concerning the law firm Paul Weiss and acknowledges the firm's commitment to change, including adopting political neutrality, merit-based hiring, and dedicating significant pro bono legal services. It aims to promote fairness, justice, and unity in the legal profession, highlighting the firm’s pledge to support veterans and combat anti-Semitism.",
     "theme_ids": [
-      "federal-workforce",
-      "veterans-affairs-policy",
-      "legal-profession-policy"
+      "civil-rights-enforcement",
+      "anti-semitism",
+      "veterans-healthcare",
+      "dei-diversity-equity-inclusion",
+      "revocation-of-previous-executive-orders"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "military-veterans",
-        "average-americans"
+        "veterans",
+        "jews-jewish-americans"
       ],
       "negative_ids": [
-        "law-firm-employees"
+        "women"
       ]
     },
     "potential_concerns": [
-      "The order's revocation of a previous critical order may be seen as prematurely trusting the law firm's commitments without independent verification or enforcement mechanisms.",
-      "Removing scrutiny on Paul Weiss could allow continued problematic practices if the firm does not fully implement promised reforms.",
-      "The emphasis on abandoning diversity, equity, and inclusion policies in favor of 'merit-based' hiring may face backlash over potentially undermining workplace equity efforts.",
-      "Relying on voluntary pro bono commitments tied to a firm’s goodwill could reduce accountability compared to formal regulatory or oversight approaches.",
-      "The order lacks specific mechanisms to monitor or enforce the firm’s stated policy changes, possibly limiting practical impact."
+      "The revocation of diversity, equity, and inclusion policies in favor of merit-based hiring may reduce workplace opportunities and support for historically marginalized groups, including women and multiracial Americans.",
+      "The firm’s political neutrality requirement could limit advocacy or legal representation for causes aligned with civil rights enforcement, potentially impacting the advancement of equality initiatives.",
+      "While the order dedicates pro bono services to veterans and combating anti-Semitism, there could be unintended neglect of broader civil rights issues affecting other racial and ethnic minorities.",
+      "Relying on voluntary firm commitments without enforceable legal mechanisms might result in inconsistent implementation and limited accountability in fulfilling pro bono and fairness goals."
     ],
-    "enriched_at": "2025-12-09T02:42:32.559Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:23:36.624Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -1,0 +1,45 @@
+{
+  "document_number": "2019-07656",
+  "executive_order_number": "13868",
+  "title": "Promoting Energy Infrastructure and Economic Growth",
+  "abstract": null,
+  "signing_date": "2019-04-10",
+  "publication_date": "2019-04-15",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/04/15/2019-07656/promoting-energy-infrastructure-and-economic-growth",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-04-15/pdf/2019-07656.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/04/15/2019-07656.txt",
+  "enrichment": {
+    "summary": "This executive order aims to support the growth of the U.S. energy sector by streamlining the permitting process for energy infrastructure projects, updating safety regulations for natural gas facilities and transportation, and encouraging federal cooperation to remove barriers that limit energy distribution. It also calls for agency reviews and reports on policy challenges affecting energy investments, infrastructure rights-of-way renewals, and economic growth in energy-producing regions like Appalachia.",
+    "theme_ids": [
+      "energy-infrastructure",
+      "infrastructure-permitting",
+      "oil-and-gas-development",
+      "environmental-regulation",
+      "workforce-development"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "energy-sector-workers-oil-gas-coal",
+        "union-members",
+        "rural-communities",
+        "specific-state-populations"
+      ],
+      "negative_ids": [
+        "environmental-justice-communities",
+        "tribal-communities-reservations"
+      ]
+    },
+    "potential_concerns": [
+      "Streamlining permitting and reducing environmental regulations may increase risks or environmental burdens for tribal communities and environmental justice communities located near new or expanded energy infrastructure projects.",
+      "Updating safety regulations to expedite LNG transport and infrastructure construction may raise safety concerns for energy-sector workers and nearby rural communities if risk assessments are insufficiently robust.",
+      "Promoting rapid development of oil and natural gas infrastructure could disproportionately benefit specific energy-producing states, potentially exacerbating regional economic disparities for other state populations.",
+      "Efforts to limit duplicative environmental reviews and reduce state and tribal input on water quality certifications could weaken local oversight and lead to conflicts with tribal sovereignty and community environmental goals."
+    ],
+    "enriched_at": "2025-12-15T07:26:54.634Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

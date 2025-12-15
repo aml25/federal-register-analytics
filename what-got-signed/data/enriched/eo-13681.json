@@ -1,0 +1,46 @@
+{
+  "document_number": "2014-25439",
+  "executive_order_number": "13681",
+  "title": "Improving the Security of Consumer Financial Transactions",
+  "abstract": null,
+  "signing_date": "2014-10-17",
+  "publication_date": "2014-10-23",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2014/10/23/2014-25439/improving-the-security-of-consumer-financial-transactions",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2014-10-23/pdf/2014-25439.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2014/10/23/2014-25439.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to improve the security of financial transactions by adopting enhanced payment card technologies like chip-and-PIN. It also mandates improvements in identity theft remediation for consumers and requires better authentication for online federal services to protect personal data.",
+    "theme_ids": [
+      "consumer-fraud-market-integrity",
+      "cybersecurity-civilian",
+      "government-it-modernization",
+      "data-privacy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "consumers",
+        "low-income-individuals-families",
+        "medicaid-beneficiaries",
+        "social-security-beneficiaries",
+        "federal-employees-civil-servants"
+      ],
+      "negative_ids": [
+        "corporations-businesses",
+        "federal-contractors"
+      ]
+    },
+    "potential_concerns": [
+      "The mandate for enhanced security features such as chip-and-PIN technology may increase costs and logistical burdens on corporations-businesses and federal-contractors supplying payment systems, potentially leading to slower adoption or increased service fees that affect consumers, especially low-income individuals relying on government benefits.",
+      "Improved identity theft remediation and multi-factor authentication requirements for federal digital services may introduce accessibility challenges or technical barriers for seniors, Medicaid beneficiaries, and Social Security beneficiaries who have limited digital literacy or technology access, thereby unintentionally excluding or delaying their access to essential services.",
+      "Upgrading payment card security may lead to temporary disruptions or delays in government payment processing, adversely impacting federal employees relying on timely payments and low-income families depending on Direct Express prepaid debit cards for benefits disbursement.",
+      "The expansion of data collection and identity proofing as part of improved authentication may raise data privacy concerns among consumers and social security beneficiaries about potential misuse or breaches of their personal information in a government context.",
+      "There is potential for uneven implementation across agencies due to the conditioned availability of appropriations, which could result in inconsistent security protections that leave some consumers vulnerable to fraud despite the executive order's intent."
+    ],
+    "enriched_at": "2025-12-15T02:13:22.293Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

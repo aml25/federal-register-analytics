@@ -1,0 +1,43 @@
+{
+  "document_number": "2018-13640",
+  "executive_order_number": "13840",
+  "title": "Ocean Policy To Advance the Economic, Security, and Environmental Interests of the United States",
+  "abstract": null,
+  "signing_date": "2018-06-19",
+  "publication_date": "2018-06-22",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/06/22/2018-13640/ocean-policy-to-advance-the-economic-security-and-environmental-interests-of-the-united-states",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-06-22/pdf/2018-13640.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/06/22/2018-13640.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a coordinated federal approach to managing the ocean, coastal, and Great Lakes waters to support economic growth, national security, and environmental health. It creates an interagency committee to improve cooperation among federal agencies, promote the use of marine science, and engage with regional and private partners for sustainable ocean-related policies.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "energy-independence-security",
+      "economic-competitiveness",
+      "interagency-coordination",
+      "seafood-fisheries-industry"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "seafood-fishery-workers",
+        "coastal-communities",
+        "energy-sector-workers-oil-gas-coal"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Military personnel might face increased operational demands or restrictions due to enhanced coordination of ocean-related security activities, impacting military-readiness-force-structure.",
+      "Seafood fishery workers and coastal communities could experience conflicts between economic growth initiatives, such as energy development, and sustainable use of marine resources, risking long-term environmental and livelihood harm.",
+      "Energy sector workers in oil, gas, and coal may be impacted by policies promoting domestic energy production from federal waters, potentially creating local environmental concerns or regulatory changes.",
+      "There is a risk that accelerated interagency coordination could prioritize national security and economic competitiveness over environmental protections, negatively affecting marine ecosystems that coastal communities rely on.",
+      "Efforts to increase maritime commerce and infrastructure development might unintentionally disrupt traditional fisheries and recreational uses, leading to socioeconomic tensions in affected coastal regions."
+    ],
+    "enriched_at": "2025-12-15T07:10:48.600Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

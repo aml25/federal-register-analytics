@@ -13,29 +13,39 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-03/pdf/2025-02233.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/03/2025-02233.txt",
   "enrichment": {
-    "summary": "This executive order promotes educational choice by encouraging states to use federal funds and grants to support scholarship programs, private schools, and other non-traditional K-12 education options. It directs several federal departments to explore and implement ways to expand educational opportunities for families, including those who are low-income, military-connected, or eligible for Bureau of Indian Education schools.",
+    "summary": "This executive order directs federal agencies to support and expand educational choice programs for families, including low-income, military-connected, and Native American families. It encourages states to use federal funds to help parents select the best schools for their children, such as private, faith-based, or charter schools, aiming to improve education outcomes and provide more freedom in schooling options.",
     "theme_ids": [
-      "education-policy",
-      "religious-liberty"
+      "education-freedom",
+      "k-12-education-policy",
+      "school-choice-vouchers",
+      "faith-based-initiatives",
+      "tribal-colleges-native-american-education"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "low-income-working-families",
-        "military-connected-families",
-        "native-american-students"
+        "low-income-individuals-families",
+        "military-spouses",
+        "military-personnel-active-duty",
+        "native-americans-indigenous-peoples",
+        "tribal-communities-reservations",
+        "children-minors",
+        "k-12-students",
+        "faith-based-communities",
+        "charter-school-communities",
+        "private-school-communities"
       ],
       "negative_ids": [
-        "state-and-local-governments"
+        "public-school-communities"
       ]
     },
     "potential_concerns": [
-      "Expanding funding for private and faith-based schools may divert resources from traditional public schools, potentially exacerbating inequities.",
-      "Increased emphasis on educational choice could lead to decreased oversight and variable educational quality among participating institutions.",
-      "Use of federal block grants for non-public education might raise legal challenges related to separation of church and state.",
-      "Implementation timelines of 60 to 90 days may be unrealistic for comprehensive planning and stakeholder consultation.",
-      "Military and Native American education funding shifts may create coordination challenges across federal and state agencies."
+      "The expansion of federal funds toward private, faith-based, and charter schools may divert resources away from public schools, negatively impacting public-school communities and potentially exacerbating educational inequities.",
+      "Low-income families might face challenges accessing educational choice programs if there is insufficient oversight ensuring equitable distribution and transparency in scholarship or voucher allocation.",
+      "Native American and tribal communities could experience uneven benefits if mechanisms for educational choice are not well adapted for Bureau of Indian Education (BIE) schools and tribal schools, risking cultural and educational mismatches.",
+      "Military families may benefit from increased school choice, but implementation delays or complexity in utilizing Department of Defense funds for private or faith-based schooling could limit immediate access for active-duty personnel and military spouses.",
+      "Encouraging faith-based educational options raises potential concerns about separation of church and state and ensuring that students attending such schools receive comprehensive, nondiscriminatory education in compliance with federal laws."
     ],
-    "enriched_at": "2025-12-09T02:40:08.569Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:31:06.126Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

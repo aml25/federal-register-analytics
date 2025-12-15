@@ -1,0 +1,42 @@
+{
+  "document_number": "2016-27156",
+  "executive_order_number": "13746",
+  "title": "Advancing the Goals of the Power Africa Initiative to Expand Access to Electricity in Sub- Saharan Africa Through the Establishment of the President's Power Africa Working Group",
+  "abstract": null,
+  "signing_date": "2016-11-03",
+  "publication_date": "2016-11-08",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2016/11/08/2016-27156/advancing-the-goals-of-the-power-africa-initiative-to-expand-access-to-electricity-in-sub--saharan",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2016-11-08/pdf/2016-27156.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2016/11/08/2016-27156.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a working group within the U.S. government to coordinate efforts under the Power Africa initiative, which aims to expand access to electricity and increase clean energy generation in Sub-Saharan Africa. The order directs the U.S. Agency for International Development to lead the initiative, facilitate multi-agency collaboration, and support partnerships with African governments and the private sector to help grow energy infrastructure and improve power access across the region.",
+    "theme_ids": [
+      "renewable-energy",
+      "energy-infrastructure",
+      "foreign-aid",
+      "interagency-coordination",
+      "africa-engagement-trade"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "citizens-of-specific-countries-by-eo-designation",
+        "entrepreneurs-startups",
+        "renewable-energy-workers",
+        "small-business-owners"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The initiative’s focus on renewable energy and infrastructure development may disproportionately benefit entrepreneurs and small business owners in Sub-Saharan Africa but could inadvertently marginalize informal or rural energy providers.",
+      "Efforts to rapidly expand electricity access risk neglecting long-term environmental sustainability or community input, possibly leading to resistance from local populations identified as citizens of specific countries by EO designation.",
+      "Dependence on U.S. agencies and private sector investment might prioritize projects that favor U.S. economic interests over equitable local community development impacting renewable energy workers.",
+      "Implementation complexity and interagency coordination challenges could delay benefits to targeted populations, reducing the effectiveness of the initiative for entrepreneurs and renewable energy workers."
+    ],
+    "enriched_at": "2025-12-15T02:18:13.299Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

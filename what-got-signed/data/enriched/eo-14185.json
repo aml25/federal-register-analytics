@@ -13,28 +13,33 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-03/pdf/2025-02181.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/03/2025-02181.txt",
   "enrichment": {
-    "summary": "This executive order directs the Department of Defense and Homeland Security to eliminate all diversity, equity, and inclusion (DEI) offices and programs that promote race- or sex-based preferences within the U.S. Armed Forces. It prohibits the promotion of certain race, sex, and gender-related concepts considered divisive and mandates reviews to ensure compliance, aiming to restore a merit-based military focused on cohesion and readiness.",
+    "summary": "This executive order directs the Department of Defense and Department of Homeland Security to eliminate all diversity, equity, and inclusion offices and policies that prioritize race or sex in the Armed Forces. It prohibits teaching or promoting certain race- and gender-related concepts viewed as divisive or discriminatory and requires reviews and reports to ensure these policies are followed. The order emphasizes merit-based practices and upholding traditional American values within military institutions.",
     "theme_ids": [
-      "national-security",
-      "federal-workforce",
-      "military-personnel-policy"
+      "military-readiness-force-structure",
+      "homeland-security",
+      "dei-diversity-equity-inclusion",
+      "american-heritage-patriotism"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "armed-forces-personnel"
+        "military-personnel-active-duty",
+        "military-personnel-reserves-guard",
+        "veterans"
       ],
       "negative_ids": [
-        "minority-service-members"
+        "african-americans-black-americans",
+        "women",
+        "lgbtq-individuals",
+        "transgender-individuals"
       ]
     },
     "potential_concerns": [
-      "Elimination of DEI programs may reduce efforts to address systemic discrimination and hinder diversity recruitment in the military.",
-      "Prohibiting discussion of certain concepts could limit education and awareness about race, gender, and historical issues, impacting unit cohesion negatively.",
-      "Implementation may face challenges in defining and enforcing prohibited ideologies, leading to inconsistent application or legal challenges.",
-      "The order's broad language on race and sex preferences could inadvertently affect legitimate equal opportunity efforts and protections.",
-      "Affected minority service members and civilian employees may feel marginalized or unsupported, potentially harming morale and retention."
+      "Eliminating DEI offices and prohibiting discussion of race- and gender-related concepts may undermine the support and representation for women, African American, LGBTQ+, and transgender service members, negatively impacting military cohesion and morale despite the intent to promote meritocracy.",
+      "Banning instruction on concepts deemed 'divisive' and mandating curricula that emphasize traditional American values could lead to suppression of open dialogue and critical thinking at service academies, affecting the preparedness and inclusiveness of future military leaders.",
+      "The order’s prohibition on race- and sex-based preferences may reduce diversity efforts, potentially leading to decreased recruitment and retention of underrepresented groups in the Armed Forces, which could unintentionally impair force readiness and cultural competence.",
+      "This policy might increase legal challenges and complaints from service members who perceive the ban on DEI programs and certain teachings as discriminatory, complicating internal military justice and administrative processes."
     ],
-    "enriched_at": "2025-12-09T02:39:50.484Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:31:58.863Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

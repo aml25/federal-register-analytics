@@ -1,0 +1,41 @@
+{
+  "document_number": "2020-27740",
+  "executive_order_number": "13964",
+  "title": "Rebranding United States Foreign Assistance To Advance American Influence",
+  "abstract": null,
+  "signing_date": "2020-12-10",
+  "publication_date": "2020-12-15",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/12/15/2020-27740/rebranding-united-states-foreign-assistance-to-advance-american-influence",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-12-15/pdf/2020-27740.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/12/15/2020-27740.txt",
+  "enrichment": {
+    "summary": "This executive order requires all U.S. foreign aid to be clearly marked and branded as \"American aid\" to highlight the role of the American people in providing assistance. It directs agencies to use a single logo on foreign assistance materials and packaging to promote U.S. influence and goodwill abroad. The order also establishes procedures for selecting the logo, issuing regulations, and reporting on implementation.",
+    "theme_ids": [
+      "foreign-aid",
+      "interagency-coordination",
+      "american-heritage-patriotism"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "international-aid-recipients",
+        "nonprofit-organizations",
+        "foreign-governments",
+        "foreign-government-officials"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Mandating a single American-branded logo on all U.S. foreign aid materials may politicize humanitarian or disaster relief efforts, potentially hindering acceptance by some foreign governments or populations and negatively affecting international goodwill.",
+      "The branding requirement could create operational burdens for nonprofit organizations and implementing partners due to redesigning materials and packaging, increasing costs and logistical complexity.",
+      "In countries where displaying American affiliation may pose safety or political risks, failure to adequately and transparently exercise the waiver authority could endanger recipients or undermine U.S. foreign policy goals.",
+      "Co-branding requirements in joint funding situations might cause diplomatic tensions with other donor governments who may see U.S. branding as overemphasizing American influence at the expense of shared efforts.",
+      "Standardizing and promoting visibly American-branded aid risks reducing the perceived neutrality of international assistance, potentially limiting aid effectiveness and cooperation with certain foreign governments or populations."
+    ],
+    "enriched_at": "2025-12-15T02:30:19.110Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

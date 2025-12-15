@@ -13,30 +13,28 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-03/pdf/2025-05906.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/03/2025-05906.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to enforce laws that prevent unfair ticketing practices in the live entertainment market, including stopping scalpers from using bots to buy tickets and resell at high markups. It aims to protect concertgoers and artists by promoting price transparency and cracking down on deceptive and anti-competitive behaviors in both primary and secondary ticket markets.",
+    "summary": "This executive order directs federal agencies to crack down on unfair practices in the live entertainment ticket market, such as scalpers using bots to buy large quantities of tickets and resell them at huge markups. It tasks agencies with enforcing existing laws, promoting price transparency, ensuring fair competition, and reporting back with recommendations to better protect consumers and artists.",
     "theme_ids": [
-      "trade-policy",
-      "financial-regulation",
-      "consumer-protection"
+      "consumer-fraud-market-integrity",
+      "economic-competitiveness",
+      "regulatory-reform-deregulation"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "live-entertainment-artists",
-        "concertgoers"
+        "consumers",
+        "working-age-adults"
       ],
       "negative_ids": [
-        "ticketing-agencies",
-        "ticket-scalpers"
+        "corporations-businesses"
       ]
     },
     "potential_concerns": [
-      "Enforcement may be challenging due to the technical complexity of monitoring and regulating ticket resale practices and bots.",
-      "Regulations may increase operational costs for ticketing agencies, potentially leading to higher baseline ticket prices.",
-      "Secondary ticket markets might find ways to circumvent rules, continuing consumer harm despite enforcement.",
-      "Collaboration between federal and state agencies may face jurisdictional or resource coordination obstacles.",
-      "The order lacks specific mechanisms to involve consumer advocacy groups or create permanent oversight structures."
+      "Enforcement actions against ticket scalpers and ticketing agencies could reduce secondary market liquidity, potentially limiting resale options for some consumers despite aiming to lower ticket prices.",
+      "Increased regulatory scrutiny and compliance requirements may impose higher operational costs on corporations-businesses in the ticketing industry, which could reduce innovation or increase prices indirectly.",
+      "Efforts to promote price transparency might lead to unintended complexity in ticket pricing structures, confusing working-age adults and consumers rather than clarifying actual costs.",
+      "Collaboration between federal and state agencies may result in inconsistent enforcement standards across states, creating uncertainty and compliance burdens for ticketing corporations."
     ],
-    "enriched_at": "2025-12-09T02:43:02.905Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:22:12.348Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

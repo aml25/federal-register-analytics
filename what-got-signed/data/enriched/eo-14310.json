@@ -13,27 +13,29 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-06-24/pdf/2025-11682.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/06/24/2025-11682.txt",
   "enrichment": {
-    "summary": "This executive order delays enforcement of the law restricting TikTok and similar foreign adversary controlled applications until September 17, 2025, preventing penalties and enforcement actions during this period. It directs the Department of Justice to refrain from enforcement actions related to prior conduct as well and to issue guidance and communications ensuring no liability for violators within the delay period.",
+    "summary": "This executive order extends a temporary pause on enforcing the law that restricts Chinese-owned TikTok's operations in the U.S. until September 17, 2025. It directs the Department of Justice and the Attorney General not to take enforcement actions or impose penalties on TikTok or related entities during this time and emphasizes that enforcement authority lies solely with the Attorney General.",
     "theme_ids": [
-      "national-security",
-      "trade-policy"
+      "cybersecurity-national-security",
+      "foreign-technology-threats",
+      "north-korea"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry"
+        "technology-workers",
+        "large-corporation-employees"
       ],
       "negative_ids": [
-        "foreign-suppliers"
+        "u-s-citizens",
+        "youth-young-adults"
       ]
     },
     "potential_concerns": [
-      "Extending the enforcement delay may allow continued use of apps that pose potential national security risks.",
-      "Delaying enforcement could undermine the effectiveness and credibility of the Protecting Americans from Foreign Adversary Controlled Applications Act.",
-      "The order may create uncertainty for companies and consumers regarding compliance obligations and liability.",
-      "State governments or private parties might attempt to enforce the law, leading to possible legal conflicts with federal authority.",
-      "The indefinite backward waiver of penalties for prior conduct may incentivize future noncompliance with similar statutes."
+      "Extending the enforcement delay may amplify national security risks posed by continued TikTok operations, potentially exposing U.S. citizens and youth to foreign surveillance and data exploitation.",
+      "Technology workers and large corporation employees at TikTok could face prolonged uncertainty related to regulatory compliance and operational constraints, impacting workforce stability.",
+      "The order's limitation on state or private enforcement actions might reduce local efforts to address foreign technology threats, potentially weakening broader cybersecurity protections.",
+      "Delaying enforcement may unintentionally embolden foreign adversaries by signaling a weaker U.S. stance on controlling applications deemed security risks, affecting public trust among U.S. citizens."
     ],
-    "enriched_at": "2025-12-09T02:45:50.193Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T07:37:44.005Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

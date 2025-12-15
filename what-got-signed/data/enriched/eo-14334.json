@@ -13,28 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-14/pdf/2025-15554.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/14/2025-15554.txt",
   "enrichment": {
-    "summary": "This executive order extends the suspension of increased tariff rates on imports from China to support ongoing trade negotiations and encourage the country to address U.S. national security and economic concerns. It directs multiple federal agencies to continue implementing these tariff adjustments until November 10, 2025.",
+    "summary": "This executive order extends the temporary suspension of additional tariff rates on imports from China, reflecting ongoing trade discussions and efforts to address trade imbalances and national security concerns. It directs relevant agencies to continue implementing these adjustments through November 10, 2025.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
-      "foreign-policy"
+      "tariffs-duties",
+      "trade-policy-agreements",
+      "national-emergencies",
+      "china"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "american-businesses",
-        "manufacturing-workers"
+        "manufacturing-workers",
+        "small-business-owners"
       ],
       "negative_ids": [
-        "china"
+        "retail-workers",
+        "consumers"
       ]
     },
     "potential_concerns": [
-      "Extending the suspension of tariffs may reduce immediate pressure on China to fully address trade imbalances and non-reciprocal practices.",
-      "The tariff continuation could harm U.S. manufacturing workers by sustaining competition from lower-cost imports.",
-      "Implementation requires coordination among numerous federal agencies, risking delays or inconsistent enforcement.",
-      "Suspension of tariffs may reduce U.S. leverage in ongoing trade negotiations with China, potentially weakening long-term outcomes."
+      "The continued suspension of higher tariffs on Chinese imports may pressure domestic manufacturing workers who compete with lower-cost imports, potentially limiting job growth in this sector.",
+      "Small business owners who rely on imports from China may benefit from lower costs, but retail workers could face job insecurity if tariff adjustments lead to shifts in supply chains or pricing strategies.",
+      "Consumers might experience short-term price relief due to tariff suspensions, but ongoing national security concerns and trade tensions could lead to future tariff volatility, affecting market stability.",
+      "The executive order's reliance on a national emergency declaration for trade policy raises concerns about the potential for prolonged use of emergency powers in economic regulation, impacting business planning and investment decisions."
     ],
-    "enriched_at": "2025-12-09T02:47:13.751Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:03:02.778Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

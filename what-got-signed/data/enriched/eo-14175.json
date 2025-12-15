@@ -13,31 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-31/pdf/2025-02103.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/31/2025-02103.txt",
   "enrichment": {
-    "summary": "This executive order directs the U.S. government to designate Ansar Allah (the Houthis) as a Foreign Terrorist Organization due to their attacks on U.S. personnel, regional partners, and civilian infrastructure. It sets deadlines for government agencies to submit reports, take designation actions, and review U.S. aid relationships to ensure no funding supports the group.",
+    "summary": "This executive order initiates the process to officially designate Ansar Allah (also known as the Houthis) as a Foreign Terrorist Organization due to their attacks on U.S. personnel, regional partners, and global maritime traffic. It directs U.S. officials to report on and take appropriate actions to restrict support to Ansar Allah and to review related U.S. aid projects in Yemen.",
     "theme_ids": [
-      "counterterrorism-policy",
-      "national-security",
-      "foreign-policy",
-      "supply-chain-security"
+      "terrorism-designations",
+      "foreign-terrorist-organizations",
+      "counterterrorism",
+      "yemen"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "regional-stability-actors",
-        "muslim-americans"
+        "military-personnel-active-duty",
+        "veterans"
       ],
       "negative_ids": [
-        "terrorist-organizations",
-        "civilian-populations-in-designated-countries"
+        "international-aid-recipients",
+        "nonprofit-organizations",
+        "citizens-of-specific-countries-by-eo-designation"
       ]
     },
     "potential_concerns": [
-      "Designation may increase tensions and violence in the Middle East, potentially harming civilian populations and regional stability.",
-      "Humanitarian aid efforts in Yemen could be complicated or reduced if organizations are suspected of ties to Ansar Allah, worsening the humanitarian crisis.",
-      "Muslim-American communities might face increased stigmatization or discrimination due to association with the designated group.",
-      "The review and termination of USAID partnerships might disrupt essential services and create operational challenges for humanitarian actors in Yemen.",
-      "Implementation delays or disagreements among agencies could slow the designation process and reduce the order's intended effectiveness."
+      "Designation of Ansar Allah as a Foreign Terrorist Organization may lead to suspension or termination of US aid programs in Yemen, adversely affecting international aid recipients and nonprofit organizations operating there.",
+      "The designation could escalate regional tensions, potentially increasing risks faced by US military personnel active in the Middle East and veterans involved in related operations.",
+      "Restrictions on entities with any affiliation or payments to Ansar Allah might inadvertently penalize local Yemeni populations and humanitarian actors critical to civilian welfare.",
+      "The EO's focus on Ansar Allah may exacerbate instability in Yemen, further harming citizens of Yemen who are implicitly covered under citizens-of-specific-countries-by-eo-designation.",
+      "Increased scrutiny and sanctions could complicate diplomatic and humanitarian efforts, leading to unintended consequences for nonprofit organizations and international aid recipients dependent on US government cooperation."
     ],
-    "enriched_at": "2025-12-09T02:39:18.335Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:33:25.510Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

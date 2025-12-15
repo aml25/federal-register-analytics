@@ -1,0 +1,42 @@
+{
+  "document_number": "2020-17363",
+  "executive_order_number": "13940",
+  "title": "Aligning Federal Contracting and Hiring Practices With the Interests of American Workers",
+  "abstract": null,
+  "signing_date": "2020-08-03",
+  "publication_date": "2020-08-06",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/08/06/2020-17363/aligning-federal-contracting-and-hiring-practices-with-the-interests-of-american-workers",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-08-06/pdf/2020-17363.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/08/06/2020-17363.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to review their contracting and hiring practices to ensure more job opportunities for American workers, especially in light of the economic challenges caused by COVID-19. It requires agencies to assess the use of temporary foreign labor and offshoring by contractors and take steps to protect U.S. workers' wages and working conditions, particularly concerning H-1B visa holders.",
+    "theme_ids": [
+      "visa-policy",
+      "economic-recovery-post-crisis",
+      "federal-hiring"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens",
+        "working-age-adults",
+        "federal-contractors"
+      ],
+      "negative_ids": [
+        "visa-holders-work-student-tourist",
+        "technology-workers"
+      ]
+    },
+    "potential_concerns": [
+      "Efforts to limit H-1B visa holders' employment and restrict contractors' use of temporary foreign labor may reduce opportunities for skilled visa holders, particularly technology workers, potentially slowing innovation and talent acquisition in the tech sector.",
+      "Federal contractors might face increased compliance costs and restrictions that could reduce competitiveness and lead to subcontractor disruptions, affecting working conditions and project timelines.",
+      "The order's emphasis on prioritizing U.S. citizens and working-age adults in federal contracting jobs could inadvertently result in discrimination or hiring biases against lawful permanent residents and naturalized citizens.",
+      "Shifting contracting practices to favor domestic labor and reduce offshoring might increase federal procurement costs, impacting budget efficiency and possibly delaying economic recovery efforts post-COVID-19."
+    ],
+    "enriched_at": "2025-12-15T07:30:54.506Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

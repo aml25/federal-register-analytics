@@ -13,26 +13,26 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-08-17/pdf/2023-17832.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/08/17/2023-17832.txt",
   "enrichment": {
-    "summary": "This executive order delegates the President’s authority over Coast Guard officer appointments, promotions, separations, and retirements to the Secretary of Homeland Security, streamlining personnel management within the Coast Guard. It also clarifies that during times of war or national emergency, these powers can be exercised without the President’s direct approval and sets provisions for when the Coast Guard operates as part of the Navy.",
+    "summary": "This executive order delegates the President's authority over the appointment, promotion, separation, and retirement of commissioned officers in the United States Coast Guard to the Secretary of Homeland Security. It also clarifies authority during times when the Coast Guard operates as part of the Navy and outlines procedures during war or national emergencies.",
     "theme_ids": [
-      "military-personnel-policy",
-      "national-security",
-      "federal-agency-management"
+      "military-readiness-force-structure",
+      "homeland-security",
+      "delegation-of-authority"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "coast-guard-officers"
+        "military-personnel-active-duty",
+        "military-personnel-reserves-guard"
       ],
       "negative_ids": []
     },
     "potential_concerns": [
-      "Delegating presidential authority to the Secretary of Homeland Security may raise concerns about reduced direct presidential oversight on key military personnel decisions.",
-      "In times of war or national emergency, broad delegation of suspension and promotion powers could be misused or lack sufficient checks and balances.",
-      "The shift in authority could create bureaucratic delays or confusion if roles between the President, Secretary of Homeland Security, and Secretary of Defense are not clearly coordinated.",
-      "Officers could face uncertainty or perceived unfairness if personnel decisions are centralized and removed from customary presidential involvement.",
-      "The order does not address transparency or appeal procedures for affected officers, which could lead to morale or legal challenges."
+      "Delegating presidential appointment and promotion authority to the Secretary of Homeland Security may raise concerns about maintaining military-readiness and proper checks on Coast Guard officer management, affecting active-duty personnel.",
+      "During war or national emergencies, broad authority to suspend certain laws and promote officers without presidential approval could lead to inconsistent or politicized personnel decisions impacting military-personnel-active-duty and reserves.",
+      "The shift in authority when the Coast Guard operates as part of the Navy transfers decision-making to the Secretary of Defense, which could create coordination challenges or delays affecting Coast Guard officers’ career progression.",
+      "Non-transparent decision-making processes under delegated authority may reduce oversight and perceived fairness in promotions and separations, potentially undermining morale among active-duty Coast Guard members."
     ],
-    "enriched_at": "2025-12-09T01:38:23.788Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-12T08:20:21.899Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

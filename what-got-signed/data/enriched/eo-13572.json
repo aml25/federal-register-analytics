@@ -1,0 +1,43 @@
+{
+  "document_number": "2011-10910",
+  "executive_order_number": "13572",
+  "title": "Blocking Property of Certain Persons With Respect to Human Rights Abuses in Syria",
+  "abstract": null,
+  "signing_date": "2011-04-29",
+  "publication_date": "2011-05-03",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2011/05/03/2011-10910/blocking-property-of-certain-persons-with-respect-to-human-rights-abuses-in-syria",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2011-05-03/pdf/2011-10910.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2011/05/03/2011-10910.txt",
+  "enrichment": {
+    "summary": "This executive order blocks and freezes the property of individuals and entities involved in human rights abuses in Syria, particularly those responsible for violence and repression against peaceful protesters. It prohibits U.S. persons from dealing with these blocked parties and authorizes the Treasury and State Departments to enforce and update the sanctions as necessary.",
+    "theme_ids": [
+      "economic-sanctions",
+      "human-rights-international",
+      "syria"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "muslims",
+        "foreign-nationals-general",
+        "citizens-of-specific-countries-by-eo-designation"
+      ],
+      "negative_ids": [
+        "corporations-businesses",
+        "foreign-government-officials"
+      ]
+    },
+    "potential_concerns": [
+      "The economic sanctions could unintentionally harm ordinary Syrian civilians, including Muslim communities, by worsening economic conditions despite targeting only abusive officials and entities.",
+      "Blocking property of foreign government officials and associated businesses may complicate diplomatic efforts and limit leverage, potentially prolonging instability in Syria.",
+      "U.S.-based corporations with Syrian ties or investments could suffer financial losses and legal risks, impacting their global operations and compliance burdens.",
+      "Sanctions enforcement may raise challenges related to accurately identifying implicated persons without harming innocent diaspora populations or international aid efforts in Syria.",
+      "Restricting donations and support might inadvertently reduce humanitarian aid channels benefiting vulnerable foreign nationals and refugees affected by the conflict."
+    ],
+    "enriched_at": "2025-12-15T02:09:25.305Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

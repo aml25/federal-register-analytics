@@ -13,33 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-29/pdf/2025-09798.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/29/2025-09798.txt",
   "enrichment": {
-    "summary": "This executive order directs a major reform of the Nuclear Regulatory Commission (NRC) to accelerate the approval and deployment of new nuclear reactors by streamlining NRC’s operations, revising regulations, and adopting science-based safety standards. It aims to boost U.S. nuclear energy capacity, support innovative reactor technologies, and enhance American energy independence and national security.",
+    "summary": "This executive order directs a major reform of the Nuclear Regulatory Commission (NRC) to speed up the licensing and deployment of new nuclear reactors in the United States. It aims to reduce regulatory delays and fees, update safety standards based on the latest science, and promote the U.S. as a global leader in nuclear energy while supporting energy security and job growth.",
     "theme_ids": [
-      "energy-policy",
-      "regulatory-reform",
-      "national-security",
-      "technology-development",
-      "federal-agency-management",
-      "advisory-committees-management"
+      "nuclear-policy",
+      "energy-independence-security",
+      "government-efficiency",
+      "regulatory-reform-deregulation",
+      "science-and-technology-policy"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "domestic-energy-producers",
-        "independent-regulatory-agencies"
+        "energy-sector-workers-oil-gas-coal",
+        "manufacturing-workers",
+        "technology-workers"
       ],
       "negative_ids": [
-        "displaced-federal-workers",
-        "green-energy-industry"
+        "environmental-justice-communities",
+        "rural-communities"
       ]
     },
     "potential_concerns": [
-      "Reducing the size and scope of the Advisory Committee on Reactor Safeguards may undermine independent nuclear safety oversight.",
-      "Abandoning the linear no-threshold radiation model could lead to relaxed safety standards that increase public health risks.",
-      "Strict deadlines and fee caps on the NRC could pressure rushed approvals, potentially compromising thorough safety evaluations.",
-      "Workforce reductions at the NRC could cause loss of institutional knowledge and reduce regulatory capacity.",
-      "Emphasizing rapid nuclear power expansion may lead to less attention on environmental impacts and alternatives like renewable energy sources."
+      "The expedited licensing and deregulation may compromise the safety protections for environmental justice communities near existing and new nuclear facilities, raising health and environmental risks.",
+      "Rural communities hosting new or reactivated nuclear sites could face disproportionate exposure to radiation and environmental hazards due to relaxed radiation limits and streamlined oversight.",
+      "Reducing the size and scope of the Advisory Committee on Reactor Safeguards may weaken independent scientific review, potentially undermining public trust among workers and communities reliant on safe nuclear operations.",
+      "The shift away from the linear no-threshold radiation model could lead to underestimating low-level radiation risks, affecting manufacturing and technology sector workers employed at nuclear plants or in related industries."
     ],
-    "enriched_at": "2025-12-09T02:45:21.635Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T07:39:01.308Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

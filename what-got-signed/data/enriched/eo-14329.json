@@ -13,29 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-11/pdf/2025-15267.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/11/2025-15267.txt",
   "enrichment": {
-    "summary": "This executive order imposes an additional 25% tariff on imports from India because India is directly or indirectly importing oil from Russia, which the U.S. considers a threat to its national security. The order builds on previous sanctions and allows the President to modify tariffs or take further action against other countries that import Russian oil to address ongoing threats posed by the Russian government.",
+    "summary": "This executive order imposes a 25 percent tariff on imports from India because India is directly or indirectly importing oil from the Russian Federation. The goal is to address the ongoing national security threat posed by Russia's actions in Ukraine by discouraging countries from supporting the Russian oil market. The order also authorizes U.S. officials to monitor other countries’ imports of Russian oil and to take further action if necessary.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
-      "foreign-policy"
+      "sanctions-country-specific",
+      "trade-policy-agreements",
+      "tariffs-duties",
+      "national-emergencies",
+      "russia"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "domestic-energy-producers"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "india",
-        "international-shippers"
+        "small-business-owners",
+        "large-corporation-employees",
+        "consumers",
+        "foreign-nationals-general"
       ]
     },
     "potential_concerns": [
-      "The tariffs could strain U.S.-India trade relations and diplomatic ties with a major regional partner.",
-      "The economic impact of tariffs may harm Indian exporters and supply chains, potentially increasing costs for U.S. businesses and consumers.",
-      "Determining indirect importation through intermediaries could be complex, causing enforcement and compliance challenges.",
-      "Retaliatory measures by India or other impacted countries could escalate trade tensions and harm broader economic interests.",
-      "The order’s broad authority to modify tariffs based on changing circumstances may create uncertainty for affected industries and trading partners."
+      "The 25 percent tariff on Indian imports may significantly increase costs for U.S. small-business owners and large corporation employees who rely on Indian goods, leading to higher consumer prices and supply chain disruptions.",
+      "Consumers could face unintended inflationary pressure as tariffs raise import costs, reducing purchasing power particularly among middle- and low-income Americans who are more sensitive to price increases.",
+      "The order's broad monitoring and potential expansion of tariffs to other countries indirectly importing Russian oil could escalate trade tensions and provoke retaliatory tariffs, negatively impacting U.S. businesses engaged in international trade.",
+      "Foreign nationals and businesses in India and other targeted countries may experience economic harm, potentially straining diplomatic relations and complicating multinational cooperation on national security issues.",
+      "The order does not clearly define mechanisms to accurately determine 'indirect importing,' which could lead to enforcement challenges and uncertainty for U.S. importers and foreign trade partners."
     ],
-    "enriched_at": "2025-12-09T02:46:45.806Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:41:48.810Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

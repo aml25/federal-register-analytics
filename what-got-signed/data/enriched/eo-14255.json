@@ -13,30 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-03/pdf/2025-05908.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/03/2025-05908.txt",
   "enrichment": {
-    "summary": "This executive order creates a new office within the Department of Commerce called the United States Investment Accelerator to help speed up and simplify the process for large investments in the U.S. by reducing regulatory hurdles and coordinating efforts across federal and state governments. Its goal is to attract both domestic and foreign investors by making it easier to invest in and build businesses that support economic growth.",
+    "summary": "This executive order creates a new office called the United States Investment Accelerator within the Department of Commerce to help businesses, especially those investing over $1 billion, navigate and speed up government regulatory processes. Its goal is to reduce delays and barriers to investment, encouraging both domestic and foreign companies to invest and build in the U.S., thereby boosting economic growth.",
     "theme_ids": [
-      "regulatory-reform",
-      "trade-policy",
-      "federal-agency-management"
+      "foreign-investment-cfius",
+      "economic-competitiveness",
+      "regulatory-reform-deregulation",
+      "small-business-support",
+      "interagency-coordination"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "large-investors",
-        "american-businesses"
+        "large-corporation-employees",
+        "small-business-owners",
+        "investors",
+        "state-governments"
       ],
-      "negative_ids": [
-        "foreign-manufacturers",
-        "environmental-advocates"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "The focus on facilitating investments above $1 billion may exclude small and medium investors, potentially limiting broader economic benefits.",
-      "Reducing regulatory burdens may risk weakening environmental, labor, or community protections during large development projects.",
-      "Coordinating across federal, state, and local governments could face bureaucratic delays or conflicts despite intent to streamline.",
-      "There may be national security risks if expedited processes fail to adequately vet foreign investments despite stated safeguards.",
-      "The creation of a specialized office may lead to duplication or overlap with existing federal economic development or investment programs."
+      "Streamlining investment processes for large projects may disproportionately benefit large corporations and wealthy investors, potentially leaving smaller businesses less supported despite stated goals of small-business support.",
+      "Efforts to reduce regulatory barriers across federal, state, and local levels may unintentionally weaken environmental and community protections, raising concerns from state governments and local communities.",
+      "Prioritizing investments over $1 billion could create a two-tier system that overlooks smaller investors and businesses, limiting equitable economic growth.",
+      "Coordination challenges among multiple federal and state agencies might create inconsistent implementation, causing confusion for small-business owners and state governments relying on clear guidance."
     ],
-    "enriched_at": "2025-12-09T02:43:05.607Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:22:03.996Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

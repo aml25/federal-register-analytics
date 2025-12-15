@@ -1,0 +1,37 @@
+{
+  "document_number": "2019-22623",
+  "executive_order_number": "13891",
+  "title": "Promoting the Rule of Law Through Improved Agency Guidance Documents",
+  "abstract": null,
+  "signing_date": "2019-10-09",
+  "publication_date": "2019-10-15",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/10/15/2019-22623/promoting-the-rule-of-law-through-improved-agency-guidance-documents",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-10-15/pdf/2019-22623.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/10/15/2019-22623.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to improve transparency and fairness in how they issue guidance documents. It requires agencies to clearly state that such documents are non-binding, maintain public databases of these documents, and follow public notice and comment procedures for significant guidance to ensure the public is properly informed and protected from unregulated enforcement.",
+    "theme_ids": [
+      "regulatory-reform-deregulation",
+      "records-classification-transparency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "small-business-owners",
+        "consumers"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The requirement for agencies to clearly label guidance documents as non-binding could reduce the perceived authority of guidance, potentially creating confusion among small-business-owners about compliance obligations.",
+      "Increased transparency and public notice requirements for significant guidance documents could delay agency issuance of important clarifications, adversely impacting consumers who rely on timely regulatory guidance for protection.",
+      "Maintaining large, searchable databases of guidance documents may impose administrative burdens on agencies that could limit the frequency or scope of guidance updates, indirectly affecting small-business-owners who depend on current guidance.",
+      "The exclusion of pre-enforcement rulings and certain enforcement-related documents from these transparency requirements could leave gaps in public awareness, particularly impacting small-business-owners seeking compliance clarity."
+    ],
+    "enriched_at": "2025-12-15T02:28:05.877Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

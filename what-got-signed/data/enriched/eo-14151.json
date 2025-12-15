@@ -13,31 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-29/pdf/2025-01953.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/29/2025-01953.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to end all diversity, equity, inclusion, and accessibility (DEI/DEIA) programs and related initiatives within the federal government, including terminating offices, positions, and mandates associated with these efforts. It emphasizes treating all individuals with equal dignity without consideration of DEI factors and mandates reviews and reporting on the costs and impacts of prior DEI-related programs.",
+    "summary": "This executive order directs federal agencies to end all programs and policies related to diversity, equity, inclusion, and accessibility (DEI/DEIA), viewing them as discriminatory and wasteful. It requires agencies to terminate DEI offices and initiatives, review past DEI expenditures, and ensure federal employment rewards individual merit rather than these factors. The order aims to promote equal treatment of all individuals without considerations based on DEI principles.",
     "theme_ids": [
-      "federal-workforce",
-      "federal-agency-management",
-      "regulatory-reform",
-      "civil-rights-enforcement"
+      "dei-diversity-equity-inclusion",
+      "employment-discrimination",
+      "federal-workforce-management",
+      "regulatory-reform-deregulation"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "federal-employees",
-        "federal-contractors"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "individuals-impacted-by-race-and-equity-policy-restrictions",
-        "minority-service-members"
+        "federal-employees-civil-servants",
+        "federal-contractors",
+        "individuals-with-disabilities",
+        "hispanic-latino-americans",
+        "native-americans-indigenous-peoples",
+        "women",
+        "lgbtq-individuals",
+        "environmental-justice-communities"
       ]
     },
     "potential_concerns": [
-      "The order may reduce efforts to address systemic discrimination and inequities within federal employment and programs, negatively affecting diversity and inclusion progress.",
-      "Removing DEI-related training and initiatives could harm workplace culture and employee morale, particularly for minority and marginalized groups.",
-      "Federal contractors and grantees who rely on DEI requirements may face operational disruptions or loss of funding.",
-      "Monitoring and enforcing the prohibition of DEI considerations might be challenging and could lead to inconsistent implementation across agencies.",
-      "Critics may argue the order undermines civil rights protections by labeling DEI efforts as discriminatory and wasteful."
+      "Eliminating DEI and DEIA programs may reduce protections and support for racial and ethnic minorities, women, LGBTQ+ individuals, and individuals with disabilities within the federal workforce, potentially worsening employment discrimination and unequal treatment.",
+      "Terminating environmental justice initiatives directly harms environmental justice communities by removing focused efforts to address pollution and health disparities, contradicting broader federal commitments to equity.",
+      "Federal contractors and grantees who previously invested resources in DEI training and initiatives may face operational and financial challenges complying with the abrupt termination of these programs, complicating contract management and workforce diversity efforts.",
+      "Removing DEI considerations from federal employment practices risks reducing workforce diversity, inclusion, and accessibility, potentially undermining merit-based hiring by ignoring systemic barriers that affect marginalized populations.",
+      "The sudden dismantling of DEI offices and positions may create administrative confusion and legal challenges within federal agencies, affecting federal employees' job security and morale, especially those involved in diversity-related roles."
     ],
-    "enriched_at": "2025-12-09T02:38:02.346Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:37:16.547Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

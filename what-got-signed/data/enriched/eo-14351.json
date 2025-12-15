@@ -13,31 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-09-24/pdf/2025-18602.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/09/24/2025-18602.txt",
   "enrichment": {
-    "summary": "This executive order creates the Gold Card visa program, which allows immigrants to obtain expedited visas by making a substantial financial gift to the U.S. Department of Commerce. The program aims to prioritize immigrants who are successful entrepreneurs or investors and align immigration policy with U.S. economic and national interests.",
+    "summary": "This executive order creates the Gold Card visa program, which allows immigrants who make a substantial financial gift to the U.S. Department of Commerce to receive an expedited immigrant visa process. The program aims to attract entrepreneurs and investors who can benefit the nation while tightening immigration controls and addressing previous administration policies seen as harmful to public safety and national security.",
     "theme_ids": [
-      "immigration-enforcement",
-      "national-security",
-      "trade-policy",
-      "immigration-investment"
+      "visa-policy",
+      "border-security",
+      "economic-competitiveness",
+      "homeland-security"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "high-net-worth-immigrants",
-        "investment-entities"
+        "foreign-nationals-general",
+        "entrepreneurs-startups",
+        "corporations-businesses",
+        "high-income-wealthy-individuals"
       ],
       "negative_ids": [
-        "low-income-immigrants",
-        "non-investor-immigrants"
+        "undocumented-immigrants",
+        "asylum-seekers",
+        "refugees"
       ]
     },
     "potential_concerns": [
-      "The program may favor wealthy individuals and corporations, potentially exacerbating inequalities in immigration opportunities.",
-      "There is a risk that expedited processing could bypass comprehensive security and background checks, raising national security concerns.",
-      "Reliance on financial gifts as visa criteria could be criticized as commodifying immigration and undermining merit-based or humanitarian considerations.",
-      "Implementation may be challenged by the need to carefully balance expedited processing with legal limits on visa numbers and public safety safeguards.",
-      "The program could divert resources from addressing illegal immigration and other broader immigration enforcement priorities."
+      "The Gold Card program may prioritize wealthy immigrants and corporate sponsors, potentially disadvantaging asylum seekers, refugees, and undocumented immigrants who lack financial means, conflicting with themes of visa-policy and economic-competitiveness.",
+      "By linking expedited immigrant visa access to sizable financial gifts, the order risks creating a perception of a 'pay-to-play' immigration system, undermining public trust and raising equity concerns for lower-income immigrant groups.",
+      "Tightening immigration controls while focusing on financial gifts might divert resources and attention from broader border-security efforts aimed at addressing illegal immigration and security threats.",
+      "There may be challenges in maintaining rigorous public safety and national security screenings without undermining the expedited process afforded to wealthy applicants, possibly increasing homeland-security risks.",
+      "Corporations sponsoring individuals under this program could exploit transfer provisions, facilitating visa allocation that may not align with national benefit criteria, raising concerns about program abuse and economic impact."
     ],
-    "enriched_at": "2025-12-09T02:48:00.270Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:00:42.006Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

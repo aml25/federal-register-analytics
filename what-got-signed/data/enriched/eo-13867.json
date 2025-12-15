@@ -1,0 +1,44 @@
+{
+  "document_number": "2019-07645",
+  "executive_order_number": "13867",
+  "title": "Issuance of Permits With Respect to Facilities and Land Transportation Crossings at the International Boundaries of the United States",
+  "abstract": null,
+  "signing_date": "2019-04-10",
+  "publication_date": "2019-04-15",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/04/15/2019-07645/issuance-of-permits-with-respect-to-facilities-and-land-transportation-crossings-at-the",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-04-15/pdf/2019-07645.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/04/15/2019-07645.txt",
+  "enrichment": {
+    "summary": "This executive order streamlines the process for issuing Presidential permits for building and operating certain facilities and land transportation crossings at the U.S. international borders. It designates the Secretary of State to oversee permit applications and establishes clear timelines and procedures to ensure faster decision-making while supporting U.S. foreign policy and economic interests. The order also revokes previous executive orders on similar matters to create a more efficient and unified permitting process.",
+    "theme_ids": [
+      "infrastructure-permitting",
+      "border-security",
+      "transportation-infrastructure",
+      "revocation-of-previous-executive-orders"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "border-communities",
+        "corporations-businesses",
+        "transportation-workers"
+      ],
+      "negative_ids": [
+        "environmental-justice-communities",
+        "tribal-communities-reservations"
+      ]
+    },
+    "potential_concerns": [
+      "Streamlining permit issuance could accelerate infrastructure projects that may disrupt or negatively impact tribal communities and their sovereign lands without adequate consultation.",
+      "Faster approval timelines might limit thorough environmental reviews, posing risks to environmental justice communities near border crossings.",
+      "Border communities may experience increased traffic and pollution from expanded transportation infrastructure, affecting local quality of life.",
+      "Corporations and transportation workers may benefit from expedited crossings but could also face increased regulatory uncertainty if foreign policy interests shift rapidly.",
+      "Revoking previous executive orders may create transitional confusion affecting permit holders and applicants, potentially delaying some projects despite the intended streamlining."
+    ],
+    "enriched_at": "2025-12-15T07:27:02.024Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

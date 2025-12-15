@@ -1,0 +1,41 @@
+{
+  "document_number": "2018-11936",
+  "executive_order_number": "13838",
+  "title": "Exemption From Executive Order 13658 for Recreational Services on Federal Lands",
+  "abstract": null,
+  "signing_date": "2018-05-25",
+  "publication_date": "2018-06-01",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/06/01/2018-11936/exemption-from-executive-order-13658-for-recreational-services-on-federal-lands",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-06-01/pdf/2018-11936.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/06/01/2018-11936.txt",
+  "enrichment": {
+    "summary": "This executive order exempts certain seasonal recreational service contracts on federal lands from a minimum wage requirement established by a prior order. Specifically, outfitters and guides offering multiday recreational tours are not required to comply with the minimum wage rule, but lodging and food services related to these activities still must comply. The goal is to keep recreational services affordable and accessible while maintaining efficiency.",
+    "theme_ids": [
+      "public-lands-management",
+      "minimum-wage",
+      "government-efficiency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-contractors",
+        "small-business-owners"
+      ],
+      "negative_ids": [
+        "working-age-adults",
+        "low-income-individuals-families"
+      ]
+    },
+    "potential_concerns": [
+      "Exempting outfitters and guides from the minimum wage requirement may reduce labor costs for federal contractors and small business owners, but could lead to lower wages and job instability for working-age adults employed in seasonal recreational services.",
+      "The exemption could unintentionally increase economic precarity among low-income individuals and families relying on seasonal recreational jobs, due to irregular hours and absence of wage protections.",
+      "By applying the exemption only to outfitters and guides but not lodging and food services, the order creates a complex compliance environment that could complicate government efficiency and contract administration.",
+      "The policy intended to keep recreational services affordable might result in reduced service quality or worker turnover, negatively impacting visitor experience and the sustainability of public-lands-management."
+    ],
+    "enriched_at": "2025-12-15T07:11:02.716Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -13,28 +13,29 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-07-18/pdf/2023-15347.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/07/18/2023-15347.txt",
   "enrichment": {
-    "summary": "This executive order authorizes the Secretary of Defense and the Secretary of Homeland Security to recall up to 3,000 members of the Selected Reserve and Individual Ready Reserve to active duty to support Operation Atlantic Resolve. The order aims to strengthen the U.S. military presence in the European Command area and improve readiness for ongoing defense operations. It also clarifies that this activation does not create new legal rights or benefits.",
+    "summary": "This executive order authorizes the Secretary of Defense and the Secretary of Homeland Security to call up to 3,000 reservists, including up to 450 from the Individual Ready Reserve, to active duty to support military operations related to Operation Atlantic Resolve in the European region. It also allows for the timely release of those called to active duty when their service is no longer needed.",
     "theme_ids": [
-      "national-security",
-      "military-personnel-policy",
-      "foreign-policy"
+      "military-readiness-force-structure",
+      "homeland-security",
+      "nato",
+      "europe-general"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "selected-reserve-and-irr-members"
+        "military-reservists-called-to-active-duty"
       ],
       "negative_ids": [
-        "private-sector-employers"
+        "military-reservists-called-to-active-duty",
+        "military-spouses"
       ]
     },
     "potential_concerns": [
-      "Activation of Reservists and IRR members may disrupt their civilian employment and personal lives.",
-      "Limiting the number of activated members may strain military readiness if more personnel are needed.",
-      "The lack of new legal rights or benefits could raise concerns about adequate protections and support for activated personnel.",
-      "Potential political or public backlash over increased military deployments without congressional approval or broader consultation.",
-      "Logistical and administrative challenges in rapidly mobilizing and demobilizing selected reserve members could affect operational efficiency."
+      "The activation of reservists to support Operation Atlantic Resolve may place increased physical and psychological burdens on military reservists and their families, potentially affecting retention and family stability.",
+      "Calling up to 450 Individual Ready Reserve members could disrupt civilian employment and income for those individuals, leading to financial hardship or job insecurity.",
+      "Rapid mobilization and demobilization may strain military readiness and logistical resources, impacting both the operational effectiveness of forces in Europe and support structures for the activated reserve members.",
+      "The order's authorization affecting Coast Guard members under Homeland Security jurisdiction may complicate coordination and preparedness within non-Navy maritime components, potentially impacting homeland security missions."
     ],
-    "enriched_at": "2025-12-09T01:38:00.669Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:38:18.090Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

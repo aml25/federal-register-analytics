@@ -1,0 +1,43 @@
+{
+  "document_number": "2017-09574",
+  "executive_order_number": "13798",
+  "title": "Promoting Free Speech and Religious Liberty",
+  "abstract": null,
+  "signing_date": "2017-05-04",
+  "publication_date": "2017-05-09",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/05/09/2017-09574/promoting-free-speech-and-religious-liberty",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-05-09/pdf/2017-09574.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/05/09/2017-09574.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to protect and respect the religious freedom and free speech rights of individuals and organizations, particularly in the context of political and moral speech from a religious perspective. It also calls for reconsideration of regulations related to conscience objections in preventive healthcare and requires guidance on religious liberty protections under federal law.",
+    "theme_ids": [
+      "religious-liberty",
+      "free-speech"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "religious-organizations",
+        "faith-based-communities",
+        "christians",
+        "jews-jewish-americans",
+        "muslims"
+      ],
+      "negative_ids": [
+        "aca-marketplace-enrollees",
+        "patients-general"
+      ]
+    },
+    "potential_concerns": [
+      "The order’s emphasis on protecting religious speech by organizations and individuals may inadvertently limit or delay access to preventive healthcare services for ACA marketplace enrollees and general patients due to expanded conscience objections.",
+      "By restricting adverse actions against religious organizations for political or moral speech, there is a risk of uneven enforcement and potential misuse of tax-exempt status protections, potentially impacting nonprofit regulation consistency.",
+      "Greater protections for moral or religious speech from specific faith communities could lead to increased tensions or perceived exclusion among secular or non-religious groups not directly protected under this order.",
+      "Expanded religious liberty claims related to the preventive-care mandate may create administrative burdens or legal ambiguities for healthcare providers serving diverse patient populations, potentially affecting service delivery."
+    ],
+    "enriched_at": "2025-12-15T02:26:02.443Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

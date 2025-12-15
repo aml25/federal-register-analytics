@@ -13,35 +13,38 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-11-18/pdf/2021-25286.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/11/18/2021-25286.txt",
   "enrichment": {
-    "summary": "This order establishes a coordinated federal effort to effectively implement the Infrastructure Investment and Jobs Act by setting priorities such as efficient use of funds, high labor standards, equity in investment, and climate resilience. It creates a task force chaired by senior White House officials to oversee and coordinate infrastructure projects across federal agencies, working closely with state, local, Tribal, and territorial governments.",
+    "summary": "This executive order directs the federal government to efficiently and equitably implement the Infrastructure Investment and Jobs Act, focusing on rebuilding and improving the nation's infrastructure like roads, bridges, water systems, and internet access. It creates an interagency task force to coordinate efforts across federal departments and ensure investments create good jobs, support climate goals, and benefit disadvantaged communities.",
     "theme_ids": [
-      "economic-development",
-      "equity-and-inclusion-policy",
-      "labor-relations",
-      "climate-change-mitigation",
-      "tribal-policy",
-      "federal-agency-management",
-      "infrastructure-policy"
+      "broadband-telecommunications",
+      "water-infrastructure",
+      "economic-competitiveness",
+      "environmental-justice",
+      "union-policy",
+      "worker-rights-protections",
+      "interagency-coordination"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "state-and-local-governments",
-        "tribal-nations",
-        "american-workers"
+        "construction-workers",
+        "union-members",
+        "environmental-justice-communities",
+        "rural-communities",
+        "tribal-communities-reservations",
+        "low-income-individuals-families"
       ],
       "negative_ids": [
-        "foreign-manufacturers",
-        "non-union-workers"
+        "non-union-workers",
+        "small-business-owners"
       ]
     },
     "potential_concerns": [
-      "Coordinating multiple federal agencies and levels of government may delay project implementation and reduce efficiency.",
-      "Ensuring equitable distribution of infrastructure investments, especially to disadvantaged communities, may face measurement and enforcement challenges.",
-      "High labor standards and union requirements could increase project costs or lead to labor disputes.",
-      "Climate resilience and advanced environmental requirements might slow approvals or increase complexity of projects.",
-      "The task force’s broad membership and authority could create bureaucratic overlap or unclear accountability."
+      "The emphasis on high labor standards and union membership may limit opportunities for non-union workers and small businesses that cannot meet prevailing wage requirements or union-related conditions.",
+      "Environmental justice communities may face delays or bureaucratic obstacles that could slow the equitable distribution of infrastructure investments intended to benefit them.",
+      "Rural and tribal communities might experience challenges in accessing broadband and clean water improvements promptly due to coordination complexities among multiple government levels and agencies.",
+      "Construction workers could be exposed to fluctuating demand and job insecurity as different projects come online, especially if funding or appropriations become uncertain over time.",
+      "Small business owners in infrastructure-related sectors might incur increased compliance costs from Made-in-America requirements and other regulatory priorities, possibly impacting competitiveness."
     ],
-    "enriched_at": "2025-12-09T03:51:36.614Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-12T08:17:51.895Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

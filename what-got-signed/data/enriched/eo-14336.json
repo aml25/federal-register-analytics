@@ -13,30 +13,28 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-19/pdf/2025-15823.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/19/2025-15823.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to fill and maintain a strategic reserve of active pharmaceutical ingredients (APIs) necessary for critical medicines to strengthen the U.S. pharmaceutical supply chain and reduce reliance on foreign sources. It establishes deadlines for creating lists of essential medicines, ensuring domestic sourcing whenever possible, and expanding storage capacity for these critical drug components.",
+    "summary": "This executive order directs the government to fill and maintain a national stockpile of key active pharmaceutical ingredients (APIs) that are critical to essential medicines. It aims to boost domestic production of these ingredients and ensure supply chain resilience by prioritizing U.S.-made APIs and creating a reliable reserve that can meet a six-month supply need.",
     "theme_ids": [
-      "national-security",
-      "trade-policy",
-      "pharmaceutical-supply-chain"
+      "supply-chain-security",
+      "healthcare-competition-markets",
+      "public-health-emergency-response",
+      "critical-infrastructure-protection"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "pharmaceutical-manufacturers",
-        "domestic-energy-producers"
+        "healthcare-workers",
+        "patients-general",
+        "manufacturing-workers"
       ],
-      "negative_ids": [
-        "foreign-suppliers",
-        "foreign-manufacturers"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "The preference for domestically manufactured APIs might raise costs or limit supply if domestic production capacity is insufficient.",
-      "Repurposing and allocating funds within statutory authorities may delay implementation or limit the scale of the SAPIR repository.",
-      "Challenges in identifying and prioritizing the 'critical drugs' could lead to important medicines being overlooked or understocked.",
-      "The order criticizes the previous administration's efforts, which could politicize public health initiatives and hinder bipartisan support.",
-      "Logistical and operational challenges in storing and maintaining API stockpiles, including shelf-life management, could complicate effective deployment during emergencies."
+      "Prioritizing domestically produced APIs may increase the cost of essential medicines, negatively impacting patients-general and healthcare-workers under cost constraints.",
+      "Boosting domestic API manufacturing could strain manufacturing-workers with increased production demands before sufficient infrastructure or workforce training is established.",
+      "A focus on a limited list of 26 critical drugs might leave supply vulnerabilities for other essential medicines, risking public-health-emergency-response efficacy for broader patient populations.",
+      "If government procurement leads to market distortions, it may reduce competition among pharmaceutical suppliers, affecting healthcare-workers' medication options and pricing."
     ],
-    "enriched_at": "2025-12-09T02:47:18.987Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:02:48.970Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

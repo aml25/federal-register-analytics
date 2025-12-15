@@ -13,30 +13,27 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-03-15/pdf/2022-05554.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/03/15/2022-05554.txt",
   "enrichment": {
-    "summary": "This executive order bans certain imports from Russia into the United States, restricts exports of luxury goods and U.S. dollar banknotes to Russia, and prohibits new U.S. investments in the Russian economy. It aims to impose additional economic sanctions on Russia in response to its ongoing aggression. The order also prohibits transactions that try to evade these sanctions and authorizes the Treasury and Commerce Departments to enforce and regulate these restrictions.",
+    "summary": "This executive order prohibits importing certain Russian products into the United States and restricts the export of luxury goods, new investments, and U.S. dollar banknotes to Russia. It aims to increase economic pressure on the Russian government in response to ongoing aggression. The order also forbids actions that try to evade these restrictions and allows the U.S. government to enforce and regulate these prohibitions.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
-      "foreign-policy",
-      "financial-regulation"
+      "economic-sanctions",
+      "export-import-policy",
+      "russia"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "investment-entities"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "foreign-suppliers",
-        "foreign-seafood-exporters"
+        "seafood-fishery-workers",
+        "corporations-businesses",
+        "investors"
       ]
     },
     "potential_concerns": [
-      "The sanctions may inadvertently harm U.S. businesses and consumers by limiting trade and economic opportunities related to Russian goods.",
-      "Implementation and enforcement challenges could arise given the complexity of tracking and preventing evasion of the investment and trade prohibitions.",
-      "The order could escalate tensions and provoke retaliatory measures from the Russian government, affecting broader diplomatic relations.",
-      "Determining what products and investments qualify for restrictions could lead to regulatory uncertainty and disputes.",
-      "The sanctions may disproportionately impact ordinary Russian citizens rather than the targeted government entities or elites."
+      "The prohibition on importing Russian fish, seafood, and alcoholic beverages could significantly harm seafood fishery workers and related businesses involved in importation and distribution.",
+      "Restrictions on new investments in Russia by U.S. persons may adversely affect U.S.-based corporations and investors who have existing or planned business interests, potentially leading to financial losses.",
+      "The export ban on luxury goods and U.S. dollar banknotes to Russia may have limited direct positive impact but could complicate compliance for U.S. exporters, increasing legal risk for corporations and investors.",
+      "Evasion and circumvention enforcement measures may impose heightened compliance costs and penalties on U.S. businesses engaging in international trade, potentially reducing competitiveness and operational flexibility."
     ],
-    "enriched_at": "2025-12-09T03:48:06.158Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T07:35:18.856Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

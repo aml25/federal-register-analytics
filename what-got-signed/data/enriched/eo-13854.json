@@ -1,0 +1,41 @@
+{
+  "document_number": "2018-27945",
+  "executive_order_number": "13854",
+  "title": "Providing for the Closing of Executive Departments and Agencies of the Federal Government on December 24, 2018",
+  "abstract": null,
+  "signing_date": "2018-12-18",
+  "publication_date": "2018-12-21",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/12/21/2018-27945/providing-for-the-closing-of-executive-departments-and-agencies-of-the-federal-government-on",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-12-21/pdf/2018-27945.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/12/21/2018-27945.txt",
+  "enrichment": {
+    "summary": "This executive order directs all federal executive departments and agencies to be closed on December 24, 2018, the day before Christmas, with employees excused from duty. However, certain offices may remain open and employees may be required to work on that day for reasons including national security or other public needs. The order also clarifies that the day is considered a paid holiday under relevant laws.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "national-security-information-classification"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants"
+      ],
+      "negative_ids": [
+        "federal-employees-civil-servants",
+        "military-personnel-active-duty",
+        "intelligence-community-personnel",
+        "law-enforcement-officers-federal"
+      ]
+    },
+    "potential_concerns": [
+      "Employees excused from duty on December 24, 2018, will benefit from a paid holiday, but those required to work—such as federal law enforcement, intelligence community personnel, and active duty military—may face work-life balance challenges due to mandated duty on a holiday.",
+      "The discretion given to agency heads to keep certain offices open for national security or public need may lead to inconsistencies in who must work, creating perceptions of unfair treatment among federal employees.",
+      "Mandating work on a holiday for employees in sensitive national security positions could raise concerns about fatigue or diminished alertness, potentially affecting operational effectiveness.",
+      "Federal employees required to work on December 24 may face challenges in arranging alternative plans for holiday observance, leading to potential morale and productivity issues."
+    ],
+    "enriched_at": "2025-12-15T02:26:43.105Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

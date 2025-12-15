@@ -13,35 +13,35 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-06-28/pdf/2023-13889.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/06/28/2023-13889.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to improve and expand access to affordable, high-quality contraception and family planning services through existing programs like the Affordable Care Act, Medicaid, and federal healthcare facilities. It emphasizes protecting reproductive rights, increasing coverage without cost-sharing, enhancing provider networks, and supporting public awareness and training efforts to ensure more equitable access to contraception nationwide.",
+    "summary": "This executive order directs federal agencies to improve access to affordable, high-quality contraception and family planning services across healthcare programs, including Medicaid, Medicare, and federal employee benefits. It emphasizes expanding coverage without out-of-pocket costs, enhancing privacy protections, supporting providers, and increasing public awareness to ensure all people can make informed choices about their reproductive health.",
     "theme_ids": [
-      "public-health-promotion",
-      "equity-and-inclusion-policy",
-      "education-policy",
-      "veterans-affairs-policy",
-      "privacy-and-data-security",
-      "reproductive-health-policy"
+      "contraception-family-planning",
+      "affordable-care-act-aca",
+      "medicaid",
+      "medicare",
+      "abortion-reproductive-health"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "women-seeking-contraception",
-        "medical-patients",
-        "public-health-workers",
-        "private-health-insurers"
+        "women",
+        "medicaid-beneficiaries",
+        "medicare-beneficiaries",
+        "military-personnel-active-duty",
+        "veterans",
+        "aca-marketplace-enrollees",
+        "healthcare-workers",
+        "low-income-individuals-families"
       ],
-      "negative_ids": [
-        "states-with-restrictive-policies",
-        "private-sector-employers"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Expanded contraceptive coverage requirements may increase regulatory and administrative burdens for private insurers and healthcare providers.",
-      "States with restrictive reproductive policies could face federal pushback, increasing legal conflicts and complicating service delivery in those regions.",
-      "Ensuring adequate funding and resources for Medicaid, Medicare, and Title X programs may be challenging given budget constraints and competing priorities.",
-      "Privacy protections for reproductive health information could create compliance complexities for healthcare entities balancing patient confidentiality with information sharing.",
-      "Outreach and education initiatives may face resistance or lack of uptake in areas with cultural or political opposition to contraception access."
+      "Efforts to expand no-cost contraception coverage under the Affordable Care Act and Medicaid may face pushback from states with restrictive reproductive health laws, potentially limiting impact for Medicaid beneficiaries in those states.",
+      "Providers and healthcare workers may face increased operational burdens or liability concerns while implementing enhanced privacy protections for reproductive health information.",
+      "Low-income individuals and Medicaid beneficiaries might still experience access barriers if federal guidance is unevenly applied or insufficiently funded, especially in rural or underserved areas.",
+      "Veterans and active duty military personnel could encounter disparities in contraception availability if military health systems and VA programs do not fully adopt or implement new coverage and awareness initiatives.",
+      "Public awareness campaigns aimed at educating ACA enrollees and federal beneficiaries about contraception access risks politicization or misinformation that could undermine utilization among target populations."
     ],
-    "enriched_at": "2025-12-09T01:37:58.231Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:38:25.070Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

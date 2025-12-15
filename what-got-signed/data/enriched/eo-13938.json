@@ -1,0 +1,44 @@
+{
+  "document_number": "2020-16624",
+  "executive_order_number": "13938",
+  "title": "Increasing Drug Importation To Lower Prices for American Patients",
+  "abstract": null,
+  "signing_date": "2020-07-24",
+  "publication_date": "2020-07-29",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/07/29/2020-16624/increasing-drug-importation-to-lower-prices-for-american-patients",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-07-29/pdf/2020-16624.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/07/29/2020-16624.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Secretary of Health and Human Services to make it easier and safer for Americans to import prescription drugs from other countries, especially Canada, to help lower drug prices. It encourages expanding the safe importation of lower-cost medicines like insulin without compromising patient safety.",
+    "theme_ids": [
+      "prescription-drug-pricing",
+      "healthcare-competition-markets"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "patients-general",
+        "individuals-with-chronic-illnesses",
+        "low-income-individuals-families",
+        "medicare-beneficiaries",
+        "medicaid-beneficiaries"
+      ],
+      "negative_ids": [
+        "healthcare-organizations",
+        "corporations-businesses"
+      ]
+    },
+    "potential_concerns": [
+      "Increasing drug importation may lower out-of-pocket costs for patients-general and individuals-with-chronic-illnesses but could disrupt pricing and supply chain stability affecting healthcare-organizations that rely on existing domestic pharmaceutical distribution.",
+      "Low-income-individuals-families, as well as Medicare and Medicaid beneficiaries, may face barriers if imported drugs differ in formulation or approved indications, potentially causing confusion or uneven access.",
+      "The order could create competitive pressure on domestic pharmaceutical corporations-businesses that may respond by reducing investment in innovation or raising prices for non-imported drugs.",
+      "There is a risk that expanded importation increases safety risks if regulatory oversight lapses, directly impacting patients-general relying on imported medicines.",
+      "Cross-border importation efforts may provoke trade or diplomatic tensions with foreign governments and complicate regulatory enforcement, indirectly affecting patients and healthcare providers in the U.S."
+    ],
+    "enriched_at": "2025-12-15T07:31:11.318Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

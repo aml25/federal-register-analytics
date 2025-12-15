@@ -1,0 +1,45 @@
+{
+  "document_number": "2020-23115",
+  "executive_order_number": "13955",
+  "title": "Establishing the One Trillion Trees Interagency Council",
+  "abstract": null,
+  "signing_date": "2020-10-13",
+  "publication_date": "2020-10-16",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/10/16/2020-23115/establishing-the-one-trillion-trees-interagency-council",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-10-16/pdf/2020-23115.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/10/16/2020-23115.txt",
+  "enrichment": {
+    "summary": "This executive order creates the United States One Trillion Trees Interagency Council to coordinate efforts across federal agencies to grow, restore, and conserve trees as part of a global initiative to plant one trillion trees by 2030. The council, led by key cabinet members, will develop strategies, track progress, identify challenges, and work with states, tribes, and partners to promote forest health and environmental benefits.",
+    "theme_ids": [
+      "climate-change-policy",
+      "forest-management-wildfire-prevention",
+      "public-lands-management",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "tribal-communities-reservations",
+        "rural-communities",
+        "agricultural-workers-farmers",
+        "environmental-justice-communities",
+        "nonprofit-organizations"
+      ],
+      "negative_ids": [
+        "small-business-owners"
+      ]
+    },
+    "potential_concerns": [
+      "Implementation of active forest management and tree planting may restrict land use or impose new regulations on tribal communities and small-business owners involved in forestry or agriculture, potentially affecting their autonomy and economic activities.",
+      "Rural communities and agricultural workers could experience disruptions due to changes in land management practices or conservation priorities that limit certain uses of forest and woodland areas.",
+      "Environmental justice communities might benefit from improved air and water quality but could also face delays or imbalances if resources prioritize large-scale federal projects over localized community needs.",
+      "Nonprofit organizations partnering in tree restoration efforts may face coordination challenges or bureaucratic limitations under interagency oversight, affecting project efficiency and funding.",
+      "A broad interagency approach risks overlapping jurisdiction and inefficiencies that could slow progress, undermining the order’s climate-change and wildfire-prevention goals impacting all stakeholders."
+    ],
+    "enriched_at": "2025-12-15T07:28:36.629Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

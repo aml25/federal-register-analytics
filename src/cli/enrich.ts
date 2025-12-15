@@ -2,14 +2,14 @@
 import 'dotenv/config';
 
 /**
- * CLI for enriching executive orders
+ * CLI for enriching executive orders using static taxonomy
  *
  * Usage:
  *   npm run enrich -- --year 2025
  *   npm run enrich -- --year 2025 --limit 5
  *   npm run enrich -- --force
  *   npm run enrich -- --eo 14350           # Enrich specific EO
- *   npm run enrich -- --year 2025 --pass2-only  # Re-run population analysis only
+ *   npm run enrich -- --existing-only      # Re-enrich only already-enriched EOs
  */
 
 import { enrich } from '../enrich.js';
@@ -22,7 +22,7 @@ const options = {
   limit: args.limit ? parseInt(String(args.limit), 10) : undefined,
   force: Boolean(args.force),
   eoNumber: args.eo ? parseInt(String(args.eo), 10) : undefined,
-  pass2Only: Boolean(args['pass2-only'])
+  existingOnly: Boolean(args['existing-only'])
 };
 
 enrich(options).catch((err) => {

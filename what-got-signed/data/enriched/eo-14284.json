@@ -13,28 +13,26 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-29/pdf/2025-07469.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/29/2025-07469.txt",
   "enrichment": {
-    "summary": "This executive order strengthens the use of probationary and trial periods for new federal employees by requiring agencies to actively certify that an employee should be retained before their appointment becomes permanent. It repeals existing regulations that made it harder to terminate underperforming probationary employees and establishes new rules to ensure agencies better evaluate employee fitness during these initial periods.",
+    "summary": "This executive order strengthens the use of probationary and trial periods for new federal employees by requiring agencies to actively decide whether to keep them on after these periods, rather than employees automatically gaining permanent status. It aims to improve federal workforce quality by ensuring underperforming employees can be effectively removed before becoming permanent.",
     "theme_ids": [
-      "federal-workforce",
-      "federal-agency-management",
-      "regulatory-reform"
+      "federal-workforce-management",
+      "civil-service-reform",
+      "government-efficiency"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "federal-employees"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "displaced-federal-workers"
+        "federal-employees-civil-servants"
       ]
     },
     "potential_concerns": [
-      "The new requirement for agency certification could lead to inconsistent application or subjective criteria, potentially harming employee morale.",
-      "Probationary employees might face increased job insecurity and stress due to heightened risk of termination without typical appeal protections.",
-      "Managers may be reluctant to certify employees despite satisfactory performance to avoid risks, potentially leading to workforce instability.",
-      "Implementation deadlines and administrative requirements could strain agency resources and delay effective application of the new rules.",
-      "Repeal of protections under prior regulations might reduce due process for probationary employees and generate legal challenges."
+      "The requirement for agencies to affirmatively certify probationary employees’ retention may increase job insecurity and stress among federal employees, potentially harming workforce morale and retention.",
+      "The policy could disproportionately affect marginalized subgroups within federal employees, such as racial minorities or individuals with disabilities, if subjective assessments during probation lead to biased terminations.",
+      "Increased administrative burdens on agencies to conduct thorough evaluations and certifications within specified timeframes may lead to rushed or inconsistent termination decisions affecting federal employees’ due process.",
+      "Without clear and accessible appeal procedures, probationary employees may face unfair terminations with limited recourse, raising concerns about procedural fairness and equity.",
+      "The elimination of automatic permanent status after probation might reduce long-term workforce stability, complicating recruitment and retention efforts within the federal civilian workforce."
     ],
-    "enriched_at": "2025-12-09T02:44:36.018Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:18:14.195Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

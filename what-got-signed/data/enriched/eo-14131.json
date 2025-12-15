@@ -13,26 +13,25 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-12-27/pdf/2024-31355.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/12/27/2024-31355.txt",
   "enrichment": {
-    "summary": "This executive order updates and clarifies the rules governing the awarding and wear of Presidential and Vice Presidential Service Certificates and Badges to members of the U.S. Uniformed Services assigned to support the President and Vice President. It specifies eligibility periods, awarding authorities, and uniform wear regulations to ensure proper recognition and consistent administration of these honors.",
+    "summary": "This executive order updates previous orders regarding certificates and badges awarded to members of the U.S. Uniformed Services assigned to the White House and the Office of the Vice President. It clarifies the eligibility, award procedures, and authorization to wear the Presidential Service Badge and Vice Presidential Service Badge. The order ensures these recognitions continue and outlines the responsible authorities for awarding them.",
     "theme_ids": [
-      "military-personnel-policy",
-      "federal-agency-management",
-      "national-security"
+      "military-readiness-force-structure",
+      "homeland-security"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "armed-forces-personnel",
-        "coast-guard-personnel"
+        "military-personnel-active-duty",
+        "veterans"
       ],
       "negative_ids": []
     },
     "potential_concerns": [
-      "Ambiguities in award eligibility or administrative authority could lead to inconsistent application across military branches and agencies.",
-      "Implementation may create additional administrative burden on service secretaries and the White House Military Office.",
-      "The order does not address how to handle disputes or appeals regarding award eligibility, which could lead to dissatisfaction among personnel.",
-      "Changes to uniform wear policy could lead to confusion or noncompliance within services if not clearly communicated."
+      "The clarified eligibility and award procedures might unintentionally exclude some eligible military personnel assigned to the White House or Vice President's office, potentially affecting recognition and morale among active-duty service members.",
+      "The continuation and formalization of badge wear policies may create administrative or uniform compliance burdens for military personnel, especially those in services under different secretarial authorities like Homeland Security or Commerce.",
+      "Differences in awarding authority among military branches and commissioned corps could lead to inconsistent application or perceptions of favoritism, impacting force cohesion and the value of these recognitions for veterans and active-duty personnel.",
+      "If not carefully communicated, the order may cause confusion among service members about their entitlement to Presidential versus Vice Presidential badges, possibly resulting in delays or disputes that affect military readiness and esprit de corps."
     ],
-    "enriched_at": "2025-12-09T01:36:25.538Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:39:47.070Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -13,33 +13,35 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-03/pdf/2025-05837.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/03/2025-05837.txt",
   "enrichment": {
-    "summary": "This executive order directs the federal government to work closely with local officials to improve safety and cleanliness in Washington, D.C. It establishes a task force to combat crime, enhance law enforcement coordination, and protect monuments, while also developing a program to beautify public spaces and promptly remove graffiti and homeless encampments on federal lands in the city.",
+    "summary": "This executive order establishes a task force to improve safety and reduce crime in Washington, D.C., by coordinating federal and local law enforcement efforts. It also directs federal agencies to implement programs that clean, beautify, and maintain public spaces, monuments, and parks throughout the District to make the city safer and more attractive for residents, commuters, and visitors.",
     "theme_ids": [
-      "public-safety",
-      "immigration-enforcement",
-      "federal-property-management",
-      "symbol-protection",
-      "public-lands-management",
-      "advisory-committees-management"
+      "homeland-security",
+      "immigration-enforcement-interior",
+      "sanctuary-city-policy",
+      "federal-law-enforcement",
+      "crime-reduction",
+      "national-monuments-antiquities",
+      "presidential-commissions-task-forces",
+      "state-local-law-enforcement-support"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "state-and-local-law-enforcement"
+        "urban-communities",
+        "local-governments",
+        "crime-victims"
       ],
       "negative_ids": [
-        "homeless-individuals",
         "undocumented-immigrants",
-        "communities-affected-by-police-aggression"
+        "homeless-unhoused-individuals"
       ]
     },
     "potential_concerns": [
-      "Increased law enforcement presence and aggressive crime-fighting tactics may lead to over-policing and civil rights concerns, especially in marginalized communities.",
-      "The prompt removal of homeless encampments on federal lands could displace homeless individuals without providing adequate alternative housing or support services.",
-      "Stronger immigration enforcement efforts could create fear and uncertainty among undocumented immigrants and immigrant communities in the D.C. area.",
-      "Coordination among multiple federal and local agencies may face bureaucratic challenges, potentially limiting the effectiveness of the task force.",
-      "Efforts to strictly enforce laws on protests and demonstrations might restrict lawful free speech and political expression in public spaces."
+      "The intensification of federal immigration enforcement and coordination to apprehend and deport illegal aliens may lead to increased targeting and displacement of undocumented immigrants, raising humanitarian and civil rights concerns.",
+      "The directive to promptly remove homeless or vagrant encampments on federal lands could result in displacement of homeless individuals without adequate provision of alternative housing or services, exacerbating their vulnerability.",
+      "Coordination to increase law enforcement presence and strict enforcement of nuisance and quality of life laws might lead to over-policing in urban communities and potential criminalization of minor offenses, disproportionately affecting marginalized populations.",
+      "Efforts to collaborate on speeding and lowering costs of concealed carry licensing may generate tensions between public safety goals and gun owners’ rights, impacting the balance of crime reduction and Second Amendment advocacy."
     ],
-    "enriched_at": "2025-12-09T02:42:55.672Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:22:29.232Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

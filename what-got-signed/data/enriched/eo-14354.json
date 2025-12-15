@@ -13,26 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-10-06/pdf/2025-19485.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/10/06/2025-19485.txt",
   "enrichment": {
-    "summary": "This executive order extends the authorization and functioning of several existing federal advisory committees until September 30, 2027. It assigns responsibility for these committees to the heads of relevant federal departments or agencies and supersedes certain previous orders related to these advisory bodies.",
+    "summary": "This executive order extends the authorization for a list of federal advisory committees, allowing them to continue operating until September 30, 2027. It also transfers certain presidential functions under the Federal Advisory Committee Act to the heads of the respective departments or agencies responsible for these committees.",
     "theme_ids": [
-      "federal-workforce",
-      "national-security",
-      "trade-policy",
-      "advisory-committees-management"
+      "federal-advisory-committees",
+      "public-lands-management",
+      "national-monuments-antiquities",
+      "religious-liberty",
+      "small-business-support"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies-with-increased-administrative-burden"
+        "small-business-owners",
+        "native-americans-indigenous-peoples",
+        "religious-organizations",
+        "veterans",
+        "hbcu-students-communities"
       ],
       "negative_ids": []
     },
     "potential_concerns": [
-      "The extended continuation of advisory committees without comprehensive review could lead to redundancy or inefficiency in federal advisory processes.",
-      "Delegating committee functions to department heads could result in inconsistent oversight and management across agencies.",
-      "Some committees advising on sensitive issues, such as national security or indigenous affairs, may face politicization or lack of stakeholder representation.",
-      "Limited public transparency and engagement with these committees might reduce accountability and the diversity of input."
+      "Extending advisory committees for national monuments may lead to prolonged debates impacting Native Americans' interests in ancestral lands without timely resolution.",
+      "Small business owners could face indirect burdens if advisory committee recommendations prioritize regulatory frameworks that increase compliance costs.",
+      "Religious organizations involved in the Religious Liberty Commission might experience policy shifts that could generate controversies regarding the balance between religious freedoms and civil rights.",
+      "Veterans engaging with small business development advisory committees may encounter delays or disruptions if committee functions shift authority among agencies, affecting program continuity.",
+      "HBCU students and communities may see limited influence from the continued advisory council if the transferred oversight reduces direct presidential engagement and responsiveness."
     ],
-    "enriched_at": "2025-12-09T02:48:07.635Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-12T08:22:00.783Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

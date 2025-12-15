@@ -13,30 +13,29 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-03/pdf/2025-05845.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/03/2025-05845.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to review and potentially suspend security clearances for employees of the law firm WilmerHale and restrict government contracts and interactions with the firm. It aims to prevent taxpayer funds from supporting activities it views as harmful to national security, public safety, and American interests, particularly targeting alleged discriminatory and partisan conduct by WilmerHale. The order also limits hiring and access of WilmerHale employees within federal government operations.",
+    "summary": "This executive order directs federal agencies to suspend security clearances and review contracts related to the law firm WilmerHale due to its alleged involvement in activities threatening national security and American interests. It also limits access and hiring of WilmerHale employees by federal agencies to protect national security and align government actions with the administration's priorities.",
     "theme_ids": [
-      "national-security",
-      "public-safety",
-      "federal-workforce",
-      "federal-procurement-policy"
+      "national-security-information-classification",
+      "security-clearances-background-investigations",
+      "government-spending-earmarks",
+      "employment-discrimination"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "law-firm-employees"
-      ],
+      "positive_ids": [],
       "negative_ids": [
+        "security-clearance-holders",
         "federal-contractors",
-        "foreign-suppliers"
+        "federal-employees-civil-servants"
       ]
     },
     "potential_concerns": [
-      "The order's broad allegations against WilmerHale may raise legal challenges related to due process, fairness, and defamation.",
-      "Suspension of security clearances could impede legitimate government staffing and contract work if not carefully reviewed.",
-      "Restrictions on contracting and hiring may disrupt ongoing government operations relying on WilmerHale's legal services.",
-      "The order risks politicizing the granting and revocation of security clearances and law firm interactions with the government.",
-      "Ambiguities around what constitutes prohibited conduct and relationships could create enforcement and compliance difficulties."
+      "Suspension of security clearances held by WilmerHale employees could disrupt federal operations and career prospects for security-clearance holders within the firm, impacting federal contracting and employment opportunities.",
+      "Termination or review of government contracts related to WilmerHale may lead to financial instability for federal contractors connected to WilmerHale, resulting in broader economic and operational impacts across agencies.",
+      "Restrictions on hiring WilmerHale employees by federal agencies could raise concerns about due process and potential employment discrimination for federal employees or applicants affiliated with the firm.",
+      "Allegations of racial discrimination both by and against WilmerHale employees highlight potential complex racial and employment issues affecting African American employees and raise the risk of inconsistent application of anti-discrimination laws.",
+      "Strict limitations on interactions with WilmerHale personnel in government buildings could inadvertently reduce collaboration between federal employees and external legal experts, potentially affecting the quality of legal counsel and government functions."
     ],
-    "enriched_at": "2025-12-09T02:42:49.544Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:22:45.313Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

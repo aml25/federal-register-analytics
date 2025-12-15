@@ -1,0 +1,43 @@
+{
+  "document_number": "2018-11916",
+  "executive_order_number": "13837",
+  "title": "Ensuring Transparency, Accountability, and Efficiency in Taxpayer-Funded Union Time Use",
+  "abstract": null,
+  "signing_date": "2018-05-25",
+  "publication_date": "2018-06-01",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/06/01/2018-11916/ensuring-transparency-accountability-and-efficiency-in-taxpayer-funded-union-time-use",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-06-01/pdf/2018-11916.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/06/01/2018-11916.txt",
+  "enrichment": {
+    "summary": "This executive order requires federal agencies to carefully track and regulate how much paid work time federal employees spend on union activities using taxpayer funds, ensuring such time is reasonable, necessary, and publicly transparent. It mandates reporting, monitoring, and limits on union time use to promote efficiency and accountability in the federal workforce.",
+    "theme_ids": [
+      "federal-labor-management-relations",
+      "government-efficiency",
+      "federal-workforce-management",
+      "ethics-lobbying-rules",
+      "records-classification-transparency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "taxpayers"
+      ],
+      "negative_ids": [
+        "federal-employees-civil-servants",
+        "labor-unions"
+      ]
+    },
+    "potential_concerns": [
+      "The order's strict limits and monitoring on taxpayer-funded union time may constrain federal employees' ability to effectively represent labor interests, raising concerns under federal-labor-management-relations.",
+      "Efforts to limit union time usage and require detailed reporting may create administrative burdens and potential conflicts in collective bargaining, affecting labor unions and federal workforce-management dynamics.",
+      "Transparency and public disclosure requirements could risk exposing sensitive employee or union information, raising issues related to records-classification-transparency and employee privacy.",
+      "While aiming to improve government-efficiency and accountability for taxpayers, the order may unintentionally reduce labor organization engagement, possibly undermining whistleblower protections and employee advocacy.",
+      "Restrictions on use of government resources and prohibitions on grievance-related union time might hamper fair dispute resolution processes for federal employees, impacting their rights and morale."
+    ],
+    "enriched_at": "2025-12-15T07:11:11.413Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

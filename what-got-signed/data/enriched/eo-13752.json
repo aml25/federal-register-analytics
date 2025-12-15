@@ -1,0 +1,40 @@
+{
+  "document_number": "2016-30101",
+  "executive_order_number": "13752",
+  "title": "Relating to the Implementation of the Convention on the International Recovery of Child Support and Other Forms of Family Maintenance",
+  "abstract": null,
+  "signing_date": "2016-12-08",
+  "publication_date": "2016-12-13",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2016/12/13/2016-30101/relating-to-the-implementation-of-the-convention-on-the-international-recovery-of-child-support-and",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2016-12-13/pdf/2016-30101.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2016/12/13/2016-30101.txt",
+  "enrichment": {
+    "summary": "This executive order designates the Department of Health and Human Services as the central authority responsible for implementing the Hague Convention on the International Recovery of Child Support and Other Forms of Family Maintenance. It authorizes the department to coordinate with state agencies to handle child support cases that involve international recovery under the convention.",
+    "theme_ids": [
+      "family-separation-reunification",
+      "international-agreements-treaties",
+      "government-reorganization"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "children-minors",
+        "u-s-citizens"
+      ],
+      "negative_ids": [
+        "undocumented-immigrants"
+      ]
+    },
+    "potential_concerns": [
+      "The implementation of international child support recovery may create delays or bureaucratic hurdles that adversely affect children-minors awaiting timely financial support.",
+      "Undocumented-immigrants could face challenges or fear engaging with state authorities for child support recovery, potentially limiting their access to benefits under the Convention.",
+      "Coordination between federal and state agencies might be complex, risking inconsistent application of the Convention which could negatively impact families involved in cross-border support disputes.",
+      "The designation of a central authority could raise concerns about privacy and data sharing across international boundaries, affecting families' confidential information."
+    ],
+    "enriched_at": "2025-12-15T02:17:19.583Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -13,30 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-12-17/pdf/2021-27505.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/12/17/2021-27505.txt",
   "enrichment": {
-    "summary": "This executive order allows the U.S. government to impose sanctions on foreign individuals and entities involved in the global illicit drug trade, including trafficking, financing, and production of illegal drugs like fentanyl. It blocks their assets, restricts financial transactions, and limits their ability to enter the United States to disrupt international drug networks threatening U.S. public safety and security.",
+    "summary": "This executive order targets foreign individuals and entities involved in producing, distributing, or supporting the global illicit drug trade, especially fentanyl and synthetic opioids. It authorizes the U.S. government to impose sanctions, block assets, restrict financial transactions, and limit entry into the United States of those connected to international drug trafficking and related activities.",
     "theme_ids": [
-      "national-security",
-      "foreign-policy",
-      "financial-regulation",
-      "transnational-crime-policy",
-      "immigration-enforcement"
+      "economic-sanctions",
+      "drug-enforcement",
+      "opioid-crisis",
+      "transnational-crime-cartels",
+      "national-emergencies"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "sanctioned-persons-and-affiliates"
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local",
+        "crime-victims",
+        "border-communities"
       ],
       "negative_ids": [
-        "foreign-suppliers"
+        "foreign-nationals-general",
+        "corporations-businesses"
       ]
     },
     "potential_concerns": [
-      "Sanctions may inadvertently affect legitimate businesses or individuals linked to sanctioned entities without direct involvement in illicit drug activities.",
-      "Determining and proving involvement in international drug trafficking is complex and may lead to legal challenges or diplomatic tensions.",
-      "Restricting entry of noncitizens based on these sanctions could impact diplomatic relations or raise due process concerns.",
-      "Enforcement relies heavily on interagency coordination, which may face resource or jurisdictional challenges.",
-      "Overreliance on sanctions could push illicit drug networks to adopt more covert or technologically sophisticated methods."
+      "The use of broad economic sanctions on foreign persons and entities may complicate diplomatic relations and potentially harm legitimate foreign businesses engaged in lawful trade, impacting corporations-businesses.",
+      "Restrictions on entry to the United States for certain foreign nationals identified as connected to the illicit drug trade may raise concerns about due process and the potential for erroneous designation affecting innocent individuals.",
+      "Enhanced sanctions targeting drug trafficking networks may improve outcomes for crime victims and border communities by reducing drug flow but could also lead to temporary disruptions in local economies dependent on cross-border activities.",
+      "Law enforcement agencies may face challenges in effectively identifying and designating sanctioned persons without clear intelligence, possibly resulting in enforcement inefficiencies or overreach affecting foreign nationals.",
+      "Collateral damage to non-targeted foreign nationals and entities, due to broad definitions in the order, might create unintended barriers to international cooperation crucial for combating drug trafficking globally."
     ],
-    "enriched_at": "2025-12-09T03:50:38.653Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-12T08:16:47.552Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

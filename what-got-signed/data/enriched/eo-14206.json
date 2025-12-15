@@ -13,28 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-12/pdf/2025-02636.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/12/2025-02636.txt",
   "enrichment": {
-    "summary": "This executive order directs the Attorney General to review federal rules, regulations, and actions from recent years to identify and address any infringements on Americans' Second Amendment rights to keep and bear arms. It aims to develop and implement a plan to protect these rights by ensuring that federal agencies do not unduly restrict lawful gun ownership and related activities.",
+    "summary": "This executive order directs the Attorney General to review current federal actions and regulations from recent years that may limit the constitutional right to keep and bear arms. The goal is to develop and implement a plan that protects Second Amendment rights and ensures these rights are not infringed upon by government policies.",
     "theme_ids": [
-      "regulatory-reform",
-      "public-safety",
-      "legal-profession-policy"
+      "american-heritage-patriotism"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "average-americans"
+        "gun-owners-second-amendment-advocates",
+        "u-s-citizens",
+        "birthright-citizens",
+        "naturalized-citizens",
+        "lawful-permanent-residents-green-card-holders"
       ],
       "negative_ids": [
-        "illegal-firearms-manufacturers-and-traffickers"
+        "crime-victims",
+        "domestic-violence-survivors"
       ]
     },
     "potential_concerns": [
-      "Efforts to reduce regulations on firearms could increase public safety risks, including gun violence and accidents.",
-      "Removing or modifying firearm regulations may strain relationships and cooperation between federal, state, and local law enforcement agencies.",
-      "The order’s broad review and potential rollback of prior safety measures may disproportionately affect vulnerable communities already impacted by gun violence.",
-      "Ambiguities in implementation timelines and scope may cause confusion and uneven enforcement across agencies.",
-      "Litigation and legal challenges could arise regarding the interpretation of what constitutes an infringement on Second Amendment rights."
+      "The order’s emphasis on protecting Second Amendment rights may limit the government’s ability to enforce regulations that reduce gun violence, potentially increasing risks for crime victims and domestic violence survivors.",
+      "By reviewing and potentially rolling back firearm regulations from the recent administration, the order could inadvertently weaken public safety measures aimed at preventing firearm misuse, affecting particularly vulnerable populations.",
+      "The broad review and revision process might create legal uncertainties for Federal firearms licensees and law enforcement, complicating enforcement and compliance within regulated communities.",
+      "Prioritizing American heritage and patriotism themes in the order might marginalize voices advocating for gun safety reforms and neglect the nuanced needs of urban and minority communities disproportionately impacted by gun violence."
     ],
-    "enriched_at": "2025-12-09T02:40:46.858Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:28:49.209Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

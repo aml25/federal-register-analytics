@@ -1,0 +1,40 @@
+{
+  "document_number": "2018-10855",
+  "executive_order_number": "13833",
+  "title": "Enhancing the Effectiveness of Agency Chief Information Officers",
+  "abstract": null,
+  "signing_date": "2018-05-15",
+  "publication_date": "2018-05-18",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/05/18/2018-10855/enhancing-the-effectiveness-of-agency-chief-information-officers",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-05-18/pdf/2018-10855.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/05/18/2018-10855.txt",
+  "enrichment": {
+    "summary": "This executive order strengthens the role of Chief Information Officers (CIOs) in federal agencies to improve management, security, and modernization of government information technology systems. It requires agencies to consolidate IT functions, enhance cybersecurity, set standards for IT personnel skills, and streamline hiring authorities to better support effective and secure IT operations.",
+    "theme_ids": [
+      "cybersecurity-civilian",
+      "government-it-modernization",
+      "federal-workforce-management",
+      "federal-hiring"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants",
+        "technology-workers",
+        "cybersecurity-professionals"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The consolidation of IT functions and centralization of authority under agency CIOs may reduce career advancement opportunities for some federal IT personnel and technology workers, potentially impacting workforce morale.",
+      "Streamlining hiring authorities for IT positions could inadvertently lower hiring standards if not properly monitored, affecting the quality and security of federal IT operations and impacting cybersecurity professionals.",
+      "Greater CIO control over IT resources may create bottlenecks or overcentralization risks, slowing innovation and responsiveness within federal agencies despite intentions to improve modernization.",
+      "Accelerated modernization and adoption of cloud-based services could raise concerns about data privacy and cybersecurity risks for federal employees whose systems and work platforms are transitioning."
+    ],
+    "enriched_at": "2025-12-15T07:11:41.812Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

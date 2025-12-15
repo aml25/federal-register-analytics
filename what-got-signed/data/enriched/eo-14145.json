@@ -13,32 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-24/pdf/2025-01758.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/24/2025-01758.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to coordinate and improve support for economically distressed and left-behind communities by enhancing access to existing programs, promoting community engagement, and encouraging place-based economic development. It aims to strengthen disaster resilience and facilitate equitable access to federal funding opportunities for local, Tribal, and rural areas facing economic challenges.",
+    "summary": "This executive order directs the federal government to better coordinate programs that support economically distressed and left-behind communities, including Tribal areas and rural regions. It aims to improve access to funding and technical assistance, promote community engagement, and foster long-term economic development and disaster resilience in these areas by encouraging interagency collaboration.",
     "theme_ids": [
-      "federal-agency-management",
-      "disaster-preparedness",
-      "economic-development",
-      "community-development",
-      "place-based-economic-development"
+      "opportunity-zones-distressed-communities",
+      "interagency-coordination",
+      "workforce-development",
+      "rural-development",
+      "disaster-rebuilding-long-term-recovery"
     ],
     "impacted_populations": {
       "positive_ids": [
+        "low-income-individuals-families",
+        "tribal-communities-reservations",
         "rural-communities",
-        "tribal-nations",
-        "nonprofit-organizations"
+        "individuals-experiencing-poverty",
+        "union-members"
       ],
-      "negative_ids": [
-        "foreign-suppliers"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Coordination among multiple federal agencies may be challenging, leading to inefficiencies or overlapping efforts.",
-      "Some economically distressed communities could be overlooked if not clearly defined or identified by federal criteria.",
-      "Preference for covered communities in funding might reduce resources available to other similarly needy but non-designated areas.",
-      "Implementation depends on availability of appropriations, which could limit effectiveness or create uncertainty.",
-      "The broad definitions of covered communities and criteria might create confusion or inconsistent application across agencies."
+      "Coordination across multiple federal agencies may lead to bureaucratic delays that reduce timely delivery of benefits to low-income families and tribal communities in distressed areas.",
+      "Preferences for funding applications from covered communities might unintentionally exclude or disadvantage organizations in similar communities that do not meet narrowly defined criteria, limiting access for some rural areas.",
+      "Efforts to increase workforce development and local labor negotiation capacity could provoke resistance from private investors or large corporations, potentially slowing economic development in affected regions.",
+      "Post-disaster economic resilience programs may not adequately address unique local needs in all tribal or rural communities, leading to uneven recovery outcomes and persistent disparities.",
+      "Enhanced federal engagement might increase administrative burden on community-based organizations already operating with limited capacity, risking reduced effectiveness of local economic development initiatives."
     ],
-    "enriched_at": "2025-12-09T02:37:44.265Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:38:02.646Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

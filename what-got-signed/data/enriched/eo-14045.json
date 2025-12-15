@@ -13,30 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-09-16/pdf/2021-20165.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/09/16/2021-20165.txt",
   "enrichment": {
-    "summary": "This executive order establishes a White House Initiative to improve educational equity, excellence, and economic opportunities for Hispanic and Latino students and communities from early childhood through their careers. It creates an interagency working group and advisory commission to coordinate federal efforts, promote best practices, and address disparities worsened by the COVID-19 pandemic. The Department of Education will lead these efforts with support from many federal agencies to ensure Hispanic and Latino students have better access to quality education and career pathways.",
+    "summary": "This executive order establishes a White House Initiative to improve educational equity, excellence, and economic opportunities for Hispanic and Latino students and communities. It creates an interagency working group and a Presidential Advisory Commission to coordinate federal efforts, address barriers faced by Hispanic students, and promote pathways from early education through career development. The goal is to ensure Hispanic students have access to quality education, support services, and workforce opportunities, especially in response to challenges worsened by the COVID-19 pandemic.",
     "theme_ids": [
-      "education-policy",
-      "equity-and-inclusion-policy",
-      "workforce-development",
-      "civil-rights-enforcement"
+      "educational-excellence-initiatives-by-demographic",
+      "racial-equity",
+      "economic-recovery-post-crisis",
+      "interagency-coordination",
+      "apprenticeships-vocational-training"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "hispanic-and-latino-students",
-        "hispanic-serving-institutions"
+        "hispanic-latino-americans",
+        "k-12-students",
+        "college-university-students",
+        "daca-recipients-dreamers",
+        "working-age-adults",
+        "women",
+        "individuals-with-disabilities"
       ],
-      "negative_ids": [
-        "non-hispanic-serving-institutions"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Measuring and ensuring the effectiveness of multiple federal agencies’ coordinated efforts may prove challenging and lead to inconsistent progress.",
-      "There is a risk that the focus on Hispanic and Latino students might be perceived as exclusionary or lead to tensions with other minority groups seeking similar equity initiatives.",
-      "Agencies may face resource constraints that limit their ability to implement comprehensive action plans without additional appropriations.",
-      "The advisory commission’s membership selection process might lead to underrepresentation of certain Hispanic community subgroups or geographic areas.",
-      "Ensuring that new programs fully address intersectional barriers faced by subpopulations such as LGBTQ+ students, students with disabilities, and migrant learners may be difficult."
+      "The focus on Hispanic and Latino students may generate perceptions of exclusion or inequity among other minority groups, potentially complicating broader educational equity efforts.",
+      "Efforts to increase access to Federal funding for Hispanic-Serving Institutions might strain existing resources and create inter-institutional competition, impacting non-HSI institutions and their students.",
+      "The success of work-based learning initiatives and apprenticeships depends heavily on employer participation, which may lag, limiting economic opportunity gains for Hispanic working-age adults.",
+      "Disparities in broadband and technology access, particularly among rural and low-income Hispanic communities, could undermine equitable access to high-quality education and remote learning recovery efforts.",
+      "Complex interagency coordination may slow implementation and reduce responsiveness to community-specific needs, possibly limiting the Initiative’s effectiveness for diverse Hispanic populations including women, LGBTQ+ individuals, and those with disabilities."
     ],
-    "enriched_at": "2025-12-09T03:52:32.776Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T02:31:52.085Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

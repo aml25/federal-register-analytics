@@ -13,31 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-06-11/pdf/2025-10803.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/06/11/2025-10803.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to take action against the threats posed by unauthorized drones to public safety, critical infrastructure, and national security. It establishes a task force to coordinate efforts, improve drone detection and tracking, enforce airspace regulations, and enhance counter-drone capabilities especially for major events like the FIFA World Cup 2026 and the 2028 Summer Olympics.",
+    "summary": "This executive order directs the U.S. government to strengthen control and security over American airspace from threats posed by unauthorized or malicious drone activity. It establishes a federal task force, improves regulatory frameworks, enhances detection and enforcement capabilities, and promotes cooperation among agencies and local governments to protect critical infrastructure, military installations, and public events from drone-related risks.",
     "theme_ids": [
-      "national-security",
-      "public-safety",
-      "technology-development",
-      "event-coordination"
+      "homeland-security",
+      "critical-infrastructure-protection",
+      "state-local-law-enforcement-support",
+      "air-traffic-aviation-system",
+      "presidential-commissions-task-forces"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry",
-        "state-and-local-law-enforcement"
+        "law-enforcement-officers-state-local",
+        "military-personnel-active-duty",
+        "border-communities"
       ],
       "negative_ids": [
-        "foreign-suppliers",
-        "limited-english-proficiency-populations"
+        "undocumented-immigrants",
+        "visa-holders-work-student-tourist",
+        "consumers"
       ]
     },
     "potential_concerns": [
-      "Increased surveillance and drone detection measures may raise privacy concerns, particularly regarding the collection of personal identifying information tied to drone operators.",
-      "Stricter enforcement and expanded criminal penalties could disproportionately impact hobbyist drone users or small operators who inadvertently violate rules.",
-      "Implementation complexity may arise from coordinating multiple federal, state, local, tribal, and territorial agencies with varying legal authorities and capabilities.",
-      "Technical and regulatory challenges could delay the establishment of effective geofencing and drone flight restrictions, limiting timely protection of sensitive sites.",
-      "Reliance on evolving technology and legal frameworks risks gaps in airspace security if laws and regulations fail to keep pace with emerging unmanned aircraft system threats."
+      "The enhanced detection and enforcement capabilities may lead to increased surveillance and privacy infringements on consumers and visa holders, raising Fourth Amendment concerns.",
+      "Undocumented immigrants and border community residents could face heightened enforcement actions and restrictions on drone use, potentially impacting humanitarian and cross-border activities.",
+      "The increased restrictions on drone flights over critical infrastructure and public events may unintentionally limit commercial and recreational drone use, burdening consumers and businesses relying on drone technologies.",
+      "Coordination among multiple law enforcement agencies to enforce new airspace regulations could cause jurisdictional conflicts and uneven application of rules in local communities.",
+      "Military personnel and installations may benefit from better protection, but expanded counter-UAS operations could increase risks of misidentification or accidental engagement of lawful drone activities."
     ],
-    "enriched_at": "2025-12-09T02:45:37.646Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T07:38:21.129Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

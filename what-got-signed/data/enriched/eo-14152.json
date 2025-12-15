@@ -13,27 +13,27 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-29/pdf/2025-01954.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/29/2025-01954.txt",
   "enrichment": {
-    "summary": "This executive order revokes security clearances of former intelligence officials and a former National Security Advisor who are accused of improperly coordinating with a political campaign and disclosing sensitive information. It aims to prevent the politicization of intelligence and the misuse of classified information, ensuring intelligence is not used to influence U.S. elections or published recklessly.",
+    "summary": "This executive order revokes security clearances for former intelligence officials who coordinated with a political campaign to discredit certain election-related information and for a former National Security Advisor who disclosed sensitive government information in a memoir. It seeks to prevent politicization of the Intelligence Community and improper use or disclosure of classified information, and requires a report on related inappropriate activities and recommendations to stop such conduct in the future.",
     "theme_ids": [
-      "national-security",
-      "federal-workforce"
+      "foreign-election-interference",
+      "national-security-information-classification",
+      "security-clearances-background-investigations"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "us-persons-with-sensitive-data"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "law-firm-employees"
+        "security-clearance-holders",
+        "intelligence-community-personnel"
       ]
     },
     "potential_concerns": [
-      "Revoking clearances may be perceived as politically motivated retaliation, undermining trust in impartiality. ",
-      "The order could discourage qualified former officials from cooperating with government due to fear of clearance revocation. ",
-      "There may be challenges in verifying and enforcing revocation across different agencies and contracts. ",
-      "Targeting specific individuals without a transparent process risks legal challenges and appeals. ",
-      "Restricting publication of memoirs may raise free speech and whistleblower protection debates."
+      "Revoking security clearances may unfairly impact former intelligence officials' post-government employment opportunities and reputations, potentially chilling free speech and professional engagement for security-clearance holders.",
+      "The order’s broad punitive measures against former intelligence personnel might politicize the clearance revocation process, thereby undermining morale and trust within the Intelligence Community.",
+      "Efforts to prevent political use of intelligence may inadvertently hamper legitimate whistleblowing or public advocacy by former officials, negatively affecting transparency and accountability.",
+      "The directive focuses on former officials involved with one political campaign, raising concerns about selective enforcement and potential retaliation that could polarize intelligence personnel and security-clearance holders.",
+      "The revocation risks discouraging candid national security advice if current or future officials fear post-service reprisals related to memoirs or public disclosures."
     ],
-    "enriched_at": "2025-12-09T02:38:09.068Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:37:06.064Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

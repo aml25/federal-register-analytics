@@ -13,24 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-07-29/pdf/2024-16740.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/07/29/2024-16740.txt",
   "enrichment": {
-    "summary": "This executive order establishes a federal Emergency Board to investigate and report on a labor dispute between New Jersey Transit Rail Operations and its locomotive engineers represented by the Brotherhood of Locomotive Engineers and Trainmen. The Emergency Board will work for up to 30 days to provide recommendations, and during the investigation period, no changes can be made to working conditions without agreement from both parties.",
+    "summary": "This executive order directs the President to create an emergency board to investigate and report on a labor dispute between New Jersey Transit Rail Operations and its locomotive engineers represented by their union. The order also sets rules to maintain current working conditions during the investigation and requires the board to submit its report within 30 days.",
     "theme_ids": [
-      "labor-relations"
+      "federal-labor-management-relations",
+      "union-policy",
+      "transportation-infrastructure"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "railroad-employees",
-        "labor-union-members"
+        "union-members",
+        "transportation-workers"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "working-age-adults",
+        "urban-communities",
+        "specific-state-populations"
+      ]
     },
     "potential_concerns": [
-      "The investigation and imposed work condition freeze could delay resolution and disrupt rail service affecting commuters and regional transportation.",
-      "Favorable treatment of unionized employees may disadvantage non-union workers or contractors involved indirectly in the rail system.",
-      "Costs associated with establishing and operating the Emergency Board could strain federal resources.",
-      "Employers and taxpayers may bear indirect burdens from prolonged dispute resolution processes and related operational disruptions."
+      "The order may prolong the labor dispute, potentially disrupting transportation services for working-age adults who rely on New Jersey transit, impacting urban and specific-state populations negatively.",
+      "Union members and transportation workers could face limitations on negotiating improvements or changes in working conditions during the 120-day no-strike/no-change maintenance period, potentially causing workplace dissatisfaction.",
+      "The emergency board process could delay resolution, causing unintended economic strain on urban communities dependent on reliable transit infrastructure.",
+      "The freeze on changing working conditions might unintentionally entrench existing inequities or issues in labor relations, affecting both employees and commuters within New Jersey state."
     ],
-    "enriched_at": "2025-12-09T01:36:04.172Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:40:26.258Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

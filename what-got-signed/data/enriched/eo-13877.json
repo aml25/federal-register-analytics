@@ -1,0 +1,43 @@
+{
+  "document_number": "2019-13945",
+  "executive_order_number": "13877",
+  "title": "Improving Price and Quality Transparency in American Healthcare To Put Patients First",
+  "abstract": null,
+  "signing_date": "2019-06-24",
+  "publication_date": "2019-06-27",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/06/27/2019-13945/improving-price-and-quality-transparency-in-american-healthcare-to-put-patients-first",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-06-27/pdf/2019-13945.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/06/27/2019-13945.txt",
+  "enrichment": {
+    "summary": "This executive order aims to make healthcare pricing and quality information more transparent so patients can make better-informed decisions. It directs federal agencies to require hospitals and healthcare providers to publicly share pricing data, improve quality reporting, increase data access, empower patients to control their healthcare spending, and address surprise medical billing.",
+    "theme_ids": [
+      "healthcare-competition-markets",
+      "medicare",
+      "medicaid",
+      "veterans-healthcare"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "patients-general",
+        "medicare-beneficiaries",
+        "medicaid-beneficiaries",
+        "veterans"
+      ],
+      "negative_ids": [
+        "healthcare-organizations"
+      ]
+    },
+    "potential_concerns": [
+      "Hospitals and healthcare organizations may face increased administrative and compliance costs to meet transparency and reporting requirements, potentially leading to higher overall healthcare prices.",
+      "Patients, including Medicare and Medicaid beneficiaries, may experience confusion or difficulty interpreting complex pricing data despite efforts to create consumer-friendly formats.",
+      "Smaller or rural healthcare providers might be disproportionately burdened by transparency mandates, potentially reducing their competitiveness relative to larger hospital systems.",
+      "Efforts to increase price transparency could inadvertently exacerbate disparities if vulnerable populations like veterans or Medicaid beneficiaries lack access to digital tools needed to utilize the information effectively."
+    ],
+    "enriched_at": "2025-12-15T02:29:34.274Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

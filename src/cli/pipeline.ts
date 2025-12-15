@@ -66,8 +66,8 @@ async function runPipeline() {
   if (!skipNarratives) {
     console.log(`[4/4] Generating narratives...`);
     console.log('----------------------------------------');
-    // Generate monthly narratives for the year
-    await generateNarratives({ type: 'monthly', year, force });
+    // Generate quarterly narratives for the year
+    await generateNarratives({ type: 'quarterly', year, force });
     // Generate term narratives only for presidents with orders in this year
     await generateNarratives({ type: 'term', year, force });
     // Generate theme narratives (incremental - only new themes unless --force)

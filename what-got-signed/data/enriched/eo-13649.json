@@ -1,0 +1,44 @@
+{
+  "document_number": "2013-17478",
+  "executive_order_number": "13649",
+  "title": "Accelerating Improvements in HIV Prevention and Care in the United States Through the HIV Care Continuum Initiative",
+  "abstract": null,
+  "signing_date": "2013-07-15",
+  "publication_date": "2013-07-18",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2013/07/18/2013-17478/accelerating-improvements-in-hiv-prevention-and-care-in-the-united-states-through-the-hiv-care",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2013-07-18/pdf/2013-17478.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2013/07/18/2013-17478.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a federal initiative to improve HIV prevention and care in the United States by focusing on increasing HIV testing, treatment, and services along the HIV care continuum. It sets up a working group to coordinate federal efforts, track progress, and recommend ways to better address gaps in diagnosing and treating HIV to reduce new infections and improve health outcomes.",
+    "theme_ids": [
+      "affordable-care-act-aca",
+      "public-health-emergency-response",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "lgbtq-individuals",
+        "low-income-individuals-families",
+        "uninsured-individuals",
+        "medicaid-beneficiaries",
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "veterans"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Increased coordination under interagency-coordination may create bureaucratic delays that slow the rapid deployment of HIV prevention and care services to marginalized groups such as low-income individuals and racial minorities.",
+      "Expanding HIV testing and early treatment access relying on ACA provisions may leave uninsured individuals or those in states with limited Medicaid expansion without timely care, exacerbating health disparities.",
+      "Privacy concerns may arise for LGBTQ+ individuals and racial/ethnic minority groups regarding sensitive HIV-related health data collected and shared across federal agencies.",
+      "The focus on evidence-based strategies may inadvertently overlook culturally tailored interventions needed by African American and Hispanic/Latino communities, limiting effectiveness among these groups.",
+      "Veterans living with HIV could face challenges if coordination and resource allocation do not sufficiently integrate Department of Veterans Affairs services with broader federal HIV care initiatives."
+    ],
+    "enriched_at": "2025-12-12T08:07:01.047Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

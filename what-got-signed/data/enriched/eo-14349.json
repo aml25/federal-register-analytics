@@ -13,25 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-09-23/pdf/2025-18479.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/09/23/2025-18479.txt",
   "enrichment": {
-    "summary": "This executive order establishes an Emergency Board to investigate and report on labor disputes between the Long Island Rail Road Company and its employees represented by multiple labor unions. The board will examine the issues, maintain current working conditions temporarily, and provide recommendations within 30 days to help resolve the disputes under federal labor law.",
+    "summary": "This executive order establishes a special emergency board to investigate labor disputes between the Long Island Rail Road Company and several of its employee labor unions. The board is tasked with examining the issues and reporting back to the President within 30 days, while freezing any changes in working conditions for 120 days to allow for resolution.",
     "theme_ids": [
-      "federal-workforce",
-      "public-safety"
+      "federal-labor-management-relations",
+      "worker-rights-protections",
+      "union-policy",
+      "transportation-infrastructure"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "railroad-employees",
-        "labor-union-members"
+        "union-members",
+        "transportation-workers"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "union-members",
+        "transportation-workers"
+      ]
     },
     "potential_concerns": [
-      "The temporary freeze on changing work conditions might prolong tensions and disrupt railroad operations affecting commuters and freight.",
-      "There may be disagreement over the impartiality and selection of Emergency Board members, potentially undermining trust in the process.",
-      "If the board's recommendations are not accepted by either party, the dispute could escalate, leading to strikes or service interruptions.",
-      "Costs borne by the Department of Transportation for administration and publication may be viewed as an inefficient use of public funds if the dispute resolution is not successful."
+      "The 120-day freeze on changing working conditions could prolong existing labor tensions and limit union members' ability to improve their conditions promptly, impacting transportation workers' morale and livelihoods.",
+      "Emergency Board investigations might delay resolution, potentially disrupting Long Island Rail Road service affecting transportation workers and the commuting public relying on this infrastructure.",
+      "If the Board’s recommendations favor the railroad company disproportionately, union members might perceive the order as undermining their bargaining power and worker-rights protections.",
+      "The order’s limited timeframe for reporting may pressure the Board to produce rushed or incomplete findings, possibly leading to suboptimal outcomes for the involved labor organizations and transportation workers."
     ],
-    "enriched_at": "2025-12-09T02:47:54.278Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:00:55.454Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

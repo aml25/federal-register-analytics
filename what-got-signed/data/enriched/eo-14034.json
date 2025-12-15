@@ -13,29 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-06-11/pdf/2021-12506.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/06/11/2021-12506.txt",
   "enrichment": {
-    "summary": "This executive order revokes previous orders banning certain foreign-connected software apps and replaces them with a new approach to assess and manage risks from software linked to foreign adversaries, especially regarding Americans' sensitive personal and business data. It directs federal agencies to review and recommend actions to protect U.S. data privacy and national security from foreign threats posed by connected software applications.",
+    "summary": "This executive order cancels previous orders targeting specific foreign-connected software applications and requires government agencies to evaluate and report on the risks posed by software connected to foreign adversaries, especially related to sensitive personal and business data. It directs steps to protect Americans' sensitive data from being accessed or exploited by foreign adversaries, like those linked to the Chinese government, and calls for ongoing monitoring and recommendations to mitigate these risks.",
     "theme_ids": [
-      "national-security",
-      "privacy-and-data-security",
-      "foreign-policy",
-      "supply-chain-security"
+      "cybersecurity-national-security",
+      "foreign-technology-threats",
+      "data-privacy",
+      "foreign-investment-cfius",
+      "national-emergencies",
+      "china"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry"
+        "u-s-citizens",
+        "lawful-permanent-residents-green-card-holders",
+        "naturalized-citizens",
+        "birthright-citizens"
       ],
       "negative_ids": [
-        "foreign-suppliers"
+        "technology-workers",
+        "corporations-businesses"
       ]
     },
     "potential_concerns": [
-      "The broad definition of 'foreign adversary' may lead to challenges in consistently identifying and managing risks without overreach or misclassification.",
-      "Implementation may face difficulties balancing national security with privacy rights and international trade obligations.",
-      "Revoking previous targeted bans without clear immediate replacements could create temporary security gaps or confusion.",
-      "Risks exist that restricting or banning software could impact U.S. consumers and businesses reliant on those applications, raising economic and accessibility concerns.",
-      "The order’s reliance on multiple agencies and interagency coordination may slow the timely response to emerging threats."
+      "The order's restrictions and evaluations on software connected to foreign adversaries could limit market access and operational flexibility for technology workers and companies reliant on international software supply chains.",
+      "U.S. persons’ privacy may improve through stronger protections, but the broad definitions and regulatory reach could result in overblocking or banning software affecting everyday users including lawful permanent residents and naturalized citizens.",
+      "Efforts to protect sensitive data might lead to increased compliance costs and technology development challenges for U.S. corporations and technology workers, potentially reducing innovation or increasing consumer prices.",
+      "The focus on foreign adversaries like China could raise concerns about potential racial, ethnic, or national origin profiling impacting Asian Americans indirectly due to heightened scrutiny of software originating from or connected to Chinese entities."
     ],
-    "enriched_at": "2025-12-09T03:54:12.724Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T07:31:55.800Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

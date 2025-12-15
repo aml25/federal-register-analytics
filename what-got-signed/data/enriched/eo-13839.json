@@ -1,0 +1,38 @@
+{
+  "document_number": "2018-11939",
+  "executive_order_number": "13839",
+  "title": "Promoting Accountability and Streamlining Removal Procedures Consistent With Merit System Principles",
+  "abstract": null,
+  "signing_date": "2018-05-25",
+  "publication_date": "2018-06-01",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/06/01/2018-11939/promoting-accountability-and-streamlining-removal-procedures-consistent-with-merit-system-principles",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-06-01/pdf/2018-11939.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/06/01/2018-11939.txt",
+  "enrichment": {
+    "summary": "This executive order makes it easier for federal agencies to hold employees accountable for poor performance and misconduct by streamlining removal procedures and reducing procedural burdens on supervisors. It emphasizes fairness, timely decisions on disciplinary actions, and requires agencies to report data on adverse personnel actions to improve workforce management.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "civil-service-reform",
+      "federal-labor-management-relations"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "federal-employees-civil-servants",
+        "labor-unions"
+      ]
+    },
+    "potential_concerns": [
+      "The executive order may reduce job security and due process protections for federal employees by streamlining removal procedures, increasing the risk of unjust or premature disciplinary actions against them under the guise of accountability (federal-workforce-management, federal-employees-civil-servants).",
+      "Limiting grievance procedures and excluding disputes over removals from collective bargaining could undermine labor unions' ability to protect members, potentially weakening labor-management relations and employee representation (federal-labor-management-relations, labor-unions).",
+      "Faster removal timelines and reduced procedural requirements may unintentionally increase supervisory discretion, raising concerns about inconsistent or biased application of discipline against federal employees without adequate safeguards (civil-service-reform, federal-employees-civil-servants).",
+      "The emphasis on prioritizing performance over length of service in reductions in force could disadvantage longer-tenured employees who might otherwise have stronger protections, potentially affecting workforce morale among federal civil servants (federal-workforce-management, federal-employees-civil-servants)."
+    ],
+    "enriched_at": "2025-12-15T07:10:55.710Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

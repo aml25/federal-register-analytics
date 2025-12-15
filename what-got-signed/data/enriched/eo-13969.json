@@ -1,0 +1,46 @@
+{
+  "document_number": "2020-29235",
+  "executive_order_number": "13969",
+  "title": "Expanding Educational Opportunity Through School Choice",
+  "abstract": null,
+  "signing_date": "2020-12-28",
+  "publication_date": "2021-01-04",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/01/04/2020-29235/expanding-educational-opportunity-through-school-choice",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-04/pdf/2020-29235.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/01/04/2020-29235.txt",
+  "enrichment": {
+    "summary": "This executive order aims to provide emergency learning scholarships to families whose children lack access to in-person learning due to the COVID-19 pandemic. It allows certain federal funds to be used to support alternatives like private school tuition, homeschooling, special education services, and tutoring to ensure children can continue their education safely.",
+    "theme_ids": [
+      "k-12-education-policy",
+      "school-choice-vouchers",
+      "child-welfare-foster-care",
+      "covid-19-response"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "k-12-students",
+        "low-income-individuals-families",
+        "special-education-students-families",
+        "homeschool-families",
+        "private-school-communities",
+        "public-school-communities"
+      ],
+      "negative_ids": [
+        "public-school-communities"
+      ]
+    },
+    "potential_concerns": [
+      "The expansion of emergency learning scholarships may divert funding and students away from public schools, adversely impacting public-school communities' resources and quality of education (k-12-education-policy, public-school-communities).",
+      "Low-income families might face challenges navigating or accessing the new scholarship opportunities due to administrative barriers, potentially limiting the order's intended benefit to disadvantaged groups (school-choice-vouchers, low-income-individuals-families).",
+      "Children with special needs may not uniformly benefit from voucher-supported private or alternative education options if those services lack the capacity or expertise to provide adequate special education and related therapies (special-education-students-families, k-12-education-policy).",
+      "Homeschool and private-school families might face increased demand and strain as more students seek alternatives to public in-person learning, potentially stressing available resources or quality within those communities (homeschool-families, private-school-communities).",
+      "The order’s emphasis on school choice as a COVID-19 response could unintentionally undermine coordinated public health measures and widen educational inequities along racial and socioeconomic lines (covid-19-response, racial/ethnic groups such as african-americans-black-americans and hispanic-latino-americans via impact on public-school-communities)."
+    ],
+    "enriched_at": "2025-12-15T02:29:48.106Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

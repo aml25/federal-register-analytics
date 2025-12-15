@@ -13,32 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-09-26/pdf/2023-21174.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/09/26/2023-21174.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to coordinate a long-term response and cleanup after the hazardous Norfolk Southern train derailment in East Palestine, Ohio, ensuring accountability and safety for affected communities. It establishes a federal coordinator to assess and address unmet needs and mandates ongoing environmental monitoring and public health assessments. The order prioritizes holding Norfolk Southern responsible and providing Federal support to the impacted areas in Ohio and Pennsylvania.",
+    "summary": "This executive order directs federal agencies to coordinate and support the ongoing cleanup, health monitoring, and recovery efforts following a hazardous train derailment in East Palestine, Ohio. It holds Norfolk Southern Railroad accountable for the disaster while ensuring state and local needs are addressed and providing ongoing federal assistance and reports to protect public health and the environment.",
     "theme_ids": [
+      "disaster-response",
+      "disaster-rebuilding-long-term-recovery",
       "environmental-regulation",
-      "disaster-preparedness",
-      "public-health-administration",
-      "public-safety",
-      "industrial-accident-response"
+      "clean-air-water",
+      "public-health-emergency-response"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "hazardous-materials-responders",
-        "affected-residents",
-        "industrial-transport-companies"
+        "disaster-affected-communities",
+        "specific-state-populations",
+        "patients-general"
       ],
       "negative_ids": [
-        "local-businesses"
+        "large-corporation-employees"
       ]
     },
     "potential_concerns": [
-      "Extended cleanup and monitoring efforts might strain Federal and State resources and delay economic recovery for local communities.",
-      "Holding Norfolk Southern fully accountable could result in prolonged litigation, slowing immediate relief or compensation to affected residents.",
-      "Ongoing air and water monitoring data interpretation may lead to public concern or mistrust if findings are inconclusive or inconsistent.",
-      "Coordination between multiple federal, state, and local agencies may face bureaucratic challenges leading to inefficiencies or duplicated efforts.",
-      "Federal assistance held contingent on unmet needs could delay timely support if needs assessments are slow or incomplete."
+      "The prolonged cleanup and monitoring processes may cause sustained disruptions and health anxieties for disaster-affected communities in Ohio and Pennsylvania, challenging public trust and well-being (disaster-response, public-health-emergency-response, disaster-affected-communities).",
+      "Holding Norfolk Southern Railroad fully accountable could lead to operational and financial repercussions for its employees, including potential layoffs or reduced safety investments, negatively impacting large-corporation-employees (environmental-regulation, disaster-rebuilding-long-term-recovery, large-corporation-employees).",
+      "Gap periods in health monitoring or delayed recognition of long-term health effects may leave some patients without timely medical interventions or support, undermining the effectiveness of public health emergency response efforts (public-health-emergency-response, patients-general).",
+      "Interagency coordination and extended federal involvement may inadvertently slow state-level disaster recovery efforts or complicate addressing unmet community needs in a timely manner (disaster-response, disaster-rebuilding-long-term-recovery, specific-state-populations)."
     ],
-    "enriched_at": "2025-12-09T01:38:30.862Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-12T08:20:05.593Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

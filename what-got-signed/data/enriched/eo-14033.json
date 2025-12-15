@@ -13,29 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-06-10/pdf/2021-12382.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/06/10/2021-12382.txt",
   "enrichment": {
-    "summary": "This executive order blocks the property and economic activity of certain people who threaten peace, stability, and democratic processes in the Western Balkans, and suspends their entry into the United States. It aims to pressure individuals involved in corruption, human rights abuses, or violations of regional agreements to promote security and democratic governance in the region.",
+    "summary": "This executive order blocks and freezes the property of individuals and entities who contribute to instability, corruption, or human rights abuses in the Western Balkans. It also suspends their entry into the United States and prohibits U.S. persons from engaging in financial or other transactions with them to protect U.S. national security interests.",
     "theme_ids": [
-      "national-security",
-      "foreign-policy",
-      "immigration-enforcement",
-      "humanitarian-economic-support"
+      "sanctions-country-specific",
+      "western-balkans",
+      "national-emergencies",
+      "foreign-election-interference",
+      "human-rights-international"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "affected-western-balkans-individuals"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "sanctioned-persons-and-affiliates"
+        "foreign-nationals-general",
+        "citizens-of-specific-countries-by-eo-designation",
+        "corporations-businesses",
+        "visa-holders-work-student-tourist"
       ]
     },
     "potential_concerns": [
-      "Designation criteria could be viewed as politically motivated, potentially affecting diplomatic relations with Western Balkan countries.",
-      "Broad authority to block property might unintentionally impact innocent parties or businesses with indirect ties.",
-      "Suspension of entry could hinder engagement with reform-minded individuals critical to regional stability efforts.",
-      "Enforcement requires complex interagency coordination which could delay implementation or lead to inconsistent application.",
-      "Lack of transparency in listings and delistings might raise legal and due process concerns for affected persons."
+      "The broad scope of individuals and entities sanctioned under EO 14033 could lead to difficulties in accurately targeting only those responsible for destabilization, inadvertently impacting innocent foreign nationals and visa holders from the Western Balkans.",
+      "Suspension of entry into the United States for persons contributing to destabilization may strain diplomatic relations and limit opportunities for legitimate business, educational, or cultural exchanges involving corporations and visa holders connected to the region.",
+      "The designation criteria related to corruption and human rights abuses may face challenges in consistent enforcement, potentially causing legal ambiguities for U.S. persons and businesses required to avoid transactions with sanctioned entities.",
+      "Collateral economic impacts on corporations and businesses reliant on ties to the Western Balkans could indirectly affect U.S. workers and economic interests, despite not being the direct target of the sanctions."
     ],
-    "enriched_at": "2025-12-09T03:54:18.913Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T07:32:04.999Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

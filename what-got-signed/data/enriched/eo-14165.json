@@ -13,30 +13,37 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-30/pdf/2025-02015.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/30/2025-02015.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to take strong actions to secure the U.S. southern border by building physical barriers, increasing personnel deployment, enforcing immigration laws more strictly, ending catch-and-release policies, and resuming migrant protection protocols. It also calls for international cooperation and enhanced identification measures to address illegal immigration and related criminal activities.",
+    "summary": "This executive order directs federal agencies to strengthen and secure the southern border of the United States by building physical barriers, deploying personnel, detaining and removing illegal aliens promptly, and resuming policies that return certain migrants to their countries of origin. It also focuses on prosecuting border-related crimes and improving international cooperation to address unlawful migration and associated security threats.",
     "theme_ids": [
-      "immigration-enforcement",
-      "national-security",
-      "public-safety",
-      "foreign-policy"
+      "border-security",
+      "border-enforcement",
+      "deportation-removal",
+      "state-local-law-enforcement-support",
+      "transnational-crime-cartels"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "undocumented-immigrants",
-        "removable-aliens"
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local",
+        "border-communities",
+        "taxpayers"
       ],
       "negative_ids": [
-        "sanctuary-jurisdictions"
+        "undocumented-immigrants",
+        "asylum-seekers",
+        "refugees",
+        "hispanic-latino-americans",
+        "low-income-individuals-families"
       ]
     },
     "potential_concerns": [
-      "Increased detention and expedited removal policies may lead to human rights concerns and strain immigration courts and detention facilities.",
-      "Construction of physical barriers and enhanced enforcement may exacerbate tensions with border communities and local governments.",
-      "Ending catch-and-release and parole programs could limit due process and access to asylum protections for vulnerable populations.",
-      "Heightened cooperation with state and local law enforcement raises risks of racial profiling and civil rights violations.",
-      "International cooperation efforts could face diplomatic challenges and affect relations with neighboring countries."
+      "The expansion of physical barriers and increased personnel deployment may strain resources and infrastructure in border communities, potentially disrupting local economies and daily life.",
+      "The suspension of catch-and-release and expanded detention policies could lead to overcrowding in detention facilities and prolonged family separations, adversely impacting undocumented immigrants, asylum seekers, and refugees.",
+      "The resumption of Migrant Protection Protocols and tighter parole policies risk limiting access to asylum, possibly endangering asylum seekers fleeing persecution.",
+      "Enhanced cooperation with state and local law enforcement on immigration enforcement may result in racial profiling and civil rights violations, disproportionately affecting Hispanic / Latino Americans and low-income families.",
+      "Prioritizing prosecution of border-related offenses could increase incarceration rates among undocumented immigrants, creating long-term social and economic burdens on affected families and communities."
     ],
-    "enriched_at": "2025-12-09T02:38:48.567Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:35:00.117Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

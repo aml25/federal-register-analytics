@@ -13,29 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-28/pdf/2025-05522.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/28/2025-05522.txt",
   "enrichment": {
-    "summary": "This executive order directs the federal government to stop using paper checks and money orders for all payments and receipts and to switch to electronic payment methods, like direct deposits and digital wallets, by September 30, 2025. It seeks to reduce costs, speed up payments, prevent fraud, and protect against mail theft, while allowing limited exceptions for those who cannot access electronic payment systems.",
+    "summary": "This executive order requires the federal government to stop using paper checks for payments and receipts by September 30, 2025, and switch to electronic payment methods to improve efficiency, reduce costs, and prevent fraud. It also mandates agencies to support recipients who may have difficulty accessing electronic payments and to inform the public about this transition.",
     "theme_ids": [
-      "financial-regulation",
-      "federal-agency-management",
-      "consumer-protection"
+      "financial-system-regulation",
+      "government-efficiency",
+      "homeland-security",
+      "data-privacy"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry",
-        "bank-customers"
+        "low-income-individuals-families",
+        "individuals-with-disabilities",
+        "seniors-elderly",
+        "medicare-beneficiaries"
       ],
-      "negative_ids": [
-        "unbanked-and-underbanked-populations"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Unbanked or underbanked individuals might face hardship or exclusion despite exceptions, slowing access to federal payments.",
-      "Federal agencies may encounter implementation challenges and costs in transitioning existing systems to fully electronic payments within the set timeline.",
-      "Reliance on electronic payments raises risks related to cybersecurity breaches and protection of sensitive personal and financial data.",
-      "Limited exceptions may be inconsistently applied, creating confusion or delays for legitimate recipients who cannot use electronic payment methods.",
-      "Small businesses and recipients unfamiliar with digital payment technologies may experience complications or delays in receiving payments during transition."
+      "The transition to exclusively electronic payments may disproportionately burden seniors, individuals with disabilities, and low-income families who lack reliable access to banking services or digital payment methods, risking exclusion or payment delays (themes: government-efficiency, data-privacy).",
+      "Despite exceptions, individuals without banking access might still face challenges enrolling in electronic payment systems, creating gaps in receipt of benefits and federal disbursements (themes: financial-system-regulation, government-efficiency).",
+      "Increased reliance on electronic payments raises data privacy and cybersecurity risks, potentially exposing personally identifiable and financial information of vulnerable populations like Medicare beneficiaries and seniors to fraud or breaches (themes: homeland-security, data-privacy).",
+      "The need to replace paper checks and physical payment infrastructure may create temporary disruptions that affect payment timeliness for benefits recipients such as low-income families and individuals with disabilities (theme: government-efficiency).",
+      "The public awareness campaign and agency support may be insufficient to adequately assist all affected populations in the transition, especially those with limited digital literacy or language barriers."
     ],
-    "enriched_at": "2025-12-09T02:42:40.835Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:23:13.292Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -13,30 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-10-07/pdf/2025-19495.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/10/07/2025-19495.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to use artificial intelligence (AI) to accelerate research, diagnosis, and treatment of pediatric cancer, while enhancing data sharing and privacy protections. It prioritizes increasing investment and collaboration among federal bodies, private sector, and research centers to develop AI-driven solutions that save children’s lives.",
+    "summary": "This executive order directs the government to use artificial intelligence to improve research, diagnosis, and treatment of pediatric cancer. It aims to enhance data sharing, increase investments in childhood cancer research, and ensure privacy protections while leveraging AI technologies to accelerate cures and better healthcare for children with cancer.",
     "theme_ids": [
       "artificial-intelligence",
-      "federal-research-coordination",
-      "scientific-research",
-      "technology-development"
+      "stem-cell-biomedical-research",
+      "healthcare-competition-markets"
     ],
     "impacted_populations": {
       "positive_ids": [
+        "children-minors",
+        "youth-young-adults",
+        "patients-general",
+        "caregivers-non-military",
         "scientific-researchers",
-        "tech-industry"
+        "healthcare-workers"
       ],
-      "negative_ids": [
-        "competing-research-areas"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Privacy risks related to aggregation and sharing of sensitive pediatric health data could arise if safeguards are insufficient.",
-      "AI biases or inaccuracies may lead to misdiagnosis or suboptimal treatment recommendations, disproportionately affecting certain patient groups.",
-      "Increased federal focus and funding on pediatric cancer AI initiatives might divert resources from other medical research areas.",
-      "Private sector entities without adequate expertise might struggle to effectively utilize complex multimodal data, limiting translation into clinical benefits.",
-      "Implementation challenges across diverse federal and state health systems could slow adoption and integration of AI technologies."
+      "The increased use of AI in pediatric cancer diagnosis and treatment raises potential privacy concerns for children-minors and youth-young-adults regarding the security and use of their sensitive health data under interoperability initiatives.",
+      "Accelerated adoption of AI technologies may lead to disparities in access to advanced treatments, disproportionately affecting patients-general from underserved or rural communities who may not benefit equally.",
+      "There is a risk that prioritizing AI-driven solutions could divert funding and attention from non-AI pediatric cancer research approaches, affecting the broad scientific-researchers community working with varied methodologies.",
+      "Healthcare-workers may face challenges in adapting to new AI-driven diagnostic and treatment protocols, impacting clinical workflows and requiring additional training and resources."
     ],
-    "enriched_at": "2025-12-09T02:48:10.777Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-12T08:21:53.441Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

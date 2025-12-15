@@ -13,33 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-17/pdf/2025-01470.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/17/2025-01470.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to strengthen cybersecurity across government systems and critical infrastructure by improving software security, enhancing threat detection, promoting secure communications, and fostering innovation in areas such as artificial intelligence. It also mandates new contract requirements for software providers, encourages the adoption of advanced encryption and identity authentication standards, and updates policies to address cyber threats from adversaries like China and emerging risks such as quantum computing.",
+    "summary": "This executive order strengthens the cybersecurity of the United States by requiring federal agencies and software providers to adopt stricter security practices, improve threat detection and information sharing, and use advanced technologies including artificial intelligence and quantum-resistant cryptography. It also modernizes federal communications security, supply chain risk management, and protects critical infrastructure to better defend against cyber threats from hostile actors.",
     "theme_ids": [
-      "national-security",
-      "supply-chain-security",
-      "federal-procurement-policy",
+      "cybersecurity-national-security",
+      "critical-infrastructure-protection",
+      "government-it-modernization",
       "artificial-intelligence",
-      "space-policy",
-      "technology-development"
+      "quantum-computing-quantum-technology"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry",
-        "government-service-users"
+        "federal-contractors",
+        "technology-workers",
+        "cybersecurity-professionals"
       ],
       "negative_ids": [
-        "foreign-suppliers",
-        "data-brokerage-industry"
+        "consumers",
+        "small-business-owners"
       ]
     },
     "potential_concerns": [
-      "Increased cybersecurity requirements for software providers may impose significant compliance costs and barriers, especially for smaller vendors.",
-      "Enhanced government access to agency endpoint data for threat hunting may raise privacy and civil liberties concerns regarding sensitive information.",
-      "The aggressive timeline for adoption of new standards and rules may strain agency resources and delay implementation.",
-      "Mandating post-quantum cryptography and updated encryption protocols could disrupt existing IT systems and require costly upgrades.",
-      "The focus on adversaries like China may escalate geopolitical tensions and provoke retaliatory cyber or diplomatic actions."
+      "The increased requirements for software providers and Federal contractors to adhere to secure software development and supply chain risk management practices may impose significant compliance and cost burdens on technology workers and small business owners supplying the Federal Government.",
+      "Mandated enhanced access by CISA to endpoint detection and response (EDR) data across Federal Civilian Executive Branch agencies raises privacy and data security concerns for consumers whose data may be indirectly processed or monitored.",
+      "The requirement for consumer Internet-of-Things products sold to the Federal Government to carry U.S. Cyber Trust Mark labeling could limit market access for smaller technology producers and complicate procurement for federal contractors.",
+      "Accelerated adoption of post-quantum cryptography and AI-driven cybersecurity tools may challenge technology workers and cybersecurity professionals to rapidly update skills and systems, potentially leaving legacy systems and vendors vulnerable or obsolete."
     ],
-    "enriched_at": "2025-12-09T02:37:40.494Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:38:12.960Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

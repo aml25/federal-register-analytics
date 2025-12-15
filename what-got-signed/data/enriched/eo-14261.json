@@ -13,35 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-14/pdf/2025-06380.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/14/2025-06380.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to promote and expand the domestic coal industry by reducing regulatory barriers, increasing coal production and exports, and supporting coal use in emerging technologies like artificial intelligence data centers and steel manufacturing. It also updates policies to designate coal as a critical mineral and accelerate coal technology development while amending a prior executive order to incorporate coal fully in national mineral priorities.",
+    "summary": "This executive order directs federal agencies to promote and expand the domestic coal industry by removing regulatory barriers, supporting coal mining and exports, and accelerating coal-related technologies. It also emphasizes coal's role in national economic security, energy independence, and powering new technologies like artificial intelligence data centers.",
     "theme_ids": [
-      "energy-policy",
-      "regulatory-reform",
-      "foreign-policy",
-      "trade-policy",
-      "technology-development",
-      "artificial-intelligence",
-      "national-security",
-      "public-lands-management"
+      "coal-industry",
+      "energy-independence-security",
+      "economic-competitiveness",
+      "export-import-policy",
+      "artificial-intelligence"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "domestic-energy-producers",
-        "critical-minerals-industry"
+        "energy-sector-workers-oil-gas-coal",
+        "union-members",
+        "rural-communities",
+        "large-corporation-employees"
       ],
       "negative_ids": [
-        "green-energy-industry",
-        "environmental-advocates"
+        "environmental-justice-communities",
+        "urban-communities",
+        "children-minors"
       ]
     },
     "potential_concerns": [
-      "Accelerating coal production and reducing environmental reviews may lead to increased environmental degradation and harm to local ecosystems.",
-      "Rescinding policies that discourage coal investment could undermine efforts to transition to cleaner energy sources and worsen climate change impacts.",
-      "Efforts to expand coal-powered infrastructure for AI data centers may conflict with sustainability goals and raise concerns among green technology advocates.",
-      "Changes to federal leasing and royalty policies could face legal challenges and administrative delays impacting timely implementation.",
-      "Increased coal exports may strain geopolitical relations with countries seeking cleaner energy commitments and affect global climate cooperation."
+      "The removal of regulatory barriers and expedited coal leasing may increase environmental pollution risks, disproportionately affecting environmental-justice-communities and urban communities near mining or power generation sites.",
+      "Increased coal production and reliance on coal-powered infrastructure for AI data centers might exacerbate public health risks for children-minors living near coal mining and coal-burning facilities.",
+      "While the order aims to create high-paying jobs for energy-sector-workers and union-members in rural-communities, automation and technological shifts may limit long-term employment growth, undermining intended economic benefits.",
+      "Promoting coal exports and reducing environmental review processes could strain diplomatic relationships with trade partners concerned about environmental sustainability, impacting large-corporation-employees involved in export logistics and international business."
     ],
-    "enriched_at": "2025-12-09T02:43:27.016Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:21:18.386Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

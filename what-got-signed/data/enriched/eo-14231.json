@@ -13,29 +13,28 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-11/pdf/2025-03990.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/11/2025-03990.txt",
   "enrichment": {
-    "summary": "This executive order adjusts certain tariffs that had been imposed to combat illicit drug flow across the U.S.-Canada border, specifically easing tariff rates on Canadian automotive goods and potash to reduce disruption to the U.S. automotive industry and workers. It exempts duty-free Canadian automotive parts under trade agreements from the added tariffs and lowers the tariff on potash from 25% to 10%, effective March 7, 2025.",
+    "summary": "This executive order adjusts the tariffs on certain goods from Canada to reduce disruptions to the U.S. automotive industry and workers. It exempts some automotive parts from new duties and lowers the tariff rate on potash from Canada, effective March 7, 2025.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
-      "supply-chain-security"
+      "tariffs-duties",
+      "manufacturing-policy",
+      "border-security",
+      "canada"
     ],
     "impacted_populations": {
       "positive_ids": [
+        "automotive-industry-workers",
         "manufacturing-workers",
-        "canada"
+        "large-corporation-employees"
       ],
-      "negative_ids": [
-        "private-sector-rivals"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Reduced tariffs could weaken enforcement efforts aimed at disrupting illicit drug trafficking across the northern border.",
-      "Potential loopholes or exemptions in tariff application may complicate customs enforcement and create opportunities for evasion.",
-      "Industries outside the automotive sector may feel disadvantaged if tariffs are eased selectively, leading to trade disputes or calls for similar treatment.",
-      "Lower tariffs on potash might affect domestic producers negatively by increasing Canadian competition.",
-      "Implementation timing and clarity on which goods qualify for exemptions could cause confusion among importers and customs officials."
+      "The tariff exemption and reduction on Canadian automotive parts may benefit automotive industry workers and large corporations but could be criticized for potentially undermining broader border-security efforts targeting illicit drug flow.",
+      "Manufacturing workers reliant on integrated North American supply chains might face uncertainty if the tariff adjustment creates complexity or delays in customs processing at the northern border.",
+      "Reducing tariffs on potash imports could lead to increased competition for domestic potash producers, adversely affecting some agricultural workers and related industries.",
+      "The order's focus on tariff adjustment may inadvertently deprioritize drug interdiction enforcement, raising concerns among border communities about continued illicit drug flow."
     ],
-    "enriched_at": "2025-12-09T02:41:57.098Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:25:32.010Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

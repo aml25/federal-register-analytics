@@ -1,0 +1,42 @@
+{
+  "document_number": "2019-06325",
+  "executive_order_number": "13865",
+  "title": "Coordinating National Resilience to Electromagnetic Pulses",
+  "abstract": null,
+  "signing_date": "2019-03-26",
+  "publication_date": "2019-03-29",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/03/29/2019-06325/coordinating-national-resilience-to-electromagnetic-pulses",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-03-29/pdf/2019-06325.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/03/29/2019-06325.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to coordinate efforts to protect the nation’s critical infrastructure and key functions from the disruptive effects of electromagnetic pulses (EMPs), which can be caused by natural events or hostile attacks. It sets responsibilities for various agencies to assess risks, improve technology and planning, and enhance resilience through research, preparedness, response, and recovery activities.",
+    "theme_ids": [
+      "electromagnetic-pulse-emp-resilience",
+      "critical-infrastructure-protection",
+      "homeland-security",
+      "national-security-information-classification",
+      "science-and-technology-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "energy-sector-workers-oil-gas-coal",
+        "large-corporation-employees",
+        "urban-communities",
+        "rural-communities"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The order's focus on enhancing EMP resilience in critical energy infrastructure may impose significant costs and operational burdens on energy-sector workers and large corporations, potentially leading to increased utility costs that affect urban and rural communities.",
+      "Efforts to coordinate between government and private sector on EMP preparedness may raise concerns about information sharing and cybersecurity, particularly involving sensitive national security information shared with private entities.",
+      "Uneven prioritization of critical infrastructure protection could result in disparities between urban and rural communities, leaving some rural areas more vulnerable to EMP-induced service disruptions.",
+      "The accelerated timelines for research, pilot testing, and implementation may strain existing technical capacities in both federal agencies and private sector partners, potentially delaying effective resilience measures benefiting workers and communities."
+    ],
+    "enriched_at": "2025-12-15T07:27:18.575Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

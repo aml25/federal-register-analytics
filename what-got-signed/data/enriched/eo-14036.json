@@ -13,36 +13,39 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-07-14/pdf/2021-15069.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/07/14/2021-15069.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to promote fair competition across the American economy by addressing excessive market concentration, monopolies, and anti-competitive practices. It establishes a White House Competition Council to coordinate government efforts and instructs agencies to review and revise regulations and enforcement actions to better protect workers, small businesses, consumers, and innovation.",
+    "summary": "This executive order directs federal agencies to promote competition across the American economy by tackling excessive industry concentration, monopolistic practices, and unfair competition. It establishes a White House Competition Council to coordinate government efforts and encourages agencies to review and update regulations and enforcement policies to support fair markets, reduce barriers for small businesses, and protect consumers and workers.",
     "theme_ids": [
-      "economic-development",
-      "consumer-protection",
-      "regulatory-reform",
-      "labor-relations",
-      "financial-regulation",
-      "pharmaceutical-cost-control",
-      "federal-procurement-policy",
-      "privacy-and-data-security",
-      "trade-policy",
-      "national-security",
-      "antitrust-policy"
+      "economic-competitiveness",
+      "small-business-support",
+      "healthcare-competition-markets",
+      "agricultural-policy",
+      "interagency-coordination"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry"
+        "small-business-owners",
+        "entrepreneurs-startups",
+        "agricultural-workers-farmers",
+        "consumers",
+        "healthcare-workers",
+        "patients-general",
+        "labor-unions",
+        "union-members",
+        "retail-workers"
       ],
       "negative_ids": [
-        "foreign-suppliers"
+        "large-corporation-employees",
+        "corporations-businesses"
       ]
     },
     "potential_concerns": [
-      "Increased regulatory actions may create burdens for businesses trying to grow or innovate through mergers and acquisitions.",
-      "Coordinating multiple agencies with overlapping jurisdictions could lead to bureaucratic inefficiencies or conflicts.",
-      "Efforts to curtail non-compete clauses and occupational licensing rules might face strong opposition from industry groups and states.",
-      "The broad scope covering diverse sectors poses challenges in aligning enforcement priorities and measuring effectiveness.",
-      "Aggressive antitrust actions against large technology firms may have unintended impacts on innovation and consumer choices."
+      "Efforts to reduce industry concentration and enforce antitrust laws may lead to operational and financial challenges for large corporations resulting in workforce reductions, negatively impacting large-corporation-employees.",
+      "Small-business-owners and entrepreneurs might face short-term disruptions during regulatory adjustments and increased compliance requirements meant to lower barriers but could benefit long-term from improved market access.",
+      "Agricultural-workers-farmers may experience shifts in market power dynamics that could improve income but could also encounter resistance from entrenched industry players delaying reforms.",
+      "Consumers and patients-general may see benefits through lower prices and increased choices, but complex changes in healthcare markets and prescription drug regulations might cause temporary confusion or access issues.",
+      "Labor-unions and union-members may gain from policies enhancing worker mobility and anti-monopsony enforcement, but unintended pushback from employers could arise, including increased use of restrictive contracts or other tactics to limit these gains."
     ],
-    "enriched_at": "2025-12-09T03:53:55.100Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T07:31:37.225Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

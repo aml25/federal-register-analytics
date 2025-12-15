@@ -1,0 +1,39 @@
+{
+  "document_number": "2015-32060",
+  "executive_order_number": "13714",
+  "title": "Strengthening the Senior Executive Service",
+  "abstract": null,
+  "signing_date": "2015-12-15",
+  "publication_date": "2015-12-18",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2015/12/18/2015-32060/strengthening-the-senior-executive-service",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-12-18/pdf/2015-32060.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/12/18/2015-32060.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to improve the recruitment, hiring, development, and accountability of senior executives in the Federal Government. It establishes a subcommittee to oversee these efforts, sets goals for executive rotations, and encourages diversity and streamlined hiring processes to build a more effective and professional senior leadership corps.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "federal-hiring",
+      "dei-diversity-equity-inclusion",
+      "workforce-development"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to streamline SES hiring and reduce application burdens may unintentionally lower the rigor of candidate evaluation, potentially impacting federal leadership quality among federal employees.",
+      "The mandate to increase SES rotational assignments could disrupt agency stability and mission continuity, imposing adjustment challenges on senior executives and subordinate federal employees.",
+      "Pay-setting policies designed to ensure SES compensation exceeds that of their subordinates may create internal pay disparities that could affect morale among lower-grade federal employees.",
+      "Diversity and inclusion initiatives, while intended to enhance representation in SES ranks, may face challenges in implementation that could lead to perceptions of preferential treatment or reverse discrimination.",
+      "The phased implementation across agencies may result in uneven improvements and inconsistencies in executive development and accountability, potentially creating disparities in career advancement opportunities for SES members."
+    ],
+    "enriched_at": "2025-12-12T08:10:16.806Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

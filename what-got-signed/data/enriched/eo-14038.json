@@ -13,30 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-08-11/pdf/2021-17253.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/08/11/2021-17253.txt",
   "enrichment": {
-    "summary": "This executive order blocks property and restricts transactions with individuals and entities that support or engage in activities undermining democracy and human rights in Belarus. It expands sanctions to include government officials, sectors of the Belarusian economy, and those involved in election fraud or repression, and restricts their entry into the United States.",
+    "summary": "This executive order expands U.S. sanctions on individuals and entities linked to the Belarusian government and its efforts to undermine democracy, human rights, and international security. It blocks their property in the U.S., restricts transactions with them, and suspends their entry into the United States to pressure the Belarusian regime to stop harmful actions.",
     "theme_ids": [
-      "foreign-policy",
-      "national-security",
-      "trade-policy",
-      "immigration-enforcement",
-      "humanitarian-economic-support"
+      "sanctions-country-specific",
+      "belarus",
+      "foreign-election-interference",
+      "human-rights-international",
+      "travel-restrictions-bans"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "sanctioned-persons-and-affiliates"
+        "citizens-of-specific-countries-by-eo-designation"
       ],
       "negative_ids": [
-        "foreign-manufacturers"
+        "foreign-government-officials",
+        "corporations-businesses",
+        "visa-holders-work-student-tourist"
       ]
     },
     "potential_concerns": [
-      "The broad criteria for sanctioning individuals and entities could unintentionally affect businesses or persons not directly involved in harmful activities.",
-      "Implementation may lead to legal challenges concerning due process for those designated without prior notice.",
-      "Restricting entry for persons based on executive determination could raise concerns about potential misuse or uneven application.",
-      "Sanctions might escalate tensions between the U.S. and Belarus, impacting diplomatic efforts and regional stability.",
-      "Economic sanctions on key Belarusian sectors could negatively affect civilian populations and unintended third parties."
+      "The expanded sanctions and travel bans targeting Belarusian government officials and entities may exacerbate tensions that restrict legitimate diplomatic and humanitarian engagement with Belarusian citizens (citizens-of-specific-countries-by-eo-designation).",
+      "Restrictions on transactions with Belarus-based corporations and entities could inadvertently harm non-governmental businesses and ordinary workers in Belarus, causing economic hardship beyond targeted officials (corporations-businesses).",
+      "Visa entry suspensions for Belarusian nationals, including students and temporary workers (visa-holders-work-student-tourist), may lead to unintended barriers to educational and cultural exchange that could impede long-term positive international relations.",
+      "The designation and blocking of entities involved in sectors like transportation and energy may disrupt critical infrastructure and civilian access to essential services, indirectly impacting Belarusian civilians and raising human rights concerns (human-rights-international)."
     ],
-    "enriched_at": "2025-12-09T03:53:26.968Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T02:32:30.678Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

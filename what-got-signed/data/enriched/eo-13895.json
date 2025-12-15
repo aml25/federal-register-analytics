@@ -1,0 +1,42 @@
+{
+  "document_number": "2019-23525",
+  "executive_order_number": "13895",
+  "title": "President's Council of Advisors on Science and Technology",
+  "abstract": null,
+  "signing_date": "2019-10-22",
+  "publication_date": "2019-10-25",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/10/25/2019-23525/presidents-council-of-advisors-on-science-and-technology",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-10-25/pdf/2019-23525.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/10/25/2019-23525.txt",
+  "enrichment": {
+    "summary": "This executive order establishes the President's Council of Advisors on Science and Technology (PCAST), a group of experts who advise the President on matters related to science, technology, education, and innovation. The council provides guidance on policies to support American technological leadership and innovation, collaborates with various sectors, and replaces a prior similar council.",
+    "theme_ids": [
+      "science-and-technology-policy",
+      "artificial-intelligence",
+      "quantum-computing-quantum-technology",
+      "federal-advisory-committees"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "scientific-researchers",
+        "technology-workers",
+        "entrepreneurs-startups",
+        "educational-institutions",
+        "college-university-students"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The focus on advancing artificial intelligence and quantum technologies may prioritize technology workers and entrepreneurs but could widen the digital divide, leaving under-resourced educational institutions and students behind.",
+      "Overemphasis on federal advisory committees like PCAST may centralize policy advice, potentially limiting diverse stakeholder input from smaller scientific research groups and startups.",
+      "Security clearance requirements for PCAST members might inhibit participation of qualified technology experts or researchers without existing clearances, narrowing the pool of advisors and impacting innovation.",
+      "The voluntary and unpaid nature of PCAST membership could limit participation to affluent or well-resourced individuals, reducing diverse representation from broader educational institutions and communities."
+    ],
+    "enriched_at": "2025-12-12T08:15:05.167Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

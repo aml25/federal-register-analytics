@@ -13,32 +13,35 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-30/pdf/2025-02009.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/30/2025-02009.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to strengthen vetting and screening procedures for foreign nationals seeking entry to or already in the United States to protect national security and public safety. It emphasizes preventing admission of individuals who pose terrorist or security risks, ensuring stricter verification for refugees and visa applicants, and recommending further measures to safeguard American constitutional rights and promote immigrant assimilation.",
+    "summary": "This executive order directs U.S. government agencies to strengthen screening and vetting of foreigners entering or already in the United States to prevent individuals who pose national security or public safety threats from gaining admission or remaining in the country. It also requires reviewing visa and refugee policies to close gaps that hostile actors might exploit and recommends steps to protect American constitutional rights and promote immigrant assimilation.",
     "theme_ids": [
-      "national-security",
-      "counterterrorism-policy",
-      "immigration-enforcement",
-      "public-safety",
-      "foreign-policy"
+      "counterterrorism",
+      "visa-policy",
+      "refugee-policy",
+      "immigration-enforcement-interior",
+      "homeland-security"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "refugees",
-        "terrorist-organizations"
+        "u-s-citizens"
       ],
       "negative_ids": [
-        "non-investor-immigrants",
-        "low-income-immigrants"
+        "visa-holders-work-student-tourist",
+        "refugees",
+        "asylum-seekers",
+        "lawful-permanent-residents-green-card-holders",
+        "foreign-nationals-general",
+        "citizens-of-specific-countries-by-eo-designation"
       ]
     },
     "potential_concerns": [
-      "Enhanced screening and vetting may lead to increased delays and denials affecting innocent visa applicants and refugees.",
-      "The emphasis on ideology and hostile attitudes could lead to discriminatory targeting of specific religious or ethnic groups, particularly Muslim Americans.",
-      "Strict enforcement could strain diplomatic relations with countries whose nationals face partial or full suspensions of admissions.",
-      "Vague standards on identifying 'hostile attitudes' may result in inconsistent application and potential civil liberties infringements.",
-      "Implementation requires coordination across multiple agencies, risking bureaucratic delays or gaps in enforcement."
+      "The enhanced vetting and possible suspension of admissions from certain countries may lead to discrimination or profiling against citizens of those specific countries, potentially affecting visa-holders, refugees, and lawful permanent residents.",
+      "Stringent identification and screening requirements for refugees and asylum-seekers could delay or reduce legal immigration pathways, exacerbating humanitarian challenges for vulnerable populations.",
+      "Increased scrutiny on lawful permanent residents and visa holders could inadvertently disrupt family unity and community stability for immigrant families residing in the U.S.",
+      "The focus on ideological vetting risks infringing on constitutional rights related to free speech and religious freedom, impacting lawful immigrants and potentially naturalized citizens from diverse religious and cultural backgrounds.",
+      "Intensified immigration enforcement measures might increase deportations based on vague definitions of 'hostile attitudes' or 'support for foreign terrorists,' raising due process and civil rights concerns."
     ],
-    "enriched_at": "2025-12-09T02:38:36.043Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:35:36.723Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

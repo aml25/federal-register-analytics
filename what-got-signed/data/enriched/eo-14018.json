@@ -13,28 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-03-01/pdf/2021-04281.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/03/01/2021-04281.txt",
   "enrichment": {
-    "summary": "This executive order cancels several prior presidential directives issued under the previous administration and directs federal agencies to review and eliminate related rules, policies, or groups created to implement those directives. It aims to remove those earlier actions and their effects where appropriate and consistent with the law.",
+    "summary": "This executive order cancels several previous presidential orders and memoranda issued by the prior administration. It directs government officials to undo related policies, rules, and organizational structures created under those actions where legally appropriate.",
     "theme_ids": [
-      "regulatory-reform",
-      "federal-agency-management"
+      "revocation-of-previous-executive-orders",
+      "regulatory-reform-deregulation",
+      "federal-labor-management-relations",
+      "government-reorganization"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "private-sector-rivals"
+        "federal-employees-civil-servants",
+        "union-members"
       ],
       "negative_ids": [
-        "independent-regulatory-agencies"
+        "federal-employees-civil-servants",
+        "union-members"
       ]
     },
     "potential_concerns": [
-      "Revoking multiple prior executive actions may cause temporary uncertainty or confusion within federal agencies about current policies and procedures.",
-      "Implementation could be delayed or inconsistent given the need to rescind various rules and abolish committees as appropriate under legal constraints.",
-      "Some stakeholders may oppose the revocation of actions intended to address poverty, economic regulation, or democratic accountability, viewing it as a rollback of policy priorities.",
-      "The broad language may lead to disagreements about the scope of what should be rescinded or abolished, complicating agency compliance efforts.",
-      "Eliminating entities and reversing policies could disrupt ongoing programs or initiatives that depend on these prior orders."
+      "The revocation of prior labor-related memoranda may create uncertainty or reduce negotiated labor protections for federal employees and union members, potentially impacting workplace relations.",
+      "Abolishing committees and entities established under revoked orders could disrupt ongoing initiatives, negatively affecting federal employees reliant on those structures for advocacy or support.",
+      "Removing regulatory relief provisions may increase administrative burden on federal agencies, indirectly impacting federal employees' workload and job conditions.",
+      "Depending on how widely regulatory rollback is implemented, union members may experience reduced bargaining power or diminished labor-management cooperation.",
+      "Unintended gaps in policy may emerge if revocations are rushed or incomplete, causing confusion or inconsistent application affecting federal employees and union members."
     ],
-    "enriched_at": "2025-12-09T03:56:15.035Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T07:34:07.209Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

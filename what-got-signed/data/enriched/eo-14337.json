@@ -13,23 +13,26 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-19/pdf/2025-15824.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/19/2025-15824.txt",
   "enrichment": {
-    "summary": "This executive order officially cancels a previous order that promoted competition in the American economy. It clarifies that the cancellation does not affect the legal authorities of government agencies and emphasizes that the order does not create new legal rights or benefits for anyone.",
+    "summary": "This executive order formally cancels a previous order aimed at promoting competition in the U.S. economy. It clarifies that the revocation does not affect existing laws or authorities of government agencies and that it creates no new legal rights or benefits.",
     "theme_ids": [
-      "trade-policy"
+      "revocation-of-previous-executive-orders"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "private-sector-rivals"
+        "large-corporation-employees",
+        "corporate-executives-officers"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "small-business-owners"
+      ]
     },
     "potential_concerns": [
-      "Revoking a competition-promoting order could reduce regulatory oversight and potentially increase market concentration.",
-      "Private companies that previously benefited from increased competition policies may face diminished opportunities.",
-      "The lack of an abstract or detailed explanation reduces transparency on the reasons and implications of the revocation.",
-      "Implementation contingent on appropriations may delay enforcement or create uncertainty among stakeholders."
+      "Revocation of the prior competition-focused order could reduce regulatory pressure on large corporations and their executives, potentially enabling anti-competitive practices.",
+      "Small business owners might face increased challenges due to less federal emphasis on promoting competition, limiting their market opportunities.",
+      "Consumers and small businesses could experience negative effects indirectly through reduced market competition, despite not being directly tagged, as market dynamics shift.",
+      "The order's clarity that it does not alter existing laws might create ambiguity about how strictly competition policies will be enforced, potentially disadvantaging smaller market players."
     ],
-    "enriched_at": "2025-12-09T02:47:21.455Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:02:38.896Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

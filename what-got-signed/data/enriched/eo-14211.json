@@ -13,28 +13,27 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-18/pdf/2025-02841.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/18/2025-02841.txt",
   "enrichment": {
-    "summary": "This executive order directs the Secretary of State to ensure all U.S. foreign policy officials and employees faithfully implement the President's foreign policy under his sole authority. It mandates reforms in Foreign Service hiring, performance, and conduct standards to align the workforce closely with the President's agenda and enforces disciplinary measures for failure to comply.",
+    "summary": "This executive order directs the Secretary of State to ensure that all foreign policy efforts under the Department of State faithfully follow the President's directives. It mandates reforms in hiring, evaluation, and personnel management to maintain a loyal and effective workforce dedicated to implementing the President's foreign policy agenda.",
     "theme_ids": [
-      "foreign-policy",
-      "federal-workforce",
-      "federal-agency-management"
+      "federal-workforce-management",
+      "civil-service-reform"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "federal-employees"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "displaced-federal-workers"
+        "foreign-service-officers",
+        "federal-employees-civil-servants",
+        "political-appointees"
       ]
     },
     "potential_concerns": [
-      "The order may undermine the independence and professionalism of the Foreign Service by subjecting personnel decisions solely to political discretion.",
-      "Strict enforcement and disciplinary provisions could harm morale and lead to staff attrition within the Department of State and related agencies.",
-      "Reforms focused on loyalty to the President may politicize foreign policy implementation and diminish career diplomats’ ability to provide objective advice.",
-      "Delegating sole discretion to the Secretary without independent oversight risks abuse of authority and lack of accountability.",
-      "Implementation might face legal challenges if perceived to conflict with existing laws or protections for career foreign service members."
+      "This order's emphasis on loyalty and discipline may undermine merit-based civil service protections, negatively impacting foreign-service officers and civil servants by increasing vulnerability to politically motivated personnel actions.",
+      "Reforms directed by this order could create a workplace culture that discourages dissent or independent judgment among Foreign Service personnel, potentially reducing effectiveness and morale.",
+      "Political appointees may gain disproportionate influence over personnel decisions, which could politicize the Department of State’s workforce and impair institutional neutrality.",
+      "The extensive discretion given to the Secretary of State risks inconsistent or opaque application of personnel policies, limiting due process protections for Foreign Service and Civil Service employees.",
+      "Efforts to reform recruitment, evaluation, and retention focused on loyalty may reduce diversity and professional expertise within the Foreign Service, weakening long-term diplomatic capacity."
     ],
-    "enriched_at": "2025-12-09T02:40:58.580Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:28:13.392Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

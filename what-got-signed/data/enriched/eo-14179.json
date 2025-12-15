@@ -13,31 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-31/pdf/2025-02172.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/31/2025-02172.txt",
   "enrichment": {
-    "summary": "This executive order aims to remove existing federal policies that limit American innovation and leadership in artificial intelligence (AI). It directs key White House officials and federal agencies to develop a new action plan promoting unbiased AI development and to revise or suspend previous AI-related directives that are seen as obstacles to U.S. AI dominance.",
+    "summary": "This executive order aims to remove existing government policies that restrict innovation in artificial intelligence (AI) to help the United States maintain its global leadership in AI technology. It directs key presidential advisors and government agencies to develop a new national AI action plan and review, revise, or suspend previous AI-related policies that might hinder innovation or contradict this goal.",
     "theme_ids": [
       "artificial-intelligence",
-      "national-security",
-      "regulatory-reform",
-      "federal-agency-management",
-      "technology-development"
+      "economic-competitiveness",
+      "science-and-technology-policy",
+      "revocation-of-previous-executive-orders"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry",
-        "scientific-researchers"
+        "technology-workers",
+        "entrepreneurs-startups",
+        "corporations-businesses"
       ],
       "negative_ids": [
-        "developers-of-ideologically-inclusive-ai"
+        "individuals-with-disabilities",
+        "working-age-adults"
       ]
     },
     "potential_concerns": [
-      "Removing safeguards from prior AI policies could lead to unchecked biases or unethical uses of AI systems.",
-      "Suspending or revising existing regulations may create legal uncertainty or disrupt ongoing programs and collaborations in AI development.",
-      "The order's prohibition of AI systems with ideological bias or 'engineered social agendas' might reduce inclusion efforts and limit diversity considerations in AI design.",
-      "Rapid policy changes may challenge federal agencies' capacity to comply effectively and consistently, risking fragmentation in AI oversight.",
-      "The lack of an explicit implementation timeline or enforcement mechanisms could delay achieving the intended policy goals."
+      "The revocation of safeguards from Executive Order 14110 may reduce protections against AI bias, potentially disadvantaging individuals-with-disabilities and other vulnerable groups in access to AI-powered services.",
+      "Emphasizing rapid AI innovation to maintain economic competitiveness may prioritize corporate interests and technology-workers' job growth while increasing workplace automation risks for working-age-adults in other sectors.",
+      "Removing restrictions on AI development without adequate ethical guidelines could lead to socially or ideologically biased AI systems, undermining public trust and harming demographic groups reliant on equitable AI outcomes.",
+      "Startups and entrepreneurs might benefit from reduced regulatory barriers, but the absence of clear standards could increase market uncertainty and inequalities between large corporations and smaller technology enterprises."
     ],
-    "enriched_at": "2025-12-09T02:39:31.065Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:32:47.434Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

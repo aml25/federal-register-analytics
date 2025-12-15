@@ -1,0 +1,41 @@
+{
+  "document_number": "2019-04437",
+  "executive_order_number": "13861",
+  "title": "National Roadmap to Empower Veterans and End Suicide",
+  "abstract": null,
+  "signing_date": "2019-03-05",
+  "publication_date": "2019-03-08",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/03/08/2019-04437/national-roadmap-to-empower-veterans-and-end-suicide",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-03-08/pdf/2019-04437.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/03/08/2019-04437.txt",
+  "enrichment": {
+    "summary": "This executive order creates a task force to develop a national plan called PREVENTS aimed at reducing veteran suicide by improving coordination among federal, state, local, tribal, and private partners. The order focuses on community collaboration, research, and support programs to enhance veterans' quality of life and prevent suicide.",
+    "theme_ids": [
+      "mental-health",
+      "veterans-healthcare",
+      "presidential-commissions-task-forces",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "veterans",
+        "individuals-with-mental-health-conditions",
+        "tribal-communities-reservations",
+        "faith-based-communities"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The lack of recent VA healthcare engagement for nearly 70% of veterans who die by suicide suggests challenges in reaching non-VA-connected veterans, particularly in tribal communities, which may limit the effectiveness of outreach efforts.",
+      "Coordination among numerous federal, state, local, tribal, and private partners as outlined could cause delays or fragmentation, risking uneven access to services for veterans with mental health conditions.",
+      "The emphasis on community integration and collaboration may unintentionally burden faith-based communities with expectations for veteran support without adequate resources or funding.",
+      "Without clear metrics and accountability, research and implementation efforts may fail to produce measurable reductions in veteran suicide, impacting veterans relying on improved mental healthcare services."
+    ],
+    "enriched_at": "2025-12-15T07:27:55.099Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

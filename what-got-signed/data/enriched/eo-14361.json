@@ -13,27 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-11-26/pdf/2025-21417.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/11/26/2025-21417.txt",
   "enrichment": {
-    "summary": "This executive order modifies existing tariffs on certain Brazilian imports by removing some agricultural products from an additional 40 percent duty. It reflects progress in ongoing negotiations with the Brazilian government and aims to adjust trade measures originally imposed due to perceived threats to U.S. national security and economy.",
+    "summary": "This executive order modifies the previous tariffs imposed on certain products from the Government of Brazil by exempting some agricultural products from the additional 40 percent duty. The changes reflect progress in ongoing negotiations with Brazil and are intended to address concerns related to national security, foreign policy, and economic threats posed by Brazil's policies.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
-      "foreign-policy"
+      "tariffs-duties",
+      "trade-policy-agreements",
+      "national-emergencies",
+      "diplomatic-relations",
+      "agricultural-policy"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "brazil",
-        "agricultural-workers"
+        "agricultural-workers-farmers",
+        "foreign-governments",
+        "small-business-owners"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "manufacturing-workers",
+        "large-corporation-employees"
+      ]
     },
     "potential_concerns": [
-      "Removing tariffs on certain Brazilian agricultural products could harm U.S. farmers and agricultural workers facing increased competition.",
-      "Ongoing negotiations may lack transparency, causing uncertainty for businesses on both sides.",
-      "The national security justification for the original tariffs might be questioned or diluted by this modification.",
-      "Implementation and enforcement challenges could arise in properly categorizing which products are exempt from the additional duties.",
-      "Tariff changes might provoke retaliatory measures from other trade partners or impact broader U.S. trade policy consistency."
+      "The tariff exemptions on certain Brazilian agricultural products may benefit agricultural workers and small business owners who rely on these imports but could harm U.S. manufacturing workers and large corporations competing with Brazilian imports under the initial tariff scheme.",
+      "Modifying tariffs during an ongoing national emergency declared under trade and national security grounds may undermine the enforcement strength of trade-policy agreements and complicate diplomatic relations if perceived as inconsistent by U.S. stakeholders.",
+      "Reducing tariffs on Brazilian agricultural goods could increase dependency on foreign agricultural imports, potentially affecting the economic stability of rural communities and domestic farmers reliant on tariff protections.",
+      "The adjustment of tariffs might lead to unintended economic shifts in sectors outside agriculture, such as manufacturing, thereby negatively impacting employment and wages in those industries."
     ],
-    "enriched_at": "2025-12-09T02:48:29.324Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-12T08:21:00.769Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

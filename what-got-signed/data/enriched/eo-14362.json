@@ -13,30 +13,33 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-11-28/pdf/2025-21664.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/11/28/2025-21664.txt",
   "enrichment": {
-    "summary": "This executive order directs key U.S. government officials to identify and designate certain chapters of the Muslim Brotherhood, particularly in Lebanon, Jordan, and Egypt, as foreign terrorist organizations and specially designated global terrorists. The goal is to restrict their resources and operations in order to protect U.S. national security, its citizens, and regional partners from violence and destabilizing activities linked to these groups.",
+    "summary": "This executive order directs U.S. government officials to identify and designate certain chapters of the Muslim Brotherhood, specifically in Lebanon, Jordan, and Egypt, as foreign terrorist organizations and specially designated global terrorists. The goal is to cut off their resources and cooperation with regional partners to protect U.S. citizens and national security interests from violence and terrorism associated with these groups.",
     "theme_ids": [
-      "national-security",
-      "counterterrorism-policy",
-      "foreign-policy"
+      "foreign-terrorist-organizations",
+      "counterterrorism",
+      "terrorism-designations",
+      "middle-east-general"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "regional-stability-actors",
-        "innocent-civilian-populations-in-west-bank-and-region"
+        "u-s-citizens",
+        "military-personnel-active-duty",
+        "veterans"
       ],
       "negative_ids": [
-        "muslim-americans",
-        "civilian-populations-in-designated-countries"
+        "muslims",
+        "foreign-nationals-general",
+        "citizens-of-specific-countries-by-eo-designation"
       ]
     },
     "potential_concerns": [
-      "Designation of certain groups may inadvertently fuel anti-Muslim sentiment and discrimination within the U.S. or abroad.",
-      "The order may complicate diplomatic relations with countries where Muslim Brotherhood chapters operate, potentially straining partnerships.",
-      "Implementation challenges could arise from clearly defining which chapters qualify for designation and ensuring due process.",
-      "There is risk of escalating violence or retaliation from designated groups following such official actions.",
-      "The absence of an explicit abstract or detailed guidance may lead to ambiguity in enforcement and legal challenges."
+      "The designation of Muslim Brotherhood chapters as terrorist organizations may lead to stigmatization and civil rights challenges for Muslim communities in the U.S., impacting the population identified as Muslims.",
+      "Foreign nationals and citizens of Lebanon, Jordan, and Egypt could face increased scrutiny, travel restrictions, or difficulties, affecting the 'foreign-nationals-general' and 'citizens-of-specific-countries-by-eo-designation' groups.",
+      "Heightened counterterrorism measures might increase risks for U.S. military personnel deployed in Middle Eastern regions as tensions escalate, directly impacting military-personnel-active-duty and veterans.",
+      "The policy could complicate diplomatic relations and cooperation with regional partners, potentially affecting U.S. citizens' safety abroad and foreign policy stability.",
+      "Implementation may result in challenges distinguishing between lawful religious/political activities and terrorist activities carried out by offshoots, leading to potential overreach harming peaceful Muslim organizations."
     ],
-    "enriched_at": "2025-12-09T02:48:31.831Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-12T08:20:53.696Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

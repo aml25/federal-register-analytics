@@ -13,30 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-29/pdf/2025-01957.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/29/2025-01957.txt",
   "enrichment": {
-    "summary": "This executive order directs the United States to formally withdraw from the World Health Organization (WHO), reversing prior efforts to remain in the organization. It calls for stopping financial contributions, removing personnel from WHO activities, and ceasing negotiations on international pandemic agreements, citing concerns about the WHO's handling of COVID-19 and perceived political biases.",
+    "summary": "This executive order directs the United States to withdraw from the World Health Organization (WHO), reversing a previous retraction of withdrawal. It pauses funding and involvement with the WHO, ends U.S. participation in related global health agreements, and sets internal actions to safeguard public health and biosecurity independently from the WHO.",
     "theme_ids": [
-      "foreign-policy",
-      "public-health-promotion",
-      "national-security",
-      "federal-agency-management"
+      "world-health-organization-who",
+      "global-health-security",
+      "pandemic-preparedness",
+      "united-nations-policy",
+      "bioethics"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "scientific-researchers"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "public-health-workers",
-        "state-and-local-governments"
+        "healthcare-workers",
+        "patients-general",
+        "global-health-populations",
+        "international-organizations"
       ]
     },
     "potential_concerns": [
-      "Withdrawal from the WHO may hinder U.S. participation in global health initiatives and reduce influence over international public health policies.",
-      "Ceasing funding and collaboration could disrupt ongoing global health programs and emergency response coordination, potentially impacting public health outcomes.",
-      "The order may strain diplomatic relations, especially with WHO member states like China, affecting broader foreign policy goals.",
-      "Reassigning U.S. personnel away from WHO could lead to inefficiencies or loss of expertise in global health security coordination.",
-      "Revoking previous orders and strategies may delay critical updates or improvements to U.S. pandemic preparedness and response."
+      "Withdrawing from the WHO may impair pandemic preparedness and response coordination, negatively impacting healthcare workers and patients due to reduced access to timely global health information and resources.",
+      "The disruption of U.S. funding to the WHO risks undermining international health initiatives, harming global health populations reliant on WHO programs for disease control and vaccination.",
+      "Ending participation in WHO-related global health agreements may isolate the U.S. from cooperative biosecurity efforts, increasing vulnerabilities in managing cross-border health threats.",
+      "Reassigning U.S. personnel from the WHO could diminish America's influence in shaping global health policy, weakening diplomatic ties with international organizations and partners."
     ],
-    "enriched_at": "2025-12-09T02:38:18.666Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:36:38.439Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

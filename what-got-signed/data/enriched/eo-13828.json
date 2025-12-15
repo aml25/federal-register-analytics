@@ -1,0 +1,46 @@
+{
+  "document_number": "2018-07874",
+  "executive_order_number": "13828",
+  "title": "Reducing Poverty in America by Promoting Opportunity and Economic Mobility",
+  "abstract": null,
+  "signing_date": "2018-04-10",
+  "publication_date": "2018-04-13",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/04/13/2018-07874/reducing-poverty-in-america-by-promoting-opportunity-and-economic-mobility",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-04-13/pdf/2018-07874.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/04/13/2018-07874.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to review and reform welfare programs to promote economic mobility and self-sufficiency by emphasizing work, reducing dependency, and improving program accountability. It supports empowering state, local, and tribal governments, as well as private and community organizations, to create effective solutions for helping people escape poverty.",
+    "theme_ids": [
+      "workforce-development",
+      "government-efficiency",
+      "faith-based-initiatives"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "low-income-individuals-families",
+        "individuals-experiencing-poverty",
+        "formerly-incarcerated-returning-citizens",
+        "faith-based-communities",
+        "tribal-governments",
+        "state-governments",
+        "local-governments"
+      ],
+      "negative_ids": [
+        "undocumented-immigrants"
+      ]
+    },
+    "potential_concerns": [
+      "Strengthening and broadening work requirements may disproportionately burden individuals experiencing poverty and formerly incarcerated returning citizens who face significant barriers to stable employment.",
+      "The increased emphasis on eligibility verification and enforcement could reduce access to benefits for undocumented immigrants, thereby exacerbating hardships for mixed-status families and communities.",
+      "Efforts to consolidate and eliminate what are perceived as duplicative programs risk unintended service gaps that may harm low-income families, especially in rural and tribal communities served by tribal, state, and local governments.",
+      "Empowering faith-based communities in welfare program delivery could lead to concerns about equitable access and potential discrimination against beneficiaries of different or no religious affiliations.",
+      "The focus on reducing bureaucracy and promoting efficiency, while beneficial in theory, might lead to underfunding or elimination of niche programs that specifically assist hard-to-employ populations, such as the homeless or individuals with disabilities."
+    ],
+    "enriched_at": "2025-12-15T07:12:17.824Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

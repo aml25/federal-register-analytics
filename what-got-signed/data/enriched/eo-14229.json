@@ -13,28 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-10/pdf/2025-03869.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/10/2025-03869.txt",
   "enrichment": {
-    "summary": "This executive order renames the Anahuac National Wildlife Refuge in Texas to honor Jocelyn Nungaray, a 12-year-old girl tragically murdered by two illegal immigrants. It also highlights the administration's criticism of prior immigration policies, linking them to increased crime and border security issues. The Secretary of the Interior is directed to update federal references to reflect this renaming within 30 days.",
+    "summary": "This executive order renames the Anahuac National Wildlife Refuge in Texas to the Jocelyn Nungaray National Wildlife Refuge in honor of Jocelyn Nungaray, a 12-year-old girl who was tragically murdered by two illegal aliens allegedly linked to a criminal gang. The order directs the Secretary of the Interior to update all official references to reflect this renaming within 30 days.",
     "theme_ids": [
-      "immigration-enforcement",
+      "border-security",
+      "transnational-crime-cartels",
       "public-lands-management",
-      "public-safety"
+      "historical-commemorations"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "undocumented-immigrants"
+        "u-s-citizens",
+        "crime-victims",
+        "coastal-communities",
+        "border-communities"
       ],
       "negative_ids": [
         "undocumented-immigrants"
       ]
     },
     "potential_concerns": [
-      "The order links a specific violent crime to broader immigration policy issues, which may fuel negative stereotypes about undocumented immigrants.",
-      "Renaming a wildlife refuge primarily to highlight immigration enforcement may politicize a natural conservation area and divert attention from environmental priorities.",
-      "Implementation may face logistical challenges and incur costs related to updating all references and signage within the required timeline.",
-      "The order lacks an abstract or broader context that explains any additional conservation or memorial efforts, potentially limiting public understanding and support.",
-      "The order’s framing could deepen partisan divisions over immigration policy and risk alienating immigrant communities and advocates."
+      "Renaming the refuge to honor a crime victim may heighten tensions in border and coastal communities by framing immigration primarily through the lens of criminality, potentially stigmatizing undocumented immigrants.",
+      "The order’s explicit link between open-border policies and violent crime could lead to increased hostility or discrimination against immigrant populations, especially undocumented immigrants, affecting community cohesion in border areas.",
+      "Commemorating one victim in this way risks politicizing public lands management by conflating conservation with immigration enforcement themes, which may detract from the refuge's ecological and recreational functions for all visitors, including local U.S. citizens.",
+      "There may be unintended divisiveness within coastal and border communities as some residents may feel the renaming imposes a negative narrative on immigrants, potentially impacting community relations and public perceptions of safety."
     ],
-    "enriched_at": "2025-12-09T02:41:51.557Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:25:47.673Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

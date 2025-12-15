@@ -1,0 +1,37 @@
+{
+  "document_number": "2017-27034",
+  "executive_order_number": "13816",
+  "title": "Revising the Seal for the National Credit Union Administration",
+  "abstract": null,
+  "signing_date": "2017-12-08",
+  "publication_date": "2017-12-13",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/12/13/2017-27034/revising-the-seal-for-the-national-credit-union-administration",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-12-13/pdf/2017-27034.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/12/13/2017-27034.txt",
+  "enrichment": {
+    "summary": "This executive order approves a new official seal for the National Credit Union Administration, describing its symbolic elements and their meanings. It also revokes a previous executive order that established the old seal.",
+    "theme_ids": [
+      "financial-system-regulation",
+      "american-heritage-patriotism"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "financial-services-workers",
+        "middle-class-americans"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Because this executive order primarily changes the symbolic seal of the NCUA, without altering regulatory or operational functions, it offers minimal direct benefits or drawbacks to financial-services-workers and the middle-class Americans served by credit unions, raising concerns about the actual impact versus the symbolism of 'american-heritage-patriotism.'",
+      "The focus on patriotic symbolism in the new seal might unintentionally alienate diverse demographic groups within the credit union membership who may not identify with traditional iconography, such as the eagle or oak branch, potentially limiting the perceived inclusiveness of federally insured credit unions.",
+      "If credit unions must prominently display the updated seal to reflect federal insurance, there could be minor administrative or financial costs passed on to credit unions and ultimately members (middle-class Americans), which although small, might cause concern among some stakeholders about unnecessary expenditures.",
+      "Given the order revokes a previous executive order establishing the seal, there is a risk of transitional confusion or inconsistent use during the implementation period among federally insured credit unions, potentially affecting consumer confidence in the institutions regulated by the NCUA."
+    ],
+    "enriched_at": "2025-12-12T08:13:02.337Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

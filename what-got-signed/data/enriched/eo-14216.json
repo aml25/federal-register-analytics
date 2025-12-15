@@ -13,30 +13,27 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-24/pdf/2025-03064.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/24/2025-03064.txt",
   "enrichment": {
-    "summary": "This executive order directs the administration to improve access to in vitro fertilization (IVF) by lowering costs and removing unnecessary barriers to treatment. It instructs a policy review within 90 days to recommend ways to make IVF more affordable and accessible for couples facing infertility.",
+    "summary": "This executive order aims to make in vitro fertilization (IVF) more accessible and affordable for American families facing infertility. It directs a policy review to identify ways to reduce costs and remove barriers to IVF treatment within 90 days.",
     "theme_ids": [
-      "regulatory-reform",
-      "public-health-promotion",
-      "fertility-policy"
+      "abortion-reproductive-health"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "individuals-facing-infertility",
-        "medical-patients"
+        "women",
+        "men",
+        "working-age-adults",
+        "patients-general"
       ],
-      "negative_ids": [
-        "private-health-insurers",
-        "state-and-local-governments"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Reducing regulatory barriers too aggressively could compromise patient safety or the quality of IVF treatments.",
-      "Lowering costs without clear funding mechanisms might shift financial burdens to insurers or healthcare providers, complicating implementation.",
-      "The order does not specify protections or oversight for ethical concerns related to IVF access and practices.",
-      "Implementation timelines and coordination between agencies may delay or weaken the effectiveness of policy changes.",
-      "Potential disparities could arise if affordable IVF access is unevenly distributed regionally or socioeconomically."
+      "Lowering IVF costs and expanding access may raise ethical concerns among certain faith-based communities, particularly regarding the handling and disposition of unused embryos.",
+      "Efforts to reduce costs might result in insurance or healthcare providers imposing stricter eligibility criteria, potentially limiting access for some infertile patients.",
+      "The focus on affordability could lead to increased demand for IVF services that existing healthcare infrastructure may not be prepared to support, adversely affecting patient experience.",
+      "Without clear regulatory guidance, efforts to ease statutory barriers might lead to variability in IVF quality and safety standards impacting patients.",
+      "Populations with limited healthcare coverage, such as Medicaid beneficiaries or uninsured individuals, might still face access barriers despite overall cost reductions."
     ],
-    "enriched_at": "2025-12-09T02:41:12.263Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:27:28.174Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

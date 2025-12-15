@@ -1,0 +1,45 @@
+{
+  "document_number": "2019-05370",
+  "executive_order_number": "13863",
+  "title": "Taking Additional Steps to Address the National Emergency With Respect to Significant Transnational Criminal Organizations",
+  "abstract": null,
+  "signing_date": "2019-03-15",
+  "publication_date": "2019-03-19",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/03/19/2019-05370/taking-additional-steps-to-address-the-national-emergency-with-respect-to-significant-transnational",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-03-19/pdf/2019-05370.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/03/19/2019-05370.txt",
+  "enrichment": {
+    "summary": "This executive order updates the definition of significant transnational criminal organizations to better address their evolving threats to U.S. national security, foreign policy, and economy. It outlines that the order will be implemented according to law and does not create any enforceable rights against the government.",
+    "theme_ids": [
+      "national-security-information-classification",
+      "transnational-crime-cartels",
+      "economic-sanctions",
+      "national-emergencies"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local",
+        "intelligence-community-personnel",
+        "crime-victims"
+      ],
+      "negative_ids": [
+        "foreign-nationals-general",
+        "corporations-businesses",
+        "foreign-governments"
+      ]
+    },
+    "potential_concerns": [
+      "The expanded sanctions and definition could complicate diplomatic relations and negatively impact foreign governments and foreign nationals not directly involved in criminal activity.",
+      "Economic sanctions targeting transnational criminal organizations may inadvertently harm corporations and legitimate businesses operating in regions where these groups exert influence.",
+      "Enhanced enforcement actions could increase risks of profiling or wrongful targeting of foreign nationals, potentially violating legal protections and human rights.",
+      "The broad definition of significant transnational criminal organizations may lead to challenges in clearly delineating legitimate versus illicit actors, impacting implementation consistency for law enforcement agencies."
+    ],
+    "enriched_at": "2025-12-15T07:27:33.152Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

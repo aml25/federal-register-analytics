@@ -13,30 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06458.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/15/2025-06458.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to stop granting security clearances to, and limit government contracts and interactions with, the law firm Susman Godfrey LLP due to its alleged engagement in activities harmful to U.S. national interests, including racial discrimination and efforts to undermine military and election integrity. It also restricts federal hiring from Susman and mandates agencies review and potentially terminate contracts involving the firm, aiming to protect national security and ensure federal funds are not supporting conduct contrary to American values.",
+    "summary": "This executive order directs federal agencies to review and limit their relationships with the law firm Susman Godfrey LLP because of its involvement in activities deemed harmful to U.S. national interests, including racial discrimination and efforts undermining military effectiveness and election integrity. It suspends security clearances for Susman employees, restricts government contracts and access, and limits federal hiring and official interactions with Susman personnel to protect national security.",
     "theme_ids": [
-      "national-security",
-      "federal-procurement-policy",
-      "federal-workforce"
+      "national-security-information-classification",
+      "foreign-election-interference",
+      "security-clearances-background-investigations",
+      "employment-discrimination",
+      "racial-equity"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "law-firm-employees",
-        "federal-contractors"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "law-firm-clients",
-        "foreign-suppliers"
+        "federal-contractors",
+        "security-clearance-holders",
+        "federal-employees-civil-servants",
+        "corporations-businesses"
       ]
     },
     "potential_concerns": [
-      "The order may raise legal challenges related to due process and discrimination claims against Susman Godfrey LLP and its employees.",
-      "Restricting contracts and interactions based on alleged conduct could set a precedent for broad federal exclusion that may be politically or legally contested.",
-      "Implementation may be complicated by limitations in agency authority and constraints under existing procurement and employment laws.",
-      "The criteria for determining disqualifying conduct may be viewed as vague or subjective, leading to inconsistent application across agencies.",
-      "Potential negative impacts on employees of Susman Godfrey who may have no direct involvement in the problematic activities identified."
+      "The suspension of security clearances and restrictions on hiring may unfairly impact federal employees who previously worked for or had ties to Susman Godfrey LLP, possibly leading to employment challenges without sufficient due process (theme: security-clearances-background-investigations).",
+      "Mandating contractors to disclose and possibly sever business relations with Susman Godfrey LLP could impose financial and operational burdens on federal contractors and corporations, potentially disrupting government services (theme: national-security-information-classification).",
+      "The broad restrictions on interactions with Susman employees might cause confusion or inconsistent application across agencies, potentially limiting legitimate legal services and contracting without clear guidelines (theme: national-security-information-classification).",
+      "The focus on Susman Godfrey's alleged racial discrimination policies may lead to legal disputes around affirmative action or diversity initiatives, impacting federal contractors and possibly chilling diversity efforts across the private sector (theme: employment-discrimination, racial-equity)."
     ],
-    "enriched_at": "2025-12-09T02:43:33.375Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:21:03.886Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

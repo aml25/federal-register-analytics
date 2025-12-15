@@ -1,0 +1,42 @@
+{
+  "document_number": "2011-12645",
+  "executive_order_number": "13573",
+  "title": "Blocking Property of Senior Officials of the Government of Syria",
+  "abstract": null,
+  "signing_date": "2011-05-18",
+  "publication_date": "2011-05-20",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2011/05/20/2011-12645/blocking-property-of-senior-officials-of-the-government-of-syria",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2011-05-20/pdf/2011-12645.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2011/05/20/2011-12645.txt",
+  "enrichment": {
+    "summary": "This executive order blocks the property and financial transactions of senior officials in the Syrian government as well as entities controlled by or supporting them. It aims to respond to and restrict the Syrian government's violent repression of protesters and democratic activists. U.S. persons are prohibited from dealing with these designated individuals and entities to support U.S. national interests and to address the national emergency related to Syria.",
+    "theme_ids": [
+      "economic-sanctions",
+      "sanctions-country-specific",
+      "syria",
+      "national-emergencies",
+      "human-rights-international"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "foreign-government-officials"
+      ],
+      "negative_ids": [
+        "citizens-of-specific-countries-by-eo-designation",
+        "corporations-businesses"
+      ]
+    },
+    "potential_concerns": [
+      "The blocking of property and financial transactions with senior Syrian government officials (foreign-government-officials) and their affiliates may escalate economic hardship for ordinary Syrian citizens (citizens-of-specific-countries-by-eo-designation) due to potential indirect economic fallout.",
+      "Sanctions targeting Syrian entities could disrupt legitimate business activities of U.S. corporations (corporations-businesses) involved in the region, raising compliance challenges and increasing risk of inadvertent violations.",
+      "The broad definition of persons and entities subject to blocking may lead to difficulties in precisely identifying sanctioned targets, increasing the risk of overbreadth affecting non-designated Syrian populations and affiliated businesses.",
+      "Restrictions on donations and financial support may unintentionally impede humanitarian aid reaching vulnerable populations in Syria, complicating international human rights and humanitarian efforts."
+    ],
+    "enriched_at": "2025-12-15T02:09:09.221Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

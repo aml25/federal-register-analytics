@@ -1,0 +1,37 @@
+{
+  "document_number": "2010-22279",
+  "executive_order_number": "13552",
+  "title": "2010 Amendments to the Manual for Courts-Martial, United States",
+  "abstract": null,
+  "signing_date": "2010-08-31",
+  "publication_date": "2010-09-03",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2010/09/03/2010-22279/2010-amendments-to-the-manual-for-courts-martial-united-states",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2010-09-03/pdf/2010-22279.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2010/09/03/2010-22279.txt",
+  "enrichment": {
+    "summary": "This executive order updates parts of the Manual for Courts-Martial, which is the official guide used to conduct military justice proceedings in the United States Armed Forces. These amendments become effective 30 days after the order date and do not apply retroactively to past actions or ongoing military justice processes.",
+    "theme_ids": [
+      "military-readiness-force-structure"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "military-personnel-reserves-guard",
+        "veterans"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Updates to the Manual for Courts-Martial could introduce changes in military justice procedures that active-duty and reserve service members must quickly adapt to, potentially affecting their rights and legal protections.",
+      "Veterans might experience indirect effects if amendments alter precedents or standards that impact post-service adjudications or benefits connected to military justice outcomes.",
+      "The amendments may create challenges in uniform application across different service branches, risking inconsistent disciplinary actions and potentially undermining force readiness.",
+      "Service members unfamiliar with amended provisions could face unintended legal vulnerabilities, emphasizing the need for comprehensive and timely training on the new rules."
+    ],
+    "enriched_at": "2025-12-15T02:06:45.249Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

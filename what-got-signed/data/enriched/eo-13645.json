@@ -1,0 +1,40 @@
+{
+  "document_number": "2013-13523",
+  "executive_order_number": "13645",
+  "title": "Authorizing the Implementation of Certain Sanctions Set Forth in the Iran Freedom and Counter- Proliferation Act of 2012 and Additional Sanctions With Respect To Iran",
+  "abstract": null,
+  "signing_date": "2013-06-03",
+  "publication_date": "2013-06-05",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2013/06/05/2013-13523/authorizing-the-implementation-of-certain-sanctions-set-forth-in-the-iran-freedom-and-counter-",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2013-06-05/pdf/2013-13523.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2013/06/05/2013-13523.txt",
+  "enrichment": {
+    "summary": "This executive order authorizes the U.S. government to impose and enforce economic sanctions on foreign financial institutions and persons who engage in significant transactions related to Iran, especially those connected to the Iranian rial, the automotive sector, and other specified activities that support the Iranian government. It also restricts entry into the United States for individuals involved in such activities and sets rules to block property and financial interests related to these sanctions to address national security concerns involving Iran.",
+    "theme_ids": [
+      "economic-sanctions",
+      "iran",
+      "sanctions-country-specific",
+      "visa-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "corporations-businesses",
+        "citizens-of-specific-countries-by-eo-designation",
+        "visa-holders-work-student-tourist"
+      ]
+    },
+    "potential_concerns": [
+      "Economic sanctions on foreign financial institutions and corporations engaging with Iran may disrupt international banking relations and impair legitimate business activities involving Iranian nationals and entities.",
+      "Restrictions on visa eligibility and entry into the United States for individuals connected to sanctioned Iranian activities could inadvertently impact legitimate visa holders and travelers, raising concerns about due process and potential overreach.",
+      "The blocking of property and financial interests tied to sanctioned persons could lead to challenges for firms with complex ownership structures, increasing compliance burdens for multinational corporations.",
+      "Sanctions targeting the automotive sector and rial-based transactions might have unintended spillover effects harming non-sanctioned economic actors in Iran as well as foreign businesses indirectly linked to sanctioned operations."
+    ],
+    "enriched_at": "2025-12-12T08:07:37.708Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

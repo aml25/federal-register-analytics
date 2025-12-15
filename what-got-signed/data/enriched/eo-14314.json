@@ -13,30 +13,29 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-07-09/pdf/2025-12775.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/07/09/2025-12775.txt",
   "enrichment": {
-    "summary": "This executive order aims to improve and preserve America's national parks by increasing entrance fees for foreign tourists while making access more affordable for U.S. residents. It directs federal officials to invest increased fee revenues into park infrastructure and services, promote international tourism, and review existing rules to reduce unnecessary restrictions on park recreation.",
+    "summary": "This executive order directs the Secretary of the Interior to raise entrance fees for foreign tourists at U.S. national parks while keeping them affordable for U.S. residents. It aims to use the additional revenue to improve park infrastructure and visitor experiences, encourage international tourism, and review rules to prioritize access for Americans. The order also revokes a previous memorandum focused on diversity and inclusion in national parks.",
     "theme_ids": [
-      "federal-property-management",
-      "trade-policy",
-      "foreign-policy",
-      "public-lands-management"
+      "public-lands-management",
+      "revocation-of-previous-executive-orders"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "national-park-visitors",
-        "domestic-tourists"
+        "u-s-citizens",
+        "birthright-citizens"
       ],
       "negative_ids": [
-        "foreign-tourists"
+        "visa-holders-work-student-tourist",
+        "foreign-nationals-general"
       ]
     },
     "potential_concerns": [
-      "Raising fees for foreign tourists could reduce international visitation and negatively impact local economies that depend on tourism.",
-      "Preferential treatment for U.S. residents may raise legal or diplomatic concerns about fairness and international reciprocity.",
-      "Review and potential rescinding of recreational access rules enacted during the prior administration may lead to disputes or uncertainty for park visitors and operators.",
-      "Increased entrance fees might create barriers for certain international visitors, affecting diversity and global engagement with national parks.",
-      "Implementation challenges include balancing fee increases against visitor experience and ensuring sufficient funding is allocated effectively to park improvements."
+      "Increasing entrance fees for foreign tourists may reduce international visitation and tourism revenue, negatively impacting visa-holders and foreign nationals seeking recreational opportunities in U.S. national parks.",
+      "Prioritizing access and affordability for U.S. citizens could be perceived as discriminatory and may strain diplomatic relations with countries whose citizens face higher fees or restricted access.",
+      "The revocation of diversity and inclusion initiatives risks undermining efforts to make national parks welcoming and accessible to racial/ethnic minorities and other underrepresented groups among U.S. citizens.",
+      "Higher fees for nonresidents might shift visitation patterns, causing overcrowding by U.S. citizens while limiting revenue diversity, which could complicate sustainable park management.",
+      "Efforts to rescind recreational access restrictions implemented by the prior administration might lead to environmental degradation or safety concerns if prior protective regulations are removed."
     ],
-    "enriched_at": "2025-12-09T02:46:02.209Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T07:37:17.089Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

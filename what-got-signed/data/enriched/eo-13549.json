@@ -1,0 +1,45 @@
+{
+  "document_number": "2010-21016",
+  "executive_order_number": "13549",
+  "title": "Classified National Security Information Program for State, Local, Tribal, and Private Sector Entities",
+  "abstract": null,
+  "signing_date": "2010-08-18",
+  "publication_date": "2010-08-23",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2010/08/23/2010-21016/classified-national-security-information-program-for-state-local-tribal-and-private-sector-entities",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2010-08-23/pdf/2010-21016.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2010/08/23/2010-21016.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a program to securely share classified national security information with state, local, tribal, and private sector entities. It sets standards for granting access, safeguarding information, overseeing facilities, and coordinating security clearances to ensure proper protection while facilitating information sharing among these entities.",
+    "theme_ids": [
+      "national-security-information-classification",
+      "security-clearances-background-investigations",
+      "homeland-security",
+      "intelligence-sharing",
+      "critical-infrastructure-protection"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "state-governments",
+        "local-governments",
+        "tribal-governments",
+        "law-enforcement-officers-state-local",
+        "defense-industry-workers",
+        "security-clearance-holders"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The requirement for private sector entities involved in critical infrastructure protection to comply with stringent security clearance and facility accreditation standards could impose significant operational and financial burdens on defense-industry-workers and corporations, potentially slowing down information sharing.",
+      "Law enforcement officers at the state and local levels might face delays or barriers in obtaining necessary security clearances, limiting timely access to classified national security information crucial for homeland-security and intelligence-sharing efforts.",
+      "The limitation on physical custody of classified information primarily to Secret level, with Top Secret access granted only case-by-case, may restrict the effectiveness of state, local, and tribal governments in fully participating in national security programs.",
+      "Reciprocal acceptance of clearances across agencies and entities might create challenges in standardizing background checks, risking inconsistent security evaluations for security-clearance-holders among different jurisdictions.",
+      "The non-delegable authority granted to Governors for access without background investigations raises concerns about potential uneven access controls and accountability at the state government level."
+    ],
+    "enriched_at": "2025-12-15T02:07:09.347Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

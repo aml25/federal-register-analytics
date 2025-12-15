@@ -1,0 +1,42 @@
+{
+  "document_number": "2021-00040",
+  "executive_order_number": "13970",
+  "title": "Adjustments of Certain Rates of Pay",
+  "abstract": null,
+  "signing_date": "2020-12-31",
+  "publication_date": "2021-01-06",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/01/06/2021-00040/adjustments-of-certain-rates-of-pay",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-06/pdf/2021-00040.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/01/06/2021-00040.txt",
+  "enrichment": {
+    "summary": "This executive order updates and establishes the pay rates for various federal employees, including those in statutory pay systems, the Senior Executive Service, judges, members of the uniformed services, and other federal positions. It sets effective dates for these pay adjustments and supersedes a previous executive order on the same matter.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "military-readiness-force-structure",
+      "veterans-healthcare"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants",
+        "military-personnel-active-duty",
+        "veterans",
+        "foreign-service-officers",
+        "political-appointees"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Adjustments to pay rates for military personnel may impact military readiness if the increases do not keep pace with inflation or private-sector compensation, potentially affecting recruitment and retention.",
+      "Federal employees, including those in veterans' healthcare, may face disparities if locality-based pay adjustments insufficiently reflect regional cost-of-living variations, leading to morale and retention challenges.",
+      "Judges and political appointees might experience controversies regarding pay raises during budget constraints, which could affect public perception of government spending priorities.",
+      "Implementation complexities in harmonizing pay across diverse statutory and executive schedules may cause administrative delays or inconsistencies that affect employee compensation timing.",
+      "Uniformity in pay adjustments might unintentionally overlook specific needs of specialized federal workforce groups, such as foreign service officers, potentially impacting their ability to recruit and maintain talent."
+    ],
+    "enriched_at": "2025-12-15T02:29:40.887Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_number": "2017-09156",
+  "executive_order_number": "13796",
+  "title": "Addressing Trade Agreement Violations and Abuses",
+  "abstract": null,
+  "signing_date": "2017-04-29",
+  "publication_date": "2017-05-04",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/05/04/2017-09156/addressing-trade-agreement-violations-and-abuses",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-05-04/pdf/2017-09156.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/05/04/2017-09156.txt",
+  "enrichment": {
+    "summary": "This executive order directs key government officials to review all trade and investment agreements the United States is part of to identify violations and abuses that harm American workers, manufacturers, and the economy. It requires reports on these findings within 180 days and mandates appropriate actions to address unfair trade practices and improve trade agreements for the benefit of the U.S. economy.",
+    "theme_ids": [
+      "trade-policy-agreements",
+      "manufacturing-policy",
+      "antidumping-trade-enforcement",
+      "agricultural-policy",
+      "world-trade-organization-wto"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "manufacturing-workers",
+        "agricultural-workers-farmers",
+        "union-members",
+        "small-business-owners"
+      ],
+      "negative_ids": [
+        "large-corporation-employees"
+      ]
+    },
+    "potential_concerns": [
+      "Efforts to address trade violations may benefit manufacturing-workers and agricultural-workers-farmers through improved trade terms, but could provoke retaliatory trade measures negatively impacting large-corporation-employees.",
+      "Union-members might gain stronger protections and job security from addressing unfair trade practices, yet deeply renegotiating or terminating agreements may disrupt supply chains, adversely impacting small-business-owners reliant on international trade.",
+      "Focus on trade enforcement and renegotiations under WTO rules risks escalating trade tensions, potentially leading to increased costs for consumers and workers in export-dependent sectors such as manufacturing and agriculture.",
+      "There is a concern that prioritizing trade deficit reduction may lead to protectionist policies that unintentionally suppress innovation and domestic research and development, which could harm long-term competitiveness affecting manufacturing-workers and agricultural-workers-farmers."
+    ],
+    "enriched_at": "2025-12-15T02:26:17.323Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

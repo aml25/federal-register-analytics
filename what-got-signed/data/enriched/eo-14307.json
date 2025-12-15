@@ -13,33 +13,38 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-06-11/pdf/2025-10814.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/06/11/2025-10814.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to accelerate the safe integration and commercialization of drones (unmanned aircraft systems) and electric vertical takeoff and landing (eVTOL) aircraft into the U.S. airspace. It prioritizes strengthening the domestic drone industry, promoting exports of American-made drones, supporting technological innovation including AI for regulatory processes, and ensuring military access to trusted U.S. drones.",
+    "summary": "This executive order directs the U.S. government to speed up the safe use and commercial development of drones, including advanced types like electric vertical takeoff and landing aircraft. It aims to strengthen the domestic drone industry, ensure secure supply chains, expand exports of American-made drones, and improve integration of drones into national airspace to support various sectors including public safety, transportation, and military needs.",
     "theme_ids": [
-      "technology-development",
+      "defense-industrial-base",
+      "buy-american-domestic-preference",
+      "export-import-policy",
+      "military-readiness-force-structure",
+      "air-traffic-aviation-system",
       "artificial-intelligence",
-      "trade-policy",
-      "national-security",
-      "regulatory-reform",
-      "federal-agency-management"
+      "interagency-coordination"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry",
-        "commercial-space-operators"
+        "defense-industry-workers",
+        "military-personnel-active-duty",
+        "entrepreneurs-startups",
+        "small-business-owners",
+        "technology-workers",
+        "transportation-workers",
+        "rural-communities"
       ],
       "negative_ids": [
-        "foreign-manufacturers",
-        "foreign-suppliers"
+        "foreign-nationals-general"
       ]
     },
     "potential_concerns": [
-      "Rapid expansion and deregulation may compromise safety and security in drone operations before proper safeguards are fully established.",
-      "Prioritizing U.S.-made drones and restricting foreign entities could provoke trade tensions or limit innovation sourced internationally.",
-      "Deployment of AI tools in waiver reviews could introduce biases or reduce transparency in regulatory decisions.",
-      "Streamlining export controls might increase the risk of sensitive drone technologies being diverted to adversaries despite safeguards.",
-      "Military prioritization of domestic drones may cause procurement challenges if commercial technology does not meet all defense requirements timely."
+      "The buy-american domestic preference policy may limit opportunities for foreign manufacturers, potentially straining international trade relations impacting foreign-nationals-general and U.S. export partners.",
+      "Accelerated integration and expanded use of AI tools in waiver processes could raise concerns about transparency, bias, and fairness for entrepreneurs-startups and technology-workers relying on FAA approvals.",
+      "Military personnel might face operational challenges if regulations and airspace access are not sufficiently streamlined in coordination with the FAA, affecting training and deployment of drone technologies.",
+      "Rural communities could be underserved or face delays in benefit realization if infrastructure or pilot programs prioritize urban and economically viable areas over more remote regions.",
+      "Small business owners and startups in the drone industry might encounter increased regulatory burdens or competition favoring established defense contractors and large corporations supported by export and financing incentives."
     ],
-    "enriched_at": "2025-12-09T02:45:42.500Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T07:38:05.643Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

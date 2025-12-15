@@ -13,32 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-12/pdf/2025-15344.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/12/2025-15344.txt",
   "enrichment": {
-    "summary": "This order directs federal agencies to strengthen oversight and coordination of discretionary federal grants to ensure they align with agency priorities and the national interest, avoid wasteful or controversial funding, and improve accountability. It requires agency leaders to designate senior officials to review grant opportunities and awards, limit funding for administrative costs, and include clear benchmarks for success, while also revising grant terms to allow termination if priorities are not met.",
+    "summary": "This executive order directs federal agencies to strengthen oversight and improve accountability in the awarding of discretionary federal grants. It requires agencies to establish review processes to ensure grants align with agency priorities and national interests, prohibits funding certain initiatives, and calls for streamlined grant application rules and clearer conditions for terminating grants when they no longer serve the intended purpose.",
     "theme_ids": [
-      "federal-research-coordination",
-      "scientific-research",
-      "federal-agency-management",
-      "national-security",
-      "foreign-policy"
+      "government-efficiency",
+      "interagency-coordination",
+      "federal-spending",
+      "civil-rights-enforcement",
+      "border-security"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "scientific-researchers",
-        "academic-institutions"
+        "nonprofit-organizations",
+        "educational-institutions",
+        "scientific-researchers"
       ],
       "negative_ids": [
-        "competing-research-areas",
-        "non-hbcu-academic-institutions"
+        "undocumented-immigrants",
+        "lgbtq-individuals",
+        "transgender-individuals"
       ]
     },
     "potential_concerns": [
-      "The order’s ideological criteria for grant approval may politicize scientific research and limit academic freedom or support for diversity initiatives.",
-      "Strict oversight and termination clauses could disrupt ongoing important research projects if interpretations of agency priorities shift.",
-      "Smaller or less established research institutions might be disadvantaged due to preferences for institutions with lower indirect costs or proven administration of 'Gold Standard Science.'",
-      "The requirement for senior appointees to independently override expert peer review may undermine merit-based grant evaluations and reduce scientific rigor.",
-      "Implementation complexity across multiple agencies could delay grant funding and create administrative burdens without clear measures for efficiency gains."
+      "The order's prohibition on funding initiatives related to LGBTQ+ and transgender individuals risks reducing support and resources for these populations through grants to nonprofits and educational institutions.",
+      "Restrictions targeting undocumented immigrants may lead to decreased funding for organizations providing critical services, potentially exacerbating challenges faced by undocumented immigrant communities and border communities.",
+      "The requirement to prioritize grants that advance the President's policy priorities and exclude certain ideologies may limit academic freedom and scientific inquiry among researchers and educational institutions.",
+      "Streamlining application processes and increasing termination authority might disproportionately impact smaller or less-established nonprofit organizations and educational institutions that lack legal or technical grant-writing expertise.",
+      "Interagency coordination mechanisms could inadvertently increase bureaucratic delays or politicize grant approvals, undermining efficient federal spending and affecting timely support for scientific researchers."
     ],
-    "enriched_at": "2025-12-09T02:47:08.555Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:41:29.010Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

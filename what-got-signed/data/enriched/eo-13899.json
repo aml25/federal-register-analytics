@@ -1,0 +1,40 @@
+{
+  "document_number": "2019-27217",
+  "executive_order_number": "13899",
+  "title": "Combating Anti-Semitism",
+  "abstract": null,
+  "signing_date": "2019-12-11",
+  "publication_date": "2019-12-16",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/12/16/2019-27217/combating-anti-semitism",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-12-16/pdf/2019-27217.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/12/16/2019-27217.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to actively combat anti-Semitism by enforcing existing civil rights laws that prohibit discrimination based on race, color, or national origin when such discrimination targets Jewish individuals. It instructs agencies to consider the International Holocaust Remembrance Alliance's definition of anti-Semitism when investigating complaints and to identify additional authorities to address anti-Semitic discrimination.",
+    "theme_ids": [
+      "anti-semitism",
+      "civil-rights-enforcement",
+      "higher-education"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "jews-jewish-americans",
+        "college-university-students",
+        "k-12-students",
+        "religious-organizations"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The use of the IHRA definition of anti-Semitism may lead to controversial interpretations that impact free speech rights of college-university-students and k-12-students, especially in matters involving criticism of Israel, potentially raising First Amendment concerns.",
+      "Federal enforcement against anti-Semitism could result in perceived or actual disparities affecting religious-organizations and Jewish Americans, possibly triggering claims of unequal treatment or backlash from other religious or ethnic communities.",
+      "Increased investigations and enforcement under Title VI may create administrative burdens or heightened scrutiny for educational institutions, which could lead to inconsistent application or chilling effects on campus activism.",
+      "The order’s focus on race, color, and national origin as grounds for combating anti-Semitism might limit protections for incidents motivated purely by religious bias, leaving gaps in addressing all forms of anti-Jewish discrimination faced by Jewish Americans."
+    ],
+    "enriched_at": "2025-12-12T08:14:33.082Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

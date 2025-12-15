@@ -13,26 +13,33 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-28/pdf/2025-16615.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/28/2025-16615.txt",
   "enrichment": {
-    "summary": "This executive order directs federal authorities to end the cashless bail system in the District of Columbia and to hold dangerous criminal suspects in custody before trial to protect public safety. It also requires the Attorney General to review and push for changes in local policies that allow suspects to be released without bail, particularly for violent and serious offenses. Federal agencies may use available means, including funding decisions, to encourage the District government to modify these policies.",
+    "summary": "This executive order directs federal law enforcement and agencies to end the practice of releasing criminal suspects in Washington, D.C. without cash bail, especially those considered dangerous. It aims to hold such suspects in custody before trial to improve public safety in response to a declared crime emergency in the District of Columbia.",
     "theme_ids": [
-      "public-safety"
+      "federal-law-enforcement",
+      "crime-reduction",
+      "criminal-justice-reform",
+      "state-local-law-enforcement-support",
+      "presidential-commissions-task-forces"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "pretrial-defendants"
+        "crime-victims",
+        "law-enforcement-officers-federal"
       ],
       "negative_ids": [
-        "communities-affected-by-police-aggression"
+        "defendants-accused-persons",
+        "formerly-incarcerated-returning-citizens",
+        "low-income-individuals-families"
       ]
     },
     "potential_concerns": [
-      "The order may lead to increased pretrial detention, disproportionately impacting economically disadvantaged individuals who cannot afford bail.",
-      "There may be legal challenges regarding federal intervention in District of Columbia local criminal justice policies.",
-      "Pushing federal funding leverage could strain federal-local government relations and complicate cooperation on public safety.",
-      "The lack of an explicit focus on due process rights could raise civil liberties concerns.",
-      "Implementation may overwhelm federal detention facilities and courts handling additional pretrial detainees."
+      "The order may lead to increased pretrial detention for low-income individuals and defendants accused of crimes, exacerbating existing inequalities in the criminal justice system despite criminal-justice-reform concerns.",
+      "Expanded federal law enforcement custody and prosecution could strain relations with the District of Columbia local government and complicate state-local-law-enforcement-support efforts.",
+      "Increased pretrial detention risks harsher conditions and barriers to reentry for formerly-incarcerated returning citizens, potentially increasing recidivism.",
+      "While aiming to enhance public safety for crime victims and federal employees, the order risks undermining constitutional protections for accused persons by limiting bail options.",
+      "Implementation pressures on the Metropolitan Police Department policies might result in operational confusion or enforcement disparities impacting defendants disproportionately."
     ],
-    "enriched_at": "2025-12-09T02:47:28.573Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:02:13.015Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

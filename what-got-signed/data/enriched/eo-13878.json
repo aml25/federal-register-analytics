@@ -1,0 +1,44 @@
+{
+  "document_number": "2019-14016",
+  "executive_order_number": "13878",
+  "title": "Establishing a White House Council on Eliminating Regulatory Barriers to Affordable Housing",
+  "abstract": null,
+  "signing_date": "2019-06-25",
+  "publication_date": "2019-06-28",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/06/28/2019-14016/establishing-a-white-house-council-on-eliminating-regulatory-barriers-to-affordable-housing",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-06-28/pdf/2019-14016.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/06/28/2019-14016.txt",
+  "enrichment": {
+    "summary": "This executive order creates a White House Council to identify and reduce regulatory barriers at the federal, state, local, and tribal levels that increase housing costs and limit the supply of affordable housing. The goal is to lower housing costs, support economic growth, and improve access to affordable homes for more Americans by streamlining regulations and encouraging collaboration among government and private sector leaders.",
+    "theme_ids": [
+      "housing-policy-affordable-housing",
+      "regulatory-reform-deregulation",
+      "interagency-coordination",
+      "economic-competitiveness"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "low-income-individuals-families",
+        "middle-class-americans",
+        "renters-homeowners",
+        "urban-communities"
+      ],
+      "negative_ids": [
+        "small-business-owners",
+        "construction-workers"
+      ]
+    },
+    "potential_concerns": [
+      "Efforts to reduce regulatory barriers may unintentionally weaken important safety, environmental, or community protections, potentially impacting urban communities and renters.",
+      "Streamlining regulations could increase workloads and cost pressures on construction workers and small business owners, possibly leading to reduced wages or job insecurity.",
+      "The focus on deregulation might disproportionately benefit middle- and high-income homeowners while insufficiently addressing the deep affordability challenges faced by low-income families.",
+      "Coordination challenges across multiple federal agencies and levels of government may delay effective implementation, leaving vulnerable populations like low-income individuals waiting longer for affordable housing improvements."
+    ],
+    "enriched_at": "2025-12-15T02:29:28.778Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -13,29 +13,33 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-02-26/pdf/2024-04012.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/02/26/2024-04012.txt",
   "enrichment": {
-    "summary": "This executive order updates Coast Guard regulations to enhance security measures for U.S. vessels, ports, harbors, and waterfront facilities by including protections against cyber threats and authorizing more comprehensive enforcement actions. It expands Coast Guard authority to control access, inspect, and take possession of vessels or waterfront areas to prevent damage from physical or cyber incidents, and requires coordination with the Department of Justice and other agencies in enforcement.",
+    "summary": "This executive order updates regulations to enhance the security and protection of U.S. vessels, harbors, ports, and waterfront facilities by including cybersecurity measures against malicious cyber activities. It gives Coast Guard officials expanded authority to prevent access, search, control vessels and waterfront areas, and require reporting of cyber incidents alongside physical security threats.",
     "theme_ids": [
-      "national-security",
-      "maritime-security",
-      "privacy-and-data-security"
+      "homeland-security",
+      "cybersecurity-national-security",
+      "critical-infrastructure-protection",
+      "port-maritime-security",
+      "harbor-waterfront-security"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "coast-guard-personnel",
-        "maritime-industry-workers"
+        "maritime-port-workers",
+        "merchant-marine-workers",
+        "cybersecurity-professionals"
       ],
       "negative_ids": [
-        "foreign-seafood-exporters"
+        "maritime-port-workers",
+        "merchant-marine-workers"
       ]
     },
     "potential_concerns": [
-      "Expanded Coast Guard authority may lead to increased operational disruptions and delays for maritime transportation users due to stricter boarding and access controls.",
-      "Including data and digital infrastructure in security regulations could complicate enforcement and raise concerns about privacy and appropriate scope of Coast Guard actions.",
-      "The order’s broad definitions and preventative measures may increase regulatory burdens on vessel operators and waterfront facility managers.",
-      "Coordination with multiple agencies may create implementation challenges or jurisdictional conflicts.",
-      "Ambiguities about the threshold for action against cyber incidents could lead to inconsistent enforcement."
+      "Expanded Coast Guard authority to control and search vessels and waterfront facilities may disrupt port operations, negatively impacting maritime-port-workers and merchant-marine-workers through increased inspections and access restrictions.",
+      "Requiring immediate reporting of cyber incidents could place additional compliance and monitoring burdens on cybersecurity-professionals and maritime industry operators managing digital infrastructures.",
+      "Measures to prevent cyber incidents might inadvertently lead to overreach or excessive controlling of data and network access for maritime-port-workers, potentially limiting their operational efficiency.",
+      "Increased security zones and restrictions might create delays or economic burdens for businesses and workers reliant on timely port access, disproportionately affecting lower-wage maritime workers.",
+      "The broad authority to control and search digital infrastructure on vessels and waterfronts raises potential privacy and civil liberties concerns for maritime workers who rely on connected systems for their work."
     ],
-    "enriched_at": "2025-12-09T01:35:29.403Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T07:36:32.665Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

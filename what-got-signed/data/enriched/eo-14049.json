@@ -13,33 +13,33 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-10-14/pdf/2021-22588.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/10/14/2021-22588.txt",
   "enrichment": {
-    "summary": "This executive order creates a White House Initiative to improve educational equity, quality, and economic opportunities for Native American students, with a special emphasis on supporting Tribal Colleges and Universities (TCUs). It establishes leadership roles, promotes collaboration across federal agencies and Tribal Nations, and sets goals to address educational disparities, preserve Native languages, and strengthen Tribal educational institutions.",
+    "summary": "This executive order establishes a White House Initiative to improve educational equity, excellence, and economic opportunities for Native American students, including support for Tribal Colleges and Universities. It directs federal agencies to work together with Tribal Nations to address educational challenges, preserve Native languages and cultures, and enhance career and economic prospects for Native Americans. The order also creates a National Advisory Council to guide these efforts and requires regular reporting on progress.",
     "theme_ids": [
-      "education-policy",
-      "tribal-policy",
-      "equity-and-inclusion-policy",
-      "workforce-development",
-      "data-governance",
-      "advisory-committees-management",
-      "economic-development"
+      "tribal-colleges-native-american-education",
+      "educational-excellence-initiatives-by-demographic",
+      "racial-equity",
+      "gender-equality",
+      "interagency-coordination"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "native-american-students",
-        "tribal-nations"
+        "native-americans-indigenous-peoples",
+        "alaska-natives",
+        "tribal-communities-reservations",
+        "tribal-college-students-communities",
+        "k-12-students",
+        "women"
       ],
-      "negative_ids": [
-        "non-tribal-federal-funding-recipients"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Effective interagency coordination may be difficult given the number of agencies involved and diverse stakeholders.",
-      "Ensuring sustained and adequate funding for the Initiative beyond paper plans could be challenging.",
-      "Data collection efforts might raise concerns over data privacy and accuracy when working with Native communities.",
-      "Tribal Nations and educational institutions might worry about federal overreach or insufficient respect for Tribal sovereignty.",
-      "The focus on recovery from COVID-19 impacts could understate longer-term structural issues in Native education."
+      "The emphasis on interagency coordination may create bureaucratic complexity that delays direct resource delivery to Tribal Colleges and Native American students, limiting the immediate impact of educational equity efforts.",
+      "Efforts to address educational disparities and promote Native language preservation could face challenges due to insufficient funding or lack of culturally competent educators, which would disproportionately affect Native American children and K-12 students.",
+      "The focus on Native American women addresses gender disparities but may require additional safeguards to ensure that interventions do not inadvertently exclude or overlook other vulnerable groups within Tribal communities.",
+      "Data collection improvements aimed at understanding educational attainment gaps might raise concerns regarding data privacy and sovereignty among Tribal Nations if not managed transparently and respectfully.",
+      "The goal to expand career and technical education programs may conflict with some Tribal Nations' priorities if these programs are perceived as insufficiently aligned with cultural values or economic development goals."
     ],
-    "enriched_at": "2025-12-09T03:52:02.335Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T02:31:28.503Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

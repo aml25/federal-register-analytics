@@ -1,0 +1,46 @@
+{
+  "document_number": "2013-15942",
+  "executive_order_number": "13647",
+  "title": "Establishing the White House Council on Native American Affairs",
+  "abstract": null,
+  "signing_date": "2013-06-26",
+  "publication_date": "2013-07-01",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2013/07/01/2013-15942/establishing-the-white-house-council-on-native-american-affairs",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2013-07-01/pdf/2013-15942.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2013/07/01/2013-15942.txt",
+  "enrichment": {
+    "summary": "This executive order creates the White House Council on Native American Affairs to improve coordination and communication among federal agencies in supporting Native American tribes. The Council aims to promote tribal self-governance, economic development, healthcare, education, and protection of tribal lands and cultures through a coordinated federal approach.",
+    "theme_ids": [
+      "tribal-colleges-native-american-education",
+      "government-reorganization",
+      "workforce-development",
+      "housing-policy-affordable-housing",
+      "food-security-nutrition"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "native-americans-indigenous-peoples",
+        "alaska-natives",
+        "tribal-communities-reservations",
+        "tribal-governments",
+        "tribal-college-students-communities",
+        "low-income-individuals-families",
+        "food-insecure-populations"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The coordination of federal agencies under the Council may lead to bureaucratic delays or inconsistent implementation, potentially limiting timely benefits for tribal communities, especially those in rural tribal-communities-reservations.",
+      "Promoting tribal self-governance and economic development could create tensions between tribal-governments and state/local governments over jurisdiction and resource control.",
+      "Efforts to improve tribal education and support tribal-college-students-communities might face funding constraints, limiting access and quality improvements for low-income-individuals-families within Native American populations.",
+      "Food security initiatives aimed at food-insecure-populations may inadvertently overlook remote tribal areas due to logistical challenges, hindering effective delivery of nutritional support.",
+      "Historic health disparities addressed by increased federal coordination might be insufficiently tailored to varied healthcare needs of alaska-natives and native-americans-indigenous-peoples, risking unequal healthcare outcomes."
+    ],
+    "enriched_at": "2025-12-12T08:07:19.272Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

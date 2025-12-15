@@ -13,30 +13,28 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-07/pdf/2025-08133.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/07/2025-08133.txt",
   "enrichment": {
-    "summary": "This executive order directs the Corporation for Public Broadcasting and federal agencies to stop providing taxpayer funding to National Public Radio (NPR) and the Public Broadcasting Service (PBS) because they are deemed biased and partisan. It emphasizes that government funding should only support fair, accurate, and unbiased news coverage, and enforces measures to prevent both direct and indirect federal funding of these media organizations.",
+    "summary": "This executive order directs the government to stop providing federal funding to National Public Radio (NPR) and the Public Broadcasting Service (PBS) because they are considered biased and not impartial. It instructs the Corporation for Public Broadcasting and all federal agencies to end both direct and indirect financial support to these media organizations by specified deadlines.",
     "theme_ids": [
-      "federal-agency-management",
-      "regulatory-reform",
-      "media-policy"
+      "government-spending-earmarks",
+      "free-speech",
+      "anti-discrimination"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "private-sector-rivals"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "public-broadcasting-organizations",
-        "public-broadcasting-employees",
-        "public-broadcasting-audiences"
+        "journalists-media-professionals",
+        "nonprofit-organizations",
+        "working-age-adults",
+        "urban-communities"
       ]
     },
     "potential_concerns": [
-      "Eliminating federal funding may significantly reduce the availability and quality of public broadcasting, impacting audiences nationwide.",
-      "The order’s determination of bias in NPR and PBS could be seen as politically motivated, raising concerns about government interference in independent journalism.",
-      "Implementation may be legally challenged on grounds of free speech or statutory interpretation of CPB's mandate.",
-      "Cutting funding without clear alternatives risks undermining the media diversity and public access to noncommercial news sources.",
-      "Indirect funding prohibition may be difficult to monitor and enforce, causing compliance challenges for grant recipients and licensees."
+      "The order may undermine the financial viability of NPR and PBS, leading to job losses and economic harm to journalists-media-professionals dependent on these organizations.",
+      "By cutting funding to public broadcasters, the order risks reducing access to non-commercial, educational, and local programming in urban-communities and nationwide, disproportionately impacting working-age adults who rely on these services for unbiased information.",
+      "The policy's implementation could curtail free speech protections by effectively penalizing media outlets for perceived bias, raising concerns about government overreach and politicization of federal funding decisions.",
+      "Elimination of taxpayer subsidies may diminish the role of nonprofit-organizations in providing diverse viewpoints, thereby increasing media consolidation and reducing media pluralism."
     ],
-    "enriched_at": "2025-12-09T02:44:52.035Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:17:25.824Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

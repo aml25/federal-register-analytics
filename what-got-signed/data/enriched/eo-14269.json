@@ -13,35 +13,35 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06465.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/15/2025-06465.txt",
   "enrichment": {
-    "summary": "This executive order aims to rebuild and strengthen the United States' commercial shipbuilding industry and maritime workforce to enhance national security and global competitiveness. It directs various federal agencies to develop a comprehensive Maritime Action Plan focused on funding, workforce training, trade enforcement, regulatory reform, and investment in maritime infrastructure and technology.",
+    "summary": "This executive order directs federal agencies to rebuild and strengthen the U.S. commercial shipbuilding industry and maritime workforce to enhance national security and economic competitiveness. It includes plans to increase federal funding, improve regulations, support workforce training, enforce trade policies targeting unfair practices by the People’s Republic of China, and engage allies in coordinated maritime efforts.",
     "theme_ids": [
-      "national-security",
-      "trade-policy",
-      "federal-workforce",
-      "regulatory-reform",
-      "supply-chain-security",
-      "federal-procurement-policy",
-      "education-policy",
-      "foreign-policy"
+      "military-readiness-force-structure",
+      "defense-industrial-base",
+      "buy-american-domestic-preference",
+      "trade-policy-agreements",
+      "workforce-development"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "maritime-industry-workers",
-        "manufacturing-workers"
+        "merchant-marine-workers",
+        "maritime-port-workers",
+        "manufacturing-workers",
+        "union-members",
+        "working-age-adults",
+        "large-corporation-employees"
       ],
       "negative_ids": [
-        "foreign-manufacturers",
-        "china"
+        "consumers"
       ]
     },
     "potential_concerns": [
-      "Increased tariffs and trade restrictions on Chinese maritime products could escalate trade tensions and provoke retaliation.",
-      "The ambitious timeline and broad interagency coordination requirements may lead to challenges in implementation and delays.",
-      "Efforts to prioritize U.S.-flagged and built vessels could raise costs for commercial shippers, potentially reducing competitiveness and increasing shipping prices.",
-      "Expansion of incentives and subsidies might disadvantage smaller or non-participating shipbuilders, consolidating market power among larger actors.",
-      "Deregulatory initiatives could reduce environmental and safety standards, leading to potential negative impacts on maritime workers and ecosystems."
+      "The Buy American requirements and increased tariffs on PRC-origin components may raise costs for maritime industry suppliers and ultimately consumers, leading to higher prices for imported goods.",
+      "Expanded shipbuilding and workforce development efforts might face challenges in quickly scaling training and credentialing maritime workers, potentially creating labor shortages or skills mismatches impacting working-age adults and union members.",
+      "Increased federal investment focusing on large shipyards and corporations could marginalize small businesses and independent workers within the maritime supply chain, despite intentions to boost the industrial base.",
+      "Trade restrictions targeting China may lead to retaliatory measures harming U.S. export-dependent industries and maritime international trade competitiveness.",
+      "The order's emphasis on maritime and defense industrial base expansion risks uneven regional economic impacts, potentially benefiting coastal and maritime communities more than inland or rural areas."
     ],
-    "enriched_at": "2025-12-09T02:43:48.661Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:20:12.931Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

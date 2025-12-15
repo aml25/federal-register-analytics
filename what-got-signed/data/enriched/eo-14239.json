@@ -13,31 +13,33 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-21/pdf/2025-04973.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/21/2025-04973.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to empower state, local, and individual efforts to improve preparedness and resilience of U.S. infrastructure against risks like cyberattacks, natural disasters, and other hazards. It requires the development and regular updating of national strategies and policies to better coordinate investments, streamline federal operations, and enhance communication between different levels of government to protect communities and reduce taxpayer costs.",
+    "summary": "This executive order directs federal agencies to empower state, local, and individual preparedness in protecting infrastructure and communities from risks such as cyber attacks, natural disasters, and other threats. It mandates the development and regular updating of a National Resilience Strategy, a National Risk Register, and revisions to existing preparedness and continuity policies to improve efficiency and resilience across the country.",
     "theme_ids": [
-      "national-security",
-      "regulatory-reform",
-      "supply-chain-security",
-      "federal-agency-management",
-      "disaster-preparedness"
+      "homeland-security",
+      "critical-infrastructure-protection",
+      "fema-emergency-management",
+      "disaster-response",
+      "citizen-preparedness"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "state-and-local-governments",
-        "citizens-in-affected-communities"
+        "state-governments",
+        "local-governments",
+        "disaster-affected-communities",
+        "citizens-of-specific-countries-by-eo-designation"
       ],
       "negative_ids": [
-        "federal-agencies-with-increased-administrative-burden"
+        "low-income-individuals-families",
+        "rural-communities"
       ]
     },
     "potential_concerns": [
-      "The shift from an all-hazards approach to a risk-informed approach could overlook less likely but still critical threats.",
-      "Coordination challenges between federal, state, and local entities may delay effective implementation or create gaps in preparedness.",
-      "The focus on empowering state and local governments may lead to uneven preparedness capabilities across regions due to varying resources and expertise.",
-      "Streamlining preparedness policies risks oversimplifying complex threats or reducing safeguards previously embedded in older policies.",
-      "The absence of policies addressing misinformation and cognitive infrastructure in this order may create regulatory gaps in handling information threats."
+      "Increased emphasis on state and local preparedness may disproportionately burden low-income individuals and families who lack resources to effectively prepare for disasters, especially in rural communities with limited infrastructure support.",
+      "Rural and disaster-affected communities might face delays or gaps in federal assistance due to the shift toward state and local autonomy, potentially exacerbating vulnerabilities during large-scale emergencies.",
+      "State and local governments may struggle with the technical and financial demands of implementing updated resilience strategies and risk registers, risking incomplete or uneven protection across regions.",
+      "Citizens might experience confusion or inconsistency in preparedness policies as the federal government moves from an all-hazards approach to a risk-informed, localized management style, leading to potential gaps in national coordination."
     ],
-    "enriched_at": "2025-12-09T02:42:18.829Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:24:15.838Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

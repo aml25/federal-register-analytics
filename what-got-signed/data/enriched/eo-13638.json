@@ -1,0 +1,44 @@
+{
+  "document_number": "2013-06712",
+  "executive_order_number": "13638",
+  "title": "Amendments to Executive Order 12777",
+  "abstract": null,
+  "signing_date": "2013-03-15",
+  "publication_date": "2013-03-21",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2013/03/21/2013-06712/amendments-to-executive-order-12777",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2013-03-21/pdf/2013-06712.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2013/03/21/2013-06712.txt",
+  "enrichment": {
+    "summary": "This executive order delegates the President's authority to adjust liability limits related to oil pollution to various Cabinet officials, including the Secretary of the department operating the Coast Guard, the Administrator (EPA), and the Secretaries of Transportation and the Interior. These officials are tasked with adjusting liability limits to account for inflation using the Consumer Price Index and reporting to Congress on these adjustments. The order clarifies the roles and consultations required among agencies for implementing these changes under the Oil Pollution Act.",
+    "theme_ids": [
+      "environmental-regulation",
+      "interagency-coordination",
+      "delegation-of-authority"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "energy-sector-workers-oil-gas-coal",
+        "coastal-communities",
+        "maritime-port-workers",
+        "corporations-businesses"
+      ],
+      "negative_ids": [
+        "energy-sector-workers-oil-gas-coal",
+        "coastal-communities",
+        "maritime-port-workers"
+      ]
+    },
+    "potential_concerns": [
+      "Delegating liability limit adjustments to multiple Cabinet officials may create inconsistent application affecting energy-sector-workers-oil-gas-coal and maritime-port-workers due to regulatory uncertainty (theme: delegation-of-authority, interagency-coordination).",
+      "Adjusting liability limits tied to the Consumer Price Index without adequate oversight might reduce accountability for corporations-businesses in the oil industry, potentially increasing environmental risks for coastal-communities (theme: environmental-regulation).",
+      "The complexity of interagency consultations could delay timely liability limit adjustments, imposing financial and operational burdens on energy-sector-workers-oil-gas-coal and maritime-port-workers (theme: interagency-coordination).",
+      "Relying on inflation adjustments might inadvertently allow higher pollution-related damages without commensurate increases in preventive measures, negatively impacting the health and safety of coastal-communities (theme: environmental-regulation)."
+    ],
+    "enriched_at": "2025-12-15T02:12:08.035Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

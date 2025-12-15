@@ -1,0 +1,44 @@
+{
+  "document_number": "2012-22062",
+  "executive_order_number": "13625",
+  "title": "Improving Access to Mental Health Services for Veterans, Service Members, and Military Families",
+  "abstract": null,
+  "signing_date": "2012-08-31",
+  "publication_date": "2012-09-05",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2012/09/05/2012-22062/improving-access-to-mental-health-services-for-veterans-service-members-and-military-families",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2012-09-05/pdf/2012-22062.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2012/09/05/2012-22062.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to improve mental health services and suicide prevention efforts for veterans, service members, and their families. It establishes programs to increase staffing, expand community partnerships, enhance research on conditions like PTSD and TBI, and coordinates efforts across agencies through an interagency task force.",
+    "theme_ids": [
+      "mental-health",
+      "veterans-healthcare",
+      "homeland-security",
+      "presidential-commissions-task-forces"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "veterans",
+        "military-personnel-active-duty",
+        "military-personnel-reserves-guard",
+        "military-spouses",
+        "individuals-with-mental-health-conditions",
+        "rural-communities"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Expanding mental health services through community partnerships may face challenges in rural communities where provider shortages are severe, potentially limiting timely access for veterans and their families.",
+      "Efforts to increase staffing and expand services could be hindered by bureaucratic delays or insufficient funding, affecting the promised improvements for veterans and active service members.",
+      "The required coordination between Departments of Defense and Veterans Affairs during transition to civilian life may encounter data-sharing and privacy hurdles, potentially delaying continuity of care for transitioning service members.",
+      "Increased outreach and suicide prevention campaigns might unintentionally stigmatize military personnel or veterans who do not seek care, possibly affecting their career progression or social support.",
+      "The focus on recruiting peer counselors and mental health professionals may overlook the needs of military spouses and family members outside the veteran population, risking uneven benefit distribution within military families."
+    ],
+    "enriched_at": "2025-12-15T02:11:00.977Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

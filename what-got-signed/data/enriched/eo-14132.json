@@ -13,27 +13,27 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-12-30/pdf/2024-31466.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/12/30/2024-31466.txt",
   "enrichment": {
-    "summary": "This executive order updates and adjusts the pay rates and salary schedules for various federal employees, including members of statutory pay systems, the Senior Executive Service, congressional offices, judges, and uniformed services. It establishes new pay schedules effective starting January 2025 and supersedes the previous order on pay adjustments.",
+    "summary": "This executive order sets new pay rates for various federal employees, including those covered by statutory pay systems, senior executives, judges, members of Congress, uniformed service members, and administrative law judges. It updates these rates effective early 2025 and replaces a prior order from 2023.",
     "theme_ids": [
-      "federal-workforce"
+      "federal-workforce-management",
+      "veterans-healthcare",
+      "military-readiness-force-structure"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "military-veterans"
+        "federal-employees-civil-servants",
+        "veterans",
+        "military-personnel-active-duty"
       ],
-      "negative_ids": [
-        "federal-budget-stakeholders"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Increased federal payroll costs may strain budgets at agencies and limit funding available for other programs.",
-      "Delays or complexity in implementing new pay schedules could cause administrative challenges and employee dissatisfaction.",
-      "Uniform pay adjustments may not fully reflect regional cost-of-living variations or individual merit, potentially affecting employee morale.",
-      "The order may prioritize pay raises without clear linkages to performance or recruitment needs, risking inefficiencies.",
-      "Superseding the prior pay adjustment order might create confusion or legal challenges if not well coordinated."
+      "Adjustments in pay rates for federal employees and military personnel could lead to budgetary constraints impacting other federal workforce programs, potentially affecting veterans' healthcare services.",
+      "Increased pay for uniformed services personnel may raise expectations for enhanced military readiness, but could also generate disparities with other service members not covered by this EO.",
+      "The revised locality-based comparability payments might not fully address cost-of-living differences across regions, adversely affecting federal employees in high-cost urban and rural areas.",
+      "Updating senior executive and judicial salaries might result in internal pay equity concerns among lower-tier federal employees, which could affect morale and retention."
     ],
-    "enriched_at": "2025-12-09T01:36:29.455Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:39:40.955Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

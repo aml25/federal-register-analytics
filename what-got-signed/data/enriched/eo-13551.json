@@ -1,0 +1,44 @@
+{
+  "document_number": "2010-22002",
+  "executive_order_number": "13551",
+  "title": "Blocking Property of Certain Persons With Respect to North Korea",
+  "abstract": null,
+  "signing_date": "2010-08-30",
+  "publication_date": "2010-09-01",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2010/09/01/2010-22002/blocking-property-of-certain-persons-with-respect-to-north-korea",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2010-09-01/pdf/2010-22002.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2010/09/01/2010-22002.txt",
+  "enrichment": {
+    "summary": "This executive order blocks the property and financial transactions of individuals and entities involved with North Korea's military activities, illicit economic actions, and violations of United Nations sanctions. It aims to prevent North Korea from obtaining resources that threaten the security and stability of the Korean peninsula and U.S. interests in the region.",
+    "theme_ids": [
+      "economic-sanctions",
+      "north-korea",
+      "national-security-information-classification",
+      "united-nations-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "veterans"
+      ],
+      "negative_ids": [
+        "corporations-businesses",
+        "foreign-government-officials",
+        "citizens-of-specific-countries-by-eo-designation"
+      ]
+    },
+    "potential_concerns": [
+      "The economic sanctions may unintentionally harm foreign corporations and businesses engaging in legitimate trade that is affected by broad restrictions, potentially straining diplomatic and economic relations.",
+      "Blocking property of persons connected to North Korea could increase tensions, potentially escalating threats to U.S. military personnel and veterans stationed or deployed in the region.",
+      "The designation of certain North Korean officials or entities may cause difficulties for diplomats and foreign governments trying to engage in sanctioned yet essential international matters.",
+      "The economic sanctions could incentivize North Korea or affiliated groups to use more covert or illicit methods to evade restrictions, complicating enforcement and intelligence efforts.",
+      "Sanctions focused on luxury goods and illicit finance may disproportionately restrict resources that could otherwise improve living conditions within North Korea, raising ethical concerns about civilian impact."
+    ],
+    "enriched_at": "2025-12-15T02:06:52.927Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -13,31 +13,35 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-29/pdf/2025-02004.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/29/2025-02004.txt",
   "enrichment": {
-    "summary": "This executive order directs the U.S. government to designate international cartels and violent transnational organizations like MS-13 as Foreign Terrorist Organizations and Specially Designated Global Terrorists. It aims to treat these groups as national security threats and take aggressive actions to disrupt their operations, including legal and immigration measures, to protect the safety and security of the United States.",
+    "summary": "This executive order establishes a process to designate certain international cartels and violent transnational organizations as Foreign Terrorist Organizations or Specially Designated Global Terrorists. It recognizes these groups as serious threats to U.S. national security and commits the government to eliminating their presence and influence within the United States.",
     "theme_ids": [
-      "national-security",
-      "counterterrorism-policy",
-      "foreign-policy",
-      "immigration-enforcement",
-      "criminal-justice-enforcement"
+      "foreign-terrorist-organizations",
+      "terrorism-designations",
+      "transnational-crime-cartels",
+      "border-security",
+      "national-emergencies"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "state-and-local-law-enforcement"
+        "law-enforcement-officers-federal",
+        "border-communities",
+        "crime-victims",
+        "u-s-citizens"
       ],
       "negative_ids": [
-        "terrorist-organizations",
-        "undocumented-immigrants"
+        "hispanic-latino-americans",
+        "undocumented-immigrants",
+        "asylum-seekers",
+        "naturalized-citizens"
       ]
     },
     "potential_concerns": [
-      "Designating cartels and transnational gangs as terrorist organizations may complicate traditional law enforcement efforts and create legal challenges.",
-      "The designation could lead to increased violence or retaliation by these groups in affected communities, including those near the U.S. border.",
-      "Implementation requires coordination across multiple agencies, which may delay or hinder immediate operational effectiveness.",
-      "There is risk of straining diplomatic relations with neighboring countries, especially Mexico, due to cross-border enforcement and sovereignty concerns.",
-      "The broad application of immigration enforcement provisions could adversely affect the rights and due process of individuals accused or affiliated with these groups."
+      "Designating cartels and transnational criminal organizations as Foreign Terrorist Organizations may lead to enhanced enforcement actions disproportionately impacting Hispanic / Latino Americans, particularly those in border communities, raising concerns about racial profiling and civil liberties.",
+      "The order's provisions for expedited removal under the Alien Enemies Act could unintentionally affect naturalized citizens, asylum seekers, and undocumented immigrants suspected of association, risking wrongful deportations and due process violations.",
+      "Increased aggressive law enforcement targeting cartels may improve security for U.S. citizens and crime victims but could also escalate violence and instability in border communities.",
+      "The broad designation of cartels as terrorist organizations may complicate asylum and immigration claims by individuals fleeing cartel-related violence, potentially limiting protections for vulnerable populations such as asylum seekers."
     ],
-    "enriched_at": "2025-12-09T02:38:24.598Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:36:13.333Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

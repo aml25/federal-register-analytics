@@ -13,29 +13,26 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-24/pdf/2025-03063.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/24/2025-03063.txt",
   "enrichment": {
-    "summary": "This executive order requires all federal agencies, including independent regulatory agencies, to be under tighter presidential supervision. It mandates that significant regulations be reviewed by the Office of Information and Regulatory Affairs before publication to ensure accountability and consistent implementation of federal laws.",
+    "summary": "This executive order requires all federal agencies, including independent regulatory agencies, to submit significant regulatory actions to the Office of Information and Regulatory Affairs for presidential review to ensure accountability. It emphasizes that agency heads must coordinate with the Executive Office of the President and abide by presidential and attorney general legal interpretations to maintain unified executive control and oversight.",
     "theme_ids": [
-      "federal-agency-management",
-      "regulatory-reform"
+      "regulatory-reform-deregulation",
+      "government-efficiency",
+      "federal-workforce-management",
+      "interagency-coordination"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "federal-agencies",
-        "independent-regulatory-agencies"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "foreign-suppliers",
-        "regulated-entities"
+        "federal-employees-civil-servants"
       ]
     },
     "potential_concerns": [
-      "Increased presidential control over independent agencies may undermine their statutory independence and affect regulatory objectivity.",
-      "Mandatory OIRA review of all significant regulations might slow down the regulatory process or reduce regulatory innovation.",
-      "Implementation may face legal challenges regarding separation of powers and agency autonomy.",
-      "Independent agencies may encounter difficulties balancing agency missions with new presidential priorities and restrictions.",
-      "Regular performance evaluations and budgetary controls could politicize agency functions and affect long-term policy consistency."
+      "The increased presidential control and OIRA review of independent regulatory agencies could politicize agencies intended to be independent, undermining regulatory impartiality and negatively impacting agency leadership and staff.",
+      "Mandating coordination with the Executive Office may impose additional administrative burdens on independent agencies, potentially delaying regulatory actions and reducing government efficiency.",
+      "The power to adjust or restrict independent regulatory agencies' apportionments by OMB risks weakening agencies' ability to fulfill statutory mandates, thereby affecting enforcement effectiveness.",
+      "Requiring federal employees to adhere strictly to the President and Attorney General's legal interpretations may suppress professional legal judgment and lead to internal conflict or reduced morale among agency attorneys and staff."
     ],
-    "enriched_at": "2025-12-09T02:41:09.014Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:27:34.975Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

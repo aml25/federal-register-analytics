@@ -13,30 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-03-10/pdf/2022-05232.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/03/10/2022-05232.txt",
   "enrichment": {
-    "summary": "This executive order bans the import of key Russian energy products into the United States and prohibits new U.S. investments in Russia's energy sector. It aims to punish Russia for its aggression against Ukraine by cutting off economic support connected to its energy industry. The order also blocks any U.S. involvement in transactions facilitating these prohibited investments or imports.",
+    "summary": "This executive order prohibits the import of certain Russian energy products such as oil, petroleum, natural gas, and coal into the United States. It also bans new investments by U.S. persons in Russia's energy sector and prohibits activities that help avoid these restrictions, as a response to Russia's ongoing war against Ukraine.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
-      "foreign-policy",
-      "energy-policy"
+      "economic-sanctions",
+      "russia",
+      "oil-and-gas-development",
+      "energy-independence-security",
+      "ukraine-crimea"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "domestic-energy-producers"
+        "energy-sector-workers-oil-gas-coal",
+        "u-s-citizens"
       ],
       "negative_ids": [
-        "foreign-suppliers",
-        "foreign-manufacturers"
+        "large-corporation-employees",
+        "investors"
       ]
     },
     "potential_concerns": [
-      "The import bans could increase U.S. energy prices and contribute to global energy market volatility.",
-      "Restricted investments may limit U.S. economic engagement options and complicate enforcement across international jurisdictions.",
-      "There is a risk of evasion through third-party countries or entities that may undermine the effectiveness of the prohibitions.",
-      "The sanctions could provoke retaliatory measures from Russia impacting U.S. businesses and geopolitical stability.",
-      "Implementation requires robust coordination and monitoring, which may strain resources and slow response to circumvention attempts."
+      "The prohibition on new investments in Russia's energy sector may lead to financial losses and reduced growth opportunities for U.S.-based investors and large corporations involved in energy, causing economic disruptions for energy-sector workers domestically.",
+      "The ban on importing Russian energy products could contribute to increased fuel costs in the U.S., negatively affecting both energy-sector workers and U.S. citizens who rely on affordable energy, potentially impacting economic stability and household budgets.",
+      "While aimed at undermining Russia's ability to fund its war against Ukraine, the sanctions risk increasing global energy market volatility, which could indirectly harm U.S. energy workers and consumers through supply chain disruptions.",
+      "There is a potential for evasion tactics or circumvention attempts by foreign entities, complicating enforcement and creating compliance burdens for companies and investors subject to U.S. jurisdiction."
     ],
-    "enriched_at": "2025-12-09T03:48:19.939Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T07:35:35.307Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

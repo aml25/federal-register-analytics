@@ -13,29 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-06/pdf/2025-03728.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/06/2025-03728.txt",
   "enrichment": {
-    "summary": "This executive order modifies a previous order that imposed duties to limit the flow of illicit drugs across the U.S. northern border by changing rules about duty-free treatment of certain imported goods. It sets conditions under which duty-free shipments will no longer be allowed once customs systems are ready to fully collect tariffs on these goods. The order aims to enhance enforcement of tariffs related to illicit drug control while clarifying implementation provisions.",
+    "summary": "This executive order updates previous orders to address the flow of illegal drugs across the U.S. northern border by adjusting duties and tariff collection policies. It modifies how certain products qualify for duty-free treatment, making it conditional on the government's ability to effectively collect tariffs.",
     "theme_ids": [
-      "trade-policy",
-      "national-security"
+      "border-security",
+      "tariffs-duties",
+      "drug-enforcement",
+      "transnational-crime-cartels"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "small-importers",
-        "international-shippers"
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local",
+        "border-communities"
       ],
       "negative_ids": [
-        "postal-carriers",
-        "substance-use-disorder-affected-populations"
+        "small-business-owners",
+        "consumers"
       ]
     },
     "potential_concerns": [
-      "Small importers and international shippers may face increased costs and administrative burdens when duty-free de minimis treatment is withdrawn.",
-      "Delays or inefficiencies in customs systems could complicate the timing and enforcement of ending duty-free treatment, causing uncertainty for businesses.",
-      "Potential controversy over the balance between trade facilitation and strong enforcement on goods linked to illicit drug flows at the northern border.",
-      "The order’s reliance on Secretary of Commerce notifications may create delays or political influence in tariff implementation decisions.",
-      "Increased tariffs and enforcement might indirectly impact consumers through higher prices or reduced availability of certain cross-border goods."
+      "This order may increase operational burdens and costs for small-business-owners and importers-exporters who rely on duty-free treatment for cross-border trade, potentially leading to higher prices for consumers.",
+      "Law enforcement officers at federal and state/local levels may face challenges if changes in tariff collection disrupt coordinated efforts to control illicit drug trafficking across the northern border and complicate enforcement priorities.",
+      "Border communities might experience both positive effects from enhanced drug enforcement efforts and negative economic impacts if stricter tariff collection slows legitimate trade and commerce.",
+      "There is a risk that increased tariffs or duties as a result of tariff collection system changes could encourage illicit smuggling tactics, inadvertently benefiting transnational crime cartels targeting these routes.",
+      "The conditional removal of duty-free de minimis treatment based on government capacity to collect tariffs may create uncertainty for businesses and communities reliant on cross-border trade, affecting economic stability in northern border regions."
     ],
-    "enriched_at": "2025-12-09T02:41:44.874Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:26:11.897Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

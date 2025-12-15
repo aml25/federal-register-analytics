@@ -13,31 +13,33 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-03/pdf/2025-02231.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/03/2025-02231.txt",
   "enrichment": {
-    "summary": "This executive order establishes a White House task force to coordinate a major federal celebration of America's 250th birthday on July 4, 2026. It reinstates previous orders about building the National Garden of American Heroes and protecting monuments from vandalism. The order directs federal agencies to collaborate and report on their celebration plans and ensures the Department of Defense funds and supports the task force operations.",
+    "summary": "This executive order establishes a White House Task Force to plan and coordinate a grand celebration of America's 250th anniversary of independence on July 4, 2026. It reinstates previous orders related to building the National Garden of American Heroes and protecting national monuments from vandalism, ensuring these efforts continue as part of the commemoration. The Order also directs coordination across federal agencies and sets deadlines for reporting and task force activities.",
     "theme_ids": [
-      "event-coordination",
-      "symbol-protection",
-      "federal-agency-management",
-      "public-safety"
+      "presidential-commissions-task-forces",
+      "national-monuments-antiquities",
+      "american-heritage-patriotism",
+      "historical-commemorations",
+      "homeland-security"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "patriotic-citizens"
+        "veterans",
+        "military-personnel-active-duty",
+        "law-enforcement-officers-federal",
+        "tribal-communities-reservations"
       ],
       "negative_ids": [
-        "architectural-professionals",
-        "protestors"
+        "taxpayers"
       ]
     },
     "potential_concerns": [
-      "The reinstatement of monument protection policies may lead to increased enforcement actions that could raise tensions with protestors or civil rights advocates.",
-      "Funding for the task force via the Department of Defense may divert resources from other defense priorities or complicate budget allocations.",
-      "The expansion and accelerated inclusion process for the National Garden of American Heroes could generate debate over which historical figures are honored and possible politicization.",
-      "Coordinating numerous federal agencies for a large-scale event may face bureaucratic delays and logistical challenges that hinder effective implementation.",
-      "The order lacks explicit provisions addressing inclusivity or representation in the celebration, which might provoke criticism regarding the historical narrative presented."
+      "The reinstatement of protection against monument vandalism may lead to increased federal law enforcement actions that disproportionately affect Tribal Communities and veterans involved in protests or demonstrations.",
+      "Funding and administrative support for Task Force 250 housed within the Department of Defense may divert resources from military personnel and veterans’ programs, causing negative impacts on their services.",
+      "The emphasis on a particular patriotic narrative commemorated by the National Garden of American Heroes could marginalize some Indigenous Peoples and Tribal Communities whose historical experiences and perspectives may be underrepresented or overlooked.",
+      "Taxpayers may face increased fiscal burdens due to the costs of the large-scale celebration and monument preservation efforts mandated by this executive order without clear limitations on appropriations.",
+      "Heightened homeland security measures around the celebrations might result in restrictions or surveillance on law enforcement officers and military personnel, potentially affecting their operational duties and civil liberties."
     ],
-    "enriched_at": "2025-12-09T02:40:02.223Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:31:24.030Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

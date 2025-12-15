@@ -13,37 +13,43 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-04-26/pdf/2023-08955.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/04/26/2023-08955.txt",
   "enrichment": {
-    "summary": "This executive order strengthens the federal government’s commitment to environmental justice by requiring all federal agencies to identify and address disproportionate environmental harms faced by underserved communities. It promotes inclusive decision-making, better data collection, workforce development, and interagency collaboration to ensure clean air, water, and a healthy environment for all, especially historically marginalized populations.",
+    "summary": "This executive order directs federal agencies to prioritize environmental justice by addressing the disproportionate environmental and health impacts on underserved and overburdened communities. It establishes requirements for agencies to develop strategic plans, improve data collection, enhance public participation, coordinate across government, and support environmental justice initiatives through training, research, and community engagement.",
     "theme_ids": [
+      "environmental-justice",
+      "climate-change-policy",
       "environmental-regulation",
-      "federal-research-coordination",
-      "scientific-research",
-      "tribal-policy",
-      "equity-and-inclusion-policy",
-      "workforce-development",
-      "community-development",
-      "civil-rights-enforcement",
-      "industrial-accident-response",
-      "federal-agency-management",
-      "advisory-committees-management"
+      "interagency-coordination",
+      "racial-equity"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "underserved-communities",
-        "scientific-researchers"
+        "environmental-justice-communities",
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "native-americans-indigenous-peoples",
+        "alaska-natives",
+        "native-hawaiian-and-pacific-islanders",
+        "low-income-individuals-families",
+        "urban-communities",
+        "rural-communities",
+        "tribal-communities-reservations",
+        "u-s-territory-residents",
+        "agricultural-workers-farmers",
+        "union-members"
       ],
       "negative_ids": [
-        "private-sector-rivals"
+        "energy-sector-workers-oil-gas-coal",
+        "large-corporation-employees"
       ]
     },
     "potential_concerns": [
-      "Increased regulatory requirements and reporting obligations may strain federal agencies’ resources and delay other agency priorities.",
-      "Heightened focus on environmental justice could lead to increased compliance costs and operational challenges for industries subject to stricter pollution controls and community engagement mandates.",
-      "Federally funded non-Tribal organizations may face reduced funding or competitive disadvantages as environmental justice and Tribal priorities are elevated.",
-      "Potential conflicts may arise in balancing economic development and environmental justice goals, especially in communities reliant on polluting industries or legacy infrastructure.",
-      "Effectiveness depends heavily on meaningful community engagement and data quality, which historically have been challenging to implement consistently across agencies."
+      "The order's emphasis on stringent environmental regulations may lead to job losses or economic hardship for energy-sector workers in oil, gas, and coal industries, disproportionately affecting union members employed in these sectors.",
+      "Large corporations in potentially polluting industries might face increased compliance costs and stricter enforcement, potentially impacting their economic operations and workforce.",
+      "Efforts to remediate legacy pollution and enforce civil rights laws may create tension with affected industries and local economies dependent on them, indirectly impacting communities relying on these jobs.",
+      "Ensuring meaningful and accessible public participation requires overcoming language, disability, and resource barriers in diverse environmental justice communities, including Tribal Nations, which could slow implementation or create disparities if not managed effectively.",
+      "Coordinated federal action must avoid unintended bureaucratic delays or overlapping agency responsibilities, which could hinder timely benefits to underserved urban, rural, and tribal communities."
     ],
-    "enriched_at": "2025-12-09T01:37:38.922Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:38:58.110Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

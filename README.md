@@ -18,13 +18,14 @@ For now, the todo list is about data quality. The data pipeline was done relativ
 ## Features
 
 - **Fetch**: Download executive orders from the Federal Register API
-- **Enrich**: Use OpenAI to analyze each order with a two-pass approach:
-  - **Pass 1** (gpt-4.1-mini): Plain-language summary, thematic categorization, and potential concerns
-  - **Pass 2** (gpt-4o): Nuanced population impact analysis using an advanced reasoning model
-  - Cohesive theme and population registries maintained across all orders
+- **Enrich**: Use OpenAI to analyze each order with a two-pass approach using a **static taxonomy**:
+  - **Pass 1** (gpt-4.1-mini): Plain-language summary and thematic categorization from static taxonomy
+  - **Pass 2** (gpt-4.1-mini): Population impact analysis and potential concerns, using themes from Pass 1
+  - LLM selects from a comprehensive static taxonomy (280 themes, 158 populations)
+  - Suggestions for new taxonomy items are logged for human review
 - **Aggregate**: Generate term summaries and timeline data (fast, no API calls)
-- **Generate Narratives**: LLM-generated summaries and impact analysis per presidential term, month, and theme (uses OpenAI API)
-- **Web Frontend**: Express server with a clean UI to browse executive orders by term, month, or theme
+- **Generate Narratives**: LLM-generated summaries and impact analysis per presidential term, quarter, and theme (uses OpenAI API)
+- **Web Frontend**: Express server with a clean UI to browse executive orders by term, quarter, or theme
 
 ## Installation
 
@@ -49,12 +50,12 @@ Then edit `.env` with your API key from https://platform.openai.com/api-keys
 
 ```mermaid
 flowchart LR
-    A[Fetch executive orders from Federal Register API] --> B[Enrich data: summaries, themes,impacted populations, potential concerns]
-    B --> C[Aggregate data for presidential term and monthly timelines]
+    A[Fetch executive orders from Federal Register API] --> B[Enrich data using static taxonomy]
+    B --> C[Aggregate data for presidential term and quarterly timelines]
     C --> D[Generate narratives for detailed EO reviews]
-    
-    B --- E[Pass 1 - gpt 4.1 mini for: summaries, themes, concerns]
-    E --- F[Pass 2 - gpt 4o for: mpacted populations]
+
+    B --- E[Pass 1 - gpt 4.1 mini: summaries + themes]
+    E --- F[Pass 2 - gpt 4.1 mini: populations + concerns]
 ```
 
 ### 1. Fetch Executive Orders
@@ -81,12 +82,12 @@ Raw data is saved to `data/raw/executive-orders.json`.
 
 ### 2. Enrich with AI Analysis
 
-Process orders through OpenAI for enrichment. The enrichment uses a **two-pass approach**:
+Process orders through OpenAI for enrichment. The enrichment uses a **two-pass approach** with a **static taxonomy**:
 
-1. **Pass 1** (gpt-4.1-mini): Generates the summary, identifies themes, and extracts potential concerns
-2. **Pass 2** (gpt-4o): Uses an advanced reasoning model for nuanced population impact analysis, determining which groups are positively or negatively affected
+1. **Pass 1** (gpt-4.1-mini): Generates the summary and identifies themes from the taxonomy
+2. **Pass 2** (gpt-4.1-mini): Identifies impacted populations and potential concerns, using the themes from Pass 1 for context
 
-This approach optimizes for both speed/cost (using the faster model for straightforward analysis) and quality (using the advanced reasoning model for the more nuanced population impact assessment).
+The LLM selects tags from a comprehensive static taxonomy (`what-got-signed/data/taxonomy.json`). If the LLM suggests a new tag, it's logged to `metadata-config/executive_order_taxonomy_guide.md` for human review rather than being automatically added.
 
 ```bash
 # Enrich all orders from a specific year
@@ -95,24 +96,17 @@ npm run enrich -- --year 2025
 # Limit number of orders to process
 npm run enrich -- --year 2025 --limit 5
 
-# Re-process already enriched orders
+# Re-process already enriched orders (includes new ones too)
 npm run enrich -- --force
+
+# Re-enrich only already-enriched orders (no new ones)
+npm run enrich -- --existing-only
 
 # Re-enrich a specific executive order
 npm run enrich -- --eo 14350
-
-# Re-run population analysis only (pass 2) on already-enriched orders
-npm run enrich -- --year 2025 --pass2-only
-
-# Re-run pass 2 on a specific EO
-npm run enrich -- --eo 14350 --pass2-only
 ```
 
-The `--pass2-only` flag re-runs only the population analysis (using gpt-4o) on already-enriched orders. This is useful if you want to improve population tagging without regenerating summaries, themes, or concerns. The summary, themes, and concerns from the original enrichment are preserved.
-
-After processing, orphaned populations (those no longer referenced by any enriched EO) are automatically removed from the registry.
-
-Enriched data is saved to `data/enriched/`. The theme registry is maintained in `data/themes.json` and the population registry in `data/populations.json`.
+Enriched data is saved to `data/enriched/`.
 
 ### 3. Aggregate Data
 
@@ -128,30 +122,30 @@ npm run aggregate -- --president trump
 
 Aggregated data is saved to `data/aggregated/`:
 - `term-summaries.json` - Summary data per presidential term with top themes
-- `timeline.json` - Monthly timeline data with theme summaries
+- `timeline.json` - Quarterly timeline data with theme summaries
 
-### 4. Generate Narratives (Optional)
+### 4. Generate Narratives
 
-Generate LLM-powered narrative summaries for presidential terms, monthly periods, and themes. This step uses the OpenAI API and may incur costs:
+Generate LLM-powered narrative summaries for presidential terms, quarterly periods, and themes. This step uses the OpenAI API and may incur costs:
 
 ```bash
-# Generate all narratives (term + monthly + theme)
+# Generate all narratives (term + quarterly + theme) -- will run for new narratives needed as well as updating stale ones
 npm run generate-narratives
 
 # Generate term narratives only
 npm run generate-narratives -- --type term
 
-# Generate monthly narratives only
-npm run generate-narratives -- --type monthly
+# Generate quarterly narratives only
+npm run generate-narratives -- --type quarterly
 
 # Generate theme narratives only
 npm run generate-narratives -- --type theme
 
-# Generate monthly narratives for a specific year
-npm run generate-narratives -- --type monthly --year 2025
+# Generate quarterly narratives for a specific year
+npm run generate-narratives -- --type quarterly --year 2025
 
-# Generate narrative for a specific month
-npm run generate-narratives -- --type monthly --year 2025 --month 3
+# Generate narrative for a specific quarter
+npm run generate-narratives -- --type quarterly --year 2025 --quarter 1
 
 # Filter by president (term narratives only)
 npm run generate-narratives -- --president trump
@@ -159,16 +153,24 @@ npm run generate-narratives -- --president trump
 # Filter by theme (theme narratives only)
 npm run generate-narratives -- --type theme --theme immigration
 
-# Force regeneration (skip incremental checks)
+# Force regeneration (skip staleness checks)
 npm run generate-narratives -- --force
+
+# Check what needs updating (no regeneration, no API calls)
+npm run generate-narratives -- --check
 ```
 
 Outputs:
 - `data/aggregated/narratives.json` - Term narratives with summary and potential impact paragraphs
-- `data/aggregated/monthly-narratives.json` - Monthly narratives with summary and potential impact paragraphs
+- `data/aggregated/quarterly-narratives.json` - Quarterly narratives with summary and potential impact paragraphs
 - `data/aggregated/theme-narratives.json` - Theme narratives with summary and potential impact paragraphs
 
-Narratives support incremental generation - only new items are processed unless `--force` is used.
+**Smart incremental generation**: Narratives automatically detect when they're stale based on the `enriched_at` timestamps of underlying orders. If you enrich new orders in Q3 2025 with 3 themes, running `generate-narratives` will automatically regenerate only:
+- The Q3 2025 quarterly narrative
+- The 3 affected theme narratives
+- The relevant term narrative(s)
+
+Use `--check` to preview what would be regenerated without making API calls.
 
 ### 5. Run Full Pipeline
 
@@ -200,6 +202,14 @@ node server.js
 
 Then open http://localhost:3000 in your browser.
 
+#### Frontend Features
+
+- **Quarterly timeline** with horizontal scroll, filterable by year via multi-select dropdown
+- **Detail pages** for presidential terms, quarters, and themes with LLM-generated narratives
+- **Definitions page** with sticky category headers for browsing themes and populations
+- **Back-to-top button** appears after scrolling past the viewport height
+- **Friendly messaging** for themes with limited data (callout shown instead of empty sections)
+
 #### API Security
 
 The API automatically enforces **same-origin requests only**. This means:
@@ -217,39 +227,25 @@ ALLOWED_ORIGINS=https://admin.whatgotsigned.com node server.js
 
 ## Data Structure
 
-### Theme Registry (`data/themes.json`)
+### Static Taxonomy (`what-got-signed/data/taxonomy.json`)
 
-Themes are tracked globally to ensure consistency across all executive orders:
-
-```json
-{
-  "themes": [
-    {
-      "id": "immigration-enforcement",
-      "name": "Immigration Enforcement",
-      "description": "Policies related to border security and immigration law enforcement",
-      "created_at": "2025-01-15T10:30:00.000Z"
-    }
-  ],
-  "updated_at": "2025-01-15T10:30:00.000Z"
-}
-```
-
-### Population Registry (`data/populations.json`)
-
-Impacted populations are tracked globally to ensure consistency. Populations can include countries, demographics, professions, industries, political groups, government entities, and more:
+The main taxonomy defines all available themes and populations. The LLM selects from this taxonomy during enrichment. The frontend generates flat registries from this hierarchical structure on-the-fly:
 
 ```json
 {
-  "populations": [
-    {
-      "id": "federal-employees",
-      "name": "Federal Employees",
-      "description": "Workers employed by the federal government",
-      "created_at": "2025-01-15T10:30:00.000Z"
+  "themes": {
+    "national_security_defense": ["Military Readiness / Force Structure", "..."],
+    "immigration": ["Border Enforcement", "Visa Policy", "..."],
+    "economy_trade": ["Trade Policy / Agreements", "..."]
+  },
+  "impacted_populations": {
+    "demographic_groups": {
+      "racial_ethnic": ["African Americans / Black Americans", "..."]
+    },
+    "employment_sectors": {
+      "government": ["Federal Employees / Civil Servants", "..."]
     }
-  ],
-  "updated_at": "2025-01-15T10:30:00.000Z"
+  }
 }
 ```
 
@@ -281,7 +277,7 @@ Each enriched order includes:
       "Could face legal challenges on constitutional grounds."
     ],
     "enriched_at": "2025-01-15T10:30:00.000Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "model_used": "gpt-4.1-mini"
   }
 }
 ```
@@ -293,11 +289,12 @@ federal-register-analytics/
 ├── src/
 │   ├── types.ts        # TypeScript type definitions
 │   ├── config.ts       # Configuration constants
-│   ├── utils.ts        # Utility functions
+│   ├── utils.ts        # Utility functions (loads taxonomy)
 │   ├── fetch.ts        # Federal Register API fetching
-│   ├── enrich.ts       # OpenAI enrichment logic
+│   ├── enrich.ts       # OpenAI enrichment logic (two-pass with static taxonomy)
+│   ├── taxonomy.ts     # Taxonomy loader and formatter
 │   ├── aggregate.ts    # Data aggregation (term summaries, timeline)
-│   ├── narratives.ts   # LLM-generated narratives (term, monthly, theme)
+│   ├── narratives.ts   # LLM-generated narratives (term, quarterly, theme)
 │   ├── index.ts        # Main exports
 │   └── cli/            # CLI entry points
 │       ├── fetch.ts
@@ -305,20 +302,21 @@ federal-register-analytics/
 │       ├── aggregate.ts
 │       ├── narratives.ts
 │       └── pipeline.ts
+├── metadata-config/    # Taxonomy documentation
+│   └── executive_order_taxonomy_guide.md  # Usage guide + LLM suggestions
 ├── what-got-signed/    # Web frontend (deployable standalone)
-│   ├── server.js       # Express server
+│   ├── server.js       # Express server (generates registries from taxonomy)
 │   ├── views/          # EJS templates
-│   │   ├── partials/   # Reusable header, footer, head
-│   │   ├── index.ejs
-│   │   ├── detail.ejs
-│   │   └── definitions.ejs
+│   │   ├── partials/   # Reusable components (header, footer, back-to-top)
+│   │   ├── index.ejs   # Homepage with timeline
+│   │   ├── detail.ejs  # Detail pages (term, quarter, theme)
+│   │   └── definitions.ejs  # Theme and population definitions
 │   ├── public/         # Static CSS, JS, images
-│   └── data/           # All data files (pipeline output)
-│       ├── themes.json     # Theme registry (committed)
-│       ├── populations.json # Population registry (committed)
+│   └── data/           # All data files
+│       ├── taxonomy.json   # Master taxonomy (themes + populations)
 │       ├── enriched/       # Enriched data (committed)
-│       ├── raw/            # Raw API data (gitignored)
-│       └── aggregated/     # Aggregated data (gitignored)
+│       ├── aggregated/     # Aggregated data (committed)
+│       └── raw/            # Raw API data (gitignored)
 └── dist/               # Compiled JavaScript (gitignored)
 ```
 
@@ -326,16 +324,16 @@ federal-register-analytics/
 
 All data files are stored in `what-got-signed/data/` for deployment simplicity:
 
-- `what-got-signed/data/enriched/` - Enriched executive order data (committed to repo)
-- `what-got-signed/data/themes.json` - Theme registry (committed to repo)
-- `what-got-signed/data/populations.json` - Population registry (committed to repo)
+- `what-got-signed/data/taxonomy.json` - Master taxonomy (committed)
+- `what-got-signed/data/enriched/` - Enriched executive order data (committed)
+- `what-got-signed/data/aggregated/` - Aggregated data (committed)
 - `what-got-signed/data/raw/` - Raw API data (gitignored)
-- `what-got-signed/data/aggregated/` - Aggregated data (gitignored)
 
-To generate the raw and aggregated data locally:
-1. `npm run fetch -- --from 2017 --to 2025`
-2. `npm run aggregate`
-3. `npm run generate-narratives` (optional)
+To regenerate data locally:
+1. `npm run fetch -- --from 2017 --to 2025` (fetches raw data from Federal Register API)
+2. `npm run enrich -- --force` (re-enrich with OpenAI)
+3. `npm run aggregate` (regenerate timeline and term summaries)
+4. `npm run generate-narratives -- --force` (regenerate LLM narratives)
 
 ## Deployment
 

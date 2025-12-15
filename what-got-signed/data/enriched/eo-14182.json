@@ -13,29 +13,27 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-31/pdf/2025-02175.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/31/2025-02175.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to comply strictly with the Hyde Amendment by ending the use of federal taxpayer funds to support elective abortions. It revokes two previous executive orders that allowed federal funding or promotion of elective abortion, and requires the Office of Management and Budget to issue implementation guidance to enforce this policy.",
+    "summary": "This executive order directs federal agencies to stop using taxpayer dollars to fund or promote elective abortions, aligning with the Hyde Amendment. It also revokes two previous executive orders that allowed federal funding for such abortions and requires the Office of Management and Budget to issue guidance for implementing these changes.",
     "theme_ids": [
-      "regulatory-reform",
-      "federal-agency-management",
-      "abortion-policy"
+      "abortion-reproductive-health",
+      "revocation-of-previous-executive-orders"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "faith-based-organizations"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "reproductive-rights-advocates",
-        "women-seeking-elective-abortions"
+        "women",
+        "medicaid-beneficiaries",
+        "low-income-individuals-families",
+        "uninsured-individuals"
       ]
     },
     "potential_concerns": [
-      "The order may limit access to abortion services for low-income individuals reliant on federally funded healthcare programs.",
-      "Revoking previous orders could cause confusion or delays as agencies implement new guidance.",
-      "Potential clashes between federally imposed funding restrictions and state laws protecting abortion access may arise.",
-      "Agencies might face challenges in identifying and eliminating all programs where federal funds indirectly support elective abortion.",
-      "Critics may argue the order politicizes healthcare and reduces reproductive rights protections."
+      "Restricting federal funding for elective abortions may disproportionately burden low-income women and uninsured individuals who rely on Medicaid or other federally supported healthcare programs.",
+      "The revocation of prior executive orders could lead to confusion or gaps in reproductive health services for vulnerable populations, particularly affecting women in rural or underserved communities.",
+      "Limiting federal funds could increase out-of-pocket costs for abortion services, potentially forcing women to delay or forgo care, negatively impacting their health outcomes.",
+      "Healthcare providers participating in federally funded programs may face challenges maintaining comprehensive reproductive health services, reducing access and quality for marginalized women."
     ],
-    "enriched_at": "2025-12-09T02:39:41.946Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:32:21.497Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

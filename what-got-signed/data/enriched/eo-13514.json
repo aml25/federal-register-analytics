@@ -1,0 +1,45 @@
+{
+  "document_number": "E9-24518",
+  "executive_order_number": "13514",
+  "title": "Federal Leadership in Environmental, Energy, and Economic Performance",
+  "abstract": null,
+  "signing_date": "2009-10-05",
+  "publication_date": "2009-10-08",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/10/08/E9-24518/federal-leadership-in-environmental-energy-and-economic-performance",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-10-08/pdf/E9-24518.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/10/08/E9-24518.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to reduce their greenhouse gas emissions, increase energy efficiency, promote sustainable buildings and practices, and improve water and waste management. It establishes targets, planning requirements, and accountability measures to lead the federal government in environmental sustainability and climate change mitigation efforts by 2020 and beyond.",
+    "theme_ids": [
+      "renewable-energy",
+      "energy-independence-security",
+      "climate-change-policy",
+      "environmental-regulation",
+      "government-efficiency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "renewable-energy-workers",
+        "rural-communities",
+        "urban-communities"
+      ],
+      "negative_ids": [
+        "federal-contractors",
+        "small-business-owners"
+      ]
+    },
+    "potential_concerns": [
+      "Requirements for federal contractors to track and reduce scope 3 emissions may increase administrative and compliance costs, disproportionately impacting small-business owners reliant on federal contracts.",
+      "Transitioning federal vehicle fleets to low greenhouse gas and alternative fuel vehicles might pose operational challenges or cost burdens for federal contractors managing transportation-related services.",
+      "Efforts to site new federal facilities in sustainable, transit-accessible urban or rural locations may cause disruption or increased costs in rural and urban communities, including impacts on local land use and infrastructure.",
+      "Increased demand for renewable energy due to agency targets could create opportunities for renewable-energy workers, but may also lead to workforce displacement in traditional energy sectors indirectly connected to federal operations.",
+      "The ambitious targets and required reporting may lead to resource diversion within federal contractors and their supply chains, potentially affecting timely delivery and increasing project uncertainties."
+    ],
+    "enriched_at": "2025-12-15T01:57:51.972Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

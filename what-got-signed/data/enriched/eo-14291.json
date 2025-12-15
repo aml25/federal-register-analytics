@@ -13,29 +13,36 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-07/pdf/2025-08134.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/07/2025-08134.txt",
   "enrichment": {
-    "summary": "This executive order creates a Religious Liberty Commission tasked with advising the government on protecting religious freedoms in America. The commission will study current threats to religious liberty, suggest policy actions, and promote awareness of religious pluralism until its scheduled termination in 2026 unless extended.",
+    "summary": "This executive order establishes a Religious Liberty Commission tasked with protecting and promoting religious freedom in the United States. The Commission will include diverse members appointed by the President and will study current threats to religious liberty, advise the government on policies, and produce a comprehensive report by July 4, 2026.",
     "theme_ids": [
-      "advisory-committees-management",
-      "religious-liberty"
+      "religious-liberty",
+      "presidential-commissions-task-forces",
+      "faith-based-initiatives",
+      "american-heritage-patriotism"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "religious-communities",
-        "faith-based-organizations"
+        "faith-based-communities",
+        "religious-institutions",
+        "christians",
+        "muslims",
+        "jews-jewish-americans",
+        "teachers-educators",
+        "homeschool-families",
+        "k-12-students",
+        "military-personnel-active-duty",
+        "healthcare-workers"
       ],
-      "negative_ids": [
-        "secular-public-institutions",
-        "religious-liberty-opponents"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "The commission’s broad mandate to protect religious liberty could lead to conflicts with existing civil rights protections for other groups.",
-      "Possible challenges in balancing religious freedom with nondiscrimination policies in schools, workplaces, and government programs.",
-      "The order may be seen as privileging certain religious viewpoints and could raise concerns about government endorsement of religion.",
-      "Limited term and dependence on funding and presidential extension could affect commission effectiveness and continuity.",
-      "Ambiguities in applying conscience protections in healthcare and education could lead to inconsistencies or legal disputes."
+      "The Commission’s focus on protecting religious liberty might lead to conflicts with existing civil rights protections, potentially disadvantaging marginalized groups in educational and healthcare settings, such as LGBTQ+ individuals or women.",
+      "Efforts to promote religious instruction and voluntary prayer in public schools may raise constitutional concerns and create divisiveness among parents, teachers, and students of different faiths or secular backgrounds.",
+      "Faith-based organizations might receive preferential treatment in funding or tax status, potentially disadvantaging secular nonprofits or other community service providers.",
+      "Military personnel and chaplains could face challenges balancing religious liberty protections with maintaining unit cohesion and non-discrimination policies in diverse armed forces.",
+      "Broad definitions of religious liberty protections could inadvertently enable exemptions from vaccine mandates or healthcare conscience protections, potentially affecting public health outcomes."
     ],
-    "enriched_at": "2025-12-09T02:44:55.050Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:17:18.910Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

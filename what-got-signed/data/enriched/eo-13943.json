@@ -1,0 +1,46 @@
+{
+  "document_number": "2020-17700",
+  "executive_order_number": "13943",
+  "title": "Addressing the Threat Posed by WeChat, and Taking Additional Steps To Address the National Emergency With Respect to the Information and Communications Technology and Services Supply Chain",
+  "abstract": null,
+  "signing_date": "2020-08-06",
+  "publication_date": "2020-08-11",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/08/11/2020-17700/addressing-the-threat-posed-by-wechat-and-taking-additional-steps-to-address-the-national-emergency",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-08-11/pdf/2020-17700.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/08/11/2020-17700.txt",
+  "enrichment": {
+    "summary": "This executive order prohibits transactions related to the Chinese-owned mobile app WeChat to protect U.S. national security by limiting data access and influence from the Chinese government. It builds on previous actions against similar threats from Chinese technology companies and directs the Secretary of Commerce to identify specific transactions to be banned.",
+    "theme_ids": [
+      "cybersecurity-national-security",
+      "foreign-technology-threats",
+      "china",
+      "national-emergencies",
+      "economic-sanctions"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "asian-americans",
+        "u-s-citizens",
+        "lawful-permanent-residents-green-card-holders",
+        "visa-holders-work-student-tourist",
+        "foreign-nationals-general",
+        "corporations-businesses",
+        "technology-workers"
+      ]
+    },
+    "potential_concerns": [
+      "Restrictions on WeChat transactions may disproportionately impact Asian Americans, including lawful permanent residents and visa holders, by limiting their communication channels with family and communities abroad, raising concerns about freedom of expression and cultural connection.",
+      "U.S. technology workers and corporations involved in providing app support, development, or infrastructure for WeChat may face operational disruptions and economic losses due to prohibitions, complicating business continuity and employment.",
+      "The ban may unintentionally hinder U.S. citizens’ ability to access important messaging and payment services for Chinese nationals visiting or living in the U.S., negatively affecting social integration and cross-cultural exchange.",
+      "Efforts to enforce the ban could lead to overreach or surveillance that affects foreign nationals and visa holders broadly, increasing fears of racial profiling or discrimination among Asian and immigrant communities.",
+      "Limiting access to WeChat without viable alternatives might drive users to unregulated communication platforms, potentially increasing cybersecurity risks contrary to the executive order’s national security goals."
+    ],
+    "enriched_at": "2025-12-15T07:30:30.157Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

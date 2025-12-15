@@ -13,25 +13,24 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-13/pdf/2025-00611.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/13/2025-00611.txt",
   "enrichment": {
-    "summary": "This executive order sets a specific order of succession for who can act as Attorney General if the top officials in the Department of Justice are unable to serve. It names certain U.S. Attorneys to fill in temporarily and clarifies that acting officials must meet legal eligibility requirements. The order also revokes a previous succession order and allows the President flexibility to depart from the set order when legally permitted.",
+    "summary": "This executive order establishes the order in which officials within the Department of Justice will take over the duties of the Attorney General if the Attorney General and certain other top officials are unable to serve. It also revokes a previous order on succession and gives the President flexibility to choose an acting Attorney General.",
     "theme_ids": [
-      "federal-agency-management",
-      "federal-workforce",
-      "legal-profession-policy"
+      "order-of-succession",
+      "federal-law-enforcement"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "doj"
+        "law-enforcement-officers-federal"
       ],
       "negative_ids": []
     },
     "potential_concerns": [
-      "The designated succession order might bypass other qualified officials leading to potential operational disruption or conflicts.",
-      "Limiting acting capacity only to those fully eligible under the Vacancies Reform Act could create gaps if no eligible official is immediately available.",
-      "Allowing presidential discretion to depart from the order may raise concerns about politicization or inconsistent application.",
-      "The revocation of the prior executive order may cause transitional confusion until fully implemented."
+      "The order's delegation of acting Attorney General duties to U.S. Attorneys in specific districts could centralize power unevenly, potentially affecting federal law enforcement priorities, which may impact federal law enforcement officers' operations.",
+      "Granting the President broad discretion to depart from the established order of succession might lead to politicization of the acting Attorney General role, undermining perceived impartiality in federal law enforcement.",
+      "Excluding individuals serving in an acting capacity from succession eligibility could create temporary leadership gaps, possibly disrupting justice department functions relied upon by federal law enforcement officers.",
+      "The revocation of the previous succession order could generate uncertainty or transition challenges that affect continuity within the Department of Justice, influencing the effectiveness of federal law enforcement operations."
     ],
-    "enriched_at": "2025-12-09T02:37:15.098Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:39:14.338Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

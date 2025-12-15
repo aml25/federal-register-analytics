@@ -1,0 +1,44 @@
+{
+  "document_number": "2019-10398",
+  "executive_order_number": "13872",
+  "title": "Economic Empowerment of Asian Americans and Pacific Islanders",
+  "abstract": null,
+  "signing_date": "2019-05-13",
+  "publication_date": "2019-05-16",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/05/16/2019-10398/economic-empowerment-of-asian-americans-and-pacific-islanders",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-05-16/pdf/2019-10398.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/05/16/2019-10398.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a federal advisory commission and a White House initiative to support Asian American and Pacific Islander (AAPI) communities by improving their access to economic resources, promoting entrepreneurship, workforce development, and increasing their representation in leadership roles. It aims to help AAPI individuals and businesses thrive economically and participate more fully in the U.S. economy.",
+    "theme_ids": [
+      "small-business-support",
+      "workforce-development",
+      "economic-competitiveness",
+      "federal-advisory-committees",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "asian-americans",
+        "native-hawaiian-and-pacific-islanders",
+        "entrepreneurs-startups",
+        "small-business-owners",
+        "working-age-adults"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to reduce regulatory and tax burdens for AAPI entrepreneurs and small business owners could face challenges balancing economic competitiveness with regulatory protections, potentially leading to uneven outcomes among working-age adults within different AAPI subgroups.",
+      "The establishment of advisory commissions and interagency coordination may create bureaucratic delays, reducing the timely delivery of resources to AAPI small-business owners and entrepreneurs.",
+      "There may be unintended exclusion of less visible or undocumented AAPI subpopulations, limiting the full inclusivity and effectiveness of workforce development initiatives.",
+      "Focusing federal procurement opportunities on AAPI enterprises might provoke concerns about fairness or perceived preferential treatment among other minority business groups.",
+      "Insufficient data collection and research on diverse AAPI subpopulations could result in policies that overlook the unique economic challenges faced by certain AAPI communities, affecting the overall quality and impact of economic empowerment efforts."
+    ],
+    "enriched_at": "2025-12-15T07:26:17.228Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

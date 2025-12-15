@@ -13,30 +13,29 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-12/pdf/2025-02611.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/12/2025-02611.txt",
   "enrichment": {
-    "summary": "This executive order creates a government task force to identify and eliminate any anti-Christian bias within federal agencies, ensuring protection of Christian religious freedoms and enforcing laws against discrimination and violence targeting Christians. It directs federal agencies to review prior policies and to recommend actions to prevent unfair treatment of Christians and promote religious liberty.",
+    "summary": "This executive order creates a Task Force within the Department of Justice to identify and eliminate any government policies or actions that unfairly target Christians. It directs this Task Force to review federal agencies' past actions, recommend corrective measures, and protect the religious freedoms of Americans who practice Christianity.",
     "theme_ids": [
       "religious-liberty",
-      "federal-agency-management",
-      "public-safety"
+      "hate-crimes",
+      "federal-law-enforcement",
+      "presidential-commissions-task-forces"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "faith-based-organizations",
-        "religious-communities"
+        "christians",
+        "religious-organizations",
+        "faith-based-communities"
       ],
-      "negative_ids": [
-        "religious-liberty-opponents",
-        "secular-public-institutions"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "The order could lead to reduced enforcement of protections against discrimination for non-Christian religious groups or others.",
-      "Critics may argue that the focus on anti-Christian bias reflects partisan political motivations rather than objective policy enforcement.",
-      "Implementation may challenge federal agencies to fairly distinguish between protecting religious liberty and upholding anti-discrimination laws.",
-      "The task force may face difficulties obtaining cooperation from agencies and accurately identifying unlawful practices without bias.",
-      "The order may increase tension between religious liberty protections and policies supporting LGBTQ+ rights and other civil rights."
+      "The establishment of a Task Force focused solely on anti-Christian bias may raise concerns about exclusion or insufficient attention to discrimination faced by other religious groups, potentially impacting broader religious-liberty protections.",
+      "Federal agencies might face pressure to overcorrect prior policies, leading to relaxed enforcement against harmful conduct justified as religious expression, which could create tensions with hate-crimes protections.",
+      "The Task Force’s review and corrective measures might disproportionately prioritize Christian-affiliated organizations, potentially affecting federal regulatory and funding decisions in ways that could disadvantage secular or non-Christian faith-based communities.",
+      "Labeling past law enforcement actions as politically motivated prosecutions risks politicizing federal law enforcement and may undermine public trust, particularly among communities that view certain protests as lawful expressions of free speech.",
+      "The order's focus on anti-Christian hostility could lead to increased reporting efforts or enforcement that disproportionately targets individuals and groups accused of anti-Christian conduct, raising concerns about due process and potential overreach."
     ],
-    "enriched_at": "2025-12-09T02:40:36.874Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:29:23.070Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -13,28 +13,27 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-24/pdf/2025-01759.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/24/2025-01759.txt",
   "enrichment": {
-    "summary": "This executive order partially revokes several sections of a previous order on federal mission resilience, reorganizing and amending certain provisions to update federal continuity governance. It replaces some committees with new security policy committees and clarifies that the order does not affect legal authorities or create enforceable rights.",
+    "summary": "This executive order partially revokes certain sections of a previous order related to federal mission resilience and updates the remaining sections to align with a new national security memorandum. It clarifies that the revocation does not affect existing legal authorities and ensures implementation consistent with the law and funding availability.",
     "theme_ids": [
-      "national-security",
-      "federal-agency-management"
+      "national-security-information-classification",
+      "revocation-of-previous-executive-orders",
+      "interagency-coordination"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "state-and-local-governments"
+        "military-personnel-active-duty",
+        "veterans",
+        "intelligence-community-personnel"
       ],
-      "negative_ids": [
-        "federal-agencies-with-increased-administrative-burden"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "The revocation and restructuring of continuity governance provisions could lead to temporary confusion or gaps in federal mission resilience coordination.",
-      "Replacing established committees with new ones may delay decision-making during critical national security situations as roles and responsibilities transition.",
-      "The order’s language could be seen as reducing transparency or oversight by removing certain executive committees without clear public explanation.",
-      "Implementation timing and allocation of appropriations may challenge consistent application across federal agencies.",
-      "Lack of detail on how amended provisions will operate in practice might result in inconsistent interpretations across departments."
+      "The partial revocation and realignment may create temporary confusion or gaps in national security protocols affecting active-duty military and intelligence personnel during continuity operations.",
+      "Changes to interagency coordination structures could unintentionally slow decision-making or reduce effectiveness in emergency resilience efforts critical to veterans and military personnel.",
+      "Revising classification authorities aligned with the National Security Memorandum may raise concerns about information sharing and oversight among intelligence community personnel.",
+      "Because the order defers implementation to funding availability, insufficient appropriations could hinder mission resilience capabilities, disproportionately impacting military readiness."
     ],
-    "enriched_at": "2025-12-09T02:37:48.041Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:37:56.076Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

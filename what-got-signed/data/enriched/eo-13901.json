@@ -1,0 +1,42 @@
+{
+  "document_number": "2019-28286",
+  "executive_order_number": "13901",
+  "title": "Adjustments of Certain Rates of Pay",
+  "abstract": null,
+  "signing_date": "2019-12-26",
+  "publication_date": "2019-12-30",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/12/30/2019-28286/adjustments-of-certain-rates-of-pay",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-12-30/pdf/2019-28286.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/12/30/2019-28286.txt",
+  "enrichment": {
+    "summary": "This executive order updates pay rates for various federal employees including statutory pay systems, senior executives, members of Congress, judges, uniformed services, and administrative law judges. It sets new salary schedules and locality-based pay adjustments effective January 2020, superseding a prior order from March 2019.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "retirement-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants",
+        "military-personnel-active-duty",
+        "veterans",
+        "foreign-service-officers",
+        "political-appointees",
+        "law-enforcement-officers-federal"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Adjustments in pay rates may not fully reflect regional cost-of-living increases, potentially disadvantaging federal employees and military personnel stationed in high-cost areas despite locality pay schedules.",
+      "The pay adjustments for senior executives and political appointees could widen pay disparities within the federal workforce, creating concerns about internal equity among civil servants and rank-and-file employees.",
+      "Veterans employed within Veterans Health Administration could face complexities if pay adjustments are not aligned consistently across all VA pay schedules, potentially affecting retention and morale.",
+      "Implementation of new salary schedules may have unintended administrative burdens and delays, causing temporary pay disruptions for federal employees, foreign service officers, and administrative law judges.",
+      "The order supersedes a prior executive order within the same year, which may cause confusion or concern about the stability and predictability of federal pay policies among impacted populations."
+    ],
+    "enriched_at": "2025-12-12T08:14:17.612Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

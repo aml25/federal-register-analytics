@@ -1,0 +1,41 @@
+{
+  "document_number": "2017-28160",
+  "executive_order_number": "13819",
+  "title": "Adjustments of Certain Rates of Pay",
+  "abstract": null,
+  "signing_date": "2017-12-22",
+  "publication_date": "2017-12-27",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/12/27/2017-28160/adjustments-of-certain-rates-of-pay",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-12-27/pdf/2017-28160.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/12/27/2017-28160.txt",
+  "enrichment": {
+    "summary": "This executive order updates and adjusts the pay rates for various federal employees, including those under statutory pay systems, the Senior Executive Service, members of Congress, federal judges, military personnel, and administrative law judges. It sets the new salary and pay ranges effective starting in 2018 and supersedes a previous order from 2016.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "military-readiness-force-structure",
+      "veterans-healthcare"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants",
+        "military-personnel-active-duty",
+        "veterans",
+        "foreign-service-officers"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Adjustments in pay rates may not keep pace with local cost-of-living increases, potentially reducing real income for some federal employees despite nominal raises.",
+      "Increases in military personnel pay under this order could raise defense personnel costs, affecting budget allocations for military readiness and force structure priorities.",
+      "Veterans employed by the Department of Veterans Affairs might experience variable pay changes that could impact recruitment and retention within veterans healthcare services.",
+      "The broad scope of pay adjustments across government branches, including senior executives and judges, may prompt concerns about equity and appropriateness of raises amid wider federal workforce wage stagnation.",
+      "The implementation of locality-based comparability payments may inadvertently create disparities among employees with similar roles but in different geographical areas, impacting morale and workforce cohesion."
+    ],
+    "enriched_at": "2025-12-12T08:12:35.167Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

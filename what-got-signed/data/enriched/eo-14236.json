@@ -13,31 +13,37 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-20/pdf/2025-04866.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/20/2025-04866.txt",
   "enrichment": {
-    "summary": "This executive order cancels a series of prior executive orders, memoranda, and presidential determinations primarily issued under the Biden administration. It aims to rescind actions seen as harmful to federal governance and policy, restoring what the order calls 'common sense' to the federal government. The revoked items cover topics such as public health, national security, labor standards, energy, and biotechnology.",
+    "summary": "This executive order revokes a series of executive orders, memoranda, and presidential determinations issued by the previous administration, aiming to reverse policies considered harmful and to restore a more traditional approach to federal governance. It includes actions affecting public health, labor standards, national security, economic policy, and federal support for tribal nations.",
     "theme_ids": [
-      "national-security",
-      "regulatory-reform",
-      "energy-policy",
-      "supply-chain-security"
+      "defense-production-act",
+      "minimum-wage",
+      "pandemic-preparedness",
+      "tribal-colleges-native-american-education",
+      "apprenticeships-vocational-training"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
-        "domestic-energy-producers"
+        "federal-contractors",
+        "tribal-college-students-communities",
+        "tribal-governments",
+        "union-members",
+        "working-age-adults"
       ],
       "negative_ids": [
-        "green-energy-industry",
-        "foreign-suppliers"
+        "healthcare-workers",
+        "renewable-energy-workers",
+        "defense-industry-workers",
+        "low-income-individuals-families"
       ]
     },
     "potential_concerns": [
-      "Removing executive orders related to minimum wage and worker rights could negatively impact labor standards and union protections.",
-      "Revoking public health and pandemic response orders might weaken preparedness and response capacity for future health threats.",
-      "Cancellation of determinations under the Defense Production Act could disrupt supply chain resilience for critical materials and products.",
-      "Eliminating policies aimed at advancing biotechnology and human rights initiatives may stall progress in innovation and social equity.",
-      "The broad revocation of multiple prior actions might create legal uncertainty or hinder continuity in federal programs and policies."
+      "Revoking the increase in the minimum wage for federal contractors may negatively impact low-income individuals and working-age adults relying on federal contracts for improved pay.",
+      "Rescinding pandemic preparedness orders could weaken protections for healthcare workers and public health infrastructure, potentially increasing risks during future health crises.",
+      "Eliminating delegations under the Defense Production Act may disrupt supply chain resilience and strain defense industry workers tasked with critical production responsibilities.",
+      "Reversing reforms supporting tribal colleges and tribal governments might undermine educational and self-determination advancements for Native American communities.",
+      "Curtailing executive actions on apprenticeships and worker empowerment risks slowing progress for union members and working-age adults seeking vocational training and labor rights."
     ],
-    "enriched_at": "2025-12-09T02:42:11.092Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:24:41.187Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

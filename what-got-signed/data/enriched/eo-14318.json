@@ -13,33 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-07-28/pdf/2025-14212.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/07/28/2025-14212.txt",
   "enrichment": {
-    "summary": "This executive order directs the federal government to speed up the permitting and construction of large data centers and related infrastructure essential for artificial intelligence and technology development. It encourages the use of federal lands and simplifies environmental reviews to support projects that enhance national security, economic growth, and technological leadership.",
+    "summary": "This executive order directs the federal government to speed up and simplify the permitting and construction of large data centers and their supporting infrastructure, especially those related to artificial intelligence. It encourages the use of federal lands, streamlines environmental reviews, offers financial support, and coordinates agencies to facilitate rapid development of these projects while considering national security and environmental factors.",
     "theme_ids": [
+      "infrastructure-permitting",
+      "energy-infrastructure",
       "artificial-intelligence",
-      "national-security",
-      "technology-development",
-      "regulatory-reform",
-      "federal-property-management"
+      "defense-industrial-base",
+      "environmental-review-process"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry",
-        "domestic-energy-producers",
-        "investment-entities"
+        "technology-workers",
+        "large-corporation-employees",
+        "defense-industry-workers"
       ],
       "negative_ids": [
-        "foreign-suppliers",
-        "environmental-advocates"
+        "environmental-justice-communities",
+        "tribal-communities-reservations",
+        "rural-communities"
       ]
     },
     "potential_concerns": [
-      "Expedited environmental reviews may lead to insufficient assessment of ecological impacts and harm to sensitive habitats.",
-      "Use of federally owned lands and Brownfield or Superfund sites for data center projects might raise concerns over land use conflicts or long-term environmental risks.",
-      "The high capital threshold for qualifying projects could favor large corporations and disadvantage smaller innovators or communities.",
-      "Streamlining permitting could reduce public input and transparency in the approval process for large infrastructure projects.",
-      "Federal regulatory changes might face legal challenges or implementation difficulties across multiple agencies, causing delays or inconsistencies."
+      "Accelerated permitting and streamlined environmental reviews may lead to increased environmental degradation and pollution, disproportionately impacting environmental justice communities and tribal communities on or near federal lands.",
+      "Rapid development of large data centers on federal lands could disrupt rural communities by straining local resources, infrastructure, and altering land uses without adequate local input or benefit.",
+      "Prioritization of national security and defense-related infrastructure might limit environmental protections and oversight, potentially creating conflicts with tribal sovereignty and cultural resource preservation.",
+      "Financial incentives and large capital requirements may concentrate benefits to large corporations and defense contractors, potentially excluding small tech companies and startups from equitable development opportunities.",
+      "Use of Brownfield and Superfund sites for data center projects may raise concerns about long-term health impacts for nearby populations if remediation is expedited without thorough community consultation."
     ],
-    "enriched_at": "2025-12-09T02:46:12.213Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T07:36:46.428Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

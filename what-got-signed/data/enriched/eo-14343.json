@@ -13,27 +13,29 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-09-03/pdf/2025-16924.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/09/03/2025-16924.txt",
   "enrichment": {
-    "summary": "This executive order excludes certain federal agencies and subdivisions involved in intelligence, counterintelligence, investigation, and national security work from federal labor-management relations programs. It updates and expands exclusions to include units related to hydropower operations, specific parts of the Department of Commerce, NASA, and the U.S. Agency for Global Media to protect national security interests.",
+    "summary": "This executive order expands the list of federal agencies and subdivisions that are excluded from the Federal Labor-Management Relations Program because their primary functions involve intelligence, national security, or related sensitive activities. It updates previous exclusions to include specific units within the Department of Commerce, NASA, and the U.S. Agency for Global Media, emphasizing national security considerations in federal labor relations.",
     "theme_ids": [
-      "national-security",
-      "federal-workforce"
+      "federal-labor-management-relations",
+      "intelligence-operations",
+      "national-security-information-classification"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "federal-employees"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "labor-union-members"
+        "federal-employees-civil-servants",
+        "labor-unions",
+        "intelligence-community-personnel",
+        "security-clearance-holders"
       ]
     },
     "potential_concerns": [
-      "Excluding certain agencies from labor-management relations protections could weaken collective bargaining rights for affected federal employees.",
-      "The broadened exclusions may reduce transparency and oversight in critical government functions related to national security.",
-      "There may be operational challenges in determining which subdivisions qualify for the exclusion, potentially causing confusion or inconsistent application.",
-      "Unions and employee advocates might argue the order disproportionately limits labor rights for workers in sensitive but non-combat roles.",
-      "The order could set a precedent for further exemptions that might erode established labor protections in other federal agencies."
+      "The expansion of exclusions may reduce collective bargaining rights and protections for federal employees in key intelligence and national security agencies, negatively impacting their working conditions.",
+      "Labor unions representing affected federal employees could face diminished influence and membership as a result of these exclusions.",
+      "Intelligence community personnel and security clearance holders may experience increased job insecurity and reduced transparency in labor relations due to the removal from the Federal Labor-Management Relations Program.",
+      "The order might unintentionally create morale issues or labor disputes within excluded agencies due to perceived unfair labor restrictions.",
+      "Excluding specific agency subdivisions based on national security rationale could set a precedent for broadly limiting labor rights in other federal sectors under vague security justifications."
     ],
-    "enriched_at": "2025-12-09T02:47:37.278Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:01:48.147Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

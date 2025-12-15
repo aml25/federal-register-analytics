@@ -13,32 +13,33 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-06-18/pdf/2025-11358.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/06/18/2025-11358.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to improve wildfire prevention and response by consolidating fire programs, encouraging local partnerships and technology use, streamlining regulations, and updating wildfire mitigation practices. It emphasizes using modern technology and better coordination to help state and local governments respond more effectively to wildfires.",
+    "summary": "This executive order directs federal agencies to improve wildfire prevention and response by streamlining wildfire programs, encouraging local wildfire preparedness, updating technology for firefighting, and revising rules that hinder effective wildfire mitigation. It also promotes cooperation across federal, state, and local levels to reduce wildfire risks and improve rapid response to wildfires.",
     "theme_ids": [
-      "regulatory-reform",
-      "technology-development",
-      "public-safety",
-      "public-lands-management",
-      "federal-agency-management",
-      "artificial-intelligence"
+      "wildfire-management",
+      "forest-management-wildfire-prevention",
+      "government-reorganization",
+      "homeland-security"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "state-and-local-governments",
-        "tech-industry"
+        "rural-communities",
+        "tribal-communities-reservations",
+        "local-governments",
+        "state-governments",
+        "military-personnel-active-duty"
       ],
       "negative_ids": [
-        "foreign-suppliers"
+        "large-corporation-employees"
       ]
     },
     "potential_concerns": [
-      "Efforts to modify or rescind environmental protections for prescribed burns and fire retardants may increase risks to ecosystems or public health.",
-      "Consolidation of federal wildfire programs might face bureaucratic resistance or reduce specialized local expertise leading to implementation delays.",
-      "Reliance on new technologies such as artificial intelligence could create challenges related to data accuracy, privacy, and equitable access for all regions.",
-      "Incentivizing faster wildfire response without sufficient safeguards could lead to rushed decisions that overlook environmental or community concerns.",
-      "Rule changes related to utility companies’ wildfire liability may create legal uncertainties and conflicts with ongoing litigation."
+      "Streamlining federal wildfire programs and changing regulations could reduce oversight and environmental protections, potentially harming rural and tribal communities reliant on forest health.",
+      "Efforts to expedite wildfire response and modify rules on prescribed burns might expose local communities, including tribal populations, to increased smoke and health risks if not carefully managed.",
+      "Prioritizing sale of excess military aircraft for wildfire response may strain military resources or personnel assigned to wildfire missions, impacting active-duty military personnel.",
+      "Changes to utility regulations and litigation positions could shift wildfire liability burdens onto local governments or communities, negatively influencing rural and tribal populations.",
+      "Incentivizing state and local wildfire mitigation practices without equitable funding could disadvantage smaller or under-resourced local governments, widening regional inequalities in wildfire preparedness."
     ],
-    "enriched_at": "2025-12-09T02:45:44.864Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T07:37:57.840Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

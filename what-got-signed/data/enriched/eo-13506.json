@@ -1,0 +1,45 @@
+{
+  "document_number": "E9-5802",
+  "executive_order_number": "13506",
+  "title": "Establishing a White House Council on Women And Girls",
+  "abstract": null,
+  "signing_date": "2009-03-11",
+  "publication_date": "2009-03-16",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/03/16/E9-5802/establishing-a-white-house-council-on-women-and-girls",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-03-16/pdf/E9-5802.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/03/16/E9-5802.txt",
+  "enrichment": {
+    "summary": "This executive order creates a White House Council on Women and Girls to coordinate federal efforts addressing issues that impact women and girls, such as pay equity, education, health care, and violence prevention. The Council advises the President, promotes policy improvements, and develops plans to advance opportunities and address challenges facing women across the government.",
+    "theme_ids": [
+      "gender-equality",
+      "pay-equity-equal-pay",
+      "violence-against-women",
+      "stem-education",
+      "caregiving-paid-leave",
+      "federal-workforce-management",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "women",
+        "individuals-with-disabilities",
+        "working-age-adults",
+        "small-business-owners"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to promote pay equity and increase women’s participation in STEM fields may face resistance from entrenched industry cultures, potentially limiting their effectiveness for women and working-age adults employed in these sectors.",
+      "The Council’s advisory-only role might limit the speed and enforceability of policy improvements, leaving women, girls, and individuals with disabilities with slower progress on critical issues like caregiving leave and violence prevention.",
+      "Focus on women-owned small business international competitiveness could inadvertently overlook challenges faced by women-led businesses operating domestically or in underserved rural and minority communities.",
+      "Interagency coordination required by the Council may create bureaucratic delays or inconsistent implementation across federal programs, causing uneven benefits for working-age women and girls.",
+      "Without explicit funding increases, existing federal programs targeting women and girls may lack sufficient resources for meaningful expansion or evaluation, potentially hindering intended improvements in education, health care, and workplace management."
+    ],
+    "enriched_at": "2025-12-15T01:59:01.705Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

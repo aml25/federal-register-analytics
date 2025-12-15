@@ -13,32 +13,28 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-05-09/pdf/2022-10076.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/05/09/2022-10076.txt",
   "enrichment": {
-    "summary": "This executive order restructures the National Quantum Initiative Advisory Committee to provide expert advice on advancing quantum information science in the United States. It establishes the committee’s membership, roles, and responsibilities to help guide federal quantum research and technology efforts and revokes the previous order establishing the committee.",
+    "summary": "This executive order renews and updates the National Quantum Initiative Advisory Committee to provide expert advice to the President and relevant government agencies on advances and policies in quantum information science. It sets the committee’s structure, responsibilities, and administrative support to ensure ongoing U.S. leadership in quantum technology development.",
     "theme_ids": [
-      "federal-research-coordination",
-      "scientific-research",
-      "technology-development",
-      "advisory-committees-management",
-      "national-security"
+      "science-and-technology-policy",
+      "quantum-computing-quantum-technology",
+      "federal-advisory-committees"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry",
         "scientific-researchers",
-        "academic-institutions"
+        "technology-workers",
+        "corporations-businesses",
+        "u-s-citizens"
       ],
-      "negative_ids": [
-        "foreign-suppliers"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Ensuring the Committee maintains diverse and balanced representation across industry, academia, and government could be challenging.",
-      "Coordination between multiple federal agencies and subcommittees may lead to bureaucratic delays or inefficiencies.",
-      "Classified information access requirements could limit some experts’ participation or slow advisory processes.",
-      "Without guaranteed appropriations, the Committee’s work and support services might face funding shortfalls.",
-      "The revocation of the prior executive order could create transition issues impacting ongoing advisory activities."
+      "Consolidating advisory roles in the National Quantum Initiative Advisory Committee may limit the diversity of expert perspectives, potentially impacting scientific researchers and technology workers reliant on broad input for innovation.",
+      "The emphasis on national security and economic competitiveness in quantum technology may prioritize certain corporations and sectors over smaller businesses or startups, potentially disadvantaging some stakeholders in the quantum technology ecosystem.",
+      "The requirement for security clearances for committee members could restrict participation to those with government ties or security clearances, possibly excluding qualified scientific researchers and technology workers without such access.",
+      "U.S. citizens' leadership in quantum technology may inadvertently sideline lawful permanent residents or immigrant scientists in the quantum research community, although they are not explicitly impacted by this order."
     ],
-    "enriched_at": "2025-12-09T03:47:30.539Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T07:34:43.130Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

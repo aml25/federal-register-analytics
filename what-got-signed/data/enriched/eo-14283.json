@@ -13,31 +13,33 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-28/pdf/2025-07380.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/28/2025-07380.txt",
   "enrichment": {
-    "summary": "This executive order establishes a White House initiative to support Historically Black Colleges and Universities (HBCUs) by enhancing their institutional capacity, infrastructure, and partnerships with the private sector. It also creates a Presidential Board of Advisors on HBCUs to guide federal support and requires annual progress reporting to improve educational opportunities and economic outcomes for students at HBCUs.",
+    "summary": "This executive order establishes a White House Initiative to support Historically Black Colleges and Universities (HBCUs) by improving their capacity, increasing private-sector involvement, and fostering partnerships to enhance educational excellence and economic opportunities for students. It also creates a Presidential Board of Advisors to guide the initiative, requires annual progress reports, and revokes a previous related executive order.",
     "theme_ids": [
-      "federal-agency-management",
-      "advisory-committees-management",
-      "federal-research-coordination",
-      "technology-development",
-      "education-policy"
+      "hbcus",
+      "higher-education",
+      "workforce-development",
+      "federal-advisory-committees",
+      "education-freedom"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "hbcu-students",
-        "hbcu-administrators-and-faculty"
+        "hbcu-students-communities",
+        "african-americans-black-americans",
+        "youth-young-adults",
+        "working-age-adults",
+        "entrepreneurs-startups",
+        "large-corporation-employees"
       ],
-      "negative_ids": [
-        "non-hbcu-academic-institutions"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "The effectiveness of the initiative depends on sustained appropriations and cooperation from multiple agencies, posing risks to consistent implementation.",
-      "Increased private-sector involvement may skew priorities toward industries and sectors that benefit workforce demands rather than broader educational goals.",
-      "The revocation of the previous initiative could create transitional confusion or loss of momentum if not well managed.",
-      "States and agencies may have variable commitment to matching funds and collaborative frameworks, limiting the impact of certain provisions.",
-      "Annual reporting requirements might not fully capture qualitative improvements in HBCU student outcomes or institutional success."
+      "Increased private-sector involvement may prioritize programs aligned with business interests over broader educational goals, potentially limiting academic freedom for HBCU students and communities.",
+      "The focus on workforce development in specific industries like technology and healthcare might marginalize students interested in liberal arts or other fields, affecting diversity of academic offerings at HBCUs.",
+      "The requirement for State matching funds for 1890 Land-Grant Institutions could create funding disparities that indirectly affect some HBCUs relying on similar support, impacting students from rural or underserved African American communities.",
+      "Annual progress reports and advisory boards may increase administrative burdens on HBCU leadership, potentially diverting attention from direct student support to compliance activities.",
+      "Emphasis on public-private partnerships might lead to unequal access among smaller or less well-known HBCUs, exacerbating inequality within the HBCU network and the African American student population."
     ],
-    "enriched_at": "2025-12-09T02:44:33.429Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:18:22.373Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

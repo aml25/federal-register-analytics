@@ -1,0 +1,45 @@
+{
+  "document_number": "2019-00014",
+  "executive_order_number": "13855",
+  "title": "Promoting Active Management of America's Forests, Rangelands, and Other Federal Lands To Improve Conditions and Reduce Wildfire Risk",
+  "abstract": null,
+  "signing_date": "2018-12-21",
+  "publication_date": "2019-01-07",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/01/07/2019-00014/promoting-active-management-of-americas-forests-rangelands-and-other-federal-lands-to-improve",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-01-07/pdf/2019-00014.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/01/07/2019-00014.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to actively manage forests, rangelands, and other federal lands through coordinated efforts aimed at reducing the risk of catastrophic wildfires. It sets specific goals for treating millions of acres to reduce hazardous fuels, improve forest health, and protect communities, and calls for streamlining regulatory processes and increasing collaboration with states, tribes, and other partners. Additionally, it promotes the use of technology like unmanned aerial systems to enhance forest management and firefighting efforts.",
+    "theme_ids": [
+      "forest-management-wildfire-prevention",
+      "public-lands-management",
+      "wildfire-management",
+      "rural-development",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "rural-communities",
+        "tribal-communities-reservations",
+        "agricultural-workers-farmers",
+        "small-business-owners"
+      ],
+      "negative_ids": [
+        "environmental-justice-communities"
+      ]
+    },
+    "potential_concerns": [
+      "The increased active management and fuel reduction treatments may lead to unintended environmental impacts that disproportionately affect environmental justice communities living near federal lands.",
+      "Policies promoting timber sales and biomass utilization could create conflicts over land use that affect tribal communities' cultural resources and traditional land rights.",
+      "The streamlining of regulatory reviews and shortening of consultation periods could lead to insufficient assessment of ecological and community impacts, raising concerns among rural communities relying on healthy ecosystems.",
+      "Efforts to encourage post-fire restoration and forest product markets may benefit small-business owners in forestry sectors but could marginalize non-industrial local stakeholders if not equitably managed.",
+      "Greater coordination requirements across federal, state, tribal, and local governments may face challenges in integrating diverse perspectives, risking insufficient attention to the needs of agricultural workers and rural populations."
+    ],
+    "enriched_at": "2025-12-15T02:26:36.500Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "document_number": "2018-11913",
+  "executive_order_number": "13836",
+  "title": "Developing Efficient, Effective, and Cost- Reducing Approaches To Federal Sector Collective Bargaining",
+  "abstract": null,
+  "signing_date": "2018-05-25",
+  "publication_date": "2018-06-01",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/06/01/2018-11913/developing-efficient-effective-and-cost--reducing-approaches-to-federal-sector-collective-bargaining",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-06-01/pdf/2018-11913.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/06/01/2018-11913.txt",
+  "enrichment": {
+    "summary": "This executive order aims to make federal union collective bargaining more efficient, effective, and cost-saving. It establishes a working group to share best practices, encourages timely negotiations, and requires agencies to report and publicly share collective bargaining agreements to improve government operations.",
+    "theme_ids": [
+      "federal-labor-management-relations",
+      "government-efficiency",
+      "federal-workforce-management",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "federal-employees-civil-servants",
+        "labor-unions",
+        "taxpayers"
+      ]
+    },
+    "potential_concerns": [
+      "The order’s emphasis on reducing negotiation times and limiting bargaining scope may negatively impact federal employees’ ability to secure favorable working conditions, harming morale and job satisfaction.",
+      "Labor unions may face weakened collective bargaining power due to restrictions on subjects considered negotiable and accelerated negotiation timelines, potentially undermining employee representation.",
+      "Efforts to increase agency operational flexibility and hold employees more accountable could lead to increased management discretion that might sideline employee protections and due process.",
+      "Taxpayers may experience cost savings in the short term, but overly rigid bargaining processes could degrade workforce performance and service quality, ultimately affecting government efficiency and public trust.",
+      "The establishment of a central Labor Relations Group and information sharing may reduce negotiation duplication but could also lead to one-size-fits-all approaches that do not reflect unique agency or workforce needs."
+    ],
+    "enriched_at": "2025-12-15T07:11:17.683Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

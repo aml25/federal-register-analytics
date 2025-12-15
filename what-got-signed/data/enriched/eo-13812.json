@@ -1,0 +1,39 @@
+{
+  "document_number": "2017-21559",
+  "executive_order_number": "13812",
+  "title": "Revocation of Executive Order Creating Labor- Management Forums",
+  "abstract": null,
+  "signing_date": "2017-09-29",
+  "publication_date": "2017-10-04",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/10/04/2017-21559/revocation-of-executive-order-creating-labor--management-forums",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-10-04/pdf/2017-21559.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/10/04/2017-21559.txt",
+  "enrichment": {
+    "summary": "This executive order officially cancels a previous order that created labor-management forums across federal agencies, citing their inefficiency and the lack of public benefit. It directs agencies to discontinue related rules and policies while ensuring existing collective bargaining agreements remain unaffected.",
+    "theme_ids": [
+      "federal-labor-management-relations",
+      "government-efficiency",
+      "revocation-of-previous-executive-orders",
+      "federal-advisory-committees"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "federal-employees-civil-servants",
+        "labor-unions"
+      ]
+    },
+    "potential_concerns": [
+      "Discontinuing labor-management forums may reduce collaborative problem-solving opportunities for federal employees and labor unions, potentially harming workplace relations and morale.",
+      "The order's emphasis on government efficiency might undermine meaningful labor engagement, leading to unresolved workplace disputes impacting federal employee job satisfaction and productivity.",
+      "Without these forums, federal employees and labor unions may have fewer venues to address concerns informally, potentially increasing formal grievances and labor-management conflicts.",
+      "Federal employees could experience negative impacts if the elimination of these forums reduces their influence on policy implementation and working conditions."
+    ],
+    "enriched_at": "2025-12-12T08:13:36.668Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

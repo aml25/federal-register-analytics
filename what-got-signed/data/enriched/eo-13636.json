@@ -1,0 +1,44 @@
+{
+  "document_number": "2013-03915",
+  "executive_order_number": "13636",
+  "title": "Improving Critical Infrastructure Cybersecurity",
+  "abstract": null,
+  "signing_date": "2013-02-12",
+  "publication_date": "2013-02-19",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2013/02/19/2013-03915/improving-critical-infrastructure-cybersecurity",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2013-02-19/pdf/2013-03915.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2013/02/19/2013-03915.txt",
+  "enrichment": {
+    "summary": "This executive order directs the U.S. government to improve the cybersecurity and resilience of the nation's critical infrastructure by encouraging information sharing, developing a voluntary cybersecurity framework, and coordinating efforts among government agencies and private sector partners. It emphasizes protecting privacy and civil liberties while promoting collaboration to manage cyber risks effectively.",
+    "theme_ids": [
+      "cybersecurity-national-security",
+      "critical-infrastructure-protection",
+      "homeland-security",
+      "interagency-coordination",
+      "data-privacy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "corporations-businesses",
+        "cybersecurity-professionals",
+        "large-corporation-employees"
+      ],
+      "negative_ids": [
+        "consumers"
+      ]
+    },
+    "potential_concerns": [
+      "Increased sharing of cyber threat information between government and private sector may risk unintended exposure of sensitive business data, potentially harming corporations-businesses and their consumers (themes: data-privacy, critical-infrastructure-protection).",
+      "Voluntary adoption of the Cybersecurity Framework might result in uneven cybersecurity standards, putting some large-corporation-employees and cybersecurity-professionals at greater risk of cyber incidents (theme: cybersecurity-national-security).",
+      "Privacy and civil liberties protections may be insufficiently enforced, leading to concerns among consumers about personal data use and surveillance during cybersecurity information exchanges (themes: data-privacy, homeland-security).",
+      "The expansion of classified information sharing and security clearances for private sector personnel could create insider risk vulnerabilities if not properly managed, affecting cybersecurity-professionals directly involved in critical infrastructure defense (themes: homeland-security, interagency-coordination).",
+      "Efforts to integrate sector-specific agencies and private sector interests could lead to regulatory complexity or conflicting requirements for corporations-businesses, increasing compliance burdens on large-corporation-employees (theme: interagency-coordination)."
+    ],
+    "enriched_at": "2025-12-15T02:12:26.687Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -13,33 +13,36 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-29/pdf/2025-07470.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/29/2025-07470.txt",
   "enrichment": {
-    "summary": "This executive order directs U.S. government agencies to rapidly and responsibly develop and secure access to offshore seabed minerals critical to the nation's economy, energy security, and defense. It emphasizes expediting permits for exploration and extraction, fostering domestic processing capabilities, and strengthening international partnerships to counter foreign influence, especially China.",
+    "summary": "This executive order directs U.S. government agencies to speed up the exploration, licensing, and development of critical mineral resources found on the ocean floor, especially in areas beyond national jurisdiction and the U.S. Outer Continental Shelf. It aims to strengthen America’s leadership, secure supply chains for minerals vital to national security and the economy, and build partnerships with allies while countering foreign influence.",
     "theme_ids": [
-      "national-security",
-      "energy-policy",
-      "federal-research-coordination",
-      "foreign-policy",
-      "regulatory-reform",
-      "technology-development"
+      "critical-minerals-supply-chain-security",
+      "defense-industrial-base",
+      "energy-independence-security",
+      "interagency-coordination",
+      "china"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "critical-minerals-industry",
-        "scientific-researchers"
+        "defense-industry-workers",
+        "large-corporation-employees",
+        "energy-sector-workers-oil-gas-coal",
+        "scientific-researchers",
+        "military-personnel-active-duty"
       ],
       "negative_ids": [
-        "foreign-processors-of-critical-minerals",
-        "environmental-advocates"
+        "environmental-justice-communities",
+        "coastal-communities",
+        "tribal-communities-reservations"
       ]
     },
     "potential_concerns": [
-      "Expedited permitting and regulatory processes could lead to insufficient environmental review and harm to marine ecosystems.",
-      "Increased competition for seabed mineral resources may intensify geopolitical tensions, particularly with China and other nations.",
-      "Domestic industries and companies might struggle with the initial capital and technological challenges required to develop offshore seabed mining and processing capabilities.",
-      "Coordination among multiple federal agencies could face bureaucratic delays despite mandated timelines, hindering timely implementation.",
-      "Efforts to counter China’s influence may escalate trade or diplomatic conflicts affecting broader foreign relations."
+      "Accelerated permitting and development may lead to environmental degradation, disproportionately impacting coastal communities and environmental justice communities near seabed mining sites.",
+      "The focus on countering China and expanding military preparedness could intensify geopolitical tensions, potentially increasing risks for defense-industry workers and active military personnel.",
+      "Rapid development without robust environmental safeguards may lead to conflicts with tribal communities whose livelihoods or cultural heritage depend on marine ecosystems.",
+      "Large corporations might disproportionately benefit from expedited licensing, potentially crowding out smaller businesses and reducing economic opportunities in affected regions.",
+      "Investment and coordination challenges across agencies could delay intended supply chain security benefits, affecting energy sector workers reliant on stable mineral supplies."
     ],
-    "enriched_at": "2025-12-09T02:44:38.729Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:18:05.637Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

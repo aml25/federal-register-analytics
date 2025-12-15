@@ -13,31 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-25/pdf/2025-03133.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/25/2025-03133.txt",
   "enrichment": {
-    "summary": "This executive order directs the reduction of unnecessary federal agencies, advisory committees, and government functions to shrink the size of the federal bureaucracy, limit government waste, and increase accountability. It also terminates certain federal programs and committees and mandates agency heads to identify additional entities for elimination.",
+    "summary": "This executive order directs several federal agencies and government entities to reduce their size and eliminate unnecessary parts and advisory committees, aiming to make the federal government smaller, more accountable, and less wasteful. It also revokes certain previous orders and programs related to federal workforce management, directing officials to report on compliance and identifying additional targets for reduction.",
     "theme_ids": [
-      "federal-agency-management",
-      "federal-workforce",
-      "advisory-committees-management",
-      "regulatory-reform"
+      "government-efficiency",
+      "regulatory-reform-deregulation",
+      "federal-workforce-management",
+      "federal-advisory-committees",
+      "revocation-of-previous-executive-orders"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "federal-employees",
-        "displaced-federal-workers"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "federal-agencies",
-        "federal-budget-stakeholders"
+        "federal-employees-civil-servants",
+        "federal-contractors",
+        "nonprofit-organizations",
+        "international-organizations"
       ]
     },
     "potential_concerns": [
-      "Significant federal workforce reductions could lead to job losses and disruption for displaced federal workers.",
-      "Elimination of federal advisory committees and programs may reduce expert input and stakeholder engagement in policymaking.",
-      "Rapid implementation timelines (14 to 30 days) may cause logistical and compliance challenges for agencies.",
-      "Cutting non-statutory and some statutory functions risks impairing essential government services and mission effectiveness.",
-      "Revoking long-standing Presidential memoranda and programs could lead to the loss of institutional knowledge and coordination mechanisms."
+      "The reduction and elimination of non-statutory components and advisory committees may lead to job losses and reduced job security for federal employees and contractors, negatively impacting federal workforce morale and stability.",
+      "Terminating advisory committees such as those focused on financial protection, health equity, and international aid could diminish expert input, resulting in less informed policy decisions that adversely affect nonprofit and international organizations reliant on federal guidance and funding.",
+      "The order’s directive to minimize statutory functions to their bare minimum could impair the operational effectiveness of entities like the United States Institute of Peace and African Development Foundation, reducing their ability to fulfill critical missions.",
+      "Withdrawing programs like the Presidential Management Fellows Program may reduce pathways for leadership development within the federal workforce, limiting opportunities for talent cultivation among emerging federal employees.",
+      "Rapid implementation deadlines and budgetary restrictions could cause disruptions and inefficiencies in affected agencies, potentially delaying services and support to communities that depend indirectly on their programs."
     ],
-    "enriched_at": "2025-12-09T02:41:15.015Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:27:21.706Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

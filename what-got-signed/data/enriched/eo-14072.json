@@ -13,35 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-04-27/pdf/2022-09138.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/04/27/2022-09138.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to protect and restore mature and old-growth forests on public lands, reduce wildfire risks, and support sustainable forest-based economies, including indigenous and local communities. It also commits the U.S. to combat international deforestation through coordinated government actions and promotes nature-based solutions to address climate change and environmental resilience.",
+    "summary": "This executive order directs the federal government to protect and restore the nation's forests, including mature and old-growth forests, by enhancing wildfire prevention, promoting climate-smart forestry, and supporting sustainable local economies. It also commits to combating international deforestation through coordinated government efforts and advancing nature-based solutions to address climate change and improve ecosystem resilience.",
     "theme_ids": [
+      "forest-management-wildfire-prevention",
+      "climate-change-policy",
       "public-lands-management",
-      "environmental-regulation",
-      "foreign-policy",
-      "trade-policy",
-      "tribal-policy",
-      "place-based-economic-development",
-      "economic-development",
-      "climate-change-mitigation",
-      "nature-based-solutions"
+      "international-agreements-treaties",
+      "rural-development"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "indigenous-communities",
-        "tribal-nations"
+        "tribal-communities-reservations",
+        "rural-communities",
+        "agricultural-workers-farmers",
+        "small-business-owners"
       ],
-      "negative_ids": [
-        "foreign-timber-and-lumber-exporters"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Defining and inventorying old-growth forests may delay immediate protective actions due to complexity and jurisdictional disputes.",
-      "Balancing wildfire risk reduction with forest conservation could lead to conflicts over use of active management and prescribed burns.",
-      "International efforts to restrict commodities linked to deforestation may face trade pushback and complicate diplomatic relations.",
-      "Implementing collaborative, community-led economic plans may be challenging across diverse regions and sectors with competing interests.",
-      "Ensuring sufficient funding and interagency coordination for the ambitious reforestation and conservation goals may face bureaucratic and budgetary obstacles."
+      "Implementation of wildfire mitigation strategies and climate-smart forestry may restrict certain traditional land uses or access for tribal communities, potentially conflicting with treaty rights.",
+      "Rural communities and small-business owners in the sustainable forest products sector could face economic disruption if stricter conservation policies limit timber harvesting.",
+      "Agricultural workers and farmers might be indirectly impacted by changes in commodity supply chains due to international deforestation regulations, possibly affecting market access or costs.",
+      "Efforts to combat international deforestation through import restrictions could increase compliance costs or supply uncertainties for U.S. businesses reliant on affected commodities.",
+      "Scaling up nursery capacity and seed collection to meet reforestation goals may require significant coordination, risking delays or uneven benefits across regions, especially in rural and tribal areas."
     ],
-    "enriched_at": "2025-12-09T03:47:41.521Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T07:34:49.964Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

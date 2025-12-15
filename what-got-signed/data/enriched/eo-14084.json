@@ -13,34 +13,28 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-10-05/pdf/2022-21839.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/10/05/2022-21839.txt",
   "enrichment": {
-    "summary": "This executive order establishes a committee to promote and support the arts, humanities, museums, and libraries across the United States. It encourages collaboration between federal agencies to enhance cultural access, equity, education, economic development, and civic engagement through the arts and humanities.",
+    "summary": "This executive order establishes a committee to advise the President on promoting the arts, humanities, and museum and library services as vital parts of American culture and community well-being. It directs federal agencies to coordinate efforts to strengthen access, equity, education, and economic opportunity in these areas, particularly for underserved communities. The order emphasizes the role of arts and culture in health, democracy, climate action, and social cohesion.",
     "theme_ids": [
-      "advisory-committees-management",
-      "equity-and-inclusion-policy",
-      "education-policy",
-      "economic-development",
-      "community-development",
-      "veterans-affairs-policy",
-      "cultural-policy"
+      "arts-and-humanities",
+      "museums-libraries-cultural-institutions",
+      "interagency-coordination"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "nonprofit-organizations",
-        "public-broadcasting-employees",
-        "academic-institutions"
+        "veterans",
+        "children-minors",
+        "teachers-educators",
+        "tribal-communities-reservations"
       ],
-      "negative_ids": [
-        "private-sector-rivals"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "The broad scope of the committee’s advisory role might dilute focus and slow decision-making.",
-      "Ensuring adequate, sustained funding and resources for arts and humanities programs may be challenging given competing budget priorities.",
-      "Measuring the impact of arts and humanities investments on economic development and community well-being could be difficult.",
-      "Efforts to advance equity and access risk being perceived as political or exclusionary by some stakeholders.",
-      "Coordination among many diverse federal agencies could lead to bureaucratic overlap or inefficiencies."
+      "Efforts to promote equity and access in arts and humanities for underserved communities may struggle due to inconsistent interagency coordination and potential resource limitations, affecting the impact on tribal communities and other marginalized groups.",
+      "Enhanced federal support for arts and humanities might prioritize certain cultural expressions or histories over others, causing unintended exclusion or underrepresentation of particular racial or ethnic communities within the broader category of underserved populations.",
+      "Integrating arts and humanities initiatives into health, climate, and civic programs could dilute focus or create mission creep, potentially limiting the effectiveness of specialized services intended for veterans and children in educational settings.",
+      "The establishment of a committee with non-federal members risks privileging well-connected individuals or organizations, which might marginalize grassroots artists and educators from underserved or rural communities."
     ],
-    "enriched_at": "2025-12-09T03:46:00.229Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T02:33:19.657Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

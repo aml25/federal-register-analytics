@@ -13,40 +13,41 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-11-01/pdf/2023-24283.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/11/01/2023-24283.txt",
   "enrichment": {
-    "summary": "This executive order directs the federal government to promote the safe, secure, and responsible development and use of artificial intelligence (AI), while advancing innovation, protecting civil rights, supporting workers, and increasing AI talent in government. It establishes comprehensive guidelines, reporting requirements for powerful AI models, and international collaboration to manage AI risks and benefits across sectors including national security, healthcare, and critical infrastructure.",
+    "summary": "This executive order directs the U.S. government to ensure the safe, responsible, and secure development and use of artificial intelligence (AI). It establishes policies for advancing innovation and competition, protecting workers and consumers, safeguarding privacy and civil rights, boosting federal AI talent, and promoting U.S. leadership in AI both domestically and internationally.",
     "theme_ids": [
       "artificial-intelligence",
-      "national-security",
-      "federal-workforce",
-      "consumer-protection",
-      "civil-rights-enforcement",
-      "education-policy",
-      "foreign-policy",
-      "federal-agency-management",
-      "technology-development",
-      "data-governance",
-      "workforce-development",
-      "privacy-and-data-security",
-      "advisory-committees-management"
+      "national-security-information-classification",
+      "cybersecurity-national-security",
+      "federal-workforce-management",
+      "data-privacy"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry",
-        "scientific-researchers"
+        "technology-workers",
+        "small-business-owners",
+        "federal-employees-civil-servants",
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local",
+        "patients-general",
+        "veterans",
+        "college-university-students",
+        "international-students"
       ],
       "negative_ids": [
-        "foreign-entities-in-countries-of-concern",
-        "foreign-investors-in-countries-of-concern"
+        "individuals-with-disabilities",
+        "low-income-individuals-families",
+        "non-union-workers",
+        "union-members"
       ]
     },
     "potential_concerns": [
-      "Reporting and compliance requirements for AI developers and infrastructure providers may impose significant regulatory burdens on private-sector companies and smaller firms.",
-      "Efforts to enhance AI safety and security, particularly involving dual-use foundation models, may slow innovation or restrict access to AI capabilities.",
-      "Enhancing government hiring and training for AI talent may strain existing federal HR resources and require complex coordination across agencies.",
-      "International coordination on AI standards may face challenges due to differing national interests and technological capabilities.",
-      "Balancing AI innovation with civil rights protections could create legal and ethical complexities, especially in areas like criminal justice or consumer protections."
+      "Advanced AI deployment without robust safeguards may exacerbate biased and discriminatory outcomes affecting racial and ethnic minorities, individuals with disabilities, and low-income families, undermining the order’s equity goals.",
+      "The reporting and regulatory burdens on developers of dual-use foundation models and providers of large-scale computing resources may disproportionately disadvantage startups and small businesses, limiting competition and innovation in the technology sector.",
+      "Accelerated recruitment and hiring of AI talent within the Federal Government may create challenges related to workforce diversity and inclusion if not carefully managed, potentially disadvantaging existing federal employees.",
+      "Increased use of AI in law enforcement and criminal justice raises concerns about privacy, surveillance, and civil rights violations, especially impacting historically marginalized communities and individuals interacting with the justice system.",
+      "Efforts to monitor and regulate foreign access to AI training resources via IaaS providers may unintentionally impact visa-holders, international students, and foreign researchers collaborating in AI, potentially hindering global scientific exchange."
     ],
-    "enriched_at": "2025-12-09T01:38:38.961Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-12T08:19:49.344Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

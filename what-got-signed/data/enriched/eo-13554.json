@@ -1,0 +1,42 @@
+{
+  "document_number": "2010-25578",
+  "executive_order_number": "13554",
+  "title": "Establishing the Gulf Coast Ecosystem Restoration Task Force",
+  "abstract": null,
+  "signing_date": "2010-10-05",
+  "publication_date": "2010-10-08",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2010/10/08/2010-25578/establishing-the-gulf-coast-ecosystem-restoration-task-force",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2010-10-08/pdf/2010-25578.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2010/10/08/2010-25578.txt",
+  "enrichment": {
+    "summary": "This executive order creates a Gulf Coast Ecosystem Restoration Task Force to coordinate federal, state, and tribal efforts to restore and protect the Gulf Coast's natural environment following the BP Deepwater Horizon Oil Spill. The Task Force develops a regional restoration strategy, engages local stakeholders, and supports scientific research to promote a healthy, resilient ecosystem that benefits the economy, communities, and environment of the Gulf Coast region.",
+    "theme_ids": [
+      "gulf-coast-coastal-ecosystem-restoration",
+      "environmental-regulation",
+      "interagency-coordination",
+      "economic-recovery-post-crisis",
+      "seafood-fisheries-industry"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "coastal-communities",
+        "seafood-fishery-workers",
+        "tribal-communities-reservations",
+        "small-business-owners"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The restoration efforts may inadvertently disrupt existing fisheries, negatively impacting seafood-fishery-workers’ livelihoods despite overall ecosystem benefits.",
+      "Coordination challenges among multiple federal, state, and tribal entities could delay restoration projects crucial to the economic recovery of coastal-communities and small-business-owners dependent on tourism and fishing.",
+      "Without adequate tribal representation and meaningful consultation, tribal-communities-reservations risk having their cultural and historical sites overlooked in restoration planning.",
+      "Environmental regulations arising from the Task Force’s strategy might impose restrictions that small-business-owners in affected coastal-communities view as burdensome, slowing economic recovery post-crisis."
+    ],
+    "enriched_at": "2025-12-15T02:06:30.883Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

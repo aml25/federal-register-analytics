@@ -13,30 +13,35 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-07/pdf/2025-02408.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/07/2025-02408.txt",
   "enrichment": {
-    "summary": "This executive order imposes a 10 percent tariff on all products imported from the People's Republic of China to combat the illegal flow of synthetic opioids like fentanyl into the United States. It declares a national emergency due to the opioid crisis linked to Chinese chemical companies and criminal organizations, and directs federal agencies to enforce and monitor these trade restrictions until China takes sufficient actions to stop the drug flow.",
+    "summary": "This executive order imposes a 10% tariff on all products imported from China to address the flow of synthetic opioids, like fentanyl, originating there and harming the United States. It declares a national emergency related to this drug crisis and authorizes U.S. agencies to take actions to enforce this order until China takes sufficient steps to stop the illicit opioid supply chain.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
-      "foreign-policy"
+      "opioid-crisis",
+      "transnational-crime-cartels",
+      "tariffs-duties",
+      "national-emergencies",
+      "china"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "small-importers",
-        "manufacturing-workers"
+        "u-s-citizens",
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local",
+        "healthcare-workers"
       ],
       "negative_ids": [
-        "foreign-suppliers",
-        "china"
+        "small-business-owners",
+        "large-corporation-employees",
+        "consumers"
       ]
     },
     "potential_concerns": [
-      "The tariffs could increase costs for U.S. importers and consumers, potentially harming small businesses relying on Chinese products.",
-      "There is a risk of retaliatory trade measures from China, escalating economic tensions and harming U.S. exporters.",
-      "Effectiveness depends on Chinese government cooperation, which may not be forthcoming, limiting the order’s ability to reduce opioid inflows.",
-      "The order may complicate diplomatic relations and undermine efforts for bilateral cooperation on broader issues beyond opioids.",
-      "Monitoring and enforcement burdens on federal agencies like Customs and Homeland Security could increase significantly, requiring additional resources."
+      "The imposed 10% tariff on all Chinese imports may increase costs for small-business-owners and large-corporation-employees, potentially leading to higher prices for consumers.",
+      "Law enforcement officers at federal and state/local levels may face increased operational challenges and resource demands in enforcing the expanded national emergency and addressing opioid-related crime.",
+      "Healthcare workers might experience continued strain due to persistent or shifting opioid supply dynamics if the tariffs do not effectively reduce synthetic opioid inflows.",
+      "U.S. citizens could face unintended economic consequences from retaliatory tariffs imposed by China, which may worsen domestic economic conditions.",
+      "The order’s broad tariff application risks disrupting legitimate trade and supply chains unrelated to synthetic opioids, burdening businesses and consumers not involved in illicit activities."
     ],
-    "enriched_at": "2025-12-09T02:40:19.421Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:30:27.195Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -13,27 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-31/pdf/2025-02173.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/31/2025-02173.txt",
   "enrichment": {
-    "summary": "This executive order creates a council to review the Federal Emergency Management Agency’s (FEMA) effectiveness and impartiality in disaster response, especially following recent major disasters. The council will evaluate FEMA’s structure, operations, and coordination with state and local governments, and provide recommendations to improve its disaster relief capabilities.",
+    "summary": "This executive order creates a council to review and assess how well the Federal Emergency Management Agency (FEMA) responds to disasters. The council will evaluate FEMA's effectiveness, impartiality, and structure, and provide recommendations to improve disaster response across the country.",
     "theme_ids": [
-      "federal-agency-management",
-      "disaster-preparedness",
-      "advisory-committees-management",
-      "immigration-enforcement"
+      "fema-emergency-management",
+      "disaster-response",
+      "homeland-security",
+      "federal-advisory-committees"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "state-and-local-governments"
+        "disaster-affected-communities",
+        "state-governments",
+        "local-governments",
+        "tribal-governments"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "undocumented-immigrants"
+      ]
     },
     "potential_concerns": [
-      "The accused political bias within FEMA and the focus on immigration enforcement may politicize disaster response and undermine trust in FEMA’s impartiality.",
-      "The council's recommendations may lead to significant structural changes that could disrupt ongoing disaster relief efforts or reduce FEMA’s ability to respond rapidly.",
-      "Overemphasis on limiting FEMA’s role to support functions might weaken federal disaster response capacity during large-scale emergencies requiring direct federal intervention.",
-      "Soliciting public comments and diverse stakeholder input may slow down the council’s work, delaying important reforms.",
-      "FEMA’s resources and priorities may shift away from non-immigration disaster missions, potentially neglecting some vulnerable populations affected by disasters."
+      "The Council's focus on alleged political bias and resource diversion toward undocumented immigrants may lead to reduced federal support and delayed disaster aid for undocumented immigrant communities during emergencies.",
+      "Efforts to reassert State control over disaster response may create inconsistencies in aid and preparedness across state and local governments, potentially disadvantaging vulnerable disaster-affected communities without robust local capacity.",
+      "The review process and public scrutiny might slow down FEMA's immediate disaster response capability, negatively impacting disaster-affected communities in urgent need of timely aid and services.",
+      "The emphasis on reducing FEMA’s broader mission scope might undercut resources available for large-scale or complex disaster responses, affecting coordination with tribal governments and their disaster-affected constituents."
     ],
-    "enriched_at": "2025-12-09T02:39:33.330Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:32:38.005Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

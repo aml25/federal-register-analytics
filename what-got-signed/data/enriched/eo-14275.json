@@ -13,28 +13,28 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-18/pdf/2025-06839.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/18/2025-06839.txt",
   "enrichment": {
-    "summary": "This executive order directs a comprehensive reform of the Federal Acquisition Regulation (FAR) to simplify and streamline federal government procurement, removing unnecessary rules to make buying goods and services more efficient and less costly. It requires agencies to align their supplemental procurement rules with the new streamlined FAR and includes provisions for automatic expiration of nonessential regulations to keep procurement flexible and agile.",
+    "summary": "This executive order directs a reform of the Federal Acquisition Regulation (FAR) to make government procurement faster, simpler, and more efficient by removing unnecessary rules. It also requires agencies to align their own procurement policies with these reforms to reduce bureaucratic barriers and support the national and defense industrial bases.",
     "theme_ids": [
-      "regulatory-reform",
-      "federal-agency-management",
-      "national-security"
+      "defense-industrial-base",
+      "regulatory-reform-deregulation",
+      "government-efficiency"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-contractors"
+        "defense-industry-workers",
+        "small-business-owners"
       ],
       "negative_ids": [
-        "foreign-manufacturers"
+        "federal-contractors"
       ]
     },
     "potential_concerns": [
-      "Streamlining procurement regulations may decrease oversight and increase risk of fraud or waste in federal contracts.",
-      "Removing longstanding FAR provisions could create inconsistencies or confusion during the transition period across agencies.",
-      "The automatic sunset of regulations might disrupt ongoing contracts or procurement practices if renewals are not managed carefully.",
-      "Efforts to expand the national and defense industrial bases could disadvantage smaller or specialized suppliers not fitting streamlined criteria.",
-      "Implementation deadlines are aggressive and may strain agency resources, causing delays or superficial compliance."
+      "Streamlining and deregulation may lead to reduced oversight and weaken labor or safety protections for federal contractors, negatively impacting federal-contractors.",
+      "Efforts to expedite procurement could prioritize large or incumbent defense industry firms, potentially limiting opportunities for small-business-owners despite stated support for expanding the industrial base.",
+      "Simplifying FAR provisions might unintentionally reduce transparency and accountability in defense-related procurements, potentially affecting defense-industry-workers relying on stable and fair contracting practices.",
+      "Removing regulations not explicitly required by statute risks eliminating safeguards that protect national security interests, which could harm both the defense-industrial-base and military readiness."
     ],
-    "enriched_at": "2025-12-09T02:44:09.853Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:19:22.978Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

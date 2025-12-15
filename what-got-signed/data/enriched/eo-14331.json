@@ -13,30 +13,35 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-12/pdf/2025-15341.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/12/2025-15341.txt",
   "enrichment": {
-    "summary": "This executive order prohibits banks and financial regulators from denying or restricting access to financial services based on political beliefs, religious views, or lawful business activities. It directs federal banking regulators and the Small Business Administration to remove policies that encourage politically motivated debanking and to review and remediate past discriminatory actions. The order aims to ensure that banking decisions are made solely on objective, risk-based criteria rather than political or ideological considerations.",
+    "summary": "This executive order directs federal banking regulators to eliminate discriminatory banking practices that deny financial services based on individuals' or businesses' political or religious beliefs or lawful activities. It requires a review and removal of policies that enable such biased debanking and mandates efforts to identify and reinstate customers who were unfairly denied access to banking services. The order also tasks the Treasury Secretary with creating a strategy to prevent politicized or unlawful banking restrictions across the federal government.",
     "theme_ids": [
-      "regulatory-reform",
-      "federal-agency-management",
-      "financial-regulation"
+      "financial-system-regulation",
+      "small-business-support",
+      "religious-liberty",
+      "free-speech",
+      "civil-rights-enforcement"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "bank-customers",
-        "small-business-owners"
+        "small-business-owners",
+        "religious-organizations",
+        "faith-based-communities",
+        "christians",
+        "working-age-adults",
+        "u-s-citizens"
       ],
       "negative_ids": [
-        "bank-regulators",
-        "financial-institutions"
+        "corporations-businesses"
       ]
     },
     "potential_concerns": [
-      "The order may limit banking regulators' and institutions' ability to manage legitimate reputational and risk concerns, potentially increasing exposure to fraud or money laundering.",
-      "Implementation challenges include defining and proving discrimination based on political or religious beliefs in complex financial practices.",
-      "Banks might face increased compliance costs and legal risk from reinstating clients and revising internal policies within short deadlines.",
-      "The policy could politicize banking oversight further by discouraging prudent risk management based on reputational concerns that sometimes correlate with legitimate financial risks.",
-      "Financial institutions and regulators may resist or ambiguously implement the order, reducing its effectiveness or causing inconsistent enforcement."
+      "Efforts to remove 'reputation risk' considerations may undermine banks' ability to perform objective risk assessments, potentially increasing financial system risk and affecting all banking customers, including small-business-owners and working-age-adults.",
+      "Mandates to reinstate clients previously denied services for their political or religious beliefs may force financial institutions (corporations-businesses) to serve customers despite concerns, potentially increasing compliance costs or exposure to higher risk.",
+      "The order's focus on preventing politically motivated debanking could create challenges for regulators in distinguishing legitimate risk-based exclusions from impermissible discrimination, possibly leading to inconsistent enforcement affecting religious-organizations and faith-based-communities.",
+      "By emphasizing protection based on political and religious beliefs, the order may inadvertently limit financial institutions' ability to combat illicit financing or fraud, posing risks to overall financial integrity and consumers in general.",
+      "Individuals and entities (including u-s-citizens and small-business-owners) may face delays or confusion during the identification and reinstatement process, causing temporary financial disruptions despite the order's intention to remedy past harms."
     ],
-    "enriched_at": "2025-12-09T02:46:51.002Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:41:35.468Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

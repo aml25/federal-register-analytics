@@ -1,0 +1,42 @@
+{
+  "document_number": "2011-19156",
+  "executive_order_number": "13581",
+  "title": "Blocking Property of Transnational Criminal Organizations",
+  "abstract": null,
+  "signing_date": "2011-07-24",
+  "publication_date": "2011-07-27",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2011/07/27/2011-19156/blocking-property-of-transnational-criminal-organizations",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2011-07-27/pdf/2011-19156.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2011/07/27/2011-19156.txt",
+  "enrichment": {
+    "summary": "This executive order blocks the property and financial interests of transnational criminal organizations that threaten the United States' security, economy, and foreign policy. It prohibits U.S. persons from engaging in transactions with these organizations and allows the Treasury Department to identify and take action against such groups without prior notice.",
+    "theme_ids": [
+      "transnational-crime-cartels",
+      "economic-sanctions",
+      "national-emergencies"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local",
+        "intelligence-community-personnel"
+      ],
+      "negative_ids": [
+        "foreign-nationals-general",
+        "corporations-businesses"
+      ]
+    },
+    "potential_concerns": [
+      "The broad and discretionary authority to block property of transnational criminal organizations may lead to challenges for U.S. businesses (corporations-businesses) inadvertently engaging in lawful international trade, raising compliance burdens.",
+      "Foreign nationals identified or associated with sanctioned organizations (foreign-nationals-general) could face asset freezes and restrictions without prior notice, potentially impacting due process rights or humanitarian considerations.",
+      "The order’s prohibition on donations and financial transactions might impede legitimate non-governmental efforts that unintentionally engage with blocked persons, complicating law enforcement and intelligence operations.",
+      "Law enforcement and intelligence personnel could face operational challenges balancing aggressive economic sanctions with potential diplomatic fallout or unintended economic disruptions in partner countries."
+    ],
+    "enriched_at": "2025-12-15T02:08:06.616Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -13,28 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-13/pdf/2025-00622.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/13/2025-00622.txt",
   "enrichment": {
-    "summary": "This executive order expands and updates sanctions related to destabilizing actions in the Western Balkans by blocking property and restricting transactions with individuals and entities involved in undermining peace, security, democratic institutions, or engaging in corruption in the region. It builds on previous orders to further target those responsible for threats to regional stability and human rights abuses, strengthening U.S. tools to support peace and security in the Western Balkans.",
+    "summary": "This executive order updates prior sanctions related to the Western Balkans by blocking the property and financial interests of individuals or entities involved in undermining peace, democratic institutions, human rights, and anti-corruption efforts in the region. It expands criteria for sanctions to include leaders, officials, and those providing support to such persons, aiming to promote stability and uphold agreements in the Western Balkans.",
     "theme_ids": [
-      "national-security",
-      "foreign-policy",
-      "trade-policy"
+      "sanctions-country-specific",
+      "western-balkans",
+      "human-rights-international",
+      "foreign-aid"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "affected-western-balkans-individuals"
+        "foreign-nationals-general",
+        "international-aid-recipients"
       ],
       "negative_ids": [
-        "sanctioned-persons-and-affiliates"
+        "foreign-government-officials",
+        "corporations-businesses",
+        "citizens-of-specific-countries-by-eo-designation"
       ]
     },
     "potential_concerns": [
-      "The expanded sanctions could complicate diplomatic efforts by further alienating key actors or governments in the Western Balkans.",
-      "Broad language in designations may risk unintended consequences affecting innocent individuals or entities with tenuous connections to targeted parties.",
-      "Enforcement challenges may arise due to the complexity of tracking property and transactions across multiple jurisdictions and ownership structures.",
-      "The order could increase tensions with countries or actors who view U.S. sanctions as overreach or politically motivated interference.",
-      "There may be legal or procedural challenges in determining who qualifies under various criteria, potentially leading to disputes or delays in implementation."
+      "Sanctions targeting foreign government officials and affiliated businesses may exacerbate economic instability and inadvertently harm civilians in Western Balkans countries, including international aid recipients reliant on foreign assistance.",
+      "Efforts to block property and financial interests risk pushing corrupt actors to rely on covert methods, complicating enforcement and potentially impacting lawful foreign businesses and investors operating in the region.",
+      "The inclusion of family members such as spouses and adult children in sanctions could raise human rights and due process concerns affecting innocent individuals closely tied to targeted persons.",
+      "Heightened sanctions might worsen diplomatic relations with Western Balkan nations and complicate ongoing peace and cooperation agreements, potentially undermining long-term regional stability."
     ],
-    "enriched_at": "2025-12-09T02:37:27.352Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:38:45.896Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -13,29 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-02/pdf/2025-07790.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/02/2025-07790.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to strengthen support for state and local law enforcement by providing resources, legal protections, and training to aggressively fight crime. It also requires reviewing and removing legal restrictions on police, increasing military and national security assistance for law enforcement, and holding local officials accountable if they obstruct law enforcement or discriminate under equity policies.",
+    "summary": "This Executive Order directs the federal government to support state and local law enforcement by providing resources, legal protections, training, and military assets to fight crime more effectively. It also aims to hold local officials accountable if they unlawfully obstruct law enforcement or impose harmful diversity-equity-inclusion policies that restrict policing.",
     "theme_ids": [
-      "public-safety",
-      "national-security",
-      "federal-agency-management"
+      "state-local-law-enforcement-support",
+      "crime-reduction",
+      "homeland-security",
+      "civil-rights-enforcement",
+      "interagency-coordination"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "state-and-local-law-enforcement"
+        "law-enforcement-officers-state-local",
+        "small-business-owners",
+        "crime-victims",
+        "urban-communities"
       ],
       "negative_ids": [
-        "communities-affected-by-police-aggression",
-        "individuals-impacted-by-race-and-equity-policy-restrictions"
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "individuals-with-mental-health-conditions"
       ]
     },
     "potential_concerns": [
-      "The order may lead to more aggressive policing tactics that could increase incidents of civil rights violations or police misconduct.",
-      "Removing or modifying federal consent decrees could weaken accountability mechanisms designed to limit law enforcement abuses.",
-      "Providing military equipment and national security assets to local police may raise concerns about the militarization of law enforcement.",
-      "The order's explicit opposition to race- and sex-based equity policies could undermine efforts to promote fairness and reduce discrimination within policing.",
-      "There may be legal and logistical challenges in implementing indemnification and pro bono legal support for law enforcement officers."
+      "The order’s emphasis on aggressive policing and reduced oversight may lead to disproportionate targeting and civil rights infringements on African Americans and Hispanic/Latino Americans, raising concerns under the theme of civil-rights-enforcement.",
+      "Providing indemnification and legal defense for law enforcement officers may reduce accountability for misconduct, potentially harming communities, especially urban communities and individuals with mental health conditions who often interact with police.",
+      "Expanding the use of military and national security assets in local policing could militarize police forces, increasing the risk of excessive use of force in urban communities and further alienating minority populations.",
+      "Holding local officials legally accountable for implementing diversity, equity, and inclusion policies may limit efforts to address systemic biases in policing, negatively impacting minority communities and undermining civil-rights enforcement."
     ],
-    "enriched_at": "2025-12-09T02:44:46.026Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:17:42.502Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -1,0 +1,42 @@
+{
+  "document_number": "E9-1538",
+  "executive_order_number": "13487",
+  "title": "Establishment of a Temporary Organization To Facilitate United States Government Support for Afghanistan",
+  "abstract": null,
+  "signing_date": "2009-01-16",
+  "publication_date": "2009-01-22",
+  "president": {
+    "identifier": "george-w-bush",
+    "name": "George W. Bush"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/01/22/E9-1538/establishment-of-a-temporary-organization-to-facilitate-united-states-government-support-for",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-01-22/pdf/E9-1538.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/01/22/E9-1538.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a temporary office within the Department of State called the Afghanistan Support Office (ASO) to help U.S. government agencies support efforts in Afghanistan. Its main goals are to prevent Afghanistan from becoming a terrorist safe haven, assist Afghanistan’s development toward self-sufficiency, and maintain a strong U.S. diplomatic presence there.",
+    "theme_ids": [
+      "counterterrorism",
+      "foreign-aid",
+      "diplomatic-relations",
+      "afghanistan"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "foreign-nationals-general",
+        "international-aid-recipients",
+        "foreign-governments"
+      ],
+      "negative_ids": [
+        "terrorism-victims-survivors"
+      ]
+    },
+    "potential_concerns": [
+      "The establishment of the Afghanistan Support Office may increase security risks for foreign-nationals-general living in or near conflict zones due to heightened counterterrorism activities.",
+      "Efforts to facilitate Afghanistan’s self-sufficiency might face setbacks if coordination with foreign-governments is insufficient, potentially undermining long-term development goals.",
+      "The focus on preventing Afghanistan from becoming a terrorist safe haven could unintentionally lead to increased civilian harm or displacement, negatively impacting terrorism-victims-survivors.",
+      "International-aid-recipients may experience delays or inefficiencies if bureaucratic complexities arise between multiple U.S. agencies coordinated by the ASO."
+    ],
+    "enriched_at": "2025-12-15T02:04:57.588Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

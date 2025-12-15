@@ -13,32 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-05-17/pdf/2021-10460.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/05/17/2021-10460.txt",
   "enrichment": {
-    "summary": "This executive order directs the federal government to strengthen its cybersecurity defenses by modernizing technology, improving information sharing about cyber threats, securing the software supply chain, and standardizing incident response practices. It establishes a Cyber Safety Review Board to investigate major cyber incidents and requires agencies and contractors to adopt stronger cybersecurity measures like multi-factor authentication and encryption.",
+    "summary": "This executive order directs the federal government to strengthen its cybersecurity by improving information sharing, adopting modern security practices like Zero Trust Architecture, securing the software supply chain, and enhancing detection and response capabilities to cyber incidents. It also establishes a Cyber Safety Review Board to analyze major cyber incidents and recommend improvements to national cybersecurity policies and practices.",
     "theme_ids": [
-      "national-security",
+      "cybersecurity-national-security",
+      "homeland-security",
+      "government-it-modernization",
       "supply-chain-security",
-      "federal-procurement-policy",
-      "privacy-and-data-security",
-      "technology-development",
-      "cybersecurity-policy"
+      "federal-advisory-committees"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry",
-        "federal-agencies"
+        "federal-contractors",
+        "technology-workers",
+        "cybersecurity-professionals",
+        "small-business-owners"
       ],
       "negative_ids": [
-        "foreign-suppliers"
+        "federal-contractors",
+        "small-business-owners"
       ]
     },
     "potential_concerns": [
-      "Improving information sharing requirements might raise privacy or civil liberties concerns if sensitive data is not adequately protected.",
-      "Mandating rapid adoption of technologies like multi-factor authentication could be challenging for some agencies due to legacy systems or resource constraints.",
-      "Standardizing contract language for security may increase compliance costs and complexity for private-sector service providers and contractors.",
-      "The focus on software supply chain security could slow down software procurement and development due to stringent new requirements and auditing.",
-      "Coordinating across many agencies and stakeholders for unified cybersecurity measures may face bureaucratic delays and inconsistent implementation."
+      "The order's stringent cybersecurity requirements and reporting obligations on federal contractors, especially IT and OT providers, may impose significant compliance burdens and costs on small business owners and technology workers, potentially limiting market competition and innovation.",
+      "Mandatory sharing of cyber incident data with federal agencies could raise privacy concerns for contractors and their personnel, including technology and cybersecurity professionals, especially regarding sensitive proprietary or operational information.",
+      "The rapid adoption mandates for Zero Trust Architecture and multi-factor authentication may overwhelm agencies and contractors lacking sufficient resources or expertise, leading to implementation challenges for cybersecurity professionals and technology workers.",
+      "Requirements for software vendors to provide Software Bill of Materials (SBOM) and adhere to strict supply chain security standards could increase development and operational costs disproportionately impacting small software businesses and their workforce.",
+      "Expanded government access to logs and monitoring information, while intended to improve cybersecurity, may increase risks of sensitive data exposure or misuse affecting contractors and technology workers involved with federal information systems."
     ],
-    "enriched_at": "2025-12-09T03:55:02.738Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T07:32:50.331Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -13,29 +13,35 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-31/pdf/2025-02096.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/31/2025-02096.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to restore historic American names to geographic features, including renaming Mount McKinley back to honor President William McKinley and renaming the Gulf of Mexico to the Gulf of America. It aims to promote national heritage by ensuring places honor patriotic Americans, and requires updates to official geographic names accordingly.",
+    "summary": "This executive order directs federal agencies to rename certain geographic landmarks to honor American historical figures and patriotism. It restores the name \"Mount McKinley\" to the highest peak in North America and renames the \"Gulf of Mexico\" as the \"Gulf of America.\" The order emphasizes celebrating the nation's heritage and encourages honoring American heroes through place names.",
     "theme_ids": [
-      "public-lands-management",
-      "federal-agency-management",
-      "symbol-protection"
+      "american-heritage-patriotism",
+      "national-monuments-antiquities",
+      "seafood-fisheries-industry",
+      "oil-and-gas-development",
+      "mexico",
+      "cuba"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "alaskan-native-communities",
-        "patriotic-citizens"
+        "alaska-natives",
+        "seafood-fishery-workers",
+        "energy-sector-workers-oil-gas-coal",
+        "coastal-communities"
       ],
       "negative_ids": [
-        "alaskan-native-communities"
+        "native-americans-indigenous-peoples",
+        "hispanic-latino-americans"
       ]
     },
     "potential_concerns": [
-      "Renaming the Gulf of Mexico to Gulf of America could cause diplomatic tensions with Mexico and other neighboring countries.",
-      "The order may marginalize or conflict with indigenous place names and cultural heritage, particularly impacting Alaska Native groups.",
-      "Restoring Mount McKinley's name might alienate or offend groups who support the prior name Denali, reflecting cultural and historical disagreements.",
-      "Implementation challenges include coordinating multiple federal agencies, updating databases, maps, and federal documents consistently within the 30-day deadlines.",
-      "Potential public backlash or confusion may arise from sudden changes to widely recognized geographic names impacting tourism, education, and local identity."
+      "Renaming Mount McKinley may negatively impact Alaska Natives and Native Americans/Indigenous Peoples by disregarding indigenous place names and cultural heritage.",
+      "Renaming the Gulf of Mexico to the Gulf of America could strain diplomatic relations with Mexico and Cuba and marginalize Hispanic/Latino communities culturally connected to the region.",
+      "Seafood fishery workers and coastal communities may face confusion or operational disruptions due to federal and commercial materials needing updates to the new Gulf name.",
+      "Energy sector workers in oil and gas may see increased regulatory or political scrutiny tied to the symbolic emphasis on American greatness linked to these natural resources, potentially impacting operations.",
+      "The order’s emphasis on American patriotism through place naming risks alienating diverse racial/ethnic groups such as Native Americans and Hispanic/Latino Americans by appearing dismissive of their histories."
     ],
-    "enriched_at": "2025-12-09T02:39:07.960Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:33:58.902Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

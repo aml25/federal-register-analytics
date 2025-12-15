@@ -13,32 +13,28 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-03/pdf/2025-02194.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/03/2025-02194.txt",
   "enrichment": {
-    "summary": "This executive order bans federal funding and support for medical treatments, including hormone therapies and surgeries, intended to change the sex of individuals under 19. It directs federal agencies to cease coverage and research related to these treatments, excludes them from military and employee health insurance, and prioritizes enforcement actions against practices and entities supporting such medical interventions for minors.",
+    "summary": "This executive order bans the use of federal funds to support medical treatments or surgeries that change a child's biological sex, such as puberty blockers, hormone therapies, or gender reassignment surgeries. It directs federal agencies to end support for these procedures, restrict insurance coverage, review related medical guidelines, and enforce laws to protect children from these treatments.",
     "theme_ids": [
-      "child-welfare-policy",
-      "public-health-promotion",
       "civil-rights-enforcement",
-      "federal-agency-management",
-      "consumer-protection"
+      "government-efficiency"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "minors-with-gender-dysphoria",
-        "parents-supporting-gender-affirming-care"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "healthcare-providers-pediatric-transgender-care",
-        "federal-grantees"
+        "children-minors",
+        "transgender-individuals",
+        "lgbtq-individuals",
+        "medicaid-beneficiaries"
       ]
     },
     "potential_concerns": [
-      "The order may limit access to medically recommended care for transgender and gender non-conforming minors, potentially worsening mental and physical health outcomes.",
-      "Legal challenges could arise over civil rights, parental rights, and medical privacy protections due to the sweeping bans and enforcement actions.",
-      "Federal agencies and healthcare providers may face difficulties implementing uniform policies due to conflicting state laws and medical standards.",
-      "Excluding coverage from federal insurance programs like TRICARE and FEHB may impose financial burdens on affected families and minors.",
-      "The order’s negative language about gender-affirming care and associated groups risks increased stigma and discrimination against transgender youth."
+      "The order may restrict medically necessary treatments for transgender minors, negatively impacting their health and well-being by banning federally funded gender-affirming care.",
+      "Defunding and limiting insurance coverage for gender-affirming procedures could disproportionately harm low-income children and families reliant on Medicaid and TRICARE, exacerbating health disparities.",
+      "By dismissing WPATH guidance and labeling gender-affirming care as 'chemical and surgical mutilation,' the order risks undermining established medical standards, potentially causing confusion among healthcare providers and patients.",
+      "Increased enforcement actions and legal measures may lead to state-federal conflicts and create barriers for families and minors seeking gender-affirming care in states that support such treatments.",
+      "The order’s focus on fraud and consumer protection investigations could stigmatize healthcare providers offering gender-affirming care, potentially chilling professional practices and patient trust within the LGBTQ+ community."
     ],
-    "enriched_at": "2025-12-09T02:39:56.436Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:31:39.609Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

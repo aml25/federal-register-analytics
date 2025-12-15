@@ -1,0 +1,39 @@
+{
+  "document_number": "2017-18679",
+  "executive_order_number": "13809",
+  "title": "Restoring State, Tribal, and Local Law Enforcement's Access to Life-Saving Equipment and Resources",
+  "abstract": null,
+  "signing_date": "2017-08-28",
+  "publication_date": "2017-08-31",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/08/31/2017-18679/restoring-state-tribal-and-local-law-enforcements-access-to-life-saving-equipment-and-resources",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-08-31/pdf/2017-18679.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/08/31/2017-18679.txt",
+  "enrichment": {
+    "summary": "This executive order rescinds a previous order that limited the access of state, tribal, and local law enforcement agencies to certain life-saving equipment and resources. It directs federal departments and agencies to stop enforcing the prior order's recommendations and restore support to these law enforcement entities consistent with federal law and appropriations.",
+    "theme_ids": [
+      "state-local-law-enforcement-support",
+      "revocation-of-previous-executive-orders"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "law-enforcement-officers-state-local",
+        "tribal-governments",
+        "local-governments",
+        "state-governments"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Restoring access to potentially military-grade equipment for state, local, and tribal law enforcement may increase the militarization of police, raising concerns among urban and rural communities about police use of force.",
+      "Tribal governments might face challenges balancing law enforcement efficacy with community relations if enhanced equipment leads to heightened tensions within tribal communities.",
+      "There could be unintended consequences of escalating conflicts in marginalized communities, including racial and ethnic minority groups, due to increased law enforcement capabilities without concurrent oversight measures.",
+      "Local and state governments may struggle with budgetary constraints in maintaining or training for the usage of restored equipment, potentially diverting funds from community programs."
+    ],
+    "enriched_at": "2025-12-15T02:24:43.487Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

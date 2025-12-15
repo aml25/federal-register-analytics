@@ -13,28 +13,27 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-14/pdf/2025-08682.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/14/2025-08682.txt",
   "enrichment": {
-    "summary": "This executive order directs the Office of the Federal Register and related agencies to reduce delays and cut costs in publishing federal regulations by modernizing systems and streamlining processes. It also requires reports on publication times and fee schedules to ensure fees reflect actual costs and improvements made. The goal is to support deregulation efforts and save taxpayer money by making the publication process more efficient.",
+    "summary": "This executive order directs the Office of the Federal Register and the Government Publishing Office to speed up the publication of new federal regulations by modernizing systems and cutting unnecessary steps. It also requires reports on publication times and fees to ensure costs reflect actual expenses and efficiencies achieved.",
     "theme_ids": [
-      "regulatory-reform",
-      "federal-agency-management",
-      "technology-development"
+      "regulatory-reform-deregulation",
+      "government-efficiency",
+      "government-it-modernization"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "regulated-entities"
+        "small-business-owners",
+        "large-corporation-employees",
+        "consumers"
       ],
-      "negative_ids": [
-        "foreign-suppliers"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Delays in implementing technology upgrades could slow expected efficiency gains.",
-      "Reduced publication fees might decrease revenue available for Federal Register operations, impacting quality or staffing.",
-      "Streamlining bureaucracy may inadvertently reduce necessary procedural checks or oversight, risking errors.",
-      "Faster publication times could pressure agencies to rush document finalization, potentially affecting document accuracy or completeness.",
-      "Complexity in accurately linking fees to real costs and efficiencies could create disputes or administrative burdens."
+      "Faster publication of regulations could reduce the time small business owners and large corporation employees have to adapt or provide input, increasing compliance challenges.",
+      "Modernizing systems and cutting bureaucratic steps might inadvertently reduce transparency or oversight, potentially disadvantaging consumers who rely on regulatory protections.",
+      "Adjusting publishing fees to reflect actual costs, while aiming for efficiency, may lead to higher fees that burden agencies and indirectly impact stakeholders dependent on regulatory processes.",
+      "Speeding up deregulation publication risks prioritizing rapid deregulation over thorough review, possibly resulting in incomplete consideration of impacts on affected populations."
     ],
-    "enriched_at": "2025-12-09T02:45:07.548Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:16:45.842Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

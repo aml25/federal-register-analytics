@@ -1,0 +1,2131 @@
+{
+  "themes": {
+    "national_security_defense": [
+      {
+        "name": "Military Readiness / Force Structure",
+        "definition": "Orders affecting the organization, size, training, and operational preparedness of U.S. armed forces."
+      },
+      {
+        "name": "Defense Industrial Base",
+        "definition": "Policies supporting domestic manufacturing of military equipment, weapons systems, and defense supplies."
+      },
+      {
+        "name": "Missile Defense",
+        "definition": "Programs and policies for intercepting and defending against ballistic missile threats."
+      },
+      {
+        "name": "Nuclear Policy",
+        "definition": "Orders governing nuclear weapons strategy, arms control, and non-proliferation efforts."
+      },
+      {
+        "name": "Counterterrorism",
+        "definition": "Policies and operations aimed at preventing, disrupting, and responding to terrorist activities."
+      },
+      {
+        "name": "Terrorism Designations",
+        "definition": "Official designations of groups or individuals as terrorists, triggering sanctions and legal consequences."
+      },
+      {
+        "name": "Intelligence Operations",
+        "definition": "Policies governing intelligence gathering, surveillance, and covert activities by U.S. agencies."
+      },
+      {
+        "name": "Intelligence Sharing",
+        "definition": "Frameworks for sharing intelligence information between agencies and with foreign partners."
+      },
+      {
+        "name": "Cybersecurity (National Security)",
+        "definition": "Protecting government systems and critical infrastructure from cyber attacks and foreign intrusions."
+      },
+      {
+        "name": "Border Security",
+        "definition": "Measures to control and monitor U.S. borders against unauthorized entry and smuggling."
+      },
+      {
+        "name": "Foreign Terrorist Organizations",
+        "definition": "Designations and actions targeting groups identified as international terrorist threats."
+      },
+      {
+        "name": "Weapons of Mass Destruction (WMD) Proliferation",
+        "definition": "Efforts to prevent the spread of nuclear, chemical, and biological weapons."
+      },
+      {
+        "name": "Homeland Security",
+        "definition": "Broad domestic security efforts to protect against terrorism and other threats within U.S. territory."
+      },
+      {
+        "name": "Critical Infrastructure Protection",
+        "definition": "Safeguarding essential systems like power grids, communications, and financial networks from attacks."
+      },
+      {
+        "name": "Combat Zone Designations",
+        "definition": "Official designation of geographic areas as active combat zones, affecting military benefits and rules of engagement."
+      },
+      {
+        "name": "War on Terror",
+        "definition": "Broad policies related to the post-9/11 global campaign against terrorism."
+      },
+      {
+        "name": "National Security Information / Classification",
+        "definition": "Rules governing classification, declassification, and handling of sensitive national security information."
+      },
+      {
+        "name": "Detention Policy / Guantanamo",
+        "definition": "Policies regarding detention of enemy combatants and the operation of Guantanamo Bay detention facility."
+      },
+      {
+        "name": "Electromagnetic Pulse (EMP) Resilience",
+        "definition": "Preparations to protect infrastructure from electromagnetic pulse attacks or events."
+      },
+      {
+        "name": "Defense Production Act",
+        "definition": "Invocation of presidential authority to prioritize production of materials for national defense."
+      },
+      {
+        "name": "Critical Minerals / Supply Chain Security",
+        "definition": "Ensuring domestic access to minerals essential for defense and technology manufacturing."
+      },
+      {
+        "name": "Foreign Election Interference",
+        "definition": "Measures to detect, prevent, and respond to foreign attempts to influence U.S. elections."
+      }
+    ],
+    "immigration": [
+      {
+        "name": "Border Enforcement",
+        "definition": "Policies governing patrol, surveillance, and physical barriers at U.S. borders."
+      },
+      {
+        "name": "Immigration Enforcement (Interior)",
+        "definition": "Enforcement actions within U.S. territory targeting individuals in violation of immigration law."
+      },
+      {
+        "name": "Legal Immigration Reform",
+        "definition": "Changes to lawful pathways for immigration including family-based and employment-based visas."
+      },
+      {
+        "name": "Visa Policy",
+        "definition": "Rules governing the issuance, categories, and requirements for U.S. entry visas."
+      },
+      {
+        "name": "Refugee Policy",
+        "definition": "Policies determining admission numbers, eligibility, and resettlement of refugees."
+      },
+      {
+        "name": "Asylum Policy",
+        "definition": "Rules governing applications for protection by individuals fleeing persecution."
+      },
+      {
+        "name": "Deportation / Removal",
+        "definition": "Policies and priorities for removing individuals from the U.S. for immigration violations."
+      },
+      {
+        "name": "Citizenship Policy",
+        "definition": "Rules affecting naturalization requirements, birthright citizenship, and paths to citizenship."
+      },
+      {
+        "name": "Family Separation / Reunification",
+        "definition": "Policies affecting the detention and separation of families at the border or during enforcement."
+      },
+      {
+        "name": "Sanctuary City Policy",
+        "definition": "Federal policies toward jurisdictions that limit cooperation with immigration enforcement."
+      },
+      {
+        "name": "Travel Restrictions / Bans",
+        "definition": "Restrictions on entry to the U.S. based on nationality or other criteria."
+      },
+      {
+        "name": "Maritime Interdiction",
+        "definition": "Coast Guard and naval operations to intercept migrants at sea before reaching U.S. shores."
+      }
+    ],
+    "economy_trade": [
+      {
+        "name": "Trade Policy / Agreements",
+        "definition": "Policies governing international trade relationships and negotiation of trade deals."
+      },
+      {
+        "name": "Tariffs / Duties",
+        "definition": "Import taxes imposed on foreign goods to protect domestic industries or as policy leverage."
+      },
+      {
+        "name": "Buy American / Domestic Preference",
+        "definition": "Requirements for federal procurement to prioritize American-made goods and materials."
+      },
+      {
+        "name": "Manufacturing Policy",
+        "definition": "Policies to support, incentivize, or restore domestic manufacturing capacity."
+      },
+      {
+        "name": "Supply Chain Security",
+        "definition": "Efforts to ensure reliable access to critical goods and reduce dependence on foreign suppliers."
+      },
+      {
+        "name": "Economic Sanctions",
+        "definition": "Financial restrictions and trade prohibitions imposed on foreign countries, entities, or individuals."
+      },
+      {
+        "name": "Financial System Regulation",
+        "definition": "Rules governing banks, financial markets, and systemic risk management."
+      },
+      {
+        "name": "Cryptocurrency / Digital Assets",
+        "definition": "Policies addressing digital currencies, blockchain technology, and related financial instruments."
+      },
+      {
+        "name": "Sovereign Wealth Fund",
+        "definition": "Policies regarding government-owned investment funds for national economic purposes."
+      },
+      {
+        "name": "Tax Policy / Tax Reform",
+        "definition": "Executive actions affecting tax administration, enforcement, or relief programs."
+      },
+      {
+        "name": "Small Business Support",
+        "definition": "Programs and policies to assist small businesses with financing, contracting, and regulatory relief."
+      },
+      {
+        "name": "Economic Competitiveness",
+        "definition": "Broad policies to strengthen U.S. economic position relative to global competitors."
+      },
+      {
+        "name": "Corporate Fraud / White Collar Crime",
+        "definition": "Enforcement and prevention efforts targeting financial crimes and corporate misconduct."
+      },
+      {
+        "name": "Foreign Investment (CFIUS)",
+        "definition": "Review and restrictions on foreign investments that may threaten national security."
+      },
+      {
+        "name": "Government Spending / Earmarks",
+        "definition": "Executive policies affecting federal spending priorities and budget allocation."
+      },
+      {
+        "name": "Financial Literacy",
+        "definition": "Programs to improve public understanding of personal finance and economic concepts."
+      },
+      {
+        "name": "Antidumping / Trade Enforcement",
+        "definition": "Actions against foreign goods sold below market value or in violation of trade rules."
+      },
+      {
+        "name": "Economic Recovery (Post-Crisis)",
+        "definition": "Policies aimed at restoring economic growth following recessions or major disruptions."
+      },
+      {
+        "name": "Opportunity Zones / Distressed Communities",
+        "definition": "Tax incentives and investment programs targeting economically disadvantaged areas."
+      },
+      {
+        "name": "Housing Policy / Affordable Housing",
+        "definition": "Policies affecting housing availability, affordability, and federal housing programs."
+      },
+      {
+        "name": "USMCA / Trade Agreement Implementation",
+        "definition": "Implementation of the U.S.-Mexico-Canada Agreement and related trade commitments."
+      },
+      {
+        "name": "Export-Import Policy",
+        "definition": "Policies governing the flow of goods in and out of the U.S., including export controls."
+      },
+      {
+        "name": "Seafood / Fisheries Industry",
+        "definition": "Policies affecting commercial fishing, aquaculture, and seafood trade."
+      }
+    ],
+    "energy_environment": [
+      {
+        "name": "Oil and Gas Development",
+        "definition": "Policies promoting or restricting petroleum and natural gas extraction on federal lands and waters."
+      },
+      {
+        "name": "Coal Industry",
+        "definition": "Policies affecting coal mining, coal-fired power generation, and coal workers."
+      },
+      {
+        "name": "Renewable Energy",
+        "definition": "Promotion of solar, wind, hydroelectric, and other clean energy sources."
+      },
+      {
+        "name": "Energy Independence / Security",
+        "definition": "Policies to reduce reliance on foreign energy sources and ensure domestic supply."
+      },
+      {
+        "name": "Climate Change Policy",
+        "definition": "Actions addressing greenhouse gas emissions, climate adaptation, and climate science."
+      },
+      {
+        "name": "Paris Agreement / International Climate",
+        "definition": "U.S. participation in or withdrawal from international climate agreements."
+      },
+      {
+        "name": "Environmental Regulation",
+        "definition": "Regulatory policies affecting pollution, emissions standards, and environmental compliance."
+      },
+      {
+        "name": "Clean Air / Water",
+        "definition": "Policies protecting air quality and water resources from contamination."
+      },
+      {
+        "name": "Public Lands Management",
+        "definition": "Policies governing use, conservation, and development of federally-owned lands."
+      },
+      {
+        "name": "National Monuments / Antiquities",
+        "definition": "Designation, modification, or revocation of protected areas under the Antiquities Act."
+      },
+      {
+        "name": "Offshore Drilling",
+        "definition": "Policies governing oil and gas exploration and extraction in federal waters."
+      },
+      {
+        "name": "Pipeline Policy",
+        "definition": "Approval, permitting, or cancellation of oil and gas pipeline projects."
+      },
+      {
+        "name": "Endangered Species",
+        "definition": "Policies affecting protection of threatened wildlife and their habitats."
+      },
+      {
+        "name": "Environmental Justice",
+        "definition": "Addressing disproportionate environmental burdens on minority and low-income communities."
+      },
+      {
+        "name": "Forest Management / Wildfire Prevention",
+        "definition": "Policies for managing federal forests and reducing wildfire risk."
+      },
+      {
+        "name": "Natural Gas / Fracking",
+        "definition": "Policies affecting natural gas extraction including hydraulic fracturing techniques."
+      },
+      {
+        "name": "Gulf Coast / Coastal Ecosystem Restoration",
+        "definition": "Efforts to restore and protect Gulf Coast wetlands and ecosystems."
+      },
+      {
+        "name": "Chesapeake Bay / Regional Water Protection",
+        "definition": "Programs to restore and protect the Chesapeake Bay and similar regional waterways."
+      }
+    ],
+    "healthcare": [
+      {
+        "name": "Affordable Care Act (ACA)",
+        "definition": "Policies implementing, modifying, or undermining the 2010 healthcare reform law."
+      },
+      {
+        "name": "Medicaid",
+        "definition": "Policies affecting the federal-state health insurance program for low-income individuals."
+      },
+      {
+        "name": "Medicare",
+        "definition": "Policies affecting the federal health insurance program for seniors and disabled individuals."
+      },
+      {
+        "name": "Public Health Emergency Response",
+        "definition": "Federal coordination and resources for responding to health emergencies and outbreaks."
+      },
+      {
+        "name": "Pandemic Preparedness",
+        "definition": "Planning and infrastructure to prepare for and respond to disease outbreaks."
+      },
+      {
+        "name": "Quarantine / Communicable Disease Control",
+        "definition": "Federal authority to restrict movement and contain spread of infectious diseases."
+      },
+      {
+        "name": "COVID-19 Response",
+        "definition": "Specific policies addressing the coronavirus pandemic including vaccines, mandates, and relief."
+      },
+      {
+        "name": "Vaccine Policy",
+        "definition": "Policies affecting vaccine development, distribution, requirements, or exemptions."
+      },
+      {
+        "name": "Prescription Drug Pricing",
+        "definition": "Efforts to reduce costs of medications through regulation or market reforms."
+      },
+      {
+        "name": "Mental Health",
+        "definition": "Policies addressing mental health services, coverage, and awareness."
+      },
+      {
+        "name": "Abortion / Reproductive Health",
+        "definition": "Policies affecting access to abortion services and reproductive healthcare."
+      },
+      {
+        "name": "Healthcare Competition / Markets",
+        "definition": "Policies to increase transparency and competition in healthcare markets."
+      },
+      {
+        "name": "Global Health Security",
+        "definition": "U.S. efforts to prevent and respond to international disease threats."
+      },
+      {
+        "name": "Bioethics",
+        "definition": "Ethical guidelines for medical research, genetic engineering, and emerging biotechnologies."
+      },
+      {
+        "name": "Veterans Healthcare",
+        "definition": "Policies affecting healthcare services provided through the VA system."
+      },
+      {
+        "name": "Telehealth / Telemedicine",
+        "definition": "Policies enabling remote healthcare delivery through technology."
+      },
+      {
+        "name": "Stem Cell / Biomedical Research",
+        "definition": "Policies governing federal funding and conduct of stem cell and medical research."
+      },
+      {
+        "name": "Antibiotic Resistance",
+        "definition": "Efforts to combat drug-resistant bacteria and promote antibiotic stewardship."
+      },
+      {
+        "name": "Kidney Health / Organ Donation",
+        "definition": "Policies to improve kidney care and increase organ donation rates."
+      },
+      {
+        "name": "Contraception / Family Planning",
+        "definition": "Policies affecting access to birth control and family planning services."
+      },
+      {
+        "name": "Newborn / Infant Care",
+        "definition": "Policies addressing healthcare and screening for newborns and infants."
+      }
+    ],
+    "civil_rights_equity": [
+      {
+        "name": "Racial Equity",
+        "definition": "Policies addressing systemic racial disparities and promoting equal outcomes across races."
+      },
+      {
+        "name": "LGBTQ+ Rights",
+        "definition": "Policies affecting rights and protections for lesbian, gay, bisexual, transgender, and queer individuals."
+      },
+      {
+        "name": "Gender Equality",
+        "definition": "Policies promoting equal treatment and opportunities regardless of gender."
+      },
+      {
+        "name": "Disability Rights",
+        "definition": "Policies protecting rights and access for individuals with disabilities."
+      },
+      {
+        "name": "Religious Liberty",
+        "definition": "Policies protecting freedom of religious practice and conscience rights."
+      },
+      {
+        "name": "Free Speech",
+        "definition": "Policies affecting First Amendment protections for expression and assembly."
+      },
+      {
+        "name": "Anti-discrimination",
+        "definition": "Policies prohibiting discrimination based on protected characteristics."
+      },
+      {
+        "name": "Voting Rights",
+        "definition": "Policies affecting access to voting and election administration."
+      },
+      {
+        "name": "Civil Rights Enforcement",
+        "definition": "Federal efforts to investigate and remedy civil rights violations."
+      },
+      {
+        "name": "DEI (Diversity, Equity, Inclusion)",
+        "definition": "Policies promoting or restricting diversity programs in government and institutions."
+      },
+      {
+        "name": "Affirmative Action",
+        "definition": "Policies requiring or prohibiting race-conscious measures in hiring or admissions."
+      },
+      {
+        "name": "Anti-Semitism",
+        "definition": "Policies combating discrimination and hatred against Jewish people."
+      },
+      {
+        "name": "Hate Crimes",
+        "definition": "Policies addressing crimes motivated by bias against protected groups."
+      },
+      {
+        "name": "Pay Equity / Equal Pay",
+        "definition": "Policies addressing wage gaps based on gender, race, or other characteristics."
+      },
+      {
+        "name": "Violence Against Women",
+        "definition": "Policies addressing domestic violence, sexual assault, and related crimes."
+      },
+      {
+        "name": "International Religious Freedom",
+        "definition": "U.S. efforts to promote religious liberty and protect persecuted groups abroad."
+      }
+    ],
+    "education": [
+      {
+        "name": "K-12 Education Policy",
+        "definition": "Federal policies affecting elementary and secondary education standards and funding."
+      },
+      {
+        "name": "School Choice / Vouchers",
+        "definition": "Policies enabling public funding for private, charter, or religious schools."
+      },
+      {
+        "name": "Higher Education",
+        "definition": "Policies affecting colleges, universities, and post-secondary education."
+      },
+      {
+        "name": "Curriculum Standards",
+        "definition": "Federal involvement in what is taught in schools including history and civics."
+      },
+      {
+        "name": "Title IX",
+        "definition": "Policies affecting sex-based discrimination protections in educational institutions."
+      },
+      {
+        "name": "STEM Education",
+        "definition": "Initiatives promoting science, technology, engineering, and math education."
+      },
+      {
+        "name": "Apprenticeships / Vocational Training",
+        "definition": "Programs providing job training as alternatives to traditional college education."
+      },
+      {
+        "name": "Student Loans / Financial Aid",
+        "definition": "Policies affecting federal student loan programs, repayment, and forgiveness."
+      },
+      {
+        "name": "HBCUs",
+        "definition": "Policies supporting Historically Black Colleges and Universities."
+      },
+      {
+        "name": "Education Freedom",
+        "definition": "Policies expanding parental control over children's education choices."
+      },
+      {
+        "name": "Tribal Colleges / Native American Education",
+        "definition": "Support for educational institutions serving Native American communities."
+      },
+      {
+        "name": "Educational Excellence Initiatives (by demographic)",
+        "definition": "Targeted programs to improve educational outcomes for specific groups."
+      },
+      {
+        "name": "Campus Free Speech / Academic Freedom",
+        "definition": "Policies protecting or regulating speech and viewpoint diversity at universities."
+      },
+      {
+        "name": "For-Profit Education / Veterans Education Protection",
+        "definition": "Oversight of for-profit schools and protection of veterans using education benefits."
+      }
+    ],
+    "government_operations": [
+      {
+        "name": "Federal Workforce Management",
+        "definition": "Policies affecting hiring, compensation, and management of federal employees."
+      },
+      {
+        "name": "Civil Service Reform",
+        "definition": "Changes to the merit-based system governing federal employment."
+      },
+      {
+        "name": "Regulatory Reform / Deregulation",
+        "definition": "Efforts to reduce, streamline, or eliminate federal regulations."
+      },
+      {
+        "name": "Government Efficiency",
+        "definition": "Initiatives to reduce waste, improve performance, and cut costs in government."
+      },
+      {
+        "name": "Federal Hiring",
+        "definition": "Policies affecting how agencies recruit and hire federal employees."
+      },
+      {
+        "name": "Schedule F / Political Appointments",
+        "definition": "Policies reclassifying federal positions to allow political appointment or removal."
+      },
+      {
+        "name": "Ethics / Lobbying Rules",
+        "definition": "Standards governing conflicts of interest and post-government employment."
+      },
+      {
+        "name": "Federal Spending",
+        "definition": "Executive policies directing or restricting agency expenditures."
+      },
+      {
+        "name": "Government Reorganization",
+        "definition": "Restructuring of federal agencies, departments, or programs."
+      },
+      {
+        "name": "Records / Classification / Transparency",
+        "definition": "Policies governing government records management and public access to information."
+      },
+      {
+        "name": "FEMA / Emergency Management",
+        "definition": "Policies affecting federal disaster response and emergency preparedness."
+      },
+      {
+        "name": "FOIA / Information Disclosure",
+        "definition": "Policies affecting public access to government records under Freedom of Information Act."
+      },
+      {
+        "name": "Security Clearances / Background Investigations",
+        "definition": "Policies governing vetting of individuals for access to classified information."
+      },
+      {
+        "name": "Presidential Records",
+        "definition": "Policies governing preservation and access to records of the presidency."
+      },
+      {
+        "name": "Postal Service",
+        "definition": "Policies affecting operations and reform of the U.S. Postal Service."
+      },
+      {
+        "name": "Faith-Based Initiatives",
+        "definition": "Policies enabling religious organizations to receive federal funding for services."
+      },
+      {
+        "name": "Federal Labor-Management Relations",
+        "definition": "Policies governing collective bargaining and unions for federal employees."
+      }
+    ],
+    "foreign_policy": [
+      {
+        "name": "Diplomatic Relations",
+        "definition": "Establishment, modification, or severance of official relations with foreign nations."
+      },
+      {
+        "name": "Foreign Aid",
+        "definition": "U.S. financial and material assistance to foreign countries and populations."
+      },
+      {
+        "name": "International Agreements / Treaties",
+        "definition": "U.S. entry into, implementation of, or withdrawal from international agreements."
+      },
+      {
+        "name": "United Nations Policy",
+        "definition": "U.S. engagement with and policy toward the United Nations system."
+      },
+      {
+        "name": "WHO / International Health",
+        "definition": "U.S. participation in World Health Organization and global health initiatives."
+      },
+      {
+        "name": "NATO",
+        "definition": "U.S. policy toward the North Atlantic Treaty Organization alliance."
+      },
+      {
+        "name": "Sanctions (Country-Specific)",
+        "definition": "Economic and diplomatic penalties targeting specific foreign nations."
+      },
+      {
+        "name": "Human Rights (International)",
+        "definition": "U.S. efforts to promote human rights standards and address abuses abroad."
+      },
+      {
+        "name": "Global Engagement",
+        "definition": "Broad U.S. diplomatic and economic engagement with the international community."
+      },
+      {
+        "name": "Africa Engagement / Trade",
+        "definition": "U.S. diplomatic and economic initiatives focused on African nations."
+      },
+      {
+        "name": "Hostage Policy / Wrongfully Detained Citizens",
+        "definition": "Efforts to secure release of Americans held abroad."
+      },
+      {
+        "name": "Diaspora Engagement",
+        "definition": "Outreach to immigrant communities with ties to their countries of origin."
+      },
+      {
+        "name": "Global Development",
+        "definition": "U.S. efforts to promote economic development and reduce poverty worldwide."
+      }
+    ],
+    "country_region_specific": [
+      {
+        "name": "China",
+        "definition": "Policies specifically addressing relations with or actions toward the People's Republic of China."
+      },
+      {
+        "name": "Russia",
+        "definition": "Policies specifically addressing relations with or actions toward the Russian Federation."
+      },
+      {
+        "name": "Iran",
+        "definition": "Policies specifically addressing relations with or actions toward Iran."
+      },
+      {
+        "name": "North Korea",
+        "definition": "Policies specifically addressing relations with or actions toward North Korea."
+      },
+      {
+        "name": "Venezuela",
+        "definition": "Policies specifically addressing relations with or actions toward Venezuela."
+      },
+      {
+        "name": "Cuba",
+        "definition": "Policies specifically addressing relations with or actions toward Cuba."
+      },
+      {
+        "name": "Mexico",
+        "definition": "Policies specifically addressing relations with or actions toward Mexico."
+      },
+      {
+        "name": "Canada",
+        "definition": "Policies specifically addressing relations with or actions toward Canada."
+      },
+      {
+        "name": "Middle East (General)",
+        "definition": "Policies affecting the broader Middle East region."
+      },
+      {
+        "name": "Africa (General)",
+        "definition": "Policies affecting the African continent broadly."
+      },
+      {
+        "name": "Europe (General)",
+        "definition": "Policies affecting European nations broadly."
+      },
+      {
+        "name": "Asia-Pacific (General)",
+        "definition": "Policies affecting the Asia-Pacific region broadly."
+      },
+      {
+        "name": "Syria",
+        "definition": "Policies specifically addressing relations with or actions toward Syria."
+      },
+      {
+        "name": "Libya",
+        "definition": "Policies specifically addressing relations with or actions toward Libya."
+      },
+      {
+        "name": "Zimbabwe",
+        "definition": "Policies specifically addressing relations with or actions toward Zimbabwe."
+      },
+      {
+        "name": "Sudan",
+        "definition": "Policies specifically addressing relations with or actions toward Sudan."
+      },
+      {
+        "name": "South Sudan",
+        "definition": "Policies specifically addressing relations with or actions toward South Sudan."
+      },
+      {
+        "name": "Burma / Myanmar",
+        "definition": "Policies specifically addressing relations with or actions toward Burma/Myanmar."
+      },
+      {
+        "name": "Belarus",
+        "definition": "Policies specifically addressing relations with or actions toward Belarus."
+      },
+      {
+        "name": "Western Balkans",
+        "definition": "Policies affecting countries in the Western Balkans region."
+      },
+      {
+        "name": "Iraq",
+        "definition": "Policies specifically addressing relations with or actions toward Iraq."
+      },
+      {
+        "name": "Afghanistan",
+        "definition": "Policies specifically addressing relations with or actions toward Afghanistan."
+      },
+      {
+        "name": "Sierra Leone / Conflict Diamonds",
+        "definition": "Policies addressing conflict diamonds and related issues in Sierra Leone."
+      },
+      {
+        "name": "Ukraine / Crimea",
+        "definition": "Policies addressing Ukraine, Russian annexation of Crimea, and related conflict."
+      },
+      {
+        "name": "Hong Kong",
+        "definition": "Policies addressing Hong Kong's autonomy and U.S. relations."
+      },
+      {
+        "name": "Somalia",
+        "definition": "Policies specifically addressing relations with or actions toward Somalia."
+      },
+      {
+        "name": "Yemen",
+        "definition": "Policies specifically addressing relations with or actions toward Yemen."
+      },
+      {
+        "name": "Nicaragua",
+        "definition": "Policies specifically addressing relations with or actions toward Nicaragua."
+      },
+      {
+        "name": "Central African Republic",
+        "definition": "Policies specifically addressing relations with or actions toward the Central African Republic."
+      },
+      {
+        "name": "Democratic Republic of Congo",
+        "definition": "Policies specifically addressing relations with or actions toward the DRC."
+      },
+      {
+        "name": "Mali",
+        "definition": "Policies specifically addressing relations with or actions toward Mali."
+      }
+    ],
+    "law_enforcement_justice": [
+      {
+        "name": "Criminal Justice Reform",
+        "definition": "Policies aimed at reforming sentencing, reducing incarceration, or improving fairness."
+      },
+      {
+        "name": "Federal Law Enforcement",
+        "definition": "Policies affecting FBI, DEA, ATF, Marshals, and other federal law enforcement agencies."
+      },
+      {
+        "name": "State/Local Law Enforcement Support",
+        "definition": "Federal assistance, equipment, and cooperation with state and local police."
+      },
+      {
+        "name": "Crime Reduction",
+        "definition": "Policies aimed at reducing violent crime and improving public safety."
+      },
+      {
+        "name": "Death Penalty",
+        "definition": "Policies affecting federal capital punishment."
+      },
+      {
+        "name": "Prison Reform / Private Prisons",
+        "definition": "Policies affecting conditions, operations, and use of private prisons in the federal system."
+      },
+      {
+        "name": "Drug Enforcement",
+        "definition": "Policies targeting illegal drug manufacturing, trafficking, and distribution."
+      },
+      {
+        "name": "Opioid Crisis",
+        "definition": "Policies specifically addressing the epidemic of opioid addiction and overdose deaths."
+      },
+      {
+        "name": "Human Trafficking",
+        "definition": "Efforts to combat trafficking in persons for labor or sexual exploitation."
+      },
+      {
+        "name": "Transnational Crime / Cartels",
+        "definition": "Policies targeting international criminal organizations and drug cartels."
+      },
+      {
+        "name": "Victim Rights",
+        "definition": "Policies protecting and supporting victims of crime."
+      },
+      {
+        "name": "Police Reform",
+        "definition": "Policies addressing use of force, accountability, and practices in policing."
+      },
+      {
+        "name": "Child Exploitation / Online Safety",
+        "definition": "Efforts to combat child sexual abuse and protect children online."
+      },
+      {
+        "name": "Reentry / Recidivism Reduction",
+        "definition": "Programs helping formerly incarcerated individuals successfully return to society."
+      },
+      {
+        "name": "Consumer Fraud / Market Integrity",
+        "definition": "Enforcement against fraud, scams, and market manipulation affecting consumers."
+      }
+    ],
+    "technology_innovation": [
+      {
+        "name": "Artificial Intelligence",
+        "definition": "Policies governing development, use, and risks of AI technologies."
+      },
+      {
+        "name": "Cybersecurity (Civilian)",
+        "definition": "Protecting private sector and civilian systems from cyber threats."
+      },
+      {
+        "name": "Data Privacy",
+        "definition": "Policies protecting personal information and regulating data collection."
+      },
+      {
+        "name": "Emerging Technologies",
+        "definition": "Policies addressing new technologies with significant potential impact."
+      },
+      {
+        "name": "Tech Industry Regulation",
+        "definition": "Government oversight and rules affecting technology companies."
+      },
+      {
+        "name": "Foreign Technology Threats",
+        "definition": "Policies addressing risks from foreign technology products and companies."
+      },
+      {
+        "name": "Government IT Modernization",
+        "definition": "Upgrading federal technology systems and digital services."
+      },
+      {
+        "name": "Space Policy",
+        "definition": "Policies governing space exploration, commercial space, and space security."
+      },
+      {
+        "name": "Science and Technology Policy",
+        "definition": "Broad policies supporting scientific research and technological advancement."
+      },
+      {
+        "name": "Social Media / Platform Policy",
+        "definition": "Policies addressing content moderation, censorship, and platform liability."
+      },
+      {
+        "name": "Quantum Computing / Quantum Technology",
+        "definition": "Policies supporting development and security of quantum technologies."
+      },
+      {
+        "name": "Biotechnology / Biomanufacturing",
+        "definition": "Policies supporting biological research and domestic biomanufacturing capacity."
+      },
+      {
+        "name": "GPS / Positioning / Navigation Systems",
+        "definition": "Policies ensuring reliable positioning, navigation, and timing services."
+      },
+      {
+        "name": "Telecommunications Security",
+        "definition": "Policies protecting communications infrastructure from foreign threats."
+      },
+      {
+        "name": "E-Commerce / Online Trade Regulation",
+        "definition": "Policies governing online commerce, particularly cross-border transactions."
+      }
+    ],
+    "infrastructure": [
+      {
+        "name": "Transportation Infrastructure",
+        "definition": "Policies affecting roads, bridges, rail, and other transportation systems."
+      },
+      {
+        "name": "Water Infrastructure",
+        "definition": "Policies affecting water supply, treatment, and distribution systems."
+      },
+      {
+        "name": "Broadband / Telecommunications",
+        "definition": "Policies expanding internet access and telecommunications networks."
+      },
+      {
+        "name": "Energy Infrastructure",
+        "definition": "Policies affecting power generation, transmission, and distribution systems."
+      },
+      {
+        "name": "Infrastructure Permitting",
+        "definition": "Policies streamlining or modifying approval processes for major projects."
+      },
+      {
+        "name": "Environmental Review Process",
+        "definition": "Policies affecting NEPA reviews and environmental impact assessments."
+      },
+      {
+        "name": "Air Traffic / Aviation System",
+        "definition": "Policies affecting airports, air traffic control, and aviation safety."
+      },
+      {
+        "name": "Port / Maritime Security",
+        "definition": "Policies protecting ports and shipping from security threats."
+      },
+      {
+        "name": "Harbor / Waterfront Security",
+        "definition": "Policies securing harbors and waterfront areas from threats."
+      }
+    ],
+    "labor_workforce": [
+      {
+        "name": "Worker Rights / Protections",
+        "definition": "Policies affecting wages, working conditions, and employee protections."
+      },
+      {
+        "name": "Union Policy",
+        "definition": "Policies affecting labor union organizing, rights, and collective bargaining."
+      },
+      {
+        "name": "Minimum Wage",
+        "definition": "Policies setting or raising minimum wage requirements."
+      },
+      {
+        "name": "Workplace Safety (OSHA)",
+        "definition": "Policies affecting occupational health and safety standards."
+      },
+      {
+        "name": "Employment Discrimination",
+        "definition": "Policies prohibiting discrimination in hiring and employment."
+      },
+      {
+        "name": "Workforce Development",
+        "definition": "Programs training workers for available jobs and emerging industries."
+      },
+      {
+        "name": "21st Century Workforce / Skills",
+        "definition": "Initiatives preparing workers for modern economy skill requirements."
+      },
+      {
+        "name": "Apprenticeships / Job Training",
+        "definition": "Programs providing on-the-job training and skill development."
+      },
+      {
+        "name": "Project Labor Agreements",
+        "definition": "Policies requiring or prohibiting union agreements on federal construction projects."
+      },
+      {
+        "name": "Retirement Security",
+        "definition": "Policies affecting pensions, 401(k)s, and retirement savings."
+      },
+      {
+        "name": "Caregiving / Paid Leave",
+        "definition": "Policies supporting family leave, caregiving, and work-life balance."
+      },
+      {
+        "name": "Forced Labor / Labor Standards (International)",
+        "definition": "Policies prohibiting imports made with forced labor and promoting global labor standards."
+      }
+    ],
+    "agriculture_rural": [
+      {
+        "name": "Agricultural Policy",
+        "definition": "Policies affecting farming, crop production, and agricultural markets."
+      },
+      {
+        "name": "Rural Development",
+        "definition": "Investments and programs supporting economic growth in rural areas."
+      },
+      {
+        "name": "Food Security / Nutrition",
+        "definition": "Policies ensuring access to adequate food and nutrition programs."
+      },
+      {
+        "name": "Farming / Ranching",
+        "definition": "Policies specifically affecting farm and ranch operations."
+      },
+      {
+        "name": "Agricultural Biotechnology",
+        "definition": "Policies governing genetically modified crops and agricultural innovation."
+      },
+      {
+        "name": "Rural Healthcare / Telehealth",
+        "definition": "Expanding healthcare access in rural and underserved areas."
+      },
+      {
+        "name": "Rural Broadband",
+        "definition": "Expanding internet access to rural communities."
+      },
+      {
+        "name": "Food Supply Chain",
+        "definition": "Policies ensuring resilience and security of food production and distribution."
+      }
+    ],
+    "disaster_emergency": [
+      {
+        "name": "Disaster Response",
+        "definition": "Federal coordination and resources for responding to natural disasters."
+      },
+      {
+        "name": "Emergency Declarations",
+        "definition": "Presidential declarations unlocking federal resources and authorities for emergencies."
+      },
+      {
+        "name": "Wildfire Management",
+        "definition": "Policies for preventing, fighting, and recovering from wildfires."
+      },
+      {
+        "name": "Flood Management",
+        "definition": "Policies for flood prevention, insurance, and recovery."
+      },
+      {
+        "name": "National Emergencies",
+        "definition": "Declaration and use of emergency powers under the National Emergencies Act."
+      },
+      {
+        "name": "Hurricane Recovery (Katrina, etc.)",
+        "definition": "Federal response and rebuilding efforts following major hurricanes."
+      },
+      {
+        "name": "Disaster Rebuilding / Long-term Recovery",
+        "definition": "Policies supporting communities in long-term recovery from disasters."
+      },
+      {
+        "name": "Citizen Preparedness",
+        "definition": "Programs encouraging individual and community emergency preparedness."
+      }
+    ],
+    "administrative_procedural": [
+      {
+        "name": "Revocation of Previous Executive Orders",
+        "definition": "Orders canceling or reversing previous executive actions."
+      },
+      {
+        "name": "Delegation of Authority",
+        "definition": "Assignment of presidential powers to agency heads or officials."
+      },
+      {
+        "name": "Federal Advisory Committees",
+        "definition": "Creation or management of committees providing advice to the executive branch."
+      },
+      {
+        "name": "Order of Succession",
+        "definition": "Establishing lines of succession for agency leadership."
+      },
+      {
+        "name": "Presidential Commissions / Task Forces",
+        "definition": "Creation of bodies to study issues and make recommendations."
+      },
+      {
+        "name": "Interagency Coordination",
+        "definition": "Policies improving cooperation and communication between federal agencies."
+      }
+    ],
+    "social_cultural": [
+      {
+        "name": "American Heritage / Patriotism",
+        "definition": "Policies promoting American history, values, and national identity."
+      },
+      {
+        "name": "Historical Commemorations",
+        "definition": "Recognition of historical events, figures, and anniversaries."
+      },
+      {
+        "name": "National Monuments / Memorials",
+        "definition": "Designation and management of monuments honoring historical significance."
+      },
+      {
+        "name": "Arts and Humanities",
+        "definition": "Federal support for cultural institutions and creative endeavors."
+      },
+      {
+        "name": "Volunteerism / National Service",
+        "definition": "Programs encouraging volunteer service and civic engagement."
+      },
+      {
+        "name": "Civic Participation",
+        "definition": "Policies promoting citizen engagement in democratic processes."
+      },
+      {
+        "name": "Physical Fitness / Health Promotion",
+        "definition": "Initiatives promoting exercise, nutrition, and healthy lifestyles."
+      },
+      {
+        "name": "Youth Programs",
+        "definition": "Federal initiatives supporting young people's development and opportunities."
+      },
+      {
+        "name": "Child Welfare / Foster Care",
+        "definition": "Policies affecting child protection services and foster care systems."
+      },
+      {
+        "name": "Museums / Libraries / Cultural Institutions",
+        "definition": "Federal support for cultural and educational institutions."
+      },
+      {
+        "name": "1776 Commission / Patriotic Education",
+        "definition": "Initiatives promoting traditional or patriotic approaches to history education."
+      }
+    ],
+    "international_institutions": [
+      {
+        "name": "United Nations",
+        "definition": "U.S. policy toward and participation in the United Nations."
+      },
+      {
+        "name": "World Health Organization (WHO)",
+        "definition": "U.S. engagement with or withdrawal from the WHO."
+      },
+      {
+        "name": "International Atomic Energy Agency (IAEA)",
+        "definition": "U.S. cooperation with nuclear monitoring and non-proliferation efforts."
+      },
+      {
+        "name": "NATO",
+        "definition": "U.S. commitments to and policy within the North Atlantic alliance."
+      },
+      {
+        "name": "World Trade Organization (WTO)",
+        "definition": "U.S. policy toward global trade rules and dispute resolution."
+      },
+      {
+        "name": "African Union",
+        "definition": "U.S. engagement with the continental African organization."
+      },
+      {
+        "name": "International Criminal Court",
+        "definition": "U.S. policy toward the ICC, including sanctions or cooperation."
+      },
+      {
+        "name": "Paris Climate Agreement",
+        "definition": "U.S. participation in or withdrawal from the international climate accord."
+      },
+      {
+        "name": "International Monetary Fund / World Bank",
+        "definition": "U.S. policy toward international financial institutions."
+      }
+    ]
+  },
+  "impacted_populations": {
+    "demographic_groups": {
+      "racial_ethnic": [
+        {
+          "name": "African Americans / Black Americans",
+          "definition": "Americans of African descent, including those whose ancestors were enslaved."
+        },
+        {
+          "name": "Hispanic / Latino Americans",
+          "definition": "Americans with origins in Spanish-speaking countries of Latin America or Spain."
+        },
+        {
+          "name": "Asian Americans",
+          "definition": "Americans with origins in East Asia, Southeast Asia, or South Asia."
+        },
+        {
+          "name": "Native Hawaiian and Pacific Islanders",
+          "definition": "Americans with origins in Hawaii, Guam, Samoa, or other Pacific islands."
+        },
+        {
+          "name": "Native Americans / Indigenous Peoples",
+          "definition": "Members of federally recognized tribes and indigenous peoples of the continental U.S."
+        },
+        {
+          "name": "Alaska Natives",
+          "definition": "Indigenous peoples of Alaska including Inuit, Yupik, and Aleut communities."
+        },
+        {
+          "name": "White Americans",
+          "definition": "Americans of European descent."
+        },
+        {
+          "name": "Multiracial Americans",
+          "definition": "Americans who identify with two or more racial backgrounds."
+        }
+      ],
+      "gender_identity_sexuality": [
+        {
+          "name": "Women",
+          "definition": "Female-identifying individuals, often specifically addressed in policies on equity and healthcare."
+        },
+        {
+          "name": "Men",
+          "definition": "Male-identifying individuals."
+        },
+        {
+          "name": "LGBTQ+ Individuals",
+          "definition": "Lesbian, gay, bisexual, transgender, queer, and other sexual and gender minorities."
+        },
+        {
+          "name": "Transgender Individuals",
+          "definition": "Individuals whose gender identity differs from their sex assigned at birth."
+        },
+        {
+          "name": "Non-binary Individuals",
+          "definition": "Individuals who identify outside the traditional male/female gender binary."
+        }
+      ],
+      "age_groups": [
+        {
+          "name": "Children / Minors",
+          "definition": "Individuals under 18 years of age."
+        },
+        {
+          "name": "Youth / Young Adults",
+          "definition": "Individuals typically ages 16-24, often targeted by education and workforce programs."
+        },
+        {
+          "name": "Working-Age Adults",
+          "definition": "Adults in their primary working years, typically ages 25-64."
+        },
+        {
+          "name": "Seniors / Elderly",
+          "definition": "Older adults, typically 65 and over, often addressed in healthcare and retirement policies."
+        }
+      ],
+      "religious_groups": [
+        {
+          "name": "Christians",
+          "definition": "Adherents of Christianity in its various denominations."
+        },
+        {
+          "name": "Muslims",
+          "definition": "Adherents of Islam."
+        },
+        {
+          "name": "Jews / Jewish Americans",
+          "definition": "Adherents of Judaism and those of Jewish ethnic heritage."
+        },
+        {
+          "name": "Hindus",
+          "definition": "Adherents of Hinduism."
+        },
+        {
+          "name": "Buddhists",
+          "definition": "Adherents of Buddhism."
+        },
+        {
+          "name": "Sikhs",
+          "definition": "Adherents of Sikhism."
+        },
+        {
+          "name": "Religious Organizations",
+          "definition": "Churches, mosques, synagogues, and other religious institutions."
+        },
+        {
+          "name": "Faith-Based Communities",
+          "definition": "Communities organized around shared religious beliefs and practices."
+        },
+        {
+          "name": "Secular / Non-religious",
+          "definition": "Individuals who do not identify with any religion, including atheists and agnostics."
+        }
+      ],
+      "disability_status": [
+        {
+          "name": "Individuals with Disabilities",
+          "definition": "People with physical, sensory, cognitive, or developmental disabilities."
+        },
+        {
+          "name": "Individuals with Mental Health Conditions",
+          "definition": "People living with mental illness or psychological conditions."
+        },
+        {
+          "name": "Individuals with Chronic Illnesses",
+          "definition": "People living with ongoing health conditions requiring long-term management."
+        }
+      ]
+    },
+    "immigration_status": [
+      {
+        "name": "U.S. Citizens",
+        "definition": "Individuals holding U.S. citizenship by birth or naturalization."
+      },
+      {
+        "name": "Lawful Permanent Residents (Green Card Holders)",
+        "definition": "Non-citizens authorized to live and work permanently in the U.S."
+      },
+      {
+        "name": "Visa Holders (Work, Student, Tourist)",
+        "definition": "Non-citizens in the U.S. on temporary visas for specific purposes."
+      },
+      {
+        "name": "Undocumented Immigrants",
+        "definition": "Individuals residing in the U.S. without legal immigration status."
+      },
+      {
+        "name": "Asylum Seekers",
+        "definition": "Individuals who have applied for protection from persecution in their home country."
+      },
+      {
+        "name": "Refugees",
+        "definition": "Individuals admitted to the U.S. after fleeing persecution abroad."
+      },
+      {
+        "name": "DACA Recipients / Dreamers",
+        "definition": "Individuals brought to the U.S. as children who received deferred deportation status."
+      },
+      {
+        "name": "TPS (Temporary Protected Status) Holders",
+        "definition": "Individuals from designated countries granted temporary protection from deportation."
+      },
+      {
+        "name": "Naturalized Citizens",
+        "definition": "Foreign-born individuals who have completed the citizenship process."
+      },
+      {
+        "name": "Birthright Citizens",
+        "definition": "Individuals who are citizens by virtue of being born in the U.S."
+      },
+      {
+        "name": "Noncitizens Serving in Armed Forces",
+        "definition": "Non-citizens who serve in the U.S. military."
+      }
+    ],
+    "employment_sectors": {
+      "government": [
+        {
+          "name": "Federal Employees / Civil Servants",
+          "definition": "Civilian employees of the federal government across all agencies."
+        },
+        {
+          "name": "Federal Contractors",
+          "definition": "Private sector workers employed on federal contracts."
+        },
+        {
+          "name": "Military Personnel (Active Duty)",
+          "definition": "Full-time members of the U.S. armed forces."
+        },
+        {
+          "name": "Military Personnel (Reserves/Guard)",
+          "definition": "Part-time military members in Reserve or National Guard units."
+        },
+        {
+          "name": "Military Reservists Called to Active Duty",
+          "definition": "Reserve members activated for full-time military service."
+        },
+        {
+          "name": "Military Spouses",
+          "definition": "Spouses of active duty or veteran military members."
+        },
+        {
+          "name": "Veterans",
+          "definition": "Former members of the U.S. armed forces."
+        },
+        {
+          "name": "Intelligence Community Personnel",
+          "definition": "Employees of CIA, NSA, and other intelligence agencies."
+        },
+        {
+          "name": "Law Enforcement Officers (Federal)",
+          "definition": "Officers in FBI, DEA, ATF, Marshals, and other federal law enforcement."
+        },
+        {
+          "name": "Law Enforcement Officers (State/Local)",
+          "definition": "Police officers and sheriffs employed by state and local governments."
+        },
+        {
+          "name": "Postal Workers",
+          "definition": "Employees of the U.S. Postal Service."
+        },
+        {
+          "name": "Foreign Service Officers",
+          "definition": "Diplomats representing the U.S. abroad through the State Department."
+        },
+        {
+          "name": "Political Appointees",
+          "definition": "Officials appointed by the President to serve in executive branch positions."
+        },
+        {
+          "name": "Security Clearance Holders",
+          "definition": "Individuals authorized to access classified government information."
+        }
+      ],
+      "private_sector": [
+        {
+          "name": "Small Business Owners",
+          "definition": "Owners of businesses with fewer than 500 employees."
+        },
+        {
+          "name": "Large Corporation Employees",
+          "definition": "Workers employed by major corporations."
+        },
+        {
+          "name": "Entrepreneurs / Startups",
+          "definition": "Founders and employees of new business ventures."
+        },
+        {
+          "name": "Gig Economy Workers",
+          "definition": "Workers in app-based and on-demand service jobs."
+        },
+        {
+          "name": "Independent Contractors",
+          "definition": "Self-employed individuals providing services to businesses."
+        },
+        {
+          "name": "Union Members",
+          "definition": "Workers represented by labor unions for collective bargaining."
+        },
+        {
+          "name": "Non-union Workers",
+          "definition": "Private sector workers not represented by unions."
+        },
+        {
+          "name": "Corporate Executives / Officers",
+          "definition": "Senior leadership of corporations including CEOs and board members."
+        }
+      ],
+      "industry_specific": [
+        {
+          "name": "Healthcare Workers",
+          "definition": "Doctors, nurses, and other medical professionals."
+        },
+        {
+          "name": "Teachers / Educators",
+          "definition": "K-12 teachers, professors, and educational staff."
+        },
+        {
+          "name": "Agricultural Workers / Farmers",
+          "definition": "Farm owners, farm workers, and agricultural laborers."
+        },
+        {
+          "name": "Manufacturing Workers",
+          "definition": "Workers in factories and production facilities."
+        },
+        {
+          "name": "Technology Workers",
+          "definition": "Software developers, engineers, and tech industry employees."
+        },
+        {
+          "name": "Energy Sector Workers (Oil, Gas, Coal)",
+          "definition": "Workers in fossil fuel extraction and production."
+        },
+        {
+          "name": "Renewable Energy Workers",
+          "definition": "Workers in solar, wind, and other clean energy industries."
+        },
+        {
+          "name": "Construction Workers",
+          "definition": "Workers in building and infrastructure construction."
+        },
+        {
+          "name": "Transportation Workers",
+          "definition": "Truck drivers, rail workers, and transit employees."
+        },
+        {
+          "name": "Financial Services Workers",
+          "definition": "Bank employees, investment professionals, and insurance workers."
+        },
+        {
+          "name": "Retail Workers",
+          "definition": "Employees in stores and retail establishments."
+        },
+        {
+          "name": "Hospitality Workers",
+          "definition": "Hotel, restaurant, and tourism industry employees."
+        },
+        {
+          "name": "Scientific Researchers",
+          "definition": "Scientists and researchers in academic and private institutions."
+        },
+        {
+          "name": "Journalists / Media Professionals",
+          "definition": "Reporters, editors, and media industry workers."
+        },
+        {
+          "name": "Maritime / Port Workers",
+          "definition": "Workers at ports and in shipping industries."
+        },
+        {
+          "name": "Airline / Aviation Workers",
+          "definition": "Pilots, flight attendants, and airport workers."
+        },
+        {
+          "name": "Defense Industry Workers",
+          "definition": "Employees of defense contractors and weapons manufacturers."
+        },
+        {
+          "name": "Seafood / Fishery Workers",
+          "definition": "Commercial fishers and seafood processing workers."
+        },
+        {
+          "name": "Merchant Marine Workers",
+          "definition": "Civilian mariners on U.S.-flagged commercial vessels."
+        },
+        {
+          "name": "Cybersecurity Professionals",
+          "definition": "Specialists in protecting computer systems and networks."
+        },
+        {
+          "name": "Automotive Industry Workers",
+          "definition": "Workers in car manufacturing and auto parts production."
+        }
+      ]
+    },
+    "economic_status": [
+      {
+        "name": "Low-Income Individuals / Families",
+        "definition": "Households earning below median income, often eligible for assistance programs."
+      },
+      {
+        "name": "Middle-Class Americans",
+        "definition": "Households with moderate income, typically between poverty and upper-income thresholds."
+      },
+      {
+        "name": "High-Income / Wealthy Individuals",
+        "definition": "Households with income significantly above median, often affected by tax policies."
+      },
+      {
+        "name": "Individuals Experiencing Poverty",
+        "definition": "People living below the federal poverty line."
+      },
+      {
+        "name": "Homeless / Unhoused Individuals",
+        "definition": "People lacking stable, permanent housing."
+      },
+      {
+        "name": "Food Insecure Populations",
+        "definition": "Individuals and families with uncertain access to adequate food."
+      }
+    ],
+    "geographic_communities": {
+      "domestic": [
+        {
+          "name": "Urban Communities",
+          "definition": "Residents of cities and metropolitan areas."
+        },
+        {
+          "name": "Suburban Communities",
+          "definition": "Residents of areas surrounding major cities."
+        },
+        {
+          "name": "Rural Communities",
+          "definition": "Residents of small towns and agricultural areas."
+        },
+        {
+          "name": "Tribal Communities / Reservations",
+          "definition": "Native American communities living on tribal lands."
+        },
+        {
+          "name": "Border Communities",
+          "definition": "Communities along the U.S.-Mexico and U.S.-Canada borders."
+        },
+        {
+          "name": "Coastal Communities",
+          "definition": "Communities along ocean coasts, affected by maritime and environmental policies."
+        },
+        {
+          "name": "Disaster-Affected Communities",
+          "definition": "Areas impacted by hurricanes, floods, wildfires, or other disasters."
+        }
+      ],
+      "regional": [
+        {
+          "name": "Alaska Residents",
+          "definition": "Residents of the state of Alaska, with unique geographic and policy considerations."
+        },
+        {
+          "name": "Hawaii Residents",
+          "definition": "Residents of the state of Hawaii."
+        },
+        {
+          "name": "Puerto Rico Residents",
+          "definition": "U.S. citizens living in the territory of Puerto Rico."
+        },
+        {
+          "name": "U.S. Territory Residents",
+          "definition": "Residents of Guam, U.S. Virgin Islands, American Samoa, and other territories."
+        },
+        {
+          "name": "Specific State Populations",
+          "definition": "Residents of particular states affected by state-specific federal policies."
+        }
+      ]
+    },
+    "institutional_groups": {
+      "education": [
+        {
+          "name": "K-12 Students",
+          "definition": "Students in elementary, middle, and high school."
+        },
+        {
+          "name": "College / University Students",
+          "definition": "Students pursuing undergraduate degrees."
+        },
+        {
+          "name": "Graduate / Professional Students",
+          "definition": "Students in master's, doctoral, or professional degree programs."
+        },
+        {
+          "name": "Homeschool Families",
+          "definition": "Families educating children at home rather than in traditional schools."
+        },
+        {
+          "name": "Charter School Communities",
+          "definition": "Students, parents, and staff at publicly-funded charter schools."
+        },
+        {
+          "name": "Private School Communities",
+          "definition": "Students, parents, and staff at private educational institutions."
+        },
+        {
+          "name": "Public School Communities",
+          "definition": "Students, parents, and staff at traditional public schools."
+        },
+        {
+          "name": "HBCU Students / Communities",
+          "definition": "Students and communities at Historically Black Colleges and Universities."
+        },
+        {
+          "name": "Tribal College Students / Communities",
+          "definition": "Students at colleges serving Native American communities."
+        },
+        {
+          "name": "International Students",
+          "definition": "Foreign nationals studying at U.S. educational institutions."
+        },
+        {
+          "name": "Special Education Students / Families",
+          "definition": "Students with disabilities receiving specialized educational services."
+        }
+      ],
+      "healthcare": [
+        {
+          "name": "Medicare Beneficiaries",
+          "definition": "Seniors and disabled individuals receiving Medicare coverage."
+        },
+        {
+          "name": "Medicaid Beneficiaries",
+          "definition": "Low-income individuals receiving Medicaid coverage."
+        },
+        {
+          "name": "ACA / Marketplace Enrollees",
+          "definition": "Individuals with health insurance through ACA exchanges."
+        },
+        {
+          "name": "Uninsured Individuals",
+          "definition": "People lacking health insurance coverage."
+        },
+        {
+          "name": "Patients (General)",
+          "definition": "Individuals receiving or seeking healthcare services."
+        },
+        {
+          "name": "Social Security Beneficiaries",
+          "definition": "Individuals receiving Social Security retirement or disability benefits."
+        }
+      ],
+      "justice_system": [
+        {
+          "name": "Incarcerated Individuals",
+          "definition": "People currently in prison or jail."
+        },
+        {
+          "name": "Formerly Incarcerated / Returning Citizens",
+          "definition": "People who have been released from prison and are reintegrating into society."
+        },
+        {
+          "name": "Individuals on Probation/Parole",
+          "definition": "People under community supervision as part of their sentence."
+        },
+        {
+          "name": "Crime Victims",
+          "definition": "Individuals who have suffered harm from criminal acts."
+        },
+        {
+          "name": "Defendants / Accused Persons",
+          "definition": "Individuals facing criminal charges in the justice system."
+        }
+      ]
+    },
+    "special_populations": [
+      {
+        "name": "Whistleblowers",
+        "definition": "Individuals who report illegal or unethical activities within organizations."
+      },
+      {
+        "name": "Human Trafficking Victims",
+        "definition": "Individuals exploited through forced labor or sex trafficking."
+      },
+      {
+        "name": "Domestic Violence Survivors",
+        "definition": "Individuals who have experienced intimate partner violence."
+      },
+      {
+        "name": "Taxpayers",
+        "definition": "Individuals and entities paying federal taxes."
+      },
+      {
+        "name": "Consumers",
+        "definition": "The general public as purchasers of goods and services."
+      },
+      {
+        "name": "Investors",
+        "definition": "Individuals with money in stocks, bonds, or other financial instruments."
+      },
+      {
+        "name": "Cryptocurrency / Digital Asset Holders",
+        "definition": "Individuals owning Bitcoin, other cryptocurrencies, or digital assets."
+      },
+      {
+        "name": "Gun Owners / Second Amendment Advocates",
+        "definition": "Individuals who own firearms or advocate for gun rights."
+      },
+      {
+        "name": "Environmental Justice Communities",
+        "definition": "Communities disproportionately affected by pollution and environmental hazards."
+      },
+      {
+        "name": "Volunteers / National Service Participants",
+        "definition": "Individuals serving in AmeriCorps, Peace Corps, or other service programs."
+      },
+      {
+        "name": "Terrorism Victims / Survivors",
+        "definition": "Individuals harmed by terrorist attacks."
+      },
+      {
+        "name": "Detainees / Prisoners of War",
+        "definition": "Individuals held in military or national security detention."
+      },
+      {
+        "name": "Renters / Homeowners",
+        "definition": "Individuals in the housing market as tenants or property owners."
+      },
+      {
+        "name": "Caregivers (Non-military)",
+        "definition": "Individuals providing unpaid care to family members or others."
+      },
+      {
+        "name": "Military Caregivers",
+        "definition": "Individuals caring for wounded, ill, or injured service members or veterans."
+      },
+      {
+        "name": "Opportunity Zone Residents",
+        "definition": "Residents of designated low-income areas eligible for investment incentives."
+      },
+      {
+        "name": "Hostages / Wrongfully Detained Americans Abroad",
+        "definition": "U.S. citizens held captive or detained overseas."
+      },
+      {
+        "name": "Child Exploitation Victims",
+        "definition": "Children who have been sexually abused or exploited."
+      },
+      {
+        "name": "Missing / Murdered Indigenous Persons",
+        "definition": "Native American and Alaska Native individuals who are missing or have been killed."
+      }
+    ],
+    "foreign_populations": [
+      {
+        "name": "Foreign Nationals (General)",
+        "definition": "Individuals who are citizens of countries other than the United States."
+      },
+      {
+        "name": "Foreign Government Officials",
+        "definition": "Officials of foreign governments, often subject to sanctions or diplomatic immunity."
+      },
+      {
+        "name": "Citizens of Specific Countries (by EO designation)",
+        "definition": "Nationals of countries specifically named in executive orders for restrictions or sanctions."
+      },
+      {
+        "name": "International Aid Recipients",
+        "definition": "Foreign individuals and communities receiving U.S. foreign assistance."
+      },
+      {
+        "name": "Global Health Populations",
+        "definition": "Foreign populations affected by U.S. global health programs and initiatives."
+      }
+    ],
+    "organizational_entities": [
+      {
+        "name": "Corporations / Businesses",
+        "definition": "For-profit business entities of all sizes."
+      },
+      {
+        "name": "Nonprofit Organizations",
+        "definition": "Tax-exempt organizations serving charitable, educational, or social purposes."
+      },
+      {
+        "name": "Educational Institutions",
+        "definition": "Schools, colleges, and universities."
+      },
+      {
+        "name": "Healthcare Organizations",
+        "definition": "Hospitals, clinics, and healthcare systems."
+      },
+      {
+        "name": "Religious Institutions",
+        "definition": "Churches, mosques, synagogues, and other houses of worship."
+      },
+      {
+        "name": "Labor Unions",
+        "definition": "Organizations representing workers in collective bargaining."
+      },
+      {
+        "name": "State Governments",
+        "definition": "The governments of the 50 U.S. states."
+      },
+      {
+        "name": "Local Governments",
+        "definition": "City, county, and municipal governments."
+      },
+      {
+        "name": "Tribal Governments",
+        "definition": "Sovereign governments of federally recognized Native American tribes."
+      },
+      {
+        "name": "Foreign Governments",
+        "definition": "National governments of other countries."
+      },
+      {
+        "name": "International Organizations",
+        "definition": "Multilateral bodies like the UN, WHO, NATO, and others."
+      }
+    ]
+  },
+  "impact_type": [
+    "Positive / Beneficial",
+    "Negative / Harmful",
+    "Neutral / Procedural"
+  ],
+  "metadata": {
+    "version": "1.4",
+    "created": "2025-12-11",
+    "source": "Analysis of ~500+ executive orders: Obama (2009, 2012, 2014, 2016), Trump (2017, 2018, 2019, 2020, 2025), Biden (2021, 2022, 2023), Bush (2001-2002, 2005, 2008)",
+    "notes": "Designed for neutral, comprehensive tagging of executive orders regardless of political perspective. Impact types simplified to positive/negative/neutral for clearer classification."
+  },
+  "suggestions": {
+    "themes": [
+      {
+        "name": "Digital Government / Customer Experience",
+        "suggested_category": "government_operations",
+        "eo_number": 14058,
+        "eo_title": "Transforming Federal Customer Experience and Service Delivery To Rebuild Trust in Government",
+        "justification": "The order focuses extensively on improving federal customer experience and service delivery through human-centered digital design and modernization, which is broader than but related to government IT modernization.",
+        "suggested_at": "2025-12-12"
+      },
+      {
+        "name": "Native American / Tribal Affairs",
+        "suggested_category": "civil_rights_equity",
+        "eo_number": 14112,
+        "eo_title": "Reforming Federal Funding and Support for Tribal Nations To Better Embrace Our Trust Responsibilities and Promote the Next Era of Tribal Self-Determination",
+        "justification": "The order specifically focuses on Tribal Nations, their sovereignty, and federal funding/support tailored to them, which is not explicitly covered by current themes.",
+        "suggested_at": "2025-12-12"
+      },
+      {
+        "name": "Puerto Rico Policy",
+        "suggested_category": "Country/Region-Specific",
+        "eo_number": "13517",
+        "eo_title": "Amendments to Executive Orders 13183 and 13494",
+        "justification": "Puerto Rico is a U.S. territory with unique federal considerations, and no existing taxonomy theme specifically addresses territorial policy distinct from states or foreign countries.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "poverty-reduction",
+        "suggested_category": "Social & Cultural",
+        "eo_number": "13828",
+        "eo_title": "Reducing Poverty in America by Promoting Opportunity and Economic Mobility",
+        "justification": "The executive order centers on reducing poverty and promoting economic mobility, which is not explicitly covered by any existing theme; adding a specific poverty reduction theme would improve thematic accuracy.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "tourism",
+        "suggested_category": "Economy & Trade",
+        "eo_number": "14314",
+        "eo_title": "Making America Beautiful Again by Improving Our National Parks",
+        "justification": "The order focuses significantly on increasing international tourism to national parks and adjusting fees for foreign visitors, which is a tourism policy area not explicitly covered in the existing taxonomy.",
+        "suggested_at": "2025-12-15"
+      }
+    ],
+    "impacted_populations": [
+      {
+        "name": "Importers / Exporters",
+        "suggested_category": "special_populations",
+        "impact_type": "negative",
+        "eo_number": 14360,
+        "eo_title": "Modifying the Scope of the Reciprocal Tariffs With Respect to Certain Agricultural Products",
+        "justification": "This order directly affects entities involved in importing/exporting affected agricultural products, who are not explicitly captured in existing taxonomy categories.",
+        "suggested_at": "2025-12-12"
+      },
+      {
+        "name": "Opioid Crisis Patients",
+        "suggested_category": "special_populations",
+        "impact_type": "negative",
+        "eo_number": 14357,
+        "eo_title": "Modifying Duties Addressing the Synthetic Opioid Supply Chain in the People's Republic of China",
+        "justification": "This executive order directly targets the supply of synthetic opioids, which directly impacts individuals struggling with opioid addiction and those affected by overdose.",
+        "suggested_at": "2025-12-12"
+      },
+      {
+        "name": "People Who Inject Drugs",
+        "suggested_category": "special_populations",
+        "impact_type": "negative",
+        "eo_number": 13703,
+        "eo_title": "Implementing the National HIV/AIDS Strategy for the United States for 2015-2020",
+        "justification": "This group is specifically named in the order as experiencing disparities and at heightened HIV risk but is not included in the existing taxonomy.",
+        "suggested_at": "2025-12-12"
+      },
+      {
+        "name": "Southern U.S. Residents",
+        "suggested_category": "geographic_communities.regional",
+        "impact_type": "negative",
+        "eo_number": 13703,
+        "eo_title": "Implementing the National HIV/AIDS Strategy for the United States for 2015-2020",
+        "justification": "The order specifically cites people living in the Southern United States as a priority population with elevated HIV burden.",
+        "suggested_at": "2025-12-12"
+      },
+      {
+        "name": "Foreign Financial Institutions",
+        "suggested_category": "organizational_entities",
+        "impact_type": "negative",
+        "eo_number": 14114,
+        "eo_title": "Taking Additional Steps With Respect to the Russian Federation's Harmful Activities",
+        "justification": "The EO targets foreign financial institutions directly by sanctioning them, but the taxonomy lacks a dedicated category for these entities.",
+        "suggested_at": "2025-12-12"
+      },
+      {
+        "name": "National Security Personnel",
+        "suggested_category": "employment_sectors.government",
+        "impact_type": "negative",
+        "eo_number": 14356,
+        "eo_title": "Ensuring Continued Accountability in Federal Hiring",
+        "justification": "The EO explicitly prioritizes hiring and staffing related to national security, but no exact taxonomy population currently captures national security personnel.",
+        "suggested_at": "2025-12-12"
+      },
+      {
+        "name": "Venezuelan Civilians",
+        "suggested_category": "Foreign Populations (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "13808",
+        "eo_title": "Imposing Additional Sanctions With Respect to the Situation in Venezuela",
+        "justification": "The executive order targets Venezuela's government institutionally but indirectly impacts general Venezuelan civilians through economic sanctions and humanitarian crises, which is not specifically captured by existing taxonomy categories.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "parents",
+        "suggested_category": "Institutional Groups > Education (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "13958",
+        "eo_title": "Establishing the President's Advisory 1776 Commission",
+        "justification": "Parents as a distinct group deeply involved in and affected by local curriculum control and patriotic education are not explicitly included, yet they have meaningful influence and experience impact.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "importers",
+        "suggested_category": "economic-actors (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14329",
+        "eo_title": "Addressing Threats to the United States by the Government of the Russian Federation",
+        "justification": "Importers are directly and meaningfully affected by tariffs and trade policy changes, however this group is not specifically listed in the taxonomy; including them would clarify direct impacts on those dealing with affected goods.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "miners",
+        "suggested_category": "Industry-Specific (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "13953",
+        "eo_title": "Addressing the Threat to the Domestic Supply Chain From Reliance on Critical Minerals From Foreign Adversaries and Supporting the Domestic Mining and Processing Industries",
+        "justification": "Miners are directly impacted by policies expanding domestic mining capacity but there is no specific existing population category explicitly for miners distinct from general manufacturing or energy sector workers.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "Individuals with Pre-Existing Conditions",
+        "suggested_category": "Disability Status (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "13951",
+        "eo_title": "An America-First Healthcare Plan",
+        "justification": "The EO refers extensively to protections and improved access for individuals with pre-existing conditions, yet this specific population is not listed in the taxonomy; adding it would capture a key affected group distinct from broader chronic illnesses.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "importers-exporters",
+        "suggested_category": "Private Sector (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14068",
+        "eo_title": "Prohibiting Certain Imports, Exports, and New Investment With Respect to Continued Russian Federation Aggression",
+        "justification": "This order directly restricts certain imports and exports, impacting importers and exporters specifically, but these actors are not explicitly categorized in the existing taxonomy.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "data-brokerage-industry",
+        "suggested_category": "Industry-Specific (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14117",
+        "eo_title": "Preventing Access to Americans' Bulk Sensitive Personal Data and United States Government-Related Data by Countries of Concern",
+        "justification": "The executive order specifically calls out data brokerage entities as unique risks for enabling access to Americans' sensitive data by countries of concern. The existing taxonomy lacks a discrete industry group for data brokers, distinct from corporations broadly, and their direct impact is significant.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "Importers",
+        "suggested_category": "Private Sector (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14316",
+        "eo_title": "Extending the Modification of the Reciprocal Tariff Rates",
+        "justification": "Importers are directly affected by tariff changes but are not explicitly listed in the taxonomy; they bear increased costs and compliance burdens related to tariffs.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "importers-exporters",
+        "suggested_category": "Organizational Entities (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14266",
+        "eo_title": "Modifying Reciprocal Tariff Rates To Reflect Trading Partner Retaliation and Alignment",
+        "justification": "This order directly affects importers and exporters involved in trade with China and other listed countries by altering tariff rates, impacting their costs and operations, yet this population is not listed in the existing taxonomy.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "import-dependent-retail-workers",
+        "suggested_category": "Industry-Specific (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14257",
+        "eo_title": "Regulating Imports With a Reciprocal Tariff To Rectify Trade Practices That Contribute to Large and Persistent Annual United States Goods Trade Deficits",
+        "justification": "Workers employed in retail sectors that rely heavily on imported goods may face job or wage impacts due to increased tariffs and higher import costs, but such a population is not explicitly covered in the existing taxonomy.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "individuals-without-banking-access",
+        "suggested_category": "Economic Status (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14247",
+        "eo_title": "Modernizing Payments To and From America's Bank Account",
+        "justification": "The order explicitly exempts those without access to banking or electronic payments, but the existing taxonomy does not have a precise population to capture unbanked individuals who are directly impacted.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "tourists",
+        "suggested_category": "Geographic Communities (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14234",
+        "eo_title": "Establishing the White House Task Force on the FIFA World Cup 2026",
+        "justification": "Tourists are a distinct group directly impacted by the event through travel, lodging, and services, but the taxonomy lacks a clear category for tourists who are directly affected economically and infrastructure-wise.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "importers-exporters",
+        "suggested_category": "Private Sector (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14226",
+        "eo_title": "Amendment to Duties To Address the Flow of Illicit Drugs Across Our Northern Border",
+        "justification": "This order modifies tariff and duty policies that directly impact entities engaged in cross-border trade, a group not explicitly listed in the existing taxonomy.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "consumers",
+        "suggested_category": "Special Populations (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14226",
+        "eo_title": "Amendment to Duties To Address the Flow of Illicit Drugs Across Our Northern Border",
+        "justification": "Consumers may face higher prices or reduced availability of goods due to the modified tariff/duty regime affecting trade across the northern border.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "limited-english-proficiency-individuals",
+        "suggested_category": "Demographic Groups (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14224",
+        "eo_title": "Designating English as the Official Language of the United States",
+        "justification": "This group includes individuals who struggle with English proficiency and are directly affected by reduction or potential barriers in multilingual government services; the current taxonomy does not isolate this population specifically.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "miners-smelters-refiners",
+        "suggested_category": "Industry-Specific (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14220",
+        "eo_title": "Addressing the Threat to National Security From Imports of Copper",
+        "justification": "This population includes workers directly involved in copper mining, smelting, and refining processes, critical to implementing the order's goal of expanding domestic capacity; currently missing as a discrete category.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "Afrikaners in South Africa",
+        "suggested_category": "Racial/Ethnic (positive impact)",
+        "impact_type": "neutral",
+        "eo_number": "14204",
+        "eo_title": "Addressing Egregious Actions of the Republic of South Africa",
+        "justification": "Afrikaners as a distinct ethnic minority group specifically targeted by the EO are not explicitly listed in the taxonomy; tagging them separately would clarify their direct positive and negative impacts beyond general 'foreign nationals' or 'citizens of specific countries.'",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "Israeli Citizens",
+        "suggested_category": "Foreign Populations (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14199",
+        "eo_title": "Withdrawing the United States From and Ending Funding to Certain United Nations Organizations and Reviewing United States Support to All International Organizations",
+        "justification": "The Executive Order explicitly references protecting US allies including Israel and condemns anti-Israel sentiment, thus Israeli citizens directly benefit, yet this group is not present in the nominal taxonomy.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "Arab Palestinian Populations",
+        "suggested_category": "Foreign Populations (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14199",
+        "eo_title": "Withdrawing the United States From and Ending Funding to Certain United Nations Organizations and Reviewing United States Support to All International Organizations",
+        "justification": "Because the order explicitly targets UNRWA and its funding for Palestinian refugees, this population will be negatively and directly impacted due to cuts in humanitarian aid; this specific group is missing from the taxonomy.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "parents",
+        "suggested_category": "Special Populations (positive impact)",
+        "impact_type": "neutral",
+        "eo_number": "14190",
+        "eo_title": "Ending Radical Indoctrination in K-12 Schooling",
+        "justification": "Parents are central to this EO since it emphasizes protecting parental rights over K-12 education and student information; yet 'parents' as a population is not part of the current taxonomy.",
+        "suggested_at": "2025-12-15"
+      }
+    ]
+  }
+}

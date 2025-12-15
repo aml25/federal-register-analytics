@@ -13,27 +13,28 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-07-23/pdf/2025-13925.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/07/23/2025-13925.txt",
   "enrichment": {
-    "summary": "This executive order creates a new category called Schedule G for certain federal government jobs that have a policy-making or policy-advocating role and are expected to change with a new President. It fills a gap in existing hiring categories by formally establishing how these positions are identified and appointed, particularly in the Department of Veterans Affairs, while emphasizing non-partisan selection based on suitability for the President's policies.",
+    "summary": "This executive order establishes a new category called Schedule G in the federal excepted service for noncareer positions that are policy-making or policy-advocating and typically change with a new President. It clarifies which positions fall under this new schedule, updates civil service rules accordingly, and sets guidelines for appointments, especially within the Department of Veterans Affairs.",
     "theme_ids": [
-      "federal-workforce",
-      "federal-agency-management"
+      "federal-workforce-management",
+      "civil-service-reform",
+      "federal-hiring",
+      "veterans-healthcare"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "veterans"
       ],
       "negative_ids": [
-        "displaced-federal-workers"
+        "political-appointees"
       ]
     },
     "potential_concerns": [
-      "The new Schedule G could blur lines between political appointments and career civil service, risking politicization of certain federal roles.",
-      "Lack of explicit veteran preference in Schedule G positions may reduce opportunities for veterans compared to other excepted service schedules.",
-      "Implementation challenges may arise in defining which positions truly qualify as policy-making or policy-advocating, leading to inconsistency across agencies.",
-      "By exempting removals from civil service regulations, there is potential for arbitrary or unfair dismissals of Schedule G employees.",
-      "Focusing initial appointments in the Department of Veterans Affairs could raise concerns about politicizing a veteran-focused agency."
+      "The creation of Schedule G could increase political volatility for noncareer policy-making positions, heightening job insecurity among political appointees.",
+      "The specific exclusion of political affiliation in Veterans Affairs Schedule G appointments may cause implementation challenges and delays, potentially impacting veterans' policy continuity and care.",
+      "Ambiguities in defining which positions fit Schedule G may lead to inconsistent classifications affecting both veterans' service delivery and political appointee career stability.",
+      "The expansion of noncareer policy-making roles subject to Presidential transitions might reduce institutional knowledge retention within the Department of Veterans Affairs, indirectly impacting veteran healthcare outcomes."
     ],
-    "enriched_at": "2025-12-09T02:46:09.555Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T07:36:52.575Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

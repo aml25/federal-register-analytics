@@ -13,30 +13,36 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-08/pdf/2025-15193.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/08/2025-15193.txt",
   "enrichment": {
-    "summary": "This executive order establishes a White House task force to coordinate and oversee federal planning for the 2028 Summer Olympics, ensuring security, transportation, border safety, and smooth visa processing for participants and visitors. The task force, chaired by the President and supported by multiple federal agencies, will operate until the end of 2028 to facilitate a safe and well-organized Olympic event in the United States.",
+    "summary": "This executive order creates a White House Task Force to coordinate federal planning and operations for the 2028 Summer Olympics in the United States. The Task Force is chaired by the President and includes key agency heads to ensure security, transportation, visa processing, and emergency readiness for the Games. It will operate until the end of 2028 and support cooperation among federal, state, and local partners.",
     "theme_ids": [
-      "national-security",
-      "federal-agency-management",
-      "public-safety",
-      "event-coordination"
+      "homeland-security",
+      "border-security",
+      "visa-policy",
+      "interagency-coordination",
+      "transportation-infrastructure"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "american-youth"
+        "visa-holders-work-student-tourist",
+        "foreign-nationals-general",
+        "transportation-workers",
+        "law-enforcement-officers-state-local",
+        "law-enforcement-officers-federal"
       ],
       "negative_ids": [
-        "private-sector-rivals"
+        "undocumented-immigrants",
+        "border-communities",
+        "urban-communities"
       ]
     },
     "potential_concerns": [
-      "The complexity of coordinating multiple federal agencies could lead to bureaucratic delays or inefficiencies in preparation and response.",
-      "Security measures might increase surveillance or restrictions affecting civil liberties or raise concerns among privacy advocates.",
-      "Visa and credentialing changes could lead to processing backlogs, affecting foreign athletes, officials, and media personnel.",
-      "Funding and resource allocation concentrated on the Olympics might divert attention and support from other critical federal programs.",
-      "The task force's broad authority and membership could result in unclear accountability or conflicts among agencies."
+      "Enhanced border-security and visa-processing efforts may increase scrutiny and delays for visa-holders and foreign nationals, potentially impeding legitimate travel and participation in the Games.",
+      "Heightened law enforcement coordination and homeland security measures risk over-policing urban and border communities, disproportionately affecting residents and raising civil liberties concerns.",
+      "Transportation infrastructure demands could strain transportation workers and urban communities, causing disruptions in daily commuting and local mobility.",
+      "The amplified security focus may inadvertently marginalize or criminalize undocumented immigrants, increasing their vulnerability to detention and deportation during the Olympic period.",
+      "Interagency coordination challenges might lead to inconsistent communication with state and local law enforcement, reducing overall effectiveness and possibly creating jurisdictional tensions."
     ],
-    "enriched_at": "2025-12-09T02:46:40.529Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:41:55.257Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

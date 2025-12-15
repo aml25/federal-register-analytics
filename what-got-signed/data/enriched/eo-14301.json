@@ -13,30 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-29/pdf/2025-09799.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/29/2025-09799.txt",
   "enrichment": {
-    "summary": "This executive order directs the Department of Energy to speed up the testing and deployment of advanced nuclear reactors, including establishing new pilot programs outside national labs and streamlining environmental reviews. Its goal is to foster innovation in nuclear technology to support domestic energy production and maintain U.S. leadership in this important field.",
+    "summary": "This executive order directs the Department of Energy to speed up the testing, approval, and deployment of advanced nuclear reactors to boost innovation and domestic production. It also establishes a pilot program to construct reactors outside national labs and streamlines environmental review processes to meet operational goals by mid-2026.",
     "theme_ids": [
-      "energy-policy",
-      "technology-development",
-      "regulatory-reform",
-      "federal-research-coordination"
+      "energy-independence-security",
+      "science-and-technology-policy",
+      "regulatory-reform-deregulation",
+      "defense-industrial-base"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "domestic-energy-producers",
-        "scientific-researchers"
+        "scientific-researchers",
+        "technology-workers",
+        "defense-industry-workers"
       ],
       "negative_ids": [
-        "environmental-advocates"
+        "environmental-justice-communities",
+        "rural-communities"
       ]
     },
     "potential_concerns": [
-      "Expediting reviews and approvals might reduce thorough environmental and safety oversight, potentially increasing risks of accidents or environmental harm.",
-      "Prioritizing certain reactors for rapid deployment could disadvantage smaller or less well-funded developers, limiting competition and innovation diversity.",
-      "Establishing pilot programs outside national laboratories may face challenges in oversight and maintaining stringent safety and security standards.",
-      "The ambitious timeline to achieve criticality in approved reactors may be difficult to meet, risking delays or unmet expectations.",
-      "Streamlining NEPA compliance could provoke criticism from environmental groups and lead to legal challenges that could delay projects."
+      "The expedited approval and streamlined environmental reviews could compromise thorough safety and environmental assessments, disproportionately impacting environmental-justice-communities near reactor sites.",
+      "Rapid deployment schedules may pressure scientific researchers and technology workers to prioritize speed over comprehensive testing, potentially increasing technical risks.",
+      "Pilot programs for reactors outside national laboratories may face resistance or implementation challenges in rural communities where many sites may be located.",
+      "Defense industry workers may benefit from innovation and deployment of advanced reactors, but increased focus on defense applications could divert resources from civilian energy needs."
     ],
-    "enriched_at": "2025-12-09T02:45:24.563Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T07:38:52.534Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

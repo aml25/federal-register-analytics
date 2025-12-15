@@ -13,28 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-28/pdf/2025-05524.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/28/2025-05524.txt",
   "enrichment": {
-    "summary": "This executive order strengthens the federal government’s ability to prevent financial fraud and improper payments by requiring agencies to provide detailed payment information to the Department of the Treasury. It promotes transparency, accountability, and efficiency by consolidating payment authority and financial systems under the Treasury to better track, verify, and manage federal funds.",
+    "summary": "This executive order directs the Department of the Treasury and federal agencies to improve the security and transparency of government payments by preventing fraud, waste, and improper payments. It requires agencies to provide detailed financial data for better tracking, consolidates financial systems, and reduces the number of non-Treasury entities authorized to make payments to streamline federal financial management.",
     "theme_ids": [
-      "financial-regulation",
-      "federal-agency-management",
-      "consumer-protection"
+      "financial-system-regulation",
+      "government-efficiency",
+      "corporate-fraud-white-collar-crime"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "financial-institutions"
+        "taxpayers",
+        "low-income-individuals-families",
+        "medicare-beneficiaries",
+        "medicaid-beneficiaries",
+        "social-security-beneficiaries"
       ],
-      "negative_ids": [
-        "federal-agencies-with-increased-administrative-burden"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Consolidation of payment systems under the Treasury may reduce agency flexibility and create operational bottlenecks.",
-      "Increased data sharing and centralization could raise privacy and security risks, especially related to sensitive taxpayer and payment information.",
-      "Smaller agencies or Non-Treasury Disbursing Offices may face challenges adapting to new reporting and system integration requirements.",
-      "Aggressive pre-certification verification processes might delay legitimate payments or impose administrative burdens on agencies and payees.",
-      "Ensuring compliance across diverse federal agencies and resolving exemptions could complicate effective implementation."
+      "The consolidation and centralization of disbursing functions may disrupt existing payment flows, causing delays or errors that negatively impact vulnerable populations such as Medicare, Medicaid, and Social Security beneficiaries.",
+      "Reducing the number of Non-Treasury Disbursing Offices (NTDOs) could lead to operational challenges and staffing displacement within agencies currently authorized to make payments, affecting agency capacity to manage specialized payment programs.",
+      "Enhanced data sharing and pre-certification requirements to prevent fraud may raise privacy concerns among low-income individuals and beneficiaries if personally identifiable information is mishandled or over-shared.",
+      "The requirement for standardized financial systems and pre-certification may create administrative burdens for agencies, potentially slowing down urgent payments to individuals and businesses in need, especially those reliant on timely government benefits.",
+      "Increased transparency and centralization efforts to prevent corporate fraud and white-collar crime may disproportionately focus on certain corporate entities, possibly affecting the payment processes of small businesses or contractors reliant on federal disbursements."
     ],
-    "enriched_at": "2025-12-09T02:42:46.615Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:22:54.791Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

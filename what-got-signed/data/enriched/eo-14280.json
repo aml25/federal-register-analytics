@@ -13,28 +13,36 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-28/pdf/2025-07377.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/28/2025-07377.txt",
   "enrichment": {
-    "summary": "This executive order directs the federal government to stop using racial disparity data as a basis for school discipline policies, promoting instead 'commonsense' discipline focused strictly on student behavior and safety. It requires new guidance to prevent what the order describes as 'discriminatory equity ideology' in school discipline and mandates reports and revised policies to ensure discipline is fair, safe, and free from race-based considerations.",
+    "summary": "This executive order directs federal agencies to remove policies that tie school discipline to racial statistics and discriminatory equity ideologies. It requires new guidance to ensure school discipline is based on student behavior, promotes safety, and does not discriminate based on race. It also mandates reports and coordination with states to monitor and improve discipline policies in schools, including those serving military families.",
     "theme_ids": [
-      "education-policy"
+      "k-12-education-policy",
+      "civil-rights-enforcement",
+      "american-heritage-patriotism",
+      "interagency-coordination",
+      "military-readiness-force-structure"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "parents-of-public-school-students",
-        "education-administrators"
+        "k-12-students",
+        "teachers-educators",
+        "military-spouses",
+        "military-personnel-active-duty"
       ],
       "negative_ids": [
-        "diverse-student-populations",
-        "students-impacted-by-ideological-restrictions"
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "native-americans-indigenous-peoples",
+        "individuals-with-disabilities"
       ]
     },
     "potential_concerns": [
-      "Removing consideration of racial disparities in discipline may lead to increased racial discrimination and unequal treatment of minority students.",
-      "Ignoring systemic factors contributing to disparities might worsen school safety and student outcomes for marginalized groups.",
-      "The order's restriction on 'equity ideology' could undermine efforts to address implicit bias and promote inclusivity in schools.",
-      "Implementation may create conflicts between federal nondiscrimination law enforcement and local school discipline practices.",
-      "Mandated reports and policies could politicize school discipline and shift focus away from evidence-based behavioral interventions."
+      "The removal of racial impact analysis in school discipline may disproportionately harm African American, Hispanic/Latino, and Native American K-12 students by obscuring systemic discrimination, potentially worsening disciplinary disparities contrary to civil-rights-enforcement goals.",
+      "By focusing discipline solely on behavior without considering equity, the order may unintentionally increase suspensions and expulsions for students with disabilities, exacerbating challenges for this vulnerable group without providing adequate support.",
+      "Military families, including active-duty personnel and military spouses, may benefit from revised discipline codes, but inconsistent implementation across states could undermine the goal of military readiness and well-being for these populations.",
+      "Teachers and educators may face increased challenges managing classroom safety without guidance on addressing underlying racial and social issues, potentially leading to higher classroom disorder and tensions in diverse schools.",
+      "The emphasis on 'American values and traditional virtues' could lead to exclusion or marginalization of multicultural perspectives, creating controversy and resistance within diverse urban and public school communities."
     ],
-    "enriched_at": "2025-12-09T02:44:25.241Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:18:44.994Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

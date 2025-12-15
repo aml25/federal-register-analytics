@@ -1,0 +1,51 @@
+{
+  "document_number": "2017-04837",
+  "executive_order_number": "13780",
+  "title": "Protecting the Nation From Foreign Terrorist Entry Into the United States",
+  "abstract": null,
+  "signing_date": "2017-03-06",
+  "publication_date": "2017-03-09",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/03/09/2017-04837/protecting-the-nation-from-foreign-terrorist-entry-into-the-united-states",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-03-09/pdf/2017-04837.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/03/09/2017-04837.txt",
+  "enrichment": {
+    "summary": "This executive order temporarily restricts entry to the United States for nationals from several countries deemed to pose heightened terrorism risks, while improving visa screening and refugee admission processes to better protect national security. It revokes an earlier similar order, sets new vetting standards, and allows case-by-case exceptions to balance security with humanitarian and diplomatic considerations.",
+    "theme_ids": [
+      "counterterrorism",
+      "visa-policy",
+      "refugee-policy",
+      "travel-restrictions-bans",
+      "homeland-security",
+      "iraq",
+      "iran",
+      "libya",
+      "somalia",
+      "sudan",
+      "syria",
+      "yemen",
+      "revocation-of-previous-executive-orders"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "citizens-of-specific-countries-by-eo-designation",
+        "visa-holders-work-student-tourist",
+        "refugees",
+        "asylum-seekers"
+      ]
+    },
+    "potential_concerns": [
+      "The suspension of entry and enhanced vetting disproportionately restricts nationals from designated countries (citizens-of-specific-countries-by-eo-designation), potentially violating principles of non-discrimination and impacting lawful visa holders and refugees seeking admission.",
+      "Case-by-case waivers may lead to inconsistent application of the order, causing uncertainty and possible delays for visa holders and asylum-seekers from the affected countries.",
+      "The temporary suspension and reduction of refugee admissions may limit protections for vulnerable populations fleeing persecution, exacerbating humanitarian crises and undermining international refugee obligations.",
+      "Enhanced vetting procedures could increase processing times for visa applicants from the designated countries, disrupting travel for students, workers, and families, and impacting diplomatic and economic relations.",
+      "The exclusion of lawful permanent residents from the restrictions may not address potential security concerns related to visa overstays or status adjustments, creating enforcement and security challenges."
+    ],
+    "enriched_at": "2025-12-15T07:10:01.421Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

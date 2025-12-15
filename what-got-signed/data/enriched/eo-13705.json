@@ -1,0 +1,38 @@
+{
+  "document_number": "2015-22888",
+  "executive_order_number": "13705",
+  "title": "Designating the International Renewable Energy Agency as a Public International Organization Entitled To Enjoy Certain Privileges, Exemptions, and Immunities",
+  "abstract": null,
+  "signing_date": "2015-09-03",
+  "publication_date": "2015-09-09",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2015/09/09/2015-22888/designating-the-international-renewable-energy-agency-as-a-public-international-organization",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-09-09/pdf/2015-22888.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/09/09/2015-22888.txt",
+  "enrichment": {
+    "summary": "This executive order officially recognizes the International Renewable Energy Agency as a public international organization. This designation allows the agency to receive certain privileges, exemptions, and immunities under U.S. law, facilitating the United States' participation in the agency's activities.",
+    "theme_ids": [
+      "renewable-energy",
+      "international-agreements-treaties",
+      "global-engagement"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "renewable-energy-workers",
+        "international-organizations"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The designation may increase U.S. financial contributions or commitments to IRENA that impact renewable-energy-workers indirectly through shifting federal budget priorities.",
+      "Recognition of IRENA as an international organization could raise concerns about U.S. sovereignty or influence on international renewable energy policies affecting domestic energy sector workers.",
+      "The privileges and immunities granted to IRENA may complicate oversight or accountability mechanisms, potentially impacting the transparency of how U.S. interests and renewable energy goals are pursued internationally.",
+      "Some domestic fossil fuel energy-sector-workers may face unintended economic pressures if the U.S. prioritizes renewable energy through international commitments connected to this designation."
+    ],
+    "enriched_at": "2025-12-12T08:11:36.889Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

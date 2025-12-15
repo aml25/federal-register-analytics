@@ -1,0 +1,40 @@
+{
+  "document_number": "2012-31225",
+  "executive_order_number": "13633",
+  "title": "Closing of Executive Departments and Agencies of the Federal Government on Monday, December 24, 2012",
+  "abstract": null,
+  "signing_date": "2012-12-21",
+  "publication_date": "2012-12-28",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2012/12/28/2012-31225/closing-of-executive-departments-and-agencies-of-the-federal-government-on-monday-december-24-2012",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2012-12-28/pdf/2012-31225.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2012/12/28/2012-31225.txt",
+  "enrichment": {
+    "summary": "This executive order directs all federal executive departments and agencies to close on Monday, December 24, 2012, with employees excused from duty on that day. However, agency heads can require certain offices or employees to remain open due to national security, defense, or other public needs. The order also clarifies that the day off will be treated as a paid holiday under existing federal pay and leave laws.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "military-readiness-force-structure",
+      "government-efficiency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants"
+      ],
+      "negative_ids": [
+        "military-personnel-active-duty",
+        "intelligence-community-personnel"
+      ]
+    },
+    "potential_concerns": [
+      "Requiring certain federal employees, especially military personnel and intelligence community staff, to work on what is otherwise a paid holiday could lead to lowered morale and increased fatigue, impacting military readiness and national security (themes: military-readiness-force-structure, federal-workforce-management).",
+      "The decision-making discretion given to agency heads to keep offices open for 'public need' might result in inconsistent application across agencies, causing confusion and potential unfairness among federal employees regarding who must work on the closure day (theme: government-efficiency).",
+      "Excusing most federal employees from duty while mandating others remain could create operational inefficiencies and disrupt critical government functions, particularly in agencies related to defense and security (themes: government-efficiency, military-readiness-force-structure).",
+      "Classifying December 24 as a paid holiday could have budgetary implications if a large number of employees are compensated for a non-working day, potentially straining agency budgets despite section 5's mention of appropriations (theme: federal-workforce-management)."
+    ],
+    "enriched_at": "2025-12-15T02:09:54.610Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

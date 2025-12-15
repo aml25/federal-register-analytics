@@ -1,0 +1,38 @@
+{
+  "document_number": "2019-27678",
+  "executive_order_number": "13900",
+  "title": "Providing for the Closing of Executive Departments and Agencies of the Federal Government on December 24, 2019",
+  "abstract": null,
+  "signing_date": "2019-12-17",
+  "publication_date": "2019-12-20",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/12/20/2019-27678/providing-for-the-closing-of-executive-departments-and-agencies-of-the-federal-government-on",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-12-20/pdf/2019-27678.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/12/20/2019-27678.txt",
+  "enrichment": {
+    "summary": "This executive order directs all federal executive departments and agencies to close and excuse their employees from work on December 24, 2019, the day before Christmas. However, heads of departments can require certain offices to remain open if needed for national security, defense, or other essential public services. It also addresses pay and leave rules for that day.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "national-security-information-classification"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants"
+      ],
+      "negative_ids": [
+        "federal-employees-civil-servants"
+      ]
+    },
+    "potential_concerns": [
+      "Requiring certain federal employees to work on December 24 for national security or essential services could create disparities and perceptions of unfairness among federal employees excused from duty.",
+      "Federal employees mandated to work on the holiday may face challenges balancing personal and family time, affecting workforce morale and productivity.",
+      "Ambiguity in determining which offices must remain open could lead to inconsistent implementation across agencies, disproportionately burdening some federal employees.",
+      "Confusion or delays regarding pay and leave rules under this order may result in administrative difficulties and dissatisfaction among impacted federal employees."
+    ],
+    "enriched_at": "2025-12-12T08:14:24.229Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

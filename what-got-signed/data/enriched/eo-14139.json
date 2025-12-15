@@ -13,25 +13,25 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-13/pdf/2025-00620.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/13/2025-00620.txt",
   "enrichment": {
-    "summary": "This executive order establishes a clear succession order for who will lead the Office of the National Cyber Director if the current Director becomes unable to perform their duties. It defines a specific list of officials authorized to act as Director and clarifies exceptions and presidential discretion in assigning an acting Director.",
+    "summary": "This executive order establishes a clear order of succession for who will act as the National Cyber Director if the current Director is unable to serve. It lists specific officials in the Office of the National Cyber Director who are authorized to step into the role temporarily, subject to legal eligibility and presidential discretion.",
     "theme_ids": [
-      "national-security",
-      "federal-agency-management"
+      "order-of-succession",
+      "cybersecurity-national-security"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "political-appointees",
+        "cybersecurity-professionals"
       ],
       "negative_ids": []
     },
     "potential_concerns": [
-      "Ambiguity about the practical application of presidential discretion could lead to disputes or confusion during transitions.",
-      "Excluding individuals serving in acting capacities from succession might limit flexibility in emergency scenarios.",
-      "Potential for delays or operational disruptions if successors are ineligible under the Federal Vacancies Reform Act.",
-      "Lack of protections or guidelines to ensure continuity of leadership during extended vacancies could impact cybersecurity governance.",
-      "The order does not specify procedures for informing relevant stakeholders or the public about succession changes, possibly reducing transparency."
+      "The order of succession may concentrate power within a small cadre of political appointees, potentially limiting diversity in leadership perspectives among cybersecurity professionals.",
+      "Presidential discretion to depart from the established order could introduce instability or politicization in cybersecurity leadership, impacting the effectiveness of national cyber defense.",
+      "Excluding those serving in acting capacities from succession could reduce the pool of experienced personnel eligible to lead during transitions, possibly leading to leadership gaps within the Office of the National Cyber Director.",
+      "The emphasis on legal eligibility under the Federal Vacancies Reform Act could delay timely leadership transitions, potentially weakening the national cybersecurity posture during critical incidents."
     ],
-    "enriched_at": "2025-12-09T02:37:24.566Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:38:54.107Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

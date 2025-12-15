@@ -13,34 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-06-03/pdf/2021-11792.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/06/03/2021-11792.txt",
   "enrichment": {
-    "summary": "This executive order establishes a federal initiative and advisory commission to promote equity, justice, and opportunities for Asian Americans, Native Hawaiians, and Pacific Islanders (AA and NHPI). It directs federal agencies to coordinate efforts to address barriers these communities face, combat anti-Asian discrimination and violence, improve data collection, and expand access to services and economic opportunities.",
+    "summary": "This executive order establishes a Presidential Advisory Commission and a White House Initiative to promote equity, justice, and opportunity for Asian Americans, Native Hawaiians, and Pacific Islanders. It aims to address systemic barriers including discrimination, anti-Asian hate, health disparities worsened by COVID-19, and economic challenges by coordinating federal efforts, improving data collection, and supporting community engagement.",
     "theme_ids": [
-      "equity-and-inclusion-policy",
-      "civil-rights-enforcement",
-      "public-health-promotion",
-      "education-policy",
-      "community-development",
-      "federal-workforce",
-      "climate-change-mitigation",
-      "consumer-protection",
-      "anti-discrimination-policy"
+      "racial-equity",
+      "hate-crimes",
+      "anti-discrimination",
+      "covid-19-response",
+      "federal-advisory-committees"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "asian-americans-and-nhpi-communities"
+        "asian-americans",
+        "native-hawaiian-and-pacific-islanders",
+        "low-income-individuals-families",
+        "small-business-owners",
+        "individuals-with-disabilities",
+        "children-minors",
+        "medicaid-beneficiaries"
       ],
-      "negative_ids": [
-        "private-sector-rivals"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Implementation may face challenges due to the broad scope and coordination required across numerous federal agencies.",
-      "Efforts to disaggregate data by diverse AA and NHPI subgroups could encounter difficulties related to privacy concerns and data collection standards.",
-      "Some stakeholders may question the sustainability and funding availability given the Commission’s stated two-year term and reliance on existing appropriations.",
-      "Potential overlaps or redundancies with prior initiatives and advisory bodies could complicate interagency collaboration.",
-      "There may be debate over how to balance addressing disparities while avoiding unintended reinforcement of stereotypes or community divisions."
+      "Efforts to improve data disaggregation and focus on subpopulations within AA and NHPI communities may unintentionally expose individuals to privacy risks or stigmatization, particularly among vulnerable groups such as undocumented immigrants or those with intersecting marginalized identities.",
+      "The initiative’s broad federal coordination might face challenges ensuring equitable resource allocation to low-income AA and NHPI families and small-business owners, risking inefficiencies or uneven benefits across diverse communities.",
+      "Addressing anti-Asian hate crimes and bias through federal programs may lead to concerns about surveillance or policing practices that could disproportionately impact certain AA and NHPI subgroups or unintentionally exacerbate racial profiling.",
+      "Efforts to improve language access and culturally competent health services for AA and NHPI communities, including medicaid beneficiaries and individuals with disabilities, may be underfunded or inconsistently implemented at the local level, limiting their effectiveness.",
+      "The two-year term limitation of the Commission risks disrupting continuity of initiatives and stakeholder trust among AA and NHPI communities, especially for long-term issues such as health disparities or economic opportunity."
     ],
-    "enriched_at": "2025-12-09T03:54:37.042Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T07:32:24.378Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

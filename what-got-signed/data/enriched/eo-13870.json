@@ -1,0 +1,44 @@
+{
+  "document_number": "2019-09750",
+  "executive_order_number": "13870",
+  "title": "America's Cybersecurity Workforce",
+  "abstract": null,
+  "signing_date": "2019-05-02",
+  "publication_date": "2019-05-09",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/05/09/2019-09750/americas-cybersecurity-workforce",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-05-09/pdf/2019-09750.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/05/09/2019-09750.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to strengthen and grow America's cybersecurity workforce by improving training, workforce mobility, and recognition programs. It establishes initiatives like a rotational assignment program within federal agencies, a cybersecurity competition, and the integration of a national cybersecurity skill framework to better prepare and sustain cybersecurity professionals across the public and private sectors.",
+    "theme_ids": [
+      "cybersecurity-national-security",
+      "homeland-security",
+      "federal-workforce-management",
+      "workforce-development",
+      "apprenticeships-vocational-training"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "cybersecurity-professionals",
+        "federal-employees-civil-servants",
+        "military-personnel-active-duty",
+        "technology-workers",
+        "k-12-students"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The increased workforce mobility programs may create challenges for cybersecurity professionals related to job stability and continuity, impacting federal employees and military personnel during frequent rotations.",
+      "Efforts to integrate the NICE Framework into contracts and training might disadvantage technology workers and cybersecurity professionals who lack access to such tailored training or resources, potentially creating disparities within the workforce.",
+      "The focus on competitions and awards for cybersecurity professionals could unintentionally prioritize high-performing individuals over team cohesion and long-term professional development within federal agencies and the military.",
+      "Expanding cybersecurity education and awards for K-12 students might raise concerns about the equitable availability of resources and access across diverse school districts, potentially exacerbating educational inequalities.",
+      "The shortage of cybersecurity talent addressed in this order might lead to increased pressure on existing cybersecurity professionals and technology workers, possibly resulting in burnout or turnover without sufficient support mechanisms."
+    ],
+    "enriched_at": "2025-12-15T07:26:36.351Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

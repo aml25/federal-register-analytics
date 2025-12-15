@@ -13,34 +13,42 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-29/pdf/2025-02006.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/29/2025-02006.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to strictly enforce U.S. immigration laws by increasing removals, detentions, and prosecutions of unauthorized aliens, while revoking prior administration policies that eased immigration enforcement. It establishes federal-state task forces to combat human smuggling, strengthens penalties for illegal presence, and encourages voluntary compliance and expedited removal of unlawful immigrants.",
+    "summary": "This executive order directs federal agencies to strictly enforce U.S. immigration laws to reduce illegal immigration and protect public safety. It revokes prior immigration policies, strengthens enforcement and removal efforts, establishes Homeland Security Task Forces, supports cooperation with state and local law enforcement, and increases resources for detention and prosecution related to immigration violations.",
     "theme_ids": [
-      "immigration-enforcement",
-      "national-security",
-      "criminal-justice-enforcement",
-      "public-safety",
-      "federal-agency-management",
-      "foreign-policy"
+      "border-enforcement",
+      "immigration-enforcement-interior",
+      "deportation-removal",
+      "homeland-security",
+      "federal-law-enforcement",
+      "state-local-law-enforcement-support"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "state-and-local-law-enforcement",
-        "patriotic-citizens",
-        "removable-aliens"
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local",
+        "u-s-citizens",
+        "crime-victims"
       ],
       "negative_ids": [
         "undocumented-immigrants",
-        "sanctuary-jurisdictions"
+        "asylum-seekers",
+        "daca-recipients-dreamers",
+        "tps-temporary-protected-status-holders",
+        "refugees",
+        "hispanic-latino-americans",
+        "children-minors",
+        "low-income-individuals-families",
+        "border-communities"
       ]
     },
     "potential_concerns": [
-      "Increased detentions and expedited removal procedures may raise due process and humanitarian concerns for immigrants and asylum seekers.",
-      "Revoking prior immigration policies could disrupt existing legal and community programs, leading to operational challenges across agencies.",
-      "Enhanced enforcement and withholding of funds from sanctuary jurisdictions may create legal conflicts and strain federal-state relations.",
-      "The order's broad enforcement priorities risk targeting diverse immigrant populations, including those with temporary legal status or protections.",
-      "Operation of Homeland Security Task Forces nationwide may increase militarization of immigration enforcement and impact local communities."
+      "The order’s expanded enforcement and removal priorities may lead to increased detention and deportation of asylum seekers, DACA recipients, TPS holders, and refugees, undermining protections for vulnerable immigrant populations.",
+      "Heightened cooperation with state and local law enforcement may strain community relationships in Hispanic / Latino American communities and border communities, increasing fear and mistrust that could reduce cooperation with law enforcement.",
+      "The reestablishment of detention facilities and expanded detention efforts may negatively affect children and minors who are part of migrant families, raising humanitarian and legal concerns.",
+      "Efforts to withhold federal funds from sanctuary jurisdictions could limit resources for state and local governments, complicating law enforcement and public safety efforts in diverse and potentially high-need communities.",
+      "Increased criminal prosecution of immigration violations might overwhelm the justice system and raise due process concerns for undocumented immigrants and other negatively impacted populations."
     ],
-    "enriched_at": "2025-12-09T02:38:30.210Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:35:57.398Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

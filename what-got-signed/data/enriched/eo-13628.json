@@ -1,0 +1,48 @@
+{
+  "document_number": "2012-25236",
+  "executive_order_number": "13628",
+  "title": "Authorizing the Implementation of Certain Sanctions Set Forth in the Iran Threat Reduction and Syria Human Rights Act of 2012 and Additional Sanctions With Respect to Iran",
+  "abstract": null,
+  "signing_date": "2012-10-09",
+  "publication_date": "2012-10-12",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2012/10/12/2012-25236/authorizing-the-implementation-of-certain-sanctions-set-forth-in-the-iran-threat-reduction-and-syria",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2012-10-12/pdf/2012-25236.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2012/10/12/2012-25236.txt",
+  "enrichment": {
+    "summary": "This executive order authorizes the U.S. government to impose and enforce economic sanctions on individuals and entities involved with Iran's nuclear program, human rights abuses, censorship, and other activities deemed harmful to U.S. interests. It blocks property, restricts financial transactions, limits trade, and bans entry into the U.S. for sanctioned persons, aiming to pressure Iran to change its policies. The order also delegates authority to relevant agencies to implement these sanctions effectively.",
+    "theme_ids": [
+      "economic-sanctions",
+      "iran",
+      "human-rights-international",
+      "travel-restrictions-bans"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "muslims",
+        "foreign-nationals-general"
+      ],
+      "negative_ids": [
+        "corporations-businesses",
+        "large-corporation-employees",
+        "visa-holders-work-student-tourist",
+        "naturalized-citizens",
+        "lawful-permanent-residents-green-card-holders",
+        "foreign-government-officials",
+        "citizens-of-specific-countries-by-eo-designation"
+      ]
+    },
+    "potential_concerns": [
+      "The sanctions and travel bans targeted at Iranian individuals and entities could inadvertently restrict the rights and mobility of naturalized citizens, lawful permanent residents, and visa holders from Iran, raising concerns about due process and potential discrimination against these populations.",
+      "Economic sanctions imposed on corporations and large businesses involved with Iran may lead to job losses or economic hardship for their employees, affecting large corporation employees connected to affected companies.",
+      "Blocking property and restricting financial transactions might drive targeted entities to resort to covert or illicit financial networks, complicating enforcement and potentially exacerbating regional instability.",
+      "The broad criteria for designation and sanctions could unintentionally impact foreign nationals and legitimate international businesses that have indirect or secondary dealings with Iran, raising concerns about overreach and harm to innocents.",
+      "Restricting imports and exports related to Iran might reduce humanitarian aid or access to essential goods for ordinary Iranian citizens and Muslim communities, thereby affecting human rights and worsening humanitarian conditions."
+    ],
+    "enriched_at": "2025-12-15T02:10:38.618Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

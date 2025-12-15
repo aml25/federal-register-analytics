@@ -13,30 +13,33 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-11-07/pdf/2025-19826.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/11/07/2025-19826.txt",
   "enrichment": {
-    "summary": "This executive order continues the suspension of high tariffs on imports from China as part of a new trade agreement reached between the U.S. and China to improve economic relations, promote fair trade, and address national security concerns. It also directs key federal officials to monitor the agreement’s implementation and maintain readiness to reinstate tariffs if China fails to meet its commitments.",
+    "summary": "This executive order continues the suspension of increased tariffs on imports from China as part of a new trade agreement aimed at improving economic and trade relations between the United States and China. It commits both countries to specific actions such as removing retaliatory tariffs, addressing trade imbalances, and ensuring access to critical materials vital to U.S. national security and economy until November 10, 2026.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
-      "foreign-policy"
+      "tariffs-duties",
+      "trade-policy-agreements",
+      "china",
+      "defense-industrial-base",
+      "critical-minerals-supply-chain-security"
     ],
     "impacted_populations": {
       "positive_ids": [
+        "defense-industry-workers",
         "manufacturing-workers",
-        "agricultural-workers"
+        "agricultural-workers-farmers",
+        "large-corporation-employees"
       ],
       "negative_ids": [
-        "small-importers",
-        "foreign-manufacturers"
+        "technology-workers",
+        "small-business-owners"
       ]
     },
     "potential_concerns": [
-      "The arrangement could be undermined if China fails to fully implement its commitments, requiring reimposition of tariffs and potentially escalating trade tensions.",
-      "Suspending tariffs might harm certain U.S. manufacturers or industries that previously benefited from protections against lower-cost Chinese imports.",
-      "Monitoring enforcement of the agreement’s provisions may be challenging due to the complexity of trade flows and non-tariff barriers.",
-      "The agreement may face criticism for granting economic concessions to China despite ongoing concerns about trade imbalances and intellectual property protections.",
-      "There is a risk that geopolitical or security events could disrupt the trade relationship despite the tariff suspension."
+      "The suspension of heightened tariffs may benefit defense-industry-workers and manufacturing-workers by ensuring stable supply chains of critical materials, but may reduce incentives for domestic technology-workers to innovate or compete against imports.",
+      "Agricultural-workers-farmers could benefit from increased Chinese purchases of U.S. agricultural products, yet small-business-owners reliant on tariffs for competitive advantage might face negative economic impacts.",
+      "Relying on China to honor commitments on critical minerals supply could leave defense-industry-workers vulnerable to supply chain disruptions if implementation falters.",
+      "Large-corporation-employees may see improved business conditions due to tariff suspension, but the complexity of monitoring and enforcing the trade arrangement might lead to regulatory uncertainty affecting smaller firms disproportionately."
     ],
-    "enriched_at": "2025-12-09T02:48:18.311Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-12T08:21:24.183Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

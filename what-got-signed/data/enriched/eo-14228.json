@@ -13,30 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-07/pdf/2025-03775.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/07/2025-03775.txt",
   "enrichment": {
-    "summary": "This executive order increases tariffs on certain products imported from China to 20 percent to address the ongoing threat posed by synthetic opioids, like fentanyl, originating there. It reflects a determination that China has not taken sufficient actions to reduce the flow of these drugs into the United States, continuing to threaten national security and the economy.",
+    "summary": "This executive order increases the tariff on goods from China related to synthetic opioids from 10 percent to 20 percent because the Chinese government has not taken sufficient action to stop the illegal flow of these drugs into the United States. It aims to address the ongoing opioid crisis by pressing China to cooperate in curbing the supply chain of synthetic opioids.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
-      "foreign-policy"
+      "tariffs-duties",
+      "opioid-crisis",
+      "china"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "manufacturing-workers",
-        "pharmaceutical-manufacturers"
+        "healthcare-workers",
+        "patients-general"
       ],
       "negative_ids": [
-        "china",
-        "foreign-manufacturers"
+        "small-business-owners",
+        "manufacturing-workers",
+        "consumers"
       ]
     },
     "potential_concerns": [
-      "Higher tariffs could escalate trade tensions and provoke retaliatory measures from China.",
-      "Increased costs for importers and consumers in the U.S. due to higher tariffs on Chinese products.",
-      "Effectiveness of tariffs in reducing synthetic opioid flows may be limited without cooperative enforcement from China.",
-      "Potential adverse impact on U.S.-China diplomatic relations beyond trade and drug enforcement issues.",
-      "Risk that targeting an entire product category may harm legitimate trade and economic interests unrelated to opioids."
+      "Raising tariffs on Chinese synthetic opioid-related goods may increase costs for small business owners and manufacturers relying on these imports, leading to higher consumer prices.",
+      "Increased tariffs could disrupt supply chains, inadvertently reducing availability of certain medical or precursor products used by healthcare workers, potentially impacting patient care.",
+      "While aimed at curbing the opioid crisis, higher tariffs might incentivize illicit actors to find alternative smuggling methods, complicating law enforcement efforts and prolonging risks to patients and communities.",
+      "Consumers, particularly low-income patients dependent on affordable medicines, may face higher out-of-pocket costs if price increases on imported goods are passed down."
     ],
-    "enriched_at": "2025-12-09T02:41:49.457Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:25:55.169Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

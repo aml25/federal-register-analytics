@@ -13,28 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-06/pdf/2025-02345.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/06/2025-02345.txt",
   "enrichment": {
-    "summary": "This executive order requires federal agencies to eliminate at least ten existing regulations for every new regulation they propose, aiming to reduce regulatory costs and burdens on individuals and businesses. It sets a ‘regulatory cap’ to ensure the overall cost of new regulations is negative or zero, promoting economic growth and efficient government regulation management.",
+    "summary": "This executive order requires federal agencies to eliminate at least ten existing regulations for every new regulation they propose, aiming to reduce regulatory costs and burdens on individuals and businesses. It establishes a regulatory budget to ensure that new regulations do not increase overall regulatory costs and directs the Office of Management and Budget to oversee compliance and provide guidance.",
     "theme_ids": [
-      "regulatory-reform",
-      "federal-agency-management",
-      "financial-regulation"
+      "regulatory-reform-deregulation",
+      "financial-system-regulation",
+      "government-efficiency"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "american-businesses"
+        "small-business-owners",
+        "entrepreneurs-startups",
+        "corporations-businesses"
       ],
       "negative_ids": [
-        "independent-regulatory-agencies"
+        "individuals-with-disabilities",
+        "low-income-individuals-families",
+        "environmental-justice-communities"
       ]
     },
     "potential_concerns": [
-      "The aggressive one-in-ten regulatory repeal requirement may lead agencies to remove important but less visible protections, harming public welfare.",
-      "Complexity in accurately measuring and offsetting regulatory costs could cause inconsistent or ineffective implementation across agencies.",
-      "The order may reduce agency flexibility to respond quickly to emerging issues or emergencies due to strict cost offset rules and approval processes.",
-      "Eliminating regulations rapidly risks weakening environmental, health, safety, or consumer protections that depend on cumulative regulatory frameworks.",
-      "Potential conflicts could arise between this order’s deregulatory mandates and existing laws or obligations protecting national security and vulnerable populations."
+      "The ten-for-one regulatory elimination requirement may lead to the removal of essential protections that benefit individuals with disabilities and low-income families in the pursuit of reducing burdens on businesses, raising equity concerns under the themes of regulatory-reform-deregulation.",
+      "Small business owners and entrepreneurs might struggle with uncertainty and compliance complexity as agencies rush to repeal multiple regulations concurrently, potentially undermining government-efficiency and regulatory clarity.",
+      "Environmental justice communities could suffer unintended harm if environmental or health-related regulations are disproportionately repealed to meet the regulatory cost-cutting targets, which poses risks related to financial-system-regulation and equity.",
+      "The regulatory budget overseen by the Office of Management and Budget risks overly prioritizing cost savings over long-term social and public health benefits, potentially disadvantaging vulnerable populations such as low-income individuals and environmental justice communities."
     ],
-    "enriched_at": "2025-12-09T02:40:11.130Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:30:55.686Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -1,0 +1,37 @@
+{
+  "document_number": "2011-15181",
+  "executive_order_number": "13576",
+  "title": "Delivering an Efficient, Effective, and Accountable Government",
+  "abstract": null,
+  "signing_date": "2011-06-13",
+  "publication_date": "2011-06-16",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2011/06/16/2011-15181/delivering-an-efficient-effective-and-accountable-government",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2011-06-16/pdf/2011-15181.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2011/06/16/2011-15181.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to improve the efficiency and accountability of government operations by cutting waste, increasing transparency, and implementing performance reforms. It establishes a board to oversee efforts to detect and prevent fraud and duplication in federal spending and assigns officials responsibility for managing these reforms and tracking progress.",
+    "theme_ids": [
+      "government-efficiency",
+      "federal-workforce-management",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "federal-contractors"
+      ]
+    },
+    "potential_concerns": [
+      "Efforts to cut waste and increase efficiency may lead to reduced contract opportunities and financial burdens for federal contractors, potentially impacting their business sustainability.",
+      "Initiatives to eliminate program duplication and consolidate functions could result in job losses or decreased demand for services provided by federal contractors.",
+      "Implementation of stringent performance metrics and frequent data-driven reviews might increase administrative burdens on agencies that rely on contractors, indirectly affecting contract terms and stability.",
+      "The drive to reduce discretionary spending such as consultants and travel could disproportionately affect small or specialized contractors who depend on government contracts for survival."
+    ],
+    "enriched_at": "2025-12-15T02:08:46.843Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

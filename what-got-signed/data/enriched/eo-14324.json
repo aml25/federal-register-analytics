@@ -13,29 +13,36 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-05/pdf/2025-14897.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/05/2025-14897.txt",
   "enrichment": {
-    "summary": "This executive order suspends the duty-free de minimis exemption for all imports entering the United States, meaning all shipments regardless of value must now pay tariffs and duties. The goal is to prevent evasion of tariffs and reduce the flow of illicit drugs by ensuring duties are fully collected on low-value shipments from all countries. Special duty rates and procedures are established for shipments sent through the international postal network until further rules are finalized.",
+    "summary": "This executive order suspends the duty-free import allowance (de minimis treatment) for all international shipments entering the United States, requiring all shipments except those sent through the postal network to be subject to applicable duties and fees. It also establishes specific duty collection procedures and rates for shipments sent through the international postal network to prevent tariff evasion related to national emergencies tied to illicit drug trafficking and trade imbalances. The order aims to strengthen enforcement and make tariffs more effective in addressing these national security and economic threats.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
-      "foreign-policy"
+      "border-security",
+      "tariffs-duties",
+      "national-emergencies",
+      "transnational-crime-cartels",
+      "trade-policy-agreements",
+      "drug-enforcement",
+      "homeland-security"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "small-importers",
-        "international-shippers"
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local",
+        "border-communities"
       ],
       "negative_ids": [
-        "foreign-manufacturers"
+        "small-business-owners",
+        "retail-workers",
+        "consumers"
       ]
     },
     "potential_concerns": [
-      "Suspending duty-free de minimis treatment could increase costs and delays for consumers and small businesses relying on low-value imports.",
-      "The new duty collection methods for international postal shipments may be complex and burdensome for carriers and customs agencies to implement.",
-      "Higher duties might incentivize smuggling or evasion through other means, potentially undermining enforcement goals.",
-      "Foreign trading partners could view these measures as trade barriers, potentially escalating trade tensions.",
-      "Administrative challenges in coordinating multiple agencies and updating systems could delay effective enforcement."
+      "Suspending duty-free de minimis treatment may increase costs for small business owners who rely on importing low-value goods, impacting their competitiveness and forcing potential layoffs among retail workers.",
+      "Consumers might face higher prices and reduced access to affordable imported products due to the elimination of de minimis thresholds and added tariffs, disproportionately affecting low- and middle-income households.",
+      "Increased customs processing requirements could create logistical delays and bottlenecks in border communities dependent on cross-border trade, potentially harming local economies.",
+      "While the order aims to curb illicit drug trafficking by reducing tariff evasion, law enforcement officers may face challenges balancing enhanced enforcement duties with increased administrative workload at ports of entry.",
+      "The complex tariff and duty collection procedures for international postal shipments could lead to confusion and compliance difficulties for carriers and importers, resulting in unintentional legal violations or shipment delays."
     ],
-    "enriched_at": "2025-12-09T02:46:27.887Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:42:22.017Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

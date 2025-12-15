@@ -13,29 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-05-05/pdf/2023-09826.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/05/05/2023-09826.txt",
   "enrichment": {
-    "summary": "This executive order imposes U.S. sanctions on individuals and entities undermining peace, democracy, and stability in Sudan, including those responsible for violence, corruption, and human rights abuses. It also restricts their access to U.S. financial resources and entry into the United States, while supporting a democratic transition in Sudan through coordinated international assistance once a civilian transitional government is established.",
+    "summary": "This executive order expands U.S. sanctions against individuals and entities that are destabilizing Sudan, blocking their access to property and financial resources in the U.S. It aims to support the transition to a civilian democratic government in Sudan by restricting entry into the U.S. for those undermining peace and democracy, and coordinating international assistance once a transitional government is established.",
     "theme_ids": [
-      "national-security",
-      "foreign-policy",
-      "immigration-enforcement",
-      "trade-policy"
+      "economic-sanctions",
+      "sanctions-country-specific",
+      "sudan",
+      "travel-restrictions-bans"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "regional-stability-actors"
+        "foreign-nationals-general",
+        "international-organizations"
       ],
       "negative_ids": [
-        "populations-in-designated-countries"
+        "citizens-of-specific-countries-by-eo-designation",
+        "noncitizens-serving-in-armed-forces"
       ]
     },
     "potential_concerns": [
-      "Sanctions may inadvertently harm innocent civilian populations by restricting humanitarian aid and economic activity.",
-      "Identifying and accurately targeting responsible individuals and entities may be challenging, risking wrongful designation or exclusion of key actors.",
-      "Coordination with international partners might face delays or disagreements that could reduce the effectiveness of the sanctions and support efforts.",
-      "Restrictions on travel and transactions might hinder diplomatic engagement and conflict resolution efforts.",
-      "The order's broad criteria for designation could lead to uncertainty and increased compliance burdens on financial institutions and U.S. persons."
+      "The sanctions and travel restrictions could hinder the diplomatic engagement and peacekeeping efforts by international organizations supporting Sudan's transition, potentially delaying humanitarian assistance.",
+      "Foreign nationals in Sudan or those connected to sanctioned persons may face unintended restrictions on mobility and financial transactions, impacting innocent civilians and exacerbating humanitarian challenges.",
+      "The executive order's broad criteria for sanctioning 'foreign persons' might lead to overreach affecting individuals indirectly involved or unrelated, increasing risk of unjust penalties or family hardships.",
+      "Blocking property and imposing sanctions may complicate efforts by foreign military personnel allied with U.S. interests in the region, potentially affecting coordinated security or stabilization operations."
     ],
-    "enriched_at": "2025-12-09T01:37:45.228Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:38:42.756Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

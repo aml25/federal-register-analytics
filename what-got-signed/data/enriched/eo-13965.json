@@ -1,0 +1,39 @@
+{
+  "document_number": "2020-27807",
+  "executive_order_number": "13965",
+  "title": "Providing for the Closing of Executive Departments and Agencies of the Federal Government on December 24, 2020",
+  "abstract": null,
+  "signing_date": "2020-12-11",
+  "publication_date": "2020-12-16",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/12/16/2020-27807/providing-for-the-closing-of-executive-departments-and-agencies-of-the-federal-government-on",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-12-16/pdf/2020-27807.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/12/16/2020-27807.txt",
+  "enrichment": {
+    "summary": "This executive order directs all federal government departments and agencies to close on December 24, 2020, the day before Christmas, excusing employees from work. However, heads of agencies may require certain offices and employees to remain open for national security, defense, or other essential public needs. The order also addresses employee pay and leave for this day and tasks the Office of Personnel Management with ensuring implementation.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "military-readiness-force-structure",
+      "government-efficiency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants"
+      ],
+      "negative_ids": [
+        "military-personnel-active-duty"
+      ]
+    },
+    "potential_concerns": [
+      "Employees in federal agencies required to work on December 24, 2020, due to national security or essential needs may experience reduced holiday time, affecting work-life balance and morale, especially among military personnel who remain on active duty.",
+      "The exemption allowing certain agency heads to keep operations open for defense or public need might create inconsistency and perceptions of unfair treatment among federal employees excused from work on this day.",
+      "Operational continuity for military personnel and essential federal workers may be strained if understaffing occurs due to excused absences of other federal employees, potentially impacting military readiness and defense effectiveness.",
+      "Federal employee pay and leave accounting adjustments for this holiday closure may lead to confusion or administrative errors, affecting workforce satisfaction and government efficiency."
+    ],
+    "enriched_at": "2025-12-15T02:30:13.053Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

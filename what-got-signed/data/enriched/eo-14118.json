@@ -13,24 +13,29 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-03-05/pdf/2024-04857.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/03/05/2024-04857.txt",
   "enrichment": {
-    "summary": "This executive order officially ends the national emergency declared in 2003 related to Zimbabwe’s government and its undermining of democratic processes. While the U.S. remains concerned about violence, human rights abuses, and corruption in Zimbabwe, the emergency status and associated sanctions are terminated, along with prior related executive orders.",
+    "summary": "This executive order officially ends the national emergency declared in 2003 regarding the situation in Zimbabwe. It revokes previous executive orders related to that emergency, while clarifying that ongoing or past actions based on those orders remain unaffected. The order acknowledges ongoing concerns about human rights abuses and corruption in Zimbabwe but states that the emergency declaration is no longer necessary.",
     "theme_ids": [
-      "foreign-policy",
-      "national-security"
+      "sanctions-country-specific",
+      "human-rights-international",
+      "zimbabwe",
+      "national-emergencies",
+      "revocation-of-previous-executive-orders"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "sanctioned-persons-and-affiliates"
+        "citizens-of-specific-countries-by-eo-designation"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "foreign-government-officials"
+      ]
     },
     "potential_concerns": [
-      "Terminating the emergency and revoking sanctions may reduce U.S. leverage to address ongoing human rights abuses and corruption in Zimbabwe.",
-      "Affected Zimbabwean individuals or entities formerly under sanctions may seek to resume activities that could undermine democratic reforms.",
-      "The order might be perceived internationally as a sign of reduced U.S. commitment to supporting democracy and human rights in Zimbabwe.",
-      "Residual legal or financial actions tied to prior sanctions could face enforcement or interpretation challenges post-termination."
+      "Termination of the national emergency and associated sanctions may weaken leverage over foreign-government-officials in Zimbabwe, potentially enabling continued human rights abuses against citizens-of-specific-countries-by-eo-designation.",
+      "Removing sanctions related to Zimbabwe could lead to unintended economic or political empowerment of corrupt officials, negatively affecting the democratic process and public welfare of Zimbabwean citizens.",
+      "The revocation of previous executive orders might create enforcement challenges or legal ambiguities affecting ongoing investigations or proceedings against targeted individuals, impacting justice outcomes for populations in Zimbabwe.",
+      "The order might signal a U.S. policy shift that could be perceived as reducing U.S. commitment to human rights in Zimbabwe, potentially discouraging international efforts to hold perpetrators accountable and indirectly harming political opponents and marginalized groups."
     ],
-    "enriched_at": "2025-12-09T01:35:36.603Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T07:36:10.766Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

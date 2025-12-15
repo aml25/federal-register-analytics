@@ -1,0 +1,967 @@
+{
+  "narratives": [
+    {
+      "year": 2025,
+      "quarter": 4,
+      "quarter_name": "Q4 2025",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 8
+        }
+      ],
+      "total_order_count": 8,
+      "summary": "In the final quarter of 2025, President Donald Trump’s executive orders prominently focused on adjusting trade and tariff policies, particularly targeting relations with China and Brazil. These actions sought to recalibrate economic arrangements through selective tariff modifications, reflecting a strategy to balance trade pressures with diplomatic considerations. Concurrently, national security and immigration enforcement remained central themes, with orders designating foreign entities and addressing synthetic opioid flows linked to China. Efforts to streamline federal hiring and support families indicated a broader agenda blending economic, security, and social priorities, revealing a complex approach to governance amid ongoing domestic and international challenges.",
+      "potential_impact": "The quarter’s executive actions aimed to benefit large corporations, agricultural workers, and law enforcement personnel by stabilizing supply chains and enhancing enforcement capabilities. However, concerns arose about the potential negative effects on federal employees facing hiring restrictions, as well as on middle-class Americans and consumers vulnerable to the opioid crisis. Reductions in tariffs on opioid-related imports risked increasing public health challenges, while workforce cuts and contracting limitations threatened job security and service continuity. These dynamics underscored tensions between economic objectives and social wellbeing, with various groups standing to gain or face hardship depending on implementation outcomes.",
+      "generated_at": "2025-12-15T07:43:33.990Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2025,
+      "quarter": 3,
+      "quarter_name": "Q3 2025",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 43
+        }
+      ],
+      "total_order_count": 43,
+      "summary": "In the third quarter of 2025, President Trump’s executive orders reflected a robust focus on reinforcing economic and national security through trade and tariff adjustments, with nine orders targeting tariffs and duties and seven reshaping trade policies. Simultaneously, national emergencies dominated the agenda, underscoring security concerns. The administration pursued aggressive crime reduction policies and bolstered border security, while also advancing infrastructure and technology initiatives, particularly in artificial intelligence and the defense industrial base. Public lands management and interagency coordination featured as efforts to streamline federal operations and promote conservation, though often with an emphasis on reducing regulatory barriers and enhancing recreational access.",
+      "potential_impact": "These executive actions aimed to benefit small business owners, law enforcement personnel, manufacturing and technology workers, and defense industry employees by fostering a protective economic and security environment. However, consumers and undocumented immigrants faced potential adverse effects, as tariff increases and stricter border measures could raise costs and limit mobility. Environmental and tribal communities expressed concern over eased regulations and expanded land use, fearing ecological degradation. Additionally, foreign nationals and visa holders encountered heightened barriers, reflecting a prioritization of U.S. citizens that may influence international relations and access to national resources.",
+      "generated_at": "2025-12-15T07:43:30.513Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2025,
+      "quarter": 2,
+      "quarter_name": "Q2 2025",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 57
+        }
+      ],
+      "total_order_count": 57,
+      "summary": "In the second quarter of 2025, President Trump concentrated executive actions on bolstering America’s economic and national security through a robust agenda of regulatory reform, defense industrial base revitalization, and energy independence. With 57 orders, the administration aggressively pursued deregulation to stimulate domestic production, especially in energy and defense sectors, while reshaping trade policy via reciprocal tariffs aimed at addressing trade deficits with China. Efforts to enhance government efficiency and interagency coordination complemented these priorities, reflecting a drive to streamline federal operations. Notably, national emergency powers and military readiness also shaped the policy landscape, underscoring a comprehensive approach to strengthening U.S. competitiveness and security.",
+      "potential_impact": "These executive orders targeted diverse groups including small business owners, manufacturing and defense industry workers, military personnel, and technology professionals, aiming to spur job growth and innovation within critical sectors. However, the imposition of tariffs and regulatory shifts raised concerns for consumers facing higher prices and supply chain uncertainties. Environmental justice communities and rural areas emerged as particularly vulnerable to negative effects, as deregulation and energy policies risked exacerbating environmental and economic disparities. Additionally, complexities in trade enforcement and national security measures posed challenges for businesses and federal contractors navigating the evolving regulatory environment.",
+      "generated_at": "2025-12-15T08:43:03.038Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2025,
+      "quarter": 1,
+      "quarter_name": "Q1 2025",
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 13
+        },
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 109
+        }
+      ],
+      "total_order_count": 122,
+      "summary": "The first quarter of 2025 unfolded as a dynamic transition period marked by the overlapping executive actions of outgoing and incoming presidents. Donald Trump’s 109 orders heavily emphasized government efficiency, homeland and border security, and regulatory reform, reflecting a prioritization of national security, deregulation, and economic competitiveness. Meanwhile, Joseph R. Biden Jr.’s 13 orders focused on establishing clear departmental succession and advancing innovation in cybersecurity and artificial intelligence, signaling a measured approach toward continuity and modernization. The quarter also featured significant revocations of past orders, underscoring a shift in policy directions amid changing administrations.",
+      "potential_impact": "These executive orders sought to affect a broad spectrum of Americans, with particular attention to law enforcement officers, military personnel, working-age adults, and small business owners. However, the stringent border and homeland security measures appeared aimed at limiting undocumented immigrants and foreign nationals, while deregulation and tariff policies posed challenges for certain businesses and consumers. Concerns emerged around the concentration of power through rigid succession orders and discretionary presidential authority, potentially impacting the transparency and effectiveness of federal agencies, especially in agriculture and homeland security sectors.",
+      "generated_at": "2025-12-15T08:42:59.038Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2024,
+      "quarter": 4,
+      "quarter_name": "Q4 2024",
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 6
+        }
+      ],
+      "total_order_count": 6,
+      "summary": "In the final quarter of 2024, President Biden’s executive orders reflected a concentrated effort to strengthen federal workforce management and enhance military readiness, with half the orders addressing these priorities. Actions included adjustments to pay rates and updates to military justice procedures, signaling a focus on both supporting active duty personnel and refining institutional protocols. Simultaneously, the administration sought to address labor relations within transportation infrastructure by intervening in a rail workers’ dispute, while also managing federal agency operations through scheduled closures. These moves collectively aimed to balance workforce stability, national security, and operational continuity as year-end approached.",
+      "potential_impact": "The orders targeted a diverse range of groups, notably benefiting military personnel and veterans through pay adjustments and procedural updates, while also affecting federal employees navigating holiday work expectations. However, the intervention in the New Jersey Transit labor dispute introduced uncertainty for union members and transportation workers, raising concerns about prolonged negotiations and potential service disruptions impacting urban and suburban commuters. Additionally, federal employees required to work during agency closures faced possible morale challenges and administrative complexities, while defendants subject to amended court-martial rules confronted potential legal ambiguities, illustrating the varied and sometimes conflicting effects on those within and beyond the federal workforce.",
+      "generated_at": "2025-12-15T07:43:23.446Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2024,
+      "quarter": 3,
+      "quarter_name": "Q3 2024",
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 4
+        }
+      ],
+      "total_order_count": 4,
+      "summary": "In the third quarter of 2024, President Biden’s executive actions underscored a commitment to strengthening labor relations and advancing educational equity, particularly for Hispanic-serving institutions. Two orders focused on union policy, including establishing an emergency board to address a transit labor dispute and promoting project labor agreements to support American workers. Meanwhile, efforts to enhance educational excellence targeted Hispanic and Latino students through increased federal support for Hispanic-serving institutions, emphasizing STEM and bilingual education. Additionally, the administration tackled emerging firearms threats, aiming to improve school safety protocols, reflecting a multifaceted approach to workforce development, equity, and public safety.",
+      "potential_impact": "These orders aimed to benefit a diverse range of populations, including union members, transportation and construction workers, and Hispanic and Latino college students, particularly those from low-income backgrounds and individuals with disabilities. However, concerns arose about potential negative effects, such as disruptions to transit services affecting urban and state-specific communities during labor disputes and challenges for non-union workers and small businesses facing stricter labor standards. Educational initiatives risked uneven resource allocation and implementation hurdles that could limit gains for underserved students, while new workforce policies might struggle to fully reach marginalized groups, highlighting the complexities in balancing broad equity goals with varied stakeholder interests.",
+      "generated_at": "2025-12-15T07:43:18.839Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2024,
+      "quarter": 2,
+      "quarter_name": "Q2 2024",
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "total_order_count": 2,
+      "summary": "In the second quarter of 2024, President Joseph R. Biden Jr. focused executive action on enhancing interagency coordination to strengthen pandemic preparedness and supply chain resilience. By consolidating COVID-19 response efforts under the Office of Pandemic Preparedness and Response, the administration aimed to unify public health emergency strategies while simultaneously addressing vulnerabilities in critical infrastructure. The establishment of the White House Council on Supply Chain Resilience highlighted a commitment to bolstering economic competitiveness and protecting essential supply lines, reflecting an integrated approach to safeguarding both public health and economic stability amidst ongoing challenges.",
+      "potential_impact": "These orders sought to benefit a broad spectrum of Americans, including patients, healthcare workers, and public school communities reliant on effective pandemic response, as well as manufacturing and agricultural workers and small business owners facing supply chain uncertainties. However, concerns arose that centralizing authority could reduce responsiveness to localized outbreaks and complicate interagency collaboration. Additionally, efforts to reinforce domestic manufacturing and worker protections might unintentionally increase costs or disrupt operations, potentially affecting the livelihoods of union members, working-age adults in vulnerable communities, and farmers dependent on timely supply deliveries.",
+      "generated_at": "2025-12-15T07:43:14.982Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2024,
+      "quarter": 1,
+      "quarter_name": "Q1 2024",
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 7
+        }
+      ],
+      "total_order_count": 7,
+      "summary": "In the first quarter of 2024, President Biden’s executive orders reflected a strategic focus on national security and social equity. Two orders addressed national emergencies and sanctions, particularly targeting destabilizing activities in the West Bank, while parallel efforts sought to bolster cybersecurity protections around critical infrastructure. Simultaneously, the administration emphasized diversity, equity, and inclusion through initiatives advancing women’s health research and honoring women’s history, alongside expanding registered apprenticeships to promote labor-management collaboration. These intertwined priorities reveal an agenda balancing geopolitical stability with domestic social progress and workforce development.",
+      "potential_impact": "The executive actions aimed to benefit historically marginalized groups including African Americans, Hispanic Americans, and women, as well as federal employees, veterans, and scientific researchers. However, sanctions and travel restrictions risked unintended consequences for lawful permanent residents and naturalized citizens from targeted regions, complicating family reunification and travel. Enhanced port security measures and cybersecurity mandates introduced operational challenges for maritime workers and technology professionals, while economic sanctions posed potential risks to corporations with ties to the West Bank. These dynamics underscore tensions between security imperatives and the practical impacts on diverse communities and industries.",
+      "generated_at": "2025-12-15T07:43:11.634Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2023,
+      "quarter": 4,
+      "quarter_name": "Q4 2023",
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 5
+        }
+      ],
+      "total_order_count": 5,
+      "summary": "In the final quarter of 2023, President Biden’s executive actions underscored a drive to enhance federal workforce management and interagency coordination, reflecting a concerted effort to streamline government operations and security protocols. A key focus was the safe and responsible development of artificial intelligence, signaling a recognition of AI’s growing influence across federal functions and national security. Additionally, reforms aimed at tribal nations sought to advance self-determination and trust responsibilities, while measures addressing pay adjustments and countering foreign malign activities highlighted a broad spectrum of priorities from workforce welfare to geopolitical challenges.",
+      "potential_impact": "These orders aimed to benefit federal employees, law enforcement personnel, veterans, and tribal communities by improving workplace conditions, security collaboration, and educational support. However, concerns emerged about the equity and inclusiveness of AI policies, with potential adverse effects on individuals with disabilities, low-income families, and minority groups due to biases and surveillance risks. Furthermore, increased regulatory demands risked disadvantaging small businesses and federal contractors, while heightened security measures raised privacy and operational concerns for employees and international collaborators, illustrating the complex balance between innovation, security, and civil rights.",
+      "generated_at": "2025-12-15T07:43:08.361Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2023,
+      "quarter": 3,
+      "quarter_name": "Q3 2023",
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 8
+        }
+      ],
+      "total_order_count": 8,
+      "summary": "In the third quarter of 2023, President Biden’s executive actions centered on strengthening military readiness and bolstering homeland security amid ongoing global tensions. Three orders focused on activating reserve forces and refining military personnel management, reflecting a push to enhance operational capacity, especially in Europe through NATO-related efforts. Alongside defense priorities, the administration advanced domestic manufacturing and economic competitiveness by supporting research and development and tightening controls on investments in sensitive technologies. Amendments to the military justice system introduced reforms aimed at balancing accountability with procedural updates, while measures addressing community safety highlighted a broader commitment to justice and security.",
+      "potential_impact": "These executive orders were designed to support active duty and reserve military personnel, veterans, and defense industry workers, aiming to improve operational effectiveness and protect national security interests. However, the activation of reservists risked placing significant strain on their families and civilian employment, raising concerns about financial hardship and retention challenges. Changes to military justice procedures intended to aid crime victims could complicate due process for defendants, potentially affecting unit cohesion. Meanwhile, efforts to prioritize domestic manufacturing and secure critical supply chains sought to benefit technology and manufacturing workers but might also create hurdles for small businesses and disrupt established workflows.",
+      "generated_at": "2025-12-15T07:43:03.943Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2023,
+      "quarter": 2,
+      "quarter_name": "Q2 2023",
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 8
+        }
+      ],
+      "total_order_count": 8,
+      "summary": "In the second quarter of 2023, President Biden focused his executive actions on strengthening military readiness and support structures, issuing three orders aimed at improving force management and care for military personnel and veterans. His administration also prioritized caregiving and paid leave, reflecting a commitment to economic security for caregivers and families, particularly those connected to military service. Regulatory reform efforts sought to modernize administrative processes while balancing environmental justice and equity considerations. Together, these orders reveal a nuanced approach to enhancing government efficiency, workforce development, and social support systems amid evolving domestic and international challenges.",
+      "potential_impact": "These executive orders aimed to benefit a broad array of groups including low-income families, tribal communities, women, federal employees, and military caregivers, emphasizing expanded access to high-quality care and family planning services. However, concerns emerged about possible administrative burdens slowing regulatory progress and potential disparities in care availability, especially in rural and tribal areas. Additionally, mandates on federal contractors and efforts to improve caregiver compensation could strain smaller providers and challenge workforce development, while sanctions and military activation orders introduced complexities affecting reservists, noncitizens in the armed forces, and certain economic sectors.",
+      "generated_at": "2025-12-15T07:43:00.568Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2023,
+      "quarter": 1,
+      "quarter_name": "Q1 2023",
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        }
+      ],
+      "total_order_count": 3,
+      "summary": "In the first quarter of 2023, President Biden focused executive actions on advancing racial equity and strengthening interagency coordination to better serve underserved communities. One order sought to embed equity throughout federal programs, aiming to enhance civil rights enforcement and support small businesses, while another targeted reducing gun violence through enhanced law enforcement measures and community safety initiatives. National security concerns were addressed through a third order prohibiting government use of commercial spyware that poses risks, reflecting a multifaceted approach to promoting safety, inclusion, and coordinated governance across diverse policy areas.",
+      "potential_impact": "These executive orders aimed to benefit urban communities, racial minorities including African Americans and Native Americans, women, LGBTQ+ individuals, and small business owners by enhancing federal support and protections. However, the expanded equity focus raised concerns about increased bureaucratic complexity potentially delaying services, while gun control measures prompted apprehension among firearm owners about possible rights restrictions. Additionally, efforts to improve cybersecurity and law enforcement practices may challenge certain foreign entities and firearm dealers, highlighting the intricate balance between advancing public safety and managing stakeholder concerns.",
+      "generated_at": "2025-12-15T07:42:56.622Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2022,
+      "quarter": 4,
+      "quarter_name": "Q4 2022",
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 6
+        }
+      ],
+      "total_order_count": 6,
+      "summary": "In the final quarter of 2022, President Biden focused executive actions on strengthening military readiness and national security while addressing healthcare affordability. Two orders expanded eligibility for military decorations, including extending recognition to Space Force personnel, reflecting a commitment to honor service members across branches. Concurrently, efforts to enhance signals intelligence and counter foreign election interference underscored a priority on safeguarding homeland security and cybersecurity. Another significant initiative sought to lower prescription drug costs, aiming to ease financial burdens on Medicare and Medicaid beneficiaries. These orders collectively reveal an administration balancing defense modernization, privacy concerns, and public health improvements.",
+      "potential_impact": "The executive orders targeted improvements for diverse groups, notably active-duty military, veterans, and African American communities through expanded recognition and advisory engagement. Efforts to tighten intelligence operations aimed to protect U.S. citizens and naturalized individuals but raised concerns about privacy risks and potential overreach affecting foreign nationals and citizens of designated countries. Meanwhile, prescription drug reforms promised relief for Medicare and Medicaid beneficiaries, though observers noted possible unintended effects on pharmaceutical innovation and equitable medication access. Military personnel and reservists faced transitional challenges in award administration, highlighting complexities in implementing these broad-reaching policies.",
+      "generated_at": "2025-12-15T07:42:52.631Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2022,
+      "quarter": 3,
+      "quarter_name": "Q3 2022",
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 9
+        }
+      ],
+      "total_order_count": 9,
+      "summary": "In the third quarter of 2022, President Biden’s executive orders emphasized strengthening interagency coordination to address complex challenges spanning reproductive health, national security, and economic competitiveness. Significant attention was given to safeguarding access to reproductive and healthcare services amid evolving legal landscapes, while efforts to enhance biotechnology and biomanufacturing aligned with broader climate and infrastructure goals. Labor relations featured prominently, notably through intervention in railway disputes, reflecting a focus on union policy and workforce development. Meanwhile, national security considerations shaped policies on foreign investments and hostage recovery, underscoring a multifaceted approach to domestic and international priorities.",
+      "potential_impact": "These orders aimed to benefit vulnerable groups including low-income families, women, union members, and tribal and rural communities by improving healthcare access and economic opportunities. However, concerns arose around the safety and privacy of patients and healthcare workers in restrictive environments, as well as potential bureaucratic delays in implementing coordinated federal actions. Labor interventions risked heightening tensions among union and non-union workers, while sanctions on foreign officials threatened to complicate diplomatic efforts, illustrating the delicate balance between protective measures and unintended consequences for various populations.",
+      "generated_at": "2025-12-15T07:42:48.924Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2022,
+      "quarter": 2,
+      "quarter_name": "Q2 2022",
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 6
+        }
+      ],
+      "total_order_count": 6,
+      "summary": "In the second quarter of 2022, President Joseph R. Biden Jr. signed six executive orders reflecting a multifaceted approach to domestic and international challenges. Health policy took center stage with efforts to expand access to affordable coverage under the Affordable Care Act and Medicaid, aiming to ease costs and improve care continuity. Concurrently, the administration imposed stringent economic sanctions targeting Russia, responding to ongoing geopolitical tensions. Environmental stewardship was reinforced through directives on forest management and wildfire prevention, underscoring climate change priorities. Additionally, the orders sought to advance equality for LGBTQI individuals and promote accountable policing to bolster public trust, weaving social justice themes into the quarter’s agenda.",
+      "potential_impact": "These executive actions aimed to benefit a broad spectrum of populations, including low-income families, Medicaid beneficiaries, and individuals with disabilities or mental health conditions, by enhancing healthcare access and support services. Tribal and rural communities were also focal points in environmental and land management policies. However, concerns arose over the fiscal and administrative strains of expanding health coverage, potential disparities in mental health service delivery, and the capacity of providers to meet increased demand. On the international front, sanctions against Russia posed significant challenges for U.S. corporations, investors, and employees linked to Russian commerce, while foreign nationals connected to affected entities faced indirect repercussions. Moreover, environmental measures raised questions about impacts on traditional land uses and treaty rights among tribal communities.",
+      "generated_at": "2025-12-15T07:42:45.171Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2022,
+      "quarter": 1,
+      "quarter_name": "Q1 2022",
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 8
+        }
+      ],
+      "total_order_count": 8,
+      "summary": "In the first quarter of 2022, President Biden’s executive actions concentrated heavily on economic sanctions targeting Russia, with three orders specifically addressing Russian aggression toward Ukraine and Crimea. These orders sought to restrict imports, exports, and investments to counter ongoing threats to sovereignty. Alongside these, efforts to enhance government efficiency through federal contracting reforms emphasized pay equity and transparency, while project labor agreements aimed to shape labor standards on federal construction projects. Military justice procedure updates and asset protections for Afghanistan rounded out a quarter marked by a blend of national security, economic pressure, and internal federal improvements.",
+      "potential_impact": "These executive orders intended to bolster protections for various groups, including federal contractors through labor agreement mandates, union members, and small business owners, though some orders risked excluding non-union firms. Military personnel and veterans faced potential legal uncertainties due to changes in court-martial procedures, raising concerns about consistent application and communication. Meanwhile, Afghan civilians reliant on humanitarian aid might experience worsened food insecurity due to frozen central bank assets. Conversely, investors and corporations faced tightened restrictions, with some orders specifically targeting entities linked to Russian activities, creating a complex landscape of winners and losers shaped by geopolitical and domestic priorities.",
+      "generated_at": "2025-12-15T07:42:41.070Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2021,
+      "quarter": 4,
+      "quarter_name": "Q4 2021",
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 13
+        }
+      ],
+      "total_order_count": 13,
+      "summary": "In the final quarter of 2021, President Biden’s executive orders underscored a commitment to advancing equity and efficiency through a strong emphasis on interagency coordination. Efforts to improve educational outcomes were prominently focused on Native American and Black communities, with initiatives aimed at strengthening tribal colleges, enhancing K-12 education, and expanding economic opportunities. Concurrently, the administration pursued environmental justice, worker protections, and public safety improvements, particularly addressing missing and murdered Indigenous persons. These actions reflected a multifaceted approach seeking to integrate federal resources and policies to address systemic disparities while modernizing government operations and addressing transnational crime.",
+      "potential_impact": "The executive orders targeted support toward Tribal communities, Native Americans, veterans, and union members, aiming to uplift historically underserved populations through education, workforce protections, and public safety initiatives. However, concerns arose regarding the potential bureaucratic complexities of interagency coordination possibly hindering timely benefits, especially for Native American students and tribal institutions. Additionally, challenges in funding, culturally relevant education, and inclusivity within workforce programs could limit the reach of these efforts. Small business owners, non-union workers, and certain energy sector employees faced regulatory pressures, highlighting tensions between advancing equity and economic impacts on various groups.",
+      "generated_at": "2025-12-15T07:42:35.826Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2021,
+      "quarter": 3,
+      "quarter_name": "Q3 2021",
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 13
+        }
+      ],
+      "total_order_count": 13,
+      "summary": "In the third quarter of 2021, President Joseph R. Biden Jr. focused executive actions on strengthening interagency coordination and responding robustly to ongoing public health emergencies, including COVID-19. The administration advanced energy independence through clean vehicle initiatives while simultaneously imposing sanctions addressing human rights crises abroad, notably in Belarus and Ethiopia. Efforts to promote competition within the American economy aimed to curb industry concentration, reflecting a broader priority on racial equity and educational opportunity through initiatives supporting historically Black colleges and universities and Hispanic communities. These orders collectively underscored a multifaceted approach to domestic revitalization and international accountability.",
+      "potential_impact": "The executive orders sought to benefit working-age adults, union members, healthcare workers, patients, and environmental justice communities by enhancing health protocols, expanding educational equity, and fostering cleaner energy technologies. However, these policies also posed challenges for corporations and businesses facing stricter antitrust enforcement and regulatory shifts, potentially affecting large-corporation employees and energy-sector workers amid the transition to zero-emission vehicles. Rural areas and low-income families might encounter difficulties related to infrastructure and affordability, highlighting concerns about equitable access to the administration’s clean energy and public health goals.",
+      "generated_at": "2025-12-15T07:42:31.996Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2021,
+      "quarter": 2,
+      "quarter_name": "Q2 2021",
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 13
+        }
+      ],
+      "total_order_count": 13,
+      "summary": "In the second quarter of 2021, President Biden’s executive orders underscored a multifaceted approach to national security, labor rights, and equity. Cybersecurity emerged as a critical focus, with initiatives aimed at strengthening defenses against foreign interference and protecting sensitive data, reflecting concerns over Russian activities. Simultaneously, the administration sought to empower workers through measures raising wages for federal contractors and supporting union organizing. Efforts to address climate change and promote racial equity complemented these priorities, while the establishment of commissions signaled a commitment to systemic review and reform, particularly regarding the Supreme Court and federal workforce diversity.",
+      "potential_impact": "The quarter’s orders targeted a broad spectrum of citizens, including naturalized and birthright Americans, working-age adults, and communities of color, aiming to enhance economic opportunity, justice, and security. However, the measures also posed challenges for corporations, small businesses, and certain foreign nationals, as sanctions and cybersecurity policies risked disrupting supply chains and diplomatic relations. Concerns arose over potential politicization of judicial reforms and the unintended consequences of sanctions on visa holders and technology workers, highlighting the complex balance between safeguarding national interests and protecting diverse populations.",
+      "generated_at": "2025-12-15T07:42:28.354Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2021,
+      "quarter": 1,
+      "quarter_name": "Q1 2021",
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 6
+        }
+      ],
+      "total_order_count": 6,
+      "summary": "In the first quarter of 2021, President Biden prioritized restoring civil rights and advancing gender equality, signing multiple executive orders aimed at enhancing enforcement and coordination across agencies. Efforts to secure and revitalize America’s supply chains surfaced as a key economic focus, with actions targeting manufacturing, critical minerals, and defense industrial base resilience. The administration also moved to revoke several previous executive actions, signaling a broader regulatory shift. Together, these directives sought to promote equity and strengthen domestic economic foundations while recalibrating the federal government's approach to governance and policy implementation.",
+      "potential_impact": "These orders aimed to benefit historically marginalized groups including African Americans, women, and LGBTQ+ individuals by reinforcing protections and promoting inclusion. Federal employees and military personnel were positioned both as beneficiaries of renewed organizational support and as populations facing uncertainties from revoked labor protections and increased regulatory demands. Manufacturing and small business workers confronted potential challenges linked to supply chain reforms, while union members and public school communities risked diminished bargaining power and support amid shifting regulatory landscapes.",
+      "generated_at": "2025-12-15T07:42:24.433Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2020,
+      "quarter": 4,
+      "quarter_name": "Q4 2020",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 17
+        }
+      ],
+      "total_order_count": 17,
+      "summary": "In the final quarter of 2020, President Trump’s executive orders emphasized strengthening federal coordination and enhancing government efficiency, with seven orders aimed at interagency collaboration and five focused on improving operational effectiveness. Efforts to manage the federal workforce and address COVID-19 challenges also featured prominently. Notably, initiatives to promote American heritage and military readiness intertwined with public health measures and environmental management, reflecting a multifaceted approach to governance. These actions sought to modernize infrastructure, support resilience, and recalibrate federal priorities amid the ongoing pandemic and geopolitical concerns.",
+      "potential_impact": "The executive actions targeted a diverse range of populations, particularly veterans, rural and tribal communities, active military personnel, and working-age adults, aiming to improve health services, economic mobility, and federal support structures. However, some orders raised concerns about potential adverse effects on small business owners, federal employees, and minority groups, as well as challenges for nonprofit organizations and environmental justice communities. Observers noted risks related to balancing public health with mental health service expansion, equitable resource distribution, and the possible constraints imposed on tribal land use and agricultural activities under intensified federal oversight.",
+      "generated_at": "2025-12-15T07:42:21.199Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2020,
+      "quarter": 3,
+      "quarter_name": "Q3 2020",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 18
+        }
+      ],
+      "total_order_count": 18,
+      "summary": "In the third quarter of 2020, President Trump focused heavily on healthcare reform, signing 12 executive orders aimed at lowering prescription drug prices and enhancing Medicare benefits. These actions sought to reduce costs by promoting drug importation, eliminating middleman kickbacks, and prioritizing American manufacturing of essential medicines. Alongside this healthcare agenda, the administration addressed national emergencies, including threats from China and the ongoing COVID-19 crisis, with orders targeting information technology security and public health responses. Economic and social measures also surfaced, such as improving rural telehealth access and supporting distressed communities, reflecting a broader effort to reshape healthcare affordability and national security simultaneously.",
+      "potential_impact": "The executive orders aimed to benefit low-income families, Medicare beneficiaries, patients with chronic illnesses, and rural communities by expanding access to affordable medications and healthcare services. Military personnel and veterans were also among the intended beneficiaries. However, these measures raised concerns about potential negative effects on corporations, healthcare organizations, and foreign nationals, including visa holders and technology workers. Critics worried that sanctions and trade restrictions could harm businesses reliant on global supply chains and that drug pricing reforms might strain federally qualified health centers, possibly limiting access for uninsured patients. Additionally, tightened immigration and security policies risked unintended consequences for students, journalists, and broader foreign populations.",
+      "generated_at": "2025-12-15T07:42:17.482Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2019,
+      "quarter": 4,
+      "quarter_name": "Q4 2019",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 12
+        }
+      ],
+      "total_order_count": 12,
+      "summary": "In the final quarter of 2019, the Trump administration focused its executive orders on regulatory reform and enhancing government efficiency, aiming to streamline agency operations and clarify administrative processes. Efforts to improve Medicare and healthcare competition intertwined with a push to leverage artificial intelligence and technology in federal programs. The president also established commissions and task forces to address law enforcement issues and missing Indigenous populations, underscoring a commitment to targeted governance. These actions reflected a broader agenda to reduce regulatory complexity while promoting transparency, accountability, and innovation across federal agencies.",
+      "potential_impact": "These executive orders were designed to benefit a spectrum of groups including small business owners, federal employees, military personnel, and Medicare beneficiaries by aiming to simplify regulations and improve government services. However, concerns emerged about how increased market competition and technology integration in healthcare might confuse or disadvantage seniors and vulnerable populations reliant on Medicare. Small businesses and entrepreneurs faced potential new compliance challenges due to transparency and enforcement standards. Additionally, some orders risked creating disparities for low-income individuals, refugees, and asylum seekers, highlighting tensions between deregulation and protections for marginalized communities.",
+      "generated_at": "2025-12-15T07:42:13.238Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2019,
+      "quarter": 3,
+      "quarter_name": "Q3 2019",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 11
+        }
+      ],
+      "total_order_count": 11,
+      "summary": "In Q3 2019, President Trump’s executive orders reflected a dual focus on national security and domestic economic priorities. Three orders addressed national emergencies and sanctions targeting countries like Mali and Venezuela, highlighting a continued emphasis on foreign policy leverage. Simultaneously, efforts to improve government efficiency and economic resilience surfaced through orders promoting American-made goods and modernizing federal advisory committees. Public health also featured prominently, with initiatives to advance kidney health and enhance influenza vaccine development, illustrating a push to integrate health innovation with national security concerns. Collectively, these actions reveal an administration intent on strengthening internal operations while exerting assertive international pressure.",
+      "potential_impact": "The executive orders aimed to benefit patients with chronic illnesses, Medicare beneficiaries, veterans, and manufacturing workers, signaling efforts to improve health outcomes and support domestic industries. However, heightened travel restrictions and sanctions disproportionately affected visa holders, lawful permanent residents, refugees, and citizens of targeted countries, raising concerns about increased barriers for immigrant and noncitizen populations. Enhanced data collection on citizenship status introduced privacy and participation risks, potentially undermining immigrant representation and access to public benefits. Meanwhile, small businesses and federal contractors faced challenges from stricter domestic content rules, suggesting a complex balance between protectionism and economic burden.",
+      "generated_at": "2025-12-15T07:42:10.079Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2019,
+      "quarter": 2,
+      "quarter_name": "Q2 2019",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 12
+        }
+      ],
+      "total_order_count": 12,
+      "summary": "In the second quarter of 2019, President Trump focused executive actions on accelerating infrastructure development and streamlining regulatory frameworks, particularly targeting workforce development and deregulation. Several orders sought to expedite permit issuance for transportation and energy projects, aiming to bolster economic growth and enhance cybersecurity defenses amid national security concerns. Efforts to reassess federal advisory processes and improve healthcare transparency also appeared, reflecting a broader push toward reducing bureaucratic barriers. Sanctions related to Iran underscored ongoing geopolitical priorities, while initiatives promoting economic empowerment for Asian Americans and Pacific Islanders indicated targeted workforce support within the broader deregulation context.",
+      "potential_impact": "These executive orders sought to benefit various groups including rural communities, federal employees, cybersecurity and technology workers, and small business owners by fostering job creation and improving regulatory efficiency. However, the accelerated permitting and deregulation raised concerns about potential adverse effects on tribal and environmental justice communities, whose lands and ecosystems might face new risks without comprehensive consultation or review. Border communities faced possible challenges from increased infrastructure activity, while corporations and transportation workers encountered uncertainty amid shifting sanctions and policy changes. Federal employees and contractors also risked transitional disruptions due to reorganized security clearance procedures.",
+      "generated_at": "2025-12-15T07:42:05.916Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2019,
+      "quarter": 1,
+      "quarter_name": "Q1 2019",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 10
+        }
+      ],
+      "total_order_count": 10,
+      "summary": "In the first quarter of 2019, President Trump focused executive actions heavily on national security and information classification, with nearly half of the orders addressing these issues. Efforts to manage national emergencies, particularly those involving Venezuela and transnational criminal organizations, reflected a strategic emphasis on foreign policy and sanctions. Simultaneously, workforce development and interagency coordination received attention, aiming to support veterans and active-duty military personnel transitioning to civilian roles. Domestic manufacturing and infrastructure priorities surfaced through strengthened Buy-American policies, while advancing artificial intelligence research underscored a commitment to maintaining technological leadership. These orders collectively reveal a multifaceted approach to national security, economic resilience, and workforce empowerment.",
+      "potential_impact": "The executive orders aimed to benefit veterans, military personnel, and domestic workers in manufacturing and construction by fostering job security and supporting transitions to new employment sectors. However, sanctions and emergency declarations targeting Venezuela risked exacerbating hardships for Venezuelan citizens and energy sector workers tied to the country’s oil industry, while U.S. businesses with indirect Venezuelan ties faced potential financial and legal challenges. Buy-American preferences, while bolstering union members and domestic manufacturers, raised concerns among small business owners and construction workers about increased costs and project delays. Meanwhile, technology-focused initiatives could widen workforce disparities by favoring specialized tech workers over others.",
+      "generated_at": "2025-12-15T07:42:01.087Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2018,
+      "quarter": 4,
+      "quarter_name": "Q4 2018",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 7
+        }
+      ],
+      "total_order_count": 7,
+      "summary": "In the final quarter of 2018, the Trump administration’s executive orders reflected a focus on tightening sanctions against Venezuela and Nicaragua amid ongoing political crises, while also addressing federal workforce management and government efficiency. The administration sought to enhance interagency coordination through measures like the establishment of the White House Opportunity and Revitalization Council, aiming to stimulate economic development in distressed areas. Additionally, several orders enacted temporary closures of federal agencies and adjustments to federal employee pay, illustrating an effort to manage government operations alongside assertive foreign policy moves targeting specific nations and their officials.",
+      "potential_impact": "These executive actions aimed to affect a broad range of populations, including tribal communities, small business owners, and federal employees, who stood to benefit from economic revitalization and workforce adjustments. However, the sanctions and travel restrictions placed significant burdens on citizens of Venezuela and Nicaragua, potentially deepening humanitarian and economic challenges for ordinary individuals. Visa holders and foreign nationals faced increased scrutiny, raising concerns about the unintended consequences for students, workers, and families connected to these countries. Federal employees working during agency closures faced added stress, while diplomatic tensions risked complicating efforts to address regional instability.",
+      "generated_at": "2025-12-15T07:41:56.810Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2018,
+      "quarter": 3,
+      "quarter_name": "Q3 2018",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 8
+        }
+      ],
+      "total_order_count": 8,
+      "summary": "In the third quarter of 2018, President Trump’s executive orders reflected a concentrated effort to tighten economic sanctions and reshape federal law enforcement hiring practices. Three orders reinstated sanctions targeting Iran and foreign interference in U.S. elections, underscoring a focus on national security and geopolitical pressure. Simultaneously, reforms to federal workforce management sought to streamline hiring by exempting U.S. Marshals and administrative law judges from competitive exams, aiming to increase agency flexibility. These moves were complemented by initiatives addressing consumer fraud and workforce development, illustrating a multifaceted agenda balancing security, regulatory enforcement, and labor market adjustments.",
+      "potential_impact": "The quarter’s orders aimed to benefit federal employees, working-age adults, and small business owners through workforce reforms and market integrity efforts, while also supporting veterans, seniors, and cryptocurrency holders. However, these actions raised concerns about reduced transparency and fairness in federal hiring, potentially disadvantaging external applicants and veterans. At the same time, corporations and their executives faced intensified sanctions and compliance pressures, with particular risks for financial services workers and industries linked to foreign adversaries. The sanctions and hiring changes signaled significant implications for foreign nationals, visa holders, and various U.S. labor sectors exposed to geopolitical and regulatory shifts.",
+      "generated_at": "2025-12-15T07:41:52.531Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2018,
+      "quarter": 2,
+      "quarter_name": "Q2 2018",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 14
+        }
+      ],
+      "total_order_count": 14,
+      "summary": "In the second quarter of 2018, President Trump focused his executive actions on enhancing government efficiency and reshaping federal workforce management, signing 14 orders that aimed to streamline operations and reform labor relations. A notable thread ran through military readiness and interagency coordination, reflecting an intent to strengthen defense structures while improving federal service delivery. Simultaneously, the administration sought to empower faith-based initiatives and address poverty reduction, although these efforts were balanced against measures to tighten collective bargaining processes and federal labor policies. Postal service reform and targeted sanctions further highlighted the administration's drive for cost reduction and security.",
+      "potential_impact": "These executive orders aimed to benefit active military personnel, low-income and impoverished individuals, faith-based communities, and various governmental entities, including tribal and local governments. However, concerns arose that increased work requirements and enforcement might disproportionately challenge vulnerable populations like formerly incarcerated individuals and undocumented immigrants. Postal service reforms threatened job security for workers and risked reduced services for rural residents, seniors, and small businesses dependent on reliable mail delivery. Efforts to limit union influence and delegate military decoration authority also raised questions about fairness and morale within federal employees, labor unions, and the armed forces.",
+      "generated_at": "2025-12-15T07:41:48.630Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2018,
+      "quarter": 1,
+      "quarter_name": "Q1 2018",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 6
+        }
+      ],
+      "total_order_count": 6,
+      "summary": "In the first quarter of 2018, President Trump signed six executive orders that underscored a commitment to improving interagency coordination, particularly in areas related to criminal justice reform and mental health support for veterans. Efforts to assist military personnel transitioning to civilian life were central, alongside initiatives promoting physical fitness and nutrition. Simultaneously, the administration took significant steps to reinforce homeland security through lawful detention policies, notably reversing prior efforts to close Guantanamo Bay. These actions reflected a blend of domestic welfare priorities and national security concerns, emphasizing streamlined government collaboration and a tough stance on counterterrorism.",
+      "potential_impact": "The executive orders sought to benefit veterans, active-duty and reserve military members, as well as low-income and food-insecure populations, aiming to ease transitions and enhance health outcomes. However, concerns emerged over potential bureaucratic delays in delivering mental health services and the risk of insufficiently tailored care for veterans with complex needs. The decision to maintain and expand detainee populations at Guantanamo Bay raised ethical and legal questions, potentially affecting detainees’ rights and complicating justice for terrorism victims. Meanwhile, efforts to promote youth sports faced challenges in inclusivity, particularly for children with disabilities.",
+      "generated_at": "2025-12-15T07:41:44.838Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2017,
+      "quarter": 4,
+      "quarter_name": "Q4 2017",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 7
+        }
+      ],
+      "total_order_count": 7,
+      "summary": "In the final quarter of 2017, President Trump focused executive actions on strengthening military readiness and national security, issuing multiple orders that expanded authorities related to reserve force activation and counterterrorism measures. Simultaneously, efforts to reshape healthcare markets emerged, with initiatives aimed at increasing competition through less regulated insurance options. The administration also revisited refugee admissions by enhancing vetting protocols, reflecting a cautious approach to resettlement. These moves collectively underscored a priority on defense preparedness and regulatory reform, while attempting to balance national security concerns with economic flexibility for small businesses and entrepreneurs.",
+      "potential_impact": "The quarter’s executive orders targeted a diverse array of populations, from active military personnel and veterans benefiting from streamlined force management policies to small business owners and working-age adults potentially gaining affordable insurance options. Yet, these changes raised concerns for vulnerable groups such as low-income families, individuals with chronic illnesses, and ACA marketplace enrollees who might face reduced coverage options. Military reservists confronted possible increased deployments with limited safeguards, while refugees experienced delays due to stricter vetting, highlighting the complex trade-offs between security measures and humanitarian considerations.",
+      "generated_at": "2025-12-15T07:41:41.416Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2017,
+      "quarter": 3,
+      "quarter_name": "Q3 2017",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 9
+        }
+      ],
+      "total_order_count": 9,
+      "summary": "In the third quarter of 2017, President Trump focused on reshaping previous policies while advancing infrastructure and national security priorities. Nearly half of the nine executive orders involved revoking or amending earlier directives, signaling a desire to recalibrate policy approaches, particularly regarding Sudan and sanctions. The administration sought to accelerate infrastructure development by establishing advisory councils and streamlining environmental reviews, aiming to boost efficiency and promote renewable energy initiatives. Simultaneously, orders targeted economic and country-specific sanctions, reinforcing a stance on foreign policy challenges. This blend of regulatory rollback and targeted investment reflected an effort to enhance government efficiency while addressing both domestic infrastructure and international security concerns.",
+      "potential_impact": "These executive orders aimed to benefit a diverse array of groups, including construction and renewable energy workers, union members, and local as well as tribal governments, particularly in urban and rural communities poised for infrastructure investment. However, the acceleration of infrastructure projects raised concerns about sidelining local decision-making and environmental safeguards, potentially affecting environmental justice communities. Sanctions and revocations also targeted foreign officials and citizens in countries like Sudan and Venezuela, with possible diplomatic and humanitarian repercussions. Meanwhile, shifts toward renewable energy and manufacturing revitalization could challenge traditional energy workers and some labor sectors, highlighting the complex balance of advancing economic priorities while managing diverse stakeholder impacts.",
+      "generated_at": "2025-12-15T07:41:38.366Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2017,
+      "quarter": 2,
+      "quarter_name": "Q2 2017",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 16
+        }
+      ],
+      "total_order_count": 16,
+      "summary": "In the second quarter of 2017, President Trump’s executive orders reflected a clear drive to prioritize domestic economic growth and streamline government operations. With a strong emphasis on interagency coordination and regulatory reform, the administration sought to reduce bureaucratic hurdles while reinforcing 'Buy American' policies and revitalizing the defense industrial base. These actions aimed to bolster manufacturing, agricultural sectors, and trade protections under an 'America First' framework. Additionally, efforts to modernize government technology and strengthen cybersecurity highlighted a commitment to updating federal infrastructure alongside economic initiatives.",
+      "potential_impact": "These executive orders targeted manufacturing and defense industry workers, middle-class Americans, and small business owners by promoting domestic job growth and reducing regulatory burdens. However, the focus on domestic preference raised concerns among large corporations and technology workers reliant on global supply chains, who faced potential cost increases and reduced flexibility. Stricter visa policies risked limiting opportunities for foreign workers and innovation in tech sectors. Meanwhile, agricultural and rural communities confronted possible disruptions due to deregulation, and some small business owners worried about uneven benefits amid shifting tax and regulatory landscapes.",
+      "generated_at": "2025-12-15T07:41:33.704Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2017,
+      "quarter": 1,
+      "quarter_name": "Q1 2017",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 13
+        }
+      ],
+      "total_order_count": 13,
+      "summary": "In the first quarter of 2017, President Trump focused his executive actions on reshaping government operations, regulatory reform, and homeland security. By establishing multiple presidential commissions and task forces, the administration sought to address pressing issues such as crime reduction and opioid addiction while simultaneously pursuing deregulation aimed at fostering economic growth and efficiency. Efforts to reorganize the executive branch and revise orders of succession within the Department of Justice underscored a broader intent to consolidate control and streamline government functions. Environmental regulations and trade enforcement also featured, reflecting a complex agenda balancing economic priorities with national security concerns.",
+      "potential_impact": "The executive orders targeted a diverse array of populations, aiming to benefit small business owners, manufacturing workers, and historically marginalized groups like HBCU communities through innovation initiatives. However, several actions raised concerns for rural and tribal communities, environmental justice groups, and federal employees who faced potential negative repercussions from deregulation and enforcement policies. Enhanced immigration enforcement and aggressive crime reduction strategies risked disproportionately impacting Hispanic and Latino populations, urban and tribal areas, and crime victims, highlighting tensions between security objectives and community trust. Observers cautioned that shifts in succession orders and regulatory rollbacks might disrupt institutional stability and weaken protections for vulnerable populations.",
+      "generated_at": "2025-12-15T07:41:30.495Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2016,
+      "quarter": 4,
+      "quarter_name": "Q4 2016",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 15
+        }
+      ],
+      "total_order_count": 15,
+      "summary": "In the final quarter of 2016, President Obama concentrated executive action on strengthening federal workforce management and enhancing interagency coordination, signing 15 orders that emphasized operational efficiency and preparedness. Several orders addressed homeland security and foreign aid, reflecting a dual focus on domestic resilience and global engagement. Measures to safeguard critical and energy infrastructures intertwined with climate and environmental policies, underscoring a comprehensive approach to national security and sustainability. The administration sought to improve federal hiring practices and military readiness, while also addressing emerging threats like malicious cyber activities and space weather events, indicating a forward-looking stance on evolving challenges.",
+      "potential_impact": "These executive orders primarily targeted federal employees and civil servants, aiming to streamline their roles and support mechanisms during emergencies. Military personnel and veterans were also central beneficiaries, with policies designed to bolster readiness and care. Communities across urban, rural, and tribal areas stood to benefit from improved infrastructure resilience and environmental protections. However, concerns emerged about workplace pressures on federal and military staff related to charitable solicitations and the inclusion of faith-based organizations. Additionally, workers in the energy sector faced potential disruptions due to infrastructure protections, while uneven preparedness raised questions about equitable safeguards for vulnerable populations and the efficacy of interagency responses.",
+      "generated_at": "2025-12-15T07:41:27.199Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2015,
+      "quarter": 4,
+      "quarter_name": "Q4 2015",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 7
+        }
+      ],
+      "total_order_count": 7,
+      "summary": "In the final quarter of 2015, President Obama focused executive actions on strengthening federal workforce management and addressing national emergencies with a nuanced approach to sanctions. Three orders aimed to refine pay and leadership structures within federal agencies, signaling a commitment to enhancing civil service efficiency. Concurrently, the administration moved to end a long-standing emergency linked to Liberian political instability, reflecting a shift toward normalized international engagement. Labor relations also featured prominently, as an emergency board was established to mediate critical transit worker disputes, underscoring efforts to maintain operational stability amid ongoing challenges to military readiness and national security.",
+      "potential_impact": "These executive orders primarily targeted federal employees, veterans, and active-duty military personnel by adjusting pay scales and strengthening senior leadership, potentially improving job conditions and organizational effectiveness. At the same time, citizens of Liberia faced a complex transition as sanctions were lifted, raising concerns about economic equity and lingering influence of former regime actors. Transportation workers and union members encountered uncertainty due to labor dispute interventions, while visa holders, refugees, and asylum seekers faced restrictions, highlighting the delicate balance between security measures and individual rights. Observers noted risks that stringent award protocols and classified recognitions might limit broader acknowledgment of service within the intelligence and military communities.",
+      "generated_at": "2025-12-15T07:41:23.420Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2015,
+      "quarter": 3,
+      "quarter_name": "Q3 2015",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 9
+        }
+      ],
+      "total_order_count": 9,
+      "summary": "In Q3 2015, President Obama concentrated executive action on enhancing government efficiency and interagency coordination, issuing nine orders that sought to streamline federal operations and advance strategic priorities such as the National Strategic Computing Initiative and the National HIV/AIDS Strategy. Worker protections surfaced as a key theme, highlighted by establishing paid sick leave for federal contractors and addressing labor disputes within New Jersey Transit. Several orders also aimed to harness behavioral science to improve public service delivery and strengthen federal advisory committees, reflecting a broader push toward innovation and collaborative governance amid complex trade and environmental challenges.",
+      "potential_impact": "These executive actions targeted a diverse array of groups, including union members, working-age adults, environmental justice communities, and technology workers, aiming to bolster worker rights and promote equitable access to emerging scientific opportunities. However, concerns emerged over the potential strain on transportation and union workers during labor dispute interventions and the risks that concentrated trade authority might marginalize non-union workers. Additionally, some feared that rapid advances in technology policy could deepen disparities among workers lacking adequate training, while environmental justice communities risked insufficient inclusion in federal environmental reviews.",
+      "generated_at": "2025-12-15T07:41:17.335Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2015,
+      "quarter": 2,
+      "quarter_name": "Q2 2015",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 5
+        }
+      ],
+      "total_order_count": 5,
+      "summary": "In the second quarter of 2015, President Obama’s executive orders reflected a nuanced approach to national security, military justice, and workforce development. The administration moved to terminate a longstanding emergency related to nuclear proliferation risks posed by fissile material in Russia, signaling a shift in arms control posture. Concurrently, amendments to the military justice manual aimed to refine courts-martial procedures, while new initiatives sought to enhance career and technical education recognition. Efforts also focused on hostage recovery and worker health, illustrating a blend of international diplomacy, military readiness, and domestic skills enhancement priorities within a compact set of actions.",
+      "potential_impact": "These orders primarily targeted veterans, active-duty military personnel, and foreign governments, with ripple effects touching youth and students through educational initiatives. The termination of the nuclear emergency raised concerns about reduced vigilance that could affect military and veteran communities responsible for national security. Changes to military justice procedures introduced uncertainties for defendants and service members alike, potentially influencing perceptions of fairness and discipline. Meanwhile, expanded recognition in vocational education aimed to support young learners but risked uneven benefits across socio-economic lines, highlighting tensions between broad policy goals and the diverse populations they intend to serve.",
+      "generated_at": "2025-12-15T07:41:13.690Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2015,
+      "quarter": 1,
+      "quarter_name": "Q1 2015",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 8
+        }
+      ],
+      "total_order_count": 8,
+      "summary": "In the first quarter of 2015, President Obama concentrated executive action on strengthening national security and environmental resilience through enhanced interagency coordination. A significant focus was placed on cybersecurity and critical infrastructure protection, reflecting growing concerns over malicious cyber activities, alongside strategic economic sanctions targeting North Korea and Venezuela. Climate change policy also featured prominently, with efforts to establish new federal standards for flood risk and sustainability planning. These orders sought to integrate federal agencies’ efforts while addressing evolving threats and environmental challenges, underscoring a commitment to national defense, international pressure on adversaries, and sustainable development.",
+      "potential_impact": "The executive orders aimed to benefit a range of communities, including tribal governments and Alaska Natives, coastal populations vulnerable to climate risks, and cybersecurity professionals engaged in protecting infrastructure. However, the measures also raised concerns about unintended consequences: sanctions and travel restrictions could hinder legitimate academic and business exchanges, while increased military-style equipment for local law enforcement risked escalating tensions in minority and urban communities. Observers noted potential marginalization of tribal groups in interagency processes and warned that insufficient oversight might exacerbate civil liberties issues, particularly among vulnerable populations affected by homeland security policies.",
+      "generated_at": "2025-12-15T07:41:05.535Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2014,
+      "quarter": 4,
+      "quarter_name": "Q4 2014",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 9
+        }
+      ],
+      "total_order_count": 9,
+      "summary": "In the final quarter of 2014, President Obama focused executive actions on strengthening the federal workforce and enhancing military readiness. Several orders addressed the management and career pathways of federal employees, particularly law enforcement officials, reflecting an effort to improve government operations and personnel stability. Simultaneously, military reservists were called to active duty, underscoring readiness amid global health security concerns, including the Ebola outbreak. Labor relations and transportation infrastructure also featured, with efforts to mediate labor disputes and maintain critical public services. Sanctions targeting the Crimea region highlighted ongoing geopolitical priorities during this period.",
+      "potential_impact": "These orders aimed to benefit federal employees by providing new career opportunities and pay adjustments, while supporting veterans and military reservists called to active duty. Union members and transportation workers stood to be affected by federal intervention in labor disputes, potentially influencing negotiation dynamics and service reliability. Conversely, some orders risked disadvantaging certain federal contractors, military families, and visa holders, raising concerns about fairness and personal disruption. Observers noted possible morale challenges within law enforcement due to non-competitive hiring conversions and deliberated the broader effects on workforce diversity and labor autonomy.",
+      "generated_at": "2025-12-15T07:41:01.999Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2014,
+      "quarter": 3,
+      "quarter_name": "Q3 2014",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 6
+        }
+      ],
+      "total_order_count": 6,
+      "summary": "In the third quarter of 2014, President Obama’s executive orders reflected a concerted effort to advance workplace equality and public health preparedness while enhancing interagency collaboration. Two orders targeted employment discrimination, emphasizing pay equity and protections for LGBTQ+ and transgender individuals, particularly among federal contractors. Simultaneously, public health emergency responses were strengthened through updated quarantine protocols and initiatives to combat antibiotic-resistant bacteria. The administration also sought to improve government efficiency and support international development with a focus on climate resilience and business engagement in Africa, signaling a multifaceted approach to domestic and global challenges.",
+      "potential_impact": "These executive actions aimed to benefit federal contractors, working-age adults, and marginalized groups such as LGBTQ+ and transgender individuals by promoting fair employment practices and safer workplaces. However, concerns arose about the potential compliance burdens placed on small businesses and independent contractors, possibly limiting their access to federal contracts. The expanded quarantine powers raised civil liberties questions for patients, incarcerated individuals, and undocumented immigrants during health crises. Additionally, the complexity of enforcing anti-discrimination measures and labor violation disclosures risked uneven protections and unintended economic consequences for vulnerable workers.",
+      "generated_at": "2025-12-15T07:40:58.777Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2013,
+      "quarter": 4,
+      "quarter_name": "Q4 2013",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 3
+        }
+      ],
+      "total_order_count": 3,
+      "summary": "In the final quarter of 2013, President Obama signed three executive orders that collectively underscored a commitment to climate resilience, labor relations, and federal workforce management. The administration sought to prepare the nation for climate change impacts by advancing policies aimed at improving infrastructure and public lands management, while also emphasizing interagency coordination. Concurrently, efforts to address labor disputes within the transportation sector highlighted a focus on maintaining operational stability and protecting worker rights. Adjustments to federal pay rates reflected ongoing attention to government efficiency and retirement security for civil servants.",
+      "potential_impact": "These orders aimed to benefit a diverse range of communities, including tribal and coastal populations vulnerable to climate effects, disaster-affected areas, and low-income and environmental justice groups. Agricultural workers and unionized transportation employees stood to gain from tailored labor protections and dispute resolution mechanisms. However, concerns arose that climate initiatives might sideline Indigenous knowledge, delay critical infrastructure projects, and disproportionately burden marginalized populations. Additionally, prolonged labor negotiations risked disrupting rail services vital to suburban commuters, while pay adjustments raised questions about federal workforce budgetary pressures.",
+      "generated_at": "2025-12-15T07:40:54.590Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2013,
+      "quarter": 3,
+      "quarter_name": "Q3 2013",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 4
+        }
+      ],
+      "total_order_count": 4,
+      "summary": "In the third quarter of 2013, President Obama’s executive actions focused on enhancing interagency coordination and homeland security, particularly through efforts to improve chemical facility safety and streamline federal advisory committees. Simultaneously, the administration advanced public health priorities by accelerating HIV prevention and care initiatives tied to the Affordable Care Act. These orders also addressed critical infrastructure protection and imposed trade restrictions on Burmese jade and rubies, reflecting a blend of domestic health policy and international economic sanctions. Together, these actions aimed to strengthen federal collaboration while targeting both health outcomes and security concerns.",
+      "potential_impact": "These executive orders sought to benefit marginalized populations including LGBTQ+ individuals, racial minorities, uninsured and low-income families, as well as veterans by expanding access to HIV prevention and care. However, concerns emerged about bureaucratic delays and privacy risks tied to increased data sharing across agencies. Small businesses and manufacturers faced potential regulatory burdens from heightened safety standards, raising fears of economic strain. Additionally, efforts to secure chemical facilities near tribal and environmental justice communities risked creating local tensions if community voices were overlooked, complicating the balance between safety and transparency.",
+      "generated_at": "2025-12-15T07:40:50.491Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2013,
+      "quarter": 2,
+      "quarter_name": "Q2 2013",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 9
+        }
+      ],
+      "total_order_count": 9,
+      "summary": "In the second quarter of 2013, President Obama’s executive orders reflected a multifaceted approach focused on strengthening federal advisory structures, enhancing military readiness, and promoting government transparency. Key actions included renewing advisory councils with emphasis on Native American affairs and financial capability for youth, alongside measures addressing military justice and pay adjustments. The administration also prioritized open data initiatives to increase government transparency while implementing sanctions related to Iran. Together, these orders illustrated a balance between fostering inclusive governance, supporting defense frameworks, and advancing data openness amid evolving geopolitical and domestic challenges.",
+      "potential_impact": "The executive orders aimed to benefit a diverse range of groups including tribal communities, veterans, active military personnel, and minority populations such as African Americans and Hispanic Americans. Faith-based and nonprofit organizations also stood to gain from continued federal partnerships. However, concerns emerged regarding potential disadvantages for individuals with disabilities and chronic illnesses due to privacy risks from expanded data transparency. Additionally, federal employees faced stagnant pay rates, potentially affecting morale and retention, while taxpayers and small businesses could experience increased burdens from implementing open data standards, highlighting the complex trade-offs inherent in these policies.",
+      "generated_at": "2025-12-15T07:40:46.626Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2013,
+      "quarter": 1,
+      "quarter_name": "Q1 2013",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 4
+        }
+      ],
+      "total_order_count": 4,
+      "summary": "In the first quarter of 2013, President Obama focused on strengthening interagency coordination and clarifying delegation of authority through four executive orders, aiming to enhance national security and streamline government functions. A significant emphasis was placed on cybersecurity, particularly protecting critical infrastructure against emerging threats by fostering collaboration between government and private sectors. Concurrently, reforms in export control policies sought to balance national security with military readiness, while efforts to improve election administration underscored a commitment to safeguarding democratic processes. These actions collectively aimed to modernize federal oversight and promote more integrated policy implementation.",
+      "potential_impact": "The executive orders targeted a diverse range of populations, including military personnel and veterans reliant on timely defense exports, cybersecurity professionals engaged in critical infrastructure protection, and corporations navigating heightened regulatory complexity. While businesses stood to benefit from clearer authority lines and improved security frameworks, concerns arose over potential risks to consumer privacy and data security, as well as increased compliance burdens for large corporations. Energy sector and maritime workers faced uncertainty due to shifting regulatory responsibilities, highlighting the delicate balance between enhanced security measures and their economic implications for various communities.",
+      "generated_at": "2025-12-15T07:40:41.401Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2012,
+      "quarter": 4,
+      "quarter_name": "Q4 2012",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 8
+        }
+      ],
+      "total_order_count": 8,
+      "summary": "In the final quarter of 2012, President Obama concentrated executive actions on enhancing interagency coordination and federal advisory mechanisms, particularly through the establishment of task forces and commissions aimed at improving homeland security and disaster recovery, such as the Hurricane Sandy Rebuilding Task Force. Economic sanctions targeting Iran featured prominently, reflecting a strategic push to enforce international pressure. Efforts to manage the federal workforce and regulate government operations were also evident, indicating a focus on internal efficiency and readiness. Together, these orders sought to streamline government functions while responding to pressing international and domestic challenges.",
+      "potential_impact": "The executive orders aimed to benefit a diverse array of groups, including small business owners, tribal communities, disaster-affected populations, and federal employees, by improving coordination and resource allocation. However, sanctions and travel restrictions imposed on Iranian entities raised concerns about unintended repercussions for naturalized citizens, visa holders, and lawful permanent residents connected to Iran, potentially affecting their rights and mobility. Additionally, economic measures risked impacting corporations and their employees, while coordination efforts faced challenges in adequately representing tribal governments and addressing civil liberties within law enforcement partnerships.",
+      "generated_at": "2025-12-15T07:40:36.646Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2012,
+      "quarter": 3,
+      "quarter_name": "Q3 2012",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 7
+        }
+      ],
+      "total_order_count": 7,
+      "summary": "In the third quarter of 2012, President Obama focused executive actions on enhancing interagency coordination, particularly to advance educational excellence for African Americans and strengthen protections against human trafficking. Environmental concerns also featured prominently, with orders aimed at Gulf Coast ecosystem restoration and promoting industrial energy efficiency. Sanctions targeting Iran were tightened, reflecting a strategic emphasis on financial system regulation and geopolitical pressure. Together, these orders sought to address complex domestic challenges like educational disparities and global human rights, while also leveraging economic tools to influence international affairs.",
+      "potential_impact": "These executive orders were designed to benefit a range of populations, including African American students and communities through educational initiatives, victims of human trafficking, and communities affected by environmental justice issues. However, the targeted sanctions and regulatory measures posed risks to foreign nationals, financial institutions, and workers in energy sectors linked to Iranian trade, potentially causing economic disruptions. Observers noted concerns that broad interagency efforts might dilute focus on African American education reforms, while sanctions could inadvertently harm international businesses and complicate lawful economic activities.",
+      "generated_at": "2025-12-15T07:40:33.249Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2011,
+      "quarter": 4,
+      "quarter_name": "Q4 2011",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 11
+        }
+      ],
+      "total_order_count": 11,
+      "summary": "In the final quarter of 2011, President Obama focused executive actions on enhancing interagency coordination and strengthening federal advisory committees, reflecting a drive to improve government efficiency and collaboration. Several orders addressed national security concerns, including classified information sharing and cybersecurity, while others targeted labor relations, particularly within the transportation sector. Notably, efforts to reduce prescription drug shortages and promote efficient spending underscored a commitment to healthcare and fiscal responsibility. The administration also pursued measures to support veterans and tribal education, illustrating a multifaceted approach to federal policy amidst complex domestic and security challenges.",
+      "potential_impact": "These orders aimed to benefit veterans, federal employees, military personnel, and small business owners by improving labor relations, security protocols, and educational opportunities. However, the establishment of an Emergency Board investigating railroad labor disputes introduced uncertainties for union members and transportation workers, potentially prolonging conflicts. Security clearance holders and federal contractors faced heightened compliance demands that raised privacy and operational concerns. Meanwhile, pharmaceutical manufacturers encountered new regulatory pressures that could affect drug availability and costs, revealing a delicate balance between safeguarding public interests and imposing burdens on various stakeholders.",
+      "generated_at": "2025-12-15T07:40:29.564Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2011,
+      "quarter": 3,
+      "quarter_name": "Q3 2011",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 8
+        }
+      ],
+      "total_order_count": 8,
+      "summary": "In the third quarter of 2011, President Obama focused executive actions on enhancing interagency coordination and improving government efficiency, particularly to support economic recovery and workforce development in automotive and manufacturing sectors. Several orders targeted economic sanctions and national emergencies, reflecting a dual emphasis on domestic revitalization and international security. Efforts to streamline regulatory processes and promote diversity within the federal workforce were also evident, signaling a comprehensive approach to governance that balanced economic interests with social inclusion and crisis response.",
+      "potential_impact": "These orders aimed to benefit a diverse range of populations, including small business owners, automotive and manufacturing workers, urban communities, and indigenous groups such as Alaska Natives and tribal governments. While intended to foster economic adjustment and inclusion, concerns arose about the uneven implementation of support programs and potential regulatory burdens on small businesses. Additionally, expedited energy development raised environmental and cultural worries for indigenous populations, and sanctions targeted foreign entities, potentially affecting international relations and specific communities abroad.",
+      "generated_at": "2025-12-15T07:40:25.829Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2011,
+      "quarter": 2,
+      "quarter_name": "Q2 2011",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 6
+        }
+      ],
+      "total_order_count": 6,
+      "summary": "In the second quarter of 2011, President Obama focused executive action on intensifying economic sanctions, particularly targeting Syria and Iran, to address human rights abuses and geopolitical concerns. Three orders centered on blocking property and sanctioning senior Syrian government officials, reflecting a strategic effort to pressure the Syrian regime amid escalating conflict. Alongside these sanctions, the administration emphasized interagency coordination and economic competitiveness, establishing initiatives like the White House Rural Council and SelectUSA to promote rural development and attract investment, signaling a dual approach balancing foreign policy with domestic economic priorities.",
+      "potential_impact": "These orders aimed to impact a range of populations, including small business owners and rural communities domestically through development initiatives, while exerting pressure on foreign government officials and entities linked to Syria and Iran. However, observers noted potential unintended consequences, such as economic hardships for ordinary Syrian civilians—including Muslim communities—and complications for U.S. corporations with foreign ties. The broad scope of sanctions risked inadvertently hindering humanitarian aid and disrupting legitimate business activities, raising concerns about the balance between targeted pressure on regimes and protecting vulnerable populations and economic interests.",
+      "generated_at": "2025-12-15T07:40:23.204Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2010,
+      "quarter": 4,
+      "quarter_name": "Q4 2010",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 9
+        }
+      ],
+      "total_order_count": 9,
+      "summary": "In the final quarter of 2010, the Obama administration concentrated on enhancing interagency coordination and workforce development, particularly through efforts to streamline federal advisory committees and federal law enforcement collaboration. A significant focus was placed on educational excellence for Hispanic communities and recruiting young talent into federal service, reflecting a commitment to diversity and long-term workforce strengthening. Simultaneously, the administration initiated environmental restoration in the Gulf Coast, linking ecological recovery with economic revitalization, while also addressing federal workforce management and information security protocols to bolster operational efficiency across agencies.",
+      "potential_impact": "These executive orders sought to benefit a broad range of populations, including college students, federal law enforcement officers, and veterans, by improving career pathways and security procedures. Coastal and tribal communities stood to gain from ecosystem restoration efforts, although concerns arose regarding potential disruptions to local fisheries and insufficient tribal consultation. Hispanic students were targeted for enhanced educational support, yet disparities within the community and resource allocation challenges raised questions about equitable outcomes. Meanwhile, small businesses and consumers faced possible burdens from new environmental regulations and information compliance requirements, highlighting tensions between regulatory aims and economic impacts.",
+      "generated_at": "2025-12-15T07:40:19.672Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2010,
+      "quarter": 3,
+      "quarter_name": "Q3 2010",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 6
+        }
+      ],
+      "total_order_count": 6,
+      "summary": "In the third quarter of 2010, President Obama’s executive orders reflected a multifaceted approach to national security and workforce inclusion. Two orders strengthened the handling and sharing of classified information among federal, state, local, and tribal entities, aiming to bolster homeland security and intelligence collaboration. Simultaneously, economic sanctions targeted North Korea and Iran to address international human rights and security concerns. Another significant focus was enhancing federal employment opportunities for individuals with disabilities, marking a push toward greater inclusivity within the federal workforce. These directives collectively underscored a balance between safeguarding national interests and promoting equitable employment practices.",
+      "potential_impact": "The quarter’s orders sought to benefit diverse populations including veterans, military personnel, individuals with disabilities, and various levels of government employees engaged in security roles. Efforts to expand federal hiring of disabled individuals aimed to improve workplace diversity but raised concerns about privacy and the adequacy of accommodations. Enhanced security clearance protocols intended to improve intelligence sharing could impose operational challenges and financial burdens on corporations and local law enforcement agencies. Meanwhile, sanctions against foreign governments and individuals were designed to pressure regimes, which might also affect foreign nationals and lawful residents connected to those countries.",
+      "generated_at": "2025-12-15T07:40:16.766Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2009,
+      "quarter": 4,
+      "quarter_name": "Q4 2009",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 14
+        }
+      ],
+      "total_order_count": 14,
+      "summary": "In the final quarter of 2009, President Obama directed a diverse set of executive actions emphasizing government efficiency, workforce management, and interagency coordination, reflecting a concerted effort to streamline federal operations. Key initiatives targeted federal law enforcement and renewable energy, signaling a push toward enhanced security and environmental stewardship. Several orders focused on improving labor-management relations and intelligence operations, while also addressing corporate fraud and bioethical issues. This blend of priorities suggests a strategic approach to modernizing federal governance, strengthening national security, and advancing sustainability amid complex administrative challenges.",
+      "potential_impact": "These executive orders aimed to benefit federal employees, military personnel, and renewable energy workers by enhancing workplace conditions, employment opportunities, and environmental leadership. They also sought to support small business owners and low-income families through increased federal program participation, particularly among Asian American and Pacific Islander communities. However, concerns emerged about the administrative burden on federal contractors, especially smaller businesses, as well as potential disruptions in rural areas and traditional energy sectors. Challenges in equitable access and cultural barriers raised questions about the effectiveness of outreach efforts and the inclusiveness of federal initiatives.",
+      "generated_at": "2025-12-15T07:40:12.699Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2009,
+      "quarter": 3,
+      "quarter_name": "Q3 2009",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 3
+        }
+      ],
+      "total_order_count": 3,
+      "summary": "In the third quarter of 2009, President Obama focused executive action on enhancing government efficiency and workplace safety, signing three orders that addressed the continuation and amendment of federal advisory committees alongside federal leadership in reducing texting while driving. These efforts aimed to streamline advisory functions, particularly those supporting historically Black colleges, tribal colleges, and individuals with disabilities, while also promoting safer federal operations. The administration sought to balance civil rights enforcement and health promotion with disaster recovery coordination, highlighting a multifaceted approach to improving federal oversight and workplace practices.",
+      "potential_impact": "These orders were designed to benefit diverse communities, including students at HBCUs and tribal colleges, working-age adults, and disaster-affected coastal populations. However, concerns arose about potential uneven attention from agency heads responsible for advisory committees, which could weaken advocacy for vulnerable groups. Federal employees and contractors faced new restrictions on texting while driving, raising questions about enforcement consistency and morale. Additionally, disaster-affected communities risked prolonged dependency on federal coordination, potentially delaying local recovery efforts and affecting resource allocation for emerging emergencies.",
+      "generated_at": "2025-12-15T07:40:08.221Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2009,
+      "quarter": 2,
+      "quarter_name": "Q2 2009",
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 4
+        }
+      ],
+      "total_order_count": 4,
+      "summary": "In the second quarter of 2009, President Obama concentrated on enhancing interagency coordination to address pressing health care reform and economic recovery challenges. By establishing the White House Office of Health Reform and forming a council focused on automotive communities, his administration sought to streamline efforts to improve access to affordable care and support workers affected by manufacturing shifts. Environmental stewardship also featured prominently, with targeted actions to protect the Chesapeake Bay and advance climate change policies that integrated agricultural and public land management, reflecting a holistic approach to regional conservation and economic revitalization.",
+      "potential_impact": "These orders aimed to benefit low-income families, uninsured individuals, rural and coastal communities, and workers in agriculture and manufacturing by promoting improved health coverage, environmental restoration, and economic support. However, concerns arose that regulatory measures might impose burdens on agricultural workers and small business owners, especially within the Chesapeake Bay region, potentially disrupting livelihoods tied to farming, fishing, and tourism. Additionally, the complexity of coordinating multiple agencies risked delays in delivering timely assistance, which could affect vulnerable populations reliant on Medicaid and other government programs.",
+      "generated_at": "2025-12-15T07:40:04.517Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2009,
+      "quarter": 1,
+      "quarter_name": "Q1 2009",
+      "presidents": [
+        {
+          "president_id": "george-w-bush",
+          "president_name": "George W. Bush",
+          "order_count": 5
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 18
+        }
+      ],
+      "total_order_count": 23,
+      "summary": "The first quarter of 2009 reflected a significant transition in executive priorities as the outgoing administration’s five orders focused on refining departmental succession and enhancing biosecurity, while the incoming administration swiftly pursued broader reforms. President Obama’s 18 executive orders emphasized revoking previous directives, improving interagency coordination, and boosting government efficiency. His actions targeted systemic issues such as detention policies at Guantanamo Bay, federal labor rights, and scientific research practices, signaling a shift toward transparency, ethical governance, and economic recovery. The quarter underscored a drive to restructure government operations and labor relations while addressing national security and human rights concerns amid the presidential handover.",
+      "potential_impact": "These executive orders aimed to benefit a diverse range of groups including federal contractors, union members, working-age adults, and low-income families by promoting fair labor practices and government efficiency. Scientific researchers and detainees at Guantanamo were also focal points, reflecting efforts to balance security with ethical considerations. However, some orders introduced challenges for federal contractors facing stricter regulations and scientific personnel navigating enhanced security protocols. Concerns arose about potential leadership gaps due to succession order changes, which could affect transportation workers and department stability, while detainees and certain minority groups faced renewed scrutiny amid evolving counterterrorism policies.",
+      "generated_at": "2025-12-15T07:40:00.285Z",
+      "model_used": "gpt-4.1-mini"
+    }
+  ],
+  "generated_at": "2025-12-15T08:43:03.039Z"
+}

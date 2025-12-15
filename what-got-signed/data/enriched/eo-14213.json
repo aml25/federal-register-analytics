@@ -13,34 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-20/pdf/2025-02928.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/20/2025-02928.txt",
   "enrichment": {
-    "summary": "This executive order establishes the National Energy Dominance Council to coordinate federal efforts to increase domestic energy production and reduce regulatory obstacles. The Council advises the President on strategies to enhance energy production across all sources, including fossil fuels, nuclear, and critical minerals, aiming to make the United States energy dominant and support economic growth and national security.",
+    "summary": "This executive order creates the National Energy Dominance Council within the White House to coordinate efforts across federal agencies to increase U.S. energy production and achieve energy dominance. The Council advises the President on policies to expand reliable, affordable energy sources, improve permitting and infrastructure processes, encourage private sector investment, and strengthen national energy security.",
     "theme_ids": [
-      "energy-policy",
-      "regulatory-reform",
-      "national-security",
-      "foreign-policy",
-      "trade-policy",
-      "advisory-committees-management",
-      "technology-development"
+      "energy-independence-security",
+      "oil-and-gas-development",
+      "natural-gas-fracking",
+      "infrastructure-permitting",
+      "interagency-coordination"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "domestic-energy-producers",
-        "critical-minerals-industry"
+        "energy-sector-workers-oil-gas-coal",
+        "large-corporation-employees",
+        "small-business-owners",
+        "working-age-adults"
       ],
       "negative_ids": [
-        "green-energy-industry",
-        "environmental-advocates"
+        "environmental-justice-communities",
+        "tribal-communities-reservations",
+        "rural-communities"
       ]
     },
     "potential_concerns": [
-      "The emphasis on expanding all forms of energy production, including fossil fuels and uranium, may undermine environmental protections and slow progress on climate change mitigation.",
-      "Reducing or eliminating longstanding regulations might increase risks to public health, safety, and environmental quality.",
-      "The order may create tensions between accelerated energy development and interests of environmental advocacy groups and renewable energy sectors.",
-      "Coordination challenges could arise from integrating numerous high-level officials and agencies with diverse priorities within the Council.",
-      "Potential conflicts between promoting energy dominance and commitments to international climate agreements or trade partners may lead to diplomatic friction."
+      "The emphasis on expanding oil, gas, and fossil fuel production (natural-gas-fracking, oil-and-gas-development) may adversely impact environmental justice communities and tribal communities through increased pollution and habitat disruption.",
+      "Efforts to cut regulatory red tape and speed permitting (infrastructure-permitting) could undermine environmental safeguards, potentially harming rural communities that depend on natural resources and clean environments.",
+      "Prioritizing rapid energy production to achieve energy dominance may increase greenhouse gas emissions, conflicting with climate goals and disproportionately affecting communities near energy infrastructure expansions.",
+      "The focus on incentivizing private sector investment could favor large corporations and exclude small businesses lacking capital, potentially concentrating economic benefits and limiting inclusive job growth for working-age adults."
     ],
-    "enriched_at": "2025-12-09T02:41:03.376Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:27:54.374Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

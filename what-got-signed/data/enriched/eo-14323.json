@@ -13,29 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-05/pdf/2025-14896.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/05/2025-14896.txt",
   "enrichment": {
-    "summary": "This executive order declares a national emergency in response to actions by the Government of Brazil that threaten U.S. national security, economy, and free expression rights. To address these threats, it imposes a 40% tariff on certain Brazilian imports and authorizes U.S. officials to take further measures if needed.",
+    "summary": "This executive order declares a national emergency due to harmful actions by the Government of Brazil that threaten U.S. national security, economy, and free speech protections. It imposes a 40 percent tariff on certain Brazilian imports to address these threats and authorizes U.S. officials to monitor the situation and take further actions as needed.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
-      "foreign-policy"
+      "national-emergencies",
+      "tariffs-duties",
+      "free-speech",
+      "foreign-election-interference",
+      "human-rights-international"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry"
+        "u-s-citizens",
+        "corporations-businesses"
       ],
       "negative_ids": [
-        "brazil",
-        "foreign-manufacturers"
+        "technology-workers",
+        "large-corporation-employees"
       ]
     },
     "potential_concerns": [
-      "The 40% tariff may increase costs for U.S. consumers and businesses relying on Brazilian goods.",
-      "Retaliatory measures from Brazil could escalate trade tensions and harm U.S. exporters.",
-      "Censorship-related allegations could complicate diplomatic relations and provoke political backlash.",
-      "Implementation and enforcement of the tariff and emergency measures could create administrative burdens for customs and trade agencies.",
-      "The broad scope of the order may risk unintended economic impacts beyond the targeted sectors or companies."
+      "The imposed 40 percent tariffs on Brazilian imports may increase costs and disrupt supply chains, negatively affecting technology workers and employees of U.S.-headquartered corporations dependent on Brazilian markets.",
+      "Coercion of U.S. social media companies to comply with foreign censorship demands threatens the free speech rights of U.S. citizens and could undermine constitutional protections.",
+      "Retaliatory trade actions by the Government of Brazil could further harm U.S. businesses and workers in affected industries, exacerbating economic harms.",
+      "Efforts to safeguard free expression and national security might inadvertently strain diplomatic relations, impacting U.S. economic interests and future cooperation with Brazil."
     ],
-    "enriched_at": "2025-12-09T02:46:25.384Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:42:28.140Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

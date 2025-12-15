@@ -13,33 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-03/pdf/2025-02230.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/03/2025-02230.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to strengthen efforts to combat anti-Semitism, especially on college campuses and schools, by identifying legal tools and reviewing complaints of discrimination and harassment against Jewish students after October 7, 2023. It reaffirms prior commitments and calls for enhanced enforcement in response to rising anti-Semitic acts linked to recent terrorist attacks against Israel.",
+    "summary": "This executive order directs all federal agencies to identify and use their legal powers to combat anti-Semitism, especially on college campuses, in response to a surge in anti-Semitic incidents following terrorist attacks in 2023. It reinstates and strengthens a previous order to better protect Jewish students and ensure enforcement against discrimination, harassment, and violence.",
     "theme_ids": [
-      "national-security",
-      "legal-profession-policy",
-      "education-policy",
-      "immigration-enforcement",
-      "civil-rights-enforcement"
+      "anti-semitism",
+      "civil-rights-enforcement",
+      "higher-education",
+      "immigration-enforcement-interior"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "jewish-americans",
-        "academic-institutions",
-        "students-in-federally-funded-schools"
+        "jews-jewish-americans",
+        "college-university-students",
+        "educational-institutions"
       ],
       "negative_ids": [
-        "muslim-americans",
-        "foreign-funded-institutions"
+        "visa-holders-work-student-tourist",
+        "foreign-nationals-general"
       ]
     },
     "potential_concerns": [
-      "Enhanced immigration monitoring and reporting requirements targeting alien students and staff may lead to profiling and discrimination against foreign nationals from certain backgrounds.",
-      "Increased enforcement efforts could strain agency resources and lead to inconsistent application or delays in addressing complaints of anti-Semitism.",
-      "The order’s focus on legal prosecutions and removals might raise civil liberties concerns relating to free speech and academic freedom on college campuses.",
-      "Designation of prior administration failures and political framing may politicize enforcement efforts, potentially impacting the perceived neutrality of agencies.",
-      "Lack of clear guidance on balancing anti-Semitism enforcement with protections for other minority groups could result in perceived or actual inequities."
+      "The order's emphasis on monitoring and potentially removing alien students and staff under immigration grounds may lead to discriminatory treatment or profiling of international students, particularly those of Jewish or Middle Eastern backgrounds, affecting visa-holders and foreign nationals on campuses.",
+      "Heightened civil and criminal enforcement measures against institutions perceived as uncooperative in combating anti-Semitism might result in legal and reputational risks for educational institutions, potentially creating adversarial relationships with certain student groups or faculty.",
+      "Efforts to aggressively investigate and penalize alleged anti-Semitic behavior could inadvertently suppress legitimate free speech or academic discourse on college campuses, impacting all college/university students and educational institutions.",
+      "The implementation might unintentionally marginalize non-Jewish foreign nationals or visa holders who are under increased scrutiny due to associations with monitored activities, possibly exacerbating feelings of exclusion or profiling."
     ],
-    "enriched_at": "2025-12-09T02:39:59.273Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:31:31.574Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

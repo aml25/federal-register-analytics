@@ -13,28 +13,28 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-09-23/pdf/2025-18482.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/09/23/2025-18482.txt",
   "enrichment": {
-    "summary": "This executive order extends the delay on enforcing the law that restricts TikTok and other foreign adversary-controlled applications until December 16, 2025, meaning the Department of Justice will not take enforcement actions or penalties during this time or retroactively. It also directs the Attorney General to issue guidance and notifications clarifying that no violations occurred during the delay period and to prevent states or private parties from attempting enforcement, preserving federal exclusive authority.",
+    "summary": "This executive order delays the enforcement of a law targeting TikTok and other foreign adversary-controlled apps, postponing any penalties or enforcement actions until December 16, 2025. It directs the Department of Justice and the Attorney General to provide guidance and ensure no violations or liabilities arise from covered conduct during the delay period.",
     "theme_ids": [
-      "national-security",
-      "foreign-policy"
+      "cybersecurity-national-security",
+      "foreign-technology-threats"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry",
-        "social-media-platforms"
+        "technology-workers",
+        "corporations-businesses"
       ],
       "negative_ids": [
-        "federal-agencies-with-increased-administrative-burden"
+        "consumers",
+        "security-clearance-holders"
       ]
     },
     "potential_concerns": [
-      "Extending the enforcement delay could prolong potential national security risks from continued TikTok operations under foreign influence.",
-      "The order may hinder efforts to hold companies accountable for noncompliance with the Protecting Americans from Foreign Adversary Controlled Applications Act, reducing regulatory effectiveness.",
-      "Allowing the Department of Justice to forego enforcement retroactively could set a precedent that weakens future enforcement of cyber and foreign adversary-related legislation.",
-      "The restriction on states and private parties enforcing the Act may cause tensions between federal and state authorities or private sector actors seeking remedies.",
-      "Delays in enforcement may frustrate stakeholders who support immediate restrictions and harm perceived executive branch credibility on national security issues."
+      "Delaying enforcement prolongs potential national security risks posed by TikTok and foreign adversary-controlled apps, potentially exposing security clearance holders and federal personnel to data vulnerabilities.",
+      "Technology workers and corporations benefiting from extended use of TikTok and similar apps might face future abrupt regulatory actions or restrictions once enforcement resumes, creating business uncertainty.",
+      "Consumers, particularly youth and young adults dependent on TikTok for information and social connections, may experience ongoing exposure to foreign influence and privacy risks during the extended delay.",
+      "The executive order might undermine trust in cybersecurity efforts by creating the perception of leniency toward foreign adversarial technology, complicating enforcement and surveillance once the delay ends."
     ],
-    "enriched_at": "2025-12-09T02:47:57.470Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:00:48.809Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -1,0 +1,44 @@
+{
+  "document_number": "2019-10538",
+  "executive_order_number": "13873",
+  "title": "Securing the Information and Communications Technology and Services Supply Chain",
+  "abstract": null,
+  "signing_date": "2019-05-15",
+  "publication_date": "2019-05-17",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/05/17/2019-10538/securing-the-information-and-communications-technology-and-services-supply-chain",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-05-17/pdf/2019-10538.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/05/17/2019-10538.txt",
+  "enrichment": {
+    "summary": "This executive order directs the U.S. government to block and mitigate transactions involving information and communications technology and services that pose a national security risk due to foreign adversaries' involvement. It establishes authority for the Secretary of Commerce to prohibit or negotiate conditions on such transactions to protect the security, integrity, and reliability of the technology supply chain used in the United States.",
+    "theme_ids": [
+      "cybersecurity-national-security",
+      "critical-infrastructure-protection",
+      "foreign-technology-threats",
+      "supply-chain-security",
+      "homeland-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "technology-workers",
+        "cybersecurity-professionals"
+      ],
+      "negative_ids": [
+        "corporations-businesses",
+        "large-corporation-employees"
+      ]
+    },
+    "potential_concerns": [
+      "Restrictions on transactions involving foreign adversary-controlled technology may disrupt supply chains and operations for corporations and their employees in the technology sector.",
+      "Efforts to mitigate supply chain risks could increase costs and reduce the availability of certain information and communications technologies, negatively impacting large corporations reliant on global supply chains.",
+      "Technology workers and cybersecurity professionals may face increased pressure to rapidly adapt systems to comply with prohibitions or mitigation measures, potentially stressing workforce capacity and expertise.",
+      "The broad authority to prohibit or condition transactions may create uncertainty for businesses about which technologies are permitted, complicating strategic planning and innovation.",
+      "Potential gaps or delays in identifying emerging threats from foreign adversaries could leave critical infrastructure vulnerable despite the order’s intention to increase protection."
+    ],
+    "enriched_at": "2025-12-15T07:26:09.662Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

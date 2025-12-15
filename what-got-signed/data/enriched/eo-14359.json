@@ -13,31 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-11-19/pdf/2025-20406.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/11/19/2025-20406.txt",
   "enrichment": {
-    "summary": "This executive order aims to improve the foster care system by modernizing data and technology, expanding educational and employment support for children and youth in or transitioning out of foster care, and strengthening partnerships with faith-based organizations. It focuses on making foster care more effective, increasing opportunities for foster youth, and ensuring qualified caregivers are not excluded due to religious beliefs.",
+    "summary": "This executive order directs the modernization and improvement of the foster care system, aiming to better support children in foster care and those transitioning out of it. It calls for updating data systems, increasing caregiver recruitment, expanding educational and employment opportunities, and strengthening partnerships with faith-based organizations to serve children and families more effectively.",
     "theme_ids": [
-      "artificial-intelligence",
-      "technology-development",
-      "child-welfare-policy"
+      "child-welfare-foster-care",
+      "faith-based-initiatives",
+      "financial-literacy"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "children-in-foster-care",
-        "foster-families",
-        "faith-based-organizations"
+        "children-minors",
+        "youth-young-adults",
+        "caregivers-non-military",
+        "faith-based-communities",
+        "low-income-individuals-families"
       ],
       "negative_ids": [
-        "children-protected-by-nondiscrimination-policies",
-        "state-child-welfare-agencies"
+        "religious-organizations"
       ]
     },
     "potential_concerns": [
-      "Using religious beliefs as a basis to exclude certain qualified foster or adoptive parents may lead to discrimination against LGBTQ+ individuals or other groups, potentially harming children needing placement.",
-      "Integrating artificial intelligence and predictive analytics in foster care decisions could raise privacy, bias, and fairness concerns impacting vulnerable children and families.",
-      "Reallocating returned federal funds by states could reduce resources in other child welfare areas if not managed carefully.",
-      "Implementing new data collection and modernization efforts within 180 days may be challenging for under-resourced state agencies and lead to inconsistent outcomes.",
-      "Increasing faith-based organization involvement might blur the lines between government and religious activities, raising constitutional or diversity concerns."
+      "The emphasis on accommodating religious beliefs in foster care placement may lead to exclusion or discrimination against LGBTQ+ individuals or families wanting to foster children, impacting children-minors and caregivers-non-military.",
+      "The use of AI and predictive analytics to improve caregiver recruitment and child matching risks unfair biases and privacy issues affecting children-minors and caregivers-non-military.",
+      "Reallocating returned federal funds towards financial literacy and career programs might reduce direct support services for some low-income families, potentially disadvantaging children-minors and youth-young-adults currently in foster care.",
+      "Increased involvement of faith-based communities may blur lines between church and state, potentially privileging religious organizations over secular support options, which could negatively impact children-minors and low-income-individuals-families relying on foster care services.",
+      "The burden of modernizing outdated state-level data systems may result in uneven implementation across states, potentially delaying improvements for some children and youth currently in foster care."
     ],
-    "enriched_at": "2025-12-09T02:48:23.607Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-12T08:21:16.176Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

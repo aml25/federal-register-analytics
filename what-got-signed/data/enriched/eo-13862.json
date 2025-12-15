@@ -1,0 +1,44 @@
+{
+  "document_number": "2019-04595",
+  "executive_order_number": "13862",
+  "title": "Revocation of Reporting Requirement",
+  "abstract": null,
+  "signing_date": "2019-03-06",
+  "publication_date": "2019-03-11",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/03/11/2019-04595/revocation-of-reporting-requirement",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-03-11/pdf/2019-04595.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/03/11/2019-04595.txt",
+  "enrichment": {
+    "summary": "This executive order officially cancels a previous order that required the Director of National Intelligence to publicly report annually on U.S. strikes against terrorist targets outside active war zones, including civilian casualties. It recognizes that similar reporting requirements exist under the Department of Defense with provisions for classified information and national security exceptions.",
+    "theme_ids": [
+      "counterterrorism",
+      "national-security-information-classification",
+      "revocation-of-previous-executive-orders"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants",
+        "intelligence-community-personnel",
+        "military-personnel-active-duty",
+        "veterans"
+      ],
+      "negative_ids": [
+        "terrorism-victims-survivors",
+        "foreign-nationals-general",
+        "local-governments"
+      ]
+    },
+    "potential_concerns": [
+      "Revoking the reporting requirement may reduce transparency around civilian casualties, negatively impacting terrorism victims and their advocates who rely on such data for accountability.",
+      "Limiting public access to strike data could hinder local governments in affected regions from effectively addressing humanitarian and security concerns stemming from U.S. counterterrorism operations.",
+      "Intelligence community personnel and military personnel may face increased pressure or operational risks due to reduced external oversight of strike activities.",
+      "The order's emphasis on national security classification may lead to excessive information withholding, unintentionally eroding public trust in military and intelligence operations among U.S. citizens."
+    ],
+    "enriched_at": "2025-12-15T07:27:48.282Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

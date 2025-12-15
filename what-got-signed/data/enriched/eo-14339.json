@@ -13,30 +13,35 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-28/pdf/2025-16614.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/28/2025-16614.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to take additional actions to respond to a declared crime emergency in the District of Columbia. It calls for hiring more law enforcement personnel, training specialized units, improving prosecution of violent crimes, and inspecting federally-funded transit safety, all aimed at restoring public safety and order in Washington, D.C.",
+    "summary": "This executive order directs various federal agencies to take additional actions to address a declared crime emergency in the District of Columbia. It calls for hiring more law enforcement and prosecutors, creating specialized safety units including within the National Guard, investigating housing-related compliance issues, and reviewing police procedures to improve public safety and order in the nation's capital.",
     "theme_ids": [
-      "public-safety",
-      "federal-workforce",
-      "national-security"
+      "federal-law-enforcement",
+      "state-local-law-enforcement-support",
+      "crime-reduction",
+      "military-readiness-force-structure",
+      "housing-policy-affordable-housing"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "state-and-local-law-enforcement",
-        "federal-agencies"
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local",
+        "military-personnel-reserves-guard",
+        "renters-homeowners"
       ],
       "negative_ids": [
-        "communities-affected-by-police-aggression",
-        "individuals-impacted-by-race-and-equity-policy-restrictions"
+        "low-income-individuals-families",
+        "homeless-unhoused-individuals",
+        "crime-victims"
       ]
     },
     "potential_concerns": [
-      "Deploying National Guard and specialized law enforcement units in civilian settings could raise civil liberties and policing oversight concerns.",
-      "The order’s reliance on appropriations may delay or limit effective implementation of the new measures.",
-      "Increased law enforcement presence and prosecutions may disproportionately impact certain communities without accompanying reforms or protections.",
-      "Coordination among multiple federal and local agencies may present logistical and jurisdictional challenges.",
-      "Investigations into housing authority compliance could strain relationships with local housing providers and tenants."
+      "Increased militarization and deployment of National Guard units may strain military readiness and raise civil rights concerns for urban communities, including renters and low-income families in the District of Columbia.",
+      "The order's enforcement and housing compliance investigations could lead to heightened scrutiny and possible evictions of low-income tenants, potentially worsening housing instability for vulnerable populations.",
+      "Rapid hiring and deployment of specialized law enforcement units might outpace proper community engagement and training, risking escalated conflicts or mistrust between law enforcement officers and local residents.",
+      "Expanded prosecutorial focus on violent and property crimes could disproportionately affect marginalized groups, potentially increasing incarceration rates without addressing underlying social factors.",
+      "Investigations and enforcement actions intended to improve transit worker safety may disrupt public transit services, impacting working-age adults and other transit-dependent populations in the District."
     ],
-    "enriched_at": "2025-12-09T02:47:25.987Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:02:24.710Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

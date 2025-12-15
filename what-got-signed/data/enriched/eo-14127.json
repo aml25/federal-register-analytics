@@ -13,28 +13,35 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-10-02/pdf/2024-22938.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/10/02/2024-22938.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to coordinate efforts to combat new firearms threats such as untraceable 3D-printed guns and machinegun conversion devices, and to improve school-based active-shooter drills by developing research-backed guidance that minimizes trauma and ensures inclusivity. It establishes a Task Force to assess risks and create strategies for interagency collaboration on emerging firearms dangers, and directs the development of federal resources to help schools implement safer, age-appropriate, and legally compliant drills.",
+    "summary": "This executive order directs multiple federal agencies to work together to combat new and emerging firearm threats, especially focusing on illegal devices that convert guns into machineguns and firearms made with 3D printing technology. It also requires the development and publication of research-based guidance to help schools improve active-shooter drills in ways that are effective and minimize trauma for students and educators.",
     "theme_ids": [
-      "firearms-control",
-      "school-safety",
-      "national-security",
-      "education-policy"
+      "homeland-security",
+      "federal-law-enforcement",
+      "crime-reduction",
+      "interagency-coordination",
+      "k-12-education-policy"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "students-and-educators",
-        "illegal-firearms-manufacturers-and-traffickers"
+        "k-12-students",
+        "teachers-educators",
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local",
+        "individuals-with-disabilities"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "gun-owners-second-amendment-advocates",
+        "technology-workers"
+      ]
     },
     "potential_concerns": [
-      "Efforts to regulate 3D printer technology could inadvertently restrict legitimate uses and innovation in additive manufacturing.",
-      "Increased enforcement against untraceable firearms and conversion devices may escalate legal challenges or push illicit activities further underground.",
-      "The lack of clear evidence-based best practices for active-shooter drills risks adoption of ineffective or potentially harmful drill methods.",
-      "Schools may face burdens or costs implementing new guidelines, especially smaller or under-resourced districts.",
-      "Privacy and civil liberties concerns may arise from increased surveillance and data-sharing between law enforcement agencies regarding firearms threats."
+      "Enhanced enforcement against 3D printed firearms and machinegun conversion devices may lead to tensions or legal challenges from gun owners and Second Amendment advocates who view these measures as restrictive or overreaching.",
+      "The focus on disrupting digital designs and software used for 3D printing firearms could pose privacy or free speech concerns for technology workers involved in additive manufacturing or software development.",
+      "Efforts to improve active-shooter drills, while aiming to reduce trauma for students including those with disabilities, risk inconsistent implementation across schools, potentially leading to unequal protection for vulnerable students and educators.",
+      "Law enforcement officers at federal, state, and local levels may face increased operational demands and coordination challenges in identifying and seizing illicit 3D printed firearms and conversion devices, potentially straining resources.",
+      "K-12 students and teachers could experience unintended psychological distress if active-shooter drill modifications are inadequately researched or poorly communicated despite the order’s intentions to minimize trauma."
     ],
-    "enriched_at": "2025-12-09T01:36:11.411Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:40:12.617Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -13,29 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-25/pdf/2025-03137.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/25/2025-03137.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to ensure that taxpayer-funded programs do not provide benefits to individuals who are in the country illegally, aiming to prevent illegal immigration by removing incentives tied to public benefits. It requires agencies to verify eligibility rigorously and align federal spending policies with existing immigration laws. Additionally, it mandates reporting and referral of improper benefit use to enforcement authorities.",
+    "summary": "This executive order directs federal agencies to ensure that taxpayer-funded benefits are not given to illegal immigrants, reinforcing existing laws that restrict such access. It requires agencies to identify programs that may be improperly providing benefits and to improve verification systems to prevent misuse of public resources.",
     "theme_ids": [
-      "immigration-enforcement",
-      "federal-agency-management"
+      "immigration-enforcement-interior",
+      "sanctuary-city-policy",
+      "government-spending-earmarks",
+      "border-security"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "state-and-local-law-enforcement",
-        "legal-immigrants"
+        "u-s-citizens",
+        "veterans",
+        "individuals-with-disabilities"
       ],
       "negative_ids": [
         "undocumented-immigrants",
-        "sanctuary-jurisdictions"
+        "hispanic-latino-americans"
       ]
     },
     "potential_concerns": [
-      "Strict eligibility verification could lead to eligible individuals being wrongly denied benefits due to administrative errors or lack of documentation.",
-      "Increased scrutiny and enforcement may disproportionately affect immigrant communities and lead to fear or avoidance of public services.",
-      "Implementation challenges may arise from agencies having to identify and modify numerous programs within short timeframes, potentially disrupting services.",
-      "The broad directive against 'sanctuary' policies could create tension between federal and state/local governments, affecting cooperation.",
-      "Lack of clear guidance on balancing enforcement with humanitarian needs might result in inconsistent application across agencies."
+      "The order's stricter verification systems and exclusion of benefits may lead to increased hardship and reduced access to essential services among undocumented immigrants, disproportionately affecting Hispanic / Latino Americans.",
+      "Efforts to withhold federal funding from sanctuary cities may strain relations between local governments and federal agencies, potentially disrupting community cooperation and public safety efforts.",
+      "Enhanced enforcement tied to benefits eligibility could inadvertently penalize lawfully residing immigrants who face bureaucratic challenges in proving status, leading to unintended denial of benefits.",
+      "Focusing federal funds exclusively on citizens and veterans might reduce support for marginalized individuals with disabilities who are noncitizens but lawfully present, raising equity concerns."
     ],
-    "enriched_at": "2025-12-09T02:41:17.653Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:27:13.767Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -1,0 +1,42 @@
+{
+  "document_number": "2013-07837",
+  "executive_order_number": "13639",
+  "title": "Establishment of the Presidential Commission on Election Administration",
+  "abstract": null,
+  "signing_date": "2013-03-28",
+  "publication_date": "2013-04-03",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2013/04/03/2013-07837/establishment-of-the-presidential-commission-on-election-administration",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2013-04-03/pdf/2013-07837.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2013/04/03/2013-07837.txt",
+  "enrichment": {
+    "summary": "This executive order creates a commission to study how federal elections are run and recommend ways to make voting easier and more efficient for all eligible voters, including military, overseas, disabled, and language-minority voters. The commission will be made up of experts appointed by the President, will hold public meetings, and must provide a final report with recommendations within six months.",
+    "theme_ids": [
+      "voting-rights",
+      "presidential-commissions-task-forces",
+      "civil-rights-enforcement"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "veterans",
+        "individuals-with-disabilities",
+        "u-s-citizens",
+        "hispanic-latino-americans",
+        "african-americans-black-americans"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Recommendations aimed at improving voting access for military personnel and overseas voters could face challenges in consistent implementation across states, potentially leading to uneven benefits for these populations.",
+      "Efforts to enhance voting accessibility for individuals with disabilities might overlook specific accessibility needs, causing some disabled voters to still face barriers.",
+      "Minority language populations such as Hispanic/Latino Americans and African Americans may not receive adequate targeted support in voter education, limiting the effectiveness of language-access provisions.",
+      "The commission's advisory nature and six-month timeline might constrain the depth and feasibility of recommendations, limiting long-term impact on election administration improvements for all eligible voters."
+    ],
+    "enriched_at": "2025-12-15T02:11:51.625Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

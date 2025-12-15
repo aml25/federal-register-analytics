@@ -1,0 +1,37 @@
+{
+  "document_number": "2017-09083",
+  "executive_order_number": "13794",
+  "title": "Establishment of the American Technology Council",
+  "abstract": null,
+  "signing_date": "2017-04-28",
+  "publication_date": "2017-05-03",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/05/03/2017-09083/establishment-of-the-american-technology-council",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-05-03/pdf/2017-09083.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/05/03/2017-09083.txt",
+  "enrichment": {
+    "summary": "This executive order creates the American Technology Council to coordinate and improve how the federal government uses information technology and delivers digital services. It establishes leadership roles and membership for the council to promote modernization and secure, efficient IT across federal agencies. The order also sets guidelines for meetings, functions, and cooperation among agencies, with a termination date in 2021.",
+    "theme_ids": [
+      "government-it-modernization",
+      "interagency-coordination",
+      "cybersecurity-civilian"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The focus on government IT modernization and digitization may unintentionally exclude or disadvantage seniors-elderly and individuals-with-disabilities who may face challenges accessing or using updated digital services.",
+      "Enhanced interagency coordination and intelligence sharing on cybersecurity threats could raise privacy concerns for U.S. citizens if sensitive personal data is not adequately protected or overly shared across agencies.",
+      "The establishment of a centralized technology council might lead to bureaucratic delays or prioritization conflicts that slow down improvements in digital services, negatively impacting users dependent on timely government support.",
+      "Insufficient attention to equitable digital service delivery could exacerbate existing disparities affecting rural-communities and low-income individuals-families who may have limited internet access or digital literacy."
+    ],
+    "enriched_at": "2025-12-15T07:08:15.843Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -13,30 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-06/pdf/2025-15010.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/06/2025-15010.txt",
   "enrichment": {
-    "summary": "This executive order updates and modifies U.S. tariffs on imported goods from certain foreign countries to address trade imbalances and national security concerns. It imposes new and adjusted duties to encourage fair trade, prevent tariff evasion through transshipment, and supports ongoing trade and security negotiations with key partners.",
+    "summary": "This executive order updates and adjusts reciprocal tariff rates on imports from certain foreign trading partners to address ongoing trade imbalances and national security concerns. It imposes additional duties on goods from specific countries, monitors circumvention of these duties, and directs relevant agencies to enforce and modify the tariffs as needed to protect U.S. economic and security interests.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
-      "foreign-policy"
+      "defense-industrial-base",
+      "tariffs-duties",
+      "trade-policy-agreements",
+      "supply-chain-security",
+      "national-emergencies"
     ],
     "impacted_populations": {
       "positive_ids": [
+        "defense-industry-workers",
         "manufacturing-workers",
-        "domestic-energy-producers"
+        "small-business-owners"
       ],
       "negative_ids": [
-        "foreign-manufacturers",
-        "small-importers"
+        "large-corporation-employees",
+        "consumers"
       ]
     },
     "potential_concerns": [
-      "Increased tariffs may raise costs for American importers and consumers, potentially leading to inflationary pressures.",
-      "Retaliatory trade actions by foreign countries could harm U.S. exporters and worsen trade relations.",
-      "Enforcement of anti-transshipment measures could lead to disputes and complexities in customs enforcement.",
-      "The order’s broad scope and delegation to multiple agencies may result in inconsistent application or regulatory uncertainty.",
-      "Countries on the cusp of agreements might delay negotiations due to ongoing tariffs, slowing resolution of trade disputes."
+      "The increased reciprocal tariffs could benefit defense-industry-workers and manufacturing-workers by supporting domestic production but may raise costs or reduce competitiveness for large-corporation-employees reliant on global supply chains.",
+      "Small-business-owners engaged in import/export may face increased compliance costs and supply chain disruptions due to stricter enforcement and higher duties.",
+      "Consumers could experience higher prices on goods affected by the new tariffs, particularly those imported from targeted countries under increased ad valorem duties.",
+      "Efforts to address supply-chain-security and national-emergencies through tariffs might invite retaliatory measures from trading partners, harming U.S. exporters and manufacturers reliant on foreign markets."
     ],
-    "enriched_at": "2025-12-09T02:46:34.932Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:42:08.609Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

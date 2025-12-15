@@ -1,0 +1,44 @@
+{
+  "document_number": "2019-20804",
+  "executive_order_number": "13887",
+  "title": "Modernizing Influenza Vaccines in the United States to Promote National Security and Public Health",
+  "abstract": null,
+  "signing_date": "2019-09-19",
+  "publication_date": "2019-09-24",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/09/24/2019-20804/modernizing-influenza-vaccines-in-the-united-states-to-promote-national-security-and-public-health",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-09-24/pdf/2019-20804.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/09/24/2019-20804.txt",
+  "enrichment": {
+    "summary": "This executive order directs the U.S. government to modernize and improve the influenza vaccine manufacturing process to make it faster, more flexible, and better able to respond to both seasonal flu and potential pandemics. It establishes a task force to coordinate efforts across multiple agencies to increase domestic vaccine production capacity, advance vaccine research, and promote higher vaccination rates for public health and national security.",
+    "theme_ids": [
+      "pandemic-preparedness",
+      "vaccine-policy",
+      "homeland-security",
+      "defense-industrial-base",
+      "presidential-commissions-task-forces"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "veterans",
+        "healthcare-workers",
+        "patients-general",
+        "manufacturing-workers"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The emphasis on scaling up domestic vaccine manufacturing could stress manufacturing-workers with increased production demands and shift regional industrial priorities, potentially disrupting existing labor markets.",
+      "Military personnel and veterans may face changes in vaccine types and schedules that could affect their health outcomes if new vaccines have different efficacy or side effect profiles.",
+      "Healthcare-workers might encounter challenges in administering new types of influenza vaccines if training and supply logistics are not adequately updated alongside new manufacturing methods.",
+      "Patients-general from populations with historically lower vaccination rates could remain underserved if communication and access improvements do not overcome systemic barriers, limiting the order’s intended public health benefits.",
+      "The focus on rapid vaccine development and production speed may risk insufficient long-term safety and effectiveness data evaluation, leading to public trust issues among healthcare-workers and patients."
+    ],
+    "enriched_at": "2025-12-15T02:28:28.211Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -13,27 +13,29 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-30/pdf/2025-02087.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/30/2025-02087.txt",
   "enrichment": {
-    "summary": "This executive order temporarily pauses enforcement of a law that restricts TikTok and related applications controlled by a Chinese company, ByteDance, within the United States. The pause allows the new administration time to review national security risks and consider alternatives to an immediate shutdown of the popular social media platform used by millions of Americans.",
+    "summary": "This executive order delays enforcement of the Protecting Americans From Foreign Adversary Controlled Applications Act as it applies to TikTok and its parent company ByteDance for 75 days. The goal is to allow the new administration time to review national security concerns related to TikTok and work on a resolution that protects security without abruptly shutting down the platform used by millions in the U.S.",
     "theme_ids": [
-      "national-security",
-      "foreign-policy"
+      "cybersecurity-national-security",
+      "foreign-technology-threats",
+      "china"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "social-media-platforms"
+        "u-s-citizens",
+        "youth-young-adults",
+        "working-age-adults"
       ],
       "negative_ids": [
-        "foreign-entities-in-countries-of-concern"
+        "corporations-businesses"
       ]
     },
     "potential_concerns": [
-      "Delaying enforcement could allow security vulnerabilities related to TikTok to persist longer than advisable.",
-      "The order may create uncertainty for app distributors, internet service providers, and affected technology companies.",
-      "There may be political controversy over balancing national security with user access to a widely used platform.",
-      "The temporary pause might be perceived as weak enforcement, potentially encouraging other foreign adversaries to exploit regulatory gaps.",
-      "Coordinating enforcement exclusively within the executive branch could raise legal disputes over state or private attempts to act."
+      "The 75-day enforcement delay may increase national security risks by allowing TikTok and its China-based parent company ByteDance to continue data operations that could be exploited, affecting all U.S. citizens, especially youth and working-age adults who are primary users.",
+      "The delay might empower TikTok and related businesses by temporarily protecting them from restrictions, which could undermine efforts to mitigate foreign technology threats and complicate future enforcement actions.",
+      "Abrupt shutdowns avoided by the order may benefit user communities in the short term but could lead to public distrust if national security concerns are not adequately addressed, impacting the perception of corporate accountability among U.S. users.",
+      "By centralizing enforcement authority exclusively with the Attorney General, the order limits states’ ability to respond independently, potentially hindering localized cybersecurity measures against foreign adversary controlled applications."
     ],
-    "enriched_at": "2025-12-09T02:38:51.302Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:34:48.328Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

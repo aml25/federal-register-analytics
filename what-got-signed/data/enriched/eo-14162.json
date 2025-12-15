@@ -13,29 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-30/pdf/2025-02010.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/30/2025-02010.txt",
   "enrichment": {
-    "summary": "This executive order directs the United States to withdraw immediately from the Paris Agreement and other international climate agreements under the United Nations Framework Convention on Climate Change, prioritizing American economic interests over international environmental commitments. It rescinds U.S. financial commitments to international climate finance and requires federal agencies involved in international energy and climate policies to focus on economic efficiency, U.S. prosperity, consumer choice, and fiscal restraint.",
+    "summary": "This executive order directs the United States to withdraw from the Paris Agreement and other related international climate agreements, prioritizing America's economic interests over global environmental commitments. It requires government officials to cancel financial commitments under these agreements and focus on energy policies that promote economic growth and American prosperity.",
     "theme_ids": [
-      "foreign-policy",
-      "energy-policy",
-      "trade-policy",
-      "environmental-regulation"
+      "climate-change-policy",
+      "paris-agreement-international-climate",
+      "international-agreements-treaties",
+      "united-nations-policy",
+      "economic-competitiveness"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "domestic-energy-producers"
+        "energy-sector-workers-oil-gas-coal",
+        "large-corporation-employees"
       ],
       "negative_ids": [
-        "green-energy-industry"
+        "renewable-energy-workers",
+        "environmental-justice-communities",
+        "tribal-communities-reservations"
       ]
     },
     "potential_concerns": [
-      "Immediate withdrawal from international climate agreements may harm global cooperation to address climate change and damage U.S. standing in international relations.",
-      "Rescinding climate finance could reduce U.S. influence in developing countries and harm global environmental initiatives aimed at reducing emissions and supporting sustainability.",
-      "Prioritizing economic interests over environmental commitments may lead to increased pollution or greenhouse gas emissions, undermining long-term environmental and public health goals.",
-      "Requiring agencies to focus on fiscal restraint and economic efficiency might limit investments in green technologies and renewable energy development.",
-      "Implementation challenges may arise due to the breadth of required agency reports, rescissions, and coordination, potentially causing bureaucratic delays or confusion."
+      "The withdrawal from the Paris Agreement may lead to increased economic opportunities and job growth for energy sector workers in oil, gas, and coal industries, potentially boosting prosperity among large corporation employees in these sectors.",
+      "Renewable energy workers could face reduced investment and job losses due to the revocation of international climate finance and deprioritization of global climate commitments.",
+      "Environmental justice communities and tribal communities may suffer from increased pollution and slowed progress on greenhouse gas emission reductions, exacerbating existing health and environmental disparities.",
+      "Prioritizing short-term economic growth over international climate cooperation could isolate the United States diplomatically, harming U.S. leadership and effectiveness in future global environmental initiatives."
     ],
-    "enriched_at": "2025-12-09T02:38:38.969Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:35:27.096Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -13,26 +13,26 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-03/pdf/2024-31766.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/03/2024-31766.txt",
   "enrichment": {
-    "summary": "This executive order directs all federal executive departments and agencies to close on January 9, 2025, to honor former President James Earl Carter, Jr., with exceptions allowed for critical operations related to national security and essential public needs. It also sets pay and leave treatment for employees affected by this closure and tasks the Office of Personnel Management with implementing the order.",
+    "summary": "This executive order directs all federal executive departments and agencies to close on January 9, 2025, in honor of former President Jimmy Carter. However, certain offices may remain open if needed for national security, defense, or other essential public reasons, with provisions made for employee pay and leave on that day.",
     "theme_ids": [
-      "federal-workforce",
-      "national-security",
-      "federal-agency-management"
+      "national-security-information-classification",
+      "federal-workforce-management",
+      "historical-commemorations",
+      "government-efficiency"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "federal-employees"
-      ],
-      "negative_ids": []
+      "positive_ids": [],
+      "negative_ids": [
+        "federal-employees-civil-servants"
+      ]
     },
     "potential_concerns": [
-      "Certain federal employees required to work on the closure day may face scheduling and workload disruptions.",
-      "Some agencies might struggle with determining which functions qualify as essential, leading to uneven implementation.",
-      "The closure could temporarily delay public services, impacting government service users.",
-      "There may be increased administrative burden on the Office of Personnel Management and agency leadership to manage pay, leave, and operational continuity.",
-      "Potential conflicts could arise if funding or appropriations are insufficient to support the order’s implementation."
+      "Federal employees may face stress or confusion over which offices remain open for national security or essential reasons, affecting workforce management and morale.",
+      "Partial closures could impair government efficiency if essential functions are understaffed or disrupted due to ambiguity in implementation.",
+      "Reliance on agency heads to determine essential operations may lead to inconsistent application across departments, causing inequities among federal employees.",
+      "The limited one-day closure to honor a former president might raise concerns about precedent-setting for historical commemorations impacting government operations."
     ],
-    "enriched_at": "2025-12-09T01:36:32.735Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:39:35.146Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

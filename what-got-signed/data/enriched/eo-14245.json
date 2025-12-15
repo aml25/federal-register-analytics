@@ -13,29 +13,37 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-27/pdf/2025-05440.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/27/2025-05440.txt",
   "enrichment": {
-    "summary": "This executive order imposes a 25% tariff on goods imported into the United States from any country that imports Venezuelan oil, either directly or indirectly, as a measure to penalize support for the Maduro regime and to address national security threats posed by Venezuela and the Tren de Aragua gang. It authorizes key Cabinet officials to determine which countries are subject to these tariffs and to enforce and administer the related measures starting April 2, 2025.",
+    "summary": "This executive order imposes a 25% tariff on goods imported into the United States from any country that imports Venezuelan oil, either directly or through intermediaries, starting April 2, 2025. The purpose is to increase economic pressure on Venezuela's government and address national security threats, including criminal activity linked to Venezuelan groups. The order authorizes various departments to determine tariff applicability and requires periodic reporting on its effectiveness.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
-      "foreign-policy",
-      "counterterrorism-policy"
+      "tariffs-duties",
+      "economic-sanctions",
+      "foreign-terrorist-organizations",
+      "venezuela",
+      "border-security"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "american-businesses"
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local",
+        "military-personnel-active-duty"
       ],
       "negative_ids": [
-        "countries-importing-venezuelan-oil"
+        "large-corporation-employees",
+        "small-business-owners",
+        "consumers",
+        "foreign-governments",
+        "foreign-nationals-general",
+        "energy-sector-workers-oil-gas-coal"
       ]
     },
     "potential_concerns": [
-      "The order may provoke trade retaliation from countries affected by the tariffs, escalating international trade tensions.",
-      "Determining indirect Venezuelan oil imports through third parties may involve complex enforcement challenges and risk inconsistent application.",
-      "The tariffs could increase costs for U.S. importers and consumers, potentially impacting domestic prices and supply chains.",
-      "Countries and companies attempting to evade tariffs through transshipment or reclassification may undermine the policy’s effectiveness.",
-      "Targeting China and its special administrative regions could strain diplomatic relations and complicate broader U.S.-China economic engagement."
+      "The 25% tariffs imposed on countries importing Venezuelan oil could lead to increased costs for U.S. businesses and consumers, negatively impacting large corporation employees, small business owners, and consumers due to higher prices on imported goods.",
+      "Economic sanctions targeting countries importing Venezuelan oil may strain diplomatic relations and trade partnerships with foreign governments and foreign nationals engaged in international commerce, potentially provoking retaliatory measures.",
+      "Energy sector workers in oil, gas, and coal industries could face market disruptions or job instability due to shifting global oil supply chains and increased costs related to Venezuelan oil-related imports.",
+      "The policy might have the unintended consequence of incentivizing evasive behaviors or complex intermediary import routes, complicating enforcement efforts for federal and state/local law enforcement officers.",
+      "Military personnel and law enforcement could face increased operational burdens due to escalated tensions and enforcement demands related to the crackdown on Venezuelan-backed criminal organizations and related national security threats."
     ],
-    "enriched_at": "2025-12-09T02:42:35.108Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:23:29.406Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

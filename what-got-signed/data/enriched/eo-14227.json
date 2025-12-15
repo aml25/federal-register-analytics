@@ -13,28 +13,28 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-06/pdf/2025-03729.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/06/2025-03729.txt",
   "enrichment": {
-    "summary": "This executive order updates previous tariffs addressing imports from the southern border by changing de minimis duty-free treatment rules. It allows duty-free imports only until the Secretary of Commerce confirms systems are ready to collect tariffs efficiently, aiming to strengthen tariff enforcement and revenue collection related to border trade. The order maintains existing authorities and clarifies no new legal rights are created by it.",
+    "summary": "This executive order modifies a previous order related to duties (tariffs) imposed to address issues at the U.S. southern border. It allows certain goods to be treated as duty-free under specific conditions until the Secretary of Commerce confirms that tariff collection systems are fully operational. The order clarifies that it does not affect the authority of federal agencies and must be implemented according to law and available funding.",
     "theme_ids": [
-      "trade-policy",
-      "national-security"
+      "tariffs-duties",
+      "border-security"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "small-importers",
-        "international-shippers"
+        "small-business-owners",
+        "border-communities"
       ],
       "negative_ids": [
-        "foreign-manufacturers"
+        "large-corporation-employees",
+        "manufacturing-workers"
       ]
     },
     "potential_concerns": [
-      "Changes to duty-free de minimis treatment may increase costs and administrative burdens for small importers and international shippers reliant on low-value shipments.",
-      "Strengthened tariff enforcement could disrupt supply chains and raise prices for U.S. consumers and businesses dependent on goods imported via the southern border.",
-      "Uncertainty over when the Secretary of Commerce will determine that tariff collection systems are adequate may create compliance challenges for importers.",
-      "Increased focus on tariff revenue collection at the southern border could heighten trade tensions with neighboring countries affected by these duties.",
-      "The order lacks a public-facing explanation of how tariff revenue collection improvements will be implemented, potentially delaying its effectiveness."
+      "Small business owners and border communities might benefit temporarily from duty-free treatment of certain goods, but uncertainty about the timing of tariff collections could disrupt supply chains and business planning.",
+      "Large corporation employees and manufacturing workers could face negative impacts if delays in tariff revenue collection lead to extended tariff exemptions that undermine U.S. producers' competitiveness.",
+      "The reliance on the Secretary of Commerce's notification to end duty-free treatment creates ambiguity, potentially causing uneven enforcement and market distortions impacting trade-dependent populations.",
+      "The order's limited guidance on funding availability for implementing tariff systems may result in administrative delays, disproportionately affecting border communities reliant on stable trade policies."
     ],
-    "enriched_at": "2025-12-09T02:41:47.223Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:26:01.599Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -1,0 +1,47 @@
+{
+  "document_number": "2019-02544",
+  "executive_order_number": "13859",
+  "title": "Maintaining American Leadership in Artificial Intelligence",
+  "abstract": null,
+  "signing_date": "2019-02-11",
+  "publication_date": "2019-02-14",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/02/14/2019-02544/maintaining-american-leadership-in-artificial-intelligence",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-02-14/pdf/2019-02544.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/02/14/2019-02544.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to promote continued American leadership in artificial intelligence (AI) by prioritizing investment in AI research and development, improving access to data and computing resources, developing technical standards, supporting AI education and workforce training, and protecting critical AI technologies from foreign adversaries. It establishes a coordinated federal strategy to drive innovation, safeguard national security, and foster public trust in AI technologies.",
+    "theme_ids": [
+      "artificial-intelligence",
+      "economic-competitiveness",
+      "national-security-information-classification",
+      "workforce-development",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "technology-workers",
+        "scientific-researchers",
+        "college-university-students",
+        "working-age-adults",
+        "u-s-citizens"
+      ],
+      "negative_ids": [
+        "foreign-nationals-general",
+        "citizens-of-specific-countries-by-eo-designation"
+      ]
+    },
+    "potential_concerns": [
+      "The prioritization of AI R&D funding and workforce training may disproportionately benefit technology workers and scientific researchers, potentially widening socioeconomic and workforce inequalities among working-age adults not involved in the tech sector.",
+      "Restrictions and protective measures against foreign adversaries acquiring AI technology may restrict collaboration with foreign nationals and certain countries, potentially limiting academic and industry innovation partnerships.",
+      "Efforts to increase public trust in AI implementation may not sufficiently address privacy and civil liberties concerns for U.S. citizens, leading to public skepticism or resistance to AI applications.",
+      "Technical standards and regulatory guidance developed under this order could create barriers for smaller entities or alternative AI approaches, potentially consolidating innovation within established technology workers and corporations.",
+      "The emphasis on American leadership and protection of AI technologies might lead to unintended geopolitical tensions affecting citizens of specific foreign countries labeled as adversaries under the order."
+    ],
+    "enriched_at": "2025-12-15T07:28:14.090Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

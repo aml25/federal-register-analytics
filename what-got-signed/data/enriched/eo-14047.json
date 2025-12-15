@@ -13,26 +13,28 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-09-22/pdf/2021-20629.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/09/22/2021-20629.txt",
   "enrichment": {
-    "summary": "This executive order adds measles to the official list of diseases for which people can be subject to quarantine by the federal government to help prevent the spread of the disease. It updates prior orders to ensure measles is considered a quarantinable communicable disease under U.S. public health law.",
+    "summary": "This executive order adds measles to the official list of diseases for which quarantine can be enforced to prevent the spread. It modifies a previous executive order to include measles alongside other communicable diseases, helping public health officials control outbreaks more effectively.",
     "theme_ids": [
-      "public-health-administration",
-      "disease-control-policy"
+      "quarantine-communicable-disease-control",
+      "public-health-emergency-response"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "public-health-workers"
+        "patients-general",
+        "healthcare-workers"
       ],
       "negative_ids": [
-        "undocumented-immigrants"
+        "children-minors",
+        "homeless-unhoused-individuals"
       ]
     },
     "potential_concerns": [
-      "Adding measles to the quarantinable diseases list may raise concerns about civil liberties and the potential for overreach in enforcing quarantine measures.",
-      "Implementation could be challenging due to the need for coordination among federal agencies and potential resource constraints.",
-      "There may be public resistance or confusion about quarantine requirements, especially among communities with vaccine hesitancy.",
-      "The order does not outline specific enforcement mechanisms, which could lead to inconsistent application across jurisdictions."
+      "Mandatory quarantine enforcement for measles may impose significant burdens on children-minors and their families, including disruptions to schooling and family life.",
+      "Homeless or unhoused individuals may face challenges in complying with quarantine orders due to lack of stable housing, potentially exacerbating health disparities.",
+      "Healthcare workers may experience increased demand and stress managing quarantines and measles outbreaks, which could impact healthcare system capacity.",
+      "Patients diagnosed with measles could face stigmatization or rights concerns related to enforcement of quarantine measures under this order."
     ],
-    "enriched_at": "2025-12-09T03:52:19.379Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T02:31:39.829Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -13,28 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-04-30/pdf/2021-09263.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/04/30/2021-09263.txt",
   "enrichment": {
-    "summary": "This executive order raises the minimum hourly wage for workers employed by federal contractors to at least $15 starting in early 2022, gradually increasing it over time. It also sets specific rules for tipped workers and requires federal agencies to include these wage standards in applicable contracts to improve worker pay and productivity.",
+    "summary": "This executive order requires federal contractors and subcontractors to pay their workers a minimum hourly wage of $15.00 starting January 30, 2022, with annual adjustments based on inflation. It also sets a schedule for tipped workers’ wages to eventually match the standard minimum wage. The order aims to improve worker productivity and efficiency in federal contracting by ensuring fair pay.",
     "theme_ids": [
-      "federal-procurement-policy",
-      "labor-relations",
-      "federal-pay-policy"
+      "minimum-wage",
+      "worker-rights-protections",
+      "federal-labor-management-relations",
+      "government-efficiency"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-contractors"
+        "federal-contractors",
+        "low-income-individuals-families",
+        "working-age-adults"
       ],
       "negative_ids": [
-        "small-federal-contractors"
+        "federal-contractors"
       ]
     },
     "potential_concerns": [
-      "Increasing the minimum wage for federal contractors may lead to higher contract costs for the government.",
-      "Some small contractors might struggle to comply with the new wage requirements and could lose federal contracts.",
-      "The phased implementation for tipped workers may cause confusion in enforcement and wage calculation.",
-      "Annual adjustments tied to the Consumer Price Index could introduce unpredictability for contractors budgeting long-term projects.",
-      "Overlap or conflict with existing state or local minimum wage laws could complicate compliance efforts."
+      "Increasing the minimum wage to $15 could raise labor costs for federal contractors, potentially leading some to reduce workforce size or limit hiring, negatively impacting working-age adults employed by these contractors.",
+      "Federal contractors may pass increased labor costs onto government procurement budgets, which could reduce government efficiency or increase contracting costs.",
+      "While the wage increase benefits low-income individuals directly employed by federal contractors, some small subcontractors might struggle to comply, risking contract losses or business closures.",
+      "There may be uneven application and enforcement challenges across industries and geographic regions, possibly resulting in disparities for workers in rural or underrepresented communities working under federal contracts.",
+      "The scheduled increases for tipped workers could cause confusion or implementation delays, affecting tipped federal contracting employees' income stability during the transition period."
     ],
-    "enriched_at": "2025-12-09T03:55:13.863Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T07:33:06.130Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

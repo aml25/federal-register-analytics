@@ -1,0 +1,43 @@
+{
+  "document_number": "2015-00058",
+  "executive_order_number": "13687",
+  "title": "Imposing Additional Sanctions With Respect To North Korea",
+  "abstract": null,
+  "signing_date": "2015-01-02",
+  "publication_date": "2015-01-06",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2015/01/06/2015-00058/imposing-additional-sanctions-with-respect-to-north-korea",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-01-06/pdf/2015-00058.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/01/06/2015-00058.txt",
+  "enrichment": {
+    "summary": "This executive order expands U.S. sanctions against North Korea by blocking the property and interests of individuals and entities linked to the North Korean government and its activities, including cyberattacks and human rights abuses. It also restricts the entry of certain North Korean officials into the United States and prohibits transactions that evade these sanctions.",
+    "theme_ids": [
+      "economic-sanctions",
+      "north-korea",
+      "cybersecurity-national-security",
+      "travel-restrictions-bans",
+      "human-rights-international"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "citizens-of-specific-countries-by-eo-designation",
+        "foreign-government-officials",
+        "corporations-businesses",
+        "visa-holders-work-student-tourist"
+      ]
+    },
+    "potential_concerns": [
+      "The expanded economic sanctions may harm North Korean citizens indirectly by worsening economic conditions, despite targeting government entities and officials.",
+      "Travel bans targeting specific North Korean officials may increase diplomatic tensions and reduce opportunities for engagement or humanitarian dialogue.",
+      "Restrictions on U.S. persons conducting transactions with blocked North Korean entities could unintentionally ensnare multinational corporations and complicate lawful business activities.",
+      "Cybersecurity-related sanctions may escalate retaliatory cyberattacks against U.S. interests, affecting sectors like technology-workers and cybersecurity-professionals.",
+      "Visa restrictions may impact legitimate North Korean students and researchers seeking education in the U.S., affecting international-students specifically."
+    ],
+    "enriched_at": "2025-12-15T02:16:29.706Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

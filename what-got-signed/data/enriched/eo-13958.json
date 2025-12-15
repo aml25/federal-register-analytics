@@ -1,0 +1,46 @@
+{
+  "document_number": "2020-24793",
+  "executive_order_number": "13958",
+  "title": "Establishing the President's Advisory 1776 Commission",
+  "abstract": null,
+  "signing_date": "2020-11-02",
+  "publication_date": "2020-11-05",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/11/05/2020-24793/establishing-the-presidents-advisory-1776-commission",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-11-05/pdf/2020-24793.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/11/05/2020-24793.txt",
+  "enrichment": {
+    "summary": "This executive order establishes the President's Advisory 1776 Commission to promote patriotic education about the founding principles of the United States and prepare a report to support national unity. The commission advises the President and federal agencies on patriotic education efforts, celebrates Constitution Day, and prioritizes funding to support understanding of American history and ideals. It emphasizes local control of school curricula while ensuring federal resources support teaching about America's founding.",
+    "theme_ids": [
+      "american-heritage-patriotism",
+      "historical-commemorations",
+      "presidential-commissions-task-forces",
+      "federal-advisory-committees"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "k-12-students",
+        "teachers-educators",
+        "public-school-communities"
+      ],
+      "negative_ids": [
+        "african-americans-black-americans",
+        "native-americans-indigenous-peoples",
+        "hispanic-latino-americans",
+        "multiracial-americans"
+      ]
+    },
+    "potential_concerns": [
+      "The emphasis on patriotic education that downplays critical perspectives of U.S. history could marginalize African American, Native American, Hispanic, and multiracial students by diminishing or ignoring systemic racial injustices.",
+      "The order prioritizes local control and rejects national standards, which may lead to inconsistent historical education quality and content disparities across public school communities, impacting equitable education for K-12 students and teachers.",
+      "By framing certain historical interpretations as 'radicalized' or 'distorted,' the order risks politicizing education and limiting academic freedom for educators aiming to provide comprehensive, nuanced history lessons.",
+      "Parents seeking inclusive curricula that fully address the complexities of American history could experience frustration or conflict with school boards influenced by the 1776 Commission's patriotic framework.",
+      "The creation of a presidential commission focused on a particular narrative of American history may unintentionally exacerbate cultural and racial tensions, particularly among historically marginalized demographic groups in educational settings."
+    ],
+    "enriched_at": "2025-12-15T02:30:57.957Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

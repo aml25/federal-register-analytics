@@ -1,0 +1,47 @@
+{
+  "document_number": "2013-19220",
+  "executive_order_number": "13650",
+  "title": "Improving Chemical Facility Safety and Security",
+  "abstract": null,
+  "signing_date": "2013-08-01",
+  "publication_date": "2013-08-07",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2013/08/07/2013-19220/improving-chemical-facility-safety-and-security",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2013-08-07/pdf/2013-19220.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2013/08/07/2013-19220.txt",
+  "enrichment": {
+    "summary": "This Executive Order directs federal agencies to work together to improve the safety and security of chemical facilities. It establishes a working group to enhance coordination with state, local, and tribal partners, modernize policies and regulations, improve information sharing, and promote best practices to reduce risks associated with hazardous chemicals.",
+    "theme_ids": [
+      "homeland-security",
+      "critical-infrastructure-protection",
+      "interagency-coordination",
+      "workplace-safety-osha",
+      "environmental-regulation"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "manufacturing-workers",
+        "agricultural-workers-farmers",
+        "union-members",
+        "environmental-justice-communities",
+        "tribal-communities-reservations"
+      ],
+      "negative_ids": [
+        "small-business-owners",
+        "corporations-businesses"
+      ]
+    },
+    "potential_concerns": [
+      "Enhanced information sharing and data collection may raise confidentiality and proprietary business concerns for corporations and small business owners, potentially increasing compliance costs and regulatory burdens.",
+      "Modernization of regulatory standards could impose stricter workplace safety requirements that may disproportionately burden small manufacturers and agricultural workers who might lack resources for rapid compliance, leading to economic stress.",
+      "Efforts to improve chemical facility safety and security near tribal and environmental justice communities might cause tensions if community input is insufficient or if facilities resist changes, potentially increasing local distrust and safety risks.",
+      "Coordination among multiple federal, state, and local agencies could create bureaucratic complexity and inconsistent enforcement, confusing employers and workers in manufacturing and agriculture sectors.",
+      "Increased security measures and categorization of chemicals may unintentionally lead to reduced transparency or public access to information on chemical risks, affecting the ability of vulnerable environmental justice and tribal communities to adequately prepare or respond."
+    ],
+    "enriched_at": "2025-12-12T08:06:51.736Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

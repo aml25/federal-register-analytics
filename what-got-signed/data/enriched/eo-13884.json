@@ -1,0 +1,43 @@
+{
+  "document_number": "2019-17052",
+  "executive_order_number": "13884",
+  "title": "Blocking Property of the Government of Venezuela",
+  "abstract": null,
+  "signing_date": "2019-08-05",
+  "publication_date": "2019-08-07",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/08/07/2019-17052/blocking-property-of-the-government-of-venezuela",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-08-07/pdf/2019-17052.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/08/07/2019-17052.txt",
+  "enrichment": {
+    "summary": "This executive order blocks all property and interests of the Venezuelan government within U.S. jurisdiction and prohibits transactions with persons supporting the Maduro regime. It also suspends entry into the United States of certain Venezuelan individuals linked to the government's unlawful actions and human rights abuses. The order aims to pressure the Maduro regime amid the ongoing political crisis in Venezuela.",
+    "theme_ids": [
+      "economic-sanctions",
+      "human-rights-international",
+      "venezuela",
+      "travel-restrictions-bans",
+      "national-emergencies"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "foreign-government-officials",
+        "citizens-of-specific-countries-by-eo-designation",
+        "lawful-permanent-residents-green-card-holders",
+        "visa-holders-work-student-tourist"
+      ]
+    },
+    "potential_concerns": [
+      "The order’s travel restrictions and asset blocks on Venezuelan government officials and affiliates may create diplomatic tensions and complicate humanitarian dialogues involving lawful permanent residents and visa holders tied to Venezuela.",
+      "Economic sanctions targeting Venezuelan state entities and persons could unintentionally exacerbate hardships faced by ordinary Venezuelan citizens and lawful permanent residents indirectly connected to them, potentially worsening human suffering.",
+      "Implementation difficulties may arise in distinguishing individuals who support the Maduro regime from those who do not among visa holders and permanent residents, risking wrongful denial of entry or asset freezes.",
+      "The prohibition on transactions may disrupt remittances and financial flows critical for families of Venezuelan origin living in the United States, including lawful permanent residents and visa holders.",
+      "Exemptions for humanitarian aid might be insufficiently clear or slow to process, delaying critical food and medicine supplies intended to relieve suffering in Venezuela."
+    ],
+    "enriched_at": "2025-12-15T02:28:42.982Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

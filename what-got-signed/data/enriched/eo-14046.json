@@ -13,28 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-09-21/pdf/2021-20508.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/09/21/2021-20508.txt",
   "enrichment": {
-    "summary": "This executive order allows the U.S. government to impose sanctions on individuals and entities responsible for the conflict, violence, and human rights abuses in northern Ethiopia. It aims to limit support to those fueling the crisis while ensuring humanitarian aid can still reach affected populations through legitimate channels. The order also restricts visas and financial activities of these targeted persons to pressure a peaceful resolution.",
+    "summary": "This executive order imposes sanctions on foreign individuals and entities responsible for fueling the conflict and humanitarian crisis in northern Ethiopia. It blocks their assets, restricts U.S. financial dealings with them, and suspends their entry into the United States to pressure them to stop violence and support peace efforts. The order also aims to ensure humanitarian aid can reach those in need despite the ongoing crisis.",
     "theme_ids": [
-      "national-security",
-      "foreign-policy",
-      "humanitarian-economic-support"
+      "sanctions-country-specific",
+      "human-rights-international",
+      "africa-engagement-trade",
+      "travel-restrictions-bans",
+      "national-emergencies"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "innocent-civilian-populations-in-west-bank-and-region"
+        "international-organizations",
+        "nonprofit-organizations",
+        "international-aid-recipients"
       ],
       "negative_ids": [
-        "sanctioned-persons-and-affiliates"
+        "citizens-of-specific-countries-by-eo-designation",
+        "foreign-government-officials"
       ]
     },
     "potential_concerns": [
-      "Sanctions may unintentionally restrict humanitarian access if enforcement is too broad or poorly targeted.",
-      "The designation criteria could be politically sensitive and potentially impact diplomatic relations with the Ethiopian and Eritrean governments.",
-      "Determining and proving involvement for sanctions may be challenging, leading to enforcement delays or disputes.",
-      "Blocking assets and restricting visas might push targeted actors to use illicit channels, complicating sanction enforcement.",
-      "Potential harm to innocent civilians if sanctions limit economic activity more broadly or disrupt aid flows despite exemptions."
+      "Sanctions targeting foreign government officials and entities involved in the Ethiopia conflict may escalate regional instability and harm humanitarian access despite intentions to facilitate aid delivery, impacting international organizations and aid recipients.",
+      "Travel restrictions and asset freezes on certain individuals could complicate diplomatic negotiations and peace efforts, potentially prolonging the conflict affecting citizens of Ethiopia and Eritrea.",
+      "Sanctions may inadvertently restrict financial channels critical for non-blocked civilians and humanitarian groups, disrupting aid flow and worsening conditions for vulnerable international aid recipients.",
+      "The broad inclusion of political subdivisions and military forces risks overreach, potentially deterring engagement by legitimate regional actors and complicating conflict resolution efforts in northern Ethiopia."
     ],
-    "enriched_at": "2025-12-09T03:52:25.718Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T02:31:45.766Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

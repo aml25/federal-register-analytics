@@ -13,33 +13,37 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-31/pdf/2025-02097.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/31/2025-02097.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to end the use of diversity, equity, and inclusion (DEI) policies that it deems illegal race- and sex-based preferences, emphasizing merit-based opportunity instead. It revokes several previous orders promoting DEI and requires agencies and federal contractors to comply strictly with federal civil rights laws without considering race, sex, or other characteristics in hiring and contracting decisions. The order also encourages the private sector to do the same and outlines enforcement measures against illegal DEI practices.",
+    "summary": "This executive order directs federal agencies to end all race- and sex-based preferences in government hiring, contracting, and programs, particularly those related to diversity, equity, and inclusion (DEI/DEIA). It revokes previous orders supporting such initiatives, emphasizes merit-based opportunity, and calls for enforcement actions to stop illegal discrimination both within the federal government and the private sector.",
     "theme_ids": [
       "civil-rights-enforcement",
-      "federal-workforce",
-      "federal-procurement-policy",
-      "regulatory-reform",
-      "public-safety",
-      "education-policy"
+      "anti-discrimination",
+      "affirmative-action",
+      "regulatory-reform-deregulation",
+      "employment-discrimination"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-contractors",
-        "private-sector-employers"
+        "working-age-adults",
+        "white-americans",
+        "federal-contractors"
       ],
       "negative_ids": [
-        "developers-of-ideologically-inclusive-ai",
-        "diverse-student-populations"
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "asian-americans",
+        "women",
+        "college-university-students",
+        "educational-institutions"
       ]
     },
     "potential_concerns": [
-      "Eliminating DEI programs may reduce protections and opportunities for historically marginalized groups, possibly increasing discrimination.",
-      "Revoking existing civil rights-related executive orders could create legal uncertainty and enforcement gaps during the transition period.",
-      "The broad restrictions on DEI efforts may discourage voluntary employer initiatives that promote workplace diversity and inclusion.",
-      "Enforcement actions targeting private sector DEI programs could lead to increased litigation and regulatory burdens.",
-      "The order's interpretation of civil rights laws may be controversial and challenge longstanding affirmative action and diversity policies upheld by courts."
+      "The elimination of race- and sex-based preferences in federal hiring and contracting (affecting african-americans-black-americans, hispanic-latino-americans, asian-americans, and women) may reduce diversity and inclusion efforts, potentially resulting in decreased representation of these historically marginalized groups in federal and affiliated sectors, contravening affirmative-action goals.",
+      "Revoking longstanding diversity and affirmative action policies may create legal and compliance uncertainty for federal contractors and educational institutions (including college-university-students and educational-institutions), possibly disrupting existing programs aimed at improving equity.",
+      "The prioritization of 'merit-based' criteria without race- or sex-conscious considerations may unintentionally disadvantage groups that face systemic barriers, raising concerns about perpetuating existing inequalities among working-age-adults from minority populations.",
+      "Efforts to enforce compliance and penalize DEI programs in the private sector might chill voluntary diversity initiatives beyond the federal sphere, reducing incentives for corporations and nonprofit organizations to pursue inclusive hiring practices.",
+      "The removal of DEI elements from contracting and grant criteria may limit tools used by agencies and educational institutions to address historical discrimination, potentially impacting access and opportunities for students and employees from marginalized racial and gender groups."
     ],
-    "enriched_at": "2025-12-09T02:39:11.973Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:33:49.144Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

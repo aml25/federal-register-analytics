@@ -1,0 +1,43 @@
+{
+  "document_number": "2018-20816",
+  "executive_order_number": "13849",
+  "title": "Authorizing the Implementation of Certain Sanctions Set Forth in the Countering America's Adversaries Through Sanctions Act",
+  "abstract": null,
+  "signing_date": "2018-09-20",
+  "publication_date": "2018-09-21",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/09/21/2018-20816/authorizing-the-implementation-of-certain-sanctions-set-forth-in-the-countering-americas-adversaries",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-09-21/pdf/2018-20816.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/09/21/2018-20816.txt",
+  "enrichment": {
+    "summary": "This executive order authorizes the implementation of various sanctions on individuals and entities identified under specific U.S. laws targeting adversaries of the United States. It sets out restrictions on financial transactions, visas, government contracts, and export controls to enforce these sanctions and support national security objectives.",
+    "theme_ids": [
+      "economic-sanctions",
+      "national-security-information-classification",
+      "visa-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "corporate-executives-officers",
+        "corporations-businesses",
+        "visa-holders-work-student-tourist",
+        "foreign-government-officials",
+        "foreign-nationals-general",
+        "financial-services-workers"
+      ]
+    },
+    "potential_concerns": [
+      "Sanctions may constrain the operations and financial activities of corporate executives and corporations linked to sanctioned entities, leading to significant economic losses and corporate governance challenges.",
+      "Restrictions on visa issuance and entry may disproportionately affect visa holders and foreign nationals affiliated with sanctioned persons, disrupting international mobility and complicating diplomatic relations.",
+      "Financial services workers may face increased compliance burdens and risk of inadvertently facilitating prohibited transactions, potentially leading to legal liabilities and operational challenges.",
+      "Broad blocking of property interests and prohibitions on contractual procurement from sanctioned persons may have unintended spillover impacts on third-party businesses and supply chains connected to these entities.",
+      "The order’s implementation might complicate diplomatic engagement with foreign governments by restricting access to officials associated with sanctioned persons, potentially limiting communication channels."
+    ],
+    "enriched_at": "2025-12-15T02:27:14.596Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

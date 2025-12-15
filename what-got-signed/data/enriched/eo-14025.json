@@ -13,29 +13,38 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-04-29/pdf/2021-09213.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/04/29/2021-09213.txt",
   "enrichment": {
-    "summary": "This executive order establishes a task force led by the Vice President to promote and support worker organizing and collective bargaining across the public and private sectors. It aims to increase union membership and worker power by identifying policies and recommending changes that help workers organize more effectively, especially in difficult or marginalized industries.",
+    "summary": "This executive order directs the creation of a Task Force led by the Vice President to promote and support worker organizing and collective bargaining across the country. It aims to strengthen worker power, increase union membership, address challenges workers face in organizing, and recommend policies to improve labor conditions in both public and private sectors.",
     "theme_ids": [
-      "labor-relations",
-      "federal-workforce",
-      "equity-and-inclusion-policy"
+      "worker-rights-protections",
+      "union-policy",
+      "federal-labor-management-relations",
+      "racial-equity",
+      "gender-equality",
+      "presidential-commissions-task-forces",
+      "revocation-of-previous-executive-orders"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "labor-union-members",
-        "american-workers"
+        "union-members",
+        "non-union-workers",
+        "women",
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "working-age-adults"
       ],
       "negative_ids": [
-        "non-union-workers"
+        "small-business-owners",
+        "corporate-executives-officers"
       ]
     },
     "potential_concerns": [
-      "The order may face resistance from employers and states with laws hostile to unionization efforts, limiting its effectiveness.",
-      "Implementation may be challenging due to the broad scope and requirement to coordinate across many federal departments and agencies.",
-      "Some critics may argue the order could lead to increased labor costs or reduced business flexibility.",
-      "There may be legal challenges regarding the extent of federal authority in influencing private sector labor relations.",
-      "Efforts to focus on marginalized workers and hard-to-organize industries might face difficulties in identifying and addressing unique barriers."
+      "Increased support for union organizing may raise compliance and operational costs for small-business-owners, potentially limiting their growth or employment capacity.",
+      "Efforts to promote unionization in traditionally non-union sectors could create friction between non-union-workers seeking to organize and corporate-executives-officers resisting changes to labor-management relations.",
+      "Targeted encouragement of unionization among marginalized groups, including women and african-americans-black-americans, may face legal and social challenges in workplaces and industries with entrenched resistance to collective bargaining.",
+      "The focus on expanding union density could unintentionally marginalize gig-economy-workers and independent contractors who do not fit existing labor frameworks, potentially leaving them without protections.",
+      "Revocation of previous workforce councils might disrupt ongoing initiatives beneficial to certain worker segments, creating transitional uncertainty for working-age-adults in affected industries."
     ],
-    "enriched_at": "2025-12-09T03:55:21.781Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T07:33:14.729Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

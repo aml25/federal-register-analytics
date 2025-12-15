@@ -13,29 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-28/pdf/2025-07376.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/28/2025-07376.txt",
   "enrichment": {
-    "summary": "This executive order directs the Department of Education to reform the accreditation system for colleges, universities, and professional programs to focus on academic quality, student outcomes, and intellectual diversity, while eliminating unlawful discriminatory practices tied to diversity, equity, and inclusion standards. It imposes accountability on accreditors who use accreditation authority to enforce ideological mandates rather than education quality and creates opportunities for new accreditors to promote competition and innovation.",
+    "summary": "This executive order directs the Department of Education to reform the higher education accreditation system to ensure colleges provide high-quality education without unlawful discrimination. It specifically targets accreditors that impose diversity requirements deemed discriminatory, and promotes accreditation standards focused on student outcomes, academic freedom, and reducing unnecessary costs.",
     "theme_ids": [
-      "education-policy",
-      "regulatory-reform"
+      "higher-education",
+      "anti-discrimination",
+      "dei-diversity-equity-inclusion",
+      "civil-rights-enforcement",
+      "campus-free-speech-academic-freedom"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "academic-institutions",
-        "students-in-federally-funded-schools"
+        "college-university-students",
+        "graduate-professional-students",
+        "educational-institutions"
       ],
       "negative_ids": [
-        "diverse-student-populations",
-        "federal-grantees"
+        "women",
+        "lgbtq-individuals"
       ]
     },
     "potential_concerns": [
-      "Efforts to eliminate DEI requirements could reduce institutional diversity and inclusion efforts, potentially harming underrepresented students and faculty.",
-      "Creating new accreditation pathways may fragment accreditation standards, leading to inconsistent education quality and confusion among students and employers.",
-      "Increased emphasis on intellectual diversity and limiting accreditor influence over institutional values may politicize accreditation processes and academic environments.",
-      "Suspension or termination of established accreditors, such as the American Bar Association's Council, could disrupt professional program quality assurance and student credential recognition.",
-      "Implementation challenges may arise in balancing anti-discrimination enforcement with protecting academic freedom and legal compliance across diverse state laws."
+      "The removal of diversity, equity, and inclusion (DEI) requirements may undermine protections and support for racial and ethnic minority students, women, and LGBTQ+ individuals, potentially increasing discriminatory practices on campuses.",
+      "Focusing accreditation solely on measurable student outcomes and market returns could disadvantage institutions serving historically marginalized populations, harming college-university-students from underrepresented groups and widening educational inequities.",
+      "Efforts to expand accreditation options and reduce ‘unnecessary costs’ might lead to less rigorous standards, risking a decrease in overall education quality for students and weakening institutional accountability.",
+      "The prohibition of accreditors from enforcing DEI standards could limit campus free speech protections and academic freedom for marginalized populations by reducing institutional commitments to inclusive educational environments."
     ],
-    "enriched_at": "2025-12-09T02:44:22.506Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:18:51.980Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

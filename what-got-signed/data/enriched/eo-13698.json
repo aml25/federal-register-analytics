@@ -1,0 +1,44 @@
+{
+  "document_number": "2015-16122",
+  "executive_order_number": "13698",
+  "title": "Hostage Recovery Activities",
+  "abstract": null,
+  "signing_date": "2015-06-24",
+  "publication_date": "2015-06-29",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2015/06/29/2015-16122/hostage-recovery-activities",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-06-29/pdf/2015-16122.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/06/29/2015-16122.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a coordinated U.S. government effort to recover American hostages abroad. It creates a specialized interagency team, a Hostage Recovery Fusion Cell, a Hostage Response Group, and appoints a Special Presidential Envoy to lead diplomatic efforts to safely recover U.S. nationals held hostage. The order aims to improve communication, strategy, and support for hostages and their families while deterring future hostage-takings.",
+    "theme_ids": [
+      "counterterrorism",
+      "homeland-security",
+      "interagency-coordination",
+      "hostage-policy-wrongfully-detained-citizens",
+      "diplomatic-relations"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "hostages-wrongfully-detained-americans-abroad",
+        "u-s-citizens",
+        "lawful-permanent-residents-green-card-holders",
+        "journalists-media-professionals",
+        "foreign-governments"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The centralized hostage recovery efforts may strain diplomatic relations with foreign governments if U.S. negotiations conflict with their policies or sovereignty, impacting foreign-governments and complicating diplomatic-relations.",
+      "The focus on a no concessions policy could limit flexibility in negotiations, potentially prolonging captivity and increasing risks for hostages-wrongfully-detained-americans-abroad and their families.",
+      "Interagency coordination complexities might slow timely information sharing or operational responsiveness, adversely affecting the safe and swift recovery of hostages.",
+      "Enhanced public reporting and media involvement could jeopardize sensitive recovery operations, potentially putting hostages and journalists-media-professionals reporting on such cases at increased risk.",
+      "Lawful permanent residents and other U.S. nationals abroad might face uneven application or prioritization in recovery efforts compared to U.S. citizens, raising equity concerns within hostage recovery activities."
+    ],
+    "enriched_at": "2025-12-15T02:14:50.768Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

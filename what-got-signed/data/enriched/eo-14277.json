@@ -13,30 +13,29 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-28/pdf/2025-07368.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/28/2025-07368.txt",
   "enrichment": {
-    "summary": "This executive order directs the federal government to promote artificial intelligence education for American students and lifelong learners by establishing a dedicated task force, encouraging public-private partnerships, and creating initiatives like a Presidential AI Challenge. It aims to improve AI literacy among youth and educators, expand workforce training programs, and integrate AI tools into education from K-12 through postsecondary levels.",
+    "summary": "This executive order establishes a federal task force to promote education and training in artificial intelligence (AI) for American students and educators. It directs agencies to develop AI learning resources, encourage participation in AI competitions, improve teacher training, and support workforce development through apprenticeships and grants. The goal is to prepare the next generation with AI skills to maintain U.S. leadership in technology and innovation.",
     "theme_ids": [
       "artificial-intelligence",
-      "education-policy",
-      "federal-research-coordination"
+      "workforce-development",
+      "apprenticeships-vocational-training",
+      "presidential-commissions-task-forces"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry",
-        "academic-institutions",
-        "students-and-educators"
+        "k-12-students",
+        "teachers-educators",
+        "youth-young-adults",
+        "working-age-adults"
       ],
-      "negative_ids": [
-        "private-sector-rivals"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "The order relies heavily on coordination across multiple agencies and private partners, which may result in slow or uneven implementation.",
-      "There may be disparities in access to AI education and resources, potentially widening educational gaps between well-funded and under-resourced communities.",
-      "Rapid integration of AI in classrooms without adequate educator training could lead to ineffective or superficial AI instruction.",
-      "Emphasis on AI skills could inadvertently de-prioritize other essential areas of education if not balanced carefully.",
-      "Privacy and ethical concerns related to deploying AI technologies broadly in educational settings are not addressed in the order."
+      "There is a risk that underserved and rural k-12 students may not equally benefit from AI educational resources and competitions due to disparities in technology access and school funding.",
+      "Teachers and educators may face increased workload and demand for rapid AI training, potentially without sufficient support or time, which could affect teaching quality and job satisfaction.",
+      "Working-age adults and youth in low-income or marginalized communities might encounter barriers in accessing apprenticeship programs and certifications due to geographic, economic, or informational constraints.",
+      "The emphasis on AI skills might lead to neglect of other critical educational areas or vocational training not AI-related, possibly disadvantaging students and workers pursuing alternative career pathways."
     ],
-    "enriched_at": "2025-12-09T02:44:17.300Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:19:07.300Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

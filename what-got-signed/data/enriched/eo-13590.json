@@ -1,0 +1,45 @@
+{
+  "document_number": "2011-30463",
+  "executive_order_number": "13590",
+  "title": "Authorizing the Imposition of Certain Sanctions With Respect to the Provision of Goods, Services, Technology, or Support for Iran's Energy and Petrochemical Sectors",
+  "abstract": null,
+  "signing_date": "2011-11-20",
+  "publication_date": "2011-11-23",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2011/11/23/2011-30463/authorizing-the-imposition-of-certain-sanctions-with-respect-to-the-provision-of-goods-services",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2011-11-23/pdf/2011-30463.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2011/11/23/2011-30463.txt",
+  "enrichment": {
+    "summary": "This executive order authorizes the U.S. government to impose sanctions on individuals or entities that provide goods, services, technology, or support to Iran's energy and petrochemical sectors, aiming to restrict Iran's ability to develop its petroleum and petrochemical industries. These sanctions include blocking assets, restricting financial transactions, and denying export or procurement opportunities to targeted persons or organizations.",
+    "theme_ids": [
+      "economic-sanctions",
+      "iran",
+      "oil-and-gas-development"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "energy-sector-workers-oil-gas-coal",
+        "federal-employees-civil-servants",
+        "security-clearance-holders"
+      ],
+      "negative_ids": [
+        "corporations-businesses",
+        "large-corporation-employees",
+        "foreign-government-officials",
+        "citizens-of-specific-countries-by-eo-designation"
+      ]
+    },
+    "potential_concerns": [
+      "Sanctions imposed under this order may negatively impact U.S. corporations and their employees involved in supplying goods, services, or technology to Iran's energy and petrochemical sectors, potentially resulting in lost business and job reductions.",
+      "Restrictions on foreign-government-officials and citizens of Iran could escalate diplomatic tensions and may complicate multilateral negotiations involving Iran, with possible ramifications for broader U.S. foreign policy.",
+      "Energy sector workers in the oil and gas industries may face indirect economic effects due to disruptions in global energy markets stemming from sanctions targeting Iran's petroleum and petrochemical development.",
+      "The order's broad definition of sanctioned entities and related parties could create compliance challenges for large corporations and financial institutions, increasing legal and operational risks for employees and contractors.",
+      "Federal employees and security clearance holders involved in enforcement may face increased workload and complexities related to monitoring and implementing sanctions, potentially affecting operational efficiency."
+    ],
+    "enriched_at": "2025-12-12T08:23:59.374Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

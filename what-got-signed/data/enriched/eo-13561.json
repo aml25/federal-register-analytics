@@ -1,0 +1,41 @@
+{
+  "document_number": "2010-32960",
+  "executive_order_number": "13561",
+  "title": "Adjustments of Certain Rates of Pay",
+  "abstract": null,
+  "signing_date": "2010-12-22",
+  "publication_date": "2010-12-29",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2010/12/29/2010-32960/adjustments-of-certain-rates-of-pay",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2010-12-29/pdf/2010-32960.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2010/12/29/2010-32960.txt",
+  "enrichment": {
+    "summary": "This executive order updates and adjusts the pay rates for various federal employees, including civilian workers, senior executives, judges, uniformed military personnel, and administrative law judges, effective starting January 2011. It supersedes a previous executive order and directs the schedules and authorities responsible for implementing these pay adjustments.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "military-readiness-force-structure",
+      "veterans-healthcare"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants",
+        "military-personnel-active-duty",
+        "veterans",
+        "foreign-service-officers"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The pay adjustments may not fully keep pace with inflation or regional cost-of-living variations, potentially affecting the financial well-being of federal employees, foreign service officers, and military personnel.",
+      "Uniformed military personnel could face retention challenges if the adjusted pay rates are not competitive compared to the private sector or allied military pay scales, impacting military readiness and force structure.",
+      "Veterans currently employed within Veterans Health Administration positions might face disparities or dissatisfaction if pay adjustments differ significantly across roles within the department.",
+      "Administrative law judges and senior executives may perceive the pay adjustments as insufficient relative to the scope and responsibility of their positions, potentially influencing recruitment and retention of qualified personnel.",
+      "Implementation complexities in aligning locality-based comparability payments could lead to confusion or delays in pay, disproportionately impacting employees in high-cost areas."
+    ],
+    "enriched_at": "2025-12-15T02:05:37.484Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

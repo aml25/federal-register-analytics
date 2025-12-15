@@ -13,29 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-07-21/pdf/2022-15743.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/07/21/2022-15743.txt",
   "enrichment": {
-    "summary": "This executive order strengthens U.S. government efforts to bring home American citizens who are taken hostage or wrongfully detained abroad. It enhances coordination between agencies, supports families of detained individuals, and imposes sanctions on those responsible for hostage-taking or wrongful detention. The order also declares a national emergency to address these threats and outlines policies for denying entry to foreign persons involved in such activities.",
+    "summary": "This executive order strengthens U.S. government efforts to secure the release and safe return of American hostages and wrongfully detained U.S. nationals abroad. It enhances coordination among agencies, supports families of those detained, and imposes sanctions and travel restrictions on those responsible for hostage-taking or wrongful detention.",
     "theme_ids": [
-      "national-security",
-      "foreign-policy",
-      "immigration-enforcement",
-      "hostage-recovery-policy"
+      "hostage-policy-wrongfully-detained-citizens",
+      "economic-sanctions",
+      "diplomatic-relations",
+      "interagency-coordination",
+      "national-emergencies"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "wrongfully-detained-us-nationals"
+        "hostages-wrongfully-detained-americans-abroad",
+        "u-s-citizens",
+        "lawful-permanent-residents-green-card-holders"
       ],
       "negative_ids": [
-        "populations-in-designated-countries"
+        "foreign-government-officials"
       ]
     },
     "potential_concerns": [
-      "Sanctions and asset blocking may complicate diplomatic negotiations and potentially escalate tensions with foreign governments.",
-      "Coordinated government interaction with families may raise privacy and confidentiality concerns, especially regarding intelligence sharing.",
-      "There may be challenges in accurately and timely determining wrongful detentions, potentially leading to political disputes or misclassifications.",
-      "Restricting entry of designated individuals without due process could raise legal and human rights concerns.",
-      "Resource allocation to implement expanded interagency coordination and support programs might strain existing personnel and budgets."
+      "The imposition of sanctions and travel restrictions on foreign government officials may strain diplomatic relations and complicate ongoing hostage negotiations, potentially prolonging detentions and negatively affecting hostages and their families.",
+      "Families of hostages and wrongfully detained nationals might experience inconsistent information or insufficient support if interagency coordination lapses despite the order's intent, impacting the well-being of these U.S. citizens and lawful permanent residents.",
+      "The broad designation authority for sanctions could lead to unintended targeting of individuals with tangential connections, raising humanitarian and legal concerns for those foreign officials whose actions may not be fully culpable.",
+      "Heightened national emergency status and economic sanctions might escalate tensions with foreign states, inadvertently increasing risks for additional wrongful detentions or hostage-taking of U.S. nationals abroad."
     ],
-    "enriched_at": "2025-12-09T03:46:50.229Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T02:37:46.135Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

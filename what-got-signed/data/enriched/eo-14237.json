@@ -13,29 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-20/pdf/2025-04867.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/20/2025-04867.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to stop government support and contracts for the law firm Paul Weiss due to alleged unethical conduct, discrimination, and national security risks. It restricts security clearances, limits federal employee interactions and hiring from the firm, and requires agencies to review and potentially terminate related contracts.",
+    "summary": "This executive order directs federal agencies to review and restrict government support, access, and contracts with the law firm Paul Weiss due to allegations of misconduct, unethical behavior, and discrimination. It suspends security clearances for certain individuals associated with the firm and limits federal interactions to protect national security and uphold non-discriminatory practices.",
     "theme_ids": [
-      "national-security",
-      "federal-procurement-policy",
-      "legal-profession-policy",
-      "federal-workforce"
+      "security-clearances-background-investigations",
+      "anti-discrimination",
+      "employment-discrimination",
+      "federal-hiring",
+      "national-security-information-classification"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "law-firm-employees"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "federal-contractors"
+        "corporations-businesses",
+        "federal-contractors",
+        "security-clearance-holders",
+        "working-age-adults"
       ]
     },
     "potential_concerns": [
-      "The order may raise due process and fairness concerns regarding security clearance suspensions and contract terminations without explicit evidence or adjudication.",
-      "Restrictions on hiring and interaction could limit federal employee career opportunities and collaboration with legal professionals.",
-      "The criteria for discrimination and unethical conduct accusations are broad, potentially leading to politicization or overreach.",
-      "Contract review and termination processes may disrupt ongoing government work and legal services.",
-      "The lack of clear appeal or review mechanisms for affected individuals and firms could generate legal challenges."
+      "Restrictions on security clearances and federal contracts related to Paul Weiss could disproportionately impact working-age adults employed by or affiliated with the firm, leading to job losses or reduced employment opportunities.",
+      "Mandated disclosures and contract terminations involving Paul Weiss may create administrative burdens and financial strains for federal contractors and corporations doing business with the firm.",
+      "Limiting official access and hiring restrictions may raise due process concerns for security-clearance holders associated with Paul Weiss who have not been proven to engage in misconduct, potentially affecting employment fairness.",
+      "The order's broad anti-discrimination and national security justification might set precedents for restricting other law firms or entities, causing uncertainty and chilling effects across the private legal sector."
     ],
-    "enriched_at": "2025-12-09T02:42:13.941Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:24:32.288Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

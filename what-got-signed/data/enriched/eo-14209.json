@@ -13,29 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-14/pdf/2025-02736.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/14/2025-02736.txt",
   "enrichment": {
-    "summary": "This executive order temporarily pauses new investigations and enforcement actions under the Foreign Corrupt Practices Act (FCPA) for 180 days while the Department of Justice reviews and updates enforcement guidelines. The goal is to reduce what the order describes as excessive enforcement that harms American businesses’ ability to compete globally and impacts U.S. foreign policy and national security interests.",
+    "summary": "This executive order temporarily pauses new investigations and enforcement actions under the Foreign Corrupt Practices Act (FCPA) for 180 days while the Department of Justice reviews and updates its enforcement policies. The goal is to ensure FCPA enforcement better aligns with U.S. foreign policy and protects American economic interests and national security by reducing overreach that harms U.S. companies operating abroad.",
     "theme_ids": [
-      "national-security",
-      "foreign-policy",
-      "trade-policy",
-      "regulatory-reform"
+      "economic-competitiveness",
+      "foreign-investment-cfius",
+      "critical-minerals-supply-chain-security",
+      "federal-law-enforcement",
+      "diplomatic-relations"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "american-businesses"
+        "corporations-businesses",
+        "large-corporation-employees",
+        "corporate-executives-officers"
       ],
       "negative_ids": [
-        "foreign-processors-of-critical-minerals"
+        "whistleblowers"
       ]
     },
     "potential_concerns": [
-      "Pausing FCPA enforcement risks allowing corruption and unethical business practices to go unchecked internationally.",
-      "Reduced enforcement may damage the United States' global anti-corruption leadership and diplomatic standing.",
-      "American companies might face reputational harm or legal risks abroad if corruption controls are weakened.",
-      "The temporary suspension could lead to uncertainty and inconsistent application of the law during the review period.",
-      "Critics may argue that the order prioritizes economic interests over ethics and rule of law."
+      "Pausing FCPA enforcement may embolden corrupt practices abroad, undermining U.S. diplomatic relations and potentially harming international anti-corruption efforts.",
+      "Reduced FCPA enforcement could decrease protections for whistleblowers exposing corporate misconduct, increasing risks for these individuals.",
+      "Temporary suspension of enforcement might lead to increased reputational and legal risks for U.S. companies if foreign partners or competitors engage in corrupt practices unchecked.",
+      "The pause in investigations may create uneven accountability, disadvantaging ethical corporations compared to those willing to exploit loopholes during the moratorium.",
+      "Prioritizing economic competitiveness over strict enforcement could inadvertently weaken critical minerals and infrastructure supply chain security by enabling unethical business practices."
     ],
-    "enriched_at": "2025-12-09T02:40:53.993Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:28:29.540Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

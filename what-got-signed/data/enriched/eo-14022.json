@@ -13,25 +13,25 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-04-07/pdf/2021-07239.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/04/07/2021-07239.txt",
   "enrichment": {
-    "summary": "This executive order ends the national emergency and related sanctions that were imposed on the International Criminal Court (ICC) and certain individuals associated with it. It stops restrictions on travel and financial sanctions that had been previously used to oppose the ICC's jurisdictional claims over U.S. and allied personnel. The order clarifies that the U.S. still objects to the ICC's jurisdiction but will no longer use sanctions as a means of opposition.",
+    "summary": "This executive order ends the national emergency declared against the International Criminal Court and reverses previously imposed sanctions and travel suspensions related to that emergency. It states that while the U.S. continues to oppose the ICC's claims over U.S. personnel, financial sanctions are no longer considered an effective approach.",
     "theme_ids": [
-      "foreign-policy",
-      "national-security"
+      "international-criminal-court",
+      "economic-sanctions",
+      "national-emergencies"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "international-jurisdictional-subjects"
+        "military-personnel-active-duty",
+        "veterans"
       ],
       "negative_ids": []
     },
     "potential_concerns": [
-      "Ending sanctions might weaken the U.S. leverage to influence the ICC's actions or discourage unwanted jurisdiction claims.",
-      "Allies or partners who supported the previous sanctions may view this change as a retreat, potentially affecting coalition unity.",
-      "The ICC and its supporters could interpret the order as U.S. acceptance or deference to the Court’s authority.",
-      "Individuals previously barred from entry may still pose concerns for national security or foreign policy interests.",
-      "The order leaves open the possibility of future actions, which could create uncertainty regarding the U.S. stance toward the ICC."
+      "Termination of sanctions may weaken U.S. leverage to protect military personnel abroad, potentially exposing active duty service members and veterans to future ICC jurisdictional claims despite the stated opposition.",
+      "The removal of travel restrictions tied to the prior emergency could unintentionally increase risks of legal or diplomatic complications for U.S. military personnel and veterans traveling internationally where ICC influence exists.",
+      "Without financial sanctions as a deterrent, the ICC and related international actors might interpret the U.S. policy shift as diminished resolve, potentially encouraging future jurisdictional pursuits against U.S. personnel that could affect military morale and legal protections."
     ],
-    "enriched_at": "2025-12-09T03:55:45.775Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T07:33:35.763Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

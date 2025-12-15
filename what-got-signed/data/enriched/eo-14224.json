@@ -13,28 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-06/pdf/2025-03694.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/06/2025-03694.txt",
   "enrichment": {
-    "summary": "This executive order makes English the official language of the United States for all federal government operations. While it revokes a previous order about services for people with limited English proficiency, it does not require agencies to stop providing services in other languages, but encourages use of English to promote national unity and cohesion.",
+    "summary": "This executive order declares English as the official language of the United States. It revokes a previous order aimed at improving access to government services for people with limited English proficiency but does not require agencies to stop offering services in other languages. The order emphasizes promoting unity and a shared culture through one official language in government operations.",
     "theme_ids": [
-      "federal-agency-management",
-      "immigration-enforcement",
-      "language-policy"
+      "citizenship-policy",
+      "government-efficiency",
+      "american-heritage-patriotism"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "english-proficient-citizens"
+        "u-s-citizens",
+        "naturalized-citizens"
       ],
       "negative_ids": [
-        "limited-english-proficiency-populations"
+        "hispanic-latino-americans",
+        "asian-americans",
+        "undocumented-immigrants",
+        "refugees",
+        "asylum-seekers"
       ]
     },
     "potential_concerns": [
-      "The policy may unintentionally disadvantage individuals with limited English proficiency by discouraging or limiting government services in other languages.",
-      "Revoking protections from the prior Executive Order 13166 could reduce accessibility for non-English speakers without clear guidance on accommodations.",
-      "Implementation could lead to inconsistent enforcement across agencies and ambiguity about language requirements for public services and documents.",
-      "The order may be viewed as culturally exclusionary or undermine multilingual traditions valued in many American communities.",
-      "There may be legal challenges regarding the impact on civil rights protections related to language access under existing laws."
+      "Designating English as the official language could limit effective government communication with non-English-speaking populations such as Hispanic/Latino Americans, Asian Americans, refugees, and asylum seekers, undermining citizenship-policy goals related to inclusion and civic engagement.",
+      "Revoking protections and guidance under Executive Order 13166 may unintentionally reduce access to vital services for limited English proficiency individuals, creating administrative barriers and decreased government efficiency in serving diverse communities.",
+      "Emphasizing one shared language for cultural unity may marginalize multilingual American communities and those maintaining heritage languages, potentially eroding cultural diversity and alienating naturalized citizens and immigrant populations.",
+      "Without mandated discontinuation but removal of prior guidance, agency heads may inconsistently provide multilingual services, resulting in uneven access for vulnerable populations, particularly undocumented immigrants and refugees who rely on non-English materials for critical services."
     ],
-    "enriched_at": "2025-12-09T02:41:40.176Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:26:28.944Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

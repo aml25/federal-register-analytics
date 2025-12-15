@@ -13,32 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-03/pdf/2025-03527.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/03/2025-03527.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to increase transparency and accountability in government spending by requiring detailed justifications for contracts, grants, and non-essential travel expenses. It mandates quick reviews and potential cost savings actions, such as terminating or modifying inefficient contracts and freezing most agency credit card use temporarily. The order also requires agencies to inventory and consider disposing of unneeded real property to improve government efficiency.",
+    "summary": "This executive order directs federal agencies to increase transparency and accountability in government spending by requiring detailed justifications for payments on contracts, grants, and federally funded travel. It sets strict timelines for reviewing and adjusting spending, freezes certain credit card usage temporarily, and mandates governments to assess and reduce unnecessary real property holdings to save taxpayer money.",
     "theme_ids": [
-      "federal-agency-management",
-      "federal-procurement-policy",
-      "federal-property-management",
-      "regulatory-reform",
-      "data-governance"
+      "government-efficiency",
+      "government-spending-earmarks",
+      "records-classification-transparency"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "federal-budget-stakeholders"
+        "taxpayers",
+        "educational-institutions"
       ],
       "negative_ids": [
         "federal-contractors",
-        "displaced-federal-workers"
+        "college-university-students",
+        "foreign-nationals-general"
       ]
     },
     "potential_concerns": [
-      "The freeze on agency credit cards could disrupt essential government functions if exceptions are not properly managed.",
-      "Rapid contract and grant reviews within 30 days may compromise thoroughness and lead to unintended contract terminations or modifications.",
-      "Public posting of payment and travel justifications might raise privacy or security concerns for sensitive expenditures.",
-      "Excluding certain agencies and activities could lead to inconsistency in transparency and efficiency efforts across the federal government.",
-      "Implementation depends heavily on timely development of technological systems, which may face delays or technical challenges."
+      "The requirement for detailed public justifications on contract payments and travel may increase administrative burdens on federal contractors, potentially leading to delays and reduced contract competitiveness.",
+      "The prioritization of scrutinizing funds to educational institutions and foreign entities for waste, fraud, and abuse could lead to reduced funding or stricter oversight for college and university students, impacting program availability and quality.",
+      "The temporary freeze on government credit cards may disrupt essential payments by contractors and agencies, risking service interruptions in critical but non-exempt areas.",
+      "Public posting of payment and travel justifications could inadvertently expose sensitive information about foreign nationals or international partnerships, complicating diplomatic or security considerations.",
+      "Efforts to reduce real property holdings quickly may force agencies to vacate leased spaces prematurely, potentially disrupting services connected to educational programs and federally funded initiatives."
     ],
-    "enriched_at": "2025-12-09T02:41:34.919Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:26:43.734Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

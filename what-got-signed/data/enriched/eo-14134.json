@@ -13,25 +13,24 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-13/pdf/2025-00595.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/13/2025-00595.txt",
   "enrichment": {
-    "summary": "This executive order establishes a specific order of succession for who will act as Secretary of Agriculture if both the Secretary and Deputy Secretary are unavailable. It lists the positions within the Department of Agriculture eligible to serve as acting Secretary, establishes eligibility rules, and revokes a prior order on the same topic.",
+    "summary": "This executive order establishes the sequence of officials within the Department of Agriculture who will take over as Acting Secretary if both the Secretary and Deputy Secretary are unable to perform their duties. It also revokes a previous order on this succession and clarifies conditions under which individuals can serve as Acting Secretary.",
     "theme_ids": [
-      "federal-agency-management",
-      "federal-workforce"
+      "order-of-succession",
+      "agricultural-policy",
+      "rural-development",
+      "government-efficiency"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "federal-employees"
-      ],
+      "positive_ids": [],
       "negative_ids": []
     },
     "potential_concerns": [
-      "Ambiguities in the order of succession among certain positions, particularly State Executive Directors, may cause delays or disputes during transition.",
-      "Excluding acting officials from succession could limit the pool of available qualified personnel in emergencies, potentially impairing continuity.",
-      "The President’s discretionary power to bypass the established succession order may cause uncertainty or perceived politicization in leadership appointments.",
-      "Administrative challenges in implementing the succession order consistently across varied departmental offices could hamper smooth transitions.",
-      "Revoking the prior order without clear differences or rationale might create confusion about changes in succession protocol among Department staff."
+      "The order-of-succession may create ambiguity or delays in leadership during a crisis, potentially impacting rural communities and agricultural-workers who rely on stable Department of Agriculture guidance.",
+      "The inclusion of State Executive Directors from specific Midwestern states (Kansas, Missouri, Iowa) in the line of succession may raise concerns about regional bias affecting national agricultural policy and rural development priorities.",
+      "Restrictions preventing acting officials serving in an acting capacity from becoming Acting Secretary could limit leadership options during an emergency, possibly disrupting government efficiency within the Department of Agriculture.",
+      "The President's discretionary authority to deviate from the established succession order could lead to concerns about transparency and politicization affecting stakeholders in agricultural policy and rural development."
     ],
-    "enriched_at": "2025-12-09T02:37:08.658Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:39:27.530Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

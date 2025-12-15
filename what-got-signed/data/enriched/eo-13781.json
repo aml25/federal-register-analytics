@@ -1,0 +1,37 @@
+{
+  "document_number": "2017-05399",
+  "executive_order_number": "13781",
+  "title": "Comprehensive Plan for Reorganizing the Executive Branch",
+  "abstract": null,
+  "signing_date": "2017-03-13",
+  "publication_date": "2017-03-16",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/03/16/2017-05399/comprehensive-plan-for-reorganizing-the-executive-branch",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-03-16/pdf/2017-05399.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/03/16/2017-05399.txt",
+  "enrichment": {
+    "summary": "This executive order directs agency heads to develop plans to reorganize and improve the efficiency and accountability of the federal government. It tasks the Office of Management and Budget with creating a comprehensive plan to eliminate or merge unnecessary or redundant agencies and programs, considering public input and cost-effectiveness.",
+    "theme_ids": [
+      "government-efficiency",
+      "government-reorganization",
+      "federal-workforce-management"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "federal-employees-civil-servants"
+      ]
+    },
+    "potential_concerns": [
+      "The reorganization and elimination of agencies may lead to job losses or reduced job security for federal employees, impacting their livelihoods.",
+      "Efforts to improve efficiency by merging or shutting down agencies could disrupt services that depend on federal workforce expertise, indirectly affecting service recipients.",
+      "Reductions or consolidations may disproportionately affect specialized agency staff, potentially resulting in loss of institutional knowledge and lowered morale among federal employees.",
+      "The order’s emphasis on cost-cutting may prioritize budgetary savings over the quality or accessibility of federal programs, affecting long-term government effectiveness."
+    ],
+    "enriched_at": "2025-12-15T07:09:51.875Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

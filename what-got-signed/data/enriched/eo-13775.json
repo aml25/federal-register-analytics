@@ -1,0 +1,36 @@
+{
+  "document_number": "2017-03116",
+  "executive_order_number": "13775",
+  "title": "Providing an Order of Succession Within the Department of Justice",
+  "abstract": null,
+  "signing_date": "2017-02-09",
+  "publication_date": "2017-02-14",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/02/14/2017-03116/providing-an-order-of-succession-within-the-department-of-justice",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-02-14/pdf/2017-03116.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/02/14/2017-03116.txt",
+  "enrichment": {
+    "summary": "This executive order sets a specific order of officials who will temporarily act as Attorney General if the Attorney General and other top officials are unable to serve. It also clarifies exceptions to this order and revokes a previous similar executive order.",
+    "theme_ids": [
+      "order-of-succession",
+      "government-reorganization"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "political-appointees"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The established order of succession may limit the President's flexibility and could empower specific U.S. Attorneys, affecting political appointees' influence within the Department of Justice.",
+      "The exclusion of acting office holders from the succession line could create gaps or delays in interim leadership during multiple vacancies, impacting DOJ operations.",
+      "Individuals not explicitly listed in the succession order might be sidelined, potentially causing internal discord or challenges among DOJ political appointees.",
+      "The President's discretionary ability to depart from the established succession order may lead to politicization or perceptions of biased appointments affecting departmental stability."
+    ],
+    "enriched_at": "2025-12-15T07:10:33.462Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

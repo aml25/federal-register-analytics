@@ -13,29 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-03/pdf/2025-02178.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/03/2025-02178.txt",
   "enrichment": {
-    "summary": "This executive order directs the military to maintain high physical and mental fitness standards, prohibits recognition of gender identities that differ from biological sex, and rescinds prior policies that allowed transgender individuals to serve openly. It mandates updates to military medical standards and restricts pronoun use and facility access based on biological sex to prioritize military readiness and cohesion.",
+    "summary": "This executive order directs the Department of Defense to uphold strict medical and mental health standards for military service members, explicitly excluding gender identity considerations that conflict with these standards. It reverses previous policies that allowed transgender individuals to serve openly and mandates policies on pronoun use and facility access in the military to prioritize unit cohesion and readiness.",
     "theme_ids": [
-      "military-personnel-policy",
-      "national-security"
+      "military-readiness-force-structure",
+      "homeland-security",
+      "revocation-of-previous-executive-orders"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "armed-forces-personnel",
-        "female-athletes"
+        "military-personnel-active-duty",
+        "military-personnel-reserves-guard",
+        "military-reservists-called-to-active-duty"
       ],
       "negative_ids": [
-        "transgender-athletes",
-        "minority-service-members"
+        "transgender-individuals",
+        "lgbtq-individuals"
       ]
     },
     "potential_concerns": [
-      "Excluding individuals based on gender identity may reduce military recruitment and retention of qualified personnel.",
-      "Restrictions on pronouns and facility use could harm unit cohesion and morale among service members.",
-      "The order may lead to discrimination claims and legal challenges regarding transgender service members’ rights.",
-      "Implementation of medical standard changes within tight deadlines may strain military healthcare and administration.",
-      "Revoking prior protections may adversely affect the mental health and wellbeing of transgender and minority service members."
+      "The exclusion of transgender individuals from military service may reduce the talent pool and affect overall military readiness and unit cohesion contrary to the stated goal.",
+      "Mandating strict pronoun usage policies and restricting facility access based on biological sex could harm the mental health and morale of LGBTQ+ and transgender service members, potentially impacting force effectiveness.",
+      "Revoking policies that previously enabled open service by transgender individuals may provoke legal challenges and complicate recruitment and retention strategies within the active duty, reserve, and National Guard forces.",
+      "The order’s broad prohibition on gender identity considerations might unintentionally exclude or create barriers for service members with legitimate medical and mental health needs unrelated to gender dysphoria, affecting overall inclusivity and fairness."
     ],
-    "enriched_at": "2025-12-09T02:39:45.581Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:32:14.478Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

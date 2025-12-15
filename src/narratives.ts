@@ -47,11 +47,11 @@ interface PresidentOrderCount {
   order_count: number;
 }
 
-interface MonthlyNarrative {
+interface QuarterlyNarrative {
   year: number;
-  month: number;
-  month_name: string;
-  presidents: PresidentOrderCount[];  // Supports transition months with multiple presidents
+  quarter: number;
+  quarter_name: string;
+  presidents: PresidentOrderCount[];  // Supports transition quarters with multiple presidents
   total_order_count: number;
   summary: string;
   potential_impact: string;
@@ -59,8 +59,8 @@ interface MonthlyNarrative {
   model_used: string;
 }
 
-interface MonthlyNarrativesFile {
-  narratives: MonthlyNarrative[];
+interface QuarterlyNarrativesFile {
+  narratives: QuarterlyNarrative[];
   generated_at: string;
 }
 
@@ -68,10 +68,48 @@ interface MonthlyNarrativesFile {
 // HELPERS
 // =============================================================================
 
-const MONTH_NAMES = [
-  'January', 'February', 'March', 'April', 'May', 'June',
-  'July', 'August', 'September', 'October', 'November', 'December'
-];
+const QUARTER_NAMES = ['Q1', 'Q2', 'Q3', 'Q4'];
+
+/**
+ * Get quarter from month (1-12 -> 1-4)
+ */
+function getQuarterFromMonth(month: number): number {
+  return Math.ceil(month / 3);
+}
+
+/**
+ * Get quarter display name (e.g., "Q1 2025")
+ */
+function getQuarterName(quarter: number, year: number): string {
+  return `Q${quarter} ${year}`;
+}
+
+/**
+ * Get the most recent enriched_at timestamp from a list of orders
+ */
+function getLatestEnrichedAt(orders: EnrichedExecutiveOrder[]): Date | null {
+  if (orders.length === 0) return null;
+
+  let latest: Date | null = null;
+  for (const order of orders) {
+    const enrichedAt = new Date(order.enrichment.enriched_at);
+    if (!latest || enrichedAt > latest) {
+      latest = enrichedAt;
+    }
+  }
+  return latest;
+}
+
+/**
+ * Check if a narrative is stale (orders have been enriched after it was generated)
+ */
+function isNarrativeStale(generatedAt: string, orders: EnrichedExecutiveOrder[]): boolean {
+  const generatedDate = new Date(generatedAt);
+  const latestEnriched = getLatestEnrichedAt(orders);
+
+  if (!latestEnriched) return false;
+  return latestEnriched > generatedDate;
+}
 
 /**
  * Count population occurrences and return sorted
@@ -184,17 +222,17 @@ ${concerns.slice(0, 20).map(c => `- ${c}`).join('\n')}
 }
 
 /**
- * Build context for LLM to generate monthly narrative
- * Handles transition months with multiple presidents
+ * Build context for LLM to generate quarterly narrative
+ * Handles transition quarters with multiple presidents
  */
-function buildMonthlyContext(
+function buildQuarterlyContext(
   orders: EnrichedExecutiveOrder[],
   themes: ThemeRegistry,
   populations: PopulationRegistry,
   presidents: PresidentOrderCount[],
   year: number,
-  month: number,
-  monthName: string
+  quarter: number,
+  quarterName: string
 ): string {
   const topThemes = countThemes(orders, themes).slice(0, 10);
   const positivePopulations = countPopulations(orders, populations, 'positive').slice(0, 10);
@@ -202,9 +240,9 @@ function buildMonthlyContext(
   const concerns = collectConcerns(orders);
 
   // Build president summary line
-  const isTransitionMonth = presidents.length > 1;
+  const isTransitionQuarter = presidents.length > 1;
   let presidentSummary: string;
-  if (isTransitionMonth) {
+  if (isTransitionQuarter) {
     presidentSummary = presidents
       .map(p => `${p.president_name} (${p.order_count} orders)`)
       .join(' and ');
@@ -212,9 +250,9 @@ function buildMonthlyContext(
     presidentSummary = presidents[0].president_name;
   }
 
-  // All order titles for a month, grouped by president for transition months
+  // All order titles for a quarter, grouped by president for transition quarters
   let orderTitles: string;
-  if (isTransitionMonth) {
+  if (isTransitionQuarter) {
     const ordersByPresident = new Map<string, EnrichedExecutiveOrder[]>();
     for (const order of orders) {
       const id = order.president.identifier;
@@ -235,13 +273,13 @@ function buildMonthlyContext(
     ).join('\n');
   }
 
-  const transitionNote = isTransitionMonth
-    ? '\nNOTE: This is a presidential transition month with orders from both the outgoing and incoming administration.\n'
+  const transitionNote = isTransitionQuarter
+    ? '\nNOTE: This is a presidential transition quarter with orders from both the outgoing and incoming administration.\n'
     : '';
 
   return `
 PRESIDENT(S): ${presidentSummary}
-PERIOD: ${monthName} ${year}
+PERIOD: ${quarterName}
 TOTAL EXECUTIVE ORDERS: ${orders.length}
 ${transitionNote}
 TOP THEMES (by frequency):
@@ -253,7 +291,7 @@ ${positivePopulations.map(p => `- ${p.name}: ${p.count} orders`).join('\n')}
 POPULATIONS AIMED TO NEGATIVELY IMPACT:
 ${negativePopulations.map(p => `- ${p.name}: ${p.count} orders`).join('\n')}
 
-ALL ORDERS THIS MONTH:
+ALL ORDERS THIS QUARTER:
 ${orderTitles}
 
 NOTABLE CONCERNS RAISED:
@@ -268,24 +306,34 @@ async function generateTermNarrativeWithLLM(
   openai: OpenAI,
   context: string,
   presidentName: string,
-  orderCount: number
+  orderCount: number,
+  termEnd: number | 'present'
 ): Promise<{ summary: string; potential_impact: string }> {
-  const systemPrompt = `You are a political analyst writing concise summaries of executive order activity.
+  const isOngoing = termEnd === 'present';
+
+  const systemPrompt = `You are a journalist writing engaging summaries of presidential executive order activity for an informed general audience.
+
+Your goal is to write NARRATIVE PROSE that tells a story - NOT bullet points or lists in paragraph form.
 
 Guidelines:
-- Be direct and dense with information - no filler words or fluff
-- Factual and neutral tone
-- Use specific numbers
-- Past tense for completed terms, present tense for ongoing
-- No editorializing
-- When discussing impacted populations, use language like "aimed to positively impact" or "aimed to negatively impact" rather than presuming actual outcomes
+- Write in flowing, narrative prose that weaves facts into a coherent story
+- Neutral, factual tone but engaging and readable - like quality journalism
+- Use specific numbers naturally within sentences
+- Show how themes connect and what priorities defined the term
+- Avoid list-like structures ("First... Second... Third..." or "The top themes were X, Y, and Z")
+- ${isOngoing ? 'Present tense for ongoing administration' : 'Past tense for completed term'}
+- No editorializing - let the facts tell the story
+- When discussing impacted populations, use language like "aimed to benefit" or "would affect" rather than presuming actual outcomes
 
 You must return a JSON object with two fields:
-1. "summary" - One paragraph (60-100 words) summarizing the president, number of orders signed, overall themes, and a synthesis of key executive order titles
-2. "potential_impact" - One paragraph (60-100 words) describing which populations are aimed to be positively or negatively impacted and any key concerns raised
+1. "summary" - One concise paragraph (60-90 words) telling the story of this president's executive order activity: what policy priorities dominated and what defined the administration's approach. Don't enumerate themes - explain what the president was trying to accomplish.
+2. "potential_impact" - One concise paragraph (60-90 words) narratively describing who these orders aimed to affect and what concerns observers raised. Don't list populations - tell the story of winners and losers.
 
-Example format:
-{"summary": "Summary paragraph here.", "potential_impact": "Potential impact paragraph here."}`;
+BAD example (too listy): "Biden signed 162 orders. The top themes were climate (25), healthcare (20), and immigration (18). Populations affected include federal employees, businesses, and immigrants."
+
+GOOD example: "Climate action anchored the administration's executive agenda from day one, with early orders rejoining the Paris Agreement and pausing new oil and gas leases on federal lands. Healthcare policy emerged as another defining priority, particularly efforts to strengthen the Affordable Care Act and expand access during the pandemic..."
+
+Return JSON with "summary" and "potential_impact" fields:`;
 
   const userPrompt = `Analyze ${presidentName}'s ${orderCount} executive orders based on this data:
 
@@ -308,48 +356,55 @@ Return JSON with "summary" and "potential_impact" fields:`;
 }
 
 /**
- * Generate monthly narrative using OpenAI
+ * Generate quarterly narrative using OpenAI
  */
-async function generateMonthlyNarrativeWithLLM(
+async function generateQuarterlyNarrativeWithLLM(
   openai: OpenAI,
   context: string,
   presidents: PresidentOrderCount[],
-  monthName: string,
+  quarterName: string,
   year: number,
   totalOrderCount: number
 ): Promise<{ summary: string; potential_impact: string }> {
-  const isTransitionMonth = presidents.length > 1;
+  const isTransitionQuarter = presidents.length > 1;
 
-  const systemPrompt = `You are a political analyst writing concise monthly summaries of executive order activity.
+  const systemPrompt = `You are a journalist writing engaging quarterly summaries of executive order activity for an informed general audience.
+
+Your goal is to write NARRATIVE PROSE that tells a story - NOT bullet points or lists in paragraph form.
 
 Guidelines:
-- Be direct and dense with information - no filler words or fluff
-- Factual and neutral tone
-- Use specific numbers
-- Past tense for past months, present tense for current month
-- No editorializing
-- When discussing impacted populations, use language like "aimed to positively impact" or "aimed to negatively impact" rather than presuming actual outcomes
-${isTransitionMonth ? '- This is a presidential transition month - acknowledge both administrations and their respective order counts' : ''}
+- Write in flowing, narrative prose that weaves facts into a coherent story
+- Neutral, factual tone but engaging and readable - like quality journalism
+- Use specific numbers naturally within sentences (e.g., "signed 12 orders focused on..." not "12 orders were signed")
+- Show connections between orders and themes - don't just enumerate them
+- Avoid list-like structures ("First... Second... Third..." or "The top themes were X, Y, and Z")
+- Past tense for past quarters, present tense for current quarter
+- No editorializing or opinion - let the facts tell the story
+- When discussing impacted populations, use language like "aimed to benefit" or "would affect" rather than presuming actual outcomes
+${isTransitionQuarter ? '- This is a presidential transition quarter - weave in the narrative of power changing hands' : ''}
 
 You must return a JSON object with two fields:
-1. "summary" - One paragraph (60-100 words) summarizing the president(s), number of orders signed, overall themes, and a synthesis of key executive order titles
-2. "potential_impact" - One paragraph (60-100 words) describing which populations are aimed to be positively or negatively impacted and any key concerns raised
+1. "summary" - One concise paragraph (60-100 words) that tells the story of this quarter's executive actions: what policy directions emerged and what priorities were evident. Don't just list themes - explain what the president was trying to accomplish.
+2. "potential_impact" - One concise paragraph (60-100 words) that narratively describes who these orders aimed to affect and what concerns observers raised. Don't just list populations - tell the story of who stands to gain or lose.
 
-Example format:
-{"summary": "Summary paragraph here.", "potential_impact": "Potential impact paragraph here."}`;
+BAD example (too listy): "Trump signed 45 orders in Q1. The top themes were immigration (15 orders), trade (12 orders), and government reform (9 orders). Populations affected include federal employees, immigrants, and businesses."
+
+GOOD example: "The administration moved aggressively on immigration policy throughout the quarter, with orders tightening border enforcement and interior deportation procedures. Trade policy emerged as another priority, as multiple orders imposed new tariffs and renegotiated existing agreements. A quieter but significant thread involved government restructuring..."
+
+Return JSON with "summary" and "potential_impact" fields:`;
 
   let userPrompt: string;
-  if (isTransitionMonth) {
+  if (isTransitionQuarter) {
     const presidentSummary = presidents
       .map(p => `${p.president_name} (${p.order_count})`)
       .join(' and ');
-    userPrompt = `Analyze the ${totalOrderCount} executive orders from ${monthName} ${year}, signed by ${presidentSummary}, based on this data:
+    userPrompt = `Analyze the ${totalOrderCount} executive orders from ${quarterName}, signed by ${presidentSummary}, based on this data:
 
 ${context}
 
 Return JSON with "summary" and "potential_impact" fields:`;
   } else {
-    userPrompt = `Analyze ${presidents[0].president_name}'s ${totalOrderCount} executive orders from ${monthName} ${year} based on this data:
+    userPrompt = `Analyze ${presidents[0].president_name}'s ${totalOrderCount} executive orders from ${quarterName} based on this data:
 
 ${context}
 
@@ -391,11 +446,11 @@ function parseSummaryImpactResponse(content: string): { summary: string; potenti
 }
 
 /**
- * Load existing monthly narratives file
+ * Load existing quarterly narratives file
  */
-async function loadExistingMonthlyNarratives(): Promise<MonthlyNarrativesFile | null> {
+async function loadExistingQuarterlyNarratives(): Promise<QuarterlyNarrativesFile | null> {
   try {
-    const filePath = join(AGGREGATED_DIR, 'monthly-narratives.json');
+    const filePath = join(AGGREGATED_DIR, 'quarterly-narratives.json');
     const content = await readFile(filePath, 'utf-8');
     return JSON.parse(content);
   } catch {
@@ -488,6 +543,9 @@ export async function generateTermNarratives(options: {
   // Load existing narratives for incremental generation
   const existingFile = await loadExistingTermNarratives();
   const existingNarratives = existingFile?.narratives || [];
+  const existingByKey = new Map(
+    existingNarratives.map(n => [`${n.president_id}-${n.term_start}`, n])
+  );
 
   const terms = detectPresidentTerms(orders);
   const newNarratives: TermNarrative[] = [];
@@ -525,8 +583,21 @@ export async function generateTermNarratives(options: {
 
       const presidentName = term.name;
       const termEnd = term.end || 'present';
+      const termKey = `${presidentId}-${term.start}`;
+      const existingNarrative = existingByKey.get(termKey);
 
-      console.log(`\nGenerating narrative for ${presidentName} (${term.start}-${termEnd})...`);
+      // Skip if already exists and not stale (unless force)
+      if (!options.force && existingNarrative) {
+        const stale = isNarrativeStale(existingNarrative.generated_at, termOrders);
+        if (!stale) {
+          skipped++;
+          continue;
+        }
+        console.log(`\n${presidentName} (${term.start}-${termEnd}) is stale - regenerating...`);
+      } else if (!existingNarrative) {
+        console.log(`\nGenerating narrative for ${presidentName} (${term.start}-${termEnd})...`);
+      }
+
       console.log(`  ${termOrders.length} orders to analyze`);
 
       const context = buildTermContext(
@@ -546,7 +617,8 @@ export async function generateTermNarratives(options: {
         openai,
         context,
         presidentName,
-        termOrders.length
+        termOrders.length,
+        termEnd
       );
 
       const wordCount = summary.split(' ').length + potential_impact.split(' ').length;
@@ -606,18 +678,18 @@ export async function generateTermNarratives(options: {
 }
 
 // =============================================================================
-// MONTHLY NARRATIVES
+// QUARTERLY NARRATIVES
 // =============================================================================
 
 /**
- * Generate monthly narratives
+ * Generate quarterly narratives
  */
-export async function generateMonthlyNarratives(options: {
+export async function generateQuarterlyNarratives(options: {
   year?: number;
-  month?: number;
+  quarter?: number;
   force?: boolean;
 } = {}): Promise<void> {
-  console.log(`\n=== Generating Monthly Narratives ===\n`);
+  console.log(`\n=== Generating Quarterly Narratives ===\n`);
 
   const openai = new OpenAI();
 
@@ -633,60 +705,65 @@ export async function generateMonthlyNarratives(options: {
   const populations = await loadPopulations();
 
   // Load existing narratives to support incremental generation
-  const existingFile = await loadExistingMonthlyNarratives();
+  const existingFile = await loadExistingQuarterlyNarratives();
   const existingNarratives = existingFile?.narratives || [];
-  const existingKeys = new Set(
-    existingNarratives.map(n => `${n.year}-${n.month}`)
+  const existingByKey = new Map(
+    existingNarratives.map(n => [`${n.year}-${n.quarter}`, n])
   );
 
-  // Group orders by year-month
-  const byMonth = new Map<string, EnrichedExecutiveOrder[]>();
+  // Group orders by year-quarter
+  const byQuarter = new Map<string, EnrichedExecutiveOrder[]>();
   for (const order of orders) {
     const date = new Date(order.signing_date);
     const year = date.getFullYear();
-    const month = date.getMonth() + 1;
+    const quarter = getQuarterFromMonth(date.getMonth() + 1);
 
     // Filter by year if specified
     if (options.year && year !== options.year) continue;
 
-    // Filter by month if specified
-    if (options.month && month !== options.month) continue;
+    // Filter by quarter if specified
+    if (options.quarter && quarter !== options.quarter) continue;
 
-    const key = `${year}-${month}`;
-    if (!byMonth.has(key)) {
-      byMonth.set(key, []);
+    const key = `${year}-${quarter}`;
+    if (!byQuarter.has(key)) {
+      byQuarter.set(key, []);
     }
-    byMonth.get(key)!.push(order);
+    byQuarter.get(key)!.push(order);
   }
 
-  if (byMonth.size === 0) {
+  if (byQuarter.size === 0) {
     console.log('No orders match the specified criteria.');
     return;
   }
 
   // Sort by date (oldest first)
-  const sortedKeys = Array.from(byMonth.keys()).sort();
+  const sortedKeys = Array.from(byQuarter.keys()).sort();
 
-  const newNarratives: MonthlyNarrative[] = [];
+  const newNarratives: QuarterlyNarrative[] = [];
   let skipped = 0;
 
   for (const key of sortedKeys) {
-    const [yearStr, monthStr] = key.split('-');
+    const [yearStr, quarterStr] = key.split('-');
     const year = parseInt(yearStr, 10);
-    const month = parseInt(monthStr, 10);
-    const monthName = MONTH_NAMES[month - 1];
+    const quarter = parseInt(quarterStr, 10);
+    const quarterName = getQuarterName(quarter, year);
 
-    // Skip if already exists (unless force)
-    if (!options.force && existingKeys.has(key)) {
-      skipped++;
-      continue;
+    const quarterOrders = byQuarter.get(key)!;
+    const existingNarrative = existingByKey.get(key);
+
+    // Skip if already exists and not stale (unless force)
+    if (!options.force && existingNarrative) {
+      const stale = isNarrativeStale(existingNarrative.generated_at, quarterOrders);
+      if (!stale) {
+        skipped++;
+        continue;
+      }
+      console.log(`\n${quarterName} is stale - regenerating...`);
     }
 
-    const monthOrders = byMonth.get(key)!;
-
-    // Count orders by president to handle transition months
+    // Count orders by president to handle transition quarters
     const orderCountByPresident = new Map<string, { name: string; count: number }>();
-    for (const order of monthOrders) {
+    for (const order of quarterOrders) {
       const id = order.president.identifier;
       if (!orderCountByPresident.has(id)) {
         orderCountByPresident.set(id, { name: order.president.name, count: 0 });
@@ -696,7 +773,7 @@ export async function generateMonthlyNarratives(options: {
 
     // Build presidents array sorted by date of first order (outgoing president first)
     const presidentFirstOrder = new Map<string, Date>();
-    for (const order of monthOrders) {
+    for (const order of quarterOrders) {
       const id = order.president.identifier;
       const orderDate = new Date(order.signing_date);
       if (!presidentFirstOrder.has(id) || orderDate < presidentFirstOrder.get(id)!) {
@@ -712,36 +789,36 @@ export async function generateMonthlyNarratives(options: {
         order_count: data.count
       }));
 
-    const isTransitionMonth = presidents.length > 1;
-    const presidentLabel = isTransitionMonth
+    const isTransitionQuarter = presidents.length > 1;
+    const presidentLabel = isTransitionQuarter
       ? presidents.map(p => `${p.president_name} (${p.order_count})`).join(' + ')
       : presidents[0].president_name;
 
-    console.log(`\nGenerating narrative for ${monthName} ${year}...`);
-    console.log(`  ${monthOrders.length} orders to analyze${isTransitionMonth ? ' (transition month)' : ''}`);
+    console.log(`\nGenerating narrative for ${quarterName}...`);
+    console.log(`  ${quarterOrders.length} orders to analyze${isTransitionQuarter ? ' (transition quarter)' : ''}`);
     console.log(`  President(s): ${presidentLabel}`);
 
-    const context = buildMonthlyContext(
-      monthOrders,
+    const context = buildQuarterlyContext(
+      quarterOrders,
       themes,
       populations,
       presidents,
       year,
-      month,
-      monthName
+      quarter,
+      quarterName
     );
 
     const charCount = context.length;
     const estimatedTokens = Math.ceil(charCount / 4);
     console.log(`  Context: ${charCount.toLocaleString()} chars, ~${estimatedTokens.toLocaleString()} tokens`);
 
-    const { summary, potential_impact } = await generateMonthlyNarrativeWithLLM(
+    const { summary, potential_impact } = await generateQuarterlyNarrativeWithLLM(
       openai,
       context,
       presidents,
-      monthName,
+      quarterName,
       year,
-      monthOrders.length
+      quarterOrders.length
     );
 
     const wordCount = summary.split(' ').length + potential_impact.split(' ').length;
@@ -749,10 +826,10 @@ export async function generateMonthlyNarratives(options: {
 
     newNarratives.push({
       year,
-      month,
-      month_name: monthName,
+      quarter,
+      quarter_name: quarterName,
       presidents,
-      total_order_count: monthOrders.length,
+      total_order_count: quarterOrders.length,
       summary,
       potential_impact,
       generated_at: new Date().toISOString(),
@@ -761,16 +838,16 @@ export async function generateMonthlyNarratives(options: {
   }
 
   if (skipped > 0) {
-    console.log(`\nSkipped ${skipped} months (already generated, use --force to regenerate)`);
+    console.log(`\nSkipped ${skipped} quarters (already generated, use --force to regenerate)`);
   }
 
   // Merge with existing narratives
   const allNarratives = [...existingNarratives];
 
   for (const newNarrative of newNarratives) {
-    const key = `${newNarrative.year}-${newNarrative.month}`;
+    const key = `${newNarrative.year}-${newNarrative.quarter}`;
     const existingIndex = allNarratives.findIndex(
-      n => `${n.year}-${n.month}` === key
+      n => `${n.year}-${n.quarter}` === key
     );
     if (existingIndex >= 0) {
       allNarratives[existingIndex] = newNarrative;
@@ -782,16 +859,16 @@ export async function generateMonthlyNarratives(options: {
   // Sort by date (most recent first)
   allNarratives.sort((a, b) => {
     if (a.year !== b.year) return b.year - a.year;
-    return b.month - a.month;
+    return b.quarter - a.quarter;
   });
 
-  const output: MonthlyNarrativesFile = {
+  const output: QuarterlyNarrativesFile = {
     narratives: allNarratives,
     generated_at: new Date().toISOString()
   };
 
-  await writeJson(join(AGGREGATED_DIR, 'monthly-narratives.json'), output);
-  console.log(`\nSaved ${allNarratives.length} monthly narratives to monthly-narratives.json`);
+  await writeJson(join(AGGREGATED_DIR, 'quarterly-narratives.json'), output);
+  console.log(`\nSaved ${allNarratives.length} quarterly narratives to quarterly-narratives.json`);
   if (newNarratives.length > 0) {
     console.log(`  (${newNarratives.length} newly generated)`);
   }
@@ -883,21 +960,28 @@ async function generateThemeNarrativeWithLLM(
   themeName: string,
   orderCount: number
 ): Promise<{ summary: string; potential_impact: string }> {
-  const systemPrompt = `You are a political analyst writing concise summaries of executive orders by theme.
+  const systemPrompt = `You are a journalist writing engaging thematic summaries of executive order activity for an informed general audience.
+
+Your goal is to write NARRATIVE PROSE that tells a story - NOT bullet points or lists in paragraph form.
 
 Guidelines:
-- Be direct and dense with information - no filler words or fluff
-- Factual and neutral tone
-- Use specific numbers
-- Explain what this theme covers and how different presidents have approached it
-- When discussing impacted populations, use language like "aimed to positively impact" or "aimed to negatively impact" rather than presuming actual outcomes
+- Write in flowing, narrative prose that weaves facts into a coherent story
+- Neutral, factual tone but engaging and readable - like quality journalism
+- Use specific numbers naturally within sentences
+- Show how different presidents approached this theme and what patterns emerge
+- Avoid list-like structures ("First... Second... Third..." or "Presidents who addressed this include X, Y, and Z")
+- No editorializing - let the facts tell the story
+- When discussing impacted populations, use language like "aimed to benefit" or "would affect" rather than presuming actual outcomes
 
 You must return a JSON object with two fields:
-1. "summary" - One paragraph (60-100 words) summarizing the theme, which presidents signed orders on it, the number of orders, and a synthesis of key executive order titles
-2. "potential_impact" - One paragraph (60-100 words) describing which populations are aimed to be positively or negatively impacted and any key concerns raised
+1. "summary" - One concise paragraph (50-80 words) telling the story of executive action on this theme: what policies presidents pursued and how approaches differed across administrations. Don't list presidents and counts - explain what was done and why it matters.
+2. "potential_impact" - One concise paragraph (50-80 words) narratively describing who these orders aimed to affect and what concerns observers raised. Don't list populations - tell the story of who stands to gain or lose.
 
-Example format:
-{"summary": "Summary paragraph here.", "potential_impact": "Potential impact paragraph here."}`;
+BAD example (too listy): "This theme covers 45 orders. Trump signed 25 orders on this topic, Biden signed 20. Populations affected include businesses, workers, and consumers."
+
+GOOD example: "Immigration policy has been shaped by sharply contrasting visions across administrations. The Trump administration focused on border enforcement and interior deportation, with orders expanding detention capacity and restricting asylum pathways. The Biden administration largely reversed course, halting wall construction and directing agencies to review enforcement priorities..."
+
+Return JSON with "summary" and "potential_impact" fields:`;
 
   const userPrompt = `Analyze the ${orderCount} executive orders tagged with the "${themeName}" theme based on this data:
 
@@ -912,7 +996,7 @@ Return JSON with "summary" and "potential_impact" fields:`;
       { role: 'user', content: userPrompt }
     ],
     temperature: 0.7,
-    max_completion_tokens: 400,
+    max_completion_tokens: 350,
     response_format: { type: 'json_object' }
   });
 
@@ -957,7 +1041,7 @@ export async function generateThemeNarratives(options: {
   // Load existing narratives to support incremental generation
   const existingFile = await loadExistingThemeNarratives();
   const existingNarratives = existingFile?.narratives || [];
-  const existingKeys = new Set(existingNarratives.map(n => n.theme_id));
+  const existingByKey = new Map(existingNarratives.map(n => [n.theme_id, n]));
 
   // Group orders by theme
   const byTheme = new Map<string, EnrichedExecutiveOrder[]>();
@@ -987,12 +1071,6 @@ export async function generateThemeNarratives(options: {
   let skipped = 0;
 
   for (const themeId of themeIds) {
-    // Skip if already exists (unless force)
-    if (!options.force && existingKeys.has(themeId)) {
-      skipped++;
-      continue;
-    }
-
     const themeOrders = byTheme.get(themeId)!;
     const theme = themes.themes.find(t => t.id === themeId);
     const themeName = theme?.name || themeId;
@@ -1000,6 +1078,18 @@ export async function generateThemeNarratives(options: {
     // Skip themes with very few orders
     if (themeOrders.length < 2) {
       continue;
+    }
+
+    const existingNarrative = existingByKey.get(themeId);
+
+    // Skip if already exists and not stale (unless force)
+    if (!options.force && existingNarrative) {
+      const stale = isNarrativeStale(existingNarrative.generated_at, themeOrders);
+      if (!stale) {
+        skipped++;
+        continue;
+      }
+      console.log(`\n"${themeName}" is stale - regenerating...`);
     }
 
     console.log(`\nGenerating narrative for "${themeName}"...`);
@@ -1088,15 +1178,148 @@ export async function generateThemeNarratives(options: {
 // MAIN ENTRY POINT
 // =============================================================================
 
-export type NarrativeType = 'term' | 'monthly' | 'theme' | 'all';
+export type NarrativeType = 'term' | 'quarterly' | 'theme' | 'all';
 
 export interface GenerateNarrativesOptions {
   type?: NarrativeType;
   president?: string;
   year?: number;
-  month?: number;
+  quarter?: number;
   theme?: string;
   force?: boolean;
+  check?: boolean;
+}
+
+export interface StaleNarrativeReport {
+  term: { key: string; name: string; reason: string }[];
+  quarterly: { key: string; name: string; reason: string }[];
+  theme: { key: string; name: string; reason: string }[];
+}
+
+/**
+ * Check which narratives need updating (are stale or missing)
+ */
+export async function checkNarratives(options: {
+  type?: NarrativeType;
+} = {}): Promise<StaleNarrativeReport> {
+  const type = options.type || 'all';
+  const report: StaleNarrativeReport = { term: [], quarterly: [], theme: [] };
+
+  const orders = await loadAllEnriched();
+  if (orders.length === 0) {
+    console.log('No enriched orders found.');
+    return report;
+  }
+
+  const themes = await loadThemes();
+
+  // Check term narratives
+  if (type === 'term' || type === 'all') {
+    const existingFile = await loadExistingTermNarratives();
+    const existingNarratives = existingFile?.narratives || [];
+    const existingByKey = new Map(
+      existingNarratives.map(n => [`${n.president_id}-${n.term_start}`, n])
+    );
+
+    const terms = detectPresidentTerms(orders);
+    for (const [presidentId, presTerms] of terms) {
+      for (const term of presTerms) {
+        const officialTerms = OFFICIAL_TERMS[presidentId];
+        const officialTerm = officialTerms?.find(t =>
+          new Date(t.start).getFullYear() === term.start
+        );
+
+        const termOrders = orders.filter(o => {
+          if (o.president.identifier !== presidentId) return false;
+          if (officialTerm) {
+            const orderDate = new Date(o.signing_date);
+            const startDate = new Date(officialTerm.start);
+            const endDate = officialTerm.end ? new Date(officialTerm.end) : new Date('2099-12-31');
+            return orderDate >= startDate && orderDate < endDate;
+          } else {
+            const year = new Date(o.signing_date).getFullYear();
+            const endYear = term.end || new Date().getFullYear() + 1;
+            return year >= term.start && year < endYear;
+          }
+        });
+
+        if (termOrders.length === 0) continue;
+
+        const termKey = `${presidentId}-${term.start}`;
+        const termEnd = term.end || 'present';
+        const existingNarrative = existingByKey.get(termKey);
+
+        if (!existingNarrative) {
+          report.term.push({ key: termKey, name: `${term.name} (${term.start}-${termEnd})`, reason: 'missing' });
+        } else if (isNarrativeStale(existingNarrative.generated_at, termOrders)) {
+          report.term.push({ key: termKey, name: `${term.name} (${term.start}-${termEnd})`, reason: 'stale' });
+        }
+      }
+    }
+  }
+
+  // Check quarterly narratives
+  if (type === 'quarterly' || type === 'all') {
+    const existingFile = await loadExistingQuarterlyNarratives();
+    const existingNarratives = existingFile?.narratives || [];
+    const existingByKey = new Map(
+      existingNarratives.map(n => [`${n.year}-${n.quarter}`, n])
+    );
+
+    const byQuarter = new Map<string, EnrichedExecutiveOrder[]>();
+    for (const order of orders) {
+      const date = new Date(order.signing_date);
+      const year = date.getFullYear();
+      const quarter = getQuarterFromMonth(date.getMonth() + 1);
+      const key = `${year}-${quarter}`;
+      if (!byQuarter.has(key)) byQuarter.set(key, []);
+      byQuarter.get(key)!.push(order);
+    }
+
+    for (const [key, quarterOrders] of byQuarter) {
+      const [yearStr, quarterStr] = key.split('-');
+      const quarterName = `Q${quarterStr} ${yearStr}`;
+      const existingNarrative = existingByKey.get(key);
+
+      if (!existingNarrative) {
+        report.quarterly.push({ key, name: quarterName, reason: 'missing' });
+      } else if (isNarrativeStale(existingNarrative.generated_at, quarterOrders)) {
+        report.quarterly.push({ key, name: quarterName, reason: 'stale' });
+      }
+    }
+  }
+
+  // Check theme narratives
+  if (type === 'theme' || type === 'all') {
+    const existingFile = await loadExistingThemeNarratives();
+    const existingNarratives = existingFile?.narratives || [];
+    const existingByKey = new Map(existingNarratives.map(n => [n.theme_id, n]));
+
+    const byTheme = new Map<string, EnrichedExecutiveOrder[]>();
+    for (const order of orders) {
+      for (const themeId of order.enrichment.theme_ids) {
+        if (!byTheme.has(themeId)) byTheme.set(themeId, []);
+        byTheme.get(themeId)!.push(order);
+      }
+    }
+
+    for (const [themeId, themeOrders] of byTheme) {
+      // Skip themes with fewer than 2 orders (same as generation)
+      if (themeOrders.length < 2) continue;
+
+      const theme = themes.themes.find(t => t.id === themeId);
+      const themeName = theme?.name || themeId;
+      const existingNarrative = existingByKey.get(themeId);
+
+      if (!existingNarrative) {
+        report.theme.push({ key: themeId, name: themeName, reason: 'missing' });
+      } else if (isNarrativeStale(existingNarrative.generated_at, themeOrders)) {
+        report.theme.push({ key: themeId, name: themeName, reason: 'stale' });
+      }
+    }
+  }
+
+  return report;
 }
 
 /**
@@ -1104,6 +1327,44 @@ export interface GenerateNarrativesOptions {
  */
 export async function generateNarratives(options: GenerateNarrativesOptions = {}): Promise<void> {
   const type = options.type || 'all';
+
+  // Check mode - report what needs updating without regenerating
+  if (options.check) {
+    console.log('\n=== Checking for Stale Narratives ===\n');
+    const report = await checkNarratives({ type });
+
+    const totalStale = report.term.length + report.quarterly.length + report.theme.length;
+
+    if (totalStale === 0) {
+      console.log('All narratives are up to date!');
+      return;
+    }
+
+    if (report.term.length > 0) {
+      console.log(`Term narratives (${report.term.length}):`);
+      for (const item of report.term) {
+        console.log(`  - ${item.name} [${item.reason}]`);
+      }
+    }
+
+    if (report.quarterly.length > 0) {
+      console.log(`\nQuarterly narratives (${report.quarterly.length}):`);
+      for (const item of report.quarterly) {
+        console.log(`  - ${item.name} [${item.reason}]`);
+      }
+    }
+
+    if (report.theme.length > 0) {
+      console.log(`\nTheme narratives (${report.theme.length}):`);
+      for (const item of report.theme) {
+        console.log(`  - ${item.name} [${item.reason}]`);
+      }
+    }
+
+    console.log(`\nTotal: ${totalStale} narrative(s) need updating.`);
+    console.log('Run without --check to regenerate stale narratives.');
+    return;
+  }
 
   if (type === 'term' || type === 'all') {
     await generateTermNarratives({
@@ -1113,10 +1374,10 @@ export async function generateNarratives(options: GenerateNarrativesOptions = {}
     });
   }
 
-  if (type === 'monthly' || type === 'all') {
-    await generateMonthlyNarratives({
+  if (type === 'quarterly' || type === 'all') {
+    await generateQuarterlyNarratives({
       year: options.year,
-      month: options.month,
+      quarter: options.quarter,
       force: options.force
     });
   }

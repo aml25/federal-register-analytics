@@ -13,26 +13,27 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-12-27/pdf/2024-31354.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/12/27/2024-31354.txt",
   "enrichment": {
-    "summary": "This executive order updates the Manual for Courts-Martial of the United States by prescribing amendments to specific parts and rules. It also mandates randomized selection of qualified personnel for court-martial membership to enhance fairness and transparency, with certain amendments taking effect on specified dates and protections ensuring no retroactive punishment.",
+    "summary": "This executive order updates the rules in the Manual for Courts-Martial, the guide used for military legal proceedings. It specifically prescribes new amendments and establishes a regulation for randomly selecting court-martial members to enhance fairness. The order also sets different effective dates for certain amendments and clarifies how they apply to ongoing or prior military legal actions.",
     "theme_ids": [
-      "criminal-justice-enforcement",
-      "military-personnel-policy",
-      "federal-agency-management"
+      "military-readiness-force-structure",
+      "criminal-justice-reform"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "armed-forces-personnel"
+        "military-personnel-active-duty",
+        "veterans"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "defendants-accused-persons"
+      ]
     },
     "potential_concerns": [
-      "Randomized selection of court-martial members may face implementation challenges in maintaining uniformity across military services.",
-      "Changes to court-martial rules could create uncertainty or procedural complications for ongoing cases.",
-      "Certain amendments taking effect on different dates may cause confusion in applying rules during transition periods.",
-      "The lack of an accessible abstract and detailed annexes limits transparency for service members and legal practitioners.",
-      "Potential resource burdens on military legal offices to train personnel and adjust processes to comply with the new randomized selection regulation."
+      "The regulation mandating randomized selection of court-martial members may improve fairness but could face resistance from military leadership concerned about the impact on traditional court-martial panel compositions, affecting military-personnel-active-duty.",
+      "Amendments to the Manual for Courts-Martial could create confusion or delays in ongoing cases if not clearly implemented, negatively impacting defendants-accused-persons who might face uncertainty in their legal proceedings.",
+      "Changes intended to enhance criminal-justice reform within the military justice system may unintentionally strain military readiness if extended court-martial processes reduce operational focus or availability of personnel (military-personnel-active-duty).",
+      "Veterans observing amendments reflecting fairness improvements might view the changes positively, but any perceived inconsistency in legal standards' retroactive application could raise concerns about justice and fairness."
     ],
-    "enriched_at": "2025-12-09T01:36:23.142Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:39:52.911Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

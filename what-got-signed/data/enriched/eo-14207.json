@@ -13,28 +13,26 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-14/pdf/2025-02734.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/14/2025-02734.txt",
   "enrichment": {
-    "summary": "This executive order directs the elimination of the Federal Executive Institute, a government program providing leadership training for federal bureaucrats. The order revokes existing authorities that established the Institute and tasks the Office of Personnel Management with carrying out its closure, aiming to reduce bureaucracy and better focus government resources on serving taxpayers.",
+    "summary": "This executive order directs the elimination of the Federal Executive Institute, a government program that provides leadership training to federal employees. The order revokes previous directives establishing the Institute and aims to reduce federal bureaucracy, focusing government efforts more directly on serving taxpayers and constitutional priorities.",
     "theme_ids": [
-      "federal-agency-management",
-      "federal-workforce",
-      "regulatory-reform"
+      "government-efficiency",
+      "regulatory-reform-deregulation",
+      "revocation-of-previous-executive-orders",
+      "federal-workforce-management"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "federal-employees"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "displaced-federal-workers"
+        "federal-employees-civil-servants"
       ]
     },
     "potential_concerns": [
-      "Eliminating leadership training programs may weaken professional development and the effectiveness of the federal workforce.",
-      "Displaced federal employees may face job loss or challenges in reemployment due to program closure.",
-      "The loss of institutional knowledge and networking opportunities provided by the Federal Executive Institute could reduce government cohesion.",
-      "Implementation timelines and legal compliance for eliminating the institute could face administrative delays or resistance.",
-      "Critics may argue that the order undermines efforts to improve government leadership and citizen service by targeting a long-standing training institution."
+      "Eliminating the Federal Executive Institute may reduce access to leadership training for federal employees, potentially degrading career advancement and management quality within the federal workforce.",
+      "Dismantling an institution that focuses on bureaucratic leadership could unintentionally weaken organizational competence and institutional knowledge, negatively impacting effective federal workforce management.",
+      "The revocation of previous executive orders establishing the Institute might create administrative uncertainty or gaps in leadership development unless alternative training programs are implemented.",
+      "Without equivalent leadership development programs, the order risks fostering a less prepared federal managerial class, which may harm long-term government efficiency and service delivery."
     ],
-    "enriched_at": "2025-12-09T02:40:49.000Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:28:41.161Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

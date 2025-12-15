@@ -13,27 +13,29 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-26/pdf/2025-16396.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/26/2025-16396.txt",
   "enrichment": {
-    "summary": "This executive order creates a national initiative called \"America by Design\" to improve the usability and aesthetic quality of federal government digital and physical services. It establishes a National Design Studio and a Chief Design Officer to lead efforts in updating government websites and service sites, aiming to deliver modern, user-friendly, and beautiful experiences for all Americans by mid-2026.",
+    "summary": "This executive order creates a national initiative called \"America by Design\" to improve the look and usability of federal government websites and physical services. It establishes a National Design Studio and a Chief Design Officer to lead efforts in making government services more user-friendly, attractive, and efficient for the American public.",
     "theme_ids": [
-      "technology-development",
-      "federal-workforce",
-      "federal-property-management"
+      "government-efficiency",
+      "federal-workforce-management",
+      "government-it-modernization",
+      "federal-hiring"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry",
-        "design-professionals"
+        "federal-employees-civil-servants",
+        "technology-workers",
+        "working-age-adults",
+        "consumers"
       ],
       "negative_ids": []
     },
     "potential_concerns": [
-      "The initiative may face challenges recruiting and retaining top design talent within federal pay and bureaucratic constraints.",
-      "Focusing on aesthetics and design upgrades could divert resources from other critical government IT modernization needs.",
-      "Standardizing design across agencies might limit customization needed to address unique agency mission requirements.",
-      "The temporary nature of the National Design Studio may lead to loss of momentum or discontinuity after three years.",
-      "Ensuring compliance with existing laws like the 21st Century Integrated Digital Experience Act could complicate implementation timelines."
+      "The prioritization of recruiting top private sector design talent under the America by Design initiative may exacerbate competition for technology workers, impacting federal hiring and workforce dynamics.",
+      "Efforts to implement standardized and modernized design across federal agencies could unintentionally create accessibility barriers or usability issues for individuals with disabilities or less tech-savvy working-age adults if not carefully tested.",
+      "The establishment of a temporary National Design Studio organization might lead to fragmentation or duplication of efforts without clear long-term funding and authority, risking inefficient use of resources intended to improve government IT modernization.",
+      "Heads of agencies may face challenges meeting the tight timeline for initial results by July 4, 2026, potentially delaying benefits to consumers relying on critical federal websites and physical services."
     ],
-    "enriched_at": "2025-12-09T02:47:23.654Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:02:32.352Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

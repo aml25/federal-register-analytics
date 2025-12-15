@@ -13,31 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-11/pdf/2025-02513.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/11/2025-02513.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to ensure that men are not allowed to compete in women’s sports at educational institutions receiving federal funding, emphasizing fairness, safety, and privacy for female athletes. It calls for rescinding funding from programs that permit male participation in women’s sports, coordinating with states and international bodies to promote sex-based sports categories, and restricting entry to the U.S. for males seeking to compete in women’s sports.",
+    "summary": "This executive order directs federal agencies to ensure that men are not allowed to compete in women's sports in educational programs that receive federal funding. It emphasizes protecting women and girls' opportunities, safety, and fairness in sports, enforces Title IX rights for females, and encourages domestic and international policies preserving sex-based sports categories.",
     "theme_ids": [
-      "education-policy",
-      "sports-policy",
-      "immigration-enforcement",
-      "foreign-policy",
-      "public-safety"
+      "title-ix",
+      "gender-equality",
+      "immigration-enforcement-interior",
+      "united-nations-policy"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "female-athletes"
+        "women",
+        "college-university-students"
       ],
       "negative_ids": [
-        "transgender-athletes",
-        "students-in-federally-funded-schools"
+        "transgender-individuals",
+        "lgbtq-individuals",
+        "visa-holders-work-student-tourist",
+        "foreign-nationals-general",
+        "educational-institutions"
       ]
     },
     "potential_concerns": [
-      "The order may face legal challenges regarding discrimination against transgender individuals and interpretation of Title IX protections.",
-      "Implementation could lead to inconsistencies among states and educational institutions in enforcement and funding decisions.",
-      "International relations might be strained due to U.S. efforts to influence global sports policies and restrict foreign athletes’ participation.",
-      "Restricting visas based on sports participation could raise civil liberties and immigration fairness issues.",
-      "There is potential for adverse mental health impacts on transgender athletes excluded from sports opportunities."
+      "The order’s enforcement against transgender individuals in women’s sports could lead to discrimination and exclusion contrary to LGBTQ+ rights and protections under Title IX.",
+      "Restriction on visa holders and foreign nationals participating in women’s sports may create diplomatic tensions and complicate international student-athlete admissions.",
+      "The rescission of federal funding from educational institutions failing to comply may reduce sports opportunities or resources for all students, potentially impacting educational institutions broadly.",
+      "Strict biological sex-based definitions may create legal challenges and enforcement complexity for institutions trying to comply, especially involving transgender athletes’ privacy and participation rights.",
+      "International diplomacy efforts to pressure global sports organizations to enforce sex-based categories could result in pushback from international organizations and harm U.S. leadership in sports governance."
     ],
-    "enriched_at": "2025-12-09T02:40:34.546Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:29:32.182Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

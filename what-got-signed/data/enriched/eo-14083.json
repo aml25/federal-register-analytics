@@ -13,30 +13,33 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-09-20/pdf/2022-20450.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/09/20/2022-20450.txt",
   "enrichment": {
-    "summary": "This executive order directs the Committee on Foreign Investment in the United States to enhance its review processes to better identify and address evolving national security risks posed by foreign investments. It emphasizes safeguarding critical technologies, supply chains, sensitive data, and cybersecurity from potential threats associated with investments by foreign adversaries or countries of special concern.",
+    "summary": "This executive order directs the Committee on Foreign Investment in the United States (CFIUS) to strengthen how it reviews foreign investments for national security risks. It emphasizes assessing risks related to critical supply chains, emerging technologies, cybersecurity, and sensitive personal data, ensuring that investments by foreign persons do not threaten U.S. security as risks evolve over time.",
     "theme_ids": [
-      "national-security",
-      "supply-chain-security",
-      "privacy-and-data-security",
-      "technology-development",
-      "trade-policy"
+      "foreign-investment-cfius",
+      "critical-minerals-supply-chain-security",
+      "cybersecurity-national-security",
+      "artificial-intelligence",
+      "biotechnology-biomanufacturing"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "investment-entities"
+        "security-clearance-holders",
+        "defense-industry-workers",
+        "technology-workers"
       ],
       "negative_ids": [
-        "foreign-investors-in-countries-of-concern"
+        "corporations-businesses",
+        "foreign-government-officials"
       ]
     },
     "potential_concerns": [
-      "Increased scrutiny may slow down or deter beneficial foreign investments, potentially impacting economic growth.",
-      "Determining which foreign entities pose unacceptable risks could lead to inconsistent or subjective decisions.",
-      "Expanding review criteria may impose additional compliance costs on businesses and overwhelm the Committee’s capacity.",
-      "The focus on sensitive data and advanced technologies may raise concerns about privacy and trade secrets among companies.",
-      "Close collaboration with allies on supply chains could be complicated by differing national security priorities and regulatory frameworks."
+      "Strengthened CFIUS review may delay or block foreign investments, negatively impacting corporations-businesses reliant on foreign capital, particularly in emerging technology sectors like artificial intelligence and biotechnology.",
+      "Enhanced scrutiny of foreign persons with relevant third-party ties could disproportionately affect foreign-government-officials and foreign investors from specific countries, potentially escalating geopolitical tensions.",
+      "Heightened focus on cybersecurity and sensitive data access could impose additional regulatory burdens on defense-industry-workers and technology-workers, potentially slowing innovation and industry responsiveness.",
+      "Aggregate review of incremental transactions could create uncertainty for corporations-businesses pursuing phased investments, complicating long-term strategic planning and international partnerships.",
+      "The increased oversight on critical supply chains may benefit security-clearance-holders by enhancing national security but might also indirectly impact working conditions or project timelines in defense and technology sectors."
     ],
-    "enriched_at": "2025-12-09T03:46:07.384Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T02:33:24.550Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -13,31 +13,37 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-04-19/pdf/2021-08098.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/04/19/2021-08098.txt",
   "enrichment": {
-    "summary": "This executive order blocks property and restricts financial dealings of individuals and entities connected to harmful actions by the Russian government, including interference in elections, cyber attacks, corruption, and threats to security. It also restricts entry into the U.S. for certain individuals tied to these activities and authorizes government agencies to enforce these sanctions to address a national security threat.",
+    "summary": "This executive order blocks property and prohibits transactions with certain individuals and entities connected to harmful activities by the Russian government, such as election interference, cyberattacks, corruption, and efforts to undermine security. It also restricts their entry into the United States and authorizes the Treasury and State Departments to enforce these sanctions to protect U.S. national security and foreign policy interests.",
     "theme_ids": [
-      "national-security",
-      "foreign-policy",
-      "trade-policy",
-      "cybersecurity-policy",
-      "investment-restrictions"
+      "economic-sanctions",
+      "foreign-election-interference",
+      "cybersecurity-national-security",
+      "russia",
+      "travel-restrictions-bans"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "regional-stability-actors",
-        "patriotic-citizens"
+        "u-s-citizens",
+        "lawful-permanent-residents-green-card-holders",
+        "naturalized-citizens"
       ],
       "negative_ids": [
-        "sanctioned-persons-and-affiliates"
+        "citizens-of-specific-countries-by-eo-designation",
+        "corporations-businesses",
+        "technology-workers",
+        "cybersecurity-professionals",
+        "visa-holders-work-student-tourist",
+        "foreign-government-officials"
       ]
     },
     "potential_concerns": [
-      "Sanctions may unintentionally impact innocent individuals or businesses with indirect ties to designated persons, causing economic disruption.",
-      "Enforcement complexities could arise in accurately identifying and tracking entities and individuals, especially with efforts to evade sanctions using digital currencies or complex ownership structures.",
-      "Restrictions on entry may raise concerns about due process or diplomatic retaliation from allied governments.",
-      "Overly broad definitions of prohibited activities risk capturing legitimate technological or commercial activities, potentially harming U.S.-Russia economic engagement where not intended.",
-      "The order could increase geopolitical tensions and provoke retaliatory measures from the Russian Federation, complicating diplomatic relations."
+      "The executive order's blocking of property and transactions with Russian entities in the technology and defense sectors may disrupt global supply chains, negatively impacting U.S.-based technology workers and cybersecurity professionals.",
+      "Travel restrictions on Russian nationals and visa holders could affect families, students, and businesses, leading to unintended diplomatic and economic consequences for lawful permanent residents and naturalized citizens with ties to Russia.",
+      "The broad criteria for designation, including indirect support or association with harmful activities, may lead to overreach affecting corporations and individuals not directly involved, raising concerns about due process for affected U.S. persons and foreign nationals.",
+      "Sanction enforcement may complicate digital currency and asset transactions, potentially harming cryptocurrency holders and financial entities engaged in cross-border operations related to Russian interests.",
+      "The order's focus on combating foreign election interference and cyberattacks aims to protect U.S. national security and citizens but could escalate tensions with Russia, prompting retaliatory cyber or political measures that affect U.S. citizens and allied partners."
     ],
-    "enriched_at": "2025-12-09T03:55:29.778Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T07:33:23.802Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

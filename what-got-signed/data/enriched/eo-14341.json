@@ -13,31 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-28/pdf/2025-16616.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/28/2025-16616.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to prioritize enforcing laws against burning the American flag when such acts incite violence or violate other laws. It authorizes prosecuting offenders to the fullest extent allowed, including denying or revoking immigration benefits for foreign nationals who desecrate the flag in these harmful ways. The order aims to restore respect for the American flag and includes referral to state or local authorities when appropriate.",
+    "summary": "This executive order directs the federal government to prioritize prosecuting individuals who desecrate the American Flag, particularly when such acts incite violence or violate other laws. It also authorizes denying or revoking immigration benefits for foreign nationals who engage in flag desecration under certain circumstances. The goal is to restore respect for the flag and prevent violence linked to its desecration.",
     "theme_ids": [
-      "national-security",
-      "immigration-enforcement",
-      "public-safety",
-      "symbol-protection"
+      "homeland-security",
+      "hate-crimes",
+      "criminal-justice-reform",
+      "immigration-enforcement-interior"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "patriotic-citizens",
-        "state-and-local-law-enforcement"
+        "u-s-citizens",
+        "lawful-permanent-residents-green-card-holders",
+        "naturalized-citizens"
       ],
       "negative_ids": [
-        "protestors",
-        "foreign-nationals-engaged-in-desecration"
+        "foreign-nationals-general",
+        "visa-holders-work-student-tourist",
+        "undocumented-immigrants"
       ]
     },
     "potential_concerns": [
-      "The order may raise First Amendment free speech challenges given the contentious legal history of flag desecration protections.",
-      "Increased prosecution could disproportionately impact protestors and civil rights activists who use flag burning as a form of political expression.",
-      "Imposing immigration penalties on foreign nationals for flag desecration could complicate diplomatic relations and raise legal due process questions.",
-      "Referral to state and local authorities could result in inconsistent enforcement depending on local law variations and priorities.",
-      "The broad language regarding incitement and violence might lead to subjective interpretation, creating risks of overreach or selective enforcement."
+      "Prioritizing prosecution of flag desecration may lead to disproportionate enforcement against lawful permanent residents and naturalized citizens engaging in protected political expression under the First Amendment, implicating criminal-justice-reform concerns.",
+      "Denying or revoking immigration benefits for foreign nationals who desecrate the flag risks conflating political expression with unlawful behavior, potentially violating constitutional protections and harming visa holders and undocumented immigrants.",
+      "The focus on flag desecration as a national security threat could result in selective criminalization or profiling of minority immigrant communities, raising concerns related to homeland security and hate crimes against foreign nationals and naturalized citizens.",
+      "Ambiguity in distinguishing lawful protest from incitement of violence may lead to uneven application of laws across demographic groups, risking civil rights violations among U.S. citizens from diverse racial and ethnic backgrounds."
     ],
-    "enriched_at": "2025-12-09T02:47:31.038Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:02:03.758Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -13,30 +13,28 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-07-22/pdf/2024-16225.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/07/22/2024-16225.txt",
   "enrichment": {
-    "summary": "This executive order establishes a White House Initiative to support Hispanic-Serving Institutions (HSIs) by increasing their access to federal resources, improving educational equity and economic opportunities for Hispanic and Latino students, and creating a presidential advisory board to guide federal policies benefitting these institutions. The initiative aims to strengthen HSIs’ capacity to serve their communities and ensure students can succeed academically and economically.",
+    "summary": "This executive order establishes a White House Initiative to support Hispanic-Serving Institutions (HSIs) by increasing their access to federal resources, improving their capacity to deliver quality education, and promoting economic opportunities for Hispanic and Latino students. It also creates a President's Board of Advisors to provide guidance on policies that enhance the success and visibility of these institutions.",
     "theme_ids": [
-      "education-policy",
-      "workforce-development",
-      "economic-development",
-      "advisory-committees-management"
+      "higher-education",
+      "educational-excellence-initiatives-by-demographic",
+      "dei-diversity-equity-inclusion"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "hispanic-and-latino-students",
-        "hispanic-serving-institutions"
+        "hispanic-latino-americans",
+        "college-university-students",
+        "low-income-individuals-families",
+        "educational-institutions"
       ],
-      "negative_ids": [
-        "non-hispanic-serving-institutions"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "The focus on HSIs may lead to funding and resource shifts that unintentionally reduce support for non-HSI institutions, creating competition or resentment.",
-      "Coordination across multiple federal agencies could complicate implementation and delay impact due to bureaucratic challenges.",
-      "Without sustained and increased appropriations, the Initiative’s goals may be difficult to achieve, limiting meaningful improvements for HSIs.",
-      "Establishing advisory boards and new administrative structures may increase federal administrative costs without clear accountability or measurable outcomes.",
-      "Efforts to align HSI programs with national economic needs might pressure institutions to prioritize workforce demands over broader educational goals."
+      "Implementation challenges may arise if HSIs are unable to fully access or compete for federal resources due to existing bureaucratic barriers, potentially limiting the policy's impact on Hispanic and Latino college students from low-income backgrounds.",
+      "There could be unintended disparities created between HSIs and non-HSIs in federal funding allocation, possibly fostering perceptions of inequity among broader higher education communities.",
+      "The focus on increasing STEM and bilingual education opportunities at HSIs may strain institutional capacity and resources, affecting the quality of programs and student outcomes if not matched by adequate funding increases.",
+      "Without sufficient oversight, increased federal resource access might not translate into improved educational equity for low-income Hispanic and Latino students if institutional structures fail to effectively implement evidence-based practices."
     ],
-    "enriched_at": "2025-12-09T01:35:59.397Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:40:32.569Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

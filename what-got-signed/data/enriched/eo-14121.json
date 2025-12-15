@@ -13,28 +13,36 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-04-01/pdf/2024-06931.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/04/01/2024-06931.txt",
   "enrichment": {
-    "summary": "This executive order directs the federal government to better recognize and honor the history and contributions of women and girls throughout U.S. history, especially through national parks and historic sites. It requires studies and reports to identify existing gaps and opportunities to highlight women’s diverse roles, ensuring a more complete and inclusive story is told.",
+    "summary": "This executive order directs the federal government to better recognize and honor the contributions of women and girls throughout American history by assessing and highlighting related historic sites and cultural landmarks. It calls for studies and reports to improve representation of diverse women’s histories in national parks and museums, and seeks recommendations to enhance awareness and preservation of women’s roles across various fields.",
     "theme_ids": [
-      "gender-history-recognition",
-      "public-lands-management",
-      "advisory-committees-management",
-      "federal-agency-management"
+      "gender-equality",
+      "dei-diversity-equity-inclusion",
+      "historical-commemorations",
+      "national-monuments-antiquities",
+      "museums-libraries-cultural-institutions"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "women-and-girls",
-        "diverse-historical-communities"
+        "women",
+        "native-americans-indigenous-peoples",
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "asian-americans",
+        "lgbtq-individuals",
+        "children-minors",
+        "public-school-communities",
+        "tribal-communities-reservations"
       ],
       "negative_ids": []
     },
     "potential_concerns": [
-      "The additional reporting and study requirements may strain the Interior Department and related agencies’ resources and budgets.",
-      "Focusing funding and attention on women’s history may divert resources from other important historic or cultural priorities.",
-      "There may be challenges ensuring truly intersectional and diverse representation of all women’s experiences, risking partial or uneven historical coverage.",
-      "Implementation could be slow or inconsistent across agencies, leading to delays in achieving the objectives of greater recognition.",
-      "Some stakeholders may dispute which figures or events merit inclusion, causing political or cultural controversy."
+      "Efforts to expand recognition of women’s history across diverse racial, ethnic, and LGBTQ+ communities may face challenges ensuring authentic and respectful representation without tokenism, potentially impacting women from minority groups.",
+      "Reallocating resources within the National Park System and cultural institutions to focus on women’s history might inadvertently reduce attention or funding for other underrepresented historical narratives important to specific racial or tribal communities.",
+      "Implementing intersectional theme studies could encounter difficulties in effectively engaging tribal communities and Indigenous populations, risking their histories being underrepresented or misrepresented.",
+      "Expanding historic designations and monuments highlighting women's history could lead to local controversies in certain communities, including rural or tribal areas, regarding site use or cultural sensitivity.",
+      "Educational institutions and youth, particularly public-school communities, may face uneven availability or delayed integration of new curricular materials related to enhanced women's history recognition, affecting equitable access to these educational benefits."
     ],
-    "enriched_at": "2025-12-09T01:35:48.534Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:40:53.107Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

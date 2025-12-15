@@ -13,27 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-28/pdf/2025-07378.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/28/2025-07378.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to stop enforcing and reconsider rules that hold employers and other entities legally liable for differences in outcomes related to race, sex, or similar characteristics when no intentional discrimination is found. It promotes a policy focused on treating individuals equally based on merit rather than group characteristics, aiming to eliminate what it calls 'disparate-impact liability' across federal civil rights enforcement. The order also requires review and revision of existing regulations and ongoing enforcement actions to align with this merit-based approach.",
+    "summary": "This executive order seeks to eliminate the use of disparate-impact liability, which holds individuals or businesses liable for unintentional discrimination based on outcome disparities among racial, sex, or other groups. It directs federal agencies to deprioritize enforcement and revise regulations that rely on this theory, promoting merit-based decisions and equal treatment of individuals without regard to immutable characteristics such as race or sex.",
     "theme_ids": [
-      "regulatory-reform",
-      "federal-agency-management"
+      "civil-rights-enforcement",
+      "employment-discrimination",
+      "regulatory-reform-deregulation",
+      "anti-discrimination"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "private-sector-employers"
+        "non-union-workers",
+        "corporations-businesses"
       ],
       "negative_ids": [
-        "diverse-student-populations"
+        "african-americans-black-americans",
+        "women",
+        "hispanic-latino-americans",
+        "working-age-adults"
       ]
     },
     "potential_concerns": [
-      "Eliminating disparate-impact liability may weaken protections against systemic discrimination faced by marginalized groups.",
-      "Federal agencies may struggle with consistent implementation, causing legal uncertainty and uneven civil rights enforcement.",
-      "This policy shift could lead to increased litigation challenging the constitutionality of disparate-impact approaches.",
-      "Employers and service providers may face confusion about compliance obligations amid changing enforcement priorities.",
-      "Reduced emphasis on group-based disparities risks undermining efforts to address historic and structural inequities."
+      "Eliminating disparate-impact liability may reduce protections against systemic discrimination for African Americans, women, and Hispanic/Latino Americans, undermining civil-rights-enforcement and employment-discrimination safeguards.",
+      "The order's emphasis on 'merit-based' decisions without consideration of outcome disparities could inadvertently perpetuate existing inequities affecting working-age adults from historically marginalized groups.",
+      "Corporations and non-union workers might benefit from increased hiring flexibility, but this could result in fewer inclusive hiring practices and reduced accountability for discriminatory effects under regulatory-reform-deregulation.",
+      "Deprioritizing enforcement of disparate-impact liability could lead to diminished legal recourse for victims of unintentional discrimination, weakening anti-discrimination protections in employment and housing sectors."
     ],
-    "enriched_at": "2025-12-09T02:44:28.122Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:18:36.359Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

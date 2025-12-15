@@ -13,28 +13,28 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-18/pdf/2025-06835.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/18/2025-06835.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to prioritize purchasing commercially available products and services when possible, to save taxpayer money and incorporate private sector innovations into government procurement. It requires agencies to review and justify any purchases of custom, non-commercial solutions and report on their compliance with these rules.",
+    "summary": "This executive order directs federal agencies to prioritize buying commercially available products and services whenever possible, rather than custom-developed government-unique solutions. It requires agencies to review ongoing contracts to ensure they follow these policies and to justify any exceptions, aiming to reduce unnecessary government spending and encourage cost-effective purchasing.",
     "theme_ids": [
-      "federal-agency-management",
-      "regulatory-reform",
-      "federal-procurement-policy"
+      "government-efficiency",
+      "economic-competitiveness",
+      "regulatory-reform-deregulation"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-contractors"
+        "federal-contractors",
+        "small-business-owners"
       ],
       "negative_ids": [
-        "foreign-manufacturers"
+        "federal-contractors"
       ]
     },
     "potential_concerns": [
-      "Strict emphasis on commercial products may limit flexibility for agencies requiring highly specialized or unique solutions.",
-      "Smaller or specialized contractors that develop custom solutions may face decreased federal contracting opportunities.",
-      "The administrative burden of reviewing and justifying non-commercial procurements could delay urgent or critical acquisitions.",
-      "Over-reliance on commercial products may increase cybersecurity risks if not carefully vetted for government use.",
-      "Implementation may face resistance from agencies accustomed to existing contracting practices and exceptions."
+      "The emphasis on commercially available solutions may disadvantage specialized federal contractors who develop custom government-unique systems, reducing their contract opportunities and revenue.",
+      "Small business owners might face challenges competing with large commercial vendors if agencies prioritize readily available commercial products, potentially limiting government contracting diversity.",
+      "The requirement for rigorous market research and justification of exceptions could delay procurement timelines and increase administrative burden, impacting timely project execution.",
+      "Mandating commercial solutions might limit innovation for highly specialized government needs that cannot be fully met by off-the-shelf products, potentially affecting mission-critical capabilities."
     ],
-    "enriched_at": "2025-12-09T02:43:54.495Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:19:57.058Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

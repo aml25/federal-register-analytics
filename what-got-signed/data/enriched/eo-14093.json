@@ -13,28 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-03-30/pdf/2023-06730.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/03/30/2023-06730.txt",
   "enrichment": {
-    "summary": "This executive order prohibits U.S. government agencies from using commercial spyware that poses significant security or counterintelligence risks or that could be misused by foreign governments or persons. It requires agencies to thoroughly evaluate spyware before procurement or operational use, coordinate intelligence assessments, and report on compliance while allowing limited exceptions for testing and criminal investigations.",
+    "summary": "This executive order prohibits U.S. government agencies from using commercial spyware that poses significant security or intelligence risks or could be misused by foreign governments. It establishes procedures for assessing, reporting, and coordinating the use and procurement of such spyware to protect national security while ensuring respect for human rights and democratic values.",
     "theme_ids": [
-      "national-security",
-      "foreign-policy",
-      "privacy-and-data-security",
-      "federal-procurement-policy"
+      "cybersecurity-national-security",
+      "intelligence-operations",
+      "interagency-coordination",
+      "human-rights-international"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "us-persons-with-sensitive-data",
-        "commercial-spyware-vendors"
+        "intelligence-community-personnel",
+        "law-enforcement-officers-federal",
+        "journalists-media-professionals",
+        "u-s-citizens"
       ],
-      "negative_ids": []
+      "negative_ids": [
+        "foreign-governments",
+        "foreign-government-officials"
+      ]
     },
     "potential_concerns": [
-      "Implementation complexity might delay or hinder the procurement of needed cybersecurity tools for legitimate government functions.",
-      "The broad criteria for risk could limit the availability of commercial spyware, reducing government operational capabilities in intelligence and law enforcement.",
-      "Foreign vendors and governments targeted by this order may retaliate with their own restrictions, potentially escalating international tensions.",
-      "Determining credible information and risk assessments could vary between agencies, leading to inconsistent application and possible loopholes.",
-      "The waiver provision could be controversial if perceived as allowing exceptions that undermine the order's security goals."
+      "The prohibition on commercial spyware use poses operational challenges for intelligence-community-personnel and federal law enforcement officers needing advanced surveillance tools to counter threats, potentially limiting their capabilities (themes: intelligence-operations, cybersecurity-national-security).",
+      "Restrictions on spyware procurement may slow rapid response efforts or intelligence sharing, creating interagency coordination difficulties, especially for agencies dependent on real-time data collection (theme: interagency-coordination).",
+      "While the order protects u-s-citizens and journalists-media-professionals from foreign surveillance abuses, it may inadvertently limit the government’s ability to investigate legitimate threats without complex waiver processes or delays (themes: human-rights-international, cybersecurity-national-security).",
+      "Foreign governments and officials adversely impacted by this order may resort to developing or acquiring alternative spyware, potentially escalating cyber countermeasures and undermining international cooperative norms (themes: cybersecurity-national-security, human-rights-international)."
     ],
-    "enriched_at": "2025-12-09T01:37:21.689Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:39:17.631Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

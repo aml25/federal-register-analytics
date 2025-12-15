@@ -13,32 +13,32 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-08-11/pdf/2023-17449.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/08/11/2023-17449.txt",
   "enrichment": {
-    "summary": "This executive order directs the Treasury Secretary to create rules requiring U.S. persons to report certain investments involving sensitive national security technologies in designated ‘countries of concern’ and prohibits transactions that could aid these countries' military and intelligence capabilities. It aims to prevent U.S. investments from unintentionally strengthening foreign adversaries’ critical technologies like semiconductors, AI, and quantum information technologies, by regulating and monitoring outbound financial flows and applying national security controls.",
+    "summary": "This executive order restricts certain U.S. investments that could help countries considered threats advance in sensitive military and surveillance technologies like semiconductors, quantum computing, and artificial intelligence. It requires notifications and prohibits specific transactions involving these technologies to protect U.S. national security, and establishes a process for updating and enforcing these rules over time.",
     "theme_ids": [
-      "national-security",
-      "foreign-policy",
-      "financial-regulation",
-      "technology-development",
-      "artificial-intelligence"
+      "foreign-investment-cfius",
+      "artificial-intelligence",
+      "quantum-computing-quantum-technology",
+      "cybersecurity-national-security",
+      "defense-industrial-base"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry",
-        "investment-entities"
+        "defense-industry-workers",
+        "technology-workers"
       ],
       "negative_ids": [
-        "foreign-entities-in-countries-of-concern",
-        "foreign-investors-in-countries-of-concern"
+        "corporations-businesses",
+        "investors",
+        "citizens-of-specific-countries-by-eo-designation"
       ]
     },
     "potential_concerns": [
-      "The order could impose significant compliance burdens and regulatory uncertainties on U.S. companies and investors involved in cross-border transactions.",
-      "There is a risk of retaliatory economic or diplomatic actions by countries of concern in response to investment restrictions.",
-      "Broad definitions of sensitive technologies might inadvertently hinder legitimate scientific collaboration and commercial innovation.",
-      "The effectiveness of the regulations depends heavily on interagency coordination and enforcement capabilities, which may be challenging to sustain.",
-      "Ambiguities in the scope of prohibited versus notifiable transactions could create legal uncertainty and complicate business planning."
+      "Restrictions on investments may hinder the global competitiveness and growth prospects of U.S. technology companies and investors engaged in international markets, impacting their economic performance.",
+      "Prohibiting certain transactions involving covered national security technologies could unintentionally disrupt collaboration and innovation pipelines, negatively affecting defense-industry-workers and technology-workers reliant on international partnerships.",
+      "The designation of specific countries of concern and restrictions targeting citizens of those countries may raise concerns about fairness and potential diplomatic friction, affecting international relations and trade.",
+      "Notification and compliance requirements could impose significant administrative burdens on corporations and investors, potentially deterring legitimate foreign investment and complicating capital flows in sensitive sectors."
     ],
-    "enriched_at": "2025-12-09T01:38:20.146Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-12T08:20:31.254Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -13,34 +13,35 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-03-11/pdf/2021-05183.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/03/11/2021-05183.txt",
   "enrichment": {
-    "summary": "This executive order establishes the White House Gender Policy Council to coordinate federal efforts to promote gender equity and equality across government policies and programs, both domestically and internationally. The Council will develop a government-wide strategy, provide recommendations, and work with various agencies to address issues such as gender-based violence, economic security, health care, education, and leadership opportunities for women and girls.",
+    "summary": "This executive order establishes the White House Gender Policy Council to coordinate federal efforts to promote gender equity and equality in the United States and globally. The Council will develop strategies, provide policy recommendations, and work across government agencies to address issues like discrimination, economic opportunity, healthcare, education, gender-based violence, and the impact of COVID-19 on women and girls.",
     "theme_ids": [
-      "equity-and-inclusion-policy",
-      "foreign-policy",
-      "federal-agency-management",
-      "caregiving-policy",
-      "public-health-promotion",
-      "economic-development",
-      "gender-history-recognition",
-      "women-health-research",
-      "labor-relations"
+      "gender-equality",
+      "worker-rights-protections",
+      "covid-19-response",
+      "foreign-aid",
+      "interagency-coordination"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "women-and-girls"
+        "women",
+        "working-age-adults",
+        "lgbtq-individuals",
+        "caregivers-non-military",
+        "domestic-violence-survivors",
+        "human-trafficking-victims",
+        "international-aid-recipients",
+        "foreign-government-officials"
       ],
-      "negative_ids": [
-        "none"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "The broad scope of the Council's responsibilities may lead to coordination challenges and overlap with existing federal agencies and initiatives.",
-      "Effectively addressing intersectional discrimination may require complex data collection and analysis, raising privacy and resource allocation concerns.",
-      "Implementation may face resistance from agencies due to differing priorities or limited agency budgets to support the Council’s goals.",
-      "Some stakeholders may view certain initiatives, especially related to gender identity or reproductive rights, as politically contentious.",
-      "Measuring progress and impact on gender equity across diverse sectors could prove difficult without clear benchmarks and enforcement mechanisms."
+      "Efforts to advance gender equity may face resistance or backlash within certain government agencies or private sectors, potentially limiting effective implementation for women, LGBTQ+ individuals, and caregivers.",
+      "The Council’s broad mandate, including global gender equity efforts, may dilute focus or resources from addressing urgent domestic issues affecting working-age women and marginalized groups.",
+      "Implementation challenges coordinating multiple agencies and interagency communication might delay critical responses to gender-based violence and caregiving support, negatively impacting domestic violence survivors and caregivers.",
+      "The emphasis on addressing COVID-19 impacts on women and girls may miss or inadequately serve intersectional populations such as women of color and LGBTQ+ individuals facing compounded disparities.",
+      "International aid tied to the Council’s global gender equality goals could be viewed as politicized by some foreign governments, potentially complicating diplomatic relations with foreign government officials."
     ],
-    "enriched_at": "2025-12-09T03:55:59.084Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T07:33:51.375Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

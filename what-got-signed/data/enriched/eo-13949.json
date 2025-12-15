@@ -1,0 +1,45 @@
+{
+  "document_number": "2020-21160",
+  "executive_order_number": "13949",
+  "title": "Blocking Property of Certain Persons With Respect to the Conventional Arms Activities of Iran",
+  "abstract": null,
+  "signing_date": "2020-09-21",
+  "publication_date": "2020-09-23",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/09/23/2020-21160/blocking-property-of-certain-persons-with-respect-to-the-conventional-arms-activities-of-iran",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-09-23/pdf/2020-21160.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/09/23/2020-21160.txt",
+  "enrichment": {
+    "summary": "This executive order blocks the property and restricts transactions of individuals and entities involved in Iran's conventional arms activities, including supplying, selling, or transferring arms and military equipment to or from Iran. It also suspends entry into the United States of such persons and authorizes the Treasury and State Departments to enforce these sanctions to counter Iran's destabilizing weapons trade in the Middle East.",
+    "theme_ids": [
+      "sanctions-country-specific",
+      "iran",
+      "military-readiness-force-structure",
+      "national-emergencies",
+      "travel-restrictions-bans"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "veterans"
+      ],
+      "negative_ids": [
+        "citizens-of-specific-countries-by-eo-designation",
+        "foreign-governments",
+        "corporations-businesses",
+        "visa-holders-work-student-tourist"
+      ]
+    },
+    "potential_concerns": [
+      "The sanctions may impede diplomatic engagement and conflict resolution efforts by restricting travel and financial transactions for visa holders and foreign officials from Iran, deepening regional tensions.",
+      "Restrictions on corporations doing business with Iranian arms-related entities might inadvertently hurt legitimate international companies and their employees not involved in illicit activities, causing economic spillovers.",
+      "The travel bans and property blocks could complicate USA military personnel's strategic planning and operational readiness by escalating Iran's adversarial posture, affecting active-duty members and veterans.",
+      "Implementation could lead to challenges in distinguishing between sanctioned entities and benign actors within Iran, potentially resulting in overcompliance or unintended penalties affecting foreign governments and businesses."
+    ],
+    "enriched_at": "2025-12-15T07:29:32.306Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

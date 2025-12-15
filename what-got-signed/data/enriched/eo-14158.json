@@ -13,31 +13,27 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-29/pdf/2025-02005.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/29/2025-02005.txt",
   "enrichment": {
-    "summary": "This executive order creates a new Department of Government Efficiency focused on modernizing federal technology and software to improve government productivity. It reorganizes and renames the existing United States Digital Service to the United States DOGE Service, establishes specialized teams across federal agencies, and mandates modernization initiatives for federal IT systems to promote interoperability and data integrity.",
+    "summary": "This executive order creates the Department of Government Efficiency to modernize federal technology and software, improving government operations and productivity. It restructures the U.S. Digital Service into the U.S. DOGE Service, establishes specialized teams in agencies to support this effort, and ensures agencies provide access to their systems for modernization work.",
     "theme_ids": [
-      "technology-development",
-      "federal-agency-management",
-      "data-governance",
-      "federal-workforce"
+      "government-efficiency",
+      "government-reorganization",
+      "government-it-modernization",
+      "interagency-coordination"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry",
-        "government-service-users"
+        "working-age-adults",
+        "technology-workers"
       ],
-      "negative_ids": [
-        "foreign-suppliers",
-        "displaced-federal-workers"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "The establishment of the U.S. DOGE Service Temporary Organization may create coordination challenges or overlap with existing agencies and services.",
-      "Mandated broad access by USDS to agency records and IT systems may raise privacy, security, and data protection risks despite stated safeguards.",
-      "The 18-month temporary organization timeline may create uncertainty about the continuity and long-term sustainability of modernization efforts.",
-      "Agencies may face hiring and resource challenges to form DOGE Teams within thirty days, potentially delaying implementation.",
-      "Displacement of prior executive orders and regulations could cause legal ambiguity and resistance within agencies accustomed to previous rules."
+      "The requirement for agencies to provide USDS full access to their IT systems may raise data privacy and security concerns, potentially affecting working-age adults who rely on government digital services.",
+      "The accelerated 18-month timeline for modernization could lead to rushed implementations, causing disruptions or decreased service quality impacting the broader working-age adult population.",
+      "Technology workers may face increased pressure to rapidly adapt to new interagency coordination protocols and systems integration, potentially straining workforce capacity and morale.",
+      "Interoperability mandates may unintentionally create vulnerabilities if legacy systems are integrated without thorough security vetting, risking sensitive government and citizen data."
     ],
-    "enriched_at": "2025-12-09T02:38:27.399Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:36:04.552Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -13,32 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-08-02/pdf/2023-16636.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/08/02/2023-16636.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to prioritize domestic manufacturing for technologies developed with government research funding, aiming to boost U.S. economic competitiveness, jobs, and national security. It requires better tracking and reporting of inventions’ manufacturing locations and strengthens the process for granting waivers to domestic manufacturing requirements under specific conditions.",
+    "summary": "This executive order directs federal agencies to prioritize domestic manufacturing when developing and commercializing new technologies funded by the government. It establishes reporting requirements for how inventions are used and produced, encourages coordination among agencies, and sets guidelines for waivers if manufacturing in the U.S. is not feasible, all to strengthen U.S. competitiveness, jobs, and national security.",
     "theme_ids": [
-      "federal-research-coordination",
-      "technology-development",
-      "national-security",
-      "supply-chain-security",
-      "federal-procurement-policy"
+      "defense-industrial-base",
+      "manufacturing-policy",
+      "economic-competitiveness",
+      "science-and-technology-policy",
+      "critical-minerals-supply-chain-security"
     ],
     "impacted_populations": {
       "positive_ids": [
         "manufacturing-workers",
-        "scientific-researchers",
-        "small-business-owners"
+        "small-business-owners",
+        "technology-workers",
+        "union-members"
       ],
-      "negative_ids": [
-        "foreign-manufacturers"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Increased reporting and compliance requirements could impose administrative burdens and costs on research institutions and small businesses.",
-      "Domestic manufacturing mandates might limit global collaboration or delay commercialization if U.S. production capabilities are insufficient.",
-      "Waiver processes may be subject to inconsistent interpretation and could slow innovation if overly restrictive.",
-      "Prioritizing domestic production may provoke trade tensions or retaliatory measures from foreign countries.",
-      "Implementation may strain federal agencies’ resources given the need for coordination, monitoring, and annual reporting."
+      "The prioritization of domestic manufacturing may increase production costs, potentially limiting small businesses' ability to compete effectively in innovation commercialization.",
+      "Strict domestic manufacturing requirements could lead to delays or barriers for technology-workers and manufacturing-workers if supply chains are disrupted or specialized inputs are unavailable domestically.",
+      "The enhanced reporting and waiver processes may create administrative burdens for small-business-owners and technology-workers, possibly discouraging participation in federal R&D programs.",
+      "Union-members could face tensions if domestic manufacturing mandates lead to expansion of unionized facilities, while waiver approvals for foreign manufacturing might undercut domestic labor standards and wages.",
+      "Focusing R&D commercialization on U.S.-based manufacturing might unintentionally reduce international collaboration opportunities, impacting technology-workers involved in global innovation networks."
     ],
-    "enriched_at": "2025-12-09T01:38:14.793Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:38:06.098Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

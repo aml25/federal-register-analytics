@@ -1,0 +1,42 @@
+{
+  "document_number": "2014-30195",
+  "executive_order_number": "13684",
+  "title": "Establishment of the President's Task Force on 21st Century Policing",
+  "abstract": null,
+  "signing_date": "2014-12-18",
+  "publication_date": "2014-12-23",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2014/12/23/2014-30195/establishment-of-the-presidents-task-force-on-21st-century-policing",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2014-12-23/pdf/2014-30195.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2014/12/23/2014-30195.txt",
+  "enrichment": {
+    "summary": "This executive order created a presidential task force to identify best practices in policing that reduce crime and build trust between law enforcement and communities. The task force is advisory, includes up to eleven members with expertise in law enforcement and civil rights, and must report its recommendations by March 2, 2015.",
+    "theme_ids": [
+      "police-reform",
+      "crime-reduction",
+      "racial-equity",
+      "presidential-commissions-task-forces"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "law-enforcement-officers-state-local",
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "urban-communities",
+        "crime-victims"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to improve policing practices might face resistance from some law enforcement officers who perceive reforms as constraints on their authority or operational flexibility.",
+      "While aiming to build trust, recommendations could inadvertently overlook nuanced needs of diverse racial/ethnic groups such as African Americans and Hispanic/Latino Americans, potentially limiting effectiveness in urban communities disproportionately affected by policing.",
+      "The advisory nature of the Task Force risks producing recommendations without enforcement power, which may frustrate crime victims and communities seeking tangible accountability and rapid changes in policing.",
+      "There is a potential that the Task Force’s public meetings and engagements could heighten tensions or distrust if certain communities or stakeholders feel underrepresented or unheard in the process."
+    ],
+    "enriched_at": "2025-12-15T02:12:50.688Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

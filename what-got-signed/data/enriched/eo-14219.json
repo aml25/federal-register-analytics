@@ -13,33 +13,33 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-25/pdf/2025-03138.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/25/2025-03138.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to review and eliminate regulations that are unconstitutional, exceed their authority, or impose undue burdens, especially on small businesses and innovation. It promotes focusing enforcement only on regulations clearly supported by law and requires new regulations to undergo more stringent evaluation to prevent overreach. The goal is to reduce government regulatory burden and restore constitutional limits on federal power.",
+    "summary": "This executive order directs federal agencies to review and remove regulations that are unconstitutional, unlawful, or overly burdensome, with the goal of reducing government overreach and improving efficiency. It also sets guidelines for enforcing only lawful regulations and coordinating future rulemaking to align with these priorities.",
     "theme_ids": [
-      "regulatory-reform",
-      "federal-agency-management",
-      "energy-policy",
-      "foreign-policy",
-      "disaster-preparedness",
-      "public-safety",
-      "technology-development"
+      "regulatory-reform-deregulation",
+      "government-efficiency",
+      "small-business-support",
+      "economic-competitiveness",
+      "disaster-response"
     ],
     "impacted_populations": {
       "positive_ids": [
         "small-business-owners",
-        "tech-industry"
+        "entrepreneurs-startups",
+        "technology-workers"
       ],
       "negative_ids": [
-        "independent-regulatory-agencies"
+        "consumers",
+        "environmental-justice-communities",
+        "disaster-affected-communities"
       ]
     },
     "potential_concerns": [
-      "Reducing enforcement of certain regulations may limit protections for public safety, consumer rights, and the environment.",
-      "The broad criteria for rescinding regulations could lead to inconsistent or politicized application across agencies.",
-      "Small businesses might benefit from reduced burdens but could also lose protections previously afforded by some regulations.",
-      "The expansive definition of enforcement discretion risks legal challenges and confusion over which regulations remain enforceable.",
-      "Exemptions for national security and immigration may create uncertainty about which rules apply, complicating agency compliance."
+      "The order's broad deregulatory mandate may reduce consumer protections, negatively impacting consumers relying on federal regulatory oversight.",
+      "Efforts to rescind regulations perceived as burdensome could unintentionally weaken environmental safeguards, harming environmental justice communities.",
+      "De-prioritizing enforcement of certain regulations may impede disaster response effectiveness, putting disaster-affected communities at increased risk.",
+      "Though small business owners and entrepreneurs may benefit from reduced regulatory burdens, technology workers could face job insecurity if innovation-related regulations are cut too aggressively."
     ],
-    "enriched_at": "2025-12-09T02:41:21.172Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:27:06.091Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

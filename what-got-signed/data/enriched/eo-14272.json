@@ -13,30 +13,33 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-18/pdf/2025-06836.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/18/2025-06836.txt",
   "enrichment": {
-    "summary": "This executive order directs the Secretary of Commerce to investigate whether imports of processed critical minerals and products made from them pose a threat to U.S. national security. It aims to assess supply chain risks, foreign market manipulation, and import dependencies to inform possible trade actions such as tariffs or policies encouraging domestic production. The goal is to strengthen economic resilience and national defense by securing critical mineral supply chains.",
+    "summary": "This executive order directs the Secretary of Commerce to investigate whether importing processed critical minerals and products made from them poses a threat to U.S. national security. The investigation will assess supply chain risks, foreign market practices, and U.S. production capacity, and may lead to recommendations such as tariffs or policies to boost domestic production to protect the economy and defense readiness.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
+      "critical-minerals-supply-chain-security",
+      "defense-industrial-base",
+      "tariffs-duties",
+      "manufacturing-policy",
       "supply-chain-security"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "critical-minerals-industry",
-        "domestic-energy-producers"
+        "defense-industry-workers",
+        "manufacturing-workers",
+        "military-personnel-active-duty"
       ],
       "negative_ids": [
-        "foreign-processors-of-critical-minerals",
-        "foreign-suppliers"
+        "consumers",
+        "large-corporation-employees"
       ]
     },
     "potential_concerns": [
-      "Trade restrictions or tariffs could provoke retaliatory measures from key foreign suppliers, potentially worsening supply chain disruptions.",
-      "Domestic industry capacity to process critical minerals may be insufficient in the short term to replace foreign imports, leading to economic or defense production challenges.",
-      "Defining which minerals and products are covered could create uncertainty or disputes among industries and trading partners.",
-      "The investigation process and resulting measures might slow down due to interagency coordination and comment periods, delaying response to urgent risks.",
-      "Focusing on import restrictions could increase prices for consumers and downstream manufacturers reliant on critical minerals."
+      "Imposition of tariffs under this order could increase costs for consumers and manufacturers reliant on imported processed critical minerals, potentially leading to higher prices for electronics and defense-related products.",
+      "Efforts to boost domestic production may strain defense industry workers and manufacturing workers with increased production demands and possible adjustment costs during supply chain realignment.",
+      "Large corporations dependent on global supply chains might experience operational disruptions or competitive disadvantages due to import restrictions or trade tensions stemming from this order.",
+      "Military personnel could face readiness challenges if domestic production and supply chain adjustments are slow to meet the demands for processed critical minerals essential to advanced defense technologies.",
+      "Unintended market distortions could arise if tariffs or restrictions lead to retaliatory actions from foreign suppliers, affecting the stability of supply chains crucial to both national security and economic resilience."
     ],
-    "enriched_at": "2025-12-09T02:43:57.643Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:19:50.756Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

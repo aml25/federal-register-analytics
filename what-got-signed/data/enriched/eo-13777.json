@@ -1,0 +1,42 @@
+{
+  "document_number": "2017-04107",
+  "executive_order_number": "13777",
+  "title": "Enforcing the Regulatory Reform Agenda",
+  "abstract": null,
+  "signing_date": "2017-02-24",
+  "publication_date": "2017-03-01",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/03/01/2017-04107/enforcing-the-regulatory-reform-agenda",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-03-01/pdf/2017-04107.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/03/01/2017-04107.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to identify and reduce unnecessary regulatory burdens on the American people. It requires agencies to appoint Regulatory Reform Officers and establish task forces to review existing regulations and recommend repealing, replacing, or modifying those that are outdated, ineffective, or costly. The order also emphasizes accountability and coordination in implementing regulatory reform efforts.",
+    "theme_ids": [
+      "regulatory-reform-deregulation",
+      "government-efficiency",
+      "presidential-commissions-task-forces"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "small-business-owners",
+        "entrepreneurs-startups",
+        "consumers"
+      ],
+      "negative_ids": [
+        "individuals-with-disabilities",
+        "environmental-justice-communities"
+      ]
+    },
+    "potential_concerns": [
+      "Efforts to reduce or eliminate regulations may undermine protections for individuals with disabilities and environmental justice communities by removing safeguards intended to ensure accessibility and environmental equity.",
+      "Prioritizing regulatory repeal based on cost-benefit assessments could disproportionately affect small businesses and startups if key consumer protections are weakened, potentially reducing consumer confidence.",
+      "The directive to remove ‘outdated or ineffective’ regulations might inadvertently eliminate important regulations that protect vulnerable populations, including consumers relying on consistent regulatory standards.",
+      "Regulatory reform task forces may focus heavily on deregulation to promote government efficiency, but insufficient stakeholder engagement could lead to inadequate consideration of the needs of marginalized groups such as environmental justice communities."
+    ],
+    "enriched_at": "2025-12-15T07:10:21.910Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

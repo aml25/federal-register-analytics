@@ -13,29 +13,28 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06463.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/15/2025-06463.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to review and remove regulations that create unfair barriers to competition, such as those that promote monopolies or restrict new market entrants. The goal is to foster more competition, entrepreneurship, and innovation to strengthen the American economy.",
+    "summary": "This executive order directs federal agencies to review and identify regulations that limit competition or create unfair barriers for new businesses. Agencies will work with other officials to recommend changes or removals of such rules to promote a more competitive and innovative economy. Public input is also sought as part of the process to ensure anti-competitive regulations are addressed effectively.",
     "theme_ids": [
-      "regulatory-reform",
-      "federal-agency-management",
-      "federal-procurement-policy"
+      "economic-competitiveness",
+      "regulatory-reform-deregulation",
+      "government-efficiency"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "private-sector-rivals",
-        "tech-industry"
+        "entrepreneurs-startups",
+        "small-business-owners"
       ],
       "negative_ids": [
-        "independent-regulatory-agencies"
+        "large-corporation-employees"
       ]
     },
     "potential_concerns": [
-      "Removing certain regulations could unintentionally weaken protections that prevent anti-competitive behavior, potentially harming smaller businesses in the long term.",
-      "The review and modification process may be slowed by inter-agency coordination, delaying intended economic benefits.",
-      "Public input mechanisms might be limited in influence, reducing transparency and community engagement in regulatory changes.",
-      "The focus on deregulation might prioritize economic effects over other public interests such as consumer protection, environmental standards, or labor rights.",
-      "Some agencies might resist or inadequately justify retaining anti-competitive regulations, reducing the overall effectiveness of the order."
+      "The order's drive to eliminate regulations labeled as anti-competitive may create loopholes that favor startups and small businesses at the expense of market stability for large corporations, potentially causing economic disruption for employees of these companies.",
+      "In the effort to deregulate procurement processes (Sec. 3(a)(v)), smaller firms might gain more opportunities, but there is a risk that reduced oversight could lead to decreased fairness or transparency, negatively affecting competition overall.",
+      "Some regulations deemed anti-competitive by design may actually protect public interests such as consumer safety or environmental standards; removing these could unintentionally harm consumers or communities reliant on such protections.",
+      "The short 70-day deadline for agency reviews and the 40-day comment period may limit thorough public engagement and analysis, potentially overlooking complex regulatory impacts on diverse market participants including underrepresented small businesses."
     ],
-    "enriched_at": "2025-12-09T02:43:43.081Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:20:27.701Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

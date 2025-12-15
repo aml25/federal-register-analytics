@@ -13,34 +13,36 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-25/pdf/2025-05212.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/25/2025-05212.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to speed up permits and approvals for mineral production projects in the U.S. to boost domestic mining, processing, and refining of critical and other important minerals. It promotes the use of federal lands for mineral development, encourages private investment, and authorizes key agencies to use special authorities to support expanding the domestic mineral supply chain, aiming to reduce reliance on foreign sources and strengthen national security.",
+    "summary": "This executive order directs federal agencies to speed up approval and development of mining and mineral production projects in the United States to reduce reliance on foreign sources of critical minerals. It prioritizes the use of federal lands for mining, facilitates private and public investment, and delegates authority to expedite mineral production as a matter of national security and economic importance.",
     "theme_ids": [
-      "national-security",
-      "regulatory-reform",
-      "supply-chain-security",
-      "public-lands-management",
-      "energy-policy",
-      "federal-agency-management",
-      "financial-regulation",
-      "trade-policy"
+      "critical-minerals-supply-chain-security",
+      "defense-production-act",
+      "economic-competitiveness",
+      "infrastructure-permitting",
+      "public-lands-management"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "critical-minerals-industry"
+        "small-business-owners",
+        "working-age-adults",
+        "rural-communities",
+        "tribal-communities-reservations",
+        "defense-industry-workers"
       ],
       "negative_ids": [
-        "foreign-processors-of-critical-minerals",
-        "environmental-advocates"
+        "environmental-justice-communities",
+        "native-americans-indigenous-peoples",
+        "public-school-communities"
       ]
     },
     "potential_concerns": [
-      "Expedited permitting and reduced regulatory reviews may weaken environmental protections and lead to increased ecological damage.",
-      "Federal land prioritization for mineral projects could spark conflicts with conservation efforts and public land users.",
-      "Accelerated approval processes risk insufficient community consultation and potential local opposition.",
-      "Delegation of broad authorities to agencies like the Secretary of Defense and the DFC could result in limited transparency and oversight.",
-      "Domestic producers may face increased competition or market displacement effects impacting existing foreign processors and mineral supply partners."
+      "Expedited permitting on federal lands may disproportionately impact tribal communities and Native Americans by potentially limiting their control and input on land use, raising concerns related to public-lands-management and indigenous rights.",
+      "Prioritizing mineral production on federal lands could lead to environmental degradation harming environmental justice communities, exacerbating disparities in pollution exposure and ecological disruption.",
+      "The focus on rapid expansion of mining activities might conflict with existing educational communities’ interests if environmental quality declines near public school areas, affecting students' health and learning conditions.",
+      "While the order aims to boost economic competitiveness and secure critical mineral supplies benefiting defense-industry workers and small business owners, it may also increase tensions between economic growth and sustainable environmental practices in rural communities.",
+      "Utilizing Defense Production Act authorities to accelerate mineral production risks unintended dependence on rapid, potentially less transparent investment decisions, which could marginalize smaller local stakeholders and communities reliant on land conservation."
     ],
-    "enriched_at": "2025-12-09T02:42:23.838Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:24:01.789Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

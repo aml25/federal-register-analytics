@@ -13,30 +13,29 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-04-17/pdf/2024-08332.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/04/17/2024-08332.txt",
   "enrichment": {
-    "summary": "This executive order consolidates the federal government’s COVID-19 response and related pandemic preparedness responsibilities into the Office of Pandemic Preparedness and Response Policy (OPPR). It revokes earlier COVID-19-related executive orders and terminates certain coordinator positions, aiming to streamline and improve coordination across government agencies on pandemic and biological threat policies.",
+    "summary": "This executive order consolidates and transfers responsibilities related to the U.S. government's COVID-19 response and broader pandemic preparedness to the Office of Pandemic Preparedness and Response Policy (OPPR). It revokes several previous COVID-19 related executive orders and ends the positions of COVID-19 Response Coordinator and Deputy Coordinator, streamlining pandemic policy and response efforts under the OPPR.",
     "theme_ids": [
-      "national-security",
-      "federal-agency-management",
-      "disaster-preparedness",
-      "public-health-administration"
+      "pandemic-preparedness",
+      "covid-19-response",
+      "public-health-emergency-response",
+      "interagency-coordination",
+      "government-reorganization"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-agencies",
-        "public-health-workers"
+        "patients-general",
+        "public-school-communities",
+        "healthcare-workers"
       ],
-      "negative_ids": [
-        "displaced-federal-workers"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Terminating the COVID-19 Response Coordinator position may cause temporary gaps in leadership or accountability during the transition to OPPR.",
-      "Consolidation of responsibilities into OPPR could overwhelm the office with duties, potentially reducing responsiveness or effectiveness.",
-      "Revoking earlier COVID-19 orders may eliminate certain targeted protections or measures prematurely if new structures do not fully replicate prior functions.",
-      "Displaced federal workers from terminated positions may face job loss or uncertainty without clear transition plans.",
-      "Coordination among diverse agencies could be challenging under a single office, risking bureaucratic delays or interagency conflict."
+      "Centralizing pandemic response authority in the OPPR could risk reduced agility in addressing localized COVID-19 outbreaks affecting patients-general and healthcare-workers due to potential bureaucratic delays.",
+      "The termination of the COVID-19 Response Coordinator and Deputy Coordinator roles may lead to gaps in focused leadership and communication, negatively impacting public-school-communities relying on clear guidance for safe reopening and operations.",
+      "Streamlining responsibilities into a single office may inadvertently reduce interagency coordination effectiveness, jeopardizing timely public-health-emergency-response and possibly affecting vulnerable patients-general.",
+      "Without explicit provisions for equity, the consolidated policy structure might overlook specific needs of diverse communities within public-school-communities, risking uneven implementation of pandemic preparedness measures."
     ],
-    "enriched_at": "2025-12-09T01:35:52.267Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:40:46.076Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

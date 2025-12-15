@@ -13,30 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-10/pdf/2025-02479.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/10/2025-02479.txt",
   "enrichment": {
-    "summary": "This executive order pauses the planned 25 percent tariffs on certain Mexican products in response to Mexico's efforts to combat illegal migration and drug trafficking. It directs U.S. officials to continue monitoring the situation and reserves the right to reinstate tariffs if Mexico's actions prove insufficient to address these issues.",
+    "summary": "This executive order pauses the planned 25 percent tariff increase on Mexican imports to allow more time to evaluate Mexico's efforts to address illegal migration and illicit drug trafficking at the southern border. It directs continued assessment of the situation and threatens to reinstate tariffs if the crises worsen or if Mexico fails to take sufficient action.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
-      "foreign-policy",
-      "immigration-enforcement"
+      "border-security",
+      "homeland-security",
+      "tariffs-duties",
+      "transnational-crime-cartels",
+      "mexico"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "undocumented-immigrants"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "mexico",
-        "small-importers"
+        "large-corporation-employees",
+        "small-business-owners",
+        "undocumented-immigrants",
+        "border-communities",
+        "hispanic-latino-americans"
       ]
     },
     "potential_concerns": [
-      "Pausing the tariffs may reduce short-term economic pressure on Mexico but could weaken leverage to enforce sustained border security and anti-trafficking cooperation.",
-      "If Mexico fails to take sufficient actions during the pause, reinstating tariffs quickly could disrupt trade and supply chains.",
-      "The order could increase tensions between the U.S. and Mexico if perceived as coercive or punitive despite cooperative efforts.",
-      "The impacted industries and workers in the United States and Mexico may face uncertainty due to the conditional and temporary nature of the tariff pause.",
-      "Effectiveness depends heavily on interagency coordination and timely, accurate assessment of Mexico's actions, which may be challenging."
+      "The pause on tariffs may delay economic pressure on the Government of Mexico, potentially prolonging security risks for border communities and undermining homeland security efforts.",
+      "Undocumented immigrants and Hispanic/Latino Americans may face increased scrutiny or negative social impacts as enforcement actions intensify alongside tariff threats.",
+      "Small business owners and large corporation employees reliant on Mexican imports could suffer from economic uncertainty and increased costs if tariffs are reinstated suddenly.",
+      "Escalation of tariffs could disrupt supply chains, harming border communities economically and increasing tensions in an already fragile border region."
     ],
-    "enriched_at": "2025-12-09T02:40:26.892Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:30:04.041Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -13,32 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-14/pdf/2025-06378.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/14/2025-06378.txt",
   "enrichment": {
-    "summary": "This executive order increases tariffs on certain goods imported from China in response to Chinese retaliatory tariffs on U.S. exports. It raises the duty rates on low-value imports from China and adjusts related tariff schedules to prevent circumvention, aiming to protect U.S. national security and economy.",
+    "summary": "This executive order increases tariffs on low-value imports from China in response to retaliatory tariffs China imposed on U.S. goods. It modifies existing tariff rates and duties to counter China's actions and aims to protect the U.S. economy and national security from trade imbalances and unfair trade practices.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
-      "foreign-policy"
+      "tariffs-duties",
+      "trade-policy-agreements",
+      "china",
+      "national-emergencies"
     ],
     "impacted_populations": {
       "positive_ids": [
         "manufacturing-workers",
-        "domestic-energy-producers"
+        "small-business-owners"
       ],
       "negative_ids": [
-        "china",
-        "foreign-manufacturers",
-        "international-shippers",
-        "small-importers"
+        "retail-workers",
+        "consumers"
       ]
     },
     "potential_concerns": [
-      "The tariff increases could raise costs for U.S. consumers and small businesses relying on low-value imports from China.",
-      "Retaliatory trade measures may escalate into a broader trade conflict, harming diplomatic and economic relations.",
-      "Implementation may pose administrative challenges for customs and postal agencies handling increased duties on low-value shipments.",
-      "Higher tariffs could incentivize importers to reroute or misdeclare goods to avoid increased duties, complicating enforcement.",
-      "The order might disproportionately impact small importers and international shippers who rely on duty-free or low-duty shipments."
+      "The significant increase in tariffs on low-value imports from China may raise costs for retail workers and consumers who rely on affordable goods, potentially reducing consumer purchasing power.",
+      "Small business owners and import-export businesses that depend on lower-cost Chinese imports could face increased operational costs, undermining their competitiveness and profitability.",
+      "Manufacturing workers in U.S. industries competing with Chinese imports may benefit from tariff protections, but supply chain disruptions and price increases of imported inputs could negatively affect their employment stability.",
+      "The escalation of reciprocal tariffs risks exacerbating trade tensions with China, possibly leading to further retaliatory measures that could harm U.S. exporters and the broader economy.",
+      "Imposing such high tariffs under a declared national emergency framework may encourage prolonged use of emergency economic powers, raising policy and legal concerns about the balance between trade policy and national security."
     ],
-    "enriched_at": "2025-12-09T02:43:17.242Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:21:32.950Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

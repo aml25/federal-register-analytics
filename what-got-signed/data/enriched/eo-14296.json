@@ -13,29 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-14/pdf/2025-08683.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/14/2025-08683.txt",
   "enrichment": {
-    "summary": "This executive order directs the Department of Veterans Affairs to establish a National Center for Warrior Independence on the West Los Angeles VA Campus to support homeless veterans with housing, care, and services. It also aims to increase accountability within the VA, improve veterans’ access to healthcare and benefits nationwide, and coordinate funding and resources from related agencies to enhance veteran support programs.",
+    "summary": "This executive order directs the Department of Veterans Affairs to transform the West Los Angeles VA campus into a National Center for Warrior Independence, providing housing and comprehensive services to homeless veterans. It also calls for increased accountability within the VA, improved access and quality of healthcare for veterans nationwide, and expanded housing support through vouchers.",
     "theme_ids": [
-      "federal-agency-management",
-      "federal-property-management",
-      "veterans-affairs-policy"
+      "veterans-healthcare",
+      "housing-policy-affordable-housing",
+      "federal-workforce-management"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "military-veterans",
-        "homeless-individuals"
+        "veterans",
+        "homeless-unhoused-individuals",
+        "individuals-with-mental-health-conditions",
+        "low-income-individuals-families",
+        "urban-communities",
+        "working-age-adults"
       ],
-      "negative_ids": [
-        "undocumented-immigrants"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "The order’s directive to redirect funds previously allocated for services to illegal aliens to veteran programs may provoke interagency conflicts and legal challenges regarding funding use.",
-      "Restoring accountability by reversing rehiring decisions and redirecting savings could face resistance from unionized VA employees and legal disputes.",
-      "Ensuring effective coordination among multiple federal agencies and local municipalities for homeless veteran support may prove operationally challenging and slow.",
-      "The ambitious goal to house up to 6,000 homeless veterans by 2028 may be difficult to achieve given the scale of homelessness and resource constraints in Los Angeles and nationwide.",
-      "Increased use of vouchers and expansion of healthcare services could face budgetary limitations and require sustained congressional support for appropriations."
+      "Redirecting funds previously allocated for services to undocumented immigrants toward veteran housing may reduce available resources for immigrant populations, potentially causing community tensions in urban areas.",
+      "Efforts to restore accountability within the VA might lead to workforce instability or reductions that could temporarily disrupt healthcare delivery to veterans.",
+      "The emphasis on restoring 'warrior ethos' and self-sufficiency may unintentionally stigmatize veterans struggling with chronic homelessness or mental health conditions, limiting their access to needed supportive services.",
+      "Expanding the voucher program and centralizing housing support at the West Los Angeles campus may create access challenges for homeless veterans in rural or non-urban areas who cannot easily reach the facility.",
+      "Increasing healthcare options including virtual services may disproportionately benefit working-age veterans but could be less effective or accessible for elderly veterans without adequate technology access."
     ],
-    "enriched_at": "2025-12-09T02:45:09.751Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:16:40.327Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -1,0 +1,42 @@
+{
+  "document_number": "2011-33087",
+  "executive_order_number": "13594",
+  "title": "Adjustments of Certain Rates of Pay",
+  "abstract": null,
+  "signing_date": "2011-12-19",
+  "publication_date": "2011-12-23",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2011/12/23/2011-33087/adjustments-of-certain-rates-of-pay",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2011-12-23/pdf/2011-33087.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2011/12/23/2011-33087.txt",
+  "enrichment": {
+    "summary": "This executive order updates and sets the pay rates for various federal employees, including civilian workers, senior executives, judges, members of the uniformed services, and locality-based comparability payments. It also supersedes a prior executive order on pay adjustments and establishes the effective dates for these changes.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "retirement-security",
+      "veterans-healthcare"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants",
+        "veterans",
+        "military-personnel-active-duty",
+        "foreign-service-officers",
+        "federal-contractors"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The phase-in of locality-based comparability payments per the Non-Foreign Area Retirement Equity Assurance Act of 2009 may lead to uneven pay increases impacting federal employees in different regions differently, potentially causing disparities and morale issues among federal-employees-civil-servants.",
+      "Adjustments to pay rates for members of the uniformed services may affect military-personnel-active-duty retirement security if not aligned carefully with cost of living and benefits, possibly creating retention challenges.",
+      "Veterans employed in the Veterans Health Administration might face complexities in pay adjustments that could influence staffing and quality of care, impacting veterans-healthcare outcomes.",
+      "Foreign service officers may have concerns regarding changes in the Foreign Service Schedule pay that could affect international assignment incentives, possibly complicating U.S. diplomatic operations.",
+      "Federal contractors might experience indirect competitive pressure due to federal pay adjustments, though not directly impacted, potentially affecting contractor labor costs and contract negotiations."
+    ],
+    "enriched_at": "2025-12-12T08:23:28.752Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

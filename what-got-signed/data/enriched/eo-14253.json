@@ -13,31 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-03/pdf/2025-05838.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/03/2025-05838.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to prevent ideological or divisive narratives in the presentation of American history at national museums and monuments, especially the Smithsonian Institution and Independence National Historical Park. It calls for restoring historical displays and public sites to emphasize national pride, traditional interpretations of American accomplishments, and removes content deemed divisive or critical of the nation’s founding and values.",
+    "summary": "This executive order directs the federal government to restore and preserve historical monuments, museums, and educational sites to reflect a positive and unified view of American history. It seeks to remove ideological or divisive narratives from places like the Smithsonian Institution and Independence National Historical Park, emphasizing national pride and the achievements of the United States.",
     "theme_ids": [
-      "federal-property-management",
-      "public-lands-management",
-      "symbol-protection",
-      "federal-agency-management"
+      "american-heritage-patriotism",
+      "national-monuments-memorials",
+      "museums-libraries-cultural-institutions",
+      "historical-commemorations"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "patriotic-citizens",
-        "national-park-visitors"
+        "white-americans",
+        "veterans"
       ],
       "negative_ids": [
-        "diverse-historical-communities",
-        "individuals-impacted-by-race-and-equity-policy-restrictions"
+        "african-americans-black-americans",
+        "native-americans-indigenous-peoples",
+        "women",
+        "lgbtq-individuals",
+        "teachers-educators"
       ]
     },
     "potential_concerns": [
-      "The order’s directive to remove content considered divisive may suppress legitimate historical scholarship and present an overly sanitized or one-sided view of history.",
-      "Implementation could politicize federally managed museums and public sites, undermining their educational mission and alienating diverse visitors and scholars.",
-      "Pressure to remove current exhibits or training programs may lead to legal challenges regarding academic freedom and First Amendment protections.",
-      "The order’s language targeting certain ideological perspectives may deepen cultural and political divisions rather than promote unity.",
-      "Ambiguity in definitions of “improper ideology” risks inconsistent enforcement and potential censorship of critical engagement with complex historical issues."
+      "The order's directive to remove 'ideological or divisive narratives' from museums and historical sites may marginalize African Americans, Native Americans, women, and LGBTQ+ individuals by erasing or minimizing their historical experiences and contributions.",
+      "Teachers and educators may face challenges in delivering comprehensive history education if curricula and museum exhibits are restricted to only 'positive and unified' narratives, potentially undermining educational integrity.",
+      "By mandating a celebration of a narrowly defined 'American greatness' and excluding recognition of transgender athletes or complex racial histories, the order risks alienating diverse communities and promoting exclusionary views of American identity.",
+      "Restoration and reinstatement of pre-existing monuments could reignite social and cultural conflicts, especially in communities where certain monuments have been removed due to their controversial nature.",
+      "Museum and cultural institution staff and nonprofit organizations may experience operational and reputational impacts from budgetary and ideological restrictions imposed by the order."
     ],
-    "enriched_at": "2025-12-09T02:43:00.344Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:22:21.082Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

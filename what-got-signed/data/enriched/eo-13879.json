@@ -1,0 +1,40 @@
+{
+  "document_number": "2019-15159",
+  "executive_order_number": "13879",
+  "title": "Advancing American Kidney Health",
+  "abstract": null,
+  "signing_date": "2019-07-10",
+  "publication_date": "2019-07-15",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/07/15/2019-15159/advancing-american-kidney-health",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-07-15/pdf/2019-15159.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/07/15/2019-15159.txt",
+  "enrichment": {
+    "summary": "This executive order aims to improve kidney health in the United States by promoting prevention, increasing treatment options like home dialysis and organ transplants, and encouraging innovation in artificial kidney technologies. It directs the Department of Health and Human Services to launch awareness initiatives, implement new payment models to improve care, and remove financial barriers for living organ donors.",
+    "theme_ids": [
+      "kidney-health-organ-donation",
+      "medicare",
+      "public-health-emergency-response"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "patients-general",
+        "medicare-beneficiaries",
+        "individuals-with-chronic-illnesses",
+        "caregivers-non-military"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The payment models incentivizing early intervention and home dialysis could lead to inconsistent care quality or patient selection bias among Medicare beneficiaries and chronic kidney disease patients.",
+      "Efforts to remove financial barriers for living organ donors may not fully address all indirect costs or socioeconomic disparities, limiting the benefit for low-income patients and their caregivers.",
+      "Modernizing organ procurement organizations might unintentionally reduce organ availability if new performance metrics unfairly penalize certain geographic regions or transplant centers.",
+      "The push for rapid adoption of artificial kidneys and innovation could raise safety concerns without adequate regulatory oversight, affecting patients reliant on emerging technologies."
+    ],
+    "enriched_at": "2025-12-15T02:29:22.543Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

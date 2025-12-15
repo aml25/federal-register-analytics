@@ -13,31 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-10-22/pdf/2021-23224.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/10/22/2021-23224.txt",
   "enrichment": {
-    "summary": "This executive order creates a White House Initiative to advance educational equity, excellence, and economic opportunity specifically for Black Americans. It establishes a federal interagency working group and a presidential advisory commission to coordinate government actions, promote access to quality education, reduce systemic disparities, and enhance career opportunities for Black students and communities.",
+    "summary": "This executive order establishes a White House Initiative to advance educational equity, excellence, and economic opportunity for Black Americans. It creates an interagency working group and a Presidential Advisory Commission to coordinate federal efforts, set goals, and promote policies that address disparities in education and workforce opportunities faced by Black students and communities.",
     "theme_ids": [
-      "education-policy",
-      "equity-and-inclusion-policy",
+      "racial-equity",
+      "educational-excellence-initiatives-by-demographic",
+      "hbcus",
       "workforce-development",
-      "advisory-committees-management"
+      "small-business-support"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "hbcu-students",
-        "hbcu-administrators-and-faculty",
-        "diverse-student-populations"
+        "african-americans-black-americans",
+        "k-12-students",
+        "hbcu-students-communities",
+        "small-business-owners",
+        "working-age-adults",
+        "lgbtq-individuals",
+        "daca-recipients-dreamers"
       ],
-      "negative_ids": [
-        "non-hbcu-academic-institutions"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Achieving measurable outcomes may be challenging due to the complexity and persistence of systemic inequities in education and economics.",
-      "Coordination across many federal agencies could lead to bureaucratic delays or overlapping responsibilities.",
-      "Funding and resource limitations may hinder the effective implementation and sustainability of the initiative's programs.",
-      "Some stakeholders might debate the focus on race-specific programming and its implications for broader educational equity efforts.",
-      "The initiative's success heavily depends on continuous political support and agency engagement, which may fluctuate over time."
+      "Implementation may face challenges in ensuring equitable funding and resource allocation to historically underfunded Black-serving institutions such as HBCUs and PBIs, potentially limiting the effectiveness of the initiative.",
+      "Efforts to increase Black student enrollment and success in advanced placement and career-technical education programs may reveal or exacerbate gaps in access to qualified, culturally competent educators, impacting educational outcomes.",
+      "Workforce development programs targeting Black working-age adults could unintentionally overlook subgroups such as LGBTQ+ individuals and DACA recipients, limiting the inclusivity and reach of economic opportunity initiatives.",
+      "Coordinating federal interagency efforts risks bureaucratic delays and inconsistent execution, which may slow progress in closing educational and economic disparities for Black Americans.",
+      "Expanding entrepreneurship and small business support for Black small-business owners may create competition for limited resources, possibly disadvantaging other underserved groups without careful balancing."
     ],
-    "enriched_at": "2025-12-09T03:51:51.323Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T02:31:22.786Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

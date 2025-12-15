@@ -1,0 +1,41 @@
+{
+  "document_number": "2017-04357",
+  "executive_order_number": "13779",
+  "title": "White House Initiative To Promote Excellence and Innovation at Historically Black Colleges and Universities",
+  "abstract": null,
+  "signing_date": "2017-02-28",
+  "publication_date": "2017-03-03",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/03/03/2017-04357/white-house-initiative-to-promote-excellence-and-innovation-at-historically-black-colleges-and",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-03-03/pdf/2017-04357.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/03/03/2017-04357.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a White House Initiative to support and strengthen Historically Black Colleges and Universities (HBCUs) by promoting partnerships with federal agencies, private sector, and philanthropic organizations. It also creates a Presidential Board of Advisors to provide guidance on improving educational quality, financial stability, and visibility of HBCUs, aiming to increase opportunities and success for students at these institutions.",
+    "theme_ids": [
+      "hbcus",
+      "higher-education",
+      "federal-advisory-committees",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "hbcu-students-communities",
+        "african-americans-black-americans",
+        "college-university-students"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The Initiative’s reliance on increasing private-sector and philanthropic involvement may lead to unequal resource distribution among HBCUs, potentially favoring those with stronger external connections and disadvantaging smaller or rural HBCUs.",
+      "Efforts to enhance HBCUs' participation in federal programs might create additional administrative burdens for institutions with limited staff capacity, impacting HBCU students' educational experiences.",
+      "Without guaranteed appropriations, the effectiveness of the Initiative and its Board of Advisors might be limited, potentially delaying meaningful improvements for African American students enrolled at HBCUs.",
+      "The focus on interagency coordination and annual plans might lead to bureaucratic complexity that slows the delivery of tangible benefits to HBCU students and communities.",
+      "More emphasis on public-private partnerships could shift HBCU priorities toward market-driven programs that may not fully align with the cultural and historical missions these institutions serve for African American communities."
+    ],
+    "enriched_at": "2025-12-15T07:10:09.813Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

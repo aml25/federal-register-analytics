@@ -13,30 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-07/pdf/2025-06027.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/07/2025-06027.txt",
   "enrichment": {
-    "summary": "This executive order removes the duty-free exemption for low-value shipments from China and Hong Kong to the U.S. that are linked to synthetic opioid supply chains, requiring importers and carriers to pay tariffs on such goods starting May 2, 2025. It establishes specific duties, bonding requirements for carriers, and reporting obligations to address illicit opioid trafficking through deceptive shipping practices. The order directs federal agencies to implement and enforce these changes and to monitor their impact on American industries and supply chains.",
+    "summary": "This executive order imposes new duties on low-value shipments from the People's Republic of China and Hong Kong containing synthetic opioids or related products, closing a loophole that previously allowed such shipments to enter duty-free. It requires carriers to collect duties on postal shipments and strengthens enforcement measures to address the influx of synthetic opioids into the United States, effective May 2, 2025.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
-      "supply-chain-security"
+      "tariffs-duties",
+      "opioid-crisis",
+      "china",
+      "hong-kong"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "small-importers",
-        "international-shippers"
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local",
+        "healthcare-workers"
       ],
       "negative_ids": [
-        "china",
-        "foreign-manufacturers"
+        "small-business-owners",
+        "consumers",
+        "postal-workers",
+        "corporations-businesses"
       ]
     },
     "potential_concerns": [
-      "Increased costs and administrative burdens may negatively impact small importers and legitimate businesses relying on low-value shipments from China and Hong Kong.",
-      "Carriers may face logistical challenges and financial risks due to new bonding and reporting requirements, potentially disrupting international postal delivery.",
-      "The complexity of enforcement and potential for misclassification could lead to delays or disputes affecting consumers and importers.",
-      "There is a risk that illicit shipments may shift to other countries or channels not covered by the order, limiting its effectiveness.",
-      "Monitoring and accurately assessing the economic impact on U.S. industries and consumers may be difficult due to varying compliance and enforcement across agencies."
+      "The imposition of duties on low-value imports from China and Hong Kong may raise costs for small-business-owners and corporations that rely on affordable goods, potentially leading to higher prices for consumers.",
+      "Postal-workers could face increased operational burdens and complications due to new reporting, bonding, and duty collection requirements for international postal shipments.",
+      "Enhanced enforcement aimed at disrupting the synthetic opioid supply chain may risk delaying legitimate shipments, inadvertently affecting supply chains and consumer access to lawful goods.",
+      "While law enforcement and healthcare-workers may benefit from efforts to reduce synthetic opioid influx, disruption could push illicit trade to more dangerous channels, complicating public health and safety responses.",
+      "The focus on packages from China and Hong Kong without immediate extension to Macau might create opportunities for circumvention, potentially undermining enforcement efforts and complicating law enforcement operations."
     ],
-    "enriched_at": "2025-12-09T02:43:08.257Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:21:57.328Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

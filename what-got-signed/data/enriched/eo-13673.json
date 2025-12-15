@@ -1,0 +1,47 @@
+{
+  "document_number": "2014-18561",
+  "executive_order_number": "13673",
+  "title": "Fair Pay and Safe Workplaces",
+  "abstract": null,
+  "signing_date": "2014-07-31",
+  "publication_date": "2014-08-05",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2014/08/05/2014-18561/fair-pay-and-safe-workplaces",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2014-08-05/pdf/2014-18561.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2014/08/05/2014-18561.txt",
+  "enrichment": {
+    "summary": "This executive order requires federal contractors to disclose violations of labor laws and ensures that agencies consider this information before awarding contracts. It promotes fair pay, workplace safety, transparency in wages, and protects employees’ rights, including limiting mandatory arbitration of certain claims without employee consent. The order also establishes agency Labor Compliance Advisors to help enforce these standards and promotes government-wide consistency in contractor labor compliance.",
+    "theme_ids": [
+      "worker-rights-protections",
+      "workplace-safety-osha",
+      "pay-equity-equal-pay",
+      "employment-discrimination",
+      "government-efficiency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-contractors",
+        "construction-workers",
+        "union-members",
+        "independent-contractors",
+        "working-age-adults"
+      ],
+      "negative_ids": [
+        "small-business-owners",
+        "independent-contractors"
+      ]
+    },
+    "potential_concerns": [
+      "Smaller federal contractors, including small-business-owners, may face increased administrative and compliance burdens that could limit their ability to compete for federal contracts, impacting economic equity.",
+      "Independent-contractors might bear both positive protections from unfair mandatory arbitration and negative consequences such as increased classification scrutiny or contract exclusions.",
+      "The requirement for extensive labor violation disclosures may incentivize some contractors to avoid hiring workers from vulnerable demographic groups, potentially exacerbating employment discrimination.",
+      "Federal contractors and subcontractors might pass on compliance costs to working-age-adults through reduced wages, fewer benefits, or reduced hiring.",
+      "Implementation challenges related to accurate and timely reporting of labor violations could complicate government-efficiency goals and delay contract awards, impacting contractors and their employees."
+    ],
+    "enriched_at": "2025-12-15T02:14:21.676Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

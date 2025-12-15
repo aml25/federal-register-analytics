@@ -13,27 +13,27 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-29/pdf/2025-02007.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/29/2025-02007.txt",
   "enrichment": {
-    "summary": "This executive order limits birthright citizenship in the United States by excluding certain children born on U.S. soil if their mothers are unlawfully present or temporarily present and the fathers are not U.S. citizens or lawful permanent residents at the time of birth. It directs federal agencies to ensure they do not issue or recognize citizenship documents for these individuals born after 30 days from the order date.",
+    "summary": "This executive order specifies that not all persons born in the United States automatically qualify for U.S. citizenship. It directs federal agencies to not recognize citizenship or issue citizenship documents to individuals born to mothers unlawfully present or temporarily present in the U.S., when the father is not a U.S. citizen or lawful permanent resident at birth, effective 30 days after the order.",
     "theme_ids": [
-      "immigration-enforcement",
-      "national-security"
+      "citizenship-policy",
+      "american-heritage-patriotism"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "undocumented-immigrants"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "children-born-to-unauthorized-immigrants"
+        "birthright-citizens",
+        "undocumented-immigrants",
+        "children-minors",
+        "women"
       ]
     },
     "potential_concerns": [
-      "The order may effectively repeal or undermine the constitutional interpretation of birthright citizenship under the Fourteenth Amendment, leading to legal challenges.",
-      "Children affected by the order may face statelessness or barriers to access government services, education, and legal protections.",
-      "Implementation could create complex verification and enforcement challenges and inconsistent application across federal agencies.",
-      "The order may disproportionately impact immigrant families, raising concerns about discrimination and family separation.",
-      "The definition of 'mother' and 'father' could create administrative complications and controversy regarding parental rights and citizenship eligibility."
+      "The order may create significant burdens and legal uncertainties for children born in the U.S. to mothers who are undocumented or temporarily present, effectively denying them birthright citizenship and impacting their future rights.",
+      "Women, as the mothers directly referenced in the order, may face increased scrutiny, discrimination, and potential barriers in accessing healthcare and legal protections due to the linkage of citizenship to their immigration status.",
+      "The order could lead to a class of stateless or undocumented children, complicating their access to education, healthcare, and social services, and potentially fostering long-term social inequality.",
+      "By altering the interpretation of the Fourteenth Amendment, the order risks legal challenges and social divisiveness centered on citizenship policy and national identity."
     ],
-    "enriched_at": "2025-12-09T02:38:33.586Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:35:47.206Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

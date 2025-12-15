@@ -1,0 +1,38 @@
+{
+  "document_number": "E9-31098",
+  "executive_order_number": "13525",
+  "title": "Adjustments of Certain Rates of Pay",
+  "abstract": null,
+  "signing_date": "2009-12-23",
+  "publication_date": "2009-12-30",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/12/30/E9-31098/adjustments-of-certain-rates-of-pay",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-12-30/pdf/E9-31098.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/12/30/E9-31098.txt",
+  "enrichment": {
+    "summary": "This executive order updates and adjusts the pay rates for various federal employees, including those in statutory pay systems, the Senior Executive Service, members of Congress, judges, and uniformed military personnel, effective at the start of 2010. It also supersedes a previous order on pay rates and directs the Office of Personnel Management to implement locality-based pay adjustments.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "military-readiness-force-structure"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants",
+        "military-personnel-active-duty",
+        "veterans"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Locality-based pay adjustments could widen pay disparities among federal employees based on geographic location, potentially affecting workforce morale and retention.",
+      "Adjustments to military pay rates may impact military readiness if changes are not aligned with retention and recruitment needs for active-duty personnel.",
+      "Veterans receiving federal pensions or pay-related benefits linked to statutory pay systems might face delayed or uneven effects depending on implementation timing.",
+      "Complexity in implementing multiple schedules and pay systems could lead to administrative errors affecting the timely and accurate compensation of impacted federal employees and service members."
+    ],
+    "enriched_at": "2025-12-12T08:25:21.591Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "document_number": "2020-22064",
+  "executive_order_number": "13953",
+  "title": "Addressing the Threat to the Domestic Supply Chain From Reliance on Critical Minerals From Foreign Adversaries and Supporting the Domestic Mining and Processing Industries",
+  "abstract": null,
+  "signing_date": "2020-09-30",
+  "publication_date": "2020-10-05",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/10/05/2020-22064/addressing-the-threat-to-the-domestic-supply-chain-from-reliance-on-critical-minerals-from-foreign",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-10-05/pdf/2020-22064.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/10/05/2020-22064.txt",
+  "enrichment": {
+    "summary": "This executive order declares a national emergency due to the United States’ heavy reliance on critical minerals from foreign adversaries, particularly China, which poses risks to economic and national security. It directs federal agencies to investigate this dependency, develop strategies to expand domestic mining and processing of these minerals, and coordinate with allies to strengthen supply chain resilience.",
+    "theme_ids": [
+      "critical-minerals-supply-chain-security",
+      "economic-sanctions",
+      "trade-policy-agreements",
+      "energy-independence-security",
+      "defense-industrial-base"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "defense-industry-workers",
+        "manufacturing-workers",
+        "energy-sector-workers-oil-gas-coal"
+      ],
+      "negative_ids": [
+        "corporations-businesses",
+        "consumers"
+      ]
+    },
+    "potential_concerns": [
+      "Efforts to expand domestic mining and processing may lead to environmental degradation or community displacement affecting local populations and potentially causing conflicts with environmental-justice communities.",
+      "Increased reliance on tariffs or import restrictions against foreign adversaries (notably China) could raise costs for corporations and consumers, leading to higher prices for technology and energy products.",
+      "Acceleration of permitting and regulatory processes might undermine environmental and labor protections, disproportionately impacting workers and communities near mining sites.",
+      "The push to build domestic supply chains may create economic disruptions for industries currently reliant on lower-cost imported minerals, potentially causing job losses or business decline in certain sectors.",
+      "Efforts to reduce dependence on minerals produced under unethical practices abroad may constrain supply and complicate supply chains, affecting manufacturing workers and defense industry timelines."
+    ],
+    "enriched_at": "2025-12-15T07:28:58.165Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -13,32 +13,29 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-28/pdf/2025-07369.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/28/2025-07369.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to improve and better coordinate workforce development programs to prepare American workers for high-paying skilled trade jobs. It emphasizes expanding registered apprenticeships, investing in upskilling workers including the use of artificial intelligence, and increasing transparency and accountability in federal workforce programs.",
+    "summary": "This executive order directs federal agencies to review and improve workforce development programs to better prepare American workers for skilled trade jobs, especially in growing industries. It also mandates expanding Registered Apprenticeships, increasing transparency in program outcomes, and integrating new technologies like Artificial Intelligence to upskill workers.",
     "theme_ids": [
-      "federal-workforce",
-      "artificial-intelligence",
-      "education-policy",
-      "regulatory-reform"
+      "workforce-development",
+      "apprenticeships-vocational-training",
+      "21st-century-workforce-skills",
+      "artificial-intelligence"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "american-workers",
-        "tech-industry",
-        "hispanic-serving-institutions"
+        "working-age-adults",
+        "individuals-with-disabilities",
+        "manufacturing-workers",
+        "construction-workers"
       ],
-      "negative_ids": [
-        "academic-institutions",
-        "foreign-suppliers"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "Fragmentation of workforce programs may persist if agencies fail to fully integrate under the proposed reviews and reforms.",
-      "Expansion of registered apprenticeships may not equally benefit all industries or demographic groups, potentially leaving some workers behind.",
-      "Increased emphasis on alternative credentials could face resistance from traditional educational institutions and accreditation bodies.",
-      "Reliance on artificial intelligence in workforce training may create challenges related to bias, accessibility, and worker displacement.",
-      "Transparency requirements may impose additional administrative burdens on federal agencies and program grantees."
+      "The emphasis on integrating Artificial Intelligence for upskilling may disadvantage individuals-with-disabilities if adequate accessibility accommodations are not implemented.",
+      "Expanding Registered Apprenticeships primarily in high-growth sectors might leave behind workers in declining industries or rural-communities due to geographic or industry mismatch.",
+      "The focus on alternative credentials over traditional four-year degrees could create confusion or legitimacy concerns among working-age-adults seeking recognition for their skills.",
+      "Streamlining and consolidating programs might unintentionally eliminate some workforce development initiatives that currently serve niche or vulnerable populations effectively."
     ],
-    "enriched_at": "2025-12-09T02:44:19.940Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:18:59.978Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

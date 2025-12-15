@@ -1,0 +1,45 @@
+{
+  "document_number": "2010-28854",
+  "executive_order_number": "13558",
+  "title": "Export Enforcement Coordination Center",
+  "abstract": null,
+  "signing_date": "2010-11-09",
+  "publication_date": "2010-11-15",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2010/11/15/2010-28854/export-enforcement-coordination-center",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2010-11-15/pdf/2010-28854.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2010/11/15/2010-28854.txt",
+  "enrichment": {
+    "summary": "This executive order creates a Federal Export Enforcement Coordination Center to improve collaboration among multiple government agencies in enforcing U.S. export control laws. The Center facilitates information sharing, coordinates enforcement efforts, resolves conflicts, and tracks export control violations to protect national security and foreign policy interests.",
+    "theme_ids": [
+      "homeland-security",
+      "intelligence-sharing",
+      "federal-law-enforcement",
+      "interagency-coordination",
+      "export-import-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "defense-industry-workers",
+        "law-enforcement-officers-federal",
+        "intelligence-community-personnel",
+        "security-clearance-holders"
+      ],
+      "negative_ids": [
+        "small-business-owners",
+        "corporations-businesses"
+      ]
+    },
+    "potential_concerns": [
+      "Enhanced interagency intelligence sharing may increase scrutiny on defense industry workers and corporations, potentially leading to delays or complications in export approvals affecting their business operations.",
+      "Small business owners engaged in exports may face burdensome enforcement actions or compliance costs due to heightened coordination and tracking of export violations, putting disproportionate strain on their resources compared to larger firms.",
+      "The increased enforcement coordination could raise concerns about the protection of sensitive business information for corporations and security clearance holders, with risks of information leaks or misuse within federal agencies.",
+      "Federal law enforcement and intelligence personnel may encounter challenges balancing thorough export enforcement with respecting commercial confidentiality and proprietary technology protections."
+    ],
+    "enriched_at": "2025-12-15T02:06:02.185Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_number": "E9-1893",
+  "executive_order_number": "13492",
+  "title": "Review and Disposition of Individuals Detained At the Guantanamo Bay Naval Base and Closure of Detention Facilities",
+  "abstract": null,
+  "signing_date": "2009-01-22",
+  "publication_date": "2009-01-27",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/01/27/E9-1893/review-and-disposition-of-individuals-detained-at-the-guantanamo-bay-naval-base-and-closure-of",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-01-27/pdf/E9-1893.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/01/27/E9-1893.txt",
+  "enrichment": {
+    "summary": "This executive order directs a prompt review of all individuals detained at Guantanamo Bay to determine whether they can be released, transferred, prosecuted, or otherwise lawfully disposed of. It mandates closing the detention facilities within one year, ensures humane treatment standards, and suspends military commission proceedings during the review.",
+    "theme_ids": [
+      "detention-policy-guantanamo",
+      "counterterrorism",
+      "criminal-justice-reform",
+      "diplomatic-relations",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "detainees-prisoners-of-war",
+        "foreign-nationals-general"
+      ],
+      "negative_ids": [
+        "muslims",
+        "foreign-governments"
+      ]
+    },
+    "potential_concerns": [
+      "The order’s mandate to close Guantanamo and transfer detainees may create diplomatic challenges with foreign governments reluctant to accept former detainees, impacting diplomatic-relations and foreign-nationals-general populations.",
+      "Prompt review and release or transfer decisions might risk national security if individuals considered dangerous by military or intelligence officials are released prematurely, affecting counterterrorism efforts and potentially putting U.S. interests at risk.",
+      "Suspension of military commissions and a shift toward Article III prosecutions could delay justice for some detainees, potentially prolonging detention for detainees-prisoners-of-war and increasing concerns among victim communities and counterterrorism stakeholders.",
+      "Enhanced humane treatment requirements and the review of detention conditions may raise operational and financial burdens on the Department of Defense and complicate interagency coordination efforts.",
+      "The focus on detainees primarily affects Muslim populations internationally, who may perceive the order as politically motivated, possibly fueling anti-American sentiment and complicating both diplomatic relations and broader counterterrorism cooperation."
+    ],
+    "enriched_at": "2025-12-15T02:04:17.211Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

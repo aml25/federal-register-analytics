@@ -1,0 +1,42 @@
+{
+  "document_number": "E9-818",
+  "executive_order_number": "13486",
+  "title": "Strengthening Laboratory Biosecurity in the United States",
+  "abstract": null,
+  "signing_date": "2009-01-09",
+  "publication_date": "2009-01-14",
+  "president": {
+    "identifier": "george-w-bush",
+    "name": "George W. Bush"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/01/14/E9-818/strengthening-laboratory-biosecurity-in-the-united-states",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-01-14/pdf/E9-818.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/01/14/E9-818.txt",
+  "enrichment": {
+    "summary": "This executive order creates a government working group to review and improve security measures at laboratories that handle dangerous biological agents and toxins. It aims to prevent theft or misuse of these agents by evaluating current laws and practices and recommending better oversight and security standards.",
+    "theme_ids": [
+      "homeland-security",
+      "weapons-of-mass-destruction-wmd-proliferation",
+      "interagency-coordination",
+      "security-clearances-background-investigations"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "scientific-researchers",
+        "security-clearance-holders"
+      ],
+      "negative_ids": [
+        "scientific-researchers",
+        "federal-contractors"
+      ]
+    },
+    "potential_concerns": [
+      "Enhanced personnel security requirements and oversight may impose increased administrative burdens and delays on scientific researchers with security clearances, potentially slowing important biological research progress.",
+      "The need for consistent baseline security standards across federal and nonfederal labs may create costly compliance challenges for private labs and contractors, possibly limiting participation in bioagent research or management.",
+      "Interagency coordination mechanisms could lead to protection gaps or conflicts in authority affecting security clearance holders who access select agents, raising risks of insider threats or misuse.",
+      "Stricter biosecurity measures aimed at preventing WMD proliferation might unintentionally limit research collaborations, especially among international scientific partners, impacting scientific researchers' ability to exchange information."
+    ],
+    "enriched_at": "2025-12-15T02:05:04.972Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

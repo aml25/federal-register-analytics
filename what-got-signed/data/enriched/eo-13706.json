@@ -1,0 +1,42 @@
+{
+  "document_number": "2015-22998",
+  "executive_order_number": "13706",
+  "title": "Establishing Paid Sick Leave for Federal Contractors",
+  "abstract": null,
+  "signing_date": "2015-09-07",
+  "publication_date": "2015-09-10",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2015/09/10/2015-22998/establishing-paid-sick-leave-for-federal-contractors",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-09-10/pdf/2015-22998.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/09/10/2015-22998.txt",
+  "enrichment": {
+    "summary": "This executive order requires federal contractors to provide paid sick leave to their employees, allowing them to earn at least one hour of paid sick leave for every 30 hours worked, with a minimum annual accrual of 56 hours. The goal is to improve employee health and job performance while promoting economy and efficiency in government contracting.",
+    "theme_ids": [
+      "worker-rights-protections",
+      "caregiving-paid-leave",
+      "government-efficiency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-contractors",
+        "working-age-adults",
+        "caregivers-non-military",
+        "individuals-with-chronic-illnesses"
+      ],
+      "negative_ids": [
+        "federal-contractors"
+      ]
+    },
+    "potential_concerns": [
+      "The requirement for federal contractors to provide paid sick leave may increase operational costs or administrative burdens for federal contractors, potentially leading to reduced contract profits or fewer contracted jobs.",
+      "Employees working under federal contracts who are caregivers and those with chronic illnesses may face challenges in fully utilizing paid sick leave if contractors fail to implement flexible or accommodating policies despite the order.",
+      "There may be uneven enforcement and compliance among contractors, which could lead to disparities in sick leave benefits for working-age adults employed on federal contracts.",
+      "The mandate could incentivize some contractors to limit hiring or subcontracting to avoid increased costs, which negatively impacts federal contractors as employers."
+    ],
+    "enriched_at": "2025-12-12T08:11:27.377Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

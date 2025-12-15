@@ -13,28 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-31/pdf/2025-02098.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/31/2025-02098.txt",
   "enrichment": {
-    "summary": "This executive order cancels two previous orders that required COVID-19 safety protocols for federal contractors and mandatory COVID-19 vaccination for federal employees. It removes those specific federal mandates but maintains that agencies still operate within their legal authority and budget constraints.",
+    "summary": "This executive order officially cancels two previous executive orders that required COVID-19 safety protocols and vaccinations for federal contractors and employees. It clarifies that revoking these orders does not affect other legal authorities or rights and must be implemented within the law and available budget.",
     "theme_ids": [
-      "federal-workforce",
-      "regulatory-reform"
+      "revocation-of-previous-executive-orders",
+      "covid-19-response",
+      "vaccine-policy",
+      "federal-workforce-management"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees",
+        "federal-employees-civil-servants",
         "federal-contractors"
       ],
       "negative_ids": [
-        "public-health-workers"
+        "federal-employees-civil-servants",
+        "federal-contractors"
       ]
     },
     "potential_concerns": [
-      "Removing COVID-19 safety and vaccination requirements may increase health risks for federal employees and contractors.",
-      "The order could lead to inconsistent health protocols across federal agencies, causing confusion and operational challenges.",
-      "Eliminating mandates may face opposition from public health advocates concerned about workplace safety.",
-      "Without clear replacement policies, agencies might struggle to balance employee safety with operational needs.",
-      "There could be legal challenges or disputes over agencies' authority to implement health measures after revocation."
+      "The revocation of vaccine and COVID-19 safety mandates may increase health risks for federal employees and contractors by removing protections, potentially leading to greater workplace transmission.",
+      "Federal employees and contractors with disabilities or chronic illnesses could face heightened vulnerability due to relaxed safety protocols, raising concerns about workplace accommodations and health equity.",
+      "Removing vaccination requirements may cause disagreements and reduced morale among federal workforce groups who supported or complied with the prior mandates.",
+      "Federal agencies may encounter operational challenges balancing the order's revocation with existing legal authorities and agency-specific health and safety policies.",
+      "There could be legal and compliance ambiguities about how this order interacts with state or local COVID-19 workplace requirements affecting federal contractors."
     ],
-    "enriched_at": "2025-12-09T02:39:14.636Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:33:32.295Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

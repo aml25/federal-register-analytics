@@ -1,0 +1,42 @@
+{
+  "document_number": "2017-15860",
+  "executive_order_number": "13806",
+  "title": "Assessing and Strengthening the Manufacturing and Defense Industrial Base and Supply Chain Resiliency of the United States",
+  "abstract": null,
+  "signing_date": "2017-07-21",
+  "publication_date": "2017-07-26",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/07/26/2017-15860/assessing-and-strengthening-the-manufacturing-and-defense-industrial-base-and-supply-chain",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-07-26/pdf/2017-15860.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/07/26/2017-15860.txt",
+  "enrichment": {
+    "summary": "This executive order directs a comprehensive review of the United States' manufacturing and defense industries, as well as supply chains critical to national security. The goal is to identify vulnerabilities, gaps, and risks in domestic production and supply chains, and to recommend actions that will strengthen the nation's manufacturing base and ensure resilience against potential disruptions.",
+    "theme_ids": [
+      "defense-industrial-base",
+      "manufacturing-policy",
+      "supply-chain-security",
+      "workforce-development",
+      "critical-minerals-supply-chain-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "manufacturing-workers",
+        "defense-industry-workers",
+        "union-members",
+        "working-age-adults"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to strengthen domestic manufacturing and defense industrial base may increase pressure on manufacturing-workers and union-members to rapidly upskill, potentially straining existing workforce development programs.",
+      "The focus on supply chain resiliency and critical mineral security might lead to increased regulatory burdens on defense-industry-workers and manufacturing-workers, possibly causing production delays or increased costs.",
+      "Emphasizing domestic production could disadvantage working-age-adults employed in industries reliant on global supply chains if companies relocate or restructure to comply with new national security requirements.",
+      "Recommendations to address single points of failure in supply chains might lead to industry consolidation or shift procurement practices, adversely affecting small manufacturers and their workers not directly addressed in this order."
+    ],
+    "enriched_at": "2025-12-15T02:25:08.027Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

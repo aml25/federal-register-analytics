@@ -13,33 +13,30 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-10-05/pdf/2021-21908.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/10/05/2021-21908.txt",
   "enrichment": {
-    "summary": "This executive order extends the lifespan of numerous federal advisory committees through September 30, 2023, ensuring their work continues uninterrupted. It also updates certain executive orders related to these committees, clarifies management responsibilities, and revises membership terms and functions for key advisory bodies focused on national security, public health, environment, and education.",
+    "summary": "This executive order extends or renews a wide range of federal advisory committees until September 30, 2023, and updates the responsibilities and structure of certain committees, especially those related to national security and health. It also amends some earlier executive orders to refine committee functions and leadership terms. The order delegates oversight duties to relevant departments and agencies to ensure continued advice and guidance on diverse policy areas.",
     "theme_ids": [
-      "advisory-committees-management",
-      "national-security",
-      "public-health-promotion",
-      "sports-policy",
-      "education-policy",
-      "public-lands-management",
-      "foreign-policy"
+      "federal-advisory-committees",
+      "homeland-security",
+      "cybersecurity-national-security",
+      "environmental-justice",
+      "public-health-emergency-response"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "scientific-researchers",
-        "academic-institutions"
+        "cybersecurity-professionals",
+        "environmental-justice-communities",
+        "individuals-with-disabilities",
+        "individuals-with-mental-health-conditions"
       ],
-      "negative_ids": [
-        "federal-agencies-with-increased-administrative-burden"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "The broad continuance of many advisory committees could lead to inefficient use of government resources without clear performance metrics.",
-      "Shifting the President’s functions under the Federal Advisory Committee Act to agency heads might reduce centralized oversight and accountability.",
-      "Amendments expanding terms and membership functions may complicate committee operations and require additional administrative support.",
-      "Some advisory committees address politically sensitive areas, which could lead to partisan disputes over appointments or recommendations.",
-      "Lack of specific budgeting details for committees may result in funding uncertainties or inadequate support for their work."
+      "The updated structure and responsibilities of advisory committees related to cybersecurity-national-security may increase demands on cybersecurity professionals without providing adequate support or resources.",
+      "Environmental justice communities might experience delays in policy advocacy or diminished direct influence if committee roles are not sufficiently inclusive or responsive to their needs.",
+      "Individuals with disabilities and those with mental health conditions could be underrepresented in advisory committees, limiting the effectiveness of related public-health-emergency-response policies.",
+      "Delegation of oversight to department heads may reduce transparency and public accountability, potentially marginalizing the voices of vulnerable populations represented by these advisory committees."
     ],
-    "enriched_at": "2025-12-09T03:52:09.739Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T02:31:34.796Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

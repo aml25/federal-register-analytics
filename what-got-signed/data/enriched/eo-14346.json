@@ -13,30 +13,34 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-09-10/pdf/2025-17507.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/09/10/2025-17507.txt",
   "enrichment": {
-    "summary": "This executive order updates U.S. reciprocal tariffs to address ongoing trade imbalances that threaten national security, modifies tariff exclusions globally, and establishes procedures for implementing current and future trade and security agreements with foreign partners. It directs government officials to monitor trade conditions, coordinate tariff adjustments, and act to protect U.S. national security and economic interests through trade measures.",
+    "summary": "This executive order updates and modifies U.S. reciprocal tariffs on goods to address trade imbalances and national security threats linked to persistent trade deficits. It establishes procedures for implementing trade and security agreements with foreign partners, directing relevant agencies to monitor conditions, adjust tariffs accordingly, and act to safeguard U.S. economic and security interests.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
-      "foreign-policy"
+      "tariffs-duties",
+      "trade-policy-agreements",
+      "defense-industrial-base",
+      "national-emergencies",
+      "delegation-of-authority"
     ],
     "impacted_populations": {
       "positive_ids": [
         "manufacturing-workers",
-        "pharmaceutical-manufacturers"
+        "defense-industry-workers",
+        "small-business-owners",
+        "middle-class-americans"
       ],
       "negative_ids": [
-        "foreign-manufacturers",
-        "small-importers"
+        "consumers",
+        "large-corporation-employees"
       ]
     },
     "potential_concerns": [
-      "Lowering reciprocal tariffs for certain trading partners may expose some U.S. industries to increased foreign competition.",
-      "The complexity and sensitivity of trade negotiations could delay or complicate timely tariff adjustments.",
-      "Implementing tariff changes linked to national security may raise disputes with trading partners or provoke retaliatory measures.",
-      "Coordination among multiple agencies may face bureaucratic challenges affecting effective monitoring and enforcement.",
-      "Reliance on future final agreements for tariff suspensions may create uncertainty for businesses and trading partners."
+      "The modification and imposition of reciprocal tariffs may raise costs for consumers by increasing prices on imported goods, negatively impacting household budgets.",
+      "Changes in tariffs could disrupt supply chains and increase production costs for large corporations reliant on imported intermediate goods, potentially leading to layoffs affecting large-corporation-employees.",
+      "Small business owners who rely on imported goods might face higher input costs and uncertain trade conditions, reducing their competitiveness and profitability.",
+      "While aiming to strengthen the defense industrial base, tariff adjustments could cause short-term disruptions in defense industry manufacturing, affecting defense-industry-workers through production delays or employment instability.",
+      "The delegation of authority to implement tariff changes might lead to inconsistent or unpredictable application of trade policies, creating uncertainty for manufacturing-workers and businesses dependent on stable trade relations."
     ],
-    "enriched_at": "2025-12-09T02:47:46.072Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:01:22.611Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

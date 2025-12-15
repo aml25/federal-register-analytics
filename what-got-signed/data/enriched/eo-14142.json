@@ -13,30 +13,27 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-17/pdf/2025-01437.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/17/2025-01437.txt",
   "enrichment": {
-    "summary": "This Executive Order updates previous sanctions and restrictions related to Syria by amending earlier orders to reflect changing conditions on the ground. It revises the criteria for targeting individuals and entities involved with the Syrian conflict and clarifies implementation rules for related national emergency authorities. The order helps maintain economic pressure and restricts support to certain actors tied to the Syrian situation.",
+    "summary": "This executive order updates and modifies a previous order related to the national emergency concerning Syria. It changes certain provisions about entities and individuals subject to U.S. sanctions connected to the situation in Syria, reflecting new circumstances on the ground. The order continues to support enforcement actions tied to blocking property and restricting entry of persons contributing to the situation in Syria.",
     "theme_ids": [
-      "national-security",
-      "foreign-policy",
-      "financial-regulation"
+      "economic-sanctions",
+      "syria",
+      "national-emergencies"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "regional-stability-actors",
-        "sanctioned-persons-and-affiliates"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "civilian-populations-in-designated-countries",
-        "populations-in-designated-countries"
+        "citizens-of-specific-countries-by-eo-designation",
+        "corporations-businesses",
+        "foreign-nationals-general"
       ]
     },
     "potential_concerns": [
-      "Sanctions may inadvertently harm civilian populations in Syria and neighboring countries benefiting from humanitarian aid.",
-      "The amendment of targeting criteria could create legal uncertainties for businesses and persons doing legitimate commerce involving Syria.",
-      "Maintaining broad national emergency authorities may raise concerns about executive overreach and limited congressional oversight.",
-      "Changes in language removing references to Turkey might signal shifts in regional policy that could complicate diplomatic relations.",
-      "Enforcement complexity may increase given the nuanced support definitions for blocked persons and entities, potentially impacting compliance."
+      "The expansion of sanctions could significantly harm Syrian citizens and businesses by restricting access to international finance and commerce, exacerbating economic hardship.",
+      "Broad definitions targeting entities that 'materially assist or support' sanctioned persons may unintentionally affect third-party foreign businesses and complicate compliance for multinational corporations.",
+      "The continued blocking of property and suspension of entry may impact foreign nationals connected to Syria, including refugees or diaspora communities, raising humanitarian and diplomatic challenges.",
+      "Removal of specific language about Turkey's military actions might reduce transparency about regional actors, leading to concerns around selective enforcement or geopolitical bias in sanctions."
     ],
-    "enriched_at": "2025-12-09T02:37:34.492Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:38:24.868Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

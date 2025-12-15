@@ -13,28 +13,27 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-31/pdf/2025-02095.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/31/2025-02095.txt",
   "enrichment": {
-    "summary": "This executive order reinstates and updates a prior policy that creates a special excepted service classification for federal employees in policy-influencing positions, making it easier to hold them accountable and remove those who do not implement the President's policies faithfully. It aims to restore presidential control and accountability over career federal employees who shape and influence government policy, reversing protections that have made it difficult for supervisors to discipline or remove underperforming or insubordinate employees.",
+    "summary": "This executive order reinstates and modifies a previous policy that creates a special classification of federal employees in policy-influencing positions, called Schedule Policy/Career, to increase accountability. It enables easier dismissal of employees in these roles for failure to implement administration policies and revokes a prior order aimed at protecting certain workforce rules. The order emphasizes restoring presidential control and accountability within the federal civil service, especially among those shaping and executing policy.",
     "theme_ids": [
-      "federal-workforce",
-      "federal-agency-management"
+      "federal-workforce-management",
+      "civil-service-reform",
+      "schedule-f-political-appointments",
+      "regulatory-reform-deregulation",
+      "revocation-of-previous-executive-orders"
     ],
     "impacted_populations": {
-      "positive_ids": [
-        "federal-employees",
-        "displaced-federal-workers"
-      ],
+      "positive_ids": [],
       "negative_ids": [
-        "independent-regulatory-agencies"
+        "federal-employees-civil-servants"
       ]
     },
     "potential_concerns": [
-      "The policy could undermine long-standing civil service protections that safeguard employee rights and merit-based employment, risking politicization of the federal workforce.",
-      "Making removal easier for policy-influencing career employees may discourage qualified candidates from seeking these positions due to job insecurity and political pressures.",
-      "There may be challenges in clearly defining which positions qualify for the new Schedule Policy/Career classification, leading to inconsistent or arbitrary application across agencies.",
-      "The order risks creating tension and reduced morale among federal employees who feel their oaths or professional responsibilities conflict with implementing policies they disagree with.",
-      "Revoking protections and previous reform efforts might face legal challenges and impede implementation, resulting in temporary uncertainty and administrative burden."
+      "The reinstatement and modification of Schedule Policy/Career positions may lead to decreased job security and increased dismissals among federal employees in policy-influencing roles, raising concerns about politicization of the civil service (theme: schedule-f-political-appointments, civil-service-reform).",
+      "Removing previous protections that limited dismissals could undermine merit system principles, potentially discouraging federal employees from providing candid, nonpartisan advice, thereby affecting effective governance (theme: revocation-of-previous-executive-orders, federal-workforce-management).",
+      "Greater presidential control over policy-influencing positions might increase turnover and reduce institutional knowledge within the federal workforce, negatively impacting continuity in policy execution (theme: civil-service-reform, regulatory-reform-deregulation).",
+      "The order’s emphasis on faithful implementation of administration policies, without requiring political support, may still pressure employees to conform to political agendas, risking ethical conflicts and possible retaliation against dissenting federal civil servants."
     ],
-    "enriched_at": "2025-12-09T02:39:05.094Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:34:07.715Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

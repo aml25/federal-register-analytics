@@ -13,32 +13,35 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-29/pdf/2025-09801.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/29/2025-09801.txt",
   "enrichment": {
-    "summary": "This executive order directs the federal government to revitalize the U.S. nuclear energy industry by strengthening the domestic nuclear fuel cycle, expanding uranium production and reactor construction, supporting workforce development, and securing supply chains. It aims to ensure national security, energy independence, and future economic competitiveness through increased investment, regulatory support, and coordination across agencies.",
+    "summary": "This executive order directs federal agencies to strengthen and revitalize America's nuclear energy industry by improving domestic nuclear fuel production, supporting advanced nuclear reactor development, expanding the nuclear workforce, and ensuring secure nuclear supply chains. It aims to increase nuclear power capacity, reduce reliance on foreign sources, and enhance national and economic security through coordinated government efforts and industry partnerships.",
     "theme_ids": [
-      "national-security",
-      "energy-policy",
-      "federal-workforce",
-      "technology-development",
-      "federal-research-coordination"
+      "nuclear-policy",
+      "defense-production-act",
+      "energy-independence-security",
+      "workforce-development",
+      "defense-industrial-base"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "domestic-energy-producers",
-        "scientific-researchers"
+        "defense-industry-workers",
+        "working-age-adults",
+        "college-university-students",
+        "federal-employees-civil-servants",
+        "small-business-owners"
       ],
       "negative_ids": [
-        "green-energy-industry",
-        "foreign-processors-of-critical-minerals"
+        "environmental-justice-communities",
+        "rural-communities"
       ]
     },
     "potential_concerns": [
-      "Accelerated nuclear expansion could face environmental and safety risks if regulatory reviews are shortened or bypassed.",
-      "Increased government involvement and funding may disadvantage renewable energy sectors competing for federal support.",
-      "Dependence on voluntary agreements with industry could limit oversight and lead to inequitable resource allocation favoring certain firms.",
-      "Ramping up uranium mining and processing may cause local environmental and community impacts that are inadequately addressed.",
-      "Workforce development efforts might fall short if educational and industry partnerships fail to meet demand or if funding is insufficient."
+      "Efforts to expand nuclear fuel production and advanced reactor deployment may raise environmental and health risks for environmental-justice-communities located near affected sites, disproportionately impacting rural-communities where many nuclear facilities are sited.",
+      "Workforce development initiatives are focused on expanding nuclear-related education and jobs, but may not adequately address inclusivity or the retraining needs of displaced workers from declining energy sectors, affecting working-age adults broadly.",
+      "Increased domestic uranium enrichment and fuel cycle activities might face regulatory, safety, and local opposition challenges that could delay implementation and increase costs for small-business-owners and defense-industry-workers reliant on stable supply chains.",
+      "Repurposing and restarting closed nuclear plants for military microgrids could provoke community resistance and raise security concerns among local residents, especially in rural communities with little prior exposure to nuclear facilities.",
+      "The use of Defense Production Act authorities to secure nuclear material supply chains may limit market competition and place burdens on small and medium-sized companies in the nuclear sector, potentially crowding out innovation."
     ],
-    "enriched_at": "2025-12-09T02:45:27.777Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T07:38:45.947Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

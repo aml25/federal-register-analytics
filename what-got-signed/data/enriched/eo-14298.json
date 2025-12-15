@@ -13,29 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-21/pdf/2025-09297.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/21/2025-09297.txt",
   "enrichment": {
-    "summary": "This executive order temporarily reduces certain additional tariffs on goods imported from the People's Republic of China in order to support ongoing trade discussions and improve economic relations. It suspends higher tariff rates previously imposed and sets a uniform 10 percent additional duty for 90 days while maintaining some related duty adjustments to ensure overall trade policy goals are met.",
+    "summary": "This executive order temporarily reduces certain additional tariffs on imports from China, including goods from Hong Kong and Macau, to support ongoing trade discussions aimed at addressing trade imbalances and national security concerns. It also adjusts related tariff rates and directs relevant agencies to implement these changes.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
-      "foreign-policy"
+      "trade-policy-agreements",
+      "tariffs-duties",
+      "national-emergencies",
+      "china"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "china",
-        "american-businesses"
+        "small-business-owners",
+        "consumers",
+        "manufacturing-workers"
       ],
       "negative_ids": [
-        "foreign-manufacturers"
+        "large-corporation-employees",
+        "retail-workers"
       ]
     },
     "potential_concerns": [
-      "Reduced tariffs may adversely impact U.S. manufacturers who face increased competition from imports.",
-      "Temporary tariff suspension could lead to uncertainty for businesses relying on consistent trade policies.",
-      "There may be criticism that lowering tariffs rewards unfair trade practices or shows weakness in enforcing trade rules.",
-      "Implementation requires coordination across multiple agencies, which could delay effective enforcement or cause inconsistent application.",
-      "The 90-day suspension period may be too short to realize meaningful progress in bilateral trade negotiations."
+      "The temporary reduction of tariffs on Chinese imports may benefit small business owners and consumers through lower import costs but could negatively impact domestic manufacturing workers by increasing competition from Chinese goods.",
+      "Large corporation employees and retail workers may face job insecurity or wage pressure due to continuing trade imbalances and tariff uncertainty affecting supply chains and product pricing.",
+      "The 90-day suspension period creates uncertainty for businesses relying on tariff stability, potentially complicating inventory and pricing decisions for small business owners and manufacturing sectors.",
+      "Ongoing national emergency declarations and tariff adjustments may heighten geopolitical tensions with China, potentially affecting sectors reliant on stable international trade relations such as manufacturing and retail."
     ],
-    "enriched_at": "2025-12-09T02:45:15.218Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:16:19.951Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

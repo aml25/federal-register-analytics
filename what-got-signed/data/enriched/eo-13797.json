@@ -1,0 +1,46 @@
+{
+  "document_number": "2017-09161",
+  "executive_order_number": "13797",
+  "title": "Establishment of Office of Trade and Manufacturing Policy",
+  "abstract": null,
+  "signing_date": "2017-04-29",
+  "publication_date": "2017-05-04",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/05/04/2017-09161/establishment-of-office-of-trade-and-manufacturing-policy",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-05-04/pdf/2017-09161.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/05/04/2017-09161.txt",
+  "enrichment": {
+    "summary": "This executive order creates a new Office of Trade and Manufacturing Policy within the White House to advise the President on improving economic growth, reducing the trade deficit, and strengthening the manufacturing and defense industries in the U.S. The office will coordinate trade policy, help implement Buy American policies, and focus on strengthening domestic manufacturing and procurement.",
+    "theme_ids": [
+      "manufacturing-policy",
+      "defense-industrial-base",
+      "trade-policy-agreements",
+      "buy-american-domestic-preference",
+      "federal-hiring"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "manufacturing-workers",
+        "defense-industry-workers",
+        "federal-employees-civil-servants",
+        "union-members"
+      ],
+      "negative_ids": [
+        "foreign-nationals-general",
+        "large-corporation-employees"
+      ]
+    },
+    "potential_concerns": [
+      "The emphasis on Buy American policies may increase costs for federal contractors and limit competition, negatively affecting large corporations reliant on global supply chains.",
+      "Strengthening domestic manufacturing could inadvertently disadvantage foreign workers and international suppliers integrated into U.S. trade networks.",
+      "Efforts to coordinate procurement policies might impose administrative burdens on federal employees, complicating hiring and purchasing processes.",
+      "Prioritizing the defense industrial base may benefit defense industry workers and veterans while potentially crowding out non-defense manufacturing sectors and their workers.",
+      "Strict domestic preference policies may provoke trade tensions with allied countries, affecting broader trade policy agreements and possibly resulting in retaliatory actions."
+    ],
+    "enriched_at": "2025-12-15T02:26:11.103Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

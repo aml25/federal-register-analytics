@@ -13,28 +13,28 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-14/pdf/2025-08681.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/14/2025-08681.txt",
   "enrichment": {
-    "summary": "This executive order aims to reduce unnecessary criminal penalties within federal regulations by requiring agencies to clearly identify which rules carry criminal consequences and to favor civil enforcement over criminal prosecution except in cases where intentional wrongdoing is evident. It promotes transparency by mandating agencies to publish reports listing criminal regulatory offenses, clarify the mental state required for violations, and discourage strict liability offenses to protect ordinary Americans from unknowingly becoming criminals.",
+    "summary": "This executive order aims to reduce the overuse of criminal penalties for violating federal regulations. It requires federal agencies to identify and report all criminal regulatory offenses, promote transparency about mens rea (intent) requirements, discourage strict liability offenses, and ensure enforcement focuses on intentional wrongdoing. The goal is to protect ordinary Americans from unknowingly becoming criminals under complex regulations.",
     "theme_ids": [
-      "regulatory-reform",
-      "federal-agency-management",
-      "public-safety"
+      "regulatory-reform-deregulation",
+      "criminal-justice-reform",
+      "federal-law-enforcement"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "average-americans"
+        "working-age-adults",
+        "small-business-owners",
+        "entrepreneurs-startups",
+        "law-enforcement-officers-federal"
       ],
-      "negative_ids": [
-        "federal-agencies"
-      ]
+      "negative_ids": []
     },
     "potential_concerns": [
-      "The determination of which offenses warrant criminal enforcement versus civil enforcement could be inconsistently applied across agencies, leading to confusion or uneven protections.",
-      "Strict liability offenses are discouraged but not eliminated, potentially allowing some individuals to still be criminally liable without proven intent.",
-      "Requiring agencies to publish and update detailed reports may create administrative burdens and delays in regulatory processes.",
-      "Focusing criminal prosecutions only on those who knowingly violate regulations could reduce enforcement deterrence for certain harmful but unintentional violations.",
-      "There may be tension between the order’s reforms and agency statutory authorities, complicating implementation across diverse regulatory areas."
+      "Reduced criminal enforcement of regulatory offenses might limit the ability of federal law enforcement officers to prosecute harmful misconduct, potentially undermining public safety.",
+      "Small business owners and entrepreneurs may benefit from lower risk of unintended criminal liability, but inconsistent mens rea standards could create uncertainty and uneven enforcement.",
+      "The disfavoring of strict liability offenses could lead to under-enforcement of regulations intended to protect public health and safety, risking harm to working-age adults and the broader public.",
+      "Transparency requirements might impose additional administrative burdens on agencies and regulated entities, which could divert resources away from substantive enforcement actions."
     ],
-    "enriched_at": "2025-12-09T02:45:04.798Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:16:52.531Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

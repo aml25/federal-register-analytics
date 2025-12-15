@@ -13,32 +13,33 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-06/pdf/2025-03695.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/06/2025-03695.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to increase domestic timber production by reducing regulatory barriers, speeding up permitting processes, and improving forest management to boost jobs, economic security, and wildfire risk reduction. It emphasizes more active use of federal lands for timber and calls for legislative proposals and streamlined environmental consultations to facilitate these goals.",
+    "summary": "This executive order directs federal agencies to increase domestic timber production by updating guidance, streamlining permitting, and improving forest management to reduce reliance on imported lumber. It emphasizes speeding up review processes related to timber projects and wildfire risk reduction while ensuring compliance with environmental laws. The goal is to strengthen American timber supply, create jobs, and enhance national and economic security.",
     "theme_ids": [
-      "regulatory-reform",
+      "economic-competitiveness",
+      "forest-management-wildfire-prevention",
       "public-lands-management",
-      "trade-policy",
-      "energy-policy",
-      "disaster-preparedness"
+      "regulatory-reform-deregulation",
+      "environmental-review-process"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "domestic-energy-producers",
-        "american-workers"
+        "agricultural-workers-farmers",
+        "construction-workers",
+        "rural-communities",
+        "tribal-communities-reservations"
       ],
       "negative_ids": [
-        "wildlife-and-fish-habitats",
-        "environmental-advocates"
+        "environmental-justice-communities",
+        "native-americans-indigenous-peoples"
       ]
     },
     "potential_concerns": [
-      "Expedited forest management and timber production may reduce environmental protections and harm wildlife habitats.",
-      "Streamlining Endangered Species Act consultations could weaken species conservation and provoke legal challenges.",
-      "Removing regulatory delays might increase risk of poorly planned timber projects that escalate wildfire hazards or degrade ecosystems.",
-      "Balancing economic goals with sustainable land management could be difficult and lead to conflicts among stakeholders.",
-      "Implementation timelines and coordination among multiple federal agencies may present logistical and bureaucratic challenges."
+      "Streamlining permitting and easing Endangered Species Act consultations may lead to insufficient environmental protections, negatively impacting environmental-justice communities and tribal communities dependent on healthy, sustainable ecosystems.",
+      "Increased timber production from federal lands could degrade fish and wildlife habitats, disproportionately affecting Native Americans and Indigenous Peoples who rely on these resources culturally and economically.",
+      "Rural communities and agricultural workers might benefit economically from job creation, but could face increased exposure to environmental degradation and wildfire risks if forest management is inadequately balanced.",
+      "Accelerated timber harvesting to reduce reliance on imports may create conflicts between economic competitiveness and long-term sustainable forest management, potentially leading to overexploitation detrimental to local ecosystems and some populations dependent on them."
     ],
-    "enriched_at": "2025-12-09T02:41:42.583Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:26:19.758Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

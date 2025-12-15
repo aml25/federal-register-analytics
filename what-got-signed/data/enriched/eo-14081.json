@@ -13,42 +13,37 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-09-15/pdf/2022-20167.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/09/15/2022-20167.txt",
   "enrichment": {
-    "summary": "This executive order directs the federal government to coordinate efforts to advance biotechnology and biomanufacturing in ways that promote health, climate goals, economic growth, and national security. It establishes initiatives for research, data sharing, workforce development, regulation reform, and international cooperation to foster a sustainable and secure American bioeconomy.",
+    "summary": "This executive order directs the U.S. government to coordinate efforts to advance biotechnology and biomanufacturing in ways that benefit health, climate, energy, food security, and national security. It sets goals for research, data sharing, workforce development, regulatory clarity, risk reduction, and international cooperation to strengthen the American bioeconomy while ensuring safety, equity, and security.",
     "theme_ids": [
-      "federal-research-coordination",
-      "national-security",
-      "scientific-research",
-      "technology-development",
-      "regulatory-reform",
-      "supply-chain-security",
-      "federal-procurement-policy",
-      "privacy-and-data-security",
+      "biotechnology-biomanufacturing",
+      "economic-competitiveness",
       "workforce-development",
-      "foreign-policy",
-      "economic-development",
-      "environmental-regulation",
-      "equity-and-inclusion-policy",
-      "bioeconomy-policy"
+      "homeland-security",
+      "climate-change-policy"
     ],
     "impacted_populations": {
       "positive_ids": [
         "scientific-researchers",
-        "academic-institutions",
-        "tech-industry"
+        "technology-workers",
+        "agricultural-workers-farmers",
+        "entrepreneurs-startups",
+        "hbcu-students-communities",
+        "tribal-college-students-communities",
+        "low-income-individuals-families",
+        "environmental-justice-communities"
       ],
       "negative_ids": [
-        "foreign-suppliers",
-        "foreign-processors-of-critical-minerals"
+        "foreign-nationals-general"
       ]
     },
     "potential_concerns": [
-      "Balancing enhanced data sharing with privacy, security, and commercial confidentiality could be challenging and lead to conflicts among stakeholders.",
-      "Efforts to secure the bioeconomy from foreign adversaries may result in stricter regulations that could slow innovation or complicate international collaboration.",
-      "Streamlining biotechnology regulations risks unintended gaps in safety oversight if not carefully managed and updated, potentially raising biosafety concerns.",
-      "Ensuring equitable access to benefits of biotechnology for underserved communities may face difficulties given existing structural inequalities and resource limitations.",
-      "Implementation complexity across numerous federal agencies might delay progress or create overlapping efforts without clear accountability."
+      "Enhanced biotechnology and biomanufacturing innovation may exacerbate equity gaps if underserved communities, including low-income individuals and minority-serving educational institutions, do not receive adequate access to workforce development opportunities, potentially undermining the order's equity goals.",
+      "The expansion of domestic biomanufacturing and intellectual property protections may impose competitive barriers for foreign nationals and international researchers, potentially leading to geopolitical tensions or restrictions on global scientific collaboration.",
+      "Data sharing initiatives for the bioeconomy could raise privacy and security risks around biological data, posing threats to environmental justice communities and vulnerable populations if biosecurity measures are insufficient or unevenly enforced.",
+      "Efforts to streamline biotechnology regulations might unintentionally favor large corporations or startups with resources to navigate reforms, potentially marginalizing small agricultural workers and farmers who depend on biotechnological advances.",
+      "Ambitious biosafety, biosecurity, and supply chain resilience measures entail complex coordination that, if improperly implemented, may create unintended bureaucratic burdens for scientific researchers and technology workers, slowing innovation progress."
     ],
-    "enriched_at": "2025-12-09T03:46:27.682Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T02:37:28.789Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -13,28 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-07-10/pdf/2025-12962.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/07/10/2025-12962.txt",
   "enrichment": {
-    "summary": "This executive order extends a temporary suspension of certain additional tariffs imposed on U.S. trading partners in response to trade imbalances, continuing reduced duties through August 1, 2025. It maintains separate tariff treatment for China while directing federal agencies to take necessary actions to implement the extension of these tariff adjustments.",
+    "summary": "This executive order extends a temporary suspension of increased tariffs on certain imports from U.S. trading partners, except China, to encourage these partners to align their trade practices with U.S. economic and national security interests. It modifies the Harmonized Tariff Schedule to continue this tariff adjustment until August 1, 2025, and directs relevant agencies to implement the order.",
     "theme_ids": [
-      "trade-policy",
-      "national-security",
-      "foreign-policy"
+      "tariffs-duties",
+      "trade-policy-agreements",
+      "national-emergencies",
+      "china"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "american-businesses"
+        "small-business-owners",
+        "manufacturing-workers",
+        "large-corporation-employees"
       ],
       "negative_ids": [
-        "foreign-manufacturers"
+        "consumers"
       ]
     },
     "potential_concerns": [
-      "Extending tariff suspensions may reduce leverage to address unfair trade practices, potentially weakening U.S. trade negotiating positions.",
-      "Certain U.S. industries could face continued competition from imports due to lowered tariff protections, possibly harming domestic manufacturers.",
-      "Differential tariff treatments might cause trade tensions or disputes with excluded nations such as China.",
-      "Implementation complexity across multiple federal agencies may lead to delays or inconsistent enforcement.",
-      "The executive order’s reliance on classified or undisclosed information may limit transparency and public understanding of policy rationale."
+      "The extension of tariff suspensions may benefit small-business-owners and manufacturing-workers by lowering input costs, but could simultaneously harm importers facing uncertainty and increased compliance costs if tariffs reimpose suddenly.",
+      "The exclusion of China from the tariff suspension could escalate trade tensions, negatively affecting large-corporation-employees in multinational companies reliant on Chinese supply chains.",
+      "Consumers might face higher prices if tariffs lead to increased costs passed along the supply chain, reducing purchasing power particularly for middle- and low-income households.",
+      "The national emergency basis for these tariffs may raise legal and diplomatic concerns about trade-policy-agreements and could prompt retaliatory actions from foreign governments, disrupting trade flows important to the manufacturing sector.",
+      "Because this order relies on continuing emergency powers, there is a risk that prolonged use of tariffs as a security tool could destabilize international trade norms, indirectly harming U.S. exporters and their employees."
     ],
-    "enriched_at": "2025-12-09T02:46:07.195Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T07:37:02.139Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

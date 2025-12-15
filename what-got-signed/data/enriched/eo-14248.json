@@ -13,31 +13,35 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-28/pdf/2025-05523.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/28/2025-05523.txt",
   "enrichment": {
-    "summary": "This executive order aims to strengthen the integrity of American elections by enforcing citizenship requirements for voting, improving voter registration accuracy, enhancing voting system security, and ensuring all votes are cast and counted by the established Election Day. It prioritizes preventing illegal voting, foreign interference, and fraud, while updating election assistance standards and prosecuting election crimes more aggressively.",
+    "summary": "This executive order aims to strengthen the security and integrity of American elections by enforcing strict voter eligibility requirements, including proof of U.S. citizenship. It mandates updated voting system standards, enhances coordination between federal and state authorities to prevent voter fraud and foreign interference, and requires timely counting of ballots only on Election Day.",
     "theme_ids": [
-      "immigration-enforcement",
-      "public-safety",
-      "federal-agency-management",
-      "national-security"
+      "foreign-election-interference",
+      "voting-rights",
+      "federal-law-enforcement",
+      "critical-infrastructure-protection",
+      "homeland-security"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "state-and-local-governments",
-        "non-citizen-voters"
+        "u-s-citizens",
+        "birthright-citizens",
+        "naturalized-citizens"
       ],
       "negative_ids": [
         "undocumented-immigrants",
-        "foreign-suppliers"
+        "daca-recipients-dreamers",
+        "lawful-permanent-residents-green-card-holders",
+        "visa-holders-work-student-tourist"
       ]
     },
     "potential_concerns": [
-      "Strict enforcement of documentary proof of citizenship could disproportionately burden eligible voters, including minorities and marginalized communities, leading to disenfranchisement.",
-      "Increased coordination between federal and state agencies may raise privacy concerns due to sharing of sensitive immigration and voter registration data.",
-      "New standards limiting acceptance of mail-in ballots received after Election Day could reduce voting access for some voters, especially those facing postal delays or other barriers.",
-      "Heightened prosecution and enforcement efforts could politicize election oversight, risking accusations of voter suppression or targeting specific groups.",
-      "Mandates on voting system standards and audit enforcement could impose substantial costs and administrative burdens on smaller states or local jurisdictions."
+      "The strict documentary proof of citizenship requirements may disenfranchise eligible voters, particularly naturalized citizens and birthright citizens who face difficulties obtaining or presenting required identification, raising voting-rights concerns.",
+      "Enhanced coordination with immigration databases and increased scrutiny of voter registration could lead to wrongful removal or challenging of registration status for lawful permanent residents, DACA recipients, and others with complex immigration status despite being eligible to vote.",
+      "The requirement that no ballots be counted after Election Day except under very narrow exceptions may disproportionately affect voters relying on mail-in ballots, including seniors, individuals with disabilities, and rural voters, potentially reducing participation and fairness in elections.",
+      "Prioritizing prosecution and enforcement actions against alleged election fraud risks targeting immigrant communities and noncitizens due to data sharing and investigative mechanisms, which may create climate of fear and discourage lawful voting participation among minority populations.",
+      "Mandates on voting system standards disallowing QR/barcode voting except for accommodations could increase costs and logistical challenges for election officials, potentially delaying implementation and affecting accessibility for disabled voters."
     ],
-    "enriched_at": "2025-12-09T02:42:43.702Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:23:03.472Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

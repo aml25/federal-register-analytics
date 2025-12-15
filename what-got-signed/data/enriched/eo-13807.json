@@ -1,0 +1,46 @@
+{
+  "document_number": "2017-18134",
+  "executive_order_number": "13807",
+  "title": "Establishing Discipline and Accountability in the Environmental Review and Permitting Process for Infrastructure Projects",
+  "abstract": null,
+  "signing_date": "2017-08-15",
+  "publication_date": "2017-08-24",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/08/24/2017-18134/establishing-discipline-and-accountability-in-the-environmental-review-and-permitting-process-for",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-08-24/pdf/2017-18134.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/08/24/2017-18134.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to streamline and coordinate the environmental review and permitting process for major infrastructure projects, aiming to make decision-making faster, more predictable, and transparent. It establishes clear goals and accountability measures to complete reviews within about two years, encourages unified agency collaboration, and supports the efficient delivery of infrastructure that benefits the economy and communities.",
+    "theme_ids": [
+      "infrastructure-permitting",
+      "environmental-review-process",
+      "government-efficiency",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "construction-workers",
+        "renewable-energy-workers",
+        "energy-sector-workers-oil-gas-coal",
+        "urban-communities",
+        "rural-communities",
+        "tribal-communities-reservations",
+        "environmental-justice-communities"
+      ],
+      "negative_ids": [
+        "environmental-justice-communities"
+      ]
+    },
+    "potential_concerns": [
+      "Accelerated permitting deadlines may pressure agencies to shorten environmental reviews, potentially compromising the quality of protections for environmental justice communities and tribal communities reliant on natural resources.",
+      "Streamlining and unified agency coordination could disproportionately favor large infrastructure and energy projects, disadvantaging renewable-energy workers whose projects may face delays or reduced scrutiny.",
+      "The order’s emphasis on completing federal environmental reviews within two years might undermine thorough assessment of long-term environmental impacts, which could negatively affect construction workers and communities in both urban and rural areas due to unforeseen environmental risks.",
+      "Environmental justice communities face a trade-off between improved infrastructure access and the risk of increased environmental burdens if review processes are expedited at the expense of community input and environmental safeguards."
+    ],
+    "enriched_at": "2025-12-15T02:25:02.438Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

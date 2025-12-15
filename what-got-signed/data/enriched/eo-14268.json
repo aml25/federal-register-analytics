@@ -13,31 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06464.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/15/2025-06464.txt",
   "enrichment": {
-    "summary": "This executive order aims to speed up and improve the accountability of U.S. foreign defense sales by making the sales process more transparent, efficient, and coordinated between government agencies and industry. It sets out steps to prioritize partners and military items, streamline approvals, enhance cooperation, and modernize tracking systems for defense sales and exports.",
+    "summary": "This executive order aims to make the process of selling U.S. defense equipment to foreign partners faster, more transparent, and more efficient. It directs the Secretaries of State and Defense to streamline decision-making, improve collaboration with industry, update priority partner and item lists, and develop better tracking and accountability systems for foreign defense sales.",
     "theme_ids": [
-      "national-security",
-      "foreign-policy",
-      "regulatory-reform",
-      "federal-procurement-policy"
+      "military-readiness-force-structure",
+      "defense-industrial-base",
+      "foreign-aid",
+      "interagency-coordination"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "tech-industry",
-        "domestic-energy-producers"
+        "defense-industry-workers",
+        "military-personnel-active-duty",
+        "foreign-governments"
       ],
       "negative_ids": [
-        "foreign-processors-of-critical-minerals",
-        "foreign-manufacturers"
+        "taxpayers"
       ]
     },
     "potential_concerns": [
-      "Streamlining and reducing regulations might risk insufficient oversight leading to compromised technology security or export control violations.",
-      "Prioritizing certain international partners could create diplomatic tensions or perceptions of favoritism among other allies and partners.",
-      "Increased government-industry collaboration may raise concerns about conflicts of interest or undue industry influence over defense sales policy.",
-      "Implementing new electronic tracking systems could encounter technical challenges and data security risks.",
-      "Changing congressional notification thresholds might reduce legislative oversight and accountability over significant arms sales."
+      "Expediting foreign defense sales may risk compromising U.S. military personnel's access to critical equipment, potentially affecting military readiness and force structure.",
+      "Increased collaboration with defense industry may drive cost efficiencies but could also prioritize contractor interests over national security or oversight, negatively impacting taxpayers.",
+      "Streamlining export controls and updating FMS-Only lists might inadvertently enable sensitive technology transfers to foreign governments whose long-term reliability or alignment may be uncertain.",
+      "The consolidation of decision-making and reduced regulatory barriers could lead to insufficient interagency coordination, increasing risks of oversight lapses that affect both U.S. and foreign partners.",
+      "Efforts to strengthen allied burden-sharing by transferring end-items may shift operational costs onto partner countries, potentially creating political or economic tensions with foreign governments."
     ],
-    "enriched_at": "2025-12-09T02:43:45.788Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:20:20.049Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

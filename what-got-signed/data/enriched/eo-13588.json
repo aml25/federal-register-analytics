@@ -1,0 +1,41 @@
+{
+  "document_number": "2011-28728",
+  "executive_order_number": "13588",
+  "title": "Reducing Prescription Drug Shortages",
+  "abstract": null,
+  "signing_date": "2011-10-31",
+  "publication_date": "2011-11-03",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2011/11/03/2011-28728/reducing-prescription-drug-shortages",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2011-11-03/pdf/2011-28728.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2011/11/03/2011-28728.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Food and Drug Administration (FDA) to take steps to prevent and reduce shortages of important prescription drugs. It requires manufacturers to provide early notice when they plan to stop making certain critical drugs and calls for expedited FDA review to help address shortages more quickly. It also encourages the Department of Justice to investigate unfair market behavior like hoarding or price gouging related to drug shortages.",
+    "theme_ids": [
+      "healthcare-competition-markets",
+      "prescription-drug-pricing",
+      "public-health-emergency-response"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "patients-general",
+        "healthcare-workers"
+      ],
+      "negative_ids": [
+        "corporations-businesses"
+      ]
+    },
+    "potential_concerns": [
+      "Mandating early reporting from drug manufacturers may increase administrative and production burdens on pharmaceutical corporations, potentially raising costs that could be passed to patients.",
+      "Efforts to expedite FDA regulatory reviews might compromise thorough safety evaluations, increasing risks for patients relying on critical medications.",
+      "The focus on prosecuting market behaviors like hoarding and price gouging could lead to legal uncertainties for pharmaceutical companies, potentially slowing supply responses during shortages.",
+      "Patients with chronic or life-threatening conditions may still face access challenges if expanded manufacturing capacity takes years to materialize, despite improved FDA oversight.",
+      "Healthcare workers might experience increased operational strain managing drug shortages while adjusting to altered drug availability and price fluctuations."
+    ],
+    "enriched_at": "2025-12-12T08:24:17.734Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

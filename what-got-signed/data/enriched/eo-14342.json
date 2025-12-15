@@ -13,28 +13,29 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-28/pdf/2025-16618.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/28/2025-16618.txt",
   "enrichment": {
-    "summary": "This executive order directs federal agencies to identify and limit funding to state and local jurisdictions that have eliminated cash bail policies for defendants charged with violent or serious crimes, aiming to enhance public safety by requiring incarceration for those deemed threats. It seeks to discourage cashless bail to prevent potentially dangerous individuals from being released pretrial and to improve law enforcement effectiveness.",
+    "summary": "This executive order directs federal agencies to identify and restrict funding to states and local jurisdictions that have largely eliminated cash bail for individuals charged with serious crimes posing a threat to public safety. The goal is to ensure that people who are known threats are detained before trial, enhancing public safety and reducing repeat offenses while awaiting court proceedings.",
     "theme_ids": [
-      "public-safety"
+      "criminal-justice-reform",
+      "state-local-law-enforcement-support",
+      "crime-reduction"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "state-and-local-law-enforcement",
-        "pretrial-defendants"
+        "crime-victims",
+        "law-enforcement-officers-state-local"
       ],
       "negative_ids": [
-        "state-and-local-governments",
-        "communities-affected-by-police-aggression"
+        "defendants-accused-persons",
+        "low-income-individuals-families"
       ]
     },
     "potential_concerns": [
-      "Reducing or withholding federal funds from cashless bail jurisdictions could disproportionately impact communities advocating for bail reform and criminal justice equity.",
-      "The order may increase incarceration rates and exacerbate existing social and racial disparities within the criminal justice system.",
-      "There may be legal challenges regarding the extent to which the federal government can condition funding based on local bail policies.",
-      "Implementation could strain federal-state relations and complicate coordination with jurisdictions pursuing alternative pretrial practices.",
-      "Potential public safety benefits might be offset by increased jail populations and related costs without addressing root causes of crime or systemic issues."
+      "Restricting funding to jurisdictions with cashless bail policies may disproportionately harm low-income individuals and families who cannot afford bail, exacerbating economic inequalities in the justice system.",
+      "The order may increase pretrial detention rates, potentially leading to overcrowding in jails and increased burdens on defendants accused of crimes who have yet to be proven guilty.",
+      "State and local law enforcement officers might face increased workloads and administrative challenges managing higher detention populations, potentially diverting resources from other public safety efforts.",
+      "While intended to protect crime victims by detaining dangerous individuals pretrial, the order may also undermine ongoing criminal justice reform efforts aimed at reducing incarceration of nonviolent defendants."
     ],
-    "enriched_at": "2025-12-09T02:47:34.095Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T02:01:54.873Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -13,30 +13,31 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-05-19/pdf/2021-10691.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/05/19/2021-10691.txt",
   "enrichment": {
-    "summary": "This executive order cancels several previous presidential orders related to topics like online censorship and monument protection, and updates civil service rules regarding excepted service positions to remove a controversial employment category. It also directs agencies to revoke related policies, committees, or tasks established under the revoked orders as appropriate. The order aims to streamline federal workforce management and eliminate regulations deemed unnecessary or problematic from prior administrations.",
+    "summary": "This executive order cancels several previous presidential orders related to online censorship, monument protection, foreign assistance branding, and regulatory reform. It directs government agencies to undo policies and positions established under those orders and updates civil service rules to reflect recent changes regarding excepted service positions.",
     "theme_ids": [
-      "federal-workforce",
-      "regulatory-reform",
-      "federal-agency-management",
-      "free-speech-policy",
-      "symbol-protection"
+      "revocation-of-previous-executive-orders",
+      "civil-service-reform",
+      "government-efficiency",
+      "regulatory-reform-deregulation",
+      "national-monuments-memorials"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "federal-employees-civil-servants"
       ],
       "negative_ids": [
-        "tech-industry"
+        "veterans",
+        "foreign-service-officers"
       ]
     },
     "potential_concerns": [
-      "Revoking multiple executive orders simultaneously could create gaps or confusion in policy enforcement during the transition.",
-      "Abolishing personnel positions and task forces may result in temporary disruption of ongoing initiatives or programs.",
-      "Changes to civil service rules might raise concerns over job security or the fairness of appointment and removal processes for federal employees.",
-      "Removing Executive Order 13925 related to online censorship could reignite debates over the balance between free speech and content moderation.",
-      "Some stakeholders may view the revocations as politically motivated, potentially undermining trust in consistent federal policy."
+      "Revoking Executive Orders related to monument protection may create concerns among veterans about the preservation and respect of national memorials and military heritage.",
+      "The dismantling of rebranding efforts for U.S. foreign assistance could negatively affect foreign service officers by reducing clarity or support in diplomatic communication and influence-building efforts.",
+      "Repealing Schedule F and related excepted service appointments may improve federal workforce meritocracy but could limit agency flexibility and rapid response, affecting civil servants' job security and roles.",
+      "The elimination of policies preventing online censorship might create legal and operational uncertainties affecting federal communication standards with indirect repercussions for stakeholders engaged in public information dissemination.",
+      "Unwinding regulatory reform efforts aimed at reducing overcriminalization may inadvertently delay progress toward simplifying federal regulations, impacting populations who sought relief through those reforms."
     ],
-    "enriched_at": "2025-12-09T03:54:54.141Z",
-    "model_used": "gpt-4.1-mini + gpt-4o"
+    "enriched_at": "2025-12-15T07:32:41.580Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

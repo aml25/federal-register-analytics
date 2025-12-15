@@ -13,28 +13,35 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06466.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/15/2025-06466.txt",
   "enrichment": {
-    "summary": "This order requires certain federal agencies regulating energy production to include expiration dates on their regulations, forcing periodic review and removal of outdated rules. The goal is to reduce regulatory burdens, promote innovation, and modernize the U.S. energy sector by rescinding costly and outdated regulations.",
+    "summary": "This executive order requires several federal agencies involved in energy production to add expiration dates to their energy-related regulations. The goal is to force regular review and removal of outdated rules, encouraging innovation and reducing regulatory burdens in the energy sector to promote American energy progress.",
     "theme_ids": [
-      "regulatory-reform",
-      "energy-policy",
-      "federal-agency-management"
+      "regulatory-reform-deregulation",
+      "energy-independence-security",
+      "environmental-regulation",
+      "public-lands-management"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "domestic-energy-producers"
+        "energy-sector-workers-oil-gas-coal",
+        "renewable-energy-workers",
+        "small-business-owners",
+        "corporations-businesses"
       ],
       "negative_ids": [
-        "green-energy-industry"
+        "environmental-justice-communities",
+        "tribal-communities-reservations",
+        "rural-communities",
+        "coastal-communities"
       ]
     },
     "potential_concerns": [
-      "Removing or expiring regulations may weaken environmental protections and lead to increased ecological harm.",
-      "Frequent regulation expirations could create uncertainty for energy companies and investors planning long-term projects.",
-      "Agencies might lack sufficient resources or capacity to conduct thorough reexaminations within short timelines.",
-      "The policy may disproportionately favor fossil fuel and traditional energy producers over renewable energy sectors.",
-      "Public participation could be limited if sunset extensions and regulatory reviews occur without robust comment opportunities."
+      "The mandated frequent expiration of energy regulations could lead to regulatory uncertainty, negatively impacting renewable energy workers and businesses that require stable rules for long-term investments.",
+      "Environmental justice communities and tribal communities may face increased environmental risks if critical protective regulations are allowed to expire without adequate review or renewal.",
+      "Rural and coastal communities reliant on stringent environmental and land management regulations might experience heightened exposure to pollution and resource depletion due to deregulation pressures.",
+      "Small business owners and corporations in the energy sector may disproportionately benefit by cutting compliance costs, potentially at the expense of environmental safeguards and community health.",
+      "The short review cycles may overwhelm agencies, risking rushed assessments that prioritize deregulatory goals over thorough environmental and public health evaluations affecting vulnerable populations."
     ],
-    "enriched_at": "2025-12-09T02:43:51.593Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:20:05.406Z",
+    "model_used": "gpt-4.1-mini"
   }
 }

@@ -1,0 +1,44 @@
+{
+  "document_number": "2020-25459",
+  "executive_order_number": "13959",
+  "title": "Addressing the Threat From Securities Investments That Finance Communist Chinese Military Companies",
+  "abstract": null,
+  "signing_date": "2020-11-12",
+  "publication_date": "2020-11-17",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/11/17/2020-25459/addressing-the-threat-from-securities-investments-that-finance-communist-chinese-military-companies",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-11-17/pdf/2020-25459.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/11/17/2020-25459.txt",
+  "enrichment": {
+    "summary": "This executive order bans American individuals and entities from buying or selling securities of companies identified as Communist Chinese military companies, as these companies support the Chinese military and intelligence sectors. The order aims to protect U.S. national security by preventing U.S. investment from financing the modernization of China's military capabilities.",
+    "theme_ids": [
+      "defense-industrial-base",
+      "economic-sanctions",
+      "national-security-information-classification",
+      "china"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "defense-industry-workers",
+        "military-personnel-active-duty",
+        "veterans"
+      ],
+      "negative_ids": [
+        "investors",
+        "large-corporation-employees",
+        "financial-services-workers"
+      ]
+    },
+    "potential_concerns": [
+      "The executive order could negatively impact U.S. investors and financial-services-workers by restricting their access to certain securities, potentially disrupting investment portfolios and financial market operations (themes: economic-sanctions, china).",
+      "Restriction on securities of Communist Chinese military companies may lead to inadvertent financial losses for large-corporation-employees working in affected multinational firms that have exposure to these companies (themes: economic-sanctions, china).",
+      "While aimed at protecting national security and benefiting defense-industry-workers and active-duty military personnel by limiting Chinese military financing, the order may inadvertently reduce U.S.-China economic engagement, possibly affecting broader geopolitical stability (themes: defense-industrial-base, national-security-information-classification).",
+      "The order's broad prohibitions on transactions could lead to enforcement challenges and evasion attempts within the financial sector, creating compliance burdens for financial-services-workers and increasing regulatory complexity (themes: economic-sanctions, national-security-information-classification)."
+    ],
+    "enriched_at": "2025-12-15T02:30:50.151Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

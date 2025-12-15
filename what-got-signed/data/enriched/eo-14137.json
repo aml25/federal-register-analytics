@@ -13,25 +13,24 @@
   "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-13/pdf/2025-00618.pdf",
   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/13/2025-00618.txt",
   "enrichment": {
-    "summary": "This executive order establishes the official order of succession for who will take over as Secretary of the Treasury if both the Secretary and Deputy Secretary are unable to perform their duties. It lists specific Treasury officials by rank who are authorized to act as Secretary during such vacancies, while allowing the President discretion to deviate from the order as allowed by law. The order also revokes a prior similar order from 2016.",
+    "summary": "This executive order establishes the official order of officials within the Department of the Treasury who will take over as acting Secretary if both the Secretary and Deputy Secretary are unable to serve. It also outlines exceptions and revokes a prior order from 2016 on the same subject.",
     "theme_ids": [
-      "federal-agency-management",
-      "federal-workforce"
+      "order-of-succession",
+      "government-reorganization"
     ],
     "impacted_populations": {
       "positive_ids": [
-        "federal-employees"
+        "political-appointees"
       ],
       "negative_ids": []
     },
     "potential_concerns": [
-      "Ambiguity in the discretion allowed to the President to deviate from the established order could lead to disputes or uncertainty during leadership transitions.",
-      "Officials serving in acting capacities are excluded from succession, which may limit available leadership options in some scenarios.",
-      "Changes in succession order may create uncertainty or political challenges within the Department of the Treasury during transitions.",
-      "Lack of explicit guidance on communication and coordination during succession could impact operational continuity.",
-      "Revocation of the previous order might cause transitional confusion if not properly communicated and implemented within the Department."
+      "The rigid order of succession may limit the President's flexibility in appointing the most qualified acting Secretary during emergencies, potentially affecting political-appointees' authority and Department leadership stability.",
+      "Excluding officials serving in acting capacities from the succession order could create leadership gaps or delays if multiple vacancies occur simultaneously, impacting department continuity.",
+      "The revocation of the previous 2016 order might generate confusion or transition issues among political-appointees familiar with the prior succession rules.",
+      "This order may unintentionally empower lower-level political appointees with acting Secretary duties without explicit vetting, raising concerns about accountability and continuity."
     ],
-    "enriched_at": "2025-12-09T02:37:18.348Z",
-    "model_used": "gpt-4.1-mini + gpt-4o (pass2-rerun)"
+    "enriched_at": "2025-12-15T08:39:07.207Z",
+    "model_used": "gpt-4.1-mini"
   }
 }
