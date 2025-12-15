@@ -312,6 +312,6 @@ wa-tab-panel::part(base) {
   gap: var(--item-gap);
   max-width: var(--content-width);
   margin: 0 auto;
-  padding: var(--wa-space-4xl) var(--content-padding) var(--wa-space-xl) var(--content-padding);
+  padding: var(--wa-space-4xl) var(--content-padding);
 }
 

@@ -129,7 +129,7 @@ Aggregated data is saved to `data/aggregated/`:
 Generate LLM-powered narrative summaries for presidential terms, quarterly periods, and themes. This step uses the OpenAI API and may incur costs:
 
 ```bash
-# Generate all narratives (term + quarterly + theme)
+# Generate all narratives (term + quarterly + theme) -- will run for new narratives needed as well as updating stale ones
 npm run generate-narratives
 
 # Generate term narratives only
@@ -153,8 +153,11 @@ npm run generate-narratives -- --president trump
 # Filter by theme (theme narratives only)
 npm run generate-narratives -- --type theme --theme immigration
 
-# Force regeneration (skip incremental checks)
+# Force regeneration (skip staleness checks)
 npm run generate-narratives -- --force
+
+# Check what needs updating (no regeneration, no API calls)
+npm run generate-narratives -- --check
 ```
 
 Outputs:
@@ -162,7 +165,12 @@ Outputs:
 - `data/aggregated/quarterly-narratives.json` - Quarterly narratives with summary and potential impact paragraphs
 - `data/aggregated/theme-narratives.json` - Theme narratives with summary and potential impact paragraphs
 
-Narratives support incremental generation - only new items are processed unless `--force` is used.
+**Smart incremental generation**: Narratives automatically detect when they're stale based on the `enriched_at` timestamps of underlying orders. If you enrich new orders in Q3 2025 with 3 themes, running `generate-narratives` will automatically regenerate only:
+- The Q3 2025 quarterly narrative
+- The 3 affected theme narratives
+- The relevant term narrative(s)
+
+Use `--check` to preview what would be regenerated without making API calls.
 
 ### 5. Run Full Pipeline
 
@@ -194,6 +202,14 @@ node server.js
 
 Then open http://localhost:3000 in your browser.
 
+#### Frontend Features
+
+- **Quarterly timeline** with horizontal scroll, filterable by year via multi-select dropdown
+- **Detail pages** for presidential terms, quarters, and themes with LLM-generated narratives
+- **Definitions page** with sticky category headers for browsing themes and populations
+- **Back-to-top button** appears after scrolling past the viewport height
+- **Friendly messaging** for themes with limited data (callout shown instead of empty sections)
+
 #### API Security
 
 The API automatically enforces **same-origin requests only**. This means:
@@ -213,7 +229,7 @@ ALLOWED_ORIGINS=https://admin.whatgotsigned.com node server.js
 
 ### Static Taxonomy (`what-got-signed/data/taxonomy.json`)
 
-The master taxonomy defines all available themes and populations. The LLM selects from this taxonomy during enrichment. The frontend generates flat registries from this hierarchical structure on-the-fly:
+The main taxonomy defines all available themes and populations. The LLM selects from this taxonomy during enrichment. The frontend generates flat registries from this hierarchical structure on-the-fly:
 
 ```json
 {
@@ -291,10 +307,10 @@ federal-register-analytics/
 ├── what-got-signed/    # Web frontend (deployable standalone)
 │   ├── server.js       # Express server (generates registries from taxonomy)
 │   ├── views/          # EJS templates
-│   │   ├── partials/   # Reusable header, footer, head
-│   │   ├── index.ejs
-│   │   ├── detail.ejs
-│   │   └── definitions.ejs
+│   │   ├── partials/   # Reusable components (header, footer, back-to-top)
+│   │   ├── index.ejs   # Homepage with timeline
+│   │   ├── detail.ejs  # Detail pages (term, quarter, theme)
+│   │   └── definitions.ejs  # Theme and population definitions
 │   ├── public/         # Static CSS, JS, images
 │   └── data/           # All data files
 │       ├── taxonomy.json   # Master taxonomy (themes + populations)

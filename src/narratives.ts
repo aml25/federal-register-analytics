@@ -85,6 +85,33 @@ function getQuarterName(quarter: number, year: number): string {
 }
 
 /**
+ * Get the most recent enriched_at timestamp from a list of orders
+ */
+function getLatestEnrichedAt(orders: EnrichedExecutiveOrder[]): Date | null {
+  if (orders.length === 0) return null;
+
+  let latest: Date | null = null;
+  for (const order of orders) {
+    const enrichedAt = new Date(order.enrichment.enriched_at);
+    if (!latest || enrichedAt > latest) {
+      latest = enrichedAt;
+    }
+  }
+  return latest;
+}
+
+/**
+ * Check if a narrative is stale (orders have been enriched after it was generated)
+ */
+function isNarrativeStale(generatedAt: string, orders: EnrichedExecutiveOrder[]): boolean {
+  const generatedDate = new Date(generatedAt);
+  const latestEnriched = getLatestEnrichedAt(orders);
+
+  if (!latestEnriched) return false;
+  return latestEnriched > generatedDate;
+}
+
+/**
  * Count population occurrences and return sorted
  */
 function countPopulations(
@@ -516,6 +543,9 @@ export async function generateTermNarratives(options: {
   // Load existing narratives for incremental generation
   const existingFile = await loadExistingTermNarratives();
   const existingNarratives = existingFile?.narratives || [];
+  const existingByKey = new Map(
+    existingNarratives.map(n => [`${n.president_id}-${n.term_start}`, n])
+  );
 
   const terms = detectPresidentTerms(orders);
   const newNarratives: TermNarrative[] = [];
@@ -553,8 +583,21 @@ export async function generateTermNarratives(options: {
 
       const presidentName = term.name;
       const termEnd = term.end || 'present';
+      const termKey = `${presidentId}-${term.start}`;
+      const existingNarrative = existingByKey.get(termKey);
 
-      console.log(`\nGenerating narrative for ${presidentName} (${term.start}-${termEnd})...`);
+      // Skip if already exists and not stale (unless force)
+      if (!options.force && existingNarrative) {
+        const stale = isNarrativeStale(existingNarrative.generated_at, termOrders);
+        if (!stale) {
+          skipped++;
+          continue;
+        }
+        console.log(`\n${presidentName} (${term.start}-${termEnd}) is stale - regenerating...`);
+      } else if (!existingNarrative) {
+        console.log(`\nGenerating narrative for ${presidentName} (${term.start}-${termEnd})...`);
+      }
+
       console.log(`  ${termOrders.length} orders to analyze`);
 
       const context = buildTermContext(
@@ -664,8 +707,8 @@ export async function generateQuarterlyNarratives(options: {
   // Load existing narratives to support incremental generation
   const existingFile = await loadExistingQuarterlyNarratives();
   const existingNarratives = existingFile?.narratives || [];
-  const existingKeys = new Set(
-    existingNarratives.map(n => `${n.year}-${n.quarter}`)
+  const existingByKey = new Map(
+    existingNarratives.map(n => [`${n.year}-${n.quarter}`, n])
   );
 
   // Group orders by year-quarter
@@ -705,13 +748,18 @@ export async function generateQuarterlyNarratives(options: {
     const quarter = parseInt(quarterStr, 10);
     const quarterName = getQuarterName(quarter, year);
 
-    // Skip if already exists (unless force)
-    if (!options.force && existingKeys.has(key)) {
-      skipped++;
-      continue;
-    }
-
     const quarterOrders = byQuarter.get(key)!;
+    const existingNarrative = existingByKey.get(key);
+
+    // Skip if already exists and not stale (unless force)
+    if (!options.force && existingNarrative) {
+      const stale = isNarrativeStale(existingNarrative.generated_at, quarterOrders);
+      if (!stale) {
+        skipped++;
+        continue;
+      }
+      console.log(`\n${quarterName} is stale - regenerating...`);
+    }
 
     // Count orders by president to handle transition quarters
     const orderCountByPresident = new Map<string, { name: string; count: number }>();
@@ -993,7 +1041,7 @@ export async function generateThemeNarratives(options: {
   // Load existing narratives to support incremental generation
   const existingFile = await loadExistingThemeNarratives();
   const existingNarratives = existingFile?.narratives || [];
-  const existingKeys = new Set(existingNarratives.map(n => n.theme_id));
+  const existingByKey = new Map(existingNarratives.map(n => [n.theme_id, n]));
 
   // Group orders by theme
   const byTheme = new Map<string, EnrichedExecutiveOrder[]>();
@@ -1023,12 +1071,6 @@ export async function generateThemeNarratives(options: {
   let skipped = 0;
 
   for (const themeId of themeIds) {
-    // Skip if already exists (unless force)
-    if (!options.force && existingKeys.has(themeId)) {
-      skipped++;
-      continue;
-    }
-
     const themeOrders = byTheme.get(themeId)!;
     const theme = themes.themes.find(t => t.id === themeId);
     const themeName = theme?.name || themeId;
@@ -1036,6 +1078,18 @@ export async function generateThemeNarratives(options: {
     // Skip themes with very few orders
     if (themeOrders.length < 2) {
       continue;
+    }
+
+    const existingNarrative = existingByKey.get(themeId);
+
+    // Skip if already exists and not stale (unless force)
+    if (!options.force && existingNarrative) {
+      const stale = isNarrativeStale(existingNarrative.generated_at, themeOrders);
+      if (!stale) {
+        skipped++;
+        continue;
+      }
+      console.log(`\n"${themeName}" is stale - regenerating...`);
     }
 
     console.log(`\nGenerating narrative for "${themeName}"...`);
@@ -1133,6 +1187,139 @@ export interface GenerateNarrativesOptions {
   quarter?: number;
   theme?: string;
   force?: boolean;
+  check?: boolean;
+}
+
+export interface StaleNarrativeReport {
+  term: { key: string; name: string; reason: string }[];
+  quarterly: { key: string; name: string; reason: string }[];
+  theme: { key: string; name: string; reason: string }[];
+}
+
+/**
+ * Check which narratives need updating (are stale or missing)
+ */
+export async function checkNarratives(options: {
+  type?: NarrativeType;
+} = {}): Promise<StaleNarrativeReport> {
+  const type = options.type || 'all';
+  const report: StaleNarrativeReport = { term: [], quarterly: [], theme: [] };
+
+  const orders = await loadAllEnriched();
+  if (orders.length === 0) {
+    console.log('No enriched orders found.');
+    return report;
+  }
+
+  const themes = await loadThemes();
+
+  // Check term narratives
+  if (type === 'term' || type === 'all') {
+    const existingFile = await loadExistingTermNarratives();
+    const existingNarratives = existingFile?.narratives || [];
+    const existingByKey = new Map(
+      existingNarratives.map(n => [`${n.president_id}-${n.term_start}`, n])
+    );
+
+    const terms = detectPresidentTerms(orders);
+    for (const [presidentId, presTerms] of terms) {
+      for (const term of presTerms) {
+        const officialTerms = OFFICIAL_TERMS[presidentId];
+        const officialTerm = officialTerms?.find(t =>
+          new Date(t.start).getFullYear() === term.start
+        );
+
+        const termOrders = orders.filter(o => {
+          if (o.president.identifier !== presidentId) return false;
+          if (officialTerm) {
+            const orderDate = new Date(o.signing_date);
+            const startDate = new Date(officialTerm.start);
+            const endDate = officialTerm.end ? new Date(officialTerm.end) : new Date('2099-12-31');
+            return orderDate >= startDate && orderDate < endDate;
+          } else {
+            const year = new Date(o.signing_date).getFullYear();
+            const endYear = term.end || new Date().getFullYear() + 1;
+            return year >= term.start && year < endYear;
+          }
+        });
+
+        if (termOrders.length === 0) continue;
+
+        const termKey = `${presidentId}-${term.start}`;
+        const termEnd = term.end || 'present';
+        const existingNarrative = existingByKey.get(termKey);
+
+        if (!existingNarrative) {
+          report.term.push({ key: termKey, name: `${term.name} (${term.start}-${termEnd})`, reason: 'missing' });
+        } else if (isNarrativeStale(existingNarrative.generated_at, termOrders)) {
+          report.term.push({ key: termKey, name: `${term.name} (${term.start}-${termEnd})`, reason: 'stale' });
+        }
+      }
+    }
+  }
+
+  // Check quarterly narratives
+  if (type === 'quarterly' || type === 'all') {
+    const existingFile = await loadExistingQuarterlyNarratives();
+    const existingNarratives = existingFile?.narratives || [];
+    const existingByKey = new Map(
+      existingNarratives.map(n => [`${n.year}-${n.quarter}`, n])
+    );
+
+    const byQuarter = new Map<string, EnrichedExecutiveOrder[]>();
+    for (const order of orders) {
+      const date = new Date(order.signing_date);
+      const year = date.getFullYear();
+      const quarter = getQuarterFromMonth(date.getMonth() + 1);
+      const key = `${year}-${quarter}`;
+      if (!byQuarter.has(key)) byQuarter.set(key, []);
+      byQuarter.get(key)!.push(order);
+    }
+
+    for (const [key, quarterOrders] of byQuarter) {
+      const [yearStr, quarterStr] = key.split('-');
+      const quarterName = `Q${quarterStr} ${yearStr}`;
+      const existingNarrative = existingByKey.get(key);
+
+      if (!existingNarrative) {
+        report.quarterly.push({ key, name: quarterName, reason: 'missing' });
+      } else if (isNarrativeStale(existingNarrative.generated_at, quarterOrders)) {
+        report.quarterly.push({ key, name: quarterName, reason: 'stale' });
+      }
+    }
+  }
+
+  // Check theme narratives
+  if (type === 'theme' || type === 'all') {
+    const existingFile = await loadExistingThemeNarratives();
+    const existingNarratives = existingFile?.narratives || [];
+    const existingByKey = new Map(existingNarratives.map(n => [n.theme_id, n]));
+
+    const byTheme = new Map<string, EnrichedExecutiveOrder[]>();
+    for (const order of orders) {
+      for (const themeId of order.enrichment.theme_ids) {
+        if (!byTheme.has(themeId)) byTheme.set(themeId, []);
+        byTheme.get(themeId)!.push(order);
+      }
+    }
+
+    for (const [themeId, themeOrders] of byTheme) {
+      // Skip themes with fewer than 2 orders (same as generation)
+      if (themeOrders.length < 2) continue;
+
+      const theme = themes.themes.find(t => t.id === themeId);
+      const themeName = theme?.name || themeId;
+      const existingNarrative = existingByKey.get(themeId);
+
+      if (!existingNarrative) {
+        report.theme.push({ key: themeId, name: themeName, reason: 'missing' });
+      } else if (isNarrativeStale(existingNarrative.generated_at, themeOrders)) {
+        report.theme.push({ key: themeId, name: themeName, reason: 'stale' });
+      }
+    }
+  }
+
+  return report;
 }
 
 /**
@@ -1140,6 +1327,44 @@ export interface GenerateNarrativesOptions {
  */
 export async function generateNarratives(options: GenerateNarrativesOptions = {}): Promise<void> {
   const type = options.type || 'all';
+
+  // Check mode - report what needs updating without regenerating
+  if (options.check) {
+    console.log('\n=== Checking for Stale Narratives ===\n');
+    const report = await checkNarratives({ type });
+
+    const totalStale = report.term.length + report.quarterly.length + report.theme.length;
+
+    if (totalStale === 0) {
+      console.log('All narratives are up to date!');
+      return;
+    }
+
+    if (report.term.length > 0) {
+      console.log(`Term narratives (${report.term.length}):`);
+      for (const item of report.term) {
+        console.log(`  - ${item.name} [${item.reason}]`);
+      }
+    }
+
+    if (report.quarterly.length > 0) {
+      console.log(`\nQuarterly narratives (${report.quarterly.length}):`);
+      for (const item of report.quarterly) {
+        console.log(`  - ${item.name} [${item.reason}]`);
+      }
+    }
+
+    if (report.theme.length > 0) {
+      console.log(`\nTheme narratives (${report.theme.length}):`);
+      for (const item of report.theme) {
+        console.log(`  - ${item.name} [${item.reason}]`);
+      }
+    }
+
+    console.log(`\nTotal: ${totalStale} narrative(s) need updating.`);
+    console.log('Run without --check to regenerate stale narratives.');
+    return;
+  }
 
   if (type === 'term' || type === 'all') {
     await generateTermNarratives({

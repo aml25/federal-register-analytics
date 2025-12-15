@@ -1873,6 +1873,22 @@
         "eo_title": "Amendments to Executive Orders 13183 and 13494",
         "justification": "Puerto Rico is a U.S. territory with unique federal considerations, and no existing taxonomy theme specifically addresses territorial policy distinct from states or foreign countries.",
         "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "poverty-reduction",
+        "suggested_category": "Social & Cultural",
+        "eo_number": "13828",
+        "eo_title": "Reducing Poverty in America by Promoting Opportunity and Economic Mobility",
+        "justification": "The executive order centers on reducing poverty and promoting economic mobility, which is not explicitly covered by any existing theme; adding a specific poverty reduction theme would improve thematic accuracy.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "tourism",
+        "suggested_category": "Economy & Trade",
+        "eo_number": "14314",
+        "eo_title": "Making America Beautiful Again by Improving Our National Parks",
+        "justification": "The order focuses significantly on increasing international tourism to national parks and adjusting fees for foreign visitors, which is a tourism policy area not explicitly covered in the existing taxonomy.",
+        "suggested_at": "2025-12-15"
       }
     ],
     "impacted_populations": [
@@ -1955,6 +1971,159 @@
         "eo_number": "14329",
         "eo_title": "Addressing Threats to the United States by the Government of the Russian Federation",
         "justification": "Importers are directly and meaningfully affected by tariffs and trade policy changes, however this group is not specifically listed in the taxonomy; including them would clarify direct impacts on those dealing with affected goods.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "miners",
+        "suggested_category": "Industry-Specific (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "13953",
+        "eo_title": "Addressing the Threat to the Domestic Supply Chain From Reliance on Critical Minerals From Foreign Adversaries and Supporting the Domestic Mining and Processing Industries",
+        "justification": "Miners are directly impacted by policies expanding domestic mining capacity but there is no specific existing population category explicitly for miners distinct from general manufacturing or energy sector workers.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "Individuals with Pre-Existing Conditions",
+        "suggested_category": "Disability Status (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "13951",
+        "eo_title": "An America-First Healthcare Plan",
+        "justification": "The EO refers extensively to protections and improved access for individuals with pre-existing conditions, yet this specific population is not listed in the taxonomy; adding it would capture a key affected group distinct from broader chronic illnesses.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "importers-exporters",
+        "suggested_category": "Private Sector (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14068",
+        "eo_title": "Prohibiting Certain Imports, Exports, and New Investment With Respect to Continued Russian Federation Aggression",
+        "justification": "This order directly restricts certain imports and exports, impacting importers and exporters specifically, but these actors are not explicitly categorized in the existing taxonomy.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "data-brokerage-industry",
+        "suggested_category": "Industry-Specific (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14117",
+        "eo_title": "Preventing Access to Americans' Bulk Sensitive Personal Data and United States Government-Related Data by Countries of Concern",
+        "justification": "The executive order specifically calls out data brokerage entities as unique risks for enabling access to Americans' sensitive data by countries of concern. The existing taxonomy lacks a discrete industry group for data brokers, distinct from corporations broadly, and their direct impact is significant.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "Importers",
+        "suggested_category": "Private Sector (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14316",
+        "eo_title": "Extending the Modification of the Reciprocal Tariff Rates",
+        "justification": "Importers are directly affected by tariff changes but are not explicitly listed in the taxonomy; they bear increased costs and compliance burdens related to tariffs.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "importers-exporters",
+        "suggested_category": "Organizational Entities (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14266",
+        "eo_title": "Modifying Reciprocal Tariff Rates To Reflect Trading Partner Retaliation and Alignment",
+        "justification": "This order directly affects importers and exporters involved in trade with China and other listed countries by altering tariff rates, impacting their costs and operations, yet this population is not listed in the existing taxonomy.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "import-dependent-retail-workers",
+        "suggested_category": "Industry-Specific (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14257",
+        "eo_title": "Regulating Imports With a Reciprocal Tariff To Rectify Trade Practices That Contribute to Large and Persistent Annual United States Goods Trade Deficits",
+        "justification": "Workers employed in retail sectors that rely heavily on imported goods may face job or wage impacts due to increased tariffs and higher import costs, but such a population is not explicitly covered in the existing taxonomy.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "individuals-without-banking-access",
+        "suggested_category": "Economic Status (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14247",
+        "eo_title": "Modernizing Payments To and From America's Bank Account",
+        "justification": "The order explicitly exempts those without access to banking or electronic payments, but the existing taxonomy does not have a precise population to capture unbanked individuals who are directly impacted.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "tourists",
+        "suggested_category": "Geographic Communities (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14234",
+        "eo_title": "Establishing the White House Task Force on the FIFA World Cup 2026",
+        "justification": "Tourists are a distinct group directly impacted by the event through travel, lodging, and services, but the taxonomy lacks a clear category for tourists who are directly affected economically and infrastructure-wise.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "importers-exporters",
+        "suggested_category": "Private Sector (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14226",
+        "eo_title": "Amendment to Duties To Address the Flow of Illicit Drugs Across Our Northern Border",
+        "justification": "This order modifies tariff and duty policies that directly impact entities engaged in cross-border trade, a group not explicitly listed in the existing taxonomy.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "consumers",
+        "suggested_category": "Special Populations (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14226",
+        "eo_title": "Amendment to Duties To Address the Flow of Illicit Drugs Across Our Northern Border",
+        "justification": "Consumers may face higher prices or reduced availability of goods due to the modified tariff/duty regime affecting trade across the northern border.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "limited-english-proficiency-individuals",
+        "suggested_category": "Demographic Groups (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14224",
+        "eo_title": "Designating English as the Official Language of the United States",
+        "justification": "This group includes individuals who struggle with English proficiency and are directly affected by reduction or potential barriers in multilingual government services; the current taxonomy does not isolate this population specifically.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "miners-smelters-refiners",
+        "suggested_category": "Industry-Specific (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14220",
+        "eo_title": "Addressing the Threat to National Security From Imports of Copper",
+        "justification": "This population includes workers directly involved in copper mining, smelting, and refining processes, critical to implementing the order's goal of expanding domestic capacity; currently missing as a discrete category.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "Afrikaners in South Africa",
+        "suggested_category": "Racial/Ethnic (positive impact)",
+        "impact_type": "neutral",
+        "eo_number": "14204",
+        "eo_title": "Addressing Egregious Actions of the Republic of South Africa",
+        "justification": "Afrikaners as a distinct ethnic minority group specifically targeted by the EO are not explicitly listed in the taxonomy; tagging them separately would clarify their direct positive and negative impacts beyond general 'foreign nationals' or 'citizens of specific countries.'",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "Israeli Citizens",
+        "suggested_category": "Foreign Populations (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14199",
+        "eo_title": "Withdrawing the United States From and Ending Funding to Certain United Nations Organizations and Reviewing United States Support to All International Organizations",
+        "justification": "The Executive Order explicitly references protecting US allies including Israel and condemns anti-Israel sentiment, thus Israeli citizens directly benefit, yet this group is not present in the nominal taxonomy.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "Arab Palestinian Populations",
+        "suggested_category": "Foreign Populations (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14199",
+        "eo_title": "Withdrawing the United States From and Ending Funding to Certain United Nations Organizations and Reviewing United States Support to All International Organizations",
+        "justification": "Because the order explicitly targets UNRWA and its funding for Palestinian refugees, this population will be negatively and directly impacted due to cuts in humanitarian aid; this specific group is missing from the taxonomy.",
+        "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "parents",
+        "suggested_category": "Special Populations (positive impact)",
+        "impact_type": "neutral",
+        "eo_number": "14190",
+        "eo_title": "Ending Radical Indoctrination in K-12 Schooling",
+        "justification": "Parents are central to this EO since it emphasizes protecting parental rights over K-12 education and student information; yet 'parents' as a population is not part of the current taxonomy.",
         "suggested_at": "2025-12-15"
       }
     ]

@@ -12,6 +12,7 @@
  *   npm run generate-narratives -- --type theme --theme security            # Filter themes by name
  *   npm run generate-narratives -- --president trump         # Filter by president
  *   npm run generate-narratives -- --force                   # Regenerate even if exists
+ *   npm run generate-narratives -- --check                   # Check what needs updating (no regeneration)
  */
 
 import 'dotenv/config';
@@ -26,6 +27,7 @@ const year = args.year ? Number(args.year) : undefined;
 const quarter = args.quarter ? Number(args.quarter) : undefined;
 const theme = args.theme ? String(args.theme) : undefined;
 const force = Boolean(args.force);
+const check = Boolean(args.check);
 
 // Validate type if provided
 if (type && !['term', 'quarterly', 'theme', 'all'].includes(type)) {
@@ -45,4 +47,4 @@ if (quarter !== undefined && year === undefined) {
   process.exit(1);
 }
 
-generateNarratives({ type, president, year, quarter, theme, force }).catch(console.error);
+generateNarratives({ type, president, year, quarter, theme, force, check }).catch(console.error);
