@@ -1,0 +1,44 @@
+{
+  "document_number": "2025-02094",
+  "executive_order_number": "14170",
+  "title": "Reforming the Federal Hiring Process and Restoring Merit to Government Service",
+  "abstract": null,
+  "signing_date": "2025-01-20",
+  "publication_date": "2025-01-30",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/01/30/2025-02094/reforming-the-federal-hiring-process-and-restoring-merit-to-government-service",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-30/pdf/2025-02094.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/30/2025-02094.txt",
+  "enrichment": {
+    "summary": "This executive order directs the development of a new federal hiring plan to make the government’s hiring process faster, more efficient, and focused on hiring highly skilled Americans who are committed to upholding the Constitution. It removes hiring based on race, sex, or religion, emphasizes merit and practical skills, and holds agencies accountable with clear performance measures.",
+    "theme_ids": [
+      "federal-hiring",
+      "civil-service-reform",
+      "government-efficiency",
+      "federal-workforce-management",
+      "religious-liberty"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "working-age-adults",
+        "u-s-citizens"
+      ],
+      "negative_ids": [
+        "women",
+        "lgbtq-individuals",
+        "transgender-individuals"
+      ]
+    },
+    "potential_concerns": [
+      "The removal of hiring considerations based on race, sex, or religion could negatively impact diversity and inclusion efforts, potentially disadvantaging women, LGBTQ+ individuals, and transgender individuals in federal employment.",
+      "Emphasizing a strict commitment to 'upholding the Constitution' as defined in the order may lead to subjective vetting criteria that could exclude qualified candidates based on ideological conformity rather than merit, affecting working-age adults seeking federal jobs.",
+      "The focus on streamlining hiring to under 80 days with new technical assessments may unintentionally disadvantage candidates who need accommodations or who face barriers to standardized testing, thereby impacting equitable access for diverse applicants.",
+      "By disallowing consideration of 'gender identity' over sex in hiring, the order may introduce legal challenges related to compliance with existing nondiscrimination laws, creating uncertainty for agencies and applicants alike."
+    ],
+    "enriched_at": "2025-12-15T08:34:14.965Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

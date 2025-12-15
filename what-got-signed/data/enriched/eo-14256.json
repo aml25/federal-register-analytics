@@ -1,0 +1,46 @@
+{
+  "document_number": "2025-06027",
+  "executive_order_number": "14256",
+  "title": "Further Amendment to Duties Addressing the Synthetic Opioid Supply Chain in the People's Republic of China as Applied to Low-Value Imports",
+  "abstract": null,
+  "signing_date": "2025-04-02",
+  "publication_date": "2025-04-07",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/07/2025-06027/further-amendment-to-duties-addressing-the-synthetic-opioid-supply-chain-in-the-peoples-republic-of",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-07/pdf/2025-06027.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/07/2025-06027.txt",
+  "enrichment": {
+    "summary": "This executive order imposes new duties on low-value shipments from the People's Republic of China and Hong Kong containing synthetic opioids or related products, closing a loophole that previously allowed such shipments to enter duty-free. It requires carriers to collect duties on postal shipments and strengthens enforcement measures to address the influx of synthetic opioids into the United States, effective May 2, 2025.",
+    "theme_ids": [
+      "tariffs-duties",
+      "opioid-crisis",
+      "china",
+      "hong-kong"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local",
+        "healthcare-workers"
+      ],
+      "negative_ids": [
+        "small-business-owners",
+        "consumers",
+        "postal-workers",
+        "corporations-businesses"
+      ]
+    },
+    "potential_concerns": [
+      "The imposition of duties on low-value imports from China and Hong Kong may raise costs for small-business-owners and corporations that rely on affordable goods, potentially leading to higher prices for consumers.",
+      "Postal-workers could face increased operational burdens and complications due to new reporting, bonding, and duty collection requirements for international postal shipments.",
+      "Enhanced enforcement aimed at disrupting the synthetic opioid supply chain may risk delaying legitimate shipments, inadvertently affecting supply chains and consumer access to lawful goods.",
+      "While law enforcement and healthcare-workers may benefit from efforts to reduce synthetic opioid influx, disruption could push illicit trade to more dangerous channels, complicating public health and safety responses.",
+      "The focus on packages from China and Hong Kong without immediate extension to Macau might create opportunities for circumvention, potentially undermining enforcement efforts and complicating law enforcement operations."
+    ],
+    "enriched_at": "2025-12-15T08:21:57.328Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

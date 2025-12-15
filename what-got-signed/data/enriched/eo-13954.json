@@ -1,0 +1,47 @@
+{
+  "document_number": "2020-22510",
+  "executive_order_number": "13954",
+  "title": "Saving Lives Through Increased Support for Mental- and Behavioral-Health Needs",
+  "abstract": null,
+  "signing_date": "2020-10-03",
+  "publication_date": "2020-10-08",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/10/08/2020-22510/saving-lives-through-increased-support-for-mental--and-behavioral-health-needs",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-10-08/pdf/2020-22510.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/10/08/2020-22510.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to improve support for mental and behavioral health, especially during the COVID-19 pandemic. It establishes a Coronavirus Mental Health Working Group to coordinate efforts, encourages safe in-person and telehealth services, and promotes grant funding for programs that aid mental health recovery and suicide prevention.",
+    "theme_ids": [
+      "mental-health",
+      "covid-19-response",
+      "opioid-crisis",
+      "telehealth-telemedicine",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "individuals-with-mental-health-conditions",
+        "individuals-with-disabilities",
+        "veterans",
+        "small-business-owners",
+        "children-minors",
+        "domestic-violence-survivors",
+        "rural-communities",
+        "faith-based-communities"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Expanding in-person and telehealth mental health services during COVID-19 may pose health risks for vulnerable populations, particularly individuals-with-mental-health-conditions and seniors-elderly, if safety protocols are insufficient.",
+      "Encouragement of in-person religious and communal support activities might conflict with public health guidelines, potentially putting faith-based-communities at risk during the pandemic.",
+      "Small-business-owners face challenges balancing economic reopening to support mental health with public health risks of COVID-19 transmission in communal settings.",
+      "Rural-communities may experience limited improvement in telehealth access due to broadband infrastructure gaps, hindering equitable benefit from this order's provisions.",
+      "Domestic-violence-survivors may face difficulties accessing safe mental health support if in-person services are deprioritized or restricted amid pandemic-related safeguards."
+    ],
+    "enriched_at": "2025-12-15T07:28:49.646Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

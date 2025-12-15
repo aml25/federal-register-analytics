@@ -1,0 +1,45 @@
+{
+  "document_number": "2024-04012",
+  "executive_order_number": "14116",
+  "title": "Amending Regulations Relating to the Safeguarding of Vessels, Harbors, Ports, and Waterfront Facilities of the United States",
+  "abstract": null,
+  "signing_date": "2024-02-21",
+  "publication_date": "2024-02-26",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2024/02/26/2024-04012/amending-regulations-relating-to-the-safeguarding-of-vessels-harbors-ports-and-waterfront-facilities",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-02-26/pdf/2024-04012.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/02/26/2024-04012.txt",
+  "enrichment": {
+    "summary": "This executive order updates regulations to enhance the security and protection of U.S. vessels, harbors, ports, and waterfront facilities by including cybersecurity measures against malicious cyber activities. It gives Coast Guard officials expanded authority to prevent access, search, control vessels and waterfront areas, and require reporting of cyber incidents alongside physical security threats.",
+    "theme_ids": [
+      "homeland-security",
+      "cybersecurity-national-security",
+      "critical-infrastructure-protection",
+      "port-maritime-security",
+      "harbor-waterfront-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "maritime-port-workers",
+        "merchant-marine-workers",
+        "cybersecurity-professionals"
+      ],
+      "negative_ids": [
+        "maritime-port-workers",
+        "merchant-marine-workers"
+      ]
+    },
+    "potential_concerns": [
+      "Expanded Coast Guard authority to control and search vessels and waterfront facilities may disrupt port operations, negatively impacting maritime-port-workers and merchant-marine-workers through increased inspections and access restrictions.",
+      "Requiring immediate reporting of cyber incidents could place additional compliance and monitoring burdens on cybersecurity-professionals and maritime industry operators managing digital infrastructures.",
+      "Measures to prevent cyber incidents might inadvertently lead to overreach or excessive controlling of data and network access for maritime-port-workers, potentially limiting their operational efficiency.",
+      "Increased security zones and restrictions might create delays or economic burdens for businesses and workers reliant on timely port access, disproportionately affecting lower-wage maritime workers.",
+      "The broad authority to control and search digital infrastructure on vessels and waterfronts raises potential privacy and civil liberties concerns for maritime workers who rely on connected systems for their work."
+    ],
+    "enriched_at": "2025-12-15T07:36:32.665Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

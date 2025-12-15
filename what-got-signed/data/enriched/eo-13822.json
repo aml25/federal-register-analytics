@@ -1,0 +1,40 @@
+{
+  "document_number": "2018-00630",
+  "executive_order_number": "13822",
+  "title": "Supporting Our Veterans During Their Transition From Uniformed Service to Civilian Life",
+  "abstract": null,
+  "signing_date": "2018-01-09",
+  "publication_date": "2018-01-12",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/01/12/2018-00630/supporting-our-veterans-during-their-transition-from-uniformed-service-to-civilian-life",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-01-12/pdf/2018-00630.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/01/12/2018-00630.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Departments of Defense, Veterans Affairs, and Homeland Security to work together to improve mental health care and suicide prevention resources for veterans transitioning from military to civilian life, especially during the critical first year after separation. It requires these departments to create and report on a joint action plan to ensure seamless access to these services.",
+    "theme_ids": [
+      "homeland-security",
+      "mental-health",
+      "veterans-healthcare",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "veterans",
+        "military-personnel-active-duty",
+        "military-personnel-reserves-guard"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The coordination required among the Departments of Defense, Veterans Affairs, and Homeland Security may face bureaucratic delays that hinder timely mental health support access for transitioning veterans.",
+      "Focusing mental health and suicide prevention resources heavily on the first year post-separation may inadvertently reduce attention and resources available to veterans facing long-term transition challenges.",
+      "Transitioning military personnel and reservists might experience gaps in care if eligibility criteria or interagency data-sharing protocols are not well aligned, undermining seamless access to services.",
+      "Veterans with complex or co-occurring mental health conditions may not receive adequately tailored services if the joint action plan overly emphasizes general prevention strategies rather than individualized care."
+    ],
+    "enriched_at": "2025-12-15T07:25:36.891Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

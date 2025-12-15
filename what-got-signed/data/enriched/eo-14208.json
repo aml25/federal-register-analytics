@@ -1,0 +1,39 @@
+{
+  "document_number": "2025-02735",
+  "executive_order_number": "14208",
+  "title": "Ending Procurement and Forced Use of Paper Straws",
+  "abstract": null,
+  "signing_date": "2025-02-10",
+  "publication_date": "2025-02-14",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/14/2025-02735/ending-procurement-and-forced-use-of-paper-straws",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-14/pdf/2025-02735.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/14/2025-02735.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to stop buying and using paper straws, which are seen as ineffective and potentially harmful. It calls for a national strategy to end policies against plastic straws and promote their use instead.",
+    "theme_ids": [
+      "environmental-regulation",
+      "regulatory-reform-deregulation"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants"
+      ],
+      "negative_ids": [
+        "small-business-owners",
+        "environmental-justice-communities"
+      ]
+    },
+    "potential_concerns": [
+      "Ending the use of paper straws may increase costs for small business owners who rely on environmentally friendly products to meet local regulations or consumer demand.",
+      "Reversing bans on plastic straws could negatively impact environmental justice communities that face disproportionate exposure to plastic pollution and related health hazards.",
+      "Federal employees operating agency facilities might face challenges managing transitions away from paper straws while addressing diverse stakeholder preferences.",
+      "The national strategy promoting plastic straws could inadvertently increase plastic waste, undermining broader environmental sustainability goals."
+    ],
+    "enriched_at": "2025-12-15T08:28:34.787Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

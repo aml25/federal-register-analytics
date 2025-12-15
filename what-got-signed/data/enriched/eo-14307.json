@@ -1,0 +1,50 @@
+{
+  "document_number": "2025-10814",
+  "executive_order_number": "14307",
+  "title": "Unleashing American Drone Dominance",
+  "abstract": null,
+  "signing_date": "2025-06-06",
+  "publication_date": "2025-06-11",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/06/11/2025-10814/unleashing-american-drone-dominance",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-06-11/pdf/2025-10814.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/06/11/2025-10814.txt",
+  "enrichment": {
+    "summary": "This executive order directs the U.S. government to speed up the safe use and commercial development of drones, including advanced types like electric vertical takeoff and landing aircraft. It aims to strengthen the domestic drone industry, ensure secure supply chains, expand exports of American-made drones, and improve integration of drones into national airspace to support various sectors including public safety, transportation, and military needs.",
+    "theme_ids": [
+      "defense-industrial-base",
+      "buy-american-domestic-preference",
+      "export-import-policy",
+      "military-readiness-force-structure",
+      "air-traffic-aviation-system",
+      "artificial-intelligence",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "defense-industry-workers",
+        "military-personnel-active-duty",
+        "entrepreneurs-startups",
+        "small-business-owners",
+        "technology-workers",
+        "transportation-workers",
+        "rural-communities"
+      ],
+      "negative_ids": [
+        "foreign-nationals-general"
+      ]
+    },
+    "potential_concerns": [
+      "The buy-american domestic preference policy may limit opportunities for foreign manufacturers, potentially straining international trade relations impacting foreign-nationals-general and U.S. export partners.",
+      "Accelerated integration and expanded use of AI tools in waiver processes could raise concerns about transparency, bias, and fairness for entrepreneurs-startups and technology-workers relying on FAA approvals.",
+      "Military personnel might face operational challenges if regulations and airspace access are not sufficiently streamlined in coordination with the FAA, affecting training and deployment of drone technologies.",
+      "Rural communities could be underserved or face delays in benefit realization if infrastructure or pilot programs prioritize urban and economically viable areas over more remote regions.",
+      "Small business owners and startups in the drone industry might encounter increased regulatory burdens or competition favoring established defense contractors and large corporations supported by export and financing incentives."
+    ],
+    "enriched_at": "2025-12-15T07:38:05.643Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

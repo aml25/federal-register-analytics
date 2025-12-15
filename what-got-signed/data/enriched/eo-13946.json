@@ -1,0 +1,41 @@
+{
+  "document_number": "2020-19032",
+  "executive_order_number": "13946",
+  "title": "Targeting Opportunity Zones and Other Distressed Communities for Federal Site Locations",
+  "abstract": null,
+  "signing_date": "2020-08-24",
+  "publication_date": "2020-08-27",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/08/27/2020-19032/targeting-opportunity-zones-and-other-distressed-communities-for-federal-site-locations",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-08-27/pdf/2020-19032.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/08/27/2020-19032.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to prioritize locating new federal facilities in qualified opportunity zones, other distressed communities, and centralized business areas, aiming to support economic development in these areas. It updates previous orders to emphasize revitalizing distressed communities through federal space management and property acquisitions.",
+    "theme_ids": [
+      "opportunity-zones-distressed-communities",
+      "government-efficiency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "opportunity-zone-residents",
+        "low-income-individuals-families",
+        "urban-communities",
+        "tribal-communities-reservations"
+      ],
+      "negative_ids": [
+        "renters-homeowners"
+      ]
+    },
+    "potential_concerns": [
+      "Prioritizing federal facilities in opportunity zones and distressed communities may inadvertently drive up local real estate values and property taxes, negatively impacting renters and low-income families by increasing housing costs.",
+      "Implementation could place disproportionate burdens on tribal communities if federal agencies locate sites without adequate consultation or cultural sensitivity, potentially disrupting community dynamics.",
+      "Focusing federal sites in urban and distressed areas might strain existing infrastructure and resources, affecting the quality of life for residents in these communities.",
+      "While aimed at economic development, relocating federal facilities without thorough cost and security analysis might reduce government efficiency or increase operating costs, conflicting with the government-efficiency theme."
+    ],
+    "enriched_at": "2025-12-15T07:30:03.917Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

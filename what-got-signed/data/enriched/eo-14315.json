@@ -1,0 +1,44 @@
+{
+  "document_number": "2025-12961",
+  "executive_order_number": "14315",
+  "title": "Ending Market Distorting Subsidies for Unreliable, Foreign-Controlled Energy Sources",
+  "abstract": null,
+  "signing_date": "2025-07-07",
+  "publication_date": "2025-07-10",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/07/10/2025-12961/ending-market-distorting-subsidies-for-unreliable-foreign-controlled-energy-sources",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-07-10/pdf/2025-12961.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/07/10/2025-12961.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to end taxpayer subsidies and tax credits for wind and solar energy projects, which are described as expensive, unreliable, and often controlled by foreign adversaries. It aims to protect national security and strengthen the domestic energy sector by focusing support on affordable, reliable, and domestically controlled energy sources.",
+    "theme_ids": [
+      "energy-independence-security",
+      "tax-policy-tax-reform",
+      "critical-minerals-supply-chain-security",
+      "public-lands-management"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "energy-sector-workers-oil-gas-coal",
+        "working-age-adults"
+      ],
+      "negative_ids": [
+        "renewable-energy-workers",
+        "taxpayers",
+        "consumers"
+      ]
+    },
+    "potential_concerns": [
+      "Eliminating subsidies for wind and solar energy may lead to significant job losses and economic hardship for renewable-energy-workers, particularly impacting working-age adults employed in that sector.",
+      "Ending taxpayer support for green energy subsidies could increase energy costs, negatively affecting consumers and low- to middle-income taxpayers.",
+      "Shifting focus away from renewable sources risks increased reliance on fossil fuels, potentially exacerbating environmental harm and public health concerns among urban and rural communities.",
+      "The order’s intent to reduce dependence on foreign-controlled supply chains could disrupt critical mineral sourcing needed for renewables, unintentionally slowing technological innovation within the energy sector workforce.",
+      "Changes in public lands management favoring fossil fuel projects could increase environmental degradation, drawing criticism from environmental justice communities and potentially harming tribal communities reliant on those lands."
+    ],
+    "enriched_at": "2025-12-15T07:37:08.837Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

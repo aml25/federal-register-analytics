@@ -1,0 +1,43 @@
+{
+  "document_number": "2025-02011",
+  "executive_order_number": "14163",
+  "title": "Realigning the United States Refugee Admissions Program",
+  "abstract": null,
+  "signing_date": "2025-01-20",
+  "publication_date": "2025-01-30",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/01/30/2025-02011/realigning-the-united-states-refugee-admissions-program",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-30/pdf/2025-02011.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/30/2025-02011.txt",
+  "enrichment": {
+    "summary": "This executive order suspends the United States Refugee Admissions Program until refugee admissions align with the country's interests. It emphasizes public safety and national security, allows select case-by-case refugee admissions, and involves state and local jurisdictions more in refugee resettlement decisions. The order also revokes a previous executive order on refugee resettlement.",
+    "theme_ids": [
+      "refugee-policy",
+      "homeland-security",
+      "immigration-enforcement-interior",
+      "revocation-of-previous-executive-orders"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "refugees",
+        "local-governments",
+        "urban-communities",
+        "rural-communities",
+        "specific-state-populations"
+      ]
+    },
+    "potential_concerns": [
+      "The suspension of refugee admissions may severely limit protection and resettlement opportunities for refugees fleeing persecution, contradicting humanitarian commitments under international law.",
+      "Increased involvement of state and local jurisdictions in refugee placement could lead to inconsistent policies and potential refusal of resettlement in certain areas, exacerbating geographic disparities impacting urban and rural communities differently.",
+      "Local governments and communities facing sudden refugee inflows may experience resource strains, especially if federal support diminishes, potentially heightening tensions in urban and rural populations unprepared for abrupt demographic changes.",
+      "The case-by-case admission process might introduce subjectivity and prolonged uncertainty for vulnerable refugees, resulting in prolonged family separations and humanitarian delays.",
+      "Revocation of the previous executive order signals a rollback of prior climate-migration planning, which may reduce preparedness for refugee flows related to environmental and climate-induced displacement affecting certain states and regions disproportionately."
+    ],
+    "enriched_at": "2025-12-15T08:35:19.610Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "document_number": "2025-03775",
+  "executive_order_number": "14228",
+  "title": "Further Amendment to Duties Addressing the Synthetic Opioid Supply Chain in the People's Republic of China",
+  "abstract": null,
+  "signing_date": "2025-03-03",
+  "publication_date": "2025-03-07",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/03/07/2025-03775/further-amendment-to-duties-addressing-the-synthetic-opioid-supply-chain-in-the-peoples-republic-of",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-07/pdf/2025-03775.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/07/2025-03775.txt",
+  "enrichment": {
+    "summary": "This executive order increases the tariff on goods from China related to synthetic opioids from 10 percent to 20 percent because the Chinese government has not taken sufficient action to stop the illegal flow of these drugs into the United States. It aims to address the ongoing opioid crisis by pressing China to cooperate in curbing the supply chain of synthetic opioids.",
+    "theme_ids": [
+      "tariffs-duties",
+      "opioid-crisis",
+      "china"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "healthcare-workers",
+        "patients-general"
+      ],
+      "negative_ids": [
+        "small-business-owners",
+        "manufacturing-workers",
+        "consumers"
+      ]
+    },
+    "potential_concerns": [
+      "Raising tariffs on Chinese synthetic opioid-related goods may increase costs for small business owners and manufacturers relying on these imports, leading to higher consumer prices.",
+      "Increased tariffs could disrupt supply chains, inadvertently reducing availability of certain medical or precursor products used by healthcare workers, potentially impacting patient care.",
+      "While aimed at curbing the opioid crisis, higher tariffs might incentivize illicit actors to find alternative smuggling methods, complicating law enforcement efforts and prolonging risks to patients and communities.",
+      "Consumers, particularly low-income patients dependent on affordable medicines, may face higher out-of-pocket costs if price increases on imported goods are passed down."
+    ],
+    "enriched_at": "2025-12-15T08:25:55.169Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_number": "2025-03989",
+  "executive_order_number": "14230",
+  "title": "Addressing Risks From Perkins Coie LLP",
+  "abstract": null,
+  "signing_date": "2025-03-06",
+  "publication_date": "2025-03-11",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/03/11/2025-03989/addressing-risks-from-perkins-coie-llp",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-11/pdf/2025-03989.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/11/2025-03989.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to review and potentially suspend security clearances for individuals at the law firm Perkins Coie LLP due to alleged unethical and discriminatory practices. It also restricts government contracts and interactions with Perkins Coie to prevent federal funds from supporting activities that undermine election integrity and violate anti-discrimination laws. Additionally, it calls for investigations into racial discrimination within large law firms doing government business and limits Perkins Coie employees' access to federal government facilities and hiring opportunities.",
+    "theme_ids": [
+      "foreign-election-interference",
+      "security-clearances-background-investigations",
+      "anti-discrimination",
+      "employment-discrimination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "african-americans-black-americans",
+        "women"
+      ],
+      "negative_ids": [
+        "federal-contractors",
+        "security-clearance-holders",
+        "large-corporation-employees"
+      ]
+    },
+    "potential_concerns": [
+      "The order’s broad suspension of security clearances for Perkins Coie employees may unjustly impede the careers of individuals without thorough individualized assessments, affecting security-clearance-holders and federal-contractors.",
+      "Efforts to restrict contracts and access for Perkins Coie could set a precedent for using political or ideological criteria in federal contracting, potentially harming large-corporation-employees and contractors beyond this firm.",
+      "Investigations into racial discrimination may benefit African Americans and women by addressing discriminatory practices, but may also raise concerns about fairness and due process for law firms and their employees labeled as discriminatory without exhaustive federal review.",
+      "Limiting access to federal facilities and hiring of Perkins Coie employees may unintentionally create employment barriers disproportionately impacting workers at this firm, including potentially qualified diverse candidates from underrepresented groups.",
+      "The framing and targeting of Perkins Coie tied to politically sensitive topics (election interference) may polarize perceptions and complicate enforcement of anti-discrimination laws, potentially affecting African Americans and women both positively and negatively depending on implementation."
+    ],
+    "enriched_at": "2025-12-15T08:25:39.976Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

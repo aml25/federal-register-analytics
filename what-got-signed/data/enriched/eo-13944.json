@@ -1,0 +1,45 @@
+{
+  "document_number": "2020-18012",
+  "executive_order_number": "13944",
+  "title": "Combating Public Health Emergencies and Strengthening National Security by Ensuring Essential Medicines, Medical Countermeasures, and Critical Inputs Are Made in the United States",
+  "abstract": null,
+  "signing_date": "2020-08-06",
+  "publication_date": "2020-08-14",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/08/14/2020-18012/combating-public-health-emergencies-and-strengthening-national-security-by-ensuring-essential",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-08-14/pdf/2020-18012.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/08/14/2020-18012.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to prioritize buying essential medicines, medical countermeasures, and critical inputs that are made in the United States to reduce reliance on foreign suppliers. It also requires identifying vulnerabilities in supply chains, streamlining regulations to boost domestic production, and using government authority to ensure availability and prioritization of these products for national security and public health emergencies.",
+    "theme_ids": [
+      "defense-industrial-base",
+      "supply-chain-security",
+      "public-health-emergency-response",
+      "covid-19-response",
+      "defense-production-act"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "veterans",
+        "military-personnel-active-duty",
+        "patients-general",
+        "manufacturing-workers"
+      ],
+      "negative_ids": [
+        "consumers"
+      ]
+    },
+    "potential_concerns": [
+      "Prioritizing domestic production of essential medicines and countermeasures may lead to increased costs for consumers, potentially limiting affordability and access.",
+      "Efforts to restrict procurement to U.S.-made products could disrupt existing global supply chains, causing short-term shortages that adversely affect patients and veterans reliant on essential medicines.",
+      "The regulatory streamlining aimed to boost domestic manufacturing could inadvertently compromise product safety or quality, negatively impacting patients and public health.",
+      "Increased domestic production demands could strain manufacturing workers and facilities, leading to labor shortages or workplace safety challenges in the public health industrial base.",
+      "Excluding foreign suppliers in procurement under defense prerogatives might provoke trade tensions or retaliatory measures that impact the broader healthcare supply chain and consumers."
+    ],
+    "enriched_at": "2025-12-15T07:30:19.792Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

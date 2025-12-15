@@ -1,0 +1,43 @@
+{
+  "document_number": "2018-11101",
+  "executive_order_number": "13834",
+  "title": "Efficient Federal Operations",
+  "abstract": null,
+  "signing_date": "2018-05-17",
+  "publication_date": "2018-05-22",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/05/22/2018-11101/efficient-federal-operations",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-05-22/pdf/2018-11101.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/05/22/2018-11101.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to improve energy efficiency and environmental performance in their operations by reducing waste, cutting costs, and using resources more responsibly. It sets specific goals for energy use, water conservation, waste management, and sustainable building practices, while assigning roles for oversight and reporting to ensure agencies meet these targets.",
+    "theme_ids": [
+      "energy-infrastructure",
+      "renewable-energy",
+      "government-efficiency",
+      "water-infrastructure",
+      "environmental-regulation"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "renewable-energy-workers",
+        "environmental-justice-communities"
+      ],
+      "negative_ids": [
+        "law-enforcement-officers-federal",
+        "military-personnel-active-duty"
+      ]
+    },
+    "potential_concerns": [
+      "Efforts to improve federal energy and water efficiency may result in operational constraints or increased scrutiny on federal law enforcement and military vehicle fleets, potentially impacting their mission readiness and effectiveness.",
+      "Prioritizing sustainable building and facility goals could increase upfront costs and logistical challenges, which may burden some federal agencies and indirectly delay services impacting environmental justice communities relying on federal services.",
+      "While the order promotes use of renewable energy and reduces waste, without careful implementation, renewable-energy workers might face workforce disruptions during transitions away from traditional energy infrastructure within federal projects.",
+      "The exemption provisions for sensitive law enforcement and intelligence activities could create inconsistencies in environmental performance across agencies, leading to uneven benefits for broader communities, including environmental justice populations."
+    ],
+    "enriched_at": "2025-12-15T07:11:34.899Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

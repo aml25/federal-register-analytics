@@ -1,0 +1,40 @@
+{
+  "document_number": "2025-06162",
+  "executive_order_number": "14258",
+  "title": "Extending the TikTok Enforcement Delay",
+  "abstract": null,
+  "signing_date": "2025-04-04",
+  "publication_date": "2025-04-09",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/09/2025-06162/extending-the-tiktok-enforcement-delay",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-09/pdf/2025-06162.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/09/2025-06162.txt",
+  "enrichment": {
+    "summary": "This executive order extends the delay on enforcing a law aimed at restricting the use of TikTok and other foreign adversary controlled applications until June 19, 2025. It directs the Department of Justice not to take enforcement actions or penalties during this period and affirms the federal government's exclusive authority to enforce the law.",
+    "theme_ids": [
+      "cybersecurity-national-security",
+      "foreign-technology-threats"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "technology-workers",
+        "large-corporation-employees"
+      ],
+      "negative_ids": [
+        "consumers",
+        "small-business-owners"
+      ]
+    },
+    "potential_concerns": [
+      "Extending enforcement delay could increase cybersecurity risks by allowing continued use of foreign adversary-controlled apps, potentially putting technology-workers and large corporation employees at elevated risk of data breaches.",
+      "Consumers reliant on TikTok and similar apps may face uncertainty about future access, impacting their digital engagement and social connectivity.",
+      "Small business owners who use TikTok for marketing may experience ongoing regulatory ambiguity affecting their advertising strategies and growth planning.",
+      "The delay may hinder national security efforts by postponing restrictions meant to mitigate foreign technology threats, leading to tensions between cybersecurity priorities and economic or social interests."
+    ],
+    "enriched_at": "2025-12-15T08:21:39.894Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

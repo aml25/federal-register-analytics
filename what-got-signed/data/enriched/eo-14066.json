@@ -1,0 +1,43 @@
+{
+  "document_number": "2022-05232",
+  "executive_order_number": "14066",
+  "title": "Prohibiting Certain Imports and New Investments With Respect to Continued Russian Federation Efforts To Undermine the Sovereignty and Territorial Integrity of Ukraine",
+  "abstract": null,
+  "signing_date": "2022-03-08",
+  "publication_date": "2022-03-10",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2022/03/10/2022-05232/prohibiting-certain-imports-and-new-investments-with-respect-to-continued-russian-federation-efforts",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-03-10/pdf/2022-05232.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/03/10/2022-05232.txt",
+  "enrichment": {
+    "summary": "This executive order prohibits the import of certain Russian energy products such as oil, petroleum, natural gas, and coal into the United States. It also bans new investments by U.S. persons in Russia's energy sector and prohibits activities that help avoid these restrictions, as a response to Russia's ongoing war against Ukraine.",
+    "theme_ids": [
+      "economic-sanctions",
+      "russia",
+      "oil-and-gas-development",
+      "energy-independence-security",
+      "ukraine-crimea"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "energy-sector-workers-oil-gas-coal",
+        "u-s-citizens"
+      ],
+      "negative_ids": [
+        "large-corporation-employees",
+        "investors"
+      ]
+    },
+    "potential_concerns": [
+      "The prohibition on new investments in Russia's energy sector may lead to financial losses and reduced growth opportunities for U.S.-based investors and large corporations involved in energy, causing economic disruptions for energy-sector workers domestically.",
+      "The ban on importing Russian energy products could contribute to increased fuel costs in the U.S., negatively affecting both energy-sector workers and U.S. citizens who rely on affordable energy, potentially impacting economic stability and household budgets.",
+      "While aimed at undermining Russia's ability to fund its war against Ukraine, the sanctions risk increasing global energy market volatility, which could indirectly harm U.S. energy workers and consumers through supply chain disruptions.",
+      "There is a potential for evasion tactics or circumvention attempts by foreign entities, complicating enforcement and creating compliance burdens for companies and investors subject to U.S. jurisdiction."
+    ],
+    "enriched_at": "2025-12-15T07:35:35.307Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

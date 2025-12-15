@@ -1,0 +1,45 @@
+{
+  "document_number": "2025-06461",
+  "executive_order_number": "14265",
+  "title": "Modernizing Defense Acquisitions and Spurring Innovation in the Defense Industrial Base",
+  "abstract": null,
+  "signing_date": "2025-04-09",
+  "publication_date": "2025-04-15",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/15/2025-06461/modernizing-defense-acquisitions-and-spurring-innovation-in-the-defense-industrial-base",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06461.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/15/2025-06461.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Department of Defense to speed up and modernize how it buys military equipment and manages its defense industrial base. It requires plans to reform acquisition processes, review major defense programs, and improve the skills and incentives of the workforce involved in defense procurement to ensure faster delivery of advanced capabilities.",
+    "theme_ids": [
+      "defense-industrial-base",
+      "military-readiness-force-structure",
+      "government-efficiency",
+      "workforce-development"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "defense-industry-workers",
+        "military-personnel-active-duty",
+        "veterans",
+        "federal-contractors"
+      ],
+      "negative_ids": [
+        "defense-industry-workers",
+        "federal-contractors"
+      ]
+    },
+    "potential_concerns": [
+      "The accelerated acquisition and risk-tolerant approach may pressure defense-industry-workers and federal-contractors to meet faster deadlines potentially compromising work quality or worker safety (themes: defense-industrial-base, workforce-development).",
+      "Reforming and potentially downsizing or reorganizing the acquisition workforce might lead to job insecurity or layoffs among federal-contractors and defense-industry-workers receiving contracts (themes: government-efficiency, workforce-development).",
+      "The review and possible cancellation of major defense acquisition programs could disrupt current military procurement plans, adversely impacting active duty military personnel's access to needed advanced capabilities (themes: military-readiness-force-structure).",
+      "Prioritizing commercial solutions and innovative contracting authorities might favor larger corporations, risking adverse effects on smaller defense contractors and their workers (themes: defense-industrial-base, government-efficiency).",
+      "Rapid acquisition reforms could inadvertently increase risks of oversight lapses or poor contract management, which could reduce long-term program effectiveness and thus impact veterans and military personnel relying on sustained capabilities (themes: government-efficiency, military-readiness-force-structure)."
+    ],
+    "enriched_at": "2025-12-15T08:20:45.031Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

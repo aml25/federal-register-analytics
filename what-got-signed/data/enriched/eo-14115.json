@@ -1,0 +1,45 @@
+{
+  "document_number": "2024-02354",
+  "executive_order_number": "14115",
+  "title": "Imposing Certain Sanctions on Persons Undermining Peace, Security, and Stability in the West Bank",
+  "abstract": null,
+  "signing_date": "2024-02-01",
+  "publication_date": "2024-02-05",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2024/02/05/2024-02354/imposing-certain-sanctions-on-persons-undermining-peace-security-and-stability-in-the-west-bank",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-02-05/pdf/2024-02354.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/02/05/2024-02354.txt",
+  "enrichment": {
+    "summary": "This executive order blocks the assets and restricts economic activities of individuals and entities involved in violence, forced displacement, or property destruction in the West Bank. It also suspends the entry of certain foreign nationals linked to these activities to protect U.S. national security and foreign policy interests related to peace and stability in the region.",
+    "theme_ids": [
+      "economic-sanctions",
+      "travel-restrictions-bans",
+      "national-emergencies",
+      "sanctions-country-specific",
+      "middle-east-general"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens",
+        "lawful-permanent-residents-green-card-holders",
+        "naturalized-citizens"
+      ],
+      "negative_ids": [
+        "foreign-nationals-general",
+        "citizens-of-specific-countries-by-eo-designation",
+        "corporations-businesses"
+      ]
+    },
+    "potential_concerns": [
+      "The travel restrictions and visa suspensions may unintentionally impact lawful permanent residents and naturalized citizens originating from the West Bank region, creating barriers to family reunification or legitimate travel to the United States.",
+      "Economic sanctions blocking property and financial assets could adversely affect corporations and businesses with operations or investments related to the West Bank, potentially harming their U.S.-based partners and employees.",
+      "Broad designation criteria for sanctions risk inadvertently targeting foreign nationals not directly involved in violent or destabilizing activities, possibly leading to diplomatic friction or human rights critiques.",
+      "The order's sweeping asset blocking may complicate humanitarian aid efforts or support to peaceful communities in the West Bank, raising concerns among U.S. citizens and residents who have familial or community ties in the region."
+    ],
+    "enriched_at": "2025-12-15T07:36:39.592Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

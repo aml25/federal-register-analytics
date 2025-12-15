@@ -1,0 +1,43 @@
+{
+  "document_number": "2025-06464",
+  "executive_order_number": "14268",
+  "title": "Reforming Foreign Defense Sales To Improve Speed and Accountability",
+  "abstract": null,
+  "signing_date": "2025-04-09",
+  "publication_date": "2025-04-15",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/15/2025-06464/reforming-foreign-defense-sales-to-improve-speed-and-accountability",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06464.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/15/2025-06464.txt",
+  "enrichment": {
+    "summary": "This executive order aims to make the process of selling U.S. defense equipment to foreign partners faster, more transparent, and more efficient. It directs the Secretaries of State and Defense to streamline decision-making, improve collaboration with industry, update priority partner and item lists, and develop better tracking and accountability systems for foreign defense sales.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "defense-industrial-base",
+      "foreign-aid",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "defense-industry-workers",
+        "military-personnel-active-duty",
+        "foreign-governments"
+      ],
+      "negative_ids": [
+        "taxpayers"
+      ]
+    },
+    "potential_concerns": [
+      "Expediting foreign defense sales may risk compromising U.S. military personnel's access to critical equipment, potentially affecting military readiness and force structure.",
+      "Increased collaboration with defense industry may drive cost efficiencies but could also prioritize contractor interests over national security or oversight, negatively impacting taxpayers.",
+      "Streamlining export controls and updating FMS-Only lists might inadvertently enable sensitive technology transfers to foreign governments whose long-term reliability or alignment may be uncertain.",
+      "The consolidation of decision-making and reduced regulatory barriers could lead to insufficient interagency coordination, increasing risks of oversight lapses that affect both U.S. and foreign partners.",
+      "Efforts to strengthen allied burden-sharing by transferring end-items may shift operational costs onto partner countries, potentially creating political or economic tensions with foreign governments."
+    ],
+    "enriched_at": "2025-12-15T08:20:20.049Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

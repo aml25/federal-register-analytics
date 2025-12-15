@@ -1,0 +1,44 @@
+{
+  "document_number": "2025-03728",
+  "executive_order_number": "14226",
+  "title": "Amendment to Duties To Address the Flow of Illicit Drugs Across Our Northern Border",
+  "abstract": null,
+  "signing_date": "2025-03-02",
+  "publication_date": "2025-03-06",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/03/06/2025-03728/amendment-to-duties-to-address-the-flow-of-illicit-drugs-across-our-northern-border",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-06/pdf/2025-03728.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/06/2025-03728.txt",
+  "enrichment": {
+    "summary": "This executive order updates previous orders to address the flow of illegal drugs across the U.S. northern border by adjusting duties and tariff collection policies. It modifies how certain products qualify for duty-free treatment, making it conditional on the government's ability to effectively collect tariffs.",
+    "theme_ids": [
+      "border-security",
+      "tariffs-duties",
+      "drug-enforcement",
+      "transnational-crime-cartels"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local",
+        "border-communities"
+      ],
+      "negative_ids": [
+        "small-business-owners",
+        "consumers"
+      ]
+    },
+    "potential_concerns": [
+      "This order may increase operational burdens and costs for small-business-owners and importers-exporters who rely on duty-free treatment for cross-border trade, potentially leading to higher prices for consumers.",
+      "Law enforcement officers at federal and state/local levels may face challenges if changes in tariff collection disrupt coordinated efforts to control illicit drug trafficking across the northern border and complicate enforcement priorities.",
+      "Border communities might experience both positive effects from enhanced drug enforcement efforts and negative economic impacts if stricter tariff collection slows legitimate trade and commerce.",
+      "There is a risk that increased tariffs or duties as a result of tariff collection system changes could encourage illicit smuggling tactics, inadvertently benefiting transnational crime cartels targeting these routes.",
+      "The conditional removal of duty-free de minimis treatment based on government capacity to collect tariffs may create uncertainty for businesses and communities reliant on cross-border trade, affecting economic stability in northern border regions."
+    ],
+    "enriched_at": "2025-12-15T08:26:11.897Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

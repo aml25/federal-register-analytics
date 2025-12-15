@@ -1,0 +1,43 @@
+{
+  "document_number": "2025-02098",
+  "executive_order_number": "14174",
+  "title": "Revocation of Certain Executive Orders",
+  "abstract": null,
+  "signing_date": "2025-01-21",
+  "publication_date": "2025-01-31",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/01/31/2025-02098/revocation-of-certain-executive-orders",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-31/pdf/2025-02098.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/31/2025-02098.txt",
+  "enrichment": {
+    "summary": "This executive order officially cancels two previous executive orders that required COVID-19 safety protocols and vaccinations for federal contractors and employees. It clarifies that revoking these orders does not affect other legal authorities or rights and must be implemented within the law and available budget.",
+    "theme_ids": [
+      "revocation-of-previous-executive-orders",
+      "covid-19-response",
+      "vaccine-policy",
+      "federal-workforce-management"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants",
+        "federal-contractors"
+      ],
+      "negative_ids": [
+        "federal-employees-civil-servants",
+        "federal-contractors"
+      ]
+    },
+    "potential_concerns": [
+      "The revocation of vaccine and COVID-19 safety mandates may increase health risks for federal employees and contractors by removing protections, potentially leading to greater workplace transmission.",
+      "Federal employees and contractors with disabilities or chronic illnesses could face heightened vulnerability due to relaxed safety protocols, raising concerns about workplace accommodations and health equity.",
+      "Removing vaccination requirements may cause disagreements and reduced morale among federal workforce groups who supported or complied with the prior mandates.",
+      "Federal agencies may encounter operational challenges balancing the order's revocation with existing legal authorities and agency-specific health and safety policies.",
+      "There could be legal and compliance ambiguities about how this order interacts with state or local COVID-19 workplace requirements affecting federal contractors."
+    ],
+    "enriched_at": "2025-12-15T08:33:32.295Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "document_number": "2025-06838",
+  "executive_order_number": "14274",
+  "title": "Restoring Common Sense to Federal Office Space Management",
+  "abstract": null,
+  "signing_date": "2025-04-15",
+  "publication_date": "2025-04-18",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/18/2025-06838/restoring-common-sense-to-federal-office-space-management",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-18/pdf/2025-06838.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/18/2025-06838.txt",
+  "enrichment": {
+    "summary": "This executive order cancels two previous orders that required federal agencies to prioritize locating offices in central business districts and historic properties. It allows agencies to choose more cost-effective office spaces that better serve their mission and the American people, aiming to improve efficiency and reduce costs in federal office space management.",
+    "theme_ids": [
+      "government-efficiency",
+      "regulatory-reform-deregulation",
+      "revocation-of-previous-executive-orders"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "taxpayers",
+        "urban-communities",
+        "suburban-communities",
+        "rural-communities"
+      ],
+      "negative_ids": [
+        "federal-employees-civil-servants",
+        "small-business-owners",
+        "local-governments"
+      ]
+    },
+    "potential_concerns": [
+      "Relaxing requirements to locate federal offices in central business districts and historic properties may reduce predictable local economic benefits, negatively impacting small-business-owners in those urban neighborhoods.",
+      "Federal employees might face challenges if relocations lead to less accessible or lower-quality workspaces, which could affect their work environment and commute.",
+      "Urban communities previously benefiting from federal office presence may see reduced economic activity and investments, while suburban and rural communities might gain limited benefits if agencies do not significantly relocate there.",
+      "Local governments in central business districts may experience decreased revenue and community engagement if federal offices move out, complicating urban planning and development efforts.",
+      "The aim to reduce costs by moving to cheaper office spaces might unintentionally result in lower standards for workplace safety, accessibility, or historic preservation, affecting federal employees and broader community interests."
+    ],
+    "enriched_at": "2025-12-15T08:19:30.773Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

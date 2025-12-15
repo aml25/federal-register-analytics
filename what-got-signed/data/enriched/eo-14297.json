@@ -1,0 +1,42 @@
+{
+  "document_number": "2025-08876",
+  "executive_order_number": "14297",
+  "title": "Delivering Most-Favored-Nation Prescription Drug Pricing to American Patients",
+  "abstract": null,
+  "signing_date": "2025-05-12",
+  "publication_date": "2025-05-15",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/05/15/2025-08876/delivering-most-favored-nation-prescription-drug-pricing-to-american-patients",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-15/pdf/2025-08876.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/15/2025-08876.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to ensure that Americans pay no more for prescription drugs than people in other developed countries. It instructs agencies to work on setting most-favored-nation prices for medicines and to take actions against unfair pricing practices by drug manufacturers and foreign countries. The goal is to make prescription drugs more affordable for American patients by stopping them from subsidizing lower prices abroad.",
+    "theme_ids": [
+      "prescription-drug-pricing",
+      "trade-policy-agreements",
+      "healthcare-competition-markets"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "patients-general",
+        "medicare-beneficiaries",
+        "medicaid-beneficiaries",
+        "low-income-individuals-families"
+      ],
+      "negative_ids": [
+        "corporations-businesses"
+      ]
+    },
+    "potential_concerns": [
+      "While the order aims to lower drug prices for patients (including Medicare and Medicaid beneficiaries and low-income individuals), imposing most-favored-nation pricing could reduce pharmaceutical companies' revenue, potentially limiting investment in new drug innovation.",
+      "Efforts to enforce pricing parity might cause pharmaceutical manufacturers to restrict the availability of certain medicines in the U.S. market, negatively impacting patients’ access to treatments.",
+      "Importation provisions allowing direct-to-consumer sales at most-favored-nation prices could raise concerns around drug safety and regulatory oversight, affecting patient health outcomes.",
+      "Foreign governments and pharmaceutical corporations (corporations-businesses) may respond with retaliatory trade actions or price adjustments that complicate implementation and could disrupt global pharmaceutical supply chains."
+    ],
+    "enriched_at": "2025-12-15T08:16:32.752Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

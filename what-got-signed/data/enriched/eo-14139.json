@@ -1,0 +1,37 @@
+{
+  "document_number": "2025-00620",
+  "executive_order_number": "14139",
+  "title": "Providing an Order of Succession Within the Office of the National Cyber Director",
+  "abstract": null,
+  "signing_date": "2025-01-03",
+  "publication_date": "2025-01-13",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/01/13/2025-00620/providing-an-order-of-succession-within-the-office-of-the-national-cyber-director",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-13/pdf/2025-00620.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/13/2025-00620.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a clear order of succession for who will act as the National Cyber Director if the current Director is unable to serve. It lists specific officials in the Office of the National Cyber Director who are authorized to step into the role temporarily, subject to legal eligibility and presidential discretion.",
+    "theme_ids": [
+      "order-of-succession",
+      "cybersecurity-national-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "political-appointees",
+        "cybersecurity-professionals"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The order of succession may concentrate power within a small cadre of political appointees, potentially limiting diversity in leadership perspectives among cybersecurity professionals.",
+      "Presidential discretion to depart from the established order could introduce instability or politicization in cybersecurity leadership, impacting the effectiveness of national cyber defense.",
+      "Excluding those serving in acting capacities from succession could reduce the pool of experienced personnel eligible to lead during transitions, possibly leading to leadership gaps within the Office of the National Cyber Director.",
+      "The emphasis on legal eligibility under the Federal Vacancies Reform Act could delay timely leadership transitions, potentially weakening the national cybersecurity posture during critical incidents."
+    ],
+    "enriched_at": "2025-12-15T08:38:54.107Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

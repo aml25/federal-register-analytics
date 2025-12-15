@@ -1,0 +1,44 @@
+{
+  "document_number": "2025-03991",
+  "executive_order_number": "14232",
+  "title": "Amendment to Duties To Address the Flow of Illicit Drugs Across Our Southern Border",
+  "abstract": null,
+  "signing_date": "2025-03-06",
+  "publication_date": "2025-03-11",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/03/11/2025-03991/amendment-to-duties-to-address-the-flow-of-illicit-drugs-across-our-southern-border",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-11/pdf/2025-03991.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/11/2025-03991.txt",
+  "enrichment": {
+    "summary": "This executive order updates and clarifies the responsibilities of federal agencies and officials to better combat the illegal drug flow across the southern U.S. border. It focuses on enhancing efforts and coordination to stop illicit drugs from entering the country through this key entry point.",
+    "theme_ids": [
+      "border-security",
+      "border-enforcement",
+      "drug-enforcement",
+      "transnational-crime-cartels"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "border-communities",
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local"
+      ],
+      "negative_ids": [
+        "undocumented-immigrants",
+        "hispanic-latino-americans"
+      ]
+    },
+    "potential_concerns": [
+      "Enhanced border enforcement efforts may lead to increased disruption and hardship for border communities, particularly affecting Hispanic / Latino Americans who historically reside in these areas.",
+      "The focus on drug interdiction could result in heightened targeting and profiling of undocumented immigrants, raising civil rights and due process concerns.",
+      "Greater coordination and authority given to federal and state law enforcement could strain community trust and cooperation in border regions.",
+      "Efforts to stop illicit drug flow might inadvertently push trafficking routes to more dangerous or less settled areas, increasing risks for border residents.",
+      "The executive order's emphasis on strong border enforcement risks overshadowing addressing root causes of drug demand and immigration, limiting long-term effectiveness."
+    ],
+    "enriched_at": "2025-12-15T08:25:25.526Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "document_number": "2025-01901",
+  "executive_order_number": "14148",
+  "title": "Initial Rescissions of Harmful Executive Orders and Actions",
+  "abstract": null,
+  "signing_date": "2025-01-20",
+  "publication_date": "2025-01-28",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/01/28/2025-01901/initial-rescissions-of-harmful-executive-orders-and-actions",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-28/pdf/2025-01901.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/28/2025-01901.txt",
+  "enrichment": {
+    "summary": "This executive order cancels a large number of previous executive orders and presidential memoranda issued from 2021 to early 2025, particularly those related to diversity, equity, inclusion, climate change policies, immigration, COVID-19 response, and certain national security memoranda. It directs federal agencies to stop implementing these policies and requires reviews to identify additional actions to rescind or replace with new policies aimed at promoting American prosperity and national security.",
+    "theme_ids": [
+      "dei-diversity-equity-inclusion",
+      "climate-change-policy",
+      "border-security",
+      "covid-19-response",
+      "revocation-of-previous-executive-orders"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens",
+        "working-age-adults",
+        "small-business-owners"
+      ],
+      "negative_ids": [
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "asian-americans",
+        "native-americans-indigenous-peoples",
+        "lgbtq-individuals",
+        "transgender-individuals",
+        "undocumented-immigrants",
+        "asylum-seekers",
+        "refugees",
+        "healthcare-workers",
+        "k-12-students",
+        "teachers-educators",
+        "environmental-justice-communities",
+        "low-income-individuals-families",
+        "medicaid-beneficiaries",
+        "aca-marketplace-enrollees"
+      ]
+    },
+    "potential_concerns": [
+      "Rescinding diversity, equity, and inclusion (DEI) initiatives may disproportionately harm racial/ethnic minorities such as African Americans, Hispanic/Latino Americans, Asian Americans, Native Americans, LGBTQ+ individuals, and transgender individuals by reducing protections against discrimination and limiting access to equitable opportunities.",
+      "Revoking climate policy executive orders could increase environmental and economic risks for environmental justice communities and low-income families who are more vulnerable to pollution and climate-related harms.",
+      "Cancellations of COVID-19 response orders may negatively impact healthcare workers, Medicaid beneficiaries, ACA enrollees, and vulnerable populations by weakening pandemic preparedness and healthcare access.",
+      "Ending executive actions focused on immigration enforcement and refugee resettlement will directly burden undocumented immigrants, asylum seekers, and refugees by tightening legal protections and restricting immigration pathways.",
+      "Small business owners and working-age U.S. citizens who perceive that deregulation and rollbacks promote economic growth might face long-term instability if social inequities and public health needs are insufficiently addressed."
+    ],
+    "enriched_at": "2025-12-15T08:37:42.246Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

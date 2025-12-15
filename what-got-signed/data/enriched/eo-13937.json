@@ -1,0 +1,40 @@
+{
+  "document_number": "2020-16623",
+  "executive_order_number": "13937",
+  "title": "Access to Affordable Life-Saving Medications",
+  "abstract": null,
+  "signing_date": "2020-07-24",
+  "publication_date": "2020-07-29",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/07/29/2020-16623/access-to-affordable-life-saving-medications",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-07-29/pdf/2020-16623.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/07/29/2020-16623.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Department of Health and Human Services to ensure that Federally Qualified Health Centers offer life-saving medications like insulin and injectable epinephrine to low-income and uninsured Americans at the discounted prices these centers pay. The goal is to make these critical medications more affordable to those who struggle to pay high prices and do not have access through insurance or government programs.",
+    "theme_ids": [
+      "prescription-drug-pricing",
+      "medicaid",
+      "medicare"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "low-income-individuals-families",
+        "uninsured-individuals",
+        "individuals-with-chronic-illnesses"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The policy may lead to reduced revenues for FQHCs if discounted drug prices plus minimal administration fees do not cover costs, potentially impacting service quality for low-income patients.",
+      "Ensuring consistent enforcement and compliance across FQHCs might be challenging, risking uneven access to discounted insulin and epinephrine for uninsured and low-income populations.",
+      "There is potential for pharmaceutical manufacturers to increase list prices or manipulate distribution strategies in response to mandated low pricing at FQHCs, which could diminish overall drug affordability.",
+      "Low-income individuals without insurance might still face barriers if FQHCs have limited stock or prioritize insured patients, undermining the order's goal to broaden access.",
+      "The order's reliance on the 340B program and FQHCs may exclude populations in areas without accessible FQHCs, leaving some vulnerable uninsured patients without affordable options."
+    ],
+    "enriched_at": "2025-12-15T07:31:19.113Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

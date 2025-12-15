@@ -1,0 +1,42 @@
+{
+  "document_number": "2019-05934",
+  "executive_order_number": "13864",
+  "title": "Improving Free Inquiry, Transparency, and Accountability at Colleges and Universities",
+  "abstract": null,
+  "signing_date": "2019-03-21",
+  "publication_date": "2019-03-26",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/03/26/2019-05934/improving-free-inquiry-transparency-and-accountability-at-colleges-and-universities",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-03-26/pdf/2019-05934.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/03/26/2019-05934.txt",
+  "enrichment": {
+    "summary": "This executive order aims to improve higher education by promoting free speech and open debate on college campuses, increasing transparency about the costs and outcomes of educational programs, and holding institutions accountable for student success and financial risks tied to federal student loans. It directs federal agencies to support these goals by providing better data access, career counseling, and reporting on student loan debt and repayment.",
+    "theme_ids": [
+      "higher-education",
+      "campus-free-speech-academic-freedom",
+      "student-loans-financial-aid",
+      "workforce-development"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "college-university-students",
+        "graduate-professional-students",
+        "educational-institutions"
+      ],
+      "negative_ids": [
+        "college-university-students"
+      ]
+    },
+    "potential_concerns": [
+      "Efforts to promote free inquiry and open debate may create challenges in balancing campus safety and inclusivity for college-university-students, potentially leading to negative experiences for marginalized groups.",
+      "Increased transparency requirements related to student loan debt and program outcomes could disproportionately stigmatize students attending institutions or programs with lower earnings, negatively impacting college-university-students' access and choices.",
+      "Holding educational institutions financially accountable for student loan defaults may incentivize stricter admissions or curricular policies that limit opportunities for at-risk or non-traditional college-university-students.",
+      "Expanding data disclosures may raise privacy concerns among college-university-students, particularly graduate-professional-students, about how their financial and academic information is used and shared."
+    ],
+    "enriched_at": "2025-12-15T07:27:26.901Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

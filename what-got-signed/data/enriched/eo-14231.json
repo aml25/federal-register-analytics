@@ -1,0 +1,40 @@
+{
+  "document_number": "2025-03990",
+  "executive_order_number": "14231",
+  "title": "Amendment to Duties To Address the Flow of Illicit Drugs Across Our Northern Border",
+  "abstract": null,
+  "signing_date": "2025-03-06",
+  "publication_date": "2025-03-11",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/03/11/2025-03990/amendment-to-duties-to-address-the-flow-of-illicit-drugs-across-our-northern-border",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-11/pdf/2025-03990.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/11/2025-03990.txt",
+  "enrichment": {
+    "summary": "This executive order adjusts the tariffs on certain goods from Canada to reduce disruptions to the U.S. automotive industry and workers. It exempts some automotive parts from new duties and lowers the tariff rate on potash from Canada, effective March 7, 2025.",
+    "theme_ids": [
+      "tariffs-duties",
+      "manufacturing-policy",
+      "border-security",
+      "canada"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "automotive-industry-workers",
+        "manufacturing-workers",
+        "large-corporation-employees"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The tariff exemption and reduction on Canadian automotive parts may benefit automotive industry workers and large corporations but could be criticized for potentially undermining broader border-security efforts targeting illicit drug flow.",
+      "Manufacturing workers reliant on integrated North American supply chains might face uncertainty if the tariff adjustment creates complexity or delays in customs processing at the northern border.",
+      "Reducing tariffs on potash imports could lead to increased competition for domestic potash producers, adversely affecting some agricultural workers and related industries.",
+      "The order's focus on tariff adjustment may inadvertently deprioritize drug interdiction enforcement, raising concerns among border communities about continued illicit drug flow."
+    ],
+    "enriched_at": "2025-12-15T08:25:32.010Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

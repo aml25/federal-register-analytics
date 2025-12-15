@@ -1,0 +1,40 @@
+{
+  "document_number": "2025-08133",
+  "executive_order_number": "14290",
+  "title": "Ending Taxpayer Subsidization of Biased Media",
+  "abstract": null,
+  "signing_date": "2025-05-01",
+  "publication_date": "2025-05-07",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/05/07/2025-08133/ending-taxpayer-subsidization-of-biased-media",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-07/pdf/2025-08133.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/07/2025-08133.txt",
+  "enrichment": {
+    "summary": "This executive order directs the government to stop providing federal funding to National Public Radio (NPR) and the Public Broadcasting Service (PBS) because they are considered biased and not impartial. It instructs the Corporation for Public Broadcasting and all federal agencies to end both direct and indirect financial support to these media organizations by specified deadlines.",
+    "theme_ids": [
+      "government-spending-earmarks",
+      "free-speech",
+      "anti-discrimination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "journalists-media-professionals",
+        "nonprofit-organizations",
+        "working-age-adults",
+        "urban-communities"
+      ]
+    },
+    "potential_concerns": [
+      "The order may undermine the financial viability of NPR and PBS, leading to job losses and economic harm to journalists-media-professionals dependent on these organizations.",
+      "By cutting funding to public broadcasters, the order risks reducing access to non-commercial, educational, and local programming in urban-communities and nationwide, disproportionately impacting working-age adults who rely on these services for unbiased information.",
+      "The policy's implementation could curtail free speech protections by effectively penalizing media outlets for perceived bias, raising concerns about government overreach and politicization of federal funding decisions.",
+      "Elimination of taxpayer subsidies may diminish the role of nonprofit-organizations in providing diverse viewpoints, thereby increasing media consolidation and reducing media pluralism."
+    ],
+    "enriched_at": "2025-12-15T08:17:25.824Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

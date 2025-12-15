@@ -1,0 +1,43 @@
+{
+  "document_number": "2018-05113",
+  "executive_order_number": "13826",
+  "title": "Federal Interagency Council on Crime Prevention and Improving Reentry",
+  "abstract": null,
+  "signing_date": "2018-03-07",
+  "publication_date": "2018-03-12",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/03/12/2018-05113/federal-interagency-council-on-crime-prevention-and-improving-reentry",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-03-12/pdf/2018-05113.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/03/12/2018-05113.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a Federal Interagency Council to coordinate efforts across government agencies aimed at preventing crime and helping formerly incarcerated individuals successfully reenter society. The Council focuses on reducing recidivism by promoting evidence-based programs such as mental health services, job training, mentorship, and community partnerships. It requires regular reports to the President and directs federal resources to enhance public safety and support rehabilitation.",
+    "theme_ids": [
+      "criminal-justice-reform",
+      "crime-reduction",
+      "reentry-recidivism-reduction",
+      "interagency-coordination",
+      "mental-health"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "formerly-incarcerated-returning-citizens",
+        "incarcerated-individuals",
+        "individuals-with-mental-health-conditions",
+        "low-income-individuals-families"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The focus on coordination across agencies may lead to bureaucratic delays that hinder timely delivery of reentry services to formerly incarcerated individuals.",
+      "There is a risk that mental health and substance abuse programs may be underfunded or inconsistently implemented, limiting their effectiveness for individuals with mental health conditions and substance use disorders.",
+      "Low-income individuals and families could face barriers in accessing vocational training and employment opportunities if private sector incentives through existing tax credit programs are insufficient or unevenly distributed.",
+      "Efforts to reduce recidivism might unintentionally perpetuate surveillance or monitoring practices that could stigmatize formerly incarcerated individuals, impacting their successful reintegration into communities.",
+      "The termination of the Council after three years may disrupt continuity in policy and program implementation, adversely affecting sustained support for crime prevention and reentry populations."
+    ],
+    "enriched_at": "2025-12-15T07:12:34.290Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

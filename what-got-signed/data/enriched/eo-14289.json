@@ -1,0 +1,41 @@
+{
+  "document_number": "2025-07835",
+  "executive_order_number": "14289",
+  "title": "Addressing Certain Tariffs on Imported Articles",
+  "abstract": null,
+  "signing_date": "2025-04-29",
+  "publication_date": "2025-05-02",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/05/02/2025-07835/addressing-certain-tariffs-on-imported-articles",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-02/pdf/2025-07835.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/02/2025-07835.txt",
+  "enrichment": {
+    "summary": "This executive order sets rules to prevent tariffs on imported goods from stacking on top of each other when multiple tariffs apply to the same product. It clarifies which tariffs take priority and ensures the combined tariff rates do not exceed what is necessary to achieve U.S. policy goals, while maintaining all individual tariff authorities. The order also directs federal agencies to update regulations and systems to enforce these non-stacking rules retroactively and going forward.",
+    "theme_ids": [
+      "tariffs-duties",
+      "trade-policy-agreements",
+      "border-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "manufacturing-workers",
+        "automotive-industry-workers"
+      ],
+      "negative_ids": [
+        "small-business-owners",
+        "consumers"
+      ]
+    },
+    "potential_concerns": [
+      "The non-stacking tariff rules may benefit domestic manufacturing and automotive workers by preventing excessive tariff burdens, but small business owners who rely on imported inputs may face increased costs due to the persistence of high single tariffs.",
+      "Consumers could experience higher prices on goods affected by these tariffs as the order preserves tariff levels sufficient to meet policy goals without stack reduction, potentially reducing affordability.",
+      "The retroactive application of the order on imports since March 4, 2025, might create administrative and financial challenges for importers, especially small businesses, due to tariff recalculations and refund processes.",
+      "Clarifying tariff priority may complicate border enforcement and compliance, potentially delaying shipments and increasing costs for businesses reliant on timely imports, including automotive and manufacturing sectors."
+    ],
+    "enriched_at": "2025-12-15T08:17:33.972Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

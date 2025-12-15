@@ -1,0 +1,42 @@
+{
+  "document_number": "2025-05908",
+  "executive_order_number": "14255",
+  "title": "Establishing the United States Investment Accelerator",
+  "abstract": null,
+  "signing_date": "2025-03-31",
+  "publication_date": "2025-04-03",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/03/2025-05908/establishing-the-united-states-investment-accelerator",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-03/pdf/2025-05908.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/03/2025-05908.txt",
+  "enrichment": {
+    "summary": "This executive order creates a new office called the United States Investment Accelerator within the Department of Commerce to help businesses, especially those investing over $1 billion, navigate and speed up government regulatory processes. Its goal is to reduce delays and barriers to investment, encouraging both domestic and foreign companies to invest and build in the U.S., thereby boosting economic growth.",
+    "theme_ids": [
+      "foreign-investment-cfius",
+      "economic-competitiveness",
+      "regulatory-reform-deregulation",
+      "small-business-support",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "large-corporation-employees",
+        "small-business-owners",
+        "investors",
+        "state-governments"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Streamlining investment processes for large projects may disproportionately benefit large corporations and wealthy investors, potentially leaving smaller businesses less supported despite stated goals of small-business support.",
+      "Efforts to reduce regulatory barriers across federal, state, and local levels may unintentionally weaken environmental and community protections, raising concerns from state governments and local communities.",
+      "Prioritizing investments over $1 billion could create a two-tier system that overlooks smaller investors and businesses, limiting equitable economic growth.",
+      "Coordination challenges among multiple federal and state agencies might create inconsistent implementation, causing confusion for small-business owners and state governments relying on clear guidance."
+    ],
+    "enriched_at": "2025-12-15T08:22:03.996Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

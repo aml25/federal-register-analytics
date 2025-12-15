@@ -1,0 +1,46 @@
+{
+  "document_number": "2025-02513",
+  "executive_order_number": "14201",
+  "title": "Keeping Men Out of Women's Sports",
+  "abstract": null,
+  "signing_date": "2025-02-05",
+  "publication_date": "2025-02-11",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/11/2025-02513/keeping-men-out-of-womens-sports",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-11/pdf/2025-02513.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/11/2025-02513.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to ensure that men are not allowed to compete in women's sports in educational programs that receive federal funding. It emphasizes protecting women and girls' opportunities, safety, and fairness in sports, enforces Title IX rights for females, and encourages domestic and international policies preserving sex-based sports categories.",
+    "theme_ids": [
+      "title-ix",
+      "gender-equality",
+      "immigration-enforcement-interior",
+      "united-nations-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "women",
+        "college-university-students"
+      ],
+      "negative_ids": [
+        "transgender-individuals",
+        "lgbtq-individuals",
+        "visa-holders-work-student-tourist",
+        "foreign-nationals-general",
+        "educational-institutions"
+      ]
+    },
+    "potential_concerns": [
+      "The order’s enforcement against transgender individuals in women’s sports could lead to discrimination and exclusion contrary to LGBTQ+ rights and protections under Title IX.",
+      "Restriction on visa holders and foreign nationals participating in women’s sports may create diplomatic tensions and complicate international student-athlete admissions.",
+      "The rescission of federal funding from educational institutions failing to comply may reduce sports opportunities or resources for all students, potentially impacting educational institutions broadly.",
+      "Strict biological sex-based definitions may create legal challenges and enforcement complexity for institutions trying to comply, especially involving transgender athletes’ privacy and participation rights.",
+      "International diplomacy efforts to pressure global sports organizations to enforce sex-based categories could result in pushback from international organizations and harm U.S. leadership in sports governance."
+    ],
+    "enriched_at": "2025-12-15T08:29:32.182Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

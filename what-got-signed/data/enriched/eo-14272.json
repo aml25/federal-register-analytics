@@ -1,0 +1,45 @@
+{
+  "document_number": "2025-06836",
+  "executive_order_number": "14272",
+  "title": "Ensuring National Security and Economic Resilience Through Section 232 Actions on Processed Critical Minerals and Derivative Products",
+  "abstract": null,
+  "signing_date": "2025-04-15",
+  "publication_date": "2025-04-18",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/18/2025-06836/ensuring-national-security-and-economic-resilience-through-section-232-actions-on-processed-critical",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-18/pdf/2025-06836.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/18/2025-06836.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Secretary of Commerce to investigate whether importing processed critical minerals and products made from them poses a threat to U.S. national security. The investigation will assess supply chain risks, foreign market practices, and U.S. production capacity, and may lead to recommendations such as tariffs or policies to boost domestic production to protect the economy and defense readiness.",
+    "theme_ids": [
+      "critical-minerals-supply-chain-security",
+      "defense-industrial-base",
+      "tariffs-duties",
+      "manufacturing-policy",
+      "supply-chain-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "defense-industry-workers",
+        "manufacturing-workers",
+        "military-personnel-active-duty"
+      ],
+      "negative_ids": [
+        "consumers",
+        "large-corporation-employees"
+      ]
+    },
+    "potential_concerns": [
+      "Imposition of tariffs under this order could increase costs for consumers and manufacturers reliant on imported processed critical minerals, potentially leading to higher prices for electronics and defense-related products.",
+      "Efforts to boost domestic production may strain defense industry workers and manufacturing workers with increased production demands and possible adjustment costs during supply chain realignment.",
+      "Large corporations dependent on global supply chains might experience operational disruptions or competitive disadvantages due to import restrictions or trade tensions stemming from this order.",
+      "Military personnel could face readiness challenges if domestic production and supply chain adjustments are slow to meet the demands for processed critical minerals essential to advanced defense technologies.",
+      "Unintended market distortions could arise if tariffs or restrictions lead to retaliatory actions from foreign suppliers, affecting the stability of supply chains crucial to both national security and economic resilience."
+    ],
+    "enriched_at": "2025-12-15T08:19:50.756Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

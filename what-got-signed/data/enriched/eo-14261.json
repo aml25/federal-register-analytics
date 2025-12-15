@@ -1,0 +1,46 @@
+{
+  "document_number": "2025-06380",
+  "executive_order_number": "14261",
+  "title": "Reinvigorating America's Beautiful Clean Coal Industry and Amending Executive Order 14241",
+  "abstract": null,
+  "signing_date": "2025-04-08",
+  "publication_date": "2025-04-14",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/14/2025-06380/reinvigorating-americas-beautiful-clean-coal-industry-and-amending-executive-order-14241",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-14/pdf/2025-06380.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/14/2025-06380.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to promote and expand the domestic coal industry by removing regulatory barriers, supporting coal mining and exports, and accelerating coal-related technologies. It also emphasizes coal's role in national economic security, energy independence, and powering new technologies like artificial intelligence data centers.",
+    "theme_ids": [
+      "coal-industry",
+      "energy-independence-security",
+      "economic-competitiveness",
+      "export-import-policy",
+      "artificial-intelligence"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "energy-sector-workers-oil-gas-coal",
+        "union-members",
+        "rural-communities",
+        "large-corporation-employees"
+      ],
+      "negative_ids": [
+        "environmental-justice-communities",
+        "urban-communities",
+        "children-minors"
+      ]
+    },
+    "potential_concerns": [
+      "The removal of regulatory barriers and expedited coal leasing may increase environmental pollution risks, disproportionately affecting environmental-justice-communities and urban communities near mining or power generation sites.",
+      "Increased coal production and reliance on coal-powered infrastructure for AI data centers might exacerbate public health risks for children-minors living near coal mining and coal-burning facilities.",
+      "While the order aims to create high-paying jobs for energy-sector-workers and union-members in rural-communities, automation and technological shifts may limit long-term employment growth, undermining intended economic benefits.",
+      "Promoting coal exports and reducing environmental review processes could strain diplomatic relationships with trade partners concerned about environmental sustainability, impacting large-corporation-employees involved in export logistics and international business."
+    ],
+    "enriched_at": "2025-12-15T08:21:18.386Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

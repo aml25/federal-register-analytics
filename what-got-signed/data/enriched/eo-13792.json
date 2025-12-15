@@ -1,0 +1,47 @@
+{
+  "document_number": "2017-08908",
+  "executive_order_number": "13792",
+  "title": "Review of Designations Under the Antiquities Act",
+  "abstract": null,
+  "signing_date": "2017-04-26",
+  "publication_date": "2017-05-01",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/05/01/2017-08908/review-of-designations-under-the-antiquities-act",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-05-01/pdf/2017-08908.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/05/01/2017-08908.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Secretary of the Interior to review national monument designations made since 1996 that cover large areas or lacked sufficient public input. The review focuses on whether these designations align with the original intent of the Antiquities Act and considers their impact on local communities, land use, and economic factors. The order requires interim and final reports with recommendations for potential adjustments or actions.",
+    "theme_ids": [
+      "public-lands-management",
+      "national-monuments-antiquities",
+      "energy-independence-security",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "tribal-communities-reservations",
+        "native-americans-indigenous-peoples"
+      ],
+      "negative_ids": [
+        "energy-sector-workers-oil-gas-coal",
+        "rural-communities",
+        "small-business-owners",
+        "state-governments",
+        "local-governments",
+        "tribal-governments"
+      ]
+    },
+    "potential_concerns": [
+      "The order's review might reduce or rescind national monument designations that protect tribal lands and cultural sites, negatively impacting tribal communities and Native Americans' ability to preserve their heritage.",
+      "Reducing monument protections could lead to expanded energy extraction activities, benefiting energy-sector workers but potentially causing environmental degradation and harming rural communities reliant on tourism and recreation.",
+      "State, local, and tribal governments may face fiscal and administrative burdens if lands are re-designated with less federal protection, complicating land management and economic development planning.",
+      "Inadequate public input and coordination emphasized by the order could exacerbate conflicts between federal land managers and local stakeholders, leading to prolonged legal challenges and community distrust.",
+      "Balancing economic growth with conservation under the original intent of the Antiquities Act may unintentionally prioritize short-term resource exploitation over long-term environmental and cultural preservation, affecting indigenous populations and rural small business owners."
+    ],
+    "enriched_at": "2025-12-15T07:08:30.182Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

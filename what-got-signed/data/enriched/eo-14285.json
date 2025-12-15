@@ -1,0 +1,48 @@
+{
+  "document_number": "2025-07470",
+  "executive_order_number": "14285",
+  "title": "Unleashing America's Offshore Critical Minerals and Resources",
+  "abstract": null,
+  "signing_date": "2025-04-24",
+  "publication_date": "2025-04-29",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/29/2025-07470/unleashing-americas-offshore-critical-minerals-and-resources",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-29/pdf/2025-07470.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/29/2025-07470.txt",
+  "enrichment": {
+    "summary": "This executive order directs U.S. government agencies to speed up the exploration, licensing, and development of critical mineral resources found on the ocean floor, especially in areas beyond national jurisdiction and the U.S. Outer Continental Shelf. It aims to strengthen America’s leadership, secure supply chains for minerals vital to national security and the economy, and build partnerships with allies while countering foreign influence.",
+    "theme_ids": [
+      "critical-minerals-supply-chain-security",
+      "defense-industrial-base",
+      "energy-independence-security",
+      "interagency-coordination",
+      "china"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "defense-industry-workers",
+        "large-corporation-employees",
+        "energy-sector-workers-oil-gas-coal",
+        "scientific-researchers",
+        "military-personnel-active-duty"
+      ],
+      "negative_ids": [
+        "environmental-justice-communities",
+        "coastal-communities",
+        "tribal-communities-reservations"
+      ]
+    },
+    "potential_concerns": [
+      "Accelerated permitting and development may lead to environmental degradation, disproportionately impacting coastal communities and environmental justice communities near seabed mining sites.",
+      "The focus on countering China and expanding military preparedness could intensify geopolitical tensions, potentially increasing risks for defense-industry workers and active military personnel.",
+      "Rapid development without robust environmental safeguards may lead to conflicts with tribal communities whose livelihoods or cultural heritage depend on marine ecosystems.",
+      "Large corporations might disproportionately benefit from expedited licensing, potentially crowding out smaller businesses and reducing economic opportunities in affected regions.",
+      "Investment and coordination challenges across agencies could delay intended supply chain security benefits, affecting energy sector workers reliant on stable mineral supplies."
+    ],
+    "enriched_at": "2025-12-15T08:18:05.637Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

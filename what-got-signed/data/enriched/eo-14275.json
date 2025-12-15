@@ -1,0 +1,40 @@
+{
+  "document_number": "2025-06839",
+  "executive_order_number": "14275",
+  "title": "Restoring Common Sense to Federal Procurement",
+  "abstract": null,
+  "signing_date": "2025-04-15",
+  "publication_date": "2025-04-18",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/18/2025-06839/restoring-common-sense-to-federal-procurement",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-18/pdf/2025-06839.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/18/2025-06839.txt",
+  "enrichment": {
+    "summary": "This executive order directs a reform of the Federal Acquisition Regulation (FAR) to make government procurement faster, simpler, and more efficient by removing unnecessary rules. It also requires agencies to align their own procurement policies with these reforms to reduce bureaucratic barriers and support the national and defense industrial bases.",
+    "theme_ids": [
+      "defense-industrial-base",
+      "regulatory-reform-deregulation",
+      "government-efficiency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "defense-industry-workers",
+        "small-business-owners"
+      ],
+      "negative_ids": [
+        "federal-contractors"
+      ]
+    },
+    "potential_concerns": [
+      "Streamlining and deregulation may lead to reduced oversight and weaken labor or safety protections for federal contractors, negatively impacting federal-contractors.",
+      "Efforts to expedite procurement could prioritize large or incumbent defense industry firms, potentially limiting opportunities for small-business-owners despite stated support for expanding the industrial base.",
+      "Simplifying FAR provisions might unintentionally reduce transparency and accountability in defense-related procurements, potentially affecting defense-industry-workers relying on stable and fair contracting practices.",
+      "Removing regulations not explicitly required by statute risks eliminating safeguards that protect national security interests, which could harm both the defense-industrial-base and military readiness."
+    ],
+    "enriched_at": "2025-12-15T08:19:22.978Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

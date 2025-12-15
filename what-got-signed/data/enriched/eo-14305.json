@@ -1,0 +1,46 @@
+{
+  "document_number": "2025-10803",
+  "executive_order_number": "14305",
+  "title": "Restoring American Airspace Sovereignty",
+  "abstract": null,
+  "signing_date": "2025-06-06",
+  "publication_date": "2025-06-11",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/06/11/2025-10803/restoring-american-airspace-sovereignty",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-06-11/pdf/2025-10803.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/06/11/2025-10803.txt",
+  "enrichment": {
+    "summary": "This executive order directs the U.S. government to strengthen control and security over American airspace from threats posed by unauthorized or malicious drone activity. It establishes a federal task force, improves regulatory frameworks, enhances detection and enforcement capabilities, and promotes cooperation among agencies and local governments to protect critical infrastructure, military installations, and public events from drone-related risks.",
+    "theme_ids": [
+      "homeland-security",
+      "critical-infrastructure-protection",
+      "state-local-law-enforcement-support",
+      "air-traffic-aviation-system",
+      "presidential-commissions-task-forces"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "law-enforcement-officers-state-local",
+        "military-personnel-active-duty",
+        "border-communities"
+      ],
+      "negative_ids": [
+        "undocumented-immigrants",
+        "visa-holders-work-student-tourist",
+        "consumers"
+      ]
+    },
+    "potential_concerns": [
+      "The enhanced detection and enforcement capabilities may lead to increased surveillance and privacy infringements on consumers and visa holders, raising Fourth Amendment concerns.",
+      "Undocumented immigrants and border community residents could face heightened enforcement actions and restrictions on drone use, potentially impacting humanitarian and cross-border activities.",
+      "The increased restrictions on drone flights over critical infrastructure and public events may unintentionally limit commercial and recreational drone use, burdening consumers and businesses relying on drone technologies.",
+      "Coordination among multiple law enforcement agencies to enforce new airspace regulations could cause jurisdictional conflicts and uneven application of rules in local communities.",
+      "Military personnel and installations may benefit from better protection, but expanded counter-UAS operations could increase risks of misidentification or accidental engagement of lawful drone activities."
+    ],
+    "enriched_at": "2025-12-15T07:38:21.129Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

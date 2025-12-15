@@ -1,0 +1,46 @@
+{
+  "document_number": "2025-07062",
+  "executive_order_number": "14276",
+  "title": "Restoring American Seafood Competitiveness",
+  "abstract": null,
+  "signing_date": "2025-04-17",
+  "publication_date": "2025-04-22",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/22/2025-07062/restoring-american-seafood-competitiveness",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-22/pdf/2025-07062.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/22/2025-07062.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Secretary of Commerce and other relevant agencies to reduce regulatory burdens on the U.S. seafood industry, promote American seafood production and trade, combat illegal fishing and unfair foreign trade practices, and modernize seafood data and technology. It also calls for reviewing marine national monuments to consider reopening them to commercial fishing, and developing a comprehensive strategy to strengthen domestic seafood markets and exports.",
+    "theme_ids": [
+      "seafood-fisheries-industry",
+      "economic-competitiveness",
+      "trade-policy-agreements",
+      "regulatory-reform-deregulation",
+      "national-monuments-antiquities"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "seafood-fishery-workers",
+        "small-business-owners",
+        "coastal-communities",
+        "u-s-citizens"
+      ],
+      "negative_ids": [
+        "environmental-justice-communities",
+        "tribal-communities-reservations"
+      ]
+    },
+    "potential_concerns": [
+      "Opening marine national monuments to commercial fishing may harm tribal communities and environmental justice communities that rely on protected marine ecosystems for cultural and subsistence purposes.",
+      "Reducing regulatory burdens on fisheries could increase overfishing risks, threatening sustainable livelihoods for seafood fishery workers and the long-term viability of coastal communities.",
+      "Efforts to combat unfair trade practices may provoke retaliatory trade actions from foreign nations, potentially harming small business owners involved in seafood exports.",
+      "Modernizing data collection and expanding fishing permits without sufficient ecological oversight could unintentionally degrade marine biodiversity, disproportionately impacting coastal and tribal populations.",
+      "The push to promote domestic seafood production may prioritize economic competitiveness over environmental protections, raising concerns for environmental justice communities and indigenous peoples."
+    ],
+    "enriched_at": "2025-12-15T08:19:15.698Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

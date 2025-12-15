@@ -1,0 +1,45 @@
+{
+  "document_number": "2025-03138",
+  "executive_order_number": "14219",
+  "title": "Ensuring Lawful Governance and Implementing the President's \"Department of Government Efficiency\" Deregulatory Initiative",
+  "abstract": null,
+  "signing_date": "2025-02-19",
+  "publication_date": "2025-02-25",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/25/2025-03138/ensuring-lawful-governance-and-implementing-the-presidents-department-of-government-efficiency",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-25/pdf/2025-03138.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/25/2025-03138.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to review and remove regulations that are unconstitutional, unlawful, or overly burdensome, with the goal of reducing government overreach and improving efficiency. It also sets guidelines for enforcing only lawful regulations and coordinating future rulemaking to align with these priorities.",
+    "theme_ids": [
+      "regulatory-reform-deregulation",
+      "government-efficiency",
+      "small-business-support",
+      "economic-competitiveness",
+      "disaster-response"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "small-business-owners",
+        "entrepreneurs-startups",
+        "technology-workers"
+      ],
+      "negative_ids": [
+        "consumers",
+        "environmental-justice-communities",
+        "disaster-affected-communities"
+      ]
+    },
+    "potential_concerns": [
+      "The order's broad deregulatory mandate may reduce consumer protections, negatively impacting consumers relying on federal regulatory oversight.",
+      "Efforts to rescind regulations perceived as burdensome could unintentionally weaken environmental safeguards, harming environmental justice communities.",
+      "De-prioritizing enforcement of certain regulations may impede disaster response effectiveness, putting disaster-affected communities at increased risk.",
+      "Though small business owners and entrepreneurs may benefit from reduced regulatory burdens, technology workers could face job insecurity if innovation-related regulations are cut too aggressively."
+    ],
+    "enriched_at": "2025-12-15T08:27:06.091Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

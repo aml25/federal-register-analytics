@@ -1,0 +1,43 @@
+{
+  "document_number": "2025-02612",
+  "executive_order_number": "14203",
+  "title": "Imposing Sanctions on the International Criminal Court",
+  "abstract": null,
+  "signing_date": "2025-02-06",
+  "publication_date": "2025-02-12",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/12/2025-02612/imposing-sanctions-on-the-international-criminal-court",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-12/pdf/2025-02612.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/12/2025-02612.txt",
+  "enrichment": {
+    "summary": "This executive order responds to the International Criminal Court's (ICC) investigations and arrest warrants targeting U.S. and Israeli personnel, which the U.S. deems illegitimate since neither country is a party to the ICC. It imposes sanctions including blocking property, restricting U.S. entry for certain ICC officials and their families, and declares a national emergency to protect U.S. sovereignty and personnel from ICC actions without U.S. consent.",
+    "theme_ids": [
+      "economic-sanctions",
+      "international-criminal-court",
+      "national-emergencies",
+      "nato"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "veterans",
+        "federal-employees-civil-servants"
+      ],
+      "negative_ids": [
+        "foreign-government-officials",
+        "international-organizations"
+      ]
+    },
+    "potential_concerns": [
+      "The order's sanctions on ICC officials and blocking of their U.S. entry may escalate diplomatic tensions affecting foreign-government-officials and international-organizations, potentially undermining U.S. alliances with NATO members.",
+      "Military personnel active duty and veterans could face increased international legal risks or complications due to the ICC investigations and corresponding U.S. countermeasures.",
+      "Restrictions on ICC officials might hinder international cooperation on global justice initiatives, affecting broader foreign policy and national security interests.",
+      "The declaration of a national emergency to enforce sanctions raises concerns about potential overreach impacting federal employees involved in national security and foreign policy operations."
+    ],
+    "enriched_at": "2025-12-15T08:29:15.625Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

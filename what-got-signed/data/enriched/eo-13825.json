@@ -1,0 +1,38 @@
+{
+  "document_number": "2018-04860",
+  "executive_order_number": "13825",
+  "title": "2018 Amendments to the Manual for Courts-Martial, United States",
+  "abstract": null,
+  "signing_date": "2018-03-01",
+  "publication_date": "2018-03-08",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/03/08/2018-04860/2018-amendments-to-the-manual-for-courts-martial-united-states",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-03-08/pdf/2018-04860.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/03/08/2018-04860.txt",
+  "enrichment": {
+    "summary": "This executive order updates the Manual for Courts-Martial, the guide for military legal proceedings, to reflect changes made by the Military Justice Act of 2016. It sets effective dates and transitional rules for how these amendments apply to offenses and cases before and after January 1, 2019, ensuring legal processes continue smoothly during the transition.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "criminal-justice-reform"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "veterans",
+        "defendants-accused-persons"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The amendments to the Manual for Courts-Martial may lead to inconsistent application of justice during the transition period, potentially disadvantaging defendants-accused-persons whose cases span the January 1, 2019 effective date.",
+      "Changes in criminal justice procedures could impact military readiness if adjudication delays arise or if service members perceive the system as less fair, thereby affecting military-personnel-active-duty morale and retention.",
+      "Veterans might face renewed scrutiny or legal complications due to retroactive interpretations of offenses committed while on active duty under the older or newer manuals.",
+      "There is a risk that the complexity of implementing transitional rules for offenses and trials before and after January 1, 2019 could cause confusion or judicial inefficiencies, affecting both defendants-accused-persons and adjudicators."
+    ],
+    "enriched_at": "2025-12-15T07:12:50.590Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

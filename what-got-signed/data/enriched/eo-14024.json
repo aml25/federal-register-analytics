@@ -1,0 +1,49 @@
+{
+  "document_number": "2021-08098",
+  "executive_order_number": "14024",
+  "title": "Blocking Property With Respect To Specified Harmful Foreign Activities of the Government of the Russian Federation",
+  "abstract": null,
+  "signing_date": "2021-04-15",
+  "publication_date": "2021-04-19",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/04/19/2021-08098/blocking-property-with-respect-to-specified-harmful-foreign-activities-of-the-government-of-the",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-04-19/pdf/2021-08098.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/04/19/2021-08098.txt",
+  "enrichment": {
+    "summary": "This executive order blocks property and prohibits transactions with certain individuals and entities connected to harmful activities by the Russian government, such as election interference, cyberattacks, corruption, and efforts to undermine security. It also restricts their entry into the United States and authorizes the Treasury and State Departments to enforce these sanctions to protect U.S. national security and foreign policy interests.",
+    "theme_ids": [
+      "economic-sanctions",
+      "foreign-election-interference",
+      "cybersecurity-national-security",
+      "russia",
+      "travel-restrictions-bans"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens",
+        "lawful-permanent-residents-green-card-holders",
+        "naturalized-citizens"
+      ],
+      "negative_ids": [
+        "citizens-of-specific-countries-by-eo-designation",
+        "corporations-businesses",
+        "technology-workers",
+        "cybersecurity-professionals",
+        "visa-holders-work-student-tourist",
+        "foreign-government-officials"
+      ]
+    },
+    "potential_concerns": [
+      "The executive order's blocking of property and transactions with Russian entities in the technology and defense sectors may disrupt global supply chains, negatively impacting U.S.-based technology workers and cybersecurity professionals.",
+      "Travel restrictions on Russian nationals and visa holders could affect families, students, and businesses, leading to unintended diplomatic and economic consequences for lawful permanent residents and naturalized citizens with ties to Russia.",
+      "The broad criteria for designation, including indirect support or association with harmful activities, may lead to overreach affecting corporations and individuals not directly involved, raising concerns about due process for affected U.S. persons and foreign nationals.",
+      "Sanction enforcement may complicate digital currency and asset transactions, potentially harming cryptocurrency holders and financial entities engaged in cross-border operations related to Russian interests.",
+      "The order's focus on combating foreign election interference and cyberattacks aims to protect U.S. national security and citizens but could escalate tensions with Russia, prompting retaliatory cyber or political measures that affect U.S. citizens and allied partners."
+    ],
+    "enriched_at": "2025-12-15T07:33:23.802Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

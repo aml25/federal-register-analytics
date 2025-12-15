@@ -1,0 +1,41 @@
+{
+  "document_number": "2018-02261",
+  "executive_order_number": "13823",
+  "title": "Protecting America Through Lawful Detention of Terrorists",
+  "abstract": null,
+  "signing_date": "2018-01-30",
+  "publication_date": "2018-02-02",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/02/02/2018-02261/protecting-america-through-lawful-detention-of-terrorists",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-02-02/pdf/2018-02261.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/02/02/2018-02261.txt",
+  "enrichment": {
+    "summary": "This executive order revokes a previous order to close detention facilities at Guantanamo Bay and directs that lawful detention of terrorists there continue. It authorizes transporting new detainees to Guantanamo and requires recommendations on policies for handling persons captured in armed conflicts. The order clarifies that it does not affect existing laws on the detention of U.S. persons or criminal prosecution of terrorists.",
+    "theme_ids": [
+      "detention-policy-guantanamo",
+      "war-on-terror",
+      "counterterrorism",
+      "revocation-of-previous-executive-orders",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "detainees-prisoners-of-war",
+        "foreign-nationals-general",
+        "terrorism-victims-survivors"
+      ]
+    },
+    "potential_concerns": [
+      "Continued detention at Guantanamo Bay may exacerbate human rights concerns and restrict due process protections for detainees-prisoners-of-war and foreign nationals, raising legal and ethical challenges.",
+      "The authorization to transport additional detainees to Guantanamo could increase the population of detainees-prisoners-of-war without clear policies on transparency or review, potentially leading to indefinite detention without trial.",
+      "The order's revocation of closure efforts may prolong psychological and physical harm for detainees, indirectly affecting terrorism-victims-survivors by complicating justice and reconciliation efforts.",
+      "Interagency coordination mandated by the order could create bureaucratic delays or inconsistencies in policy implementation, affecting the timely review and disposition of detainees."
+    ],
+    "enriched_at": "2025-12-15T07:25:31.273Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

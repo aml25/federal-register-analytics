@@ -1,0 +1,42 @@
+{
+  "document_number": "2025-02871",
+  "executive_order_number": "14212",
+  "title": "Establishing the President's Make America Healthy Again Commission",
+  "abstract": null,
+  "signing_date": "2025-02-13",
+  "publication_date": "2025-02-19",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/19/2025-02871/establishing-the-presidents-make-america-healthy-again-commission",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-19/pdf/2025-02871.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/19/2025-02871.txt",
+  "enrichment": {
+    "summary": "This executive order creates a commission to address America's growing health crisis, especially focusing on childhood chronic diseases. The commission will study causes, evaluate current government efforts, and recommend strategies to improve health outcomes and reduce disease rates among Americans.",
+    "theme_ids": [
+      "mental-health",
+      "public-health-emergency-response",
+      "federal-advisory-committees",
+      "child-welfare-foster-care",
+      "food-security-nutrition"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "children-minors",
+        "individuals-with-chronic-illnesses",
+        "individuals-with-mental-health-conditions",
+        "food-insecure-populations"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to restrict or reduce prescription medication, as suggested by scrutiny of psychotropic and stimulant drugs, might limit treatment options for children-minors with ADHD or mental health conditions, potentially causing unintended harm.",
+      "Emphasizing nutrition and environmental factors could overlook socioeconomic barriers faced by food-insecure-populations, limiting their ability to adopt recommended lifestyle changes.",
+      "The commission's focus on eliminating industry influence may delay timely public health interventions if data transparency and conflicts of interest assessments slow research dissemination.",
+      "Children-minors with chronic illnesses or mental health conditions may face stigma or inadequate support if the strategy advocates replacing medication with lifestyle changes without ensuring accessible alternative therapies."
+    ],
+    "enriched_at": "2025-12-15T08:28:01.903Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

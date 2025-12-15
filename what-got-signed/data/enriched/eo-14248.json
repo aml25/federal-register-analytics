@@ -1,0 +1,47 @@
+{
+  "document_number": "2025-05523",
+  "executive_order_number": "14248",
+  "title": "Preserving and Protecting the Integrity of American Elections",
+  "abstract": null,
+  "signing_date": "2025-03-25",
+  "publication_date": "2025-03-28",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/03/28/2025-05523/preserving-and-protecting-the-integrity-of-american-elections",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-03-28/pdf/2025-05523.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/03/28/2025-05523.txt",
+  "enrichment": {
+    "summary": "This executive order aims to strengthen the security and integrity of American elections by enforcing strict voter eligibility requirements, including proof of U.S. citizenship. It mandates updated voting system standards, enhances coordination between federal and state authorities to prevent voter fraud and foreign interference, and requires timely counting of ballots only on Election Day.",
+    "theme_ids": [
+      "foreign-election-interference",
+      "voting-rights",
+      "federal-law-enforcement",
+      "critical-infrastructure-protection",
+      "homeland-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens",
+        "birthright-citizens",
+        "naturalized-citizens"
+      ],
+      "negative_ids": [
+        "undocumented-immigrants",
+        "daca-recipients-dreamers",
+        "lawful-permanent-residents-green-card-holders",
+        "visa-holders-work-student-tourist"
+      ]
+    },
+    "potential_concerns": [
+      "The strict documentary proof of citizenship requirements may disenfranchise eligible voters, particularly naturalized citizens and birthright citizens who face difficulties obtaining or presenting required identification, raising voting-rights concerns.",
+      "Enhanced coordination with immigration databases and increased scrutiny of voter registration could lead to wrongful removal or challenging of registration status for lawful permanent residents, DACA recipients, and others with complex immigration status despite being eligible to vote.",
+      "The requirement that no ballots be counted after Election Day except under very narrow exceptions may disproportionately affect voters relying on mail-in ballots, including seniors, individuals with disabilities, and rural voters, potentially reducing participation and fairness in elections.",
+      "Prioritizing prosecution and enforcement actions against alleged election fraud risks targeting immigrant communities and noncitizens due to data sharing and investigative mechanisms, which may create climate of fear and discourage lawful voting participation among minority populations.",
+      "Mandates on voting system standards disallowing QR/barcode voting except for accommodations could increase costs and logistical challenges for election officials, potentially delaying implementation and affecting accessibility for disabled voters."
+    ],
+    "enriched_at": "2025-12-15T08:23:03.472Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

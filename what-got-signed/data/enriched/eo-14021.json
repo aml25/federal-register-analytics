@@ -1,0 +1,50 @@
+{
+  "document_number": "2021-05200",
+  "executive_order_number": "14021",
+  "title": "Guaranteeing an Educational Environment Free From Discrimination on the Basis of Sex, Including Sexual Orientation or Gender Identity",
+  "abstract": null,
+  "signing_date": "2021-03-08",
+  "publication_date": "2021-03-11",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/03/11/2021-05200/guaranteeing-an-educational-environment-free-from-discrimination-on-the-basis-of-sex-including",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-03-11/pdf/2021-05200.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/03/11/2021-05200.txt",
+  "enrichment": {
+    "summary": "This executive order ensures that all students in schools receiving federal funding have the right to an educational environment free from sex discrimination, including sexual harassment and discrimination based on sexual orientation or gender identity. It directs the Secretary of Education to review and update related policies and enforcement actions to protect students and promote fair treatment for all.",
+    "theme_ids": [
+      "title-ix",
+      "anti-discrimination",
+      "gender-equality",
+      "lgbtq-rights",
+      "civil-rights-enforcement"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "k-12-students",
+        "college-university-students",
+        "lgbtq-individuals",
+        "transgender-individuals",
+        "women",
+        "children-minors",
+        "youth-young-adults"
+      ],
+      "negative_ids": [
+        "public-school-communities",
+        "private-school-communities",
+        "charter-school-communities"
+      ]
+    },
+    "potential_concerns": [
+      "Implementation of protections for LGBTQ+ and transgender students could lead to conflicts with religious or cultural beliefs within some public, private, and charter school communities, raising concerns around accommodation and potential legal challenges.",
+      "Schools may face increased administrative and resource burdens in updating policies, training staff, and enforcing non-discrimination provisions, potentially straining smaller or underfunded educational institutions.",
+      "There is a risk that efforts to protect students from sex discrimination could lead to disputes over fairness in gender-specific spaces or athletics, impacting both transgender and cisgender students.",
+      "Ensuring consistent and equitable enforcement across diverse educational settings may be difficult, which could result in uneven protections and support for students, particularly those identifying as LGBTQ+ or transgender.",
+      "Heightened focus on sexual harassment and discrimination policies might inadvertently create adversarial environments or legal uncertainties for educators and administrators within affected school communities."
+    ],
+    "enriched_at": "2025-12-15T07:33:43.939Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "document_number": "2025-03137",
+  "executive_order_number": "14218",
+  "title": "Ending Taxpayer Subsidization of Open Borders",
+  "abstract": null,
+  "signing_date": "2025-02-19",
+  "publication_date": "2025-02-25",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/25/2025-03137/ending-taxpayer-subsidization-of-open-borders",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-25/pdf/2025-03137.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/25/2025-03137.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to ensure that taxpayer-funded benefits are not given to illegal immigrants, reinforcing existing laws that restrict such access. It requires agencies to identify programs that may be improperly providing benefits and to improve verification systems to prevent misuse of public resources.",
+    "theme_ids": [
+      "immigration-enforcement-interior",
+      "sanctuary-city-policy",
+      "government-spending-earmarks",
+      "border-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens",
+        "veterans",
+        "individuals-with-disabilities"
+      ],
+      "negative_ids": [
+        "undocumented-immigrants",
+        "hispanic-latino-americans"
+      ]
+    },
+    "potential_concerns": [
+      "The order's stricter verification systems and exclusion of benefits may lead to increased hardship and reduced access to essential services among undocumented immigrants, disproportionately affecting Hispanic / Latino Americans.",
+      "Efforts to withhold federal funding from sanctuary cities may strain relations between local governments and federal agencies, potentially disrupting community cooperation and public safety efforts.",
+      "Enhanced enforcement tied to benefits eligibility could inadvertently penalize lawfully residing immigrants who face bureaucratic challenges in proving status, leading to unintended denial of benefits.",
+      "Focusing federal funds exclusively on citizens and veterans might reduce support for marginalized individuals with disabilities who are noncitizens but lawfully present, raising equity concerns."
+    ],
+    "enriched_at": "2025-12-15T08:27:13.767Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

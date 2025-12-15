@@ -1,0 +1,44 @@
+{
+  "document_number": "2025-02103",
+  "executive_order_number": "14175",
+  "title": "Designation of Ansar Allah as a Foreign Terrorist Organization",
+  "abstract": null,
+  "signing_date": "2025-01-22",
+  "publication_date": "2025-01-31",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/01/31/2025-02103/designation-of-ansar-allah-as-a-foreign-terrorist-organization",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-31/pdf/2025-02103.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/31/2025-02103.txt",
+  "enrichment": {
+    "summary": "This executive order initiates the process to officially designate Ansar Allah (also known as the Houthis) as a Foreign Terrorist Organization due to their attacks on U.S. personnel, regional partners, and global maritime traffic. It directs U.S. officials to report on and take appropriate actions to restrict support to Ansar Allah and to review related U.S. aid projects in Yemen.",
+    "theme_ids": [
+      "terrorism-designations",
+      "foreign-terrorist-organizations",
+      "counterterrorism",
+      "yemen"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "veterans"
+      ],
+      "negative_ids": [
+        "international-aid-recipients",
+        "nonprofit-organizations",
+        "citizens-of-specific-countries-by-eo-designation"
+      ]
+    },
+    "potential_concerns": [
+      "Designation of Ansar Allah as a Foreign Terrorist Organization may lead to suspension or termination of US aid programs in Yemen, adversely affecting international aid recipients and nonprofit organizations operating there.",
+      "The designation could escalate regional tensions, potentially increasing risks faced by US military personnel active in the Middle East and veterans involved in related operations.",
+      "Restrictions on entities with any affiliation or payments to Ansar Allah might inadvertently penalize local Yemeni populations and humanitarian actors critical to civilian welfare.",
+      "The EO's focus on Ansar Allah may exacerbate instability in Yemen, further harming citizens of Yemen who are implicitly covered under citizens-of-specific-countries-by-eo-designation.",
+      "Increased scrutiny and sanctions could complicate diplomatic and humanitarian efforts, leading to unintended consequences for nonprofit organizations and international aid recipients dependent on US government cooperation."
+    ],
+    "enriched_at": "2025-12-15T08:33:25.510Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

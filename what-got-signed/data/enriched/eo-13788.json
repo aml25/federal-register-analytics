@@ -1,0 +1,46 @@
+{
+  "document_number": "2017-08311",
+  "executive_order_number": "13788",
+  "title": "Buy American and Hire American",
+  "abstract": null,
+  "signing_date": "2017-04-18",
+  "publication_date": "2017-04-21",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/04/21/2017-08311/buy-american-and-hire-american",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-04-21/pdf/2017-08311.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/04/21/2017-08311.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to prioritize the purchase of goods and materials made in the United States to support American manufacturing and jobs. It also strengthens enforcement of immigration laws related to temporary work visas, ensuring such visas are granted to the most-skilled or highest-paid foreign workers to protect U.S. workers' economic interests.",
+    "theme_ids": [
+      "buy-american-domestic-preference",
+      "defense-industrial-base",
+      "visa-policy",
+      "immigration-enforcement-interior"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "manufacturing-workers",
+        "defense-industry-workers",
+        "working-age-adults",
+        "u-s-citizens",
+        "middle-class-americans"
+      ],
+      "negative_ids": [
+        "visa-holders-work-student-tourist",
+        "technology-workers",
+        "large-corporation-employees"
+      ]
+    },
+    "potential_concerns": [
+      "The prioritization of 'Buy American' procurement may increase costs and limit supply options for federal contractors and large corporations, potentially leading to reduced competitiveness that affects technology workers reliant on global supply chains.",
+      "Stricter H-1B visa enforcement and awarding visas to only the most-skilled or highest-paid workers could disadvantage many current visa holders and employers, possibly reducing innovation and workforce diversity in technology sectors.",
+      "Emphasis on domestic manufacturing and defense industry jobs may benefit working-age U.S. citizens and middle-class Americans but could cause unintended job losses or reduced opportunities for foreign workers and lower-skilled visa holders.",
+      "The limitations on waivers for Buy American laws might challenge agencies' flexibility to procure efficiently, potentially delaying projects and affecting both defense industry workers and the broader manufacturing supply chain."
+    ],
+    "enriched_at": "2025-12-15T07:09:01.565Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

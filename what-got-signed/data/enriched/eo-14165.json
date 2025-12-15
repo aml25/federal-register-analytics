@@ -1,0 +1,49 @@
+{
+  "document_number": "2025-02015",
+  "executive_order_number": "14165",
+  "title": "Securing Our Borders",
+  "abstract": null,
+  "signing_date": "2025-01-20",
+  "publication_date": "2025-01-30",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/01/30/2025-02015/securing-our-borders",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-30/pdf/2025-02015.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/30/2025-02015.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to strengthen and secure the southern border of the United States by building physical barriers, deploying personnel, detaining and removing illegal aliens promptly, and resuming policies that return certain migrants to their countries of origin. It also focuses on prosecuting border-related crimes and improving international cooperation to address unlawful migration and associated security threats.",
+    "theme_ids": [
+      "border-security",
+      "border-enforcement",
+      "deportation-removal",
+      "state-local-law-enforcement-support",
+      "transnational-crime-cartels"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local",
+        "border-communities",
+        "taxpayers"
+      ],
+      "negative_ids": [
+        "undocumented-immigrants",
+        "asylum-seekers",
+        "refugees",
+        "hispanic-latino-americans",
+        "low-income-individuals-families"
+      ]
+    },
+    "potential_concerns": [
+      "The expansion of physical barriers and increased personnel deployment may strain resources and infrastructure in border communities, potentially disrupting local economies and daily life.",
+      "The suspension of catch-and-release and expanded detention policies could lead to overcrowding in detention facilities and prolonged family separations, adversely impacting undocumented immigrants, asylum seekers, and refugees.",
+      "The resumption of Migrant Protection Protocols and tighter parole policies risk limiting access to asylum, possibly endangering asylum seekers fleeing persecution.",
+      "Enhanced cooperation with state and local law enforcement on immigration enforcement may result in racial profiling and civil rights violations, disproportionately affecting Hispanic / Latino Americans and low-income families.",
+      "Prioritizing prosecution of border-related offenses could increase incarceration rates among undocumented immigrants, creating long-term social and economic burdens on affected families and communities."
+    ],
+    "enriched_at": "2025-12-15T08:35:00.117Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

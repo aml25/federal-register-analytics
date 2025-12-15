@@ -1,0 +1,39 @@
+{
+  "document_number": "2017-06382",
+  "executive_order_number": "13782",
+  "title": "Revocation of Federal Contracting Executive Orders",
+  "abstract": null,
+  "signing_date": "2017-03-27",
+  "publication_date": "2017-03-30",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/03/30/2017-06382/revocation-of-federal-contracting-executive-orders",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-03-30/pdf/2017-06382.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/03/30/2017-06382.txt",
+  "enrichment": {
+    "summary": "This executive order cancels three previous executive orders related to federal contracting and instructs federal agencies to review and possibly repeal any rules or policies based on those canceled orders. It clarifies that this order does not affect any lawful authority agencies have and does not create new rights or benefits.",
+    "theme_ids": [
+      "revocation-of-previous-executive-orders",
+      "regulatory-reform-deregulation",
+      "government-efficiency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-contractors"
+      ],
+      "negative_ids": [
+        "federal-contractors"
+      ]
+    },
+    "potential_concerns": [
+      "Revoking prior federal contracting executive orders may reduce regulatory burdens for federal contractors but could also eliminate worker protections or equitable contracting requirements previously mandated, negatively impacting workers employed by federal contractors.",
+      "Federal contractors might face increased uncertainty or transitional challenges as agencies rescind or revise rules, potentially disrupting ongoing contracts or compliance efforts.",
+      "The roll-back of prior contracting-related mandates could lead to less oversight or transparency in federal procurement processes, risking reduced fairness or increased favoritism.",
+      "Small and disadvantaged business participation in federal contracting programs established under revoked orders might decline, unintentionally limiting economic opportunities for minority-owned or disadvantaged businesses."
+    ],
+    "enriched_at": "2025-12-15T07:09:46.118Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

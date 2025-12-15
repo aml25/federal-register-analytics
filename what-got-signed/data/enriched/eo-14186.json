@@ -1,0 +1,43 @@
+{
+  "document_number": "2025-02182",
+  "executive_order_number": "14186",
+  "title": "The Iron Dome for America",
+  "abstract": null,
+  "signing_date": "2025-01-27",
+  "publication_date": "2025-02-03",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/03/2025-02182/the-iron-dome-for-america",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-03/pdf/2025-02182.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/03/2025-02182.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Department of Defense to develop and deploy a next-generation missile defense system to protect the United States from advanced missile threats, including ballistic, hypersonic, and cruise missiles. It calls for accelerated development of space-based sensors and interceptors, cooperation with allies on missile defense, and securing the supply chain for these technologies.",
+    "theme_ids": [
+      "missile-defense",
+      "defense-industrial-base",
+      "critical-infrastructure-protection",
+      "national-security-information-classification"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "defense-industry-workers"
+      ],
+      "negative_ids": [
+        "large-corporation-employees",
+        "taxpayers"
+      ]
+    },
+    "potential_concerns": [
+      "The accelerated development and deployment of advanced missile defenses may strain the defense-industrial base, potentially causing workforce shortages or supply chain disruptions impacting defense-industry-workers.",
+      "Heavy investment in space-based sensors and interceptors risks large budget overruns, imposing significant costs on taxpayers without guaranteed success.",
+      "Enhanced missile defense capabilities might provoke increased strategic tensions with peer adversaries, potentially escalating threats to military-personnel-active-duty and allied populations.",
+      "Supply chain security requirements could restrict subcontracting and sourcing options, negatively affecting large-corporation-employees in the defense sector.",
+      "The rapid push for novel technologies in critical infrastructure may lead to insufficient testing and vulnerabilities, raising risks of failure during an actual missile attack and undermining the protection of U.S. citizens."
+    ],
+    "enriched_at": "2025-12-15T08:31:50.059Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "document_number": "2025-02007",
+  "executive_order_number": "14160",
+  "title": "Protecting the Meaning and Value of American Citizenship",
+  "abstract": null,
+  "signing_date": "2025-01-20",
+  "publication_date": "2025-01-29",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/01/29/2025-02007/protecting-the-meaning-and-value-of-american-citizenship",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-29/pdf/2025-02007.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/29/2025-02007.txt",
+  "enrichment": {
+    "summary": "This executive order specifies that not all persons born in the United States automatically qualify for U.S. citizenship. It directs federal agencies to not recognize citizenship or issue citizenship documents to individuals born to mothers unlawfully present or temporarily present in the U.S., when the father is not a U.S. citizen or lawful permanent resident at birth, effective 30 days after the order.",
+    "theme_ids": [
+      "citizenship-policy",
+      "american-heritage-patriotism"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "birthright-citizens",
+        "undocumented-immigrants",
+        "children-minors",
+        "women"
+      ]
+    },
+    "potential_concerns": [
+      "The order may create significant burdens and legal uncertainties for children born in the U.S. to mothers who are undocumented or temporarily present, effectively denying them birthright citizenship and impacting their future rights.",
+      "Women, as the mothers directly referenced in the order, may face increased scrutiny, discrimination, and potential barriers in accessing healthcare and legal protections due to the linkage of citizenship to their immigration status.",
+      "The order could lead to a class of stateless or undocumented children, complicating their access to education, healthcare, and social services, and potentially fostering long-term social inequality.",
+      "By altering the interpretation of the Fourteenth Amendment, the order risks legal challenges and social divisiveness centered on citizenship policy and national identity."
+    ],
+    "enriched_at": "2025-12-15T08:35:47.206Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "document_number": "2024-04573",
+  "executive_order_number": "14117",
+  "title": "Preventing Access to Americans' Bulk Sensitive Personal Data and United States Government-Related Data by Countries of Concern",
+  "abstract": null,
+  "signing_date": "2024-02-28",
+  "publication_date": "2024-03-01",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2024/03/01/2024-04573/preventing-access-to-americans-bulk-sensitive-personal-data-and-united-states-government-related",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-03-01/pdf/2024-04573.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/03/01/2024-04573.txt",
+  "enrichment": {
+    "summary": "This executive order directs the U.S. government to restrict access by certain foreign countries to large collections of Americans' sensitive personal data and sensitive government-related data to protect national security. It requires the Attorney General and other agencies to create regulations that prohibit or limit risky transactions involving such data, especially those that could enable adversaries to misuse it for espionage or harm. The order also addresses risks from international telecommunications infrastructure and the healthcare and data brokerage industries to prevent foreign exploitation.",
+    "theme_ids": [
+      "cybersecurity-national-security",
+      "foreign-investment-cfius",
+      "telecommunications-security",
+      "artificial-intelligence",
+      "data-privacy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants",
+        "federal-contractors",
+        "military-personnel-active-duty",
+        "military-spouses",
+        "intelligence-community-personnel",
+        "healthcare-workers",
+        "scientific-researchers"
+      ],
+      "negative_ids": [
+        "corporations-businesses",
+        "technology-workers"
+      ]
+    },
+    "potential_concerns": [
+      "Restrictions on transactions involving bulk sensitive personal data may impose compliance costs and operational burdens on corporations and technology workers involved in data handling and AI development, potentially slowing innovation.",
+      "Efforts to mitigate foreign access to healthcare-related bulk sensitive data could complicate collaborations for healthcare workers and scientific researchers, impacting valuable medical research and data sharing.",
+      "Limitations on access to government-related data may increase operational challenges for federal employees, contractors, military personnel, and intelligence community personnel reliant on data-driven tools, possibly affecting efficiency and security workflows.",
+      "Security requirements applied to restricted transactions may unintentionally exclude some legitimate commercial activities, affecting corporations and technology workers engaged in global data flows.",
+      "Enhanced scrutiny of submarine cables and telecommunications infrastructure may disrupt international data transfer routes, imposing challenges for corporations and technology workers without immediately clear benefits to privacy or security."
+    ],
+    "enriched_at": "2025-12-15T07:36:23.155Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

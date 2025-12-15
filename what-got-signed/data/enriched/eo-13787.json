@@ -1,0 +1,38 @@
+{
+  "document_number": "2017-06971",
+  "executive_order_number": "13787",
+  "title": "Providing an Order of Succession Within the Department of Justice",
+  "abstract": null,
+  "signing_date": "2017-03-31",
+  "publication_date": "2017-04-05",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/04/05/2017-06971/providing-an-order-of-succession-within-the-department-of-justice",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-04-05/pdf/2017-06971.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/04/05/2017-06971.txt",
+  "enrichment": {
+    "summary": "This executive order sets a specific order of officials within the Department of Justice who can step in to act as Attorney General if the top officials are unable to serve. It also outlines exceptions and confirms the President’s authority to choose a different acting Attorney General if allowed by law. Additionally, it revokes an earlier related executive order.",
+    "theme_ids": [
+      "order-of-succession",
+      "federal-law-enforcement"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "law-enforcement-officers-federal"
+      ],
+      "negative_ids": [
+        "federal-employees-civil-servants"
+      ]
+    },
+    "potential_concerns": [
+      "This order centralizes succession authority among specific U.S. Attorneys, which may limit diversity of leadership perspectives within the Department of Justice and affect federal law enforcement priorities.",
+      "Restricting succession to officials who are not serving in an acting capacity may create leadership gaps or delays during transitions, impacting operational continuity for federal law enforcement officers.",
+      "The President’s discretion to bypass the established order could politicize the appointment of acting Attorneys General, potentially undermining impartiality vital to federal law enforcement agencies and their personnel.",
+      "The order's revocation of a prior succession order may create confusion or instability if the new order's hierarchy conflicts with existing agency norms or expectations, negatively affecting federal employees involved in justice operations."
+    ],
+    "enriched_at": "2025-12-15T07:09:08.479Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "document_number": "2022-02027",
+  "executive_order_number": "14062",
+  "title": "2022 Amendments to the Manual for Courts-Martial, United States",
+  "abstract": null,
+  "signing_date": "2022-01-26",
+  "publication_date": "2022-01-31",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2022/01/31/2022-02027/2022-amendments-to-the-manual-for-courts-martial-united-states",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-01-31/pdf/2022-02027.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/01/31/2022-02027.txt",
+  "enrichment": {
+    "summary": "This executive order updates specific parts of the Manual for Courts-Martial, which governs military justice procedures in the United States armed forces. The changes clarify legal procedures without changing punishments retroactively or affecting ongoing military justice cases as of the date of the order.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "criminal-justice-reform"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "veterans"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Clarifications in military justice procedures may unintentionally complicate case reviews or appeals for active-duty personnel, potentially affecting their legal rights under the Uniform Code of Military Justice.",
+      "Updates to the Manual for Courts-Martial must ensure that reforms intended to improve fairness do not inadvertently reduce the military's ability to maintain discipline, impacting overall military readiness.",
+      "Veterans transitioning from military to civilian life could face confusion or legal uncertainty if changes to military justice are not clearly communicated, especially regarding past cases unaffected by retroactive changes.",
+      "There is a risk that some active-duty service members may receive inconsistent information about their rights or legal procedures during ongoing or future trials due to the implementation of these amendments."
+    ],
+    "enriched_at": "2025-12-15T07:36:02.985Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

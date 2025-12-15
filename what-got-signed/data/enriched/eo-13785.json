@@ -1,0 +1,43 @@
+{
+  "document_number": "2017-06967",
+  "executive_order_number": "13785",
+  "title": "Establishing Enhanced Collection and Enforcement of Antidumping and Countervailing Duties and Violations of Trade and Customs Laws",
+  "abstract": null,
+  "signing_date": "2017-03-31",
+  "publication_date": "2017-04-05",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/04/05/2017-06967/establishing-enhanced-collection-and-enforcement-of-antidumping-and-countervailing-duties-and",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-04-05/pdf/2017-06967.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/04/05/2017-06967.txt",
+  "enrichment": {
+    "summary": "This executive order directs U.S. agencies to strengthen the collection and enforcement of duties on imports that evade trade laws, ensuring importers pay what they owe. It mandates creating plans to require security bonds from risky importers and establishes strategies to better enforce trade and customs laws, including protecting intellectual property rights and prioritizing prosecution of trade violations.",
+    "theme_ids": [
+      "antidumping-trade-enforcement",
+      "tariffs-duties",
+      "homeland-security",
+      "federal-law-enforcement",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "manufacturing-workers",
+        "union-members"
+      ],
+      "negative_ids": [
+        "corporations-businesses",
+        "small-business-owners"
+      ]
+    },
+    "potential_concerns": [
+      "Increased bonding and enforcement requirements could disproportionately burden small-business-owners and importer corporations, possibly limiting their operational capacity or increasing costs.",
+      "Stricter enforcement of antidumping and countervailing duties may raise import costs, which could lead to higher prices and supply chain disruptions impacting manufacturing-workers reliant on imported materials.",
+      "Prioritizing prosecution and enforcement may lead to resource allocation challenges if agencies lack coordination, potentially delaying or complicating resolution of trade violations.",
+      "Enhanced sharing of intellectual property rights information with rights holders might raise privacy concerns for importers and lead to overly aggressive enforcement actions against legitimate trade activities."
+    ],
+    "enriched_at": "2025-12-15T07:09:21.200Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "document_number": "2017-08818",
+  "executive_order_number": "13790",
+  "title": "Promoting Agriculture and Rural Prosperity in America",
+  "abstract": null,
+  "signing_date": "2017-04-25",
+  "publication_date": "2017-04-28",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/04/28/2017-08818/promoting-agriculture-and-rural-prosperity-in-america",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-04-28/pdf/2017-08818.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/04/28/2017-08818.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a government task force led by the Secretary of Agriculture to improve agriculture and rural prosperity in the United States. The task force will identify and recommend policy changes to reduce regulatory burdens, promote innovation, support rural economic development, and preserve family farms, aiming to strengthen rural communities and the agricultural sector.",
+    "theme_ids": [
+      "agricultural-policy",
+      "rural-development",
+      "regulatory-reform-deregulation",
+      "small-business-support",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "agricultural-workers-farmers",
+        "small-business-owners",
+        "rural-communities",
+        "tribal-communities-reservations"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Reducing regulatory burdens as part of regulatory-reform-deregulation may compromise environmental protections and food safety, potentially risking the health and economic stability of agricultural-workers-farmers and rural-communities.",
+      "Efforts to preserve family farms and modify estate tax rules might disproportionately benefit established small-business-owners and landowners, possibly overlooking economically vulnerable farmers and workers in rural and tribal-communities-reservations.",
+      "The emphasis on technological innovation and infrastructure improvements may widen the gap between wealthier agricultural-workers-farmers with access to capital and smaller or disadvantaged farmers lacking resources, exacerbating inequalities within rural-communities.",
+      "Interagency coordination may lead to complex or conflicting policy recommendations, creating confusion or delays that negatively impact small-business-owners and agricultural-workers-farmers relying on timely regulatory clarity."
+    ],
+    "enriched_at": "2025-12-15T07:08:44.567Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

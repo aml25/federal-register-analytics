@@ -1,0 +1,43 @@
+{
+  "document_number": "2025-02504",
+  "executive_order_number": "14199",
+  "title": "Withdrawing the United States From and Ending Funding to Certain United Nations Organizations and Reviewing United States Support to All International Organizations",
+  "abstract": null,
+  "signing_date": "2025-02-04",
+  "publication_date": "2025-02-10",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/10/2025-02504/withdrawing-the-united-states-from-and-ending-funding-to-certain-united-nations-organizations-and",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-10/pdf/2025-02504.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/10/2025-02504.txt",
+  "enrichment": {
+    "summary": "This executive order directs the United States to stop participating in and funding certain United Nations organizations, specifically the UN Human Rights Council, UNESCO, and the UN agency supporting Palestinian refugees, citing concerns about their actions against U.S. interests and allies. It also mandates reviews of U.S. involvement and funding in international organizations to identify those contrary to U.S. interests and make recommendations for possible withdrawal.",
+    "theme_ids": [
+      "foreign-terrorist-organizations",
+      "united-nations",
+      "international-agreements-treaties",
+      "human-rights-international",
+      "anti-semitism"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "jews-jewish-americans"
+      ],
+      "negative_ids": [
+        "international-aid-recipients",
+        "foreign-nationals-general"
+      ]
+    },
+    "potential_concerns": [
+      "The withdrawal of funding from UNRWA will directly reduce humanitarian aid to Palestinian refugees, potentially leading to worsening living conditions for international aid recipients and heightening regional instability.",
+      "Disengagement from the UN Human Rights Council and potential withdrawal from UNESCO may undermine U.S. influence over international human rights norms and cultural cooperation, adversely affecting global diplomatic efforts.",
+      "The focus on anti-Semitism and protecting U.S. allies like Israel may deepen geopolitical tensions and alienate Palestinian populations and some foreign governments, affecting international relations.",
+      "Cutting funding to international organizations risks undermining global cooperation on issues beyond the U.S. unilateral interests, including health and security, which could indirectly harm vulnerable international populations relying on multilateral support.",
+      "The order does not address how withdrawal will impact U.S. diplomatic leverage, which could inadvertently reduce the U.S.'s ability to counter foreign terrorist organizations abroad, ultimately affecting long-term national security and military personnel."
+    ],
+    "enriched_at": "2025-12-15T08:29:55.785Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

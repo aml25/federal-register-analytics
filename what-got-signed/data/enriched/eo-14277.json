@@ -1,0 +1,41 @@
+{
+  "document_number": "2025-07368",
+  "executive_order_number": "14277",
+  "title": "Advancing Artificial Intelligence Education for American Youth",
+  "abstract": null,
+  "signing_date": "2025-04-23",
+  "publication_date": "2025-04-28",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/28/2025-07368/advancing-artificial-intelligence-education-for-american-youth",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-28/pdf/2025-07368.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/28/2025-07368.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a federal task force to promote education and training in artificial intelligence (AI) for American students and educators. It directs agencies to develop AI learning resources, encourage participation in AI competitions, improve teacher training, and support workforce development through apprenticeships and grants. The goal is to prepare the next generation with AI skills to maintain U.S. leadership in technology and innovation.",
+    "theme_ids": [
+      "artificial-intelligence",
+      "workforce-development",
+      "apprenticeships-vocational-training",
+      "presidential-commissions-task-forces"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "k-12-students",
+        "teachers-educators",
+        "youth-young-adults",
+        "working-age-adults"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "There is a risk that underserved and rural k-12 students may not equally benefit from AI educational resources and competitions due to disparities in technology access and school funding.",
+      "Teachers and educators may face increased workload and demand for rapid AI training, potentially without sufficient support or time, which could affect teaching quality and job satisfaction.",
+      "Working-age adults and youth in low-income or marginalized communities might encounter barriers in accessing apprenticeship programs and certifications due to geographic, economic, or informational constraints.",
+      "The emphasis on AI skills might lead to neglect of other critical educational areas or vocational training not AI-related, possibly disadvantaging students and workers pursuing alternative career pathways."
+    ],
+    "enriched_at": "2025-12-15T08:19:07.300Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

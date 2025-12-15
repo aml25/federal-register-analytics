@@ -1,0 +1,47 @@
+{
+  "document_number": "2025-06063",
+  "executive_order_number": "14257",
+  "title": "Regulating Imports With a Reciprocal Tariff To Rectify Trade Practices That Contribute to Large and Persistent Annual United States Goods Trade Deficits",
+  "abstract": null,
+  "signing_date": "2025-04-02",
+  "publication_date": "2025-04-07",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/07/2025-06063/regulating-imports-with-a-reciprocal-tariff-to-rectify-trade-practices-that-contribute-to-large-and",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-07/pdf/2025-06063.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/07/2025-06063.txt",
+  "enrichment": {
+    "summary": "This executive order establishes additional tariffs on imports from foreign trading partners to address the large and persistent U.S. goods trade deficits, which have harmed American manufacturing, supply chains, and national security. It aims to restore fairness in trade by imposing reciprocal tariffs and reducing unfair trade barriers while protecting critical sectors like defense and agriculture.",
+    "theme_ids": [
+      "defense-industrial-base",
+      "tariffs-duties",
+      "manufacturing-policy",
+      "economic-competitiveness",
+      "national-emergencies"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "manufacturing-workers",
+        "defense-industry-workers",
+        "agricultural-workers-farmers",
+        "small-business-owners",
+        "union-members"
+      ],
+      "negative_ids": [
+        "consumers",
+        "large-corporation-employees"
+      ]
+    },
+    "potential_concerns": [
+      "The imposition of additional reciprocal tariffs may increase costs for consumers, leading to higher prices on imported goods and domestic goods relying on imported inputs, negatively affecting household budgets.",
+      "While strengthening domestic manufacturing and defense sectors, the order may provoke retaliatory tariffs from foreign trading partners, harming U.S. exporters, including small businesses and unionized manufacturing workers reliant on export markets.",
+      "Agricultural workers and farmers could face both opportunities from reduced foreign competition and challenges due to import restrictions causing supply chain disruptions or retaliatory measures affecting agricultural exports.",
+      "The order’s broad additional tariffs risk disrupting supply chains for large corporations and downstream industries, potentially leading to job losses among import-dependent workers who are not directly protected by exemptions.",
+      "The extensive use of IEEPA for economic and national security purposes may raise legal and trade compliance concerns, complicating implementation and risking escalation in international trade disputes that could affect the targeted populations."
+    ],
+    "enriched_at": "2025-12-15T08:21:49.459Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

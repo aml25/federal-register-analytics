@@ -1,0 +1,47 @@
+{
+  "document_number": "2025-02090",
+  "executive_order_number": "14168",
+  "title": "Defending Women From Gender Ideology Extremism and Restoring Biological Truth to the Federal Government",
+  "abstract": null,
+  "signing_date": "2025-01-20",
+  "publication_date": "2025-01-30",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/01/30/2025-02090/defending-women-from-gender-ideology-extremism-and-restoring-biological-truth-to-the-federal",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-30/pdf/2025-02090.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/30/2025-02090.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to recognize sex as a fixed biological reality, distinguishing women and men strictly based on biology. It requires the removal of references to gender identity in federal policies, rescinds prior guidance related to transgender rights, and restricts federal funding and programs from promoting gender ideology. The order also mandates protections for sex-segregated spaces such as prisons, shelters, and workplaces based on biological sex.",
+    "theme_ids": [
+      "civil-rights-enforcement",
+      "violence-against-women",
+      "federal-workforce-management",
+      "title-ix"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "women",
+        "domestic-violence-survivors",
+        "crime-victims"
+      ],
+      "negative_ids": [
+        "transgender-individuals",
+        "lgbtq-individuals",
+        "incarcerated-individuals",
+        "k-12-students",
+        "college-university-students"
+      ]
+    },
+    "potential_concerns": [
+      "The order's strict biological definitions and removal of gender identity recognition may increase discrimination and restrict the civil rights of transgender individuals, conflicting with themes of civil-rights-enforcement and potentially worsening mental health outcomes in LGBTQ+ populations.",
+      "Limiting access of transgender individuals to single-sex spaces like prisons and shelters may lead to increased safety and privacy concerns for transgender people but simultaneously create logistical and human rights challenges in correctional and social service systems affecting incarcerated individuals and domestic violence survivors.",
+      "Rescinding prior guidance on supporting transgender students could lead to exclusion, harassment, and unequal educational opportunities for transgender and LGBTQ+ students, undermining Title IX protections within educational institutions.",
+      "The prohibition of federal funding for programs that promote gender ideology may unintentionally reduce availability of critical healthcare and support services for transgender individuals, negatively impacting the LGBTQ+ community’s access to culturally competent care.",
+      "Mandated use of biological sex in government-issued IDs could cause administrative burdens and stigmatization for transgender federal employees and beneficiaries, complicating identity verification and workplace inclusivity under federal-workforce-management themes."
+    ],
+    "enriched_at": "2025-12-15T08:34:33.866Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

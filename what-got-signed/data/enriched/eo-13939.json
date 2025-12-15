@@ -1,0 +1,42 @@
+{
+  "document_number": "2020-16625",
+  "executive_order_number": "13939",
+  "title": "Lowering Prices for Patients by Eliminating Kickbacks to Middlemen",
+  "abstract": null,
+  "signing_date": "2020-07-24",
+  "publication_date": "2020-07-29",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/07/29/2020-16625/lowering-prices-for-patients-by-eliminating-kickbacks-to-middlemen",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-07-29/pdf/2020-16625.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/07/29/2020-16625.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Department of Health and Human Services to change rules so that discounts and rebates from drug manufacturers go directly to patients at the pharmacy counter, rather than to middlemen like pharmacy benefit managers. The goal is to lower out-of-pocket costs for Medicare patients without raising premiums or total costs.",
+    "theme_ids": [
+      "medicare",
+      "prescription-drug-pricing",
+      "healthcare-competition-markets"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "medicare-beneficiaries",
+        "low-income-individuals-families",
+        "individuals-with-chronic-illnesses"
+      ],
+      "negative_ids": [
+        "healthcare-organizations"
+      ]
+    },
+    "potential_concerns": [
+      "The order could lead to reduced rebate revenues for pharmacy benefit managers, potentially causing market disruptions that might limit negotiated discounts, which could inadvertently raise costs for Medicare beneficiaries and low-income individuals relying on these savings.",
+      "Health care organizations and pharmacies might face operational challenges or financial impacts in adjusting to new rebate passthrough rules, which could affect service delivery to Medicare beneficiaries.",
+      "Medicare beneficiaries with chronic illnesses might experience inconsistent discount application at the point-of-sale if implementation varies, possibly undermining the intended reduction in out-of-pocket expenses.",
+      "Efforts to lower patient costs might inadvertently shift costs elsewhere in the Medicare program, risking increases in premiums or federal spending despite the order's safeguards.",
+      "Limiting safe harbor protections could provoke legal challenges from middlemen entities, potentially delaying or complicating rule implementation and the timely delivery of benefits to patients."
+    ],
+    "enriched_at": "2025-12-15T07:31:04.391Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

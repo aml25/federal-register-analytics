@@ -1,0 +1,43 @@
+{
+  "document_number": "2025-09802",
+  "executive_order_number": "14303",
+  "title": "Restoring Gold Standard Science",
+  "abstract": null,
+  "signing_date": "2025-05-23",
+  "publication_date": "2025-05-29",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/05/29/2025-09802/restoring-gold-standard-science",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-29/pdf/2025-09802.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/29/2025-09802.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to restore trust in government science by ensuring that federally funded research is transparent, rigorous, objective, and free from political influence. It requires agencies to follow strict standards for scientific integrity, make influential scientific data publicly available, acknowledge uncertainties, and conduct science in a reproducible and unbiased manner.",
+    "theme_ids": [
+      "science-and-technology-policy",
+      "government-efficiency",
+      "foia-information-disclosure"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "scientific-researchers",
+        "teachers-educators",
+        "k-12-students",
+        "public-school-communities"
+      ],
+      "negative_ids": [
+        "federal-contractors"
+      ]
+    },
+    "potential_concerns": [
+      "Requiring federal agencies to publicly disclose extensive scientific data and models could increase administrative and compliance burdens on federal contractors, potentially delaying research or increasing costs.",
+      "The strict emphasis on removing political considerations such as diversity, equity, and inclusion from scientific planning may reduce the scope of research topics or methods that account for social determinants, impacting educators and students in underserved communities.",
+      "Mandating the use of 'Gold Standard Science' criteria risks sidelining emerging or interdisciplinary research that does not yet meet reproducibility or peer-review benchmarks, possibly limiting innovation and affecting scientific researchers reliant on novel approaches.",
+      "Increased transparency and disclosure requirements under FOIA may pose confidentiality challenges or risks for proprietary data managed by federal contractors, impacting their ability to protect sensitive information.",
+      "The focus on rejecting worst-case scenarios unless legally required could lead to underestimation of risks in policies affecting public health and environmental safety, potentially impacting K-12 students and public school communities exposed to related decisions."
+    ],
+    "enriched_at": "2025-12-15T07:38:36.959Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

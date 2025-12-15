@@ -1,0 +1,42 @@
+{
+  "document_number": "2025-02636",
+  "executive_order_number": "14206",
+  "title": "Protecting Second Amendment Rights",
+  "abstract": null,
+  "signing_date": "2025-02-07",
+  "publication_date": "2025-02-12",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/12/2025-02636/protecting-second-amendment-rights",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-12/pdf/2025-02636.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/12/2025-02636.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Attorney General to review current federal actions and regulations from recent years that may limit the constitutional right to keep and bear arms. The goal is to develop and implement a plan that protects Second Amendment rights and ensures these rights are not infringed upon by government policies.",
+    "theme_ids": [
+      "american-heritage-patriotism"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "gun-owners-second-amendment-advocates",
+        "u-s-citizens",
+        "birthright-citizens",
+        "naturalized-citizens",
+        "lawful-permanent-residents-green-card-holders"
+      ],
+      "negative_ids": [
+        "crime-victims",
+        "domestic-violence-survivors"
+      ]
+    },
+    "potential_concerns": [
+      "The order’s emphasis on protecting Second Amendment rights may limit the government’s ability to enforce regulations that reduce gun violence, potentially increasing risks for crime victims and domestic violence survivors.",
+      "By reviewing and potentially rolling back firearm regulations from the recent administration, the order could inadvertently weaken public safety measures aimed at preventing firearm misuse, affecting particularly vulnerable populations.",
+      "The broad review and revision process might create legal uncertainties for Federal firearms licensees and law enforcement, complicating enforcement and compliance within regulated communities.",
+      "Prioritizing American heritage and patriotism themes in the order might marginalize voices advocating for gun safety reforms and neglect the nuanced needs of urban and minority communities disproportionately impacted by gun violence."
+    ],
+    "enriched_at": "2025-12-15T08:28:49.209Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

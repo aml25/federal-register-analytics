@@ -1,0 +1,41 @@
+{
+  "document_number": "2025-06459",
+  "executive_order_number": "14264",
+  "title": "Maintaining Acceptable Water Pressure in Showerheads",
+  "abstract": null,
+  "signing_date": "2025-04-09",
+  "publication_date": "2025-04-15",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/04/15/2025-06459/maintaining-acceptable-water-pressure-in-showerheads",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06459.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/04/15/2025-06459.txt",
+  "enrichment": {
+    "summary": "This executive order directs the repeal of a detailed federal regulation that defines the term \"showerhead\" and its related standards, arguing that such regulation overcomplicates a simple household item and restricts personal freedom. The order mandates the Secretary of Energy to formally rescind this regulation to reduce government overreach.",
+    "theme_ids": [
+      "regulatory-reform-deregulation"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "working-age-adults",
+        "consumers"
+      ],
+      "negative_ids": [
+        "environmental-justice-communities",
+        "low-income-individuals-families",
+        "urban-communities",
+        "rural-communities"
+      ]
+    },
+    "potential_concerns": [
+      "Repealing detailed showerhead standards may reduce water efficiency, increasing utility costs for low-income individuals and working-age adults dependent on affordable water bills.",
+      "Environmental justice communities in urban and rural areas could face disproportionate negative impacts due to higher water usage and reduced conservation resulting from deregulation.",
+      "Consumers may experience inconsistent water pressure quality as manufacturers no longer adhere to standardized federal definitions, leading to variable product performance.",
+      "The removal of federal standards could hinder state and local governments' ability to enforce water conservation policies, exacerbating regional water shortages affecting vulnerable communities."
+    ],
+    "enriched_at": "2025-12-15T08:20:53.257Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

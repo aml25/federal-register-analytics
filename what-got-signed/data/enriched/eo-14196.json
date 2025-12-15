@@ -1,0 +1,44 @@
+{
+  "document_number": "2025-02477",
+  "executive_order_number": "14196",
+  "title": "A Plan for Establishing a United States Sovereign Wealth Fund",
+  "abstract": null,
+  "signing_date": "2025-02-03",
+  "publication_date": "2025-02-10",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/10/2025-02477/a-plan-for-establishing-a-united-states-sovereign-wealth-fund",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-10/pdf/2025-02477.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/10/2025-02477.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Treasury and Commerce departments to develop a plan to create a United States sovereign wealth fund. The fund aims to manage national wealth to benefit American citizens by promoting fiscal sustainability, reducing tax burdens, securing economic stability for future generations, and enhancing U.S. economic and strategic leadership globally.",
+    "theme_ids": [
+      "sovereign-wealth-fund",
+      "tax-policy-tax-reform",
+      "small-business-support",
+      "economic-competitiveness"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "small-business-owners",
+        "working-age-adults",
+        "middle-class-americans",
+        "u-s-citizens"
+      ],
+      "negative_ids": [
+        "high-income-wealthy-individuals"
+      ]
+    },
+    "potential_concerns": [
+      "The plan to lessen tax burdens on American families and small businesses could face challenges ensuring that middle-class Americans and small-business owners receive meaningful tax relief without unintended benefits skewed toward wealthier individuals.",
+      "Investment decisions made by the sovereign wealth fund may prioritize economic competitiveness and strategic leadership at the expense of smaller domestic sectors or disrupt existing private investment markets, negatively impacting certain working-age adults who depend on those markets for employment.",
+      "The governance model and funding mechanisms may raise concerns about transparency and accountability, potentially leading to misuse or politicization of the fund that could erode trust among U.S. citizens.",
+      "Legal or legislative hurdles in establishing the fund could delay benefits to intended populations like small-business owners and working-age adults, while wealthy individuals might find ways to minimize impacts on their tax liabilities.",
+      "There is a risk that the fund’s focus on international economic leadership could prioritize investments that neglect domestic economic needs, thereby disadvantaging middle-class Americans and working-age adults reliant on more localized economic growth."
+    ],
+    "enriched_at": "2025-12-15T08:30:18.167Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "document_number": "2019-08797",
+  "executive_order_number": "13869",
+  "title": "Transferring Responsibility for Background Investigations to the Department of Defense",
+  "abstract": null,
+  "signing_date": "2019-04-24",
+  "publication_date": "2019-04-29",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/04/29/2019-08797/transferring-responsibility-for-background-investigations-to-the-department-of-defense",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-04-29/pdf/2019-08797.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/04/29/2019-08797.txt",
+  "enrichment": {
+    "summary": "This executive order transfers the responsibility for conducting federal background investigations from the Office of Personnel Management to the Department of Defense, specifically to the Defense Counterintelligence and Security Agency. It establishes a timeline and framework for this transition, aiming to improve efficiency, security, and oversight of background checks for federal employees and contractors.",
+    "theme_ids": [
+      "security-clearances-background-investigations",
+      "federal-workforce-management",
+      "government-reorganization",
+      "government-it-modernization"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "security-clearance-holders",
+        "federal-employees-civil-servants"
+      ],
+      "negative_ids": [
+        "federal-contractors"
+      ]
+    },
+    "potential_concerns": [
+      "Centralizing background investigations within the Department of Defense may lead to delays or disruptions during the transition period that negatively impact federal employees and contractors awaiting security clearance decisions.",
+      "Federal contractors might experience increased scrutiny or changes in adjudication standards, potentially affecting their eligibility or ability to perform contract work.",
+      "The reorganization and IT modernization efforts may create vulnerabilities in protecting sensitive personal data of security clearance holders if adequate cybersecurity measures are not implemented promptly.",
+      "Smaller agencies and federal employees outside the Department of Defense might face reduced responsiveness or less tailored investigation processes, as DCSA assumes a broad government-wide role.",
+      "The transfer could concentrate significant vetting authority within the Department of Defense, raising concerns about oversight, transparency, and potential conflicts of interest affecting federal workforce management."
+    ],
+    "enriched_at": "2025-12-15T07:26:43.052Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

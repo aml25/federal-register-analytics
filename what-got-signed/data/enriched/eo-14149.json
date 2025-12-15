@@ -1,0 +1,42 @@
+{
+  "document_number": "2025-01902",
+  "executive_order_number": "14149",
+  "title": "Restoring Freedom of Speech and Ending Federal Censorship",
+  "abstract": null,
+  "signing_date": "2025-01-20",
+  "publication_date": "2025-01-28",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/01/28/2025-01902/restoring-freedom-of-speech-and-ending-federal-censorship",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-28/pdf/2025-01902.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/28/2025-01902.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to stop censoring Americans' free speech, especially on online platforms. It requires a review of government actions over the past four years that may have suppressed protected speech and mandates corrective measures to protect free speech going forward.",
+    "theme_ids": [
+      "free-speech",
+      "government-efficiency",
+      "social-media-platform-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens",
+        "lawful-permanent-residents-green-card-holders",
+        "naturalized-citizens",
+        "birthright-citizens"
+      ],
+      "negative_ids": [
+        "technology-workers",
+        "corporations-businesses"
+      ]
+    },
+    "potential_concerns": [
+      "The order’s restrictions on government interaction with social media companies may increase burdens on technology workers and corporations by limiting content moderation, potentially leading to platform misuse and increased moderation costs.",
+      "Efforts to roll back prior government actions labeled as 'censorship' could create legal uncertainty and operational challenges for platforms relying on clear content guidelines, impacting online user experiences for all internet users, including U.S. citizens and residents.",
+      "The broad prohibition on government influence over speech moderation might inadvertently enable harmful or misleading speech online, raising concerns about information quality and public safety among the general population of U.S. citizens and lawful residents."
+    ],
+    "enriched_at": "2025-12-15T08:37:28.936Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

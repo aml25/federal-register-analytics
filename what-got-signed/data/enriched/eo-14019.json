@@ -1,0 +1,49 @@
+{
+  "document_number": "2021-05087",
+  "executive_order_number": "14019",
+  "title": "Promoting Access to Voting",
+  "abstract": null,
+  "signing_date": "2021-03-07",
+  "publication_date": "2021-03-10",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/03/10/2021-05087/promoting-access-to-voting",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-03-10/pdf/2021-05087.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/03/10/2021-05087.txt",
+  "enrichment": {
+    "summary": "This executive order aims to make it easier for all eligible Americans to vote by improving voter registration access, providing accurate election information, and removing barriers that disproportionately affect communities of color, people with disabilities, Native Americans, military personnel, and those in federal custody. It establishes agency responsibilities for promoting voter participation, modernizing Vote.gov, supporting federal employees' voting, and enhancing protections and services related to voter access and rights. Additionally, it creates a Steering Group focused on Native American voting rights to study challenges and recommend improvements.",
+    "theme_ids": [
+      "voting-rights",
+      "racial-equity",
+      "disability-rights",
+      "civil-rights-enforcement",
+      "federal-workforce-management",
+      "interagency-coordination",
+      "military-readiness-force-structure"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "african-americans-black-americans",
+        "individuals-with-disabilities",
+        "native-americans-indigenous-peoples",
+        "military-personnel-active-duty",
+        "formerly-incarcerated-returning-citizens",
+        "individuals-on-probation-parole",
+        "incarcerated-individuals",
+        "federal-employees-civil-servants"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to increase voter access for individuals with disabilities may encounter challenges in uniformly implementing required accommodations across diverse federal agencies, potentially limiting the order's effectiveness.",
+      "Enhancements to voter registration and ballot access for Native Americans may face logistical issues due to persistent internet connectivity problems in tribal communities, limiting equitable access despite federal support.",
+      "Expanding voter registration efforts among incarcerated and formerly incarcerated individuals could trigger political and legal pushback in certain states with restrictive voting laws, complicating uniform implementation.",
+      "Federal employees encouraged to participate in voting may experience operational disruptions or staffing challenges during peak election periods, requiring careful balance between civic engagement and workforce readiness.",
+      "Military absentee ballot tracking improvements may be constrained by interagency coordination difficulties and postal service limitations, potentially delaying or undermining overseas service members' timely ballot submission."
+    ],
+    "enriched_at": "2025-12-15T07:34:00.706Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

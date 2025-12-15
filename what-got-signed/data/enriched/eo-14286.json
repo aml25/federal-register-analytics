@@ -1,0 +1,42 @@
+{
+  "document_number": "2025-07786",
+  "executive_order_number": "14286",
+  "title": "Enforcing Commonsense Rules of the Road for America's Truck Drivers",
+  "abstract": null,
+  "signing_date": "2025-04-28",
+  "publication_date": "2025-05-02",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/05/02/2025-07786/enforcing-commonsense-rules-of-the-road-for-americas-truck-drivers",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-05-02/pdf/2025-07786.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/05/02/2025-07786.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Department of Transportation to enforce English language proficiency requirements for commercial truck drivers to improve road safety. It also calls for stronger security measures in commercial driver’s license issuance and commitments to improve working conditions for truck drivers.",
+    "theme_ids": [
+      "transportation-infrastructure",
+      "worker-rights-protections",
+      "regulatory-reform-deregulation"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "transportation-workers"
+      ],
+      "negative_ids": [
+        "hispanic-latino-americans",
+        "naturalized-citizens",
+        "undocumented-immigrants"
+      ]
+    },
+    "potential_concerns": [
+      "Enforcing strict English proficiency requirements may disproportionately disqualify non-native English speakers, especially Hispanic/Latino Americans and naturalized citizens, limiting their employment opportunities in the transportation sector despite their driving skills.",
+      "Enhanced scrutiny and verification of commercial driver’s licenses could lead to increased barriers for undocumented immigrants who currently work as truck drivers, potentially pushing some into unemployment or undocumented work.",
+      "While aiming to improve road safety, the aggressive enforcement of language requirements risks workforce shortages in trucking, which could disrupt supply chains and economic stability.",
+      "The order's call to rescind previous English proficiency testing guidance may create confusion or inconsistency among enforcement personnel, potentially leading to uneven application or legal challenges impacting drivers.",
+      "Efforts to improve working conditions for truck drivers lack specific measurable targets, raising concern that positive changes may be minimal or unevenly implemented across the industry."
+    ],
+    "enriched_at": "2025-12-15T08:17:59.730Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

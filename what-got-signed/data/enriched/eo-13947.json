@@ -1,0 +1,41 @@
+{
+  "document_number": "2020-20887",
+  "executive_order_number": "13947",
+  "title": "Lowering Drug Prices by Putting America First",
+  "abstract": null,
+  "signing_date": "2020-07-24",
+  "publication_date": "2020-09-18",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/09/18/2020-20887/lowering-drug-prices-by-putting-america-first",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-09-18/pdf/2020-20887.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/09/18/2020-20887.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to ensure that Medicare pays no more than the lowest prices charged by comparable developed countries for certain high-cost prescription drugs covered under Medicare Part B. It aims to lower drug prices for American seniors and taxpayers by testing a payment model based on the most-favored-nation pricing approach, especially during the economic challenges caused by the COVID-19 pandemic.",
+    "theme_ids": [
+      "medicare",
+      "prescription-drug-pricing",
+      "covid-19-response"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "medicare-beneficiaries",
+        "seniors-elderly",
+        "taxpayers"
+      ],
+      "negative_ids": [
+        "corporations-businesses"
+      ]
+    },
+    "potential_concerns": [
+      "Implementing the most-favored-nation pricing model may lead pharmaceutical companies to reduce the availability or delay introducing certain high-cost drugs for Medicare beneficiaries, potentially limiting treatment options for seniors and elderly patients.",
+      "Pharmaceutical corporations might respond by increasing prices in non-Medicare markets or shifting costs to private insurers, indirectly affecting taxpayers and consumers outside Medicare.",
+      "Reduced revenues for drug manufacturers could lead to decreased investment in pharmaceutical innovation, potentially impacting future drug development relied upon by all Americans, including Medicare beneficiaries.",
+      "The adjustment of prices based on international comparisons might not fully account for differences in healthcare system costs, potentially causing administrative and legal challenges in implementation that could delay benefits reaching seniors during the COVID-19 pandemic."
+    ],
+    "enriched_at": "2025-12-15T07:29:55.861Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

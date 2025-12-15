@@ -1,0 +1,46 @@
+{
+  "document_number": "2020-21914",
+  "executive_order_number": "13951",
+  "title": "An America-First Healthcare Plan",
+  "abstract": null,
+  "signing_date": "2020-09-24",
+  "publication_date": "2020-10-01",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/10/01/2020-21914/an-america-first-healthcare-plan",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-10-01/pdf/2020-21914.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/10/01/2020-21914.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to continue efforts that increase healthcare choices, improve care quality, and reduce costs for Americans. It emphasizes access to affordable medicines, transparency in hospital pricing, protections for people with pre-existing conditions, and support for rural healthcare, veterans, and public health initiatives including COVID-19 response.",
+    "theme_ids": [
+      "affordable-care-act-aca",
+      "medicare",
+      "prescription-drug-pricing",
+      "veterans-healthcare",
+      "rural-healthcare-telehealth",
+      "covid-19-response"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "aca-marketplace-enrollees",
+        "medicare-beneficiaries",
+        "veterans",
+        "rural-communities",
+        "low-income-individuals-families",
+        "patients-general"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to expand short-term, limited-duration health plans could undermine coverage quality and protections for individuals with pre-existing conditions by encouraging enrollment in less comprehensive policies.",
+      "The increased availability of drug importation and accelerated generic approvals may raise safety and regulatory oversight concerns affecting low-income individuals relying on affordable medicines.",
+      "Rural communities might face challenges if transitions to value-based care models do not adequately account for structural and resource limitations unique to rural healthcare providers.",
+      "Veterans could experience disparities in care quality as expanded options outside the VA system may fragment continuity of care despite increased provider networks.",
+      "Transparency initiatives regarding hospital pricing and surprise billing may face operational and enforcement difficulties that limit actual patient protections and improvements for Medicare beneficiaries and ACA enrollees."
+    ],
+    "enriched_at": "2025-12-15T07:29:15.750Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "document_number": "2025-02091",
+  "executive_order_number": "14169",
+  "title": "Reevaluating and Realigning United States Foreign Aid",
+  "abstract": null,
+  "signing_date": "2025-01-20",
+  "publication_date": "2025-01-30",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/01/30/2025-02091/reevaluating-and-realigning-united-states-foreign-aid",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-30/pdf/2025-02091.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/30/2025-02091.txt",
+  "enrichment": {
+    "summary": "This executive order temporarily pauses all new U.S. foreign aid funding to review and ensure that foreign assistance programs align with the President's foreign policy and American interests. It requires government agencies to assess these programs within 90 days and determine whether to continue, modify, or stop them, with oversight by the Secretary of State and the Office of Management and Budget.",
+    "theme_ids": [
+      "foreign-aid",
+      "government-efficiency",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "international-aid-recipients",
+        "nonprofit-organizations",
+        "foreign-governments"
+      ]
+    },
+    "potential_concerns": [
+      "The 90-day pause and review process may disrupt critical aid delivery, adversely impacting international aid recipients relying on timely support.",
+      "Nonprofit organizations implementing foreign aid programs may face financial instability and operational uncertainty due to halted funding and strict alignment requirements with shifting U.S. foreign policy.",
+      "Foreign governments receiving U.S. aid could perceive the pause and realignment as unpredictable or politically motivated, potentially straining bilateral relations and diplomatic cooperation.",
+      "The broad criteria for assessing 'alignment with American interests' risk politicizing aid decisions, potentially undermining the effectiveness of development programs aimed at long-term global stability.",
+      "Interagency coordination challenges during the rapid 90-day review process may delay resumption of effective aid programs, compounding negative impacts on vulnerable foreign populations."
+    ],
+    "enriched_at": "2025-12-15T08:34:24.703Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

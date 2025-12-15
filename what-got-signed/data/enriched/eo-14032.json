@@ -1,0 +1,43 @@
+{
+  "document_number": "2021-12019",
+  "executive_order_number": "14032",
+  "title": "Addressing the Threat From Securities Investments That Finance Certain Companies of the People's Republic of China",
+  "abstract": null,
+  "signing_date": "2021-06-03",
+  "publication_date": "2021-06-07",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/06/07/2021-12019/addressing-the-threat-from-securities-investments-that-finance-certain-companies-of-the-peoples",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-06-07/pdf/2021-12019.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/06/07/2021-12019.txt",
+  "enrichment": {
+    "summary": "This executive order prohibits U.S. persons from investing in certain Chinese companies involved in the country's defense and surveillance technology sectors, due to national security and human rights concerns. It expands previous restrictions by targeting firms linked to China's military-industrial complex and surveillance technology used for repression, and authorizes Treasury and other officials to enforce and update these measures.",
+    "theme_ids": [
+      "defense-industrial-base",
+      "foreign-technology-threats",
+      "economic-sanctions",
+      "china",
+      "human-rights-international"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "investors",
+        "financial-services-workers"
+      ],
+      "negative_ids": [
+        "large-corporation-employees",
+        "asian-americans"
+      ]
+    },
+    "potential_concerns": [
+      "The prohibition on investments in certain Chinese companies may disrupt financial markets and investment portfolios for both investors and financial-services-workers handling these assets.",
+      "Employees of large corporations with existing business ties or holdings in affected Chinese companies might face job instability or economic losses due to restricted capital flows.",
+      "Asian Americans could face increased stereotyping or discrimination as a result of heightened political and economic tensions linked to U.S.-China relations.",
+      "Strict enforcement of these investment bans may lead to legal and compliance challenges for financial institutions, potentially causing market uncertainty or reduced investment options for U.S. investors."
+    ],
+    "enriched_at": "2025-12-15T07:32:10.535Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

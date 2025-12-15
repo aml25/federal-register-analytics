@@ -1,0 +1,43 @@
+{
+  "document_number": "2021-09263",
+  "executive_order_number": "14026",
+  "title": "Increasing the Minimum Wage for Federal Contractors",
+  "abstract": null,
+  "signing_date": "2021-04-27",
+  "publication_date": "2021-04-30",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/04/30/2021-09263/increasing-the-minimum-wage-for-federal-contractors",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-04-30/pdf/2021-09263.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/04/30/2021-09263.txt",
+  "enrichment": {
+    "summary": "This executive order requires federal contractors and subcontractors to pay their workers a minimum hourly wage of $15.00 starting January 30, 2022, with annual adjustments based on inflation. It also sets a schedule for tipped workers’ wages to eventually match the standard minimum wage. The order aims to improve worker productivity and efficiency in federal contracting by ensuring fair pay.",
+    "theme_ids": [
+      "minimum-wage",
+      "worker-rights-protections",
+      "federal-labor-management-relations",
+      "government-efficiency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-contractors",
+        "low-income-individuals-families",
+        "working-age-adults"
+      ],
+      "negative_ids": [
+        "federal-contractors"
+      ]
+    },
+    "potential_concerns": [
+      "Increasing the minimum wage to $15 could raise labor costs for federal contractors, potentially leading some to reduce workforce size or limit hiring, negatively impacting working-age adults employed by these contractors.",
+      "Federal contractors may pass increased labor costs onto government procurement budgets, which could reduce government efficiency or increase contracting costs.",
+      "While the wage increase benefits low-income individuals directly employed by federal contractors, some small subcontractors might struggle to comply, risking contract losses or business closures.",
+      "There may be uneven application and enforcement challenges across industries and geographic regions, possibly resulting in disparities for workers in rural or underrepresented communities working under federal contracts.",
+      "The scheduled increases for tipped workers could cause confusion or implementation delays, affecting tipped federal contracting employees' income stability during the transition period."
+    ],
+    "enriched_at": "2025-12-15T07:33:06.130Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

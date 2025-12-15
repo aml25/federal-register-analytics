@@ -1,0 +1,46 @@
+{
+  "document_number": "2021-11168",
+  "executive_order_number": "14030",
+  "title": "Climate-Related Financial Risk",
+  "abstract": null,
+  "signing_date": "2021-05-20",
+  "publication_date": "2021-05-25",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/05/25/2021-11168/climate-related-financial-risk",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-05-25/pdf/2021-11168.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/05/25/2021-11168.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to identify, measure, and manage financial risks linked to climate change, including those from extreme weather and the transition to a low-carbon economy. It requires agencies to develop strategies for disclosure, resilience of pensions and savings, federal lending and procurement changes, and integrating climate risks into budgeting and financial stability assessments.",
+    "theme_ids": [
+      "climate-change-policy",
+      "environmental-justice",
+      "financial-system-regulation",
+      "federal-spending",
+      "retirement-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "environmental-justice-communities",
+        "working-age-adults",
+        "investors"
+      ],
+      "negative_ids": [
+        "energy-sector-workers-oil-gas-coal",
+        "corporations-businesses",
+        "small-business-owners"
+      ]
+    },
+    "potential_concerns": [
+      "The order's requirement for climate-related financial disclosures and stricter procurement standards may impose significant compliance costs on small businesses and corporations, potentially reducing their competitiveness or leading to job losses among energy-sector workers, particularly those in oil, gas, and coal industries (financial-system-regulation, economic-status, employment).",
+      "Environmental justice communities and working-age adults could experience benefits from targeted investments and job creation, but may also face disproportionate risks if transition policies accelerate economic disruptions without adequate worker protections or retraining programs (climate-change-policy, environmental-justice, workers).",
+      "Retirement security may be enhanced by stronger oversight of pensions and investment portfolios sensitive to climate risks, yet investors and federal retirees could face heightened volatility or reduced returns during transition periods as companies divest from carbon-intensive sectors (retirement-security, financial-system-regulation).",
+      "There is a risk that mandated federal financial risk assessments and disclosure requirements could inadvertently create data privacy or competitive concerns for some corporations, potentially limiting the adoption of certain innovations or causing reluctance in voluntary climate disclosures (financial-system-regulation, corporations-businesses).",
+      "The reinstatement of the Federal Flood Risk Management Standard and focus on climate risk in federal budgeting may lead to increased federal spending and administrative burdens, raising concerns about resource allocation that may affect stakeholders reliant on federal lending, especially in rural and disaster-affected communities (federal-spending, rural-communities, disaster-affected-communities)."
+    ],
+    "enriched_at": "2025-12-15T07:32:34.597Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

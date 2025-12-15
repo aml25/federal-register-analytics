@@ -1,0 +1,41 @@
+{
+  "document_number": "2025-02635",
+  "executive_order_number": "14205",
+  "title": "Establishment of the White House Faith Office",
+  "abstract": null,
+  "signing_date": "2025-02-07",
+  "publication_date": "2025-02-12",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/12/2025-02635/establishment-of-the-white-house-faith-office",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-12/pdf/2025-02635.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/12/2025-02635.txt",
+  "enrichment": {
+    "summary": "This executive order establishes the White House Faith Office to support faith-based entities, community organizations, and houses of worship by helping them access federal funding and allowing them to compete fairly for government grants and contracts. It also seeks to protect religious liberty across the federal government and improve collaboration between these organizations and government agencies.",
+    "theme_ids": [
+      "faith-based-initiatives",
+      "religious-liberty",
+      "anti-semitism",
+      "child-welfare-foster-care"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "faith-based-communities",
+        "religious-organizations",
+        "children-minors",
+        "low-income-individuals-families"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Enhanced federal funding access for faith-based communities may raise concerns about potential preferential treatment of certain religious groups, impacting religious liberty protections for non-affiliated or secular individuals.",
+      "Collaboration with faith-based organizations in child welfare and foster care programs could result in religious criteria influencing placement decisions, possibly disadvantaging children-minors from non-religious or minority faith backgrounds.",
+      "Efforts to combat anti-Semitism and other religious biases may face implementation challenges, risking uneven enforcement and potential neglect of other marginalized religious groups within faith-based initiatives.",
+      "Increased government partnership with religious organizations may blur the line between church and state, leading to legal challenges over constitutionality and raising concerns among low-income individuals and families served by these programs."
+    ],
+    "enriched_at": "2025-12-15T08:28:57.509Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

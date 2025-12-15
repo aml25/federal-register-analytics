@@ -1,0 +1,40 @@
+{
+  "document_number": "2022-03346",
+  "executive_order_number": "14064",
+  "title": "Protecting Certain Property of Da Afghanistan Bank for the Benefit of the People of Afghanistan",
+  "abstract": null,
+  "signing_date": "2022-02-11",
+  "publication_date": "2022-02-15",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2022/02/15/2022-03346/protecting-certain-property-of-da-afghanistan-bank-for-the-benefit-of-the-people-of-afghanistan",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-02-15/pdf/2022-03346.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/02/15/2022-03346.txt",
+  "enrichment": {
+    "summary": "This executive order blocks and protects certain assets of Afghanistan's central bank held in U.S. financial institutions to prevent their transfer or use amid a humanitarian and economic crisis in Afghanistan. The order aims to ensure these assets are preserved for the benefit of the Afghan people while addressing national security concerns.",
+    "theme_ids": [
+      "economic-sanctions",
+      "national-emergencies",
+      "afghanistan"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "foreign-nationals-general",
+        "food-insecure-populations"
+      ],
+      "negative_ids": [
+        "terrorism-victims-survivors"
+      ]
+    },
+    "potential_concerns": [
+      "Blocking Da Afghanistan Bank assets may limit funding accessible for humanitarian aid, potentially worsening food insecurity among Afghan civilians.",
+      "Preserving central bank assets while preventing claims by terrorism victims could lead to legal disputes causing delays or reduction of compensation for terrorism survivors.",
+      "The economic sanctions embedded in the order could deepen Afghanistan's financial crisis, negatively impacting the general population's livelihoods and basic needs fulfillment.",
+      "The consolidation of blocked assets at the Federal Reserve may complicate or slow disbursement of aid funds, inadvertently harming foreign nationals reliant on timely economic assistance."
+    ],
+    "enriched_at": "2025-12-15T07:35:49.441Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "document_number": "2025-03064",
+  "executive_order_number": "14216",
+  "title": "Expanding Access to In Vitro Fertilization",
+  "abstract": null,
+  "signing_date": "2025-02-18",
+  "publication_date": "2025-02-24",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/02/24/2025-03064/expanding-access-to-in-vitro-fertilization",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-02-24/pdf/2025-03064.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/02/24/2025-03064.txt",
+  "enrichment": {
+    "summary": "This executive order aims to make in vitro fertilization (IVF) more accessible and affordable for American families facing infertility. It directs a policy review to identify ways to reduce costs and remove barriers to IVF treatment within 90 days.",
+    "theme_ids": [
+      "abortion-reproductive-health"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "women",
+        "men",
+        "working-age-adults",
+        "patients-general"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Lowering IVF costs and expanding access may raise ethical concerns among certain faith-based communities, particularly regarding the handling and disposition of unused embryos.",
+      "Efforts to reduce costs might result in insurance or healthcare providers imposing stricter eligibility criteria, potentially limiting access for some infertile patients.",
+      "The focus on affordability could lead to increased demand for IVF services that existing healthcare infrastructure may not be prepared to support, adversely affecting patient experience.",
+      "Without clear regulatory guidance, efforts to ease statutory barriers might lead to variability in IVF quality and safety standards impacting patients.",
+      "Populations with limited healthcare coverage, such as Medicaid beneficiaries or uninsured individuals, might still face access barriers despite overall cost reductions."
+    ],
+    "enriched_at": "2025-12-15T08:27:28.174Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

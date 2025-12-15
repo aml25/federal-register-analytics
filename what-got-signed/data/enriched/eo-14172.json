@@ -1,0 +1,47 @@
+{
+  "document_number": "2025-02096",
+  "executive_order_number": "14172",
+  "title": "Restoring Names That Honor American Greatness",
+  "abstract": null,
+  "signing_date": "2025-01-20",
+  "publication_date": "2025-01-31",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/01/31/2025-02096/restoring-names-that-honor-american-greatness",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-31/pdf/2025-02096.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/01/31/2025-02096.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to rename certain geographic landmarks to honor American historical figures and patriotism. It restores the name \"Mount McKinley\" to the highest peak in North America and renames the \"Gulf of Mexico\" as the \"Gulf of America.\" The order emphasizes celebrating the nation's heritage and encourages honoring American heroes through place names.",
+    "theme_ids": [
+      "american-heritage-patriotism",
+      "national-monuments-antiquities",
+      "seafood-fisheries-industry",
+      "oil-and-gas-development",
+      "mexico",
+      "cuba"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "alaska-natives",
+        "seafood-fishery-workers",
+        "energy-sector-workers-oil-gas-coal",
+        "coastal-communities"
+      ],
+      "negative_ids": [
+        "native-americans-indigenous-peoples",
+        "hispanic-latino-americans"
+      ]
+    },
+    "potential_concerns": [
+      "Renaming Mount McKinley may negatively impact Alaska Natives and Native Americans/Indigenous Peoples by disregarding indigenous place names and cultural heritage.",
+      "Renaming the Gulf of Mexico to the Gulf of America could strain diplomatic relations with Mexico and Cuba and marginalize Hispanic/Latino communities culturally connected to the region.",
+      "Seafood fishery workers and coastal communities may face confusion or operational disruptions due to federal and commercial materials needing updates to the new Gulf name.",
+      "Energy sector workers in oil and gas may see increased regulatory or political scrutiny tied to the symbolic emphasis on American greatness linked to these natural resources, potentially impacting operations.",
+      "The order’s emphasis on American patriotism through place naming risks alienating diverse racial/ethnic groups such as Native Americans and Hispanic/Latino Americans by appearing dismissive of their histories."
+    ],
+    "enriched_at": "2025-12-15T08:33:58.902Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

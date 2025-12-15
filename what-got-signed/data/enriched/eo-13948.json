@@ -1,0 +1,41 @@
+{
+  "document_number": "2020-21129",
+  "executive_order_number": "13948",
+  "title": "Lowering Drug Prices by Putting America First",
+  "abstract": null,
+  "signing_date": "2020-09-13",
+  "publication_date": "2020-09-23",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/09/23/2020-21129/lowering-drug-prices-by-putting-america-first",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-09-23/pdf/2020-21129.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/09/23/2020-21129.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to ensure that Medicare pays no more than the lowest prices paid by comparable wealthy countries for expensive prescription drugs. It establishes payment models aiming to lower drug costs for Medicare beneficiaries by tying prices to the \"most-favored-nation price,\" promoting fairer pricing and reducing the financial burden on Americans.",
+    "theme_ids": [
+      "prescription-drug-pricing",
+      "medicare",
+      "healthcare-competition-markets",
+      "economic-competitiveness"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "medicare-beneficiaries",
+        "seniors-elderly"
+      ],
+      "negative_ids": [
+        "corporations-businesses"
+      ]
+    },
+    "potential_concerns": [
+      "Tying Medicare drug prices to the most-favored-nation price may reduce pharmaceutical companies' revenues, potentially limiting innovation and affecting drug availability, impacting corporations-businesses in the biopharmaceutical sector.",
+      "Implementing lower payment models for Medicare Part B and Part D drugs could inadvertently restrict patient access to some medications if manufacturers withdraw or limit supply in response, negatively impacting Medicare beneficiaries and seniors relying on these treatments.",
+      "Adjusting drug prices to match foreign rates may not account for differences in healthcare systems or patient needs, leading to potential mismatches in drug availability or quality for Medicare beneficiaries.",
+      "Pharmaceutical companies might increase prices in non-Medicare markets or reduce discounts elsewhere to offset losses, potentially shifting the financial burden to other populations outside Medicare beneficiaries."
+    ],
+    "enriched_at": "2025-12-15T07:29:40.387Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

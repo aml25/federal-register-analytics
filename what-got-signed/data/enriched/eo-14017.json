@@ -1,0 +1,46 @@
+{
+  "document_number": "2021-04280",
+  "executive_order_number": "14017",
+  "title": "America's Supply Chains",
+  "abstract": null,
+  "signing_date": "2021-02-24",
+  "publication_date": "2021-03-01",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/03/01/2021-04280/americas-supply-chains",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-03-01/pdf/2021-04280.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/03/01/2021-04280.txt",
+  "enrichment": {
+    "summary": "This executive order directs the U.S. government to review and strengthen the resilience and security of American supply chains for critical goods and materials, including semiconductors, batteries, pharmaceuticals, and defense-related items. It requires detailed reports on supply chain risks within 100 days and ongoing assessments to build stronger domestic manufacturing capabilities, promote economic growth, and collaborate with allies to reduce vulnerabilities.",
+    "theme_ids": [
+      "defense-industrial-base",
+      "critical-minerals-supply-chain-security",
+      "supply-chain-security",
+      "manufacturing-policy",
+      "small-business-support"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "manufacturing-workers",
+        "small-business-owners",
+        "defense-industry-workers",
+        "renewable-energy-workers",
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "tribal-communities-reservations"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to revitalize domestic manufacturing and critical minerals supply chains could increase operational costs and regulatory burdens for small business owners and manufacturing workers, possibly limiting competitiveness.",
+      "Prioritizing reshoring and building domestic capacity may lead to trade tensions or reduced access to cheaper foreign inputs, affecting renewable energy workers and defense industry workers reliant on global supply chains.",
+      "Policies targeting supply chain security and workforce development might inadequately address economic disparities, risking slow benefits to economically distressed communities including African American, Hispanic/Latino, and tribal populations.",
+      "Increased emphasis on climate risk mitigation in supply chains could lead to stricter environmental regulations that disproportionately impact small businesses in rural and tribal communities, potentially limiting local economic growth.",
+      "The complexity and pace of supply chain assessments and reforms may unintentionally marginalize minority-owned businesses and workers if outreach and workforce development programs are not inclusively designed."
+    ],
+    "enriched_at": "2025-12-15T07:34:17.237Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

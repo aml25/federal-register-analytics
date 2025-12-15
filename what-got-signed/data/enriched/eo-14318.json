@@ -1,0 +1,46 @@
+{
+  "document_number": "2025-14212",
+  "executive_order_number": "14318",
+  "title": "Accelerating Federal Permitting of Data Center Infrastructure",
+  "abstract": null,
+  "signing_date": "2025-07-23",
+  "publication_date": "2025-07-28",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/07/28/2025-14212/accelerating-federal-permitting-of-data-center-infrastructure",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-07-28/pdf/2025-14212.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/07/28/2025-14212.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to speed up and simplify the permitting and construction of large data centers and their supporting infrastructure, especially those related to artificial intelligence. It encourages the use of federal lands, streamlines environmental reviews, offers financial support, and coordinates agencies to facilitate rapid development of these projects while considering national security and environmental factors.",
+    "theme_ids": [
+      "infrastructure-permitting",
+      "energy-infrastructure",
+      "artificial-intelligence",
+      "defense-industrial-base",
+      "environmental-review-process"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "technology-workers",
+        "large-corporation-employees",
+        "defense-industry-workers"
+      ],
+      "negative_ids": [
+        "environmental-justice-communities",
+        "tribal-communities-reservations",
+        "rural-communities"
+      ]
+    },
+    "potential_concerns": [
+      "Accelerated permitting and streamlined environmental reviews may lead to increased environmental degradation and pollution, disproportionately impacting environmental justice communities and tribal communities on or near federal lands.",
+      "Rapid development of large data centers on federal lands could disrupt rural communities by straining local resources, infrastructure, and altering land uses without adequate local input or benefit.",
+      "Prioritization of national security and defense-related infrastructure might limit environmental protections and oversight, potentially creating conflicts with tribal sovereignty and cultural resource preservation.",
+      "Financial incentives and large capital requirements may concentrate benefits to large corporations and defense contractors, potentially excluding small tech companies and startups from equitable development opportunities.",
+      "Use of Brownfield and Superfund sites for data center projects may raise concerns about long-term health impacts for nearby populations if remediation is expedited without thorough community consultation."
+    ],
+    "enriched_at": "2025-12-15T07:36:46.428Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
