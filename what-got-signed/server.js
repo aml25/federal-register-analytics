@@ -228,13 +228,13 @@ app.get('/api/timeline', async (req, res) => {
   }
 });
 
-// API: Get monthly narratives
-app.get('/api/monthly-narratives', async (req, res) => {
+// API: Get quarterly narratives
+app.get('/api/quarterly-narratives', async (req, res) => {
   try {
-    const data = await readFile(join(DATA_DIR, 'aggregated', 'monthly-narratives.json'), 'utf-8');
+    const data = await readFile(join(DATA_DIR, 'aggregated', 'quarterly-narratives.json'), 'utf-8');
     res.json(JSON.parse(data));
   } catch (err) {
-    res.status(500).json({ error: 'Failed to load monthly narratives' });
+    res.status(500).json({ error: 'Failed to load quarterly narratives' });
   }
 });
 
@@ -324,13 +324,19 @@ app.get('/api/orders/term/:presidentId/:termStart', async (req, res) => {
   }
 });
 
-// API: Get enriched orders for a month
-app.get('/api/orders/month/:year/:month', async (req, res) => {
+// API: Get enriched orders for a quarter
+app.get('/api/orders/quarter/:year/:quarter', async (req, res) => {
   try {
-    const { year, month } = req.params;
+    const { year, quarter } = req.params;
+    const yearNum = parseInt(year, 10);
+    const quarterNum = parseInt(quarter, 10);
     const enrichedDir = join(DATA_DIR, 'enriched');
     const { readdir } = await import('node:fs/promises');
     const files = await readdir(enrichedDir);
+
+    // Calculate which months are in this quarter
+    const startMonth = (quarterNum - 1) * 3 + 1; // Q1=1, Q2=4, Q3=7, Q4=10
+    const endMonth = quarterNum * 3; // Q1=3, Q2=6, Q3=9, Q4=12
 
     const orders = [];
     for (const file of files) {
@@ -339,8 +345,10 @@ app.get('/api/orders/month/:year/:month', async (req, res) => {
       const order = JSON.parse(content);
 
       const orderDate = new Date(order.signing_date);
-      if (orderDate.getFullYear() === parseInt(year, 10) &&
-          orderDate.getMonth() + 1 === parseInt(month, 10)) {
+      const orderYear = orderDate.getFullYear();
+      const orderMonth = orderDate.getMonth() + 1;
+
+      if (orderYear === yearNum && orderMonth >= startMonth && orderMonth <= endMonth) {
         orders.push(order);
       }
     }

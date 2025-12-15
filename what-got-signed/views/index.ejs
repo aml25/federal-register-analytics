@@ -10,9 +10,9 @@
 
       <section class="about">
         <h2>About</h2>
-        <p class="wa-body-m"><em>What Got Signed?</em> helps you see what a president has signed, without digging through dense government documents. The site tracks <a href="https://www.archives.gov/federal-register/executive-orders/about.html">executive orders</a> as they’re issued, explains what they do in plain language, and groups them by theme so it’s easier to see what’s changing and who it may affect. Executive orders are written instructions from the president to federal agencies that carry out existing laws under authority granted by the Constitution or Congress.</p>
+        <p class="wa-body-m"><em>What Got Signed?</em> helps you understand presidential <a href="https://www.archives.gov/federal-register/executive-orders/about.html">executive orders</a> without digging through dense government documents by tracking and explaining them in plain language and organizing them by theme. Executive orders are written instructions from the president that direct how federal agencies use authority granted by the Constitution or Congress.</p>
 
-        <p class="wa-body-m">Check out the <a href="/definitions" class="wa-link">full list</a> of themes and populations used in our analysis.</p>
+        <p class="wa-body-m">Check out the <a href="/definitions" class="wa-link">definitions</a> of themes and populations used in our analysis.</p>
       </section>
 
       <section class="overview">
@@ -25,12 +25,18 @@
       <div class="timeline-header">
         <h2>Timeline</h2>
       </div>
+      <div class="timeline-filter-wrapper">
+        <wa-select id="timeline-filter" multiple with-clear placeholder="All years" max-options-visible="5" size="small">
+        </wa-select>
+      </div>
       <div class="timeline-scroll">
         <div id="timeline-items" class="timeline-items">
           <div class="timeline-line"></div>
         </div>
       </div>
     </div>
+
+    <%- include('partials/back-to-top') %>
   </div>
 
   <%- include('partials/footer') %>

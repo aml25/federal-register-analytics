@@ -24,8 +24,8 @@ For now, the todo list is about data quality. The data pipeline was done relativ
   - LLM selects from a comprehensive static taxonomy (280 themes, 158 populations)
   - Suggestions for new taxonomy items are logged for human review
 - **Aggregate**: Generate term summaries and timeline data (fast, no API calls)
-- **Generate Narratives**: LLM-generated summaries and impact analysis per presidential term, month, and theme (uses OpenAI API)
-- **Web Frontend**: Express server with a clean UI to browse executive orders by term, month, or theme
+- **Generate Narratives**: LLM-generated summaries and impact analysis per presidential term, quarter, and theme (uses OpenAI API)
+- **Web Frontend**: Express server with a clean UI to browse executive orders by term, quarter, or theme
 
 ## Installation
 
@@ -51,7 +51,7 @@ Then edit `.env` with your API key from https://platform.openai.com/api-keys
 ```mermaid
 flowchart LR
     A[Fetch executive orders from Federal Register API] --> B[Enrich data using static taxonomy]
-    B --> C[Aggregate data for presidential term and monthly timelines]
+    B --> C[Aggregate data for presidential term and quarterly timelines]
     C --> D[Generate narratives for detailed EO reviews]
 
     B --- E[Pass 1 - gpt 4.1 mini: summaries + themes]
@@ -122,30 +122,30 @@ npm run aggregate -- --president trump
 
 Aggregated data is saved to `data/aggregated/`:
 - `term-summaries.json` - Summary data per presidential term with top themes
-- `timeline.json` - Monthly timeline data with theme summaries
+- `timeline.json` - Quarterly timeline data with theme summaries
 
-### 4. Generate Narratives (Optional)
+### 4. Generate Narratives
 
-Generate LLM-powered narrative summaries for presidential terms, monthly periods, and themes. This step uses the OpenAI API and may incur costs:
+Generate LLM-powered narrative summaries for presidential terms, quarterly periods, and themes. This step uses the OpenAI API and may incur costs:
 
 ```bash
-# Generate all narratives (term + monthly + theme)
+# Generate all narratives (term + quarterly + theme)
 npm run generate-narratives
 
 # Generate term narratives only
 npm run generate-narratives -- --type term
 
-# Generate monthly narratives only
-npm run generate-narratives -- --type monthly
+# Generate quarterly narratives only
+npm run generate-narratives -- --type quarterly
 
 # Generate theme narratives only
 npm run generate-narratives -- --type theme
 
-# Generate monthly narratives for a specific year
-npm run generate-narratives -- --type monthly --year 2025
+# Generate quarterly narratives for a specific year
+npm run generate-narratives -- --type quarterly --year 2025
 
-# Generate narrative for a specific month
-npm run generate-narratives -- --type monthly --year 2025 --month 3
+# Generate narrative for a specific quarter
+npm run generate-narratives -- --type quarterly --year 2025 --quarter 1
 
 # Filter by president (term narratives only)
 npm run generate-narratives -- --president trump
@@ -159,7 +159,7 @@ npm run generate-narratives -- --force
 
 Outputs:
 - `data/aggregated/narratives.json` - Term narratives with summary and potential impact paragraphs
-- `data/aggregated/monthly-narratives.json` - Monthly narratives with summary and potential impact paragraphs
+- `data/aggregated/quarterly-narratives.json` - Quarterly narratives with summary and potential impact paragraphs
 - `data/aggregated/theme-narratives.json` - Theme narratives with summary and potential impact paragraphs
 
 Narratives support incremental generation - only new items are processed unless `--force` is used.
@@ -278,7 +278,7 @@ federal-register-analytics/
 │   ├── enrich.ts       # OpenAI enrichment logic (two-pass with static taxonomy)
 │   ├── taxonomy.ts     # Taxonomy loader and formatter
 │   ├── aggregate.ts    # Data aggregation (term summaries, timeline)
-│   ├── narratives.ts   # LLM-generated narratives (term, monthly, theme)
+│   ├── narratives.ts   # LLM-generated narratives (term, quarterly, theme)
 │   ├── index.ts        # Main exports
 │   └── cli/            # CLI entry points
 │       ├── fetch.ts
@@ -299,8 +299,8 @@ federal-register-analytics/
 │   └── data/           # All data files
 │       ├── taxonomy.json   # Master taxonomy (themes + populations)
 │       ├── enriched/       # Enriched data (committed)
-│       ├── raw/            # Raw API data (gitignored)
-│       └── aggregated/     # Aggregated data (gitignored)
+│       ├── aggregated/     # Aggregated data (committed)
+│       └── raw/            # Raw API data (gitignored)
 └── dist/               # Compiled JavaScript (gitignored)
 ```
 
@@ -308,15 +308,16 @@ federal-register-analytics/
 
 All data files are stored in `what-got-signed/data/` for deployment simplicity:
 
-- `what-got-signed/data/taxonomy.json` - Master taxonomy (committed to repo)
-- `what-got-signed/data/enriched/` - Enriched executive order data (committed to repo)
+- `what-got-signed/data/taxonomy.json` - Master taxonomy (committed)
+- `what-got-signed/data/enriched/` - Enriched executive order data (committed)
+- `what-got-signed/data/aggregated/` - Aggregated data (committed)
 - `what-got-signed/data/raw/` - Raw API data (gitignored)
-- `what-got-signed/data/aggregated/` - Aggregated data (gitignored)
 
-To generate the raw and aggregated data locally:
-1. `npm run fetch -- --from 2017 --to 2025`
-2. `npm run aggregate`
-3. `npm run generate-narratives` (optional)
+To regenerate data locally:
+1. `npm run fetch -- --from 2017 --to 2025` (fetches raw data from Federal Register API)
+2. `npm run enrich -- --force` (re-enrich with OpenAI)
+3. `npm run aggregate` (regenerate timeline and term summaries)
+4. `npm run generate-narratives -- --force` (regenerate LLM narratives)
 
 ## Deployment
 

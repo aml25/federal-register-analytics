@@ -1,3 +1,8 @@
+// Escape special regex characters
+function escapeRegex(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
 // Parse URL params
 function getParams() {
   const params = new URLSearchParams(window.location.search);
@@ -6,7 +11,7 @@ function getParams() {
     president: params.get('president'),
     start: params.get('start'),
     year: params.get('year'),
-    month: params.get('month'),
+    quarter: params.get('quarter'),
     theme: params.get('theme')
   };
 }
@@ -80,9 +85,19 @@ async function loadTermDetail(presidentId, termStart) {
 
     if (narrative) {
       const termEnd = narrative.term_end === 'present' ? 'present' : narrative.term_end;
-      titleEl.textContent = `Review of executive orders for ${narrative.president_name} (${narrative.term_start}-${termEnd}).`;
-      summaryEl.innerHTML = `<p>${narrative.summary}</p>`;
-      impactEl.innerHTML = `<p>${narrative.potential_impact}</p>`;
+      titleEl.innerHTML = `Review of executive orders for <span class="wa-font-weight-semibold">${narrative.president_name}</span> (${narrative.term_start}-${termEnd}).`;
+
+      // Style president name in narrative summaries
+      const presidentRegex = new RegExp(escapeRegex(narrative.president_name), 'g');
+      const styledSummary = narrative.summary.replace(presidentRegex,
+        `<span class="wa-font-weight-semibold">${narrative.president_name}</span>`
+      );
+      const styledImpact = narrative.potential_impact.replace(presidentRegex,
+        `<span class="wa-font-weight-semibold">${narrative.president_name}</span>`
+      );
+
+      summaryEl.innerHTML = `<p>${styledSummary}</p>`;
+      impactEl.innerHTML = `<p>${styledImpact}</p>`;
     } else {
       titleEl.textContent = `Review of executive orders for ${presidentId}.`;
       summaryEl.innerHTML = '<p>No narrative available.</p>';
@@ -112,40 +127,50 @@ async function loadTermDetail(presidentId, termStart) {
   }
 }
 
-// Load month detail
-async function loadMonthDetail(year, month) {
+// Load quarter detail
+async function loadQuarterDetail(year, quarter) {
   const titleEl = document.getElementById('page-title');
   const summaryEl = document.getElementById('summary-content');
   const impactEl = document.getElementById('impact-content');
   const ordersEl = document.getElementById('orders-content');
 
-  const monthNames = [
-    'January', 'February', 'March', 'April', 'May', 'June',
-    'July', 'August', 'September', 'October', 'November', 'December'
-  ];
-  const monthName = monthNames[parseInt(month, 10) - 1];
+  const quarterName = `Q${quarter} ${year}`;
 
   try {
-    // Load monthly narratives for the summary
-    const narrativesRes = await fetch('/api/monthly-narratives');
+    // Load quarterly narratives for the summary
+    const narrativesRes = await fetch('/api/quarterly-narratives');
     const narrativesData = await narrativesRes.json();
 
     const narrative = narrativesData.narratives.find(
-      n => n.year === parseInt(year, 10) && n.month === parseInt(month, 10)
+      n => n.year === parseInt(year, 10) && n.quarter === parseInt(quarter, 10)
     );
 
-    titleEl.textContent = `Review of executive orders for ${monthName} ${year}.`;
+    titleEl.textContent = `Review of executive orders for ${quarterName}.`;
 
     if (narrative) {
-      summaryEl.innerHTML = `<p>${narrative.summary}</p>`;
-      impactEl.innerHTML = `<p>${narrative.potential_impact}</p>`;
+      // Style president names in narrative summaries
+      let styledSummary = narrative.summary;
+      let styledImpact = narrative.potential_impact;
+
+      for (const president of narrative.presidents || []) {
+        const presidentRegex = new RegExp(escapeRegex(president.president_name), 'g');
+        styledSummary = styledSummary.replace(presidentRegex,
+          `<span class="wa-font-weight-semibold">${president.president_name}</span>`
+        );
+        styledImpact = styledImpact.replace(presidentRegex,
+          `<span class="wa-font-weight-semibold">${president.president_name}</span>`
+        );
+      }
+
+      summaryEl.innerHTML = `<p>${styledSummary}</p>`;
+      impactEl.innerHTML = `<p>${styledImpact}</p>`;
     } else {
       summaryEl.innerHTML = '<p>No narrative available.</p>';
       impactEl.innerHTML = '<p>No narrative available.</p>';
     }
 
     // Load orders
-    const ordersRes = await fetch(`/api/orders/month/${year}/${month}`);
+    const ordersRes = await fetch(`/api/orders/quarter/${year}/${quarter}`);
     const ordersData = await ordersRes.json();
 
     // Load themes and populations for name lookups
@@ -175,41 +200,71 @@ async function loadThemeDetail(themeId) {
   const ordersEl = document.getElementById('orders-content');
 
   try {
-    // Load theme narratives for the summary
-    const narrativesRes = await fetch('/api/theme-narratives');
-    const narrativesData = await narrativesRes.json();
-
-    const narrative = narrativesData.narratives.find(n => n.theme_id === themeId);
-
-    if (narrative) {
-      titleEl.textContent = `Review of executive orders for ${narrative.theme_name}.`;
-      summaryEl.innerHTML = `<p>${narrative.summary}</p>`;
-      impactEl.innerHTML = `<p>${narrative.potential_impact}</p>`;
-    } else {
-      // Fall back to themes registry for the name
-      const themesRes = await fetch('/api/themes');
-      const themesData = await themesRes.json();
-      const theme = themesData.themes.find(t => t.id === themeId);
-      const themeName = theme?.name || themeId;
-      titleEl.textContent = `Review of executive orders for ${themeName}.`;
-      summaryEl.innerHTML = '<p>No narrative available.</p>';
-      impactEl.innerHTML = '<p>No narrative available.</p>';
-    }
-
-    // Load orders
-    const ordersRes = await fetch(`/api/orders/theme/${themeId}`);
-    const ordersData = await ordersRes.json();
-
-    // Load themes and populations for name lookups
-    const [themesRes, populationsRes] = await Promise.all([
+    // Load orders, narratives, themes, and populations in parallel
+    const [ordersRes, narrativesRes, themesRes, populationsRes] = await Promise.all([
+      fetch(`/api/orders/theme/${themeId}`),
+      fetch('/api/theme-narratives'),
       fetch('/api/themes'),
       fetch('/api/populations')
     ]);
+
+    const ordersData = await ordersRes.json();
+    const narrativesData = await narrativesRes.json();
     const themesData = await themesRes.json();
     const populationsData = await populationsRes.json();
 
     const themeMap = new Map(themesData.themes.map(t => [t.id, t.name]));
     const popMap = new Map(populationsData.populations.map(p => [p.id, p.name]));
+
+    const narrative = narrativesData.narratives.find(n => n.theme_id === themeId);
+    const orderCount = ordersData.orders.length;
+
+    if (narrative) {
+      titleEl.textContent = `Review of executive orders for ${narrative.theme_name}.`;
+
+      // Style president names in narrative summaries
+      let styledSummary = narrative.summary;
+      let styledImpact = narrative.potential_impact;
+
+      for (const president of narrative.presidents || []) {
+        const presidentRegex = new RegExp(escapeRegex(president.president_name), 'g');
+        styledSummary = styledSummary.replace(presidentRegex,
+          `<span class="wa-font-weight-semibold">${president.president_name}</span>`
+        );
+        styledImpact = styledImpact.replace(presidentRegex,
+          `<span class="wa-font-weight-semibold">${president.president_name}</span>`
+        );
+      }
+
+      summaryEl.innerHTML = `<p>${styledSummary}</p>`;
+      impactEl.innerHTML = `<p>${styledImpact}</p>`;
+    } else {
+      // No narrative - show callout and hide summary/impact sections
+      const theme = themesData.themes.find(t => t.id === themeId);
+      const themeName = theme?.name || themeId;
+      titleEl.textContent = `Review of executive orders for ${themeName}.`;
+
+      const callout = document.getElementById('detail-callout');
+      const calloutMessage = document.getElementById('detail-callout-message');
+      const summarySection = document.getElementById('summary-section');
+      const impactSection = document.getElementById('impact-section');
+      const ordersSection = document.getElementById('orders-section');
+
+      let message = '';
+      if (orderCount === 0) {
+        message = `There aren't any executive orders tagged with this theme yet. Check back later as more orders are analyzed.`;
+        ordersSection.style.display = 'none';
+      } else if (orderCount === 1) {
+        message = `There's only one executive order with this theme, so there isn't a summary yet. Take a look at the order below to learn more.`;
+      } else {
+        message = `A summary for this theme is still in progress. In the meantime, browse the ${orderCount} orders below.`;
+      }
+
+      calloutMessage.textContent = message;
+      callout.style.display = '';
+      summarySection.style.display = 'none';
+      impactSection.style.display = 'none';
+    }
 
     ordersEl.innerHTML = ordersData.orders.map(order => renderOrderItem(order, themeMap, popMap)).join('');
 
@@ -225,11 +280,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (params.type === 'term' && params.president && params.start) {
     loadTermDetail(params.president, params.start);
-  } else if (params.type === 'month' && params.year && params.month) {
-    loadMonthDetail(params.year, params.month);
+  } else if (params.type === 'quarter' && params.year && params.quarter) {
+    loadQuarterDetail(params.year, params.quarter);
   } else if (params.type === 'theme' && params.theme) {
     loadThemeDetail(params.theme);
   } else {
     document.getElementById('page-title').textContent = 'Invalid request';
   }
+
 });

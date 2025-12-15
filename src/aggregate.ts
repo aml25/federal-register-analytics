@@ -28,8 +28,8 @@ interface TermSummary {
 
 interface TimelinePeriod {
   year: number;
-  month: number;
-  month_name: string;
+  quarter: number;
+  quarter_name: string; // e.g., "Q1 2025"
   president_id: string;
   president_name: string;
   order_count: number;
@@ -256,14 +256,17 @@ function formatThemeList(themes: { id: string; name: string }[], maxShow: number
 }
 
 /**
- * Get month name from number
+ * Get quarter from month (1-12 -> 1-4)
  */
-function getMonthName(month: number): string {
-  const months = [
-    'January', 'February', 'March', 'April', 'May', 'June',
-    'July', 'August', 'September', 'October', 'November', 'December'
-  ];
-  return months[month - 1] || '';
+function getQuarterFromMonth(month: number): number {
+  return Math.ceil(month / 3);
+}
+
+/**
+ * Get quarter name (e.g., "Q1 2025")
+ */
+function getQuarterName(quarter: number, year: number): string {
+  return `Q${quarter} ${year}`;
 }
 
 // =============================================================================
@@ -338,59 +341,62 @@ function generateTermSummaries(
 }
 
 /**
- * Generate timeline data grouped by month
+ * Generate timeline data grouped by quarter
  */
 function generateTimeline(
   orders: EnrichedExecutiveOrder[],
   themeRegistry: ThemeRegistry
 ): TimelinePeriod[] {
-  const byMonth = new Map<string, EnrichedExecutiveOrder[]>();
+  const byQuarter = new Map<string, EnrichedExecutiveOrder[]>();
 
-  // Group by year-month
+  // Group by year-quarter
   for (const order of orders) {
     const date = new Date(order.signing_date);
-    const key = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
+    const quarter = getQuarterFromMonth(date.getMonth() + 1);
+    const key = `${date.getFullYear()}-Q${quarter}`;
 
-    if (!byMonth.has(key)) {
-      byMonth.set(key, []);
+    if (!byQuarter.has(key)) {
+      byQuarter.set(key, []);
     }
-    byMonth.get(key)!.push(order);
+    byQuarter.get(key)!.push(order);
   }
 
   const periods: TimelinePeriod[] = [];
 
-  for (const [key, monthOrders] of byMonth) {
-    const [year, month] = key.split('-').map(Number);
+  for (const [key, quarterOrders] of byQuarter) {
+    const [yearStr, quarterStr] = key.split('-');
+    const year = Number(yearStr);
+    const quarter = Number(quarterStr.replace('Q', ''));
 
-    // Get themes for this month
-    const topThemes = countThemes(monthOrders, themeRegistry).slice(0, 5);
+    // Get themes for this quarter
+    const topThemes = countThemes(quarterOrders, themeRegistry).slice(0, 5);
 
-    // Get president(s) for this month - usually just one
-    const presidents = [...new Set(monthOrders.map(o => o.president.name))];
+    // Get president(s) for this quarter - usually just one, but transition quarters may have two
+    const presidents = [...new Set(quarterOrders.map(o => o.president.name))];
     const presidentName = presidents.join(' and ');
-    const presidentId = monthOrders[0].president.identifier;
+    const presidentId = quarterOrders[0].president.identifier;
 
     // Generate theme summary text
     const themeText = formatThemeList(topThemes, 3);
-    const themeSummary = `${presidentName} signed ${monthOrders.length} executive order${monthOrders.length !== 1 ? 's' : ''} focused on the themes of ${themeText}.`;
+    const themeSummary = `${presidentName} signed ${quarterOrders.length} executive order${quarterOrders.length !== 1 ? 's' : ''} focused on the themes of ${themeText}.`;
 
     periods.push({
       year,
-      month,
-      month_name: getMonthName(month),
+      quarter,
+      quarter_name: getQuarterName(quarter, year),
       president_id: presidentId,
       president_name: presidentName,
-      order_count: monthOrders.length,
+      order_count: quarterOrders.length,
       top_themes: topThemes.slice(0, 5).map(t => ({ id: t.id, name: t.name })),
       theme_summary: themeSummary,
-      order_ids: monthOrders.map(o => o.executive_order_number)
+      order_ids: quarterOrders.map(o => o.executive_order_number)
     });
   }
 
   // Sort by date descending (most recent first)
   return periods.sort((a, b) => {
     if (a.year !== b.year) return b.year - a.year;
-    return b.month - a.month;
+    return b.quarter - a.quarter;
   });
 }
 

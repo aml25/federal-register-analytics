@@ -10,20 +10,27 @@
 
       <h2 class="detail-title" id="page-title">Review of executive orders for [name or duration].</h2>
 
-      <section class="summary">
+      <wa-callout id="detail-callout" style="display: none;">
+        <wa-icon slot="icon" name="circle-info"></wa-icon>
+        <span id="detail-callout-message"></span>
+      </wa-callout>
+
+      <section class="summary" id="summary-section">
         <h3>Summary</h3>
         <div id="summary-content" class="wa-body-m"></div>
       </section>
 
-      <section class="potential-impact">
+      <section class="potential-impact" id="impact-section">
         <h3>Potential impact</h3>
         <div id="impact-content" class="wa-body-m"></div>
       </section>
 
-      <section class="orders-list">
+      <section class="orders-list" id="orders-section">
         <h3>List of executive orders</h3>
         <div id="orders-content"></div>
       </section>
+
+      <%- include('partials/back-to-top') %>
     </div>
   </div>
 
