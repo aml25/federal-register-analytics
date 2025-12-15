@@ -41,7 +41,8 @@ function renderOrderItem(order, themeMap, popMap) {
 
   return `
     <div class="order-item">
-      <p class="order-meta wa-caption-s wa-color-text-quiet">${formatDateShort(order.signing_date)} • ${order.president.name}</p>
+      <p class="order-meta wa-caption-s wa-color-text-quiet">${formatDateShort(order.signing_date)} | ${order.president.name}</p>
+      
       <div class="order-header">
         <h4 class="order-title">${order.title} <wa-button class="order-external-link" variant="brand" appearance="plain" size="small" href="${order.html_url}" target="_blank"><wa-icon name="arrow-up-right-from-square" label="Read full executive order"></wa-icon></wa-button></h4>
         <p class="order-summary">${order.enrichment.summary}</p>

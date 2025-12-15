@@ -18,7 +18,7 @@ import {
   formatPopulationsForPrompt,
   getAllThemeIds,
   getAllPopulationIds,
-  appendSuggestionToGuide,
+  appendSuggestionToTaxonomy,
   type TaxonomyData
 } from './taxonomy.js';
 import type {
@@ -321,7 +321,7 @@ async function enrichOrder(
 
   // Handle suggested themes (save to markdown, don't auto-add)
   for (const suggestion of pass1Response.suggested_themes || []) {
-    await appendSuggestionToGuide({
+    await appendSuggestionToTaxonomy({
       eoNumber: order.executive_order_number,
       eoTitle: order.title,
       type: 'theme',
@@ -357,7 +357,7 @@ async function enrichOrder(
 
   // Handle suggested populations (save to markdown, don't auto-add)
   for (const suggestion of pass2Response.suggested_populations?.positive || []) {
-    await appendSuggestionToGuide({
+    await appendSuggestionToTaxonomy({
       eoNumber: order.executive_order_number,
       eoTitle: order.title,
       type: 'population',
@@ -368,7 +368,7 @@ async function enrichOrder(
   }
 
   for (const suggestion of pass2Response.suggested_populations?.negative || []) {
-    await appendSuggestionToGuide({
+    await appendSuggestionToTaxonomy({
       eoNumber: order.executive_order_number,
       eoTitle: order.title,
       type: 'population',

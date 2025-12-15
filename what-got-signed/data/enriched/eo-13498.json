@@ -1,0 +1,41 @@
+{
+  "document_number": "E9-2893",
+  "executive_order_number": "13498",
+  "title": "Amendments to Executive Order 13199 and Establishment of the President's Advisory Council for Faith-Based and Neighborhood Partnerships",
+  "abstract": null,
+  "signing_date": "2009-02-05",
+  "publication_date": "2009-02-09",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/02/09/E9-2893/amendments-to-executive-order-13199-and-establishment-of-the-presidents-advisory-council-for",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-02-09/pdf/E9-2893.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/02/09/E9-2893.txt",
+  "enrichment": {
+    "summary": "This executive order updates a previous order to strengthen and rename the White House office focused on faith-based and neighborhood partnerships. It establishes a new advisory council to provide expert advice on how these organizations can effectively partner with governments to deliver social services, while ensuring respect for constitutional rights and accountability for federal funding.",
+    "theme_ids": [
+      "faith-based-initiatives",
+      "civil-rights-enforcement",
+      "federal-advisory-committees",
+      "reentry-recidivism-reduction"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "faith-based-communities",
+        "nonprofit-organizations",
+        "low-income-individuals-families",
+        "formerly-incarcerated-returning-citizens"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The emphasis on faith-based organizations could raise concerns about preserving the constitutional principle of separation of church and state, possibly affecting religious minorities and secular communities.",
+      "Low-income individuals relying on federally funded social services may face uneven service quality if accountability and evaluation standards are not rigorously enforced across all providers.",
+      "Formerly incarcerated individuals might benefit from increased reentry support, but inconsistencies in program implementation may create disparities in access to second-chance employment and mentorship.",
+      "Nonprofit organizations could experience increased administrative burdens related to federal oversight, evaluation requirements, and compliance with constitutional safeguards, potentially limiting their operational capacity."
+    ],
+    "enriched_at": "2025-12-15T01:59:58.276Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

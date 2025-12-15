@@ -1,0 +1,42 @@
+{
+  "document_number": "2020-28605",
+  "executive_order_number": "13967",
+  "title": "Promoting Beautiful Federal Civic Architecture",
+  "abstract": null,
+  "signing_date": "2020-12-18",
+  "publication_date": "2020-12-23",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/12/23/2020-28605/promoting-beautiful-federal-civic-architecture",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-12-23/pdf/2020-28605.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/12/23/2020-28605.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to prioritize beautiful and classical architectural styles for new public buildings, especially federal courthouses and agency headquarters. It establishes a council to review and recommend architectural policies that ensure federal buildings inspire pride, respect, and reflect regional heritage, while encouraging local community input in design decisions.",
+    "theme_ids": [
+      "government-efficiency",
+      "infrastructure-permitting",
+      "american-heritage-patriotism",
+      "federal-advisory-committees"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "urban-communities",
+        "suburban-communities",
+        "rural-communities"
+      ],
+      "negative_ids": [
+        "federal-contractors"
+      ]
+    },
+    "potential_concerns": [
+      "The emphasis on classical and traditional architecture may limit design innovation, potentially increasing costs and time for federal contractors engaged in construction and design, impacting their competitiveness and profitability (government-efficiency, infrastructure-permitting).",
+      "Mandating classical architecture as preferred style, especially in D.C., could overlook the aesthetic preferences and cultural heritage of diverse local urban, suburban, and rural communities, undermining the policy goal of community input and regional architectural heritage (american-heritage-patriotism).",
+      "Requiring extensive community input prior to design selection might delay project approval and completion, resulting in slower infrastructure permitting and increased administrative burden on the General Services Administration and contractors (government-efficiency, infrastructure-permitting).",
+      "The establishment and limited one-year term of the President's Council on Improving Federal Civic Architecture could create uncertainty about long-term architectural policies, causing inconsistent application in federal building projects across different communities (federal-advisory-committees)."
+    ],
+    "enriched_at": "2025-12-15T02:30:02.325Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "document_number": "2010-28365",
+  "executive_order_number": "13557",
+  "title": "Providing an Order of Succession Within the Department of Justice",
+  "abstract": null,
+  "signing_date": "2010-11-04",
+  "publication_date": "2010-11-09",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2010/11/09/2010-28365/providing-an-order-of-succession-within-the-department-of-justice",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2010-11-09/pdf/2010-28365.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2010/11/09/2010-28365.txt",
+  "enrichment": {
+    "summary": "This Executive Order establishes a clear sequence of officials who will temporarily perform the duties of the Attorney General if the Attorney General and certain other top officials are unable to do so. It also revokes a previous order on succession and clarifies exceptions to ensure only appropriate individuals serve as acting Attorney General.",
+    "theme_ids": [
+      "order-of-succession",
+      "federal-law-enforcement"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "law-enforcement-officers-federal"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The order of succession may empower certain U.S. Attorneys to act as Attorney General temporarily, potentially impacting federal law enforcement priorities and decisions under their jurisdiction.",
+      "The exclusion of individuals serving in acting capacities from succession could create gaps or delays in leadership during a sudden vacancy, affecting operational continuity for federal law enforcement officers.",
+      "Since the President retains discretion to deviate from the established succession order, this flexibility might lead to perceptions of politicization of the acting Attorney General role, potentially affecting trust within federal law enforcement.",
+      "The revocation of the previous succession order without broad consultation may disrupt expectations or plans among officials in the line of succession, leading to challenges for federal law enforcement officers adapting to sudden leadership changes."
+    ],
+    "enriched_at": "2025-12-15T02:06:08.795Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "document_number": "2025-14218",
+  "executive_order_number": "14320",
+  "title": "Promoting the Export of the American AI Technology Stack",
+  "abstract": null,
+  "signing_date": "2025-07-23",
+  "publication_date": "2025-07-28",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/07/28/2025-14218/promoting-the-export-of-the-american-ai-technology-stack",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-07-28/pdf/2025-14218.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/07/28/2025-14218.txt",
+  "enrichment": {
+    "summary": "This executive order directs the U.S. government to promote and support the export of comprehensive American artificial intelligence (AI) technology packages. It establishes a program led by the Department of Commerce to select and prioritize AI export proposals, mobilizing federal resources and financing to help U.S. AI companies compete internationally and reduce dependence on adversary technologies.",
+    "theme_ids": [
+      "artificial-intelligence",
+      "export-import-policy",
+      "economic-competitiveness",
+      "science-and-technology-policy",
+      "foreign-aid"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "technology-workers",
+        "small-business-owners",
+        "entrepreneurs-startups",
+        "corporations-businesses"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The prioritization of export packages may favor large corporations and well-established startups, potentially disadvantaging smaller innovators and limiting market access for small-business-owners in the AI sector.",
+      "Promoting full-stack AI exports could inadvertently lead to increased global proliferation of sensitive AI technologies, raising national security risks and complicating cybersecurity efforts for technology-workers involved in these deployments.",
+      "The focus on reducing dependence on adversary technologies might strain diplomatic relationships with certain foreign governments and could provoke retaliatory trade restrictions affecting U.S. corporations and entrepreneurs.",
+      "Federal financing and incentives might not be equitably accessible to all eligible companies, potentially exacerbating economic disparities within the domestic AI industry and impacting entrepreneurs-startups disproportionately."
+    ],
+    "enriched_at": "2025-12-15T02:42:49.027Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

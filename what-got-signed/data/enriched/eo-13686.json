@@ -1,0 +1,40 @@
+{
+  "document_number": "2014-30363",
+  "executive_order_number": "13686",
+  "title": "Adjustments of Certain Rates of Pay",
+  "abstract": null,
+  "signing_date": "2014-12-19",
+  "publication_date": "2014-12-24",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2014/12/24/2014-30363/adjustments-of-certain-rates-of-pay",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2014-12-24/pdf/2014-30363.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2014/12/24/2014-30363.txt",
+  "enrichment": {
+    "summary": "This executive order updates and adjusts the pay rates for various federal employees, including statutory pay systems, senior executives, judges, uniformed service members, and locality-based comparability payments. It sets effective dates for these rate adjustments to take effect starting January 1, 2015, and supersedes a previous related executive order.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "military-readiness-force-structure"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants",
+        "military-personnel-active-duty",
+        "veterans",
+        "foreign-service-officers"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Adjustments to locality-based comparability payments may not fully reflect regional cost-of-living differences, potentially impacting federal employees disproportionately across geographic areas.",
+      "Pay rate increases for military personnel could lead to budgetary constraints affecting other aspects of military readiness and force structure.",
+      "Changes in pay scales for senior executives and judges may raise concerns about equity and justifications relative to lower-grade federal employees.",
+      "The implementation timing of pay adjustments may cause temporary payroll and administrative challenges affecting federal employees' financial planning.",
+      "Foreign Service Officers receiving updated pay rates might face challenges aligning compensation with overseas cost fluctuations, affecting recruitment and retention."
+    ],
+    "enriched_at": "2025-12-15T02:12:35.433Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

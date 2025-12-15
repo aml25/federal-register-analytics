@@ -1,0 +1,42 @@
+{
+  "document_number": "2023-16570",
+  "executive_order_number": "14103",
+  "title": "2023 Amendments to the Manual for Courts-Martial, United States",
+  "abstract": null,
+  "signing_date": "2023-07-28",
+  "publication_date": "2023-08-02",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/08/02/2023-16570/2023-amendments-to-the-manual-for-courts-martial-united-states",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-08-02/pdf/2023-16570.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/08/02/2023-16570.txt",
+  "enrichment": {
+    "summary": "This executive order updates and amends various parts and appendices of the Manual for Courts-Martial, the official guide governing military justice procedures in the United States. The changes set new rules and add new sections with specified effective dates, while ensuring that ongoing cases are not affected retroactively.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "criminal-justice-reform"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "veterans",
+        "defendants-accused-persons",
+        "crime-victims"
+      ],
+      "negative_ids": [
+        "military-personnel-active-duty",
+        "defendants-accused-persons"
+      ]
+    },
+    "potential_concerns": [
+      "The amendments to the Manual for Courts-Martial could impose more stringent or complex legal standards that increase burdens on military personnel actively undergoing justice proceedings, potentially affecting their rights and career trajectories.",
+      "Changes incorporating criminal justice reform may unintentionally delay military justice processes, impacting military readiness and force structure by prolonging trials or appeals for active-duty service members.",
+      "Defendants and accused persons within the military justice system could face inconsistent application or confusion due to phased implementation dates aligned with NDAA provisions, leading to potential fairness concerns.",
+      "While victims of crimes may benefit from clearer or strengthened procedures, the balance between protecting victims’ rights and ensuring due process for accused military personnel might generate tensions within military units and affect cohesion."
+    ],
+    "enriched_at": "2025-12-15T02:38:12.584Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

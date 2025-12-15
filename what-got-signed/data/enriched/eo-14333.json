@@ -1,0 +1,44 @@
+{
+  "document_number": "2025-15550",
+  "executive_order_number": "14333",
+  "title": "Declaring a Crime Emergency in the District of Columbia",
+  "abstract": null,
+  "signing_date": "2025-08-11",
+  "publication_date": "2025-08-14",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/08/14/2025-15550/declaring-a-crime-emergency-in-the-district-of-columbia",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-14/pdf/2025-15550.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/14/2025-15550.txt",
+  "enrichment": {
+    "summary": "This executive order declares a crime emergency in the District of Columbia due to rising violent crime that threatens public safety and the functioning of the federal government. It authorizes the use of the Metropolitan Police Department for federal purposes, delegates operational control to the Attorney General, and requires regular monitoring and reporting on the situation.",
+    "theme_ids": [
+      "federal-law-enforcement",
+      "state-local-law-enforcement-support",
+      "crime-reduction",
+      "government-efficiency",
+      "fema-emergency-management"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "law-enforcement-officers-state-local",
+        "federal-employees-civil-servants",
+        "urban-communities"
+      ],
+      "negative_ids": [
+        "crime-victims",
+        "undocumented-immigrants"
+      ]
+    },
+    "potential_concerns": [
+      "The expanded federal operational control over the Metropolitan Police Department could strain state-local law enforcement resources while aiming to improve government efficiency and public safety in urban communities.",
+      "Crime victims may experience improved protection, but heightened policing and federal intervention could lead to increased tensions or distrust within urban communities, especially among undocumented immigrants fearing enforcement actions.",
+      "The delegation of operational control to the Attorney General may result in politicization of local policing priorities, potentially undermining community trust and complicating sustained crime-reduction efforts.",
+      "Increased federal involvement might disrupt local governance and civil liberties in the District of Columbia, with unintended impacts on marginalized populations residing in urban communities."
+    ],
+    "enriched_at": "2025-12-15T02:41:15.122Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

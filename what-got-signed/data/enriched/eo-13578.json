@@ -1,0 +1,43 @@
+{
+  "document_number": "2011-17447",
+  "executive_order_number": "13578",
+  "title": "Coordinating Policies on Automotive Communities and Workers",
+  "abstract": null,
+  "signing_date": "2011-07-06",
+  "publication_date": "2011-07-11",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2011/07/11/2011-17447/coordinating-policies-on-automotive-communities-and-workers",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2011-07-11/pdf/2011-17447.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2011/07/11/2011-17447.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Secretary of Labor to lead a coordinated federal effort to support communities and workers affected by the decline and recovery of the American automotive industry. It focuses on coordinating policies, economic adjustment assistance, and outreach to help revitalize automotive communities and ensure federal programs effectively address their needs.",
+    "theme_ids": [
+      "economic-recovery-post-crisis",
+      "small-business-support",
+      "workforce-development",
+      "interagency-coordination",
+      "revocation-of-previous-executive-orders"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "automotive-industry-workers",
+        "small-business-owners",
+        "manufacturing-workers",
+        "urban-communities",
+        "working-age-adults"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Coordination challenges among multiple federal agencies might delay timely assistance to automotive communities, undermining workforce development and small-business support efforts.",
+      "Automotive-industry and manufacturing workers in urban communities may face uneven access to economic adjustment assistance due to variable local implementation capacity.",
+      "The revocation of previous executive orders could create confusion or gaps in policy continuity, potentially disrupting ongoing recovery initiatives for working-age adults affected by job losses.",
+      "Small-business owners in automotive supply chains might struggle to benefit fully if federal programs prioritize large automakers, limiting broader economic recovery in impacted communities."
+    ],
+    "enriched_at": "2025-12-15T02:08:30.450Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

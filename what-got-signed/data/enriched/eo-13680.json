@@ -1,0 +1,40 @@
+{
+  "document_number": "2014-25292",
+  "executive_order_number": "13680",
+  "title": "Ordering the Selected Reserve and Certain Individual Ready Reserve Members of the Armed Forces to Active Duty",
+  "abstract": null,
+  "signing_date": "2014-10-16",
+  "publication_date": "2014-10-23",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2014/10/23/2014-25292/ordering-the-selected-reserve-and-certain-individual-ready-reserve-members-of-the-armed-forces-to",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2014-10-23/pdf/2014-25292.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2014/10/23/2014-25292.txt",
+  "enrichment": {
+    "summary": "This executive order directs selected reserve members and certain individual ready reserve members of the U.S. Armed Forces to active duty to support humanitarian assistance and management efforts related to the Ebola outbreak in West Africa. It authorizes the Defense and Homeland Security Secretaries to activate these military personnel as necessary for the effective conduct of this operation.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "global-health-security",
+      "africa-general"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-reservists-called-to-active-duty"
+      ],
+      "negative_ids": [
+        "military-reservists-called-to-active-duty",
+        "military-spouses"
+      ]
+    },
+    "potential_concerns": [
+      "The activation of Selected Reserve and Individual Ready Reserve members may disrupt the personal and professional lives of military reservists and impose additional stress on their families, including military spouses.",
+      "Mobilizing reservists for humanitarian operations related to the Ebola outbreak could strain military readiness and force structure, potentially impacting the availability of reserves for other defense priorities.",
+      "There may be health risks and stigma for reservists deployed to support Ebola-related operations, which could affect their reintegration and mental health upon return.",
+      "The order’s broad authority to activate reservists might raise concerns about clarity in selection criteria and protections for those deemed 'essential,' possibly leading to perceptions of unfairness or overreach."
+    ],
+    "enriched_at": "2025-12-15T02:13:29.891Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

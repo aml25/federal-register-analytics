@@ -1,0 +1,45 @@
+{
+  "document_number": "2021-22588",
+  "executive_order_number": "14049",
+  "title": "White House Initiative on Advancing Educational Equity, Excellence, and Economic Opportunity for Native Americans and Strengthening Tribal Colleges and Universities",
+  "abstract": null,
+  "signing_date": "2021-10-11",
+  "publication_date": "2021-10-14",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/10/14/2021-22588/white-house-initiative-on-advancing-educational-equity-excellence-and-economic-opportunity-for",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-10-14/pdf/2021-22588.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/10/14/2021-22588.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a White House Initiative to improve educational equity, excellence, and economic opportunities for Native American students, including support for Tribal Colleges and Universities. It directs federal agencies to work together with Tribal Nations to address educational challenges, preserve Native languages and cultures, and enhance career and economic prospects for Native Americans. The order also creates a National Advisory Council to guide these efforts and requires regular reporting on progress.",
+    "theme_ids": [
+      "tribal-colleges-native-american-education",
+      "educational-excellence-initiatives-by-demographic",
+      "racial-equity",
+      "gender-equality",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "native-americans-indigenous-peoples",
+        "alaska-natives",
+        "tribal-communities-reservations",
+        "tribal-college-students-communities",
+        "k-12-students",
+        "women"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The emphasis on interagency coordination may create bureaucratic complexity that delays direct resource delivery to Tribal Colleges and Native American students, limiting the immediate impact of educational equity efforts.",
+      "Efforts to address educational disparities and promote Native language preservation could face challenges due to insufficient funding or lack of culturally competent educators, which would disproportionately affect Native American children and K-12 students.",
+      "The focus on Native American women addresses gender disparities but may require additional safeguards to ensure that interventions do not inadvertently exclude or overlook other vulnerable groups within Tribal communities.",
+      "Data collection improvements aimed at understanding educational attainment gaps might raise concerns regarding data privacy and sovereignty among Tribal Nations if not managed transparently and respectfully.",
+      "The goal to expand career and technical education programs may conflict with some Tribal Nations' priorities if these programs are perceived as insufficiently aligned with cultural values or economic development goals."
+    ],
+    "enriched_at": "2025-12-15T02:31:28.503Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

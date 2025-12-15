@@ -1,0 +1,41 @@
+{
+  "document_number": "2011-21505",
+  "executive_order_number": "13582",
+  "title": "Blocking Property of the Government of Syria and Prohibiting Certain Transactions With Respect to Syria",
+  "abstract": null,
+  "signing_date": "2011-08-17",
+  "publication_date": "2011-08-22",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2011/08/22/2011-21505/blocking-property-of-the-government-of-syria-and-prohibiting-certain-transactions-with-respect-to",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2011-08-22/pdf/2011-21505.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2011/08/22/2011-21505.txt",
+  "enrichment": {
+    "summary": "This executive order blocks all property and interests in property of the Government of Syria that are in or come within U.S. control, and prohibits U.S. persons from engaging in certain transactions with Syria, including new investments and dealing in petroleum products. It aims to respond to violence by the Syrian government by restricting financial support and economic interaction with Syria. The order also authorizes the Treasury Department to enforce these sanctions and related rules.",
+    "theme_ids": [
+      "economic-sanctions",
+      "syria",
+      "sanctions-country-specific",
+      "national-emergencies"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "foreign-government-officials",
+        "corporations-businesses",
+        "energy-sector-workers-oil-gas-coal",
+        "citizens-of-specific-countries-by-eo-designation"
+      ]
+    },
+    "potential_concerns": [
+      "The sanctions may severely restrict economic opportunities and financial assets of Syrian government officials and associated entities, impacting their ability to engage in international commerce (sanctions-country-specific, foreign-government-officials).",
+      "U.S.-based corporations and energy sector workers involved in oil, gas, and petroleum products may suffer financial losses and job insecurity due to restrictions on transactions involving Syrian petroleum (economic-sanctions, corporations-businesses, energy-sector-workers-oil-gas-coal).",
+      "Citizens of Syria (citizens-of-specific-countries-by-eo-designation) could experience unintended humanitarian hardship due to the broad blocking of economic transactions, potentially worsening access to essential goods tied to petroleum and financial services.",
+      "The broad scope of prohibitions, including on financing and facilitation by U.S. persons of foreign transactions, might create enforcement challenges and legal uncertainty for multinational corporations operating in or near Syrian markets (national-emergencies, corporations-businesses)."
+    ],
+    "enriched_at": "2025-12-15T02:07:57.558Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

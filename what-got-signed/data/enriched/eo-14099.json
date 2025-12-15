@@ -1,0 +1,40 @@
+{
+  "document_number": "2023-10407",
+  "executive_order_number": "14099",
+  "title": "Moving Beyond COVID-19 Vaccination Requirements for Federal Workers",
+  "abstract": null,
+  "signing_date": "2023-05-09",
+  "publication_date": "2023-05-15",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/05/15/2023-10407/moving-beyond-covid-19-vaccination-requirements-for-federal-workers",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-05-15/pdf/2023-10407.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/05/15/2023-10407.txt",
+  "enrichment": {
+    "summary": "This executive order ends the federal COVID-19 vaccination requirements and related safety protocols for federal employees and contractors that were put in place during the pandemic. It revokes previous orders mandating vaccination and requires agencies to stop enforcing those policies, reflecting the government’s assessment that the pandemic’s acute phase has passed.",
+    "theme_ids": [
+      "covid-19-response",
+      "vaccine-policy",
+      "federal-workforce-management",
+      "revocation-of-previous-executive-orders"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants",
+        "federal-contractors"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Ending COVID-19 vaccination requirements may increase infection risk among federal employees and contractors, potentially impacting workplace safety and operational continuity.",
+      "Removing vaccination mandates could lead to uneven protection levels across federal workplaces, potentially causing dissent or mistrust among employees who remain concerned about COVID-19 exposure.",
+      "Federal contractors might face challenges negotiating their own workplace safety protocols absent a government mandate, leading to inconsistent standards and possible legal disputes.",
+      "The revocation may be perceived as premature by some public health stakeholders, risking public confidence in broader federal COVID-19 risk management strategies.",
+      "Without vaccination requirements, vulnerable federal employees with chronic illnesses or disabilities may feel less protected, potentially affecting morale and retention."
+    ],
+    "enriched_at": "2025-12-15T02:38:37.104Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

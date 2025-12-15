@@ -1,0 +1,40 @@
+{
+  "document_number": "2015-16334",
+  "executive_order_number": "13699",
+  "title": "Establishing the Advisory Board on Toxic Substances and Worker Health",
+  "abstract": null,
+  "signing_date": "2015-06-26",
+  "publication_date": "2015-07-01",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2015/07/01/2015-16334/establishing-the-advisory-board-on-toxic-substances-and-worker-health",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-07-01/pdf/2015-16334.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/07/01/2015-16334.txt",
+  "enrichment": {
+    "summary": "This executive order establishes an advisory board within the Department of Labor to provide expert guidance on health issues related to toxic substance exposure for workers, especially those filing certain illness compensation claims. The board advises on medical and scientific matters to ensure fair and consistent evaluation of these claims and operates for five years with administrative support from the Department of Labor.",
+    "theme_ids": [
+      "federal-advisory-committees",
+      "worker-rights-protections",
+      "workplace-safety-osha"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "veterans",
+        "energy-sector-workers-oil-gas-coal",
+        "union-members",
+        "individuals-with-chronic-illnesses"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "There may be delays or inconsistencies in claim evaluations if the advisory board's medical guidance is unclear, negatively affecting veterans and energy sector workers filing illness compensation claims.",
+      "Union members and workers with chronic illnesses could face challenges if the advisory board's scientific criteria unintentionally exclude certain conditions or exposures from eligibility.",
+      "Coordination challenges between this advisory board and existing boards (e.g., on radiation and worker health) may lead to administrative burdens and confusion for claimants, primarily impacting veterans.",
+      "The advisory board's intermittent membership and lack of compensation could limit expertise diversity and continuity, potentially reducing the quality of guidance affecting energy sector workers' health protections."
+    ],
+    "enriched_at": "2025-12-15T02:14:40.664Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

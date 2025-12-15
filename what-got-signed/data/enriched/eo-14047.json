@@ -1,0 +1,40 @@
+{
+  "document_number": "2021-20629",
+  "executive_order_number": "14047",
+  "title": "Adding Measles to the List of Quarantinable Communicable Diseases",
+  "abstract": null,
+  "signing_date": "2021-09-17",
+  "publication_date": "2021-09-22",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/09/22/2021-20629/adding-measles-to-the-list-of-quarantinable-communicable-diseases",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-09-22/pdf/2021-20629.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/09/22/2021-20629.txt",
+  "enrichment": {
+    "summary": "This executive order adds measles to the official list of diseases for which quarantine can be enforced to prevent the spread. It modifies a previous executive order to include measles alongside other communicable diseases, helping public health officials control outbreaks more effectively.",
+    "theme_ids": [
+      "quarantine-communicable-disease-control",
+      "public-health-emergency-response"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "patients-general",
+        "healthcare-workers"
+      ],
+      "negative_ids": [
+        "children-minors",
+        "homeless-unhoused-individuals"
+      ]
+    },
+    "potential_concerns": [
+      "Mandatory quarantine enforcement for measles may impose significant burdens on children-minors and their families, including disruptions to schooling and family life.",
+      "Homeless or unhoused individuals may face challenges in complying with quarantine orders due to lack of stable housing, potentially exacerbating health disparities.",
+      "Healthcare workers may experience increased demand and stress managing quarantines and measles outbreaks, which could impact healthcare system capacity.",
+      "Patients diagnosed with measles could face stigmatization or rights concerns related to enforcement of quarantine measures under this order."
+    ],
+    "enriched_at": "2025-12-15T02:31:39.829Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

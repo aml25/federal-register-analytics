@@ -1,0 +1,39 @@
+{
+  "document_number": "2024-31354",
+  "executive_order_number": "14130",
+  "title": "2024 Amendments to the Manual for Courts Martial, United States",
+  "abstract": null,
+  "signing_date": "2024-12-20",
+  "publication_date": "2024-12-27",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2024/12/27/2024-31354/2024-amendments-to-the-manual-for-courts-martial-united-states",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-12-27/pdf/2024-31354.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/12/27/2024-31354.txt",
+  "enrichment": {
+    "summary": "This executive order updates the rules in the Manual for Courts-Martial, the guide used for military legal proceedings. It specifically prescribes new amendments and establishes a regulation for randomly selecting court-martial members to enhance fairness. The order also sets different effective dates for certain amendments and clarifies how they apply to ongoing or prior military legal actions.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "criminal-justice-reform"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "veterans"
+      ],
+      "negative_ids": [
+        "defendants-accused-persons"
+      ]
+    },
+    "potential_concerns": [
+      "The regulation mandating randomized selection of court-martial members may improve fairness but could face resistance from military leadership concerned about the impact on traditional court-martial panel compositions, affecting military-personnel-active-duty.",
+      "Amendments to the Manual for Courts-Martial could create confusion or delays in ongoing cases if not clearly implemented, negatively impacting defendants-accused-persons who might face uncertainty in their legal proceedings.",
+      "Changes intended to enhance criminal-justice reform within the military justice system may unintentionally strain military readiness if extended court-martial processes reduce operational focus or availability of personnel (military-personnel-active-duty).",
+      "Veterans observing amendments reflecting fairness improvements might view the changes positively, but any perceived inconsistency in legal standards' retroactive application could raise concerns about justice and fairness."
+    ],
+    "enriched_at": "2025-12-15T02:39:52.911Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

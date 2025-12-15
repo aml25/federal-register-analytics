@@ -1,0 +1,43 @@
+{
+  "document_number": "2021-17253",
+  "executive_order_number": "14038",
+  "title": "Blocking Property of Additional Persons Contributing to the Situation in Belarus",
+  "abstract": null,
+  "signing_date": "2021-08-09",
+  "publication_date": "2021-08-11",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/08/11/2021-17253/blocking-property-of-additional-persons-contributing-to-the-situation-in-belarus",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-08-11/pdf/2021-17253.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/08/11/2021-17253.txt",
+  "enrichment": {
+    "summary": "This executive order expands U.S. sanctions on individuals and entities linked to the Belarusian government and its efforts to undermine democracy, human rights, and international security. It blocks their property in the U.S., restricts transactions with them, and suspends their entry into the United States to pressure the Belarusian regime to stop harmful actions.",
+    "theme_ids": [
+      "sanctions-country-specific",
+      "belarus",
+      "foreign-election-interference",
+      "human-rights-international",
+      "travel-restrictions-bans"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "citizens-of-specific-countries-by-eo-designation"
+      ],
+      "negative_ids": [
+        "foreign-government-officials",
+        "corporations-businesses",
+        "visa-holders-work-student-tourist"
+      ]
+    },
+    "potential_concerns": [
+      "The expanded sanctions and travel bans targeting Belarusian government officials and entities may exacerbate tensions that restrict legitimate diplomatic and humanitarian engagement with Belarusian citizens (citizens-of-specific-countries-by-eo-designation).",
+      "Restrictions on transactions with Belarus-based corporations and entities could inadvertently harm non-governmental businesses and ordinary workers in Belarus, causing economic hardship beyond targeted officials (corporations-businesses).",
+      "Visa entry suspensions for Belarusian nationals, including students and temporary workers (visa-holders-work-student-tourist), may lead to unintended barriers to educational and cultural exchange that could impede long-term positive international relations.",
+      "The designation and blocking of entities involved in sectors like transportation and energy may disrupt critical infrastructure and civilian access to essential services, indirectly impacting Belarusian civilians and raising human rights concerns (human-rights-international)."
+    ],
+    "enriched_at": "2025-12-15T02:32:30.678Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

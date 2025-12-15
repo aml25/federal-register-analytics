@@ -1,0 +1,39 @@
+{
+  "document_number": "2012-30060",
+  "executive_order_number": "13630",
+  "title": "Establishment of an Interagency Task Force on Commercial Advocacy",
+  "abstract": null,
+  "signing_date": "2012-12-06",
+  "publication_date": "2012-12-11",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2012/12/11/2012-30060/establishment-of-an-interagency-task-force-on-commercial-advocacy",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2012-12-11/pdf/2012-30060.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2012/12/11/2012-30060.txt",
+  "enrichment": {
+    "summary": "This executive order establishes an interagency task force led by the Department of Commerce to coordinate federal support for U.S. businesses competing for international contracts. The task force prioritizes commercial advocacy efforts, fosters cooperation among multiple government agencies, and increases awareness about export opportunities to help U.S. companies succeed in global markets.",
+    "theme_ids": [
+      "economic-competitiveness",
+      "export-import-policy",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "corporations-businesses",
+        "small-business-owners",
+        "entrepreneurs-startups"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The prioritization of commercial advocacy may disproportionately benefit large corporations over small businesses and startups, potentially limiting equitable access to federal export support.",
+      "Increased coordination among multiple agencies could lead to bureaucratic delays or inconsistent messaging that may confuse or burden small businesses seeking commercial advocacy services.",
+      "The focus on supporting firms competing internationally may inadvertently divert federal resources from domestic economic development or other trade priorities impacting smaller or marginalized businesses.",
+      "There is a risk that enhanced advocacy could lead to perceived unfair advantages in foreign procurement processes, potentially causing diplomatic tensions or retaliatory trade measures by foreign governments."
+    ],
+    "enriched_at": "2025-12-15T02:10:18.747Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

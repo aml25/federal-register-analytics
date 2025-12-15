@@ -1,0 +1,52 @@
+{
+  "document_number": "2023-08659",
+  "executive_order_number": "14095",
+  "title": "Increasing Access to High-Quality Care and Supporting Caregivers",
+  "abstract": null,
+  "signing_date": "2023-04-18",
+  "publication_date": "2023-04-21",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/04/21/2023-08659/increasing-access-to-high-quality-care-and-supporting-caregivers",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-04-21/pdf/2023-08659.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/04/21/2023-08659.txt",
+  "enrichment": {
+    "summary": "This executive order aims to improve access to affordable, high-quality child care and long-term care for families, including military and veteran families, while supporting and better compensating the care workforce. It directs federal agencies to take actions to boost job quality, increase care options, support family caregivers, expand training, and reduce barriers for providers and families. The goal is to strengthen the care system to benefit workers, caregivers, and those needing care across the country.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "veterans-healthcare",
+      "caregiving-paid-leave",
+      "workforce-development",
+      "child-welfare-foster-care"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "caregivers-non-military",
+        "military-caregivers",
+        "veterans",
+        "military-personnel-active-duty",
+        "women",
+        "children-minors",
+        "individuals-with-disabilities",
+        "working-age-adults",
+        "medicaid-beneficiaries",
+        "medicare-beneficiaries",
+        "tribal-communities-reservations",
+        "low-income-individuals-families",
+        "federal-employees-civil-servants"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to increase compensation and benefits for care workers, including federally funded early educators and long-term care workers, may face funding constraints that limit reach and effectiveness, particularly impacting low-income families relying on affordable care.",
+      "Enhancing access to child care and long-term care for military personnel and veterans could present logistical challenges, potentially straining existing provider networks and creating disparities in rural and Tribal communities.",
+      "Policies encouraging unionization and improved job quality for care workers could generate resistance from small care businesses and providers, possibly reducing care options or increasing costs for working-age adults needing services.",
+      "Expanding family caregiver support programs risks insufficient mental health and respite care resources, which may leave women caregivers—who represent the majority—continuing to face emotional and financial strain despite the initiatives.",
+      "Mandates for Federal contractors to provide child care and long-term care as supportive services might increase administrative burden and costs, which could inadvertently slow workforce development efforts linked to infrastructure and technical projects."
+    ],
+    "enriched_at": "2025-12-15T02:39:05.058Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

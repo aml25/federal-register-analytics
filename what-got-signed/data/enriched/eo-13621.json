@@ -1,0 +1,45 @@
+{
+  "document_number": "2012-18868",
+  "executive_order_number": "13621",
+  "title": "White House Initiative on Educational Excellence for African Americans",
+  "abstract": null,
+  "signing_date": "2012-07-26",
+  "publication_date": "2012-08-01",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2012/08/01/2012-18868/white-house-initiative-on-educational-excellence-for-african-americans",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2012-08-01/pdf/2012-18868.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2012/08/01/2012-18868.txt",
+  "enrichment": {
+    "summary": "This executive order establishes the White House Initiative on Educational Excellence for African Americans to improve educational outcomes at all levels for African American students. It creates an interagency working group and an advisory commission to coordinate efforts, share best practices, and promote policies that increase access to quality education, reduce disparities, and support college and career readiness.",
+    "theme_ids": [
+      "educational-excellence-initiatives-by-demographic",
+      "hbcus",
+      "k-12-education-policy",
+      "higher-education",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "african-americans-black-americans",
+        "k-12-students",
+        "hbcu-students-communities",
+        "college-university-students",
+        "youth-young-adults",
+        "teachers-educators"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to reduce disproportionate disciplinary referrals and special education placements may face resistance from school administrators, potentially slowing meaningful reform for African American K-12 students and youth.",
+      "The Initiative's broad interagency coordination could lead to overlapping or conflicting policies that hinder timely implementation and dilute targeted support for African American students and educators.",
+      "Focusing resources on African American students and institutions like HBCUs may provoke pushback or claims of inequity from other racial or ethnic groups in education settings.",
+      "The goal of increasing African American college readiness and completion depends heavily on systemic changes in K-12 education quality, which may take years to realize, leaving immediate needs of current students unmet.",
+      "Improving recruitment and retention of African American teachers might be challenged by existing pipeline and structural barriers in educator preparation programs and employment conditions."
+    ],
+    "enriched_at": "2025-12-15T02:11:38.006Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

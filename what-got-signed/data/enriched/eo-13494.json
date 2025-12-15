@@ -1,0 +1,39 @@
+{
+  "document_number": "E9-2483",
+  "executive_order_number": "13494",
+  "title": "Economy in Government Contracting",
+  "abstract": null,
+  "signing_date": "2009-01-30",
+  "publication_date": "2009-02-04",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/02/04/E9-2483/economy-in-government-contracting",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-02-04/pdf/E9-2483.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/02/04/E9-2483.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to cut government contract costs related to activities aimed at influencing employees' union organization and collective bargaining rights. It defines such persuasion costs as unallowable expenses, thereby reducing government spending and promoting efficiency in contracting. The order also ensures agencies consider these rules when issuing contracts and minimizes compliance burdens for contractors.",
+    "theme_ids": [
+      "government-efficiency",
+      "federal-labor-management-relations"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-contractors"
+      ],
+      "negative_ids": [
+        "union-members"
+      ]
+    },
+    "potential_concerns": [
+      "By categorizing persuasion costs related to union organizing as unallowable, federal contractors may reduce or restrict communication aimed at informing employees about their collective bargaining rights, negatively impacting union-members' ability to organize effectively.",
+      "The emphasis on reducing government expenditures and promoting efficiency might lead contractors to curtail legitimate employee engagement activities, potentially diminishing labor-management relations and employee satisfaction.",
+      "Implementation challenges in clearly distinguishing between unallowable persuasive activities and allowable labor-management relations efforts could create compliance burdens and enforcement inconsistencies affecting federal contractors.",
+      "Restricting contractors’ ability to fund certain employee-related communication may unintentionally impair employees’ access to balanced information on organizing rights, potentially skewing the labor environment in favor of management.",
+      "The policy might disproportionately affect unionized sectors within federal contracting, creating uneven labor dynamics that could exacerbate tensions between employees and employers."
+    ],
+    "enriched_at": "2025-12-15T02:03:59.752Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

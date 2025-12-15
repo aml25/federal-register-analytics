@@ -1,0 +1,42 @@
+{
+  "document_number": "2019-22073",
+  "executive_order_number": "13890",
+  "title": "Protecting and Improving Medicare for Our Nation's Seniors",
+  "abstract": null,
+  "signing_date": "2019-10-03",
+  "publication_date": "2019-10-08",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/10/08/2019-22073/protecting-and-improving-medicare-for-our-nations-seniors",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-10-08/pdf/2019-22073.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/10/08/2019-22073.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Department of Health and Human Services to protect and improve the Medicare program by increasing plan choices, encouraging innovation, improving provider reimbursement, reducing regulatory burdens, and combating fraud. It aims to maintain Medicare as a system that provides affordable, high-quality care with more options for seniors, without replacing it with a government-run single-payer system.",
+    "theme_ids": [
+      "medicare",
+      "healthcare-competition-markets",
+      "regulatory-reform-deregulation",
+      "artificial-intelligence",
+      "telehealth-telemedicine"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "medicare-beneficiaries",
+        "healthcare-workers",
+        "seniors-elderly"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to increase Medicare Advantage plan choices and market competition may lead to confusion or complexity for seniors navigating plan options, potentially disadvantaging less health-literate Medicare beneficiaries.",
+      "Reducing regulatory burdens on providers to enable more time with patients might inadvertently lower oversight and increase risks of varying care quality, affecting vulnerable seniors reliant on consistent standards.",
+      "Incorporating artificial intelligence and new technologies to combat fraud and streamline approvals may raise privacy and data security concerns for Medicare beneficiaries and healthcare providers.",
+      "Telehealth expansions, while improving access, could exacerbate disparities for rural communities or seniors with limited technology access or digital literacy.",
+      "The focus on aligning fee-for-service (FFS) Medicare payments with market-based pricing could reduce reimbursements, potentially limiting provider participation and access to care for seniors dependent on traditional Medicare."
+    ],
+    "enriched_at": "2025-12-15T02:28:11.818Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

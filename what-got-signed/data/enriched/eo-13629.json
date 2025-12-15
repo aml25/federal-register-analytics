@@ -1,0 +1,46 @@
+{
+  "document_number": "2012-27002",
+  "executive_order_number": "13629",
+  "title": "Establishing the White House Homeland Security Partnership Council",
+  "abstract": null,
+  "signing_date": "2012-10-26",
+  "publication_date": "2012-11-02",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2012/11/02/2012-27002/establishing-the-white-house-homeland-security-partnership-council",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2012-11-02/pdf/2012-27002.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2012/11/02/2012-27002.txt",
+  "enrichment": {
+    "summary": "This executive order creates a White House Homeland Security Partnership Council to strengthen local partnerships between the federal government and various state, local, tribal, private, and nonprofit groups. The council and its steering committee coordinate efforts to address homeland security challenges more effectively through collaboration, sharing best practices, and promoting local engagement. It sets up a structure to advise on priorities, encourage partnership-building, and improve overall homeland security outcomes across the nation.",
+    "theme_ids": [
+      "homeland-security",
+      "interagency-coordination",
+      "state-local-law-enforcement-support"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "state-governments",
+        "local-governments",
+        "tribal-governments",
+        "law-enforcement-officers-state-local",
+        "nonprofit-organizations",
+        "small-business-owners",
+        "urban-communities",
+        "tribal-communities-reservations",
+        "disaster-affected-communities"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Coordination challenges among diverse local, tribal, and state entities could delay timely homeland security responses, affecting disaster-affected and urban communities.",
+      "Smaller nonprofit organizations and small business owners might face burdens adapting to federal partnership procedures or resource allocation decisions favoring larger entities.",
+      "Tribal governments and tribal communities may experience insufficient representation or culturally insensitive policies due to the predominance of federal-state-local coordination frameworks.",
+      "Information sharing within the council may raise privacy and civil liberties concerns for local populations, particularly in communities with historically tense relations with law enforcement.",
+      "The focus on law enforcement partnerships could unintentionally marginalize community-based organizations not primarily affiliated with security, thus limiting broader community resilience building."
+    ],
+    "enriched_at": "2025-12-15T02:10:28.136Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

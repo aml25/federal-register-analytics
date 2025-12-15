@@ -1,0 +1,43 @@
+{
+  "document_number": "2016-31922",
+  "executive_order_number": "13757",
+  "title": "Taking Additional Steps to Address the National Emergency With Respect to Significant Malicious Cyber- Enabled Activities",
+  "abstract": null,
+  "signing_date": "2016-12-28",
+  "publication_date": "2017-01-03",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/01/03/2016-31922/taking-additional-steps-to-address-the-national-emergency-with-respect-to-significant-malicious",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-01-03/pdf/2016-31922.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/01/03/2016-31922.txt",
+  "enrichment": {
+    "summary": "This executive order expands the U.S. government's authority to block the property and interests of individuals and entities involved in significant malicious cyber activities that threaten national security, the economy, or democratic processes, including election interference. It updates a previous order to include additional cyber-enabled threats and authorizes Treasury, in coordination with other agencies, to manage and adjust these sanctions as needed.",
+    "theme_ids": [
+      "cybersecurity-national-security",
+      "critical-infrastructure-protection",
+      "economic-sanctions",
+      "foreign-election-interference",
+      "national-emergencies"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "cybersecurity-professionals",
+        "working-age-adults"
+      ],
+      "negative_ids": [
+        "corporations-businesses",
+        "citizens-of-specific-countries-by-eo-designation"
+      ]
+    },
+    "potential_concerns": [
+      "The expanded sanctions may inadvertently restrict the operations of US-based corporations engaged in international trade or technology development due to broad definitions of cyber-enabled activities, potentially impacting working-age adults employed in those sectors.",
+      "Targeted foreign nationals identified in sanctions risk diplomatic tensions or retaliation that could complicate cybersecurity cooperation and foreign policy efforts.",
+      "There is potential for overreach or errors in designation, which might lead to wrongful blocking of property, harming corporations/businesses and undermining trust in government sanctions policies.",
+      "Efforts to block election interference may create conflicts regarding freedom of information and cross-border data flows, affecting cybersecurity professionals balancing security and privacy concerns."
+    ],
+    "enriched_at": "2025-12-15T02:16:38.185Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

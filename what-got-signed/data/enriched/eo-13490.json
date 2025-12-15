@@ -1,0 +1,39 @@
+{
+  "document_number": "E9-1719",
+  "executive_order_number": "13490",
+  "title": "Ethics Commitments by Executive Branch Personnel",
+  "abstract": null,
+  "signing_date": "2009-01-21",
+  "publication_date": "2009-01-26",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/01/26/E9-1719/ethics-commitments-by-executive-branch-personnel",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-01-26/pdf/E9-1719.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/01/26/E9-1719.txt",
+  "enrichment": {
+    "summary": "This executive order requires all Executive Branch appointees starting from January 20, 2009, to sign an ethics pledge restricting their acceptance of gifts from lobbyists and limiting their ability to participate in government matters involving their former employers or clients. It establishes rules to prevent conflicts of interest, regulates post-government lobbying activities, and sets enforcement mechanisms for violations. The order also outlines administrative responsibilities to ensure compliance with these ethics commitments.",
+    "theme_ids": [
+      "ethics-lobbying-rules",
+      "federal-workforce-management",
+      "federal-hiring"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "political-appointees"
+      ],
+      "negative_ids": [
+        "corporate-executives-officers"
+      ]
+    },
+    "potential_concerns": [
+      "The ethics pledge may restrict the ability of political appointees with prior corporate or lobbying backgrounds to effectively leverage their expertise, potentially limiting the talent pool for executive branch positions (theme: federal-hiring).",
+      "Lobbyists and former executives subject to the revolving door bans could face career limitations and loss of income opportunities due to extended restrictions on their participation and post-government lobbying (theme: ethics-lobbying-rules).",
+      "Complex enforcement and waiver mechanisms may lead to inconsistent application or perceived favoritism, undermining trust among political appointees and external stakeholders (theme: federal-workforce-management).",
+      "The broad definition of covered activities and lengthy bans might discourage qualified candidates from entering government service, impacting government effectiveness and diversity of experience (theme: federal-hiring)."
+    ],
+    "enriched_at": "2025-12-15T02:04:33.373Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "document_number": "2012-20259",
+  "executive_order_number": "13623",
+  "title": "Preventing and Responding to Violence Against Women and Girls Globally",
+  "abstract": null,
+  "signing_date": "2012-08-10",
+  "publication_date": "2012-08-16",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2012/08/16/2012-20259/preventing-and-responding-to-violence-against-women-and-girls-globally",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2012-08-16/pdf/2012-20259.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2012/08/16/2012-20259.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a coordinated, multi-agency U.S. government strategy to prevent and respond to violence against women and girls globally. It creates an Interagency Working Group led by the Secretary of State and USAID to implement, monitor, and evaluate efforts to address gender-based violence internationally through enhanced coordination, data-driven programming, and engagement with global partners.",
+    "theme_ids": [
+      "gender-equality",
+      "violence-against-women",
+      "interagency-coordination",
+      "global-development",
+      "human-rights-international"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "women",
+        "domestic-violence-survivors",
+        "human-trafficking-victims",
+        "international-aid-recipients"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The comprehensive interagency coordination may lead to bureaucratic delays that reduce the timeliness and effectiveness of support offered to women and girls experiencing violence globally.",
+      "Increased data collection efforts to monitor gender-based violence could risk breaching privacy or retraumatizing survivors, particularly domestic violence survivors and human trafficking victims, if not managed sensitively and ethically.",
+      "Countries receiving U.S. aid under this strategy might perceive external influence on their social policies, potentially causing diplomatic tension with foreign governments and affecting international cooperation.",
+      "Emphasizing multi-sector and multi-national partnerships risks inconsistent implementation of prevention and response programs that may inadvertently exclude marginalized groups or fail to address local cultural nuances critical to effectiveness.",
+      "Reliance on availability of appropriations may limit sustained support to international aid recipients, undermining long-term prevention and response efforts critical to addressing ongoing gender-based violence."
+    ],
+    "enriched_at": "2025-12-15T02:11:20.923Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

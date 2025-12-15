@@ -1,0 +1,45 @@
+{
+  "document_number": "2018-15299",
+  "executive_order_number": "13844",
+  "title": "Establishment of the Task Force on Market Integrity and Consumer Fraud",
+  "abstract": null,
+  "signing_date": "2018-07-11",
+  "publication_date": "2018-07-16",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/07/16/2018-15299/establishment-of-the-task-force-on-market-integrity-and-consumer-fraud",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-07-16/pdf/2018-15299.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/07/16/2018-15299.txt",
+  "enrichment": {
+    "summary": "This executive order creates a Task Force within the Department of Justice to coordinate efforts among federal, state, local, and tribal authorities to investigate and prosecute various types of fraud, especially fraud against the government and consumers. The Task Force provides guidance, makes recommendations on enforcement initiatives, fosters cooperation among agencies, and addresses financial crimes including digital currency fraud and health care fraud.",
+    "theme_ids": [
+      "consumer-fraud-market-integrity",
+      "corporate-fraud-white-collar-crime",
+      "cryptocurrency-digital-assets",
+      "interagency-coordination",
+      "federal-law-enforcement"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "consumers",
+        "cryptocurrency-digital-asset-holders",
+        "veterans",
+        "seniors-elderly"
+      ],
+      "negative_ids": [
+        "corporations-businesses",
+        "corporate-executives-officers"
+      ]
+    },
+    "potential_concerns": [
+      "Enhanced enforcement against corporate fraud and digital currency fraud could lead to increased compliance costs and legal burdens for corporations and corporate executives.",
+      "Consumers, especially seniors and veterans, might benefit from improved fraud protections but could also face restricted access or increased scrutiny in purchasing digital assets.",
+      "Increased coordination among federal, state, local, and tribal authorities might lead to inconsistent enforcement standards or jurisdictional conflicts affecting businesses operating across multiple regions.",
+      "Cryptocurrency and digital asset holders may experience heightened regulatory scrutiny that could inadvertently stifle innovation or market participation."
+    ],
+    "enriched_at": "2025-12-15T02:27:49.549Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "document_number": "E9-25268",
+  "executive_order_number": "13515",
+  "title": "Increasing Participation of Asian Americans and Pacific Islanders in Federal Programs",
+  "abstract": null,
+  "signing_date": "2009-10-14",
+  "publication_date": "2009-10-19",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/10/19/E9-25268/increasing-participation-of-asian-americans-and-pacific-islanders-in-federal-programs",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-10-19/pdf/E9-25268.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/10/19/E9-25268.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a presidential advisory commission and a White House initiative to improve the participation of Asian Americans and Pacific Islanders (AAPIs) in federal programs. It aims to address challenges faced by AAPI communities, support AAPI-owned businesses, enhance access to resources, and promote research and data collection to better serve these diverse populations.",
+    "theme_ids": [
+      "dei-diversity-equity-inclusion",
+      "federal-advisory-committees",
+      "small-business-support",
+      "workforce-development",
+      "educational-excellence-initiatives-by-demographic"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "asian-americans",
+        "native-hawaiian-and-pacific-islanders",
+        "small-business-owners",
+        "college-university-students",
+        "low-income-individuals-families",
+        "uninsured-individuals"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to increase participation of AAPI small-business owners in federal programs may overlook specific subgroups with language barriers, limiting equitable access despite targeted outreach.",
+      "Data collection and research initiatives risk reinforcing stereotypes or misrepresentations if AAPI subpopulations are not accurately disaggregated and consulted, potentially exacerbating disparities.",
+      "The focus on federal program participation might unintentionally prioritize resources toward more visible or established AAPI communities, leaving low-income and underserved subgroups marginalized.",
+      "Educational initiatives aimed at improving college enrollment for Pacific Islanders may face challenges due to insufficient coordination with existing state and local educational programs.",
+      "Expanding access to healthcare-related federal programs for uninsured AAPI individuals could be complicated by administrative burdens or cultural barriers, limiting intended improvements in health outcomes."
+    ],
+    "enriched_at": "2025-12-15T01:57:43.940Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

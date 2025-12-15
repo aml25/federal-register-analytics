@@ -1,0 +1,42 @@
+{
+  "document_number": "2010-29579",
+  "executive_order_number": "13559",
+  "title": "Fundamental Principles and Policymaking Criteria for Partnerships With Faith-Based and Other Neighborhood Organizations",
+  "abstract": null,
+  "signing_date": "2010-11-17",
+  "publication_date": "2010-11-22",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2010/11/22/2010-29579/fundamental-principles-and-policymaking-criteria-for-partnerships-with-faith-based-and-other",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2010-11-22/pdf/2010-29579.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2010/11/22/2010-29579.txt",
+  "enrichment": {
+    "summary": "This executive order updates rules that guide how federal agencies work with faith-based and neighborhood organizations. It ensures these organizations can compete fairly for federal funding to provide social services without discrimination, while keeping government programs consistent with constitutional protections. The order also establishes an interagency group to coordinate and ensure uniform implementation of these policies across the federal government.",
+    "theme_ids": [
+      "faith-based-initiatives",
+      "religious-liberty",
+      "civil-rights-enforcement",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "faith-based-communities",
+        "nonprofit-organizations",
+        "low-income-individuals-families",
+        "individuals-experiencing-poverty"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "There may be challenges in ensuring that faith-based organizations receiving federal funds do not discriminate against beneficiaries on the basis of religion, potentially impacting individuals-experiencing-poverty who rely on these social services.",
+      "The order's provisions allowing faith-based organizations to maintain religious symbols and practices while receiving federal aid may raise concerns related to the Establishment Clause and perceived government endorsement of religion.",
+      "Ensuring consistent and uniform implementation across multiple federal agencies may be difficult, potentially resulting in unequal access or protections for low-income individuals and families depending on the agency administering the aid.",
+      "Referral requirements for beneficiaries objecting to religious character of service providers might delay or complicate access to timely social services for vulnerable populations such as individuals-experiencing-poverty.",
+      "Faith-based organizations might struggle to separate explicitly religious activities from federally funded social services, risking legal challenges or funding disruptions."
+    ],
+    "enriched_at": "2025-12-15T02:05:53.826Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

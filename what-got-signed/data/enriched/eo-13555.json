@@ -1,0 +1,43 @@
+{
+  "document_number": "2010-27004",
+  "executive_order_number": "13555",
+  "title": "White House Initiative on Educational Excellence for Hispanics",
+  "abstract": null,
+  "signing_date": "2010-10-19",
+  "publication_date": "2010-10-22",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2010/10/22/2010-27004/white-house-initiative-on-educational-excellence-for-hispanics",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2010-10-22/pdf/2010-27004.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2010/10/22/2010-27004.txt",
+  "enrichment": {
+    "summary": "This executive order establishes the White House Initiative on Educational Excellence for Hispanics to improve educational opportunities and outcomes for Hispanic students and adults across the United States. It sets up an initiative within the Department of Education, creates an advisory commission, and promotes collaboration among federal agencies and community partners to support Hispanic educational success from early childhood through adulthood.",
+    "theme_ids": [
+      "educational-excellence-initiatives-by-demographic",
+      "k-12-education-policy",
+      "higher-education",
+      "workforce-development",
+      "federal-advisory-committees"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "hispanic-latino-americans",
+        "k-12-students",
+        "college-university-students",
+        "working-age-adults"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Implementation may unevenly benefit Hispanic students in urban or well-resourced areas while rural or underserved Hispanic communities face persistent barriers, limiting the overall equity impact.",
+      "Efforts to prioritize Hispanic-serving institutions and students might inadvertently cause perceived or actual resource competition with non-Hispanic students and institutions, raising concerns about fairness.",
+      "The focus on bilingualism and English-language acquisition programs might not adequately address the diversity within the Hispanic community including different national origins and language dialects, limiting program effectiveness.",
+      "The Advisory Commission and Interagency Working Group structure may result in bureaucratic delays or insufficient coordination, reducing the initiative’s ability to quickly address urgent educational challenges affecting Hispanic youth and adults.",
+      "Adult Hispanic learners may face challenges in accessing career and technical education or adult literacy programs due to limited local program availability or awareness, limiting the initiative’s success in workforce development."
+    ],
+    "enriched_at": "2025-12-15T02:06:23.631Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

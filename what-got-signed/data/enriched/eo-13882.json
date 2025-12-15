@@ -1,0 +1,47 @@
+{
+  "document_number": "2019-16383",
+  "executive_order_number": "13882",
+  "title": "Blocking Property and Suspending Entry of Certain Persons Contributing to the Situation in Mali",
+  "abstract": null,
+  "signing_date": "2019-07-26",
+  "publication_date": "2019-07-30",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/07/30/2019-16383/blocking-property-and-suspending-entry-of-certain-persons-contributing-to-the-situation-in-mali",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-07-30/pdf/2019-16383.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/07/30/2019-16383.txt",
+  "enrichment": {
+    "summary": "This executive order blocks the assets and restricts the entry into the United States of individuals or entities that are involved in actions undermining peace, security, and stability in Mali. It targets those who threaten the 2015 peace agreement, engage in terrorist activities, human rights abuses, trafficking, or corruption related to Mali. The order aims to address these threats by imposing economic sanctions and travel bans to protect U.S. national security and foreign policy interests.",
+    "theme_ids": [
+      "sanctions-country-specific",
+      "mali",
+      "national-emergencies",
+      "human-rights-international",
+      "travel-restrictions-bans"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "international-organizations",
+        "foreign-governments",
+        "foreign-nationals-general"
+      ],
+      "negative_ids": [
+        "citizens-of-specific-countries-by-eo-designation",
+        "visa-holders-work-student-tourist",
+        "human-trafficking-victims",
+        "terrorism-victims-survivors",
+        "refugees"
+      ]
+    },
+    "potential_concerns": [
+      "The travel restrictions and asset blocks on Malian individuals involved in destabilizing activities may unintentionally restrict legitimate humanitarian workers and diplomats associated with international organizations operating in Mali.",
+      "Sanctions targeting persons involved in trafficking or corruption could inadvertently harm refugees, asylum seekers, and human trafficking victims by restricting aid flows or complicating their legal pathways to protection.",
+      "The order's broad prohibitions on entry and property transactions for certain Malian nationals and associated entities risk diplomatic tensions with foreign governments and could impede cooperative regional security efforts.",
+      "Visa holders from Mali, including students and workers, may face abrupt entry suspensions that disrupt educational and economic opportunities without recourse, raising concerns about fairness and due process."
+    ],
+    "enriched_at": "2025-12-15T02:29:00.822Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

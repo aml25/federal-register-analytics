@@ -1,0 +1,50 @@
+{
+  "document_number": "2018-27515",
+  "executive_order_number": "13853",
+  "title": "Establishing the White House Opportunity and Revitalization Council",
+  "abstract": null,
+  "signing_date": "2018-12-12",
+  "publication_date": "2018-12-18",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/12/18/2018-27515/establishing-the-white-house-opportunity-and-revitalization-council",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-12-18/pdf/2018-27515.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/12/18/2018-27515.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a White House Opportunity and Revitalization Council to coordinate federal efforts to promote investment and economic growth in economically distressed communities, including designated Opportunity Zones. The Council brings together various federal agencies to streamline regulations, support local governments, encourage entrepreneurship, improve education, housing, and workforce development to revitalize these areas.",
+    "theme_ids": [
+      "opportunity-zones-distressed-communities",
+      "housing-policy-affordable-housing",
+      "workforce-development",
+      "k-12-education-policy",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "low-income-individuals-families",
+        "urban-communities",
+        "tribal-communities-reservations",
+        "opportunity-zone-residents",
+        "small-business-owners",
+        "entrepreneurs-startups",
+        "k-12-students",
+        "hbcu-students-communities",
+        "tribal-college-students-communities",
+        "public-school-communities",
+        "working-age-adults"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The focus on Opportunity Zones may lead to uneven investment, benefiting some urban and tribal communities while leaving others behind, potentially exacerbating economic disparities in low-income individuals and families.",
+      "Efforts to streamline regulations could inadvertently reduce environmental or labor protections, negatively impacting small business owners and working-age adults through weakened oversight.",
+      "There is a risk that emphasis on private investment might encourage gentrification, potentially displacing low-income residents and opportunity zone residents from urban communities targeted for revitalization.",
+      "Coordination across multiple federal agencies might lead to bureaucratic delays or inconsistent implementation, limiting the intended support to K-12 students, HBCU and tribal college communities, and public school communities in economically distressed areas.",
+      "Workforce development initiatives may not adequately address the specific needs of diverse communities such as tribal reservations, risking ineffective programming that fails to improve employment outcomes for those working-age adults most in need."
+    ],
+    "enriched_at": "2025-12-15T02:26:50.119Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

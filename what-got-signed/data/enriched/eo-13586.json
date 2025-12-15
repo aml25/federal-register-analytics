@@ -1,0 +1,39 @@
+{
+  "document_number": "2011-26574",
+  "executive_order_number": "13586",
+  "title": "Establishing an Emergency Board to Investigate Disputes Between Certain Railroads Represented by the National Carriers' Conference Committee of the National Railway Labor Conference and Their Employees Represented by Certain Labor Organizations",
+  "abstract": null,
+  "signing_date": "2011-10-06",
+  "publication_date": "2011-10-12",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2011/10/12/2011-26574/establishing-an-emergency-board-to-investigate-disputes-between-certain-railroads-represented-by-the",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2011-10-12/pdf/2011-26574.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2011/10/12/2011-26574.txt",
+  "enrichment": {
+    "summary": "This executive order establishes an Emergency Board to investigate labor disputes between certain railroads and their employees, aiming to prevent a disruption of essential interstate rail transportation. The Board will investigate the disputes and report to the President within 30 days, during which time labor conditions must remain unchanged unless both parties agree.",
+    "theme_ids": [
+      "federal-labor-management-relations",
+      "transportation-infrastructure"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "union-members",
+        "transportation-workers"
+      ],
+      "negative_ids": [
+        "large-corporation-employees"
+      ]
+    },
+    "potential_concerns": [
+      "The establishment of the Emergency Board may delay resolution of labor disputes, potentially prolonging uncertainty and stress for union members and transportation workers.",
+      "Maintaining status quo labor conditions during the investigation might limit workers' ability to negotiate improved terms, possibly leading to worker dissatisfaction or unrest.",
+      "Large corporation employees, particularly railroad management, may face operational constraints and increased costs resulting from the board’s intervention, impacting business performance.",
+      "There is a risk that the board's investigation and recommendations may not fully address complex underlying labor issues, causing recurring disputes that disrupt transportation infrastructure."
+    ],
+    "enriched_at": "2025-12-15T02:07:22.857Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

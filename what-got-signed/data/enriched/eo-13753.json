@@ -1,0 +1,36 @@
+{
+  "document_number": "2016-30272",
+  "executive_order_number": "13753",
+  "title": "Amending the Order of Succession in the Department of Homeland Security",
+  "abstract": null,
+  "signing_date": "2016-12-09",
+  "publication_date": "2016-12-14",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2016/12/14/2016-30272/amending-the-order-of-succession-in-the-department-of-homeland-security",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2016-12-14/pdf/2016-30272.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2016/12/14/2016-30272.txt",
+  "enrichment": {
+    "summary": "This executive order updates the line of officials who can take over as Secretary of Homeland Security if the current Secretary is unable to perform their duties. It replaces a previous order to clarify the order of succession within the Department of Homeland Security.",
+    "theme_ids": [
+      "homeland-security",
+      "order-of-succession",
+      "federal-law-enforcement"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The order of succession may empower officials who lack extensive operational experience in homeland security roles, potentially impacting the effectiveness of emergency response and border management.",
+      "Changes in succession could create uncertainty or delays in leadership during critical incidents, affecting public safety and federal law enforcement coordination.",
+      "If an acting Secretary is appointed from further down the succession list, there might be diminished authority or legitimacy perceived by federal agencies and external partners, which could undermine homeland security efforts.",
+      "This executive order does not directly address diversity or inclusion in leadership succession, potentially perpetuating existing representational imbalances within key DHS leadership positions.",
+      "The expanded discretion granted to the President to depart from the specified succession order might raise concerns of politicization of DHS leadership impacting the stability and independence of homeland security operations."
+    ],
+    "enriched_at": "2025-12-15T02:17:12.422Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

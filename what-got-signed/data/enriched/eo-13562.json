@@ -1,0 +1,44 @@
+{
+  "document_number": "2010-33169",
+  "executive_order_number": "13562",
+  "title": "Recruiting and Hiring Students and Recent Graduates",
+  "abstract": null,
+  "signing_date": "2010-12-27",
+  "publication_date": "2010-12-30",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2010/12/30/2010-33169/recruiting-and-hiring-students-and-recent-graduates",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2010-12-30/pdf/2010-33169.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2010/12/30/2010-33169.txt",
+  "enrichment": {
+    "summary": "This executive order establishes the Pathways Programs to improve recruiting and hiring of students and recent graduates into the federal workforce. It creates Internship and Recent Graduates Programs to provide paid work experience and clear career paths in the federal government, simplifies hiring rules for these programs, and sets guidance for agencies to develop and convert participants into permanent federal employees.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "civil-service-reform",
+      "federal-hiring",
+      "workforce-development",
+      "dei-diversity-equity-inclusion"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "college-university-students",
+        "graduate-professional-students",
+        "youth-young-adults",
+        "veterans",
+        "federal-employees-civil-servants"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The order's reliance on excepted service appointments under Schedule D may lead to inconsistent application of competitive hiring and potential perceptions of reduced fairness among youth-young-adults and veterans seeking federal employment, impacting workforce-management and civil-service-reform goals.",
+      "Despite the emphasis on diversity, equity, and inclusion, insufficient outreach or support for marginalized demographic groups within college-university-students and graduate-professional-students populations may limit equitable access to Pathways Programs.",
+      "The conversion process from internship or recent graduate status to permanent federal employment may create uncertainty for participants (including veterans) about job security and career stability, which could affect workforce retention and development.",
+      "The simplification of hiring rules for Pathways Programs may unintentionally bypass traditional merit-based assessments, leading to concerns about meritocracy and the quality of hires by federal agencies.",
+      "Federal employees designated as Pathways Programs Officers may face challenges balancing program administration and ensuring genuine career development opportunities, potentially impacting the effectiveness of workforce-development initiatives."
+    ],
+    "enriched_at": "2025-12-15T02:05:29.290Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

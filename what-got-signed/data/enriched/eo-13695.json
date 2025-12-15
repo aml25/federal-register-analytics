@@ -1,0 +1,40 @@
+{
+  "document_number": "2015-13055",
+  "executive_order_number": "13695",
+  "title": "Termination of Emergency With Respect to the Risk of Nuclear Proliferation Created by the Accumulation of a Large Volume of Weapons-Usable Fissile Material in the Territory of the Russian Federation",
+  "abstract": null,
+  "signing_date": "2015-05-26",
+  "publication_date": "2015-05-28",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2015/05/28/2015-13055/termination-of-emergency-with-respect-to-the-risk-of-nuclear-proliferation-created-by-the",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-05-28/pdf/2015-13055.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/05/28/2015-13055.txt",
+  "enrichment": {
+    "summary": "This executive order formally ends the national emergency related to the risk of nuclear proliferation due to the large stockpile of weapons-usable fissile material in Russia. It recognizes that successful agreements between the U.S. and Russia have significantly reduced this risk, and it revokes the previous order that declared the emergency.",
+    "theme_ids": [
+      "weapons-of-mass-destruction-wmd-proliferation",
+      "russia",
+      "national-emergencies",
+      "international-agreements-treaties"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "veterans",
+        "military-personnel-active-duty",
+        "foreign-governments"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Terminating the emergency may reduce ongoing vigilance and resources dedicated to monitoring weapons-usable fissile material, potentially increasing proliferation risks that could impact veterans and military personnel tasked with national security.",
+      "Foreign governments, particularly U.S. allies, may view the termination as a premature easing of pressure on Russia, raising concerns about international arms control stability.",
+      "The order’s revocation of prior restrictions may unintentionally embolden Russia or other actors to relax compliance, which could negatively affect global nonproliferation efforts and U.S. military strategic interests.",
+      "Veterans and active-duty military personnel might be indirectly affected if the shift in policy reduces funding or operational readiness connected to nuclear threat mitigation."
+    ],
+    "enriched_at": "2025-12-15T02:15:14.316Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

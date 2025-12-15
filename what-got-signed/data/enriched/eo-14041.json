@@ -1,0 +1,42 @@
+{
+  "document_number": "2021-19579",
+  "executive_order_number": "14041",
+  "title": "White House Initiative on Advancing Educational Equity, Excellence, and Economic Opportunity Through Historically Black Colleges and Universities",
+  "abstract": null,
+  "signing_date": "2021-09-03",
+  "publication_date": "2021-09-09",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/09/09/2021-19579/white-house-initiative-on-advancing-educational-equity-excellence-and-economic-opportunity-through",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-09-09/pdf/2021-19579.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/09/09/2021-19579.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a White House Initiative to support Historically Black Colleges and Universities (HBCUs) by improving their access to federal programs, increasing funding opportunities, and promoting educational equity and economic opportunity. It creates an Executive Director-led initiative within the Department of Education, establishes a President's Board of Advisors on HBCUs, and coordinates government-wide efforts to address challenges these institutions face, including those highlighted by the COVID-19 pandemic.",
+    "theme_ids": [
+      "hbcus",
+      "higher-education",
+      "racial-equity",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "hbcu-students-communities",
+        "african-americans-black-americans",
+        "low-income-individuals-families",
+        "college-university-students"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The initiative’s emphasis on expanding federal funding and resources to HBCUs may raise concerns about equitable distribution among other minority-serving institutions, potentially sparking debates about fairness for non-HBCU students and communities.",
+      "Efforts to break down barriers and increase access to federal programs for HBCUs might unintentionally create administrative burdens or compliance challenges for smaller institutions with limited capacity, affecting their ability to fully benefit.",
+      "The focus on COVID-19 recovery and modernization of infrastructure could unintentionally prioritize certain HBCUs over others, creating disparities among institutions serving diverse urban, rural, and suburban communities.",
+      "Coordination of multiple federal agencies through the Interagency Working Group may lead to bureaucratic delays or conflicting priorities, potentially slowing critical support to HBCU students and faculty, especially those from low-income backgrounds.",
+      "Efforts to promote diversity among educators and administrators may face resistance within institutions or communities, which could affect implementation and the lived experience of African American students at HBCUs."
+    ],
+    "enriched_at": "2025-12-15T02:32:14.450Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

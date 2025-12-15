@@ -5,71 +5,68 @@
  * themes and populations. It lives in what-got-signed/data/ for deployment.
  */
 
-import { readFile, appendFile } from 'node:fs/promises';
-import { join, dirname } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { readFile, writeFile } from 'node:fs/promises';
 import { slugify } from './utils.js';
 import { TAXONOMY_FILE } from './config.js';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-// Guide file stays in metadata-config for documentation and suggestions
-export const TAXONOMY_GUIDE_FILE = join(__dirname, '..', 'metadata-config', 'executive_order_taxonomy_guide.md');
 
 // =============================================================================
 // TAXONOMY TYPES
 // =============================================================================
 
+export interface TaxonomyEntry {
+  name: string;
+  definition: string;
+}
+
 export interface TaxonomyData {
+  themes: {
+    national_security_defense: TaxonomyEntry[];
+    immigration: TaxonomyEntry[];
+    economy_trade: TaxonomyEntry[];
+    energy_environment: TaxonomyEntry[];
+    healthcare: TaxonomyEntry[];
+    civil_rights_equity: TaxonomyEntry[];
+    education: TaxonomyEntry[];
+    government_operations: TaxonomyEntry[];
+    foreign_policy: TaxonomyEntry[];
+    country_region_specific: TaxonomyEntry[];
+    law_enforcement_justice: TaxonomyEntry[];
+    technology_innovation: TaxonomyEntry[];
+    infrastructure: TaxonomyEntry[];
+    labor_workforce: TaxonomyEntry[];
+    agriculture_rural: TaxonomyEntry[];
+    disaster_emergency: TaxonomyEntry[];
+    administrative_procedural: TaxonomyEntry[];
+    social_cultural: TaxonomyEntry[];
+    international_institutions: TaxonomyEntry[];
+  };
   impacted_populations: {
     demographic_groups: {
-      racial_ethnic: string[];
-      gender_identity_sexuality: string[];
-      age_groups: string[];
-      religious_groups: string[];
-      disability_status: string[];
+      racial_ethnic: TaxonomyEntry[];
+      gender_identity_sexuality: TaxonomyEntry[];
+      age_groups: TaxonomyEntry[];
+      religious_groups: TaxonomyEntry[];
+      disability_status: TaxonomyEntry[];
     };
-    immigration_status: string[];
+    immigration_status: TaxonomyEntry[];
     employment_sectors: {
-      government: string[];
-      private_sector: string[];
-      industry_specific: string[];
+      government: TaxonomyEntry[];
+      private_sector: TaxonomyEntry[];
+      industry_specific: TaxonomyEntry[];
     };
-    economic_status: string[];
+    economic_status: TaxonomyEntry[];
     geographic_communities: {
-      domestic: string[];
-      regional: string[];
+      domestic: TaxonomyEntry[];
+      regional: TaxonomyEntry[];
     };
     institutional_groups: {
-      education: string[];
-      healthcare: string[];
-      justice_system: string[];
+      education: TaxonomyEntry[];
+      healthcare: TaxonomyEntry[];
+      justice_system: TaxonomyEntry[];
     };
-    special_populations: string[];
-    foreign_populations: string[];
-    organizational_entities: string[];
-  };
-  themes: {
-    national_security_defense: string[];
-    immigration: string[];
-    economy_trade: string[];
-    energy_environment: string[];
-    healthcare: string[];
-    civil_rights_equity: string[];
-    education: string[];
-    government_operations: string[];
-    foreign_policy: string[];
-    country_region_specific: string[];
-    law_enforcement_justice: string[];
-    technology_innovation: string[];
-    infrastructure: string[];
-    labor_workforce: string[];
-    agriculture_rural: string[];
-    disaster_emergency: string[];
-    administrative_procedural: string[];
-    social_cultural: string[];
-    international_institutions: string[];
+    special_populations: TaxonomyEntry[];
+    foreign_populations: TaxonomyEntry[];
+    organizational_entities: TaxonomyEntry[];
   };
   impact_type: string[];
   metadata: {
@@ -78,12 +75,36 @@ export interface TaxonomyData {
     source: string;
     notes: string;
   };
+  suggestions: {
+    themes: ThemeSuggestion[];
+    impacted_populations: PopulationSuggestion[];
+  };
+}
+
+export interface ThemeSuggestion {
+  name: string;
+  suggested_category: string;
+  eo_number: number;
+  eo_title: string;
+  justification: string;
+  suggested_at: string;
+}
+
+export interface PopulationSuggestion {
+  name: string;
+  suggested_category: string;
+  impact_type: string;
+  eo_number: number;
+  eo_title: string;
+  justification: string;
+  suggested_at: string;
 }
 
 export interface TaxonomyItem {
   id: string;
   name: string;
   category: string;
+  definition: string;
 }
 
 // Category labels for display
@@ -147,9 +168,9 @@ export function formatThemesForPrompt(taxonomy: TaxonomyData): string {
     const items = themes[key as keyof typeof themes];
     if (items && items.length > 0) {
       lines.push(`\n### ${label}`);
-      for (const item of items) {
-        const id = slugify(item);
-        lines.push(`- ${id}: ${item}`);
+      for (const entry of items) {
+        const id = slugify(entry.name);
+        lines.push(`- ${id}: ${entry.name}`);
       }
     }
   }
@@ -164,112 +185,82 @@ export function formatPopulationsForPrompt(taxonomy: TaxonomyData): string {
   const lines: string[] = [];
   const pops = taxonomy.impacted_populations;
 
+  const formatEntries = (entries: TaxonomyEntry[]) => {
+    for (const entry of entries) {
+      lines.push(`- ${slugify(entry.name)}: ${entry.name}`);
+    }
+  };
+
   // Demographic Groups
   lines.push('\n### Demographic Groups');
 
   lines.push('\n**Racial/Ethnic:**');
-  for (const item of pops.demographic_groups.racial_ethnic) {
-    lines.push(`- ${slugify(item)}: ${item}`);
-  }
+  formatEntries(pops.demographic_groups.racial_ethnic);
 
   lines.push('\n**Gender Identity & Sexuality:**');
-  for (const item of pops.demographic_groups.gender_identity_sexuality) {
-    lines.push(`- ${slugify(item)}: ${item}`);
-  }
+  formatEntries(pops.demographic_groups.gender_identity_sexuality);
 
   lines.push('\n**Age Groups:**');
-  for (const item of pops.demographic_groups.age_groups) {
-    lines.push(`- ${slugify(item)}: ${item}`);
-  }
+  formatEntries(pops.demographic_groups.age_groups);
 
   lines.push('\n**Religious Groups:**');
-  for (const item of pops.demographic_groups.religious_groups) {
-    lines.push(`- ${slugify(item)}: ${item}`);
-  }
+  formatEntries(pops.demographic_groups.religious_groups);
 
   lines.push('\n**Disability Status:**');
-  for (const item of pops.demographic_groups.disability_status) {
-    lines.push(`- ${slugify(item)}: ${item}`);
-  }
+  formatEntries(pops.demographic_groups.disability_status);
 
   // Immigration Status
   lines.push('\n### Immigration Status');
-  for (const item of pops.immigration_status) {
-    lines.push(`- ${slugify(item)}: ${item}`);
-  }
+  formatEntries(pops.immigration_status);
 
   // Employment Sectors
   lines.push('\n### Employment Sectors');
 
   lines.push('\n**Government:**');
-  for (const item of pops.employment_sectors.government) {
-    lines.push(`- ${slugify(item)}: ${item}`);
-  }
+  formatEntries(pops.employment_sectors.government);
 
   lines.push('\n**Private Sector:**');
-  for (const item of pops.employment_sectors.private_sector) {
-    lines.push(`- ${slugify(item)}: ${item}`);
-  }
+  formatEntries(pops.employment_sectors.private_sector);
 
   lines.push('\n**Industry-Specific:**');
-  for (const item of pops.employment_sectors.industry_specific) {
-    lines.push(`- ${slugify(item)}: ${item}`);
-  }
+  formatEntries(pops.employment_sectors.industry_specific);
 
   // Economic Status
   lines.push('\n### Economic Status');
-  for (const item of pops.economic_status) {
-    lines.push(`- ${slugify(item)}: ${item}`);
-  }
+  formatEntries(pops.economic_status);
 
   // Geographic Communities
   lines.push('\n### Geographic Communities');
 
   lines.push('\n**Domestic:**');
-  for (const item of pops.geographic_communities.domestic) {
-    lines.push(`- ${slugify(item)}: ${item}`);
-  }
+  formatEntries(pops.geographic_communities.domestic);
 
   lines.push('\n**Regional:**');
-  for (const item of pops.geographic_communities.regional) {
-    lines.push(`- ${slugify(item)}: ${item}`);
-  }
+  formatEntries(pops.geographic_communities.regional);
 
   // Institutional Groups
   lines.push('\n### Institutional Groups');
 
   lines.push('\n**Education:**');
-  for (const item of pops.institutional_groups.education) {
-    lines.push(`- ${slugify(item)}: ${item}`);
-  }
+  formatEntries(pops.institutional_groups.education);
 
   lines.push('\n**Healthcare:**');
-  for (const item of pops.institutional_groups.healthcare) {
-    lines.push(`- ${slugify(item)}: ${item}`);
-  }
+  formatEntries(pops.institutional_groups.healthcare);
 
   lines.push('\n**Justice System:**');
-  for (const item of pops.institutional_groups.justice_system) {
-    lines.push(`- ${slugify(item)}: ${item}`);
-  }
+  formatEntries(pops.institutional_groups.justice_system);
 
   // Special Populations
   lines.push('\n### Special Populations');
-  for (const item of pops.special_populations) {
-    lines.push(`- ${slugify(item)}: ${item}`);
-  }
+  formatEntries(pops.special_populations);
 
   // Foreign Populations
   lines.push('\n### Foreign Populations');
-  for (const item of pops.foreign_populations) {
-    lines.push(`- ${slugify(item)}: ${item}`);
-  }
+  formatEntries(pops.foreign_populations);
 
   // Organizational Entities
   lines.push('\n### Organizational Entities');
-  for (const item of pops.organizational_entities) {
-    lines.push(`- ${slugify(item)}: ${item}`);
-  }
+  formatEntries(pops.organizational_entities);
 
   return lines.join('\n');
 }
@@ -287,8 +278,8 @@ export function getAllThemeIds(taxonomy: TaxonomyData): Set<string> {
 
   for (const key of Object.keys(themes)) {
     const items = themes[key as keyof typeof themes];
-    for (const item of items) {
-      ids.add(slugify(item));
+    for (const entry of items) {
+      ids.add(slugify(entry.name));
     }
   }
 
@@ -302,41 +293,47 @@ export function getAllPopulationIds(taxonomy: TaxonomyData): Set<string> {
   const ids = new Set<string>();
   const pops = taxonomy.impacted_populations;
 
+  const addIds = (entries: TaxonomyEntry[]) => {
+    for (const entry of entries) {
+      ids.add(slugify(entry.name));
+    }
+  };
+
   // Demographic groups
-  for (const item of pops.demographic_groups.racial_ethnic) ids.add(slugify(item));
-  for (const item of pops.demographic_groups.gender_identity_sexuality) ids.add(slugify(item));
-  for (const item of pops.demographic_groups.age_groups) ids.add(slugify(item));
-  for (const item of pops.demographic_groups.religious_groups) ids.add(slugify(item));
-  for (const item of pops.demographic_groups.disability_status) ids.add(slugify(item));
+  addIds(pops.demographic_groups.racial_ethnic);
+  addIds(pops.demographic_groups.gender_identity_sexuality);
+  addIds(pops.demographic_groups.age_groups);
+  addIds(pops.demographic_groups.religious_groups);
+  addIds(pops.demographic_groups.disability_status);
 
   // Immigration status
-  for (const item of pops.immigration_status) ids.add(slugify(item));
+  addIds(pops.immigration_status);
 
   // Employment sectors
-  for (const item of pops.employment_sectors.government) ids.add(slugify(item));
-  for (const item of pops.employment_sectors.private_sector) ids.add(slugify(item));
-  for (const item of pops.employment_sectors.industry_specific) ids.add(slugify(item));
+  addIds(pops.employment_sectors.government);
+  addIds(pops.employment_sectors.private_sector);
+  addIds(pops.employment_sectors.industry_specific);
 
   // Economic status
-  for (const item of pops.economic_status) ids.add(slugify(item));
+  addIds(pops.economic_status);
 
   // Geographic communities
-  for (const item of pops.geographic_communities.domestic) ids.add(slugify(item));
-  for (const item of pops.geographic_communities.regional) ids.add(slugify(item));
+  addIds(pops.geographic_communities.domestic);
+  addIds(pops.geographic_communities.regional);
 
   // Institutional groups
-  for (const item of pops.institutional_groups.education) ids.add(slugify(item));
-  for (const item of pops.institutional_groups.healthcare) ids.add(slugify(item));
-  for (const item of pops.institutional_groups.justice_system) ids.add(slugify(item));
+  addIds(pops.institutional_groups.education);
+  addIds(pops.institutional_groups.healthcare);
+  addIds(pops.institutional_groups.justice_system);
 
   // Special populations
-  for (const item of pops.special_populations) ids.add(slugify(item));
+  addIds(pops.special_populations);
 
   // Foreign populations
-  for (const item of pops.foreign_populations) ids.add(slugify(item));
+  addIds(pops.foreign_populations);
 
   // Organizational entities
-  for (const item of pops.organizational_entities) ids.add(slugify(item));
+  addIds(pops.organizational_entities);
 
   return ids;
 }
@@ -346,16 +343,16 @@ export function getAllPopulationIds(taxonomy: TaxonomyData): Set<string> {
 // =============================================================================
 
 /**
- * Build a map of theme ID -> { name, category } for lookups
+ * Build a map of theme ID -> { name, category, definition } for lookups
  */
 export function buildThemeLookup(taxonomy: TaxonomyData): Map<string, TaxonomyItem> {
   const lookup = new Map<string, TaxonomyItem>();
 
   for (const [key, items] of Object.entries(taxonomy.themes)) {
     const category = THEME_CATEGORY_LABELS[key] || key;
-    for (const item of items) {
-      const id = slugify(item);
-      lookup.set(id, { id, name: item, category });
+    for (const entry of items) {
+      const id = slugify(entry.name);
+      lookup.set(id, { id, name: entry.name, category, definition: entry.definition });
     }
   }
 
@@ -363,16 +360,16 @@ export function buildThemeLookup(taxonomy: TaxonomyData): Map<string, TaxonomyIt
 }
 
 /**
- * Build a map of population ID -> { name, category } for lookups
+ * Build a map of population ID -> { name, category, definition } for lookups
  */
 export function buildPopulationLookup(taxonomy: TaxonomyData): Map<string, TaxonomyItem> {
   const lookup = new Map<string, TaxonomyItem>();
   const pops = taxonomy.impacted_populations;
 
-  const addToLookup = (items: string[], category: string) => {
-    for (const item of items) {
-      const id = slugify(item);
-      lookup.set(id, { id, name: item, category });
+  const addToLookup = (entries: TaxonomyEntry[], category: string) => {
+    for (const entry of entries) {
+      const id = slugify(entry.name);
+      lookup.set(id, { id, name: entry.name, category, definition: entry.definition });
     }
   };
 
@@ -416,7 +413,7 @@ export function buildPopulationLookup(taxonomy: TaxonomyData): Map<string, Taxon
 }
 
 // =============================================================================
-// APPEND SUGGESTIONS TO MARKDOWN
+// APPEND SUGGESTIONS TO TAXONOMY JSON
 // =============================================================================
 
 export interface TaxonomySuggestion {
@@ -425,31 +422,48 @@ export interface TaxonomySuggestion {
   type: 'theme' | 'population';
   suggestedName: string;
   suggestedCategory: string;
+  impactType?: string;
   justification: string;
 }
 
 /**
- * Append a suggestion to the taxonomy guide markdown file
+ * Append a suggestion to the taxonomy.json file
  */
-export async function appendSuggestionToGuide(suggestion: TaxonomySuggestion): Promise<void> {
+export async function appendSuggestionToTaxonomy(suggestion: TaxonomySuggestion): Promise<void> {
+  // Clear cache to ensure we read the latest
+  clearTaxonomyCache();
+
+  const taxonomy = await loadTaxonomy();
   const timestamp = new Date().toISOString().split('T')[0];
 
-  const entry = `
-### EO ${suggestion.eoNumber}: ${suggestion.suggestedName}
-- **Type:** ${suggestion.type}
-- **Suggested Category:** ${suggestion.suggestedCategory}
-- **EO Title:** ${suggestion.eoTitle}
-- **Justification:** ${suggestion.justification}
-- **Date Suggested:** ${timestamp}
-`;
-
-  // Check if the suggestions section exists, if not add it
-  const content = await readFile(TAXONOMY_GUIDE_FILE, 'utf-8');
-
-  if (!content.includes('## Suggested Additions During Enrichment')) {
-    await appendFile(TAXONOMY_GUIDE_FILE, '\n\n---\n\n## Suggested Additions During Enrichment\n\nThe following tags were suggested by the LLM during enrichment but not found in the taxonomy. Review these for potential inclusion.\n');
+  if (suggestion.type === 'theme') {
+    const themeSuggestion: ThemeSuggestion = {
+      name: suggestion.suggestedName,
+      suggested_category: suggestion.suggestedCategory,
+      eo_number: suggestion.eoNumber,
+      eo_title: suggestion.eoTitle,
+      justification: suggestion.justification,
+      suggested_at: timestamp
+    };
+    taxonomy.suggestions.themes.push(themeSuggestion);
+  } else {
+    const populationSuggestion: PopulationSuggestion = {
+      name: suggestion.suggestedName,
+      suggested_category: suggestion.suggestedCategory,
+      impact_type: suggestion.impactType || 'neutral',
+      eo_number: suggestion.eoNumber,
+      eo_title: suggestion.eoTitle,
+      justification: suggestion.justification,
+      suggested_at: timestamp
+    };
+    taxonomy.suggestions.impacted_populations.push(populationSuggestion);
   }
 
-  await appendFile(TAXONOMY_GUIDE_FILE, entry);
+  // Write back to file
+  await writeFile(TAXONOMY_FILE, JSON.stringify(taxonomy, null, 2));
+
+  // Clear cache again so next load gets fresh data
+  clearTaxonomyCache();
+
   console.log(`    Suggestion saved: ${suggestion.type} "${suggestion.suggestedName}"`);
 }

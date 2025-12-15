@@ -1,0 +1,41 @@
+{
+  "document_number": "2025-15340",
+  "executive_order_number": "14330",
+  "title": "Democratizing Access to Alternative Assets for 401(k) Investors",
+  "abstract": null,
+  "signing_date": "2025-08-07",
+  "publication_date": "2025-08-12",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/08/12/2025-15340/democratizing-access-to-alternative-assets-for-401k-investors",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-12/pdf/2025-15340.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/12/2025-15340.txt",
+  "enrichment": {
+    "summary": "This executive order directs government agencies to make it easier for 401(k) retirement plans to include investments in alternative assets, like private equity and real estate, with the goal of improving returns and diversification for everyday workers. It requires the Department of Labor and the SEC to review and update rules and guidance to reduce legal risks and regulatory barriers that currently limit such investment opportunities.",
+    "theme_ids": [
+      "financial-system-regulation",
+      "retirement-security",
+      "cryptocurrency-digital-assets",
+      "regulatory-reform-deregulation"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "working-age-adults",
+        "middle-class-americans",
+        "investors",
+        "cryptocurrency-digital-asset-holders"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The order's easing of fiduciary standards and reduction of litigation risks may encourage 401(k) plan fiduciaries to include higher-risk alternative assets, potentially exposing middle-class working-age adults to greater financial volatility and losses.",
+      "Changes to SEC accredited investor and qualified purchaser regulations could increase access to complex digital assets for retail investors, including cryptocurrency/digital asset holders, who may lack sufficient expertise to evaluate such risks.",
+      "The broad definition of alternative assets including private equity and infrastructure investments might result in less transparency and liquidity for 401(k) participants, complicating their retirement planning and liquidity needs.",
+      "Reducing regulatory barriers and litigation risks could foster conflicts of interest if fiduciaries prioritize alternative asset managers with higher fees or incentives, potentially diminishing net returns for middle-class investors."
+    ],
+    "enriched_at": "2025-12-15T02:41:41.996Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "document_number": "2020-23780",
+  "executive_order_number": "13957",
+  "title": "Creating Schedule F in the Excepted Service",
+  "abstract": null,
+  "signing_date": "2020-10-21",
+  "publication_date": "2020-10-26",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/10/26/2020-23780/creating-schedule-f-in-the-excepted-service",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-10-26/pdf/2020-23780.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/10/26/2020-23780.txt",
+  "enrichment": {
+    "summary": "This executive order creates a new category of federal positions called Schedule F for jobs involving confidential or policy-related work that are not normally changed during presidential transitions. It allows agencies greater flexibility in hiring and removing employees in these positions by exempting them from some competitive service hiring rules and standard removal procedures. The goal is to improve management and accountability of federal employees in key policy roles.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "civil-service-reform",
+      "schedule-f-political-appointments",
+      "federal-labor-management-relations"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "federal-employees-civil-servants",
+        "union-members",
+        "political-appointees"
+      ]
+    },
+    "potential_concerns": [
+      "The creation of Schedule F may undermine federal employee job security and weaken protections for poor-performing employees, negatively impacting federal-employees-civil-servants by making removals easier and less transparent, raising concerns under federal-labor-management-relations.",
+      "This order risks politicizing the federal workforce by enabling agencies to reclassify career policy positions as Schedule F, thereby increasing political-appointees' discretion to hire or remove employees based on ideological loyalty rather than merit.",
+      "Union-members among federal employees may face reduced bargaining power and diminished collective bargaining rights if Schedule F positions are excluded from union coverage, potentially leading to labor unrest and challenges in federal workforce management.",
+      "The expedited hiring and removal process may decrease impartiality and increase turnover in policy-determining positions, potentially impairing the continuity and expertise within the civil service, thus affecting overall agency effectiveness."
+    ],
+    "enriched_at": "2025-12-15T02:31:04.172Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_number": "2020-23116",
+  "executive_order_number": "13956",
+  "title": "Modernizing America's Water Resource Management and Water Infrastructure",
+  "abstract": null,
+  "signing_date": "2020-10-13",
+  "publication_date": "2020-10-16",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/10/16/2020-23116/modernizing-americas-water-resource-management-and-water-infrastructure",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-10-16/pdf/2020-23116.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/10/16/2020-23116.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to work together more efficiently to improve the management of America's water resources and modernize water infrastructure. It establishes a Water Subcabinet to coordinate efforts on water storage, quality, infrastructure planning, and workforce development to ensure safe and reliable water supplies for current and future generations.",
+    "theme_ids": [
+      "water-infrastructure",
+      "interagency-coordination",
+      "workforce-development",
+      "clean-air-water",
+      "rural-development"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "rural-communities",
+        "tribal-communities-reservations",
+        "agricultural-workers-farmers",
+        "working-age-adults",
+        "environmental-justice-communities"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Improved coordination and consolidation of multiple federal water programs may delay urgent infrastructure upgrades in rural and tribal communities due to bureaucratic realignment.",
+      "Efforts to modernize water infrastructure could inadvertently prioritize large-scale projects over local water needs, potentially disadvantaging environmental justice communities that rely on localized water sources.",
+      "Workforce development programs might not sufficiently reach or represent under-resourced rural and tribal communities, limiting training opportunities for local working-age adults and agricultural workers.",
+      "Market-based voluntary water management practices could create disparities for small farmers and rural communities if they favor larger or more financially capable entities, affecting economic viability.",
+      "Complex regulatory coordination to address multi-agency permitting requirements might increase administrative burdens on tribal governments and agricultural workers involved in water resource projects."
+    ],
+    "enriched_at": "2025-12-15T02:31:10.517Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "document_number": "2023-16636",
+  "executive_order_number": "14104",
+  "title": "Federal Research and Development in Support of Domestic Manufacturing and United States Jobs",
+  "abstract": null,
+  "signing_date": "2023-07-28",
+  "publication_date": "2023-08-02",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/08/02/2023-16636/federal-research-and-development-in-support-of-domestic-manufacturing-and-united-states-jobs",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-08-02/pdf/2023-16636.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/08/02/2023-16636.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to prioritize domestic manufacturing when developing and commercializing new technologies funded by the government. It establishes reporting requirements for how inventions are used and produced, encourages coordination among agencies, and sets guidelines for waivers if manufacturing in the U.S. is not feasible, all to strengthen U.S. competitiveness, jobs, and national security.",
+    "theme_ids": [
+      "defense-industrial-base",
+      "manufacturing-policy",
+      "economic-competitiveness",
+      "science-and-technology-policy",
+      "critical-minerals-supply-chain-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "manufacturing-workers",
+        "small-business-owners",
+        "technology-workers",
+        "union-members"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The prioritization of domestic manufacturing may increase production costs, potentially limiting small businesses' ability to compete effectively in innovation commercialization.",
+      "Strict domestic manufacturing requirements could lead to delays or barriers for technology-workers and manufacturing-workers if supply chains are disrupted or specialized inputs are unavailable domestically.",
+      "The enhanced reporting and waiver processes may create administrative burdens for small-business-owners and technology-workers, possibly discouraging participation in federal R&D programs.",
+      "Union-members could face tensions if domestic manufacturing mandates lead to expansion of unionized facilities, while waiver approvals for foreign manufacturing might undercut domestic labor standards and wages.",
+      "Focusing R&D commercialization on U.S.-based manufacturing might unintentionally reduce international collaboration opportunities, impacting technology-workers involved in global innovation networks."
+    ],
+    "enriched_at": "2025-12-15T02:38:06.098Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

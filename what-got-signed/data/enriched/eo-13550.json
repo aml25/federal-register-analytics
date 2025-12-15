@@ -1,0 +1,40 @@
+{
+  "document_number": "2010-21020",
+  "executive_order_number": "13550",
+  "title": "Establishment of Pakistan and Afghanistan Support Office",
+  "abstract": null,
+  "signing_date": "2010-08-18",
+  "publication_date": "2010-08-23",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2010/08/23/2010-21020/establishment-of-pakistan-and-afghanistan-support-office",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2010-08-23/pdf/2010-21020.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2010/08/23/2010-21020.txt",
+  "enrichment": {
+    "summary": "This executive order creates a temporary office within the U.S. Department of State to support efforts in strengthening the governments of Pakistan and Afghanistan. The office aims to help improve government capacity to fight extremism, promote stability, and maintain a strong U.S. diplomatic presence in both countries.",
+    "theme_ids": [
+      "foreign-aid",
+      "diplomatic-relations",
+      "afghanistan",
+      "counterterrorism"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "citizens-of-specific-countries-by-eo-designation",
+        "foreign-governments",
+        "international-aid-recipients"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to enhance government capacity in Pakistan and Afghanistan may inadvertently strengthen corrupt or authoritarian actors, impacting citizens negatively.",
+      "The focus on counterterrorism and stability could lead to increased militarization, potentially causing harm to civilians in Pakistan and Afghanistan.",
+      "Diplomatic prioritization in these countries could divert U.S. foreign aid resources from other regions or vulnerable populations, unintentionally affecting global aid distribution.",
+      "Engagement with foreign governments may raise sovereignty concerns or domestic backlash within Pakistan and Afghanistan among various political factions."
+    ],
+    "enriched_at": "2025-12-15T02:06:59.106Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

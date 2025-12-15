@@ -1,0 +1,49 @@
+{
+  "document_number": "2021-17121",
+  "executive_order_number": "14037",
+  "title": "Strengthening American Leadership in Clean Cars and Trucks",
+  "abstract": null,
+  "signing_date": "2021-08-05",
+  "publication_date": "2021-08-10",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/08/10/2021-17121/strengthening-american-leadership-in-clean-cars-and-trucks",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-08-10/pdf/2021-17121.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/08/10/2021-17121.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to work toward making half of all new cars and light trucks sold in the U.S. by 2030 zero-emission vehicles. It sets goals for stricter emissions and fuel economy standards for cars and trucks, encourages coordination among agencies and states, and aims to boost American jobs and clean vehicle technology.",
+    "theme_ids": [
+      "renewable-energy",
+      "energy-independence-security",
+      "climate-change-policy",
+      "environmental-regulation",
+      "workforce-development"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "automotive-industry-workers",
+        "renewable-energy-workers",
+        "union-members",
+        "environmental-justice-communities",
+        "working-age-adults",
+        "consumers"
+      ],
+      "negative_ids": [
+        "energy-sector-workers-oil-gas-coal",
+        "rural-communities",
+        "low-income-individuals-families"
+      ]
+    },
+    "potential_concerns": [
+      "The accelerated shift toward zero-emission vehicles may disrupt employment for energy-sector-workers-oil-gas-coal, potentially leading to job losses without sufficient transition plans.",
+      "Rural communities could face disproportionate burdens due to less developed charging infrastructure, limiting their access to zero-emission vehicles and increasing transportation costs.",
+      "Low-income individuals and families might be negatively impacted if increased manufacturing costs for clean vehicles raise car prices, reducing affordability and access to newer, cleaner cars.",
+      "Automotive industry workers, including union members, may experience transitional challenges requiring effective workforce development programs to ensure new jobs in clean vehicle manufacturing provide comparable wages and benefits.",
+      "Environmental justice communities stand to benefit from improved air quality, but must be meaningfully included in infrastructure investments to avoid exacerbating existing disparities."
+    ],
+    "enriched_at": "2025-12-15T02:32:37.184Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

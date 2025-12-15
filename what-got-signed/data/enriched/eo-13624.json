@@ -1,0 +1,42 @@
+{
+  "document_number": "2012-22030",
+  "executive_order_number": "13624",
+  "title": "Accelerating Investment in Industrial Energy Efficiency",
+  "abstract": null,
+  "signing_date": "2012-08-30",
+  "publication_date": "2012-09-05",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2012/09/05/2012-22030/accelerating-investment-in-industrial-energy-efficiency",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2012-09-05/pdf/2012-22030.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2012/09/05/2012-22030.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to work together with states, manufacturers, and utilities to boost investments in energy-efficient technologies in industrial facilities, especially combined heat and power systems. The goal is to reduce energy costs, improve U.S. manufacturing competitiveness, lower pollution, and create jobs by encouraging policies, technical assistance, and public information efforts.",
+    "theme_ids": [
+      "manufacturing-policy",
+      "energy-infrastructure",
+      "environmental-regulation",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "manufacturing-workers",
+        "large-corporation-employees",
+        "small-business-owners",
+        "state-governments",
+        "environmental-justice-communities"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The accelerated investment requirements may disproportionately benefit large manufacturers and corporations over small businesses, potentially creating competitive disparities in the manufacturing sector.",
+      "State governments might face challenges in implementing and coordinating policies effectively, especially if resources or technical expertise are insufficient, slowing progress toward investment goals.",
+      "Environmental justice communities could remain at risk if investments in combined heat and power (CHP) systems lead to localized pollution or do not adequately address emissions in disadvantaged areas.",
+      "Manufacturing workers in facilities implementing new energy efficiency technologies may face transitional job disruptions or require retraining to adapt to new industrial processes."
+    ],
+    "enriched_at": "2025-12-15T02:11:11.935Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

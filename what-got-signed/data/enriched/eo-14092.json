@@ -1,0 +1,45 @@
+{
+  "document_number": "2023-05714",
+  "executive_order_number": "14092",
+  "title": "Reducing Gun Violence and Making Our Communities Safer",
+  "abstract": null,
+  "signing_date": "2023-03-14",
+  "publication_date": "2023-03-17",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/03/17/2023-05714/reducing-gun-violence-and-making-our-communities-safer",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-03-17/pdf/2023-05714.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/03/17/2023-05714.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to take concrete steps to reduce gun violence in the United States by enforcing and expanding current gun safety laws, improving firearm background checks, promoting safe gun storage, supporting use of extreme risk protection orders, and helping survivors and communities affected by gun violence. It also requires reports on implementing recent bipartisan gun safety legislation and encourages agencies to address firearm trafficking and firearm marketing practices.",
+    "theme_ids": [
+      "homeland-security",
+      "federal-law-enforcement",
+      "crime-reduction",
+      "mental-health"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "crime-victims",
+        "domestic-violence-survivors",
+        "individuals-with-mental-health-conditions",
+        "children-minors",
+        "urban-communities"
+      ],
+      "negative_ids": [
+        "gun-owners-second-amendment-advocates"
+      ]
+    },
+    "potential_concerns": [
+      "Enhanced enforcement actions and expanded background checks could raise concerns among gun owners and Second Amendment advocates about government overreach and potential restrictions on lawful firearm ownership.",
+      "Implementation of extreme risk protection orders may inadvertently impact individuals with mental health conditions without sufficient due process safeguards, potentially leading to stigma or rights infringements.",
+      "Efforts to increase compliance and revoke licenses for firearm dealers could disproportionately affect former Federal Firearms Licensees (FFLs), creating legal and economic challenges.",
+      "Expanding safe storage campaigns and firearm trafficking restrictions in urban communities is critical but may face challenges in effectively reaching hard-hit neighborhoods without adequate community engagement.",
+      "Support and services for survivors of gun violence, domestic violence survivors, and children may require substantial resource allocation, and failure to deliver could undermine mental health recovery efforts."
+    ],
+    "enriched_at": "2025-12-15T02:39:23.110Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

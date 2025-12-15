@@ -1,0 +1,39 @@
+{
+  "document_number": "2019-21505",
+  "executive_order_number": "13888",
+  "title": "Enhancing State and Local Involvement in Refugee Resettlement",
+  "abstract": null,
+  "signing_date": "2019-09-26",
+  "publication_date": "2019-10-01",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/10/01/2019-21505/enhancing-state-and-local-involvement-in-refugee-resettlement",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-10-01/pdf/2019-21505.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/10/01/2019-21505.txt",
+  "enrichment": {
+    "summary": "This executive order requires that refugees are only resettled in states and localities that have both agreed in writing to accept them, promoting closer cooperation with state and local governments. It aims to ensure refugees are placed in communities prepared to support their successful integration and self-sufficiency, while respecting areas that do not wish to participate in resettlement.",
+    "theme_ids": [
+      "refugee-policy",
+      "immigration-enforcement-interior",
+      "state-local-law-enforcement-support"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "refugees",
+        "state-governments",
+        "local-governments"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Requiring written consent from both state and local governments may lead to geographic concentration of refugees in fewer willing jurisdictions, potentially overwhelming local resources and limiting equitable distribution.",
+      "States and localities that decline participation might indirectly restrict refugees' access to communities with adequate support services, impeding successful integration and self-sufficiency.",
+      "The consent requirement could politicize refugee resettlement decisions, leading to disparities based on local political climates rather than refugee needs or availability of resources.",
+      "Delays in obtaining consent might slow the resettlement process, creating longer waiting periods for refugees seeking safety and assistance."
+    ],
+    "enriched_at": "2025-12-15T02:28:21.697Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "document_number": "2020-27455",
+  "executive_order_number": "13962",
+  "title": "Ensuring Access to United States Government COVID-19 Vaccines",
+  "abstract": null,
+  "signing_date": "2020-12-08",
+  "publication_date": "2020-12-11",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/12/11/2020-27455/ensuring-access-to-united-states-government-covid-19-vaccines",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-12-11/pdf/2020-27455.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/12/11/2020-27455.txt",
+  "enrichment": {
+    "summary": "This executive order directs U.S. government agencies to ensure that American citizens have priority access to safe and effective COVID-19 vaccines developed or procured by the U.S. government. Once Americans' vaccination needs are met, the order calls for coordinated efforts to facilitate international access to these vaccines. It establishes an interagency strategy to support vaccine distribution both domestically and abroad.",
+    "theme_ids": [
+      "covid-19-response",
+      "vaccine-policy",
+      "interagency-coordination",
+      "global-engagement"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens",
+        "seniors-elderly",
+        "individuals-with-chronic-illnesses",
+        "tribal-communities-reservations"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Prioritizing American citizens for COVID-19 vaccines may delay or limit timely access for lawful permanent residents, undocumented immigrants, and other noncitizen populations residing in the U.S., raising equity issues.",
+      "The order's emphasis on prioritizing the most vulnerable populations depends on effective identification and outreach, which may be challenging for tribal communities and individuals with chronic illnesses, potentially resulting in unequal vaccine distribution.",
+      "International vaccine access is conditioned on first meeting American demand, which could slow vaccine availability to global health populations in need, undermining global engagement goals and international diplomatic relations.",
+      "Limited coordination among federal, state, territorial, and tribal governments could create logistical challenges that disproportionately affect rural and tribal communities in vaccine availability and distribution timeliness."
+    ],
+    "enriched_at": "2025-12-15T02:30:29.958Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

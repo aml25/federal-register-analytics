@@ -1,0 +1,38 @@
+{
+  "document_number": "2025-15824",
+  "executive_order_number": "14337",
+  "title": "Revocation of Executive Order on Competition",
+  "abstract": null,
+  "signing_date": "2025-08-13",
+  "publication_date": "2025-08-19",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/08/19/2025-15824/revocation-of-executive-order-on-competition",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-19/pdf/2025-15824.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/19/2025-15824.txt",
+  "enrichment": {
+    "summary": "This executive order formally cancels a previous order aimed at promoting competition in the U.S. economy. It clarifies that the revocation does not affect existing laws or authorities of government agencies and that it creates no new legal rights or benefits.",
+    "theme_ids": [
+      "revocation-of-previous-executive-orders"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "large-corporation-employees",
+        "corporate-executives-officers"
+      ],
+      "negative_ids": [
+        "small-business-owners"
+      ]
+    },
+    "potential_concerns": [
+      "Revocation of the prior competition-focused order could reduce regulatory pressure on large corporations and their executives, potentially enabling anti-competitive practices.",
+      "Small business owners might face increased challenges due to less federal emphasis on promoting competition, limiting their market opportunities.",
+      "Consumers and small businesses could experience negative effects indirectly through reduced market competition, despite not being directly tagged, as market dynamics shift.",
+      "The order's clarity that it does not alter existing laws might create ambiguity about how strictly competition policies will be enforced, potentially disadvantaging smaller market players."
+    ],
+    "enriched_at": "2025-12-15T02:02:38.896Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

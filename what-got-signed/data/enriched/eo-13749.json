@@ -1,0 +1,41 @@
+{
+  "document_number": "2016-29165",
+  "executive_order_number": "13749",
+  "title": "Providing for the Appointment in the Competitive Service of Certain Employees of the Foreign Service",
+  "abstract": null,
+  "signing_date": "2016-11-29",
+  "publication_date": "2016-12-02",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2016/12/02/2016-29165/providing-for-the-appointment-in-the-competitive-service-of-certain-employees-of-the-foreign-service",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2016-12-02/pdf/2016-29165.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2016/12/02/2016-29165.txt",
+  "enrichment": {
+    "summary": "This executive order allows employees who have served at least four years in certain temporary Foreign Service positions to be appointed to permanent federal government jobs without having to go through the usual competitive hiring process. It aims to help fill staffing shortages in the Department of State and improve the government's ability to meet visa processing and national security needs.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "federal-hiring",
+      "border-security",
+      "visa-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "foreign-service-officers",
+        "federal-employees-civil-servants",
+        "working-age-adults",
+        "u-s-citizens"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The noncompetitive appointment pathway might be perceived as reducing transparency and fairness in federal hiring, potentially disadvantaging other qualified candidates within the federal workforce (federal-employees-civil-servants).",
+      "Reliance on Limited Non-Career Appointment employees to fill permanent roles may create expectations of job security among foreign service personnel, potentially complicating workforce management for the Department of State.",
+      "Expedited appointments under this order could inadvertently lower hiring standards or oversight if Office of Personnel Management examination criteria are not rigorously enforced, affecting national security and visa processing efficiency.",
+      "This order’s focus on retaining experienced foreign service employees may insufficiently address broader diversity goals within the federal workforce, potentially impacting representation among working-age adults and U.S. citizens from underrepresented groups."
+    ],
+    "enriched_at": "2025-12-15T02:17:45.495Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

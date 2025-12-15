@@ -1,0 +1,45 @@
+{
+  "document_number": "2016-28203",
+  "executive_order_number": "13748",
+  "title": "Establishing a Community Solutions Council",
+  "abstract": null,
+  "signing_date": "2016-11-16",
+  "publication_date": "2016-11-21",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2016/11/21/2016-28203/establishing-a-community-solutions-council",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2016-11-21/pdf/2016-28203.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2016/11/21/2016-28203.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a Community Solutions Council to improve coordination among federal agencies in supporting local communities, especially those facing persistent poverty and other challenges. The Council works to promote community-driven solutions, share best practices, and align federal investments to help communities thrive economically, socially, and environmentally.",
+    "theme_ids": [
+      "interagency-coordination",
+      "rural-development",
+      "housing-policy-affordable-housing",
+      "economic-competitiveness",
+      "environmental-justice"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "individuals-experiencing-poverty",
+        "low-income-individuals-families",
+        "rural-communities",
+        "tribal-communities-reservations",
+        "environmental-justice-communities",
+        "urban-communities"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Coordinating federal investments across diverse agencies may lead to bureaucratic delays that slow timely support to low-income and tribal communities facing urgent housing and infrastructure needs.",
+      "Without strong safeguards, community-driven initiatives might inadvertently privilege better-resourced urban or suburban communities over persistently impoverished rural and tribal areas, exacerbating inequities.",
+      "Aligning federal programs under a centralized council risks limiting local autonomy for indigenous and environmental justice communities if their unique priorities are overshadowed by broad federal agendas.",
+      "The emphasis on data-driven practices may unintentionally exclude marginalized populations lacking robust data representation, such as Native American tribes and environmental justice communities, from receiving appropriate resources.",
+      "Efforts to foster collaboration among numerous federal entities might unintentionally divert attention and resources from direct community-level investments, reducing the immediate impact on individuals experiencing poverty."
+    ],
+    "enriched_at": "2025-12-15T02:17:55.310Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

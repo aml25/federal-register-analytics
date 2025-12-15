@@ -1,0 +1,39 @@
+{
+  "document_number": "2017-14992",
+  "executive_order_number": "13804",
+  "title": "Allowing Additional Time for Recognizing Positive Actions by the Government of Sudan and Amending Executive Order 13761",
+  "abstract": null,
+  "signing_date": "2017-07-11",
+  "publication_date": "2017-07-14",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/07/14/2017-14992/allowing-additional-time-for-recognizing-positive-actions-by-the-government-of-sudan-and-amending",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-07-14/pdf/2017-14992.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/07/14/2017-14992.txt",
+  "enrichment": {
+    "summary": "This executive order extends the deadline for assessing and recognizing positive actions taken by the Government of Sudan, thereby allowing more time for a detailed review. It also amends and revokes certain provisions of a previous order related to U.S. sanctions and policies towards Sudan.",
+    "theme_ids": [
+      "sanctions-country-specific",
+      "sudan",
+      "revocation-of-previous-executive-orders"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "citizens-of-specific-countries-by-eo-designation"
+      ],
+      "negative_ids": [
+        "foreign-government-officials"
+      ]
+    },
+    "potential_concerns": [
+      "Extending the deadline for recognizing positive actions by the Government of Sudan may delay relief or improved diplomatic relations for Sudanese citizens and hinder timely humanitarian aid efforts.",
+      "Maintaining certain sanctions with amendments might continue to restrict government officials in Sudan, potentially limiting incentives for reform or positive behavior.",
+      "Revoking provisions of the prior executive order without clear alternatives could create policy ambiguity, complicating engagement for U.S. businesses or NGOs working in Sudan.",
+      "Delays in U.S. recognition of Sudan's progress might contribute to ongoing instability or hinder conflict resolution efforts impacting Sudan’s civilian population."
+    ],
+    "enriched_at": "2025-12-15T02:25:20.662Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

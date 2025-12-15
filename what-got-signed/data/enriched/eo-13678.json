@@ -1,0 +1,38 @@
+{
+  "document_number": "2014-24218",
+  "executive_order_number": "13678",
+  "title": "Conversion Authority for Criminal Investigators (Special Agents) of the Bureau of Alcohol, Tobacco, Firearms, and Explosives",
+  "abstract": null,
+  "signing_date": "2014-10-03",
+  "publication_date": "2014-10-08",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2014/10/08/2014-24218/conversion-authority-for-criminal-investigators-special-agents-of-the-bureau-of-alcohol-tobacco",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2014-10-08/pdf/2014-24218.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2014/10/08/2014-24218.txt",
+  "enrichment": {
+    "summary": "This executive order allows certain criminal investigators (special agents) at the Bureau of Alcohol, Tobacco, Firearms, and Explosives (ATF) who have served satisfactorily for three years to be converted into permanent federal civil service positions without having to compete in the usual examination process. This helps the ATF attract and retain highly qualified special agents similar to other federal law enforcement agencies.",
+    "theme_ids": [
+      "federal-law-enforcement",
+      "federal-workforce-management",
+      "civil-service-reform"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "law-enforcement-officers-federal",
+        "federal-employees-civil-servants"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The non-competitive conversion to career appointments may raise concerns about reduced hiring transparency or fairness for other federal law enforcement candidates competing for similar positions.",
+      "Implementing this conversion authority could create disparities between ATF special agents and other federal employees who must undergo competitive exams, potentially causing workforce morale issues.",
+      "There is a risk that the policy may inadvertently lower hiring standards if satisfactory service evaluations are subjectively applied, affecting the quality of federal law enforcement.",
+      "The order may increase retention but could also reduce workforce diversity if the initial applicant pool or evaluations favor certain demographic groups among federal law enforcement officers."
+    ],
+    "enriched_at": "2025-12-15T02:13:43.290Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

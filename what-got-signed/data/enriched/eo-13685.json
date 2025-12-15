@@ -1,0 +1,43 @@
+{
+  "document_number": "2014-30323",
+  "executive_order_number": "13685",
+  "title": "Blocking Property of Certain Persons and Prohibiting Certain Transactions With Respect to the Crimea Region of Ukraine",
+  "abstract": null,
+  "signing_date": "2014-12-19",
+  "publication_date": "2014-12-24",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2014/12/24/2014-30323/blocking-property-of-certain-persons-and-prohibiting-certain-transactions-with-respect-to-the-crimea",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2014-12-24/pdf/2014-30323.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2014/12/24/2014-30323.txt",
+  "enrichment": {
+    "summary": "This executive order blocks investment, trade, and financial transactions with the Crimea region of Ukraine in response to Russian occupation. It freezes the property of certain individuals and entities involved in activities related to Crimea and restricts their entry into the United States.",
+    "theme_ids": [
+      "economic-sanctions",
+      "sanctions-country-specific",
+      "ukraine-crimea",
+      "travel-restrictions-bans",
+      "national-emergencies"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "citizens-of-specific-countries-by-eo-designation",
+        "corporations-businesses",
+        "investors",
+        "visa-holders-work-student-tourist"
+      ]
+    },
+    "potential_concerns": [
+      "The sanctions targeting businesses and investors operating in Crimea may lead to significant economic hardship for local businesses and residents in the region, exacerbating humanitarian conditions.",
+      "Prohibitions on import and export of goods and technology may disrupt supply chains and financial transactions for U.S.-based companies, potentially causing job losses or reduced business opportunities.",
+      "Travel restrictions and bans on entry for certain persons could unintentionally affect bona fide visa holders with ties to Crimea, such as students and workers, impeding their lawful travel and study or employment in the U.S.",
+      "The lack of prior notice to designated persons before asset blocking may raise legal challenges or complicate enforcement when individuals with U.S. ties contest the designation.",
+      "The order’s broad definitions of control and support might inadvertently ensnare entities or persons tangentially related to Crimea operations, leading to over-compliance that harms uninvolved U.S. businesses or foreign persons."
+    ],
+    "enriched_at": "2025-12-15T02:12:42.412Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

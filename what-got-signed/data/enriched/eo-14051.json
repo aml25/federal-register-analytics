@@ -1,0 +1,39 @@
+{
+  "document_number": "2021-24183",
+  "executive_order_number": "14051",
+  "title": "Designation To Exercise Authority Over the National Defense Stockpile",
+  "abstract": null,
+  "signing_date": "2021-10-31",
+  "publication_date": "2021-11-03",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/11/03/2021-24183/designation-to-exercise-authority-over-the-national-defense-stockpile",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-11-03/pdf/2021-24183.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/11/03/2021-24183.txt",
+  "enrichment": {
+    "summary": "This executive order designates the Under Secretary of Defense for Acquisition and Sustainment with the authority to release strategic and critical materials from the National Defense Stockpile. The release of these materials is intended only for national defense purposes to ensure resilient supply chains and reduce shortages of important materials.",
+    "theme_ids": [
+      "defense-industrial-base",
+      "critical-minerals-supply-chain-security",
+      "delegation-of-authority"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "defense-industry-workers",
+        "military-personnel-active-duty",
+        "veterans"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The delegation of authority to release strategic materials could lead to supply imbalances that disrupt defense industry production lines, affecting defense-industry-workers and military readiness.",
+      "Concentration of release authority under the Under Secretary of Defense may reduce transparency and oversight, potentially delaying timely access to critical materials for active-duty military personnel.",
+      "Unintended shortages in the commercial critical minerals market resulting from stockpile releases may impact defense industry subcontractors and veterans involved in related sectors.",
+      "Relying on stockpile releases to secure supply chains could discourage private sector investment in domestic critical mineral sourcing, indirectly affecting long-term job stability for defense-industry-workers."
+    ],
+    "enriched_at": "2025-12-15T02:31:15.385Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

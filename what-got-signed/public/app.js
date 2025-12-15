@@ -96,10 +96,6 @@ function alignTimeline() {
     timelineItems.style.paddingRight = `${paddingRight}px`;
   }
 
-  // Scroll to show most recent (rightmost)
-  if (scrollContainer) {
-    scrollContainer.scrollLeft = scrollContainer.scrollWidth;
-  }
 }
 
 // Initialize

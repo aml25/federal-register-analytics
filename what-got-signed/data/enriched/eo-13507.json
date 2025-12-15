@@ -1,0 +1,40 @@
+{
+  "document_number": "E9-8572",
+  "executive_order_number": "13507",
+  "title": "Establishment of the White House Office of Health Reform",
+  "abstract": null,
+  "signing_date": "2009-04-08",
+  "publication_date": "2009-04-13",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/04/13/E9-8572/establishment-of-the-white-house-office-of-health-reform",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-04-13/pdf/E9-8572.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/04/13/E9-8572.txt",
+  "enrichment": {
+    "summary": "This executive order creates the White House Office of Health Reform to lead and coordinate the federal government's efforts to improve access to affordable, high-quality health care. The office is tasked with developing health reform policies, working with federal agencies, state and local officials, and Congress to strengthen the health care system and slow health care cost growth.",
+    "theme_ids": [
+      "affordable-care-act-aca",
+      "government-reorganization",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "uninsured-individuals",
+        "low-income-individuals-families",
+        "medicaid-beneficiaries",
+        "patients-general"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Coordination challenges across multiple federal and state agencies may delay improvements in access to affordable health care for uninsured individuals and low-income families.",
+      "Efforts to slow health care cost growth might result in restrictions or reduced benefits for Medicaid beneficiaries and patients relying on government programs.",
+      "The creation of a centralized Health Reform Office could inadvertently create bureaucratic hurdles that impede timely policy implementation affecting vulnerable populations.",
+      "Public outreach and policy integration efforts might fail to adequately engage underserved communities, limiting the effectiveness of reforms aimed at expanding coverage and improving quality."
+    ],
+    "enriched_at": "2025-12-15T01:58:52.386Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

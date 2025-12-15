@@ -1,0 +1,40 @@
+{
+  "document_number": "2025-17508",
+  "executive_order_number": "14347",
+  "title": "Restoring the United States Department of War",
+  "abstract": null,
+  "signing_date": "2025-09-05",
+  "publication_date": "2025-09-10",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/09/10/2025-17508/restoring-the-united-states-department-of-war",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-09-10/pdf/2025-17508.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/09/10/2025-17508.txt",
+  "enrichment": {
+    "summary": "This executive order directs that the Department of Defense and its Secretary optionally use the historic title 'Department of War' and 'Secretary of War' in certain official and ceremonial contexts, reflecting a focus on strength and the ability to wage war. It also requires the Secretary to report to the President and Congress about these changes and provide recommendations for permanently renaming the Department.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "government-reorganization",
+      "american-heritage-patriotism"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "veterans",
+        "military-personnel-active-duty",
+        "military-personnel-reserves-guard",
+        "military-reservists-called-to-active-duty"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The reintroduction of the historic 'Department of War' title may be perceived by veterans and active military personnel as signaling a more aggressive military posture, potentially affecting morale and public perception.",
+      "Using war-centric terminology could complicate recruitment and retention for military personnel reserves and active duty by emphasizing combat readiness over defense, possibly leading to increased anxiety or resistance among service members.",
+      "The optional use of secondary titles might create confusion internally within the Department and externally among allied governments and international partners, impacting communication clarity and diplomatic relations.",
+      "Recommendations for permanently renaming the Department may trigger legislative and bureaucratic delays, causing uncertainty and instability for military personnel categories during the transition period."
+    ],
+    "enriched_at": "2025-12-15T02:01:11.082Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

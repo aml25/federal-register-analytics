@@ -1,0 +1,47 @@
+{
+  "document_number": "2023-13889",
+  "executive_order_number": "14101",
+  "title": "Strengthening Access to Affordable, High-Quality Contraception and Family Planning Services",
+  "abstract": null,
+  "signing_date": "2023-06-23",
+  "publication_date": "2023-06-28",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/06/28/2023-13889/strengthening-access-to-affordable-high-quality-contraception-and-family-planning-services",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-06-28/pdf/2023-13889.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/06/28/2023-13889.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to improve access to affordable, high-quality contraception and family planning services across healthcare programs, including Medicaid, Medicare, and federal employee benefits. It emphasizes expanding coverage without out-of-pocket costs, enhancing privacy protections, supporting providers, and increasing public awareness to ensure all people can make informed choices about their reproductive health.",
+    "theme_ids": [
+      "contraception-family-planning",
+      "affordable-care-act-aca",
+      "medicaid",
+      "medicare",
+      "abortion-reproductive-health"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "women",
+        "medicaid-beneficiaries",
+        "medicare-beneficiaries",
+        "military-personnel-active-duty",
+        "veterans",
+        "aca-marketplace-enrollees",
+        "healthcare-workers",
+        "low-income-individuals-families"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to expand no-cost contraception coverage under the Affordable Care Act and Medicaid may face pushback from states with restrictive reproductive health laws, potentially limiting impact for Medicaid beneficiaries in those states.",
+      "Providers and healthcare workers may face increased operational burdens or liability concerns while implementing enhanced privacy protections for reproductive health information.",
+      "Low-income individuals and Medicaid beneficiaries might still experience access barriers if federal guidance is unevenly applied or insufficiently funded, especially in rural or underserved areas.",
+      "Veterans and active duty military personnel could encounter disparities in contraception availability if military health systems and VA programs do not fully adopt or implement new coverage and awareness initiatives.",
+      "Public awareness campaigns aimed at educating ACA enrollees and federal beneficiaries about contraception access risks politicization or misinformation that could undermine utilization among target populations."
+    ],
+    "enriched_at": "2025-12-15T02:38:25.070Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

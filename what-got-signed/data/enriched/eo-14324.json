@@ -1,0 +1,48 @@
+{
+  "document_number": "2025-14897",
+  "executive_order_number": "14324",
+  "title": "Suspending Duty-Free De Minimis Treatment for All Countries",
+  "abstract": null,
+  "signing_date": "2025-07-30",
+  "publication_date": "2025-08-05",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/08/05/2025-14897/suspending-duty-free-de-minimis-treatment-for-all-countries",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-05/pdf/2025-14897.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/05/2025-14897.txt",
+  "enrichment": {
+    "summary": "This executive order suspends the duty-free import allowance (de minimis treatment) for all international shipments entering the United States, requiring all shipments except those sent through the postal network to be subject to applicable duties and fees. It also establishes specific duty collection procedures and rates for shipments sent through the international postal network to prevent tariff evasion related to national emergencies tied to illicit drug trafficking and trade imbalances. The order aims to strengthen enforcement and make tariffs more effective in addressing these national security and economic threats.",
+    "theme_ids": [
+      "border-security",
+      "tariffs-duties",
+      "national-emergencies",
+      "transnational-crime-cartels",
+      "trade-policy-agreements",
+      "drug-enforcement",
+      "homeland-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local",
+        "border-communities"
+      ],
+      "negative_ids": [
+        "small-business-owners",
+        "retail-workers",
+        "consumers"
+      ]
+    },
+    "potential_concerns": [
+      "Suspending duty-free de minimis treatment may increase costs for small business owners who rely on importing low-value goods, impacting their competitiveness and forcing potential layoffs among retail workers.",
+      "Consumers might face higher prices and reduced access to affordable imported products due to the elimination of de minimis thresholds and added tariffs, disproportionately affecting low- and middle-income households.",
+      "Increased customs processing requirements could create logistical delays and bottlenecks in border communities dependent on cross-border trade, potentially harming local economies.",
+      "While the order aims to curb illicit drug trafficking by reducing tariff evasion, law enforcement officers may face challenges balancing enhanced enforcement duties with increased administrative workload at ports of entry.",
+      "The complex tariff and duty collection procedures for international postal shipments could lead to confusion and compliance difficulties for carriers and importers, resulting in unintentional legal violations or shipment delays."
+    ],
+    "enriched_at": "2025-12-15T02:42:22.017Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

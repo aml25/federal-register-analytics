@@ -1,0 +1,46 @@
+{
+  "document_number": "2017-09087",
+  "executive_order_number": "13795",
+  "title": "Implementing an America-First Offshore Energy Strategy",
+  "abstract": null,
+  "signing_date": "2017-04-28",
+  "publication_date": "2017-05-03",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2017/05/03/2017-09087/implementing-an-america-first-offshore-energy-strategy",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2017-05-03/pdf/2017-09087.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2017/05/03/2017-09087.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to promote increased offshore energy exploration and production, particularly oil and gas leasing, to strengthen America's energy security and economic growth. It calls for streamlining permitting processes and reviewing existing environmental and safety regulations and protections to support expanded domestic offshore energy development while balancing safety and environmental responsibility.",
+    "theme_ids": [
+      "energy-independence-security",
+      "offshore-drilling",
+      "military-readiness-force-structure",
+      "regulatory-reform-deregulation",
+      "national-monuments-antiquities"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "energy-sector-workers-oil-gas-coal",
+        "military-personnel-active-duty",
+        "coastal-communities"
+      ],
+      "negative_ids": [
+        "environmental-justice-communities",
+        "tribal-communities-reservations",
+        "alaska-residents"
+      ]
+    },
+    "potential_concerns": [
+      "Expanding offshore drilling and loosening environmental regulations could increase environmental risks and negatively impact environmental justice communities who face disproportionate exposure to pollution and ecological harm.",
+      "Coastal communities, including Alaska residents and tribal communities, may suffer from increased risk of spills, habitat disruption, and negative effects on fisheries and subsistence resources critical to their livelihoods and cultures.",
+      "Accelerated leasing and streamlined permitting may undermine adequate environmental review, leading to long-term ecological damage that surprises both local populations and regulatory agencies.",
+      "Military personnel could benefit from greater domestic energy security, but increased offshore operations near military installations or training areas may pose operational and safety coordination challenges.",
+      "Revising or rescinding existing protections on marine sanctuaries and monuments may provoke conflicts with tribal sovereignty and treaty rights of Indigenous peoples relying on these areas."
+    ],
+    "enriched_at": "2025-12-15T02:26:24.254Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

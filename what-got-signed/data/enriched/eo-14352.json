@@ -1,0 +1,43 @@
+{
+  "document_number": "2025-19139",
+  "executive_order_number": "14352",
+  "title": "Saving TikTok While Protecting National Security",
+  "abstract": null,
+  "signing_date": "2025-09-25",
+  "publication_date": "2025-09-30",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/09/30/2025-19139/saving-tiktok-while-protecting-national-security",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-09-30/pdf/2025-19139.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/09/30/2025-19139.txt",
+  "enrichment": {
+    "summary": "This executive order delays enforcement of the Protecting Americans from Foreign Adversary Controlled Applications Act against TikTok to allow a proposed divestiture that shifts TikTok’s U.S. operations to a majority U.S.-owned joint venture. The order finds that this restructuring will mitigate national security risks by ensuring TikTok is no longer controlled by foreign adversaries and establishes safeguards to protect American user data and national security interests.",
+    "theme_ids": [
+      "cybersecurity-national-security",
+      "foreign-investment-cfius",
+      "foreign-technology-threats",
+      "national-security-information-classification",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "consumers",
+        "technology-workers",
+        "small-business-owners",
+        "entrepreneurs-startups"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The requirement for U.S.-based data storage and oversight could increase operational costs and compliance burdens for small-business-owners and technology-workers engaged with TikTok, potentially impacting platform innovation and accessibility.",
+      "Ensuring continuous and effective interagency coordination to monitor the joint venture's compliance may prove challenging, creating potential risks to national security despite safeguards.",
+      "Consumers reliant on TikTok for entertainment and livelihood may face service disruptions or changes in user experience during the divestiture process.",
+      "While designed to mitigate foreign technology threats, the joint venture’s partial foreign ownership (less than 20%) could still raise concerns among national security officials about residual influence from foreign adversaries.",
+      "The strict data and algorithm monitoring requirements might set a precedent for other foreign-owned technologies, leading to broader regulatory scrutiny that could affect entrepreneurs-startups in the technology sector."
+    ],
+    "enriched_at": "2025-12-15T02:00:34.874Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

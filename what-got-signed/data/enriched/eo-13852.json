@@ -1,0 +1,38 @@
+{
+  "document_number": "2018-26552",
+  "executive_order_number": "13852",
+  "title": "Providing for the Closing of Executive Departments and Agencies of the Federal Government on December 5, 2018",
+  "abstract": null,
+  "signing_date": "2018-12-01",
+  "publication_date": "2018-12-04",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/12/04/2018-26552/providing-for-the-closing-of-executive-departments-and-agencies-of-the-federal-government-on",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-12-04/pdf/2018-26552.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/12/04/2018-26552.txt",
+  "enrichment": {
+    "summary": "This executive order directs all federal government executive departments and agencies to close on December 5, 2018, as a mark of respect for former President George H.W. Bush. Certain essential offices may remain open if needed for national security or other critical functions, and employees' pay and leave will be handled according to existing statutes.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "government-efficiency",
+      "historical-commemorations",
+      "american-heritage-patriotism"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "federal-employees-civil-servants"
+      ]
+    },
+    "potential_concerns": [
+      "Federal employees required to work on December 5, 2018 for national security or critical functions may experience increased workload and stress, raising concerns about equitable application of exceptions.",
+      "Closing federal departments even temporarily may disrupt public services, potentially reducing government efficiency and impacting citizens relying on timely federal assistance.",
+      "The pay and leave treatment for federal employees on the closing day depends on existing statutes, which might create confusion or payroll inconsistencies, affecting workforce management.",
+      "The commemorative closing might be viewed as politically symbolic rather than practical, raising questions about balancing historical patriotism with operational needs in federal agencies."
+    ],
+    "enriched_at": "2025-12-15T02:26:55.525Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "document_number": "2025-15011",
+  "executive_order_number": "14327",
+  "title": "President's Council on Sports, Fitness, and Nutrition, and the Reestablishment of the Presidential Fitness Test",
+  "abstract": null,
+  "signing_date": "2025-07-31",
+  "publication_date": "2025-08-06",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/08/06/2025-15011/presidents-council-on-sports-fitness-and-nutrition-and-the-reestablishment-of-the-presidential",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-06/pdf/2025-15011.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/06/2025-15011.txt",
+  "enrichment": {
+    "summary": "This executive order reestablishes the President's Council on Sports, Fitness, and Nutrition and the Presidential Fitness Test to improve the health and physical fitness of Americans, especially youth. It emphasizes expanding youth participation in sports and exercise, promoting good nutrition, and addressing health issues like obesity that impact national security and economic strength.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "physical-fitness-health-promotion",
+      "youth-programs",
+      "food-security-nutrition",
+      "historical-commemorations"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "children-minors",
+        "youth-young-adults",
+        "k-12-students",
+        "military-personnel-active-duty"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Reestablishing the Presidential Fitness Test may disproportionately impact children-minors and k-12-students with disabilities or chronic illnesses if accommodations are not adequately provided, potentially leading to exclusion or stigmatization.",
+      "The emphasis on physical fitness and nutrition promotion might unintentionally marginalize youth-young-adults from low-income or food-insecure populations who lack access to quality nutrition or sports programs.",
+      "Heightened focus on military readiness through youth fitness initiatives could pressure military-personnel-active-duty and related communities to prioritize physical standards that may not consider diverse abilities or community contexts.",
+      "The reestablishment of a standardized fitness test in schools might spark concerns among parents and educators about increased testing burden and the potential reduction in time allocated to academic subjects or inclusive activities."
+    ],
+    "enriched_at": "2025-12-15T02:42:02.521Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

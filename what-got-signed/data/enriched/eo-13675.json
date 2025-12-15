@@ -1,0 +1,42 @@
+{
+  "document_number": "2014-18998",
+  "executive_order_number": "13675",
+  "title": "Establishing the President's Advisory Council on Doing Business in Africa",
+  "abstract": null,
+  "signing_date": "2014-08-05",
+  "publication_date": "2014-08-08",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2014/08/08/2014-18998/establishing-the-presidents-advisory-council-on-doing-business-in-africa",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2014-08-08/pdf/2014-18998.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2014/08/08/2014-18998.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a council of business leaders to advise the President on how to encourage and expand trade and investment between U.S. companies and African markets. The council focuses on creating jobs, developing strategies for business partnerships, and supporting Africa's economic growth in areas like infrastructure and agriculture. The council is temporary, serving for two years unless extended.",
+    "theme_ids": [
+      "africa-engagement-trade",
+      "economic-competitiveness",
+      "small-business-support",
+      "federal-advisory-committees"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "small-business-owners",
+        "entrepreneurs-startups",
+        "corporations-businesses",
+        "working-age-adults",
+        "african-americans-black-americans"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to expand U.S.-Africa trade and investment might disproportionately benefit larger corporations over small businesses and entrepreneurs, limiting inclusive economic growth.",
+      "The Advisory Council's private-sector appointment process might overlook diverse representation, including minority-owned businesses such as those from African American communities, thus narrowing the scope of advice and opportunities.",
+      "Focusing on infrastructure and agriculture sectors in Africa could unintentionally sideline U.S. working-age adults employed in industries not prioritized by the Council, affecting job creation projections.",
+      "Without sustained funding beyond the Council’s two-year term, potential gains in trade partnerships and job creation for U.S. small businesses and startups could stall, reducing long-term impact."
+    ],
+    "enriched_at": "2025-12-15T02:14:08.528Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "document_number": "2019-19367",
+  "executive_order_number": "13885",
+  "title": "Establishing the National Quantum Initiative Advisory Committee",
+  "abstract": null,
+  "signing_date": "2019-08-30",
+  "publication_date": "2019-09-05",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2019/09/05/2019-19367/establishing-the-national-quantum-initiative-advisory-committee",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-09-05/pdf/2019-19367.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/09/05/2019-19367.txt",
+  "enrichment": {
+    "summary": "This executive order establishes the National Quantum Initiative Advisory Committee to provide expert advice on quantum information science and technology. The committee supports federal coordination and ensures continued U.S. leadership by offering recommendations on research, development, and related policy areas.",
+    "theme_ids": [
+      "science-and-technology-policy",
+      "quantum-computing-quantum-technology",
+      "national-security-information-classification",
+      "federal-advisory-committees"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "scientific-researchers",
+        "technology-workers",
+        "large-corporation-employees",
+        "educational-institutions"
+      ],
+      "negative_ids": [
+        "security-clearance-holders"
+      ]
+    },
+    "potential_concerns": [
+      "The order's emphasis on national security and potential clearance requirements may create barriers or delays for technology workers and scientific researchers needing access to classified quantum information.",
+      "Increased coordination between federal agencies and private sector corporations could raise concerns about undue influence or capture by large corporations in setting research and technology agendas.",
+      "Educational institutions involved in quantum science might face challenges balancing openness in research with national security restrictions, potentially hindering academic collaboration.",
+      "Security clearance requirements for committee members may limit diversity of expertise and representation, potentially excluding qualified researchers lacking clearances."
+    ],
+    "enriched_at": "2025-12-15T02:28:38.210Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

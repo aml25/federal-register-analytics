@@ -5,141 +5,176 @@
       "president_name": "Donald Trump",
       "term_start": 2025,
       "term_end": "present",
-      "order_count": 10,
+      "order_count": 45,
       "top_themes": [
         {
           "id": "tariffs-duties",
           "name": "Tariffs / Duties",
-          "count": 4
+          "count": 12
         },
         {
           "id": "national-emergencies",
           "name": "National Emergencies",
-          "count": 3
+          "count": 11
         },
         {
           "id": "trade-policy-agreements",
           "name": "Trade Policy / Agreements",
-          "count": 3
+          "count": 9
         },
         {
-          "id": "artificial-intelligence",
-          "name": "Artificial Intelligence",
-          "count": 2
+          "id": "crime-reduction",
+          "name": "Crime Reduction",
+          "count": 5
         },
         {
-          "id": "china",
-          "name": "China",
-          "count": 2
+          "id": "border-security",
+          "name": "Border Security",
+          "count": 5
         }
       ],
-      "short_summary": "Donald Trump signed 10 executive orders from 2025 until present. The top themes have been: tariffs / duties, national emergencies, trade policy / agreements, artificial intelligence, china."
+      "short_summary": "Donald Trump signed 45 executive orders from 2025 until present. The top themes have been: tariffs / duties, national emergencies, trade policy / agreements, crime reduction, border security."
     },
     {
       "president_id": "joe-biden",
       "president_name": "Joseph R. Biden Jr.",
       "term_start": 2021,
       "term_end": 2025,
-      "order_count": 20,
+      "order_count": 79,
       "top_themes": [
         {
           "id": "interagency-coordination",
           "name": "Interagency Coordination",
-          "count": 5
+          "count": 18
         },
         {
           "id": "federal-workforce-management",
           "name": "Federal Workforce Management",
-          "count": 5
+          "count": 14
         },
         {
-          "id": "environmental-justice",
-          "name": "Environmental Justice",
-          "count": 3
+          "id": "homeland-security",
+          "name": "Homeland Security",
+          "count": 12
         },
         {
-          "id": "federal-law-enforcement",
-          "name": "Federal Law Enforcement",
-          "count": 3
+          "id": "military-readiness-force-structure",
+          "name": "Military Readiness / Force Structure",
+          "count": 12
         },
         {
-          "id": "civil-rights-enforcement",
-          "name": "Civil Rights Enforcement",
-          "count": 3
+          "id": "racial-equity",
+          "name": "Racial Equity",
+          "count": 9
         }
       ],
-      "short_summary": "Joseph R. Biden Jr. signed 20 executive orders from 2021 until 2025. The top themes were: interagency coordination, federal workforce management, environmental justice, federal law enforcement, civil rights enforcement."
+      "short_summary": "Joseph R. Biden Jr. signed 79 executive orders from 2021 until 2025. The top themes were: interagency coordination, federal workforce management, homeland security, military readiness / force structure, racial equity."
     },
     {
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
       "term_start": 2017,
       "term_end": 2021,
-      "order_count": 20,
+      "order_count": 80,
       "top_themes": [
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination",
+          "count": 16
+        },
         {
           "id": "government-efficiency",
           "name": "Government Efficiency",
-          "count": 4
+          "count": 14
+        },
+        {
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management",
+          "count": 12
         },
         {
           "id": "economic-sanctions",
           "name": "Economic Sanctions",
-          "count": 3
+          "count": 11
         },
         {
-          "id": "travel-restrictions-bans",
-          "name": "Travel Restrictions / Bans",
-          "count": 3
-        },
-        {
-          "id": "federal-advisory-committees",
-          "name": "Federal Advisory Committees",
-          "count": 3
-        },
-        {
-          "id": "revocation-of-previous-executive-orders",
-          "name": "Revocation of Previous Executive Orders",
-          "count": 3
+          "id": "regulatory-reform-deregulation",
+          "name": "Regulatory Reform / Deregulation",
+          "count": 9
         }
       ],
-      "short_summary": "Donald Trump signed 20 executive orders from 2017 until 2021. The top themes were: government efficiency, economic sanctions, travel restrictions / bans, federal advisory committees, revocation of previous executive orders."
+      "short_summary": "Donald Trump signed 80 executive orders from 2017 until 2021. The top themes were: interagency coordination, government efficiency, federal workforce management, economic sanctions, regulatory reform / deregulation."
     },
     {
       "president_id": "barack-obama",
       "president_name": "Barack Obama",
       "term_start": 2009,
       "term_end": 2017,
-      "order_count": 50,
+      "order_count": 173,
       "top_themes": [
         {
           "id": "interagency-coordination",
           "name": "Interagency Coordination",
-          "count": 13
+          "count": 54
         },
         {
           "id": "federal-workforce-management",
           "name": "Federal Workforce Management",
-          "count": 11
-        },
-        {
-          "id": "military-readiness-force-structure",
-          "name": "Military Readiness / Force Structure",
-          "count": 9
+          "count": 32
         },
         {
           "id": "government-efficiency",
           "name": "Government Efficiency",
-          "count": 9
+          "count": 21
         },
         {
-          "id": "federal-labor-management-relations",
-          "name": "Federal Labor-Management Relations",
-          "count": 6
+          "id": "federal-advisory-committees",
+          "name": "Federal Advisory Committees",
+          "count": 20
+        },
+        {
+          "id": "military-readiness-force-structure",
+          "name": "Military Readiness / Force Structure",
+          "count": 20
         }
       ],
-      "short_summary": "Barack Obama signed 50 executive orders from 2009 until 2017. The top themes were: interagency coordination, federal workforce management, military readiness / force structure, government efficiency, federal labor-management relations."
+      "short_summary": "Barack Obama signed 173 executive orders from 2009 until 2017. The top themes were: interagency coordination, federal workforce management, government efficiency, federal advisory committees, military readiness / force structure."
+    },
+    {
+      "president_id": "george-w-bush",
+      "president_name": "George W. Bush",
+      "term_start": 2001,
+      "term_end": 2009,
+      "order_count": 5,
+      "top_themes": [
+        {
+          "id": "order-of-succession",
+          "name": "Order of Succession",
+          "count": 2
+        },
+        {
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management",
+          "count": 2
+        },
+        {
+          "id": "government-efficiency",
+          "name": "Government Efficiency",
+          "count": 2
+        },
+        {
+          "id": "security-clearances-background-investigations",
+          "name": "Security Clearances / Background Investigations",
+          "count": 2
+        },
+        {
+          "id": "transportation-infrastructure",
+          "name": "Transportation Infrastructure",
+          "count": 1
+        }
+      ],
+      "short_summary": "George W. Bush signed 5 executive orders from 2001 until 2009. The top themes were: order of succession, federal workforce management, government efficiency, security clearances / background investigations, transportation infrastructure."
     }
   ],
-  "generated_at": "2025-12-12T08:29:14.104Z"
+  "generated_at": "2025-12-15T02:45:29.796Z"
 }

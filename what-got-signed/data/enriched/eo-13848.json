@@ -1,0 +1,42 @@
+{
+  "document_number": "2018-20203",
+  "executive_order_number": "13848",
+  "title": "Imposing Certain Sanctions in the Event of Foreign Interference in a United States Election",
+  "abstract": null,
+  "signing_date": "2018-09-12",
+  "publication_date": "2018-09-14",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/09/14/2018-20203/imposing-certain-sanctions-in-the-event-of-foreign-interference-in-a-united-states-election",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-09-14/pdf/2018-20203.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/09/14/2018-20203.txt",
+  "enrichment": {
+    "summary": "This executive order directs U.S. intelligence and law enforcement agencies to investigate and report any foreign interference in U.S. elections. It establishes sanctions and restrictions against foreign individuals or entities found to be involved in such interference, including blocking assets and restricting entry into the U.S., to protect election integrity and national security.",
+    "theme_ids": [
+      "foreign-election-interference",
+      "economic-sanctions",
+      "national-emergencies",
+      "homeland-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens"
+      ],
+      "negative_ids": [
+        "foreign-government-officials",
+        "corporations-businesses",
+        "citizens-of-specific-countries-by-eo-designation"
+      ]
+    },
+    "potential_concerns": [
+      "The imposition of sanctions and asset blocks on foreign government officials and corporations could trigger diplomatic tensions or retaliatory measures adversely affecting U.S. geopolitical interests under the theme of foreign-election-interference and economic-sanctions.",
+      "Targeted foreign entities might use covert methods or proxy organizations to circumvent sanctions, undermining the order's effectiveness and complicating law enforcement efforts related to homeland-security.",
+      "The broad discretion granted for sanctioning may raise concerns about misidentification or insufficient evidence supporting interference, potentially harming foreign individuals or businesses unjustly and harming international relations.",
+      "U.S. citizens may face indirect economic consequences if sanctions against large foreign corporations impact global supply chains, markets, or business partnerships, affecting their economic well-being under national-emergencies and economic-sanctions themes."
+    ],
+    "enriched_at": "2025-12-15T02:27:19.907Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

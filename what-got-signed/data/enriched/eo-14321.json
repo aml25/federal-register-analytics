@@ -1,0 +1,47 @@
+{
+  "document_number": "2025-14391",
+  "executive_order_number": "14321",
+  "title": "Ending Crime and Disorder on America's Streets",
+  "abstract": null,
+  "signing_date": "2025-07-24",
+  "publication_date": "2025-07-29",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/07/29/2025-14391/ending-crime-and-disorder-on-americas-streets",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-07-29/pdf/2025-14391.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/07/29/2025-14391.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to prioritize public safety by addressing homelessness and related issues such as drug addiction and mental illness through increased civil commitment and treatment efforts. It also redirects funding away from programs that tolerate disorder or facilitate illegal drug use and sets stricter accountability standards for homelessness assistance programs.",
+    "theme_ids": [
+      "mental-health",
+      "drug-enforcement",
+      "crime-reduction",
+      "federal-law-enforcement",
+      "housing-policy-affordable-housing"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local"
+      ],
+      "negative_ids": [
+        "homeless-unhoused-individuals",
+        "individuals-with-mental-health-conditions",
+        "individuals-experiencing-poverty",
+        "low-income-individuals-families",
+        "individuals-with-disabilities"
+      ]
+    },
+    "potential_concerns": [
+      "The increased use of civil commitment and stricter enforcement may lead to the involuntary institutionalization of homeless individuals with mental health conditions, raising civil rights and ethical concerns.",
+      "Redirecting funds away from harm reduction programs could reduce access to safe consumption services, potentially worsening public health outcomes for individuals with substance use disorders, particularly among homeless populations.",
+      "Prison and reentry conditions could worsen for individuals with mental illness or substance abuse issues due to efforts to restrict releases without adequate forensic bed capacity, increasing risks of overcrowding in jails and hospitals.",
+      "Law enforcement officers at federal and state/local levels may face increased operational burdens and public scrutiny as they are tasked with enforcing anti-vagrancy laws and civil commitment, potentially straining resources and community relations.",
+      "The elimination of housing-first policies and the imposition of treatment or sobriety requirements might limit housing access for homeless individuals suffering from addiction or mental illness, possibly increasing instability among the most vulnerable low-income groups."
+    ],
+    "enriched_at": "2025-12-15T02:42:42.198Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "document_number": "2024-06123",
+  "executive_order_number": "14120",
+  "title": "Advancing Women's Health Research and Innovation",
+  "abstract": null,
+  "signing_date": "2024-03-18",
+  "publication_date": "2024-03-21",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2024/03/21/2024-06123/advancing-womens-health-research-and-innovation",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-03-21/pdf/2024-06123.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/03/21/2024-06123.txt",
+  "enrichment": {
+    "summary": "This executive order aims to improve research and innovation focused on women's health by closing knowledge gaps, increasing women's participation in clinical trials, and addressing health disparities, especially among women of color, older women, and women with disabilities. It establishes stronger coordination across federal agencies to prioritize funding and promote advanced research, including on midlife health issues like menopause, while supporting innovation and translating research into better health outcomes for women.",
+    "theme_ids": [],
+    "impacted_populations": {
+      "positive_ids": [
+        "women",
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "individuals-with-disabilities",
+        "seniors-elderly",
+        "veterans",
+        "military-personnel-active-duty",
+        "entrepreneurs-startups",
+        "small-business-owners",
+        "scientific-researchers"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The increased emphasis on including women of color, older women, and women with disabilities in research may challenge current clinical trial recruitment processes and potentially delay study timelines, impacting women beneficiaries.",
+      "Efforts to incentivize innovation and commercialization in women's health research could prioritize profit-driven solutions, potentially sidelining necessary but less lucrative treatments for vulnerable women populations such as seniors and disabled individuals.",
+      "The focus on midlife health and menopause research, including for women veterans and active-duty military, may expose gaps in current healthcare provisions for these groups, requiring expanded resources that could be slow to materialize.",
+      "Agencies might struggle with establishing consistent data standards and accountability requirements across diverse research fields, which could lead to uneven application and limited improvements for underrepresented women populations in federally funded studies.",
+      "Small businesses and entrepreneurs tasked with advancing women's health innovations might face increased administrative burdens from new federal grant compliance standards, potentially limiting their participation and slowing innovation."
+    ],
+    "enriched_at": "2025-12-15T02:41:01.850Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

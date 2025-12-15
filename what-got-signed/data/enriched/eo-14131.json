@@ -1,0 +1,37 @@
+{
+  "document_number": "2024-31355",
+  "executive_order_number": "14131",
+  "title": "Amendments to Executive Orders Relating to Certain Certificates and Badges",
+  "abstract": null,
+  "signing_date": "2024-12-20",
+  "publication_date": "2024-12-27",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2024/12/27/2024-31355/amendments-to-executive-orders-relating-to-certain-certificates-and-badges",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-12-27/pdf/2024-31355.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/12/27/2024-31355.txt",
+  "enrichment": {
+    "summary": "This executive order updates previous orders regarding certificates and badges awarded to members of the U.S. Uniformed Services assigned to the White House and the Office of the Vice President. It clarifies the eligibility, award procedures, and authorization to wear the Presidential Service Badge and Vice Presidential Service Badge. The order ensures these recognitions continue and outlines the responsible authorities for awarding them.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "homeland-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "veterans"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The clarified eligibility and award procedures might unintentionally exclude some eligible military personnel assigned to the White House or Vice President's office, potentially affecting recognition and morale among active-duty service members.",
+      "The continuation and formalization of badge wear policies may create administrative or uniform compliance burdens for military personnel, especially those in services under different secretarial authorities like Homeland Security or Commerce.",
+      "Differences in awarding authority among military branches and commissioned corps could lead to inconsistent application or perceptions of favoritism, impacting force cohesion and the value of these recognitions for veterans and active-duty personnel.",
+      "If not carefully communicated, the order may cause confusion among service members about their entitlement to Presidential versus Vice Presidential badges, possibly resulting in delays or disputes that affect military readiness and esprit de corps."
+    ],
+    "enriched_at": "2025-12-15T02:39:47.070Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

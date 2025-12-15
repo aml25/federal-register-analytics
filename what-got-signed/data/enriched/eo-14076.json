@@ -1,0 +1,44 @@
+{
+  "document_number": "2022-15138",
+  "executive_order_number": "14076",
+  "title": "Protecting Access to Reproductive Healthcare Services",
+  "abstract": null,
+  "signing_date": "2022-07-08",
+  "publication_date": "2022-07-13",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2022/07/13/2022-15138/protecting-access-to-reproductive-healthcare-services",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-07-13/pdf/2022-15138.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/07/13/2022-15138.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to take actions that protect and expand access to reproductive healthcare services, including abortion and contraception. It establishes a task force to coordinate these efforts, promotes legal support for providers and patients, and emphasizes protecting the privacy, safety, and security of those seeking or providing reproductive healthcare.",
+    "theme_ids": [
+      "abortion-reproductive-health",
+      "contraception-family-planning",
+      "data-privacy",
+      "homeland-security",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "women",
+        "low-income-individuals-families",
+        "rural-communities",
+        "patients-general",
+        "healthcare-workers"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to protect reproductive healthcare access may expose women in low-income and rural communities to increased safety risks, requiring enhanced homeland security measures.",
+      "Stronger data privacy protections for patients seeking reproductive services might be challenging to enforce consistently, potentially leaving patient health information vulnerable despite new guidelines.",
+      "Healthcare workers providing abortion or contraceptive services could face heightened legal and social pressures in states with restrictive laws, complicating service delivery despite federal support.",
+      "Public awareness campaigns might encounter resistance or backlash in certain regions, limiting their effectiveness in educating underserved populations about reproductive rights and services.",
+      "Interagency coordination could lead to bureaucratic delays or inconsistent implementation across federal agencies, reducing the timeliness of access improvements for patients and providers."
+    ],
+    "enriched_at": "2025-12-15T02:37:59.376Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

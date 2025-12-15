@@ -1,0 +1,41 @@
+{
+  "document_number": "2016-27171",
+  "executive_order_number": "13747",
+  "title": "Advancing the Global Health Security Agenda To Achieve a World Safe and Secure From Infectious Disease Threats",
+  "abstract": null,
+  "signing_date": "2016-11-04",
+  "publication_date": "2016-11-09",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2016/11/09/2016-27171/advancing-the-global-health-security-agenda-to-achieve-a-world-safe-and-secure-from-infectious",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2016-11-09/pdf/2016-27171.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2016/11/09/2016-27171.txt",
+  "enrichment": {
+    "summary": "This executive order directs U.S. government agencies to work together to strengthen global health security by helping countries prevent, detect, and respond to infectious disease threats. It establishes an interagency council to coordinate efforts and assigns specific roles to various departments to support international cooperation and progress on global health initiatives.",
+    "theme_ids": [
+      "global-health-security",
+      "homeland-security",
+      "foreign-aid",
+      "interagency-coordination",
+      "world-health-organization-who"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "global-health-populations",
+        "international-aid-recipients",
+        "border-communities"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The prioritization of global health security efforts may shift resources away from domestic public health issues impacting border communities, potentially leaving them vulnerable to infectious disease threats.",
+      "International aid recipients could face increased conditionalities or oversight tied to GHSA targets, which might strain local health systems or governance structures.",
+      "Interagency coordination complexities may slow rapid response times, risking delayed aid or containment efforts that directly affect global health populations.",
+      "The close collaboration with international organizations like WHO may generate political or sovereignty concerns in partner countries, potentially limiting effective implementation or cooperation."
+    ],
+    "enriched_at": "2025-12-15T02:18:04.449Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

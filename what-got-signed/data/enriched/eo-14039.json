@@ -1,0 +1,43 @@
+{
+  "document_number": "2021-18306",
+  "executive_order_number": "14039",
+  "title": "Blocking Property With Respect to Certain Russian Energy Export Pipelines",
+  "abstract": null,
+  "signing_date": "2021-08-20",
+  "publication_date": "2021-08-24",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/08/24/2021-18306/blocking-property-with-respect-to-certain-russian-energy-export-pipelines",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-08-24/pdf/2021-18306.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/08/24/2021-18306.txt",
+  "enrichment": {
+    "summary": "This executive order blocks the property and interests of certain foreign persons linked to Russian energy export pipelines, prohibiting U.S. persons from engaging in transactions with them. It implements sanctions and visa restrictions to support U.S. national security interests and prevent harmful activities related to these pipelines.",
+    "theme_ids": [
+      "economic-sanctions",
+      "russia",
+      "energy-independence-security",
+      "national-emergencies"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "energy-sector-workers-oil-gas-coal",
+        "working-age-adults"
+      ],
+      "negative_ids": [
+        "corporations-businesses",
+        "foreign-nationals-general"
+      ]
+    },
+    "potential_concerns": [
+      "Sanctioning foreign persons involved in Russian energy pipelines could disrupt global energy supply chains, negatively impacting energy-sector-workers-oil-gas-coal and working-age-adults reliant on stable energy markets.",
+      "Blocking property and restricting transactions may lead to retaliatory economic actions by Russia, affecting U.S. corporations-businesses engaged in energy or related sectors.",
+      "Visa restrictions on involved foreign nationals might complicate diplomatic relations and harm foreign-nationals-general seeking legitimate business or travel in the U.S.",
+      "There is a risk that limitations on transactions may inadvertently disrupt lawful contracts or partnerships, harming U.S. businesses and their employees downstream.",
+      "The sanctions could increase global energy prices, placing an economic burden on working-age-adults, especially those in energy-intensive industries or lower-income brackets."
+    ],
+    "enriched_at": "2025-12-15T02:32:24.926Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

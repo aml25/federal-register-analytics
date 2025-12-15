@@ -1,0 +1,39 @@
+{
+  "document_number": "2014-18682",
+  "executive_order_number": "13674",
+  "title": "Revised List of Quarantinable Communicable Diseases",
+  "abstract": null,
+  "signing_date": "2014-07-31",
+  "publication_date": "2014-08-06",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2014/08/06/2014-18682/revised-list-of-quarantinable-communicable-diseases",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2014-08-06/pdf/2014-18682.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2014/08/06/2014-18682.txt",
+  "enrichment": {
+    "summary": "This executive order updates the list of communicable diseases that may require federal quarantine and control measures, specifically revising the description of severe acute respiratory syndromes to include diseases capable of causing pandemics or serious health impacts. It clarifies the legal authorities involved and states that the order does not create any new individual rights or benefits.",
+    "theme_ids": [
+      "quarantine-communicable-disease-control",
+      "pandemic-preparedness",
+      "public-health-emergency-response"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "patients-general",
+        "incarcerated-individuals",
+        "undocumented-immigrants"
+      ]
+    },
+    "potential_concerns": [
+      "The expanded federal quarantine authority could lead to restrictions on the liberty of patients-general, incarcerated-individuals, and undocumented-immigrants during outbreaks, raising human rights and civil liberties concerns.",
+      "Implementation of quarantine measures might disproportionately affect incarcerated-individuals due to potentially limited healthcare access and overcrowding, exacerbating health risks.",
+      "Enforcement actions under this order could result in stigmatization and fear among undocumented-immigrants, deterring them from seeking medical care and hindering public health efforts.",
+      "The order’s broad criteria for quarantinable diseases might cause confusion or inconsistent application across jurisdictions, impacting patients-general who could face excessive or unnecessary quarantine measures."
+    ],
+    "enriched_at": "2025-12-15T02:14:13.634Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

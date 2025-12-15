@@ -1,0 +1,43 @@
+{
+  "document_number": "E9-3113",
+  "executive_order_number": "13502",
+  "title": "Use of Project Labor Agreements for Federal Construction Projects",
+  "abstract": null,
+  "signing_date": "2009-02-06",
+  "publication_date": "2009-02-11",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/02/11/E9-3113/use-of-project-labor-agreements-for-federal-construction-projects",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-02-11/pdf/E9-3113.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/02/11/E9-3113.txt",
+  "enrichment": {
+    "summary": "This executive order encourages federal agencies to consider using project labor agreements for large federal construction projects costing $25 million or more. These agreements help ensure smoother, more efficient construction by preventing labor disputes, promoting stability, and improving coordination among contractors and labor organizations.",
+    "theme_ids": [
+      "project-labor-agreements",
+      "government-efficiency",
+      "union-policy",
+      "worker-rights-protections"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "union-members",
+        "construction-workers",
+        "federal-contractors"
+      ],
+      "negative_ids": [
+        "non-union-workers",
+        "small-business-owners"
+      ]
+    },
+    "potential_concerns": [
+      "The requirement or encouragement to use project labor agreements may disadvantage non-union workers by limiting their job opportunities on large federal construction projects, impacting their employment prospects.",
+      "Small business owners, especially non-union subcontractors, might face increased barriers to competing for federal contracts due to the complexity and demands of project labor agreements, which could favor larger, unionized contractors.",
+      "While project labor agreements aim to improve labor-management stability, they might inadvertently lead to increased costs and reduced bidding competition, potentially affecting federal procurement efficiency and taxpayer resources.",
+      "Union members and construction workers may experience improved job protections and working conditions, but there could be tensions on projects where some contractors or workers resist union agreements, leading to possible friction in labor relations."
+    ],
+    "enriched_at": "2025-12-15T01:59:31.331Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

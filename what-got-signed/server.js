@@ -56,11 +56,13 @@ function generateThemesFromTaxonomy(taxonomy) {
 
   for (const [key, items] of Object.entries(taxonomy.themes)) {
     const category = THEME_CATEGORY_LABELS[key] || key;
-    for (const item of items) {
+    for (const entry of items) {
       themes.push({
-        id: slugify(item),
-        name: item,
-        description: category,
+        id: slugify(entry.name),
+        name: entry.name,
+        definition: entry.definition || '',
+        category: category,
+        category_key: key,
         created_at: now
       });
     }
@@ -77,52 +79,54 @@ function generatePopulationsFromTaxonomy(taxonomy) {
   const now = new Date().toISOString();
   const pops = taxonomy.impacted_populations;
 
-  const addFromCategory = (items, category) => {
-    for (const item of items) {
+  const addFromCategory = (entries, category, categoryKey) => {
+    for (const entry of entries) {
       populations.push({
-        id: slugify(item),
-        name: item,
-        description: category,
+        id: slugify(entry.name),
+        name: entry.name,
+        definition: entry.definition || '',
+        category: category,
+        category_key: categoryKey,
         created_at: now
       });
     }
   };
 
   // Demographic groups
-  addFromCategory(pops.demographic_groups.racial_ethnic, 'Demographic Groups > Racial/Ethnic');
-  addFromCategory(pops.demographic_groups.gender_identity_sexuality, 'Demographic Groups > Gender Identity & Sexuality');
-  addFromCategory(pops.demographic_groups.age_groups, 'Demographic Groups > Age Groups');
-  addFromCategory(pops.demographic_groups.religious_groups, 'Demographic Groups > Religious Groups');
-  addFromCategory(pops.demographic_groups.disability_status, 'Demographic Groups > Disability Status');
+  addFromCategory(pops.demographic_groups.racial_ethnic, 'Demographic Groups > Racial/Ethnic', 'demographic_groups.racial_ethnic');
+  addFromCategory(pops.demographic_groups.gender_identity_sexuality, 'Demographic Groups > Gender Identity & Sexuality', 'demographic_groups.gender_identity_sexuality');
+  addFromCategory(pops.demographic_groups.age_groups, 'Demographic Groups > Age Groups', 'demographic_groups.age_groups');
+  addFromCategory(pops.demographic_groups.religious_groups, 'Demographic Groups > Religious Groups', 'demographic_groups.religious_groups');
+  addFromCategory(pops.demographic_groups.disability_status, 'Demographic Groups > Disability Status', 'demographic_groups.disability_status');
 
   // Immigration status
-  addFromCategory(pops.immigration_status, 'Immigration Status');
+  addFromCategory(pops.immigration_status, 'Immigration Status', 'immigration_status');
 
   // Employment sectors
-  addFromCategory(pops.employment_sectors.government, 'Employment Sectors > Government');
-  addFromCategory(pops.employment_sectors.private_sector, 'Employment Sectors > Private Sector');
-  addFromCategory(pops.employment_sectors.industry_specific, 'Employment Sectors > Industry-Specific');
+  addFromCategory(pops.employment_sectors.government, 'Employment Sectors > Government', 'employment_sectors.government');
+  addFromCategory(pops.employment_sectors.private_sector, 'Employment Sectors > Private Sector', 'employment_sectors.private_sector');
+  addFromCategory(pops.employment_sectors.industry_specific, 'Employment Sectors > Industry-Specific', 'employment_sectors.industry_specific');
 
   // Economic status
-  addFromCategory(pops.economic_status, 'Economic Status');
+  addFromCategory(pops.economic_status, 'Economic Status', 'economic_status');
 
   // Geographic communities
-  addFromCategory(pops.geographic_communities.domestic, 'Geographic Communities > Domestic');
-  addFromCategory(pops.geographic_communities.regional, 'Geographic Communities > Regional');
+  addFromCategory(pops.geographic_communities.domestic, 'Geographic Communities > Domestic', 'geographic_communities.domestic');
+  addFromCategory(pops.geographic_communities.regional, 'Geographic Communities > Regional', 'geographic_communities.regional');
 
   // Institutional groups
-  addFromCategory(pops.institutional_groups.education, 'Institutional Groups > Education');
-  addFromCategory(pops.institutional_groups.healthcare, 'Institutional Groups > Healthcare');
-  addFromCategory(pops.institutional_groups.justice_system, 'Institutional Groups > Justice System');
+  addFromCategory(pops.institutional_groups.education, 'Institutional Groups > Education', 'institutional_groups.education');
+  addFromCategory(pops.institutional_groups.healthcare, 'Institutional Groups > Healthcare', 'institutional_groups.healthcare');
+  addFromCategory(pops.institutional_groups.justice_system, 'Institutional Groups > Justice System', 'institutional_groups.justice_system');
 
   // Special populations
-  addFromCategory(pops.special_populations, 'Special Populations');
+  addFromCategory(pops.special_populations, 'Special Populations', 'special_populations');
 
   // Foreign populations
-  addFromCategory(pops.foreign_populations, 'Foreign Populations');
+  addFromCategory(pops.foreign_populations, 'Foreign Populations', 'foreign_populations');
 
   // Organizational entities
-  addFromCategory(pops.organizational_entities, 'Organizational Entities');
+  addFromCategory(pops.organizational_entities, 'Organizational Entities', 'organizational_entities');
 
   return { populations, updated_at: now };
 }

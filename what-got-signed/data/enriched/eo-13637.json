@@ -1,0 +1,41 @@
+{
+  "document_number": "2013-05967",
+  "executive_order_number": "13637",
+  "title": "Administration of Reformed Export Controls",
+  "abstract": null,
+  "signing_date": "2013-03-08",
+  "publication_date": "2013-03-13",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2013/03/13/2013-05967/administration-of-reformed-export-controls",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2013-03-13/pdf/2013-05967.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2013/03/13/2013-05967.txt",
+  "enrichment": {
+    "summary": "This executive order assigns specific export control responsibilities under the Arms Export Control Act to various Cabinet officials, primarily the Secretaries of State and Defense. It outlines how functions related to the control and licensing of defense articles and services are delegated and establishes coordination and consultation requirements between departments to ensure export controls align with U.S. national security and foreign policy goals. The order also revokes a previous related executive order and includes provisions for handling export licenses under the International Emergency Economic Powers Act.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "export-import-policy",
+      "interagency-coordination",
+      "delegation-of-authority"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "veterans"
+      ],
+      "negative_ids": [
+        "corporations-businesses"
+      ]
+    },
+    "potential_concerns": [
+      "Delegation of export control authority primarily to the Secretaries of State and Defense could lead to inconsistent or conflicting decisions that impact military readiness and national security, potentially affecting active-duty military personnel and veterans relying on timely defense exports.",
+      "Corporations involved in defense manufacturing and export may face increased bureaucratic complexity and delays due to the required interagency coordination and consultation obligations, harming their operational efficiency and international competitiveness.",
+      "The expanded role of multiple federal departments in export control decisions might create gaps or overlaps in responsibility, leading to enforcement challenges and unintended loopholes that could compromise U.S. foreign policy objectives and security interests.",
+      "Reforming export controls without clear mechanisms to streamline consultation could unintentionally slow down arms sales and defense services delivery, negatively affecting military personnel who depend on access to updated equipment and training."
+    ],
+    "enriched_at": "2025-12-15T02:12:16.707Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

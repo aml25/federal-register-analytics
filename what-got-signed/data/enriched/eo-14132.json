@@ -1,0 +1,39 @@
+{
+  "document_number": "2024-31466",
+  "executive_order_number": "14132",
+  "title": "Adjustments of Certain Rates of Pay",
+  "abstract": null,
+  "signing_date": "2024-12-23",
+  "publication_date": "2024-12-30",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2024/12/30/2024-31466/adjustments-of-certain-rates-of-pay",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-12-30/pdf/2024-31466.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/12/30/2024-31466.txt",
+  "enrichment": {
+    "summary": "This executive order sets new pay rates for various federal employees, including those covered by statutory pay systems, senior executives, judges, members of Congress, uniformed service members, and administrative law judges. It updates these rates effective early 2025 and replaces a prior order from 2023.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "veterans-healthcare",
+      "military-readiness-force-structure"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants",
+        "veterans",
+        "military-personnel-active-duty"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Adjustments in pay rates for federal employees and military personnel could lead to budgetary constraints impacting other federal workforce programs, potentially affecting veterans' healthcare services.",
+      "Increased pay for uniformed services personnel may raise expectations for enhanced military readiness, but could also generate disparities with other service members not covered by this EO.",
+      "The revised locality-based comparability payments might not fully address cost-of-living differences across regions, adversely affecting federal employees in high-cost urban and rural areas.",
+      "Updating senior executive and judicial salaries might result in internal pay equity concerns among lower-tier federal employees, which could affect morale and retention."
+    ],
+    "enriched_at": "2025-12-15T02:39:40.955Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

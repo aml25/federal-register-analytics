@@ -1,0 +1,42 @@
+{
+  "document_number": "2011-21704",
+  "executive_order_number": "13583",
+  "title": "Establishing a Coordinated Government-Wide Initiative to Promote Diversity and Inclusion in the Federal Workforce",
+  "abstract": null,
+  "signing_date": "2011-08-18",
+  "publication_date": "2011-08-23",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2011/08/23/2011-21704/establishing-a-coordinated-government-wide-initiative-to-promote-diversity-and-inclusion-in-the",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2011-08-23/pdf/2011-21704.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2011/08/23/2011-21704.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to create and implement coordinated strategies to promote diversity, inclusion, and equal opportunity within the federal workforce. It requires the development of government-wide and agency-specific plans to improve recruitment, hiring, retention, and advancement of a diverse range of employees, ensuring that the federal government leads by example as an inclusive employer.",
+    "theme_ids": [
+      "dei-diversity-equity-inclusion",
+      "federal-workforce-management",
+      "employment-discrimination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "individuals-with-disabilities",
+        "women",
+        "veterans",
+        "federal-employees-civil-servants"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The initiative’s focus on diversity and inclusion might be perceived by some federal employees as preferential treatment, potentially generating employee morale or cohesion challenges within the federal workforce.",
+      "Efforts to increase representation of specific demographic groups such as African Americans, Hispanic / Latino Americans, individuals with disabilities, and veterans could lead to concerns about merit system principles if not carefully balanced, risking perceptions of reverse discrimination.",
+      "Implementing comprehensive agency-specific Diversity and Inclusion Strategic Plans may burden agencies with additional reporting and compliance requirements, which could divert resources from other human capital priorities affecting federal employees.",
+      "There may be challenges ensuring that diversity and inclusion initiatives translate into meaningful workplace culture changes rather than superficial compliance, which could undermine positive impacts for targeted groups like women and individuals with disabilities."
+    ],
+    "enriched_at": "2025-12-15T02:07:44.993Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

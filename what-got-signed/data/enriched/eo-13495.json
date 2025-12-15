@@ -1,0 +1,42 @@
+{
+  "document_number": "E9-2484",
+  "executive_order_number": "13495",
+  "title": "Nondisplacement of Qualified Workers Under Service Contracts",
+  "abstract": null,
+  "signing_date": "2009-01-30",
+  "publication_date": "2009-02-04",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/02/04/E9-2484/nondisplacement-of-qualified-workers-under-service-contracts",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-02-04/pdf/E9-2484.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/02/04/E9-2484.txt",
+  "enrichment": {
+    "summary": "This executive order requires that when the federal government awards a new service contract to replace an old one, the new contractor must offer current non-managerial service employees who would lose their jobs a chance to be rehired for the same or similar positions. The order aims to ensure workforce continuity, reduce service disruptions, and promote efficiency in federal contracting while allowing certain exemptions and enforcement mechanisms.",
+    "theme_ids": [
+      "worker-rights-protections",
+      "federal-labor-management-relations",
+      "government-efficiency",
+      "revocation-of-previous-executive-orders"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-contractors",
+        "union-members",
+        "working-age-adults"
+      ],
+      "negative_ids": [
+        "federal-contractors"
+      ]
+    },
+    "potential_concerns": [
+      "The requirement for successor contractors to rehire predecessor non-managerial employees may increase costs or reduce flexibility for federal contractors, potentially impacting government-efficiency.",
+      "Union members and working-age adults employed under federal service contracts might face disputes or delays during contractor transitions, complicating labor-management-relations.",
+      "Exemptions and agency-level contract exclusions could be inconsistently applied, leading to uneven protections for workers across federal service contracts.",
+      "Federal contractors might be incentivized to classify certain employees as managerial or supervisory to avoid nondisplacement obligations, negatively affecting affected workers."
+    ],
+    "enriched_at": "2025-12-15T02:03:48.432Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

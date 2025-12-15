@@ -1,0 +1,47 @@
+{
+  "document_number": "2016-30277",
+  "executive_order_number": "13754",
+  "title": "Northern Bering Sea Climate Resilience",
+  "abstract": null,
+  "signing_date": "2016-12-09",
+  "publication_date": "2016-12-14",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2016/12/14/2016-30277/northern-bering-sea-climate-resilience",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2016-12-14/pdf/2016-30277.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2016/12/14/2016-30277.txt",
+  "enrichment": {
+    "summary": "This executive order establishes protections for the Northern Bering Sea region to preserve its unique ecosystem and support Indigenous communities who rely on it. It withdraws certain areas from future oil and gas leasing, creates a task force to coordinate federal efforts, and emphasizes incorporating traditional knowledge and addressing shipping impacts to enhance climate resilience.",
+    "theme_ids": [
+      "climate-change-policy",
+      "environmental-regulation",
+      "offshore-drilling",
+      "interagency-coordination",
+      "tribal-colleges-native-american-education"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "alaska-natives",
+        "tribal-governments",
+        "tribal-college-students-communities",
+        "seafood-fishery-workers",
+        "coastal-communities",
+        "alaska-residents"
+      ],
+      "negative_ids": [
+        "energy-sector-workers-oil-gas-coal"
+      ]
+    },
+    "potential_concerns": [
+      "The withdrawal of areas from future oil and gas leasing could negatively impact energy-sector-workers-oil-gas-coal by reducing economic opportunities in resource development.",
+      "Restrictions on offshore drilling and increased regulations on shipping may raise operational costs and logistical challenges for seafood-fishery-workers and coastal communities relying on marine resources.",
+      "Incorporation of traditional knowledge could lead to complex interagency coordination challenges, potentially delaying implementation and frustrating tribal-governments and Alaska Natives who depend on timely policy actions.",
+      "Enhanced vessel pollution controls and shipping routing changes may disrupt existing commercial and subsistence activities in the Northern Bering Sea, possibly leading to unintended economic or cultural impacts for Alaska Native communities and coastal residents.",
+      "While the order supports tribal-college-students-communities through emphasis on indigenous engagement, limited funding or staffing for training and spill response preparedness could constrain long-term capacity building in these communities."
+    ],
+    "enriched_at": "2025-12-15T02:17:05.243Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

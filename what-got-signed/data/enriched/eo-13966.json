@@ -1,0 +1,43 @@
+{
+  "document_number": "2020-27948",
+  "executive_order_number": "13966",
+  "title": "Increasing Economic and Geographic Mobility",
+  "abstract": null,
+  "signing_date": "2020-12-14",
+  "publication_date": "2020-12-17",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2020/12/17/2020-27948/increasing-economic-and-geographic-mobility",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-12-17/pdf/2020-27948.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/12/17/2020-27948.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to review and reform occupational licensing rules to reduce unnecessary barriers that limit job opportunities and worker mobility, especially benefiting military spouses and individuals with criminal records. It establishes principles to ensure occupational regulations protect public safety without being overly restrictive and encourages states to adopt these reforms while recognizing and rewarding compliant governments.",
+    "theme_ids": [
+      "regulatory-reform-deregulation",
+      "small-business-support",
+      "worker-rights-protections",
+      "reentry-recidivism-reduction"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-spouses",
+        "formerly-incarcerated-returning-citizens",
+        "low-income-individuals-families",
+        "working-age-adults",
+        "small-business-owners"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Reducing occupational licensing requirements might compromise consumer and worker safety if states relax standards excessively, potentially harming vulnerable populations including working-age adults.",
+      "Efforts to ease licensing for formerly incarcerated returning citizens could face backlash or uneven implementation by states unwilling to reduce barriers, limiting effective reentry and recidivism reduction.",
+      "Military spouses may still encounter inconsistent state-level reforms, undermining the intended geographic mobility benefits due to patchwork adoption of the order's principles.",
+      "Small business owners could face uncertainty if reforms lead to deregulation without clear guidelines, resulting in uneven competitive environments across states.",
+      "Lowering barriers to occupational licensing may unintentionally reduce quality control in some occupations predominantly held by low-income individuals, risking consumer harm."
+    ],
+    "enriched_at": "2025-12-15T02:30:08.106Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "document_number": "2025-15193",
+  "executive_order_number": "14328",
+  "title": "Establishing the White House Task Force on the 2028 Summer Olympics",
+  "abstract": null,
+  "signing_date": "2025-08-05",
+  "publication_date": "2025-08-08",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/08/08/2025-15193/establishing-the-white-house-task-force-on-the-2028-summer-olympics",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-08-08/pdf/2025-15193.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/08/08/2025-15193.txt",
+  "enrichment": {
+    "summary": "This executive order creates a White House Task Force to coordinate federal planning and operations for the 2028 Summer Olympics in the United States. The Task Force is chaired by the President and includes key agency heads to ensure security, transportation, visa processing, and emergency readiness for the Games. It will operate until the end of 2028 and support cooperation among federal, state, and local partners.",
+    "theme_ids": [
+      "homeland-security",
+      "border-security",
+      "visa-policy",
+      "interagency-coordination",
+      "transportation-infrastructure"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "visa-holders-work-student-tourist",
+        "foreign-nationals-general",
+        "transportation-workers",
+        "law-enforcement-officers-state-local",
+        "law-enforcement-officers-federal"
+      ],
+      "negative_ids": [
+        "undocumented-immigrants",
+        "border-communities",
+        "urban-communities"
+      ]
+    },
+    "potential_concerns": [
+      "Enhanced border-security and visa-processing efforts may increase scrutiny and delays for visa-holders and foreign nationals, potentially impeding legitimate travel and participation in the Games.",
+      "Heightened law enforcement coordination and homeland security measures risk over-policing urban and border communities, disproportionately affecting residents and raising civil liberties concerns.",
+      "Transportation infrastructure demands could strain transportation workers and urban communities, causing disruptions in daily commuting and local mobility.",
+      "The amplified security focus may inadvertently marginalize or criminalize undocumented immigrants, increasing their vulnerability to detention and deportation during the Olympic period.",
+      "Interagency coordination challenges might lead to inconsistent communication with state and local law enforcement, reducing overall effectiveness and possibly creating jurisdictional tensions."
+    ],
+    "enriched_at": "2025-12-15T02:41:55.257Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

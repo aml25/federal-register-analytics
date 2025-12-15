@@ -1,0 +1,40 @@
+{
+  "document_number": "2023-09318",
+  "executive_order_number": "14097",
+  "title": "Authority To Order the Ready Reserve of the Armed Forces to Active Duty To Address International Drug Trafficking",
+  "abstract": null,
+  "signing_date": "2023-04-27",
+  "publication_date": "2023-05-01",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/05/01/2023-09318/authority-to-order-the-ready-reserve-of-the-armed-forces-to-active-duty-to-address-international",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-05-01/pdf/2023-09318.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/05/01/2023-09318.txt",
+  "enrichment": {
+    "summary": "This executive order authorizes the Secretary of Defense and the Secretary of Homeland Security to call members of the Ready Reserve of the Armed Forces to active duty to help address the national emergency caused by international drug trafficking. It provides legal authority to activate these forces as needed to combat the threat posed by global illicit drug trade.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "homeland-security",
+      "drug-enforcement",
+      "national-emergencies"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-reservists-called-to-active-duty"
+      ],
+      "negative_ids": [
+        "military-reservists-called-to-active-duty"
+      ]
+    },
+    "potential_concerns": [
+      "The activation of Ready Reserve members may disrupt their civilian employment and family life, creating financial and personal hardships for military reservists.",
+      "Using military readiness to address international drug trafficking could divert critical military resources and personnel from other defense priorities, affecting national security.",
+      "The order may raise legal and ethical concerns about the scope and duration of activating reservists under a national emergency related to drug enforcement, potentially impacting reservists' rights.",
+      "Operations targeting international drug trafficking with military reservists could result in increased militarization of homeland security efforts, possibly affecting civil liberties within border and coastal communities."
+    ],
+    "enriched_at": "2025-12-15T02:38:50.408Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

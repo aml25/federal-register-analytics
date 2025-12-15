@@ -1,0 +1,40 @@
+{
+  "document_number": "2016-31875",
+  "executive_order_number": "13756",
+  "title": "Adjustments of Certain Rates of Pay",
+  "abstract": null,
+  "signing_date": "2016-12-27",
+  "publication_date": "2016-12-30",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2016/12/30/2016-31875/adjustments-of-certain-rates-of-pay",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2016-12-30/pdf/2016-31875.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2016/12/30/2016-31875.txt",
+  "enrichment": {
+    "summary": "This executive order updates and sets the pay rates for various federal employees, including statutory pay systems, Senior Executive Service members, judges, uniformed services personnel, and others. It also adjusts locality-based comparability payments and supersedes a prior executive order on pay rates, with new pay scales effective starting early 2017.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "military-readiness-force-structure",
+      "veterans-healthcare"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants",
+        "military-personnel-active-duty",
+        "veterans",
+        "foreign-service-officers"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Adjustments to pay rates for military personnel may affect military readiness if increases are inadequate to retain skilled active-duty members.",
+      "Locality-based comparability payments could create disparities within federal workforce segments, leading to perception of unfairness among federal employees in less well-compensated regions.",
+      "Veterans employed within the Veterans Health Administration might face unintentional challenges if pay adjustments do not keep pace with comparable private sector health jobs, affecting veteran healthcare staffing.",
+      "Foreign Service officers' pay adjustments could impact diplomatic staffing levels or morale if salaries are not competitive internationally."
+    ],
+    "enriched_at": "2025-12-15T02:16:45.537Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

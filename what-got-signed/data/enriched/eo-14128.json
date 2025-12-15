@@ -1,0 +1,42 @@
+{
+  "document_number": "2024-27850",
+  "executive_order_number": "14128",
+  "title": "Establishing a Second Emergency Board To Investigate a Dispute Between New Jersey Transit Rail Operations and Its Locomotive Engineers Represented by the Brotherhood of Locomotive Engineers and Trainmen",
+  "abstract": null,
+  "signing_date": "2024-11-21",
+  "publication_date": "2024-11-26",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2024/11/26/2024-27850/establishing-a-second-emergency-board-to-investigate-a-dispute-between-new-jersey-transit-rail",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-11-26/pdf/2024-27850.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/11/26/2024-27850.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a second emergency board to investigate and help resolve a labor dispute between New Jersey Transit Rail Operations and its locomotive engineers represented by the Brotherhood of Locomotive Engineers and Trainmen. The board will review final settlement offers and recommend a solution to the President within a set time frame to help prevent disruption in rail service.",
+    "theme_ids": [
+      "union-policy",
+      "federal-labor-management-relations",
+      "transportation-infrastructure"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "union-members",
+        "transportation-workers"
+      ],
+      "negative_ids": [
+        "working-age-adults",
+        "urban-communities",
+        "suburban-communities"
+      ]
+    },
+    "potential_concerns": [
+      "The executive order may prolong uncertainty for the Brotherhood of Locomotive Engineers and Trainmen union members, potentially affecting their labor conditions and bargaining power.",
+      "Delays in resolving the dispute might cause disruptions in New Jersey Transit rail service, negatively impacting working-age adults relying on this transportation in urban and suburban communities.",
+      "There is a risk that the emergency board’s recommendation might favor one party over the other, leading to dissatisfaction and possible labor unrest among transportation workers.",
+      "The requirement to maintain current working conditions during the investigation period could limit the parties’ ability to respond flexibly to interim operational or safety issues, potentially affecting transportation workers' safety and service quality."
+    ],
+    "enriched_at": "2025-12-15T02:40:04.651Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "document_number": "2024-31143",
+  "executive_order_number": "14129",
+  "title": "Providing for the Closing of Executive Departments and Agencies of the Federal Government on December 24, 2024",
+  "abstract": null,
+  "signing_date": "2024-12-18",
+  "publication_date": "2024-12-26",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2024/12/26/2024-31143/providing-for-the-closing-of-executive-departments-and-agencies-of-the-federal-government-on",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-12-26/pdf/2024-31143.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/12/26/2024-31143.txt",
+  "enrichment": {
+    "summary": "This executive order directs all federal government executive departments and agencies to be closed on December 24, 2024, with employees excused from work that day. However, department and agency heads can require certain essential staff to work on that day for national security or other critical needs. The order also clarifies how employee pay and leave will be handled for this closure day.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "national-security-information-classification"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants"
+      ],
+      "negative_ids": [
+        "federal-employees-civil-servants"
+      ]
+    },
+    "potential_concerns": [
+      "Requiring essential federal employees to work on December 24 could lead to strain and reduced holiday morale among federal-employees-civil-servants designated as critical, conflicting with the intended day-off benefit.",
+      "Ambiguities in defining 'essential' work may result in uneven application across agencies, causing perceived unfairness or inconsistent work expectations for federal-employees-civil-servants.",
+      "Ensuring proper compensation and leave handling for employees who work on the closure day may create administrative burdens or payroll errors affecting federal-employees-civil-servants.",
+      "The closure could impact national security or critical functions if too many personnel are excused from duty, raising risks for intelligence-community-personnel or law-enforcement-officers-federal, if referenced implicitly under essential staff exceptions."
+    ],
+    "enriched_at": "2025-12-15T02:39:58.526Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

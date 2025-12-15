@@ -76,33 +76,372 @@
       "month_name": "September",
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
+      "order_count": 11,
+      "top_themes": [
+        {
+          "id": "trade-policy-agreements",
+          "name": "Trade Policy / Agreements"
+        },
+        {
+          "id": "tariffs-duties",
+          "name": "Tariffs / Duties"
+        },
+        {
+          "id": "defense-industrial-base",
+          "name": "Defense Industrial Base"
+        },
+        {
+          "id": "foreign-investment-cfius",
+          "name": "Foreign Investment (CFIUS)"
+        },
+        {
+          "id": "national-emergencies",
+          "name": "National Emergencies"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 11 executive orders focused on the themes of trade policy / agreements, tariffs / duties, defense industrial base, and 2 others.",
+      "order_ids": [
+        "14345",
+        "14346",
+        "14347",
+        "14348",
+        "14349",
+        "14350",
+        "14351",
+        "14352",
+        "14353",
+        "14354",
+        "14355"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "month_name": "August",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 17,
+      "top_themes": [
+        {
+          "id": "government-efficiency",
+          "name": "Government Efficiency"
+        },
+        {
+          "id": "state-local-law-enforcement-support",
+          "name": "State/Local Law Enforcement Support"
+        },
+        {
+          "id": "crime-reduction",
+          "name": "Crime Reduction"
+        },
+        {
+          "id": "federal-law-enforcement",
+          "name": "Federal Law Enforcement"
+        },
+        {
+          "id": "criminal-justice-reform",
+          "name": "Criminal Justice Reform"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 17 executive orders focused on the themes of government efficiency, state/local law enforcement support, crime reduction, and 2 others.",
+      "order_ids": [
+        "14328",
+        "14329",
+        "14330",
+        "14331",
+        "14332",
+        "14333",
+        "14334",
+        "14335",
+        "14336",
+        "14337",
+        "14338",
+        "14339",
+        "14340",
+        "14341",
+        "14342",
+        "14343",
+        "14344"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "month_name": "July",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 9,
+      "top_themes": [
+        {
+          "id": "national-emergencies",
+          "name": "National Emergencies"
+        },
+        {
+          "id": "tariffs-duties",
+          "name": "Tariffs / Duties"
+        },
+        {
+          "id": "drug-enforcement",
+          "name": "Drug Enforcement"
+        },
+        {
+          "id": "artificial-intelligence",
+          "name": "Artificial Intelligence"
+        },
+        {
+          "id": "border-security",
+          "name": "Border Security"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 9 executive orders focused on the themes of national emergencies, tariffs / duties, drug enforcement, and 2 others.",
+      "order_ids": [
+        "14319",
+        "14320",
+        "14321",
+        "14322",
+        "14323",
+        "14324",
+        "14325",
+        "14326",
+        "14327"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "month_name": "December",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 5,
+      "top_themes": [
+        {
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management"
+        },
+        {
+          "id": "military-readiness-force-structure",
+          "name": "Military Readiness / Force Structure"
+        },
+        {
+          "id": "national-security-information-classification",
+          "name": "National Security Information / Classification"
+        },
+        {
+          "id": "criminal-justice-reform",
+          "name": "Criminal Justice Reform"
+        },
+        {
+          "id": "homeland-security",
+          "name": "Homeland Security"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 5 executive orders focused on the themes of federal workforce management, military readiness / force structure, national security information / classification, and 2 others.",
+      "order_ids": [
+        "14129",
+        "14130",
+        "14131",
+        "14132",
+        "14133"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "month_name": "November",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "union-policy",
+          "name": "Union Policy"
+        },
+        {
+          "id": "federal-labor-management-relations",
+          "name": "Federal Labor-Management Relations"
+        },
+        {
+          "id": "transportation-infrastructure",
+          "name": "Transportation Infrastructure"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 1 executive order focused on the themes of union policy, federal labor-management relations, and transportation infrastructure.",
+      "order_ids": [
+        "14128"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "month_name": "September",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
       "order_count": 2,
       "top_themes": [
         {
-          "id": "federal-advisory-committees",
-          "name": "Federal Advisory Committees"
+          "id": "union-policy",
+          "name": "Union Policy"
         },
         {
-          "id": "public-lands-management",
-          "name": "Public Lands Management"
+          "id": "worker-rights-protections",
+          "name": "Worker Rights / Protections"
         },
         {
-          "id": "national-monuments-antiquities",
-          "name": "National Monuments / Antiquities"
+          "id": "workforce-development",
+          "name": "Workforce Development"
         },
         {
-          "id": "religious-liberty",
-          "name": "Religious Liberty"
+          "id": "project-labor-agreements",
+          "name": "Project Labor Agreements"
         },
         {
-          "id": "small-business-support",
-          "name": "Small Business Support"
+          "id": "racial-equity",
+          "name": "Racial Equity"
         }
       ],
-      "theme_summary": "Donald Trump signed 2 executive orders focused on the themes of federal advisory committees, public lands management, national monuments / antiquities, and 2 others.",
+      "theme_summary": "Joseph R. Biden Jr. signed 2 executive orders focused on the themes of union policy, worker rights / protections, workforce development, and 2 others.",
       "order_ids": [
-        "14354",
-        "14355"
+        "14126",
+        "14127"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "month_name": "July",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "higher-education",
+          "name": "Higher Education"
+        },
+        {
+          "id": "educational-excellence-initiatives-by-demographic",
+          "name": "Educational Excellence Initiatives (by demographic)"
+        },
+        {
+          "id": "dei-diversity-equity-inclusion",
+          "name": "DEI (Diversity, Equity, Inclusion)"
+        },
+        {
+          "id": "federal-labor-management-relations",
+          "name": "Federal Labor-Management Relations"
+        },
+        {
+          "id": "union-policy",
+          "name": "Union Policy"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 2 executive orders focused on the themes of higher education, educational excellence initiatives (by demographic), dei (diversity, equity, inclusion), and 2 others.",
+      "order_ids": [
+        "14124",
+        "14125"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "month_name": "June",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "supply-chain-security",
+          "name": "Supply Chain Security"
+        },
+        {
+          "id": "economic-competitiveness",
+          "name": "Economic Competitiveness"
+        },
+        {
+          "id": "critical-infrastructure-protection",
+          "name": "Critical Infrastructure Protection"
+        },
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "worker-rights-protections",
+          "name": "Worker Rights / Protections"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 1 executive order focused on the themes of supply chain security, economic competitiveness, critical infrastructure protection, and 2 others.",
+      "order_ids": [
+        "14123"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "month_name": "April",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "pandemic-preparedness",
+          "name": "Pandemic Preparedness"
+        },
+        {
+          "id": "covid-19-response",
+          "name": "COVID-19 Response"
+        },
+        {
+          "id": "public-health-emergency-response",
+          "name": "Public Health Emergency Response"
+        },
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "government-reorganization",
+          "name": "Government Reorganization"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 1 executive order focused on the themes of pandemic preparedness, covid-19 response, public health emergency response, and 2 others.",
+      "order_ids": [
+        "14122"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "month_name": "March",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "dei-diversity-equity-inclusion",
+          "name": "DEI (Diversity, Equity, Inclusion)"
+        },
+        {
+          "id": "apprenticeships-vocational-training",
+          "name": "Apprenticeships / Vocational Training"
+        },
+        {
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management"
+        },
+        {
+          "id": "federal-labor-management-relations",
+          "name": "Federal Labor-Management Relations"
+        },
+        {
+          "id": "workforce-development",
+          "name": "Workforce Development"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 3 executive orders focused on the themes of dei (diversity, equity, inclusion), apprenticeships / vocational training, federal workforce management, and 2 others.",
+      "order_ids": [
+        "14119",
+        "14120",
+        "14121"
       ]
     },
     {
@@ -273,6 +612,398 @@
       ]
     },
     {
+      "year": 2023,
+      "month": 7,
+      "month_name": "July",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "military-readiness-force-structure",
+          "name": "Military Readiness / Force Structure"
+        },
+        {
+          "id": "homeland-security",
+          "name": "Homeland Security"
+        },
+        {
+          "id": "nato",
+          "name": "NATO"
+        },
+        {
+          "id": "europe-general",
+          "name": "Europe (General)"
+        },
+        {
+          "id": "criminal-justice-reform",
+          "name": "Criminal Justice Reform"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 3 executive orders focused on the themes of military readiness / force structure, homeland security, nato, and 2 others.",
+      "order_ids": [
+        "14102",
+        "14103",
+        "14104"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "month_name": "June",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "military-readiness-force-structure",
+          "name": "Military Readiness / Force Structure"
+        },
+        {
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management"
+        },
+        {
+          "id": "small-business-support",
+          "name": "Small Business Support"
+        },
+        {
+          "id": "caregiving-paid-leave",
+          "name": "Caregiving / Paid Leave"
+        },
+        {
+          "id": "gender-equality",
+          "name": "Gender Equality"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 2 executive orders focused on the themes of military readiness / force structure, federal workforce management, small business support, and 2 others.",
+      "order_ids": [
+        "14100",
+        "14101"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "month_name": "May",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "economic-sanctions",
+          "name": "Economic Sanctions"
+        },
+        {
+          "id": "sanctions-country-specific",
+          "name": "Sanctions (Country-Specific)"
+        },
+        {
+          "id": "sudan",
+          "name": "Sudan"
+        },
+        {
+          "id": "travel-restrictions-bans",
+          "name": "Travel Restrictions / Bans"
+        },
+        {
+          "id": "covid-19-response",
+          "name": "COVID-19 Response"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 2 executive orders focused on the themes of economic sanctions, sanctions (country-specific), sudan, and 2 others.",
+      "order_ids": [
+        "14098",
+        "14099"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "month_name": "April",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 4,
+      "top_themes": [
+        {
+          "id": "military-readiness-force-structure",
+          "name": "Military Readiness / Force Structure"
+        },
+        {
+          "id": "regulatory-reform-deregulation",
+          "name": "Regulatory Reform / Deregulation"
+        },
+        {
+          "id": "dei-diversity-equity-inclusion",
+          "name": "DEI (Diversity, Equity, Inclusion)"
+        },
+        {
+          "id": "government-efficiency",
+          "name": "Government Efficiency"
+        },
+        {
+          "id": "veterans-healthcare",
+          "name": "Veterans Healthcare"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 4 executive orders focused on the themes of military readiness / force structure, regulatory reform / deregulation, dei (diversity, equity, inclusion), and 2 others.",
+      "order_ids": [
+        "14094",
+        "14095",
+        "14096",
+        "14097"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "month_name": "March",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "homeland-security",
+          "name": "Homeland Security"
+        },
+        {
+          "id": "federal-law-enforcement",
+          "name": "Federal Law Enforcement"
+        },
+        {
+          "id": "crime-reduction",
+          "name": "Crime Reduction"
+        },
+        {
+          "id": "mental-health",
+          "name": "Mental Health"
+        },
+        {
+          "id": "cybersecurity-national-security",
+          "name": "Cybersecurity (National Security)"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 2 executive orders focused on the themes of homeland security, federal law enforcement, crime reduction, and 2 others.",
+      "order_ids": [
+        "14092",
+        "14093"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "month_name": "February",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "racial-equity",
+          "name": "Racial Equity"
+        },
+        {
+          "id": "dei-diversity-equity-inclusion",
+          "name": "DEI (Diversity, Equity, Inclusion)"
+        },
+        {
+          "id": "civil-rights-enforcement",
+          "name": "Civil Rights Enforcement"
+        },
+        {
+          "id": "small-business-support",
+          "name": "Small Business Support"
+        },
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 1 executive order focused on the themes of racial equity, dei (diversity, equity, inclusion), civil rights enforcement, and 2 others.",
+      "order_ids": [
+        "14091"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 12,
+      "month_name": "December",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "diaspora-engagement",
+          "name": "Diaspora Engagement"
+        },
+        {
+          "id": "racial-equity",
+          "name": "Racial Equity"
+        },
+        {
+          "id": "africa-engagement-trade",
+          "name": "Africa Engagement / Trade"
+        },
+        {
+          "id": "federal-advisory-committees",
+          "name": "Federal Advisory Committees"
+        },
+        {
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 2 executive orders focused on the themes of diaspora engagement, racial equity, africa engagement / trade, and 2 others.",
+      "order_ids": [
+        "14089",
+        "14090"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 10,
+      "month_name": "October",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 4,
+      "top_themes": [
+        {
+          "id": "military-readiness-force-structure",
+          "name": "Military Readiness / Force Structure"
+        },
+        {
+          "id": "homeland-security",
+          "name": "Homeland Security"
+        },
+        {
+          "id": "delegation-of-authority",
+          "name": "Delegation of Authority"
+        },
+        {
+          "id": "intelligence-operations",
+          "name": "Intelligence Operations"
+        },
+        {
+          "id": "data-privacy",
+          "name": "Data Privacy"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 4 executive orders focused on the themes of military readiness / force structure, homeland security, delegation of authority, and 2 others.",
+      "order_ids": [
+        "14085",
+        "14086",
+        "14087",
+        "14088"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 9,
+      "month_name": "September",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 4,
+      "top_themes": [
+        {
+          "id": "biotechnology-biomanufacturing",
+          "name": "Biotechnology / Biomanufacturing"
+        },
+        {
+          "id": "climate-change-policy",
+          "name": "Climate Change Policy"
+        },
+        {
+          "id": "economic-competitiveness",
+          "name": "Economic Competitiveness"
+        },
+        {
+          "id": "workforce-development",
+          "name": "Workforce Development"
+        },
+        {
+          "id": "homeland-security",
+          "name": "Homeland Security"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 4 executive orders focused on the themes of biotechnology / biomanufacturing, climate change policy, economic competitiveness, and 2 others.",
+      "order_ids": [
+        "14081",
+        "14082",
+        "14083",
+        "14084"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 8,
+      "month_name": "August",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "abortion-reproductive-health",
+          "name": "Abortion / Reproductive Health"
+        },
+        {
+          "id": "medicaid",
+          "name": "Medicaid"
+        },
+        {
+          "id": "affordable-care-act-aca",
+          "name": "Affordable Care Act (ACA)"
+        },
+        {
+          "id": "anti-discrimination",
+          "name": "Anti-discrimination"
+        },
+        {
+          "id": "defense-industrial-base",
+          "name": "Defense Industrial Base"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 2 executive orders focused on the themes of abortion / reproductive health, medicaid, affordable care act (aca), and 2 others.",
+      "order_ids": [
+        "14079",
+        "14080"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "month_name": "July",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "abortion-reproductive-health",
+          "name": "Abortion / Reproductive Health"
+        },
+        {
+          "id": "contraception-family-planning",
+          "name": "Contraception / Family Planning"
+        },
+        {
+          "id": "data-privacy",
+          "name": "Data Privacy"
+        },
+        {
+          "id": "homeland-security",
+          "name": "Homeland Security"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 3 executive orders focused on the themes of interagency coordination, abortion / reproductive health, contraception / family planning, and 2 others.",
+      "order_ids": [
+        "14076",
+        "14077",
+        "14078"
+      ]
+    },
+    {
       "year": 2021,
       "month": 12,
       "month_name": "December",
@@ -349,6 +1080,234 @@
       ]
     },
     {
+      "year": 2021,
+      "month": 10,
+      "month_name": "October",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "educational-excellence-initiatives-by-demographic",
+          "name": "Educational Excellence Initiatives (by demographic)"
+        },
+        {
+          "id": "racial-equity",
+          "name": "Racial Equity"
+        },
+        {
+          "id": "tribal-colleges-native-american-education",
+          "name": "Tribal Colleges / Native American Education"
+        },
+        {
+          "id": "gender-equality",
+          "name": "Gender Equality"
+        },
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 3 executive orders focused on the themes of educational excellence initiatives (by demographic), racial equity, tribal colleges / native american education, and 2 others.",
+      "order_ids": [
+        "14049",
+        "14050",
+        "14051"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 9,
+      "month_name": "September",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 9,
+      "top_themes": [
+        {
+          "id": "public-health-emergency-response",
+          "name": "Public Health Emergency Response"
+        },
+        {
+          "id": "racial-equity",
+          "name": "Racial Equity"
+        },
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "covid-19-response",
+          "name": "COVID-19 Response"
+        },
+        {
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 9 executive orders focused on the themes of public health emergency response, racial equity, interagency coordination, and 2 others.",
+      "order_ids": [
+        "14040",
+        "14041",
+        "14042",
+        "14043",
+        "14044",
+        "14045",
+        "14046",
+        "14047",
+        "14048"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 8,
+      "month_name": "August",
+      "president_id": "joe-biden",
+      "president_name": "Joseph R. Biden Jr.",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "energy-independence-security",
+          "name": "Energy Independence / Security"
+        },
+        {
+          "id": "renewable-energy",
+          "name": "Renewable Energy"
+        },
+        {
+          "id": "climate-change-policy",
+          "name": "Climate Change Policy"
+        },
+        {
+          "id": "environmental-regulation",
+          "name": "Environmental Regulation"
+        },
+        {
+          "id": "workforce-development",
+          "name": "Workforce Development"
+        }
+      ],
+      "theme_summary": "Joseph R. Biden Jr. signed 3 executive orders focused on the themes of energy independence / security, renewable energy, climate change policy, and 2 others.",
+      "order_ids": [
+        "14037",
+        "14038",
+        "14039"
+      ]
+    },
+    {
+      "year": 2020,
+      "month": 12,
+      "month_name": "December",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 11,
+      "top_themes": [
+        {
+          "id": "government-efficiency",
+          "name": "Government Efficiency"
+        },
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management"
+        },
+        {
+          "id": "military-readiness-force-structure",
+          "name": "Military Readiness / Force Structure"
+        },
+        {
+          "id": "covid-19-response",
+          "name": "COVID-19 Response"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 11 executive orders focused on the themes of government efficiency, interagency coordination, federal workforce management, and 2 others.",
+      "order_ids": [
+        "13960",
+        "13961",
+        "13962",
+        "13963",
+        "13964",
+        "13965",
+        "13966",
+        "13967",
+        "13968",
+        "13969",
+        "13970"
+      ]
+    },
+    {
+      "year": 2020,
+      "month": 11,
+      "month_name": "November",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "american-heritage-patriotism",
+          "name": "American Heritage / Patriotism"
+        },
+        {
+          "id": "historical-commemorations",
+          "name": "Historical Commemorations"
+        },
+        {
+          "id": "presidential-commissions-task-forces",
+          "name": "Presidential Commissions / Task Forces"
+        },
+        {
+          "id": "federal-advisory-committees",
+          "name": "Federal Advisory Committees"
+        },
+        {
+          "id": "defense-industrial-base",
+          "name": "Defense Industrial Base"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 2 executive orders focused on the themes of american heritage / patriotism, historical commemorations, presidential commissions / task forces, and 2 others.",
+      "order_ids": [
+        "13958",
+        "13959"
+      ]
+    },
+    {
+      "year": 2020,
+      "month": 10,
+      "month_name": "October",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "water-infrastructure",
+          "name": "Water Infrastructure"
+        },
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "workforce-development",
+          "name": "Workforce Development"
+        },
+        {
+          "id": "clean-air-water",
+          "name": "Clean Air / Water"
+        },
+        {
+          "id": "rural-development",
+          "name": "Rural Development"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 2 executive orders focused on the themes of water infrastructure, interagency coordination, workforce development, and 2 others.",
+      "order_ids": [
+        "13956",
+        "13957"
+      ]
+    },
+    {
       "year": 2019,
       "month": 12,
       "month_name": "December",
@@ -412,37 +1371,393 @@
       "month_name": "October",
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
-      "order_count": 6,
+      "order_count": 8,
       "top_themes": [
-        {
-          "id": "government-efficiency",
-          "name": "Government Efficiency"
-        },
         {
           "id": "regulatory-reform-deregulation",
           "name": "Regulatory Reform / Deregulation"
         },
         {
-          "id": "foia-information-disclosure",
-          "name": "FOIA / Information Disclosure"
+          "id": "government-efficiency",
+          "name": "Government Efficiency"
         },
         {
-          "id": "federal-spending",
-          "name": "Federal Spending"
+          "id": "artificial-intelligence",
+          "name": "Artificial Intelligence"
         },
         {
-          "id": "national-emergencies",
-          "name": "National Emergencies"
+          "id": "medicare",
+          "name": "Medicare"
+        },
+        {
+          "id": "healthcare-competition-markets",
+          "name": "Healthcare Competition / Markets"
         }
       ],
-      "theme_summary": "Donald Trump signed 6 executive orders focused on the themes of government efficiency, regulatory reform / deregulation, foia / information disclosure, and 2 others.",
+      "theme_summary": "Donald Trump signed 8 executive orders focused on the themes of regulatory reform / deregulation, government efficiency, artificial intelligence, and 2 others.",
       "order_ids": [
+        "13890",
+        "13891",
         "13892",
         "13893",
         "13894",
         "13895",
         "13896",
         "13897"
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "month_name": "September",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 4,
+      "top_themes": [
+        {
+          "id": "counterterrorism",
+          "name": "Counterterrorism"
+        },
+        {
+          "id": "terrorism-designations",
+          "name": "Terrorism Designations"
+        },
+        {
+          "id": "economic-sanctions",
+          "name": "Economic Sanctions"
+        },
+        {
+          "id": "national-emergencies",
+          "name": "National Emergencies"
+        },
+        {
+          "id": "united-nations",
+          "name": "United Nations"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 4 executive orders focused on the themes of counterterrorism, terrorism designations, economic sanctions, and 2 others.",
+      "order_ids": [
+        "13886",
+        "13887",
+        "13888",
+        "13889"
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 8,
+      "month_name": "August",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "economic-sanctions",
+          "name": "Economic Sanctions"
+        },
+        {
+          "id": "human-rights-international",
+          "name": "Human Rights (International)"
+        },
+        {
+          "id": "venezuela",
+          "name": "Venezuela"
+        },
+        {
+          "id": "travel-restrictions-bans",
+          "name": "Travel Restrictions / Bans"
+        },
+        {
+          "id": "national-emergencies",
+          "name": "National Emergencies"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 2 executive orders focused on the themes of economic sanctions, human rights (international), venezuela, and 2 others.",
+      "order_ids": [
+        "13884",
+        "13885"
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 7,
+      "month_name": "July",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 5,
+      "top_themes": [
+        {
+          "id": "government-efficiency",
+          "name": "Government Efficiency"
+        },
+        {
+          "id": "sanctions-country-specific",
+          "name": "Sanctions (Country-Specific)"
+        },
+        {
+          "id": "kidney-health-organ-donation",
+          "name": "Kidney Health / Organ Donation"
+        },
+        {
+          "id": "medicare",
+          "name": "Medicare"
+        },
+        {
+          "id": "public-health-emergency-response",
+          "name": "Public Health Emergency Response"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 5 executive orders focused on the themes of government efficiency, sanctions (country-specific), kidney health / organ donation, and 2 others.",
+      "order_ids": [
+        "13879",
+        "13880",
+        "13881",
+        "13882",
+        "13883"
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 6,
+      "month_name": "June",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "healthcare-competition-markets",
+          "name": "Healthcare Competition / Markets"
+        },
+        {
+          "id": "medicare",
+          "name": "Medicare"
+        },
+        {
+          "id": "medicaid",
+          "name": "Medicaid"
+        },
+        {
+          "id": "veterans-healthcare",
+          "name": "Veterans Healthcare"
+        },
+        {
+          "id": "housing-policy-affordable-housing",
+          "name": "Housing Policy / Affordable Housing"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 2 executive orders focused on the themes of healthcare competition / markets, medicare, medicaid, and 2 others.",
+      "order_ids": [
+        "13877",
+        "13878"
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 12,
+      "month_name": "December",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 4,
+      "top_themes": [
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management"
+        },
+        {
+          "id": "opportunity-zones-distressed-communities",
+          "name": "Opportunity Zones / Distressed Communities"
+        },
+        {
+          "id": "housing-policy-affordable-housing",
+          "name": "Housing Policy / Affordable Housing"
+        },
+        {
+          "id": "workforce-development",
+          "name": "Workforce Development"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 4 executive orders focused on the themes of interagency coordination, federal workforce management, opportunity zones / distressed communities, and 2 others.",
+      "order_ids": [
+        "13853",
+        "13854",
+        "13855",
+        "13856"
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 11,
+      "month_name": "November",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "sanctions-country-specific",
+          "name": "Sanctions (Country-Specific)"
+        },
+        {
+          "id": "nicaragua",
+          "name": "Nicaragua"
+        },
+        {
+          "id": "national-emergencies",
+          "name": "National Emergencies"
+        },
+        {
+          "id": "travel-restrictions-bans",
+          "name": "Travel Restrictions / Bans"
+        },
+        {
+          "id": "human-rights-international",
+          "name": "Human Rights (International)"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 2 executive orders focused on the themes of sanctions (country-specific), nicaragua, national emergencies, and 2 others.",
+      "order_ids": [
+        "13851",
+        "13852"
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 10,
+      "month_name": "October",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "sanctions-country-specific",
+          "name": "Sanctions (Country-Specific)"
+        },
+        {
+          "id": "venezuela",
+          "name": "Venezuela"
+        },
+        {
+          "id": "travel-restrictions-bans",
+          "name": "Travel Restrictions / Bans"
+        },
+        {
+          "id": "national-emergencies",
+          "name": "National Emergencies"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 1 executive order focused on the themes of sanctions (country-specific), venezuela, travel restrictions / bans, and 1 other.",
+      "order_ids": [
+        "13850"
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 9,
+      "month_name": "September",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "economic-sanctions",
+          "name": "Economic Sanctions"
+        },
+        {
+          "id": "foreign-election-interference",
+          "name": "Foreign Election Interference"
+        },
+        {
+          "id": "national-emergencies",
+          "name": "National Emergencies"
+        },
+        {
+          "id": "homeland-security",
+          "name": "Homeland Security"
+        },
+        {
+          "id": "national-security-information-classification",
+          "name": "National Security Information / Classification"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 2 executive orders focused on the themes of economic sanctions, foreign election interference, national emergencies, and 2 others.",
+      "order_ids": [
+        "13848",
+        "13849"
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 8,
+      "month_name": "August",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "sanctions-country-specific",
+          "name": "Sanctions (Country-Specific)"
+        },
+        {
+          "id": "economic-sanctions",
+          "name": "Economic Sanctions"
+        },
+        {
+          "id": "iran",
+          "name": "Iran"
+        },
+        {
+          "id": "national-security-information-classification",
+          "name": "National Security Information / Classification"
+        },
+        {
+          "id": "human-rights-international",
+          "name": "Human Rights (International)"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 2 executive orders focused on the themes of sanctions (country-specific), economic sanctions, iran, and 2 others.",
+      "order_ids": [
+        "13846",
+        "13847"
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 7,
+      "month_name": "July",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 4,
+      "top_themes": [
+        {
+          "id": "federal-law-enforcement",
+          "name": "Federal Law Enforcement"
+        },
+        {
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management"
+        },
+        {
+          "id": "federal-hiring",
+          "name": "Federal Hiring"
+        },
+        {
+          "id": "civil-service-reform",
+          "name": "Civil Service Reform"
+        },
+        {
+          "id": "consumer-fraud-market-integrity",
+          "name": "Consumer Fraud / Market Integrity"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 4 executive orders focused on the themes of federal law enforcement, federal workforce management, federal hiring, and 2 others.",
+      "order_ids": [
+        "13842",
+        "13843",
+        "13844",
+        "13845"
       ]
     },
     {
@@ -552,6 +1867,300 @@
         "13810",
         "13811",
         "13812"
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 8,
+      "month_name": "August",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "infrastructure-permitting",
+          "name": "Infrastructure Permitting"
+        },
+        {
+          "id": "environmental-review-process",
+          "name": "Environmental Review Process"
+        },
+        {
+          "id": "government-efficiency",
+          "name": "Government Efficiency"
+        },
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "economic-sanctions",
+          "name": "Economic Sanctions"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 3 executive orders focused on the themes of infrastructure permitting, environmental review process, government efficiency, and 2 others.",
+      "order_ids": [
+        "13807",
+        "13808",
+        "13809"
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 7,
+      "month_name": "July",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "sanctions-country-specific",
+          "name": "Sanctions (Country-Specific)"
+        },
+        {
+          "id": "sudan",
+          "name": "Sudan"
+        },
+        {
+          "id": "revocation-of-previous-executive-orders",
+          "name": "Revocation of Previous Executive Orders"
+        },
+        {
+          "id": "energy-infrastructure",
+          "name": "Energy Infrastructure"
+        },
+        {
+          "id": "transportation-infrastructure",
+          "name": "Transportation Infrastructure"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 3 executive orders focused on the themes of sanctions (country-specific), sudan, revocation of previous executive orders, and 2 others.",
+      "order_ids": [
+        "13804",
+        "13805",
+        "13806"
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 6,
+      "month_name": "June",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "apprenticeships-job-training",
+          "name": "Apprenticeships / Job Training"
+        },
+        {
+          "id": "workforce-development",
+          "name": "Workforce Development"
+        },
+        {
+          "id": "higher-education",
+          "name": "Higher Education"
+        },
+        {
+          "id": "presidential-commissions-task-forces",
+          "name": "Presidential Commissions / Task Forces"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 3 executive orders focused on the themes of interagency coordination, apprenticeships / job training, workforce development, and 2 others.",
+      "order_ids": [
+        "13801",
+        "13802",
+        "13803"
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 5,
+      "month_name": "May",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "religious-liberty",
+          "name": "Religious Liberty"
+        },
+        {
+          "id": "free-speech",
+          "name": "Free Speech"
+        },
+        {
+          "id": "presidential-commissions-task-forces",
+          "name": "Presidential Commissions / Task Forces"
+        },
+        {
+          "id": "voting-rights",
+          "name": "Voting Rights"
+        },
+        {
+          "id": "federal-advisory-committees",
+          "name": "Federal Advisory Committees"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 3 executive orders focused on the themes of religious liberty, free speech, presidential commissions / task forces, and 2 others.",
+      "order_ids": [
+        "13798",
+        "13799",
+        "13800"
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 4,
+      "month_name": "April",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "trade-policy-agreements",
+          "name": "Trade Policy / Agreements"
+        },
+        {
+          "id": "manufacturing-policy",
+          "name": "Manufacturing Policy"
+        },
+        {
+          "id": "energy-independence-security",
+          "name": "Energy Independence / Security"
+        },
+        {
+          "id": "offshore-drilling",
+          "name": "Offshore Drilling"
+        },
+        {
+          "id": "military-readiness-force-structure",
+          "name": "Military Readiness / Force Structure"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 3 executive orders focused on the themes of trade policy / agreements, manufacturing policy, energy independence / security, and 2 others.",
+      "order_ids": [
+        "13795",
+        "13796",
+        "13797"
+      ]
+    },
+    {
+      "year": 2016,
+      "month": 12,
+      "month_name": "December",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 7,
+      "top_themes": [
+        {
+          "id": "military-readiness-force-structure",
+          "name": "Military Readiness / Force Structure"
+        },
+        {
+          "id": "climate-change-policy",
+          "name": "Climate Change Policy"
+        },
+        {
+          "id": "environmental-regulation",
+          "name": "Environmental Regulation"
+        },
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "order-of-succession",
+          "name": "Order of Succession"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 7 executive orders focused on the themes of military readiness / force structure, climate change policy, environmental regulation, and 2 others.",
+      "order_ids": [
+        "13751",
+        "13752",
+        "13753",
+        "13754",
+        "13755",
+        "13756",
+        "13757"
+      ]
+    },
+    {
+      "year": 2016,
+      "month": 11,
+      "month_name": "November",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 5,
+      "top_themes": [
+        {
+          "id": "foreign-aid",
+          "name": "Foreign Aid"
+        },
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management"
+        },
+        {
+          "id": "federal-hiring",
+          "name": "Federal Hiring"
+        },
+        {
+          "id": "renewable-energy",
+          "name": "Renewable Energy"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 5 executive orders focused on the themes of foreign aid, interagency coordination, federal workforce management, and 2 others.",
+      "order_ids": [
+        "13746",
+        "13747",
+        "13748",
+        "13749",
+        "13750"
+      ]
+    },
+    {
+      "year": 2016,
+      "month": 10,
+      "month_name": "October",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management"
+        },
+        {
+          "id": "faith-based-initiatives",
+          "name": "Faith-Based Initiatives"
+        },
+        {
+          "id": "volunteerism-national-service",
+          "name": "Volunteerism / National Service"
+        },
+        {
+          "id": "critical-infrastructure-protection",
+          "name": "Critical Infrastructure Protection"
+        },
+        {
+          "id": "homeland-security",
+          "name": "Homeland Security"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 3 executive orders focused on the themes of federal workforce management, faith-based initiatives, volunteerism / national service, and 2 others.",
+      "order_ids": [
+        "13743",
+        "13744",
+        "13745"
       ]
     },
     {
@@ -725,34 +2334,385 @@
       "month_name": "July",
       "president_id": "barack-obama",
       "president_name": "Barack Obama",
-      "order_count": 3,
+      "order_count": 4,
       "top_themes": [
         {
           "id": "interagency-coordination",
           "name": "Interagency Coordination"
         },
         {
-          "id": "trade-policy-agreements",
-          "name": "Trade Policy / Agreements"
+          "id": "worker-rights-protections",
+          "name": "Worker Rights / Protections"
         },
         {
-          "id": "delegation-of-authority",
-          "name": "Delegation of Authority"
+          "id": "federal-labor-management-relations",
+          "name": "Federal Labor-Management Relations"
         },
         {
-          "id": "environmental-review-process",
-          "name": "Environmental Review Process"
+          "id": "union-policy",
+          "name": "Union Policy"
+        },
+        {
+          "id": "transportation-infrastructure",
+          "name": "Transportation Infrastructure"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 4 executive orders focused on the themes of interagency coordination, worker rights / protections, federal labor-management relations, and 2 others.",
+      "order_ids": [
+        "13700",
+        "13701",
+        "13702",
+        "13703"
+      ]
+    },
+    {
+      "year": 2015,
+      "month": 6,
+      "month_name": "June",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 4,
+      "top_themes": [
+        {
+          "id": "military-readiness-force-structure",
+          "name": "Military Readiness / Force Structure"
+        },
+        {
+          "id": "criminal-justice-reform",
+          "name": "Criminal Justice Reform"
+        },
+        {
+          "id": "apprenticeships-vocational-training",
+          "name": "Apprenticeships / Vocational Training"
+        },
+        {
+          "id": "21st-century-workforce-skills",
+          "name": "21st Century Workforce / Skills"
+        },
+        {
+          "id": "counterterrorism",
+          "name": "Counterterrorism"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 4 executive orders focused on the themes of military readiness / force structure, criminal justice reform, apprenticeships / vocational training, and 2 others.",
+      "order_ids": [
+        "13696",
+        "13697",
+        "13698",
+        "13699"
+      ]
+    },
+    {
+      "year": 2015,
+      "month": 5,
+      "month_name": "May",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "weapons-of-mass-destruction-wmd-proliferation",
+          "name": "Weapons of Mass Destruction (WMD) Proliferation"
+        },
+        {
+          "id": "russia",
+          "name": "Russia"
+        },
+        {
+          "id": "national-emergencies",
+          "name": "National Emergencies"
+        },
+        {
+          "id": "international-agreements-treaties",
+          "name": "International Agreements / Treaties"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 1 executive order focused on the themes of weapons of mass destruction (wmd) proliferation, russia, national emergencies, and 1 other.",
+      "order_ids": [
+        "13695"
+      ]
+    },
+    {
+      "year": 2015,
+      "month": 3,
+      "month_name": "March",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "national-emergencies",
+          "name": "National Emergencies"
+        },
+        {
+          "id": "travel-restrictions-bans",
+          "name": "Travel Restrictions / Bans"
+        },
+        {
+          "id": "sanctions-country-specific",
+          "name": "Sanctions (Country-Specific)"
+        },
+        {
+          "id": "human-rights-international",
+          "name": "Human Rights (International)"
+        },
+        {
+          "id": "venezuela",
+          "name": "Venezuela"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 3 executive orders focused on the themes of national emergencies, travel restrictions / bans, sanctions (country-specific), and 2 others.",
+      "order_ids": [
+        "13692",
+        "13693",
+        "13694"
+      ]
+    },
+    {
+      "year": 2015,
+      "month": 2,
+      "month_name": "February",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "cybersecurity-national-security",
+          "name": "Cybersecurity (National Security)"
+        },
+        {
+          "id": "critical-infrastructure-protection",
+          "name": "Critical Infrastructure Protection"
+        },
+        {
+          "id": "homeland-security",
+          "name": "Homeland Security"
+        },
+        {
+          "id": "data-privacy",
+          "name": "Data Privacy"
+        },
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 1 executive order focused on the themes of cybersecurity (national security), critical infrastructure protection, homeland security, and 2 others.",
+      "order_ids": [
+        "13691"
+      ]
+    },
+    {
+      "year": 2015,
+      "month": 1,
+      "month_name": "January",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 4,
+      "top_themes": [
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "climate-change-policy",
+          "name": "Climate Change Policy"
+        },
+        {
+          "id": "economic-sanctions",
+          "name": "Economic Sanctions"
+        },
+        {
+          "id": "north-korea",
+          "name": "North Korea"
+        },
+        {
+          "id": "cybersecurity-national-security",
+          "name": "Cybersecurity (National Security)"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 4 executive orders focused on the themes of interagency coordination, climate change policy, economic sanctions, and 2 others.",
+      "order_ids": [
+        "13687",
+        "13688",
+        "13689",
+        "13690"
+      ]
+    },
+    {
+      "year": 2014,
+      "month": 12,
+      "month_name": "December",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 5,
+      "top_themes": [
+        {
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management"
+        },
+        {
+          "id": "national-security-information-classification",
+          "name": "National Security Information / Classification"
+        },
+        {
+          "id": "police-reform",
+          "name": "Police Reform"
+        },
+        {
+          "id": "crime-reduction",
+          "name": "Crime Reduction"
+        },
+        {
+          "id": "racial-equity",
+          "name": "Racial Equity"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 5 executive orders focused on the themes of federal workforce management, national security information / classification, police reform, and 2 others.",
+      "order_ids": [
+        "13682",
+        "13683",
+        "13684",
+        "13685",
+        "13686"
+      ]
+    },
+    {
+      "year": 2014,
+      "month": 10,
+      "month_name": "October",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 4,
+      "top_themes": [
+        {
+          "id": "federal-law-enforcement",
+          "name": "Federal Law Enforcement"
+        },
+        {
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management"
+        },
+        {
+          "id": "civil-service-reform",
+          "name": "Civil Service Reform"
+        },
+        {
+          "id": "federal-labor-management-relations",
+          "name": "Federal Labor-Management Relations"
+        },
+        {
+          "id": "union-policy",
+          "name": "Union Policy"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 4 executive orders focused on the themes of federal law enforcement, federal workforce management, civil service reform, and 2 others.",
+      "order_ids": [
+        "13678",
+        "13679",
+        "13680",
+        "13681"
+      ]
+    },
+    {
+      "year": 2014,
+      "month": 9,
+      "month_name": "September",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "antibiotic-resistance",
+          "name": "Antibiotic Resistance"
+        },
+        {
+          "id": "public-health-emergency-response",
+          "name": "Public Health Emergency Response"
+        },
+        {
+          "id": "global-engagement",
+          "name": "Global Engagement"
+        },
+        {
+          "id": "presidential-commissions-task-forces",
+          "name": "Presidential Commissions / Task Forces"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 2 executive orders focused on the themes of interagency coordination, antibiotic resistance, public health emergency response, and 2 others.",
+      "order_ids": [
+        "13676",
+        "13677"
+      ]
+    },
+    {
+      "year": 2014,
+      "month": 8,
+      "month_name": "August",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "africa-engagement-trade",
+          "name": "Africa Engagement / Trade"
+        },
+        {
+          "id": "economic-competitiveness",
+          "name": "Economic Competitiveness"
+        },
+        {
+          "id": "small-business-support",
+          "name": "Small Business Support"
+        },
+        {
+          "id": "federal-advisory-committees",
+          "name": "Federal Advisory Committees"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 1 executive order focused on the themes of africa engagement / trade, economic competitiveness, small business support, and 1 other.",
+      "order_ids": [
+        "13675"
+      ]
+    },
+    {
+      "year": 2014,
+      "month": 7,
+      "month_name": "July",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "employment-discrimination",
+          "name": "Employment Discrimination"
+        },
+        {
+          "id": "lgbtq-rights",
+          "name": "LGBTQ+ Rights"
+        },
+        {
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management"
+        },
+        {
+          "id": "anti-discrimination",
+          "name": "Anti-discrimination"
         },
         {
           "id": "worker-rights-protections",
           "name": "Worker Rights / Protections"
         }
       ],
-      "theme_summary": "Barack Obama signed 3 executive orders focused on the themes of interagency coordination, trade policy / agreements, delegation of authority, and 2 others.",
+      "theme_summary": "Barack Obama signed 3 executive orders focused on the themes of employment discrimination, lgbtq+ rights, federal workforce management, and 2 others.",
       "order_ids": [
-        "13701",
-        "13702",
-        "13703"
+        "13672",
+        "13673",
+        "13674"
       ]
     },
     {
@@ -1023,8 +2983,16 @@
       "month_name": "April",
       "president_id": "barack-obama",
       "president_name": "Barack Obama",
-      "order_count": 1,
+      "order_count": 2,
       "top_themes": [
+        {
+          "id": "faith-based-initiatives",
+          "name": "Faith-Based Initiatives"
+        },
+        {
+          "id": "federal-advisory-committees",
+          "name": "Federal Advisory Committees"
+        },
         {
           "id": "federal-workforce-management",
           "name": "Federal Workforce Management"
@@ -1036,15 +3004,262 @@
         {
           "id": "military-readiness-force-structure",
           "name": "Military Readiness / Force Structure"
-        },
-        {
-          "id": "revocation-of-previous-executive-orders",
-          "name": "Revocation of Previous Executive Orders"
         }
       ],
-      "theme_summary": "Barack Obama signed 1 executive order focused on the themes of federal workforce management, veterans healthcare, military readiness / force structure, and 1 other.",
+      "theme_summary": "Barack Obama signed 2 executive orders focused on the themes of faith-based initiatives, federal advisory committees, federal workforce management, and 2 others.",
       "order_ids": [
+        "13640",
         "13641"
+      ]
+    },
+    {
+      "year": 2013,
+      "month": 3,
+      "month_name": "March",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "delegation-of-authority",
+          "name": "Delegation of Authority"
+        },
+        {
+          "id": "military-readiness-force-structure",
+          "name": "Military Readiness / Force Structure"
+        },
+        {
+          "id": "export-import-policy",
+          "name": "Export-Import Policy"
+        },
+        {
+          "id": "environmental-regulation",
+          "name": "Environmental Regulation"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 3 executive orders focused on the themes of interagency coordination, delegation of authority, military readiness / force structure, and 2 others.",
+      "order_ids": [
+        "13637",
+        "13638",
+        "13639"
+      ]
+    },
+    {
+      "year": 2013,
+      "month": 2,
+      "month_name": "February",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "cybersecurity-national-security",
+          "name": "Cybersecurity (National Security)"
+        },
+        {
+          "id": "critical-infrastructure-protection",
+          "name": "Critical Infrastructure Protection"
+        },
+        {
+          "id": "homeland-security",
+          "name": "Homeland Security"
+        },
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "data-privacy",
+          "name": "Data Privacy"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 1 executive order focused on the themes of cybersecurity (national security), critical infrastructure protection, homeland security, and 2 others.",
+      "order_ids": [
+        "13636"
+      ]
+    },
+    {
+      "year": 2012,
+      "month": 12,
+      "month_name": "December",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 6,
+      "top_themes": [
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "federal-advisory-committees",
+          "name": "Federal Advisory Committees"
+        },
+        {
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management"
+        },
+        {
+          "id": "military-readiness-force-structure",
+          "name": "Military Readiness / Force Structure"
+        },
+        {
+          "id": "economic-competitiveness",
+          "name": "Economic Competitiveness"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 6 executive orders focused on the themes of interagency coordination, federal advisory committees, federal workforce management, and 2 others.",
+      "order_ids": [
+        "13630",
+        "13631",
+        "13632",
+        "13633",
+        "13634",
+        "13635"
+      ]
+    },
+    {
+      "year": 2012,
+      "month": 10,
+      "month_name": "October",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "economic-sanctions",
+          "name": "Economic Sanctions"
+        },
+        {
+          "id": "iran",
+          "name": "Iran"
+        },
+        {
+          "id": "human-rights-international",
+          "name": "Human Rights (International)"
+        },
+        {
+          "id": "travel-restrictions-bans",
+          "name": "Travel Restrictions / Bans"
+        },
+        {
+          "id": "homeland-security",
+          "name": "Homeland Security"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 2 executive orders focused on the themes of economic sanctions, iran, human rights (international), and 2 others.",
+      "order_ids": [
+        "13628",
+        "13629"
+      ]
+    },
+    {
+      "year": 2012,
+      "month": 9,
+      "month_name": "September",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "gulf-coast-coastal-ecosystem-restoration",
+          "name": "Gulf Coast / Coastal Ecosystem Restoration"
+        },
+        {
+          "id": "environmental-regulation",
+          "name": "Environmental Regulation"
+        },
+        {
+          "id": "federal-advisory-committees",
+          "name": "Federal Advisory Committees"
+        },
+        {
+          "id": "human-trafficking",
+          "name": "Human Trafficking"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 2 executive orders focused on the themes of interagency coordination, gulf coast / coastal ecosystem restoration, environmental regulation, and 2 others.",
+      "order_ids": [
+        "13626",
+        "13627"
+      ]
+    },
+    {
+      "year": 2012,
+      "month": 8,
+      "month_name": "August",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "gender-equality",
+          "name": "Gender Equality"
+        },
+        {
+          "id": "violence-against-women",
+          "name": "Violence Against Women"
+        },
+        {
+          "id": "global-development",
+          "name": "Global Development"
+        },
+        {
+          "id": "human-rights-international",
+          "name": "Human Rights (International)"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 3 executive orders focused on the themes of interagency coordination, gender equality, violence against women, and 2 others.",
+      "order_ids": [
+        "13623",
+        "13624",
+        "13625"
+      ]
+    },
+    {
+      "year": 2012,
+      "month": 7,
+      "month_name": "July",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "educational-excellence-initiatives-by-demographic",
+          "name": "Educational Excellence Initiatives (by demographic)"
+        },
+        {
+          "id": "hbcus",
+          "name": "HBCUs"
+        },
+        {
+          "id": "k-12-education-policy",
+          "name": "K-12 Education Policy"
+        },
+        {
+          "id": "higher-education",
+          "name": "Higher Education"
+        },
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 2 executive orders focused on the themes of educational excellence initiatives (by demographic), hbcus, k-12 education policy, and 2 others.",
+      "order_ids": [
+        "13621",
+        "13622"
       ]
     },
     {
@@ -1127,8 +3342,16 @@
       "month_name": "October",
       "president_id": "barack-obama",
       "president_name": "Barack Obama",
-      "order_count": 2,
+      "order_count": 3,
       "top_themes": [
+        {
+          "id": "federal-labor-management-relations",
+          "name": "Federal Labor-Management Relations"
+        },
+        {
+          "id": "transportation-infrastructure",
+          "name": "Transportation Infrastructure"
+        },
         {
           "id": "intelligence-sharing",
           "name": "Intelligence Sharing"
@@ -1140,20 +3363,426 @@
         {
           "id": "national-security-information-classification",
           "name": "National Security Information / Classification"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 3 executive orders focused on the themes of federal labor-management relations, transportation infrastructure, intelligence sharing, and 2 others.",
+      "order_ids": [
+        "13586",
+        "13587",
+        "13588"
+      ]
+    },
+    {
+      "year": 2011,
+      "month": 9,
+      "month_name": "September",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "counterterrorism",
+          "name": "Counterterrorism"
+        },
+        {
+          "id": "foreign-terrorist-organizations",
+          "name": "Foreign Terrorist Organizations"
         },
         {
           "id": "interagency-coordination",
           "name": "Interagency Coordination"
         },
         {
-          "id": "healthcare-competition-markets",
-          "name": "Healthcare Competition / Markets"
+          "id": "global-engagement",
+          "name": "Global Engagement"
+        },
+        {
+          "id": "federal-advisory-committees",
+          "name": "Federal Advisory Committees"
         }
       ],
-      "theme_summary": "Barack Obama signed 2 executive orders focused on the themes of intelligence sharing, cybersecurity (national security), national security information / classification, and 2 others.",
+      "theme_summary": "Barack Obama signed 2 executive orders focused on the themes of counterterrorism, foreign terrorist organizations, interagency coordination, and 2 others.",
       "order_ids": [
-        "13587",
-        "13588"
+        "13584",
+        "13585"
+      ]
+    },
+    {
+      "year": 2011,
+      "month": 8,
+      "month_name": "August",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "economic-sanctions",
+          "name": "Economic Sanctions"
+        },
+        {
+          "id": "syria",
+          "name": "Syria"
+        },
+        {
+          "id": "sanctions-country-specific",
+          "name": "Sanctions (Country-Specific)"
+        },
+        {
+          "id": "national-emergencies",
+          "name": "National Emergencies"
+        },
+        {
+          "id": "dei-diversity-equity-inclusion",
+          "name": "DEI (Diversity, Equity, Inclusion)"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 2 executive orders focused on the themes of economic sanctions, syria, sanctions (country-specific), and 2 others.",
+      "order_ids": [
+        "13582",
+        "13583"
+      ]
+    },
+    {
+      "year": 2011,
+      "month": 7,
+      "month_name": "July",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 4,
+      "top_themes": [
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "economic-recovery-post-crisis",
+          "name": "Economic Recovery (Post-Crisis)"
+        },
+        {
+          "id": "small-business-support",
+          "name": "Small Business Support"
+        },
+        {
+          "id": "workforce-development",
+          "name": "Workforce Development"
+        },
+        {
+          "id": "revocation-of-previous-executive-orders",
+          "name": "Revocation of Previous Executive Orders"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 4 executive orders focused on the themes of interagency coordination, economic recovery (post-crisis), small business support, and 2 others.",
+      "order_ids": [
+        "13578",
+        "13579",
+        "13580",
+        "13581"
+      ]
+    },
+    {
+      "year": 2011,
+      "month": 6,
+      "month_name": "June",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "economic-competitiveness",
+          "name": "Economic Competitiveness"
+        },
+        {
+          "id": "rural-development",
+          "name": "Rural Development"
+        },
+        {
+          "id": "agricultural-policy",
+          "name": "Agricultural Policy"
+        },
+        {
+          "id": "government-efficiency",
+          "name": "Government Efficiency"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 3 executive orders focused on the themes of interagency coordination, economic competitiveness, rural development, and 2 others.",
+      "order_ids": [
+        "13575",
+        "13576",
+        "13577"
+      ]
+    },
+    {
+      "year": 2011,
+      "month": 5,
+      "month_name": "May",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "economic-sanctions",
+          "name": "Economic Sanctions"
+        },
+        {
+          "id": "sanctions-country-specific",
+          "name": "Sanctions (Country-Specific)"
+        },
+        {
+          "id": "national-emergencies",
+          "name": "National Emergencies"
+        },
+        {
+          "id": "syria",
+          "name": "Syria"
+        },
+        {
+          "id": "human-rights-international",
+          "name": "Human Rights (International)"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 2 executive orders focused on the themes of economic sanctions, sanctions (country-specific), national emergencies, and 2 others.",
+      "order_ids": [
+        "13573",
+        "13574"
+      ]
+    },
+    {
+      "year": 2011,
+      "month": 4,
+      "month_name": "April",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "economic-sanctions",
+          "name": "Economic Sanctions"
+        },
+        {
+          "id": "human-rights-international",
+          "name": "Human Rights (International)"
+        },
+        {
+          "id": "syria",
+          "name": "Syria"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 1 executive order focused on the themes of economic sanctions, human rights (international), and syria.",
+      "order_ids": [
+        "13572"
+      ]
+    },
+    {
+      "year": 2010,
+      "month": 12,
+      "month_name": "December",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management"
+        },
+        {
+          "id": "federal-advisory-committees",
+          "name": "Federal Advisory Committees"
+        },
+        {
+          "id": "social-media-platform-policy",
+          "name": "Social Media / Platform Policy"
+        },
+        {
+          "id": "civic-participation",
+          "name": "Civic Participation"
+        },
+        {
+          "id": "volunteerism-national-service",
+          "name": "Volunteerism / National Service"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 3 executive orders focused on the themes of federal workforce management, federal advisory committees, social media / platform policy, and 2 others.",
+      "order_ids": [
+        "13560",
+        "13561",
+        "13562"
+      ]
+    },
+    {
+      "year": 2010,
+      "month": 11,
+      "month_name": "November",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 4,
+      "top_themes": [
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "federal-law-enforcement",
+          "name": "Federal Law Enforcement"
+        },
+        {
+          "id": "records-classification-transparency",
+          "name": "Records / Classification / Transparency"
+        },
+        {
+          "id": "security-clearances-background-investigations",
+          "name": "Security Clearances / Background Investigations"
+        },
+        {
+          "id": "order-of-succession",
+          "name": "Order of Succession"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 4 executive orders focused on the themes of interagency coordination, federal law enforcement, records / classification / transparency, and 2 others.",
+      "order_ids": [
+        "13556",
+        "13557",
+        "13558",
+        "13559"
+      ]
+    },
+    {
+      "year": 2010,
+      "month": 10,
+      "month_name": "October",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "gulf-coast-coastal-ecosystem-restoration",
+          "name": "Gulf Coast / Coastal Ecosystem Restoration"
+        },
+        {
+          "id": "environmental-regulation",
+          "name": "Environmental Regulation"
+        },
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "economic-recovery-post-crisis",
+          "name": "Economic Recovery (Post-Crisis)"
+        },
+        {
+          "id": "seafood-fisheries-industry",
+          "name": "Seafood / Fisheries Industry"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 2 executive orders focused on the themes of gulf coast / coastal ecosystem restoration, environmental regulation, interagency coordination, and 2 others.",
+      "order_ids": [
+        "13554",
+        "13555"
+      ]
+    },
+    {
+      "year": 2010,
+      "month": 9,
+      "month_name": "September",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "economic-sanctions",
+          "name": "Economic Sanctions"
+        },
+        {
+          "id": "human-rights-international",
+          "name": "Human Rights (International)"
+        },
+        {
+          "id": "iran",
+          "name": "Iran"
+        },
+        {
+          "id": "visa-policy",
+          "name": "Visa Policy"
+        },
+        {
+          "id": "national-emergencies",
+          "name": "National Emergencies"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 1 executive order focused on the themes of economic sanctions, human rights (international), iran, and 2 others.",
+      "order_ids": [
+        "13553"
+      ]
+    },
+    {
+      "year": 2010,
+      "month": 8,
+      "month_name": "August",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 4,
+      "top_themes": [
+        {
+          "id": "national-security-information-classification",
+          "name": "National Security Information / Classification"
+        },
+        {
+          "id": "security-clearances-background-investigations",
+          "name": "Security Clearances / Background Investigations"
+        },
+        {
+          "id": "homeland-security",
+          "name": "Homeland Security"
+        },
+        {
+          "id": "intelligence-sharing",
+          "name": "Intelligence Sharing"
+        },
+        {
+          "id": "critical-infrastructure-protection",
+          "name": "Critical Infrastructure Protection"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 4 executive orders focused on the themes of national security information / classification, security clearances / background investigations, homeland security, and 2 others.",
+      "order_ids": [
+        "13549",
+        "13550",
+        "13551",
+        "13552"
+      ]
+    },
+    {
+      "year": 2010,
+      "month": 7,
+      "month_name": "July",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "disability-rights",
+          "name": "Disability Rights"
+        },
+        {
+          "id": "federal-workforce-management",
+          "name": "Federal Workforce Management"
+        },
+        {
+          "id": "federal-hiring",
+          "name": "Federal Hiring"
+        },
+        {
+          "id": "employment-discrimination",
+          "name": "Employment Discrimination"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 1 executive order focused on the themes of disability rights, federal workforce management, federal hiring, and 1 other.",
+      "order_ids": [
+        "13548"
       ]
     },
     {
@@ -1201,7 +3830,7 @@
       "month_name": "November",
       "president_id": "barack-obama",
       "president_name": "Barack Obama",
-      "order_count": 4,
+      "order_count": 5,
       "top_themes": [
         {
           "id": "interagency-coordination",
@@ -1212,26 +3841,316 @@
           "name": "Corporate Fraud / White Collar Crime"
         },
         {
-          "id": "military-readiness-force-structure",
-          "name": "Military Readiness / Force Structure"
+          "id": "intelligence-operations",
+          "name": "Intelligence Operations"
+        },
+        {
+          "id": "records-classification-transparency",
+          "name": "Records / Classification / Transparency"
+        },
+        {
+          "id": "federal-advisory-committees",
+          "name": "Federal Advisory Committees"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 5 executive orders focused on the themes of interagency coordination, corporate fraud / white collar crime, intelligence operations, and 2 others.",
+      "order_ids": [
+        "13516",
+        "13518",
+        "13519",
+        "13520",
+        "13521"
+      ]
+    },
+    {
+      "year": 2009,
+      "month": 10,
+      "month_name": "October",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "renewable-energy",
+          "name": "Renewable Energy"
+        },
+        {
+          "id": "energy-independence-security",
+          "name": "Energy Independence / Security"
+        },
+        {
+          "id": "climate-change-policy",
+          "name": "Climate Change Policy"
+        },
+        {
+          "id": "environmental-regulation",
+          "name": "Environmental Regulation"
+        },
+        {
+          "id": "government-efficiency",
+          "name": "Government Efficiency"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 3 executive orders focused on the themes of renewable energy, energy independence / security, climate change policy, and 2 others.",
+      "order_ids": [
+        "13514",
+        "13515",
+        "13517"
+      ]
+    },
+    {
+      "year": 2009,
+      "month": 9,
+      "month_name": "September",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 3,
+      "top_themes": [
+        {
+          "id": "government-efficiency",
+          "name": "Government Efficiency"
+        },
+        {
+          "id": "workplace-safety-osha",
+          "name": "Workplace Safety (OSHA)"
+        },
+        {
+          "id": "federal-advisory-committees",
+          "name": "Federal Advisory Committees"
+        },
+        {
+          "id": "presidential-commissions-task-forces",
+          "name": "Presidential Commissions / Task Forces"
+        },
+        {
+          "id": "civil-rights-enforcement",
+          "name": "Civil Rights Enforcement"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 3 executive orders focused on the themes of government efficiency, workplace safety (osha), federal advisory committees, and 2 others.",
+      "order_ids": [
+        "13511",
+        "13512",
+        "13513"
+      ]
+    },
+    {
+      "year": 2009,
+      "month": 6,
+      "month_name": "June",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "manufacturing-policy",
+          "name": "Manufacturing Policy"
+        },
+        {
+          "id": "economic-recovery-post-crisis",
+          "name": "Economic Recovery (Post-Crisis)"
+        },
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "worker-rights-protections",
+          "name": "Worker Rights / Protections"
+        },
+        {
+          "id": "small-business-support",
+          "name": "Small Business Support"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 2 executive orders focused on the themes of manufacturing policy, economic recovery (post-crisis), interagency coordination, and 2 others.",
+      "order_ids": [
+        "13509",
+        "13510"
+      ]
+    },
+    {
+      "year": 2009,
+      "month": 5,
+      "month_name": "May",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "chesapeake-bay-regional-water-protection",
+          "name": "Chesapeake Bay / Regional Water Protection"
+        },
+        {
+          "id": "climate-change-policy",
+          "name": "Climate Change Policy"
+        },
+        {
+          "id": "environmental-regulation",
+          "name": "Environmental Regulation"
+        },
+        {
+          "id": "public-lands-management",
+          "name": "Public Lands Management"
+        },
+        {
+          "id": "agricultural-policy",
+          "name": "Agricultural Policy"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 1 executive order focused on the themes of chesapeake bay / regional water protection, climate change policy, environmental regulation, and 2 others.",
+      "order_ids": [
+        "13508"
+      ]
+    },
+    {
+      "year": 2009,
+      "month": 4,
+      "month_name": "April",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "affordable-care-act-aca",
+          "name": "Affordable Care Act (ACA)"
+        },
+        {
+          "id": "government-reorganization",
+          "name": "Government Reorganization"
+        },
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 1 executive order focused on the themes of affordable care act (aca), government reorganization, and interagency coordination.",
+      "order_ids": [
+        "13507"
+      ]
+    },
+    {
+      "year": 2009,
+      "month": 3,
+      "month_name": "March",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 2,
+      "top_themes": [
+        {
+          "id": "stem-cell-biomedical-research",
+          "name": "Stem Cell / Biomedical Research"
+        },
+        {
+          "id": "bioethics",
+          "name": "Bioethics"
+        },
+        {
+          "id": "revocation-of-previous-executive-orders",
+          "name": "Revocation of Previous Executive Orders"
+        },
+        {
+          "id": "gender-equality",
+          "name": "Gender Equality"
+        },
+        {
+          "id": "pay-equity-equal-pay",
+          "name": "Pay Equity / Equal Pay"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 2 executive orders focused on the themes of stem cell / biomedical research, bioethics, revocation of previous executive orders, and 2 others.",
+      "order_ids": [
+        "13505",
+        "13506"
+      ]
+    },
+    {
+      "year": 2009,
+      "month": 2,
+      "month_name": "February",
+      "president_id": "barack-obama",
+      "president_name": "Barack Obama",
+      "order_count": 7,
+      "top_themes": [
+        {
+          "id": "government-reorganization",
+          "name": "Government Reorganization"
+        },
+        {
+          "id": "federal-advisory-committees",
+          "name": "Federal Advisory Committees"
+        },
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "climate-change-policy",
+          "name": "Climate Change Policy"
+        },
+        {
+          "id": "faith-based-initiatives",
+          "name": "Faith-Based Initiatives"
+        }
+      ],
+      "theme_summary": "Barack Obama signed 7 executive orders focused on the themes of government reorganization, federal advisory committees, interagency coordination, and 2 others.",
+      "order_ids": [
+        "13498",
+        "13499",
+        "13500",
+        "13501",
+        "13502",
+        "13503",
+        "13504"
+      ]
+    },
+    {
+      "year": 2009,
+      "month": 1,
+      "month_name": "January",
+      "president_id": "george-w-bush",
+      "president_name": "George W. Bush and Barack Obama",
+      "order_count": 14,
+      "top_themes": [
+        {
+          "id": "government-efficiency",
+          "name": "Government Efficiency"
+        },
+        {
+          "id": "revocation-of-previous-executive-orders",
+          "name": "Revocation of Previous Executive Orders"
         },
         {
           "id": "federal-workforce-management",
           "name": "Federal Workforce Management"
         },
         {
-          "id": "federal-hiring",
-          "name": "Federal Hiring"
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
+        },
+        {
+          "id": "counterterrorism",
+          "name": "Counterterrorism"
         }
       ],
-      "theme_summary": "Barack Obama signed 4 executive orders focused on the themes of interagency coordination, corporate fraud / white collar crime, military readiness / force structure, and 2 others.",
+      "theme_summary": "George W. Bush and Barack Obama signed 14 executive orders focused on the themes of government efficiency, revocation of previous executive orders, federal workforce management, and 2 others.",
       "order_ids": [
-        "13518",
-        "13519",
-        "13520",
-        "13521"
+        "13484",
+        "13485",
+        "13486",
+        "13487",
+        "13488",
+        "13489",
+        "13490",
+        "13491",
+        "13492",
+        "13493",
+        "13494",
+        "13495",
+        "13496",
+        "13497"
       ]
     }
   ],
-  "generated_at": "2025-12-12T08:29:14.106Z"
+  "generated_at": "2025-12-15T02:45:29.800Z"
 }

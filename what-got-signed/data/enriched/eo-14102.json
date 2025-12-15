@@ -1,0 +1,41 @@
+{
+  "document_number": "2023-15347",
+  "executive_order_number": "14102",
+  "title": "Ordering the Selected Reserve and Certain Members of the Individual Ready Reserve of the Armed Forces to Active Duty",
+  "abstract": null,
+  "signing_date": "2023-07-13",
+  "publication_date": "2023-07-18",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/07/18/2023-15347/ordering-the-selected-reserve-and-certain-members-of-the-individual-ready-reserve-of-the-armed",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-07-18/pdf/2023-15347.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/07/18/2023-15347.txt",
+  "enrichment": {
+    "summary": "This executive order authorizes the Secretary of Defense and the Secretary of Homeland Security to call up to 3,000 reservists, including up to 450 from the Individual Ready Reserve, to active duty to support military operations related to Operation Atlantic Resolve in the European region. It also allows for the timely release of those called to active duty when their service is no longer needed.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "homeland-security",
+      "nato",
+      "europe-general"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-reservists-called-to-active-duty"
+      ],
+      "negative_ids": [
+        "military-reservists-called-to-active-duty",
+        "military-spouses"
+      ]
+    },
+    "potential_concerns": [
+      "The activation of reservists to support Operation Atlantic Resolve may place increased physical and psychological burdens on military reservists and their families, potentially affecting retention and family stability.",
+      "Calling up to 450 Individual Ready Reserve members could disrupt civilian employment and income for those individuals, leading to financial hardship or job insecurity.",
+      "Rapid mobilization and demobilization may strain military readiness and logistical resources, impacting both the operational effectiveness of forces in Europe and support structures for the activated reserve members.",
+      "The order's authorization affecting Coast Guard members under Homeland Security jurisdiction may complicate coordination and preparedness within non-Navy maritime components, potentially impacting homeland security missions."
+    ],
+    "enriched_at": "2025-12-15T02:38:18.090Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

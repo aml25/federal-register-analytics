@@ -1,0 +1,44 @@
+{
+  "document_number": "2024-13810",
+  "executive_order_number": "14123",
+  "title": "White House Council on Supply Chain Resilience",
+  "abstract": null,
+  "signing_date": "2024-06-14",
+  "publication_date": "2024-06-21",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2024/06/21/2024-13810/white-house-council-on-supply-chain-resilience",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-06-21/pdf/2024-13810.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/06/21/2024-13810.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a White House Council on Supply Chain Resilience to coordinate federal efforts to strengthen the security, diversity, and reliability of critical American supply chains. The Council will involve senior officials from multiple agencies, oversee supply chain risk management, and produce regular reports to ensure supply chains support economic growth, national security, and workforce empowerment.",
+    "theme_ids": [
+      "supply-chain-security",
+      "economic-competitiveness",
+      "critical-infrastructure-protection",
+      "interagency-coordination",
+      "worker-rights-protections"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "manufacturing-workers",
+        "union-members",
+        "small-business-owners",
+        "agricultural-workers-farmers",
+        "working-age-adults"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to prioritize domestic manufacturing and supply chain diversification may increase costs or disrupt existing supplier relationships, potentially impacting small-business-owners' competitiveness and operational stability.",
+      "Initiatives to empower workers and enforce worker-rights protections could lead to increased regulatory burdens or labor disputes affecting manufacturing-workers and union-members.",
+      "The focus on building resilient supply chains might unintentionally concentrate economic activity in certain regions, exacerbating inequalities for working-age-adults in economically distressed or rural communities.",
+      "Enhanced supply chain security protocols may lengthen procurement timelines or reduce the availability of some goods, adversely affecting agricultural-workers-farmers dependent on timely inputs.",
+      "Complex interagency coordination could slow decision-making processes, delaying critical actions that impact the livelihoods of manufacturing-workers and small-business-owners reliant on stable supply chains."
+    ],
+    "enriched_at": "2025-12-15T02:40:39.556Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

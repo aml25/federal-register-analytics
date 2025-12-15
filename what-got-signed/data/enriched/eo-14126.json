@@ -1,0 +1,52 @@
+{
+  "document_number": "2024-20712",
+  "executive_order_number": "14126",
+  "title": "Investing in America and Investing in American Workers",
+  "abstract": null,
+  "signing_date": "2024-09-06",
+  "publication_date": "2024-09-11",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2024/09/11/2024-20712/investing-in-america-and-investing-in-american-workers",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-09-11/pdf/2024-20712.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/09/11/2024-20712.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to prioritize and support projects funded under key infrastructure and economic laws that create good, well-paying jobs for American workers, especially union jobs. It encourages the use of strong labor standards, workforce development, and equitable hiring practices to ensure that federally assisted projects promote fair wages, worker safety, and inclusion of underserved communities. A coordinating task force is established to guide these efforts across agencies for effective implementation.",
+    "theme_ids": [
+      "union-policy",
+      "worker-rights-protections",
+      "workforce-development",
+      "project-labor-agreements",
+      "racial-equity"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "union-members",
+        "construction-workers",
+        "manufacturing-workers",
+        "working-age-adults",
+        "formerly-incarcerated-returning-citizens",
+        "individuals-with-disabilities",
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "women",
+        "rural-communities"
+      ],
+      "negative_ids": [
+        "non-union-workers",
+        "small-business-owners"
+      ]
+    },
+    "potential_concerns": [
+      "The prioritization of union jobs and project labor agreements could disadvantage non-union workers and small business owners who may find compliance with high labor standards and collective bargaining requirements burdensome.",
+      "Implementation of equity-focused hiring policies and workforce development may face challenges in effectively reaching and integrating underserved communities, including formerly incarcerated individuals, potentially limiting their access to good jobs despite intentions.",
+      "Small businesses participating in federally assisted projects might be disproportionately impacted by the increased administrative and compliance costs associated with adhering to stringent labor standards and reporting requirements.",
+      "Efforts to prioritize family-sustaining wages and benefits could increase project costs and timelines, which may unintentionally reduce the number of projects funded or delay delivery, impacting the availability of jobs especially in rural communities.",
+      "Focus on unionized employment and collective bargaining may lead to tensions with employers opting for neutrality or nonunionized workforces, potentially limiting job opportunities for some working-age adults seeking employment in emerging sectors."
+    ],
+    "enriched_at": "2025-12-15T02:40:20.742Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "document_number": "E9-1574",
+  "executive_order_number": "13488",
+  "title": "Granting Reciprocity on Excepted Service and Federal Contractor Employee Fitness and Reinvestigating Individuals in Positions of Public Trust",
+  "abstract": null,
+  "signing_date": "2009-01-16",
+  "publication_date": "2009-01-22",
+  "president": {
+    "identifier": "george-w-bush",
+    "name": "George W. Bush"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2009/01/22/E9-1574/granting-reciprocity-on-excepted-service-and-federal-contractor-employee-fitness-and-reinvestigating",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-01-22/pdf/E9-1574.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/01/22/E9-1574.txt",
+  "enrichment": {
+    "summary": "This executive order requires federal agencies to recognize prior favorable background checks for employees in excepted service positions and federal contractors, streamlining the hiring and investigation process. It also mandates periodic reinvestigations for individuals in positions of public trust to ensure their ongoing suitability for their roles.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "security-clearances-background-investigations",
+      "government-efficiency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-contractors",
+        "federal-employees-civil-servants",
+        "security-clearance-holders"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Reciprocal recognition of fitness and suitability determinations might lead to inconsistent security standards across agencies, potentially impacting government efficiency and posing risks to federal-contractors and federal employees in sensitive positions.",
+      "Periodic reinvestigations of individuals in positions of public trust could create administrative burdens and delays for federal-employees-civil-servants and federal-contractors, possibly affecting workforce retention and morale.",
+      "The discretion given to agency heads to determine fitness criteria equivalency may result in uneven application of standards, leading to potential fairness concerns or security gaps affecting security-clearance-holders and related personnel.",
+      "Reliance on prior investigations without comprehensive updates could unintentionally allow individuals who no longer meet fitness standards to maintain access, raising concerns about security-clearances-background-investigations integrity."
+    ],
+    "enriched_at": "2025-12-15T02:04:49.606Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

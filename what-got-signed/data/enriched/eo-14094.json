@@ -1,0 +1,39 @@
+{
+  "document_number": "2023-07760",
+  "executive_order_number": "14094",
+  "title": "Modernizing Regulatory Review",
+  "abstract": null,
+  "signing_date": "2023-04-06",
+  "publication_date": "2023-04-11",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/04/11/2023-07760/modernizing-regulatory-review",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-04-11/pdf/2023-07760.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/04/11/2023-07760.txt",
+  "enrichment": {
+    "summary": "This executive order updates and improves the federal regulatory review process to make it more effective, inclusive, and transparent. It clarifies what counts as a significant regulation, promotes public participation including from underserved communities, modernizes how public comments and meetings are handled, and requires updated guidance for regulatory analysis that considers equity and distributive impacts.",
+    "theme_ids": [
+      "regulatory-reform-deregulation",
+      "dei-diversity-equity-inclusion",
+      "government-efficiency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "tribal-communities-reservations",
+        "low-income-individuals-families"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to increase public participation and transparency may place new administrative burdens on agencies, potentially slowing regulatory actions that affect underserved and tribal communities.",
+      "Modernizing the notice-and-comment process with technological tools could unintentionally disadvantage individuals in low-income or underserved communities who have limited internet access or digital literacy.",
+      "Enhanced scrutiny of meeting requests with OIRA to reduce repetitive or duplicative meetings might inadvertently limit access for marginalized groups seeking to engage in the regulatory process.",
+      "Revisions to regulatory analysis that consider equity and distributive impacts may lead to contentious debates over measurement methodologies, potentially delaying protections for vulnerable racial and ethnic minorities.",
+      "Balancing regulatory reform with inclusion goals risks undermining economic sectors or stakeholders if priorities conflict, possibly affecting low-income families dependent on regulated services."
+    ],
+    "enriched_at": "2025-12-15T02:39:11.841Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

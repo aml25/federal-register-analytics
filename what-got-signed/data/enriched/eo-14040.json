@@ -1,0 +1,40 @@
+{
+  "document_number": "2021-19578",
+  "executive_order_number": "14040",
+  "title": "Declassification Reviews of Certain Documents Concerning the Terrorist Attacks of September 11, 2001",
+  "abstract": null,
+  "signing_date": "2021-09-03",
+  "publication_date": "2021-09-09",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2021/09/09/2021-19578/declassification-reviews-of-certain-documents-concerning-the-terrorist-attacks-of-september-11-2001",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-09-09/pdf/2021-19578.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/09/09/2021-19578.txt",
+  "enrichment": {
+    "summary": "This executive order directs U.S. government agencies to review and declassify documents related to the September 11, 2001 terrorist attacks to provide the public with greater transparency and understanding. The order sets specific deadlines for reviewing certain FBI records and requires agencies to release information unless it poses a real national security risk. It also mandates reporting on review outcomes and public disclosure of declassified information.",
+    "theme_ids": [
+      "counterterrorism",
+      "war-on-terror",
+      "national-security-information-classification",
+      "records-classification-transparency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "terrorism-victims-survivors",
+        "u-s-citizens"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Declassification could inadvertently reveal sensitive intelligence sources or methods, risking future national security and impacting U.S. citizens' safety.",
+      "Releasing information related to 9/11 investigations might retraumatize terrorism victims and survivors by exposing distressing new details.",
+      "Disclosure could lead to diplomatic tensions if documents expose foreign government involvements, indirectly affecting U.S. citizens through altered foreign relations.",
+      "The order's requirement to balance transparency with security may lead to inconsistent declassification decisions, causing public distrust among U.S. citizens and survivors.",
+      "Delays or incomplete disclosures due to classification disputes might frustrate terrorism victims and survivors seeking full accountability and closure."
+    ],
+    "enriched_at": "2025-12-15T02:32:19.490Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

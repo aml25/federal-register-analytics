@@ -1,0 +1,44 @@
+{
+  "document_number": "2022-22531",
+  "executive_order_number": "14086",
+  "title": "Enhancing Safeguards for United States Signals Intelligence Activities",
+  "abstract": null,
+  "signing_date": "2022-10-07",
+  "publication_date": "2022-10-14",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2022/10/14/2022-22531/enhancing-safeguards-for-united-states-signals-intelligence-activities",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-10-14/pdf/2022-22531.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/10/14/2022-22531.txt",
+  "enrichment": {
+    "summary": "This executive order sets rules and safeguards for how the United States collects and handles signals intelligence, ensuring these activities protect national security while respecting the privacy and civil liberties of all people. It establishes oversight mechanisms, privacy protections, and a formal process for individuals from designated countries to file complaints if they believe violations occurred. The order also creates a special review court to independently handle disputes regarding intelligence activities.",
+    "theme_ids": [
+      "intelligence-operations",
+      "data-privacy",
+      "counterterrorism",
+      "cybersecurity-national-security",
+      "foreign-election-interference"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens",
+        "naturalized-citizens",
+        "birthright-citizens"
+      ],
+      "negative_ids": [
+        "foreign-nationals-general",
+        "citizens-of-specific-countries-by-eo-designation"
+      ]
+    },
+    "potential_concerns": [
+      "The order's enhanced signals intelligence activities aimed at protecting national security may inadvertently increase privacy risks for foreign nationals and citizens of designated countries, potentially leading to overcollection or misuse of their personal data.",
+      "The designated redress mechanism provides a channel for complaints but may not adequately protect the confidentiality or prevent retaliation risks for foreign nationals or citizens seeking remediation under the order.",
+      "Balancing the need for robust intelligence operations with privacy and civil liberties safeguards may lead to operational constraints that could affect the timeliness and effectiveness of counterterrorism and cybersecurity efforts impacting U.S. citizens and allies.",
+      "The complexity and classified nature of oversight processes might limit transparency and public trust among U.S. citizens, naturalized citizens, and birthright citizens regarding how their data and privacy are protected under signals intelligence activities."
+    ],
+    "enriched_at": "2025-12-15T02:33:07.969Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

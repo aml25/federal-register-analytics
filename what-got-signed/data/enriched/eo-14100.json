@@ -1,0 +1,44 @@
+{
+  "document_number": "2023-12974",
+  "executive_order_number": "14100",
+  "title": "Advancing Economic Security for Military and Veteran Spouses, Military Caregivers, and Survivors",
+  "abstract": null,
+  "signing_date": "2023-06-09",
+  "publication_date": "2023-06-15",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/06/15/2023-12974/advancing-economic-security-for-military-and-veteran-spouses-military-caregivers-and-survivors",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-06-15/pdf/2023-12974.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/06/15/2023-12974.txt",
+  "enrichment": {
+    "summary": "This executive order aims to improve the economic security and career opportunities of military and veteran spouses, military caregivers, and survivors by creating government-wide plans to enhance their hiring, retention, and support. It also expands access to child care, supports military spouse entrepreneurs, and promotes flexible work arrangements to address the unique challenges military families face.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "federal-workforce-management",
+      "small-business-support",
+      "caregiving-paid-leave",
+      "gender-equality"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-spouses",
+        "military-caregivers",
+        "federal-employees-civil-servants",
+        "small-business-owners",
+        "women"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Expanding federal hiring preferences and training programs for military spouses may raise concerns about meritocracy and fairness among other federal job applicants, impacting federal workforce management.",
+      "Efforts to increase telework and remote opportunities for military spouses might face logistical and security challenges, especially for those working overseas, complicating federal workforce policies.",
+      "The focus on military spouse entrepreneurs could result in resource allocation prioritizing this group over other small-business owners, potentially limiting broader small-business support.",
+      "Increasing child care support and flexible work arrangements may not fully address the geographic and scheduling instability faced by military caregivers and spouses, potentially limiting the effectiveness of caregiving and paid leave policies.",
+      "Since the majority of military spouses are women, the order’s focus might inadvertently reinforce gendered expectations about caregiving and economic roles within military families, raising concerns under the gender-equality theme."
+    ],
+    "enriched_at": "2025-12-15T02:38:31.745Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

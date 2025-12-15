@@ -1,0 +1,46 @@
+{
+  "document_number": "2015-07016",
+  "executive_order_number": "13693",
+  "title": "Planning for Federal Sustainability in the Next Decade",
+  "abstract": null,
+  "signing_date": "2015-03-19",
+  "publication_date": "2015-03-25",
+  "president": {
+    "identifier": "barack-obama",
+    "name": "Barack Obama"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2015/03/25/2015-07016/planning-for-federal-sustainability-in-the-next-decade",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-03-25/pdf/2015-07016.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/03/25/2015-07016.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to reduce their greenhouse gas emissions and increase sustainability over the next decade by improving energy efficiency, using more clean and renewable energy, managing water and waste better, greening their vehicle fleets, and preparing federal facilities for climate change impacts. It sets specific reduction targets, requires agencies to develop sustainability plans and appoint Chief Sustainability Officers, and establishes coordination and reporting mechanisms to track progress.",
+    "theme_ids": [
+      "renewable-energy",
+      "climate-change-policy",
+      "energy-independence-security",
+      "government-efficiency",
+      "supply-chain-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "renewable-energy-workers",
+        "urban-communities",
+        "coastal-communities",
+        "tribal-communities-reservations"
+      ],
+      "negative_ids": [
+        "federal-contractors",
+        "energy-sector-workers-oil-gas-coal"
+      ]
+    },
+    "potential_concerns": [
+      "The shift toward renewable energy and reduction in fossil fuel reliance may lead to job losses and economic disruption among energy-sector-workers-oil-gas-coal, requiring targeted transition support.",
+      "Increased sustainability requirements and emissions reduction targets could impose additional compliance costs and operational burdens on federal contractors, potentially affecting contract pricing and availability.",
+      "Implementation of enhanced building, fleet, and facility standards may disproportionately impact urban-, coastal-, and tribal-communities where federal facilities are located, especially if local infrastructure or resources are insufficient for compliance.",
+      "Supply chain greenhouse gas management policies could increase complexity and monitoring requirements for vendors, potentially limiting opportunities for small and medium suppliers who cannot easily meet new standards.",
+      "Climate resilience and preparedness mandates for federal facilities may drive improvements that benefit nearby communities but could also result in localized disruptions during facility upgrades or changes in land use."
+    ],
+    "enriched_at": "2025-12-15T02:15:32.591Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

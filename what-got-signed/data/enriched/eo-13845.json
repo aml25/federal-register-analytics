@@ -1,0 +1,44 @@
+{
+  "document_number": "2018-15955",
+  "executive_order_number": "13845",
+  "title": "Establishing the President's National Council for the American Worker",
+  "abstract": null,
+  "signing_date": "2018-07-19",
+  "publication_date": "2018-07-24",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/07/24/2018-15955/establishing-the-presidents-national-council-for-the-american-worker",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-07-24/pdf/2018-15955.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/07/24/2018-15955.txt",
+  "enrichment": {
+    "summary": "This executive order creates a council tasked with developing a national strategy to improve education and job training for American workers, focusing on equipping them with skills needed in today’s rapidly changing economy. It promotes collaboration between the government, employers, educational institutions, and other stakeholders to support lifelong learning, workforce development, and transparency in job market data.",
+    "theme_ids": [
+      "workforce-development",
+      "21st-century-workforce-skills",
+      "apprenticeships-job-training",
+      "federal-advisory-committees"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "working-age-adults",
+        "youth-young-adults",
+        "labor-unions",
+        "educational-institutions",
+        "small-business-owners",
+        "union-members"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The focus on industry-recognized credentials and demand-driven training may unintentionally marginalize smaller educational institutions and limit educational diversity impacting youth-young-adults and working-age-adults.",
+      "There may be challenges ensuring equitable access to skills training for labor-union members and small-business employees who might lack resources or face barriers to participate in online and apprenticeship programs.",
+      "Efforts to promote employer-led training initiatives could disproportionately favor large corporations over small-business-owners, potentially exacerbating disparities in workforce development opportunities.",
+      "Without strong oversight, the initiative’s endorsement of certain private sector training models risks prioritizing employer needs over worker protections and fair labor standards, affecting union-members and working-age-adults.",
+      "Increased transparency and reliance on job market data might lead to overemphasis on measurable skills while undervaluing foundational education or soft skills important for long-term career adaptability."
+    ],
+    "enriched_at": "2025-12-15T02:27:43.354Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

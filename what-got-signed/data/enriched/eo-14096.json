@@ -1,0 +1,55 @@
+{
+  "document_number": "2023-08955",
+  "executive_order_number": "14096",
+  "title": "Revitalizing Our Nation's Commitment to Environmental Justice for All",
+  "abstract": null,
+  "signing_date": "2023-04-21",
+  "publication_date": "2023-04-26",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2023/04/26/2023-08955/revitalizing-our-nations-commitment-to-environmental-justice-for-all",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-04-26/pdf/2023-08955.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/04/26/2023-08955.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to prioritize environmental justice by addressing the disproportionate environmental and health impacts on underserved and overburdened communities. It establishes requirements for agencies to develop strategic plans, improve data collection, enhance public participation, coordinate across government, and support environmental justice initiatives through training, research, and community engagement.",
+    "theme_ids": [
+      "environmental-justice",
+      "climate-change-policy",
+      "environmental-regulation",
+      "interagency-coordination",
+      "racial-equity"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "environmental-justice-communities",
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "native-americans-indigenous-peoples",
+        "alaska-natives",
+        "native-hawaiian-and-pacific-islanders",
+        "low-income-individuals-families",
+        "urban-communities",
+        "rural-communities",
+        "tribal-communities-reservations",
+        "u-s-territory-residents",
+        "agricultural-workers-farmers",
+        "union-members"
+      ],
+      "negative_ids": [
+        "energy-sector-workers-oil-gas-coal",
+        "large-corporation-employees"
+      ]
+    },
+    "potential_concerns": [
+      "The order's emphasis on stringent environmental regulations may lead to job losses or economic hardship for energy-sector workers in oil, gas, and coal industries, disproportionately affecting union members employed in these sectors.",
+      "Large corporations in potentially polluting industries might face increased compliance costs and stricter enforcement, potentially impacting their economic operations and workforce.",
+      "Efforts to remediate legacy pollution and enforce civil rights laws may create tension with affected industries and local economies dependent on them, indirectly impacting communities relying on these jobs.",
+      "Ensuring meaningful and accessible public participation requires overcoming language, disability, and resource barriers in diverse environmental justice communities, including Tribal Nations, which could slow implementation or create disparities if not managed effectively.",
+      "Coordinated federal action must avoid unintended bureaucratic delays or overlapping agency responsibilities, which could hinder timely benefits to underserved urban, rural, and tribal communities."
+    ],
+    "enriched_at": "2025-12-15T02:38:58.110Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

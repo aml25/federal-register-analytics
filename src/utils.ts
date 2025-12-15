@@ -79,10 +79,10 @@ export async function loadThemes(): Promise<ThemeRegistry> {
 
   for (const [key, items] of Object.entries(taxonomy.themes)) {
     const category = THEME_CATEGORY_LABELS[key] || key;
-    for (const item of items) {
+    for (const entry of items) {
       themes.push({
-        id: slugify(item),
-        name: item,
+        id: slugify(entry.name),
+        name: entry.name,
         description: category,
         created_at: now
       });
@@ -104,11 +104,11 @@ export async function loadPopulations(): Promise<PopulationRegistry> {
   const now = new Date().toISOString();
   const pops = taxonomy.impacted_populations;
 
-  const addFromCategory = (items: string[], category: string) => {
-    for (const item of items) {
+  const addFromCategory = (entries: Array<{name: string; definition: string}>, category: string) => {
+    for (const entry of entries) {
       populations.push({
-        id: slugify(item),
-        name: item,
+        id: slugify(entry.name),
+        name: entry.name,
         description: category,
         created_at: now
       });

@@ -1,0 +1,42 @@
+{
+  "document_number": "2018-26156",
+  "executive_order_number": "13851",
+  "title": "Blocking Property of Certain Persons Contributing to the Situation in Nicaragua",
+  "abstract": null,
+  "signing_date": "2018-11-27",
+  "publication_date": "2018-11-29",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/11/29/2018-26156/blocking-property-of-certain-persons-contributing-to-the-situation-in-nicaragua",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-11-29/pdf/2018-26156.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/11/29/2018-26156.txt",
+  "enrichment": {
+    "summary": "This executive order blocks the property and restricts transactions of individuals and entities contributing to violence, corruption, and the undermining of democracy in Nicaragua. It also suspends entry to the U.S. for those persons and prohibits donations and financial support to them, aiming to address threats to U.S. national security and foreign policy related to the situation in Nicaragua.",
+    "theme_ids": [
+      "sanctions-country-specific",
+      "nicaragua",
+      "national-emergencies",
+      "travel-restrictions-bans",
+      "human-rights-international"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "hispanic-latino-americans"
+      ],
+      "negative_ids": [
+        "foreign-government-officials",
+        "citizens-of-specific-countries-by-eo-designation"
+      ]
+    },
+    "potential_concerns": [
+      "This executive order could inadvertently restrict legitimate travel and visa opportunities for Hispanic / Latino Americans with family or business ties in Nicaragua due to broad entry suspensions.",
+      "The designation and sanctions against foreign government officials may escalate diplomatic tensions and complicate U.S.-Nicaragua relations, potentially impacting broader regional stability.",
+      "The blocking of property and financial support may harm ordinary Nicaraguan citizens economically if sanctions disrupt local businesses or aid flows indirectly tied to designated persons.",
+      "There is potential for overreach or misidentification in targeting individuals or entities, which could result in wrongful denial of entry or asset freezes impacting innocent parties connected to Nicaragua."
+    ],
+    "enriched_at": "2025-12-15T02:27:02.126Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

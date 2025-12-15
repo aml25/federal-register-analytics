@@ -1,0 +1,40 @@
+{
+  "document_number": "2018-24254",
+  "executive_order_number": "13850",
+  "title": "Blocking Property of Additional Persons Contributing to the Situation in Venezuela",
+  "abstract": null,
+  "signing_date": "2018-11-01",
+  "publication_date": "2018-11-02",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2018/11/02/2018-24254/blocking-property-of-additional-persons-contributing-to-the-situation-in-venezuela",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2018-11-02/pdf/2018-24254.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2018/11/02/2018-24254.txt",
+  "enrichment": {
+    "summary": "This executive order blocks and freezes the property of individuals and entities involved in corrupt activities or the gold sector in Venezuela, aiming to pressure the Maduro regime by targeting those contributing to Venezuela's crisis. It also suspends their entry into the United States and prohibits support or transactions with them to address the ongoing national emergency related to Venezuela.",
+    "theme_ids": [
+      "sanctions-country-specific",
+      "venezuela",
+      "travel-restrictions-bans",
+      "national-emergencies"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "citizens-of-specific-countries-by-eo-designation",
+        "foreign-nationals-general",
+        "visa-holders-work-student-tourist"
+      ]
+    },
+    "potential_concerns": [
+      "The sanctions and travel bans targeting Venezuelan individuals involved in the gold sector or corrupt activities could exacerbate the humanitarian crisis by limiting economic opportunities for ordinary Venezuelan citizens (citizens-of-specific-countries-by-eo-designation).",
+      "Entry suspension and asset freezes on foreign nationals may complicate diplomatic efforts and hinder cooperation with Venezuelan civil society and opposition figures trying to resolve the crisis.",
+      "Restrictions on visa holders from Venezuela may inadvertently affect students, workers, and tourists unrelated to corrupt activities, harming bilateral relations and individual livelihoods.",
+      "The order’s broad definition of associated persons and entities risks overreach, potentially imposing penalties on indirect or remote actors, raising concerns about due process for foreign nationals and businesses."
+    ],
+    "enriched_at": "2025-12-15T02:27:09.072Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

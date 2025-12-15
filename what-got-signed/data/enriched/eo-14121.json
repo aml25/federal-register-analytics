@@ -1,0 +1,48 @@
+{
+  "document_number": "2024-06931",
+  "executive_order_number": "14121",
+  "title": "Recognizing and Honoring Women's History",
+  "abstract": null,
+  "signing_date": "2024-03-27",
+  "publication_date": "2024-04-01",
+  "president": {
+    "identifier": "joe-biden",
+    "name": "Joseph R. Biden Jr."
+  },
+  "html_url": "https://www.federalregister.gov/documents/2024/04/01/2024-06931/recognizing-and-honoring-womens-history",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-04-01/pdf/2024-06931.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/04/01/2024-06931.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to better recognize and honor the contributions of women and girls throughout American history by assessing and highlighting related historic sites and cultural landmarks. It calls for studies and reports to improve representation of diverse women’s histories in national parks and museums, and seeks recommendations to enhance awareness and preservation of women’s roles across various fields.",
+    "theme_ids": [
+      "gender-equality",
+      "dei-diversity-equity-inclusion",
+      "historical-commemorations",
+      "national-monuments-antiquities",
+      "museums-libraries-cultural-institutions"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "women",
+        "native-americans-indigenous-peoples",
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "asian-americans",
+        "lgbtq-individuals",
+        "children-minors",
+        "public-school-communities",
+        "tribal-communities-reservations"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Efforts to expand recognition of women’s history across diverse racial, ethnic, and LGBTQ+ communities may face challenges ensuring authentic and respectful representation without tokenism, potentially impacting women from minority groups.",
+      "Reallocating resources within the National Park System and cultural institutions to focus on women’s history might inadvertently reduce attention or funding for other underrepresented historical narratives important to specific racial or tribal communities.",
+      "Implementing intersectional theme studies could encounter difficulties in effectively engaging tribal communities and Indigenous populations, risking their histories being underrepresented or misrepresented.",
+      "Expanding historic designations and monuments highlighting women's history could lead to local controversies in certain communities, including rural or tribal areas, regarding site use or cultural sensitivity.",
+      "Educational institutions and youth, particularly public-school communities, may face uneven availability or delayed integration of new curricular materials related to enhanced women's history recognition, affecting equitable access to these educational benefits."
+    ],
+    "enriched_at": "2025-12-15T02:40:53.107Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
