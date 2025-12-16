@@ -3,6 +3,20 @@ function escapeRegex(str) {
   return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
+// Map president names to their initials for avatars
+const presidentInitials = {
+  'Barack Obama': 'BO',
+  'Donald Trump': 'DT',
+  'George W. Bush': 'GB',
+  'Joe Biden': 'JB'
+};
+
+// Render president name with inline avatar
+function renderPresidentWithAvatar(presidentName) {
+  const initials = presidentInitials[presidentName] || presidentName.split(' ').map(n => n[0]).join('');
+  return `<wa-avatar class="president-avatar" initials="${initials}" label="${presidentName}" shape="circle"></wa-avatar><span class="wa-font-weight-semibold">${presidentName}</span>`;
+}
+
 // Render themes as clickable links
 function renderThemeLinks(themes) {
   return themes.map(t =>
@@ -25,7 +39,7 @@ async function loadTermSummaries() {
 
       return `
         <div class="term-summary">
-          <p class="wa-body-m"><span class="wa-font-weight-semibold">${term.president_name}</span> signed ${term.order_count} executive order${term.order_count !== 1 ? 's' : ''} from ${term.term_start} until ${termEnd}. The top themes ${themeVerb}: ${themeLinks}.</p>
+          <p class="wa-body-m">${renderPresidentWithAvatar(term.president_name)} signed ${term.order_count} executive order${term.order_count !== 1 ? 's' : ''} from ${term.term_start} until ${termEnd}. The top themes ${themeVerb}: ${themeLinks}.</p>
           <wa-button class="arrow-button" variant="brand" appearance="plain" href="/detail?type=term&president=${term.president_id}&start=${term.term_start}">
             <wa-icon name="arrow-right" label="View details"></wa-icon>
           </wa-button>
@@ -45,12 +59,10 @@ function renderTimelinePeriod(period) {
   // Make theme names in the summary clickable
   let summary = period.theme_summary;
 
-  // Style president name with semibold
+  // Style president name with avatar
   if (period.president_name) {
     const presidentRegex = new RegExp(escapeRegex(period.president_name), 'g');
-    summary = summary.replace(presidentRegex,
-      `<span class="wa-font-weight-semibold">${period.president_name}</span>`
-    );
+    summary = summary.replace(presidentRegex, renderPresidentWithAvatar(period.president_name));
   }
 
   // Replace theme names with links using top_themes array

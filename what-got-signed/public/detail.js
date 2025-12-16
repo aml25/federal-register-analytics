@@ -3,6 +3,20 @@ function escapeRegex(str) {
   return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
+// Map president names to their initials for avatars
+const presidentInitials = {
+  'Barack Obama': 'BO',
+  'Donald Trump': 'DT',
+  'George W. Bush': 'GB',
+  'Joe Biden': 'JB'
+};
+
+// Render president name with inline avatar
+function renderPresidentWithAvatar(presidentName) {
+  const initials = presidentInitials[presidentName] || presidentName.split(' ').map(n => n[0]).join('');
+  return `<wa-avatar class="president-avatar" initials="${initials}" label="${presidentName}" shape="circle"></wa-avatar><span class="wa-font-weight-semibold">${presidentName}</span>`;
+}
+
 // Parse URL params
 function getParams() {
   const params = new URLSearchParams(window.location.search);
@@ -85,16 +99,12 @@ async function loadTermDetail(presidentId, termStart) {
 
     if (narrative) {
       const termEnd = narrative.term_end === 'present' ? 'present' : narrative.term_end;
-      titleEl.innerHTML = `Review of executive orders for <span class="wa-font-weight-semibold">${narrative.president_name}</span> (${narrative.term_start}-${termEnd}).`;
+      titleEl.innerHTML = `Review of executive orders for ${renderPresidentWithAvatar(narrative.president_name)} (${narrative.term_start}-${termEnd}).`;
 
       // Style president name in narrative summaries
       const presidentRegex = new RegExp(escapeRegex(narrative.president_name), 'g');
-      const styledSummary = narrative.summary.replace(presidentRegex,
-        `<span class="wa-font-weight-semibold">${narrative.president_name}</span>`
-      );
-      const styledImpact = narrative.potential_impact.replace(presidentRegex,
-        `<span class="wa-font-weight-semibold">${narrative.president_name}</span>`
-      );
+      const styledSummary = narrative.summary.replace(presidentRegex, renderPresidentWithAvatar(narrative.president_name));
+      const styledImpact = narrative.potential_impact.replace(presidentRegex, renderPresidentWithAvatar(narrative.president_name));
 
       summaryEl.innerHTML = `<p>${styledSummary}</p>`;
       impactEl.innerHTML = `<p>${styledImpact}</p>`;
@@ -154,12 +164,8 @@ async function loadQuarterDetail(year, quarter) {
 
       for (const president of narrative.presidents || []) {
         const presidentRegex = new RegExp(escapeRegex(president.president_name), 'g');
-        styledSummary = styledSummary.replace(presidentRegex,
-          `<span class="wa-font-weight-semibold">${president.president_name}</span>`
-        );
-        styledImpact = styledImpact.replace(presidentRegex,
-          `<span class="wa-font-weight-semibold">${president.president_name}</span>`
-        );
+        styledSummary = styledSummary.replace(presidentRegex, renderPresidentWithAvatar(president.president_name));
+        styledImpact = styledImpact.replace(presidentRegex, renderPresidentWithAvatar(president.president_name));
       }
 
       summaryEl.innerHTML = `<p>${styledSummary}</p>`;
@@ -228,12 +234,8 @@ async function loadThemeDetail(themeId) {
 
       for (const president of narrative.presidents || []) {
         const presidentRegex = new RegExp(escapeRegex(president.president_name), 'g');
-        styledSummary = styledSummary.replace(presidentRegex,
-          `<span class="wa-font-weight-semibold">${president.president_name}</span>`
-        );
-        styledImpact = styledImpact.replace(presidentRegex,
-          `<span class="wa-font-weight-semibold">${president.president_name}</span>`
-        );
+        styledSummary = styledSummary.replace(presidentRegex, renderPresidentWithAvatar(president.president_name));
+        styledImpact = styledImpact.replace(presidentRegex, renderPresidentWithAvatar(president.president_name));
       }
 
       summaryEl.innerHTML = `<p>${styledSummary}</p>`;

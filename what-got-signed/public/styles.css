@@ -305,6 +305,20 @@ wa-tab-panel::part(base) {
   color: var(--wa-color-text-quiet);
 }
 
+/* President avatars - inline with text */
+.president-avatar {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: var(--wa-space-2xs);
+  --size: 1.5rem;
+}
+
+.president-avatar::part(base) {
+  width: var(--size);
+  height: var(--size);
+  font-size: 0.6rem;
+}
+
 /* Disclaimer footer */
 .disclaimer {
   display: flex;
