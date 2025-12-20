@@ -230,7 +230,7 @@ section {
 .order-header {
   display: flex;
   flex-direction: column;
-  gap: 0px;
+  gap: var(--wa-space-s);
 }
 
 .order-summary {
@@ -255,9 +255,19 @@ section {
   gap: var(--wa-space-2xs);
 }
 
-.order-external-link {
-  vertical-align: middle;
-  margin-bottom: var(--wa-space-2xs);
+/* President name styling */
+.president-name {
+  font-weight: bolder;
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--wa-space-2xs);
+}
+
+.president-name wa-avatar {
+  --size: 2em;
+  align-self: center;
+  margin-top: -0.5em;
+  margin-bottom: -0.5em;
 }
 
 /* Definitions page */

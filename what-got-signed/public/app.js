@@ -3,6 +3,45 @@ function escapeRegex(str) {
   return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
+// Extract last name, ignoring suffixes like Jr., Sr., III, etc.
+function getLastName(fullName) {
+  const suffixes = ['jr.', 'jr', 'sr.', 'sr', 'ii', 'iii', 'iv', 'v'];
+  const parts = fullName.split(' ');
+  for (let i = parts.length - 1; i >= 0; i--) {
+    if (!suffixes.includes(parts[i].toLowerCase())) {
+      return parts[i];
+    }
+  }
+  return parts[parts.length - 1];
+}
+
+// Get regex pattern for matching president name variations
+function getPresidentNamePattern(fullName) {
+  const lastName = getLastName(fullName);
+  // Match: full name, "President LastName", or just "LastName" - with optional possessive 's
+  // Use negative lookahead (?!\w) instead of \b to handle names ending in periods (e.g., "Jr.")
+  return new RegExp(
+    `(${escapeRegex(fullName)}|President ${escapeRegex(lastName)}|${escapeRegex(lastName)})('s)?(?!\\w)`,
+    'g'
+  );
+}
+
+// Convert full name to president ID (e.g., "Donald Trump" -> "donald-trump")
+function getPresidentId(fullName) {
+  return fullName.toLowerCase().replace(/\./g, '').replace(/\s+/g, '-');
+}
+
+// Wrap president name mentions with styled span and avatar
+function wrapPresidentNames(text, fullName) {
+  const pattern = getPresidentNamePattern(fullName);
+  const presidentId = getPresidentId(fullName);
+  const initials = fullName.split(' ').map(n => n[0]).join('');
+
+  return text.replace(pattern, (match) => {
+    return `<span class="president-name" data-president="${presidentId}"><wa-avatar name="${initials}" image="/avatars/${presidentId}.jpg" shape="rounded"></wa-avatar>${match}</span>`;
+  });
+}
+
 // Render themes as clickable links
 function renderThemeLinks(themes) {
   return themes.map(t =>
@@ -22,10 +61,11 @@ async function loadTermSummaries() {
       const termEnd = term.term_end === 'present' ? 'present' : term.term_end;
       const themeVerb = term.term_end === 'present' ? 'have been' : 'were';
       const themeLinks = renderThemeLinks(term.top_themes);
+      const styledName = wrapPresidentNames(term.president_name, term.president_name);
 
       return `
         <div class="term-summary">
-          <p class="wa-body-m"><span class="wa-font-weight-semibold">${term.president_name}</span> signed ${term.order_count} executive order${term.order_count !== 1 ? 's' : ''} from ${term.term_start} until ${termEnd}. The top themes ${themeVerb}: ${themeLinks}.</p>
+          <p class="wa-body-m">${styledName} signed ${term.order_count} executive order${term.order_count !== 1 ? 's' : ''} from ${term.term_start} until ${termEnd}. The top themes ${themeVerb}: ${themeLinks}.</p>
           <wa-button class="arrow-button" variant="brand" appearance="plain" href="/detail?type=term&president=${term.president_id}&start=${term.term_start}">
             <wa-icon name="arrow-right" label="View details"></wa-icon>
           </wa-button>
@@ -45,12 +85,12 @@ function renderTimelinePeriod(period) {
   // Make theme names in the summary clickable
   let summary = period.theme_summary;
 
-  // Style president name with semibold
+  // Style president names with avatars (handle multiple presidents separated by " and ")
   if (period.president_name) {
-    const presidentRegex = new RegExp(escapeRegex(period.president_name), 'g');
-    summary = summary.replace(presidentRegex,
-      `<span class="wa-font-weight-semibold">${period.president_name}</span>`
-    );
+    const presidentNames = period.president_name.split(' and ');
+    for (const name of presidentNames) {
+      summary = wrapPresidentNames(summary, name.trim());
+    }
   }
 
   // Replace theme names with links using top_themes array
