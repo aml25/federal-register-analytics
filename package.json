@@ -11,7 +11,8 @@
     "enrich": "node dist/cli/enrich.js",
     "aggregate": "node dist/cli/aggregate.js",
     "generate-narratives": "node dist/cli/narratives.js",
-    "pipeline": "node dist/cli/pipeline.js"
+    "pipeline": "node dist/cli/pipeline.js",
+    "update": "node dist/cli/sync.js"
   },
   "keywords": [
     "federal-register",

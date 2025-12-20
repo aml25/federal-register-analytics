@@ -190,7 +190,31 @@ npm run pipeline -- --year 2025 --skip-narratives
 npm run pipeline -- --year 2025 --force
 ```
 
-### 6. Run the Web Frontend
+### 6. Check for Updates
+
+Check for new executive orders and automatically process them:
+
+```bash
+# Check current year for new EOs and process them
+npm run update
+
+# Check a specific year
+npm run update -- --year 2025
+
+# Check only (don't process, just show what's new)
+npm run update -- --check
+
+# Skip narrative generation
+npm run update -- --skip-narratives
+```
+
+This command:
+1. Queries the Federal Register API for the current year
+2. Compares against existing enriched files
+3. If new EOs are found: fetches, enriches, aggregates, and updates narratives
+4. Uses smart staleness detection to only regenerate affected narratives
+
+### 7. Run the Web Frontend
 
 Start the Express server to browse executive orders:
 
