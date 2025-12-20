@@ -3,15 +3,43 @@ function escapeRegex(str) {
   return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
-// Style president name variations in text (e.g., "Donald Trump", "President Trump", "Trump's")
-function stylePresidentName(text, fullName) {
-  const lastName = fullName.split(' ').pop();
+// Extract last name, ignoring suffixes like Jr., Sr., III, etc.
+function getLastName(fullName) {
+  const suffixes = ['jr.', 'jr', 'sr.', 'sr', 'ii', 'iii', 'iv', 'v'];
+  const parts = fullName.split(' ');
+  for (let i = parts.length - 1; i >= 0; i--) {
+    if (!suffixes.includes(parts[i].toLowerCase())) {
+      return parts[i];
+    }
+  }
+  return parts[parts.length - 1];
+}
+
+// Get regex pattern for matching president name variations
+function getPresidentNamePattern(fullName) {
+  const lastName = getLastName(fullName);
   // Match: full name, "President LastName", or just "LastName" - with optional possessive 's
-  const pattern = new RegExp(
-    `(${escapeRegex(fullName)}|President ${escapeRegex(lastName)}|${escapeRegex(lastName)})('s)?\\b`,
+  // Use negative lookahead (?!\w) instead of \b to handle names ending in periods (e.g., "Jr.")
+  return new RegExp(
+    `(${escapeRegex(fullName)}|President ${escapeRegex(lastName)}|${escapeRegex(lastName)})('s)?(?!\\w)`,
     'g'
   );
-  return text.replace(pattern, '<span class="wa-font-weight-semibold">$1$2</span>');
+}
+
+// Convert full name to president ID (e.g., "Donald Trump" -> "donald-trump")
+function getPresidentId(fullName) {
+  return fullName.toLowerCase().replace(/\./g, '').replace(/\s+/g, '-');
+}
+
+// Wrap president name mentions with styled span and avatar
+function wrapPresidentNames(text, fullName) {
+  const pattern = getPresidentNamePattern(fullName);
+  const presidentId = getPresidentId(fullName);
+  const initials = fullName.split(' ').map(n => n[0]).join('');
+
+  return text.replace(pattern, (match) => {
+    return `<span class="president-name" data-president="${presidentId}"><wa-avatar name="${initials}" image="/avatars/${presidentId}.jpg" shape="rounded"></wa-avatar>${match}</span>`;
+  });
 }
 
 // Parse URL params
@@ -98,9 +126,9 @@ async function loadTermDetail(presidentId, termStart) {
       const termEnd = narrative.term_end === 'present' ? 'present' : narrative.term_end;
       titleEl.textContent = `Review of executive orders for ${narrative.president_name} (${narrative.term_start}-${termEnd}).`;
 
-      // Style president name in narrative summaries
-      const styledSummary = stylePresidentName(narrative.summary, narrative.president_name);
-      const styledImpact = stylePresidentName(narrative.potential_impact, narrative.president_name);
+      // Wrap president names in narrative summaries
+      const styledSummary = wrapPresidentNames(narrative.summary, narrative.president_name);
+      const styledImpact = wrapPresidentNames(narrative.potential_impact, narrative.president_name);
 
       summaryEl.innerHTML = `<p>${styledSummary}</p>`;
       impactEl.innerHTML = `<p>${styledImpact}</p>`;
@@ -159,8 +187,8 @@ async function loadQuarterDetail(year, quarter) {
       let styledImpact = narrative.potential_impact;
 
       for (const president of narrative.presidents || []) {
-        styledSummary = stylePresidentName(styledSummary, president.president_name);
-        styledImpact = stylePresidentName(styledImpact, president.president_name);
+        styledSummary = wrapPresidentNames(styledSummary, president.president_name);
+        styledImpact = wrapPresidentNames(styledImpact, president.president_name);
       }
 
       summaryEl.innerHTML = `<p>${styledSummary}</p>`;
@@ -228,8 +256,8 @@ async function loadThemeDetail(themeId) {
       let styledImpact = narrative.potential_impact;
 
       for (const president of narrative.presidents || []) {
-        styledSummary = stylePresidentName(styledSummary, president.president_name);
-        styledImpact = stylePresidentName(styledImpact, president.president_name);
+        styledSummary = wrapPresidentNames(styledSummary, president.president_name);
+        styledImpact = wrapPresidentNames(styledImpact, president.president_name);
       }
 
       summaryEl.innerHTML = `<p>${styledSummary}</p>`;

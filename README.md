@@ -210,6 +210,20 @@ Then open http://localhost:3000 in your browser.
 - **Back-to-top button** appears after scrolling past the viewport height
 - **Friendly messaging** for themes with limited data (callout shown instead of empty sections)
 
+#### President Avatars
+
+President names are automatically styled with avatars throughout the site. The system derives avatar filenames from full names by lowercasing, removing periods, and replacing spaces with hyphens.
+
+**Current avatars** (place in `what-got-signed/public/avatars/`):
+- `barack-obama.jpg`
+- `donald-trump.jpg`
+- `george-w-bush.jpg`
+- `joseph-r-biden-jr.jpg`
+
+**Adding a new president**: When a new president takes office, simply run the data pipeline to fetch and enrich their executive orders. The president's name comes from the Federal Register API, and the avatar ID is derived automatically. Just add the avatar image with the correct filename and everything else works automatically.
+
+To find the correct filename for a new president, convert their full name: lowercase, remove periods, replace spaces with hyphens. For example, "Jane A. Smith Jr." becomes `jane-a-smith-jr.jpg`.
+
 #### API Security
 
 The API automatically enforces **same-origin requests only**. This means:

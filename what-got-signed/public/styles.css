@@ -255,6 +255,20 @@ section {
   gap: var(--wa-space-2xs);
 }
 
+/* President name styling */
+.president-name {
+  font-weight: bolder;
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--wa-space-2xs);
+}
+
+.president-name wa-avatar {
+  --size: 2em;
+  align-self: center;
+  margin-top: -0.5em;
+  margin-bottom: -0.5em;
+}
 
 /* Definitions page */
 wa-tab-panel::part(base) {
