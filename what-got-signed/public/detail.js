@@ -49,7 +49,7 @@ function renderOrderItem(order, themeMap, popMap) {
       <p class="order-meta wa-caption-s wa-color-text-quiet">${formatDateShort(order.signing_date)} | ${order.president.name}</p>
       
       <div class="order-header">
-        <h4 class="order-title">${order.title} <wa-button class="order-external-link" variant="brand" appearance="plain" size="small" href="${order.html_url}" target="_blank"><wa-icon name="arrow-up-right-from-square" label="Read full executive order"></wa-icon></wa-button></h4>
+        <h4 class="order-title"><a href="${order.html_url}" target="_blank" class="wa-link">${order.title} <wa-icon name="arrow-up-right-from-square" label="Open on Federal Register" style="font-size: 0.8em;"></wa-icon></a></h4>
         <p class="order-summary">${order.enrichment.summary}</p>
       </div>
       <div class="order-themes-section">
@@ -85,7 +85,7 @@ async function loadTermDetail(presidentId, termStart) {
 
     if (narrative) {
       const termEnd = narrative.term_end === 'present' ? 'present' : narrative.term_end;
-      titleEl.innerHTML = `Review of executive orders for <span class="wa-font-weight-semibold">${narrative.president_name}</span> (${narrative.term_start}-${termEnd}).`;
+      titleEl.textContent = `Review of executive orders for ${narrative.president_name} (${narrative.term_start}-${termEnd}).`;
 
       // Style president name in narrative summaries
       const presidentRegex = new RegExp(escapeRegex(narrative.president_name), 'g');

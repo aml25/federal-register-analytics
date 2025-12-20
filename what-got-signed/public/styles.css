@@ -230,7 +230,7 @@ section {
 .order-header {
   display: flex;
   flex-direction: column;
-  gap: 0px;
+  gap: var(--wa-space-s);
 }
 
 .order-summary {
@@ -255,10 +255,6 @@ section {
   gap: var(--wa-space-2xs);
 }
 
-.order-external-link {
-  vertical-align: middle;
-  margin-bottom: var(--wa-space-2xs);
-}
 
 /* Definitions page */
 wa-tab-panel::part(base) {
