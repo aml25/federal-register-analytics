@@ -6,7 +6,7 @@
       "quarter_name": "Q4 2025",
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
-      "order_count": 8,
+      "order_count": 12,
       "top_themes": [
         {
           "id": "tariffs-duties",
@@ -29,7 +29,7 @@
           "name": "Agricultural Policy"
         }
       ],
-      "theme_summary": "Donald Trump signed 8 executive orders focused on the themes of tariffs / duties, national emergencies, trade policy / agreements, and 2 others.",
+      "theme_summary": "Donald Trump signed 12 executive orders focused on the themes of tariffs / duties, national emergencies, trade policy / agreements, and 2 others.",
       "order_ids": [
         "14356",
         "14357",
@@ -38,7 +38,11 @@
         "14360",
         "14361",
         "14362",
-        "14363"
+        "14363",
+        "14364",
+        "14365",
+        "14366",
+        "14367"
       ]
     },
     {
@@ -2534,5 +2538,5 @@
       ]
     }
   ],
-  "generated_at": "2025-12-15T08:42:40.573Z"
+  "generated_at": "2025-12-20T05:45:35.021Z"
 }

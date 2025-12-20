@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 8
+          "order_count": 12
         }
       ],
-      "total_order_count": 8,
-      "summary": "In the final quarter of 2025, President Donald Trump’s executive orders prominently focused on adjusting trade and tariff policies, particularly targeting relations with China and Brazil. These actions sought to recalibrate economic arrangements through selective tariff modifications, reflecting a strategy to balance trade pressures with diplomatic considerations. Concurrently, national security and immigration enforcement remained central themes, with orders designating foreign entities and addressing synthetic opioid flows linked to China. Efforts to streamline federal hiring and support families indicated a broader agenda blending economic, security, and social priorities, revealing a complex approach to governance amid ongoing domestic and international challenges.",
-      "potential_impact": "The quarter’s executive actions aimed to benefit large corporations, agricultural workers, and law enforcement personnel by stabilizing supply chains and enhancing enforcement capabilities. However, concerns arose about the potential negative effects on federal employees facing hiring restrictions, as well as on middle-class Americans and consumers vulnerable to the opioid crisis. Reductions in tariffs on opioid-related imports risked increasing public health challenges, while workforce cuts and contracting limitations threatened job security and service continuity. These dynamics underscored tensions between economic objectives and social wellbeing, with various groups standing to gain or face hardship depending on implementation outcomes.",
-      "generated_at": "2025-12-15T07:43:33.990Z",
+      "total_order_count": 12,
+      "summary": "In the final quarter of 2025, President Donald Trump concentrated executive action on reshaping trade and national security policies, particularly through tariff adjustments and national emergency declarations. Four orders targeted tariff modifications, including significant changes involving China and Brazil, reflecting a drive to recalibrate international economic relationships and address supply chain vulnerabilities in agriculture and defense. Concurrently, the administration advanced measures addressing synthetic opioids and foreign terrorist organizations, signaling heightened security concerns. Efforts to implement a national AI policy and reform federal hiring practices also emerged, indicating a broader agenda to balance economic competitiveness with government efficiency and public safety.",
+      "potential_impact": "These executive actions aimed to bolster agricultural workers, small business owners, and law enforcement personnel by stabilizing trade and enhancing security frameworks. However, the tariff reductions, especially concerning synthetic opioid-related imports from China, raised concerns about potentially increasing substance availability, impacting middle-class Americans and manufacturing workers. Federal employees and contractors faced challenges from hiring restrictions that might strain agency operations and workforce diversity. Large corporations and defense industry workers could experience mixed effects, benefiting from eased tariffs while navigating reputational risks linked to public health implications. Overall, the orders sought to protect certain sectors but risked unintended consequences for consumers and broader communities.",
+      "generated_at": "2025-12-20T05:45:40.957Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -963,5 +963,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2025-12-15T08:43:03.039Z"
+  "generated_at": "2025-12-20T05:45:40.958Z"
 }

@@ -1,0 +1,49 @@
+{
+  "document_number": "2025-23417",
+  "executive_order_number": "14367",
+  "title": "Designating Fentanyl as a Weapon of Mass Destruction",
+  "abstract": null,
+  "signing_date": "2025-12-15",
+  "publication_date": "2025-12-18",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/12/18/2025-23417/designating-fentanyl-as-a-weapon-of-mass-destruction",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-12-18/pdf/2025-23417.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/12/18/2025-23417.txt",
+  "enrichment": {
+    "summary": "This executive order declares illicit fentanyl and its main precursor chemicals as weapons of mass destruction due to their deadly nature and threat to national security. It directs federal agencies to take strong actions, including law enforcement investigations, financial sanctions, military support, and enhanced homeland security measures to combat fentanyl trafficking and related violence.",
+    "theme_ids": [
+      "weapons-of-mass-destruction-wmd-proliferation",
+      "homeland-security",
+      "drug-enforcement",
+      "transnational-crime-cartels",
+      "foreign-terrorist-organizations"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local",
+        "military-personnel-active-duty",
+        "crime-victims"
+      ],
+      "negative_ids": [
+        "undocumented-immigrants",
+        "hispanic-latino-americans",
+        "individuals-on-probation-parole",
+        "incarcerated-individuals",
+        "formerly-incarcerated-returning-citizens"
+      ]
+    },
+    "potential_concerns": [
+      "Designating fentanyl as a WMD may lead to increased militarization of drug enforcement that disproportionately targets Hispanic/Latino Americans and undocumented immigrants in border communities, raising civil rights and racial profiling issues.",
+      "The order's emphasis on harsher criminal prosecutions and potential sentencing enhancements could result in higher incarceration rates and longer sentences for individuals on probation/parole, incarcerated individuals, and formerly incarcerated returning citizens, exacerbating social and economic disparities.",
+      "Enhanced military involvement and broadened definitions of chemical threats might strain resources for law enforcement officers (both federal and state/local) and military personnel, potentially diverting focus from community-based drug prevention and rehabilitation efforts.",
+      "Crime victims may benefit from stronger enforcement and disruption of fentanyl trafficking networks, but unintended consequences including increased violence related to armed cartel conflicts could put communities and law enforcement at greater risk.",
+      "Financial sanctions and counter-fentanyl intelligence operations targeting foreign terrorist organizations and transnational cartels might complicate international relations and raise concerns about extraterritorial law enforcement actions affecting U.S. border security."
+    ],
+    "enriched_at": "2025-12-20T05:45:15.053Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

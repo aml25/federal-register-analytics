@@ -1,0 +1,43 @@
+{
+  "document_number": "2025-23092",
+  "executive_order_number": "14365",
+  "title": "Ensuring a National Policy Framework for Artificial Intelligence",
+  "abstract": null,
+  "signing_date": "2025-12-11",
+  "publication_date": "2025-12-16",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-12-16/pdf/2025-23092.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2025/12/16/2025-23092.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to create a unified national policy for artificial intelligence (AI) to prevent conflicting state laws from hindering innovation and economic growth. It establishes a task force to challenge state AI laws that conflict with federal policy, sets standards for federal reporting and disclosure, and proposes legislative recommendations for a consistent national AI framework.",
+    "theme_ids": [
+      "artificial-intelligence",
+      "tech-industry-regulation",
+      "regulatory-reform-deregulation",
+      "broadband-telecommunications",
+      "presidential-commissions-task-forces"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "entrepreneurs-startups",
+        "technology-workers",
+        "small-business-owners"
+      ],
+      "negative_ids": [
+        "state-governments"
+      ]
+    },
+    "potential_concerns": [
+      "Preempting state AI laws in favor of a minimal federal framework may undermine states' ability to tailor protections for their residents and reduce regulatory flexibility for diverse local needs, negatively impacting state governments.",
+      "Small businesses and startups may face challenges if the federal standards do not adequately address concerns about algorithmic bias or consumer protection, potentially limiting the safe and equitable deployment of AI by these groups.",
+      "Technology workers might experience pressure to develop AI systems with fewer ethical or bias safeguards due to the order's emphasis on preventing state regulations that require embedding protections against discrimination.",
+      "The conditioning of certain state funding on repealing or suspending state AI laws could create fiscal strain on states wishing to maintain their own AI regulations, indirectly affecting public services and local economies."
+    ],
+    "enriched_at": "2025-12-20T05:45:21.504Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

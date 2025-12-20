@@ -96,12 +96,12 @@
     {
       "theme_id": "homeland-security",
       "theme_name": "Homeland Security",
-      "order_count": 72,
+      "order_count": 73,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 40
+          "order_count": 41
         },
         {
           "president_id": "barack-obama",
@@ -119,9 +119,9 @@
           "order_count": 1
         }
       ],
-      "summary": "Executive orders related to homeland security reveal evolving priorities across administrations, balancing national protection with logistical and operational challenges. While early efforts focused on biosecurity and classified information management, later policies emphasized cybersecurity, veterans' support, and counterterrorism measures. The Trump administration notably expanded orders targeting immigration enforcement and trade security alongside enhancing cybersecurity and military transition programs. These policies reflect a complex interplay between safeguarding the nation and managing interagency coordination, infrastructure protection, and information classification frameworks.",
-      "potential_impact": "These executive orders aimed to bolster security for military personnel, law enforcement, veterans, and cybersecurity professionals, enhancing capabilities against biological threats, cyberattacks, and terrorism. However, efforts to tighten security protocols often increased administrative burdens and raised concerns about limiting research collaboration and information transparency. Certain populations, including undocumented immigrants, refugees, and some business sectors, faced restrictive measures, prompting worries about access, equity, and potential impacts on scientific progress, community relations, and operational effectiveness.",
-      "generated_at": "2025-12-15T08:43:17.098Z",
+      "summary": "Homeland security executive orders reflect evolving priorities across administrations, balancing national defense, biosecurity, and cybersecurity with law enforcement and veterans’ support. Early efforts under Bush laid groundwork for biosecurity, while Obama expanded focus on infrastructure protection, mental health services for veterans, and interagency coordination. Trump's tenure emphasized immigration enforcement, election security, and strengthening cybersecurity workforce capabilities, often imposing stricter controls. Biden’s actions continued modernization with attention to resilience and enhanced vetting. These shifting emphases illustrate attempts to adapt homeland security to emerging threats and operational complexities.",
+      "potential_impact": "These executive orders primarily aimed to enhance security for military personnel, law enforcement, and cybersecurity professionals, seeking to bolster national defense and critical infrastructure resilience. However, the measures sometimes raised concerns about unintended burdens on scientific research, transparency, and collaboration, especially regarding classification rules and biosecurity. Populations such as undocumented immigrants, refugees, and certain minority communities faced heightened restrictions, while small businesses and private-sector contractors encountered compliance challenges. The interplay of protection and operational demands highlighted tensions between safeguarding security and preserving openness.",
+      "generated_at": "2025-12-20T05:45:45.154Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -179,12 +179,12 @@
     {
       "theme_id": "regulatory-reform-deregulation",
       "theme_name": "Regulatory Reform / Deregulation",
-      "order_count": 53,
+      "order_count": 54,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 48
+          "order_count": 49
         },
         {
           "president_id": "joe-biden",
@@ -197,9 +197,9 @@
           "order_count": 2
         }
       ],
-      "summary": "Executive action on regulatory reform and deregulation has been dominated by a sharp shift in approach across recent administrations. While earlier efforts under Obama focused modestly on refining regulatory processes, the Trump administration pursued an aggressive deregulatory agenda, issuing 48 orders aimed at dismantling existing regulations to promote economic growth, energy independence, and reduced burdens on businesses. Biden’s more recent executive orders have sought to modernize regulatory review, partially reversing prior rollbacks with an emphasis on balancing efficiency with accountability. These contrasting strategies reflect broader debates over the role of government oversight and economic priorities in regulatory policy.",
-      "potential_impact": "The executive orders on regulatory reform aimed primarily to benefit small business owners, entrepreneurs, and sectors such as energy and technology by reducing compliance costs and administrative complexity. However, these deregulatory moves raised concerns about diminished protections for environmental justice communities, vulnerable populations, and federal employees, who could face increased risks from weakened safeguards. Observers noted potential adverse effects on regulatory certainty and equitable enforcement, with marginalized groups potentially losing critical community health and workplace protections amid efforts to prioritize economic efficiency and reduce government oversight.",
-      "generated_at": "2025-12-15T08:43:27.349Z",
+      "summary": "Executive orders related to regulatory reform and deregulation have reflected markedly divergent priorities across administrations, with a pronounced surge during the Trump era. While Obama and Biden issued relatively few orders aimed at refining regulatory frameworks, Trump’s 49 directives aggressively pursued rollback of existing rules, emphasizing economic growth, energy independence, and reducing burdens on small businesses and federal contractors. These actions often involved revoking prior executive orders and instituting retrospective reviews, illustrating a focus on minimizing government intervention and streamlining regulatory processes, though sometimes at the expense of protections previously established.",
+      "potential_impact": "The deregulation efforts primarily aimed to benefit small business owners, entrepreneurs, and various workers by easing compliance demands and promoting economic mobility. However, these moves raised concerns about diminished safeguards for environmental justice communities, vulnerable populations, and minority groups who rely on regulatory protections for equitable treatment and health. The rollback of oversight mechanisms risked creating uncertainty for both businesses and consumers, while potentially weakening worker protections and contracting fairness, highlighting tensions between deregulation goals and maintaining inclusive, accountable governance.",
+      "generated_at": "2025-12-20T05:45:48.210Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -255,6 +255,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "economic-competitiveness",
+      "theme_name": "Economic Competitiveness",
+      "order_count": 40,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 24
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 8
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 8
+        }
+      ],
+      "summary": "Executive orders addressing economic competitiveness reveal evolving strategies across administrations to bolster national growth through innovation, investment, and regulatory reform. While Obama emphasized building institutional frameworks like the White House Rural Council and promoting international business ties, Trump prioritized securing critical minerals, advancing artificial intelligence, and deregulation to stimulate rapid industrial output. Biden’s approach integrates technological advancement and supply chain resilience with infrastructure investment, reflecting a comprehensive vision for sustainable competitiveness. Together, these efforts illustrate shifting priorities from foundational capacity-building to assertive market positioning and modern innovation.",
+      "potential_impact": "These executive actions aimed to benefit a wide array of stakeholders, notably small business owners, entrepreneurs, rural communities, and technology workers, by fostering job creation and enhancing industrial capabilities. However, concerns arose regarding the potential marginalization of environmental justice and tribal communities, as well as the risk that large corporations and politically connected areas might disproportionately reap advantages. Observers also noted that increased federal coordination could impose bureaucratic complexities, potentially slowing support for vulnerable populations and complicating equitable economic development.",
+      "generated_at": "2025-12-20T05:45:50.255Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "national-security-information-classification",
       "theme_name": "National Security Information / Classification",
       "order_count": 39,
@@ -278,32 +304,6 @@
       "summary": "Executive orders addressing national security information and classification have evolved to balance rigorous safeguarding of sensitive data with technological and operational needs. While earlier efforts under Obama centered on structuring classification programs and improving information sharing across government levels, Trump’s extensive orders emphasized sanctions, artificial intelligence leadership, and tighter control over classified networks. Biden’s recent actions focus on selective declassification and responsible AI development, reflecting growing concerns about transparency and technological security. Collectively, these policies reveal shifting priorities in managing classified information amid evolving security challenges and emerging technologies.",
       "potential_impact": "These executive orders aimed to enhance protections for military personnel, intelligence workers, and federal employees entrusted with classified information, while imposing stricter compliance demands that sometimes strained workplace morale and operational flexibility. The emphasis on security clearance processes and sanctions impacted private sector defense workers and federal contractors, occasionally complicating collaboration. Meanwhile, restrictions on disclosure and classification protocols raised concerns about transparency, whistleblower protections, and equitable access to information among state and local officials, highlighting tensions between safeguarding secrets and maintaining accountability.",
       "generated_at": "2025-12-15T08:43:39.796Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "economic-competitiveness",
-      "theme_name": "Economic Competitiveness",
-      "order_count": 39,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 23
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 8
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 8
-        }
-      ],
-      "summary": "Executive actions on economic competitiveness have reflected varying strategies to bolster American industry and innovation. While Obama’s orders often emphasized coordination across urban and rural communities and fostering entrepreneurship, Trump’s directives largely focused on securing critical mineral supplies, advancing artificial intelligence, and deregulation to promote immediate economic growth. Biden’s approach integrates infrastructure investment, technology leadership, and supply chain resilience, highlighting a balance between innovation and sustainability. Together, these efforts reveal evolving priorities around fostering domestic manufacturing, technological leadership, and strategic investment to maintain the nation’s competitive edge.",
-      "potential_impact": "These executive orders aimed to benefit a wide range of stakeholders, from small business owners and entrepreneurs to rural communities and technology workers, by enhancing job creation and innovation capacities. However, concerns emerged about potential unintended consequences, such as increased bureaucratic complexity, uneven resource distribution favoring larger corporations, and risks of marginalizing vulnerable populations in urban and rural areas. Additionally, the push for foreign investment and deregulation raised questions about balancing economic expansion with environmental justice, local autonomy, and national security safeguards.",
-      "generated_at": "2025-12-15T08:43:37.857Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -356,12 +356,12 @@
     {
       "theme_id": "presidential-commissions-task-forces",
       "theme_name": "Presidential Commissions / Task Forces",
-      "order_count": 37,
+      "order_count": 38,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 20
+          "order_count": 21
         },
         {
           "president_id": "barack-obama",
@@ -374,9 +374,9 @@
           "order_count": 4
         }
       ],
-      "summary": "Presidential commissions and task forces have served as instruments for addressing complex national challenges through coordinated interagency efforts. Across administrations, these executive orders reflected shifting priorities: Obama’s focus included bioethics, election administration, and veterans’ mental health; Trump’s initiatives broadened to encompass drug addiction, law enforcement reform, and veterans’ suicide prevention; while Biden’s fewer orders targeted worker empowerment and public health measures. The evolving scope illustrates how presidents deploy commissions to balance policy innovation with oversight, often navigating tensions between security, public welfare, and regulatory reform.",
-      "potential_impact": "These commissions aimed to benefit a diverse set of populations including veterans, active military personnel, healthcare workers, and minority communities such as Hispanic Americans, reflecting a broad intention to improve services and protections. However, some orders raised concerns about potential adverse effects on small businesses, undocumented immigrants, and marginalized urban and rural groups. Observers noted risks related to transparency, stakeholder inclusion, and the balance between national security and human rights, highlighting how such task forces can significantly influence the lived experiences of both beneficiaries and those facing stricter regulatory or enforcement measures.",
-      "generated_at": "2025-12-15T08:43:50.431Z",
+      "summary": "Executive orders establishing presidential commissions and task forces have been a strategic tool across administrations to address complex policy challenges, from bioethics and mental health to election integrity and public safety. While Obama’s orders often focused on continuing advisory committees and addressing veterans’ and healthcare issues, Trump’s directives frequently targeted regulatory reform, law enforcement, and national security concerns. Biden’s more recent orders emphasize worker empowerment and pandemic response, reflecting shifting priorities. These commissions serve as mechanisms to coordinate interagency efforts and inform policy, balancing oversight with operational agility.",
+      "potential_impact": "These executive orders aimed to benefit a broad range of groups, including veterans, military personnel, healthcare workers, and minority communities like Hispanic Americans. At the same time, concerns emerged regarding potential adverse effects on small businesses, undocumented immigrants, and marginalized populations due to regulatory and enforcement recommendations. Observers also noted challenges in balancing national security with civil liberties, as well as the risk that limited transparency and stakeholder engagement might undermine the legitimacy and effectiveness of these commissions’ policy outcomes.",
+      "generated_at": "2025-12-20T05:45:53.475Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -648,12 +648,12 @@
     {
       "theme_id": "critical-infrastructure-protection",
       "theme_name": "Critical Infrastructure Protection",
-      "order_count": 25,
+      "order_count": 26,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 12
+          "order_count": 13
         },
         {
           "president_id": "barack-obama",
@@ -666,9 +666,9 @@
           "order_count": 3
         }
       ],
-      "summary": "Executive orders addressing critical infrastructure protection have evolved to balance national security priorities with technological and environmental challenges. Early initiatives under Obama emphasized cybersecurity frameworks, chemical safety, and climate resilience, aiming to coordinate federal and private sectors. Trump’s orders expanded this focus, emphasizing supply chain security, electromagnetic resilience, and energy emergency declarations, often integrating military and defense considerations. Biden’s more recent actions have concentrated on supply chain resilience and innovation in cybersecurity, reflecting ongoing concerns about emerging threats and infrastructure modernization. Throughout these administrations, there has been a persistent effort to enhance information sharing and security clearance processes, though approaches to private sector involvement and regulatory rigor have varied.",
-      "potential_impact": "These executive orders targeted a broad spectrum of workers—from cybersecurity and technology professionals to energy sector and manufacturing employees—seeking to enhance protections against cyber and physical threats. However, the increased security requirements and information sharing protocols raised concerns about operational burdens for defense industry personnel and potential delays for state and local law enforcement. Small businesses and consumers faced worries over privacy, regulatory complexity, and compliance costs, while tribal and environmental justice communities grappled with transparency and safety implications. The interplay between heightened security and civil liberties underscored ongoing tensions in safeguarding critical infrastructure without unduly impacting diverse populations.",
-      "generated_at": "2025-12-15T08:44:27.658Z",
+      "summary": "Executive actions on critical infrastructure protection have evolved to address the growing complexity and threats faced by the nation’s essential systems. Earlier orders emphasized enhancing cybersecurity frameworks and chemical facility safety, integrating climate resilience and information sharing across public and private sectors. Subsequent administrations expanded focus to supply chain security, electromagnetic pulse preparedness, and energy emergencies, reflecting shifting geopolitical and technological challenges. While approaches varied, a consistent theme involved balancing national security priorities with the need for collaboration among federal, state, local, tribal, and private entities to safeguard infrastructure vital to economic stability and public safety.",
+      "potential_impact": "These executive orders sought to bolster defenses for cybersecurity professionals, technology and manufacturing workers, and energy sector employees, aiming to enhance resilience across critical industries. However, the increased security requirements and information sharing raised concerns about burdens placed on businesses, especially small enterprises, and potential privacy risks for consumers. Tribal and environmental justice communities faced challenges related to facility safety and transparency, while regulatory complexity and clearance protocols sometimes complicated timely access to sensitive information, illustrating the delicate trade-offs involved in protecting infrastructure without overburdening stakeholders.",
+      "generated_at": "2025-12-20T05:45:56.231Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -802,6 +802,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "artificial-intelligence",
+      "theme_name": "Artificial Intelligence",
+      "order_count": 23,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 17
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 6
+        }
+      ],
+      "summary": "Executive actions on artificial intelligence have evolved from a strong emphasis on maintaining American technological dominance and accelerating AI infrastructure under the Trump administration to a more nuanced focus on secure, trustworthy AI development and national security considerations in the Biden era. While earlier orders prioritized workforce training and innovation to bolster leadership in AI, later directives sought to address risks related to foreign investment, data privacy, and ethical AI deployment, reflecting growing awareness of AI’s complex societal implications and geopolitical challenges.",
+      "potential_impact": "These orders aimed to benefit technology workers, researchers, and entrepreneurs by fostering innovation and skill development, while also attempting to protect national security and promote trustworthy AI applications. However, concerns arise over potential exclusionary effects on smaller businesses, under-resourced educational institutions, and marginalized communities, alongside risks of reinforcing biases in AI systems and limiting international collaboration. The focus on safeguarding sensitive data and restricting foreign access may affect global partnerships, while the uneven distribution of resources could widen socioeconomic and digital divides.",
+      "generated_at": "2025-12-20T05:45:59.441Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "climate-change-policy",
       "theme_name": "Climate Change Policy",
       "order_count": 22,
@@ -825,27 +846,6 @@
       "summary": "Executive actions on climate change policy have varied notably across recent administrations, reflecting evolving priorities and approaches. The Obama presidency laid a foundation emphasizing federal sustainability, climate resilience, and coordinated environmental protection efforts, often integrating economic and ecological goals. The Trump administration issued fewer orders, focusing on selective initiatives like tree planting while also rolling back some prior commitments. In contrast, the Biden administration advanced comprehensive strategies to bolster clean energy industries, address environmental justice, and implement climate-related financial risk management, signaling a renewed commitment to systemic climate solutions and equitable outcomes.",
       "potential_impact": "These executive orders aimed to benefit a broad spectrum of communities, particularly environmental justice and tribal populations, renewable energy workers, and rural and coastal residents facing climate vulnerabilities. However, the shift toward sustainability and regulatory measures raised concerns about the economic and operational impacts on energy sector workers tied to fossil fuels, small business owners navigating compliance costs, and agricultural communities adjusting to stricter environmental standards. Observers highlighted the delicate balance required to support vulnerable populations while managing transitions that could disrupt longstanding livelihoods and regional economies.",
       "generated_at": "2025-12-15T08:44:46.583Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "artificial-intelligence",
-      "theme_name": "Artificial Intelligence",
-      "order_count": 22,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 16
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 6
-        }
-      ],
-      "summary": "Executive actions on artificial intelligence have evolved to balance innovation leadership with national security and ethical considerations. Early orders emphasized maintaining American dominance in AI research, workforce development, and infrastructure, prioritizing technological advancement and global competitiveness. Subsequent directives refined this focus by addressing risks related to foreign investment and data security while promoting trustworthy AI deployment within government. Efforts also sought to enhance education and startup ecosystems, reflecting a broader strategy to secure AI’s role in economic growth and national defense, though with varying emphasis across administrations.",
-      "potential_impact": "These orders primarily aimed to benefit technology professionals, researchers, and educational communities by fostering AI expertise and innovation capacity. Yet, they also raised concerns about widening disparities for workers outside tech sectors and smaller entities facing regulatory hurdles. Protective measures targeting foreign adversaries risked constraining international collaboration and affecting certain foreign populations. Additionally, the integration of AI in federal processes prompted worries about privacy, civil rights, and inclusivity, particularly for individuals with disabilities and marginalized communities, underscoring the complexity of balancing progress with equitable outcomes.",
-      "generated_at": "2025-12-15T08:44:50.299Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -898,6 +898,32 @@
       "summary": "Executive orders on government reorganization have reflected varied presidential priorities, with a notable increase during the Trump administration emphasizing streamlining and restructuring the executive branch. While Obama’s orders often focused on creating or enhancing specialized councils to address urban affairs, health reform, and Native American issues, Trump’s approach centered on consolidating agencies, optimizing workforce efficiency, and redefining succession protocols. Biden’s comparatively fewer orders have involved revoking prior actions and addressing pandemic-related public health preparedness, highlighting a shift towards rebuilding and modernizing government functions. Across administrations, these reorganizations aimed to boost interagency coordination and policy implementation, particularly around economic, health, and urban development goals, though the complexity of such efforts sometimes introduced new challenges.",
       "potential_impact": "These executive orders sought to benefit a diverse range of groups, including low-income families, local and state governments, and workers in renewable energy and technology sectors, by aiming to enhance government responsiveness and policy focus. However, concerns arose about potential negative effects on federal employees facing restructuring, as well as on small business owners and urban communities who might experience increased bureaucratic hurdles or unintended consequences like gentrification. Observers noted that shifting priorities could disrupt established programs, with risks of delayed service delivery and uneven support for vulnerable populations, underscoring the delicate balance between efficiency and inclusivity in government reorganization efforts.",
       "generated_at": "2025-12-15T08:44:55.029Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "transnational-crime-cartels",
+      "theme_name": "Transnational Crime / Cartels",
+      "order_count": 21,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 17
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 2
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "Executive actions addressing transnational crime and cartels have evolved notably over recent administrations, reflecting shifting priorities and strategies. Early efforts under Obama targeted blocking assets of criminal organizations and combating wildlife trafficking, emphasizing international cooperation. The Trump era saw a surge in orders emphasizing aggressive border security, economic sanctions, and the designation of cartels as terrorist entities, reflecting a hardline approach focused on interdiction and law enforcement empowerment. Biden’s orders signal a recalibration toward coordinated councils and sanctions targeting illicit drug trade actors, highlighting a blend of enforcement and interagency collaboration. Across these efforts, the focus remained on disrupting criminal networks while enhancing enforcement capacities, though approaches varied from emphasis on military roles to economic measures and multilateral coordination.",
+      "potential_impact": "These executive actions aimed primarily to strengthen federal, state, and local law enforcement capabilities while seeking to protect border communities and crime victims from cartel-related harms. However, the expansive reach of sanctions and enforcement raised concerns about unintended consequences for undocumented immigrants, Hispanic and Latino populations, and small businesses, who faced risks of collateral impacts such as economic hardship or legal overreach. Consumers and tribal communities also stood at the intersection of enforcement and livelihood challenges, with potential disruptions to legal trade and cultural resources. The broad scope of designations and sanctions introduced complexities for foreign nationals and governments, prompting worries about due process, diplomatic tensions, and equitable application of justice.",
+      "generated_at": "2025-12-20T05:46:03.895Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -955,32 +981,6 @@
       "summary": "Executive actions on federal hiring have reflected evolving priorities around talent acquisition, workforce diversity, and merit-based appointments. Earlier efforts under the Obama administration emphasized expanding opportunities for veterans, individuals with disabilities, and recent graduates through targeted recruitment and ethical commitments. The Trump administration introduced a broader array of orders focusing on restructuring hiring processes, enhancing agency leadership roles, and prioritizing American workers and military spouses. Biden’s contribution continued the trend of leveraging service alumni pathways. These shifts illustrate a balancing act between streamlining hiring, supporting specific groups, and preserving competitive merit principles.",
       "potential_impact": "The federal hiring orders sought to benefit a wide range of individuals, including federal employees, veterans, students, and technology workers, by opening pathways and strengthening workforce inclusivity. However, concerns arose about the potential narrowing of applicant pools through strict ethics rules and veterans’ preferences, which could slow hiring or limit diversity. Some measures risked marginalizing non-veteran candidates or underemployed veterans whose skills did not match prioritized roles. Additionally, initiatives aimed at disability inclusion and noncompetitive appointments raised questions about fairness, privacy, and consistent implementation, highlighting the challenges in balancing equity with effective government staffing.",
       "generated_at": "2025-12-15T08:45:03.677Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "transnational-crime-cartels",
-      "theme_name": "Transnational Crime / Cartels",
-      "order_count": 20,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 16
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 2
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 2
-        }
-      ],
-      "summary": "Executive actions addressing transnational crime and cartels have evolved notably across administrations, with a pronounced intensification during the Trump era focusing on border security, sanction regimes, and law enforcement empowerment. Obama’s orders targeted financial disruption of criminal organizations and wildlife trafficking, while Biden’s recent efforts emphasize multilateral coordination and council establishment to tackle global illicit drug trade. These policies reflect a complex balance between aggressive interdiction strategies and institutional enhancement, underscoring the persistent challenge of dismantling sophisticated criminal networks amid shifting geopolitical and domestic priorities.",
-      "potential_impact": "These executive orders primarily aimed to bolster federal and state law enforcement capabilities while protecting border and crime-affected communities, yet raised concerns about unintended consequences for vulnerable populations. Measures targeting cartels and associated networks risked impacting undocumented immigrants, small businesses, and consumers, especially within Hispanic and Latino communities. Observers highlighted potential challenges including overreach in sanctions affecting legitimate economic actors, heightened risks of profiling, and strains on tribal and urban communities from expanded policing, revealing tension between security objectives and civil rights protections.",
-      "generated_at": "2025-12-15T08:45:05.709Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1093,6 +1093,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "dei-diversity-equity-inclusion",
+      "theme_name": "DEI (Diversity, Equity, Inclusion)",
+      "order_count": 18,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 8
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 6
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 4
+        }
+      ],
+      "summary": "Executive orders addressing diversity, equity, and inclusion have evolved through distinct presidential approaches, reflecting shifting priorities within federal workforce and community engagement. Early efforts under Obama emphasized broad government-wide initiatives to enhance participation of underrepresented groups including Asian Americans and veterans. The Trump administration’s orders often focused on challenging prevailing DEI frameworks, emphasizing meritocratic principles and skepticism toward certain DEI practices. Biden's subsequent orders sought to restore and expand inclusive measures, targeting systemic inequities in federal employment and educational institutions while advancing accessibility and equity agendas. This trajectory underscores ongoing tensions between expanding representation and maintaining traditional hiring standards within the federal government.",
+      "potential_impact": "These executive orders aimed to benefit a wide range of populations such as veterans, federal employees, Hispanic and Black Americans, women, and individuals with disabilities by promoting greater inclusion and opportunity. However, concerns arise regarding potential unintended consequences, including perceptions of preferential treatment or reverse discrimination that could affect workforce morale and cohesion. Additionally, challenges in implementation—such as administrative burdens, risks of reinforcing stereotypes through data collection, and uneven access for marginalized subgroups—highlight the complexity of translating DEI goals into equitable outcomes across diverse communities.",
+      "generated_at": "2025-12-20T05:46:08.911Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "racial-equity",
       "theme_name": "Racial Equity",
       "order_count": 17,
@@ -1116,32 +1142,6 @@
       "summary": "Executive orders addressing racial equity have evolved from foundational efforts under Obama to more expansive initiatives during the Biden administration, which authored the majority of such orders. Biden’s approach emphasizes comprehensive federal engagement, targeting educational equity through culturally specific initiatives and reinforcing trust in government services. Earlier orders often focused on policing reforms and public health disparities, while recent actions integrate environmental justice, voting access, and economic empowerment, illustrating a broadening understanding of systemic inequities and the need for coordinated, multi-agency responses.",
       "potential_impact": "These executive orders aim to benefit historically marginalized communities, including African Americans, Hispanic/Latino populations, Native Americans, and low-income groups, by promoting equitable access to education, healthcare, and economic opportunities. However, efforts to reform policing and expand social supports have faced concerns about enforcement limitations, resource allocation, and potential resistance from affected institutions like law enforcement and small businesses. Implementation challenges, such as uneven agency coordination and infrastructure gaps in tribal areas, also risk limiting the reach and effectiveness of these policies.",
       "generated_at": "2025-12-15T08:45:30.268Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "dei-diversity-equity-inclusion",
-      "theme_name": "DEI (Diversity, Equity, Inclusion)",
-      "order_count": 17,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 7
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 6
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 4
-        }
-      ],
-      "summary": "Executive actions on diversity, equity, and inclusion have evolved through distinct approaches reflecting shifting priorities across administrations. Early efforts under Obama emphasized broadening participation in federal programs and workforce diversity, especially among Asian Americans and students. The Trump administration introduced orders that often sought to curb certain diversity training practices, reflecting skepticism toward some DEI frameworks while still addressing workforce composition. Biden’s orders renewed focus on advancing equity through comprehensive strategies targeting underserved communities and enhancing inclusion in federal employment and education, aiming to modernize and expand access while grappling with balancing merit and representation.",
-      "potential_impact": "These executive orders aimed to benefit a wide range of populations, including veterans, federal employees, Hispanic and Black Americans, women, students, and individuals with disabilities, seeking to create more equitable access to federal opportunities. However, concerns emerged about potential unintended consequences, such as perceptions of preferential treatment, challenges to merit-based hiring, and administrative burdens. Some initiatives risked overlooking subgroups within broader communities or faced cultural and structural barriers, raising questions about whether these policies would foster lasting inclusion or provoke divisions within affected populations.",
-      "generated_at": "2025-12-15T08:45:25.245Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1510,6 +1510,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "financial-system-regulation",
+      "theme_name": "Financial System Regulation",
+      "order_count": 14,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 9
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 2
+        }
+      ],
+      "summary": "Executive actions on financial system regulation have evolved to balance economic recovery, innovation, and national security concerns. Early efforts under Obama focused on advisory mechanisms and sanctions targeting foreign financial actors, while the Trump administration emphasized deregulation, modernization of payment systems, and expanding digital asset frameworks. Biden’s orders reflect growing attention to climate-related financial risks and responsible digital asset development. These shifting priorities illustrate a complex interplay between fostering market growth, protecting investors, and addressing geopolitical and environmental challenges within the financial sector.",
+      "potential_impact": "These executive orders aimed to benefit a broad spectrum including working-age adults, middle-class Americans, investors, and emerging digital asset holders by promoting financial inclusion and innovation. However, concerns arose over potential negative effects on corporations facing increased compliance costs, energy sector workers vulnerable to transitional disruptions, and financial services employees navigating regulatory changes. Additionally, the sanctions and regulatory shifts could impose hardships on foreign nationals and smaller businesses, highlighting tensions between security objectives and economic inclusivity.",
+      "generated_at": "2025-12-20T05:46:11.724Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "criminal-justice-reform",
       "theme_name": "Criminal Justice Reform",
       "order_count": 13,
@@ -1640,32 +1666,6 @@
       "model_used": "gpt-4.1-mini"
     },
     {
-      "theme_id": "financial-system-regulation",
-      "theme_name": "Financial System Regulation",
-      "order_count": 13,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 8
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 3
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 2
-        }
-      ],
-      "summary": "Executive orders on financial system regulation reveal evolving priorities across administrations, reflecting shifting economic and geopolitical landscapes. Early efforts under Obama combined economic recovery advisory mechanisms with targeted sanctions to curb foreign financial risks. The Trump administration emphasized deregulation, modernization of payment systems, and pioneering digital asset initiatives, signaling a push toward innovation and reduced federal oversight. Biden’s orders integrate climate risk considerations and responsible digital asset development, underscoring growing concerns about sustainability and emerging technologies shaping financial governance.",
-      "potential_impact": "These executive actions aimed to benefit a broad range of stakeholders, including working-age adults, middle-class Americans, entrepreneurs, and digital asset users, by promoting economic recovery, innovation, and financial inclusion. However, they also raised concerns about unintended consequences for small businesses, energy-sector workers, and certain financial service professionals, who might face increased compliance burdens or job instability. Additionally, sanctions and regulatory shifts risked complicating international financial relations, potentially affecting foreign nationals and corporations linked to sanctioned entities.",
-      "generated_at": "2025-12-15T08:46:22.831Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
       "theme_id": "medicare",
       "theme_name": "Medicare",
       "order_count": 12,
@@ -1741,12 +1741,12 @@
     {
       "theme_id": "retirement-security",
       "theme_name": "Retirement Security",
-      "order_count": 11,
+      "order_count": 12,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 5
+          "order_count": 6
         },
         {
           "president_id": "barack-obama",
@@ -1759,9 +1759,9 @@
           "order_count": 2
         }
       ],
-      "summary": "Executive orders addressing retirement security have consistently focused on adjusting pay rates and enhancing financial capability, reflecting evolving priorities across administrations. Obama’s orders emphasized improving financial literacy among young Americans and adjusting federal pay to promote equity, while Trump’s actions combined pay adjustments with targeted efforts to strengthen retirement security broadly, including 401(k) access. Biden’s executive orders introduced considerations of climate-related financial risks alongside pay adjustments, signaling a growing awareness of external factors influencing retirement stability. Together, these policies reveal a complex balancing act between ensuring fair compensation for federal and military personnel and advancing broader financial education initiatives.",
-      "potential_impact": "These executive orders aimed to benefit a wide range of public servants, including federal employees, veterans, military personnel, and foreign service officers, by seeking to secure their retirement and financial well-being. However, concerns arose about uneven pay increases potentially causing disparities across regions and roles, which could impact morale and retention. Financial literacy efforts, while designed to aid youth and low-income families, faced challenges in equitable delivery and measurable outcomes. Additionally, some orders carried risks of unintended consequences for small businesses, postal workers, and certain vulnerable communities, highlighting the delicate trade-offs involved in designing retirement security policies.",
-      "generated_at": "2025-12-15T07:49:59.434Z",
+      "summary": "Efforts to enhance retirement security through executive orders reflect varying presidential priorities, with a shared focus on improving pay and benefits for federal employees, veterans, military personnel, and foreign service officers. Obama’s initiatives emphasized financial capability and pay adjustments, while Trump’s orders combined pay reforms with investor protections and postal system concerns. Biden added attention to climate-related financial risks alongside pay adjustments. These actions collectively aimed to strengthen retirement outcomes amid evolving workforce and economic challenges, underscoring the complexity of balancing equitable compensation with fiscal sustainability.",
+      "potential_impact": "The executive orders targeted improved retirement conditions primarily for federal workers, military members, veterans, and diplomatic personnel, aiming to secure stable incomes and financial literacy. However, concerns emerged regarding uneven pay increases across regions, potential morale issues, and recruitment challenges, especially among uniformed services and foreign service officers. Financial education efforts risked uneven reach among underserved youth, while pay adjustments raised questions about fairness and cost management. Meanwhile, certain business sectors and specific worker groups faced possible negative impacts, highlighting the delicate interplay between workforce benefits and broader economic effects.",
+      "generated_at": "2025-12-20T05:46:14.748Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1984,6 +1984,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "foreign-investment-cfius",
+      "theme_name": "Foreign Investment (CFIUS)",
+      "order_count": 11,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 5
+        },
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 5
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive actions on foreign investment have evolved to balance economic growth with national security concerns, notably through the Committee on Foreign Investment in the United States (CFIUS). While early initiatives under President Obama promoted investment facilitation, subsequent administrations under Trump and Biden intensified scrutiny of foreign capital, particularly from countries of concern. Biden’s orders emphasize protecting sensitive data and national security technology, reflecting heightened attention to cybersecurity threats. Trump-era policies combined investment acceleration with selective protections, highlighting a tension between encouraging foreign investment and safeguarding critical sectors.",
+      "potential_impact": "These orders aimed to benefit sectors such as small businesses, investors, and workers in technology, defense, and large corporations by fostering secure investment environments. However, enhanced oversight and restrictions on foreign entities, especially from designated adversary nations, raised concerns about limiting market access and innovation. The increased regulatory burden could affect technology workers and corporations, while sanctions and trade restrictions risked economic harm to foreign communities and U.S. investors tied to those regions. The complex balance between security and economic openness underpins the varied impacts across industries and populations.",
+      "generated_at": "2025-12-20T05:46:17.510Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "energy-infrastructure",
       "theme_name": "Energy Infrastructure",
       "order_count": 10,
@@ -2059,32 +2085,6 @@
       "summary": "Executive orders addressing renewable energy have reflected evolving presidential priorities, emphasizing federal sustainability, clean energy innovation, and global leadership. The Obama administration laid foundational policies promoting environmental and energy performance, while the Biden administration intensified efforts with ambitious targets for clean vehicles, infrastructure, and industrial growth. Trump’s limited engagement focused on operational efficiency rather than aggressive renewable expansion. Together, these actions demonstrate a trajectory toward integrating renewable energy goals within federal operations and economic development strategies.",
       "potential_impact": "These orders aimed to create opportunities for renewable energy workers and union members, while supporting environmental justice and rural communities. However, they also raised concerns about workforce displacement in traditional energy sectors and increased compliance burdens for small businesses and federal contractors. The transitions involved risks of economic disruption for energy sector workers and challenges for communities, including tribal and Puerto Rican populations, as infrastructure and resource demands intensified under new sustainability mandates.",
       "generated_at": "2025-12-15T08:47:14.003Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "foreign-investment-cfius",
-      "theme_name": "Foreign Investment (CFIUS)",
-      "order_count": 10,
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 5
-        },
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 4
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive action on foreign investment through CFIUS has evolved to balance economic growth with national security concerns. Early efforts, such as Obama’s establishment of SelectUSA, aimed to attract investment broadly, while subsequent Trump and Biden administrations intensified scrutiny on foreign capital, especially regarding sensitive technologies and data protection. Biden’s multiple orders reflect a heightened focus on safeguarding critical sectors from adversarial influence, demonstrating an increasing intertwining of economic policy with geopolitical and cybersecurity priorities.",
-      "potential_impact": "These orders sought to benefit investors, businesses of varying sizes, and workers in defense and technology sectors by fostering secure investment environments and protecting sensitive data. However, increased regulatory oversight raised concerns about potential barriers for foreign and domestic investors, operational constraints for technology companies, and unintended consequences for lawful residents and naturalized citizens. Heightened scrutiny of specific countries and industries also posed risks of geopolitical tension and uneven impacts across diverse economic stakeholders.",
-      "generated_at": "2025-12-15T08:47:21.400Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -2195,6 +2195,27 @@
       "summary": "Executive orders on oil and gas development have reflected shifting priorities across recent administrations, balancing economic growth and energy independence with environmental and community concerns. Earlier efforts under Obama focused on coordinating energy development in Alaska and imposing sanctions targeting Iran’s energy sector, emphasizing regulatory oversight. The Trump administration pursued aggressive deregulation and expansion of fossil fuel production, aiming to boost domestic energy dominance and infrastructure, while the Biden administration’s more targeted sanctions linked energy policy to foreign policy challenges. These approaches illustrate evolving strategies to manage resource development amid competing economic and environmental interests.",
       "potential_impact": "These executive orders sought to benefit energy sector workers, particularly in oil, gas, and coal industries, along with certain indigenous and local communities tied to resource development, while also supporting small businesses and large corporations involved in the sector. However, they raised concerns about the potential environmental and health risks to Alaska Natives, tribal communities, and rural populations due to accelerated permitting and deregulation. Environmental justice advocates highlighted the disproportionate burdens on vulnerable communities, and renewable energy workers faced uncertainties amid shifting policy focus away from clean energy initiatives.",
       "generated_at": "2025-12-15T08:47:25.949Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "drug-enforcement",
+      "theme_name": "Drug Enforcement",
+      "order_count": 10,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 8
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "Executive actions on drug enforcement have predominantly centered on enhancing law enforcement capabilities and border security, with a strong focus during the Trump administration on aggressive measures such as designating fentanyl as a weapon of mass destruction and amending duties to curb illicit drug flows across borders. The Biden administration has emphasized targeted sanctions on foreign entities involved in the global drug trade and authorized military reservists to address trafficking, reflecting a blend of enforcement and international cooperation strategies. These orders illustrate a continued prioritization of interdiction and criminal justice interventions to combat drug-related threats at both domestic and international levels.",
+      "potential_impact": "These executive orders aimed to strengthen protections for law enforcement officers and border communities while seeking to disrupt drug trafficking networks globally. However, concerns arise about the heightened enforcement potentially exacerbating challenges for undocumented immigrants and Hispanic/Latino populations due to increased policing and immigration measures. The militarization of drug enforcement and broad sanctions risk unintended consequences for small businesses, tribal and rural communities, and foreign nationals, raising questions about civil liberties, economic disruption, and equitable treatment within affected populations.",
+      "generated_at": "2025-12-20T05:46:20.749Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -2424,27 +2445,6 @@
       "summary": "Executive actions addressing K-12 education policy reveal contrasting priorities across administrations, reflecting broader debates over educational equity and school governance. Obama’s initiatives targeted educational excellence for Hispanic and African American communities, aiming to close achievement gaps through focused support. Trump’s orders emphasized expanding school choice, promoting discipline reforms, and rolling back what was termed ‘radical indoctrination,’ signaling a push toward parental control and conservative education values. Biden’s approach intertwined educational equity with broader civil rights protections and school safety, highlighting inclusivity and anti-discrimination efforts. These varying strategies underscore ongoing tensions between targeted support for underserved populations and debates over curriculum content and school autonomy.",
       "potential_impact": "The executive orders aimed to benefit K-12 students broadly, with particular attention to low-income families, educators, and historically marginalized communities such as Hispanic and African American students, as well as tribal and private school populations. However, concerns arose regarding uneven resource distribution, bureaucratic hurdles, and resistance from educational stakeholders, which could limit effectiveness. Additionally, some actions raised apprehensions about exacerbating disparities or marginalizing certain groups, including public school communities and LGBTQ+ individuals, illustrating the complex balance between fostering opportunity and addressing equity in diverse educational landscapes.",
       "generated_at": "2025-12-15T08:47:39.173Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "drug-enforcement",
-      "theme_name": "Drug Enforcement",
-      "order_count": 9,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 7
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 2
-        }
-      ],
-      "summary": "Executive actions on drug enforcement have primarily focused on strengthening law enforcement capacities and border security, with the Trump administration emphasizing aggressive crime reduction and interdiction efforts at both northern and southern borders. This approach included expanding duties and sanctions to disrupt illicit drug flows, often through enhanced immigration enforcement and economic measures. The Biden administration continued targeting international drug trafficking, notably deploying military reservists and imposing sanctions on foreign entities, reflecting a shift towards integrating national defense resources and international cooperation in combating the drug trade.",
-      "potential_impact": "These executive orders aimed to benefit law enforcement personnel and border communities by curbing drug trafficking and associated crime, potentially enhancing public safety. However, concerns have been raised about disproportionate impacts on Hispanic/Latino populations and undocumented immigrants due to increased policing and enforcement actions. The militarization of drug enforcement and broad sanctions risk affecting small businesses, foreign nationals, and various communities, while also posing challenges to civil liberties, economic stability, and reservists’ personal lives, highlighting the complex trade-offs inherent in these policies.",
-      "generated_at": "2025-12-15T08:47:49.978Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -2751,6 +2751,53 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "weapons-of-mass-destruction-wmd-proliferation",
+      "theme_name": "Weapons of Mass Destruction (WMD) Proliferation",
+      "order_count": 7,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 4
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 2
+        },
+        {
+          "president_id": "george-w-bush",
+          "president_name": "George W. Bush",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive actions addressing weapons of mass destruction (WMD) proliferation have evolved across administrations to balance national security with scientific and international collaboration concerns. Early orders emphasized strengthening biosecurity and classification protocols, while more recent actions expanded sanctions and designated new threats like fentanyl as WMDs. These policies have increasingly incorporated economic sanctions targeting foreign sectors and tightened oversight on sensitive research, reflecting a multifaceted approach that blends defense readiness, nonproliferation diplomacy, and counterproliferation enforcement.",
+      "potential_impact": "These orders aimed to enhance protections for military personnel, security clearance holders, and researchers working with sensitive materials, seeking to prevent misuse and proliferation risks. However, heightened security measures and sanctions also introduced burdens and restrictions for scientific communities, businesses, foreign nationals, and whistleblowers, raising concerns about slowed research, economic disruption, and constrained transparency. The complex interplay of safeguarding classified information and enforcing sanctions shaped both domestic operations and international relations, affecting diverse stakeholders from laboratories to global partners.",
+      "generated_at": "2025-12-20T05:46:24.202Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "foreign-terrorist-organizations",
+      "theme_name": "Foreign Terrorist Organizations",
+      "order_count": 7,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 6
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive actions addressing foreign terrorist organizations have evolved notably, with the Obama administration initiating strategic communications to counter extremist narratives, while the Trump administration extensively broadened designations to include cartels, militant groups like Ansar Allah, and organizations such as the Muslim Brotherhood. These orders emphasized heightened enforcement, sanctions, and funding withdrawals from international entities, reflecting a shift toward more aggressive counterterrorism and geopolitical strategies that intertwine national security with foreign policy objectives.",
+      "potential_impact": "These executive orders primarily sought to enhance protections for military personnel, law enforcement, and U.S. citizens by disrupting terrorist-linked networks and enhancing security measures. However, they also raised concerns about unintended consequences for foreign nationals, including Muslims and Hispanic communities, as well as asylum seekers and humanitarian organizations. Critics highlighted risks of stigmatization, civil liberties infringements, and humanitarian setbacks, particularly in conflict-affected regions like Yemen and for vulnerable populations reliant on international aid.",
+      "generated_at": "2025-12-20T05:46:30.108Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "workplace-safety-osha",
       "theme_name": "Workplace Safety (OSHA)",
       "order_count": 6,
@@ -2795,32 +2842,6 @@
       "summary": "Executive orders under the Global Engagement theme reveal varied presidential priorities in advancing U.S. international influence and cooperation. Obama’s orders focused on strategic counterterrorism communications, combating antibiotic resistance through global health partnerships, and supporting renewable energy diplomacy by recognizing the International Renewable Energy Agency. Trump’s actions included establishing special peace mission offices and ensuring access to COVID-19 vaccines, reflecting a mix of national security and health priorities. Biden’s contribution emphasized climate change support, signaling a continued commitment to global environmental collaboration. Together, these orders illustrate a blend of security, health, and environmental diplomacy shaping U.S. global engagement strategies.",
       "potential_impact": "These executive actions aimed to benefit diverse groups including veterans, military personnel, healthcare and renewable energy workers, and citizens of targeted foreign nations by enhancing security, health outcomes, and international cooperation. However, concerns arose about potential stigmatization of Muslim populations through counterterrorism messaging and the risks of perceived propaganda undermining diplomatic credibility. Health-related orders raised worries over access to antibiotics and vaccine equity, while renewable energy commitments prompted debate over sovereignty and economic impacts on domestic energy sectors. The complex balancing of international obligations with domestic interests underscores the nuanced challenges of global engagement.",
       "generated_at": "2025-12-15T07:52:46.982Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "weapons-of-mass-destruction-wmd-proliferation",
-      "theme_name": "Weapons of Mass Destruction (WMD) Proliferation",
-      "order_count": 6,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 3
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 2
-        },
-        {
-          "president_id": "george-w-bush",
-          "president_name": "George W. Bush",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive actions addressing the proliferation of weapons of mass destruction have evolved to balance national security with scientific advancement. Early efforts emphasized strengthening laboratory biosecurity and safeguarding classified information, while later orders incorporated sanctions and emergency terminations targeting foreign entities like Iran and Russia. Across administrations, these policies sought to tighten controls on sensitive materials and information, reflecting shifting geopolitical priorities and the need to prevent WMD threats through both domestic security measures and international pressure.",
-      "potential_impact": "These orders aimed to protect military personnel, intelligence operatives, and scientific researchers involved in sensitive work, yet also imposed significant burdens on these groups through heightened security protocols and compliance demands. While intended to reduce proliferation risks, the measures raised concerns over restricted research collaboration, limited transparency for media, and challenges for whistleblowers. Sanctions and travel restrictions affected foreign nationals and businesses, illustrating the complex interplay between security objectives and economic or academic engagement.",
-      "generated_at": "2025-12-15T08:48:16.378Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -2983,27 +3004,6 @@
       "summary": "Executive actions on pandemic preparedness have reflected evolving priorities across administrations, balancing national security, public health, and global engagement. Obama’s order updated quarantine protocols, laying groundwork for federal response, while Trump’s multiple orders emphasized domestic vaccine modernization and restructured pandemic oversight, coupled with a controversial withdrawal from the World Health Organization. Biden’s order sought to enhance COVID-19 response coordination, highlighting a return to centralized public health leadership. These shifts illustrate tensions between federal authority, international cooperation, and the urgency of rapid vaccine development amid complex health emergencies.",
       "potential_impact": "These orders aimed to safeguard healthcare workers, patients, military personnel, and diverse communities including tribal and public school populations. However, concerns emerged over expanded quarantine powers potentially restricting liberties of patients, incarcerated individuals, and undocumented immigrants, raising civil rights issues. The focus on accelerated vaccine production and centralized coordination risked straining manufacturing workers and healthcare providers while possibly undermining equitable access and localized responsiveness. Withdrawal from the WHO threatened global health collaboration, potentially compromising resources critical to vulnerable populations worldwide.",
       "generated_at": "2025-12-15T08:48:24.284Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "foreign-terrorist-organizations",
-      "theme_name": "Foreign Terrorist Organizations",
-      "order_count": 6,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 5
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive orders addressing foreign terrorist organizations have evolved from strategic communication initiatives under the Obama administration to expansive designations and sanctions during the Trump years. While Obama’s approach emphasized integrated counterterrorism messaging abroad, Trump’s orders aggressively targeted cartels, groups like Ansar Allah, and Muslim Brotherhood chapters, expanding the scope of entities labeled as foreign terrorist organizations. This shift reflects a move toward leveraging executive authority to impose broad security measures, including economic sanctions and funding withdrawals, aiming to disrupt perceived threats but also reshaping U.S. diplomatic and humanitarian engagements.",
-      "potential_impact": "These orders aimed to enhance protections for military personnel, federal law enforcement, and U.S. citizens by intensifying counterterrorism efforts and disrupting hostile organizations. However, they raised concerns about collateral effects on foreign nationals, particularly Muslim populations and communities in targeted countries, who might face stigmatization or reduced aid. The designations risked complicating asylum processes, affecting naturalized citizens, and straining border communities. Additionally, cuts to international aid and NGO operations underscored tensions between security objectives and humanitarian commitments, highlighting the complex consequences for diverse populations connected to these policies.",
-      "generated_at": "2025-12-15T08:48:22.393Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -3338,6 +3338,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "corporate-fraud-white-collar-crime",
+      "theme_name": "Corporate Fraud / White Collar Crime",
+      "order_count": 5,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 3
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 2
+        }
+      ],
+      "summary": "Executive actions addressing corporate fraud and white-collar crime have sought to strengthen enforcement and oversight to protect financial markets and public funds. The Obama administration laid groundwork by establishing task forces aimed at reducing improper payments and enhancing fraud detection, focusing on systemic vulnerabilities. The Trump administration expanded these efforts with targeted initiatives to combat market integrity breaches, consumer fraud, and anti-competitive behavior, especially within critical supply chains. Together, these orders reflect a growing federal commitment to deter financial misconduct through interagency coordination and heightened scrutiny of corporate practices, while balancing the need to safeguard public resources and maintain market confidence.",
+      "potential_impact": "These executive orders aimed to benefit a broad spectrum of stakeholders, including small business owners, Medicare and Medicaid beneficiaries, low-income families, and consumers vulnerable to financial exploitation. However, enhanced enforcement introduced risks for corporate executives, employees, and large businesses facing increased legal exposure and compliance burdens. Observers cautioned that aggressive prosecution and transparency efforts might inadvertently stigmatize entities before due process, complicate access to essential benefits, and impose administrative strains on state and local governments. Additionally, heightened scrutiny of digital assets and federal contracting raised concerns about potential impacts on innovation, market participation, and competition.",
+      "generated_at": "2025-12-20T05:46:33.179Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "caregiving-paid-leave",
       "theme_name": "Caregiving / Paid Leave",
       "order_count": 4,
@@ -3516,27 +3537,6 @@
       "model_used": "gpt-4.1-mini"
     },
     {
-      "theme_id": "corporate-fraud-white-collar-crime",
-      "theme_name": "Corporate Fraud / White Collar Crime",
-      "order_count": 4,
-      "presidents": [
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 2
-        },
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 2
-        }
-      ],
-      "summary": "Executive orders addressing corporate fraud and white-collar crime have focused on strengthening enforcement mechanisms and enhancing fraud prevention across financial and governmental sectors. The Obama administration prioritized establishing task forces to combat financial fraud and reduce improper payments, emphasizing protection for vulnerable beneficiaries. The Trump administration continued this trend by creating bodies to uphold market integrity and safeguard bank accounts from fraud. Together, these efforts represent a sustained commitment to curbing financial misconduct through coordinated federal action, though approaches varied between targeted task force creation and broad protective mandates.",
-      "potential_impact": "These executive orders aimed to shield beneficiaries of Medicare, Medicaid, and low-income programs, along with small businesses, investors, and nonprofits, from the harms of financial fraud. However, increased enforcement raised concerns about potential negative consequences for corporate executives and businesses, including reputational risks, job losses, and compliance burdens. Balancing rigorous fraud prevention with avoiding undue restrictions on legitimate economic activity posed challenges, while heightened interagency coordination risked administrative complexity and uneven enforcement affecting both public entities and private sector participants.",
-      "generated_at": "2025-12-15T08:49:14.598Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
       "theme_id": "bioethics",
       "theme_name": "Bioethics",
       "order_count": 4,
@@ -3692,6 +3692,27 @@
       "summary": "Executive orders addressing U.S.-Canada relations under the Trump administration primarily employed tariffs as a tool to tackle illicit drug flows across the northern border. These orders sought to exert economic pressure on Canada to enhance cooperation against drug trafficking and illegal migration, while adjusting tariffs on specific goods like automotive parts and potash. However, this approach intertwined border security concerns with trade policy, creating a complex dynamic between economic sanctions and law enforcement goals that influenced cross-border commerce and cooperation.",
       "potential_impact": "These executive actions aimed to benefit law enforcement officers and border communities by strengthening measures against illicit drug trafficking, yet they also risked imposing economic burdens on small business owners, consumers, and workers in both manufacturing and automotive sectors. Observers expressed concern that heightened tariffs and enforcement could disrupt integrated supply chains, strain U.S.-Canada relations, and inadvertently prolong opioid-related harms by prioritizing economic pressure over direct public health interventions, leaving border communities vulnerable to ongoing security and economic challenges.",
       "generated_at": "2025-12-15T08:49:32.705Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "consumer-fraud-market-integrity",
+      "theme_name": "Consumer Fraud / Market Integrity",
+      "order_count": 4,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 3
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "summary": "Efforts to enhance consumer fraud protections and market integrity have evolved through executive actions focusing on financial transaction security, market fairness, and investor safeguards. Obama’s administration emphasized strengthening consumer financial transaction security, while Trump’s orders broadened the scope to include combating unfair practices in entertainment markets and regulating proxy advisors. These initiatives sought to protect consumers and investors through improved authentication and enforcement, yet varied approaches reflect differing priorities on balancing security, market transparency, and regulatory reach.",
+      "potential_impact": "These executive orders aimed to shield consumers—particularly seniors, veterans, and low-income individuals—from fraud and unfair market practices, while increasing oversight on corporations and financial intermediaries. However, heightened security measures and regulatory burdens raised concerns about accessibility challenges for vulnerable populations, potential disruptions in benefit payments, and increased costs for businesses. The regulatory complexity risked uneven enforcement and unintended consequences such as restricted access to digital assets and reduced market innovation, affecting both consumers and industry participants.",
+      "generated_at": "2025-12-20T05:46:35.330Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4057,27 +4078,6 @@
       "model_used": "gpt-4.1-mini"
     },
     {
-      "theme_id": "consumer-fraud-market-integrity",
-      "theme_name": "Consumer Fraud / Market Integrity",
-      "order_count": 3,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 2
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive actions addressing consumer fraud and market integrity have sought to strengthen protections through enhanced security measures and targeted enforcement. Efforts under both administrations focused on safeguarding financial transactions, combating unfair practices in markets such as live entertainment, and improving identity verification processes. While these initiatives aimed to curb fraud and increase transparency, they introduced complexities in implementation and regulatory coordination that reflect differing approaches to balancing consumer safeguards with industry compliance burdens.",
-      "potential_impact": "These orders aimed to benefit consumers broadly, including vulnerable groups like seniors, veterans, and low-income families reliant on government benefits, by enhancing fraud protections and securing financial transactions. However, the increased security requirements and enforcement measures raised concerns about accessibility barriers, potential delays in benefit disbursements, and privacy risks. Businesses, particularly corporations and ticketing agencies, faced heightened compliance costs and operational challenges, while cryptocurrency holders encountered increased regulatory scrutiny that could impact market innovation and participation.",
-      "generated_at": "2025-12-15T08:49:44.347Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
       "theme_id": "21st-century-workforce-skills",
       "theme_name": "21st Century Workforce / Skills",
       "order_count": 3,
@@ -4327,6 +4327,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "broadband-telecommunications",
+      "theme_name": "Broadband / Telecommunications",
+      "order_count": 3,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 2
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive orders addressing broadband and telecommunications have focused on advancing infrastructure development and integrating emerging technologies, with administrations emphasizing different priorities. The Trump administration concentrated on establishing advisory councils and promoting a national framework for artificial intelligence, aiming to streamline infrastructure processes and foster innovation. The Biden administration’s approach centered on implementing broad infrastructure investment legislation, highlighting equitable access and support for renewable energy. Together, these orders reflect ongoing efforts to balance technological progress, labor standards, and infrastructure expansion amid evolving economic and regulatory landscapes.",
+      "potential_impact": "These executive actions aimed to benefit a diverse range of groups including construction and technology workers, union members, small business owners, and both rural and urban communities, as well as tribal and local governments. However, concerns emerged that streamlined approval processes and public-private partnerships might favor large corporations over local control, potentially disadvantaging non-union workers, small businesses, and state governments. The focus on high labor standards and unionization could limit opportunities for some workers and enterprises, while complexities in coordination risk delaying critical broadband and infrastructure improvements for traditionally underserved populations.",
+      "generated_at": "2025-12-20T05:46:38.706Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "victim-rights",
       "theme_name": "Victim Rights",
       "order_count": 2,
@@ -4472,27 +4493,6 @@
       "summary": "Under the Trump administration, executive actions on apprenticeships and job training sought to expand industry-recognized programs and establish a national council to align workforce development with employer needs. These efforts emphasized demand-driven training, particularly in manufacturing and unionized sectors, aiming to modernize skill acquisition and reduce regulatory barriers. However, this approach raised questions about the balance between federal oversight and private sector control, as well as the inclusivity of training opportunities across diverse industries and educational institutions.",
       "potential_impact": "The initiatives targeted youth, union members, veterans, and educational institutions, aiming to enhance access to practical skills and employment pathways. Yet, concerns emerged about potential disparities, such as limited opportunities for non-union workers, smaller businesses, and marginalized groups like formerly incarcerated individuals. Observers worried that easing regulations and prioritizing industry-driven models might compromise training quality, reduce protections, and narrow the scope of skills valued, thereby affecting the equitable development of a diverse workforce.",
       "generated_at": "2025-12-15T07:57:41.405Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "broadband-telecommunications",
-      "theme_name": "Broadband / Telecommunications",
-      "order_count": 2,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 1
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive actions on broadband and telecommunications reflect differing approaches to infrastructure development and labor standards across administrations. The Trump-era order focused on establishing advisory structures to guide infrastructure priorities, emphasizing streamlined processes. The Biden administration’s order aimed to implement the Infrastructure Investment and Jobs Act, promoting expanded broadband access with attention to high labor standards and renewable energy integration. Together, these efforts underscore a balance between accelerating infrastructure deployment and addressing workforce and environmental considerations in both urban and rural settings.",
-      "potential_impact": "These orders sought to benefit a diverse range of stakeholders including construction and union workers, rural and tribal communities, and technology and renewable energy sectors. However, concerns arose about the potential sidelining of non-union workers and small businesses facing heightened compliance costs, as well as challenges for local and tribal governments to maintain control over infrastructure decisions. Additionally, disparities between urban and rural areas, environmental impacts, and job security fluctuations highlighted the complex implications for communities reliant on broadband and infrastructure improvements.",
-      "generated_at": "2025-12-15T07:57:44.466Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4898,5 +4898,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2025-12-15T08:50:47.035Z"
+  "generated_at": "2025-12-20T05:46:38.707Z"
 }
