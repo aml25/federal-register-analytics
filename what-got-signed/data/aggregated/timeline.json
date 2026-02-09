@@ -1,6 +1,49 @@
 {
   "periods": [
     {
+      "year": 2026,
+      "quarter": 1,
+      "quarter_name": "Q1 2026",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 10,
+      "top_themes": [
+        {
+          "id": "national-emergencies",
+          "name": "National Emergencies"
+        },
+        {
+          "id": "sanctions-country-specific",
+          "name": "Sanctions (Country-Specific)"
+        },
+        {
+          "id": "transportation-infrastructure",
+          "name": "Transportation Infrastructure"
+        },
+        {
+          "id": "fema-emergency-management",
+          "name": "FEMA / Emergency Management"
+        },
+        {
+          "id": "infrastructure-permitting",
+          "name": "Infrastructure Permitting"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 10 executive orders focused on the themes of national emergencies, sanctions (country-specific), transportation infrastructure, and 2 others.",
+      "order_ids": [
+        "14372",
+        "14373",
+        "14374",
+        "14375",
+        "14376",
+        "14377",
+        "14378",
+        "14379",
+        "14380",
+        "14381"
+      ]
+    },
+    {
       "year": 2025,
       "quarter": 4,
       "quarter_name": "Q4 2025",
@@ -2538,5 +2581,5 @@
       ]
     }
   ],
-  "generated_at": "2025-12-20T05:45:35.021Z"
+  "generated_at": "2026-02-09T03:30:18.456Z"
 }

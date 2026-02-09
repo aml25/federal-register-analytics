@@ -1,0 +1,42 @@
+{
+  "document_number": "2026-00554",
+  "executive_order_number": "14372",
+  "title": "Prioritizing the Warfighter in Defense Contracting",
+  "abstract": null,
+  "signing_date": "2026-01-07",
+  "publication_date": "2026-01-13",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/01/13/2026-00554/prioritizing-the-warfighter-in-defense-contracting",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-01-13/pdf/2026-00554.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/01/13/2026-00554.txt",
+  "enrichment": {
+    "summary": "This executive order requires defense contractors to prioritize producing high-quality military equipment on time and within budget, rather than focusing on profits like stock buybacks or dividends. It empowers the Secretary of War to monitor contractor performance, enforce stricter contract terms, and take actions to ensure contractors invest appropriately in production capacity and timely delivery for the benefit of U.S. warfighters.",
+    "theme_ids": [
+      "defense-industrial-base",
+      "defense-production-act",
+      "military-readiness-force-structure"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "veterans"
+      ],
+      "negative_ids": [
+        "corporate-executives-officers",
+        "large-corporation-employees",
+        "defense-industry-workers"
+      ]
+    },
+    "potential_concerns": [
+      "Restricting corporate executives' ability to issue dividends or conduct stock buy-backs may lead to resistance or reduced financial incentives, potentially impacting contractor innovation and willingness to invest in production capacity, which could affect defense-industry-workers' job stability and career growth.",
+      "Tying executive compensation solely to production metrics rather than financial performance may cause unintended neglect of long-term strategic planning, risking contractor sustainability and thereby indirectly affecting military personnel's access to advanced equipment.",
+      "Enforcement actions under the Defense Production Act could strain relationships with major defense contractors, causing short-term disruptions in production that might delay delivery of critical equipment to active-duty military personnel and veterans.",
+      "Limiting dividends and buy-backs may adversely affect shareholders, including corporate executives and large-corporation employees who hold stock or receive related benefits, potentially reducing morale and investment in the defense sector workforce."
+    ],
+    "enriched_at": "2026-02-09T03:30:18.322Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "document_number": "2026-00831",
+  "executive_order_number": "14373",
+  "title": "Safeguarding Venezuelan Oil Revenue for the Good of the American and Venezuelan People",
+  "abstract": null,
+  "signing_date": "2026-01-09",
+  "publication_date": "2026-01-15",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/01/15/2026-00831/safeguarding-venezuelan-oil-revenue-for-the-good-of-the-american-and-venezuelan-people",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-01-15/pdf/2026-00831.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/01/15/2026-00831.txt",
+  "enrichment": {
+    "summary": "This executive order protects funds held by the U.S. government on behalf of Venezuela, derived from Venezuelan oil sales, from being seized or used by private parties or legal claims. It declares a national emergency to ensure these funds support U.S. foreign policy goals such as promoting stability in Venezuela, combating illegal immigration and narcotics, and countering malign actors.",
+    "theme_ids": [
+      "national-emergencies",
+      "venezuela",
+      "sanctions-country-specific",
+      "foreign-terrorist-organizations",
+      "border-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "foreign-governments",
+        "border-communities",
+        "undocumented-immigrants"
+      ],
+      "negative_ids": [
+        "investors"
+      ]
+    },
+    "potential_concerns": [
+      "The executive order's protection of Venezuelan government funds could prolong political and economic instability in Venezuela, affecting foreign governments and Venezuelan citizens indirectly, despite aiming to promote stability.",
+      "By safeguarding these funds to combat illegal immigration and narcotics flow, border communities and undocumented immigrants may face increased enforcement and insecurity, raising humanitarian concerns.",
+      "Blocking private claims to Venezuelan oil revenue may negatively impact investors or creditors seeking lawful restitution, potentially discouraging future international investment or legal recourse.",
+      "The use of national emergency powers to restrict judicial claims on funds could set a precedent that undermines the U.S. legal system's impartiality and the enforceability of legitimate private claims."
+    ],
+    "enriched_at": "2026-02-09T03:30:12.525Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

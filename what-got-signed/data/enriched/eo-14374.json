@@ -1,0 +1,39 @@
+{
+  "document_number": "2026-01061",
+  "executive_order_number": "14374",
+  "title": "Establishing a Second Emergency Board To Investigate Disputes Between the Long Island Rail Road Company and Certain of Its Employees Represented by Certain Labor Organizations",
+  "abstract": null,
+  "signing_date": "2026-01-14",
+  "publication_date": "2026-01-20",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/01/20/2026-01061/establishing-a-second-emergency-board-to-investigate-disputes-between-the-long-island-rail-road",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-01-20/pdf/2026-01061.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/01/20/2026-01061.txt",
+  "enrichment": {
+    "summary": "This executive order creates a second emergency board to investigate and help resolve ongoing labor disputes between the Long Island Rail Road Company and several of its employee labor unions. The board will review settlement offers and recommend the most reasonable one to the President to help avoid further conflict. The order also sets rules to maintain current working conditions during the investigation and outlines the board’s procedures and cost responsibilities.",
+    "theme_ids": [
+      "federal-labor-management-relations",
+      "transportation-infrastructure",
+      "worker-rights-protections",
+      "union-policy"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "union-members",
+        "transportation-workers"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The establishment of a second emergency board may prolong labor disputes, creating uncertainty and stress for union-members and transportation-workers relying on fair and timely dispute resolution.",
+      "Maintaining existing working conditions during the investigation could limit the ability of some labor organizations to negotiate improvements or adjustments in response to changing circumstances.",
+      "If the board's recommended settlement is perceived as biased or unreasonable by either the Long Island Rail Road Company or the unions, it may lead to further dissatisfaction or potential work stoppages impacting transportation infrastructure.",
+      "The cost responsibility being assigned to the Department of Transportation might lead to concerns about resource allocation away from other transportation priorities benefiting workers and the public."
+    ],
+    "enriched_at": "2026-02-09T03:30:07.317Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

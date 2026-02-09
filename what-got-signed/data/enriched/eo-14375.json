@@ -1,0 +1,36 @@
+{
+  "document_number": "2026-01271",
+  "executive_order_number": "14375",
+  "title": "Designating the Board of Peace as a Public International Organization Entitled To Enjoy Certain Privileges, Exemptions, and Immunities",
+  "abstract": null,
+  "signing_date": "2026-01-16",
+  "publication_date": "2026-01-22",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/01/22/2026-01271/designating-the-board-of-peace-as-a-public-international-organization-entitled-to-enjoy-certain",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-01-22/pdf/2026-01271.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/01/22/2026-01271.txt",
+  "enrichment": {
+    "summary": "This executive order officially designates the Board of Peace as a public international organization, allowing it to receive specific legal privileges, exemptions, and immunities under U.S. law. It also clarifies that this designation does not affect existing legal authorities or create enforceable rights against the U.S. government.",
+    "theme_ids": [
+      "international-agreements-treaties"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "international-organizations",
+        "foreign-governments"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The designation of the Board of Peace as a public international organization could raise concerns among foreign governments about U.S. commitment and obligations under international agreements.",
+      "Granting the Board of Peace immunities and exemptions may unintentionally constrain the ability of U.S. law enforcement to investigate or hold accountable entities affiliated with the Board, impacting accountability.",
+      "There may be questions about the budgetary implications and appropriations needed for supporting the Board of Peace's operations, which could indirectly affect the federal budget allocation process.",
+      "The order’s clarification that it does not create enforceable rights against the U.S. government could lead to legal ambiguities or disputes in interpreting the scope of immunities granted to the Board."
+    ],
+    "enriched_at": "2026-02-09T03:30:02.513Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

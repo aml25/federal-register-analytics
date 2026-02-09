@@ -1,0 +1,45 @@
+{
+  "document_number": "2026-01871",
+  "executive_order_number": "14377",
+  "title": "Addressing State and Local Failures To Rebuild Los Angeles After Wildfire Disasters",
+  "abstract": null,
+  "signing_date": "2026-01-23",
+  "publication_date": "2026-01-29",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/01/29/2026-01871/addressing-state-and-local-failures-to-rebuild-los-angeles-after-wildfire-disasters",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-01-29/pdf/2026-01871.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/01/29/2026-01871.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to speed up the rebuilding of homes and businesses in Los Angeles damaged by wildfires, by overcoming state and local permitting delays and obstacles. It also requires audits of California's use of disaster mitigation funds and calls for new regulations and potential legislation to ensure timely recovery after disasters. The goal is to help families and businesses return to normal as quickly and efficiently as possible while maintaining safety standards.",
+    "theme_ids": [
+      "disaster-rebuilding-long-term-recovery",
+      "wildfire-management",
+      "fema-emergency-management",
+      "infrastructure-permitting",
+      "water-infrastructure"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "disaster-affected-communities",
+        "renters-homeowners",
+        "small-business-owners"
+      ],
+      "negative_ids": [
+        "local-governments",
+        "state-governments"
+      ]
+    },
+    "potential_concerns": [
+      "Preempting state and local permitting processes may undermine local governments' authority and create legal conflicts, complicating collaboration on rebuilding efforts.",
+      "Streamlining permitting through federal self-certification could risk insufficient oversight, potentially compromising the safety and health standards for rebuilt homes and businesses, affecting disaster-affected communities and renters/homeowners.",
+      "The expedited waiver of environmental and historic preservation laws might harm long-term environmental sustainability and cultural resources in wildfire-impacted neighborhoods, negatively impacting disaster-affected communities.",
+      "Small business owners and homeowners may face confusion and delays during the transition to new federal regulations replacing state/local permitting, prolonging hardship in disaster recovery despite federal intentions.",
+      "Audits and potential recoupment actions on California’s use of Hazard Mitigation Grant Program funds could strain state resources and delay further mitigation efforts, affecting the state government and indirectly the communities relying on effective wildfire management."
+    ],
+    "enriched_at": "2026-02-09T03:29:45.041Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

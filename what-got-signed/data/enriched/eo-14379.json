@@ -1,0 +1,42 @@
+{
+  "document_number": "2026-02249",
+  "executive_order_number": "14379",
+  "title": "Addressing Addiction Through the Great American Recovery Initiative",
+  "abstract": null,
+  "signing_date": "2026-01-29",
+  "publication_date": "2026-02-03",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/02/03/2026-02249/addressing-addiction-through-the-great-american-recovery-initiative",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-02-03/pdf/2026-02249.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/02/03/2026-02249.txt",
+  "enrichment": {
+    "summary": "This executive order establishes the Great American Recovery Initiative to coordinate the federal government's efforts in addressing addiction, also known as substance use disorder. It creates a task force led by key health and government officials to improve addiction treatment, increase public awareness, and foster recovery through better collaboration across government agencies, communities, and private sectors.",
+    "theme_ids": [
+      "mental-health",
+      "opioid-crisis",
+      "faith-based-initiatives",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "individuals-with-mental-health-conditions",
+        "individuals-experiencing-poverty",
+        "homeless-unhoused-individuals",
+        "veterans",
+        "faith-based-communities"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Greater reliance on faith-based communities in addiction recovery could lead to unequal access or exclusion of non-religious individuals or those from minority faiths, impacting the inclusivity of treatment options.",
+      "Interagency coordination challenges may delay or complicate service delivery, particularly affecting individuals experiencing poverty and homeless individuals who require timely, integrated support.",
+      "The initiative’s focus on scientific and evidence-based treatment may face resistance in some communities or settings where stigma around addiction or mental health conditions persists, limiting uptake among these populations.",
+      "Veterans with substance use disorders might encounter gaps if programs do not adequately address co-occurring mental health conditions or fail to integrate with existing VA services effectively."
+    ],
+    "enriched_at": "2026-02-09T03:29:32.994Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

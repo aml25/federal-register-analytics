@@ -1,0 +1,38 @@
+{
+  "document_number": "2026-01872",
+  "executive_order_number": "14378",
+  "title": "Continuance of the Federal Emergency Management Agency Review Council",
+  "abstract": null,
+  "signing_date": "2026-01-23",
+  "publication_date": "2026-01-29",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/01/29/2026-01872/continuance-of-the-federal-emergency-management-agency-review-council",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-01-29/pdf/2026-01872.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/01/29/2026-01872.txt",
+  "enrichment": {
+    "summary": "This executive order extends the Federal Emergency Management Agency Review Council's operation until March 25, 2026, and assigns the Secretary of Homeland Security responsibility for performing certain presidential functions related to the council under the Federal Advisory Committee Act. It also clarifies that the order does not affect existing authorities or rights and directs the Department of Homeland Security to cover publication costs.",
+    "theme_ids": [
+      "fema-emergency-management",
+      "homeland-security",
+      "federal-advisory-committees"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "disaster-affected-communities",
+        "tribal-governments"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Extended operation of the FEMA Review Council may delay urgent disaster response improvements, negatively impacting disaster-affected communities' recovery times.",
+      "Assigning the Secretary of Homeland Security presidential functions under the Federal Advisory Committee Act might centralize authority, raising concerns about adequate representation for tribal governments in emergency management assessments.",
+      "The continuation of the council without changes to its mandate may limit opportunities for incorporating community-driven perspectives from disaster-affected populations.",
+      "Relying on DHS for publication costs could strain resources that might otherwise support direct emergency management activities benefiting vulnerable communities."
+    ],
+    "enriched_at": "2026-02-09T03:29:50.994Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

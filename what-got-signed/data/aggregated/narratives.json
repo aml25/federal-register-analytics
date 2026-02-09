@@ -5,10 +5,10 @@
       "president_name": "Donald Trump",
       "term_start": 2025,
       "term_end": "present",
-      "order_count": 221,
-      "summary": "Since taking office in 2025, President Trump has issued 221 executive orders prioritizing economic nationalism, government efficiency, and national security. Early efforts focused heavily on streamlining federal agencies while tightening border and homeland security measures. As the year progressed, emphasis shifted toward deregulation, bolstering the defense industrial base, and asserting American energy independence. Trade policy and tariff adjustments also became focal points, reflecting a broader agenda aimed at reinforcing American competitiveness and reasserting sovereignty in international affairs. Throughout, the administration actively revoked previous executive actions to realign federal priorities with its America First philosophy.",
-      "potential_impact": "These executive orders primarily aimed to benefit small business owners, military personnel, and working-age Americans by fostering economic growth and strengthening national defense. However, the aggressive deregulation and border security measures raised concerns about adverse effects on consumers, undocumented immigrants, and environmental justice communities. Critics highlighted risks to racial and ethnic minorities, LGBTQ+ individuals, and low-income families due to the rollback of diversity, equity, and inclusion programs and environmental protections. Additionally, the administration’s focus on limiting federal workforce protections and constraining immigration pathways sparked worries about increased social inequities and strained diplomatic relations.",
-      "generated_at": "2025-12-20T05:45:38.190Z",
+      "order_count": 231,
+      "summary": "President Donald Trump's executive orders reflect a forceful agenda centered on reshaping government operations, national security, and economic policy under an 'America First' banner. Early in the term, a surge of directives aimed to boost government efficiency and tighten border and homeland security, signaling a priority on internal reform and protection against perceived threats. As the administration progresses, it increasingly emphasizes deregulation, trade protectionism through tariffs, and energy independence, while also confronting national emergencies and reinforcing defense capabilities. These orders collectively seek to strengthen U.S. sovereignty, streamline federal functions, and assert a robust stance on security and economic competitiveness.",
+      "potential_impact": "The administration's directives target a broad swath of Americans, notably benefiting small business owners, military personnel, and workers in manufacturing and defense industries by promoting economic growth and national security. However, these policies raise concerns among consumers and various marginalized communities, including undocumented immigrants, environmental justice populations, and racial and sexual minorities, who may face reduced protections and heightened challenges. The rollback of diversity initiatives, tightened immigration controls, and withdrawal from international agreements highlight a tension between advancing certain economic and security goals and the potential marginalization of vulnerable groups, stirring debate over equity and social justice implications.",
+      "generated_at": "2026-02-09T03:30:22.551Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -56,5 +56,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2025-12-20T05:45:38.192Z"
+  "generated_at": "2026-02-09T03:30:22.553Z"
 }

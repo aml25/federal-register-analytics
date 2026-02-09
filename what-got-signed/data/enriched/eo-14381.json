@@ -1,0 +1,44 @@
+{
+  "document_number": "2026-02292",
+  "executive_order_number": "14381",
+  "title": "Celebrating American Greatness With American Motor Racing",
+  "abstract": null,
+  "signing_date": "2026-01-30",
+  "publication_date": "2026-02-04",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/02/04/2026-02292/celebrating-american-greatness-with-american-motor-racing",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-02-04/pdf/2026-02292.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/02/04/2026-02292.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Secretaries of the Interior and Transportation to establish and facilitate a street race called the Freedom 250 Grand Prix in Washington, D.C., celebrating America's 250th anniversary. It outlines the designation of a race route near national monuments, expedited permitting, and coordination to ensure the event is safely and efficiently conducted.",
+    "theme_ids": [
+      "national-monuments-antiquities",
+      "transportation-infrastructure",
+      "american-heritage-patriotism",
+      "infrastructure-permitting"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "urban-communities",
+        "transportation-workers",
+        "large-corporation-employees"
+      ],
+      "negative_ids": [
+        "urban-communities",
+        "transportation-workers"
+      ]
+    },
+    "potential_concerns": [
+      "The designation of a street race route near national monuments may risk damage to sensitive historic and cultural sites, raising concerns among preservationists and visitors.",
+      "The event's impact on local urban communities in Washington, D.C., including road closures and increased traffic, could disrupt daily transportation for residents and transportation workers.",
+      "Expedited permitting and coordination may limit adequate public input and environmental review, potentially overlooking negative impacts on urban infrastructure and local populations.",
+      "The increased noise and safety risks associated with motor racing in a dense urban environment may adversely affect seniors, individuals with disabilities, and families living nearby.",
+      "Use of aerial drone photography near government buildings could raise security concerns and privacy issues for federal facilities and employees."
+    ],
+    "enriched_at": "2026-02-09T03:29:26.034Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

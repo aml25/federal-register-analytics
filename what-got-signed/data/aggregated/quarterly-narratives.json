@@ -1,6 +1,23 @@
 {
   "narratives": [
     {
+      "year": 2026,
+      "quarter": 1,
+      "quarter_name": "Q1 2026",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 10
+        }
+      ],
+      "total_order_count": 10,
+      "summary": "In the first quarter of 2026, President Trump focused executive actions heavily on national emergencies and infrastructure, particularly transportation, while also addressing defense and foreign policy challenges. Several orders invoked emergency powers to manage labor disputes and protect Venezuelan oil funds, reflecting a strategic effort to safeguard American interests abroad and bolster domestic infrastructure resilience. Defense-related directives sought to prioritize warfighter needs and invoke the Defense Production Act, signaling a commitment to military readiness. Meanwhile, transportation infrastructure and emergency management featured prominently, underscoring a drive to strengthen critical systems and respond to disaster recovery.",
+      "potential_impact": "These orders aimed to benefit veterans, military personnel, disaster-affected communities, and transportation workers by enhancing defense contracting priorities and emergency response capabilities. However, they also raised concerns for large corporation employees, investors, and defense industry workers due to restrictions on corporate financial practices and potential production disruptions. The protection of Venezuelan oil revenue, while intended to support political stability, risked prolonging instability and affected border communities and undocumented immigrants through increased enforcement. Labor disputes remained fraught, with union members facing uncertainty amid extended investigations, highlighting the complex balance between national security, economic interests, and humanitarian considerations.",
+      "generated_at": "2026-02-09T03:30:27.372Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "year": 2025,
       "quarter": 4,
       "quarter_name": "Q4 2025",
@@ -963,5 +980,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2025-12-20T05:45:40.958Z"
+  "generated_at": "2026-02-09T03:30:27.372Z"
 }

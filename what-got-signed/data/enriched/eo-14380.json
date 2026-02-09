@@ -1,0 +1,42 @@
+{
+  "document_number": "2026-02250",
+  "executive_order_number": "14380",
+  "title": "Addressing Threats to the United States by the Government of Cuba",
+  "abstract": null,
+  "signing_date": "2026-01-29",
+  "publication_date": "2026-02-03",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/02/03/2026-02250/addressing-threats-to-the-united-states-by-the-government-of-cuba",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-02-03/pdf/2026-02250.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/02/03/2026-02250.txt",
+  "enrichment": {
+    "summary": "This executive order declares a national emergency because the Government of Cuba poses a threat to the United States by supporting hostile countries and terrorist groups, and by engaging in harmful activities against U.S. interests. To respond, it establishes a system to impose additional tariffs on goods imported from countries that supply oil to Cuba and authorizes government officials to monitor and take further action as needed.",
+    "theme_ids": [
+      "sanctions-country-specific",
+      "counterterrorism",
+      "cuba",
+      "national-emergencies",
+      "tariffs-duties"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "foreign-nationals-general",
+        "corporations-businesses",
+        "energy-sector-workers-oil-gas-coal",
+        "small-business-owners"
+      ]
+    },
+    "potential_concerns": [
+      "Imposition of additional tariffs on countries supplying oil to Cuba may negatively impact U.S. corporations and small business owners reliant on imports from these countries, increasing costs and disrupting supply chains.",
+      "Energy sector workers in oil, gas, and coal industries may face economic instability due to potential shifts in oil trade patterns and retaliatory measures by affected countries.",
+      "The tariff system targeting foreign countries could provoke retaliatory trade actions that harm broader U.S. economic interests and escalate international tensions.",
+      "Foreign nationals involved in trade or diplomatic relations with the United States and Cuba may face increased scrutiny and difficulties due to expanded sanctions and monitoring activities."
+    ],
+    "enriched_at": "2026-02-09T03:29:38.049Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

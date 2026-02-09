@@ -1,0 +1,44 @@
+{
+  "document_number": "2026-01424",
+  "executive_order_number": "14376",
+  "title": "Stopping Wall Street From Competing With Main Street Homebuyers",
+  "abstract": null,
+  "signing_date": "2026-01-20",
+  "publication_date": "2026-01-23",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/01/23/2026-01424/stopping-wall-street-from-competing-with-main-street-homebuyers",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-01-23/pdf/2026-01424.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/01/23/2026-01424.txt",
+  "enrichment": {
+    "summary": "This executive order aims to prevent large Wall Street investors from buying single-family homes that American families, especially first-time buyers, could purchase. It directs federal agencies to restrict sales and financial support to these investors, encourages transparency, and calls for antitrust reviews to protect local housing markets and promote homeownership for families.",
+    "theme_ids": [
+      "housing-policy-affordable-housing",
+      "financial-system-regulation",
+      "economic-competitiveness",
+      "consumer-fraud-market-integrity"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "middle-class-americans",
+        "working-age-adults",
+        "u-s-citizens"
+      ],
+      "negative_ids": [
+        "large-corporation-employees",
+        "investors"
+      ]
+    },
+    "potential_concerns": [
+      "Restrictions on sales and financing to large institutional investors may reduce liquidity or availability of financing in the single-family home market, potentially leading to higher prices or limited supply affecting working-age adults seeking to buy homes.",
+      "The order’s focus on preventing corporate investment could unintentionally reduce rental housing availability if large investors withdraw from build-to-rent projects, impacting renters who rely on professionally managed housing.",
+      "Antitrust enforcement actions targeting large investors might trigger legal challenges that delay implementation and create uncertainty in local housing markets, particularly in urban and suburban communities.",
+      "The increased regulatory burden on large investors may concentrate ownership in smaller-scale landlords, possibly leading to inconsistent rental management standards that could indirectly affect renters.",
+      "Definitions and exceptions (e.g., for build-to-rent communities) may create loopholes exploited by large investors to circumvent restrictions, limiting the order’s effectiveness in preserving affordable homeownership opportunities for middle-class Americans and first-time buyers."
+    ],
+    "enriched_at": "2026-02-09T03:29:57.410Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

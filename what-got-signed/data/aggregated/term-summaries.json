@@ -5,12 +5,12 @@
       "president_name": "Donald Trump",
       "term_start": 2025,
       "term_end": "present",
-      "order_count": 221,
+      "order_count": 231,
       "top_themes": [
         {
           "id": "tariffs-duties",
           "name": "Tariffs / Duties",
-          "count": 34
+          "count": 35
         },
         {
           "id": "government-efficiency",
@@ -25,15 +25,15 @@
         {
           "id": "homeland-security",
           "name": "Homeland Security",
-          "count": 26
+          "count": 27
         },
         {
           "id": "border-security",
           "name": "Border Security",
-          "count": 24
+          "count": 25
         }
       ],
-      "short_summary": "Donald Trump signed 221 executive orders from 2025 until present. The top themes have been: tariffs / duties, government efficiency, regulatory reform / deregulation, homeland security, border security."
+      "short_summary": "Donald Trump signed 231 executive orders from 2025 until present. The top themes have been: tariffs / duties, government efficiency, regulatory reform / deregulation, homeland security, border security."
     },
     {
       "president_id": "joe-biden",
@@ -176,5 +176,5 @@
       "short_summary": "George W. Bush signed 5 executive orders from 2001 until 2009. The top themes were: order of succession, federal workforce management, government efficiency, security clearances / background investigations, transportation infrastructure."
     }
   ],
-  "generated_at": "2025-12-20T05:45:35.016Z"
+  "generated_at": "2026-02-09T03:30:18.452Z"
 }

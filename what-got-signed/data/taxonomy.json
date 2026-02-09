@@ -2125,6 +2125,33 @@
         "eo_title": "Ending Radical Indoctrination in K-12 Schooling",
         "justification": "Parents are central to this EO since it emphasizes protecting parental rights over K-12 education and student information; yet 'parents' as a population is not part of the current taxonomy.",
         "suggested_at": "2025-12-15"
+      },
+      {
+        "name": "residents-dc",
+        "suggested_category": "Geographic Communities > Domestic (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14381",
+        "eo_title": "Celebrating American Greatness With American Motor Racing",
+        "justification": "Residents of Washington, D.C. are directly and meaningfully impacted by the street race event affecting local traffic, noise, and daily life but are not specifically covered under existing broader urban-communities taxonomy.",
+        "suggested_at": "2026-02-09"
+      },
+      {
+        "name": "tourists",
+        "suggested_category": "Special Populations (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14381",
+        "eo_title": "Celebrating American Greatness With American Motor Racing",
+        "justification": "Visitors and tourists attending the event represent a group distinctly affected by this event due to large influx, crowd control, and safety considerations and are not explicitly covered by the current taxonomy.",
+        "suggested_at": "2026-02-09"
+      },
+      {
+        "name": "first-time-homebuyers",
+        "suggested_category": "Demographic Groups (should be added as a distinct important category) (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14376",
+        "eo_title": "Stopping Wall Street From Competing With Main Street Homebuyers",
+        "justification": "This executive order explicitly targets improving access for first-time buyers, who currently face disadvantage competing with large investors; this group is distinct from general homebuyers or working-age adults and should be captured explicitly.",
+        "suggested_at": "2026-02-09"
       }
     ]
   }
