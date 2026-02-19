@@ -184,7 +184,15 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
-app.get('/detail', (req, res) => {
+app.get('/detail/term/:president/:start', (req, res) => {
+  res.render('detail');
+});
+
+app.get('/detail/quarter/:year/:quarter', (req, res) => {
+  res.render('detail');
+});
+
+app.get('/detail/theme/:themeId', (req, res) => {
   res.render('detail');
 });
 

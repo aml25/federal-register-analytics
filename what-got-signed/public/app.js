@@ -45,7 +45,7 @@ function wrapPresidentNames(text, fullName) {
 // Render themes as clickable links
 function renderThemeLinks(themes) {
   return themes.map(t =>
-    `<a href="/detail?type=theme&theme=${encodeURIComponent(t.id)}" class="wa-link">${t.name.toLowerCase()}</a>`
+    `<a href="/detail/theme/${t.id}" class="wa-link">${t.name.toLowerCase()}</a>`
   ).join(', ');
 }
 
@@ -66,7 +66,7 @@ async function loadTermSummaries() {
       return `
         <div class="term-summary">
           <p class="wa-body-m">${styledName} signed ${term.order_count} executive order${term.order_count !== 1 ? 's' : ''} from ${term.term_start} until ${termEnd}. The top themes ${themeVerb}: ${themeLinks}.</p>
-          <wa-button class="arrow-button" variant="brand" appearance="plain" href="/detail?type=term&president=${term.president_id}&start=${term.term_start}">
+          <wa-button class="arrow-button" variant="brand" appearance="plain" href="/detail/term/${term.president_id}/${term.term_start}">
             <wa-icon name="arrow-right" label="View details"></wa-icon>
           </wa-button>
         </div>
@@ -97,7 +97,7 @@ function renderTimelinePeriod(period) {
   for (const theme of period.top_themes || []) {
     const regex = new RegExp(`\\b${theme.name.toLowerCase()}\\b`, 'gi');
     summary = summary.replace(regex,
-      `<a href="/detail?type=theme&theme=${encodeURIComponent(theme.id)}" class="wa-link">${theme.name.toLowerCase()}</a>`
+      `<a href="/detail/theme/${theme.id}" class="wa-link">${theme.name.toLowerCase()}</a>`
     );
   }
 
@@ -107,7 +107,7 @@ function renderTimelinePeriod(period) {
       <div class="timeline-dot"></div>
       <div class="timeline-content">
         <p class="wa-body-s">${summary}</p>
-        <wa-button class="arrow-button" variant="brand" appearance="plain" href="/detail?type=quarter&year=${period.year}&quarter=${period.quarter}">
+        <wa-button class="arrow-button" variant="brand" appearance="plain" href="/detail/quarter/${period.year}/${period.quarter}">
           <wa-icon name="arrow-right" label="View details"></wa-icon>
         </wa-button>
       </div>

@@ -21,7 +21,7 @@ function groupByCategory(items) {
 // Render a single item with optional definition
 function renderItem(item, isTheme = false) {
   const nameHtml = isTheme
-    ? `<a href="/detail?type=theme&theme=${encodeURIComponent(item.id)}" class="wa-link">${item.name}</a>`
+    ? `<a href="/detail/theme/${item.id}" class="wa-link">${item.name}</a>`
     : item.name;
 
   const definitionHtml = item.definition

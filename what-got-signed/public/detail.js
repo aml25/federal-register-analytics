@@ -42,17 +42,17 @@ function wrapPresidentNames(text, fullName) {
   });
 }
 
-// Parse URL params
+// Parse URL params from path: /detail/term/:president/:start
+//                              /detail/quarter/:year/:quarter
+//                              /detail/theme/:themeId
 function getParams() {
-  const params = new URLSearchParams(window.location.search);
-  return {
-    type: params.get('type'),
-    president: params.get('president'),
-    start: params.get('start'),
-    year: params.get('year'),
-    quarter: params.get('quarter'),
-    theme: params.get('theme')
-  };
+  const parts = window.location.pathname.split('/').filter(Boolean);
+  // parts[0] = 'detail', parts[1] = type, parts[2+] = params
+  const type = parts[1];
+  if (type === 'term') return { type, president: parts[2], start: parts[3] };
+  if (type === 'quarter') return { type, year: parts[2], quarter: parts[3] };
+  if (type === 'theme') return { type, theme: parts[2] };
+  return { type };
 }
 
 // Format date
@@ -65,7 +65,7 @@ function formatDate(dateStr) {
 function renderThemes(themeIds, themeMap) {
   return themeIds.map(id => {
     const name = themeMap.get(id) || id;
-    return `<a href="/detail?type=theme&theme=${encodeURIComponent(id)}" class="wa-link">${name}</a>`;
+    return `<a href="/detail/theme/${id}" class="wa-link">${name}</a>`;
   }).join(', ');
 }
 
