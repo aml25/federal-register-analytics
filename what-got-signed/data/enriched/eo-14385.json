@@ -1,0 +1,47 @@
+{
+  "document_number": "2026-02819",
+  "executive_order_number": "14385",
+  "title": "Protecting the National Security and Welfare of the United States and Its Citizens From Criminal Actors and Other Public Safety Threats",
+  "abstract": null,
+  "signing_date": "2026-02-06",
+  "publication_date": "2026-02-11",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/02/11/2026-02819/protecting-the-national-security-and-welfare-of-the-united-states-and-its-citizens-from-criminal",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-02-11/pdf/2026-02819.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/02/11/2026-02819.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Department of Homeland Security to access and share criminal history information with trusted foreign governments to enhance border security and immigration screening. It emphasizes cooperation between U.S. agencies and allied countries to prevent entry by criminals and protect national security.",
+    "theme_ids": [
+      "homeland-security",
+      "border-security",
+      "immigration-enforcement-interior",
+      "intelligence-sharing"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens",
+        "lawful-permanent-residents-green-card-holders",
+        "naturalized-citizens",
+        "birthright-citizens"
+      ],
+      "negative_ids": [
+        "undocumented-immigrants",
+        "visa-holders-work-student-tourist",
+        "asylum-seekers",
+        "refugees"
+      ]
+    },
+    "potential_concerns": [
+      "The enhanced sharing of criminal history records with foreign governments may lead to privacy risks and potential misuse of data for visa-holders, asylum-seekers, and refugees, potentially restricting lawful travel and immigration.",
+      "Undocumented immigrants may face increased risk of detection, detention, or deportation due to broader criminal history screening, potentially leading to family separation and community disruption.",
+      "The focus on sharing sensitive information may strain diplomatic relations if foreign governments do not maintain reciprocal privacy protections, impacting trusted foreign governments and their nationals.",
+      "There may be unintended profiling or discriminatory enforcement against certain immigrant groups based on incomplete or inaccurate criminal history information.",
+      "The use of criminal history records in immigration screening could delay or complicate lawful entry processes for visa holders seeking work or education, affecting their opportunities in the United States."
+    ],
+    "enriched_at": "2026-02-19T03:41:01.095Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

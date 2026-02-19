@@ -1,0 +1,44 @@
+{
+  "document_number": "2026-02814",
+  "executive_order_number": "14383",
+  "title": "Establishing an America First Arms Transfer Strategy",
+  "abstract": null,
+  "signing_date": "2026-02-06",
+  "publication_date": "2026-02-11",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/02/11/2026-02814/establishing-an-america-first-arms-transfer-strategy",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-02-11/pdf/2026-02814.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/02/11/2026-02814.txt",
+  "enrichment": {
+    "summary": "This executive order directs the U.S. government to prioritize arms sales and transfers that enhance American military production and national security. It establishes a strategy to use foreign purchases to strengthen the U.S. defense industrial base, streamline defense sales processes, and improve coordination among government agencies to support allies and bolster military readiness.",
+    "theme_ids": [
+      "defense-industrial-base",
+      "military-readiness-force-structure",
+      "interagency-coordination",
+      "presidential-commissions-task-forces",
+      "foreign-aid"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "defense-industry-workers",
+        "military-personnel-active-duty",
+        "veterans"
+      ],
+      "negative_ids": [
+        "foreign-nationals-general"
+      ]
+    },
+    "potential_concerns": [
+      "Prioritizing arms transfers to build U.S. defense production capacity may limit access to advanced weaponry for some foreign partners (foreign-nationals-general), potentially straining diplomatic relations and undermining coalition military readiness.",
+      "Increased emphasis on American defense industrial base expansion could create supply chain bottlenecks or production backlogs that impact military personnel's (military-personnel-active-duty) timely access to essential equipment, affecting force readiness.",
+      "Streamlining arms sales processes may lead to reduced oversight or rushed approvals, raising risks of diversion or misuse of U.S.-made arms and complicating compliance monitoring efforts.",
+      "Focusing arms transfer incentives on select partners investing heavily in self-defense could marginalize smaller allied nations, potentially destabilizing regional security balances and complicating burden-sharing commitments for veterans and active-duty personnel.",
+      "The enhanced coordination and monitoring requirements may increase administrative burdens on defense industry workers and contractors, potentially slowing innovation and impeding the entry of new nontraditional defense companies."
+    ],
+    "enriched_at": "2026-02-19T03:41:24.923Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

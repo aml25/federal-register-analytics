@@ -2152,6 +2152,15 @@
         "eo_title": "Stopping Wall Street From Competing With Main Street Homebuyers",
         "justification": "This executive order explicitly targets improving access for first-time buyers, who currently face disadvantage competing with large investors; this group is distinct from general homebuyers or working-age adults and should be captured explicitly.",
         "suggested_at": "2026-02-09"
+      },
+      {
+        "name": "import-export-industry-workers",
+        "suggested_category": "Employment Sectors (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14382",
+        "eo_title": "Addressing Threats to the United States by the Government of Iran",
+        "justification": "This population includes workers in shipping, customs brokerage, logistics, and trade facilitation who are directly affected by tariff changes and trade restrictions but is not explicitly named in the existing taxonomy.",
+        "suggested_at": "2026-02-19"
       }
     ]
   }

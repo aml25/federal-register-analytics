@@ -6,30 +6,30 @@
       "quarter_name": "Q1 2026",
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
-      "order_count": 10,
+      "order_count": 15,
       "top_themes": [
         {
           "id": "national-emergencies",
           "name": "National Emergencies"
         },
         {
+          "id": "defense-industrial-base",
+          "name": "Defense Industrial Base"
+        },
+        {
+          "id": "military-readiness-force-structure",
+          "name": "Military Readiness / Force Structure"
+        },
+        {
           "id": "sanctions-country-specific",
           "name": "Sanctions (Country-Specific)"
         },
         {
-          "id": "transportation-infrastructure",
-          "name": "Transportation Infrastructure"
-        },
-        {
-          "id": "fema-emergency-management",
-          "name": "FEMA / Emergency Management"
-        },
-        {
-          "id": "infrastructure-permitting",
-          "name": "Infrastructure Permitting"
+          "id": "tariffs-duties",
+          "name": "Tariffs / Duties"
         }
       ],
-      "theme_summary": "Donald Trump signed 10 executive orders focused on the themes of national emergencies, sanctions (country-specific), transportation infrastructure, and 2 others.",
+      "theme_summary": "Donald Trump signed 15 executive orders focused on the themes of national emergencies, defense industrial base, military readiness / force structure, and 2 others.",
       "order_ids": [
         "14372",
         "14373",
@@ -40,7 +40,12 @@
         "14378",
         "14379",
         "14380",
-        "14381"
+        "14381",
+        "14382",
+        "14383",
+        "14384",
+        "14385",
+        "14386"
       ]
     },
     {
@@ -2581,5 +2586,5 @@
       ]
     }
   ],
-  "generated_at": "2026-02-09T03:30:18.456Z"
+  "generated_at": "2026-02-19T03:41:33.277Z"
 }

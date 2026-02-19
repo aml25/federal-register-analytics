@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 10
+          "order_count": 15
         }
       ],
-      "total_order_count": 10,
-      "summary": "In the first quarter of 2026, President Trump focused executive actions heavily on national emergencies and infrastructure, particularly transportation, while also addressing defense and foreign policy challenges. Several orders invoked emergency powers to manage labor disputes and protect Venezuelan oil funds, reflecting a strategic effort to safeguard American interests abroad and bolster domestic infrastructure resilience. Defense-related directives sought to prioritize warfighter needs and invoke the Defense Production Act, signaling a commitment to military readiness. Meanwhile, transportation infrastructure and emergency management featured prominently, underscoring a drive to strengthen critical systems and respond to disaster recovery.",
-      "potential_impact": "These orders aimed to benefit veterans, military personnel, disaster-affected communities, and transportation workers by enhancing defense contracting priorities and emergency response capabilities. However, they also raised concerns for large corporation employees, investors, and defense industry workers due to restrictions on corporate financial practices and potential production disruptions. The protection of Venezuelan oil revenue, while intended to support political stability, risked prolonging instability and affected border communities and undocumented immigrants through increased enforcement. Labor disputes remained fraught, with union members facing uncertainty amid extended investigations, highlighting the complex balance between national security, economic interests, and humanitarian considerations.",
-      "generated_at": "2026-02-09T03:30:27.372Z",
+      "total_order_count": 15,
+      "summary": "In the first quarter of 2026, President Trump’s executive orders underscored a robust focus on national security and economic protectionism. Four orders invoked national emergency powers to address geopolitical threats and economic challenges, while several others sought to bolster military readiness and the defense industrial base through tighter contracting controls and strategic arms transfers. Tariffs and sanctions featured prominently as tools to counter perceived foreign adversaries, particularly Venezuela, Cuba, Iran, and Russia. Concurrently, disaster management and infrastructure permitting received attention, reflecting a broader agenda to safeguard domestic stability alongside strengthening border security and homeland defense.",
+      "potential_impact": "These executive actions targeted active-duty military personnel, veterans, and defense industry workers by aiming to enhance national defense capabilities and secure defense-related employment. However, restrictions on corporate financial practices and increased enforcement measures raised concerns among large corporation employees, investors, and small business owners, who faced potential financial and operational constraints. Border communities and undocumented immigrants encountered heightened security measures, while efforts to protect Venezuelan oil revenues risked prolonging instability affecting both foreign governments and local populations. Labor organizations and transportation workers experienced uncertainty amid prolonged dispute investigations, illustrating the complex balance between national security priorities and economic interests.",
+      "generated_at": "2026-02-19T03:41:42.404Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -980,5 +980,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-02-09T03:30:27.372Z"
+  "generated_at": "2026-02-19T03:41:42.405Z"
 }

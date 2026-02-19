@@ -1,0 +1,45 @@
+{
+  "document_number": "2026-02818",
+  "executive_order_number": "14384",
+  "title": "Modifying Duties To Address Threats to the United States by the Government of the Russian Federation",
+  "abstract": null,
+  "signing_date": "2026-02-06",
+  "publication_date": "2026-02-11",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/02/11/2026-02818/modifying-duties-to-address-threats-to-the-united-states-by-the-government-of-the-russian-federation",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-02-11/pdf/2026-02818.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/02/11/2026-02818.txt",
+  "enrichment": {
+    "summary": "This executive order removes a 25% tariff on imports from India that was previously imposed because India was indirectly importing Russian oil. The order recognizes India's recent commitments to stop buying Russian oil, increase energy purchases from the U.S., and expand defense cooperation, but also establishes monitoring to reimpose tariffs if India resumes importing Russian oil.",
+    "theme_ids": [
+      "tariffs-duties",
+      "energy-independence-security",
+      "national-emergencies",
+      "sanctions-country-specific",
+      "russia"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "large-corporation-employees",
+        "energy-sector-workers-oil-gas-coal",
+        "defense-industry-workers"
+      ],
+      "negative_ids": [
+        "small-business-owners",
+        "manufacturing-workers"
+      ]
+    },
+    "potential_concerns": [
+      "The removal of the 25% tariff could negatively impact U.S. small business owners and manufacturing workers who compete with Indian imports now subject to lower duties, potentially leading to job losses or reduced wages.",
+      "Energy sector workers (oil, gas, coal) may benefit from increased U.S. energy exports to India but face volatility if tariffs are reimposed due to noncompliance, creating uncertainty in their job security.",
+      "Defense industry workers and large corporation employees involved in U.S.-India defense cooperation may see expanded opportunities, but heightened geopolitical tensions with Russia risk disrupting supply chains and contracts.",
+      "There is a risk that monitoring enforcement mechanisms may inadequately detect indirect imports of Russian oil by India, undermining the national security intent and possibly allowing Russia to evade sanctions.",
+      "If tariffs are reinstated suddenly, it could cause market disruptions affecting both employers and employees in industries tied to U.S.-India trade, disproportionately impacting working-age adults reliant on these sectors."
+    ],
+    "enriched_at": "2026-02-19T03:41:33.118Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
