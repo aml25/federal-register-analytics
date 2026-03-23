@@ -27,3 +27,4 @@ npm-debug.log*
 
 # Data files (generated)
 what-got-signed/data/raw/
+.gstack/
