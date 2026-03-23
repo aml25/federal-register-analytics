@@ -3,7 +3,7 @@
  */
 
 import { FEDERAL_REGISTER_BASE_URL, RAW_ORDERS_FILE } from './config.js';
-import { readJson, writeJson, sleep } from './utils.js';
+import { readJson, writeJson, sleep, withRetry } from './utils.js';
 import type { RawExecutiveOrder } from './types.js';
 
 interface FederalRegisterResponse {
@@ -61,13 +61,19 @@ export async function fetchExecutiveOrdersByYear(year: number): Promise<RawExecu
     url.searchParams.append('fields[]', 'pdf_url');
     url.searchParams.append('fields[]', 'raw_text_url');
 
-    const response = await fetch(url.toString());
-
-    if (!response.ok) {
-      throw new Error(`API error: ${response.status} ${response.statusText}`);
-    }
-
-    const data = (await response.json()) as FederalRegisterResponse;
+    const data = await withRetry(
+      async () => {
+        const response = await fetch(url.toString());
+        if (response.status === 429) {
+          throw new Error(`Rate limited (429) on page ${page}`);
+        }
+        if (!response.ok) {
+          throw new Error(`API error: ${response.status} ${response.statusText}`);
+        }
+        return (await response.json()) as FederalRegisterResponse;
+      },
+      (err) => err instanceof Error && (err.message.includes('429') || err.message.includes('fetch'))
+    );
 
     // On first page, print total count and pages
     if (page === 1) {

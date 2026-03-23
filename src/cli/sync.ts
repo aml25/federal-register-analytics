@@ -13,6 +13,11 @@ import 'dotenv/config';
 import { sync } from '../sync.js';
 import { parseArgs } from '../utils.js';
 
+if (!process.env.OPENAI_API_KEY) {
+  console.error('Error: OPENAI_API_KEY environment variable is not set.');
+  process.exit(1);
+}
+
 const args = parseArgs(process.argv.slice(2));
 
 const year = args.year ? Number(args.year) : undefined;

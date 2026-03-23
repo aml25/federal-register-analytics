@@ -6,7 +6,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { dirname } from 'node:path';
 import type { ThemeRegistry, PopulationRegistry, Theme, Population } from './types.js';
-import { TAXONOMY_FILE } from './config.js';
+import { TAXONOMY_FILE, MAX_RETRY_ATTEMPTS, RETRY_BASE_DELAY_MS } from './config.js';
 import type { TaxonomyData } from './taxonomy.js';
 
 /**
@@ -36,6 +36,48 @@ export async function readJson<T>(filePath: string): Promise<T | null> {
 export async function writeJson<T>(filePath: string, data: T): Promise<void> {
   await ensureDir(dirname(filePath));
   await writeFile(filePath, JSON.stringify(data, null, 2), 'utf-8');
+}
+
+/**
+ * Read a required JSON file — throws if missing or corrupt (unlike readJson which returns null)
+ */
+export async function requireJson<T>(filePath: string): Promise<T> {
+  let content: string;
+  try {
+    content = await readFile(filePath, 'utf-8');
+  } catch {
+    throw new Error(`Required file not found: ${filePath}`);
+  }
+  try {
+    return JSON.parse(content) as T;
+  } catch {
+    throw new Error(`Failed to parse JSON at: ${filePath}`);
+  }
+}
+
+/**
+ * Retry an async function with exponential backoff
+ */
+export async function withRetry<T>(
+  fn: () => Promise<T>,
+  isRetryable: (err: unknown) => boolean = () => true,
+  maxAttempts: number = MAX_RETRY_ATTEMPTS
+): Promise<T> {
+  let lastError: unknown;
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      return await fn();
+    } catch (err) {
+      lastError = err;
+      if (!isRetryable(err) || attempt === maxAttempts) {
+        throw err;
+      }
+      const delay = RETRY_BASE_DELAY_MS * Math.pow(2, attempt - 1);
+      console.warn(`  Attempt ${attempt}/${maxAttempts} failed, retrying in ${delay}ms...`);
+      await sleep(delay);
+    }
+  }
+  throw lastError;
 }
 
 // Category labels for themes

@@ -7,7 +7,7 @@ import { ENRICHED_DIR } from './config.js';
 import { fetchExecutiveOrdersByYear, saveRawOrders } from './fetch.js';
 import { enrich } from './enrich.js';
 import { aggregate } from './aggregate.js';
-import { generateNarratives } from './narratives.js';
+import { generateNarratives, generateWeeklyNarrative } from './narratives.js';
 import type { RawExecutiveOrder } from './types.js';
 
 /**
@@ -114,11 +114,17 @@ export async function sync(options: SyncOptions = {}): Promise<void> {
 
   // Step 4: Generate narratives (staleness detection handles what needs updating)
   if (!skipNarratives) {
-    console.log(`[4/4] Updating narratives...`);
+    console.log(`[4/5] Updating narratives...`);
     await generateNarratives({}); // Will auto-detect stale narratives
     console.log('');
+
+    // Step 5: Generate weekly digest (staleness check skips if already current)
+    console.log(`[5/5] Updating weekly digest...`);
+    await generateWeeklyNarrative({});
+    console.log('');
   } else {
-    console.log(`[4/4] Skipping narratives (--skip-narratives)`);
+    console.log(`[4/5] Skipping narratives (--skip-narratives)`);
+    console.log(`[5/5] Skipping weekly digest (--skip-narratives)`);
     console.log('');
   }
 

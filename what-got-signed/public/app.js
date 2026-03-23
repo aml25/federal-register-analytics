@@ -204,8 +204,80 @@ function alignTimeline() {
 
 }
 
+// Fetch and render weekly digest
+async function loadWeeklyDigest() {
+  const section = document.getElementById('this-week-section');
+  const container = document.getElementById('this-week-content');
+
+  try {
+    const response = await fetch('/api/weekly-narrative');
+
+    if (!response.ok) {
+      // weekly-narrative.json not yet generated — hide the section silently
+      section.style.display = 'none';
+      return;
+    }
+
+    const data = await response.json();
+    section.removeAttribute('aria-busy');
+
+    // Empty week
+    if (!data.narrative && data.orders.length === 0) {
+      container.innerHTML = `
+        <div class="this-week-story">
+          <wa-tag class="this-week-date" variant="brand" appearance="filled" size="small">${data.date_range}</wa-tag>
+          <p class="wa-body-m">A quiet week — no executive orders were signed.</p>
+        </div>
+      `;
+      return;
+    }
+
+    // Style president names with avatars in narrative prose
+    let narrative = data.narrative;
+    const presidentNames = [...new Set(
+      (data.orders || []).map(o => o.president_name).filter(Boolean)
+    )];
+    for (const name of presidentNames) {
+      narrative = wrapPresidentNames(narrative, name);
+    }
+
+    // Replace theme names with links (same pattern as timeline)
+    for (const theme of data.top_themes || []) {
+      const regex = new RegExp(`\\b${escapeRegex(theme.name.toLowerCase())}\\b`, 'gi');
+      narrative = narrative.replace(regex,
+        `<a href="/detail/theme/${theme.id}" class="wa-link">${theme.name.toLowerCase()}</a>`
+      );
+    }
+
+    // EO list as plain links, not buttons
+    const orderListHtml = data.orders.map(o =>
+      `<li><a href="${o.url}" class="wa-link" target="_blank" rel="noopener">EO ${o.number} — ${o.title}</a></li>`
+    ).join('');
+
+    container.innerHTML = `
+      <div class="this-week-story">
+        <wa-tag class="this-week-date" variant="brand" appearance="filled" size="small" aria-label="Week of ${data.date_range}">${data.date_range}</wa-tag>
+        <p class="wa-body-m" id="weekly-narrative">${narrative}</p>
+      </div>
+      <div class="weekly-eos">
+        <p class="wa-body-s wa-color-text-quiet">Executive orders this week</p>
+        <ul class="weekly-orders">${orderListHtml}</ul>
+      </div>
+    `;
+  } catch (err) {
+    section.removeAttribute('aria-busy');
+    container.innerHTML = `
+      <wa-callout variant="warning">
+        <wa-icon slot="icon" name="circle-exclamation"></wa-icon>
+        Couldn't load this week's summary. Check back soon.
+      </wa-callout>
+    `;
+  }
+}
+
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
+  loadWeeklyDigest();
   loadTermSummaries();
   loadTimeline();
 });

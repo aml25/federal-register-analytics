@@ -1,0 +1,41 @@
+{
+  "document_number": "2026-05383",
+  "executive_order_number": "14392",
+  "title": "Ensuring Truthful Advertising of Products Claiming To Be Made in America",
+  "abstract": null,
+  "signing_date": "2026-03-13",
+  "publication_date": "2026-03-18",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/03/18/2026-05383/ensuring-truthful-advertising-of-products-claiming-to-be-made-in-america",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-03-18/pdf/2026-05383.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/03/18/2026-05383.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Federal Trade Commission and other agencies to crack down on false or misleading claims that products are \"Made in America,\" especially in online marketplaces. It requires stricter enforcement, encourages clear country-of-origin labeling, and ensures government contractors accurately represent the origin of their products to protect consumers and support American manufacturers.",
+    "theme_ids": [
+      "buy-american-domestic-preference",
+      "consumer-fraud-market-integrity",
+      "e-commerce-online-trade-regulation"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "small-business-owners",
+        "manufacturing-workers",
+        "federal-contractors"
+      ],
+      "negative_ids": [
+        "corporations-businesses"
+      ]
+    },
+    "potential_concerns": [
+      "Stricter enforcement against false 'Made in America' claims may impose significant compliance costs and operational burdens on corporations and online marketplaces, potentially reducing their competitiveness.",
+      "Small business owners and manufacturing workers could benefit from enhanced protection of truthful domestic branding, but may face increased paperwork or verification requirements that strain limited resources.",
+      "Federal contractors found misrepresenting product origin risk losing government contracts, which might discourage some vendors from bidding or lead to legal disputes, impacting supply chains.",
+      "Online marketplaces could face challenges in developing and maintaining effective country-of-origin verification systems, possibly leading to slower product listings or reduced seller participation, indirectly affecting consumers looking for American-made products."
+    ],
+    "enriched_at": "2026-03-23T04:24:16.441Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

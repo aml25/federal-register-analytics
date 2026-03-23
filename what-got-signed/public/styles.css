@@ -315,6 +315,39 @@ wa-tab-panel::part(base) {
   color: var(--wa-color-text-quiet);
 }
 
+/* This Week section */
+#this-week-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--wa-space-l);
+}
+
+.this-week-story {
+  display: flex;
+  flex-direction: column;
+  gap: var(--wa-space-xs);
+}
+
+.this-week-date {
+  align-self: flex-start;
+}
+
+
+.weekly-eos {
+  display: flex;
+  flex-direction: column;
+  gap: var(--wa-space-2xs);
+}
+
+.weekly-orders {
+  display: flex;
+  flex-direction: column;
+  gap: var(--wa-space-2xs);
+  list-style: disc;
+  padding-left: var(--wa-space-m);
+  margin: 0;
+}
+
 /* Disclaimer footer */
 .disclaimer {
   display: flex;

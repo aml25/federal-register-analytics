@@ -1,0 +1,46 @@
+{
+  "document_number": "2026-05388",
+  "executive_order_number": "14394",
+  "title": "Removing Regulatory Barriers to Affordable Home Construction",
+  "abstract": null,
+  "signing_date": "2026-03-13",
+  "publication_date": "2026-03-18",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/03/18/2026-05388/removing-regulatory-barriers-to-affordable-home-construction",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-03-18/pdf/2026-05388.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/03/18/2026-05388.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to reduce regulatory hurdles and streamline permitting processes that delay homebuilding, with the goal of making housing more affordable. It also encourages best practices for state and local governments, reforms energy and environmental rules related to housing, and promotes investment in home construction in Opportunity Zones.",
+    "theme_ids": [
+      "housing-policy-affordable-housing",
+      "regulatory-reform-deregulation",
+      "infrastructure-permitting",
+      "opportunity-zones-distressed-communities",
+      "environmental-regulation"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "low-income-individuals-families",
+        "opportunity-zone-residents",
+        "suburban-communities",
+        "construction-workers"
+      ],
+      "negative_ids": [
+        "environmental-justice-communities",
+        "tribal-communities-reservations"
+      ]
+    },
+    "potential_concerns": [
+      "Efforts to reduce environmental regulations and streamline permitting may disproportionately harm environmental justice communities by increasing pollution or degrading natural resources in their neighborhoods.",
+      "Relaxing wetlands and water protections under the Clean Water Act risks damaging ecosystems important to tribal communities on reservations, potentially undermining tribal sovereignty and environmental health.",
+      "Curtailing energy-efficiency and green building mandates could increase long-term utility costs and environmental impacts for low-income families, negating some affordability gains.",
+      "Encouraging rapid permitting and reduced oversight may lead to construction quality or safety issues affecting suburban communities and buyers of newly built affordable homes.",
+      "Boosting housing development in Opportunity Zones without strong safeguards might accelerate gentrification, displacing current opportunity-zone residents despite aims to promote investment."
+    ],
+    "enriched_at": "2026-03-23T04:24:10.178Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

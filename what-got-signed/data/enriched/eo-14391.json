@@ -1,0 +1,37 @@
+{
+  "document_number": "2026-05382",
+  "executive_order_number": "14391",
+  "title": "Adjusting Certain Delegations Under the Defense Production Act",
+  "abstract": null,
+  "signing_date": "2026-03-13",
+  "publication_date": "2026-03-18",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/03/18/2026-05382/adjusting-certain-delegations-under-the-defense-production-act",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-03-18/pdf/2026-05382.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/03/18/2026-05382.txt",
+  "enrichment": {
+    "summary": "This executive order updates and clarifies delegation of presidential powers under the Defense Production Act, allowing the Secretaries of Commerce and Energy to independently exercise certain authorities. It also specifies when agency heads need to recommend actions to the President during a declared national energy emergency.",
+    "theme_ids": [
+      "defense-production-act",
+      "delegation-of-authority"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "defense-industry-workers",
+        "energy-sector-workers-oil-gas-coal"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Granting independent authority to both the Secretary of Commerce and the Secretary of Energy under the Defense Production Act could lead to inconsistent directives affecting defense-industry-workers and energy-sector-workers, complicating production priorities.",
+      "Clarifying that agency heads need only recommend action to the President when authority is not delegated may reduce oversight and increase risks of unilateral decisions negatively impacting energy-sector-workers during national energy emergencies.",
+      "Energy-sector-workers may face increased production demands or rapid operational changes without sufficient coordination due to expanded delegation, potentially leading to workplace strain or safety issues.",
+      "Defense-industry-workers could experience operational uncertainty if differing priorities or interpretations arise between Commerce and Energy departments exercising overlapping Defense Production Act authorities."
+    ],
+    "enriched_at": "2026-03-23T04:24:04.067Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

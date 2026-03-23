@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 15
+          "order_count": 24
         }
       ],
-      "total_order_count": 15,
-      "summary": "In the first quarter of 2026, President Trump’s executive orders underscored a robust focus on national security and economic protectionism. Four orders invoked national emergency powers to address geopolitical threats and economic challenges, while several others sought to bolster military readiness and the defense industrial base through tighter contracting controls and strategic arms transfers. Tariffs and sanctions featured prominently as tools to counter perceived foreign adversaries, particularly Venezuela, Cuba, Iran, and Russia. Concurrently, disaster management and infrastructure permitting received attention, reflecting a broader agenda to safeguard domestic stability alongside strengthening border security and homeland defense.",
-      "potential_impact": "These executive actions targeted active-duty military personnel, veterans, and defense industry workers by aiming to enhance national defense capabilities and secure defense-related employment. However, restrictions on corporate financial practices and increased enforcement measures raised concerns among large corporation employees, investors, and small business owners, who faced potential financial and operational constraints. Border communities and undocumented immigrants encountered heightened security measures, while efforts to protect Venezuelan oil revenues risked prolonging instability affecting both foreign governments and local populations. Labor organizations and transportation workers experienced uncertainty amid prolonged dispute investigations, illustrating the complex balance between national security priorities and economic interests.",
-      "generated_at": "2026-02-19T03:41:42.404Z",
+      "total_order_count": 24,
+      "summary": "In the first quarter of 2026, President Trump’s executive orders underscored a robust focus on national security and economic protectionism. With six orders declaring national emergencies and several aimed at enhancing military readiness and homeland security, the administration prioritized strengthening defense capabilities and safeguarding critical industries. Tariff adjustments and defense production mandates reflected efforts to protect domestic manufacturing and the defense industrial base, while initiatives addressing affordable housing and consumer protection suggested attention to broader economic stability. The interplay of emergency powers and trade measures indicated a strategic approach to shielding American interests amid global uncertainties.",
+      "potential_impact": "These executive orders aimed to bolster the livelihoods of military personnel, veterans, defense industry workers, and small business owners by ensuring resource availability and economic support. However, measures restricting corporate financial practices and increasing enforcement at borders posed challenges for large corporations, investors, and undocumented immigrants. Labor disputes within transportation sectors and the protection of Venezuelan oil revenues introduced complexities affecting foreign governments and local communities, while concerns about the use of emergency powers raised questions about potential legal and humanitarian consequences for affected populations.",
+      "generated_at": "2026-03-23T04:25:09.850Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -980,5 +980,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-02-19T03:41:42.405Z"
+  "generated_at": "2026-03-23T04:25:09.851Z"
 }

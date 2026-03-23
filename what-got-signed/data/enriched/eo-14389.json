@@ -1,0 +1,41 @@
+{
+  "document_number": "2026-03832",
+  "executive_order_number": "14389",
+  "title": "Ending Certain Tariff Actions",
+  "abstract": null,
+  "signing_date": "2026-02-20",
+  "publication_date": "2026-02-25",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/02/25/2026-03832/ending-certain-tariff-actions",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-02-25/pdf/2026-03832.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/02/25/2026-03832.txt",
+  "enrichment": {
+    "summary": "This executive order ends certain additional tariffs that were imposed under a previous set of executive orders addressing national emergencies related to foreign trade partners. While it stops collecting these extra duties, it does not affect other trade measures or the national emergencies themselves.",
+    "theme_ids": [
+      "tariffs-duties",
+      "national-emergencies",
+      "trade-policy-agreements"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "small-business-owners",
+        "manufacturing-workers",
+        "agricultural-workers-farmers"
+      ],
+      "negative_ids": [
+        "consumers"
+      ]
+    },
+    "potential_concerns": [
+      "Ending certain tariffs may benefit small business owners and manufacturing workers through reduced import costs and supply chain relief but could lead to increased competition from foreign producers, potentially harming domestic producers in some sectors.",
+      "Consumers might experience short-term price reductions, but unintended consequences could include less leverage in trade negotiations, potentially risking longer-term economic or national security issues linked to the ongoing national emergencies.",
+      "Removing tariffs related to imports from countries involved in national emergencies could undermine the intended economic pressure on foreign governments, raising concerns among policymakers about weakening leverage in addressing those threats.",
+      "Agricultural workers and farmers might gain positive impacts from lower input costs, but could face instability if market conditions shift due to foreign competition returning to the U.S. markets without the tariff barrier."
+    ],
+    "enriched_at": "2026-03-23T04:24:56.209Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
