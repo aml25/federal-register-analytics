@@ -316,6 +316,18 @@ wa-tab-panel::part(base) {
 }
 
 /* This Week section */
+#this-week-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--wa-space-l);
+}
+
+.this-week-story {
+  display: flex;
+  flex-direction: column;
+  gap: var(--wa-space-xs);
+}
+
 .this-week-date {
   color: var(--wa-color-text-quiet);
 }
