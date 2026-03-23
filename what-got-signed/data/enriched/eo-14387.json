@@ -1,0 +1,44 @@
+{
+  "document_number": "2026-03628",
+  "executive_order_number": "14387",
+  "title": "Promoting the National Defense by Ensuring an Adequate Supply of Elemental Phosphorus and Glyphosate- Based Herbicides",
+  "abstract": null,
+  "signing_date": "2026-02-18",
+  "publication_date": "2026-02-23",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/02/23/2026-03628/promoting-the-national-defense-by-ensuring-an-adequate-supply-of-elemental-phosphorus-and",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-02-23/pdf/2026-03628.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/02/23/2026-03628.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Secretary of Agriculture to ensure there is enough domestic production of elemental phosphorus and glyphosate-based herbicides, which are vital for national defense and agriculture. It authorizes using the Defense Production Act to prioritize and allocate resources for these critical materials to protect military readiness and food security.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "defense-production-act",
+      "critical-minerals-supply-chain-security",
+      "agricultural-policy",
+      "food-security-nutrition"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "agricultural-workers-farmers",
+        "military-personnel-active-duty"
+      ],
+      "negative_ids": [
+        "small-business-owners",
+        "rural-communities",
+        "food-insecure-populations"
+      ]
+    },
+    "potential_concerns": [
+      "The use of the Defense Production Act to prioritize elemental phosphorus and glyphosate production could impose operational and financial burdens on small domestic producers, threatening their viability and potentially leading to reduced competition.",
+      "Increased focus on domestic elemental phosphorus and glyphosate production may lead to environmental impacts in rural communities where mining and chemical processing occur, raising concerns about pollution and public health.",
+      "Dependence on glyphosate-based herbicides, reinforced by this order, may limit incentives to develop alternative, potentially safer weed control methods, thus prolonging exposure risks for agricultural workers and food-insecure populations.",
+      "The prioritization of defense-related supply chains might divert resources away from civilian agricultural uses temporarily, potentially affecting crop yields and increasing food insecurity among vulnerable populations."
+    ],
+    "enriched_at": "2026-03-23T04:25:02.844Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

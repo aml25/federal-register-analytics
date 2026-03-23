@@ -4,17 +4,6 @@ Data enrichment pipeline for Federal Register executive orders. Uses OpenAI to g
 
 **Live site**: [What Got Signed?](https://whatgotsigned.com) (or run locally with the included Express server)
 
-## TODO: Data Quality Improvements
-
-For now, the todo list is about data quality. The data pipeline was done relatively quickly to get a first version out and needs a lot of work in order to generate trusted and useful data.
-
-- [ ] Thorough spot-checking of generated data against trusted sources
-- [ ] Compare summaries and impact analysis with expert policy analysis
-- [ ] Improve prompts to reduce over-tagging (e.g., not every order impacts "federal employees")
-- [ ] Evaluate alternative models for better accuracy/cost trade-offs
-- [ ] Review and consolidate similar population categories
-- [ ] Add validation step to flag potentially inaccurate enrichments for human review
-
 ## Features
 
 - **Fetch**: Download executive orders from the Federal Register API
@@ -25,6 +14,8 @@ For now, the todo list is about data quality. The data pipeline was done relativ
   - Suggestions for new taxonomy items are logged for human review
 - **Aggregate**: Generate term summaries and timeline data (fast, no API calls)
 - **Generate Narratives**: LLM-generated summaries and impact analysis per presidential term, quarter, and theme (uses OpenAI API)
+- **Weekly Digest**: LLM-generated weekly narrative of EOs signed that week — appears on the homepage, regenerated automatically each week with staleness detection
+- **Automated Daily Sync**: GitHub Actions cron runs every day at 6am ET — fetches new EOs, enriches, aggregates, updates narratives, and commits data back to the repo
 - **Web Frontend**: Express server with a clean UI to browse executive orders by term, quarter, or theme
 
 ## Installation
@@ -164,6 +155,7 @@ Outputs:
 - `data/aggregated/narratives.json` - Term narratives with summary and potential impact paragraphs
 - `data/aggregated/quarterly-narratives.json` - Quarterly narratives with summary and potential impact paragraphs
 - `data/aggregated/theme-narratives.json` - Theme narratives with summary and potential impact paragraphs
+- `data/aggregated/weekly-narrative.json` - Current week's digest narrative with linked EO list
 
 **Smart incremental generation**: Narratives automatically detect when they're stale based on the `enriched_at` timestamps of underlying orders. If you enrich new orders in Q3 2025 with 3 themes, running `generate-narratives` will automatically regenerate only:
 - The Q3 2025 quarterly narrative
@@ -213,6 +205,7 @@ This command:
 2. Compares against existing enriched files
 3. If new EOs are found: fetches, enriches, aggregates, and updates narratives
 4. Uses smart staleness detection to only regenerate affected narratives
+5. Generates (or skips if current) the weekly digest narrative
 
 ### 7. Run the Web Frontend
 
@@ -228,6 +221,7 @@ Then open http://localhost:3000 in your browser.
 
 #### Frontend Features
 
+- **This Week** section on the homepage — weekly LLM digest of recent EOs with links to detail pages
 - **Quarterly timeline** with horizontal scroll, filterable by year via multi-select dropdown
 - **Detail pages** for presidential terms, quarters, and themes with LLM-generated narratives
 - **Definitions page** with sticky category headers for browsing themes and populations
@@ -326,20 +320,27 @@ Each enriched order includes:
 federal-register-analytics/
 ├── src/
 │   ├── types.ts        # TypeScript type definitions
-│   ├── config.ts       # Configuration constants
-│   ├── utils.ts        # Utility functions (loads taxonomy)
-│   ├── fetch.ts        # Federal Register API fetching
-│   ├── enrich.ts       # OpenAI enrichment logic (two-pass with static taxonomy)
+│   ├── config.ts       # Configuration constants (retry settings, paths, models)
+│   ├── utils.ts        # Utility functions (withRetry, requireJson, taxonomy loaders)
+│   ├── fetch.ts        # Federal Register API fetching (with retry on 429)
+│   ├── enrich.ts       # OpenAI enrichment logic (two-pass with static taxonomy, typed retries)
 │   ├── taxonomy.ts     # Taxonomy loader and formatter
 │   ├── aggregate.ts    # Data aggregation (term summaries, timeline)
-│   ├── narratives.ts   # LLM-generated narratives (term, quarterly, theme)
+│   ├── narratives.ts   # LLM-generated narratives (term, quarterly, theme, weekly)
+│   ├── sync.ts         # Incremental sync logic (new EOs only)
 │   ├── index.ts        # Main exports
 │   └── cli/            # CLI entry points
 │       ├── fetch.ts
 │       ├── enrich.ts
 │       ├── aggregate.ts
 │       ├── narratives.ts
-│       └── pipeline.ts
+│       ├── pipeline.ts
+│       └── sync.ts     # Entrypoint for npm run update (guards OPENAI_API_KEY)
+├── src/__tests__/
+│   └── utils.test.ts   # Vitest tests for withRetry and requireJson
+├── .github/
+│   └── workflows/
+│       └── daily-sync.yml  # GitHub Actions cron (daily at 6am ET)
 ├── metadata-config/    # Taxonomy documentation
 │   └── executive_order_taxonomy_guide.md  # Usage guide + LLM suggestions
 ├── what-got-signed/    # Web frontend (deployable standalone)
@@ -372,6 +373,19 @@ To regenerate data locally:
 2. `npm run enrich -- --force` (re-enrich with OpenAI)
 3. `npm run aggregate` (regenerate timeline and term summaries)
 4. `npm run generate-narratives -- --force` (regenerate LLM narratives)
+
+## Automated Daily Sync
+
+A GitHub Actions workflow (`.github/workflows/daily-sync.yml`) runs `npm run update` every day at 10:00 UTC (6am ET). It:
+
+1. Checks for new EOs published that day
+2. Enriches, aggregates, and updates narratives if any are found
+3. Updates the weekly digest narrative (skips if already current for this week)
+4. Commits changed data files back to `main` and triggers a Vercel redeploy
+
+**Setup required**: Add your OpenAI API key as a repository secret named `OPENAI_API_KEY` in GitHub → Settings → Secrets and variables → Actions.
+
+The workflow is a no-op when there are no new EOs (no empty commit is created).
 
 ## Deployment
 

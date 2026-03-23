@@ -1,0 +1,45 @@
+{
+  "document_number": "2026-05497",
+  "executive_order_number": "14395",
+  "title": "Establishing the Task Force To Eliminate Fraud",
+  "abstract": null,
+  "signing_date": "2026-03-16",
+  "publication_date": "2026-03-19",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/03/19/2026-05497/establishing-the-task-force-to-eliminate-fraud",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-03-19/pdf/2026-05497.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/03/19/2026-05497.txt",
+  "enrichment": {
+    "summary": "This executive order creates a Task Force to find and stop fraud in federally funded public benefit programs like food assistance and Medicaid. The Task Force coordinates multiple federal agencies to strengthen fraud prevention, improve eligibility checks, and ensure taxpayer dollars are spent only on rightful recipients.",
+    "theme_ids": [
+      "government-efficiency",
+      "presidential-commissions-task-forces",
+      "medicaid",
+      "consumer-fraud-market-integrity",
+      "homeland-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens",
+        "medicaid-beneficiaries",
+        "food-insecure-populations"
+      ],
+      "negative_ids": [
+        "undocumented-immigrants",
+        "noncitizens-serving-in-armed-forces"
+      ]
+    },
+    "potential_concerns": [
+      "The order’s strict anti-fraud measures may inadvertently restrict access or delay benefits for eligible U.S. citizens, including medicaid-beneficiaries and food-insecure-populations, due to increased verification hurdles.",
+      "Heightened scrutiny and data sharing could raise privacy and civil rights issues, especially affecting undocumented immigrants who may face greater risk of detection and exclusion despite potential humanitarian needs.",
+      "The focus on fraud linked to migrant communities could lead to increased stigmatization or discrimination against noncitizens-serving-in-armed-forces and other immigrant populations, undermining trust and cooperation.",
+      "States resisting increased federal oversight may see delays or withholding of federal funds, negatively impacting low-income communities relying on public benefits.",
+      "Aggressive fraud investigations targeting nonprofit organizations and providers might reduce service availability or discourage participation, impacting vulnerable populations reliant on these services."
+    ],
+    "enriched_at": "2026-03-23T04:23:58.126Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

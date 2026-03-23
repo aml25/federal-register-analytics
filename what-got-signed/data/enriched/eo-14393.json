@@ -1,0 +1,43 @@
+{
+  "document_number": "2026-05384",
+  "executive_order_number": "14393",
+  "title": "Promoting Access to Mortgage Credit",
+  "abstract": null,
+  "signing_date": "2026-03-13",
+  "publication_date": "2026-03-18",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/03/18/2026-05384/promoting-access-to-mortgage-credit",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-03-18/pdf/2026-05384.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/03/18/2026-05384.txt",
+  "enrichment": {
+    "summary": "This executive order aims to make it easier for Americans to get mortgage loans, especially from smaller community banks, by reducing regulatory burdens and modernizing mortgage processes. It encourages regulatory agencies to update rules around loan approvals, appraisals, disclosures, digital documentation, and mortgage servicing to increase access and affordability of home loans.",
+    "theme_ids": [
+      "financial-system-regulation",
+      "housing-policy-affordable-housing",
+      "regulatory-reform-deregulation",
+      "rural-development",
+      "artificial-intelligence"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "low-income-individuals-families",
+        "rural-communities",
+        "working-age-adults",
+        "middle-class-americans"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Reducing regulatory burdens for community banks might increase mortgage lending risks, potentially exposing low-income families and rural communities to less stringent underwriting standards, leading to higher default rates.",
+      "Modernization efforts incorporating artificial intelligence in appraisal valuations could introduce bias or inaccuracies that disproportionately affect certain geographic communities or racial/ethnic groups within working-age adults seeking mortgages.",
+      "Tailoring regulations primarily to benefit smaller banks may inadvertently reduce consumer protections afforded under prior rules, potentially harming borrowers in low-income or rural communities with limited recourse.",
+      "Digital mortgage modernization may improve access but could disadvantage working-age adults without reliable internet access or digital literacy, particularly in rural communities, creating new barriers to mortgage credit.",
+      "Eliminating enforcement for good-faith technical errors might encourage some lenders to prioritize volume over quality, putting middle-class and low-income borrowers at risk of unfavorable mortgage terms or servicing issues."
+    ],
+    "enriched_at": "2026-03-23T04:24:22.311Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

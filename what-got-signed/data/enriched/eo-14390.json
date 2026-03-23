@@ -1,0 +1,46 @@
+{
+  "document_number": "2026-04826",
+  "executive_order_number": "14390",
+  "title": "Combating Cybercrime, Fraud, and Predatory Schemes Against American Citizens",
+  "abstract": null,
+  "signing_date": "2026-03-06",
+  "publication_date": "2026-03-11",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/03/11/2026-04826/combating-cybercrime-fraud-and-predatory-schemes-against-american-citizens",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-03-11/pdf/2026-04826.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/03/11/2026-04826.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to improve efforts to combat cybercrime and fraud schemes targeting American citizens, including those run by foreign criminal organizations. It mandates development of coordinated action plans, support for victims, enhanced international cooperation, and stronger protection of U.S. digital and financial systems against these threats.",
+    "theme_ids": [
+      "cybersecurity-national-security",
+      "homeland-security",
+      "transnational-crime-cartels",
+      "victim-rights",
+      "economic-sanctions"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens",
+        "crime-victims",
+        "technology-workers",
+        "cybersecurity-professionals"
+      ],
+      "negative_ids": [
+        "foreign-government-officials",
+        "citizens-of-specific-countries-by-eo-designation"
+      ]
+    },
+    "potential_concerns": [
+      "Heightened law enforcement and offensive cyber operations targeting TCOs may strain diplomatic relationships with foreign governments, potentially impacting foreign government officials and nationals from designated countries negatively.",
+      "Implementation of aggressive sanctions and diplomatic penalties could inadvertently hinder cooperation that is essential for effective multinational cybercrime disruption, possibly leaving U.S. citizens less protected in the short term.",
+      "Increased information sharing between federal agencies and private cybersecurity firms may raise privacy and data protection concerns for U.S. citizens and consumers, especially if safeguards are insufficient.",
+      "The focus on prosecuting cyber-enabled fraud and scam centers could overwhelm the justice system, potentially delaying victim restoration programs and support services needed by crime victims.",
+      "Efforts to rapidly harden digital and financial infrastructure might impose operational and cost burdens on technology workers and cybersecurity professionals, impacting their workload and resource allocation."
+    ],
+    "enriched_at": "2026-03-23T04:24:45.336Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
