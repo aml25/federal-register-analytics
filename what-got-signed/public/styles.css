@@ -326,18 +326,12 @@ wa-tab-panel::part(base) {
   gap: var(--wa-space-2xs);
 }
 
-.weekly-eos-label {
-  color: var(--wa-color-text-quiet);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
 .weekly-orders {
   display: flex;
   flex-direction: column;
   gap: var(--wa-space-2xs);
-  list-style: none;
-  padding: 0;
+  list-style: disc;
+  padding-left: var(--wa-space-m);
   margin: 0;
 }
 

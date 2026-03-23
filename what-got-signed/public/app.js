@@ -253,10 +253,10 @@ async function loadWeeklyDigest() {
     ).join('');
 
     container.innerHTML = `
-      <p class="wa-heading-xs this-week-date" aria-label="Week of ${data.date_range}">${data.date_range}</p>
+      <p class="wa-heading-l this-week-date" aria-label="Week of ${data.date_range}">${data.date_range}</p>
       <p class="wa-body-m" id="weekly-narrative">${narrative}</p>
       <div class="weekly-eos">
-        <p class="wa-label-s weekly-eos-label">Executive orders this week</p>
+        <p class="wa-body-s wa-color-text-quiet">Executive orders this week</p>
         <ul class="weekly-orders">${orderListHtml}</ul>
       </div>
     `;
