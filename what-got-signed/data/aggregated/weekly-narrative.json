@@ -6,8 +6,16 @@
     {
       "number": "14395",
       "title": "Establishing the Task Force To Eliminate Fraud",
-      "url": "/detail/eo/14395"
+      "url": "https://www.federalregister.gov/documents/2026/03/19/2026-05497/establishing-the-task-force-to-eliminate-fraud",
+      "president_name": "Donald Trump"
     }
+  ],
+  "top_themes": [
+    { "id": "government-efficiency", "name": "Government Efficiency" },
+    { "id": "presidential-commissions-task-forces", "name": "Presidential Commissions / Task Forces" },
+    { "id": "medicaid", "name": "Medicaid" },
+    { "id": "consumer-fraud-market-integrity", "name": "Consumer Fraud / Market Integrity" },
+    { "id": "homeland-security", "name": "Homeland Security" }
   ],
   "generated_at": "2026-03-23T04:26:44.831Z",
   "model_used": "gpt-4.1-mini"

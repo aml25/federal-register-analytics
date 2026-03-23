@@ -1397,7 +1397,8 @@ export async function generateNarratives(options: GenerateNarrativesOptions = {}
 interface WeeklyNarrativeOrder {
   number: number;
   title: string;
-  url: string;
+  url: string;           // Federal Register URL (html_url from enriched order)
+  president_name: string;
 }
 
 export interface WeeklyNarrativeFile {
@@ -1405,6 +1406,7 @@ export interface WeeklyNarrativeFile {
   date_range: string;    // Human-readable e.g. "March 16–22, 2026"
   narrative: string;     // LLM-generated prose
   orders: WeeklyNarrativeOrder[];
+  top_themes: { id: string; name: string }[];
   generated_at: string;
   model_used: string;
 }
@@ -1493,7 +1495,8 @@ export async function generateWeeklyNarrative(options: { force?: boolean } = {})
   const orderList: WeeklyNarrativeOrder[] = weekOrders.map(o => ({
     number: o.executive_order_number,
     title: o.title,
-    url: `/detail/eo/${o.executive_order_number}`
+    url: o.html_url,
+    president_name: o.president.name
   }));
 
   // Empty week: write a quiet-week file, no LLM call
@@ -1504,6 +1507,7 @@ export async function generateWeeklyNarrative(options: { force?: boolean } = {})
       date_range: dateRange,
       narrative: '',
       orders: [],
+      top_themes: [],
       generated_at: new Date().toISOString(),
       model_used: ''
     };
@@ -1561,6 +1565,7 @@ Write ONE concise paragraph (50–80 words) in flowing narrative prose — not b
     date_range: dateRange,
     narrative,
     orders: orderList,
+    top_themes: topThemes.map(t => ({ id: t.id, name: t.name })),
     generated_at: new Date().toISOString(),
     model_used: OPENAI_MODEL
   };

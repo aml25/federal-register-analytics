@@ -317,7 +317,19 @@ wa-tab-panel::part(base) {
 
 /* This Week section */
 .this-week-date {
-  color: var(--wa-color-neutral-text-quiet);
+  color: var(--wa-color-text-quiet);
+}
+
+.weekly-eos {
+  display: flex;
+  flex-direction: column;
+  gap: var(--wa-space-2xs);
+}
+
+.weekly-eos-label {
+  color: var(--wa-color-text-quiet);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .weekly-orders {

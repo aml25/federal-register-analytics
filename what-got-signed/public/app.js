@@ -224,14 +224,13 @@ async function loadWeeklyDigest() {
     // Empty week
     if (!data.narrative && data.orders.length === 0) {
       container.innerHTML = `
-        <p class="this-week-date wa-body-m">${data.date_range}</p>
+        <p class="wa-heading-xs this-week-date">${data.date_range}</p>
         <p class="wa-body-m">A quiet week — no executive orders were signed.</p>
       `;
       return;
     }
 
-    // Wrap president names in narrative prose
-    // Collect all distinct president names from orders (approximate — good enough for weekly)
+    // Style president names with avatars in narrative prose
     let narrative = data.narrative;
     const presidentNames = [...new Set(
       (data.orders || []).map(o => o.president_name).filter(Boolean)
@@ -240,17 +239,26 @@ async function loadWeeklyDigest() {
       narrative = wrapPresidentNames(narrative, name);
     }
 
+    // Replace theme names with links (same pattern as timeline)
+    for (const theme of data.top_themes || []) {
+      const regex = new RegExp(`\\b${escapeRegex(theme.name.toLowerCase())}\\b`, 'gi');
+      narrative = narrative.replace(regex,
+        `<a href="/detail/theme/${theme.id}" class="wa-link">${theme.name.toLowerCase()}</a>`
+      );
+    }
+
+    // EO list as plain links, not buttons
     const orderListHtml = data.orders.map(o =>
-      `<wa-button class="arrow-button" variant="brand" appearance="plain" href="${o.url}">
-        <wa-icon name="arrow-right" label="View EO ${o.number}"></wa-icon>
-        EO ${o.number} — ${o.title}
-      </wa-button>`
+      `<li><a href="${o.url}" class="wa-link" target="_blank" rel="noopener">EO ${o.number} — ${o.title}</a></li>`
     ).join('');
 
     container.innerHTML = `
-      <p class="this-week-date wa-body-m" aria-label="Week of ${data.date_range}">${data.date_range}</p>
+      <p class="wa-heading-xs this-week-date" aria-label="Week of ${data.date_range}">${data.date_range}</p>
       <p class="wa-body-m" id="weekly-narrative">${narrative}</p>
-      <ul role="list" class="weekly-orders">${orderListHtml}</ul>
+      <div class="weekly-eos">
+        <p class="wa-label-s weekly-eos-label">Executive orders this week</p>
+        <ul class="weekly-orders">${orderListHtml}</ul>
+      </div>
     `;
   } catch (err) {
     section.removeAttribute('aria-busy');
