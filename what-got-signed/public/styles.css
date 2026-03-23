@@ -328,6 +328,10 @@ wa-tab-panel::part(base) {
   gap: var(--wa-space-xs);
 }
 
+.this-week-date {
+  align-self: flex-start;
+}
+
 
 .weekly-eos {
   display: flex;
