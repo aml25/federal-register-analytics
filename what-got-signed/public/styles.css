@@ -328,9 +328,6 @@ wa-tab-panel::part(base) {
   gap: var(--wa-space-xs);
 }
 
-.this-week-date {
-  color: var(--wa-color-text-quiet);
-}
 
 .weekly-eos {
   display: flex;

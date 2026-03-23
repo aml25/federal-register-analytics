@@ -225,7 +225,7 @@ async function loadWeeklyDigest() {
     if (!data.narrative && data.orders.length === 0) {
       container.innerHTML = `
         <div class="this-week-story">
-          <p class="this-week-date wa-body-s">${data.date_range}</p>
+          <wa-tag class="this-week-date" appearance="outlined" size="small">${data.date_range}</wa-tag>
           <p class="wa-body-m">A quiet week — no executive orders were signed.</p>
         </div>
       `;
@@ -256,7 +256,7 @@ async function loadWeeklyDigest() {
 
     container.innerHTML = `
       <div class="this-week-story">
-        <p class="this-week-date wa-body-s" aria-label="Week of ${data.date_range}">${data.date_range}</p>
+        <wa-tag class="this-week-date" appearance="outlined" size="small" aria-label="Week of ${data.date_range}">${data.date_range}</wa-tag>
         <p class="wa-body-m" id="weekly-narrative">${narrative}</p>
       </div>
       <div class="weekly-eos">
