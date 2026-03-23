@@ -6,7 +6,7 @@ import OpenAI from 'openai';
 import { join } from 'node:path';
 import { readFile } from 'node:fs/promises';
 import { AGGREGATED_DIR, OPENAI_MODEL } from './config.js';
-import { loadThemes, loadPopulations, writeJson } from './utils.js';
+import { loadThemes, loadPopulations, writeJson, withRetry } from './utils.js';
 import {
   loadAllEnriched,
   detectPresidentTerms,
@@ -1388,4 +1388,184 @@ export async function generateNarratives(options: GenerateNarrativesOptions = {}
       force: options.force
     });
   }
+}
+
+// =============================================================================
+// WEEKLY NARRATIVE
+// =============================================================================
+
+interface WeeklyNarrativeOrder {
+  number: number;
+  title: string;
+  url: string;
+}
+
+export interface WeeklyNarrativeFile {
+  week: string;          // ISO week key e.g. "2026-W12"
+  date_range: string;    // Human-readable e.g. "March 16–22, 2026"
+  narrative: string;     // LLM-generated prose
+  orders: WeeklyNarrativeOrder[];
+  generated_at: string;
+  model_used: string;
+}
+
+/**
+ * Get ISO week key for a date: "YYYY-Www"
+ * Uses the ISO 8601 week-numbering year (week starts Monday).
+ */
+function getISOWeekKey(date: Date): string {
+  const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+  // ISO week: Thursday of the week determines the year
+  d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7));
+  const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+  const week = Math.ceil(((d.getTime() - yearStart.getTime()) / 86400000 + 1) / 7);
+  const year = d.getUTCFullYear();
+  return `${year}-W${String(week).padStart(2, '0')}`;
+}
+
+/**
+ * Get the Monday–Sunday date range for a given ISO week key
+ */
+function getWeekDateRange(weekKey: string): { start: Date; end: Date } {
+  const [yearStr, weekStr] = weekKey.split('-W');
+  const year = parseInt(yearStr, 10);
+  const week = parseInt(weekStr, 10);
+
+  // Jan 4 is always in week 1
+  const jan4 = new Date(Date.UTC(year, 0, 4));
+  const jan4Day = jan4.getUTCDay() || 7; // Mon=1 … Sun=7
+  const monday = new Date(jan4.getTime() - (jan4Day - 1) * 86400000 + (week - 1) * 7 * 86400000);
+  const sunday = new Date(monday.getTime() + 6 * 86400000);
+  return { start: monday, end: sunday };
+}
+
+/**
+ * Format a date range as "Month D–D, YYYY" or "Month D – Month D, YYYY"
+ */
+function formatDateRange(start: Date, end: Date): string {
+  const monthNames = ['January','February','March','April','May','June',
+                      'July','August','September','October','November','December'];
+  const startMonth = monthNames[start.getUTCMonth()];
+  const endMonth = monthNames[end.getUTCMonth()];
+  const startDay = start.getUTCDate();
+  const endDay = end.getUTCDate();
+  const year = end.getUTCFullYear();
+
+  if (startMonth === endMonth) {
+    return `${startMonth} ${startDay}–${endDay}, ${year}`;
+  }
+  return `${startMonth} ${startDay} – ${endMonth} ${endDay}, ${year}`;
+}
+
+/**
+ * Generate (or skip if current) the weekly digest narrative
+ */
+export async function generateWeeklyNarrative(options: { force?: boolean } = {}): Promise<void> {
+  console.log(`\n=== Generating Weekly Narrative ===\n`);
+
+  const weekKey = getISOWeekKey(new Date());
+  const outputPath = join(AGGREGATED_DIR, 'weekly-narrative.json');
+
+  // Staleness check: if already generated for this week, skip
+  if (!options.force) {
+    try {
+      const existing = JSON.parse(await readFile(outputPath, 'utf-8')) as WeeklyNarrativeFile;
+      if (existing.week === weekKey) {
+        console.log(`Weekly narrative for ${weekKey} already exists — skipping.`);
+        return;
+      }
+    } catch {
+      // File missing or corrupt — proceed to generate
+    }
+  }
+
+  const { start, end } = getWeekDateRange(weekKey);
+  const dateRange = formatDateRange(start, end);
+
+  // Find EOs signed this week
+  const allOrders = await loadAllEnriched();
+  const weekOrders = allOrders.filter(order => {
+    if (!order.signing_date) return false;
+    const signed = new Date(order.signing_date);
+    return signed >= start && signed <= end;
+  });
+
+  const orderList: WeeklyNarrativeOrder[] = weekOrders.map(o => ({
+    number: o.executive_order_number,
+    title: o.title,
+    url: `/detail/eo/${o.executive_order_number}`
+  }));
+
+  // Empty week: write a quiet-week file, no LLM call
+  if (weekOrders.length === 0) {
+    console.log(`No executive orders signed this week (${dateRange}) — writing quiet-week file.`);
+    const output: WeeklyNarrativeFile = {
+      week: weekKey,
+      date_range: dateRange,
+      narrative: '',
+      orders: [],
+      generated_at: new Date().toISOString(),
+      model_used: ''
+    };
+    await writeJson(outputPath, output);
+    return;
+  }
+
+  console.log(`${weekOrders.length} order(s) signed this week (${dateRange})`);
+
+  // Build context
+  const themes = await loadThemes();
+  const topThemes = countThemes(weekOrders, themes).slice(0, 8);
+  const orderTitles = weekOrders
+    .map(o => `- EO ${o.executive_order_number}: ${o.title}`)
+    .join('\n');
+  const presidentName = weekOrders[weekOrders.length - 1]?.president.name ?? 'the President';
+
+  const context = `
+WEEK: ${dateRange}
+PRESIDENT: ${presidentName}
+TOTAL EXECUTIVE ORDERS: ${weekOrders.length}
+
+TOP THEMES:
+${topThemes.map(t => `- ${t.name}: ${t.count} orders`).join('\n')}
+
+ORDERS SIGNED:
+${orderTitles}
+`.trim();
+
+  // Generate with OpenAI
+  const openai = new OpenAI();
+  const systemPrompt = `You are a journalist writing a brief weekly digest of presidential executive order activity for an informed general audience.
+
+Write ONE concise paragraph (50–80 words) in flowing narrative prose — not bullet points. Neutral, factual, engaging. Past tense. Weave specific EO titles and themes into a coherent story. No editorializing.`;
+
+  const userPrompt = `Summarize this week's executive order activity:\n\n${context}`;
+
+  const response = await withRetry(
+    () => openai.chat.completions.create({
+      model: OPENAI_MODEL,
+      messages: [
+        { role: 'system', content: systemPrompt },
+        { role: 'user', content: userPrompt }
+      ],
+      temperature: 0.7,
+      max_completion_tokens: 200
+    }),
+    (err) => err instanceof OpenAI.RateLimitError || err instanceof OpenAI.APIConnectionTimeoutError || err instanceof OpenAI.APIConnectionError
+  );
+
+  const narrative = response.choices[0]?.message?.content?.trim() ?? '';
+
+  const output: WeeklyNarrativeFile = {
+    week: weekKey,
+    date_range: dateRange,
+    narrative,
+    orders: orderList,
+    generated_at: new Date().toISOString(),
+    model_used: OPENAI_MODEL
+  };
+
+  await writeJson(outputPath, output);
+  console.log(`Saved weekly narrative for ${weekKey} to weekly-narrative.json`);
+  console.log('\nDone!');
 }

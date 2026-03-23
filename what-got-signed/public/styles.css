@@ -315,6 +315,20 @@ wa-tab-panel::part(base) {
   color: var(--wa-color-text-quiet);
 }
 
+/* This Week section */
+.this-week-date {
+  color: var(--wa-color-neutral-text-quiet);
+}
+
+.weekly-orders {
+  display: flex;
+  flex-direction: column;
+  gap: var(--wa-space-2xs);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 /* Disclaimer footer */
 .disclaimer {
   display: flex;

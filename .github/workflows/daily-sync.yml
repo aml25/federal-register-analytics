@@ -1,0 +1,52 @@
+name: Daily EO Sync
+
+on:
+  schedule:
+    - cron: '0 10 * * *'   # 10:00 UTC daily (6am ET)
+  workflow_dispatch:        # Allow manual trigger
+
+concurrency:
+  group: daily-sync
+  cancel-in-progress: false  # Never cancel a running sync — let it finish
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write        # Required to commit updated data files
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0     # Full history needed for git pull --rebase
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Run sync
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: npm run update
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add what-got-signed/data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git pull --rebase origin main
+            git commit -m "chore: sync EO data $(date -u '+%Y-%m-%d')"
+            git push origin main
+          fi

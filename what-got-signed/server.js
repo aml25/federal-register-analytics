@@ -396,6 +396,16 @@ app.get('/api/orders/theme/:themeId', async (req, res) => {
   }
 });
 
+// API: Get weekly digest
+app.get('/api/weekly-narrative', async (req, res) => {
+  try {
+    const data = await readFile(join(DATA_DIR, 'aggregated', 'weekly-narrative.json'), 'utf-8');
+    res.json(JSON.parse(data));
+  } catch (err) {
+    res.status(404).json({ error: 'Weekly narrative not yet generated' });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`What Got Signed? running at http://localhost:${PORT}`);
 });

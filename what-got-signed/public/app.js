@@ -204,8 +204,68 @@ function alignTimeline() {
 
 }
 
+// Fetch and render weekly digest
+async function loadWeeklyDigest() {
+  const section = document.getElementById('this-week-section');
+  const container = document.getElementById('this-week-content');
+
+  try {
+    const response = await fetch('/api/weekly-narrative');
+
+    if (!response.ok) {
+      // weekly-narrative.json not yet generated — hide the section silently
+      section.style.display = 'none';
+      return;
+    }
+
+    const data = await response.json();
+    section.removeAttribute('aria-busy');
+
+    // Empty week
+    if (!data.narrative && data.orders.length === 0) {
+      container.innerHTML = `
+        <p class="this-week-date wa-body-m">${data.date_range}</p>
+        <p class="wa-body-m">A quiet week — no executive orders were signed.</p>
+      `;
+      return;
+    }
+
+    // Wrap president names in narrative prose
+    // Collect all distinct president names from orders (approximate — good enough for weekly)
+    let narrative = data.narrative;
+    const presidentNames = [...new Set(
+      (data.orders || []).map(o => o.president_name).filter(Boolean)
+    )];
+    for (const name of presidentNames) {
+      narrative = wrapPresidentNames(narrative, name);
+    }
+
+    const orderListHtml = data.orders.map(o =>
+      `<wa-button class="arrow-button" variant="brand" appearance="plain" href="${o.url}">
+        <wa-icon name="arrow-right" label="View EO ${o.number}"></wa-icon>
+        EO ${o.number} — ${o.title}
+      </wa-button>`
+    ).join('');
+
+    container.innerHTML = `
+      <p class="this-week-date wa-body-m" aria-label="Week of ${data.date_range}">${data.date_range}</p>
+      <p class="wa-body-m" id="weekly-narrative">${narrative}</p>
+      <ul role="list" class="weekly-orders">${orderListHtml}</ul>
+    `;
+  } catch (err) {
+    section.removeAttribute('aria-busy');
+    container.innerHTML = `
+      <wa-callout variant="warning">
+        <wa-icon slot="icon" name="circle-exclamation"></wa-icon>
+        Couldn't load this week's summary. Check back soon.
+      </wa-callout>
+    `;
+  }
+}
+
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
+  loadWeeklyDigest();
   loadTermSummaries();
   loadTimeline();
 });

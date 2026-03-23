@@ -10,7 +10,7 @@ import OpenAI from 'openai';
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { ENRICHED_DIR, OPENAI_MODEL, ENRICH_DELAY_MS } from './config.js';
-import { readJson, writeJson, sleep } from './utils.js';
+import { readJson, writeJson, sleep, withRetry } from './utils.js';
 import { loadRawOrders } from './fetch.js';
 import {
   loadTaxonomy,
@@ -207,19 +207,27 @@ IMPORTANT: Only include "suggested_populations" if absolutely necessary. The tax
 }
 
 /**
+ * Returns true for OpenAI errors that are safe to retry (rate limit, timeout, network)
+ */
+function isRetryableOpenAIError(err: unknown): boolean {
+  if (err instanceof OpenAI.RateLimitError) return true;
+  if (err instanceof OpenAI.APIConnectionTimeoutError) return true;
+  if (err instanceof OpenAI.APIConnectionError) return true;
+  return false;
+}
+
+/**
  * Call OpenAI for Pass 1 (summary + themes)
  */
 async function callPass1LLM(prompt: string): Promise<LLMTaxonomyPass1Response> {
-  const response = await openai.chat.completions.create({
-    model: OPENAI_MODEL,
-    max_completion_tokens: 2048,
-    messages: [
-      {
-        role: 'user',
-        content: prompt
-      }
-    ]
-  });
+  const response = await withRetry(
+    () => openai.chat.completions.create({
+      model: OPENAI_MODEL,
+      max_completion_tokens: 2048,
+      messages: [{ role: 'user', content: prompt }]
+    }),
+    isRetryableOpenAIError
+  );
 
   const content = response.choices[0]?.message?.content;
   if (!content) {
@@ -238,16 +246,14 @@ async function callPass1LLM(prompt: string): Promise<LLMTaxonomyPass1Response> {
  * Call OpenAI for Pass 2 (populations + concerns)
  */
 async function callPass2LLM(prompt: string): Promise<LLMTaxonomyPass2Response> {
-  const response = await openai.chat.completions.create({
-    model: OPENAI_MODEL,
-    max_completion_tokens: 2048,
-    messages: [
-      {
-        role: 'user',
-        content: prompt
-      }
-    ]
-  });
+  const response = await withRetry(
+    () => openai.chat.completions.create({
+      model: OPENAI_MODEL,
+      max_completion_tokens: 2048,
+      messages: [{ role: 'user', content: prompt }]
+    }),
+    isRetryableOpenAIError
+  );
 
   const content = response.choices[0]?.message?.content;
   if (!content) {
