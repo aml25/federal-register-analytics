@@ -225,7 +225,7 @@ async function loadWeeklyDigest() {
     if (!data.narrative && data.orders.length === 0) {
       container.innerHTML = `
         <div class="this-week-story">
-          <wa-tag class="this-week-date" variant="brand" appearance="filled" size="small">${data.date_range}</wa-tag>
+          <wa-tag class="this-week-date" variant="brand" appearance="filled">${data.date_range}</wa-tag>
           <p class="wa-body-m">A quiet week — no executive orders were signed.</p>
         </div>
       `;
@@ -249,18 +249,19 @@ async function loadWeeklyDigest() {
       );
     }
 
-    // EO list as plain links, not buttons
+    // EO list as arrow buttons (consistent with "The record" CTA pattern)
     const orderListHtml = data.orders.map(o =>
-      `<li><a href="${o.url}" class="wa-link" target="_blank" rel="noopener">EO ${o.number} — ${o.title}</a></li>`
+      `<li><wa-button class="arrow-button" variant="brand" appearance="plain" href="${o.url}" target="_blank" rel="noopener">EO ${o.number} — ${o.title}<wa-icon slot="suffix" name="arrow-up-right-from-square"></wa-icon></wa-button></li>`
     ).join('');
 
     container.innerHTML = `
       <div class="this-week-story">
-        <wa-tag class="this-week-date" variant="brand" appearance="filled" size="small" aria-label="Week of ${data.date_range}">${data.date_range}</wa-tag>
+        <wa-tag class="this-week-date" variant="brand" appearance="filled" aria-label="Week of ${data.date_range}">${data.date_range}</wa-tag>
         <p class="wa-body-m" id="weekly-narrative">${narrative}</p>
       </div>
+      <wa-divider></wa-divider>
       <div class="weekly-eos">
-        <p class="wa-body-s wa-color-text-quiet">Executive orders this week</p>
+        <p class="wa-body-s">Executive orders this week</p>
         <ul class="weekly-orders">${orderListHtml}</ul>
       </div>
     `;
