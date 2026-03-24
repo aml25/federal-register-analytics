@@ -208,6 +208,7 @@ function alignTimeline() {
 async function loadWeeklyDigest() {
   const section = document.getElementById('this-week-section');
   const container = document.getElementById('this-week-content');
+  const header = section.querySelector('.this-week-header');
 
   try {
     const response = await fetch('/api/weekly-narrative');
@@ -221,14 +222,12 @@ async function loadWeeklyDigest() {
     const data = await response.json();
     section.removeAttribute('aria-busy');
 
+    // Add date tag to the header row (h2 is already there from EJS)
+    header.innerHTML += `<wa-tag variant="brand" appearance="filled" aria-label="Week of ${data.date_range}">${data.date_range}</wa-tag>`;
+
     // Empty week
     if (!data.narrative && data.orders.length === 0) {
-      container.innerHTML = `
-        <div class="this-week-story">
-          <wa-tag class="this-week-date" variant="brand" appearance="filled">${data.date_range}</wa-tag>
-          <p class="wa-body-m">A quiet week — no executive orders were signed.</p>
-        </div>
-      `;
+      container.innerHTML = `<p class="wa-body-m">A quiet week — no executive orders were signed.</p>`;
       return;
     }
 
@@ -249,21 +248,14 @@ async function loadWeeklyDigest() {
       );
     }
 
-    // EO list as arrow buttons (consistent with "The record" CTA pattern)
+    // EO list — wa-link with external icon, body-s size (mirrors detail page pattern)
     const orderListHtml = data.orders.map(o =>
-      `<li><wa-button class="arrow-button" variant="brand" appearance="plain" href="${o.url}" target="_blank" rel="noopener">EO ${o.number} — ${o.title}<wa-icon slot="suffix" name="arrow-up-right-from-square"></wa-icon></wa-button></li>`
+      `<li><a href="${o.url}" class="wa-link" target="_blank" rel="noopener">EO ${o.number} — ${o.title} <wa-icon name="arrow-up-right-from-square" label="Open on Federal Register" style="font-size: 0.8em;"></wa-icon></a></li>`
     ).join('');
 
     container.innerHTML = `
-      <div class="this-week-story">
-        <wa-tag class="this-week-date" variant="brand" appearance="filled" aria-label="Week of ${data.date_range}">${data.date_range}</wa-tag>
-        <p class="wa-body-m" id="weekly-narrative">${narrative}</p>
-      </div>
-      <wa-divider></wa-divider>
-      <div class="weekly-eos">
-        <p class="wa-body-s">Executive orders this week</p>
-        <ul class="weekly-orders">${orderListHtml}</ul>
-      </div>
+      <p class="wa-body-m" id="weekly-narrative">${narrative}</p>
+      <ul class="weekly-orders wa-body-s">${orderListHtml}</ul>
     `;
   } catch (err) {
     section.removeAttribute('aria-busy');
