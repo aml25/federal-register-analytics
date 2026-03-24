@@ -224,10 +224,8 @@ async function loadWeeklyDigest() {
     // Empty week
     if (!data.narrative && data.orders.length === 0) {
       container.innerHTML = `
-        <div class="this-week-story">
-          <wa-tag class="this-week-date" variant="brand" appearance="filled" size="small">${data.date_range}</wa-tag>
-          <p class="wa-body-m">A quiet week — no executive orders were signed.</p>
-        </div>
+        <p class="wa-body-s wa-color-text-quiet">${data.date_range}</p>
+        <p class="wa-body-m">A quiet week — no executive orders were signed.</p>
       `;
       return;
     }
@@ -249,20 +247,15 @@ async function loadWeeklyDigest() {
       );
     }
 
-    // EO list as plain links, not buttons
+    // EO list — wa-link with external icon, body-s size (mirrors detail page pattern)
     const orderListHtml = data.orders.map(o =>
-      `<li><a href="${o.url}" class="wa-link" target="_blank" rel="noopener">EO ${o.number} — ${o.title}</a></li>`
+      `<li><a href="${o.url}" class="wa-link" target="_blank" rel="noopener">EO ${o.number} — ${o.title} <wa-icon name="arrow-up-right-from-square" label="Open on Federal Register" style="font-size: 0.8em;"></wa-icon></a></li>`
     ).join('');
 
     container.innerHTML = `
-      <div class="this-week-story">
-        <wa-tag class="this-week-date" variant="brand" appearance="filled" size="small" aria-label="Week of ${data.date_range}">${data.date_range}</wa-tag>
-        <p class="wa-body-m" id="weekly-narrative">${narrative}</p>
-      </div>
-      <div class="weekly-eos">
-        <p class="wa-body-s wa-color-text-quiet">Executive orders this week</p>
-        <ul class="weekly-orders">${orderListHtml}</ul>
-      </div>
+      <p class="wa-body-s wa-color-text-quiet">${data.date_range}</p>
+      <p class="wa-body-m" id="weekly-narrative">${narrative}</p>
+      <ul class="weekly-orders wa-body-s">${orderListHtml}</ul>
     `;
   } catch (err) {
     section.removeAttribute('aria-busy');
