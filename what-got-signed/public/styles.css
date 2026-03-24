@@ -316,6 +316,11 @@ wa-tab-panel::part(base) {
 }
 
 /* This Week section */
+#this-week-section {
+  border-top: 3px solid var(--wa-color-brand);
+  padding-top: var(--wa-space-m);
+}
+
 #this-week-content {
   display: flex;
   flex-direction: column;
@@ -342,9 +347,9 @@ wa-tab-panel::part(base) {
 .weekly-orders {
   display: flex;
   flex-direction: column;
-  gap: var(--wa-space-2xs);
-  list-style: disc;
-  padding-left: var(--wa-space-m);
+  gap: 0;
+  list-style: none;
+  padding: 0;
   margin: 0;
 }
 
