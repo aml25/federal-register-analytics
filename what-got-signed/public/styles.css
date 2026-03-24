@@ -317,37 +317,32 @@ wa-tab-panel::part(base) {
 
 /* This Week section */
 #this-week-section {
-  border-top: 3px solid var(--wa-color-brand);
-  padding-top: var(--wa-space-m);
+  /* Bleed beyond .content padding so border goes edge-to-edge of the gutter */
+  width: calc(100% + 2 * var(--content-padding));
+  margin-left: calc(-1 * var(--content-padding));
+  /* Restore inner padding so text aligns at the original content edge */
+  padding: var(--wa-space-l) var(--content-padding);
+  border: var(--wa-border-width-s) solid var(--wa-color-neutral-border-normal);
+  border-radius: var(--wa-border-radius-l);
+}
+
+.this-week-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #this-week-content {
   display: flex;
   flex-direction: column;
-  gap: var(--wa-space-l);
-}
-
-.this-week-story {
-  display: flex;
-  flex-direction: column;
-  gap: var(--wa-space-xs);
-}
-
-.this-week-date {
-  align-self: flex-start;
-}
-
-
-.weekly-eos {
-  display: flex;
-  flex-direction: column;
-  gap: var(--wa-space-2xs);
+  gap: var(--wa-space-m);
 }
 
 .weekly-orders {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: var(--wa-space-2xs);
   list-style: none;
   padding: 0;
   margin: 0;
