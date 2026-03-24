@@ -208,7 +208,6 @@ function alignTimeline() {
 async function loadWeeklyDigest() {
   const section = document.getElementById('this-week-section');
   const container = document.getElementById('this-week-content');
-  const header = section.querySelector('.this-week-header');
 
   try {
     const response = await fetch('/api/weekly-narrative');
@@ -222,12 +221,12 @@ async function loadWeeklyDigest() {
     const data = await response.json();
     section.removeAttribute('aria-busy');
 
-    // Add date tag to the header row (h2 is already there from EJS)
-    header.innerHTML += `<wa-tag variant="brand" appearance="filled" aria-label="Week of ${data.date_range}">${data.date_range}</wa-tag>`;
-
     // Empty week
     if (!data.narrative && data.orders.length === 0) {
-      container.innerHTML = `<p class="wa-body-m">A quiet week — no executive orders were signed.</p>`;
+      container.innerHTML = `
+        <p class="wa-body-s wa-color-text-quiet">${data.date_range}</p>
+        <p class="wa-body-m">A quiet week — no executive orders were signed.</p>
+      `;
       return;
     }
 
@@ -254,6 +253,7 @@ async function loadWeeklyDigest() {
     ).join('');
 
     container.innerHTML = `
+      <p class="wa-body-s wa-color-text-quiet">${data.date_range}</p>
       <p class="wa-body-m" id="weekly-narrative">${narrative}</p>
       <ul class="weekly-orders wa-body-s">${orderListHtml}</ul>
     `;
