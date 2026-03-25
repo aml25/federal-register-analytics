@@ -77,6 +77,12 @@ export async function sync(options: SyncOptions = {}): Promise<void> {
   if (newOrders.length === 0) {
     console.log(`\nNo new executive orders found for ${year}.`);
     console.log(`All ${getExistingEONumbers().size} orders are up to date.\n`);
+
+    // Still update the weekly digest — it needs to roll over even on quiet weeks
+    if (!skipNarratives) {
+      console.log(`[1/1] Checking weekly digest...`);
+      await generateWeeklyNarrative({});
+    }
     return;
   }
 

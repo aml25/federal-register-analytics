@@ -1,22 +1,9 @@
 {
-  "week": "2026-W12",
-  "date_range": "March 16–22, 2026",
-  "narrative": "During the week of March 16–22, 2026, President Donald Trump signed Executive Order 14395, establishing the Task Force To Eliminate Fraud. This order aimed to enhance government efficiency by coordinating efforts across agencies to combat Medicaid fraud, protect consumers, and strengthen market integrity. The initiative also addressed homeland security concerns by targeting fraudulent activities that undermine public trust and fiscal responsibility.",
-  "orders": [
-    {
-      "number": "14395",
-      "title": "Establishing the Task Force To Eliminate Fraud",
-      "url": "https://www.federalregister.gov/documents/2026/03/19/2026-05497/establishing-the-task-force-to-eliminate-fraud",
-      "president_name": "Donald Trump"
-    }
-  ],
-  "top_themes": [
-    { "id": "government-efficiency", "name": "Government Efficiency" },
-    { "id": "presidential-commissions-task-forces", "name": "Presidential Commissions / Task Forces" },
-    { "id": "medicaid", "name": "Medicaid" },
-    { "id": "consumer-fraud-market-integrity", "name": "Consumer Fraud / Market Integrity" },
-    { "id": "homeland-security", "name": "Homeland Security" }
-  ],
-  "generated_at": "2026-03-23T04:26:44.831Z",
-  "model_used": "gpt-4.1-mini"
+  "week": "2026-W13",
+  "date_range": "March 23–29, 2026",
+  "narrative": "",
+  "orders": [],
+  "top_themes": [],
+  "generated_at": "2026-03-25T03:38:16.504Z",
+  "model_used": ""
 }
