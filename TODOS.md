@@ -77,20 +77,44 @@ Items deferred from plan reviews and development sessions.
 
 ## P3 — Future / Deferred
 
-### [FEAT-003] Interactive LLM chat interface
-**What:** A context-aware conversational interface where users ask questions about EOs in natural language and get sourced answers.
-**Why:** Core "help people understand" feature from the product vision. Currently all LLM use is at build time; this adds query-time AI. "Get inspired by static, dig in with chat" is the product vision.
-**Pros:** Highest single-feature user value; makes the site feel like a tool, not a browser.
-**Cons:** Significant product decision — moderation, cost, abuse vectors, UX.
-**Architecture (decided in advisory session 2026-03-17):**
-- **Retrieval**: Use pipeline theme/population tags + title search to find relevant EOs for a user's query
-- **Generation**: Send raw EO text (via `raw_text_url`) to the LLM — NOT the pipeline's LLM-generated summaries (bypasses pipeline quality issues)
-- **Context-aware**: Chat widget is pre-loaded with page context (which EO/theme/president the user is viewing)
-- **Backend candidate**: `federal-register-mcp` (https://github.com/aml25/federal-register-mcp) already exposes Federal Register data via MCP — could serve as the data layer, avoiding duplication
-- **NOT needed**: Vector embeddings or semantic search for v1; theme tag retrieval is sufficient to start
+### [FEAT-003] Interactive LLM chat interface — DESIGN COMPLETE
+**Status:** Design approved 2026-03-24. Architecture locked in eng review 2026-03-24.
+**Design doc:** `~/.gstack/projects/aml25-federal-register-analytics/adamlaskowitz-main-design-20260324-221236.md`
+**What was decided:**
+- Standalone `/investigate` page (not sidebar) — 3-column workspace
+- `/api/chat` POST endpoint on Express server; direct Federal Register API + enriched JSON (no MCP)
+- OpenAI `gpt-4.1-mini`, full response (no streaming in v1), 10-turn cap
+- Raw EO text via `html_url` with 3s AbortController timeout; HTML-stripped + 24,000-char truncation
+- Findings: user-curated, localStorage persistence keyed by EO ID, clipboard export
+- Rate limiting: `express-rate-limit` in-process for v1; Upstash upgrade path for v2
+- `utils.js` shared module for `wrapPresidentNames()` + `linkThemeNames()` (CLAUDE.md compliance)
+**Ready to implement** — close SEC-001 + INFRA-001 first, then follow Next Steps in design doc.
 **Effort:** L (human: ~3 weeks / CC: ~2h)
+**Priority:** P2 (promoted — design complete, ready to build)
+
+---
+
+### [FEAT-006] Related EOs in /api/chat — theme-index.json build step
+**What:** Add `data/aggregated/theme-index.json` generation to `aggregate.ts` (maps `themeId → [eoNumbers]`). Use it in `/api/chat` to include top 3 related EOs by theme overlap in the system prompt.
+**Why:** v1 dropped related EOs because `timeline.json` doesn't have per-EO theme data. This is the correct data structure to fix that gap.
+**Pros:** Enriches the chat context; enables smarter suggested prompts. Index is small (one file), fast to query.
+**Cons:** Adds a build step. Not needed for the core v1 chat experience.
+**Context:** Discovered during eng review 2026-03-24 — `timeline.json` is a quarterly aggregate, not a per-EO theme index. The enriched files have `enrichment.theme_ids` but scanning all of them on every chat request is too slow.
+**Effort:** S (human: ~2h / CC: ~15min)
 **Priority:** P3
-**Depends on:** Traffic data to understand what users actually ask; ideally some user research first
+**Depends on:** FEAT-003 (investigate feature) shipped
+
+---
+
+### [FEAT-007] Shareable investigation URLs via Upstash KV
+**What:** POST `/api/investigation/save` stores the markdown findings report, returns a short ID. URL: `/investigation/{id}`. Same Upstash Redis service as the FEAT-003 v2 rate limiting upgrade.
+**Why:** Copy-to-clipboard is an export, not a share. Shareable URLs let users send their investigation to others.
+**Pros:** Completes the "keep or share" promise from the product vision. Low implementation cost once Upstash is added for rate limiting.
+**Cons:** Requires Upstash Redis free tier. Stored payload is the markdown report, not the conversation.
+**Context:** Explicitly deferred from FEAT-003 v1. Adding Upstash for rate limiting first reduces the marginal cost of this feature.
+**Effort:** S (human: ~3h / CC: ~20min)
+**Priority:** P3
+**Depends on:** FEAT-003 (investigate feature) shipped; Upstash added for rate limiting
 
 ---
 

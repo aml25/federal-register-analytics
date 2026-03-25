@@ -28,3 +28,6 @@ npm-debug.log*
 # Data files (generated)
 what-got-signed/data/raw/
 .gstack/
+
+# Local retro snapshots
+.context/retros/
