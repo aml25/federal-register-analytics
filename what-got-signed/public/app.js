@@ -225,7 +225,7 @@ async function loadWeeklyDigest() {
     if (!data.narrative && data.orders.length === 0) {
       container.innerHTML = `
         <p class="wa-body-s wa-color-text-quiet">${data.date_range}</p>
-        <p class="wa-body-m">A quiet week — no executive orders were signed.</p>
+        <p class="wa-body-m">It's been a quiet week, no executive orders have been signed yet.</p>
       `;
       return;
     }
