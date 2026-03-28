@@ -501,7 +501,12 @@ const chatLimiter = rateLimit({
   message: { error: 'Too many requests — try again in a moment.' },
 });
 
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+// Lazy-initialize so server boots without OPENAI_API_KEY (fails only at chat request time)
+let openai = null;
+function getOpenAI() {
+  if (!openai) openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+  return openai;
+}
 
 async function chatHandler(req, res) {
   const { subject, messages, question } = req.body || {};
@@ -586,7 +591,7 @@ ${rawTextBlock}`;
   ];
 
   try {
-    const completion = await openai.chat.completions.create({
+    const completion = await getOpenAI().chat.completions.create({
       model: 'gpt-4.1-mini',
       messages: openaiMessages,
       max_tokens: 1024,
