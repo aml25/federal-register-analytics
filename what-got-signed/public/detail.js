@@ -91,7 +91,7 @@ function renderOrderItem(order, themeMap, popMap) {
       
       <div class="order-header">
         <h4 class="order-title"><a href="${order.html_url}" target="_blank" class="wa-link">${order.title} <wa-icon name="arrow-up-right-from-square" label="Open on Federal Register" style="font-size: 0.8em;"></wa-icon></a></h4>
-        <p class="order-summary">${order.enrichment.summary}</p>
+        <p class="order-summary">${DOMPurify.sanitize(order.enrichment.summary, { ALLOWED_TAGS: [], ALLOWED_ATTR: [] })}</p>
       </div>
       <div class="order-themes-section">
         <h5 class="order-themes-label">Themes</h5>
@@ -128,9 +128,12 @@ async function loadTermDetail(presidentId, termStart) {
       const termEnd = narrative.term_end === 'present' ? 'present' : narrative.term_end;
       titleEl.textContent = `Review of executive orders for ${narrative.president_name} (${narrative.term_start}-${termEnd}).`;
 
-      // Wrap president names in narrative summaries
-      const styledSummary = wrapPresidentNames(narrative.summary, narrative.president_name);
-      const styledImpact = wrapPresidentNames(narrative.potential_impact, narrative.president_name);
+      // Sanitize LLM-generated text before HTML injection (SEC-001)
+      const cleanSummary = DOMPurify.sanitize(narrative.summary, { ALLOWED_TAGS: [], ALLOWED_ATTR: [] });
+      const cleanImpact = DOMPurify.sanitize(narrative.potential_impact, { ALLOWED_TAGS: [], ALLOWED_ATTR: [] });
+      // wrapPresidentNames runs post-sanitize — its output is trusted
+      const styledSummary = wrapPresidentNames(cleanSummary, narrative.president_name);
+      const styledImpact = wrapPresidentNames(cleanImpact, narrative.president_name);
 
       summaryEl.innerHTML = `<p>${styledSummary}</p>`;
       impactEl.innerHTML = `<p>${styledImpact}</p>`;
@@ -184,10 +187,10 @@ async function loadQuarterDetail(year, quarter) {
     titleEl.textContent = `Review of executive orders for ${quarterName}.`;
 
     if (narrative) {
-      // Style president names in narrative summaries
-      let styledSummary = narrative.summary;
-      let styledImpact = narrative.potential_impact;
-
+      // Sanitize LLM-generated text before HTML injection (SEC-001)
+      let styledSummary = DOMPurify.sanitize(narrative.summary, { ALLOWED_TAGS: [], ALLOWED_ATTR: [] });
+      let styledImpact = DOMPurify.sanitize(narrative.potential_impact, { ALLOWED_TAGS: [], ALLOWED_ATTR: [] });
+      // wrapPresidentNames runs post-sanitize — its output is trusted
       for (const president of narrative.presidents || []) {
         styledSummary = wrapPresidentNames(styledSummary, president.president_name);
         styledImpact = wrapPresidentNames(styledImpact, president.president_name);
@@ -253,10 +256,10 @@ async function loadThemeDetail(themeId) {
     if (narrative) {
       titleEl.textContent = `Review of executive orders for ${narrative.theme_name}.`;
 
-      // Style president names in narrative summaries
-      let styledSummary = narrative.summary;
-      let styledImpact = narrative.potential_impact;
-
+      // Sanitize LLM-generated text before HTML injection (SEC-001)
+      let styledSummary = DOMPurify.sanitize(narrative.summary, { ALLOWED_TAGS: [], ALLOWED_ATTR: [] });
+      let styledImpact = DOMPurify.sanitize(narrative.potential_impact, { ALLOWED_TAGS: [], ALLOWED_ATTR: [] });
+      // wrapPresidentNames runs post-sanitize — its output is trusted
       for (const president of narrative.presidents || []) {
         styledSummary = wrapPresidentNames(styledSummary, president.president_name);
         styledImpact = wrapPresidentNames(styledImpact, president.president_name);

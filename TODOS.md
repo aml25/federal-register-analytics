@@ -7,27 +7,12 @@ Items deferred from plan reviews and development sessions.
 ## P1 — High Priority
 
 ### [SEC-001] Sanitize LLM-generated content before innerHTML injection
-**What:** Replace `innerHTML` injection of LLM narrative content with DOMPurify or textContent where HTML isn't needed.
-**Why:** `narrative.summary` and `narrative.potential_impact` from OpenAI are injected via `innerHTML` in `detail.js` and `app.js` without sanitization. Confirmed via grep. Low probability but real XSS vector.
-**Pros:** Eliminates a concrete security vulnerability.
-**Cons:** DOMPurify adds a dependency; using `textContent` loses the `wrapPresidentNames` HTML styling.
-**Context:** The `wrapPresidentNames()` function wraps president name strings in `<span>` tags for styling — this is why plain `textContent` won't work directly. Options: run DOMPurify allowlist on the output, or sanitize only the specific span injection pattern.
-**Where to start:** `what-got-signed/public/detail.js` lines ~130, 194, 263 and `app.js`.
-**Effort:** S (human: ~2h / CC: ~10min)
-**Priority:** P1
-**Depends on:** None
+**Status:** DONE — DOMPurify added to `what-got-signed/package.json`; all LLM narrative injections in `detail.js` and `app.js` sanitize with `ALLOWED_TAGS: [], ALLOWED_ATTR: []` before `wrapPresidentNames` (post-sanitize trusted output).
 
 ---
 
 ### [INFRA-001] Enable branch protection on `main` in GitHub Settings
-**What:** Prevent force-push to `main` from CI (automated pipeline) or human error.
-**Why:** The daily sync workflow commits directly to `main`. A misconfigured `git push --force` from CI would silently wipe commit history.
-**Pros:** Protects against catastrophic data loss.
-**Cons:** None — this is a GitHub UI toggle, not code.
-**Context:** Do this BEFORE enabling the daily cron workflow. Go to GitHub repo → Settings → Branches → Add protection rule for `main`: check "Restrict force pushes".
-**Effort:** S (5 minutes in GitHub UI)
-**Priority:** P1
-**Depends on:** None (do before enabling cron)
+**Status:** DONE — branch ruleset enabled (Restrict deletions + Block force pushes).
 
 ---
 
@@ -77,18 +62,31 @@ Items deferred from plan reviews and development sessions.
 
 ## P3 — Future / Deferred
 
-### [FEAT-003] Interactive LLM chat interface — DESIGN COMPLETE
-**Status:** Design approved 2026-03-24. Architecture locked in eng review 2026-03-24.
-**Design doc:** `~/.gstack/projects/aml25-federal-register-analytics/adamlaskowitz-main-design-20260324-221236.md`
-**What was decided:**
-- Standalone `/investigate` page (not sidebar) — 3-column workspace
+### [FEAT-003] Interactive LLM chat interface — DESIGN COMPLETE (REDESIGNED 2026-03-28)
+**Status:** Design approved 2026-03-24. Redesigned 2026-03-28 — UI approach changed from standalone page to bottom-bar overlay. CEO review + spec complete. Eng review re-run required before implementing.
+**Design docs:**
+- CEO plan (new): `~/.gstack/projects/aml25-federal-register-analytics/ceo-plans/2026-03-28-chat-overlay-redesign.md`
+- Approved backend design (still valid): `~/.gstack/projects/aml25-federal-register-analytics/adamlaskowitz-main-design-20260324-221236.md`
+**What was decided (updated):**
+- NEW: Chat bar at bottom of individual EO page (`/detail/eo/:eoNumber`) — not a standalone /investigate page
+- NEW: Bar expands into 2-panel overlay (conversation left, findings right) on input focus
+- NEW: Individual EO page (`/detail/eo/:eoNumber`) is a new route — site had none before
+- NEW: Suggested chips drawn from EO's themes + populations (context on screen)
+- NEW: Mobile — full-screen overlay with Chat/Findings tabs
 - `/api/chat` POST endpoint on Express server; direct Federal Register API + enriched JSON (no MCP)
-- OpenAI `gpt-4.1-mini`, full response (no streaming in v1), 10-turn cap
-- Raw EO text via `html_url` with 3s AbortController timeout; HTML-stripped + 24,000-char truncation
-- Findings: user-curated, localStorage persistence keyed by EO ID, clipboard export
+- OpenAI `gpt-4.1-mini`, full response (no streaming in v1), 10-turn cap (enforce at client + server)
+- Raw EO text via `html_url` with **4s** AbortController timeout; HTML-stripped + 24,000-char truncation
+- Findings: user-curated, localStorage `eo-findings-{eoNumber}`, clipboard markdown export
 - Rate limiting: `express-rate-limit` in-process for v1; Upstash upgrade path for v2
-- `utils.js` shared module for `wrapPresidentNames()` + `linkThemeNames()` (CLAUDE.md compliance)
-**Ready to implement** — close SEC-001 + INFRA-001 first, then follow Next Steps in design doc.
+- `utils.js` shared module: `wrapPresidentNames()` + `linkThemeNames()` + `escapeRegex()` (CLAUDE.md compliance)
+- vercel.json `maxDuration`: 15 (or FR timeout 4s — resolve before implementing)
+**5 critical implementation gaps to close before shipping** (see Reviewer Concerns in CEO plan):
+  1. `JSON.parse` SyntaxError not caught in `/api/eo/:eoNumber`
+  2. OpenAI `RateLimitError` not caught in `/api/chat`
+  3. OpenAI refusal (`content_filter`) not handled
+  4. `localStorage.setItem` not wrapped in try/catch
+  5. `navigator.clipboard` `NotAllowedError` not handled
+**Ready to implement** — close SEC-001 + INFRA-001 first, run eng review against updated CEO plan.
 **Effort:** L (human: ~3 weeks / CC: ~2h)
 **Priority:** P2 (promoted — design complete, ready to build)
 
@@ -106,8 +104,20 @@ Items deferred from plan reviews and development sessions.
 
 ---
 
+### [PERF-001] Cache EO full text in-process in /api/chat
+**What:** Add a `Map<eoNumber, string>` in-process cache to the `/api/chat` handler. Populate on first request for a given EO (Federal Register HTML fetch + strip + truncate). Subsequent turns in the same conversation re-use the cached text without a second FR API call.
+**Why:** The current plan re-fetches the EO full text from the Federal Register API on every single chat message turn. EO text never changes after publication. This burns the Vercel serverless timeout budget (5s per fetch) on every turn and hammers the FR API unnecessarily.
+**Pros:** Eliminates repeated FR fetches within a session; reduces Vercel timeout risk from O(turns) to O(1); reduces FR API load. Map is bounded (one entry per active EO, TTL not needed since serverless functions are short-lived).
+**Cons:** None — the cache lives only for the duration of the serverless function instance. No persistence concern.
+**Context:** Flagged during eng review 2026-03-28 outside voice. The plan already has a 5s AbortController timeout on the FR fetch — the cache makes that timeout a one-time risk rather than a per-turn risk. Implement alongside the FEAT-003 `/api/chat` handler.
+**Effort:** S (human: ~30min / CC: ~5min)
+**Priority:** P2
+**Depends on:** FEAT-003 (investigate feature) — implement in the same PR
+
+---
+
 ### [FEAT-007] Shareable investigation URLs via Upstash KV
-**What:** POST `/api/investigation/save` stores the markdown findings report, returns a short ID. URL: `/investigation/{id}`. Same Upstash Redis service as the FEAT-003 v2 rate limiting upgrade.
+**What:** POST `/api/investigation/save` stores the markdown findings report, returns a short ID. URL: `/detail/eo/{eoNumber}?findings={kvId}` — loads the EO page and restores findings from KV. Same Upstash Redis service as the FEAT-003 v2 rate limiting upgrade. (URL scheme updated 2026-03-28 — was `/investigation/{id}`, now stays in the /detail/eo/ URL scheme.)
 **Why:** Copy-to-clipboard is an export, not a share. Shareable URLs let users send their investigation to others.
 **Pros:** Completes the "keep or share" promise from the product vision. Low implementation cost once Upstash is added for rate limiting.
 **Cons:** Requires Upstash Redis free tier. Stored payload is the markdown report, not the conversation.

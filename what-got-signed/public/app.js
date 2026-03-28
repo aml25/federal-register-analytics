@@ -82,8 +82,8 @@ let timelineData = [];
 
 // Render a single timeline period
 function renderTimelinePeriod(period) {
-  // Make theme names in the summary clickable
-  let summary = period.theme_summary;
+  // Sanitize LLM-generated text before HTML injection (SEC-001)
+  let summary = DOMPurify.sanitize(period.theme_summary, { ALLOWED_TAGS: [], ALLOWED_ATTR: [] });
 
   // Style president names with avatars (handle multiple presidents separated by " and ")
   if (period.president_name) {
@@ -230,8 +230,8 @@ async function loadWeeklyDigest() {
       return;
     }
 
-    // Style president names with avatars in narrative prose
-    let narrative = data.narrative;
+    // Sanitize LLM-generated text before HTML injection (SEC-001)
+    let narrative = DOMPurify.sanitize(data.narrative, { ALLOWED_TAGS: [], ALLOWED_ATTR: [] });
     const presidentNames = [...new Set(
       (data.orders || []).map(o => o.president_name).filter(Boolean)
     )];

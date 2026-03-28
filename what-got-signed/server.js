@@ -200,6 +200,9 @@ app.get('/definitions', (req, res) => {
   res.render('definitions');
 });
 
+// Serve DOMPurify browser build from node_modules
+app.use('/dompurify.min.js', express.static(join(__dirname, 'node_modules/dompurify/dist/purify.min.js')));
+
 // Serve static files (CSS, JS, images)
 app.use(express.static(join(__dirname, 'public')));
 
