@@ -1,9 +1,29 @@
 {
   "week": "2026-W13",
   "date_range": "March 23–29, 2026",
-  "narrative": "",
-  "orders": [],
-  "top_themes": [],
-  "generated_at": "2026-03-25T03:38:16.504Z",
-  "model_used": ""
+  "narrative": "During the week of March 23–29, 2026, President Donald Trump issued a single executive order, EO 14397, titled \"Further Continuance of the Federal Emergency Management Agency Review Council.\" This order focused on extending the role of a federal advisory committee tasked with overseeing FEMA’s emergency management functions, reflecting ongoing delegation of authority to support preparedness and response efforts.",
+  "orders": [
+    {
+      "number": "14397",
+      "title": "Further Continuance of the Federal Emergency Management Agency Review Council",
+      "url": "https://www.federalregister.gov/documents/2026/03/27/2026-06075/further-continuance-of-the-federal-emergency-management-agency-review-council",
+      "president_name": "Donald Trump"
+    }
+  ],
+  "top_themes": [
+    {
+      "id": "fema-emergency-management",
+      "name": "FEMA / Emergency Management"
+    },
+    {
+      "id": "federal-advisory-committees",
+      "name": "Federal Advisory Committees"
+    },
+    {
+      "id": "delegation-of-authority",
+      "name": "Delegation of Authority"
+    }
+  ],
+  "generated_at": "2026-03-28T19:04:00.671Z",
+  "model_used": "gpt-4.1-mini"
 }
