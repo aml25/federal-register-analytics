@@ -60,6 +60,9 @@ function renderOrderItem(order, themeMap, popMap) {
           ${negative ? `<div>😢 ${negative}</div>` : ''}
         </div>
       </div>
+      <div class="order-investigate">
+        <a href="/detail/eo/${order.executive_order_number}" class="wa-link wa-body-s">Investigate this EO →</a>
+      </div>
     </div>
   `;
 }
