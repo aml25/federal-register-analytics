@@ -124,9 +124,10 @@ export async function sync(options: SyncOptions = {}): Promise<void> {
     await generateNarratives({}); // Will auto-detect stale narratives
     console.log('');
 
-    // Step 5: Generate weekly digest (staleness check skips if already current)
+    // Step 5: Regenerate weekly digest — force refresh because new EOs may fall
+    // in the current week and the existing file predates them.
     console.log(`[5/5] Updating weekly digest...`);
-    await generateWeeklyNarrative({});
+    await generateWeeklyNarrative({ force: true });
     console.log('');
   } else {
     console.log(`[4/5] Skipping narratives (--skip-narratives)`);

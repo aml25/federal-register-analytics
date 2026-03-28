@@ -56,9 +56,11 @@ function getParams() {
 }
 
 // Format date
+// Pass timeZone:'UTC' so date-only strings like "2026-03-24" (which JS parses
+// as UTC midnight) are displayed on the correct calendar day everywhere.
 function formatDate(dateStr) {
   const date = new Date(dateStr);
-  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 }
 
 // Render themes as clickable links
@@ -72,7 +74,7 @@ function renderThemes(themeIds, themeMap) {
 // Format date shorter
 function formatDateShort(dateStr) {
   const date = new Date(dateStr);
-  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
 }
 
 // Render order item HTML
