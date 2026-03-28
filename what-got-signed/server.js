@@ -2,6 +2,8 @@ import express from 'express';
 import { readFile } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import OpenAI from 'openai';
+import rateLimit from 'express-rate-limit';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, 'data');
@@ -408,6 +410,207 @@ app.get('/api/weekly-narrative', async (req, res) => {
     res.status(404).json({ error: 'Weekly narrative not yet generated' });
   }
 });
+
+// ─── EO detail page route ────────────────────────────────────────────────────
+
+app.get('/detail/eo/:eoNumber', (req, res) => {
+  res.render('eo-detail');
+});
+
+// ─── API: Get single enriched EO ─────────────────────────────────────────────
+
+app.get('/api/eo/:eoNumber', async (req, res) => {
+  const eoNumber = parseInt(req.params.eoNumber, 10);
+  if (!Number.isFinite(eoNumber) || eoNumber <= 0) {
+    return res.status(400).json({ error: 'Invalid EO number' });
+  }
+  const filePath = join(DATA_DIR, 'enriched', `eo-${eoNumber}.json`);
+  try {
+    const raw = await readFile(filePath, 'utf-8');
+    let data;
+    try {
+      data = JSON.parse(raw);
+    } catch (parseErr) {
+      console.error(`JSON parse error for eo-${eoNumber}.json:`, parseErr.message);
+      return res.status(500).json({ error: 'Failed to parse EO data' });
+    }
+    res.json(data);
+  } catch (err) {
+    if (err.code === 'ENOENT') {
+      return res.status(404).json({ error: 'EO not found' });
+    }
+    console.error(`Failed to load eo-${eoNumber}.json:`, err.message);
+    res.status(500).json({ error: 'Failed to load EO' });
+  }
+});
+
+// ─── API: Chat ────────────────────────────────────────────────────────────────
+
+// In-process cache: EO number → stripped text (lives for the lifetime of this serverless instance)
+const eoTextCache = new Map();
+
+function stripHtml(html) {
+  return html
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<style[\s\S]*?<\/style>/gi, '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
+
+function truncateRawText(text, maxChars = 24000) {
+  if (text.length <= maxChars) return text;
+  const cutoff = text.lastIndexOf('\n\n', maxChars);
+  const pos = cutoff > maxChars * 0.5 ? cutoff : text.lastIndexOf('\n', maxChars);
+  return text.slice(0, pos > 0 ? pos : maxChars) + '\n\n— [text truncated] —';
+}
+
+async function fetchEoRawText(htmlUrl, eoId) {
+  if (eoTextCache.has(eoId)) return eoTextCache.get(eoId);
+
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 3000);
+  try {
+    const res = await fetch(htmlUrl, { signal: controller.signal });
+    const html = await res.text();
+    const text = truncateRawText(stripHtml(html));
+    eoTextCache.set(eoId, text);
+    return text;
+  } catch (err) {
+    if (err.name === 'AbortError') {
+      console.warn(`FR API timeout for EO ${eoId} — degrading to summary only`);
+    } else {
+      console.warn(`FR API error for EO ${eoId}:`, err.message);
+    }
+    return null;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+const chatLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 60,
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: { error: 'Too many requests — try again in a moment.' },
+});
+
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+async function chatHandler(req, res) {
+  const { subject, messages, question } = req.body || {};
+
+  if (!subject || subject.type !== 'eo' || !subject.id) {
+    return res.status(400).json({ error: 'Invalid subject' });
+  }
+  if (!question || typeof question !== 'string' || !question.trim()) {
+    return res.status(400).json({ error: 'Question is required' });
+  }
+  const history = Array.isArray(messages) ? messages : [];
+  if (history.length > 20) {
+    return res.status(400).json({ error: 'Conversation history too long' });
+  }
+
+  const eoId = parseInt(subject.id, 10);
+  if (!Number.isFinite(eoId) || eoId <= 0) {
+    return res.status(400).json({ error: 'Invalid EO ID' });
+  }
+
+  // Load enriched EO
+  let eo;
+  try {
+    const raw = await readFile(join(DATA_DIR, 'enriched', `eo-${eoId}.json`), 'utf-8');
+    try {
+      eo = JSON.parse(raw);
+    } catch (parseErr) {
+      console.error(`JSON parse error for eo-${eoId}.json:`, parseErr.message);
+      return res.status(500).json({ error: 'Failed to load EO data' });
+    }
+  } catch (err) {
+    if (err.code === 'ENOENT') return res.status(404).json({ error: 'EO not found' });
+    return res.status(500).json({ error: 'Failed to load EO data' });
+  }
+
+  // Load themes for name resolution
+  let themeMap = new Map();
+  try {
+    const taxonomyRaw = await readFile(join(DATA_DIR, 'taxonomy.json'), 'utf-8');
+    const taxonomy = JSON.parse(taxonomyRaw);
+    for (const cat of Object.values(taxonomy.categories || {})) {
+      for (const theme of Object.values(cat.themes || {})) {
+        if (theme.id && theme.name) themeMap.set(theme.id, theme.name);
+      }
+    }
+  } catch { /* themes non-critical */ }
+
+  const themeNames = (eo.enrichment.theme_ids || [])
+    .map(id => themeMap.get(id) || id)
+    .join(', ');
+
+  const positivePopulations = (eo.enrichment.impacted_populations.positive_ids || [])
+    .map(id => id.replace(/-/g, ' ')).join(', ');
+
+  // Fetch raw text (with timeout + cache)
+  const rawText = await fetchEoRawText(eo.html_url, eoId);
+
+  // Build system prompt
+  const rawTextBlock = rawText
+    ? `\nFULL ORDER TEXT (cite from this):\n${rawText}`
+    : '\nNote: the full order text could not be retrieved. Answer based on the summary and your knowledge, and note when you are doing so.';
+
+  const systemPrompt = `You are a research assistant helping a user investigate a specific executive order.
+Answer questions accurately. When citing the order, use the exact format: [EO ${eo.executive_order_number}, §{section}].
+Flag when something requires legal interpretation beyond what the text states.
+
+EXECUTIVE ORDER CONTEXT:
+Number: ${eo.executive_order_number}
+Title: ${eo.title}
+Signed: ${eo.signing_date} by ${eo.president.name}
+Themes: ${themeNames || 'Not specified'}
+Impacted populations: ${positivePopulations || 'Not specified'}
+Summary: ${eo.enrichment.summary}
+${rawTextBlock}`;
+
+  // Build message array for OpenAI
+  const openaiMessages = [
+    { role: 'system', content: systemPrompt },
+    ...history.filter(m => m.role === 'user' || m.role === 'assistant')
+               .map(m => ({ role: m.role, content: String(m.content).slice(0, 4000) })),
+    { role: 'user', content: question.trim() },
+  ];
+
+  try {
+    const completion = await openai.chat.completions.create({
+      model: 'gpt-4.1-mini',
+      messages: openaiMessages,
+      max_tokens: 1024,
+    });
+
+    const answer = completion.choices?.[0]?.message?.content || '';
+
+    // Handle content_filter refusal
+    const finishReason = completion.choices?.[0]?.finish_reason;
+    if (finishReason === 'content_filter') {
+      return res.json({ answer: "I can't respond to that question. Please try a different approach." });
+    }
+
+    res.json({ answer });
+  } catch (err) {
+    if (err.constructor?.name === 'RateLimitError' || err.status === 429) {
+      return res.status(429).json({ error: 'Too many requests — try again in a moment.' });
+    }
+    console.error('OpenAI API error:', err.message);
+    res.status(500).json({ error: "Couldn't get a response. Try again." });
+  }
+}
+
+app.post('/api/chat', chatLimiter, express.json(), chatHandler);
 
 app.listen(PORT, () => {
   console.log(`What Got Signed? running at http://localhost:${PORT}`);

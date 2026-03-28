@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "what-got-signed/server.js": {
+      "maxDuration": 10
+    }
+  }
+}
