@@ -1,0 +1,36 @@
+{
+  "document_number": "2026-06075",
+  "executive_order_number": "14397",
+  "title": "Further Continuance of the Federal Emergency Management Agency Review Council",
+  "abstract": null,
+  "signing_date": "2026-03-24",
+  "publication_date": "2026-03-27",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/03/27/2026-06075/further-continuance-of-the-federal-emergency-management-agency-review-council",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-03-27/pdf/2026-06075.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/03/27/2026-06075.txt",
+  "enrichment": {
+    "summary": "This executive order extends the existence of the Federal Emergency Management Agency (FEMA) Review Council until shortly after it submits its required report or until May 29, 2026, whichever comes first. It also transfers the President's duties under the Federal Advisory Committee Act for this council to the Secretary of Homeland Security and supersedes parts of the previous executive order continuing the council.",
+    "theme_ids": [
+      "fema-emergency-management",
+      "federal-advisory-committees",
+      "delegation-of-authority"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "disaster-affected-communities"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Delegating the President's authority under the Federal Advisory Committee Act to the Secretary of Homeland Security may concentrate decision-making power, potentially reducing transparency and oversight for disaster-affected communities.",
+      "The continued operation of the FEMA Review Council without clear timelines beyond May 29, 2026, could delay implementation of needed emergency management reforms, negatively impacting disaster-affected communities awaiting improvements.",
+      "There is a risk that shifting responsibilities to the Secretary of Homeland Security could result in bureaucratic inefficiencies that diminish the effectiveness of emergency management recommendations benefitting disaster-affected communities."
+    ],
+    "enriched_at": "2026-03-28T18:47:23.115Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -6,19 +6,19 @@
       "quarter_name": "Q1 2026",
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
-      "order_count": 24,
+      "order_count": 26,
       "top_themes": [
         {
           "id": "national-emergencies",
           "name": "National Emergencies"
         },
         {
-          "id": "tariffs-duties",
-          "name": "Tariffs / Duties"
-        },
-        {
           "id": "military-readiness-force-structure",
           "name": "Military Readiness / Force Structure"
+        },
+        {
+          "id": "tariffs-duties",
+          "name": "Tariffs / Duties"
         },
         {
           "id": "homeland-security",
@@ -29,7 +29,7 @@
           "name": "Defense Industrial Base"
         }
       ],
-      "theme_summary": "Donald Trump signed 24 executive orders focused on the themes of national emergencies, tariffs / duties, military readiness / force structure, and 2 others.",
+      "theme_summary": "Donald Trump signed 26 executive orders focused on the themes of national emergencies, military readiness / force structure, tariffs / duties, and 2 others.",
       "order_ids": [
         "14372",
         "14373",
@@ -54,7 +54,9 @@
         "14392",
         "14393",
         "14394",
-        "14395"
+        "14395",
+        "14396",
+        "14397"
       ]
     },
     {
@@ -989,8 +991,16 @@
       "quarter_name": "Q2 2021",
       "president_id": "joe-biden",
       "president_name": "Joseph R. Biden Jr.",
-      "order_count": 13,
+      "order_count": 14,
       "top_themes": [
+        {
+          "id": "economic-sanctions",
+          "name": "Economic Sanctions"
+        },
+        {
+          "id": "national-emergencies",
+          "name": "National Emergencies"
+        },
         {
           "id": "cybersecurity-national-security",
           "name": "Cybersecurity (National Security)"
@@ -1000,20 +1010,13 @@
           "name": "Presidential Commissions / Task Forces"
         },
         {
-          "id": "economic-sanctions",
-          "name": "Economic Sanctions"
-        },
-        {
           "id": "foreign-election-interference",
           "name": "Foreign Election Interference"
-        },
-        {
-          "id": "worker-rights-protections",
-          "name": "Worker Rights / Protections"
         }
       ],
-      "theme_summary": "Joseph R. Biden Jr. signed 13 executive orders focused on the themes of cybersecurity (national security), presidential commissions / task forces, economic sanctions, and 2 others.",
+      "theme_summary": "Joseph R. Biden Jr. signed 14 executive orders focused on the themes of economic sanctions, national emergencies, cybersecurity (national security), and 2 others.",
       "order_ids": [
+        "14022",
         "14023",
         "14024",
         "14025",
@@ -1035,7 +1038,7 @@
       "quarter_name": "Q1 2021",
       "president_id": "joe-biden",
       "president_name": "Joseph R. Biden Jr.",
-      "order_count": 6,
+      "order_count": 5,
       "top_themes": [
         {
           "id": "civil-rights-enforcement",
@@ -1058,14 +1061,13 @@
           "name": "Critical Minerals / Supply Chain Security"
         }
       ],
-      "theme_summary": "Joseph R. Biden Jr. signed 6 executive orders focused on the themes of civil rights enforcement, interagency coordination, gender equality, and 2 others.",
+      "theme_summary": "Joseph R. Biden Jr. signed 5 executive orders focused on the themes of civil rights enforcement, interagency coordination, gender equality, and 2 others.",
       "order_ids": [
         "14017",
         "14018",
         "14019",
         "14020",
-        "14021",
-        "14022"
+        "14021"
       ]
     },
     {
@@ -1826,31 +1828,32 @@
       "quarter_name": "Q2 2015",
       "president_id": "barack-obama",
       "president_name": "Barack Obama",
-      "order_count": 5,
+      "order_count": 6,
       "top_themes": [
-        {
-          "id": "weapons-of-mass-destruction-wmd-proliferation",
-          "name": "Weapons of Mass Destruction (WMD) Proliferation"
-        },
-        {
-          "id": "russia",
-          "name": "Russia"
-        },
         {
           "id": "national-emergencies",
           "name": "National Emergencies"
         },
         {
-          "id": "international-agreements-treaties",
-          "name": "International Agreements / Treaties"
+          "id": "cybersecurity-national-security",
+          "name": "Cybersecurity (National Security)"
         },
         {
-          "id": "military-readiness-force-structure",
-          "name": "Military Readiness / Force Structure"
+          "id": "critical-infrastructure-protection",
+          "name": "Critical Infrastructure Protection"
+        },
+        {
+          "id": "economic-sanctions",
+          "name": "Economic Sanctions"
+        },
+        {
+          "id": "travel-restrictions-bans",
+          "name": "Travel Restrictions / Bans"
         }
       ],
-      "theme_summary": "Barack Obama signed 5 executive orders focused on the themes of weapons of mass destruction (wmd) proliferation, russia, national emergencies, and 2 others.",
+      "theme_summary": "Barack Obama signed 6 executive orders focused on the themes of national emergencies, cybersecurity (national security), critical infrastructure protection, and 2 others.",
       "order_ids": [
+        "13694",
         "13695",
         "13696",
         "13697",
@@ -1864,11 +1867,15 @@
       "quarter_name": "Q1 2015",
       "president_id": "barack-obama",
       "president_name": "Barack Obama",
-      "order_count": 8,
+      "order_count": 7,
       "top_themes": [
         {
           "id": "interagency-coordination",
           "name": "Interagency Coordination"
+        },
+        {
+          "id": "climate-change-policy",
+          "name": "Climate Change Policy"
         },
         {
           "id": "cybersecurity-national-security",
@@ -1879,15 +1886,11 @@
           "name": "Travel Restrictions / Bans"
         },
         {
-          "id": "climate-change-policy",
-          "name": "Climate Change Policy"
-        },
-        {
-          "id": "critical-infrastructure-protection",
-          "name": "Critical Infrastructure Protection"
+          "id": "human-rights-international",
+          "name": "Human Rights (International)"
         }
       ],
-      "theme_summary": "Barack Obama signed 8 executive orders focused on the themes of interagency coordination, cybersecurity (national security), travel restrictions / bans, and 2 others.",
+      "theme_summary": "Barack Obama signed 7 executive orders focused on the themes of interagency coordination, climate change policy, cybersecurity (national security), and 2 others.",
       "order_ids": [
         "13687",
         "13688",
@@ -1895,8 +1898,7 @@
         "13690",
         "13691",
         "13692",
-        "13693",
-        "13694"
+        "13693"
       ]
     },
     {
@@ -2022,31 +2024,32 @@
       "quarter_name": "Q3 2013",
       "president_id": "barack-obama",
       "president_name": "Barack Obama",
-      "order_count": 4,
+      "order_count": 5,
       "top_themes": [
-        {
-          "id": "interagency-coordination",
-          "name": "Interagency Coordination"
-        },
         {
           "id": "homeland-security",
           "name": "Homeland Security"
+        },
+        {
+          "id": "environmental-regulation",
+          "name": "Environmental Regulation"
+        },
+        {
+          "id": "interagency-coordination",
+          "name": "Interagency Coordination"
         },
         {
           "id": "critical-infrastructure-protection",
           "name": "Critical Infrastructure Protection"
         },
         {
-          "id": "affordable-care-act-aca",
-          "name": "Affordable Care Act (ACA)"
-        },
-        {
-          "id": "public-health-emergency-response",
-          "name": "Public Health Emergency Response"
+          "id": "transnational-crime-cartels",
+          "name": "Transnational Crime / Cartels"
         }
       ],
-      "theme_summary": "Barack Obama signed 4 executive orders focused on the themes of interagency coordination, homeland security, critical infrastructure protection, and 2 others.",
+      "theme_summary": "Barack Obama signed 5 executive orders focused on the themes of homeland security, environmental regulation, interagency coordination, and 2 others.",
       "order_ids": [
+        "13648",
         "13649",
         "13650",
         "13651",
@@ -2059,7 +2062,7 @@
       "quarter_name": "Q2 2013",
       "president_id": "barack-obama",
       "president_name": "Barack Obama",
-      "order_count": 9,
+      "order_count": 8,
       "top_themes": [
         {
           "id": "federal-advisory-committees",
@@ -2070,19 +2073,19 @@
           "name": "Military Readiness / Force Structure"
         },
         {
-          "id": "presidential-commissions-task-forces",
-          "name": "Presidential Commissions / Task Forces"
-        },
-        {
           "id": "faith-based-initiatives",
           "name": "Faith-Based Initiatives"
         },
         {
           "id": "federal-workforce-management",
           "name": "Federal Workforce Management"
+        },
+        {
+          "id": "veterans-healthcare",
+          "name": "Veterans Healthcare"
         }
       ],
-      "theme_summary": "Barack Obama signed 9 executive orders focused on the themes of federal advisory committees, military readiness / force structure, presidential commissions / task forces, and 2 others.",
+      "theme_summary": "Barack Obama signed 8 executive orders focused on the themes of federal advisory committees, military readiness / force structure, faith-based initiatives, and 2 others.",
       "order_ids": [
         "13640",
         "13641",
@@ -2091,8 +2094,7 @@
         "13644",
         "13645",
         "13646",
-        "13647",
-        "13648"
+        "13647"
       ]
     },
     {
@@ -2424,15 +2426,15 @@
       "quarter_name": "Q4 2009",
       "president_id": "barack-obama",
       "president_name": "Barack Obama",
-      "order_count": 14,
+      "order_count": 15,
       "top_themes": [
-        {
-          "id": "government-efficiency",
-          "name": "Government Efficiency"
-        },
         {
           "id": "federal-workforce-management",
           "name": "Federal Workforce Management"
+        },
+        {
+          "id": "government-efficiency",
+          "name": "Government Efficiency"
         },
         {
           "id": "interagency-coordination",
@@ -2447,8 +2449,9 @@
           "name": "Renewable Energy"
         }
       ],
-      "theme_summary": "Barack Obama signed 14 executive orders focused on the themes of government efficiency, federal workforce management, interagency coordination, and 2 others.",
+      "theme_summary": "Barack Obama signed 15 executive orders focused on the themes of federal workforce management, government efficiency, interagency coordination, and 2 others.",
       "order_ids": [
+        "13513",
         "13514",
         "13515",
         "13517",
@@ -2474,31 +2477,31 @@
       "order_count": 3,
       "top_themes": [
         {
-          "id": "government-efficiency",
-          "name": "Government Efficiency"
+          "id": "trade-policy-agreements",
+          "name": "Trade Policy / Agreements"
         },
         {
-          "id": "workplace-safety-osha",
-          "name": "Workplace Safety (OSHA)"
+          "id": "sanctions-country-specific",
+          "name": "Sanctions (Country-Specific)"
+        },
+        {
+          "id": "belarus",
+          "name": "Belarus"
         },
         {
           "id": "federal-advisory-committees",
           "name": "Federal Advisory Committees"
         },
         {
-          "id": "presidential-commissions-task-forces",
-          "name": "Presidential Commissions / Task Forces"
-        },
-        {
-          "id": "civil-rights-enforcement",
-          "name": "Civil Rights Enforcement"
+          "id": "government-efficiency",
+          "name": "Government Efficiency"
         }
       ],
-      "theme_summary": "Barack Obama signed 3 executive orders focused on the themes of government efficiency, workplace safety (osha), federal advisory committees, and 2 others.",
+      "theme_summary": "Barack Obama signed 3 executive orders focused on the themes of trade policy / agreements, sanctions (country-specific), belarus, and 2 others.",
       "order_ids": [
+        "13510",
         "13511",
-        "13512",
-        "13513"
+        "13512"
       ]
     },
     {
@@ -2507,7 +2510,7 @@
       "quarter_name": "Q2 2009",
       "president_id": "barack-obama",
       "president_name": "Barack Obama",
-      "order_count": 4,
+      "order_count": 3,
       "top_themes": [
         {
           "id": "interagency-coordination",
@@ -2530,12 +2533,11 @@
           "name": "Climate Change Policy"
         }
       ],
-      "theme_summary": "Barack Obama signed 4 executive orders focused on the themes of interagency coordination, affordable care act (aca), government reorganization, and 2 others.",
+      "theme_summary": "Barack Obama signed 3 executive orders focused on the themes of interagency coordination, affordable care act (aca), government reorganization, and 2 others.",
       "order_ids": [
         "13507",
         "13508",
-        "13509",
-        "13510"
+        "13509"
       ]
     },
     {
@@ -2595,5 +2597,5 @@
       ]
     }
   ],
-  "generated_at": "2026-03-23T04:25:02.990Z"
+  "generated_at": "2026-03-28T18:47:29.804Z"
 }

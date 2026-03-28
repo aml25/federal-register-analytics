@@ -153,12 +153,12 @@
     {
       "theme_id": "military-readiness-force-structure",
       "theme_name": "Military Readiness / Force Structure",
-      "order_count": 67,
+      "order_count": 68,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 32
+          "order_count": 33
         },
         {
           "president_id": "barack-obama",
@@ -171,9 +171,9 @@
           "order_count": 15
         }
       ],
-      "summary": "Executive orders addressing military readiness and force structure have reflected evolving priorities across recent administrations, with a combined total of 67 directives. These orders have focused on adjusting pay rates, refining military justice procedures, and enhancing support for veterans and active-duty personnel. While Obama’s efforts emphasized legal frameworks and veterans’ employment, Trump’s tenure saw a surge in pay adjustments and operational directives, often linked to broader national security and energy strategies. Biden's actions continued refining personnel policies and transition supports, illuminating a persistent governmental commitment to maintaining a capable and well-supported military force.",
-      "potential_impact": "These executive actions primarily aimed to benefit active-duty military members and veterans by improving pay, legal protections, and employment opportunities, while also affecting federal employees and reservists. However, concerns emerged about potential unintended consequences such as bureaucratic inefficiencies, disparities in pay and benefits, and challenges in aligning veterans’ skills with federal job openings. Additionally, changes to military justice procedures posed adaptation challenges, and pay adjustments raised questions about competitiveness and retention, underscoring the complexity of balancing readiness with equitable treatment.",
-      "generated_at": "2026-03-23T04:25:23.661Z",
+      "summary": "Executive actions addressing military readiness and force structure have evolved across administrations to balance personnel support, legal frameworks, and compensation structures. Efforts have ranged from refining military justice procedures and adjusting pay scales to enhancing veteran employment within federal agencies. While Obama’s orders often focused on legal amendments and veteran employment frameworks, Trump’s concentrated on pay adjustments and strategic energy policies linked to military interests, with Biden continuing to emphasize personnel transitions and readiness. These varied approaches reflect ongoing attempts to sustain force effectiveness amid shifting operational and fiscal challenges.",
+      "potential_impact": "These executive orders aimed primarily to benefit active-duty military personnel and veterans by improving pay, legal protections, and employment opportunities, while also affecting federal employees and reservists. However, some measures raised concerns about potentially disadvantaging non-veteran federal workers, creating pay disparities tied to geography, and imposing adaptation challenges due to changes in military justice. Additionally, certain groups, including accused service members and marginalized communities, faced possible negative consequences, highlighting the complexities of balancing readiness, fairness, and inclusivity in military-related policies.",
+      "generated_at": "2026-03-28T18:47:40.796Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -231,12 +231,12 @@
     {
       "theme_id": "federal-advisory-committees",
       "theme_name": "Federal Advisory Committees",
-      "order_count": 49,
+      "order_count": 50,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 22
+          "order_count": 23
         },
         {
           "president_id": "barack-obama",
@@ -249,9 +249,9 @@
           "order_count": 7
         }
       ],
-      "summary": "Executive orders concerning federal advisory committees have played a pivotal role in shaping diverse policy arenas, from economic recovery to educational equity. Across administrations, these orders have established, continued, or restructured advisory bodies to inform federal programs on issues such as minority participation, workforce development, and scientific research. While the Obama and Trump administrations issued the bulk of these orders, focusing on expanding advisory roles to address inclusion and economic challenges, the Biden administration has taken a more measured approach. The evolving use of advisory committees reflects an ongoing effort to integrate stakeholder perspectives into governance, albeit with varying emphasis on specific populations and policy priorities.",
-      "potential_impact": "These executive orders aimed to enhance representation and support for historically underserved groups, including minority communities, students at HBCUs, and small business owners, by providing advisory input to federal programs. However, the reliance on advisory committees also raised concerns about inconsistent agency oversight, potential conflicts of interest, and uneven access to resources among subpopulations. Observers noted risks that some initiatives might inadvertently marginalize vulnerable groups, such as low-income individuals or language-minority subgroups, while federal employees and contractors occasionally faced increased scrutiny or constraints from these advisory processes.",
-      "generated_at": "2026-02-09T03:30:46.659Z",
+      "summary": "Federal advisory committees have been a consistent mechanism for presidents to shape policy through expert and community input, with 50 executive orders spanning three administrations. While Obama’s orders often emphasized inclusion and education, particularly for minority and disadvantaged groups, Trump’s directives expanded advisory bodies with a focus on economic recovery and workforce development, sometimes restructuring or revoking existing forums. Biden’s fewer orders suggest a continuation but with less emphasis on creating new committees. The evolving approaches reflect shifting priorities in addressing economic, educational, and social disparities through consultative governance.",
+      "potential_impact": "These executive orders aimed to empower diverse communities including small business owners, minority populations, students, veterans, and individuals with disabilities by enhancing their representation in federal decision-making processes. However, concerns arose about potential uneven benefits, such as marginalized subgroups within Asian American communities facing language barriers or low-income individuals experiencing inconsistent service quality. Additionally, the concentration of influence among agency heads and private sector members raised questions about impartiality and the equitable prioritization of all stakeholders’ needs.",
+      "generated_at": "2026-03-28T18:47:42.924Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1067,6 +1067,22 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "american-heritage-patriotism",
+      "theme_name": "American Heritage / Patriotism",
+      "order_count": 19,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 19
+        }
+      ],
+      "summary": "The executive orders under the American Heritage and Patriotism theme, exclusively issued during the Trump administration, reflect a concerted effort to reinforce traditional symbols, narratives, and practices tied to national identity. These orders sought to reshape public education by promoting patriotic curricula, restore historical names and institutions, and emphasize civic symbolism in federal architecture and foreign aid branding. The approach centered on elevating a particular vision of American greatness and heritage, often prioritizing local control and conservative interpretations of history, which marked a departure from more inclusive or critical perspectives.",
+      "potential_impact": "These orders aimed to benefit military personnel, veterans, educators, and public school communities by fostering a sense of pride and unity rooted in classic American ideals. However, they also raised concerns about marginalizing racial and ethnic minorities, women, and LGBTQ+ individuals by downplaying systemic injustices and limiting academic freedom. The emphasis on patriotic symbolism and singular narratives risked alienating diverse populations and complicating educational equity, while operational changes, such as federal agency closings or foreign aid rebranding, prompted debates over practical disruptions versus symbolic gains.",
+      "generated_at": "2026-03-28T18:47:45.154Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "public-health-emergency-response",
       "theme_name": "Public Health Emergency Response",
       "order_count": 18,
@@ -1116,22 +1132,6 @@
       "summary": "Executive orders addressing diversity, equity, and inclusion have evolved through distinct presidential approaches, reflecting shifting priorities within federal workforce and community engagement. Early efforts under Obama emphasized broad government-wide initiatives to enhance participation of underrepresented groups including Asian Americans and veterans. The Trump administration’s orders often focused on challenging prevailing DEI frameworks, emphasizing meritocratic principles and skepticism toward certain DEI practices. Biden's subsequent orders sought to restore and expand inclusive measures, targeting systemic inequities in federal employment and educational institutions while advancing accessibility and equity agendas. This trajectory underscores ongoing tensions between expanding representation and maintaining traditional hiring standards within the federal government.",
       "potential_impact": "These executive orders aimed to benefit a wide range of populations such as veterans, federal employees, Hispanic and Black Americans, women, and individuals with disabilities by promoting greater inclusion and opportunity. However, concerns arise regarding potential unintended consequences, including perceptions of preferential treatment or reverse discrimination that could affect workforce morale and cohesion. Additionally, challenges in implementation—such as administrative burdens, risks of reinforcing stereotypes through data collection, and uneven access for marginalized subgroups—highlight the complexity of translating DEI goals into equitable outcomes across diverse communities.",
       "generated_at": "2025-12-20T05:46:08.911Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "american-heritage-patriotism",
-      "theme_name": "American Heritage / Patriotism",
-      "order_count": 18,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 18
-        }
-      ],
-      "summary": "The executive orders under the American Heritage and Patriotism theme, all issued during the Trump administration, sought to reinforce traditional narratives of American identity through symbolic gestures, educational reforms, and institutional branding. These orders emphasized patriotic education, historical commemoration, and the restoration of national symbols, often prioritizing a singular vision of American greatness. By focusing on local control in education and promoting a specific patriotic framework, the administration aimed to reshape cultural and civic understanding, reflecting a concerted effort to celebrate heritage while redefining national influence and identity.",
-      "potential_impact": "These orders aimed to bolster pride among military personnel, veterans, and public school communities by promoting patriotic values and historical celebration. However, critics raised concerns that the emphasis on a narrow, traditional narrative risked marginalizing African American, Native American, Hispanic, and other minority groups by downplaying systemic injustices and limiting inclusive educational content. The policies also introduced operational challenges for federal employees, educators, and nonprofit organizations, while potentially alienating diverse populations and complicating the balance between symbolism and substantive equity.",
-      "generated_at": "2026-02-09T03:31:34.339Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1474,6 +1474,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "delegation-of-authority",
+      "theme_name": "Delegation of Authority",
+      "order_count": 15,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 7
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 5
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        }
+      ],
+      "summary": "Executive orders related to the delegation of authority reveal varied presidential strategies in assigning governmental powers to manage complex policy areas such as defense, labor rights, and trade. While Obama’s orders often emphasized labor protections and streamlined export controls, Trump’s directives expanded interagency coordination and military decoration approvals, reflecting a focus on administrative continuity and defense production. Biden’s actions concentrated on national defense stockpiles and personnel management, highlighting evolving priorities within military oversight. Across administrations, these delegations aimed to balance efficient governance with intricate oversight responsibilities.",
+      "potential_impact": "These orders primarily targeted military personnel, veterans, and defense industry workers by clarifying authority to enhance operational readiness and labor protections. However, federal contractors and corporations faced potential hurdles due to increased compliance demands and liability adjustments, which sometimes risked delaying contract execution and complicating regulatory environments. Energy sector workers and coastal communities were particularly vulnerable to regulatory ambiguities affecting environmental and safety standards, while non-union workers and certain labor groups encountered uneven enforcement, underscoring challenges in safeguarding diverse workforce interests amid complex interagency delegation.",
+      "generated_at": "2026-03-28T18:47:47.632Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "manufacturing-policy",
       "theme_name": "Manufacturing Policy",
       "order_count": 14,
@@ -1583,32 +1609,6 @@
       "model_used": "gpt-4.1-mini"
     },
     {
-      "theme_id": "delegation-of-authority",
-      "theme_name": "Delegation of Authority",
-      "order_count": 14,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 6
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 5
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 3
-        }
-      ],
-      "summary": "Executive orders concerning delegation of authority have evolved as presidents sought to streamline decision-making across federal agencies while balancing complex policy objectives. These orders frequently assigned specific powers to Cabinet officials or agency heads, particularly in defense, trade, and labor contexts. While Obama’s directives emphasized labor rights and export control reforms, Trump’s focused on defense production and advisory committees, often heightening interagency coordination. Biden’s actions continued refining military personnel management and defense stockpile oversight. Across administrations, delegation aimed to enhance operational efficiency but also introduced challenges in interagency collaboration and regulatory clarity.",
-      "potential_impact": "The delegation orders aimed to benefit military personnel, veterans, and workers in defense and energy sectors by clarifying authority lines and expanding eligibility for certain benefits. Labor protections sought to empower union members and federal contractors, though implementation complexities sometimes risked uneven enforcement. Concerns arose over administrative burdens on contractors, potential delays in defense exports, and regulatory uncertainties that could affect energy workers and coastal communities. These dynamics highlighted tensions between enhancing governmental agility and safeguarding the rights and safety of diverse populations reliant on consistent policy application.",
-      "generated_at": "2026-03-23T04:26:13.470Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
       "theme_id": "criminal-justice-reform",
       "theme_name": "Criminal Justice Reform",
       "order_count": 13,
@@ -1689,6 +1689,27 @@
       "summary": "Executive orders addressing records, classification, and transparency have reflected evolving priorities across administrations, from enhancing public access to government information to tightening controls on sensitive material. Obama’s initiatives emphasized open data and standardized handling of unclassified information to foster transparency and efficiency, while Trump’s orders often focused on restricting union activities and declassifying high-profile historical documents, sometimes centralizing authority and altering oversight structures. Biden’s contribution highlighted targeted declassification reviews, underscoring ongoing efforts to balance openness with national security concerns.",
       "potential_impact": "These orders aimed to affect a broad array of stakeholders, including citizens seeking government transparency, security clearance holders navigating compliance, and small businesses reliant on accessible data. However, concerns arose about potential negative consequences such as increased bureaucratic burdens, risks of politicizing record releases, and unintended restrictions on information flow that could impact law enforcement, intelligence personnel, and vulnerable populations. The complexity of implementing uniform standards also raised questions about resource allocation and equitable access to information.",
       "generated_at": "2025-12-15T08:46:14.176Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "fema-emergency-management",
+      "theme_name": "FEMA / Emergency Management",
+      "order_count": 13,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 8
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 5
+        }
+      ],
+      "summary": "Executive actions on FEMA and emergency management have reflected shifting federal priorities in disaster preparedness and recovery. The Obama administration focused on establishing coordinated federal capabilities for medical countermeasures and task forces aimed at rebuilding after major disasters like Hurricane Sandy, emphasizing integration and sustained support. The Trump administration, meanwhile, issued more orders concentrating on governance, efficiency, and oversight through councils assessing FEMA’s operations, as well as targeted emergency measures for specific states and disaster types. These approaches reveal evolving strategies balancing federal coordination with state and local responsibilities amid complex disaster landscapes.",
+      "potential_impact": "These orders aimed to benefit disaster-affected communities, particularly those in low-income, coastal, and urban areas, by improving recovery timelines and resource allocation. However, observers raised concerns that extended federal oversight could delay local leadership in rebuilding efforts, potentially prolonging displacement for vulnerable populations such as renters and low-income families. Additional scrutiny centered on the risks posed to federal employees and Postal Workers involved in emergency medical responses, as well as possible jurisdictional tensions with local law enforcement, highlighting challenges in ensuring equitable and efficient disaster management.",
+      "generated_at": "2026-03-28T18:47:50.294Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1783,27 +1804,6 @@
       "summary": "Efforts to confront the opioid crisis through executive action have largely centered on enhancing enforcement and disrupting supply chains, particularly under the Trump administration, which issued 11 of the 12 related orders. These actions included establishing commissions, imposing sanctions on foreign actors, and tightening border controls to stem synthetic opioid flows. The lone Biden order continued targeting illicit drug trafficking globally but with a diplomatic focus. Across administrations, strategies combined law enforcement support with attempts to bolster mental health and addiction treatment, reflecting an evolving recognition of the crisis’s complexity.",
       "potential_impact": "The executive orders aimed to benefit a broad spectrum including law enforcement officers, healthcare workers, and vulnerable populations such as patients and those with mental health conditions. However, concerns arose about unintended consequences for consumers facing stricter prescription controls, small businesses navigating regulatory pressures, and marginalized groups like undocumented immigrants and asylum seekers who could be disproportionately affected by heightened enforcement. Additionally, sanctions and border militarization risked straining international cooperation and disrupting cross-border communities dependent on legal trade.",
       "generated_at": "2026-02-09T03:31:55.577Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "fema-emergency-management",
-      "theme_name": "FEMA / Emergency Management",
-      "order_count": 12,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 7
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 5
-        }
-      ],
-      "summary": "Executive actions on emergency management under Presidents Obama and Trump reflect evolving federal strategies to enhance disaster response and recovery. Obama’s orders often focused on establishing coordinated federal capabilities, such as medical countermeasures and specialized task forces for rebuilding after major events like Hurricane Sandy. Trump’s orders emphasized governance, efficiency, and integration of federal, state, and local efforts, sometimes creating new councils to assess FEMA and address specific regional crises. These approaches reveal a balance between strengthening federal oversight and promoting intergovernmental cooperation amid complex disaster scenarios.",
-      "potential_impact": "These executive orders aimed to support communities affected by disasters, including low-income families, renters, and tribal populations, by improving response coordination and rebuilding efforts. However, concerns arose that extended federal oversight and bureaucratic complexity might delay local leadership transitions and recovery processes, potentially prolonging hardship for vulnerable populations. Additional issues included risks to federal workers involved in emergency roles and tensions with local law enforcement, underscoring the challenges of balancing rapid response with effective, inclusive disaster management.",
-      "generated_at": "2026-02-09T03:31:52.058Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4919,5 +4919,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-03-23T04:26:43.386Z"
+  "generated_at": "2026-03-28T18:47:50.295Z"
 }
