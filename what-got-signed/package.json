@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node server.js"
+    "dev": "node --env-file=../.env server.js"
   },
   "dependencies": {
     "dompurify": "^3.2.4",
