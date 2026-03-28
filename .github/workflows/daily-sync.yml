@@ -46,7 +46,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else
-            git pull --rebase origin main
             git commit -m "chore: sync EO data $(date -u '+%Y-%m-%d')"
+            git pull --rebase origin main   # commit first so rebase has nothing staged
             git push origin main
           fi
