@@ -57,6 +57,7 @@ export interface SyncOptions {
   year?: number;
   checkOnly?: boolean;
   skipNarratives?: boolean;
+  forceWeekly?: boolean;
 }
 
 /**
@@ -66,6 +67,7 @@ export async function sync(options: SyncOptions = {}): Promise<void> {
   const year = options.year ?? new Date().getFullYear();
   const checkOnly = options.checkOnly ?? false;
   const skipNarratives = options.skipNarratives ?? false;
+  const forceWeekly = options.forceWeekly ?? false;
 
   console.log(`\n========================================`);
   console.log(`Checking for updates (${year})`);
@@ -81,7 +83,7 @@ export async function sync(options: SyncOptions = {}): Promise<void> {
     // Still update the weekly digest — it needs to roll over even on quiet weeks
     if (!skipNarratives) {
       console.log(`[1/1] Checking weekly digest...`);
-      await generateWeeklyNarrative({});
+      await generateWeeklyNarrative({ force: forceWeekly });
     }
     return;
   }
