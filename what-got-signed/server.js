@@ -642,12 +642,10 @@ ${contextText}`;
 
   const t0 = Date.now();
   try {
-    const completion = await getOpenAI().chat.completions.create({
-      model: 'gpt-4.1-mini',
-      messages: openaiMessages,
-      max_tokens: 1024,
-      signal: AbortSignal.timeout(8000),
-    });
+    const completion = await getOpenAI().chat.completions.create(
+      { model: 'gpt-4.1-mini', messages: openaiMessages, max_tokens: 1024 },
+      { signal: AbortSignal.timeout(8000) },
+    );
 
     const answer = completion.choices?.[0]?.message?.content || '';
     const finishReason = completion.choices?.[0]?.finish_reason;
