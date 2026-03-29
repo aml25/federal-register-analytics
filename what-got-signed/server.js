@@ -587,6 +587,185 @@ async function assembleContext(contextType, params) {
   }
 }
 
+// ── EO index ──────────────────────────────────────────────────────────────────
+// Lazily loaded once from disk. Provides fast lookup for tool calls.
+let _eoIndex = null;
+
+async function getEoIndex() {
+  if (_eoIndex) return _eoIndex;
+  const enrichedDir = join(DATA_DIR, 'enriched');
+  const files = await readdir(enrichedDir);
+  const all = [];
+  for (const file of files) {
+    if (!file.endsWith('.json') || !file.startsWith('eo-')) continue;
+    try {
+      const content = await readFile(join(enrichedDir, file), 'utf-8');
+      const eo = JSON.parse(content);
+      all.push({
+        eoNumber:   String(eo.executive_order_number),
+        title:      eo.title || '',
+        summary:    eo.enrichment?.summary || '',
+        signingDate: eo.signing_date || '',
+        president:  eo.president?.name || '',
+        presidentId: eo.president?.identifier || '',
+        themeIds:   eo.enrichment?.theme_ids || [],
+        positiveIds: eo.enrichment?.impacted_populations?.positive_ids || [],
+        negativeIds: eo.enrichment?.impacted_populations?.negative_ids || [],
+      });
+    } catch { /* skip malformed files */ }
+  }
+  all.sort((a, b) => Number(a.eoNumber) - Number(b.eoNumber));
+
+  const byNumber = new Map(all.map(e => [e.eoNumber, e]));
+
+  // themeId → EO list
+  const byTheme = new Map();
+  for (const eo of all) {
+    for (const tid of eo.themeIds) {
+      if (!byTheme.has(tid)) byTheme.set(tid, []);
+      byTheme.get(tid).push(eo);
+    }
+  }
+
+  _eoIndex = { all, byNumber, byTheme };
+  console.log(`EO index built: ${all.length} orders, ${byTheme.size} themes`);
+  return _eoIndex;
+}
+
+// ── Tool definitions ──────────────────────────────────────────────────────────
+
+const CHAT_TOOLS = [
+  {
+    type: 'function',
+    function: {
+      name: 'find_eos_by_theme',
+      description: 'Find executive orders tagged with one or more theme IDs. Use this to answer questions about similar orders, orders on a topic, or comparisons.',
+      parameters: {
+        type: 'object',
+        properties: {
+          theme_ids: {
+            type: 'array',
+            items: { type: 'string' },
+            description: 'One or more theme IDs (e.g. "fema-emergency-management", "immigration-enforcement"). Use IDs from the current page context or infer from the question.',
+          },
+          limit: {
+            type: 'integer',
+            description: 'Max results to return (default 10, max 25).',
+            default: 10,
+          },
+        },
+        required: ['theme_ids'],
+      },
+    },
+  },
+  {
+    type: 'function',
+    function: {
+      name: 'search_eos',
+      description: 'Full-text keyword search across all executive order titles and summaries. Use for open-ended questions about topics not captured by a single theme.',
+      parameters: {
+        type: 'object',
+        properties: {
+          query: {
+            type: 'string',
+            description: 'Keywords to search for in EO titles and summaries.',
+          },
+          limit: {
+            type: 'integer',
+            description: 'Max results to return (default 10, max 25).',
+            default: 10,
+          },
+        },
+        required: ['query'],
+      },
+    },
+  },
+  {
+    type: 'function',
+    function: {
+      name: 'get_eo',
+      description: 'Get detailed information about a specific executive order by number.',
+      parameters: {
+        type: 'object',
+        properties: {
+          eo_number: {
+            type: 'string',
+            description: 'The executive order number, e.g. "14397".',
+          },
+        },
+        required: ['eo_number'],
+      },
+    },
+  },
+];
+
+// ── Tool execution ─────────────────────────────────────────────────────────────
+
+function formatEoList(eos) {
+  return eos.map(e =>
+    `EO ${e.eoNumber} (${e.signingDate}, ${e.president}): ${e.title} — ${e.summary}`
+  ).join('\n');
+}
+
+async function executeTool(name, args) {
+  const index = await getEoIndex();
+  const limit = Math.min(args.limit || 10, 25);
+
+  if (name === 'find_eos_by_theme') {
+    const themeIds = Array.isArray(args.theme_ids) ? args.theme_ids : [];
+    if (themeIds.length === 0) return 'No theme IDs provided.';
+
+    // Union of all EOs across requested themes, deduplicated
+    const seen = new Set();
+    const results = [];
+    for (const tid of themeIds) {
+      for (const eo of (index.byTheme.get(tid) || [])) {
+        if (!seen.has(eo.eoNumber)) {
+          seen.add(eo.eoNumber);
+          results.push(eo);
+        }
+      }
+    }
+    results.sort((a, b) => new Date(b.signingDate) - new Date(a.signingDate));
+    const top = results.slice(0, limit);
+    if (top.length === 0) return `No executive orders found for theme(s): ${themeIds.join(', ')}.`;
+    return `Found ${results.length} EO(s) matching theme(s) [${themeIds.join(', ')}] (showing ${top.length}):\n${formatEoList(top)}`;
+  }
+
+  if (name === 'search_eos') {
+    const query = String(args.query || '').toLowerCase().trim();
+    if (!query) return 'No search query provided.';
+    const terms = query.split(/\s+/).filter(Boolean);
+    const scored = [];
+    for (const eo of index.all) {
+      const haystack = `${eo.title} ${eo.summary}`.toLowerCase();
+      const hits = terms.filter(t => haystack.includes(t)).length;
+      if (hits > 0) scored.push({ eo, hits });
+    }
+    scored.sort((a, b) => b.hits - a.hits || new Date(b.eo.signingDate) - new Date(a.eo.signingDate));
+    const top = scored.slice(0, limit).map(s => s.eo);
+    if (top.length === 0) return `No executive orders matched the query "${args.query}".`;
+    return `Found ${scored.length} EO(s) matching "${args.query}" (showing ${top.length}):\n${formatEoList(top)}`;
+  }
+
+  if (name === 'get_eo') {
+    const num = String(args.eo_number || '').trim();
+    const eo = index.byNumber.get(num);
+    if (!eo) return `Executive order ${num} not found in the dataset.`;
+    const themes = eo.themeIds.length ? `Themes: ${eo.themeIds.join(', ')}` : '';
+    const pos = eo.positiveIds.length ? `Positively impacted: ${eo.positiveIds.join(', ')}` : '';
+    const neg = eo.negativeIds.length ? `Negatively impacted: ${eo.negativeIds.join(', ')}` : '';
+    return [
+      `EO ${eo.eoNumber}: ${eo.title}`,
+      `Signed: ${eo.signingDate} by ${eo.president}`,
+      `Summary: ${eo.summary}`,
+      themes, pos, neg,
+    ].filter(Boolean).join('\n');
+  }
+
+  return `Unknown tool: ${name}`;
+}
+
 const chatLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   max: 60,
@@ -642,20 +821,59 @@ ${contextText}`;
 
   const t0 = Date.now();
   try {
-    const completion = await getOpenAI().chat.completions.create(
-      { model: 'gpt-4.1-mini', messages: openaiMessages, max_tokens: 1024 },
-      { signal: AbortSignal.timeout(15000) },
-    );
+    // Tool loop: up to 3 rounds of tool calls before forcing a final answer
+    const MAX_TOOL_ROUNDS = 3;
+    let round = 0;
+    let totalTokens = 0;
 
-    const answer = completion.choices?.[0]?.message?.content || '';
-    const finishReason = completion.choices?.[0]?.finish_reason;
-    const durationMs = Date.now() - t0;
-    console.log(JSON.stringify({ t: 'chat', contextType: context.type, durationMs, tokens: completion.usage?.total_tokens }));
+    while (true) {
+      const isLastRound = round >= MAX_TOOL_ROUNDS;
+      const completion = await getOpenAI().chat.completions.create(
+        {
+          model: 'gpt-4.1-mini',
+          messages: openaiMessages,
+          max_tokens: 1024,
+          tools: isLastRound ? undefined : CHAT_TOOLS,
+          tool_choice: isLastRound ? undefined : 'auto',
+        },
+        { signal: AbortSignal.timeout(15000) },
+      );
 
-    if (finishReason === 'content_filter') {
-      return res.json({ answer: "I can't respond to that question. Please try a different approach." });
+      totalTokens += completion.usage?.total_tokens || 0;
+      const msg = completion.choices?.[0]?.message;
+      const finishReason = completion.choices?.[0]?.finish_reason;
+
+      // No tool calls — we have the final answer
+      if (!msg?.tool_calls?.length) {
+        const answer = msg?.content || '';
+        const durationMs = Date.now() - t0;
+        console.log(JSON.stringify({ t: 'chat', contextType: context.type, durationMs, tokens: totalTokens, toolRounds: round }));
+        if (finishReason === 'content_filter') {
+          return res.json({ answer: "I can't respond to that question. Please try a different approach." });
+        }
+        return res.json({ answer });
+      }
+
+      // Execute tool calls and feed results back
+      openaiMessages.push(msg); // push assistant message with tool_calls
+      for (const tc of msg.tool_calls) {
+        let toolResult;
+        try {
+          const args = JSON.parse(tc.function.arguments || '{}');
+          toolResult = await executeTool(tc.function.name, args);
+          console.log(JSON.stringify({ t: 'tool', name: tc.function.name, args }));
+        } catch (toolErr) {
+          toolResult = `Tool error: ${toolErr.message}`;
+        }
+        openaiMessages.push({
+          role: 'tool',
+          tool_call_id: tc.id,
+          content: toolResult,
+        });
+      }
+
+      round++;
     }
-    return res.json({ answer });
   } catch (err) {
     if (err.name === 'AbortError' || err.name === 'TimeoutError' || err.name === 'APIUserAbortError') {
       return res.status(504).json({ error: 'Response timed out — please try again.' });
