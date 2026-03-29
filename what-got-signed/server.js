@@ -644,7 +644,7 @@ ${contextText}`;
   try {
     const completion = await getOpenAI().chat.completions.create(
       { model: 'gpt-4.1-mini', messages: openaiMessages, max_tokens: 1024 },
-      { signal: AbortSignal.timeout(8000) },
+      { signal: AbortSignal.timeout(15000) },
     );
 
     const answer = completion.choices?.[0]?.message?.content || '';
@@ -657,7 +657,7 @@ ${contextText}`;
     }
     return res.json({ answer });
   } catch (err) {
-    if (err.name === 'AbortError' || err.name === 'TimeoutError') {
+    if (err.name === 'AbortError' || err.name === 'TimeoutError' || err.name === 'APIUserAbortError') {
       return res.status(504).json({ error: 'Response timed out — please try again.' });
     }
     if (err.constructor?.name === 'RateLimitError' || err.status === 429) {
