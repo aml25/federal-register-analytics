@@ -832,7 +832,7 @@ ${contextText}`;
         {
           model: 'gpt-4.1',
           messages: openaiMessages,
-          max_tokens: 1024,
+          max_tokens: 2048,
           tools: isLastRound ? undefined : CHAT_TOOLS,
           tool_choice: isLastRound ? undefined : 'auto',
         },
