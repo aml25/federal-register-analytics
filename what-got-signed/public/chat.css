@@ -1,4 +1,12 @@
 /* ============================================================
+   Global page padding — prevent content hiding behind fixed chat bar
+   ============================================================ */
+
+body {
+  padding-bottom: 120px;
+}
+
+/* ============================================================
    EO Detail page styles
    ============================================================ */
 
@@ -517,4 +525,115 @@
 @keyframes toast-in {
   from { opacity: 0; transform: translateX(-50%) translateY(8px); }
   to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+/* ============================================================
+   Backdrop — dims page content when chat is expanded
+   ============================================================ */
+
+.chat-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.chat-backdrop--visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* ============================================================
+   Context-change banner
+   ============================================================ */
+
+.chat-context-banner {
+  background: var(--wa-color-warning-50, #fffbeb);
+  border-bottom: 1px solid var(--wa-color-warning-200, #fde68a);
+  padding: var(--wa-space-xs) var(--wa-space-m);
+  display: flex;
+  align-items: center;
+  gap: var(--wa-space-m);
+  flex-wrap: wrap;
+  font-size: var(--wa-font-size-s);
+  color: var(--wa-color-text-default);
+}
+
+.chat-context-banner-text {
+  flex: 1;
+  min-width: 200px;
+}
+
+.chat-context-banner-actions {
+  display: flex;
+  gap: var(--wa-space-xs);
+  flex-shrink: 0;
+}
+
+.chat-context-btn,
+.chat-context-keep {
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: var(--wa-font-size-s);
+  cursor: pointer;
+  white-space: nowrap;
+  min-height: 36px;
+}
+
+.chat-context-btn {
+  background: transparent;
+  border: 1px solid var(--wa-color-neutral-400);
+  color: var(--wa-color-text-default);
+}
+
+.chat-context-btn:hover {
+  background: var(--wa-color-neutral-50);
+}
+
+.chat-context-keep {
+  background: var(--wa-color-primary-600, #2563eb);
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+.chat-context-keep:hover {
+  background: var(--wa-color-primary-700, #1d4ed8);
+}
+
+/* ============================================================
+   Input row layout
+   ============================================================ */
+
+.chat-input-row {
+  display: flex;
+  align-items: center;
+  gap: var(--wa-space-xs);
+  padding: var(--wa-space-xs) var(--wa-space-m);
+}
+
+.chat-send {
+  flex-shrink: 0;
+  background: var(--wa-color-primary-600, #2563eb);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  padding: 10px 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  min-width: 44px;
+}
+
+.chat-send:hover {
+  background: var(--wa-color-primary-700, #1d4ed8);
+}
+
+.chat-send:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }

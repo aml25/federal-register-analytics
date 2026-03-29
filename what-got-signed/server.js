@@ -1,5 +1,5 @@
 import express from 'express';
-import { readFile } from 'node:fs/promises';
+import { readFile, readdir } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import OpenAI from 'openai';
@@ -7,6 +7,7 @@ import rateLimit from 'express-rate-limit';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, 'data');
+const PARAM_ALLOW = /^[a-z0-9_-]+$/i;
 
 // Category labels for themes
 const THEME_CATEGORY_LABELS = {
@@ -493,6 +494,99 @@ async function fetchEoRawText(htmlUrl, eoId) {
   }
 }
 
+async function assembleContext(contextType, params) {
+  switch (contextType) {
+    case 'homepage': {
+      try {
+        const raw = await readFile(join(DATA_DIR, 'aggregated', 'weekly-narrative.json'), 'utf-8');
+        const data = JSON.parse(raw);
+        const narrative = data.narrative || data;
+        return `This week in executive orders:\n${narrative.summary || JSON.stringify(narrative).slice(0, 2000)}`;
+      } catch {
+        return 'The user is on the homepage of What Got Signed?, a site tracking U.S. executive orders.';
+      }
+    }
+    case 'eo': {
+      const eoId = parseInt(params.eoNumber, 10);
+      if (!Number.isFinite(eoId) || eoId <= 0) throw Object.assign(new Error('Invalid EO number'), { status: 400 });
+      const raw = await readFile(join(DATA_DIR, 'enriched', `eo-${eoId}.json`), 'utf-8');
+      const eo = JSON.parse(raw);
+      const rawText = await fetchEoRawText(eo.html_url, eoId);
+      const rawBlock = rawText ? `\nFULL ORDER TEXT:\n${rawText}` : '\n(Full text unavailable.)';
+      return `EXECUTIVE ORDER CONTEXT:\nNumber: ${eo.executive_order_number}\nTitle: ${eo.title}\nSigned: ${eo.signing_date} by ${eo.president.name}\nSummary: ${eo.enrichment.summary}\n${rawBlock}`;
+    }
+    case 'theme': {
+      const { themeId } = params;
+      if (!themeId || !PARAM_ALLOW.test(themeId)) throw Object.assign(new Error('Invalid theme ID'), { status: 400 });
+      const enrichedDir = join(DATA_DIR, 'enriched');
+      const files = await readdir(enrichedDir);
+      const orders = [];
+      for (const file of files) {
+        if (!file.endsWith('.json')) continue;
+        const content = await readFile(join(enrichedDir, file), 'utf-8');
+        const order = JSON.parse(content);
+        if (order.enrichment?.theme_ids?.includes(themeId)) orders.push(order);
+      }
+      orders.sort((a, b) => new Date(b.signing_date) - new Date(a.signing_date));
+      const top = orders.slice(0, 20);
+      if (top.length === 0) return `No executive orders are currently tagged with the theme "${themeId}".`;
+      const lines = top.map(o => `- EO ${o.executive_order_number} (${o.signing_date}): ${o.title} — ${o.enrichment.summary}`);
+      return `Executive orders tagged with theme "${themeId}" (showing ${top.length} of ${orders.length} total):\n${lines.join('\n')}`;
+    }
+    case 'term': {
+      const { presidentId, termStart } = params;
+      if (!presidentId || !PARAM_ALLOW.test(presidentId)) throw Object.assign(new Error('Invalid president ID'), { status: 400 });
+      const termStartYear = parseInt(termStart, 10);
+      if (!Number.isFinite(termStartYear) || termStartYear < 1900) throw Object.assign(new Error('Invalid term start'), { status: 400 });
+      const enrichedDir = join(DATA_DIR, 'enriched');
+      const files = await readdir(enrichedDir);
+      const termEndYear = termStartYear + 4;
+      const orders = [];
+      for (const file of files) {
+        if (!file.endsWith('.json')) continue;
+        const content = await readFile(join(enrichedDir, file), 'utf-8');
+        const order = JSON.parse(content);
+        if (order.president?.identifier === presidentId) {
+          const y = new Date(order.signing_date).getFullYear();
+          if (y >= termStartYear && y <= termEndYear) orders.push(order);
+        }
+      }
+      orders.sort((a, b) => new Date(b.signing_date) - new Date(a.signing_date));
+      const top = orders.slice(0, 20);
+      if (top.length === 0) return `No executive orders found for president "${presidentId}" starting ${termStartYear}.`;
+      const lines = top.map(o => `- EO ${o.executive_order_number} (${o.signing_date}): ${o.title} — ${o.enrichment.summary}`);
+      return `Executive orders by president "${presidentId}" (term starting ${termStartYear}, showing ${top.length} of ${orders.length} total):\n${lines.join('\n')}`;
+    }
+    case 'quarter': {
+      const { year, quarter } = params;
+      const yearNum = parseInt(year, 10);
+      const quarterNum = parseInt(quarter, 10);
+      if (!Number.isFinite(yearNum) || yearNum < 1900) throw Object.assign(new Error('Invalid year'), { status: 400 });
+      if (!Number.isFinite(quarterNum) || quarterNum < 1 || quarterNum > 4) throw Object.assign(new Error('Invalid quarter'), { status: 400 });
+      const enrichedDir = join(DATA_DIR, 'enriched');
+      const files = await readdir(enrichedDir);
+      const startMonth = (quarterNum - 1) * 3 + 1;
+      const endMonth = quarterNum * 3;
+      const orders = [];
+      for (const file of files) {
+        if (!file.endsWith('.json')) continue;
+        const content = await readFile(join(enrichedDir, file), 'utf-8');
+        const order = JSON.parse(content);
+        const d = new Date(order.signing_date);
+        const m = d.getMonth() + 1;
+        if (d.getFullYear() === yearNum && m >= startMonth && m <= endMonth) orders.push(order);
+      }
+      orders.sort((a, b) => new Date(b.signing_date) - new Date(a.signing_date));
+      const top = orders.slice(0, 20);
+      if (top.length === 0) return `No executive orders found for Q${quarterNum} ${yearNum}.`;
+      const lines = top.map(o => `- EO ${o.executive_order_number} (${o.signing_date}): ${o.title} — ${o.enrichment.summary}`);
+      return `Executive orders for Q${quarterNum} ${yearNum} (showing ${top.length} of ${orders.length} total):\n${lines.join('\n')}`;
+    }
+    default:
+      return 'The user is exploring What Got Signed?, a site tracking U.S. executive orders.';
+  }
+}
+
 const chatLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   max: 60,
@@ -504,10 +598,11 @@ const chatLimiter = rateLimit({
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 async function chatHandler(req, res) {
-  const { subject, messages, question } = req.body || {};
+  const { context, messages, question } = req.body || {};
+  const ALLOWED_TYPES = new Set(['homepage', 'eo', 'theme', 'term', 'quarter', 'generic']);
 
-  if (!subject || subject.type !== 'eo' || !subject.id) {
-    return res.status(400).json({ error: 'Invalid subject' });
+  if (!context || typeof context.type !== 'string' || !ALLOWED_TYPES.has(context.type)) {
+    return res.status(400).json({ error: 'Invalid context' });
   }
   if (!question || typeof question !== 'string' || !question.trim()) {
     return res.status(400).json({ error: 'Question is required' });
@@ -517,67 +612,23 @@ async function chatHandler(req, res) {
     return res.status(400).json({ error: 'Conversation history too long' });
   }
 
-  const eoId = parseInt(subject.id, 10);
-  if (!Number.isFinite(eoId) || eoId <= 0) {
-    return res.status(400).json({ error: 'Invalid EO ID' });
-  }
-
-  // Load enriched EO
-  let eo;
+  let contextText;
   try {
-    const raw = await readFile(join(DATA_DIR, 'enriched', `eo-${eoId}.json`), 'utf-8');
-    try {
-      eo = JSON.parse(raw);
-    } catch (parseErr) {
-      console.error(`JSON parse error for eo-${eoId}.json:`, parseErr.message);
-      return res.status(500).json({ error: 'Failed to load EO data' });
-    }
+    contextText = await assembleContext(context.type, context.params || {});
   } catch (err) {
-    if (err.code === 'ENOENT') return res.status(404).json({ error: 'EO not found' });
-    return res.status(500).json({ error: 'Failed to load EO data' });
+    if (err.status === 400) return res.status(400).json({ error: err.message });
+    if (err.code === 'ENOENT') return res.status(404).json({ error: 'Content not found' });
+    console.error('assembleContext error:', err.message);
+    return res.status(500).json({ error: 'Failed to load page context' });
   }
 
-  // Load themes for name resolution
-  let themeMap = new Map();
-  try {
-    const taxonomyRaw = await readFile(join(DATA_DIR, 'taxonomy.json'), 'utf-8');
-    const taxonomy = JSON.parse(taxonomyRaw);
-    for (const cat of Object.values(taxonomy.categories || {})) {
-      for (const theme of Object.values(cat.themes || {})) {
-        if (theme.id && theme.name) themeMap.set(theme.id, theme.name);
-      }
-    }
-  } catch { /* themes non-critical */ }
+  const systemPrompt = `You are a research assistant helping users understand U.S. executive orders on the site What Got Signed?
+Answer questions accurately and concisely. Cite specific executive order numbers when relevant.
+Flag when something requires legal interpretation beyond what the data shows.
 
-  const themeNames = (eo.enrichment.theme_ids || [])
-    .map(id => themeMap.get(id) || id)
-    .join(', ');
+PAGE CONTEXT:
+${contextText}`;
 
-  const positivePopulations = (eo.enrichment.impacted_populations.positive_ids || [])
-    .map(id => id.replace(/-/g, ' ')).join(', ');
-
-  // Fetch raw text (with timeout + cache)
-  const rawText = await fetchEoRawText(eo.html_url, eoId);
-
-  // Build system prompt
-  const rawTextBlock = rawText
-    ? `\nFULL ORDER TEXT (cite from this):\n${rawText}`
-    : '\nNote: the full order text could not be retrieved. Answer based on the summary and your knowledge, and note when you are doing so.';
-
-  const systemPrompt = `You are a research assistant helping a user investigate a specific executive order.
-Answer questions accurately. When citing the order, use the exact format: [EO ${eo.executive_order_number}, §{section}].
-Flag when something requires legal interpretation beyond what the text states.
-
-EXECUTIVE ORDER CONTEXT:
-Number: ${eo.executive_order_number}
-Title: ${eo.title}
-Signed: ${eo.signing_date} by ${eo.president.name}
-Themes: ${themeNames || 'Not specified'}
-Impacted populations: ${positivePopulations || 'Not specified'}
-Summary: ${eo.enrichment.summary}
-${rawTextBlock}`;
-
-  // Build message array for OpenAI
   const openaiMessages = [
     { role: 'system', content: systemPrompt },
     ...history.filter(m => m.role === 'user' || m.role === 'assistant')
@@ -585,23 +636,28 @@ ${rawTextBlock}`;
     { role: 'user', content: question.trim() },
   ];
 
+  const t0 = Date.now();
   try {
     const completion = await openai.chat.completions.create({
       model: 'gpt-4.1-mini',
       messages: openaiMessages,
       max_tokens: 1024,
+      signal: AbortSignal.timeout(8000),
     });
 
     const answer = completion.choices?.[0]?.message?.content || '';
-
-    // Handle content_filter refusal
     const finishReason = completion.choices?.[0]?.finish_reason;
+    const durationMs = Date.now() - t0;
+    console.log(JSON.stringify({ t: 'chat', contextType: context.type, durationMs, tokens: completion.usage?.total_tokens }));
+
     if (finishReason === 'content_filter') {
       return res.json({ answer: "I can't respond to that question. Please try a different approach." });
     }
-
-    res.json({ answer });
+    return res.json({ answer });
   } catch (err) {
+    if (err.name === 'AbortError' || err.name === 'TimeoutError') {
+      return res.status(504).json({ error: 'Response timed out — please try again.' });
+    }
     if (err.constructor?.name === 'RateLimitError' || err.status === 429) {
       return res.status(429).json({ error: 'Too many requests — try again in a moment.' });
     }

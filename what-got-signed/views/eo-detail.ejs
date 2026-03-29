@@ -2,7 +2,6 @@
 <html lang="en" class="wa-cloak">
 <head>
   <%- include('partials/head', { title: 'Executive Order — What Got Signed?' }) %>
-  <link rel="stylesheet" href="/chat.css">
 </head>
 <body>
   <div class="page">
@@ -50,76 +49,8 @@
     </div>
   </div>
 
-  <!-- Chat overlay — direct child of body for correct iOS Safari fixed positioning -->
-  <div id="chat-overlay" class="chat-overlay chat-overlay--collapsed" aria-label="Investigate this EO" role="complementary">
-    <!-- Chip row (visible in collapsed state only) -->
-    <div class="chat-chips" id="chat-chips" aria-label="Suggested questions" style="display:none;"></div>
-
-    <!-- Bar (always visible) -->
-    <div class="chat-bar">
-      <input
-        type="text"
-        id="chat-input"
-        class="chat-input"
-        placeholder="Ask about this EO…"
-        aria-label="Ask a question about this executive order"
-        disabled
-        autocomplete="off"
-        maxlength="500"
-      />
-      <button id="chat-send" class="chat-send" aria-label="Send question" disabled>
-        <wa-icon name="paper-plane-top"></wa-icon>
-      </button>
-    </div>
-
-    <!-- Expanded panels (hidden in collapsed state) -->
-    <div class="chat-panels" id="chat-panels" aria-hidden="true">
-      <!-- Mobile: tab bar -->
-      <div class="chat-tabs" role="tablist" aria-label="Chat sections">
-        <button role="tab" aria-selected="true" aria-controls="chat-conversation-panel" id="tab-chat" class="chat-tab chat-tab--active">Chat</button>
-        <button role="tab" aria-selected="false" aria-controls="chat-findings-panel" id="tab-findings" class="chat-tab">Findings</button>
-      </div>
-
-      <!-- Conversation panel -->
-      <div class="chat-panel chat-panel--conversation" id="chat-conversation-panel" role="tabpanel" aria-labelledby="tab-chat">
-        <div class="chat-messages" id="chat-messages" aria-live="polite" aria-label="Conversation"></div>
-
-        <!-- Turn cap terminal state (hidden until turn 10) -->
-        <div class="chat-turn-cap" id="chat-turn-cap" style="display:none;">
-          <p class="wa-body-s">You've reached the limit for this conversation.</p>
-          <div class="chat-turn-cap-actions">
-            <button class="wa-button chat-copy-btn" id="chat-copy-from-cap">Copy findings</button>
-            <button class="wa-button wa-button--brand" id="chat-new-conversation">Start new conversation</button>
-          </div>
-        </div>
-
-        <!-- Turn counter (visible at turn 8+) -->
-        <p class="chat-turn-counter wa-caption-s wa-color-text-quiet" id="chat-turn-counter" style="display:none;"></p>
-      </div>
-
-      <!-- Findings panel -->
-      <div class="chat-panel chat-panel--findings" id="chat-findings-panel" role="tabpanel" aria-labelledby="tab-findings" aria-hidden="true">
-        <div class="chat-findings-header">
-          <span class="wa-label-s">Key findings</span>
-          <button id="chat-copy" class="chat-copy-link wa-body-s" aria-label="Copy findings as markdown">Copy findings</button>
-        </div>
-        <div class="chat-findings-list" id="chat-findings-list">
-          <p class="chat-findings-empty wa-body-s wa-color-text-quiet">Nothing saved yet. Hit "+ Add to findings" after any response.</p>
-        </div>
-      </div>
-
-      <!-- Desktop close button -->
-      <button class="chat-close" id="chat-close" aria-label="Close chat">
-        <wa-icon name="xmark"></wa-icon> Close
-      </button>
-    </div>
-  </div>
-
   <%- include('partials/footer') %>
 
-  <script src="/dompurify.min.js"></script>
-  <script src="/utils.js"></script>
   <script src="/detail-eo.js"></script>
-  <script src="/chat.js"></script>
 </body>
 </html>
