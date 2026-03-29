@@ -830,7 +830,7 @@ ${contextText}`;
       const isLastRound = round >= MAX_TOOL_ROUNDS;
       const completion = await getOpenAI().chat.completions.create(
         {
-          model: 'gpt-4.1-mini',
+          model: 'gpt-4.1',
           messages: openaiMessages,
           max_tokens: 1024,
           tools: isLastRound ? undefined : CHAT_TOOLS,
