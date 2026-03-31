@@ -34,12 +34,12 @@
     {
       "theme_id": "government-efficiency",
       "theme_name": "Government Efficiency",
-      "order_count": 93,
+      "order_count": 94,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 59
+          "order_count": 60
         },
         {
           "president_id": "barack-obama",
@@ -57,9 +57,9 @@
           "order_count": 2
         }
       ],
-      "summary": "Efforts to enhance government efficiency through executive orders have reflected shifting priorities across administrations, with a notable surge during the Trump presidency emphasizing regulatory reform and executive branch reorganization. Earlier initiatives under Obama focused on sustainability, transparency, and improving labor-management relations within federal contracting. The orders have sought to streamline government operations, reduce costs, and modernize processes, but approaches varied from promoting workforce protections and environmental considerations to prioritizing fiscal discipline and deregulation, illustrating evolving strategies to balance efficient governance with accountability.",
-      "potential_impact": "These executive actions aimed to benefit a diverse array of groups including federal contractors, small businesses, and working-age adults by seeking to improve contract management and governmental responsiveness. However, concerns arose regarding potential negative effects on federal employees, union members, and certain vulnerable populations, as some measures risked undermining labor rights, security standards, and continuity in agency leadership. Observers highlighted how policies designed to enhance efficiency might inadvertently introduce administrative burdens, reduce worker protections, or create uncertainties during transitions, affecting those reliant on stable government services and fair workplace practices.",
-      "generated_at": "2026-03-23T04:25:13.219Z",
+      "summary": "Efforts to enhance government efficiency through executive orders have evolved significantly, with notable shifts in emphasis across administrations. While earlier orders under the Bush and Obama administrations focused on improving contract management, sustainability, and worker protections, the Trump administration pursued a more aggressive deregulation and restructuring agenda aimed at reducing expenditures and streamlining executive branch operations. The Biden administration has taken a more measured approach, balancing efficiency with worker protections and sustainability. These varying strategies reflect differing priorities in balancing operational effectiveness with regulatory oversight and labor relations within the federal government.",
+      "potential_impact": "These executive actions primarily aimed to affect federal contractors, small businesses, and working-age employees by promoting streamlined processes and cost savings. However, concerns arose regarding the potential for increased burdens on federal employees, uneven application of fitness standards, and challenges for union members in communication and organizing efforts. The tension between efficiency and fair labor practices raised questions about the balance between cost-cutting measures and maintaining workforce morale and security, with possible repercussions for both government service delivery and employee rights.",
+      "generated_at": "2026-03-31T14:24:40.633Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1083,6 +1083,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "dei-diversity-equity-inclusion",
+      "theme_name": "DEI (Diversity, Equity, Inclusion)",
+      "order_count": 19,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 9
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 6
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 4
+        }
+      ],
+      "summary": "Executive actions on diversity, equity, and inclusion have reflected shifting governmental priorities and tensions across administrations. Early efforts under Obama concentrated on expanding federal workforce diversity and supporting underrepresented groups through coordinated initiatives and recruitment programs. The Trump administration’s orders often challenged prevailing DEI concepts, emphasizing opposition to race and sex stereotyping while restructuring or rescinding prior DEI efforts, signaling a more restrictive approach. Biden’s orders sought to rebuild and broaden inclusion frameworks, focusing on accessibility, equity in education, and workforce modernization, highlighting an ongoing debate about balancing diversity goals with meritocracy and regulatory complexity.",
+      "potential_impact": "These executive orders aimed to enhance opportunities for veterans, minorities, women, and individuals with disabilities within federal programs and employment, while also addressing educational and economic access for underserved communities. However, concerns arose about potential unintended consequences, including risks of marginalizing subgroups within broader categories, perceptions of reverse discrimination, and challenges in translating policy into substantive cultural change. Administrative burdens and shifts in hiring practices further complicated implementation, raising questions about fairness, workforce morale, and the sustainability of DEI initiatives across diverse populations.",
+      "generated_at": "2026-03-31T14:24:45.377Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "public-health-emergency-response",
       "theme_name": "Public Health Emergency Response",
       "order_count": 18,
@@ -1106,32 +1132,6 @@
       "summary": "Executive actions addressing public health emergencies have evolved through diverse approaches emphasizing preparedness, response, and resilience. Early efforts under the Obama administration focused on establishing medical countermeasure capabilities and combating infectious diseases like HIV and antibiotic resistance. The Trump administration expanded this framework by targeting opioid addiction, enhancing rural health access, and securing pharmaceutical supply chains amid emerging crises. The Biden administration has prioritized COVID-19 response measures, vaccine mandates, and strengthening federal advisory structures, reflecting a shift toward coordinated, science-driven pandemic management. Across administrations, these policies reflect ongoing attempts to balance rapid response with systemic health improvements.",
       "potential_impact": "These executive orders aimed to benefit a broad spectrum of populations including patients requiring urgent medical interventions, healthcare workers on the front lines, and vulnerable groups such as low-income families, veterans, and individuals with mental health conditions. However, concerns have been raised about the potential for increased burdens on pharmaceutical manufacturers, operational strains on healthcare providers, and civil liberties implications from expanded quarantine powers. Additionally, coordination complexities risk delaying critical services, while disparities in access and privacy issues may disproportionately affect marginalized communities and those outside comprehensive healthcare coverage.",
       "generated_at": "2025-12-15T08:45:22.075Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "dei-diversity-equity-inclusion",
-      "theme_name": "DEI (Diversity, Equity, Inclusion)",
-      "order_count": 18,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 8
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 6
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 4
-        }
-      ],
-      "summary": "Executive orders addressing diversity, equity, and inclusion have evolved through distinct presidential approaches, reflecting shifting priorities within federal workforce and community engagement. Early efforts under Obama emphasized broad government-wide initiatives to enhance participation of underrepresented groups including Asian Americans and veterans. The Trump administration’s orders often focused on challenging prevailing DEI frameworks, emphasizing meritocratic principles and skepticism toward certain DEI practices. Biden's subsequent orders sought to restore and expand inclusive measures, targeting systemic inequities in federal employment and educational institutions while advancing accessibility and equity agendas. This trajectory underscores ongoing tensions between expanding representation and maintaining traditional hiring standards within the federal government.",
-      "potential_impact": "These executive orders aimed to benefit a wide range of populations such as veterans, federal employees, Hispanic and Black Americans, women, and individuals with disabilities by promoting greater inclusion and opportunity. However, concerns arise regarding potential unintended consequences, including perceptions of preferential treatment or reverse discrimination that could affect workforce morale and cohesion. Additionally, challenges in implementation—such as administrative burdens, risks of reinforcing stereotypes through data collection, and uneven access for marginalized subgroups—highlight the complexity of translating DEI goals into equitable outcomes across diverse communities.",
-      "generated_at": "2025-12-20T05:46:08.911Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1500,6 +1500,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "employment-discrimination",
+      "theme_name": "Employment Discrimination",
+      "order_count": 15,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 10
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 4
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive orders addressing employment discrimination have reflected divergent approaches to promoting equity within federal employment and contracting. Earlier administrations emphasized expanding opportunities for individuals with disabilities and implementing coordinated diversity and inclusion efforts, while later orders often prioritized merit-based principles and scrutinized diversity programs, sometimes framing them as burdensome or discriminatory. This evolving policy landscape illustrates a complex balance between fostering workplace inclusion and addressing concerns over fairness, compliance, and administrative impact across federal agencies and contractors.",
+      "potential_impact": "These executive actions aimed to benefit a broad range of groups, including federal employees, contractors, and historically marginalized communities such as individuals with disabilities, racial minorities, women, and LGBTQ+ individuals. However, concerns emerged about possible reverse discrimination, workplace morale challenges, and uneven enforcement, particularly regarding federal contractors and security clearance holders. Smaller contractors faced potential compliance burdens, while some protections risked being more symbolic than substantive, leaving questions about the tangible effects on equitable employment opportunities and workplace culture.",
+      "generated_at": "2026-03-31T14:24:50.247Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "manufacturing-policy",
       "theme_name": "Manufacturing Policy",
       "order_count": 14,
@@ -1580,32 +1606,6 @@
       "summary": "Executive orders addressing the order of succession have evolved to clarify and amend leadership hierarchies across key federal departments, reflecting each administration’s approach to ensuring continuity in governance. While earlier orders focused on establishing clear chains within agriculture and transportation, recent actions under the Biden administration have expanded succession protocols to include cybersecurity and budget offices, signaling an increased emphasis on emerging priorities. These orders balance legal frameworks and presidential discretion to maintain operational stability, though they reveal ongoing challenges in reconciling formal succession rules with the practical demands of departmental leadership.",
       "potential_impact": "The succession orders primarily aim to benefit political appointees and federal law enforcement by providing clear leadership pathways during transitions, which is crucial for maintaining consistent policy enforcement and operational readiness. However, concerns arise about potential leadership gaps and internal competition, especially when acting officials are excluded or when succession lines may marginalize qualified leaders. Such dynamics could affect federal employees’ morale and the efficacy of departments responsible for critical functions like homeland security and transportation, highlighting the delicate interplay between legal mandates and effective governance.",
       "generated_at": "2025-12-15T08:45:58.362Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "employment-discrimination",
-      "theme_name": "Employment Discrimination",
-      "order_count": 14,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 9
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 4
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive orders addressing employment discrimination have reflected divergent presidential priorities, with a notable emphasis on federal workforce diversity and contractor compliance. Earlier administrations focused on expanding opportunities for individuals with disabilities and fostering inclusion across government agencies, embedding coordinated strategies to promote equity. Later orders shifted toward scrutinizing diversity initiatives and reinforcing merit-based principles, often increasing regulatory oversight on contractors. These evolving approaches highlight tensions between advancing representation for marginalized groups and concerns about administrative burdens or perceived preferential treatment within federal employment frameworks.",
-      "potential_impact": "These executive actions aimed to benefit a wide spectrum of groups, including federal employees, contractors, and historically underrepresented populations such as individuals with disabilities, racial minorities, women, veterans, and LGBTQ+ individuals. However, concerns arose regarding potential reverse discrimination and workplace morale, especially where efforts to enhance diversity intersected with merit system principles. Compliance demands placed on contractors, especially smaller businesses, raised fears of economic exclusion, while privacy and enforcement challenges underscored ongoing risks of uneven protections and workplace bias for vulnerable employees.",
-      "generated_at": "2025-12-15T08:46:04.274Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1828,6 +1828,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "anti-discrimination",
+      "theme_name": "Anti-discrimination",
+      "order_count": 12,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 8
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive actions addressing anti-discrimination reflect divergent priorities across recent administrations, with a notable focus on federal workplaces, educational environments, and healthcare access. While earlier orders sought to expand protections for LGBTQ+ and transgender individuals and combat sex-based discrimination in federal employment, later directives frequently emphasized merit-based opportunity and scrutinized diversity, equity, and inclusion practices, especially within federal contracting and higher education. These contrasting approaches highlight ongoing tensions between enforcing expansive civil rights protections and promoting narrower interpretations of equal opportunity.",
+      "potential_impact": "These executive orders aimed to benefit a wide range of groups, including federal contractors, women, LGBTQ+ and transgender individuals, students, and low-income families, by seeking to reduce discrimination and improve access to equitable opportunities. However, concerns emerged regarding the practical enforcement of protections, administrative burdens on institutions, and potential conflicts arising in educational and healthcare settings. Additionally, some policies risked unintended negative effects on minority communities, raising questions about equitable implementation and the balance between anti-discrimination goals and merit-based frameworks.",
+      "generated_at": "2026-03-31T14:24:53.260Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "visa-policy",
       "theme_name": "Visa Policy",
       "order_count": 11,
@@ -1976,32 +2002,6 @@
       "summary": "Executive actions on security clearances and background investigations have evolved with shifting priorities around national security and operational efficiency. Earlier administrations emphasized establishing baseline standards and reciprocity for fitness determinations across agencies, aiming to streamline clearance processes. The Trump administration notably increased executive orders addressing risks associated with background investigations and clearance management, including transferring oversight responsibilities and targeting specific entities, reflecting heightened concerns about insider threats and election interference. These actions underscore the complex balance between rigorous security protocols and administrative practicality.",
       "potential_impact": "These orders sought to enhance protections for security clearance holders and federal employees, while also imposing stricter standards on federal contractors and private sector entities involved in sensitive work. However, heightened requirements and oversight raised concerns about administrative burdens, potential delays, and uneven application of standards. Scientific researchers, law enforcement officers, and state and local governments faced challenges related to access restrictions and compliance costs, potentially affecting collaboration, morale, and timely information sharing across various security domains.",
       "generated_at": "2025-12-15T08:46:46.440Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "anti-discrimination",
-      "theme_name": "Anti-discrimination",
-      "order_count": 11,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 7
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 3
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive orders addressing anti-discrimination have evolved to reflect shifting federal priorities, with administrations emphasizing different facets of equality. Earlier efforts under President Obama focused on expanding equal employment opportunities within federal agencies. The Biden administration pursued broad protections for sexual orientation, gender identity, and racial equity, particularly advancing educational environments free from sex discrimination and promoting justice for Asian American and Pacific Islander communities. In contrast, the Trump administration issued multiple orders aimed at redefining merit-based opportunity and scrutinizing perceived biases, often framing anti-discrimination policies through a lens of restoring traditional standards and accountability. This pattern reveals a tension between expanding inclusive protections and concerns over administrative burdens and fairness.",
-      "potential_impact": "These executive actions sought to benefit diverse groups including women, LGBTQ+ and transgender individuals, students across educational levels, and low-income families, aiming to enhance fairness and access to opportunity. However, the expanded protections also raised complexities, such as potential resistance within schools balancing religious or cultural values, uneven enforcement challenges, and increased compliance demands on federal contractors. Observers noted risks that some protections might inadvertently strain resources, provoke legal disputes, or insufficiently address the nuanced experiences of marginalized populations, highlighting the delicate balance between advancing equity and managing practical implementation.",
-      "generated_at": "2025-12-15T08:46:59.852Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4919,5 +4919,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-03-28T19:01:51.790Z"
+  "generated_at": "2026-03-31T14:24:53.261Z"
 }

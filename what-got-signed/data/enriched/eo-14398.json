@@ -1,0 +1,52 @@
+{
+  "document_number": "2026-06286",
+  "executive_order_number": "14398",
+  "title": "Addressing DEI Discrimination by Federal Contractors",
+  "abstract": null,
+  "signing_date": "2026-03-26",
+  "publication_date": "2026-03-31",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/03/31/2026-06286/addressing-dei-discrimination-by-federal-contractors",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-03-31/pdf/2026-06286.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/03/31/2026-06286.txt",
+  "enrichment": {
+    "summary": "This executive order prohibits federal contractors and their subcontractors from engaging in race- or ethnicity-based discrimination under the guise of diversity, equity, and inclusion (DEI) programs. It requires federal agencies to include anti-discriminatory clauses in contracts, enforce compliance through penalties, and oversee contractor behavior to ensure merit-based treatment in hiring and operations.",
+    "theme_ids": [
+      "dei-diversity-equity-inclusion",
+      "anti-discrimination",
+      "employment-discrimination",
+      "government-efficiency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "white-americans",
+        "federal-contractors",
+        "non-union-workers",
+        "corporations-businesses"
+      ],
+      "negative_ids": [
+        "african-americans-black-americans",
+        "hispanic-latino-americans",
+        "asian-americans",
+        "native-americans-indigenous-peoples",
+        "alaska-natives",
+        "native-hawaiian-and-pacific-islanders",
+        "multiracial-americans",
+        "federal-contractors",
+        "corporations-businesses",
+        "non-union-workers"
+      ]
+    },
+    "potential_concerns": [
+      "The prohibition of race- or ethnicity-based DEI programs may reduce opportunities for historically marginalized groups such as African Americans, Hispanic/Latino Americans, Native Americans, and other racial minorities to receive targeted support in federal contractor employment, potentially reinforcing existing employment disparities.",
+      "Federal contractors and subcontractors could face increased administrative burdens and risks of contract termination or debarment, creating a chilling effect on legitimate diversity and inclusion efforts beyond race or ethnicity that might indirectly benefit various demographic groups.",
+      "Merit-based hiring requirements as mandated by the order may fail to account for structural barriers and systemic inequities faced by racial and ethnic minorities, limiting the practical impact of anti-discrimination policies and potentially disadvantaging those populations.",
+      "The order’s enforcement mechanisms could disproportionately affect small and mid-sized businesses serving as federal contractors, potentially reducing competition and diversity among federal suppliers, which may ultimately harm corporate diversity and innovation goals."
+    ],
+    "enriched_at": "2026-03-31T14:24:27.000Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
