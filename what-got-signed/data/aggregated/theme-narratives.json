@@ -96,12 +96,12 @@
     {
       "theme_id": "homeland-security",
       "theme_name": "Homeland Security",
-      "order_count": 77,
+      "order_count": 78,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 45
+          "order_count": 46
         },
         {
           "president_id": "barack-obama",
@@ -119,9 +119,9 @@
           "order_count": 1
         }
       ],
-      "summary": "Executive actions on homeland security have evolved to balance national safety with operational efficiency across administrations. Early efforts under George W. Bush laid groundwork for biosecurity, while the Obama administration expanded focus to cybersecurity, critical infrastructure, and veteran support. The Trump era emphasized stringent immigration controls and enhanced enforcement mechanisms alongside cybersecurity and election security. Biden’s orders reflect a continuation of cybersecurity priorities and support for military personnel, underscoring coordination and resilience amid emerging threats. These shifting emphases reveal a complex interplay between defense, technology, and civil liberties.",
-      "potential_impact": "These executive orders aimed to bolster protections for military and law enforcement personnel, veterans, and cybersecurity professionals, enhancing national defense and infrastructure resilience. However, measures targeting undocumented immigrants, refugees, and visa holders raised concerns about civil rights and community relations. The tightening of security clearances and classification rules, while intended to safeguard sensitive information, sometimes imposed burdens on researchers and local agencies, potentially hindering collaboration and timely access to critical data. This dynamic reflects ongoing tensions between security imperatives and the rights of diverse populations.",
-      "generated_at": "2026-03-23T04:25:16.559Z",
+      "summary": "Executive orders on homeland security have evolved to address a broad range of challenges from terrorism and biosecurity to cybersecurity and critical infrastructure protection. Early efforts emphasized strengthening laboratory biosecurity and classified information management, while later administrations expanded focus to include veterans’ mental health, cyber workforce development, and enhanced immigration enforcement. The Trump administration notably intensified border security and trade enforcement measures, reflecting a more restrictive stance, whereas Obama and Biden emphasized interagency coordination and resilience against emerging threats like electromagnetic pulses and infectious diseases. These shifts illustrate how homeland security priorities adapt to changing geopolitical and technological landscapes.",
+      "potential_impact": "These executive orders sought to bolster national defense and public safety, primarily benefiting active military personnel, law enforcement officers, cybersecurity professionals, and veterans by enhancing protective measures and operational capabilities. However, they also raised concerns about imposing burdens on scientific research, private sector compliance, and local law enforcement access to intelligence. Policies targeting immigration and refugee flows risked negatively affecting vulnerable populations, while heightened security protocols sometimes complicated information sharing and transparency, potentially impacting communities and workers involved in critical infrastructure and emergency response.",
+      "generated_at": "2026-04-03T13:57:47.184Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -502,12 +502,12 @@
     {
       "theme_id": "federal-law-enforcement",
       "theme_name": "Federal Law Enforcement",
-      "order_count": 31,
+      "order_count": 32,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 17
+          "order_count": 18
         },
         {
           "president_id": "barack-obama",
@@ -520,9 +520,9 @@
           "order_count": 7
         }
       ],
-      "summary": "Federal law enforcement executive orders reveal shifting presidential priorities that balance enhancing agency capabilities, ensuring leadership continuity, and addressing emerging threats. While Obama’s orders focused on strengthening interagency coordination and specialized task forces, Trump’s prolific use emphasized enforcement expansion, public safety emergencies, and regulatory adjustments, including cryptocurrency oversight. Biden’s directives aimed to improve policing accountability, combat gun violence, and address specific community crises. Across administrations, succession planning and international coordination through bodies like INTERPOL illustrate ongoing efforts to maintain operational resilience amid evolving challenges.",
-      "potential_impact": "These orders sought to bolster federal law enforcement officers’ authority and resources, promising greater protection for crime victims and federal employees, while also targeting urban communities and vulnerable groups. However, aggressive enforcement strategies raised concerns about their effects on undocumented immigrants, low-income populations, and small businesses, with fears of disproportionate impacts and strained interagency relations. Additionally, expanding diplomatic immunities and rapid response plans introduced risks related to oversight, privacy, and operational safety, highlighting tensions between security objectives and community trust.",
-      "generated_at": "2025-12-15T08:44:04.684Z",
+      "summary": "Federal law enforcement executive orders have reflected varied presidential priorities, ranging from strengthening financial fraud enforcement and enhancing operational succession plans to addressing public safety and crime emergencies. The Obama administration emphasized interagency coordination and medical preparedness, while the Trump era focused heavily on market integrity, election security, and crime reduction initiatives. President Biden’s orders highlight community safety, gun violence reduction, and accountability in policing, signaling a shift toward balancing enforcement with public trust and indigenous justice concerns. Across administrations, these orders reveal evolving strategies to adapt federal law enforcement to emerging challenges and societal expectations.",
+      "potential_impact": "These executive orders aimed to bolster federal law enforcement officers' authority and resources while seeking to protect crime victims and federal employees, with some extending benefits to state and local officers and underserved urban communities. However, concerns emerged about potential adverse effects on undocumented immigrants, low-income populations, and certain business sectors, as intensified enforcement and regulatory measures could lead to unintended hardships. Observers also noted risks related to expanded international law enforcement immunities and interagency coordination complexities, which might affect privacy, accountability, and equitable access to protections for vulnerable groups.",
+      "generated_at": "2026-04-03T13:57:50.848Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -3112,6 +3112,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "voting-rights",
+      "theme_name": "Voting Rights",
+      "order_count": 6,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 3
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 2
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive actions on voting rights reveal divergent presidential priorities in shaping election access and integrity. Obama’s orders sought to improve election administration and expand voting access, particularly for military personnel and disabled voters. In contrast, Trump’s orders emphasized election integrity through commissions targeting voter fraud and citizenship verification, often focusing on stricter oversight that raised concerns about potential disenfranchisement. Biden’s single order aimed to enhance voter access more broadly, reflecting a continuing tension between expanding participation and safeguarding electoral processes.",
+      "potential_impact": "These executive orders aimed to benefit a broad spectrum of eligible voters, including minorities, military members, and individuals with disabilities, by addressing access and administrative improvements. However, initiatives focused on fraud prevention and citizenship verification risked disproportionate scrutiny on racial minorities, naturalized citizens, and low-income populations, potentially suppressing their participation. Concerns also arose over uneven implementation across states and communities, possibly limiting the effectiveness of expanded access and exacerbating disparities among traditionally marginalized groups.",
+      "generated_at": "2026-04-03T13:57:54.294Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "arts-and-humanities",
       "theme_name": "Arts and Humanities",
       "order_count": 5,
@@ -3177,32 +3203,6 @@
       "summary": "Executive orders addressing the environmental review process have reflected divergent priorities between administrations, balancing infrastructure development with environmental safeguards. The Obama era focused on coordinating energy development and trade-related authorities, aiming to streamline permitting while considering indigenous and rural community interests. In contrast, the Trump administration emphasized accelerating federal permitting and expanding resource extraction, promoting economic growth through timber and data center projects but raising concerns about expedited reviews potentially compromising environmental protections and community input, particularly for vulnerable populations.",
       "potential_impact": "These orders sought to benefit workers in energy, construction, and rural sectors by facilitating faster project approvals and job creation. However, the accelerated timelines and streamlined processes raised worries about insufficient environmental review, risking harm to environmental justice communities, tribal populations, and indigenous peoples reliant on natural resources. Observers noted that prioritizing economic and infrastructure goals could marginalize non-union workers and undermine long-term sustainability, potentially exposing vulnerable communities to environmental degradation and reduced influence over decisions affecting their lands and livelihoods.",
       "generated_at": "2025-12-15T08:48:49.785Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "voting-rights",
-      "theme_name": "Voting Rights",
-      "order_count": 5,
-      "presidents": [
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 2
-        },
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 2
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive actions on voting rights reveal a complex interplay between efforts to expand access and initiatives emphasizing election integrity, reflecting divergent priorities across administrations. Obama's orders focused on improving election administration and access for military voters, while Trump's commissions prioritized identifying voter fraud, leading to contentious debates over restrictive measures. Biden's order aimed to promote broader voting access, signaling a return to inclusivity. This evolving landscape underscores ongoing tensions between enhancing participation and safeguarding electoral processes amid varying political and demographic considerations.",
-      "potential_impact": "These executive orders collectively aimed to benefit a wide range of voters, including military personnel, individuals with disabilities, and minority communities such as African Americans and Hispanic/Latino Americans. However, concerns emerged that stricter integrity measures could disproportionately affect these same groups, along with naturalized citizens and low-income individuals, by increasing scrutiny and potentially restricting access. Challenges in implementation, uneven state responses, and logistical barriers risked limiting the effectiveness of expanded access efforts while raising fears of disenfranchisement among vulnerable populations.",
-      "generated_at": "2025-12-15T08:48:52.819Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4374,6 +4374,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "postal-service",
+      "theme_name": "Postal Service",
+      "order_count": 3,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 2
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive actions concerning the Postal Service have focused on maintaining its operational integrity and role in critical federal functions, with varying priorities across administrations. The Obama order emphasized leveraging postal capabilities for rapid medical countermeasure delivery during biological threats, highlighting public health preparedness. In contrast, Trump’s orders addressed USPS structural challenges and election integrity, proposing reforms to enhance efficiency and citizenship verification, but raising complex issues around federal election processes and postal service sustainability.",
+      "potential_impact": "These orders sought to affect a wide range of stakeholders, from postal workers and federal employees to U.S. citizens reliant on mail services, especially in rural and elderly populations. Concerns arose about potential job losses and service reductions impacting postal workers and vulnerable communities, while increased federal enforcement and election-related measures risked complicating relations with local law enforcement and raising privacy and access issues for immigrants and small businesses. The balance between enhanced security and equitable service delivery remained a central tension.",
+      "generated_at": "2026-04-03T13:57:57.031Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "belarus",
       "theme_name": "Belarus",
       "order_count": 2,
@@ -4572,27 +4593,6 @@
       "summary": "Executive actions on ethics and lobbying rules reveal contrasting presidential priorities toward government accountability and workforce governance. The Obama administration sought to tighten ethics commitments for executive branch personnel, imposing restrictions on political appointees with prior lobbying or corporate ties to curb conflicts of interest. In contrast, the Trump administration emphasized transparency and limits on taxpayer-funded union activities, aiming to enhance fiscal accountability but introducing new constraints on federal labor practices. Together, these orders reflect ongoing tensions between ensuring ethical conduct, managing government efficiency, and balancing stakeholder interests.",
       "potential_impact": "These executive orders targeted political appointees, taxpayers, and federal employees, shaping how government officials and labor organizations operate. While designed to promote integrity and fiscal responsibility, the ethics commitments risked narrowing the pool of qualified candidates by restricting those with corporate experience, whereas union-related restrictions raised concerns about limiting federal employees’ ability to advocate and engage in collective bargaining. Observers worried that complex enforcement and disclosure mandates could blur fairness and privacy, potentially undermining trust and morale within the federal workforce.",
       "generated_at": "2025-12-15T07:56:28.638Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "postal-service",
-      "theme_name": "Postal Service",
-      "order_count": 2,
-      "presidents": [
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 1
-        },
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive actions on the Postal Service have reflected differing priorities between administrations, with one focusing on enhancing federal readiness for medical emergencies and the other addressing structural challenges within the USPS itself. Efforts to integrate postal capabilities into national health security aimed to ensure rapid delivery of medical countermeasures during biological threats, while initiatives to reform the postal system sought to improve operational efficiency and financial stability. These approaches highlight the tension between maintaining essential federal services and adapting the USPS to evolving demands.",
-      "potential_impact": "The executive orders aimed to safeguard federal employees and postal workers while ensuring critical services reach U.S. citizens swiftly during emergencies. However, concerns arose about the safety and workload of postal employees, potential jurisdictional conflicts with state and local law enforcement, and the risk of service reductions affecting vulnerable populations. Rural communities, seniors, and small businesses stood to face challenges from possible service cutbacks or increased costs, raising questions about equitable access and the long-term viability of universal postal services.",
-      "generated_at": "2025-12-15T07:56:37.381Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4919,5 +4919,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-03-31T14:24:53.261Z"
+  "generated_at": "2026-04-03T13:57:57.032Z"
 }

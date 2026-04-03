@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 27
+          "order_count": 28
         }
       ],
-      "total_order_count": 27,
-      "summary": "In the first quarter of 2026, President Trump’s executive orders emphasized national security and economic protectionism, particularly through the frequent invocation of national emergencies and a focus on military readiness. Efforts to bolster the defense industrial base and ensure robust force structure were complemented by targeted tariffs and duties aimed at protecting domestic industries. Homeland security and border enforcement also featured prominently, as did initiatives addressing housing affordability and consumer protection. Together, these measures sought to strengthen American sovereignty, safeguard critical supply chains, and promote stability amid geopolitical tensions, often intertwining defense priorities with economic nationalism.",
-      "potential_impact": "These orders aimed to benefit active-duty military personnel, veterans, and defense industry workers by enhancing equipment availability and securing defense production. Small business owners and disaster-affected communities stood to gain from housing and recovery initiatives, while foreign governments and energy sector workers were also addressed. However, the measures posed challenges for large corporations and their employees, as restrictions on dividends and executive compensation raised concerns about investment and innovation. Additionally, increased border security and protections of Venezuelan oil revenues may have heightened risks for undocumented immigrants and local border communities, prompting debate over humanitarian and legal implications.",
-      "generated_at": "2026-03-31T14:24:36.744Z",
+      "total_order_count": 28,
+      "summary": "In the first quarter of 2026, President Trump’s executive actions focused heavily on national security and economic protectionism, with nearly half of the 28 orders addressing national emergencies, military readiness, and homeland security. Tariffs and trade duties were strategically adjusted to counter perceived foreign threats, while defense production and industrial base resilience were strengthened through targeted orders invoking the Defense Production Act. Simultaneously, efforts to bolster affordable housing and consumer protections reflected a broader aim to safeguard American citizens amid geopolitical and domestic challenges, signaling a comprehensive approach to national defense intertwined with economic and social priorities.",
+      "potential_impact": "These executive orders primarily sought to benefit active-duty military personnel, veterans, and defense industry workers by enhancing readiness and production capabilities, while also aiming to support U.S. citizens facing disaster recovery and housing affordability issues. However, the policies posed challenges for large corporations and some small business owners, whose employees and investors might experience financial constraints due to restrictions on dividends and buybacks. Heightened enforcement at the border and protection of Venezuelan oil revenues also implied increased pressures on undocumented immigrants and border communities, raising concerns about humanitarian impacts and international relations. Labor disputes in transportation and regulatory shifts further complicated the landscape for union members and workers reliant on stable negotiations.",
+      "generated_at": "2026-04-03T13:57:43.477Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -980,5 +980,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-03-31T14:24:36.744Z"
+  "generated_at": "2026-04-03T13:57:43.477Z"
 }

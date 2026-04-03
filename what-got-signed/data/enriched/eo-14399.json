@@ -1,0 +1,44 @@
+{
+  "document_number": "2026-06601",
+  "executive_order_number": "14399",
+  "title": "Ensuring Citizenship Verification and Integrity in Federal Elections",
+  "abstract": null,
+  "signing_date": "2026-03-31",
+  "publication_date": "2026-04-03",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/04/03/2026-06601/ensuring-citizenship-verification-and-integrity-in-federal-elections",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-04-03/pdf/2026-06601.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/04/03/2026-06601.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to create and share lists of verified U.S. citizens eligible to vote in federal elections with state election officials, to improve the integrity of voting. It also requires the Postal Service to implement new rules for mailing ballots securely and authorizes the Department of Justice to investigate and prosecute election fraud violations to protect lawful voting rights.",
+    "theme_ids": [
+      "homeland-security",
+      "voting-rights",
+      "federal-law-enforcement",
+      "postal-service"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens",
+        "naturalized-citizens",
+        "birthright-citizens"
+      ],
+      "negative_ids": [
+        "undocumented-immigrants",
+        "lawful-permanent-residents-green-card-holders"
+      ]
+    },
+    "potential_concerns": [
+      "The compilation and sharing of State Citizenship Lists may lead to privacy risks or data security concerns for U.S. citizens, especially naturalized citizens, if Federal databases are not adequately protected.",
+      "Undocumented immigrants and lawful permanent residents may experience heightened disenfranchisement or legal scrutiny despite being ineligible to vote in Federal elections, potentially increasing fear or confusion in immigrant communities.",
+      "The stringent USPS mailing requirements and tracking of mail-in ballots may unintentionally create barriers to voting access for rural and low-income voters who rely heavily on mail-in ballots.",
+      "Prioritizing enforcement and prosecution against election officials and others distributing ballots might lead to aggressive investigations that deter or disrupt legitimate election administration, risking voter confusion or suppression.",
+      "The requirement to maintain detailed voter participation records for five years could raise concerns about excessive government surveillance and possible misuse of voter information."
+    ],
+    "enriched_at": "2026-04-03T13:57:33.770Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
