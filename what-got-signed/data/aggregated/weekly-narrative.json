@@ -1,33 +1,9 @@
 {
-  "week": "2026-W14",
-  "date_range": "March 30 – April 5, 2026",
-  "narrative": "During the week of March 30 to April 5, 2026, President Donald Trump signed one executive order, EO 14399, titled \"Ensuring Citizenship Verification and Integrity in Federal Elections.\" The order focused on reinforcing homeland security and voting rights by directing federal law enforcement agencies and the Postal Service to enhance verification processes and safeguard the integrity of federal elections.",
-  "orders": [
-    {
-      "number": "14399",
-      "title": "Ensuring Citizenship Verification and Integrity in Federal Elections",
-      "url": "https://www.federalregister.gov/documents/2026/04/03/2026-06601/ensuring-citizenship-verification-and-integrity-in-federal-elections",
-      "president_name": "Donald Trump"
-    }
-  ],
-  "top_themes": [
-    {
-      "id": "homeland-security",
-      "name": "Homeland Security"
-    },
-    {
-      "id": "voting-rights",
-      "name": "Voting Rights"
-    },
-    {
-      "id": "federal-law-enforcement",
-      "name": "Federal Law Enforcement"
-    },
-    {
-      "id": "postal-service",
-      "name": "Postal Service"
-    }
-  ],
-  "generated_at": "2026-04-03T13:57:59.018Z",
-  "model_used": "gpt-4.1-mini"
+  "week": "2026-W15",
+  "date_range": "April 6–12, 2026",
+  "narrative": "",
+  "orders": [],
+  "top_themes": [],
+  "generated_at": "2026-04-06T14:06:34.290Z",
+  "model_used": ""
 }
