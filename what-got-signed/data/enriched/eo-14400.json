@@ -1,0 +1,41 @@
+{
+  "document_number": "2026-06961",
+  "executive_order_number": "14400",
+  "title": "Urgent National Action To Save College Sports",
+  "abstract": null,
+  "signing_date": "2026-04-03",
+  "publication_date": "2026-04-09",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/04/09/2026-06961/urgent-national-action-to-save-college-sports",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-04-09/pdf/2026-06961.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/04/09/2026-06961.txt",
+  "enrichment": {
+    "summary": "This executive order aims to protect college sports by setting consistent national rules for eligibility, transfers, and pay-for-play policies to prevent financial instability and unfair competition, especially in football and basketball. It directs federal agencies to review university compliance with these rules and restrict the use of federal funds for certain payments, all to ensure funding and opportunities for women's and Olympic sports are preserved.",
+    "theme_ids": [
+      "higher-education",
+      "federal-spending",
+      "regulatory-reform-deregulation"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "college-university-students",
+        "women"
+      ],
+      "negative_ids": [
+        "educational-institutions"
+      ]
+    },
+    "potential_concerns": [
+      "The order's stringent restrictions on pay-for-play and NIL schemes may limit student-athletes' earning opportunities, potentially disadvantaging college-university students who rely on such payments.",
+      "By imposing federal compliance requirements and suspending federal funds tied to improper financial activities, educational institutions may face financial strain and reduced flexibility, potentially leading to cutbacks or program closures beyond just high-profile sports.",
+      "Efforts to stabilize funding for women's and Olympic sports could unintentionally prioritize large revenue sports like football and basketball, possibly restricting opportunities for lesser-known sports and the women athletes who participate in them.",
+      "The legal challenge to state laws conflicting with national governing body rules may create tensions with state governments and could result in reduced local autonomy affecting athletes and institutions in states with divergent legislation.",
+      "Implementation of eligibility and transfer limits risks reducing flexibility for student-athletes facing unique academic or personal situations, potentially impacting their academic success and wellbeing."
+    ],
+    "enriched_at": "2026-04-09T14:50:32.748Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

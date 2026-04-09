@@ -2,6 +2,32 @@
   "periods": [
     {
       "year": 2026,
+      "quarter": 2,
+      "quarter_name": "Q2 2026",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "higher-education",
+          "name": "Higher Education"
+        },
+        {
+          "id": "federal-spending",
+          "name": "Federal Spending"
+        },
+        {
+          "id": "regulatory-reform-deregulation",
+          "name": "Regulatory Reform / Deregulation"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 1 executive order focused on the themes of higher education, federal spending, and regulatory reform / deregulation.",
+      "order_ids": [
+        "14400"
+      ]
+    },
+    {
+      "year": 2026,
       "quarter": 1,
       "quarter_name": "Q1 2026",
       "president_id": "donald-trump",
@@ -2599,5 +2625,5 @@
       ]
     }
   ],
-  "generated_at": "2026-04-03T13:57:33.935Z"
+  "generated_at": "2026-04-09T14:50:32.904Z"
 }

@@ -2,6 +2,23 @@
   "narratives": [
     {
       "year": 2026,
+      "quarter": 2,
+      "quarter_name": "Q2 2026",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 1
+        }
+      ],
+      "total_order_count": 1,
+      "summary": "In the second quarter of 2026, President Trump focused his executive action on higher education through a singular, targeted order aimed at reforming college sports. This order sought to overhaul federal spending and regulatory oversight within collegiate athletics, emphasizing stricter controls on pay-for-play and name, image, and likeness (NIL) arrangements. By mandating federal compliance and suspending funds linked to improper financial activities, the administration aimed to stabilize funding particularly for women's and Olympic sports while attempting to align national governing rules with state laws, reflecting a push for uniformity and financial discipline in college sports programs.",
+      "potential_impact": "The executive order was designed to benefit college and university students, notably women athletes, by attempting to secure more stable funding for women's and Olympic sports. However, it posed challenges for educational institutions facing new compliance burdens and potential funding cuts that could strain their programs beyond athletics. Student-athletes might experience restricted earning opportunities due to tightened NIL rules and eligibility limits, possibly affecting their financial and academic flexibility. Additionally, conflicts between federal mandates and state laws risked reducing local control, potentially impacting athletes and institutions in states with differing legislation.",
+      "generated_at": "2026-04-09T14:50:40.777Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2026,
       "quarter": 1,
       "quarter_name": "Q1 2026",
       "presidents": [
@@ -980,5 +997,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-04-03T13:57:43.477Z"
+  "generated_at": "2026-04-09T14:50:40.777Z"
 }

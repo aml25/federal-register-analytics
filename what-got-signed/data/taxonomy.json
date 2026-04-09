@@ -2161,6 +2161,15 @@
         "eo_title": "Addressing Threats to the United States by the Government of Iran",
         "justification": "This population includes workers in shipping, customs brokerage, logistics, and trade facilitation who are directly affected by tariff changes and trade restrictions but is not explicitly named in the existing taxonomy.",
         "suggested_at": "2026-02-19"
+      },
+      {
+        "name": "athletes-student-athletes",
+        "suggested_category": "Institutional Groups > Education (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14400",
+        "eo_title": "Urgent National Action To Save College Sports",
+        "justification": "Student-athletes as a distinct group face direct impacts on eligibility, pay-for-play, transfer rules, and protections under the order; yet this group is not explicitly named in the existing taxonomy.",
+        "suggested_at": "2026-04-09"
       }
     ]
   }
