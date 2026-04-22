@@ -3,7 +3,7 @@
     {
       "theme_id": "interagency-coordination",
       "theme_name": "Interagency Coordination",
-      "order_count": 133,
+      "order_count": 134,
       "presidents": [
         {
           "president_id": "barack-obama",
@@ -13,7 +13,7 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 53
+          "order_count": 54
         },
         {
           "president_id": "joe-biden",
@@ -26,9 +26,9 @@
           "order_count": 1
         }
       ],
-      "summary": "Executive orders focused on interagency coordination have evolved as tools to streamline government efforts across complex policy areas, from biosecurity to economic development and justice reform. While early efforts were sparse, the Obama and Trump administrations issued over 100 such orders combined, reflecting a growing emphasis on integrating federal agencies to address multifaceted challenges. These orders often established councils, task forces, and working groups to unify strategies on issues like urban affairs, tribal education, and counterterrorism, highlighting differing priorities and methods to enhance government efficiency and policy coherence.",
-      "potential_impact": "These executive orders aimed to benefit a broad array of communities, including tribal populations, small businesses, and low-income families, by fostering coordinated approaches to improve service delivery and policy outcomes. However, increased interagency processes sometimes raised concerns about administrative burdens and delays, particularly in sensitive areas like biosecurity and detainee management. Observers noted potential risks to researchers, detainees, and foreign relations, underscoring the delicate balance between efficient coordination and safeguarding rights, transparency, and timely action for vulnerable groups.",
-      "generated_at": "2026-02-19T03:41:46.119Z",
+      "summary": "Executive orders focused on interagency coordination have evolved as tools to unify diverse federal efforts across administrations, reflecting shifting priorities and governance styles. The Obama and Trump presidencies issued a majority of these orders, emphasizing structured collaboration through task forces and councils addressing issues from economic recovery to security and community development. These orders sought to streamline policy implementation by bridging agency silos, yet balancing efficiency with inclusiveness often proved challenging, especially when integrating complex sectors like national security, health reform, and environmental initiatives.",
+      "potential_impact": "These orders aimed to enhance outcomes for vulnerable and underserved populations such as tribal communities, rural areas, and low-income families by fostering coordinated federal support. At the same time, the increased oversight and security measures introduced concerns about burdens on researchers, small businesses, and contractors, potentially limiting innovation and collaboration. Furthermore, policies affecting detainees and foreign nationals sparked debates over legal rights and diplomatic repercussions, illustrating the delicate balance between security objectives and human rights, with impacts reverberating through affected communities and international relations.",
+      "generated_at": "2026-04-22T14:30:26.028Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -672,6 +672,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "veterans-healthcare",
+      "theme_name": "Veterans Healthcare",
+      "order_count": 25,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 12
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 8
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 5
+        }
+      ],
+      "summary": "Executive orders addressing veterans healthcare have evolved to encompass both compensation adjustments and expanded service access, reflecting shifting priorities across administrations. While pay rate adjustments aimed to enhance financial support for veterans, military personnel, and federal employees featured prominently, efforts under Obama and Biden emphasized improving mental health services and caregiver support. The Trump administration combined pay reforms with initiatives targeting veteran transition, suicide prevention, and healthcare transparency, illustrating a broader approach to veterans’ well-being that extended beyond monetary considerations.",
+      "potential_impact": "These executive actions sought to benefit veterans, active-duty and reserve military members, and federal employees by enhancing pay and healthcare access, particularly for mental health. However, concerns arose over potential pay disparities affecting retention, morale, and equity across regions and roles, including within the Veterans Health Administration. Challenges in implementing coordinated care transitions and expanding services in underserved areas raised questions about timely access. Additionally, efforts to address mental health carried risks of unintended stigma, while benefits for military families beyond veterans themselves may remain unevenly addressed.",
+      "generated_at": "2026-04-22T14:30:29.557Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "travel-restrictions-bans",
       "theme_name": "Travel Restrictions / Bans",
       "order_count": 24,
@@ -695,32 +721,6 @@
       "summary": "Travel restrictions and bans have evolved as tools of U.S. foreign policy to address security concerns and geopolitical conflicts, with presidents deploying executive orders to impose sanctions and control entry based on shifting international dynamics. Obama’s orders often targeted specific regimes and cyber threats, while Trump’s approach emphasized broad travel bans and sanctions focused on countries like Iran and regions such as Crimea. Biden continued sanctions targeting destabilizing actors but with renewed emphasis on multilateral coordination, reflecting a blend of security and diplomatic priorities in travel-related executive actions.",
       "potential_impact": "These executive orders aimed to restrict entry and financial dealings of designated foreign nationals and entities while protecting U.S. citizens and lawful residents, though many orders risked unintended consequences. Visa holders, international students, and lawful permanent residents from targeted countries often faced travel disruptions, while corporations and businesses encountered operational challenges due to sanctions. Concerns arose over potential discrimination, economic hardship for affected communities, and the unintended restriction of humanitarian aid or legitimate international engagement, highlighting the delicate balance between national security and individual rights.",
       "generated_at": "2025-12-15T07:45:56.461Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "veterans-healthcare",
-      "theme_name": "Veterans Healthcare",
-      "order_count": 24,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 11
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 8
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 5
-        }
-      ],
-      "summary": "Executive orders addressing veterans healthcare have evolved to balance pay adjustments with broader efforts to improve mental health services, transition support, and transparency in care. While all administrations enacted orders to refine compensation for military personnel, federal employees, and foreign service officers, they also pursued initiatives targeting suicide prevention, care accessibility, and accountability within the Veterans Affairs system. Variations emerged in emphasis—from Obama's focus on mental health access and pay equity to Trump's expansive reforms on veteran transition and healthcare transparency, and Biden's efforts to bolster high-quality care and caregiver support—highlighting shifting priorities in veterans' wellbeing and workforce management.",
-      "potential_impact": "These executive orders aimed to benefit veterans, active-duty military, and federal workers involved in veterans’ healthcare, as well as their families and rural communities facing healthcare access challenges. Concerns arose about whether pay adjustments would sufficiently address cost-of-living disparities or retention challenges, potentially affecting morale and service quality. Expanding mental health services and suicide prevention efforts risked uneven reach, especially in underserved areas, while complexities in care transition and administrative coordination raised questions about timely, equitable support for veterans and military families.",
-      "generated_at": "2025-12-15T08:44:36.038Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1854,6 +1854,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "prescription-drug-pricing",
+      "theme_name": "Prescription Drug Pricing",
+      "order_count": 12,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 10
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "Efforts to address prescription drug pricing through executive orders reveal a trajectory from targeted supply interventions under Obama to more aggressive market and importation strategies under Trump, followed by Biden’s renewed focus on cost reduction. Trump's extensive use of executive authority aimed to lower prices by enhancing importation, reducing middlemen kickbacks, and enforcing market fairness, reflecting a robust, multifaceted approach to tackling affordability. These policies sought to reform drug pricing mechanisms and improve access while balancing regulatory oversight and market dynamics.",
+      "potential_impact": "The orders primarily aimed to benefit vulnerable populations such as low-income families, Medicare and Medicaid beneficiaries, and individuals with chronic illnesses by improving affordability and access to medications. However, concerns arose about potential increased burdens on pharmaceutical companies and healthcare organizations, risks to drug safety and supply stability, and uneven access in underserved areas. These dynamics highlight tensions between cost containment, patient safety, and sustaining innovation within the pharmaceutical ecosystem.",
+      "generated_at": "2026-04-22T14:30:36.021Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "visa-policy",
       "theme_name": "Visa Policy",
       "order_count": 11,
@@ -1898,32 +1924,6 @@
       "summary": "Executive actions on data privacy have evolved through distinct approaches, reflecting shifting priorities across administrations. The Obama era emphasized enhancing cybersecurity frameworks and transparency through open, machine-readable government data, aiming to bolster critical infrastructure and consumer financial security. The Trump administration’s limited focus included data collection tied to citizenship status and payment modernization, highlighting administrative control and efficiency. Biden’s orders expanded protections against foreign data threats and promoted trustworthy AI use, signaling a nuanced balance between safeguarding sensitive information and advancing technology-driven services.",
       "potential_impact": "These executive orders sought to protect a broad spectrum of Americans, including technology workers, low-income families, and federal employees, by strengthening data security and access to services. However, concerns emerged around increased data sharing between government and private sectors potentially exposing sensitive information, especially impacting corporations and consumers. Vulnerable groups such as individuals with disabilities faced risks from enhanced data openness and authentication barriers, while small businesses and taxpayers confronted added compliance costs, illustrating the complex trade-offs in advancing data privacy and security.",
       "generated_at": "2025-12-15T08:46:57.709Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "prescription-drug-pricing",
-      "theme_name": "Prescription Drug Pricing",
-      "order_count": 11,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 9
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 1
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "summary": "Efforts to address prescription drug pricing through executive orders have evolved notably over recent administrations, with a pronounced surge during the Trump era emphasizing aggressive measures such as drug importation, elimination of middlemen kickbacks, and enhanced pricing transparency. These policies sought to reduce costs primarily for vulnerable groups like low-income families and Medicare beneficiaries by challenging traditional pharmaceutical pricing structures. While earlier and later administrations focused on mitigating shortages and broad affordability, the Trump administration's multifaceted approach reflected a more direct intervention in market dynamics to lower drug expenses.",
-      "potential_impact": "These executive actions aimed to alleviate financial burdens on patients—especially those with chronic illnesses and limited incomes—by expanding access to affordable medications and reforming pricing mechanisms. However, concerns emerged regarding the potential strain on pharmaceutical companies, healthcare providers, and community health centers, as increased regulatory requirements and market disruptions might affect drug availability and innovation. Additionally, reliance on importation and discounted pricing programs raised questions about equitable access, safety oversight, and the capacity of safety-net providers to meet the needs of uninsured and vulnerable populations.",
-      "generated_at": "2025-12-15T08:46:53.983Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -2049,6 +2049,32 @@
       "summary": "Executive actions on faith-based initiatives have evolved to integrate religious organizations more prominently into federal social service frameworks. While the Obama administration emphasized establishing advisory councils and principled partnerships with neighborhood and faith-based groups, the Trump administration expanded this focus by creating dedicated faith offices and commissions aimed at promoting economic mobility and educational opportunity. This trajectory reflects a growing governmental reliance on faith-based entities to address poverty and social challenges, highlighting a shift toward embedding religious organizations within policy implementation and federal partnership structures.",
       "potential_impact": "These orders primarily aimed to benefit faith-based communities and low-income populations by leveraging religious organizations to deliver social services and support economic mobility. However, concerns arose regarding the balance between upholding constitutional separation of church and state and ensuring equitable access for vulnerable groups, including individuals experiencing poverty and formerly incarcerated persons. Challenges in maintaining nondiscrimination, avoiding the endorsement of religion by the government, and ensuring consistent service delivery underscored the complexities faced by nonprofits, beneficiaries, and federal employees navigating this intertwined landscape of faith and public aid.",
       "generated_at": "2026-02-09T03:31:59.732Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "mental-health",
+      "theme_name": "Mental Health",
+      "order_count": 11,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 8
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive orders addressing mental health have predominantly focused on supporting veterans, military personnel, and individuals with mental health conditions through expanded services, suicide prevention, and reentry programs. While Obama initiated efforts to improve access for veterans, subsequent administrations, especially under Trump, emphasized coordination among federal agencies and targeted interventions for military families and formerly incarcerated individuals. Biden’s contributions further highlighted equality and community safety, illustrating an evolving, multifaceted approach to mental health policy that balances clinical care with broader social determinants.",
+      "potential_impact": "These orders aimed to benefit a diverse range of groups, notably veterans transitioning to civilian life, rural and low-income communities, and those facing homelessness or domestic violence, by enhancing access to mental health resources and support networks. However, concerns linger about bureaucratic hurdles, uneven resource distribution, and potential stigmatization, particularly for military populations and formerly incarcerated individuals. Additionally, challenges in reaching underserved veterans and ensuring sustained funding raise questions about the long-term effectiveness and inclusivity of these initiatives.",
+      "generated_at": "2026-04-22T14:30:41.048Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -2216,32 +2242,6 @@
       "summary": "Executive actions on drug enforcement have predominantly centered on enhancing law enforcement capabilities and border security, with a strong focus during the Trump administration on aggressive measures such as designating fentanyl as a weapon of mass destruction and amending duties to curb illicit drug flows across borders. The Biden administration has emphasized targeted sanctions on foreign entities involved in the global drug trade and authorized military reservists to address trafficking, reflecting a blend of enforcement and international cooperation strategies. These orders illustrate a continued prioritization of interdiction and criminal justice interventions to combat drug-related threats at both domestic and international levels.",
       "potential_impact": "These executive orders aimed to strengthen protections for law enforcement officers and border communities while seeking to disrupt drug trafficking networks globally. However, concerns arise about the heightened enforcement potentially exacerbating challenges for undocumented immigrants and Hispanic/Latino populations due to increased policing and immigration measures. The militarization of drug enforcement and broad sanctions risk unintended consequences for small businesses, tribal and rural communities, and foreign nationals, raising questions about civil liberties, economic disruption, and equitable treatment within affected populations.",
       "generated_at": "2025-12-20T05:46:20.749Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "mental-health",
-      "theme_name": "Mental Health",
-      "order_count": 10,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 7
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 2
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive actions addressing mental health have evolved through varied presidential priorities, with a strong emphasis on veterans’ well-being and suicide prevention. While Obama initiated focused efforts to improve access for military families, the Trump administration expanded the scope significantly, launching multiple orders targeting veterans’ transition, crime prevention, and addiction recovery. Biden’s contributions have intertwined mental health with broader social equity and gun violence reduction, reflecting a more holistic approach. Across administrations, interagency coordination and targeted outreach constitute central strategies to tackle mental health challenges amid complex social dynamics.",
-      "potential_impact": "These executive orders aimed to benefit a diverse range of groups, including veterans, military personnel, children, and rural communities, by expanding mental health services and support systems. However, concerns linger about potential gaps in care continuity, especially for transitioning service members and underserved rural areas, as well as possible stigmatization of those seeking help. Additionally, some measures raised worries about unintended adverse effects on individuals experiencing poverty, homelessness, and even gun owners, underscoring the delicate balance between public safety and personal rights.",
-      "generated_at": "2026-02-09T03:32:08.027Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4919,5 +4919,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-04-09T14:50:57.833Z"
+  "generated_at": "2026-04-22T14:30:41.050Z"
 }

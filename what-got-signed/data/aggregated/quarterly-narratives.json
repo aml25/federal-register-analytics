@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 1
+          "order_count": 2
         }
       ],
-      "total_order_count": 1,
-      "summary": "In the second quarter of 2026, President Trump focused his executive action on higher education through a singular, targeted order aimed at reforming college sports. This order sought to overhaul federal spending and regulatory oversight within collegiate athletics, emphasizing stricter controls on pay-for-play and name, image, and likeness (NIL) arrangements. By mandating federal compliance and suspending funds linked to improper financial activities, the administration aimed to stabilize funding particularly for women's and Olympic sports while attempting to align national governing rules with state laws, reflecting a push for uniformity and financial discipline in college sports programs.",
-      "potential_impact": "The executive order was designed to benefit college and university students, notably women athletes, by attempting to secure more stable funding for women's and Olympic sports. However, it posed challenges for educational institutions facing new compliance burdens and potential funding cuts that could strain their programs beyond athletics. Student-athletes might experience restricted earning opportunities due to tightened NIL rules and eligibility limits, possibly affecting their financial and academic flexibility. Additionally, conflicts between federal mandates and state laws risked reducing local control, potentially impacting athletes and institutions in states with differing legislation.",
-      "generated_at": "2026-04-09T14:50:40.777Z",
+      "total_order_count": 2,
+      "summary": "In the second quarter of 2026, President Trump focused executive actions on reshaping higher education and advancing mental health treatment. One order aimed to preserve college sports by imposing stricter regulations on pay-for-play and name, image, and likeness (NIL) policies, seeking to stabilize funding particularly for women's and Olympic sports while enforcing federal compliance that could financially strain educational institutions. Concurrently, another order accelerated the approval and access to psychedelic treatments for serious mental illnesses, emphasizing interagency coordination to expedite medical innovations but raising questions about safety and regulatory readiness.",
+      "potential_impact": "These orders targeted a diverse set of populations including college students, women athletes, individuals with mental health conditions, veterans, patients, and state governments. While student-athletes might benefit from increased sport funding, they also risk reduced earning opportunities and limited transfer flexibility. Educational institutions could face financial and operational challenges due to compliance demands. Mental health patients and veterans could gain faster access to novel therapies, though concerns about data privacy and treatment efficacy persist. State governments may encounter difficulties regulating and coordinating expanded mental health programs, potentially affecting patient protections and service consistency.",
+      "generated_at": "2026-04-22T14:30:22.007Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -997,5 +997,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-04-09T14:50:40.777Z"
+  "generated_at": "2026-04-22T14:30:22.007Z"
 }

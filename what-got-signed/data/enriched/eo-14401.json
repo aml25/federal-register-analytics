@@ -1,0 +1,42 @@
+{
+  "document_number": "2026-07907",
+  "executive_order_number": "14401",
+  "title": "Accelerating Medical Treatments for Serious Mental Illness",
+  "abstract": null,
+  "signing_date": "2026-04-18",
+  "publication_date": "2026-04-22",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/04/22/2026-07907/accelerating-medical-treatments-for-serious-mental-illness",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-04-22/pdf/2026-07907.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/04/22/2026-07907.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to speed up the research, approval, and patient access to psychedelic drugs, such as ibogaine, that show promise in treating serious mental illnesses. It prioritizes collaboration between the FDA, Department of Health and Human Services, Department of Veterans Affairs, and state governments to support clinical trials, data sharing, funding, and timely drug rescheduling to address the ongoing crisis of mental health and suicide in America.",
+    "theme_ids": [
+      "mental-health",
+      "veterans-healthcare",
+      "prescription-drug-pricing",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "individuals-with-mental-health-conditions",
+        "veterans",
+        "patients-general",
+        "state-governments"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Accelerating approval and access to psychedelic drugs may raise safety and long-term efficacy concerns for individuals-with-mental-health-conditions without sufficient clinical data.",
+      "Veterans might face challenges related to privacy and data-sharing between the VA, HHS, and private sector, potentially exposing sensitive health information.",
+      "State governments with limited infrastructure may struggle to effectively collaborate or regulate expanded psychedelic drug programs, risking inconsistent patient protections.",
+      "Rapid drug rescheduling could lead to increased prescription drug costs or access disparities for patients-general if pricing regulations are not concurrently addressed.",
+      "There is a potential risk of undermining standard mental health treatments if psychedelic therapies are prioritized prematurely without robust evidence."
+    ],
+    "enriched_at": "2026-04-22T14:30:08.989Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

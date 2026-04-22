@@ -6,7 +6,7 @@
       "quarter_name": "Q2 2026",
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
-      "order_count": 1,
+      "order_count": 2,
       "top_themes": [
         {
           "id": "higher-education",
@@ -19,11 +19,20 @@
         {
           "id": "regulatory-reform-deregulation",
           "name": "Regulatory Reform / Deregulation"
+        },
+        {
+          "id": "mental-health",
+          "name": "Mental Health"
+        },
+        {
+          "id": "veterans-healthcare",
+          "name": "Veterans Healthcare"
         }
       ],
-      "theme_summary": "Donald Trump signed 1 executive order focused on the themes of higher education, federal spending, and regulatory reform / deregulation.",
+      "theme_summary": "Donald Trump signed 2 executive orders focused on the themes of higher education, federal spending, regulatory reform / deregulation, and 2 others.",
       "order_ids": [
-        "14400"
+        "14400",
+        "14401"
       ]
     },
     {
@@ -2625,5 +2634,5 @@
       ]
     }
   ],
-  "generated_at": "2026-04-09T14:50:32.904Z"
+  "generated_at": "2026-04-22T14:30:09.129Z"
 }
