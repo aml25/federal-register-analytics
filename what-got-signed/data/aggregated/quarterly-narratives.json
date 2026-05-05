@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 2
+          "order_count": 4
         }
       ],
-      "total_order_count": 2,
-      "summary": "In the second quarter of 2026, President Trump focused executive actions on reshaping higher education and advancing mental health treatment. One order aimed to preserve college sports by imposing stricter regulations on pay-for-play and name, image, and likeness (NIL) policies, seeking to stabilize funding particularly for women's and Olympic sports while enforcing federal compliance that could financially strain educational institutions. Concurrently, another order accelerated the approval and access to psychedelic treatments for serious mental illnesses, emphasizing interagency coordination to expedite medical innovations but raising questions about safety and regulatory readiness.",
-      "potential_impact": "These orders targeted a diverse set of populations including college students, women athletes, individuals with mental health conditions, veterans, patients, and state governments. While student-athletes might benefit from increased sport funding, they also risk reduced earning opportunities and limited transfer flexibility. Educational institutions could face financial and operational challenges due to compliance demands. Mental health patients and veterans could gain faster access to novel therapies, though concerns about data privacy and treatment efficacy persist. State governments may encounter difficulties regulating and coordinating expanded mental health programs, potentially affecting patient protections and service consistency.",
-      "generated_at": "2026-04-22T14:30:22.007Z",
+      "total_order_count": 4,
+      "summary": "In the second quarter of 2026, President Trump’s executive actions reflected a focus on federal spending with an emphasis on reforming college sports and advancing mental health treatments. Orders sought to tighten regulation of pay-for-play and name-image-likeness practices in college athletics while promoting more efficient federal contracting and expanding retirement savings access. The administration also aimed to accelerate approval of medical therapies for serious mental illnesses, signaling a push toward innovative health solutions amid broader efforts to enhance government accountability and financial security for workers.",
+      "potential_impact": "These orders targeted diverse groups including college students, veterans, and individuals with mental health conditions, while also affecting educational institutions and federal contractors who may face new compliance challenges. Student-athletes could experience restricted earning opportunities and transfer flexibility, raising concerns about their academic and financial wellbeing. The push to fast-track psychedelic treatments stirred debate over patient safety and potential disparities in access, particularly in states with limited regulatory capacity. Veterans’ privacy concerns and the complex interplay between state and federal authorities further complicated the landscape for those directly impacted.",
+      "generated_at": "2026-05-05T15:18:04.530Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -997,5 +997,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-04-22T14:30:22.007Z"
+  "generated_at": "2026-05-05T15:18:04.530Z"
 }

@@ -1,0 +1,41 @@
+{
+  "document_number": "2026-08908",
+  "executive_order_number": "14403",
+  "title": "Promoting Retirement-Savings Access for American Workers by Establishing TrumpIRA.gov",
+  "abstract": null,
+  "signing_date": "2026-04-30",
+  "publication_date": "2026-05-05",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/05/05/2026-08908/promoting-retirement-savings-access-for-american-workers-by-establishing-trumpiragov",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-05/pdf/2026-08908.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/05/05/2026-08908.txt",
+  "enrichment": {
+    "summary": "This order directs the Treasury Department to create an online platform called TrumpIRA.gov that helps American workers, especially those without employer retirement plans, find high-quality, low-cost individual retirement accounts (IRAs). It also ensures eligible contributors can access up to a $1,000 Federal Saver's Match to encourage retirement savings and promotes transparency and protections for these accounts.",
+    "theme_ids": [
+      "retirement-security",
+      "financial-literacy",
+      "small-business-support"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "independent-contractors",
+        "small-business-owners",
+        "working-age-adults",
+        "low-income-individuals-families"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Independent contractors and self-employed workers may face challenges in understanding and navigating TrumpIRA.gov despite increased financial-literacy efforts, limiting effective retirement savings.",
+      "Small business owners might experience indirect administrative burdens if encouraged or incentivized to promote the platform among their workers, even though not explicitly required by the order.",
+      "Low-income individuals may qualify for the Federal Saver's Match but still struggle to contribute meaningful amounts to IRAs, potentially limiting the practical benefits of the program for retirement-security.",
+      "The platform’s reliance on private-sector financial institutions could lead to variability in service quality or hidden fees that may undermine cost transparency and fiduciary protections for working-age adults.",
+      "There is a risk that TrumpIRA.gov does not adequately reach marginalized racial/ethnic groups or other underserved communities who lack employer plans, exacerbating existing retirement-saving disparities."
+    ],
+    "enriched_at": "2026-05-05T15:17:50.268Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

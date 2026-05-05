@@ -5,10 +5,10 @@
       "president_name": "Donald Trump",
       "term_start": 2025,
       "term_end": "present",
-      "order_count": 251,
-      "summary": "Since taking office in 2025, President Donald Trump's executive orders have been marked by a vigorous push to reshape government operations, national security, and economic policy through a lens of American prioritization. Early efforts focused heavily on enhancing government efficiency and tightening border and homeland security, followed by aggressive regulatory reform and efforts to bolster the defense industrial base and energy independence. Tariffs, national emergencies, and trade policies increasingly define later actions, reflecting a sustained emphasis on protecting domestic interests and strengthening military readiness. Throughout, a theme of rolling back prior administration policies underpins many directives, signaling a comprehensive realignment of federal priorities toward self-reliance and stringent oversight.",
-      "potential_impact": "The administration's executive orders aim to benefit small business owners, military personnel, manufacturing and defense industry workers, and U.S. citizens broadly by promoting economic competitiveness and national security. However, these policies also raise concerns for consumers, undocumented immigrants, environmental justice communities, and various minority groups, who may face reduced protections amid deregulation and restrictions on diversity programs. The rollback of immigration and refugee initiatives, as well as climate and public health policies, could disproportionately affect vulnerable populations, while intensified border and homeland security measures may deepen divisions within border communities and among immigrant populations. Observers note potential challenges for federal employees and law enforcement in navigating politicized oversight and operational constraints, underscoring tensions between national priorities and equitable governance.",
-      "generated_at": "2026-04-22T14:30:14.269Z",
+      "order_count": 253,
+      "summary": "Since taking office in 2025, President Trump has issued 253 executive orders characterized by a vigorous push to reshape federal governance around efficiency, deregulation, and national security. Early efforts concentrated on streamlining government operations and tightening border and homeland security, while subsequent orders focused on imposing tariffs, managing national emergencies, and asserting an 'America First' stance in trade and foreign affairs. This approach reflects a broader strategy to bolster economic competitiveness, reinforce military readiness, and prioritize energy independence, alongside a notable rollback of prior policies deemed counterproductive or wasteful.",
+      "potential_impact": "These executive actions primarily seek to benefit small business owners, active-duty military personnel, and various segments of the U.S. workforce by fostering economic growth and strengthening security. However, they have raised concerns for consumers, undocumented immigrants, and environmental justice communities who may face increased vulnerabilities due to deregulation and tightened immigration policies. Critics also warn that dismantling diversity and inclusion initiatives could disproportionately affect racial and ethnic minorities, LGBTQ+ individuals, and federal employees, potentially exacerbating social inequities and undermining protections for historically marginalized groups.",
+      "generated_at": "2026-05-05T15:18:01.425Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -56,5 +56,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-04-22T14:30:14.270Z"
+  "generated_at": "2026-05-05T15:18:01.426Z"
 }

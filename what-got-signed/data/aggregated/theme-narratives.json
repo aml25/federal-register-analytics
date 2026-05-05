@@ -34,12 +34,12 @@
     {
       "theme_id": "government-efficiency",
       "theme_name": "Government Efficiency",
-      "order_count": 94,
+      "order_count": 95,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 60
+          "order_count": 61
         },
         {
           "president_id": "barack-obama",
@@ -57,9 +57,9 @@
           "order_count": 2
         }
       ],
-      "summary": "Efforts to enhance government efficiency through executive orders have evolved significantly, with notable shifts in emphasis across administrations. While earlier orders under the Bush and Obama administrations focused on improving contract management, sustainability, and worker protections, the Trump administration pursued a more aggressive deregulation and restructuring agenda aimed at reducing expenditures and streamlining executive branch operations. The Biden administration has taken a more measured approach, balancing efficiency with worker protections and sustainability. These varying strategies reflect differing priorities in balancing operational effectiveness with regulatory oversight and labor relations within the federal government.",
-      "potential_impact": "These executive actions primarily aimed to affect federal contractors, small businesses, and working-age employees by promoting streamlined processes and cost savings. However, concerns arose regarding the potential for increased burdens on federal employees, uneven application of fitness standards, and challenges for union members in communication and organizing efforts. The tension between efficiency and fair labor practices raised questions about the balance between cost-cutting measures and maintaining workforce morale and security, with possible repercussions for both government service delivery and employee rights.",
-      "generated_at": "2026-03-31T14:24:40.633Z",
+      "summary": "Efforts to enhance government efficiency through executive orders have varied notably across administrations, reflecting shifting priorities and strategies. While earlier orders addressed procedural clarity and security fitness in federal roles, later directives under Obama emphasized sustainability, transparency, and labor protections, seeking to balance efficiency with workforce rights. The Trump administration focused heavily on regulatory reform, cost reduction, and restructuring, often rolling back previous labor-friendly policies. Recent actions have aimed at streamlining operations and leveraging innovation but have also sparked debate over the trade-offs between fiscal discipline and employee or contractor protections.",
+      "potential_impact": "These executive orders targeted a broad array of stakeholders, from federal contractors and employees to small business owners and low-income families, aiming to improve operational effectiveness and fiscal responsibility. However, policies restricting labor organizing and imposing stringent contractor requirements raised concerns about potential adverse effects on workforce stability, fair labor practices, and equitable access to information. Observers highlighted risks that efficiency-driven measures could inadvertently undermine morale and inclusivity, particularly within unionized sectors and vulnerable communities reliant on consistent government services.",
+      "generated_at": "2026-05-05T15:18:08.072Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -771,6 +771,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "small-business-support",
+      "theme_name": "Small Business Support",
+      "order_count": 24,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 12
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 6
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 6
+        }
+      ],
+      "summary": "Executive orders focused on small business support reveal varied presidential approaches to fostering economic growth and inclusivity. While Obama’s orders emphasized interagency coordination and targeted outreach to minority communities and automotive workers, Trump’s directives often prioritized deregulation, domestic manufacturing, and economic mobility initiatives. Biden’s orders underscored advancing racial equity, enhancing supply chains, and strengthening federal collaboration to promote competition and economic security. Collectively, these efforts reflect evolving strategies to adapt federal policy frameworks in response to shifting economic landscapes and demographic priorities.",
+      "potential_impact": "These executive actions aimed to benefit a broad spectrum of small business owners, working-age adults, and underserved communities, including entrepreneurs, minority populations, and geographically diverse groups. However, concerns arose about bureaucratic complexity potentially hindering access for low-income families and certain minority subgroups. Additionally, uneven support across industries and regions risked exacerbating disparities among automotive workers, rural communities, and union members, while efforts to expand federal program participation faced challenges in equitable outreach and effective implementation.",
+      "generated_at": "2026-05-05T15:18:11.281Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "science-and-technology-policy",
       "theme_name": "Science and Technology Policy",
       "order_count": 23,
@@ -794,32 +820,6 @@
       "summary": "Executive actions on science and technology policy have reflected evolving national priorities across recent administrations, with a strong emphasis on advancing computing, space exploration, and biotechnology. While the Obama administration laid groundwork through bioethical commissions and strategic computing initiatives, the Trump administration significantly expanded efforts in quantum research, artificial intelligence, and regulatory reform, often emphasizing national resilience and industrial competitiveness. The Biden administration has continued this trajectory, focusing on enhancing federal research coordination and domestic manufacturing, highlighting a sustained governmental commitment to maintaining technological leadership amid shifting global and ethical considerations.",
       "potential_impact": "These orders aimed to benefit a diverse range of stakeholders, including technology workers, scientific researchers, and entrepreneurs, by fostering innovation and workforce development. However, concerns arose about potential disruptions to existing workers and communities, particularly regarding energy sector employees and environmental justice groups. Ethical oversight efforts, while intended to protect human subjects, risked limiting participation opportunities for vulnerable populations. Additionally, shifts in advisory structures and public-private partnerships raised questions about balancing corporate influence with scientific independence and equitable access to emerging technologies.",
       "generated_at": "2025-12-15T08:44:43.737Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "small-business-support",
-      "theme_name": "Small Business Support",
-      "order_count": 23,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 11
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 6
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 6
-        }
-      ],
-      "summary": "Executive orders supporting small businesses have evolved to encompass broad economic coordination, targeted community initiatives, and sector-specific strategies. Earlier efforts under Obama emphasized automotive and minority community engagement, while Trump’s directives often focused on deregulation, manufacturing, and investment acceleration. Biden’s approach has highlighted supply chain resilience, competition, and racial equity, reflecting a multifaceted strategy to bolster entrepreneurship amid shifting economic landscapes. Together, these policies illustrate an ongoing commitment to enhancing opportunities for small business within complex federal frameworks.",
-      "potential_impact": "These orders aimed to benefit a diverse array of groups, including small business owners, working-age adults, and historically underserved communities such as African Americans and Asian Americans. While expanding federal support, concerns arose about bureaucratic complexity potentially hindering access, uneven distribution of resources affecting rural and urban areas differently, and challenges in addressing the nuanced needs of various subpopulations. Additionally, tensions between supporting traditional industries and advancing new sectors raised questions about equitable workforce transitions and inclusive economic recovery.",
-      "generated_at": "2025-12-15T08:44:39.657Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1713,6 +1713,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "retirement-security",
+      "theme_name": "Retirement Security",
+      "order_count": 13,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 7
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 4
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "Executive actions on retirement security have evolved to address the financial well-being of a diverse workforce including federal employees, military personnel, veterans, and foreign service officers. While earlier orders focused on pay adjustments and advisory councils to enhance financial literacy, later actions introduced digital tools and addressed emerging risks such as climate-related financial impacts. Approaches varied, with some administrations emphasizing pay equity and behavioral insights, and others prioritizing access to retirement savings, reflecting shifting priorities in securing retirement stability amid changing workforce demographics.",
+      "potential_impact": "These orders aimed to bolster retirement security for federal and military personnel, veterans, and working-age adults, potentially improving income stability and access to financial resources. However, concerns arose about uneven pay increases across regions, possible morale effects, and challenges in program accessibility for underserved populations, including low-income families and minority youth. Adjustments to pay and benefits also raised questions about impacts on small businesses, rural communities, and certain sectors, highlighting the complex balance between strengthening retirement systems and managing diverse stakeholder interests.",
+      "generated_at": "2026-05-05T15:18:15.019Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "medicare",
       "theme_name": "Medicare",
       "order_count": 12,
@@ -1757,32 +1783,6 @@
       "summary": "Executive orders addressing gender equality reveal evolving presidential priorities with a shared focus on advancing women's rights and combating violence against women and girls globally. The Obama and Biden administrations emphasized institutional frameworks like White House councils and comprehensive strategies to promote equity, educational opportunity, and economic security, including for military families. In contrast, Trump’s orders concentrated on contentious issues in women’s sports, highlighting a narrower approach. These initiatives reflect ongoing efforts to embed gender considerations into both domestic policy and international aid, despite challenges in coordination and resource allocation.",
       "potential_impact": "These executive actions aimed to benefit a broad spectrum of women and girls, as well as intersecting groups such as LGBTQ+ individuals, children, minority communities, and victims of violence or trafficking. While designed to enhance protections and opportunities, concerns emerged about bureaucratic delays, potential resource constraints, and cultural resistance that could impede effectiveness. Additional worries involved unintended exclusions or tensions within military and educational settings, and the risk that expanded data collection might affect survivors’ privacy, illustrating the complex balance between advancing gender equality and navigating diverse stakeholder impacts.",
       "generated_at": "2025-12-15T08:46:32.630Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "retirement-security",
-      "theme_name": "Retirement Security",
-      "order_count": 12,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 6
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 4
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 2
-        }
-      ],
-      "summary": "Efforts to enhance retirement security through executive orders reflect varying presidential priorities, with a shared focus on improving pay and benefits for federal employees, veterans, military personnel, and foreign service officers. Obama’s initiatives emphasized financial capability and pay adjustments, while Trump’s orders combined pay reforms with investor protections and postal system concerns. Biden added attention to climate-related financial risks alongside pay adjustments. These actions collectively aimed to strengthen retirement outcomes amid evolving workforce and economic challenges, underscoring the complexity of balancing equitable compensation with fiscal sustainability.",
-      "potential_impact": "The executive orders targeted improved retirement conditions primarily for federal workers, military members, veterans, and diplomatic personnel, aiming to secure stable incomes and financial literacy. However, concerns emerged regarding uneven pay increases across regions, potential morale issues, and recruitment challenges, especially among uniformed services and foreign service officers. Financial education efforts risked uneven reach among underserved youth, while pay adjustments raised questions about fairness and cost management. Meanwhile, certain business sectors and specific worker groups faced possible negative impacts, highlighting the delicate interplay between workforce benefits and broader economic effects.",
-      "generated_at": "2025-12-20T05:46:14.748Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -2647,6 +2647,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "federal-spending",
+      "theme_name": "Federal Spending",
+      "order_count": 8,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 5
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 2
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive orders focused on federal spending have reflected a complex balancing act between enhancing government accountability and enforcing fiscal discipline while seeking to support various stakeholders. Across administrations, efforts ranged from reducing improper payments and consolidating procurement to imposing stricter oversight and climate-related financial risk disclosures. These approaches aimed to tighten spending controls and improve efficiency but often introduced stringent compliance requirements and budget offset mandates that shaped how agencies manage mandatory programs and contracting practices.",
+      "potential_impact": "These orders targeted a broad spectrum of beneficiaries, including nonprofit organizations, federal contractors, and vulnerable populations reliant on Medicare, Medicaid, and social programs. However, the intensified oversight and cost-cutting measures raised concerns about potential barriers to benefit access, increased administrative burdens on state and local governments, and challenges for federal employees. Additionally, heightened compliance demands threatened to strain small businesses and energy-sector workers, illustrating the delicate trade-offs between fiscal restraint and maintaining essential services and economic stability.",
+      "generated_at": "2026-05-05T15:18:17.119Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "economic-recovery-post-crisis",
       "theme_name": "Economic Recovery (Post-Crisis)",
       "order_count": 7,
@@ -2832,32 +2858,6 @@
       "summary": "Efforts to enhance consumer fraud protections and market integrity have evolved with a focus on tightening oversight and improving security measures. While the Obama administration initiated steps to secure consumer financial transactions, subsequent executive orders under the Trump administration expanded the scope to include combating unfair practices in entertainment, regulating proxy advisory firms, and ensuring truthful product advertising. These policies aimed to shield consumers from fraudulent schemes and to promote market transparency, although they also introduced complex regulatory frameworks and heightened enforcement that reshaped interactions between consumers, investors, and businesses.",
       "potential_impact": "These executive actions sought to benefit a broad range of consumers, including seniors, Medicaid beneficiaries, and working-age adults, by enhancing fraud protections and promoting fair market practices. However, increased security requirements and regulatory scrutiny raised concerns about potential barriers to access, especially for vulnerable populations with limited digital literacy. Businesses and investors faced elevated compliance costs and operational challenges, while heightened enforcement risked uneven application across jurisdictions and unintended consequences such as reduced market liquidity and constrained innovation in emerging sectors like digital assets.",
       "generated_at": "2026-03-23T04:26:29.782Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "federal-spending",
-      "theme_name": "Federal Spending",
-      "order_count": 7,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 4
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 2
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive orders addressing federal spending have sought to enhance government efficiency, accountability, and fiscal discipline through measures such as reducing improper payments, consolidating procurement, and imposing spending caps. While Obama’s orders emphasized reducing waste and promoting efficient spending, Trump’s directives focused on stricter oversight and administrative PAYGO rules to curb costs. Biden’s action introduced climate-related financial risk disclosures, linking fiscal policy to environmental considerations. Together, these approaches reflect evolving priorities balancing cost containment with regulatory and transparency goals.",
-      "potential_impact": "These orders aimed to benefit diverse groups including taxpayers, state and local governments, and vulnerable populations relying on Medicare, Medicaid, and social services by promoting prudent use of funds. However, concerns emerged about potential burdens on federal contractors, small businesses, and energy-sector workers facing increased compliance costs, as well as risks of delayed or restricted access to benefits for low-income and elderly beneficiaries. Heightened oversight and spending cuts also raised worries about reduced agency effectiveness and unintended hardships for frontline federal employees and service recipients.",
-      "generated_at": "2026-04-09T14:50:57.832Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -3774,6 +3774,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "financial-literacy",
+      "theme_name": "Financial Literacy",
+      "order_count": 4,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 3
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive orders addressing financial literacy have sought to enhance financial capability among diverse and often underserved populations, particularly focusing on low-income families and youth. Initiatives ranged from establishing advisory councils to promote education for young Americans to expanding access to retirement savings tools and facilitating redemption of savings bonds. While these efforts aimed to improve financial knowledge and asset building, approaches differed in scope and emphasis, reflecting varying strategies on public-private collaboration, digitization, and targeted support across administrations.",
+      "potential_impact": "These orders intended to benefit vulnerable groups such as low-income individuals, students, and minority communities by providing resources and tools to improve financial well-being. However, concerns arose around equitable access, with challenges related to technology comfort, culturally relevant content, and data privacy potentially limiting effectiveness. Additionally, some orders risked inadvertently disadvantaging certain populations, including religious organizations and those less able to navigate digital systems, highlighting the complexity of delivering inclusive financial literacy programs.",
+      "generated_at": "2026-05-05T15:18:19.187Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "hostage-policy-wrongfully-detained-citizens",
       "theme_name": "Hostage Policy / Wrongfully Detained Citizens",
       "order_count": 3,
@@ -3839,27 +3860,6 @@
       "summary": "Executive action on stem cell and biomedical research has evolved from removing barriers to responsible human stem cell studies and establishing bioethical oversight commissions under one administration, to leveraging artificial intelligence for pediatric cancer diagnosis in another. These efforts underscore a shift from expanding fundamental research freedoms and ethical frameworks to integrating cutting-edge technologies in medical treatment, reflecting varying presidential priorities in balancing scientific innovation with ethical considerations and regulatory oversight.",
       "potential_impact": "These orders were designed to benefit a wide range of stakeholders including scientific researchers, patients of all ages—especially children—and healthcare workers, by fostering advanced research and novel treatment approaches. However, they also raised ethical concerns among faith-based communities and posed challenges around privacy, equitable access, and regulatory complexity. The heightened emphasis on AI and stem cell research risked creating disparities in care and complicating ethical safeguards, affecting vulnerable populations and those reliant on emerging therapies.",
       "generated_at": "2025-12-15T07:55:26.308Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "financial-literacy",
-      "theme_name": "Financial Literacy",
-      "order_count": 3,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 2
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 1
-        }
-      ],
-      "summary": "Efforts to enhance financial literacy across recent administrations have targeted diverse populations through advisory councils and initiatives promoting savings and family support. The Obama administration sought to build young Americans' financial capability via expert councils, while the Trump administration emphasized practical measures like savings bond redemption and fostering programs aimed at children and families. These approaches highlight a blend of policy-driven education and accessible financial tools designed to improve economic understanding and stability among vulnerable groups.",
-      "potential_impact": "These executive actions aimed to benefit low-income individuals, youth, and marginalized communities, including women, African Americans, Hispanic Americans, and tribal populations, by expanding access to financial education and resources. However, concerns arose about uneven effectiveness due to disparities in resource availability, cultural relevance, and technological accessibility, particularly for elderly and digitally underserved populations. Additionally, the involvement of religious organizations sparked worries about potential exclusion and the balance between secular and faith-based support, underscoring challenges in equitably reaching all intended beneficiaries.",
-      "generated_at": "2025-12-15T07:55:36.601Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4919,5 +4919,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-04-22T14:30:41.050Z"
+  "generated_at": "2026-05-05T15:18:19.188Z"
 }
