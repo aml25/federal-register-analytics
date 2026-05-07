@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 4
+          "order_count": 5
         }
       ],
-      "total_order_count": 4,
-      "summary": "In the second quarter of 2026, President Trump’s executive actions reflected a focus on federal spending with an emphasis on reforming college sports and advancing mental health treatments. Orders sought to tighten regulation of pay-for-play and name-image-likeness practices in college athletics while promoting more efficient federal contracting and expanding retirement savings access. The administration also aimed to accelerate approval of medical therapies for serious mental illnesses, signaling a push toward innovative health solutions amid broader efforts to enhance government accountability and financial security for workers.",
-      "potential_impact": "These orders targeted diverse groups including college students, veterans, and individuals with mental health conditions, while also affecting educational institutions and federal contractors who may face new compliance challenges. Student-athletes could experience restricted earning opportunities and transfer flexibility, raising concerns about their academic and financial wellbeing. The push to fast-track psychedelic treatments stirred debate over patient safety and potential disparities in access, particularly in states with limited regulatory capacity. Veterans’ privacy concerns and the complex interplay between state and federal authorities further complicated the landscape for those directly impacted.",
-      "generated_at": "2026-05-05T15:18:04.530Z",
+      "total_order_count": 5,
+      "summary": "In the second quarter of 2026, President Trump focused executive actions on reshaping federal spending priorities, particularly in higher education and healthcare. Notably, efforts to reform college sports aimed to stabilize funding and enforce stricter compliance, reflecting a push toward accountability and efficiency. Simultaneously, the administration sought to accelerate medical treatments for serious mental illnesses, including psychedelic therapies, while promoting retirement savings through new government initiatives. A significant foreign policy move imposed sanctions targeting repression in Cuba, linking national security concerns with international actions. These orders collectively underscored themes of regulatory reform, interagency coordination, and financial oversight across diverse policy areas.",
+      "potential_impact": "The executive orders targeted various groups, including college students, veterans, and individuals with mental health conditions, aiming to enhance support and access to resources. However, the tightening of pay-for-play rules and federal compliance in college sports raised worries about reduced earnings and program constraints for educational institutions and athletes, particularly women and smaller sports. The push to expand psychedelic treatments sparked safety and privacy concerns among patients, veterans, and state governments tasked with implementation. Meanwhile, sanctions against foreign actors had implications for specific foreign nationals and governments, highlighting tensions between security objectives and international relations.",
+      "generated_at": "2026-05-07T15:25:31.874Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -997,5 +997,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-05-05T15:18:04.530Z"
+  "generated_at": "2026-05-07T15:25:31.875Z"
 }

@@ -1,0 +1,48 @@
+{
+  "document_number": "2026-09173",
+  "executive_order_number": "14404",
+  "title": "Imposing Sanctions on Those Responsible for Repression in Cuba and for Threats to United States National Security and Foreign Policy",
+  "abstract": null,
+  "signing_date": "2026-05-01",
+  "publication_date": "2026-05-07",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/05/07/2026-09173/imposing-sanctions-on-those-responsible-for-repression-in-cuba-and-for-threats-to-united-states",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-07/pdf/2026-09173.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/05/07/2026-09173.txt",
+  "enrichment": {
+    "summary": "This executive order imposes sanctions on individuals and entities connected to the Cuban government who are responsible for repression, human rights abuses, corruption, or activities threatening U.S. national security. It blocks their property in the U.S., restricts travel to the U.S., and authorizes sanctions on foreign financial institutions that deal with these designated persons. The order aims to pressure the Cuban government while protecting U.S. national security and foreign policy interests.",
+    "theme_ids": [
+      "economic-sanctions",
+      "sanctions-country-specific",
+      "travel-restrictions-bans",
+      "cuba",
+      "human-rights-international"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens",
+        "lawful-permanent-residents-green-card-holders",
+        "naturalized-citizens",
+        "birthright-citizens"
+      ],
+      "negative_ids": [
+        "citizens-of-specific-countries-by-eo-designation",
+        "foreign-government-officials",
+        "foreign-nationals-general",
+        "corporations-businesses",
+        "financial-services-workers"
+      ]
+    },
+    "potential_concerns": [
+      "The broad sanctions and travel bans on Cuban government officials and related persons (citizens-of-specific-countries-by-eo-designation, foreign-government-officials) may complicate diplomatic efforts and restrict lawful travel by Cuban nationals who have legitimate non-governmental reasons to visit the U.S., potentially affecting U.S. citizens of Cuban descent (u-s-citizens, naturalized-citizens).",
+      "The designation of entities involved in multiple sectors of the Cuban economy and consequential sanctions on foreign financial institutions (financial-services-workers, corporations-businesses) could indirectly disrupt remittance flows and financial transactions benefiting ordinary Cuban citizens connected to the U.S., unintentionally harming family members who are U.S. citizens or lawful residents.",
+      "The executive order's sweeping authority to block property and assets of individuals and entities, including adult family members of designated persons, risks overreach that may affect innocent relatives and complicate compliance for U.S.-based financial institutions and businesses.",
+      "Enhanced sanctions targeting foreign financial institutions that engage with designated Cuban entities may deter international banks from facilitating legitimate business and humanitarian transactions, potentially undermining broader U.S. foreign policy goals and harming economic ties important for U.S. citizens and lawful residents with Cuban heritage."
+    ],
+    "enriched_at": "2026-05-07T15:25:20.554Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

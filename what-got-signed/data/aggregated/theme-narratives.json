@@ -205,12 +205,12 @@
     {
       "theme_id": "economic-sanctions",
       "theme_name": "Economic Sanctions",
-      "order_count": 54,
+      "order_count": 55,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 22
+          "order_count": 23
         },
         {
           "president_id": "barack-obama",
@@ -223,9 +223,9 @@
           "order_count": 16
         }
       ],
-      "summary": "Executive orders on economic sanctions have evolved as a strategic tool to address international security concerns and human rights abuses, with administrations tailoring measures to target specific countries, sectors, and individuals. While Obama’s orders often focused on human rights and nuclear nonproliferation, Trump intensified sanctions with broader sectoral restrictions and election interference measures. Biden’s approach reflects a continuation of targeted sanctions aimed at curbing malign activities while grappling with the diplomatic complexities these measures entail. Together, these policies illustrate a persistent reliance on sanctions to project U.S. influence globally.",
-      "potential_impact": "These sanctions primarily aim to pressure foreign governments, officials, and entities deemed threats, seeking to protect U.S. citizens and military interests indirectly. However, their broad scope risks unintended consequences for legitimate businesses, lawful residents, and foreign nationals connected to sanctioned parties. Observers have raised concerns about collateral harm to ordinary civilians in targeted countries, disruptions to humanitarian aid, and diplomatic friction arising from restrictions on visas and financial transactions, highlighting the challenge of balancing enforcement with minimizing adverse humanitarian and economic effects.",
-      "generated_at": "2026-03-23T04:25:30.441Z",
+      "summary": "Economic sanctions have been a persistent tool across recent administrations, reflecting evolving geopolitical priorities and enforcement strategies. While Obama’s orders often targeted human rights abuses and nuclear proliferation concerns in countries like Iran, Syria, and North Korea, the Trump administration expanded sanctions broadly, emphasizing economic pressure on adversaries including Venezuela and Iran’s energy sector. Biden’s actions have continued this approach, maintaining a focus on sanctioning malign actors and transnational threats. These orders seek to disrupt illicit networks and state-sponsored abuses, illustrating a continuity in using sanctions as a lever of U.S. foreign policy despite shifts in emphasis and scope.",
+      "potential_impact": "The sanctions aimed to constrain foreign governments, officials, and entities deemed threats to U.S. interests, but they also carried complex repercussions for various populations. While intended to pressure adversaries, they risked inadvertently affecting lawful permanent residents, visa holders, and foreign nationals engaged in legitimate commerce or humanitarian work. Concerns arose about the potential economic and diplomatic fallout impacting not only targeted regimes but also civilians, diaspora communities, and international businesses, highlighting the challenge of balancing strategic objectives with minimizing unintended harm.",
+      "generated_at": "2026-05-07T15:25:35.755Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -344,6 +344,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "sanctions-country-specific",
+      "theme_name": "Sanctions (Country-Specific)",
+      "order_count": 40,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 19
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 11
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 10
+        }
+      ],
+      "summary": "Country-specific sanctions have evolved as a pivotal tool for U.S. administrations to influence foreign governments and geopolitical dynamics. Obama’s approach often combined targeted asset blocks with humanitarian considerations, focusing on nations like Syria and Iran. The Trump era saw a notable intensification and expansion of sanctions, frequently broadening the scope to include additional countries and sectors, reflecting a more aggressive stance. Biden’s orders emphasize both maintaining pressure on adversaries such as Russia and Belarus and addressing emerging crises, often integrating diplomacy with economic restrictions to shape international behavior.",
+      "potential_impact": "These sanctions aimed to constrain foreign governments and officials implicated in destabilizing activities while attempting to safeguard U.S. interests and allies. However, they also risked adverse economic consequences for citizens of targeted countries, including restricted access to essential goods and humanitarian aid. U.S. corporations and workers, particularly in financial and energy sectors, faced compliance challenges and economic uncertainty. Observers highlighted concerns over unintended harm to civilian populations and the complexity of enforcing broad sanctions without overreaching or undermining diplomatic leverage.",
+      "generated_at": "2026-05-07T15:25:39.966Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "national-security-information-classification",
       "theme_name": "National Security Information / Classification",
       "order_count": 39,
@@ -367,32 +393,6 @@
       "summary": "Executive orders addressing national security information and classification have evolved to balance rigorous safeguarding of sensitive data with technological and operational needs. While earlier efforts under Obama centered on structuring classification programs and improving information sharing across government levels, Trump’s extensive orders emphasized sanctions, artificial intelligence leadership, and tighter control over classified networks. Biden’s recent actions focus on selective declassification and responsible AI development, reflecting growing concerns about transparency and technological security. Collectively, these policies reveal shifting priorities in managing classified information amid evolving security challenges and emerging technologies.",
       "potential_impact": "These executive orders aimed to enhance protections for military personnel, intelligence workers, and federal employees entrusted with classified information, while imposing stricter compliance demands that sometimes strained workplace morale and operational flexibility. The emphasis on security clearance processes and sanctions impacted private sector defense workers and federal contractors, occasionally complicating collaboration. Meanwhile, restrictions on disclosure and classification protocols raised concerns about transparency, whistleblower protections, and equitable access to information among state and local officials, highlighting tensions between safeguarding secrets and maintaining accountability.",
       "generated_at": "2025-12-15T08:43:39.796Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "sanctions-country-specific",
-      "theme_name": "Sanctions (Country-Specific)",
-      "order_count": 39,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 18
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 11
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 10
-        }
-      ],
-      "summary": "Executive orders targeting country-specific sanctions have been a consistent tool across recent administrations, reflecting shifting geopolitical priorities and strategic responses. While earlier orders focused on Iran, Syria, and Belarus, later administrations expanded sanctions to address challenges in Venezuela, Russia, and Ethiopia. These policies often balanced punitive measures against foreign officials and entities with attempts to maintain humanitarian considerations. The differing intensity and focus illustrate how sanctions serve both as instruments of foreign policy pressure and mechanisms to signal U.S. commitment to international norms and security.",
-      "potential_impact": "These sanctions primarily aimed to restrict the economic and political activities of targeted foreign governments and officials, intending to influence behavior while attempting to shield broader populations from harm. However, concerns have arisen about unintended consequences, including economic hardship for ordinary citizens, challenges for U.S. businesses navigating compliance, and potential impediments to humanitarian aid. The ripple effects extend to visa holders, financial workers, and sectors like energy, underscoring the complex human and economic stakes embedded in sanction policies.",
-      "generated_at": "2026-02-19T03:42:11.761Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -648,12 +648,12 @@
     {
       "theme_id": "human-rights-international",
       "theme_name": "Human Rights (International)",
-      "order_count": 26,
+      "order_count": 27,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 10
+          "order_count": 11
         },
         {
           "president_id": "barack-obama",
@@ -666,9 +666,9 @@
           "order_count": 7
         }
       ],
-      "summary": "Executive orders addressing international human rights have consistently employed economic sanctions and visa restrictions as tools to respond to abuses and crises in various countries. While Obama’s administration emphasized multilateral sanctions linked to specific human rights violations and global protections against violence, the Trump era expanded the scope and rigor of sanctions, often coupling them with broader diplomatic disengagements. The Biden administration has continued sanctioning individuals contributing to instability while also reassessing funding to international organizations, reflecting a blend of targeted pressure and institutional recalibration. Across these administrations, executive actions have sought to balance promoting human rights with geopolitical considerations, though approaches differ in intensity and scope.",
-      "potential_impact": "These executive actions primarily aim to hold accountable foreign officials and entities implicated in human rights abuses, intending to disrupt their activities and deter further violations. However, the sanctions and travel restrictions also affect broader populations, including citizens of targeted countries and foreign nationals connected to sanctioned individuals, sometimes complicating lawful residency and humanitarian aid efforts. Observers note concerns about potential unintended harm to vulnerable communities, challenges in ensuring due process for visa restrictions, and the economic repercussions on businesses and workers linked to affected regions, highlighting the complex balance between enforcing human rights and mitigating collateral impacts.",
-      "generated_at": "2025-12-15T08:44:17.104Z",
+      "summary": "Executive orders addressing international human rights have primarily leveraged economic sanctions and diplomatic restrictions to respond to abuses and geopolitical conflicts. Across three administrations, these orders combined efforts to block property, restrict visas, and impose sanctions targeting foreign officials and governments implicated in human rights violations. While Obama’s approach emphasized lawful interrogation standards and global violence prevention, Trump’s orders intensified sanctions and reduced U.S. support for international bodies, whereas Biden has focused on targeted sanctions and recalibrating U.S. engagement, reflecting evolving strategies to influence foreign human rights conditions through executive action.",
+      "potential_impact": "These orders aimed to pressure foreign governments and officials responsible for human rights abuses while attempting to shield vulnerable populations through humanitarian considerations. However, the broad sanctions and visa restrictions risked unintended consequences for civilians, refugees, lawful permanent residents, and international aid recipients by complicating access to resources and disrupting aid channels. Observers highlighted concerns over due process for visa holders and the economic hardships imposed on ordinary citizens, underscoring the delicate balance between sanctioning perpetrators and safeguarding innocents in complex international contexts.",
+      "generated_at": "2026-05-07T15:25:42.405Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -700,12 +700,12 @@
     {
       "theme_id": "travel-restrictions-bans",
       "theme_name": "Travel Restrictions / Bans",
-      "order_count": 24,
+      "order_count": 25,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 12
+          "order_count": 13
         },
         {
           "president_id": "barack-obama",
@@ -718,9 +718,9 @@
           "order_count": 6
         }
       ],
-      "summary": "Travel restrictions and bans have evolved as tools of U.S. foreign policy to address security concerns and geopolitical conflicts, with presidents deploying executive orders to impose sanctions and control entry based on shifting international dynamics. Obama’s orders often targeted specific regimes and cyber threats, while Trump’s approach emphasized broad travel bans and sanctions focused on countries like Iran and regions such as Crimea. Biden continued sanctions targeting destabilizing actors but with renewed emphasis on multilateral coordination, reflecting a blend of security and diplomatic priorities in travel-related executive actions.",
-      "potential_impact": "These executive orders aimed to restrict entry and financial dealings of designated foreign nationals and entities while protecting U.S. citizens and lawful residents, though many orders risked unintended consequences. Visa holders, international students, and lawful permanent residents from targeted countries often faced travel disruptions, while corporations and businesses encountered operational challenges due to sanctions. Concerns arose over potential discrimination, economic hardship for affected communities, and the unintended restriction of humanitarian aid or legitimate international engagement, highlighting the delicate balance between national security and individual rights.",
-      "generated_at": "2025-12-15T07:45:56.461Z",
+      "summary": "Executive orders addressing travel restrictions and bans have been a prominent tool for U.S. presidents to respond to perceived national security threats and geopolitical conflicts. While earlier administrations, such as Obama’s, focused on sanctions against specific regimes and regions, the Trump administration notably expanded travel bans targeting individuals from certain countries and imposed broad sanctions with direct travel implications. The Biden administration has continued the use of sanctions with an emphasis on ongoing geopolitical crises, balancing enforcement with diplomatic considerations. Across administrations, these orders reflect a strategic use of travel restrictions intertwined with economic sanctions as instruments of foreign policy.",
+      "potential_impact": "These executive orders aimed to safeguard U.S. national security and interests by restricting entry and financial dealings of targeted foreign actors, but their reach extended to various populations including lawful permanent residents, naturalized citizens, visa holders, and international businesses. Concerns emerged about unintended consequences such as legal challenges, economic hardships for employees of sanctioned companies, disruption of humanitarian aid, and obstacles to legitimate travel or academic pursuits. The broad and sometimes overlapping criteria for sanctions raised issues of overreach, potentially affecting innocent individuals and complicating enforcement.",
+      "generated_at": "2026-05-07T15:25:44.969Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4395,6 +4395,22 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "cuba",
+      "theme_name": "Cuba",
+      "order_count": 3,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 3
+        }
+      ],
+      "summary": "The executive orders concerning Cuba under the Trump administration pursued a strategy intertwining symbolic assertions of American identity with stringent sanctions targeting the Cuban government and its economic networks. Actions such as renaming geographic landmarks aimed to reinforce patriotic narratives, while expansive sanctions sought to curtail Cuba's international trade and diplomatic relations. These measures reflected a hardline approach designed to pressure the Cuban regime, emphasizing national security and foreign policy priorities through both cultural symbolism and economic restrictions.",
+      "potential_impact": "These orders aimed to affect a broad spectrum of groups, including U.S. citizens and lawful residents with ties to Cuba, coastal and energy sector workers, and indigenous communities connected to renamed landmarks. Observers expressed concern that the symbolic renaming could marginalize Native American and Hispanic communities, while the sanctions risked complicating legitimate travel and financial transactions for Cuban nationals and their families. The sweeping restrictions on businesses and foreign entities raised fears of economic disruption and unintended hardship for ordinary individuals linked to Cuba through commerce or heritage.",
+      "generated_at": "2026-05-07T15:25:47.971Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "belarus",
       "theme_name": "Belarus",
       "order_count": 2,
@@ -4901,23 +4917,7 @@
       "potential_impact": "These orders aimed to support active and reserve military personnel, including veterans and federal employees engaged in national security efforts, but also brought challenges. Reservists faced increased deployment burdens risking family and employment stability, while sanctions on ICC officials threatened diplomatic ties with allied governments and international organizations. The measures raised concerns about operational strain on military readiness and potential disruptions to cooperation within NATO, highlighting the complex interplay between defense commitments and international relations.",
       "generated_at": "2025-12-15T08:50:47.033Z",
       "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "cuba",
-      "theme_name": "Cuba",
-      "order_count": 2,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 2
-        }
-      ],
-      "summary": "Executive actions related to Cuba under the Trump administration combined symbolic gestures with economic measures that underscored a nationalist approach. Orders such as renaming geographical landmarks emphasized American heritage but stirred controversy by overlooking indigenous and Hispanic cultural connections. Simultaneously, tariffs targeting countries supplying oil to Cuba aimed to pressure the Cuban government economically, reflecting a hardline stance that linked energy policy and trade with broader geopolitical objectives. These orders illustrate how cultural symbolism and economic sanctions were intertwined to assert U.S. influence in the region.",
-      "potential_impact": "These orders sought to bolster American identity and economic leverage but risked alienating indigenous peoples and Hispanic communities by disregarding their cultural ties to renamed places. Coastal and seafood industry workers faced potential operational challenges due to changes in nomenclature, while energy sector employees confronted uncertainty amid shifting trade dynamics. Additionally, increased tariffs and sanctions raised concerns about economic disruptions for U.S. businesses and foreign nationals involved in trade with Cuba, highlighting tensions between nationalistic policy aims and the practical effects on diverse populations.",
-      "generated_at": "2026-02-09T03:32:36.949Z",
-      "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-05-05T15:18:19.188Z"
+  "generated_at": "2026-05-07T15:25:47.971Z"
 }

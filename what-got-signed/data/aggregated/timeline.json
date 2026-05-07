@@ -6,7 +6,7 @@
       "quarter_name": "Q2 2026",
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
-      "order_count": 4,
+      "order_count": 5,
       "top_themes": [
         {
           "id": "federal-spending",
@@ -29,12 +29,13 @@
           "name": "Veterans Healthcare"
         }
       ],
-      "theme_summary": "Donald Trump signed 4 executive orders focused on the themes of federal spending, higher education, regulatory reform / deregulation, and 2 others.",
+      "theme_summary": "Donald Trump signed 5 executive orders focused on the themes of federal spending, higher education, regulatory reform / deregulation, and 2 others.",
       "order_ids": [
         "14400",
         "14401",
         "14402",
-        "14403"
+        "14403",
+        "14404"
       ]
     },
     {
@@ -2636,5 +2637,5 @@
       ]
     }
   ],
-  "generated_at": "2026-05-05T15:17:56.108Z"
+  "generated_at": "2026-05-07T15:25:20.705Z"
 }

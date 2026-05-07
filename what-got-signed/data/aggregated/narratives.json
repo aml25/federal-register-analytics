@@ -5,10 +5,10 @@
       "president_name": "Donald Trump",
       "term_start": 2025,
       "term_end": "present",
-      "order_count": 253,
-      "summary": "Since taking office in 2025, President Trump has issued 253 executive orders characterized by a vigorous push to reshape federal governance around efficiency, deregulation, and national security. Early efforts concentrated on streamlining government operations and tightening border and homeland security, while subsequent orders focused on imposing tariffs, managing national emergencies, and asserting an 'America First' stance in trade and foreign affairs. This approach reflects a broader strategy to bolster economic competitiveness, reinforce military readiness, and prioritize energy independence, alongside a notable rollback of prior policies deemed counterproductive or wasteful.",
-      "potential_impact": "These executive actions primarily seek to benefit small business owners, active-duty military personnel, and various segments of the U.S. workforce by fostering economic growth and strengthening security. However, they have raised concerns for consumers, undocumented immigrants, and environmental justice communities who may face increased vulnerabilities due to deregulation and tightened immigration policies. Critics also warn that dismantling diversity and inclusion initiatives could disproportionately affect racial and ethnic minorities, LGBTQ+ individuals, and federal employees, potentially exacerbating social inequities and undermining protections for historically marginalized groups.",
-      "generated_at": "2026-05-05T15:18:01.425Z",
+      "order_count": 254,
+      "summary": "Donald Trump's executive order activity reflects a robust focus on reinforcing national sovereignty, economic protectionism, and government restructuring. Early in his term, he prioritizes government efficiency and border security, later turning to tariffs, national emergencies, and defense readiness, signaling a persistent emphasis on economic competitiveness and homeland security. His approach often involves rolling back prior policies and reshaping federal workforce management while advancing energy independence and regulatory reform, underscoring a drive to recalibrate federal priorities toward an 'America First' doctrine that intertwines national security with economic nationalism.",
+      "potential_impact": "The administration’s orders aim to bolster small business owners, active military personnel, and manufacturing workers, suggesting intended benefits for domestic economic and defense sectors. However, these policies also raise concerns about adverse effects on consumers, undocumented immigrants, and environmental justice communities, who may face increased challenges due to tightened immigration enforcement, deregulation rollbacks, and the rescission of equity and environmental protections. The emphasis on prioritizing U.S. citizens and restricting diversity initiatives also risks deepening disparities for racial minorities, LGBTQ+ individuals, and vulnerable populations, while the withdrawal from international commitments could affect foreign nationals and global cooperation.",
+      "generated_at": "2026-05-07T15:25:27.386Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -56,5 +56,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-05-05T15:18:01.426Z"
+  "generated_at": "2026-05-07T15:25:27.387Z"
 }
