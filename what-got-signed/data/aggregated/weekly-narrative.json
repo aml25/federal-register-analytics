@@ -1,9 +1,51 @@
 {
   "week": "2026-W21",
   "date_range": "May 18–24, 2026",
-  "narrative": "",
-  "orders": [],
-  "top_themes": [],
-  "generated_at": "2026-05-18T16:17:55.966Z",
-  "model_used": ""
+  "narrative": "During the week of May 18–24, 2026, President Donald Trump signed two executive orders focusing on financial system regulation. EO 14405 aimed at integrating financial technology innovation into regulatory frameworks, addressing issues related to cryptocurrency and digital assets, while EO 14406 sought to restore integrity to America’s financial system by tackling corporate fraud, white-collar crime, and transnational threats such as human trafficking and cartel activities. These actions underscored a commitment to regulatory reform and enhanced enforcement within the financial sector.",
+  "orders": [
+    {
+      "number": "14405",
+      "title": "Integrating Financial Technology Innovation Into Regulatory Frameworks",
+      "url": "https://www.federalregister.gov/documents/2026/05/22/2026-10399/integrating-financial-technology-innovation-into-regulatory-frameworks",
+      "president_name": "Donald Trump"
+    },
+    {
+      "number": "14406",
+      "title": "Restoring Integrity to America's Financial System",
+      "url": "https://www.federalregister.gov/documents/2026/05/22/2026-10400/restoring-integrity-to-americas-financial-system",
+      "president_name": "Donald Trump"
+    }
+  ],
+  "top_themes": [
+    {
+      "id": "financial-system-regulation",
+      "name": "Financial System Regulation"
+    },
+    {
+      "id": "cryptocurrency-digital-assets",
+      "name": "Cryptocurrency / Digital Assets"
+    },
+    {
+      "id": "regulatory-reform-deregulation",
+      "name": "Regulatory Reform / Deregulation"
+    },
+    {
+      "id": "immigration-enforcement-interior",
+      "name": "Immigration Enforcement (Interior)"
+    },
+    {
+      "id": "corporate-fraud-white-collar-crime",
+      "name": "Corporate Fraud / White Collar Crime"
+    },
+    {
+      "id": "human-trafficking",
+      "name": "Human Trafficking"
+    },
+    {
+      "id": "transnational-crime-cartels",
+      "name": "Transnational Crime / Cartels"
+    }
+  ],
+  "generated_at": "2026-05-22T15:45:31.979Z",
+  "model_used": "gpt-4.1-mini"
 }

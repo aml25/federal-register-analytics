@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 5
+          "order_count": 7
         }
       ],
-      "total_order_count": 5,
-      "summary": "In the second quarter of 2026, President Trump focused executive actions on reshaping federal spending priorities, particularly in higher education and healthcare. Notably, efforts to reform college sports aimed to stabilize funding and enforce stricter compliance, reflecting a push toward accountability and efficiency. Simultaneously, the administration sought to accelerate medical treatments for serious mental illnesses, including psychedelic therapies, while promoting retirement savings through new government initiatives. A significant foreign policy move imposed sanctions targeting repression in Cuba, linking national security concerns with international actions. These orders collectively underscored themes of regulatory reform, interagency coordination, and financial oversight across diverse policy areas.",
-      "potential_impact": "The executive orders targeted various groups, including college students, veterans, and individuals with mental health conditions, aiming to enhance support and access to resources. However, the tightening of pay-for-play rules and federal compliance in college sports raised worries about reduced earnings and program constraints for educational institutions and athletes, particularly women and smaller sports. The push to expand psychedelic treatments sparked safety and privacy concerns among patients, veterans, and state governments tasked with implementation. Meanwhile, sanctions against foreign actors had implications for specific foreign nationals and governments, highlighting tensions between security objectives and international relations.",
-      "generated_at": "2026-05-07T15:25:31.874Z",
+      "total_order_count": 7,
+      "summary": "In the second quarter of 2026, President Trump focused executive actions on reshaping financial system regulation and federal spending while advancing regulatory reform aimed at promoting government efficiency and innovation. Key initiatives included integrating financial technology into regulatory frameworks and restoring financial system integrity, alongside efforts to improve retirement security through the launch of TrumpIRA.gov. The administration also sought to address mental health treatment acceleration and veterans’ healthcare coordination. A notable effort targeted college sports, aiming to save programs and stabilize funding, reflecting a blend of fiscal priorities with social and healthcare concerns amid ongoing sanctions to uphold national security interests.",
+      "potential_impact": "These orders aimed to benefit small business owners, financial services workers, veterans, and individuals grappling with mental health conditions, while also affecting college students and women involved in sports funding. However, educational institutions faced challenges from tightened compliance and funding restrictions, with potential impacts on program viability. Concerns emerged over the safety and accessibility of accelerated psychedelic therapies and prescription drug pricing for patients. Meanwhile, sanctions and regulatory changes posed risks to foreign nationals, corporations, and certain worker groups, highlighting tensions between national security goals and the interests of diverse domestic and international populations.",
+      "generated_at": "2026-05-22T15:45:07.865Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -997,5 +997,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-05-07T15:25:31.875Z"
+  "generated_at": "2026-05-22T15:45:07.865Z"
 }

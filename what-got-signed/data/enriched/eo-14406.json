@@ -1,0 +1,49 @@
+{
+  "document_number": "2026-10400",
+  "executive_order_number": "14406",
+  "title": "Restoring Integrity to America's Financial System",
+  "abstract": null,
+  "signing_date": "2026-05-19",
+  "publication_date": "2026-05-22",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/05/22/2026-10400/restoring-integrity-to-americas-financial-system",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-22/pdf/2026-10400.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/05/22/2026-10400.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Treasury and financial regulators to strengthen protections against financial fraud and abuse, particularly linked to unauthorized immigrants and illicit cross-border financial activities. It calls for improved customer identification, enhanced due diligence, and new guidance on managing credit risks associated with lending to non-work authorized populations to help restore trust and safety in the U.S. financial system.",
+    "theme_ids": [
+      "financial-system-regulation",
+      "immigration-enforcement-interior",
+      "corporate-fraud-white-collar-crime",
+      "human-trafficking",
+      "transnational-crime-cartels"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "financial-services-workers",
+        "law-enforcement-officers-federal",
+        "law-enforcement-officers-state-local"
+      ],
+      "negative_ids": [
+        "undocumented-immigrants",
+        "visa-holders-work-student-tourist",
+        "daca-recipients-dreamers",
+        "small-business-owners",
+        "agricultural-workers-farmers",
+        "low-income-individuals-families"
+      ]
+    },
+    "potential_concerns": [
+      "The enhanced due diligence and customer identification requirements may restrict undocumented immigrants and non-work authorized visa holders’ access to basic financial services, potentially pushing them toward unregulated financial alternatives.",
+      "Small business owners and agricultural workers employing non-work authorized individuals might face increased scrutiny and operational challenges due to intensified payroll tax enforcement and financial reporting standards.",
+      "The order may inadvertently exacerbate financial exclusion and economic vulnerability among low-income families who rely on informal or alternative banking methods due to lack of lawful immigration status.",
+      "Law enforcement agencies may experience increased workloads and challenges balancing national security goals with civil rights protections for immigrant populations under enhanced financial regulation.",
+      "Financial services workers will need to implement new complex compliance protocols rapidly, possibly straining resources and increasing operational costs for institutions serving diverse communities."
+    ],
+    "enriched_at": "2026-05-22T15:44:59.687Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

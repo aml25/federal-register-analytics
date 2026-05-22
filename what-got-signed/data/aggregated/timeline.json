@@ -6,36 +6,38 @@
       "quarter_name": "Q2 2026",
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
-      "order_count": 5,
+      "order_count": 7,
       "top_themes": [
         {
           "id": "federal-spending",
           "name": "Federal Spending"
         },
         {
-          "id": "higher-education",
-          "name": "Higher Education"
-        },
-        {
           "id": "regulatory-reform-deregulation",
           "name": "Regulatory Reform / Deregulation"
         },
         {
-          "id": "mental-health",
-          "name": "Mental Health"
+          "id": "financial-system-regulation",
+          "name": "Financial System Regulation"
         },
         {
-          "id": "veterans-healthcare",
-          "name": "Veterans Healthcare"
+          "id": "higher-education",
+          "name": "Higher Education"
+        },
+        {
+          "id": "mental-health",
+          "name": "Mental Health"
         }
       ],
-      "theme_summary": "Donald Trump signed 5 executive orders focused on the themes of federal spending, higher education, regulatory reform / deregulation, and 2 others.",
+      "theme_summary": "Donald Trump signed 7 executive orders focused on the themes of federal spending, regulatory reform / deregulation, financial system regulation, and 2 others.",
       "order_ids": [
         "14400",
         "14401",
         "14402",
         "14403",
-        "14404"
+        "14404",
+        "14405",
+        "14406"
       ]
     },
     {
@@ -2637,5 +2639,5 @@
       ]
     }
   ],
-  "generated_at": "2026-05-07T15:25:20.705Z"
+  "generated_at": "2026-05-22T15:44:59.865Z"
 }

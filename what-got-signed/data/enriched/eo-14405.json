@@ -1,0 +1,42 @@
+{
+  "document_number": "2026-10399",
+  "executive_order_number": "14405",
+  "title": "Integrating Financial Technology Innovation Into Regulatory Frameworks",
+  "abstract": null,
+  "signing_date": "2026-05-19",
+  "publication_date": "2026-05-22",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/05/22/2026-10399/integrating-financial-technology-innovation-into-regulatory-frameworks",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-22/pdf/2026-10399.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/05/22/2026-10399.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal financial regulators to review and update rules to make it easier for financial technology (fintech) companies to operate and collaborate with banks. It also asks the Federal Reserve to evaluate and possibly expand access to its payment services for non-bank fintech firms, aiming to promote innovation while maintaining safety and soundness in the financial system.",
+    "theme_ids": [
+      "financial-system-regulation",
+      "cryptocurrency-digital-assets",
+      "regulatory-reform-deregulation"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "entrepreneurs-startups",
+        "small-business-owners",
+        "cryptocurrency-digital-asset-holders",
+        "financial-services-workers"
+      ],
+      "negative_ids": [
+        "large-corporation-employees"
+      ]
+    },
+    "potential_concerns": [
+      "The easing of regulatory barriers may disproportionately benefit fintech startups and small businesses, potentially disrupting established financial services firms and affecting large-corporation-employees through market share loss or job insecurity.",
+      "Expanding Federal Reserve payment services access to non-bank fintech firms and digital asset companies could increase systemic financial risks if adequate safety, soundness, and consumer protections are not maintained, potentially harming cryptocurrency-digital-asset-holders and broader financial markets.",
+      "The drive to streamline regulations may inadvertently weaken investor and consumer protections, raising concerns for financial-services-workers who must manage compliance and for cryptocurrency-digital-asset-holders vulnerable to fraud or market volatility.",
+      "Uneven implementation or inconsistent policies across Federal Reserve Banks in granting access to payment services could introduce competitive imbalances that affect fintech entrepreneurs and startups differently depending on their location or client base."
+    ],
+    "enriched_at": "2026-05-22T15:44:52.368Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
