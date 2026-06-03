@@ -6,15 +6,15 @@
       "quarter_name": "Q2 2026",
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
-      "order_count": 7,
+      "order_count": 9,
       "top_themes": [
-        {
-          "id": "federal-spending",
-          "name": "Federal Spending"
-        },
         {
           "id": "regulatory-reform-deregulation",
           "name": "Regulatory Reform / Deregulation"
+        },
+        {
+          "id": "federal-spending",
+          "name": "Federal Spending"
         },
         {
           "id": "financial-system-regulation",
@@ -29,7 +29,7 @@
           "name": "Mental Health"
         }
       ],
-      "theme_summary": "Donald Trump signed 7 executive orders focused on the themes of federal spending, regulatory reform / deregulation, financial system regulation, and 2 others.",
+      "theme_summary": "Donald Trump signed 9 executive orders focused on the themes of regulatory reform / deregulation, federal spending, financial system regulation, and 2 others.",
       "order_ids": [
         "14400",
         "14401",
@@ -37,7 +37,9 @@
         "14403",
         "14404",
         "14405",
-        "14406"
+        "14406",
+        "14407",
+        "14408"
       ]
     },
     {
@@ -2639,5 +2641,5 @@
       ]
     }
   ],
-  "generated_at": "2026-05-22T15:44:59.865Z"
+  "generated_at": "2026-06-03T17:56:19.392Z"
 }

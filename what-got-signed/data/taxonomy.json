@@ -2170,6 +2170,24 @@
         "eo_title": "Urgent National Action To Save College Sports",
         "justification": "Student-athletes as a distinct group face direct impacts on eligibility, pay-for-play, transfer rules, and protections under the order; yet this group is not explicitly named in the existing taxonomy.",
         "suggested_at": "2026-04-09"
+      },
+      {
+        "name": "parents",
+        "suggested_category": "Demographic Groups (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14407",
+        "eo_title": "Realigning United States Core Childhood Vaccine Recommendations With Best Practices From Peer, Developed Countries",
+        "justification": "Parents are directly implicated by changes that shift vaccine schedule flexibility and parental rights; they are not explicitly listed in the taxonomy but are essential to capture given emphasis on parental authority in the order.",
+        "suggested_at": "2026-06-03"
+      },
+      {
+        "name": "hikers-outdoor-recreationists",
+        "suggested_category": "Suggested new population under Demographic Groups or Special Populations (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14408",
+        "eo_title": "Removing Unnecessary and Counterproductive Restrictions on Access to Federal Lands",
+        "justification": "This group represents people who use federal lands for hiking and other forms of non-motorized recreation that may be negatively impacted by increased off-road vehicle access, but is not explicitly covered in the existing taxonomy.",
+        "suggested_at": "2026-06-03"
       }
     ]
   }

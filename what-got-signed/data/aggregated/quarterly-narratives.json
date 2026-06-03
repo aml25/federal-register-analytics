@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 7
+          "order_count": 9
         }
       ],
-      "total_order_count": 7,
-      "summary": "In the second quarter of 2026, President Trump focused executive actions on reshaping financial system regulation and federal spending while advancing regulatory reform aimed at promoting government efficiency and innovation. Key initiatives included integrating financial technology into regulatory frameworks and restoring financial system integrity, alongside efforts to improve retirement security through the launch of TrumpIRA.gov. The administration also sought to address mental health treatment acceleration and veterans’ healthcare coordination. A notable effort targeted college sports, aiming to save programs and stabilize funding, reflecting a blend of fiscal priorities with social and healthcare concerns amid ongoing sanctions to uphold national security interests.",
-      "potential_impact": "These orders aimed to benefit small business owners, financial services workers, veterans, and individuals grappling with mental health conditions, while also affecting college students and women involved in sports funding. However, educational institutions faced challenges from tightened compliance and funding restrictions, with potential impacts on program viability. Concerns emerged over the safety and accessibility of accelerated psychedelic therapies and prescription drug pricing for patients. Meanwhile, sanctions and regulatory changes posed risks to foreign nationals, corporations, and certain worker groups, highlighting tensions between national security goals and the interests of diverse domestic and international populations.",
-      "generated_at": "2026-05-22T15:45:07.865Z",
+      "total_order_count": 9,
+      "summary": "In the second quarter of 2026, President Trump focused executive action on deregulation and financial system reforms, signing nine orders that aimed to streamline federal spending, modernize financial technology oversight, and enhance retirement savings access through the launch of TrumpIRA.gov. Efforts to improve mental health treatment accelerated with initiatives to expedite approval of psychedelic therapies, while veterans’ healthcare received attention through enhanced data-sharing protocols. The administration also sought to address college sports integrity and federal contracting efficiency, reflecting a broader push toward government performance and regulatory reform amid concerns over drug pricing and public health recommendations.",
+      "potential_impact": "These executive orders targeted diverse groups, including small business owners benefiting from deregulatory measures and financial services workers affected by shifts in regulatory frameworks. College athletes and students faced new restrictions that could limit earning opportunities, raising concerns about the future of educational institutions reliant on sports funding. Individuals with mental health conditions and veterans were positioned to gain from improved treatment access and healthcare integration, though privacy and safety risks were noted. Meanwhile, sanctions and federal contracting reforms introduced challenges for foreign nationals, contractors, and certain corporations, illustrating the complex balance between national security, economic interests, and social welfare.",
+      "generated_at": "2026-06-03T17:56:24.946Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -997,5 +997,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-05-22T15:45:07.865Z"
+  "generated_at": "2026-06-03T17:56:24.946Z"
 }

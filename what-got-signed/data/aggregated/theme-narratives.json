@@ -179,12 +179,12 @@
     {
       "theme_id": "regulatory-reform-deregulation",
       "theme_name": "Regulatory Reform / Deregulation",
-      "order_count": 58,
+      "order_count": 59,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 53
+          "order_count": 54
         },
         {
           "president_id": "joe-biden",
@@ -197,9 +197,9 @@
           "order_count": 2
         }
       ],
-      "summary": "Executive actions on regulatory reform and deregulation have evolved markedly across recent administrations, reflecting differing priorities on government oversight and economic growth. While the Obama administration issued limited orders focused on regulatory planning and agency review, the Trump era saw a surge of 53 orders aimed at aggressively dismantling prior regulations, promoting energy independence, and reducing compliance costs. The Biden administration has issued a handful of orders seeking to modernize regulatory review and revoke some earlier rollbacks, signaling a cautious recalibration. These shifting approaches illustrate ongoing tensions between deregulation to spur business activity and maintaining regulatory frameworks intended to protect public interests.",
-      "potential_impact": "These executive orders primarily aimed to ease burdens on small business owners and entrepreneurs by streamlining regulations and fostering economic growth, particularly in sectors like energy and agriculture. However, concerns emerged that such deregulatory measures could weaken protections for environmental justice communities, tribal populations, and vulnerable groups such as individuals with disabilities. Critics highlighted risks of reduced oversight, increased regulatory uncertainty, and diminished safeguards, potentially affecting equitable access and public health. Federal employees and contractors also faced challenges from changing compliance landscapes, underscoring the complex balance between deregulation benefits and social equity.",
-      "generated_at": "2026-05-22T15:45:11.238Z",
+      "summary": "Executive orders on regulatory reform and deregulation reveal a striking shift in presidential priorities, with the Trump administration spearheading a broad deregulatory agenda aimed at dismantling existing oversight mechanisms to promote economic growth and reduce compliance costs. Earlier and subsequent administrations took more measured approaches, focusing on regulatory planning and modernizing review processes. The Trump-era orders often emphasized cutting perceived burdens on small businesses, energy sectors, and federal contractors, while revisiting regulations related to environmental and administrative governance, reflecting a philosophy prioritizing deregulation as a pathway to economic and governmental efficiency.",
+      "potential_impact": "These executive actions sought to benefit entrepreneurs, small businesses, and energy sector workers by easing regulatory constraints, yet raised concerns about diminished protections for environmental justice communities, tribal populations, and vulnerable groups. The rollback of established regulatory reviews risked reducing safeguards for consumers, individuals with disabilities, and low-income families, while also creating uncertainty for federal employees and contractors. Observers worried that prioritizing deregulation could inadvertently marginalize historically underserved communities and erode equitable enforcement, highlighting tensions between economic objectives and social equity.",
+      "generated_at": "2026-06-03T17:56:27.991Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -528,12 +528,12 @@
     {
       "theme_id": "energy-independence-security",
       "theme_name": "Energy Independence / Security",
-      "order_count": 29,
+      "order_count": 30,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 22
+          "order_count": 23
         },
         {
           "president_id": "barack-obama",
@@ -546,9 +546,9 @@
           "order_count": 3
         }
       ],
-      "summary": "Executive actions on energy independence and security reveal contrasting presidential priorities that reflect broader policy goals. The Trump administration heavily emphasized expanding fossil fuel production, streamlining resource development, and bolstering traditional energy sectors such as coal and nuclear power, aiming to assert national energy dominance. In contrast, the Obama and Biden administrations, though issuing fewer orders, focused more on sustainability, renewable energy growth, and reducing reliance on foreign energy sources, integrating environmental and climate considerations into federal operations. These divergent approaches illustrate ongoing tensions between economic growth, environmental stewardship, and national security in shaping U.S. energy policy.",
-      "potential_impact": "These executive orders aimed to benefit workers in oil, gas, and coal industries by promoting development and job growth, while also seeking to support renewable energy and defense-related sectors. However, concerns emerged regarding negative impacts on environmental justice, rural, tribal, and indigenous communities, particularly due to increased resource extraction and potentially insufficient environmental reviews. Small businesses and federal contractors faced new compliance challenges and cost burdens. The shift toward traditional energy sources risked disruptions for renewable energy workers, highlighting the complex balance between advancing energy independence and protecting vulnerable populations and ecosystems.",
-      "generated_at": "2026-02-19T03:42:17.493Z",
+      "summary": "Executive orders on energy independence and security reveal distinct presidential priorities, with the Trump administration heavily emphasizing fossil fuel development, deregulation, and domestic resource extraction to bolster economic growth and national energy dominance. In contrast, Obama’s orders focused on federal sustainability and environmental performance, while Biden’s limited actions center on clean energy leadership and addressing geopolitical energy threats. These varied approaches highlight the tension between advancing traditional energy sectors and pursuing sustainability amid shifting geopolitical and economic landscapes.",
+      "potential_impact": "The executive actions aimed to benefit workers in oil, gas, and coal industries, defense and technology sectors, and energy-related manufacturing, often promising job growth and increased domestic resource control. However, concerns arose over the potential adverse effects on environmental justice and tribal communities, rural populations, and small businesses facing regulatory shifts or increased costs. The push for fossil fuel expansion risked disrupting indigenous lands and livelihoods, while transitions toward renewables posed challenges for traditional energy workers, underscoring complex trade-offs between economic security and environmental stewardship.",
+      "generated_at": "2026-06-03T17:56:30.363Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1234,6 +1234,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "public-lands-management",
+      "theme_name": "Public Lands Management",
+      "order_count": 17,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 14
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 2
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive actions on public lands management reveal a complex interplay between conservation priorities and economic development goals. While earlier orders under the Obama administration emphasized climate change preparation and ecosystem restoration, the Trump administration predominantly pursued active resource utilization, including expanded timber, mineral, and energy production, alongside reviewing protections like national monument designations. Biden's more recent order signals an intent to strengthen forests and local economies, reflecting ongoing tensions between environmental stewardship and resource extraction. These shifting approaches illustrate divergent presidential strategies on balancing federal land use with climate resilience and economic interests.",
+      "potential_impact": "The executive orders aimed to benefit diverse groups such as rural and tribal communities, agricultural workers, and small business owners, who depend heavily on land resources and management policies. However, these policies also raised concerns about potential adverse effects on environmental justice communities and Indigenous peoples, particularly where regulatory rollbacks could undermine protections for cultural sites and natural habitats. The challenge lies in ensuring equitable engagement and support amid competing interests, as changes in land use and regulatory frameworks risk disrupting livelihoods, complicating local governance, and exacerbating social and environmental disparities.",
+      "generated_at": "2026-06-03T17:56:33.525Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "covid-19-response",
       "theme_name": "COVID-19 Response",
       "order_count": 16,
@@ -1278,32 +1304,6 @@
       "summary": "Efforts to enhance healthcare competition and market dynamics have evolved across administrations, with a pronounced surge during the Trump presidency focused on expanding choice, lowering drug prices, and increasing transparency. These orders emphasized reducing regulatory barriers and promoting alternative insurance options, aiming to empower patients and beneficiaries with more affordable and accessible care. The Biden administration continued this trajectory by reinforcing competition and targeting prescription drug costs, reflecting ongoing priorities to balance market forces with consumer protections amid complex healthcare challenges.",
       "potential_impact": "These executive actions sought to benefit a broad spectrum of patients, including Medicare and Medicaid recipients, low-income families, and individuals with chronic illnesses, by addressing affordability and access. However, concerns arose that increased market competition and less regulated insurance plans might undermine coverage quality, particularly for vulnerable populations. Healthcare providers and organizations faced new administrative demands, while some patients could encounter confusion navigating pricing information and insurance options, highlighting tensions between fostering innovation and safeguarding equitable care.",
       "generated_at": "2025-12-15T08:45:41.708Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "public-lands-management",
-      "theme_name": "Public Lands Management",
-      "order_count": 16,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 13
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 2
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive actions on public lands management reveal contrasting priorities among recent administrations, with a predominant focus during the Trump era on expanding resource extraction, reducing federal protections, and promoting economic development on federal lands. Earlier and later orders under Obama and Biden emphasized conservation, climate resilience, and restoration efforts, reflecting a more preservation-oriented approach. These shifts underscore ongoing tensions between environmental stewardship, economic interests, and cultural heritage preservation, particularly regarding monument designations and wildfire risk management.",
-      "potential_impact": "These orders sought to affect diverse communities, including tribal and rural populations, agricultural workers, and small businesses, whose livelihoods are closely tied to land use policies. While some actions aimed to restore habitats and enhance climate preparedness, concerns arose about regulatory burdens, potential displacement, and insufficient inclusion of Indigenous knowledge. The balancing act between fostering economic opportunities in energy and resource sectors and protecting environmental justice communities highlighted the risk of uneven benefits and challenges, with local, state, and tribal governments navigating complex administrative and fiscal consequences.",
-      "generated_at": "2025-12-15T08:45:38.029Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -2078,6 +2078,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "religious-liberty",
+      "theme_name": "Religious Liberty",
+      "order_count": 11,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 10
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive orders on religious liberty have predominantly emerged under the Trump administration, which issued ten of the eleven orders, emphasizing the protection and promotion of faith-based organizations, particularly those aligned with Christian communities. These orders sought to expand the role of religious groups in federal partnerships, safeguard religious speech, and establish dedicated federal offices to support faith initiatives. In contrast, the Obama administration pursued a more limited approach, focusing on foundational principles for partnering with faith-based entities. The differing approaches reflect broader debates over the balance between religious expression and governmental neutrality.",
+      "potential_impact": "These executive actions aimed to benefit faith-based communities by easing restrictions and enhancing federal collaboration, potentially increasing resources for religious organizations serving vulnerable populations such as low-income families and children. However, concerns arose about the potential for religious exemptions to affect access to healthcare and social services, especially for women, LGBTQ+ individuals, and those reliant on ACA marketplace coverage. Observers also noted risks of blurred lines between church and state, potential discrimination by faith-based providers, and challenges in maintaining equitable treatment across diverse religious and non-religious groups.",
+      "generated_at": "2026-06-03T17:56:36.299Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "energy-infrastructure",
       "theme_name": "Energy Infrastructure",
       "order_count": 10,
@@ -2174,27 +2195,6 @@
       "summary": "Executive actions addressing foreign technology threats have centered on mitigating national security risks posed by foreign adversary-controlled applications and supply chains. The Trump administration aggressively targeted platforms like TikTok and WeChat with broad prohibitions and supply chain restrictions, seeking to sever ties with potentially compromised technologies. The Biden administration has continued this focus, emphasizing investment controls and data protection to guard sensitive information. Together, these orders reflect evolving strategies to balance technological innovation with safeguarding critical infrastructure against foreign threats while grappling with complex global interdependencies.",
       "potential_impact": "These orders aim to protect federal agencies, military personnel, and technology workers by enhancing cybersecurity and restricting potentially harmful foreign technology. However, the measures also pose challenges for corporations reliant on international supply chains, potentially disrupting operations and employment. Broader social consequences include restricted access to key communication platforms for Asian American communities, lawful residents, and youth, raising concerns about cultural connections and freedom of expression. The enforcement complexities and economic uncertainties further complicate the landscape for businesses and affected populations.",
       "generated_at": "2025-12-15T08:47:27.910Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "religious-liberty",
-      "theme_name": "Religious Liberty",
-      "order_count": 10,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 9
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive actions on religious liberty have been predominantly shaped during the Trump administration, which issued a majority of the orders aiming to strengthen protections for faith-based organizations and their role in public life. These orders emphasized expanding federal partnerships with religious groups, safeguarding religious speech, and creating institutional bodies within the White House to promote faith-related initiatives. In contrast, the Obama administration took a more measured approach focused on establishing foundational principles for collaboration with faith-based and neighborhood organizations. The differing approaches reflect contrasting visions on the balance between religious freedom and government oversight, highlighting ongoing debates about the role of religion in federal programs and policymaking.",
-      "potential_impact": "The executive orders sought to benefit a range of religious communities, particularly faith-based organizations and Christian groups, while also aiming to assist low-income families through expanded partnerships. However, these policies raised concerns about potential discrimination, especially regarding access to federally funded social services for vulnerable populations. Observers worried that enhanced protections for religious expression might complicate healthcare access, affect nondiscrimination enforcement, and marginalize secular or non-religious groups. Additionally, shifts in federal hiring practices prompted apprehension about impacts on diversity and inclusion for women, LGBTQ+ individuals, and transgender persons, illustrating the complex interplay between religious liberty and equal opportunity.",
-      "generated_at": "2025-12-15T08:47:19.550Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -2516,6 +2516,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "medicaid",
+      "theme_name": "Medicaid",
+      "order_count": 9,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 5
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 4
+        }
+      ],
+      "summary": "Executive actions on Medicaid have reflected evolving strategies to enhance healthcare affordability and access, particularly for vulnerable populations. The Trump administration emphasized price transparency and reducing drug costs by targeting pharmaceutical pricing and fraud, while also realigning vaccine recommendations. In contrast, the Biden administration focused on expanding coverage and reproductive healthcare access, lowering prescription drug expenses, and strengthening family planning services. Both approaches aimed to address systemic challenges in Medicaid and related programs, highlighting tensions between cost containment, access expansion, and regulatory complexity.",
+      "potential_impact": "These orders sought to benefit Medicaid beneficiaries, low-income families, and individuals with chronic illnesses by improving affordability and healthcare access, including reproductive and maternal services. However, concerns arose about unintended burdens on healthcare providers, especially smaller or rural facilities, and the risk of increased administrative costs. Vulnerable groups such as uninsured individuals and veterans might face uneven benefits due to structural and logistical barriers, while efforts to reduce costs raised fears about shifting expenses to providers and potential disparities in service availability across regions.",
+      "generated_at": "2026-06-03T17:56:38.629Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "affordable-care-act-aca",
       "theme_name": "Affordable Care Act (ACA)",
       "order_count": 8,
@@ -2586,27 +2607,6 @@
       "summary": "Executive orders addressing foreign terrorist organizations have predominantly emerged during the Trump administration, reflecting a more aggressive stance toward designating and sanctioning groups such as cartels and Ansar Allah. These orders expanded the scope of terrorism designations to include transnational criminal organizations and specific regional actors, coupled with measures targeting international funding and diplomatic engagement. In contrast, the Obama administration’s solitary order focused on strategic communications abroad to counter extremist narratives. The divergent approaches highlight a shift from soft power and messaging to hardline enforcement and broad sanctions with global implications.",
       "potential_impact": "These executive actions aimed to enhance security for military personnel, law enforcement, and U.S. citizens, particularly those in border and crime-affected communities, by disrupting terrorist and criminal networks. However, they also raised concerns about unintended consequences for vulnerable populations, including foreign nationals, asylum seekers, and specific ethnic and religious groups. Heightened enforcement and broad designations risked stigmatization, civil liberties challenges, and humanitarian disruptions, especially in conflict zones like Yemen and among international aid recipients. The complex interplay of security objectives and diplomatic fallout underscores the delicate balance between counterterrorism and human rights.",
       "generated_at": "2026-02-09T03:32:18.712Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "medicaid",
-      "theme_name": "Medicaid",
-      "order_count": 8,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 4
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 4
-        }
-      ],
-      "summary": "Executive orders addressing Medicaid have reflected divergent approaches to expanding healthcare access and controlling costs. While both the Trump and Biden administrations issued an equal number of orders, their emphases varied: Trump focused on transparency in pricing and fraud reduction to improve market efficiency, whereas Biden prioritized broadening coverage, enhancing reproductive services, and lowering prescription drug costs. These policies collectively sought to balance affordability with quality, addressing systemic challenges in Medicaid and related programs amid evolving healthcare needs.",
-      "potential_impact": "These executive actions aimed to benefit vulnerable groups including Medicaid and Medicare beneficiaries, low-income families, and individuals with chronic illnesses by improving access to affordable care and medications. However, concerns emerged about potential burdens on healthcare providers, especially smaller and rural entities, due to compliance costs and administrative complexities. Additionally, some policies risked uneven access for uninsured individuals and could strain resources in states with limited Medicaid expansion, while legal and logistical hurdles might temper gains for women seeking reproductive services.",
-      "generated_at": "2026-03-23T04:26:24.798Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -2882,6 +2882,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "vaccine-policy",
+      "theme_name": "Vaccine Policy",
+      "order_count": 7,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 5
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "Executive actions on vaccine policy have reflected evolving priorities around public health and workforce management. Early orders emphasized modernizing vaccine production and ensuring broad access, particularly during the COVID-19 pandemic, focusing on federal employees, contractors, and vulnerable populations such as children and seniors. Later directives shifted toward mandating COVID-19 vaccinations for federal workers before some orders moved to relax or revoke those requirements, illustrating a complex balance between public health goals and administrative feasibility amid changing pandemic conditions.",
+      "potential_impact": "These orders aimed to benefit a diverse range of populations, including federal employees, healthcare workers, children, and vulnerable groups like veterans and seniors, by enhancing vaccine access and coverage. However, mandates raised concerns about workforce morale and compliance, particularly among employees with medical or religious objections. Additionally, challenges around equitable distribution, potential overburdening of manufacturing workers, and the risk of uneven protections following mandate rollbacks highlighted tensions between safeguarding public health and addressing the varied needs and rights of affected communities.",
+      "generated_at": "2026-06-03T17:56:41.058Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "workplace-safety-osha",
       "theme_name": "Workplace Safety (OSHA)",
       "order_count": 6,
@@ -2973,27 +2994,6 @@
       "summary": "Executive orders addressing free speech have reflected a complex interplay between safeguarding religious and moral expression and regulating media and technology platforms. The Trump administration prioritized expanding protections for faith-based speech, including specific religious communities, while simultaneously restricting federal influence over content moderation and defunding media outlets perceived as biased. In contrast, the Biden administration’s approach involved targeted sanctions linked to geopolitical concerns that indirectly implicated speech freedoms. These varied strategies reveal ongoing tensions between promoting free expression, preventing censorship, and balancing economic and diplomatic considerations.",
       "potential_impact": "These orders aimed to bolster the rights of religious organizations and certain faith communities, potentially enhancing their ability to express moral or political views without federal interference. However, this emphasis raised concerns about limiting access to healthcare services and uneven enforcement of nonprofit regulations. Meanwhile, restrictions on government engagement with social media and media funding could affect technology workers, journalists, and the public’s access to diverse information, with critics warning of increased platform misuse, economic harm to public broadcasters, and challenges in distinguishing genuine press from politically motivated actors.",
       "generated_at": "2025-12-15T08:48:27.039Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "vaccine-policy",
-      "theme_name": "Vaccine Policy",
-      "order_count": 6,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 4
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 2
-        }
-      ],
-      "summary": "Executive actions on vaccine policy have navigated between advancing vaccine development and managing mandates for federal personnel. Early orders focused on modernizing influenza vaccines and ensuring COVID-19 vaccine access, emphasizing domestic manufacturing and national security. Later directives shifted toward requiring and then easing COVID-19 vaccination mandates among federal employees, reflecting evolving public health priorities and administrative approaches. This progression highlights tensions between rapid vaccine deployment and balancing workforce compliance amid shifting pandemic dynamics.",
-      "potential_impact": "These orders aimed to protect diverse groups including federal workers, military personnel, healthcare providers, and vulnerable populations like seniors and those with chronic illnesses, while also imposing mandates that raised concerns about workforce morale and equity. Manufacturing workers faced increased production demands, and the focus on U.S. citizens' vaccine priority sparked equity debates affecting noncitizen residents. Mandates prompted legal and operational challenges, with potential risks to employee health, retention, and workplace safety as requirements were imposed and later relaxed.",
-      "generated_at": "2025-12-15T08:48:38.202Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4919,5 +4919,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-05-22T15:45:29.624Z"
+  "generated_at": "2026-06-03T17:56:41.059Z"
 }
