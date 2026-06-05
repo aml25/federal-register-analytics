@@ -96,12 +96,12 @@
     {
       "theme_id": "homeland-security",
       "theme_name": "Homeland Security",
-      "order_count": 78,
+      "order_count": 79,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 46
+          "order_count": 47
         },
         {
           "president_id": "barack-obama",
@@ -119,9 +119,9 @@
           "order_count": 1
         }
       ],
-      "summary": "Executive orders on homeland security have evolved to address a broad range of challenges from terrorism and biosecurity to cybersecurity and critical infrastructure protection. Early efforts emphasized strengthening laboratory biosecurity and classified information management, while later administrations expanded focus to include veterans’ mental health, cyber workforce development, and enhanced immigration enforcement. The Trump administration notably intensified border security and trade enforcement measures, reflecting a more restrictive stance, whereas Obama and Biden emphasized interagency coordination and resilience against emerging threats like electromagnetic pulses and infectious diseases. These shifts illustrate how homeland security priorities adapt to changing geopolitical and technological landscapes.",
-      "potential_impact": "These executive orders sought to bolster national defense and public safety, primarily benefiting active military personnel, law enforcement officers, cybersecurity professionals, and veterans by enhancing protective measures and operational capabilities. However, they also raised concerns about imposing burdens on scientific research, private sector compliance, and local law enforcement access to intelligence. Policies targeting immigration and refugee flows risked negatively affecting vulnerable populations, while heightened security protocols sometimes complicated information sharing and transparency, potentially impacting communities and workers involved in critical infrastructure and emergency response.",
-      "generated_at": "2026-04-03T13:57:47.184Z",
+      "summary": "Executive orders addressing homeland security reflect evolving priorities across administrations, balancing national defense, cybersecurity, and public safety with complex operational challenges. Earlier efforts emphasized biosecurity and infrastructure protection, while more recent orders expanded enforcement, tightened immigration controls, and enhanced cybersecurity workforce development. This shift underscores a trend toward aggressive border and counterterrorism measures alongside initiatives to modernize critical infrastructure defense and improve interagency coordination in an increasingly complex threat environment.",
+      "potential_impact": "These orders aimed to bolster protections for military personnel, law enforcement, and cybersecurity professionals, seeking to strengthen national resilience and response capabilities. However, the intensified security measures also raised concerns about administrative burdens on scientific researchers, potential limitations on transparency, and the risk of straining relationships with local authorities. Vulnerable populations, including undocumented immigrants, refugees, and certain minority groups, faced increased restrictions, while businesses and consumers confronted compliance challenges, highlighting tensions between security objectives and civil liberties or economic impacts.",
+      "generated_at": "2026-06-05T15:49:00.768Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -450,17 +450,17 @@
     {
       "theme_id": "cybersecurity-national-security",
       "theme_name": "Cybersecurity (National Security)",
-      "order_count": 33,
+      "order_count": 34,
       "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 14
+        },
         {
           "president_id": "joe-biden",
           "president_name": "Joseph R. Biden Jr.",
           "order_count": 14
-        },
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 13
         },
         {
           "president_id": "barack-obama",
@@ -468,9 +468,9 @@
           "order_count": 6
         }
       ],
-      "summary": "Executive action on national security cybersecurity has evolved through a layered approach emphasizing critical infrastructure protection, workforce development, and supply chain security. Early efforts under Obama sought structural reforms and information sharing to counter malicious cyber activities, while the Trump administration intensified focus on securing federal networks and restricting foreign technology threats. The Biden administration has expanded these priorities by enhancing federal coordination, promoting innovation, and addressing emerging risks like artificial intelligence and foreign adversary-controlled applications. Across administrations, policies have balanced strengthening defenses with complex regulatory and diplomatic challenges.",
-      "potential_impact": "These executive orders aimed to bolster protections for technology and cybersecurity professionals, federal employees, and the broader workforce engaged in safeguarding national digital assets. However, concerns arose about privacy intrusions, increased surveillance, and compliance burdens, especially for federal contractors and clearance holders. Sanctions and restrictions targeting foreign adversaries risk unintended diplomatic fallout and economic disruption, potentially affecting multinational businesses and international students. The interplay of voluntary information sharing and heightened security measures raised fears of data exposure, impacting consumers and vulnerable populations relying on digital services.",
-      "generated_at": "2026-03-23T04:25:40.420Z",
+      "summary": "Executive action on national security cybersecurity has evolved significantly across recent administrations, reflecting shifting priorities in a rapidly changing threat landscape. Early efforts focused on protecting classified networks and critical infrastructure, emphasizing information sharing and sanctioning malicious cyber actors. Later directives expanded to securing supply chains, regulating foreign technologies, and fostering workforce development, while also addressing emerging challenges like artificial intelligence. These orders illustrate a complex balance between enhancing government-private sector collaboration, enforcing economic sanctions, and safeguarding national digital assets amid geopolitical tensions.",
+      "potential_impact": "These executive orders aimed to bolster defenses for technology workers, cybersecurity professionals, and federal personnel while promoting innovation and resilience across critical sectors. However, they also imposed heightened compliance demands on corporations and federal contractors, sometimes raising concerns about privacy, civil liberties, and regulatory burdens. Targeted sanctions and visa restrictions affected foreign nationals and specific countries, potentially complicating diplomatic relations and academic exchanges. Observers noted risks of insider threats, data exposure, and retaliatory cyberattacks, underscoring the delicate interplay between security imperatives and individual rights.",
+      "generated_at": "2026-06-05T15:49:03.465Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -594,6 +594,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "critical-infrastructure-protection",
+      "theme_name": "Critical Infrastructure Protection",
+      "order_count": 28,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 15
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 10
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        }
+      ],
+      "summary": "Executive actions addressing critical infrastructure protection have evolved through a complex interplay of cybersecurity enhancements, energy security, and interagency coordination. Earlier efforts under the Obama administration emphasized improving cybersecurity frameworks and chemical facility safety, while also preparing for climate change impacts. The Trump administration expanded this focus to include electromagnetic pulse resilience, supply chain security, and energy emergency declarations, often linking infrastructure protection with national defense priorities. The Biden administration has pursued supply chain resilience and innovation in cybersecurity, reflecting ongoing concerns about technological threats and systemic vulnerabilities. Across administrations, policies balanced strengthening security protocols with the need for cooperation between government and private sector entities, highlighting the challenge of safeguarding critical systems in an interconnected world.",
+      "potential_impact": "These executive orders aimed to benefit a broad spectrum of workers, including cybersecurity professionals, energy sector employees, and military personnel, by enhancing protections for vital infrastructure. However, the stringent security requirements and expanded information sharing raised concerns about operational burdens on defense and manufacturing sectors, as well as privacy risks for consumers. Small businesses and tribal communities faced potential economic and regulatory challenges, while environmental justice groups worried about transparency and safety near vulnerable populations. The complexity of interagency coordination and clearance processes also risked limiting timely access to critical information for state and local authorities, underscoring tensions between security imperatives and equitable participation.",
+      "generated_at": "2026-06-05T15:49:08.316Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "worker-rights-protections",
       "theme_name": "Worker Rights / Protections",
       "order_count": 27,
@@ -617,32 +643,6 @@
       "summary": "Executive orders addressing worker rights and protections have reflected evolving federal priorities to balance labor empowerment with economic efficiency. Earlier orders under President Obama emphasized strengthening union roles, ensuring fair pay, and safeguarding workers on federal contracts through mechanisms like project labor agreements and paid sick leave. The Trump administration’s actions were more limited but included dispute resolution boards affecting transportation workers. President Biden’s orders revived and expanded protections, focusing on raising wages, enhancing worker organizing, and promoting pay equity, especially among federal contractors, signaling a renewed federal commitment to workforce empowerment within complex economic and procurement frameworks.",
       "potential_impact": "These executive actions primarily aimed to benefit union members, federal contractors, and working-age adults by bolstering labor rights and workplace safety, yet they also introduced challenges for some federal contractors and small business owners facing increased compliance demands. While unionized workers and construction employees stood to gain improved protections, concerns arose over potential job displacement for non-union workers and administrative burdens that might limit contracting opportunities. The interplay of enhanced labor protections with contractor flexibility and small business competitiveness created tensions that could influence labor relations, contract performance, and equitable access to federal economic programs.",
       "generated_at": "2026-02-09T03:31:14.734Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "critical-infrastructure-protection",
-      "theme_name": "Critical Infrastructure Protection",
-      "order_count": 27,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 14
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 10
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 3
-        }
-      ],
-      "summary": "Executive actions on critical infrastructure protection have evolved to address the growing complexity of national security threats, particularly in cybersecurity and energy sectors. The Obama administration laid foundational frameworks emphasizing cybersecurity enhancements and climate resilience, while the Trump administration expanded efforts to secure supply chains, energy reliability, and electromagnetic threats with a stronger focus on defense and industrial coordination. Biden’s approach has centered on resilience and innovation within cybersecurity and supply chain management, reflecting ongoing concerns about emerging technological vulnerabilities and national preparedness.",
-      "potential_impact": "These executive orders aimed to strengthen protections for cybersecurity professionals, energy and defense workers, and military personnel, seeking to enhance national security and infrastructure resilience. However, the increased regulatory and security clearance requirements posed challenges for corporations and small businesses, potentially raising compliance costs and operational burdens. Privacy and data-sharing concerns emerged for consumers, while environmental justice and tribal communities faced risks related to transparency and safety. The complex layering of regulations also risked uneven enforcement and access disparities across local and state entities.",
-      "generated_at": "2026-02-19T03:42:24.503Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -724,6 +724,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "artificial-intelligence",
+      "theme_name": "Artificial Intelligence",
+      "order_count": 25,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 19
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 6
+        }
+      ],
+      "summary": "Executive action on artificial intelligence has evolved through a strong early emphasis on maintaining American leadership, technological innovation, and national security. The Trump administration prioritized bolstering AI research, protecting intellectual property, and expanding workforce training for technology specialists, focusing on infrastructure and defense applications. The Biden administration shifted toward integrating trustworthy AI practices, addressing evolving security risks, and promoting innovation alongside cybersecurity enhancement. Across these efforts, balancing technological advancement with national security concerns and ethical AI deployment has been a persistent theme shaping policy directions.",
+      "potential_impact": "These executive orders aimed to benefit technology workers, researchers, entrepreneurs, and small business owners by fostering a robust AI ecosystem and workforce readiness. However, concerns emerged around potential exclusion of certain groups, such as individuals with disabilities and environmental justice communities, due to insufficient safeguards against bias and privacy risks. Efforts restricting foreign collaboration and prioritizing security raised worries about limiting innovation partnerships and exacerbating geopolitical tensions, while the focus on dominant tech entities risked entrenching disparities among smaller players and vulnerable populations.",
+      "generated_at": "2026-06-05T15:49:11.756Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "civil-rights-enforcement",
       "theme_name": "Civil Rights Enforcement",
       "order_count": 24,
@@ -747,27 +768,6 @@
       "summary": "Executive orders addressing civil rights enforcement reveal divergent presidential priorities and methods in promoting equity and inclusion. While the Obama administration emphasized strengthening partnerships with faith-based organizations and improving advisory structures, the Trump administration issued numerous orders focusing on combating perceived ideological threats and restoring merit-based policies, often targeting educational and law enforcement systems. The Biden administration sought to advance racial equity, expand voting access, and reinforce protections against discrimination based on sex, gender identity, and tribal sovereignty, reflecting a broad effort to modernize civil rights enforcement within federal agencies.",
       "potential_impact": "These executive actions aimed to influence a wide array of communities, from individuals with disabilities and low-income families to Native American tribes and students, seeking to expand protections and resources. However, concerns emerged regarding potential adverse effects on marginalized groups including African Americans, LGBTQ+ individuals, and women, particularly where policies intersected with faith-based initiatives or restrictive educational directives. Observers highlighted risks of uneven implementation, legal challenges, and the tension between religious liberties and nondiscrimination principles, underscoring the complexities of advancing civil rights across diverse populations.",
       "generated_at": "2025-12-15T08:44:31.456Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "artificial-intelligence",
-      "theme_name": "Artificial Intelligence",
-      "order_count": 24,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 18
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 6
-        }
-      ],
-      "summary": "Executive actions on artificial intelligence have evolved from broad strategies to maintain American dominance under the Trump administration to more nuanced approaches under Biden emphasizing security, trustworthiness, and infrastructure. Earlier orders prioritized rapid development, workforce preparation, and export promotion, while recent directives focus on safeguarding sensitive data, addressing national security risks, and fostering responsible AI deployment. The trajectory reflects a shift from assertive competitive positioning toward balancing innovation with ethical considerations and geopolitical complexities.",
-      "potential_impact": "These executive orders aimed to benefit technology workers, researchers, and entrepreneurs by enhancing funding, education, and infrastructure, potentially fostering innovation and economic growth. However, concerns arise that such policies may deepen disparities among working-age adults and smaller businesses, limit international collaboration, and create barriers for underrepresented groups. The emphasis on security and data protection also raised questions about privacy, civil liberties, and the risk of perpetuating biases affecting vulnerable populations, underscoring tensions between advancement and inclusivity.",
-      "generated_at": "2026-03-23T04:25:51.176Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -960,12 +960,12 @@
     {
       "theme_id": "federal-hiring",
       "theme_name": "Federal Hiring",
-      "order_count": 20,
+      "order_count": 21,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 12
+          "order_count": 13
         },
         {
           "president_id": "barack-obama",
@@ -978,9 +978,9 @@
           "order_count": 1
         }
       ],
-      "summary": "Executive actions on federal hiring have reflected evolving priorities around talent acquisition, workforce diversity, and merit-based appointments. Earlier efforts under the Obama administration emphasized expanding opportunities for veterans, individuals with disabilities, and recent graduates through targeted recruitment and ethical commitments. The Trump administration introduced a broader array of orders focusing on restructuring hiring processes, enhancing agency leadership roles, and prioritizing American workers and military spouses. Biden’s contribution continued the trend of leveraging service alumni pathways. These shifts illustrate a balancing act between streamlining hiring, supporting specific groups, and preserving competitive merit principles.",
-      "potential_impact": "The federal hiring orders sought to benefit a wide range of individuals, including federal employees, veterans, students, and technology workers, by opening pathways and strengthening workforce inclusivity. However, concerns arose about the potential narrowing of applicant pools through strict ethics rules and veterans’ preferences, which could slow hiring or limit diversity. Some measures risked marginalizing non-veteran candidates or underemployed veterans whose skills did not match prioritized roles. Additionally, initiatives aimed at disability inclusion and noncompetitive appointments raised questions about fairness, privacy, and consistent implementation, highlighting the challenges in balancing equity with effective government staffing.",
-      "generated_at": "2025-12-15T08:45:03.677Z",
+      "summary": "Federal hiring policies across recent administrations reveal evolving priorities in workforce composition and management. The Obama administration emphasized inclusivity and support for veterans, individuals with disabilities, and students through targeted recruitment and ethical commitments. The Trump administration expanded executive actions to streamline hiring processes, enhance appointments for military spouses and alumni of public service programs, and align hiring with domestic workforce interests, while also introducing exceptions to competitive service rules. Biden’s limited yet focused order continued themes of appointment diversity, signaling ongoing efforts to modernize federal recruitment amid complex ethical and operational challenges.",
+      "potential_impact": "These executive orders aimed to benefit a range of groups including federal employees, veterans, students, and technology professionals by promoting inclusion, streamlined hiring, and workforce optimization. However, concerns arose regarding potential unintended consequences such as slowed hiring processes, perceived unfairness among applicants, and challenges in balancing veterans’ preference with broader workforce diversity. Ethical restrictions and competitive service exceptions also raised worries about limiting candidate pools and inconsistent application, potentially affecting morale, trust, and government effectiveness in attracting and retaining qualified personnel.",
+      "generated_at": "2026-06-05T15:49:14.935Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4919,5 +4919,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-06-03T17:56:41.059Z"
+  "generated_at": "2026-06-05T15:49:14.938Z"
 }

@@ -1,9 +1,37 @@
 {
   "week": "2026-W23",
   "date_range": "June 1–7, 2026",
-  "narrative": "",
-  "orders": [],
-  "top_themes": [],
-  "generated_at": "2026-06-03T17:56:41.191Z",
-  "model_used": ""
+  "narrative": "During the week of June 1–7, 2026, President Donald Trump signed a single executive order, EO 14409, titled Promoting Advanced Artificial Intelligence Innovation and Security. This order focused on advancing artificial intelligence technology while strengthening cybersecurity measures related to national security. It also addressed the protection of critical infrastructure and homeland security concerns, alongside directives to enhance federal hiring practices to support these priorities.",
+  "orders": [
+    {
+      "number": "14409",
+      "title": "Promoting Advanced Artificial Intelligence Innovation and Security",
+      "url": "https://www.federalregister.gov/documents/2026/06/05/2026-11415/promoting-advanced-artificial-intelligence-innovation-and-security",
+      "president_name": "Donald Trump"
+    }
+  ],
+  "top_themes": [
+    {
+      "id": "artificial-intelligence",
+      "name": "Artificial Intelligence"
+    },
+    {
+      "id": "cybersecurity-national-security",
+      "name": "Cybersecurity (National Security)"
+    },
+    {
+      "id": "critical-infrastructure-protection",
+      "name": "Critical Infrastructure Protection"
+    },
+    {
+      "id": "homeland-security",
+      "name": "Homeland Security"
+    },
+    {
+      "id": "federal-hiring",
+      "name": "Federal Hiring"
+    }
+  ],
+  "generated_at": "2026-06-05T15:49:16.704Z",
+  "model_used": "gpt-4.1-mini"
 }
