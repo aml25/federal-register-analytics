@@ -1,0 +1,41 @@
+{
+  "document_number": "2026-11594",
+  "executive_order_number": "14410",
+  "title": "Implementing Schedule Policy/Career in the Excepted Service",
+  "abstract": null,
+  "signing_date": "2026-06-03",
+  "publication_date": "2026-06-10",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11594/implementing-schedule-policycareer-in-the-excepted-service",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11594.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/06/10/2026-11594.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a new personnel category called Schedule Policy/Career within the federal excepted service for certain important policy-related positions. It ensures these employees are hired based on merit, can be more easily removed for poor performance or misconduct, and are properly recognized for outstanding work. The order also updates civil service rules and previous executive orders to implement these changes and directs agencies to transfer appropriate positions into this schedule.",
+    "theme_ids": [
+      "federal-workforce-management",
+      "civil-service-reform",
+      "federal-hiring"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-employees-civil-servants",
+        "veterans"
+      ],
+      "negative_ids": [
+        "federal-employees-civil-servants"
+      ]
+    },
+    "potential_concerns": [
+      "The new Schedule Policy/Career removes certain employees from standard adverse action protections, potentially reducing job security and increasing vulnerability to arbitrary or politically motivated removals among federal employees.",
+      "While the order aims to advance merit-based hiring, the exemption of Schedule Policy/Career positions from competitive service procedures may inadvertently decrease transparency and fairness in hiring and promotions for affected federal civil servants.",
+      "The requirement for agencies to transfer confidential, policy-influencing positions into Schedule Policy/Career could create inconsistencies across agencies about which roles qualify, leading to potential disputes and unequal treatment of employees.",
+      "Veterans employed or seeking employment in federal policy-influencing roles may face challenges if veteran preference is applied only 'as far as administratively feasible,' possibly diluting their hiring and advancement benefits in Schedule Policy/Career positions.",
+      "By increasing the ease of removal for poor performance or misconduct, morale among federal employees in Schedule Policy/Career positions may decline, which could reduce overall effectiveness and willingness of skilled workers to serve in these critical roles."
+    ],
+    "enriched_at": "2026-06-10T16:29:27.214Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

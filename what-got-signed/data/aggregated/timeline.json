@@ -6,7 +6,7 @@
       "quarter_name": "Q2 2026",
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
-      "order_count": 10,
+      "order_count": 12,
       "top_themes": [
         {
           "id": "regulatory-reform-deregulation",
@@ -21,15 +21,15 @@
           "name": "Financial System Regulation"
         },
         {
-          "id": "higher-education",
-          "name": "Higher Education"
+          "id": "homeland-security",
+          "name": "Homeland Security"
         },
         {
-          "id": "mental-health",
-          "name": "Mental Health"
+          "id": "federal-hiring",
+          "name": "Federal Hiring"
         }
       ],
-      "theme_summary": "Donald Trump signed 10 executive orders focused on the themes of regulatory reform / deregulation, federal spending, financial system regulation, and 2 others.",
+      "theme_summary": "Donald Trump signed 12 executive orders focused on the themes of regulatory reform / deregulation, federal spending, financial system regulation, and 2 others.",
       "order_ids": [
         "14400",
         "14401",
@@ -40,7 +40,9 @@
         "14406",
         "14407",
         "14408",
-        "14409"
+        "14409",
+        "14410",
+        "14411"
       ]
     },
     {
@@ -2642,5 +2644,5 @@
       ]
     }
   ],
-  "generated_at": "2026-06-05T15:48:45.750Z"
+  "generated_at": "2026-06-10T16:29:27.400Z"
 }

@@ -1,0 +1,44 @@
+{
+  "document_number": "2026-11595",
+  "executive_order_number": "14411",
+  "title": "Strengthening Customs Enforcement",
+  "abstract": null,
+  "signing_date": "2026-06-03",
+  "publication_date": "2026-06-10",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11595/strengthening-customs-enforcement",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11595.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/06/10/2026-11595.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Department of Homeland Security to strengthen U.S. customs enforcement by tightening rules for importers of record, increasing transparency, enhancing penalties for violations, and improving the process for seizing non-compliant imports. It aims to protect national security, ensure lawful trade, and safeguard the U.S. economy by updating regulations, vetting importers more strictly, and requiring detailed import disclosures.",
+    "theme_ids": [
+      "homeland-security",
+      "border-security",
+      "tariffs-duties",
+      "supply-chain-security",
+      "forced-labor-labor-standards-international"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "small-business-owners",
+        "large-corporation-employees"
+      ],
+      "negative_ids": [
+        "foreign-nationals-general",
+        "corporations-businesses"
+      ]
+    },
+    "potential_concerns": [
+      "Increased bonding and vetting requirements may disproportionately burden small businesses and foreign importers, potentially limiting their ability to participate in U.S. trade under the themes of tariffs-duties and supply-chain-security.",
+      "The prohibition of informal entries by foreign Importers of Record (IORs) could slow import processes and increase costs, negatively impacting foreign nationals and corporations doing business with the U.S.",
+      "Enhanced penalties and stricter enforcement might create compliance challenges and increased legal risks for corporations, especially those with complex international supply chains under the forced-labor-labor-standards-international theme.",
+      "Requirements for detailed import disclosures and beneficial ownership information may raise privacy and commercial confidentiality concerns for corporations and foreign businesses.",
+      "Streamlining seizure and disposal procedures could inadvertently result in increased losses or delays for importers, especially foreign corporations that may find it harder to contest seizures due to jurisdictional challenges."
+    ],
+    "enriched_at": "2026-06-10T16:29:20.528Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

@@ -65,12 +65,12 @@
     {
       "theme_id": "federal-workforce-management",
       "theme_name": "Federal Workforce Management",
-      "order_count": 91,
+      "order_count": 92,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 39
+          "order_count": 40
         },
         {
           "president_id": "barack-obama",
@@ -88,20 +88,20 @@
           "order_count": 2
         }
       ],
-      "summary": "Federal workforce management has evolved through varied presidential approaches emphasizing efficiency, diversity, and security. Earlier administrations focused on succession planning and fitness determinations, while the Obama era prioritized inclusivity, veterans' employment, and pay equity. The Trump administration introduced numerous orders reflecting workforce restructuring and regulatory adjustments, often balancing security and operational concerns. Biden’s orders continued efforts toward diversity and federal employee protections, illustrating a dynamic interplay between maintaining government effectiveness and advancing equitable workforce policies.",
-      "potential_impact": "These executive actions primarily aimed to benefit federal employees, veterans, and military personnel by enhancing employment opportunities, pay adjustments, and inclusion initiatives. However, concerns arose about potential negative effects on certain groups, including federal workers facing stricter scrutiny or workforce reductions, political appointees constrained by ethics rules, and possible inconsistencies in security standards. Observers noted that while efforts sought to improve fairness and efficiency, implementation complexities and broad restrictions risked unintended challenges for workforce morale and diversity.",
-      "generated_at": "2025-12-15T08:43:12.843Z",
+      "summary": "Federal workforce management has evolved through diverse executive approaches, reflecting shifting priorities on efficiency, diversity, and security. Early efforts centered on procedural clarifications like succession orders and fitness determinations, while subsequent administrations expanded focus to ethics commitments, pay adjustments, and inclusion initiatives. The Obama administration notably emphasized diversity and veteran employment, whereas Trump’s numerous orders often revisited workforce standards and security protocols. Biden continued these trends with a moderate volume, aiming to balance innovation with accountability, illustrating how executive orders shape federal employment dynamics amid changing governance philosophies.",
+      "potential_impact": "These executive actions targeted the broad spectrum of federal personnel, including civil servants, veterans, military members, and contractors, aiming to enhance workforce inclusivity, professionalism, and operational integrity. However, measures such as stringent fitness reinvestigations and ethics pledges raised concerns about potential administrative burdens and talent recruitment challenges. Security and fairness issues also emerged around clearance reciprocity and succession rules, while efforts to support women and individuals with disabilities faced structural and cultural barriers, highlighting the complex balance between policy goals and their practical effects on diverse federal employees.",
+      "generated_at": "2026-06-10T16:29:37.597Z",
       "model_used": "gpt-4.1-mini"
     },
     {
       "theme_id": "homeland-security",
       "theme_name": "Homeland Security",
-      "order_count": 79,
+      "order_count": 80,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 47
+          "order_count": 48
         },
         {
           "president_id": "barack-obama",
@@ -119,9 +119,9 @@
           "order_count": 1
         }
       ],
-      "summary": "Executive orders addressing homeland security reflect evolving priorities across administrations, balancing national defense, cybersecurity, and public safety with complex operational challenges. Earlier efforts emphasized biosecurity and infrastructure protection, while more recent orders expanded enforcement, tightened immigration controls, and enhanced cybersecurity workforce development. This shift underscores a trend toward aggressive border and counterterrorism measures alongside initiatives to modernize critical infrastructure defense and improve interagency coordination in an increasingly complex threat environment.",
-      "potential_impact": "These orders aimed to bolster protections for military personnel, law enforcement, and cybersecurity professionals, seeking to strengthen national resilience and response capabilities. However, the intensified security measures also raised concerns about administrative burdens on scientific researchers, potential limitations on transparency, and the risk of straining relationships with local authorities. Vulnerable populations, including undocumented immigrants, refugees, and certain minority groups, faced increased restrictions, while businesses and consumers confronted compliance challenges, highlighting tensions between security objectives and civil liberties or economic impacts.",
-      "generated_at": "2026-06-05T15:49:00.768Z",
+      "summary": "Executive orders on homeland security have evolved to address a broad spectrum of threats and operational needs, reflecting shifting priorities across administrations. While early efforts focused on biosecurity and classified information management, later directives increasingly emphasized cybersecurity, immigration enforcement, and interagency coordination. The Trump era notably expanded the volume of orders, emphasizing border security and trade enforcement alongside cyber resilience, whereas Obama and Biden administrations balanced protective measures with efforts to support veterans and local law enforcement. This progression highlights a complex interplay between safeguarding national security and managing the administrative and operational demands of diverse federal and local actors.",
+      "potential_impact": "These homeland security orders primarily aimed to enhance protections for military personnel, law enforcement officers, cybersecurity professionals, and veterans, while strengthening local government capabilities. However, they also raised concerns about unintended consequences for vulnerable groups such as undocumented immigrants, refugees, and certain minority communities, who faced increased enforcement and restrictions. Additionally, the burden of compliance and security clearances posed challenges for small businesses, technology workers, and scientific researchers, potentially hindering collaboration and timely information sharing critical to national security and public health.",
+      "generated_at": "2026-06-10T16:29:40.238Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -302,6 +302,22 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "tariffs-duties",
+      "theme_name": "Tariffs / Duties",
+      "order_count": 41,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 41
+        }
+      ],
+      "summary": "The use of executive orders to impose tariffs and duties emerged as a central strategy under the Trump administration, aiming to reshape trade relations and address perceived threats to national security and economic interests. These orders targeted imports linked to illicit drug flows, trade imbalances, and critical industries like minerals and manufacturing. By adjusting tariff rates and enforcing stricter duties, the administration sought to protect domestic production and enforce trade laws more aggressively, reflecting a unilateral approach focused on leveraging economic pressure against key trading partners such as China, Canada, and Mexico.",
+      "potential_impact": "These tariff measures were designed to benefit various domestic workforces, including manufacturing and defense industry workers, by fostering a more protected market environment. However, the increased costs associated with tariffs raised concerns about higher prices affecting consumers and small businesses, particularly in border communities reliant on cross-border trade. The policies also posed challenges for law enforcement by complicating cross-border collaboration and potentially exacerbating community tensions. Additionally, some groups, including Hispanic and Latino populations, faced heightened social and economic pressures linked to the orders’ framing of immigration and drug enforcement.",
+      "generated_at": "2026-06-10T16:29:42.830Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "presidential-commissions-task-forces",
       "theme_name": "Presidential Commissions / Task Forces",
       "order_count": 40,
@@ -325,22 +341,6 @@
       "summary": "Executive orders establishing presidential commissions and task forces have served as tools for administrations to address complex policy challenges through focused interagency collaboration. While Obama’s orders often emphasized ethical standards, mental health access, and election administration, Trump’s prolific use of such orders targeted crime reduction, veterans’ empowerment, and regulatory reform, reflecting a broader agenda of institutional review. Biden’s more limited but strategic commissions have sought to tackle Supreme Court reform and worker empowerment, illustrating varied presidential approaches to problem-solving through advisory bodies and task forces.",
       "potential_impact": "These executive actions aimed to benefit diverse groups including veterans, military personnel, healthcare workers, and Hispanic Americans by addressing health, public safety, and representation concerns. However, some orders raised apprehensions about negative effects on undocumented immigrants, small business owners, and minority communities, due to enforcement or regulatory shifts. Observers also noted potential challenges around transparency, stakeholder inclusion, and the balancing of security interests with human rights, highlighting the delicate impact such commissions can have on vulnerable populations and broader civil rights.",
       "generated_at": "2026-03-23T04:25:33.227Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "tariffs-duties",
-      "theme_name": "Tariffs / Duties",
-      "order_count": 40,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 40
-        }
-      ],
-      "summary": "The Trump administration's exclusive use of executive orders to impose tariffs and duties reflected a strategy focused on protecting domestic industries, particularly manufacturing and defense, by targeting imports deemed threats to national security or economic stability. These orders addressed illicit drug flows, trade imbalances, and supply chain vulnerabilities, often employing reciprocal tariffs and amendments to enforce stricter trade measures. The approach sought to leverage economic pressure against trading partners like China, Canada, and Mexico, emphasizing enforcement and national security while reshaping trade relationships through aggressive tariff policies.",
-      "potential_impact": "These tariff-focused orders aimed to bolster workers in manufacturing, defense, and small businesses, yet they risked raising costs for consumers and some businesses reliant on imports. Border communities and law enforcement faced operational challenges amid heightened enforcement and potential trade retaliation, while increased prices threatened to strain local economies. Concerns emerged about disproportionate burdens on small businesses and vulnerable populations, including Hispanic and Latino communities, as economic pressures and social tensions could intensify due to associations between tariffs, border security, and immigration enforcement.",
-      "generated_at": "2026-03-23T04:25:36.967Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -554,12 +554,12 @@
     {
       "theme_id": "border-security",
       "theme_name": "Border Security",
-      "order_count": 29,
+      "order_count": 30,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 28
+          "order_count": 29
         },
         {
           "president_id": "barack-obama",
@@ -567,9 +567,9 @@
           "order_count": 1
         }
       ],
-      "summary": "Border security executive orders have been overwhelmingly shaped by the Trump administration’s aggressive approach, focusing on tightening immigration enforcement, enhancing border infrastructure, and designating criminal organizations as terrorist entities. These orders aimed to secure the nation’s territorial integrity and disrupt illicit cross-border activities, often through regulatory rollbacks and expedited processes. In contrast, the limited Obama-era order targeted workforce appointments within the foreign service, reflecting a more administrative focus. The Trump-era policies marked a significant shift toward enforcement and control, emphasizing national security and border management.",
-      "potential_impact": "These executive actions were designed to affect a broad spectrum of groups, including border communities and law enforcement personnel, by promising increased security and streamlined operations. However, they also raised concerns about adverse effects on undocumented immigrants, asylum seekers, and refugees through tightened restrictions and reduced protections. Additionally, Hispanic and Latino populations faced heightened scrutiny amid enforcement expansions, while small businesses and certain local communities worried about economic and environmental disruptions linked to infrastructure and regulatory changes. Observers highlighted potential risks of racial profiling and diminished civil liberties alongside the pursuit of border security.",
-      "generated_at": "2026-03-23T04:25:48.615Z",
+      "summary": "Executive actions on border security have largely been shaped by a sharp shift in priorities between administrations. While the Obama administration issued a single order focused on competitive hiring in the Foreign Service, the Trump administration pursued an aggressive agenda with 29 executive orders emphasizing enforcement, infrastructure expansion, and designation of criminal organizations. These orders sought to streamline border crossing permits, bolster military and law enforcement roles, and impose tariffs to address illicit cross-border activities. The approach reflected a prioritization of national security and economic protectionism, often at the expense of environmental reviews and previous diversity initiatives.",
+      "potential_impact": "These executive orders aimed to benefit border communities, federal and local law enforcement, and U.S. citizens by enhancing security and facilitating trade infrastructure. However, the measures also posed challenges for undocumented immigrants, asylum seekers, and refugees through tightened enforcement and restricted immigration pathways. Hispanic and Latino populations, as well as small business owners and consumers, faced potential negative effects from increased scrutiny and regulatory shifts. Concerns arose about impacts on environmental justice communities, as rapid permit approvals risked increased pollution and disruption, while designations of criminal organizations raised civil liberties questions for minority groups in border areas.",
+      "generated_at": "2026-06-10T16:29:46.436Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -901,6 +901,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "federal-hiring",
+      "theme_name": "Federal Hiring",
+      "order_count": 22,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 14
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 7
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "Federal hiring policies have evolved across administrations to balance merit, diversity, and efficiency within the civil service. The Obama administration emphasized expanding opportunities for veterans, individuals with disabilities, and recent graduates through targeted recruitment and ethical commitments. The Trump administration focused heavily on reforming federal hiring processes, enhancing exceptions to competitive service rules, and aligning hiring with American worker interests, often increasing noncompetitive appointments. The Biden administration continued to support competitive service appointments with an emphasis on public service pathways, reflecting ongoing efforts to restore merit and inclusivity amid complex workforce challenges.",
+      "potential_impact": "These executive orders aimed to benefit a broad array of federal employees, veterans, and young professionals by streamlining hiring and promoting inclusivity for individuals with disabilities and those transitioning from military service. However, concerns arose about potential disadvantages for non-veteran applicants, inconsistent application of hiring exceptions, and perceptions of preferential treatment. Questions about ethics restrictions and revolving door bans highlighted tensions between maintaining integrity and attracting experienced talent, while privacy and fairness issues underscored the challenges of balancing diversity goals with workforce cohesion.",
+      "generated_at": "2026-06-10T16:29:50.647Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "government-reorganization",
       "theme_name": "Government Reorganization",
       "order_count": 21,
@@ -955,32 +981,6 @@
       "summary": "Executive orders addressing counterterrorism have evolved to balance national security priorities with complex diplomatic and human rights considerations. Early efforts under George W. Bush established support frameworks for conflict zones like Afghanistan, while the Obama administration emphasized detainee policy reforms, transparency, and strategic communications. The Trump administration intensified sanctions, travel restrictions, and designations of foreign terrorist organizations, reflecting a more aggressive posture. Biden’s recent orders have focused on transparency and safeguarding intelligence activities, signaling a cautious recalibration. Across administrations, these orders reveal an ongoing tension between security imperatives and adherence to legal and ethical standards.",
       "potential_impact": "These executive actions aimed to protect U.S. citizens and military personnel while addressing threats from foreign nationals and specific countries. However, they also raised concerns about adverse effects on detainees, refugees, and Muslim communities, potentially exacerbating vulnerabilities and fueling perceptions of discrimination. The complexity of counterterrorism policies has implications for international aid recipients, diplomatic relations, and human rights, with critics highlighting risks of prolonged detention without due process, limited transparency, and challenges in balancing security with civil liberties.",
       "generated_at": "2026-02-09T03:31:26.802Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "federal-hiring",
-      "theme_name": "Federal Hiring",
-      "order_count": 21,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 13
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 7
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "summary": "Federal hiring policies across recent administrations reveal evolving priorities in workforce composition and management. The Obama administration emphasized inclusivity and support for veterans, individuals with disabilities, and students through targeted recruitment and ethical commitments. The Trump administration expanded executive actions to streamline hiring processes, enhance appointments for military spouses and alumni of public service programs, and align hiring with domestic workforce interests, while also introducing exceptions to competitive service rules. Biden’s limited yet focused order continued themes of appointment diversity, signaling ongoing efforts to modernize federal recruitment amid complex ethical and operational challenges.",
-      "potential_impact": "These executive orders aimed to benefit a range of groups including federal employees, veterans, students, and technology professionals by promoting inclusion, streamlined hiring, and workforce optimization. However, concerns arose regarding potential unintended consequences such as slowed hiring processes, perceived unfairness among applicants, and challenges in balancing veterans’ preference with broader workforce diversity. Ethical restrictions and competitive service exceptions also raised worries about limiting candidate pools and inconsistent application, potentially affecting morale, trust, and government effectiveness in attracting and retaining qualified personnel.",
-      "generated_at": "2026-06-05T15:49:14.935Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1370,6 +1370,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "supply-chain-security",
+      "theme_name": "Supply Chain Security",
+      "order_count": 16,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 12
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive orders addressing supply chain security have evolved from foundational sustainability efforts under Obama to a Trump-era focus on bolstering domestic manufacturing, defense industries, and critical mineral supply chains through aggressive regulatory and enforcement measures. Biden's approach builds on this foundation, emphasizing resilience, cybersecurity, and systemic vulnerabilities exposed by global disruptions. Across administrations, policies have sought to reduce dependence on foreign sources while enhancing national security, reflecting shifting geopolitical and economic priorities tied to technology, manufacturing, and critical resource sectors.",
+      "potential_impact": "These orders aimed to benefit manufacturing and defense industry workers by promoting domestic production and supply chain resilience, while also supporting renewable energy sectors and small businesses involved in critical inputs. However, concerns emerged about potential adverse effects on large corporations and technology sector employees facing heightened regulatory scrutiny, as well as energy workers in fossil fuel industries confronting economic transitions. The complex demands of compliance and rapid workforce adaptation posed challenges for union members and working-age adults, with ripple effects felt among consumers, tribal communities, and federal contractors navigating evolving standards.",
+      "generated_at": "2026-06-10T16:29:55.091Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "crime-reduction",
       "theme_name": "Crime Reduction",
       "order_count": 15,
@@ -1393,32 +1419,6 @@
       "summary": "Executive action on crime reduction has evolved through contrasting approaches that reflect differing priorities and strategies. Early efforts emphasized reform and building trust between law enforcement and communities, as seen in initiatives to modernize policing practices. Subsequent actions, particularly under one administration, prioritized aggressive crime reduction through expanded law enforcement powers and public safety task forces, often focusing on urban centers and reentry programs. More recent orders have sought to address specific issues such as gun violence, indigenous safety, and school security, blending enforcement with targeted protective measures. This progression highlights a complex balancing act between enhancing public safety and addressing systemic challenges in criminal justice.",
       "potential_impact": "These executive orders aimed to benefit a broad spectrum of groups, including law enforcement officers at various levels, crime victims, and urban communities facing heightened crime rates. However, concerns arose about potential negative consequences for marginalized populations such as undocumented immigrants, low-income families, and certain racial and ethnic groups, who could face increased policing and surveillance. Observers noted risks of over-policing, civil rights infringements, and inadequate support for mental health needs, suggesting that while the policies sought to enhance safety, they also carried the possibility of deepening distrust and systemic inequities in affected communities.",
       "generated_at": "2025-12-15T08:45:50.815Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "supply-chain-security",
-      "theme_name": "Supply Chain Security",
-      "order_count": 15,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 11
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 3
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive actions on supply chain security have evolved from a singular focus on federal sustainability under Obama to a robust emphasis on domestic manufacturing and national defense resiliency during the Trump administration, which issued the majority of orders targeting vulnerabilities in critical minerals, pharmaceuticals, and information technology. The Biden administration has sought to integrate cybersecurity and supply chain resilience within a broader strategy, balancing national security with economic stability. Collectively, these orders underscore a growing bipartisan recognition of supply chain vulnerabilities as central to national security and economic sovereignty.",
-      "potential_impact": "These executive orders primarily aimed to bolster manufacturing and defense industry workforces, military readiness, and small businesses by fostering domestic production and mitigating foreign dependencies. However, concerns arise over potential burdens on energy-sector workers amid shifts away from fossil fuels, increased compliance costs for federal contractors, and challenges faced by technology and large corporations navigating new restrictions. Additionally, workforce pressures to upskill and possible disruptions in supply chain operations highlight the complex trade-offs involved in enhancing supply chain security.",
-      "generated_at": "2025-12-15T08:45:54.579Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1880,6 +1880,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "civil-service-reform",
+      "theme_name": "Civil Service Reform",
+      "order_count": 12,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 9
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 2
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "Civil service reform through executive orders has reflected divergent priorities across recent administrations, with a strong emphasis on reshaping federal hiring and accountability mechanisms. The Trump administration notably pursued expansive reforms aimed at streamlining removal procedures, expanding excepted service categories, and increasing agency discretion in hiring and firing, often prioritizing performance and accountability. In contrast, Obama’s orders focused more on recruitment and career pathways for students and veterans, while Biden’s limited actions sought to revoke some prior policies. These varying approaches highlight ongoing tensions between merit-based hiring, workforce flexibility, and administrative control within the federal civil service.",
+      "potential_impact": "These executive actions were designed to affect a broad array of stakeholders within the federal workforce, including civil servants, veterans, and young professionals seeking federal employment. While some orders aimed to enhance career opportunities and accountability, concerns arose about potential reductions in job security, due process, and fairness—especially for federal employees facing expedited removal or changes to hiring transparency. Labor unions and marginalized groups also faced challenges, as reforms sometimes limited collective bargaining rights and risked undermining equitable access to federal jobs, fueling debates over workforce morale and inclusivity.",
+      "generated_at": "2026-06-10T16:29:58.251Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "visa-policy",
       "theme_name": "Visa Policy",
       "order_count": 11,
@@ -1950,32 +1976,6 @@
       "summary": "Executive actions addressing foreign election interference have evolved significantly over recent administrations, reflecting growing concerns about cybersecurity and geopolitical stability. Early efforts under Obama began targeting cyber-enabled threats, while the Trump administration aggressively expanded sanctions and restrictions aimed at deterring foreign meddling through economic pressure and legal accountability. The Biden administration continued this trajectory, emphasizing targeted sanctions and intelligence safeguards against malign foreign influence. These orders collectively underscore a strategic balance between protecting electoral integrity and managing complex international relations amid an increasingly digital and interconnected threat landscape.",
       "potential_impact": "These executive orders primarily aim to shield U.S. citizens and democratic processes from foreign manipulation, while imposing constraints on foreign individuals, governments, and businesses deemed responsible for interference. However, the broad scope of sanctions and travel restrictions raises concerns about unintended consequences, including economic disruptions affecting corporations, workers, and lawful residents with international ties. Observers highlight risks of diplomatic strain, potential overreach in designations, and challenges for cybersecurity professionals navigating privacy and security tensions, all of which complicate the delicate effort to secure elections without undermining global cooperation or individual rights.",
       "generated_at": "2025-12-15T08:47:02.038Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "civil-service-reform",
-      "theme_name": "Civil Service Reform",
-      "order_count": 11,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 8
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 2
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "summary": "Civil service reform through executive orders has reflected shifting priorities in federal workforce management, with a notable surge under the Trump administration emphasizing streamlined hiring, increased agency discretion, and expedited removal processes intended to enhance accountability. Earlier efforts under Obama focused on recruiting youth and veterans through structured pathways, while Biden’s limited action sought to roll back some contentious policies. These orders collectively reveal tensions between promoting merit-based hiring and embracing flexibility, often balancing efficiency against traditional protections within the federal civil service.",
-      "potential_impact": "The executive actions aimed to benefit federal employees, veterans, and young applicants by facilitating recruitment and career progression, yet they also raised concerns about reduced job security, diminished due process, and potential erosion of workforce diversity. Changes to hiring and removal procedures risked undermining union protections and could exacerbate disparities among marginalized groups, while exceptions for certain roles like administrative law judges introduced fears of politicization and inconsistent standards, highlighting the complex stakes for federal workers and institutional integrity.",
-      "generated_at": "2025-12-15T08:46:51.787Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4919,5 +4919,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-06-05T15:49:14.938Z"
+  "generated_at": "2026-06-10T16:29:58.252Z"
 }
