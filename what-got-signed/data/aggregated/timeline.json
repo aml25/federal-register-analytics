@@ -6,11 +6,15 @@
       "quarter_name": "Q2 2026",
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
-      "order_count": 12,
+      "order_count": 14,
       "top_themes": [
         {
           "id": "regulatory-reform-deregulation",
           "name": "Regulatory Reform / Deregulation"
+        },
+        {
+          "id": "homeland-security",
+          "name": "Homeland Security"
         },
         {
           "id": "federal-spending",
@@ -21,15 +25,11 @@
           "name": "Financial System Regulation"
         },
         {
-          "id": "homeland-security",
-          "name": "Homeland Security"
-        },
-        {
-          "id": "federal-hiring",
-          "name": "Federal Hiring"
+          "id": "cybersecurity-national-security",
+          "name": "Cybersecurity (National Security)"
         }
       ],
-      "theme_summary": "Donald Trump signed 12 executive orders focused on the themes of regulatory reform / deregulation, federal spending, financial system regulation, and 2 others.",
+      "theme_summary": "Donald Trump signed 14 executive orders focused on the themes of regulatory reform / deregulation, homeland security, federal spending, and 2 others.",
       "order_ids": [
         "14400",
         "14401",
@@ -42,7 +42,9 @@
         "14408",
         "14409",
         "14410",
-        "14411"
+        "14411",
+        "14412",
+        "14413"
       ]
     },
     {
@@ -2644,5 +2646,5 @@
       ]
     }
   ],
-  "generated_at": "2026-06-10T16:29:27.400Z"
+  "generated_at": "2026-06-25T15:37:19.347Z"
 }

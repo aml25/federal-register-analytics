@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 12
+          "order_count": 14
         }
       ],
-      "total_order_count": 12,
-      "summary": "In the second quarter of 2026, President Trump focused on streamlining federal operations and financial regulations while addressing national security concerns. His twelve executive orders emphasized deregulation, financial system reform, and homeland security, reflecting a desire to enhance efficiency and protect national interests. Efforts to accelerate medical treatments for serious mental illness and reform federal hiring highlighted a drive to modernize government services. Meanwhile, policies targeting prescription drug pricing and veterans’ healthcare sought to improve public health and support key populations, even as actions imposing sanctions and strengthening customs enforcement signaled a robust stance on security and foreign policy.",
-      "potential_impact": "These executive orders aimed to benefit small business owners, veterans, financial services workers, and rural communities by fostering a more business-friendly environment and improving healthcare access. However, concerns arose about potential adverse effects on educational institutions and college athletes due to stricter regulations on pay-for-play schemes, which might limit student-athletes’ opportunities. The rapid push for psychedelic drug approvals raised safety questions for individuals with mental health conditions and could challenge state governments’ capacity to manage new programs. Additionally, sanctions and enforcement measures targeted foreign nationals and specific countries, potentially affecting diplomatic relations and immigrant communities.",
-      "generated_at": "2026-06-10T16:29:34.420Z",
+      "total_order_count": 14,
+      "summary": "In the second quarter of 2026, President Donald Trump’s executive orders reflected a multifaceted approach to national priorities, emphasizing regulatory reform and national security. Three orders targeted deregulation efforts aimed at streamlining federal processes and enhancing economic efficiency, while homeland security remained a strong focus with measures to bolster customs enforcement and counter advanced cryptographic threats. Financial system regulation and cybersecurity featured prominently, underscoring an intent to modernize and protect critical infrastructure. Additionally, the administration sought to advance emerging technologies like artificial intelligence and quantum computing, as well as address mental health and higher education concerns, signaling a blend of traditional security priorities with forward-looking innovation and social policy initiatives.",
+      "potential_impact": "These executive actions aimed to benefit a diverse array of populations, including small business owners and veterans, by improving federal hiring practices and expanding access to retirement savings. Technology and financial services workers stood to gain from innovation-driven policies, while rural communities and college students were also targeted for positive impact. However, concerns arose about potential negative effects on federal contractors, corporations, and educational institutions facing new compliance burdens. Restrictions tied to sports regulations risked limiting opportunities for student-athletes and women in less prominent sports. Moreover, rapid shifts in mental health treatment approaches raised questions about safety and equitable access, particularly for vulnerable individuals and veterans, highlighting tensions between innovation and caution.",
+      "generated_at": "2026-06-25T15:37:28.473Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -997,5 +997,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-06-10T16:29:34.420Z"
+  "generated_at": "2026-06-25T15:37:28.473Z"
 }

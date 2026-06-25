@@ -1,0 +1,44 @@
+{
+  "document_number": "2026-12910",
+  "executive_order_number": "14413",
+  "title": "Ushering in the Next Frontier of Quantum Innovation",
+  "abstract": null,
+  "signing_date": "2026-06-22",
+  "publication_date": "2026-06-25",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/06/25/2026-12910/ushering-in-the-next-frontier-of-quantum-innovation",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-25/pdf/2026-12910.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/06/25/2026-12910.txt",
+  "enrichment": {
+    "summary": "This executive order directs the U.S. government to advance the development and deployment of quantum information science and technology (QIST) to maintain American leadership in quantum computing, sensing, and networking. It establishes new initiatives to support quantum research, protect sensitive technologies, encourage domestic supply chains, expand the quantum workforce, and engage internationally with allies to secure quantum innovation and national security.",
+    "theme_ids": [
+      "quantum-computing-quantum-technology",
+      "national-security-information-classification",
+      "defense-industrial-base",
+      "workforce-development",
+      "trade-policy-agreements"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "technology-workers",
+        "scientific-researchers",
+        "defense-industry-workers",
+        "working-age-adults"
+      ],
+      "negative_ids": [
+        "security-clearance-holders"
+      ]
+    },
+    "potential_concerns": [
+      "The increased focus on protecting sensitive quantum technologies (national-security-information-classification) may impose restrictive security measures that limit the research freedom and information sharing of technology workers and scientific researchers.",
+      "Strengthening domestic quantum supply chains and prioritizing U.S.-based manufacturing could disadvantage foreign quantum technology companies and potentially reduce collaboration opportunities affecting scientific researchers.",
+      "The emphasis on national security applications and readiness (defense-industrial-base) may heighten burdens on security-clearance-holders with new compliance requirements and potentially delay commercialization efforts.",
+      "Efforts to rapidly expand and retain the quantum workforce might overlook equitable access for underrepresented demographic groups within working-age adults in technology sectors, potentially exacerbating existing workforce disparities."
+    ],
+    "enriched_at": "2026-06-25T15:36:54.915Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
