@@ -1,55 +1,9 @@
 {
-  "week": "2026-W26",
-  "date_range": "June 22–28, 2026",
-  "narrative": "During the week of June 22–28, 2026, President Donald Trump signed two executive orders focused on advancing quantum technology and bolstering national security. EO 14412 addressed cybersecurity by securing the nation against advanced cryptographic attacks, while EO 14413 aimed to usher in the next frontier of quantum innovation, emphasizing critical infrastructure protection, homeland security, government IT modernization, and workforce development within the defense industrial base.",
-  "orders": [
-    {
-      "number": "14412",
-      "title": "Securing the Nation Against Advanced Cryptographic Attacks",
-      "url": "https://www.federalregister.gov/documents/2026/06/25/2026-12909/securing-the-nation-against-advanced-cryptographic-attacks",
-      "president_name": "Donald Trump"
-    },
-    {
-      "number": "14413",
-      "title": "Ushering in the Next Frontier of Quantum Innovation",
-      "url": "https://www.federalregister.gov/documents/2026/06/25/2026-12910/ushering-in-the-next-frontier-of-quantum-innovation",
-      "president_name": "Donald Trump"
-    }
-  ],
-  "top_themes": [
-    {
-      "id": "quantum-computing-quantum-technology",
-      "name": "Quantum Computing / Quantum Technology"
-    },
-    {
-      "id": "cybersecurity-national-security",
-      "name": "Cybersecurity (National Security)"
-    },
-    {
-      "id": "critical-infrastructure-protection",
-      "name": "Critical Infrastructure Protection"
-    },
-    {
-      "id": "homeland-security",
-      "name": "Homeland Security"
-    },
-    {
-      "id": "government-it-modernization",
-      "name": "Government IT Modernization"
-    },
-    {
-      "id": "national-security-information-classification",
-      "name": "National Security Information / Classification"
-    },
-    {
-      "id": "defense-industrial-base",
-      "name": "Defense Industrial Base"
-    },
-    {
-      "id": "workforce-development",
-      "name": "Workforce Development"
-    }
-  ],
-  "generated_at": "2026-06-25T15:39:30.359Z",
-  "model_used": "gpt-4.1-mini"
+  "week": "2026-W27",
+  "date_range": "June 29 – July 5, 2026",
+  "narrative": "",
+  "orders": [],
+  "top_themes": [],
+  "generated_at": "2026-06-29T16:33:20.445Z",
+  "model_used": ""
 }
