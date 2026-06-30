@@ -849,6 +849,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "environmental-regulation",
+      "theme_name": "Environmental Regulation",
+      "order_count": 23,
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 11
+        },
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 9
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        }
+      ],
+      "summary": "Executive actions on environmental regulation have reflected shifting priorities across administrations, balancing ecological restoration with economic interests. The Obama administration emphasized habitat protection, climate resilience, and chemical safety, aiming to address broad environmental concerns through targeted restoration efforts. In contrast, the Trump administration prioritized deregulation and energy infrastructure expansion, seeking economic growth by easing regulatory constraints. The Biden administration has begun to reassert a focus on environmental justice and clean energy leadership, signaling a renewed commitment to integrating equity with sustainability in federal environmental policy.",
+      "potential_impact": "These executive orders aimed to benefit diverse groups including environmental justice communities, tribal nations, and rural populations by promoting ecosystem restoration and sustainable practices. However, concerns arose over potential negative effects on small businesses, agricultural workers, and traditional energy sector employees facing new regulatory demands or market shifts. The complex interplay of federal mandates and local economies raised worries about equitable implementation, community engagement, and balancing environmental goals with the livelihoods of those dependent on natural resources or energy industries.",
+      "generated_at": "2026-06-30T15:23:14.762Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "climate-change-policy",
       "theme_name": "Climate Change Policy",
       "order_count": 22,
@@ -872,32 +898,6 @@
       "summary": "Executive actions on climate change policy have varied notably across recent administrations, reflecting evolving priorities and approaches. The Obama presidency laid a foundation emphasizing federal sustainability, climate resilience, and coordinated environmental protection efforts, often integrating economic and ecological goals. The Trump administration issued fewer orders, focusing on selective initiatives like tree planting while also rolling back some prior commitments. In contrast, the Biden administration advanced comprehensive strategies to bolster clean energy industries, address environmental justice, and implement climate-related financial risk management, signaling a renewed commitment to systemic climate solutions and equitable outcomes.",
       "potential_impact": "These executive orders aimed to benefit a broad spectrum of communities, particularly environmental justice and tribal populations, renewable energy workers, and rural and coastal residents facing climate vulnerabilities. However, the shift toward sustainability and regulatory measures raised concerns about the economic and operational impacts on energy sector workers tied to fossil fuels, small business owners navigating compliance costs, and agricultural communities adjusting to stricter environmental standards. Observers highlighted the delicate balance required to support vulnerable populations while managing transitions that could disrupt longstanding livelihoods and regional economies.",
       "generated_at": "2025-12-15T08:44:46.583Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "environmental-regulation",
-      "theme_name": "Environmental Regulation",
-      "order_count": 22,
-      "presidents": [
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 11
-        },
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 8
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 3
-        }
-      ],
-      "summary": "Executive orders on environmental regulation reveal divergent presidential priorities balancing ecological restoration with economic growth. The Obama administration emphasized comprehensive ecosystem protection and climate resilience, targeting restoration efforts in sensitive regions like the Chesapeake Bay and Gulf Coast while advancing federal sustainability leadership. The Trump administration pivoted toward deregulation and energy independence, seeking to relax rules perceived as burdensome to industry and accelerate infrastructure development. The Biden administration’s more recent actions aim to renew commitments to environmental justice and clean energy leadership, signaling a focus on equitable transitions and federal fleet decarbonization, highlighting evolving approaches to environmental stewardship amid competing economic interests.",
-      "potential_impact": "These executive orders sought to benefit a wide array of communities, including environmental justice populations, tribal nations, and coastal and rural areas reliant on natural resources. While restoration and sustainability initiatives promised improved ecological health and economic opportunities for renewable energy workers, concerns emerged over regulatory burdens on small businesses, agricultural workers, and traditional energy sector employees. Potential disruptions to fisheries, infrastructure projects, and tribal cultural sites underscored the complexities in balancing environmental goals with local livelihoods, illustrating the challenge of equitable implementation across diverse stakeholders.",
-      "generated_at": "2026-03-23T04:25:54.176Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -2099,6 +2099,58 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "agricultural-policy",
+      "theme_name": "Agricultural Policy",
+      "order_count": 11,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 6
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 3
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "Executive orders addressing agricultural policy have evolved through varied presidential priorities, balancing environmental stewardship with economic growth. The Obama administration emphasized ecosystem restoration and rural development, focusing on sustainable practices and invasive species management. Trump's orders leaned toward promoting agricultural prosperity and trade adjustments, with increasing attention to national defense needs related to agriculture inputs. The Biden administration sought to enhance competition and streamline USDA leadership. Together, these actions reflect ongoing tensions between advancing agricultural productivity, protecting natural resources, and managing trade and regulatory frameworks.",
+      "potential_impact": "These orders primarily aimed to support agricultural workers, farmers, and small business owners within rural and environmental justice communities, while also touching tribal and military populations. However, concerns arose about the potential burdens of stricter environmental regulations on livelihoods, uneven distribution of federal resources, and complexities from interagency coordination. Regulatory reforms raised fears about weakening protections that could jeopardize food safety and rural economies. Vulnerable groups, including coastal and indigenous communities, faced risks of displacement or limited influence over policy implementation.",
+      "generated_at": "2026-06-30T15:23:18.046Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "rural-development",
+      "theme_name": "Rural Development",
+      "order_count": 11,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 6
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 2
+        }
+      ],
+      "summary": "Executive actions on rural development have sought to enhance economic vitality, infrastructure, and resource management within rural America, reflecting distinct priorities across administrations. Obama’s early focus on coordination through councils aimed to unify federal efforts, while Trump emphasized active land management, agricultural modernization, and resource infrastructure, often blending deregulation with innovation. Biden’s orders continued to support rural economies and forests, with attention to community revival and departmental succession. The interplay of environmental stewardship, economic growth, and interagency collaboration reveals ongoing challenges in balancing diverse rural needs and sustainable development.",
+      "potential_impact": "These executive orders primarily targeted rural communities, including farmers, tribal populations, and small business owners, aiming to boost economic opportunity and infrastructure access. However, concerns emerged about bureaucratic complexity potentially diluting support for marginalized or low-income groups. Efforts to deregulate and intensify land use raised fears of environmental harm, particularly for environmental justice and tribal communities. Additionally, disparities in resource access risked widening inequalities within rural areas, underscoring tensions between broad federal coordination and the autonomy of vulnerable populations.",
+      "generated_at": "2026-06-30T15:23:21.291Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "energy-infrastructure",
       "theme_name": "Energy Infrastructure",
       "order_count": 10,
@@ -2320,58 +2372,6 @@
       "summary": "Executive actions related to Russia have evolved significantly from the Obama through Biden administrations, reflecting shifting geopolitical tensions and strategic priorities. Obama's singular order ended a nuclear nonproliferation emergency, signaling a move toward easing Cold War-era restrictions. In contrast, Biden’s seven orders intensify economic sanctions targeting Russian entities, energy exports, and investments to counter aggression, underscoring a policy of containment and deterrence. The Trump administration’s two orders focused on addressing perceived threats through tariff adjustments and trade restrictions, revealing a blend of economic and security concerns. Together, these actions illustrate a trajectory from cautious engagement to robust punitive measures aiming to influence Russia’s international behavior.",
       "potential_impact": "These executive orders aimed to protect U.S. national security and sovereignty while supporting sectors vulnerable to Russian influence, such as energy workers and military personnel. However, sanctions and restrictions often carried repercussions for U.S. businesses and international relations, with corporations and investors facing potential financial losses and operational challenges. Travel and visa limitations complicated diplomatic ties and personal connections for lawful residents and naturalized citizens tied to Russia. Observers raised concerns about unintended disruptions to global energy markets, supply chains, and the risk of retaliatory measures that could ripple through technology, finance, and broader economic sectors.",
       "generated_at": "2026-02-19T03:42:37.305Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "agricultural-policy",
-      "theme_name": "Agricultural Policy",
-      "order_count": 10,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 5
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 3
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 2
-        }
-      ],
-      "summary": "Executive actions on agricultural policy reveal evolving priorities across administrations, balancing environmental stewardship with economic growth. The Obama administration emphasized restoration and rural development through initiatives like Chesapeake Bay protection and rural council formation, aiming to enhance sustainability. The Trump administration shifted focus toward deregulation, trade enforcement, and national defense resource security, reflecting a more industry-centric approach. Biden’s orders have sought to promote competition and administrative continuity within agriculture, indicating an interest in modernization and governance. Together, these policies illustrate ongoing tensions between conservation, trade, and rural prosperity.",
-      "potential_impact": "These executive orders primarily targeted agricultural workers, farmers, and small business owners, intending to support livelihoods and rural economies. However, concerns emerged about increased regulatory burdens and potential economic disruptions, especially in environmentally sensitive regions like the Chesapeake Bay watershed. Environmental justice and tribal communities may gain from improved resource management but face risks from uneven policy implementation. Additionally, the complexity of federal coordination and invasive species controls could inadvertently challenge military readiness, small businesses, and rural populations, highlighting the delicate balance between growth, environmental protection, and equitable support.",
-      "generated_at": "2026-03-23T04:26:16.423Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "rural-development",
-      "theme_name": "Rural Development",
-      "order_count": 10,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 5
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 3
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 2
-        }
-      ],
-      "summary": "Executive orders addressing rural development have evolved to balance economic growth, environmental stewardship, and community well-being. Early efforts under the Obama administration focused on establishing frameworks for federal coordination and community engagement, while the Trump administration emphasized active land and resource management alongside agricultural prosperity and infrastructure modernization. The Biden administration has sought to strengthen forests, local economies, and support for left-behind communities, reflecting a continuing commitment to integrating environmental and economic goals within rural policy. Across these administrations, the complexity of coordinating multiple agencies and priorities has been a persistent theme.",
-      "potential_impact": "These executive actions aimed to benefit a broad spectrum of rural populations, including tribal communities, farmers, small business owners, and low-income families, by improving health access, infrastructure, and economic opportunities. However, concerns have emerged about potential disparities, as bureaucratic complexities and emphasis on economic growth may overshadow the needs of smaller or marginalized communities, environmental justice areas, and indigenous populations. Additionally, regulatory changes and resource management strategies risk unintended environmental and cultural impacts, highlighting the delicate balance between development and preservation in rural America.",
-      "generated_at": "2026-03-23T04:26:19.233Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -3159,6 +3159,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "food-security-nutrition",
+      "theme_name": "Food Security / Nutrition",
+      "order_count": 6,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 5
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive actions on food security and nutrition reveal contrasting priorities between administrations. The Obama administration’s focus centered on strengthening Native American affairs through coordinated federal engagement to address systemic challenges in tribal communities. In contrast, the Trump administration issued multiple orders emphasizing national health through sports, fitness, and agricultural resilience, aiming to bolster physical activity and farm sustainability. These approaches reflect a blend of addressing cultural and community-specific needs alongside broader public health and agricultural strategies, highlighting differing views on how best to improve nutritional outcomes.",
+      "potential_impact": "These executive orders sought to benefit a diverse array of groups, from food-insecure populations and children to rural and tribal communities, by promoting access to nutrition, physical fitness, and agricultural support. However, concerns arose about potential gaps in reaching remote tribal areas, equitable inclusion of children with disabilities, and adequate resource allocation for low-income families. Additionally, some initiatives risked marginalizing vulnerable groups through insufficient accommodations or by prioritizing traditional sports, while efforts to reduce reliance on medication raised worries about unintended harm to youth with chronic health conditions.",
+      "generated_at": "2026-06-30T15:23:27.200Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "arts-and-humanities",
       "theme_name": "Arts and Humanities",
       "order_count": 5,
@@ -3403,27 +3424,6 @@
       "summary": "Executive actions on water infrastructure reveal evolving priorities between administrations, with the Trump presidency emphasizing efficient federal operations and large-scale modernization efforts often linked to disaster response and urban rebuilding, while the Biden administration focused on implementing broad infrastructure investments. These orders sought to enhance water resource management and resilience but faced challenges balancing federal efficiency with the diverse needs of rural, tribal, and environmental justice communities, highlighting the complexity of coordinating multi-agency programs and reconciling local versus large-scale infrastructure priorities.",
       "potential_impact": "These executive orders aimed to benefit historically underserved populations such as environmental justice communities, rural and tribal areas, and low-income families by improving water access and disaster resilience. However, concerns arose about potential delays due to bureaucratic realignments and regulatory complexities that could slow aid distribution. Additionally, workforce shifts and stringent labor standards might disadvantage non-union workers and small businesses, while increased federal oversight and policy overrides risked exacerbating tensions with local governments and potentially undermining localized water needs.",
       "generated_at": "2026-02-09T03:32:31.089Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "food-security-nutrition",
-      "theme_name": "Food Security / Nutrition",
-      "order_count": 5,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 4
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive actions on food security and nutrition have evolved around promoting health and addressing disparities, with a notable focus on tribal and youth populations. The Obama administration initiated efforts to coordinate federal support for Native American communities, while the Trump administration emphasized expanding youth sports participation and national fitness initiatives. These approaches reflect differing priorities: one centers on federal coordination and tribal self-governance, the other on broadening public engagement in nutrition and physical activity, highlighting challenges in balancing targeted support with inclusive health promotion.",
-      "potential_impact": "These executive orders aimed to benefit food-insecure populations, children, low-income families, and Indigenous communities by improving nutrition access and fostering physical fitness. However, concerns arose about potential bureaucratic delays affecting tribal areas, funding constraints limiting program reach, and the risk of excluding children with disabilities or chronic conditions. Additionally, efforts to promote sports and fitness might unintentionally marginalize underserved youth and exacerbate gender disparities, while initiatives addressing medication use raised fears of insufficient alternatives for vulnerable minors.",
-      "generated_at": "2026-03-23T04:26:35.354Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4919,5 +4919,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-06-25T15:39:28.600Z"
+  "generated_at": "2026-06-30T15:23:27.201Z"
 }

@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 14
+          "order_count": 15
         }
       ],
-      "total_order_count": 14,
-      "summary": "In the second quarter of 2026, President Donald Trump’s executive orders reflected a multifaceted approach to national priorities, emphasizing regulatory reform and national security. Three orders targeted deregulation efforts aimed at streamlining federal processes and enhancing economic efficiency, while homeland security remained a strong focus with measures to bolster customs enforcement and counter advanced cryptographic threats. Financial system regulation and cybersecurity featured prominently, underscoring an intent to modernize and protect critical infrastructure. Additionally, the administration sought to advance emerging technologies like artificial intelligence and quantum computing, as well as address mental health and higher education concerns, signaling a blend of traditional security priorities with forward-looking innovation and social policy initiatives.",
-      "potential_impact": "These executive actions aimed to benefit a diverse array of populations, including small business owners and veterans, by improving federal hiring practices and expanding access to retirement savings. Technology and financial services workers stood to gain from innovation-driven policies, while rural communities and college students were also targeted for positive impact. However, concerns arose about potential negative effects on federal contractors, corporations, and educational institutions facing new compliance burdens. Restrictions tied to sports regulations risked limiting opportunities for student-athletes and women in less prominent sports. Moreover, rapid shifts in mental health treatment approaches raised questions about safety and equitable access, particularly for vulnerable individuals and veterans, highlighting tensions between innovation and caution.",
-      "generated_at": "2026-06-25T15:37:28.473Z",
+      "total_order_count": 15,
+      "summary": "In the second quarter of 2026, President Trump focused his executive actions on enhancing national security, financial system integrity, and technological innovation while promoting regulatory reform. With three orders each addressing homeland security and deregulation, the administration sought to tighten customs enforcement, bolster cybersecurity against advanced cryptographic threats, and streamline federal contracting. Simultaneously, efforts to integrate quantum computing and artificial intelligence innovations underscored a push toward future-focused technology leadership. Agricultural resilience and mental health also surfaced, reflecting a broader agenda balancing economic growth with public welfare and national preparedness.",
+      "potential_impact": "These orders aimed to benefit a diverse set of groups, including small business owners, rural communities, veterans, and technology workers, by fostering economic opportunities and enhancing security frameworks. However, certain measures raised concerns—for example, restrictions on college sports and federal contracting could disadvantage student-athletes and federal contractors, respectively. Accelerated approval of psychedelic treatments sparked debates over safety and equitable access, particularly for vulnerable mental health patients and veterans. Additionally, sanctions and customs enforcement actions targeted foreign nationals and specific foreign governments, reflecting a complex landscape of domestic support paired with heightened scrutiny of external actors.",
+      "generated_at": "2026-06-30T15:23:10.394Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -997,5 +997,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-06-25T15:37:28.473Z"
+  "generated_at": "2026-06-30T15:23:10.394Z"
 }

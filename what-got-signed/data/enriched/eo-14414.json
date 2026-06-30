@@ -1,0 +1,40 @@
+{
+  "document_number": "2026-13254",
+  "executive_order_number": "14414",
+  "title": "Advancing Regenerative Agriculture and Strengthening American Farm Resilience",
+  "abstract": null,
+  "signing_date": "2026-06-25",
+  "publication_date": "2026-06-30",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/06/30/2026-13254/advancing-regenerative-agriculture-and-strengthening-american-farm-resilience",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-30/pdf/2026-13254.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/06/30/2026-13254.txt",
+  "enrichment": {
+    "summary": "This executive order promotes the adoption of regenerative agriculture practices to improve soil health, farm profitability, and food supply resilience. It directs federal agencies to support research, reduce regulatory barriers, encourage public-private partnerships, and invest in modern farming technologies to strengthen American farms and food safety.",
+    "theme_ids": [
+      "agricultural-policy",
+      "food-security-nutrition",
+      "environmental-regulation",
+      "rural-development"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "agricultural-workers-farmers",
+        "rural-communities",
+        "food-insecure-populations"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Expanded investment and promotion of regenerative agriculture may benefit agricultural workers and rural communities but could increase costs or require changes that smaller or resource-limited farmers struggle to implement effectively, risking economic disparities.",
+      "Efforts to expedite chemical registrations and reduce regulatory barriers might raise health and environmental risks for rural communities exposed to new or less-studied agricultural chemicals, potentially conflicting with environmental-regulation goals.",
+      "Increased focus on precision and modern farming technologies may disproportionately advantage larger farms and technologically equipped producers, potentially sidelining small-scale farmers in rural communities.",
+      "While aiming to strengthen food security, prioritizing private-sector innovation and public-private partnerships could lead to proprietary technologies or market concentration that limit access for food-insecure populations or minority farmers."
+    ],
+    "enriched_at": "2026-06-30T15:22:59.320Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
