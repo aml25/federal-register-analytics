@@ -153,12 +153,12 @@
     {
       "theme_id": "military-readiness-force-structure",
       "theme_name": "Military Readiness / Force Structure",
-      "order_count": 68,
+      "order_count": 69,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 33
+          "order_count": 34
         },
         {
           "president_id": "barack-obama",
@@ -171,9 +171,9 @@
           "order_count": 15
         }
       ],
-      "summary": "Executive actions addressing military readiness and force structure have evolved across administrations to balance personnel support, legal frameworks, and compensation structures. Efforts have ranged from refining military justice procedures and adjusting pay scales to enhancing veteran employment within federal agencies. While Obama’s orders often focused on legal amendments and veteran employment frameworks, Trump’s concentrated on pay adjustments and strategic energy policies linked to military interests, with Biden continuing to emphasize personnel transitions and readiness. These varied approaches reflect ongoing attempts to sustain force effectiveness amid shifting operational and fiscal challenges.",
-      "potential_impact": "These executive orders aimed primarily to benefit active-duty military personnel and veterans by improving pay, legal protections, and employment opportunities, while also affecting federal employees and reservists. However, some measures raised concerns about potentially disadvantaging non-veteran federal workers, creating pay disparities tied to geography, and imposing adaptation challenges due to changes in military justice. Additionally, certain groups, including accused service members and marginalized communities, faced possible negative consequences, highlighting the complexities of balancing readiness, fairness, and inclusivity in military-related policies.",
-      "generated_at": "2026-03-28T18:47:40.796Z",
+      "summary": "Executive orders addressing military readiness and force structure have evolved through varying presidential priorities, reflecting shifting strategies to maintain a robust defense posture. While earlier orders under the Obama administration focused on refining military justice procedures and enhancing veteran employment within federal agencies, the Trump era emphasized a broad array of pay adjustments, active duty mobilizations, and energy policies linked to national security. Biden's approach consolidated these efforts, continuing adjustments to pay and force activation while promoting coordination across agencies, underscoring the complex balance between sustaining an effective military force and managing federal workforce dynamics.",
+      "potential_impact": "These executive actions predominantly aimed to support active-duty military personnel and veterans by improving employment opportunities, pay rates, and legal frameworks governing service members. However, concerns arose about potential unintended consequences, such as disparities in federal hiring practices that might limit opportunities for non-veteran applicants or introduce complexity in pay administration. Additionally, adjustments to military justice and compensation could affect service members’ rights and retention, while specific communities—including military spouses and environmental justice groups—faced indirect effects, highlighting the nuanced challenges in aligning military readiness with equitable workforce and social outcomes.",
+      "generated_at": "2026-07-23T15:02:43.321Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -257,12 +257,12 @@
     {
       "theme_id": "defense-industrial-base",
       "theme_name": "Defense Industrial Base",
-      "order_count": 42,
+      "order_count": 43,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 34
+          "order_count": 35
         },
         {
           "president_id": "joe-biden",
@@ -270,9 +270,9 @@
           "order_count": 8
         }
       ],
-      "summary": "Executive actions addressing the defense industrial base have centered on bolstering domestic manufacturing and securing critical supply chains, reflecting a strategic effort to enhance national security and economic resilience. While the Trump administration aggressively pursued trade enforcement, Buy American policies, and streamlined defense acquisitions to revitalize manufacturing and reduce reliance on foreign sources, the Biden administration has prioritized supply chain security, innovation in advanced technologies, and research investment to sustain long-term industrial competitiveness. Together, these approaches underscore a persistent focus on safeguarding defense capabilities amid evolving global challenges.",
-      "potential_impact": "These executive orders primarily aim to support U.S. defense industry workers, manufacturing employees, and veterans by promoting job growth and supply chain stability within strategically vital sectors. However, the emphasis on domestic preference and trade restrictions raises concerns about increased costs for consumers and federal contractors, potential disruptions to international supply networks, and heightened pressures on workforce development. Additionally, tighter visa policies and trade retaliation risks could affect technology workers, foreign labor, and allied trade relations, illustrating the complex balance between national security priorities and economic interconnectedness.",
-      "generated_at": "2026-06-25T15:38:09.263Z",
+      "summary": "Executive actions on the defense industrial base have centered on bolstering domestic manufacturing and securing supply chains critical to national security. The Trump administration pursued aggressive measures to reduce trade deficits, enforce Buy American policies, and restrict investments linked to foreign adversaries, emphasizing rapid innovation and resource independence. The Biden administration has continued this focus but with greater attention to research and development, technology leadership, and strategic stockpiles. Together, these efforts reflect an evolving strategy balancing national security with economic resilience amid complex global trade dynamics.",
+      "potential_impact": "These executive orders aimed to strengthen the domestic defense workforce and manufacturing sectors, potentially benefiting workers, veterans, and small businesses tied to national security industries. However, concerns emerged about increased costs for consumers and federal contractors, disruptions to supply chains, and adverse effects on foreign workers and international suppliers. The emphasis on stringent procurement and trade policies risks trade tensions and workforce challenges, especially for manufacturing and technology employees facing rapid adaptation pressures within a shifting global landscape.",
+      "generated_at": "2026-07-23T15:02:47.081Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1109,6 +1109,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "critical-minerals-supply-chain-security",
+      "theme_name": "Critical Minerals / Supply Chain Security",
+      "order_count": 19,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 15
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 4
+        }
+      ],
+      "summary": "Executive actions addressing critical minerals and supply chain security have primarily focused on bolstering domestic manufacturing capacity and reducing reliance on foreign sources, particularly from geopolitical adversaries. The Trump administration emphasized rapid expansion of mining, processing, and energy production to reinforce national defense and economic resilience, often through streamlined regulatory measures and import restrictions. The Biden administration, while continuing to prioritize supply chain robustness, has taken a more measured approach emphasizing research, development, and strategic stockpile management. Together, these policies reflect an evolving strategy to secure essential resources amid global competition and emerging national security concerns.",
+      "potential_impact": "These executive orders aimed to benefit defense and manufacturing workers, military personnel, and small business owners by promoting domestic job creation and industrial capacity. However, efforts to expedite mining and production raised concerns about environmental degradation and cultural impacts, especially in environmental justice and tribal communities. Additionally, increased regulatory burdens and import restrictions risk higher costs for consumers and corporations, potentially disrupting industries reliant on global supply chains and challenging workforce adaptation amid shifting economic dynamics.",
+      "generated_at": "2026-07-23T15:02:51.800Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "public-health-emergency-response",
       "theme_name": "Public Health Emergency Response",
       "order_count": 18,
@@ -1132,27 +1153,6 @@
       "summary": "Executive actions addressing public health emergencies have evolved through diverse approaches emphasizing preparedness, response, and resilience. Early efforts under the Obama administration focused on establishing medical countermeasure capabilities and combating infectious diseases like HIV and antibiotic resistance. The Trump administration expanded this framework by targeting opioid addiction, enhancing rural health access, and securing pharmaceutical supply chains amid emerging crises. The Biden administration has prioritized COVID-19 response measures, vaccine mandates, and strengthening federal advisory structures, reflecting a shift toward coordinated, science-driven pandemic management. Across administrations, these policies reflect ongoing attempts to balance rapid response with systemic health improvements.",
       "potential_impact": "These executive orders aimed to benefit a broad spectrum of populations including patients requiring urgent medical interventions, healthcare workers on the front lines, and vulnerable groups such as low-income families, veterans, and individuals with mental health conditions. However, concerns have been raised about the potential for increased burdens on pharmaceutical manufacturers, operational strains on healthcare providers, and civil liberties implications from expanded quarantine powers. Additionally, coordination complexities risk delaying critical services, while disparities in access and privacy issues may disproportionately affect marginalized communities and those outside comprehensive healthcare coverage.",
       "generated_at": "2025-12-15T08:45:22.075Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "critical-minerals-supply-chain-security",
-      "theme_name": "Critical Minerals / Supply Chain Security",
-      "order_count": 18,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 14
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 4
-        }
-      ],
-      "summary": "Executive orders addressing critical minerals and supply chain security have reflected a persistent focus on bolstering domestic manufacturing and national defense capabilities. The Trump administration pursued an aggressive strategy to reduce reliance on foreign sources, particularly from adversaries, through measures that expanded mining, streamlined permitting, and imposed tariffs. In contrast, the Biden administration emphasized a more balanced approach, integrating supply chain resiliency with research and national security risk assessments. This evolution highlights ongoing tensions between economic competitiveness, strategic autonomy, and environmental considerations within U.S. supply chain policy.",
-      "potential_impact": "These orders aimed to support workers in defense, manufacturing, and energy sectors by securing stable supply lines critical to national security and industry vitality. However, they also raised concerns about environmental justice, with accelerated mining and permitting potentially impacting vulnerable communities, including tribal populations. Increased regulatory burdens and shifting trade policies risked higher costs for consumers and businesses, while efforts to revitalize domestic production could disrupt existing industries reliant on global supply chains, creating complex trade-offs between economic opportunity and social and environmental safeguards.",
-      "generated_at": "2026-03-23T04:26:01.187Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1257,6 +1257,32 @@
       "summary": "Executive actions on public lands management reveal a complex interplay between conservation priorities and economic development goals. While earlier orders under the Obama administration emphasized climate change preparation and ecosystem restoration, the Trump administration predominantly pursued active resource utilization, including expanded timber, mineral, and energy production, alongside reviewing protections like national monument designations. Biden's more recent order signals an intent to strengthen forests and local economies, reflecting ongoing tensions between environmental stewardship and resource extraction. These shifting approaches illustrate divergent presidential strategies on balancing federal land use with climate resilience and economic interests.",
       "potential_impact": "The executive orders aimed to benefit diverse groups such as rural and tribal communities, agricultural workers, and small business owners, who depend heavily on land resources and management policies. However, these policies also raised concerns about potential adverse effects on environmental justice communities and Indigenous peoples, particularly where regulatory rollbacks could undermine protections for cultural sites and natural habitats. The challenge lies in ensuring equitable engagement and support amid competing interests, as changes in land use and regulatory frameworks risk disrupting livelihoods, complicating local governance, and exacerbating social and environmental disparities.",
       "generated_at": "2026-06-03T17:56:33.525Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "supply-chain-security",
+      "theme_name": "Supply Chain Security",
+      "order_count": 17,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 13
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "summary": "Supply chain security has been a prominent focus of executive action, particularly during the Trump administration, which issued the majority of related orders aimed at bolstering domestic manufacturing, defense industries, and critical mineral supplies. These efforts often emphasized reducing reliance on foreign sources and enhancing resilience against economic and national security threats. The Biden administration continued this trajectory with a strategic approach to supply chain resilience and cybersecurity, reflecting evolving challenges in technology and global interdependencies, while Obama’s contribution set early sustainability frameworks that influenced later policies.",
+      "potential_impact": "These executive orders sought to benefit manufacturing and defense workers, small business owners, and military personnel by promoting domestic production and securing critical supply lines. However, the measures also raised concerns about increased regulatory burdens and economic disruptions for large corporations, federal contractors, and technology sectors reliant on global supply chains. Transition challenges for fossil fuel workers, compliance costs impacting small suppliers, and workforce pressures to rapidly adapt to new standards highlighted the complex balance between strengthening national security and managing economic consequences for diverse stakeholders.",
+      "generated_at": "2026-07-23T15:02:56.231Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1367,32 +1393,6 @@
       "summary": "Interior immigration enforcement under the Trump administration was characterized by a robust expansion of policies aimed at strengthening law enforcement's ability to identify, detain, and remove undocumented immigrants. Executive orders emphasized heightened collaboration between federal, state, and local agencies, increased detention capacity, and prioritized deportation efforts alongside initiatives to curtail refugee resettlement and tighten visa regulations. These measures reflected a broader strategy to enhance public safety by focusing on criminal aliens and perceived national security threats, while also promoting domestic labor protections through Buy American provisions linked to immigration enforcement.",
       "potential_impact": "These executive actions primarily sought to benefit U.S. citizens, law enforcement personnel, and local governments by aiming to reduce crime and protect public safety. However, they posed significant challenges for undocumented immigrants, asylum seekers, refugees, and various visa holders, including DACA recipients. Concerns arose over the potential for disproportionate impacts on Hispanic and Latino communities, increased detention and deportation, and strained trust between immigrant populations and law enforcement. Moreover, the politicization of refugee resettlement and expanded enforcement raised fears of humanitarian and civil rights repercussions, particularly for vulnerable families and marginalized urban and rural communities.",
       "generated_at": "2026-05-22T15:45:20.066Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "supply-chain-security",
-      "theme_name": "Supply Chain Security",
-      "order_count": 16,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 12
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 3
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive orders addressing supply chain security have evolved from foundational sustainability efforts under Obama to a Trump-era focus on bolstering domestic manufacturing, defense industries, and critical mineral supply chains through aggressive regulatory and enforcement measures. Biden's approach builds on this foundation, emphasizing resilience, cybersecurity, and systemic vulnerabilities exposed by global disruptions. Across administrations, policies have sought to reduce dependence on foreign sources while enhancing national security, reflecting shifting geopolitical and economic priorities tied to technology, manufacturing, and critical resource sectors.",
-      "potential_impact": "These orders aimed to benefit manufacturing and defense industry workers by promoting domestic production and supply chain resilience, while also supporting renewable energy sectors and small businesses involved in critical inputs. However, concerns emerged about potential adverse effects on large corporations and technology sector employees facing heightened regulatory scrutiny, as well as energy workers in fossil fuel industries confronting economic transitions. The complex demands of compliance and rapid workforce adaptation posed challenges for union members and working-age adults, with ripple effects felt among consumers, tribal communities, and federal contractors navigating evolving standards.",
-      "generated_at": "2026-06-10T16:29:55.091Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -2903,6 +2903,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "corporate-fraud-white-collar-crime",
+      "theme_name": "Corporate Fraud / White Collar Crime",
+      "order_count": 7,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 5
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 2
+        }
+      ],
+      "summary": "Executive actions addressing corporate fraud and white-collar crime have evolved through a focus on strengthening enforcement and enhancing financial system integrity. While the Obama administration laid groundwork by establishing task forces to combat financial fraud and reduce improper payments, the Trump administration expanded efforts to tackle market integrity, anti-competitive practices, and supply chain security. These orders collectively aimed to deter fraudulent activities that undermine economic trust, reflecting an increasing prioritization of protecting financial systems and public funds from abuse and misconduct.",
+      "potential_impact": "These executive orders sought to shield vulnerable groups such as small business owners, Medicare and Medicaid beneficiaries, and consumers from financial exploitation and improper payment errors. However, intensified enforcement also introduced challenges for large corporations, executives, and federal contractors facing heightened compliance risks and reputational exposure. Observers noted concerns about bureaucratic complexity, potential delays in benefit access, and the risk that aggressive prosecution might stifle legitimate business innovation and disproportionately burden smaller or less-resourced communities.",
+      "generated_at": "2026-07-23T15:03:00.010Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "workplace-safety-osha",
       "theme_name": "Workplace Safety (OSHA)",
       "order_count": 6,
@@ -3135,27 +3156,6 @@
       "summary": "Executive actions on voting rights reveal divergent presidential priorities in shaping election access and integrity. Obama’s orders sought to improve election administration and expand voting access, particularly for military personnel and disabled voters. In contrast, Trump’s orders emphasized election integrity through commissions targeting voter fraud and citizenship verification, often focusing on stricter oversight that raised concerns about potential disenfranchisement. Biden’s single order aimed to enhance voter access more broadly, reflecting a continuing tension between expanding participation and safeguarding electoral processes.",
       "potential_impact": "These executive orders aimed to benefit a broad spectrum of eligible voters, including minorities, military members, and individuals with disabilities, by addressing access and administrative improvements. However, initiatives focused on fraud prevention and citizenship verification risked disproportionate scrutiny on racial minorities, naturalized citizens, and low-income populations, potentially suppressing their participation. Concerns also arose over uneven implementation across states and communities, possibly limiting the effectiveness of expanded access and exacerbating disparities among traditionally marginalized groups.",
       "generated_at": "2026-04-03T13:57:54.294Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "corporate-fraud-white-collar-crime",
-      "theme_name": "Corporate Fraud / White Collar Crime",
-      "order_count": 6,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 4
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 2
-        }
-      ],
-      "summary": "Executive actions addressing corporate fraud and white-collar crime have emphasized strengthening enforcement and interagency coordination to protect financial integrity and consumer interests. While the Obama administration prioritized establishing task forces to combat financial fraud and reduce improper payments, the Trump administration expanded efforts to address market integrity, price fixing, and abuse within financial systems. These orders sought to balance aggressive oversight of corporate misconduct with safeguarding public programs, reflecting evolving concerns about fraud’s impact on both economic stability and vulnerable beneficiaries.",
-      "potential_impact": "These executive orders aimed to shield small business owners, Medicare and Medicaid beneficiaries, low-income families, and consumers from the harms of financial fraud and improper payments. However, heightened enforcement brought risks for corporate executives, large corporations, and federal contractors facing increased legal and compliance pressures. Observers noted potential unintended consequences such as burdensome verification processes delaying benefits, reputational harm to nonprofits, and regulatory complexities that might stifle business innovation or disrupt service delivery at state and local levels.",
-      "generated_at": "2026-05-22T15:45:26.667Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4919,5 +4919,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-06-30T15:23:27.201Z"
+  "generated_at": "2026-07-23T15:03:00.011Z"
 }

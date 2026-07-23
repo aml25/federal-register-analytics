@@ -2,6 +2,40 @@
   "periods": [
     {
       "year": 2026,
+      "quarter": 3,
+      "quarter_name": "Q3 2026",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "military-readiness-force-structure",
+          "name": "Military Readiness / Force Structure"
+        },
+        {
+          "id": "defense-industrial-base",
+          "name": "Defense Industrial Base"
+        },
+        {
+          "id": "critical-minerals-supply-chain-security",
+          "name": "Critical Minerals / Supply Chain Security"
+        },
+        {
+          "id": "supply-chain-security",
+          "name": "Supply Chain Security"
+        },
+        {
+          "id": "corporate-fraud-white-collar-crime",
+          "name": "Corporate Fraud / White Collar Crime"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 1 executive order focused on the themes of military readiness / force structure, defense industrial base, critical minerals / supply chain security, and 2 others.",
+      "order_ids": [
+        "14415"
+      ]
+    },
+    {
+      "year": 2026,
       "quarter": 2,
       "quarter_name": "Q2 2026",
       "president_id": "donald-trump",
@@ -2647,5 +2681,5 @@
       ]
     }
   ],
-  "generated_at": "2026-06-30T15:22:59.451Z"
+  "generated_at": "2026-07-23T15:02:31.320Z"
 }

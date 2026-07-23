@@ -1,9 +1,37 @@
 {
   "week": "2026-W30",
   "date_range": "July 20–26, 2026",
-  "narrative": "",
-  "orders": [],
-  "top_themes": [],
-  "generated_at": "2026-07-20T15:02:21.595Z",
-  "model_used": ""
+  "narrative": "During the week of July 20–26, 2026, President Donald Trump issued a single executive order, EO 14415, focused on enhancing military readiness and fortifying the defense industrial base. The order aimed to secure America's defense supply chains by ensuring the domestic acquisition of critical minerals and materials, addressing vulnerabilities in supply chain security. This action also touched on broader concerns related to corporate fraud and white-collar crime within defense contracting sectors.",
+  "orders": [
+    {
+      "number": "14415",
+      "title": "Securing America's Defense Supply Chains and Ensuring Domestic Acquisition of Critical Materials",
+      "url": "https://www.federalregister.gov/documents/2026/07/23/2026-15003/securing-americas-defense-supply-chains-and-ensuring-domestic-acquisition-of-critical-materials",
+      "president_name": "Donald Trump"
+    }
+  ],
+  "top_themes": [
+    {
+      "id": "military-readiness-force-structure",
+      "name": "Military Readiness / Force Structure"
+    },
+    {
+      "id": "defense-industrial-base",
+      "name": "Defense Industrial Base"
+    },
+    {
+      "id": "critical-minerals-supply-chain-security",
+      "name": "Critical Minerals / Supply Chain Security"
+    },
+    {
+      "id": "supply-chain-security",
+      "name": "Supply Chain Security"
+    },
+    {
+      "id": "corporate-fraud-white-collar-crime",
+      "name": "Corporate Fraud / White Collar Crime"
+    }
+  ],
+  "generated_at": "2026-07-23T15:03:02.717Z",
+  "model_used": "gpt-4.1-mini"
 }

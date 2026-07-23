@@ -2,6 +2,23 @@
   "narratives": [
     {
       "year": 2026,
+      "quarter": 3,
+      "quarter_name": "Q3 2026",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 1
+        }
+      ],
+      "total_order_count": 1,
+      "summary": "In Q3 2026, President Trump focused executive action on fortifying the nation’s defense supply chains through EO 14415, which aimed to secure critical minerals and prioritize domestic acquisition. This order sought to enhance military readiness by reinforcing the defense industrial base and tightening supply chain security. By mandating stricter sourcing requirements and increasing oversight, the administration intended to reduce reliance on foreign suppliers while addressing corporate fraud within defense contracting, reflecting a comprehensive approach to safeguarding national security infrastructure.",
+      "potential_impact": "The executive order primarily targeted military personnel, veterans, defense industry workers, and small business owners within the defense sector, aiming to bolster their roles through strengthened supply chains and improved oversight. However, federal contractors and employees of large corporations faced potential challenges from increased costs and regulatory burdens. Observers raised concerns about possible delays in defense production, compliance difficulties for smaller firms, and reduced supply diversity, all of which could complicate readiness and operational continuity for active duty forces.",
+      "generated_at": "2026-07-23T15:02:39.551Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2026,
       "quarter": 2,
       "quarter_name": "Q2 2026",
       "presidents": [
@@ -997,5 +1014,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-06-30T15:23:10.394Z"
+  "generated_at": "2026-07-23T15:02:39.551Z"
 }

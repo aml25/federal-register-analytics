@@ -1,0 +1,46 @@
+{
+  "document_number": "2026-15003",
+  "executive_order_number": "14415",
+  "title": "Securing America's Defense Supply Chains and Ensuring Domestic Acquisition of Critical Materials",
+  "abstract": null,
+  "signing_date": "2026-07-20",
+  "publication_date": "2026-07-23",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/07/23/2026-15003/securing-americas-defense-supply-chains-and-ensuring-domestic-acquisition-of-critical-materials",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-07-23/pdf/2026-15003.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/07/23/2026-15003.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Department of War to strengthen the security and resilience of defense supply chains by requiring domestic sourcing and strict oversight of critical materials. It restricts waivers for using materials from unreliable foreign sources, mandates detailed supply chain mapping and risk vetting, and requires contractors to qualify domestic alternatives to enhance national security.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "defense-industrial-base",
+      "critical-minerals-supply-chain-security",
+      "supply-chain-security",
+      "corporate-fraud-white-collar-crime"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "veterans",
+        "defense-industry-workers",
+        "small-business-owners"
+      ],
+      "negative_ids": [
+        "federal-contractors",
+        "large-corporation-employees"
+      ]
+    },
+    "potential_concerns": [
+      "Strict domestic sourcing requirements may increase costs and operational burdens for federal contractors and large corporation employees involved in defense supply chains, potentially slowing defense production timelines.",
+      "Small business owners in the defense sector might face compliance challenges and increased regulatory burdens from detailed supply chain mapping and vetting requirements despite efforts to mitigate their undue burden.",
+      "Failure to rapidly qualify domestic alternatives could disrupt supply continuity, negatively impacting military personnel active duty who depend on timely equipment maintenance and readiness.",
+      "Enhanced oversight and punitive measures for contractor fraud could deter non-compliance but may also lead to aggressive enforcement actions complicating contractor-government relationships.",
+      "Efforts to exclude unreliable foreign suppliers could inadvertently reduce supply diversity, increasing vulnerability to domestic supply bottlenecks affecting defense-industry workers and overall military readiness."
+    ],
+    "enriched_at": "2026-07-23T15:02:31.190Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
