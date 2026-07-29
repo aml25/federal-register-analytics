@@ -1015,6 +1015,22 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "american-heritage-patriotism",
+      "theme_name": "American Heritage / Patriotism",
+      "order_count": 20,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 20
+        }
+      ],
+      "summary": "Throughout the Trump administration, executive actions under the American Heritage and Patriotism theme sought to reinforce traditional symbols, narratives, and institutions that reflect a particular vision of national pride. These orders encompassed efforts to reshape historical education through commissions and curriculum directives, promote patriotic symbolism in federal agencies and public events, and restore or emphasize institutions tied to America’s military and cultural legacy. The approach prioritized a unifying, valorizing national story while often rejecting critical or progressive perspectives on history and identity, embedding patriotism within federal policy and public education frameworks.",
+      "potential_impact": "These executive orders aimed to benefit military personnel, veterans, educators, and students by fostering a sense of national pride and continuity with American traditions. However, the emphasis on a singular patriotic narrative raised concerns about marginalizing diverse communities, including racial and ethnic minorities, women, and LGBTQ+ individuals, whose histories and experiences may be downplayed or excluded. Critics worried that the policies could politicize education, constrain academic freedom, and create cultural tensions, while also imposing symbolic changes that might alienate segments of the population and complicate operational practices for organizations involved in federal and public initiatives.",
+      "generated_at": "2026-07-29T15:28:03.971Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "china",
       "theme_name": "China",
       "order_count": 19,
@@ -1064,22 +1080,6 @@
       "summary": "Executive actions on foreign aid have reflected evolving U.S. strategies balancing development, security, and diplomacy. Early efforts concentrated on stabilizing conflict zones like Afghanistan and Pakistan through dedicated support offices, while subsequent administrations expanded focus to global health, climate resilience, and gender equity in peacebuilding. Later orders emphasized recalibrating aid to align with national interests, incorporating sanctions against human rights violators and reshaping arms transfer policies. This progression reveals a tension between fostering international development and leveraging aid as a tool for geopolitical influence and security.",
       "potential_impact": "These orders sought to benefit international aid recipients, foreign governments, and vulnerable groups such as women, trafficking victims, and refugees by enhancing support and protection. However, concerns arose about unintended consequences, including increased risks to civilians in conflict zones, potential empowerment of corrupt actors, and cultural resistance to gender initiatives. Additionally, efforts to tighten enforcement and sanctions occasionally threatened economic livelihoods and strained humanitarian resources, illustrating the complex balance between promoting security and safeguarding diverse foreign populations.",
       "generated_at": "2026-02-19T03:42:27.663Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "american-heritage-patriotism",
-      "theme_name": "American Heritage / Patriotism",
-      "order_count": 19,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 19
-        }
-      ],
-      "summary": "The executive orders under the American Heritage and Patriotism theme, exclusively issued during the Trump administration, reflect a concerted effort to reinforce traditional symbols, narratives, and practices tied to national identity. These orders sought to reshape public education by promoting patriotic curricula, restore historical names and institutions, and emphasize civic symbolism in federal architecture and foreign aid branding. The approach centered on elevating a particular vision of American greatness and heritage, often prioritizing local control and conservative interpretations of history, which marked a departure from more inclusive or critical perspectives.",
-      "potential_impact": "These orders aimed to benefit military personnel, veterans, educators, and public school communities by fostering a sense of pride and unity rooted in classic American ideals. However, they also raised concerns about marginalizing racial and ethnic minorities, women, and LGBTQ+ individuals by downplaying systemic injustices and limiting academic freedom. The emphasis on patriotic symbolism and singular narratives risked alienating diverse populations and complicating educational equity, while operational changes, such as federal agency closings or foreign aid rebranding, prompted debates over practical disruptions versus symbolic gains.",
-      "generated_at": "2026-03-28T18:47:45.154Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -2375,6 +2375,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "historical-commemorations",
+      "theme_name": "Historical Commemorations",
+      "order_count": 10,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 8
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "Executive orders addressing historical commemorations have reflected divergent presidential priorities, with the Trump administration largely emphasizing patriotic narratives and the restoration of traditional historical perspectives, including the establishment of commissions and the promotion of national celebrations. In contrast, the Biden administration’s orders have focused on broadening recognition of women’s history and fostering inclusive representation within federal commemorations. These contrasting approaches highlight ongoing debates over how history is taught, remembered, and symbolized at the federal level, particularly in educational and cultural institutions.",
+      "potential_impact": "These orders aimed to affect a wide range of communities, from K-12 students and public school systems to African American, Native American, and tribal populations, as well as veterans and military personnel. While some sought to promote inclusivity and diverse historical recognition, concerns arose about marginalizing minority perspectives through politicized narratives or unequal resource allocation. Additionally, federal employees experienced operational challenges related to commemorative closures, and educators faced tensions balancing patriotic themes with comprehensive history, all of which underscore the complex social and cultural dynamics involved in federal historical commemoration.",
+      "generated_at": "2026-07-29T15:28:07.577Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "educational-excellence-initiatives-by-demographic",
       "theme_name": "Educational Excellence Initiatives (by demographic)",
       "order_count": 9,
@@ -2471,27 +2492,6 @@
       "summary": "Executive actions addressing K-12 education policy reveal contrasting priorities across administrations, reflecting broader debates over educational equity and school governance. Obama’s initiatives targeted educational excellence for Hispanic and African American communities, aiming to close achievement gaps through focused support. Trump’s orders emphasized expanding school choice, promoting discipline reforms, and rolling back what was termed ‘radical indoctrination,’ signaling a push toward parental control and conservative education values. Biden’s approach intertwined educational equity with broader civil rights protections and school safety, highlighting inclusivity and anti-discrimination efforts. These varying strategies underscore ongoing tensions between targeted support for underserved populations and debates over curriculum content and school autonomy.",
       "potential_impact": "The executive orders aimed to benefit K-12 students broadly, with particular attention to low-income families, educators, and historically marginalized communities such as Hispanic and African American students, as well as tribal and private school populations. However, concerns arose regarding uneven resource distribution, bureaucratic hurdles, and resistance from educational stakeholders, which could limit effectiveness. Additionally, some actions raised apprehensions about exacerbating disparities or marginalizing certain groups, including public school communities and LGBTQ+ individuals, illustrating the complex balance between fostering opportunity and addressing equity in diverse educational landscapes.",
       "generated_at": "2025-12-15T08:47:39.173Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "historical-commemorations",
-      "theme_name": "Historical Commemorations",
-      "order_count": 9,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 7
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 2
-        }
-      ],
-      "summary": "Executive actions on historical commemorations reveal contrasting presidential priorities in shaping national memory and education. The Trump administration issued the majority of orders, emphasizing patriotic narratives through initiatives like the 1776 Commission and commemorative federal closures, aiming to promote a unifying version of American history while limiting what it deemed radicalized perspectives. In contrast, the Biden administration’s orders have sought to broaden recognition, particularly elevating women’s history and intersectional inclusion, reflecting a more expansive and diverse approach to historical commemoration and public education.",
-      "potential_impact": "These executive orders aimed to influence educational content, public ceremonies, and federal operations, directly affecting students, educators, tribal and minority communities, and public school systems. While intended to foster national pride or inclusivity, concerns arose around marginalizing racial and ethnic groups by downplaying systemic injustices or creating inconsistency in educational standards. Federal employees faced operational challenges during commemorative closures, and debates emerged over whose histories receive emphasis, highlighting tensions between patriotic symbolism and the complexities of representing America’s diverse heritage.",
-      "generated_at": "2025-12-15T08:47:51.737Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -3821,6 +3821,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "museums-libraries-cultural-institutions",
+      "theme_name": "Museums / Libraries / Cultural Institutions",
+      "order_count": 4,
+      "presidents": [
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        },
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 2
+        }
+      ],
+      "summary": "Executive orders addressing museums, libraries, and cultural institutions reflect contrasting approaches to how American history and culture should be presented and preserved. While recent orders under President Biden emphasize promoting inclusivity, honoring women’s history, and expanding access to arts and humanities, earlier orders under President Trump sought to restore traditional narratives emphasizing patriotism and national greatness, often focusing on institutions like the Smithsonian. These divergent strategies reveal ongoing tensions in balancing diverse historical perspectives with cohesive national storytelling within federal cultural policy.",
+      "potential_impact": "These executive actions aimed to benefit a wide array of communities, including veterans, children, tribal and Indigenous peoples, and various racial and ethnic groups, by expanding recognition and access to cultural resources. However, concerns arise that certain orders’ emphasis on patriotic or non-divisive narratives may marginalize African Americans, Native Americans, women, LGBTQ+ individuals, and educators, potentially limiting authentic representation. The risk of prioritizing particular histories over others could affect equitable cultural inclusion and educational integrity, with grassroots voices and minority communities vulnerable to underrepresentation.",
+      "generated_at": "2026-07-29T15:28:10.130Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "hostage-policy-wrongfully-detained-citizens",
       "theme_name": "Hostage Policy / Wrongfully Detained Citizens",
       "order_count": 3,
@@ -4154,27 +4175,6 @@
       "summary": "Efforts to modernize the American workforce through executive action have sought to bridge evolving skills demands with education and training systems. Presidential initiatives have emphasized expanding career and technical education recognition, establishing councils to align workforce development with industry needs, and preparing Americans for skilled trade jobs in emerging sectors. These approaches reflect a shift toward demand-driven, credential-focused training designed to enhance economic competitiveness, though they vary in balancing traditional academics with vocational pathways and in engaging diverse educational and labor stakeholders.",
       "potential_impact": "These orders aimed to benefit a broad spectrum of learners and workers, from youth and students across K-12 and higher education to manufacturing workers and union members, while also involving small business owners and individuals with disabilities. Observers raised concerns that prioritizing certain career fields and employer-led training might marginalize less traditional paths, smaller institutions, and vulnerable populations, potentially exacerbating inequalities. Challenges in equitable access, oversight of training quality, and accommodating diverse needs highlight the delicate balance in aligning workforce policies with inclusive opportunity.",
       "generated_at": "2025-12-15T08:49:47.333Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "museums-libraries-cultural-institutions",
-      "theme_name": "Museums / Libraries / Cultural Institutions",
-      "order_count": 3,
-      "presidents": [
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 2
-        },
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive actions concerning museums, libraries, and cultural institutions reveal contrasting priorities between recent administrations. The Biden administration emphasized inclusivity and the promotion of arts and humanities, aiming to broaden recognition of diverse histories, including women’s contributions and underserved communities. Conversely, the Trump administration sought to reshape historical narratives by restoring traditional monuments and removing what it deemed divisive perspectives. These differing approaches reflect broader tensions around how American history and culture are curated and whose stories receive federal support and visibility.",
-      "potential_impact": "These orders aimed to benefit a wide array of communities, including veterans, children, tribal populations, and various racial and minority groups, by enhancing access to cultural and educational resources. However, concerns arose that some policies might unintentionally marginalize certain groups through selective representation or resource reallocation. Efforts to enforce unified or sanitized historical narratives risked erasing complex experiences of African Americans, Indigenous peoples, women, LGBTQ+ individuals, and educators, potentially limiting authentic engagement and fostering controversy within affected communities.",
-      "generated_at": "2025-12-15T08:50:16.041Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4919,5 +4919,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-07-23T15:03:00.011Z"
+  "generated_at": "2026-07-29T15:28:10.130Z"
 }

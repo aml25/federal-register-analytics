@@ -6,7 +6,7 @@
       "quarter_name": "Q3 2026",
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
-      "order_count": 1,
+      "order_count": 2,
       "top_themes": [
         {
           "id": "military-readiness-force-structure",
@@ -29,9 +29,10 @@
           "name": "Corporate Fraud / White Collar Crime"
         }
       ],
-      "theme_summary": "Donald Trump signed 1 executive order focused on the themes of military readiness / force structure, defense industrial base, critical minerals / supply chain security, and 2 others.",
+      "theme_summary": "Donald Trump signed 2 executive orders focused on the themes of military readiness / force structure, defense industrial base, critical minerals / supply chain security, and 2 others.",
       "order_ids": [
-        "14415"
+        "14415",
+        "14416"
       ]
     },
     {
@@ -2681,5 +2682,5 @@
       ]
     }
   ],
-  "generated_at": "2026-07-23T15:02:31.320Z"
+  "generated_at": "2026-07-29T15:27:53.131Z"
 }

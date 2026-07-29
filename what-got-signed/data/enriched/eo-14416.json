@@ -1,0 +1,41 @@
+{
+  "document_number": "2026-15357",
+  "executive_order_number": "14416",
+  "title": "Restoring Trust in the Smithsonian Institution",
+  "abstract": null,
+  "signing_date": "2026-07-24",
+  "publication_date": "2026-07-29",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/07/29/2026-15357/restoring-trust-in-the-smithsonian-institution",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-07-29/pdf/2026-15357.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/07/29/2026-15357.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal officials to take steps to address ideological bias at the Smithsonian Institution's National Museum of American History, including installing signage and temporary exhibits to inform visitors about these issues and correct historical inaccuracies. The goal is to restore public trust in the Smithsonian by ensuring it presents American history in a truthful and respectful way.",
+    "theme_ids": [
+      "american-heritage-patriotism",
+      "museums-libraries-cultural-institutions",
+      "historical-commemorations"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "white-americans"
+      ],
+      "negative_ids": [
+        "native-americans-indigenous-peoples",
+        "african-americans-black-americans",
+        "hispanic-latino-americans"
+      ]
+    },
+    "potential_concerns": [
+      "The order's directive to portray American history primarily through a patriotic lens risks marginalizing the historical experiences of Native Americans, African Americans, and Hispanic/Latino Americans, potentially perpetuating erasure or distortion of their cultural narratives.",
+      "Installing signage outside the National Museum of American History warning of ideological bias may undermine public trust in museum professionals and historians, potentially affecting all visitors' educational experience.",
+      "The temporary exhibits and signs correcting perceived inaccuracies could foster political controversy and reduce the Smithsonian's role as an objective cultural institution, impacting diverse racial/ethnic groups who seek inclusive historical representation.",
+      "Focusing on honoring founding figures like the Declaration of Independence signers without contextualizing their complex histories may lead to an oversimplified narrative that alienates communities historically affected by those figures' actions."
+    ],
+    "enriched_at": "2026-07-29T15:27:53.010Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

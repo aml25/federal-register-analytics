@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 1
+          "order_count": 2
         }
       ],
-      "total_order_count": 1,
-      "summary": "In Q3 2026, President Trump focused executive action on fortifying the nation’s defense supply chains through EO 14415, which aimed to secure critical minerals and prioritize domestic acquisition. This order sought to enhance military readiness by reinforcing the defense industrial base and tightening supply chain security. By mandating stricter sourcing requirements and increasing oversight, the administration intended to reduce reliance on foreign suppliers while addressing corporate fraud within defense contracting, reflecting a comprehensive approach to safeguarding national security infrastructure.",
-      "potential_impact": "The executive order primarily targeted military personnel, veterans, defense industry workers, and small business owners within the defense sector, aiming to bolster their roles through strengthened supply chains and improved oversight. However, federal contractors and employees of large corporations faced potential challenges from increased costs and regulatory burdens. Observers raised concerns about possible delays in defense production, compliance difficulties for smaller firms, and reduced supply diversity, all of which could complicate readiness and operational continuity for active duty forces.",
-      "generated_at": "2026-07-23T15:02:39.551Z",
+      "total_order_count": 2,
+      "summary": "In the third quarter of 2026, President Trump signed two executive orders that underscored a dual focus on national defense and cultural heritage. One order aimed to secure America’s defense supply chains by emphasizing domestic acquisition of critical minerals and enhancing oversight to prevent corporate fraud, reflecting a commitment to strengthening military readiness and the defense industrial base. Concurrently, the administration sought to reshape the Smithsonian Institution’s approach to American history, promoting a patriotic narrative through historical commemorations and cultural institutions. Together, these actions reveal an effort to reinforce national security while redefining the country’s cultural identity.",
+      "potential_impact": "These executive orders targeted military personnel, veterans, defense industry workers, and small business owners with intentions to bolster supply chain security and patriotic education. However, the stringent domestic sourcing requirements risked imposing higher costs and regulatory challenges on federal contractors and large corporations, potentially slowing defense production and complicating contractor-government relations. Additionally, the Smithsonian’s revamped narrative, focusing on traditional patriotic themes, raised concerns about marginalizing Indigenous peoples and minority communities, possibly undermining inclusive historical representation and affecting the broader public’s trust in cultural institutions.",
+      "generated_at": "2026-07-29T15:28:00.752Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1014,5 +1014,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-07-23T15:02:39.551Z"
+  "generated_at": "2026-07-29T15:28:00.752Z"
 }
