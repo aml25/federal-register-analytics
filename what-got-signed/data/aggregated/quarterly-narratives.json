@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 2
+          "order_count": 3
         }
       ],
-      "total_order_count": 2,
-      "summary": "In the third quarter of 2026, President Trump signed two executive orders that underscored a dual focus on national defense and cultural heritage. One order aimed to secure America’s defense supply chains by emphasizing domestic acquisition of critical minerals and enhancing oversight to prevent corporate fraud, reflecting a commitment to strengthening military readiness and the defense industrial base. Concurrently, the administration sought to reshape the Smithsonian Institution’s approach to American history, promoting a patriotic narrative through historical commemorations and cultural institutions. Together, these actions reveal an effort to reinforce national security while redefining the country’s cultural identity.",
-      "potential_impact": "These executive orders targeted military personnel, veterans, defense industry workers, and small business owners with intentions to bolster supply chain security and patriotic education. However, the stringent domestic sourcing requirements risked imposing higher costs and regulatory challenges on federal contractors and large corporations, potentially slowing defense production and complicating contractor-government relations. Additionally, the Smithsonian’s revamped narrative, focusing on traditional patriotic themes, raised concerns about marginalizing Indigenous peoples and minority communities, possibly undermining inclusive historical representation and affecting the broader public’s trust in cultural institutions.",
-      "generated_at": "2026-07-29T15:28:00.752Z",
+      "total_order_count": 3,
+      "summary": "In the third quarter of 2026, President Trump’s executive orders revealed a concentrated effort to bolster military readiness and secure the nation’s defense supply chains. Two orders focused on enhancing force structure and supporting military personnel, including the creation of a commission aimed at addressing military spouses’ concerns. Another order emphasized strengthening domestic acquisition of critical materials to reduce reliance on foreign sources, while simultaneously seeking to reshape cultural institutions by promoting a patriotic narrative through the Smithsonian. These actions intertwined national security priorities with efforts to reinforce American heritage and institutional trust.",
+      "potential_impact": "The quarter’s executive orders aimed to benefit active-duty military members, veterans, and defense industry workers by prioritizing supply chain security and support networks like the Military Spouse Commission. However, these policies raised concerns among federal contractors and large corporations facing increased regulatory burdens, possibly complicating defense production. Cultural directives risked marginalizing Native American, African American, and Hispanic communities by promoting a selective historical perspective, potentially alienating diverse visitors to national museums. Meanwhile, military spouses from minority or lower-income backgrounds might find their experiences underrepresented in the new commission’s work.",
+      "generated_at": "2026-08-06T15:06:58.412Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1014,5 +1014,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-07-29T15:28:00.752Z"
+  "generated_at": "2026-08-06T15:06:58.412Z"
 }

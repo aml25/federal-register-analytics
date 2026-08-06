@@ -153,12 +153,12 @@
     {
       "theme_id": "military-readiness-force-structure",
       "theme_name": "Military Readiness / Force Structure",
-      "order_count": 69,
+      "order_count": 70,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 34
+          "order_count": 35
         },
         {
           "president_id": "barack-obama",
@@ -171,9 +171,9 @@
           "order_count": 15
         }
       ],
-      "summary": "Executive orders addressing military readiness and force structure have evolved through varying presidential priorities, reflecting shifting strategies to maintain a robust defense posture. While earlier orders under the Obama administration focused on refining military justice procedures and enhancing veteran employment within federal agencies, the Trump era emphasized a broad array of pay adjustments, active duty mobilizations, and energy policies linked to national security. Biden's approach consolidated these efforts, continuing adjustments to pay and force activation while promoting coordination across agencies, underscoring the complex balance between sustaining an effective military force and managing federal workforce dynamics.",
-      "potential_impact": "These executive actions predominantly aimed to support active-duty military personnel and veterans by improving employment opportunities, pay rates, and legal frameworks governing service members. However, concerns arose about potential unintended consequences, such as disparities in federal hiring practices that might limit opportunities for non-veteran applicants or introduce complexity in pay administration. Additionally, adjustments to military justice and compensation could affect service members’ rights and retention, while specific communities—including military spouses and environmental justice groups—faced indirect effects, highlighting the nuanced challenges in aligning military readiness with equitable workforce and social outcomes.",
-      "generated_at": "2026-07-23T15:02:43.321Z",
+      "summary": "Executive orders addressing military readiness and force structure have evolved through varied presidential priorities, reflecting shifting national security and workforce strategies. While Obama’s directives often centered on refining military justice and supporting veterans’ employment within federal roles, Trump’s orders emphasized pay adjustments, activation of reserves, and reinforcing America-first resource policies. Biden’s contributions continued efforts to balance pay and personnel readiness, illustrating ongoing attempts to enhance coordination, legal frameworks, and compensation systems to sustain an effective and adaptable military force.",
+      "potential_impact": "These executive actions primarily aimed to benefit active-duty military personnel and veterans by improving employment opportunities, pay structures, and legal protections. However, complexities in pay adjustments and amendments to military justice raised concerns about potential disparities and administrative challenges. Observers noted risks of uneven implementation affecting service members’ rights and financial well-being, while some civilian groups and communities expressed worries about unintended negative effects, underscoring the delicate balance between force readiness and broader social equity.",
+      "generated_at": "2026-08-06T15:07:02.846Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -320,12 +320,12 @@
     {
       "theme_id": "presidential-commissions-task-forces",
       "theme_name": "Presidential Commissions / Task Forces",
-      "order_count": 40,
+      "order_count": 41,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 23
+          "order_count": 24
         },
         {
           "president_id": "barack-obama",
@@ -338,9 +338,9 @@
           "order_count": 4
         }
       ],
-      "summary": "Executive orders establishing presidential commissions and task forces have served as tools for administrations to address complex policy challenges through focused interagency collaboration. While Obama’s orders often emphasized ethical standards, mental health access, and election administration, Trump’s prolific use of such orders targeted crime reduction, veterans’ empowerment, and regulatory reform, reflecting a broader agenda of institutional review. Biden’s more limited but strategic commissions have sought to tackle Supreme Court reform and worker empowerment, illustrating varied presidential approaches to problem-solving through advisory bodies and task forces.",
-      "potential_impact": "These executive actions aimed to benefit diverse groups including veterans, military personnel, healthcare workers, and Hispanic Americans by addressing health, public safety, and representation concerns. However, some orders raised apprehensions about negative effects on undocumented immigrants, small business owners, and minority communities, due to enforcement or regulatory shifts. Observers also noted potential challenges around transparency, stakeholder inclusion, and the balancing of security interests with human rights, highlighting the delicate impact such commissions can have on vulnerable populations and broader civil rights.",
-      "generated_at": "2026-03-23T04:25:33.227Z",
+      "summary": "Executive orders establishing presidential commissions and task forces have served as a strategic tool across administrations to address complex national challenges through specialized interagency collaboration. The Obama era emphasized bioethical issues, election administration, and law enforcement reform, reflecting a focus on governance and rights. The Trump administration expanded the use of these bodies, targeting public safety, veterans’ affairs, and regulatory reform, often intertwining policy enforcement with ideological priorities. Biden’s fewer but focused commissions have tackled Supreme Court evaluation and worker empowerment, signaling a nuanced approach to institutional scrutiny and labor concerns. These evolving approaches highlight how commissions function as mechanisms for both policy innovation and political signaling.",
+      "potential_impact": "The commissions and task forces aimed to positively influence diverse groups, including veterans, military personnel, healthcare workers, and Hispanic Americans, by addressing targeted issues like mental health, election integrity, and public safety. However, some orders also carried consequences for undocumented immigrants and small business owners, raising concerns about exclusion or increased regulatory burdens. Observers noted challenges in balancing national security with human rights, potential delays in biomedical research due to ethical reviews, and risks that advisory committees might lack sufficient stakeholder input, which could limit their effectiveness in advocating for vulnerable populations or ensuring equitable policy outcomes.",
+      "generated_at": "2026-08-06T15:07:08.301Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1422,6 +1422,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "housing-policy-affordable-housing",
+      "theme_name": "Housing Policy / Affordable Housing",
+      "order_count": 16,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 11
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 4
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive actions on housing policy and affordable housing have reflected varied presidential priorities, with a strong emphasis on urban development, disaster recovery, and tribal community support. Earlier efforts under Obama sought to coordinate urban affairs and address disaster rebuilding, while the Trump administration focused heavily on reducing regulatory barriers and promoting economic revitalization, sometimes linking housing initiatives with broader economic competitiveness. Biden’s singular order highlighted advancing equality, signaling a more inclusive but less frequent approach. These shifts underscore differing strategies in balancing regulatory oversight, community needs, and economic development within housing policy.",
+      "potential_impact": "These executive orders primarily aimed to benefit low-income families, urban residents, tribal communities, and renters by enhancing access to affordable housing and supporting disaster-affected populations. However, concerns arose about bureaucratic delays and inadequate funding potentially impeding timely assistance, with risks of gentrification displacing vulnerable renters. Tribal communities faced challenges in ensuring culturally sensitive engagement and self-governance, while disaster recovery efforts grappled with balancing resilience planning and immediate economic recovery. The complexity of federal coordination raised fears that some marginalized groups might not fully receive intended benefits.",
+      "generated_at": "2026-08-06T15:07:13.794Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "crime-reduction",
       "theme_name": "Crime Reduction",
       "order_count": 15,
@@ -1445,32 +1471,6 @@
       "summary": "Executive action on crime reduction has evolved through contrasting approaches that reflect differing priorities and strategies. Early efforts emphasized reform and building trust between law enforcement and communities, as seen in initiatives to modernize policing practices. Subsequent actions, particularly under one administration, prioritized aggressive crime reduction through expanded law enforcement powers and public safety task forces, often focusing on urban centers and reentry programs. More recent orders have sought to address specific issues such as gun violence, indigenous safety, and school security, blending enforcement with targeted protective measures. This progression highlights a complex balancing act between enhancing public safety and addressing systemic challenges in criminal justice.",
       "potential_impact": "These executive orders aimed to benefit a broad spectrum of groups, including law enforcement officers at various levels, crime victims, and urban communities facing heightened crime rates. However, concerns arose about potential negative consequences for marginalized populations such as undocumented immigrants, low-income families, and certain racial and ethnic groups, who could face increased policing and surveillance. Observers noted risks of over-policing, civil rights infringements, and inadequate support for mental health needs, suggesting that while the policies sought to enhance safety, they also carried the possibility of deepening distrust and systemic inequities in affected communities.",
       "generated_at": "2025-12-15T08:45:50.815Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "housing-policy-affordable-housing",
-      "theme_name": "Housing Policy / Affordable Housing",
-      "order_count": 15,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 10
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 4
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive actions on housing policy and affordable housing reveal varying priorities across administrations, with a strong focus on urban development, disaster recovery, and tribal affairs. Earlier efforts under Obama emphasized coordination through dedicated offices and councils to address urban and Native American housing challenges. The Trump administration expanded these approaches, promoting regulatory reforms and economic revitalization councils aimed at boosting housing supply and investment. Biden’s limited but targeted engagement highlights evolving attention to equality within housing contexts, illustrating a trajectory from infrastructure and economic concerns toward inclusive social equity.",
-      "potential_impact": "These executive orders aimed primarily to benefit low-income families, urban residents, tribal communities, and renters by enhancing housing access and rebuilding efforts. However, concerns arose about bureaucratic complexities potentially delaying aid delivery and the risk of gentrification displacing vulnerable populations. Tribal communities faced challenges balancing self-governance with federal and local priorities, while disaster-affected and rural areas worried about sufficient funding and culturally appropriate support. The interplay of regulatory reforms and economic goals raised questions about equitable outcomes for marginalized groups.",
-      "generated_at": "2026-03-23T04:26:10.429Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4919,5 +4919,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-07-29T15:28:10.130Z"
+  "generated_at": "2026-08-06T15:07:13.795Z"
 }
