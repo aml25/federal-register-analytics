@@ -1,29 +1,9 @@
 {
-  "week": "2026-W32",
-  "date_range": "August 3–9, 2026",
-  "narrative": "During the week of August 3–9, 2026, President Donald Trump issued a single executive order focused on military and housing policy. EO 14417 established the President's Military Spouse Commission, aiming to address challenges faced by military families, including aspects of military readiness, force structure, and affordable housing. This commission is expected to advise on policies supporting military spouses and strengthening the overall military community.",
-  "orders": [
-    {
-      "number": "14417",
-      "title": "Establishing the President's Military Spouse Commission",
-      "url": "https://www.federalregister.gov/documents/2026/08/06/2026-16125/establishing-the-presidents-military-spouse-commission",
-      "president_name": "Donald Trump"
-    }
-  ],
-  "top_themes": [
-    {
-      "id": "military-readiness-force-structure",
-      "name": "Military Readiness / Force Structure"
-    },
-    {
-      "id": "housing-policy-affordable-housing",
-      "name": "Housing Policy / Affordable Housing"
-    },
-    {
-      "id": "presidential-commissions-task-forces",
-      "name": "Presidential Commissions / Task Forces"
-    }
-  ],
-  "generated_at": "2026-08-06T15:07:16.437Z",
-  "model_used": "gpt-4.1-mini"
+  "week": "2026-W33",
+  "date_range": "August 10–16, 2026",
+  "narrative": "",
+  "orders": [],
+  "top_themes": [],
+  "generated_at": "2026-08-10T14:13:38.856Z",
+  "model_used": ""
 }
