@@ -1,0 +1,41 @@
+{
+  "document_number": "2026-16404",
+  "executive_order_number": "14419",
+  "title": "Ending Birth Tourism",
+  "abstract": null,
+  "signing_date": "2026-08-06",
+  "publication_date": "2026-08-11",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/08/11/2026-16404/ending-birth-tourism",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16404.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/11/2026-16404.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Secretaries of State and Homeland Security to take actions to prevent foreigners from entering the U.S. on nonimmigrant visas for the purpose of giving birth to obtain citizenship for their children, a practice known as birth tourism. It empowers these officials to deny visas, revoke travel authorizations, and bar entry for individuals engaged in or facilitating birth tourism to protect the integrity of the immigration system.",
+    "theme_ids": [
+      "visa-policy",
+      "border-security",
+      "citizenship-policy",
+      "homeland-security"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "foreign-nationals-general",
+        "visa-holders-work-student-tourist",
+        "women",
+        "birthright-citizens"
+      ]
+    },
+    "potential_concerns": [
+      "The order may lead to increased visa denials and entry refusals for women traveling on legitimate nonimmigrant visas, raising concerns about fairness and due process under visa-policy and border-security.",
+      "Efforts to crack down on birth tourism could result in invasive scrutiny or profiling of pregnant foreign women at ports of entry, potentially causing undue hardship and violations of privacy rights.",
+      "The policy risks unintended harm to birthright citizens by restricting families from accessing public health services or creating confusion about children's citizenship status, implicating citizenship-policy issues.",
+      "Targeting birth tourism operators might inadvertently push the practice underground, complicating enforcement and straining homeland-security resources without fully eliminating the problem."
+    ],
+    "enriched_at": "2026-08-11T14:13:05.063Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
