@@ -276,6 +276,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "presidential-commissions-task-forces",
+      "theme_name": "Presidential Commissions / Task Forces",
+      "order_count": 42,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 25
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 13
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 4
+        }
+      ],
+      "summary": "Presidential commissions and task forces have served as pivotal mechanisms for addressing complex policy challenges across recent administrations, reflecting evolving priorities and approaches. While Obama’s orders often emphasized ethical oversight, public health, and veteran support through advisory committees, Trump’s prolific use of such bodies targeted law enforcement, election integrity, opioid addiction, and veteran empowerment. Biden’s more selective approach has focused on judicial review and workforce empowerment. This pattern illustrates shifting strategies in leveraging expert groups to shape policy responses to national security, health crises, and social issues.",
+      "potential_impact": "These executive actions aimed to benefit diverse groups including veterans, military personnel, healthcare workers, and various minority populations by directing focused attention and resources. However, concerns arose about the potential adverse effects on undocumented immigrants, small business owners, and certain communities, with some orders raising questions about transparency, stakeholder input, and balancing security with civil rights. The interplay of commissions’ recommendations and implementation challenges also highlighted risks of slowed policy progress and contested impacts on detainees, patients, and cultural institutions.",
+      "generated_at": "2026-08-14T14:09:31.884Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "economic-competitiveness",
       "theme_name": "Economic Competitiveness",
       "order_count": 41,
@@ -315,32 +341,6 @@
       "summary": "The use of executive orders to impose tariffs and duties emerged as a central strategy under the Trump administration, aiming to reshape trade relations and address perceived threats to national security and economic interests. These orders targeted imports linked to illicit drug flows, trade imbalances, and critical industries like minerals and manufacturing. By adjusting tariff rates and enforcing stricter duties, the administration sought to protect domestic production and enforce trade laws more aggressively, reflecting a unilateral approach focused on leveraging economic pressure against key trading partners such as China, Canada, and Mexico.",
       "potential_impact": "These tariff measures were designed to benefit various domestic workforces, including manufacturing and defense industry workers, by fostering a more protected market environment. However, the increased costs associated with tariffs raised concerns about higher prices affecting consumers and small businesses, particularly in border communities reliant on cross-border trade. The policies also posed challenges for law enforcement by complicating cross-border collaboration and potentially exacerbating community tensions. Additionally, some groups, including Hispanic and Latino populations, faced heightened social and economic pressures linked to the orders’ framing of immigration and drug enforcement.",
       "generated_at": "2026-06-10T16:29:42.830Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "presidential-commissions-task-forces",
-      "theme_name": "Presidential Commissions / Task Forces",
-      "order_count": 41,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 24
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 13
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 4
-        }
-      ],
-      "summary": "Executive orders establishing presidential commissions and task forces have served as a strategic tool across administrations to address complex national challenges through specialized interagency collaboration. The Obama era emphasized bioethical issues, election administration, and law enforcement reform, reflecting a focus on governance and rights. The Trump administration expanded the use of these bodies, targeting public safety, veterans’ affairs, and regulatory reform, often intertwining policy enforcement with ideological priorities. Biden’s fewer but focused commissions have tackled Supreme Court evaluation and worker empowerment, signaling a nuanced approach to institutional scrutiny and labor concerns. These evolving approaches highlight how commissions function as mechanisms for both policy innovation and political signaling.",
-      "potential_impact": "The commissions and task forces aimed to positively influence diverse groups, including veterans, military personnel, healthcare workers, and Hispanic Americans, by addressing targeted issues like mental health, election integrity, and public safety. However, some orders also carried consequences for undocumented immigrants and small business owners, raising concerns about exclusion or increased regulatory burdens. Observers noted challenges in balancing national security with human rights, potential delays in biomedical research due to ethical reviews, and risks that advisory committees might lack sufficient stakeholder input, which could limit their effectiveness in advocating for vulnerable populations or ensuring equitable policy outcomes.",
-      "generated_at": "2026-08-06T15:07:08.301Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1132,12 +1132,12 @@
     {
       "theme_id": "public-health-emergency-response",
       "theme_name": "Public Health Emergency Response",
-      "order_count": 18,
+      "order_count": 19,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 7
+          "order_count": 8
         },
         {
           "president_id": "barack-obama",
@@ -1150,9 +1150,9 @@
           "order_count": 5
         }
       ],
-      "summary": "Executive actions addressing public health emergencies have evolved through diverse approaches emphasizing preparedness, response, and resilience. Early efforts under the Obama administration focused on establishing medical countermeasure capabilities and combating infectious diseases like HIV and antibiotic resistance. The Trump administration expanded this framework by targeting opioid addiction, enhancing rural health access, and securing pharmaceutical supply chains amid emerging crises. The Biden administration has prioritized COVID-19 response measures, vaccine mandates, and strengthening federal advisory structures, reflecting a shift toward coordinated, science-driven pandemic management. Across administrations, these policies reflect ongoing attempts to balance rapid response with systemic health improvements.",
-      "potential_impact": "These executive orders aimed to benefit a broad spectrum of populations including patients requiring urgent medical interventions, healthcare workers on the front lines, and vulnerable groups such as low-income families, veterans, and individuals with mental health conditions. However, concerns have been raised about the potential for increased burdens on pharmaceutical manufacturers, operational strains on healthcare providers, and civil liberties implications from expanded quarantine powers. Additionally, coordination complexities risk delaying critical services, while disparities in access and privacy issues may disproportionately affect marginalized communities and those outside comprehensive healthcare coverage.",
-      "generated_at": "2025-12-15T08:45:22.075Z",
+      "summary": "Executive action on public health emergencies has evolved through efforts to enhance medical countermeasure availability, disease prevention, and healthcare system resilience. Earlier orders laid groundwork for rapid response to biological threats and combating antibiotic resistance, while subsequent directives addressed emerging crises like the opioid epidemic and COVID-19. Approaches balanced expanding access to essential medicines and telehealth with strengthening supply chains and updating quarantine protocols, reflecting shifting priorities across administrations to safeguard national health security and adapt to new public health challenges.",
+      "potential_impact": "These orders aimed to benefit a broad spectrum of individuals including patients, healthcare workers, and vulnerable groups such as low-income families and racial minorities, seeking to improve access to treatments and preventive services. However, concerns emerged over potential burdens on pharmaceutical manufacturers, operational strains on healthcare providers, and civil liberties implications tied to quarantine enforcement. Coordination complexities and data privacy issues also posed risks of uneven service delivery, highlighting challenges in equitably protecting diverse populations during health emergencies.",
+      "generated_at": "2026-08-14T14:09:34.819Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1927,6 +1927,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "religious-liberty",
+      "theme_name": "Religious Liberty",
+      "order_count": 12,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 11
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive actions on religious liberty have predominantly emerged from the Trump administration, which issued 11 of the 12 orders focused on expanding protections for faith-based communities and organizations. These orders sought to safeguard religious expression within federally funded programs, promote the establishment of faith-focused offices, and address perceived biases, especially favoring Christian groups. In contrast, the Obama administration’s more limited approach emphasized partnerships with faith-based organizations while maintaining non-discrimination principles. The differing approaches highlight ongoing tensions between enhancing religious accommodations and ensuring broad, secular inclusivity in government policy.",
+      "potential_impact": "These executive orders aimed to benefit a range of faith-based groups, particularly Christian communities, religious organizations, and vulnerable populations like children and low-income families who engage with faith-affiliated services. However, concerns arose about potential discrimination in federally funded programs, challenges to the separation of church and state, and the possibility of unequal treatment for non-religious or secular populations. Critics also noted risks for patients, women, LGBTQ+ individuals, and students, fearing that expanded religious exemptions might restrict access to healthcare, education, and inclusive federal employment opportunities.",
+      "generated_at": "2026-08-14T14:09:38.617Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "data-privacy",
       "theme_name": "Data Privacy",
       "order_count": 11,
@@ -2075,27 +2096,6 @@
       "summary": "Executive orders addressing mental health have predominantly focused on supporting veterans, military personnel, and individuals with mental health conditions through expanded services, suicide prevention, and reentry programs. While Obama initiated efforts to improve access for veterans, subsequent administrations, especially under Trump, emphasized coordination among federal agencies and targeted interventions for military families and formerly incarcerated individuals. Biden’s contributions further highlighted equality and community safety, illustrating an evolving, multifaceted approach to mental health policy that balances clinical care with broader social determinants.",
       "potential_impact": "These orders aimed to benefit a diverse range of groups, notably veterans transitioning to civilian life, rural and low-income communities, and those facing homelessness or domestic violence, by enhancing access to mental health resources and support networks. However, concerns linger about bureaucratic hurdles, uneven resource distribution, and potential stigmatization, particularly for military populations and formerly incarcerated individuals. Additionally, challenges in reaching underserved veterans and ensuring sustained funding raise questions about the long-term effectiveness and inclusivity of these initiatives.",
       "generated_at": "2026-04-22T14:30:41.048Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "religious-liberty",
-      "theme_name": "Religious Liberty",
-      "order_count": 11,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 10
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive orders on religious liberty have predominantly emerged under the Trump administration, which issued ten of the eleven orders, emphasizing the protection and promotion of faith-based organizations, particularly those aligned with Christian communities. These orders sought to expand the role of religious groups in federal partnerships, safeguard religious speech, and establish dedicated federal offices to support faith initiatives. In contrast, the Obama administration pursued a more limited approach, focusing on foundational principles for partnering with faith-based entities. The differing approaches reflect broader debates over the balance between religious expression and governmental neutrality.",
-      "potential_impact": "These executive actions aimed to benefit faith-based communities by easing restrictions and enhancing federal collaboration, potentially increasing resources for religious organizations serving vulnerable populations such as low-income families and children. However, concerns arose about the potential for religious exemptions to affect access to healthcare and social services, especially for women, LGBTQ+ individuals, and those reliant on ACA marketplace coverage. Observers also noted risks of blurred lines between church and state, potential discrimination by faith-based providers, and challenges in maintaining equitable treatment across diverse religious and non-religious groups.",
-      "generated_at": "2026-06-03T17:56:36.299Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -2396,6 +2396,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "k-12-education-policy",
+      "theme_name": "K-12 Education Policy",
+      "order_count": 10,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 6
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 2
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "Executive actions on K-12 education policy reveal divergent approaches reflecting broader political priorities. The Obama administration emphasized targeted initiatives to enhance educational outcomes for Hispanic and African American students, focusing on equity and cultural inclusion. In contrast, the Trump administration prioritized school choice, discipline reforms, and economic opportunity zones, aiming to expand educational freedom and community revitalization. Biden’s orders have sought to advance equality and safety within schools, addressing issues such as LGBTQ+ rights and firearm threats, illustrating a continued focus on inclusion and student wellbeing amid evolving social challenges.",
+      "potential_impact": "These executive orders aimed to benefit a wide range of groups including K-12 students, low-income families, educators, and minority communities such as Hispanic, African American, and tribal populations. While they sought to expand opportunities and improve equity, concerns arose about uneven resource distribution favoring urban or well-resourced areas, potential resistance from school officials, and the risk of exacerbating disparities through gentrification or bureaucratic delays. The balancing of increased educational freedom with protections for vulnerable communities remains a complex challenge shaping who ultimately gains or loses from these policies.",
+      "generated_at": "2026-08-14T14:09:42.222Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "educational-excellence-initiatives-by-demographic",
       "theme_name": "Educational Excellence Initiatives (by demographic)",
       "order_count": 9,
@@ -2466,32 +2492,6 @@
       "summary": "Executive orders on intelligence operations reflect a complex balancing act between enhancing national security and imposing rigorous oversight. Across administrations, efforts ranged from Barack Obama’s focus on lawful interrogation standards and classification protocols to Biden’s emphasis on safeguarding signals intelligence and restricting risky commercial spyware. Trump’s directives often targeted internal federal governance, including labor relations within security agencies. These varied approaches illustrate ongoing tensions between operational efficacy, legal constraints, and transparency in intelligence activities.",
       "potential_impact": "These orders aimed to support intelligence personnel, military members, and security clearance holders by defining lawful practices and strengthening safeguards, yet they also introduced challenges such as increased bureaucratic burdens and stricter compliance demands. While seeking to protect U.S. citizens and enhance security, concerns arose about limiting interrogation methods, constraining whistleblowers, and reducing transparency—factors affecting journalists, federal employees, and even certain foreign actors. The interplay of enhanced oversight with operational flexibility shaped who stood to benefit or face restrictions under these policies.",
       "generated_at": "2025-12-15T08:47:30.801Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "k-12-education-policy",
-      "theme_name": "K-12 Education Policy",
-      "order_count": 9,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 5
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 2
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 2
-        }
-      ],
-      "summary": "Executive actions addressing K-12 education policy reveal contrasting priorities across administrations, reflecting broader debates over educational equity and school governance. Obama’s initiatives targeted educational excellence for Hispanic and African American communities, aiming to close achievement gaps through focused support. Trump’s orders emphasized expanding school choice, promoting discipline reforms, and rolling back what was termed ‘radical indoctrination,’ signaling a push toward parental control and conservative education values. Biden’s approach intertwined educational equity with broader civil rights protections and school safety, highlighting inclusivity and anti-discrimination efforts. These varying strategies underscore ongoing tensions between targeted support for underserved populations and debates over curriculum content and school autonomy.",
-      "potential_impact": "The executive orders aimed to benefit K-12 students broadly, with particular attention to low-income families, educators, and historically marginalized communities such as Hispanic and African American students, as well as tribal and private school populations. However, concerns arose regarding uneven resource distribution, bureaucratic hurdles, and resistance from educational stakeholders, which could limit effectiveness. Additionally, some actions raised apprehensions about exacerbating disparities or marginalizing certain groups, including public school communities and LGBTQ+ individuals, illustrating the complex balance between fostering opportunity and addressing equity in diverse educational landscapes.",
-      "generated_at": "2025-12-15T08:47:39.173Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -2694,6 +2694,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "vaccine-policy",
+      "theme_name": "Vaccine Policy",
+      "order_count": 8,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 6
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "Executive actions on vaccine policy have navigated the complex balance between promoting public health and managing workforce mandates. The Trump administration largely focused on enhancing vaccine development and access, especially through modernizing influenza vaccines and scaling domestic production, while also addressing childhood immunization standards. In contrast, the Biden administration concentrated on COVID-19 vaccination requirements for federal employees, first mandating and later easing these mandates, reflecting shifting priorities as the pandemic evolved. These differing approaches highlight the tension between public health imperatives and administrative flexibility in federal vaccination policy.",
+      "potential_impact": "These orders sought to benefit a wide range of populations, including federal employees, children, healthcare workers, and vulnerable groups, aiming to improve vaccine access and uptake. However, they also raised concerns about potential negative effects, such as increased burdens on manufacturing workers, disruption for military and veterans, and challenges for those with objections to mandates, potentially affecting workforce morale and equity. Additionally, the emphasis on prioritizing citizens and rapid vaccine rollout posed risks of uneven distribution, logistical hurdles, and trust issues among diverse communities and public sectors.",
+      "generated_at": "2026-08-14T14:09:45.478Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "economic-recovery-post-crisis",
       "theme_name": "Economic Recovery (Post-Crisis)",
       "order_count": 7,
@@ -2879,27 +2900,6 @@
       "summary": "Executive orders on cryptocurrency and digital assets reveal contrasting priorities between administrations. The Trump era emphasized strict sanctions targeting Venezuelan digital currencies and robust enforcement against fraud, while also promoting strategic digital asset reserves and market integrity. The Biden administration’s approach focused on responsible development and integration of digital assets within regulatory frameworks, signaling a shift toward cautious innovation balanced with consumer protection. Together, these policies illustrate evolving efforts to harness digital finance's potential amid concerns about illicit use and market stability.",
       "potential_impact": "These executive actions aimed to benefit cryptocurrency holders, financial workers, and entrepreneurs by fostering market integrity and innovation, but also imposed compliance challenges that could hinder startups and investors. Vulnerable groups like seniors, veterans, and low-income individuals stood to gain from fraud protections yet risked reduced access to financial services. Meanwhile, sanctions and regulatory scrutiny raised concerns about economic hardship for affected foreign nationals, privacy intrusions for users, and potential constraints on innovation within the growing digital asset ecosystem.",
       "generated_at": "2026-05-22T15:45:23.829Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "vaccine-policy",
-      "theme_name": "Vaccine Policy",
-      "order_count": 7,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 5
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 2
-        }
-      ],
-      "summary": "Executive actions on vaccine policy have reflected evolving priorities around public health and workforce management. Early orders emphasized modernizing vaccine production and ensuring broad access, particularly during the COVID-19 pandemic, focusing on federal employees, contractors, and vulnerable populations such as children and seniors. Later directives shifted toward mandating COVID-19 vaccinations for federal workers before some orders moved to relax or revoke those requirements, illustrating a complex balance between public health goals and administrative feasibility amid changing pandemic conditions.",
-      "potential_impact": "These orders aimed to benefit a diverse range of populations, including federal employees, healthcare workers, children, and vulnerable groups like veterans and seniors, by enhancing vaccine access and coverage. However, mandates raised concerns about workforce morale and compliance, particularly among employees with medical or religious objections. Additionally, challenges around equitable distribution, potential overburdening of manufacturing workers, and the risk of uneven protections following mandate rollbacks highlighted tensions between safeguarding public health and addressing the varied needs and rights of affected communities.",
-      "generated_at": "2026-06-03T17:56:41.058Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4919,5 +4919,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-08-11T14:13:51.153Z"
+  "generated_at": "2026-08-14T14:09:45.479Z"
 }

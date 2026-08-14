@@ -5,10 +5,10 @@
       "president_name": "Donald Trump",
       "term_start": 2025,
       "term_end": "present",
-      "order_count": 269,
-      "summary": "Since taking office in 2025, President Trump’s executive orders have largely revolved around bolstering America’s economic and national security posture, emphasizing tariffs, deregulation, and government efficiency. Early efforts focused on streamlining federal operations and tightening border and homeland security, while subsequent orders shifted toward reinforcing the defense industrial base, promoting energy independence, and asserting an 'America First' approach in trade and foreign relations. The administration also prioritized reshaping federal workforce policies and revoking previous executive actions deemed counterproductive, signaling a concerted effort to realign government functions with its policy vision.",
-      "potential_impact": "These executive actions aim to benefit small business owners, active military personnel, and manufacturing workers by fostering a more competitive and secure economic environment. However, the aggressive stance on tariffs and deregulation, alongside tightened immigration and refugee policies, raises concerns about adverse effects on consumers, undocumented immigrants, and environmental justice communities. The rollback of diversity and equity programs and environmental protections could disproportionately affect racial and ethnic minorities, women, and LGBTQ+ individuals, while the emphasis on national security and border enforcement may strain relationships with foreign nationals and complicate international cooperation.",
-      "generated_at": "2026-08-11T14:13:17.169Z",
+      "order_count": 270,
+      "summary": "President Donald Trump's executive orders reflect a robust agenda centered on bolstering national security, enhancing government efficiency, and reshaping economic policy with an America First ethos. Early efforts focus heavily on border and homeland security, while regulatory reform and deregulation emerge as key tools to stimulate economic competitiveness and energy independence. The administration consistently prioritizes military readiness and defense industrial base revitalization alongside assertive trade policies and tariff adjustments, underscoring a strategic drive to protect domestic industries and reinforce sovereignty. These orders also emphasize undoing prior policies perceived as harmful, aiming to realign federal governance with conservative principles.",
+      "potential_impact": "The administration's executive actions aimed to benefit small business owners, military personnel, and U.S. citizens broadly by promoting economic growth, national security, and streamlined government operations. However, these measures raised concerns for consumers facing higher tariffs, undocumented immigrants confronting stricter enforcement, and environmental justice communities experiencing rollbacks of climate protections. Critics also highlight potential adverse effects on racial and ethnic minorities, LGBTQ+ individuals, and low-income families due to rescinded equity initiatives. The emphasis on America First policies and reduced international engagement may challenge foreign nationals and diplomatic relationships, while deregulation and order revocations pose risks to long-term social equity and public health safeguards.",
+      "generated_at": "2026-08-14T14:09:23.489Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -56,5 +56,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-08-11T14:13:17.170Z"
+  "generated_at": "2026-08-14T14:09:23.489Z"
 }

@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 5
+          "order_count": 6
         }
       ],
-      "total_order_count": 5,
-      "summary": "In the third quarter of 2026, President Trump signed five executive orders that prioritized strengthening military readiness and reshaping citizenship policies. Efforts to secure defense supply chains and ensure domestic sourcing of critical materials aimed to bolster the defense industrial base, while emphasizing patriotic narratives through reforms at the Smithsonian reflected an intent to promote a particular vision of American heritage. Simultaneously, policies targeting citizenship, including measures to end birth tourism, underscored a focus on tightening immigration-related definitions and protections. The creation of a Military Spouse Commission highlighted attention to the unique challenges faced by military families, weaving together themes of national security, cultural identity, and social support.",
-      "potential_impact": "These orders sought to benefit active-duty military personnel, veterans, defense industry workers, and military families by enhancing supply chain security and addressing military spouse concerns. However, the emphasis on strict domestic sourcing and contractor oversight raised concerns about increased burdens on small businesses and federal contractors. Citizenship-related measures potentially disadvantaged birthright citizens and foreign nationals, while efforts to recast American history through a patriotic lens risked marginalizing Native American, African American, and Hispanic communities. These dynamics suggested a complex impact landscape where advances in military readiness and cultural reaffirmation intersected with social and racial tensions.",
-      "generated_at": "2026-08-11T14:13:24.956Z",
+      "total_order_count": 6,
+      "summary": "In Q3 2026, President Trump concentrated on reinforcing national defense and shaping American identity through six executive orders. Efforts to secure critical minerals and strengthen the defense industrial base underscored a drive to enhance military readiness and supply chain security, while the establishment of a Military Spouse Commission aimed to address the unique challenges faced by families of service members. Simultaneously, the administration sought to redefine citizenship policies, notably targeting birth tourism, and pursued a patriotic reinterpretation of cultural institutions like the Smithsonian. Childhood vaccine recommendations rounded out a quarter focused on bolstering both national security and traditional American heritage.",
+      "potential_impact": "These orders were designed to benefit active military personnel, veterans, defense industry workers, and military families by improving readiness and support structures. However, the emphasis on strict domestic sourcing and supply chain scrutiny raised concerns about increased burdens on federal contractors and small defense businesses, potentially slowing production. The patriotic lens applied to cultural institutions risked marginalizing Native American, African American, and Hispanic narratives, while citizenship-related measures threatened birthright citizens and foreign nationals. Observers also worried that limited representation within the Military Spouse Commission could overlook diverse familial experiences, highlighting tensions between national security aims and inclusivity.",
+      "generated_at": "2026-08-14T14:09:27.574Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1014,5 +1014,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-08-11T14:13:24.957Z"
+  "generated_at": "2026-08-14T14:09:27.574Z"
 }

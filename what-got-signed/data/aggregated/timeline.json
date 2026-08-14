@@ -6,11 +6,15 @@
       "quarter_name": "Q3 2026",
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
-      "order_count": 5,
+      "order_count": 6,
       "top_themes": [
         {
           "id": "military-readiness-force-structure",
           "name": "Military Readiness / Force Structure"
+        },
+        {
+          "id": "presidential-commissions-task-forces",
+          "name": "Presidential Commissions / Task Forces"
         },
         {
           "id": "citizenship-policy",
@@ -23,19 +27,16 @@
         {
           "id": "critical-minerals-supply-chain-security",
           "name": "Critical Minerals / Supply Chain Security"
-        },
-        {
-          "id": "supply-chain-security",
-          "name": "Supply Chain Security"
         }
       ],
-      "theme_summary": "Donald Trump signed 5 executive orders focused on the themes of military readiness / force structure, citizenship policy, defense industrial base, and 2 others.",
+      "theme_summary": "Donald Trump signed 6 executive orders focused on the themes of military readiness / force structure, presidential commissions / task forces, citizenship policy, and 2 others.",
       "order_ids": [
         "14415",
         "14416",
         "14417",
         "14418",
-        "14419"
+        "14419",
+        "14420"
       ]
     },
     {
@@ -2685,5 +2686,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-11T14:13:12.742Z"
+  "generated_at": "2026-08-14T14:09:18.153Z"
 }

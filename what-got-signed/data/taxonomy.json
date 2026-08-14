@@ -2188,6 +2188,15 @@
         "eo_title": "Removing Unnecessary and Counterproductive Restrictions on Access to Federal Lands",
         "justification": "This group represents people who use federal lands for hiking and other forms of non-motorized recreation that may be negatively impacted by increased off-road vehicle access, but is not explicitly covered in the existing taxonomy.",
         "suggested_at": "2026-06-03"
+      },
+      {
+        "name": "parents",
+        "suggested_category": "Demographic Groups - Other (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14420",
+        "eo_title": "Delivering Gold Standard Childhood Vaccine Recommendations for Americans",
+        "justification": "Parents as a distinct group making vaccination decisions are central to this policy's focus on parental choice and vaccine exemptions but are not explicitly listed in the taxonomy.",
+        "suggested_at": "2026-08-14"
       }
     ]
   }
