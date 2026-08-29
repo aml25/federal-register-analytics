@@ -5,10 +5,10 @@
       "president_name": "Donald Trump",
       "term_start": 2025,
       "term_end": "present",
-      "order_count": 270,
-      "summary": "President Donald Trump's executive orders reflect a robust agenda centered on bolstering national security, enhancing government efficiency, and reshaping economic policy with an America First ethos. Early efforts focus heavily on border and homeland security, while regulatory reform and deregulation emerge as key tools to stimulate economic competitiveness and energy independence. The administration consistently prioritizes military readiness and defense industrial base revitalization alongside assertive trade policies and tariff adjustments, underscoring a strategic drive to protect domestic industries and reinforce sovereignty. These orders also emphasize undoing prior policies perceived as harmful, aiming to realign federal governance with conservative principles.",
-      "potential_impact": "The administration's executive actions aimed to benefit small business owners, military personnel, and U.S. citizens broadly by promoting economic growth, national security, and streamlined government operations. However, these measures raised concerns for consumers facing higher tariffs, undocumented immigrants confronting stricter enforcement, and environmental justice communities experiencing rollbacks of climate protections. Critics also highlight potential adverse effects on racial and ethnic minorities, LGBTQ+ individuals, and low-income families due to rescinded equity initiatives. The emphasis on America First policies and reduced international engagement may challenge foreign nationals and diplomatic relationships, while deregulation and order revocations pose risks to long-term social equity and public health safeguards.",
-      "generated_at": "2026-08-14T14:09:23.489Z",
+      "order_count": 271,
+      "summary": "President Trump’s executive orders reveal a determined effort to reshape federal governance through aggressive deregulation, trade protectionism, and a robust emphasis on national security. Early in his term, he prioritizes government efficiency alongside tightening border and homeland security, signaling a focus on structural control and sovereignty. As his tenure progresses, tariffs and national emergencies become more prominent, reflecting a stance favoring economic nationalism and preparedness. His approach aims to bolster military readiness, invigorate the defense industrial base, and assert an 'America First' philosophy that permeates environmental, trade, and foreign policy decisions.",
+      "potential_impact": "These executive actions primarily target enhancing conditions for small businesses, military personnel, and manufacturing workers, positioning them as beneficiaries of deregulation and economic nationalism. However, the sweeping rollbacks on diversity programs, immigration protections, and environmental policies raise concerns about disproportionate adverse effects on racial and ethnic minorities, undocumented immigrants, and environmental justice communities. Critics worry that heightened border enforcement and reduced federal workforce protections could marginalize vulnerable populations, while restrictions on government speech moderation and international engagement may complicate social cohesion and diplomatic relations, affecting a broad spectrum of U.S. residents and global partners.",
+      "generated_at": "2026-08-29T16:55:37.401Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -56,5 +56,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-08-14T14:09:23.489Z"
+  "generated_at": "2026-08-29T16:55:37.402Z"
 }

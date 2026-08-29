@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 6
+          "order_count": 7
         }
       ],
-      "total_order_count": 6,
-      "summary": "In Q3 2026, President Trump concentrated on reinforcing national defense and shaping American identity through six executive orders. Efforts to secure critical minerals and strengthen the defense industrial base underscored a drive to enhance military readiness and supply chain security, while the establishment of a Military Spouse Commission aimed to address the unique challenges faced by families of service members. Simultaneously, the administration sought to redefine citizenship policies, notably targeting birth tourism, and pursued a patriotic reinterpretation of cultural institutions like the Smithsonian. Childhood vaccine recommendations rounded out a quarter focused on bolstering both national security and traditional American heritage.",
-      "potential_impact": "These orders were designed to benefit active military personnel, veterans, defense industry workers, and military families by improving readiness and support structures. However, the emphasis on strict domestic sourcing and supply chain scrutiny raised concerns about increased burdens on federal contractors and small defense businesses, potentially slowing production. The patriotic lens applied to cultural institutions risked marginalizing Native American, African American, and Hispanic narratives, while citizenship-related measures threatened birthright citizens and foreign nationals. Observers also worried that limited representation within the Military Spouse Commission could overlook diverse familial experiences, highlighting tensions between national security aims and inclusivity.",
-      "generated_at": "2026-08-14T14:09:27.574Z",
+      "total_order_count": 7,
+      "summary": "In the third quarter of 2026, President Trump concentrated executive actions on strengthening national defense and shaping American identity. Two orders targeted military readiness and the defense industrial base, emphasizing securing supply chains for critical materials to ensure domestic acquisition and operational continuity. Complementing these were initiatives to bolster support for military families through a newly established Military Spouse Commission and efforts to affirm citizenship policies, including measures aimed at curbing birth tourism. Cultural priorities surfaced with directives to restore trust in the Smithsonian Institution via patriotic reinterpretations and historical commemorations, while public health gained attention through enhanced childhood vaccine recommendations. Together, these orders reflect a focus on fortifying defense capabilities, reinforcing American heritage, and addressing societal health concerns amid evolving geopolitical challenges.",
+      "potential_impact": "These executive orders aimed to benefit active military personnel, defense industry workers, veterans, and military families by improving supply chain security and support structures. However, the emphasis on strict domestic sourcing and contractor oversight raised concerns about increased costs and operational burdens for federal contractors and small businesses. Measures restricting birthright citizenship and excluding foreign nationals particularly affected immigrant communities, including visa holders and racial minorities such as African Americans, Hispanic/Latino Americans, and Native Americans. The Smithsonian's patriotic reframing risked marginalizing diverse historical narratives, potentially alienating minority populations seeking inclusive representation. Meanwhile, military spouses from underrepresented groups faced potential underrepresentation in new policy discussions, highlighting challenges in balancing national security with social inclusivity.",
+      "generated_at": "2026-08-29T16:55:41.710Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1014,5 +1014,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-08-14T14:09:27.574Z"
+  "generated_at": "2026-08-29T16:55:41.710Z"
 }

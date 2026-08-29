@@ -1,9 +1,37 @@
 {
   "week": "2026-W35",
   "date_range": "August 24–30, 2026",
-  "narrative": "",
-  "orders": [],
-  "top_themes": [],
-  "generated_at": "2026-08-24T13:42:22.668Z",
-  "model_used": ""
+  "narrative": "During the week of August 24–30, 2026, President Donald Trump signed a single executive order, EO 14421, which declared a national emergency to secure the United States bulk-power system. This order focused on protecting critical infrastructure by addressing cybersecurity threats to energy infrastructure and enhancing the security of the defense industrial base and related supply chains. The measure aimed to strengthen national security through improved resilience of the country’s power grid.",
+  "orders": [
+    {
+      "number": "14421",
+      "title": "Declaring a National Emergency To Secure the United States Bulk-Power System",
+      "url": "https://www.federalregister.gov/documents/2026/08/31/2026-17843/declaring-a-national-emergency-to-secure-the-united-states-bulk-power-system",
+      "president_name": "Donald Trump"
+    }
+  ],
+  "top_themes": [
+    {
+      "id": "critical-infrastructure-protection",
+      "name": "Critical Infrastructure Protection"
+    },
+    {
+      "id": "cybersecurity-national-security",
+      "name": "Cybersecurity (National Security)"
+    },
+    {
+      "id": "energy-infrastructure",
+      "name": "Energy Infrastructure"
+    },
+    {
+      "id": "defense-industrial-base",
+      "name": "Defense Industrial Base"
+    },
+    {
+      "id": "supply-chain-security",
+      "name": "Supply Chain Security"
+    }
+  ],
+  "generated_at": "2026-08-29T16:56:01.084Z",
+  "model_used": "gpt-4.1-mini"
 }
