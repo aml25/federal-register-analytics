@@ -6,7 +6,7 @@
       "quarter_name": "Q3 2026",
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
-      "order_count": 7,
+      "order_count": 8,
       "top_themes": [
         {
           "id": "military-readiness-force-structure",
@@ -21,15 +21,15 @@
           "name": "Supply Chain Security"
         },
         {
-          "id": "presidential-commissions-task-forces",
-          "name": "Presidential Commissions / Task Forces"
+          "id": "american-heritage-patriotism",
+          "name": "American Heritage / Patriotism"
         },
         {
-          "id": "citizenship-policy",
-          "name": "Citizenship Policy"
+          "id": "historical-commemorations",
+          "name": "Historical Commemorations"
         }
       ],
-      "theme_summary": "Donald Trump signed 7 executive orders focused on the themes of military readiness / force structure, defense industrial base, supply chain security, and 2 others.",
+      "theme_summary": "Donald Trump signed 8 executive orders focused on the themes of military readiness / force structure, defense industrial base, supply chain security, and 2 others.",
       "order_ids": [
         "14415",
         "14416",
@@ -37,7 +37,8 @@
         "14418",
         "14419",
         "14420",
-        "14421"
+        "14421",
+        "14422"
       ]
     },
     {
@@ -2687,5 +2688,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-29T16:55:34.187Z"
+  "generated_at": "2026-09-02T16:55:21.156Z"
 }

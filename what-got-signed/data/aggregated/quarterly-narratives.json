@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 7
+          "order_count": 8
         }
       ],
-      "total_order_count": 7,
-      "summary": "In the third quarter of 2026, President Trump concentrated executive actions on strengthening national defense and shaping American identity. Two orders targeted military readiness and the defense industrial base, emphasizing securing supply chains for critical materials to ensure domestic acquisition and operational continuity. Complementing these were initiatives to bolster support for military families through a newly established Military Spouse Commission and efforts to affirm citizenship policies, including measures aimed at curbing birth tourism. Cultural priorities surfaced with directives to restore trust in the Smithsonian Institution via patriotic reinterpretations and historical commemorations, while public health gained attention through enhanced childhood vaccine recommendations. Together, these orders reflect a focus on fortifying defense capabilities, reinforcing American heritage, and addressing societal health concerns amid evolving geopolitical challenges.",
-      "potential_impact": "These executive orders aimed to benefit active military personnel, defense industry workers, veterans, and military families by improving supply chain security and support structures. However, the emphasis on strict domestic sourcing and contractor oversight raised concerns about increased costs and operational burdens for federal contractors and small businesses. Measures restricting birthright citizenship and excluding foreign nationals particularly affected immigrant communities, including visa holders and racial minorities such as African Americans, Hispanic/Latino Americans, and Native Americans. The Smithsonian's patriotic reframing risked marginalizing diverse historical narratives, potentially alienating minority populations seeking inclusive representation. Meanwhile, military spouses from underrepresented groups faced potential underrepresentation in new policy discussions, highlighting challenges in balancing national security with social inclusivity.",
-      "generated_at": "2026-08-29T16:55:41.710Z",
+      "total_order_count": 8,
+      "summary": "In the third quarter of 2026, President Trump concentrated executive actions on strengthening national defense and cultivating a patriotic narrative. Orders prioritized securing critical supply chains and bolstering the defense industrial base to enhance military readiness, while also establishing commissions aimed at supporting military spouses. Simultaneously, efforts to reaffirm traditional notions of American citizenship and heritage surfaced through initiatives addressing birthright citizenship and reshaping historical commemorations, reflecting a broader emphasis on national identity and cultural preservation.",
+      "potential_impact": "These executive orders sought to benefit active military personnel, defense industry and manufacturing workers, veterans, and military families by aiming to improve supply chain security and support structures. However, measures restricting birthright citizenship and tightening supply chain regulations raised concerns among foreign nationals, federal contractors, and diverse minority communities, including Native Americans, African Americans, and Hispanic Americans. Critics worried that a patriotic framing of history might marginalize these groups’ narratives, while increased regulatory burdens and enforcement could challenge small businesses and large corporations involved in defense contracting.",
+      "generated_at": "2026-09-02T16:55:28.130Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1014,5 +1014,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-08-29T16:55:41.710Z"
+  "generated_at": "2026-09-02T16:55:28.130Z"
 }

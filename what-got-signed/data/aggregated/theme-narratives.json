@@ -984,6 +984,22 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "american-heritage-patriotism",
+      "theme_name": "American Heritage / Patriotism",
+      "order_count": 21,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 21
+        }
+      ],
+      "summary": "Under the Trump administration, executive orders themed around American heritage and patriotism emphasized promoting a traditional and symbolically charged vision of national identity. These policies sought to reshape civic education by endorsing patriotic curricula and rejecting critical perspectives on U.S. history, while also reinforcing patriotic symbolism across federal agencies and public programs. Efforts to restore historical names, establish commissions, and mandate nationalistic branding reflected a focus on celebrating an idealized American greatness, often privileging conventional narratives over inclusive historical complexity.",
+      "potential_impact": "These orders aimed to bolster patriotism among military personnel, veterans, and K-12 educational communities, intending to foster national pride and unity. However, critics raised concerns that such measures might marginalize minority groups by downplaying systemic injustices and limiting academic freedom. The emphasis on traditional symbolism and singular historical narratives risked alienating diverse populations and educators seeking comprehensive representation, while also potentially politicizing public institutions and international aid efforts, affecting inclusiveness and operational neutrality.",
+      "generated_at": "2026-09-02T16:55:30.870Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "transportation-infrastructure",
       "theme_name": "Transportation Infrastructure",
       "order_count": 20,
@@ -1012,22 +1028,6 @@
       "summary": "Executive action on transportation infrastructure has evolved to balance labor relations, operational oversight, and safety regulations. While earlier orders focused on administrative continuity, recent presidencies have frequently employed emergency boards to mediate railroad labor disputes, reflecting ongoing tensions between labor and management. Efforts also included advancing infrastructure advisory bodies and addressing safety concerns like distracted driving. The Trump administration emphasized infrastructure development and event-related coordination, whereas the Obama and Biden administrations concentrated more on resolving labor conflicts, illustrating varied approaches to maintaining transportation functionality and workforce stability.",
       "potential_impact": "These orders aimed primarily to support transportation and union workers by safeguarding labor conditions and improving workplace safety, yet they also imposed constraints that at times limited negotiation flexibility and operational responsiveness. Urban and environmental justice communities appeared in considerations but faced potential adverse effects alongside large corporate employees and suburban populations. Concerns about leadership succession and enforcement fairness highlighted risks of management instability and uneven policy application, affecting federal employees, contractors, and transportation workers reliant on consistent infrastructure governance.",
       "generated_at": "2026-02-09T03:31:29.445Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "american-heritage-patriotism",
-      "theme_name": "American Heritage / Patriotism",
-      "order_count": 20,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 20
-        }
-      ],
-      "summary": "Throughout the Trump administration, executive actions under the American Heritage and Patriotism theme sought to reinforce traditional symbols, narratives, and institutions that reflect a particular vision of national pride. These orders encompassed efforts to reshape historical education through commissions and curriculum directives, promote patriotic symbolism in federal agencies and public events, and restore or emphasize institutions tied to America’s military and cultural legacy. The approach prioritized a unifying, valorizing national story while often rejecting critical or progressive perspectives on history and identity, embedding patriotism within federal policy and public education frameworks.",
-      "potential_impact": "These executive orders aimed to benefit military personnel, veterans, educators, and students by fostering a sense of national pride and continuity with American traditions. However, the emphasis on a singular patriotic narrative raised concerns about marginalizing diverse communities, including racial and ethnic minorities, women, and LGBTQ+ individuals, whose histories and experiences may be downplayed or excluded. Critics worried that the policies could politicize education, constrain academic freedom, and create cultural tensions, while also imposing symbolic changes that might alienate segments of the population and complicate operational practices for organizations involved in federal and public initiatives.",
-      "generated_at": "2026-07-29T15:28:03.971Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -2177,6 +2177,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "historical-commemorations",
+      "theme_name": "Historical Commemorations",
+      "order_count": 11,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 9
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 2
+        }
+      ],
+      "summary": "Executive actions on historical commemorations have reflected divergent presidential priorities, with a majority under the Trump administration focusing on patriotic narratives, such as establishing the 1776 Commission and emphasizing traditional American history. These orders often sought to close federal agencies on symbolic dates and reframe historical education by promoting nationalistic perspectives. In contrast, Biden’s orders have highlighted inclusive recognition, notably advancing women’s history and intersectional representation. Together, these approaches reveal ongoing tensions between promoting unifying historical pride and addressing the complex, multifaceted narratives of America’s past.",
+      "potential_impact": "These executive orders aimed to influence educational content, cultural institutions, and public commemorations, affecting diverse groups including students, tribal communities, and veterans. While some sought to elevate underrepresented histories, concerns arose about marginalizing African American, Native American, Hispanic, and multiracial populations by downplaying systemic injustices. Federal employees faced operational challenges from commemorative closures, while educators and families navigated contested historical interpretations. The interplay between patriotic symbolism and inclusive representation highlights the delicate balance in shaping collective memory and identity.",
+      "generated_at": "2026-09-02T16:55:33.143Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "export-import-policy",
       "theme_name": "Export-Import Policy",
       "order_count": 10,
@@ -2372,27 +2393,6 @@
       "summary": "Executive actions related to Russia have evolved significantly from the Obama through Biden administrations, reflecting shifting geopolitical tensions and strategic priorities. Obama's singular order ended a nuclear nonproliferation emergency, signaling a move toward easing Cold War-era restrictions. In contrast, Biden’s seven orders intensify economic sanctions targeting Russian entities, energy exports, and investments to counter aggression, underscoring a policy of containment and deterrence. The Trump administration’s two orders focused on addressing perceived threats through tariff adjustments and trade restrictions, revealing a blend of economic and security concerns. Together, these actions illustrate a trajectory from cautious engagement to robust punitive measures aiming to influence Russia’s international behavior.",
       "potential_impact": "These executive orders aimed to protect U.S. national security and sovereignty while supporting sectors vulnerable to Russian influence, such as energy workers and military personnel. However, sanctions and restrictions often carried repercussions for U.S. businesses and international relations, with corporations and investors facing potential financial losses and operational challenges. Travel and visa limitations complicated diplomatic ties and personal connections for lawful residents and naturalized citizens tied to Russia. Observers raised concerns about unintended disruptions to global energy markets, supply chains, and the risk of retaliatory measures that could ripple through technology, finance, and broader economic sectors.",
       "generated_at": "2026-02-19T03:42:37.305Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "historical-commemorations",
-      "theme_name": "Historical Commemorations",
-      "order_count": 10,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 8
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 2
-        }
-      ],
-      "summary": "Executive orders addressing historical commemorations have reflected divergent presidential priorities, with the Trump administration largely emphasizing patriotic narratives and the restoration of traditional historical perspectives, including the establishment of commissions and the promotion of national celebrations. In contrast, the Biden administration’s orders have focused on broadening recognition of women’s history and fostering inclusive representation within federal commemorations. These contrasting approaches highlight ongoing debates over how history is taught, remembered, and symbolized at the federal level, particularly in educational and cultural institutions.",
-      "potential_impact": "These orders aimed to affect a wide range of communities, from K-12 students and public school systems to African American, Native American, and tribal populations, as well as veterans and military personnel. While some sought to promote inclusivity and diverse historical recognition, concerns arose about marginalizing minority perspectives through politicized narratives or unequal resource allocation. Additionally, federal employees experienced operational challenges related to commemorative closures, and educators faced tensions balancing patriotic themes with comprehensive history, all of which underscore the complex social and cultural dynamics involved in federal historical commemoration.",
-      "generated_at": "2026-07-29T15:28:07.577Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -3180,6 +3180,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "water-infrastructure",
+      "theme_name": "Water Infrastructure",
+      "order_count": 6,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 5
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "Water infrastructure executive actions have reflected a complex interplay between modernization goals and community-specific needs, with most orders issued under the Trump administration focusing on efficiency and disaster response while Biden’s contribution emphasized implementation of broader infrastructure investments. These policies sought to balance federal operational improvements and sustainable resource management with urgent water challenges, particularly in rural, tribal, and environmental justice communities. However, the variation in approach highlights tensions between large-scale federal projects and localized water access priorities, as well as the challenges of coordinating multiple agencies to address diverse water infrastructure demands.",
+      "potential_impact": "The executive orders aimed to benefit historically underserved groups including environmental justice populations, rural and tribal communities, and disaster-affected areas by improving water access and infrastructure resilience. Yet, concerns emerged that bureaucratic complexity and market-driven practices might delay or unevenly distribute these benefits, potentially disadvantaging smaller farmers, non-union workers, and low-income families. Additionally, increased regulatory and labor standards posed challenges for small businesses and non-union labor, while operational changes raised questions about impacts on federal law enforcement and military readiness, illustrating the multifaceted effects on various stakeholders.",
+      "generated_at": "2026-09-02T16:55:36.228Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "arts-and-humanities",
       "theme_name": "Arts and Humanities",
       "order_count": 5,
@@ -3403,27 +3424,6 @@
       "summary": "Executive orders addressing disaster response reveal contrasting priorities between administrations. The Trump-era directives largely emphasized enhancing federal agency efficiency, state and local preparedness, and resource management, often paired with deregulatory measures. This approach sought to streamline disaster response but raised concerns about reduced aid to undocumented immigrants and potential environmental trade-offs. In contrast, the Biden order focused on protecting a specific disaster-affected community, signaling a more targeted, community-centered response that underscores ongoing recovery and health monitoring challenges.",
       "potential_impact": "These orders aimed to benefit disaster-affected communities, state and local governments, and vulnerable populations such as low-income families and tribal groups by improving preparedness and resource allocation. However, some provisions risked limiting aid to undocumented immigrants and complicated timely recovery efforts due to coordination challenges. Concerns also surfaced about environmental impacts and disruptions to long-term health monitoring, highlighting the delicate balance between efficient disaster management and safeguarding diverse community needs.",
       "generated_at": "2025-12-15T08:49:09.828Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "water-infrastructure",
-      "theme_name": "Water Infrastructure",
-      "order_count": 5,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 4
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive actions on water infrastructure reveal evolving priorities between administrations, with the Trump presidency emphasizing efficient federal operations and large-scale modernization efforts often linked to disaster response and urban rebuilding, while the Biden administration focused on implementing broad infrastructure investments. These orders sought to enhance water resource management and resilience but faced challenges balancing federal efficiency with the diverse needs of rural, tribal, and environmental justice communities, highlighting the complexity of coordinating multi-agency programs and reconciling local versus large-scale infrastructure priorities.",
-      "potential_impact": "These executive orders aimed to benefit historically underserved populations such as environmental justice communities, rural and tribal areas, and low-income families by improving water access and disaster resilience. However, concerns arose about potential delays due to bureaucratic realignments and regulatory complexities that could slow aid distribution. Additionally, workforce shifts and stringent labor standards might disadvantage non-union workers and small businesses, while increased federal oversight and policy overrides risked exacerbating tensions with local governments and potentially undermining localized water needs.",
-      "generated_at": "2026-02-09T03:32:31.089Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4919,5 +4919,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-08-29T16:55:59.493Z"
+  "generated_at": "2026-09-02T16:55:36.228Z"
 }
