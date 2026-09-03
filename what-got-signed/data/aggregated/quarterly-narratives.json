@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 8
+          "order_count": 9
         }
       ],
-      "total_order_count": 8,
-      "summary": "In the third quarter of 2026, President Trump concentrated executive actions on strengthening national defense and cultivating a patriotic narrative. Orders prioritized securing critical supply chains and bolstering the defense industrial base to enhance military readiness, while also establishing commissions aimed at supporting military spouses. Simultaneously, efforts to reaffirm traditional notions of American citizenship and heritage surfaced through initiatives addressing birthright citizenship and reshaping historical commemorations, reflecting a broader emphasis on national identity and cultural preservation.",
-      "potential_impact": "These executive orders sought to benefit active military personnel, defense industry and manufacturing workers, veterans, and military families by aiming to improve supply chain security and support structures. However, measures restricting birthright citizenship and tightening supply chain regulations raised concerns among foreign nationals, federal contractors, and diverse minority communities, including Native Americans, African Americans, and Hispanic Americans. Critics worried that a patriotic framing of history might marginalize these groups’ narratives, while increased regulatory burdens and enforcement could challenge small businesses and large corporations involved in defense contracting.",
-      "generated_at": "2026-09-02T16:55:28.130Z",
+      "total_order_count": 9,
+      "summary": "In the third quarter of 2026, President Trump’s executive orders centered prominently on strengthening military readiness and bolstering the defense industrial base through enhanced supply chain security and domestic sourcing mandates. Simultaneously, the administration sought to reinforce American heritage and patriotism, notably by reshaping historical narratives and establishing commemorative initiatives. Efforts to address citizenship policy, including measures targeting birth tourism, reflected a push to redefine national identity parameters. The creation of presidential commissions, such as one focused on military spouses and a newly established Space Academy, highlighted an intent to institutionalize support structures within defense and cultural domains.",
+      "potential_impact": "These orders aimed to benefit active military personnel, defense industry and manufacturing workers, veterans, and military families by prioritizing supply chain integrity and readiness. However, concerns arose that stringent domestic sourcing and oversight could burden federal contractors and small businesses, potentially disrupting supply continuity critical to military operations. The emphasis on patriotic historical reinterpretation risked marginalizing Native American, African American, and Hispanic communities, while citizenship restrictions threatened birthright citizens and foreign nationals. Additionally, the limited inclusivity of commissions raised questions about adequately addressing the diverse experiences of military spouses and minority populations.",
+      "generated_at": "2026-09-03T16:46:07.121Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1014,5 +1014,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-09-02T16:55:28.130Z"
+  "generated_at": "2026-09-03T16:46:07.121Z"
 }

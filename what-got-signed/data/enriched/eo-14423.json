@@ -1,0 +1,48 @@
+{
+  "document_number": "2026-18141",
+  "executive_order_number": "14423",
+  "title": "Establishing the United States Space Academy",
+  "abstract": null,
+  "signing_date": "2026-08-28",
+  "publication_date": "2026-09-03",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/09/03/2026-18141/establishing-the-united-states-space-academy",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-09-03/pdf/2026-18141.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/09/03/2026-18141.txt",
+  "enrichment": {
+    "summary": "This executive order establishes a Presidential Commission to create the United States Space Academy, a new federal academy led by NASA. The Academy aims to train and develop future American leaders in space exploration, technology, and national security, ensuring the country's continued leadership and workforce strength in the space domain.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "presidential-commissions-task-forces",
+      "space-policy",
+      "science-and-technology-policy",
+      "workforce-development"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "youth-young-adults",
+        "college-university-students",
+        "graduate-professional-students",
+        "federal-employees-civil-servants",
+        "military-personnel-active-duty",
+        "security-clearance-holders",
+        "entrepreneurs-startups",
+        "technology-workers",
+        "scientific-researchers"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The Space Academy's service obligations may limit career flexibility for graduates from diverse backgrounds such as youth, students, and active-duty military personnel, potentially deterring some highly qualified candidates from applying.",
+      "Security clearance requirements could exclude noncitizens and naturalized citizens, restricting diversity and potentially underutilizing talent among the broader U.S. space workforce.",
+      "Establishing the Space Academy within NASA and emphasizing national security may politicize scientific research and entrepreneurship, potentially impacting innovators and technology workers who prioritize open collaboration.",
+      "The focus on military-readiness and service commitments might reduce appeal to entrepreneurs and scientific researchers seeking purely civilian careers in space technology.",
+      "Coordination with existing federal education programs may create bureaucratic delays or overlap, affecting the timely development and recruitment of youth and students into the workforce."
+    ],
+    "enriched_at": "2026-09-03T16:45:59.501Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
