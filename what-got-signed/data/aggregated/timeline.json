@@ -6,7 +6,7 @@
       "quarter_name": "Q3 2026",
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
-      "order_count": 9,
+      "order_count": 11,
       "top_themes": [
         {
           "id": "military-readiness-force-structure",
@@ -29,7 +29,7 @@
           "name": "American Heritage / Patriotism"
         }
       ],
-      "theme_summary": "Donald Trump signed 9 executive orders focused on the themes of military readiness / force structure, presidential commissions / task forces, defense industrial base, and 2 others.",
+      "theme_summary": "Donald Trump signed 11 executive orders focused on the themes of military readiness / force structure, presidential commissions / task forces, defense industrial base, and 2 others.",
       "order_ids": [
         "14415",
         "14416",
@@ -39,7 +39,9 @@
         "14420",
         "14421",
         "14422",
-        "14423"
+        "14423",
+        "14424",
+        "14425"
       ]
     },
     {
@@ -2689,5 +2691,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-03T16:45:59.642Z"
+  "generated_at": "2026-09-10T16:46:09.125Z"
 }

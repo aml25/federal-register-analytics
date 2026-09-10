@@ -1,0 +1,41 @@
+{
+  "document_number": "2026-18567",
+  "executive_order_number": "14424",
+  "title": "Promoting Fair Competition in Livestock Markets and Expanding Market Access for American Meat Producers",
+  "abstract": null,
+  "signing_date": "2026-09-04",
+  "publication_date": "2026-09-10",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/09/10/2026-18567/promoting-fair-competition-in-livestock-markets-and-expanding-market-access-for-american-meat",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-09-10/pdf/2026-18567.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/09/10/2026-18567.txt",
+  "enrichment": {
+    "summary": "This executive order aims to help American ranchers sell their meat products across state lines by promoting fair competition in livestock markets and protecting small producers from unfair business practices. It directs stronger enforcement of laws against monopolistic behavior in meat processing and works to expand market access through improving inspection programs, technical assistance, and financing support for small and regional processors.",
+    "theme_ids": [
+      "agricultural-policy",
+      "economic-competitiveness",
+      "small-business-support"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "agricultural-workers-farmers",
+        "small-business-owners",
+        "rural-communities"
+      ],
+      "negative_ids": [
+        "large-corporation-employees"
+      ]
+    },
+    "potential_concerns": [
+      "Enhanced enforcement against monopolistic practices may reduce market power of large meat processors, potentially leading to job losses or wage pressures for large-corporation-employees.",
+      "Streamlining interstate shipment regulations and expanding small processor support could disproportionately benefit small-business-owners, but may strain regulatory capacity and slow down inspection processes, risking food safety concerns in rural-communities.",
+      "Loan programs and technical assistance designed for small and regional processors may inadvertently create competitive disadvantages for medium-sized operations not qualifying as small businesses, potentially fragmenting the meat processing sector.",
+      "Efforts to loosen some inspection reporting requirements might raise concerns among consumers about maintaining high food safety standards despite economic and efficiency goals."
+    ],
+    "enriched_at": "2026-09-10T16:46:08.938Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

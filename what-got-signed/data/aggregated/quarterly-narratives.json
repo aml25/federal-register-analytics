@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 9
+          "order_count": 11
         }
       ],
-      "total_order_count": 9,
-      "summary": "In the third quarter of 2026, President Trump’s executive orders centered prominently on strengthening military readiness and bolstering the defense industrial base through enhanced supply chain security and domestic sourcing mandates. Simultaneously, the administration sought to reinforce American heritage and patriotism, notably by reshaping historical narratives and establishing commemorative initiatives. Efforts to address citizenship policy, including measures targeting birth tourism, reflected a push to redefine national identity parameters. The creation of presidential commissions, such as one focused on military spouses and a newly established Space Academy, highlighted an intent to institutionalize support structures within defense and cultural domains.",
-      "potential_impact": "These orders aimed to benefit active military personnel, defense industry and manufacturing workers, veterans, and military families by prioritizing supply chain integrity and readiness. However, concerns arose that stringent domestic sourcing and oversight could burden federal contractors and small businesses, potentially disrupting supply continuity critical to military operations. The emphasis on patriotic historical reinterpretation risked marginalizing Native American, African American, and Hispanic communities, while citizenship restrictions threatened birthright citizens and foreign nationals. Additionally, the limited inclusivity of commissions raised questions about adequately addressing the diverse experiences of military spouses and minority populations.",
-      "generated_at": "2026-09-03T16:46:07.121Z",
+      "total_order_count": 11,
+      "summary": "In the third quarter of 2026, President Trump concentrated executive actions on strengthening military readiness and safeguarding critical supply chains essential to national defense. The administration issued multiple orders aimed at bolstering the defense industrial base while emphasizing domestic sourcing of critical materials. Concurrently, efforts to promote American heritage surfaced through directives reshaping historical narratives and commemorations, reflecting a patriotic framing of national identity. Task forces and commissions were established to address the needs of military families and citizenship policies, while agricultural measures sought to support rural economies and livestock markets, underscoring a broader strategy linking defense, identity, and economic security.",
+      "potential_impact": "These orders primarily targeted active military personnel, defense and manufacturing workers, and rural communities, aiming to secure jobs and improve supply reliability. However, the insistence on strict domestic sourcing and enhanced contractor oversight raised concerns among large corporations and federal contractors about increased costs and compliance burdens. Additionally, the patriotic reinterpretation of American history and citizenship policies risked marginalizing Indigenous peoples and racial minorities, potentially alienating these groups. Military spouses and caregivers might have found representation limited, and certain immigrant populations faced tightened citizenship and birthright policies, highlighting tensions between national security goals and inclusivity.",
+      "generated_at": "2026-09-10T16:46:16.276Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1014,5 +1014,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-09-03T16:46:07.121Z"
+  "generated_at": "2026-09-10T16:46:16.276Z"
 }

@@ -1,0 +1,43 @@
+{
+  "document_number": "2026-18571",
+  "executive_order_number": "14425",
+  "title": "Supporting America's Ranchers",
+  "abstract": null,
+  "signing_date": "2026-09-04",
+  "publication_date": "2026-09-10",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/09/10/2026-18571/supporting-americas-ranchers",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-09-10/pdf/2026-18571.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/09/10/2026-18571.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to review and improve policies supporting American ranchers, including addressing challenges like predator control and promoting country-of-origin labeling for beef. It aims to strengthen the domestic ranching industry by reducing regulatory burdens, encouraging state cooperation on wildlife management, and ensuring consumer benefits from these measures.",
+    "theme_ids": [
+      "farming-ranching",
+      "agricultural-policy",
+      "food-supply-chain",
+      "public-lands-management",
+      "regulatory-reform-deregulation"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "agricultural-workers-farmers",
+        "small-business-owners",
+        "rural-communities"
+      ],
+      "negative_ids": [
+        "environmental-justice-communities"
+      ]
+    },
+    "potential_concerns": [
+      "Efforts to delist or downlist gray wolves under the ESA to aid ranchers may increase predator control risks, negatively impacting environmental justice communities reliant on healthy ecosystems in rural areas.",
+      "Mandatory country-of-origin labeling for beef products could raise production and compliance costs for small ranchers, possibly leading to higher prices that burden low-income rural consumers.",
+      "The reduction or removal of regulations framed as 'burdensome' may weaken environmental protections on public lands, creating long-term sustainability challenges for both ranchers and surrounding rural communities.",
+      "Opening vacant federal grazing allotments might benefit ranchers but could lead to overgrazing, harming wildlife habitats and causing conflicts with indigenous and conservation interests within rural and tribal lands."
+    ],
+    "enriched_at": "2026-09-10T16:46:02.293Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
