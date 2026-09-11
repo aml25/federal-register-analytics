@@ -1,0 +1,41 @@
+{
+  "document_number": "2026-18738",
+  "executive_order_number": "14426",
+  "title": "Accelerating Access to Veterans' Benefits and Employment Opportunities",
+  "abstract": null,
+  "signing_date": "2026-09-08",
+  "publication_date": "2026-09-11",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/09/11/2026-18738/accelerating-access-to-veterans-benefits-and-employment-opportunities",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-09-11/pdf/2026-18738.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/09/11/2026-18738.txt",
+  "enrichment": {
+    "summary": "This executive order directs the Department of War and the Department of Veterans Affairs to improve the sharing of military personnel and medical records to speed up veterans' access to benefits and services. It also mandates updating workforce programs to better connect service members transitioning out of the military with job opportunities, training, and veterans' support services.",
+    "theme_ids": [
+      "military-readiness-force-structure",
+      "veterans-healthcare",
+      "workforce-development",
+      "apprenticeships-job-training",
+      "government-it-modernization"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "veterans",
+        "military-personnel-active-duty",
+        "working-age-adults"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Delays in updating or deploying interoperable IT systems could prolong veterans' access to benefits, negatively impacting veterans and active-duty personnel during the transition period (government-it-modernization, veterans-healthcare).",
+      "The reliance on AI and digital tools for benefits application may inadvertently disadvantage veterans and service members with limited digital literacy or access, particularly affecting working-age adults transitioning out of service (workforce-development, veterans).",
+      "If employment and training programs are not adequately resourced or aligned with actual local job markets, transitioning military personnel may face challenges in securing meaningful employment despite program participation (apprenticeships-job-training, workforce-development, military-personnel-active-duty).",
+      "Strict data sharing mandates may raise privacy and security concerns for military personnel’s sensitive medical and personnel records, potentially undermining trust in record management systems (military-readiness-force-structure, veterans-healthcare)."
+    ],
+    "enriched_at": "2026-09-11T16:49:35.849Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

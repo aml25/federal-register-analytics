@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 11
+          "order_count": 13
         }
       ],
-      "total_order_count": 11,
-      "summary": "In the third quarter of 2026, President Trump concentrated executive actions on strengthening military readiness and safeguarding critical supply chains essential to national defense. The administration issued multiple orders aimed at bolstering the defense industrial base while emphasizing domestic sourcing of critical materials. Concurrently, efforts to promote American heritage surfaced through directives reshaping historical narratives and commemorations, reflecting a patriotic framing of national identity. Task forces and commissions were established to address the needs of military families and citizenship policies, while agricultural measures sought to support rural economies and livestock markets, underscoring a broader strategy linking defense, identity, and economic security.",
-      "potential_impact": "These orders primarily targeted active military personnel, defense and manufacturing workers, and rural communities, aiming to secure jobs and improve supply reliability. However, the insistence on strict domestic sourcing and enhanced contractor oversight raised concerns among large corporations and federal contractors about increased costs and compliance burdens. Additionally, the patriotic reinterpretation of American history and citizenship policies risked marginalizing Indigenous peoples and racial minorities, potentially alienating these groups. Military spouses and caregivers might have found representation limited, and certain immigrant populations faced tightened citizenship and birthright policies, highlighting tensions between national security goals and inclusivity.",
-      "generated_at": "2026-09-10T16:46:16.276Z",
+      "total_order_count": 13,
+      "summary": "In Q3 2026, President Trump concentrated executive action on strengthening military readiness and reshaping defense-related infrastructure, signing four orders addressing force structure and supply chain security. Complementing this, three orders established presidential commissions and task forces aimed at bolstering military family support and national heritage. Efforts to secure critical materials through domestic acquisition underscored a push to reduce reliance on foreign suppliers, while initiatives promoting American heritage and workforce development reflected a broader emphasis on patriotism and economic resilience within agriculture and energy sectors.",
+      "potential_impact": "These orders primarily targeted active military personnel, veterans, defense industry workers, and small business owners within defense and agricultural sectors, aiming to enhance operational readiness and economic opportunity. However, concerns emerged that stricter domestic sourcing and supply chain regulations might increase costs and complicate compliance for federal contractors and large corporations, potentially slowing defense production. Additionally, the patriotic framing of American history risked marginalizing Native American, African American, and Hispanic communities, while military family commissions faced scrutiny over representation gaps, suggesting uneven benefits across diverse populations.",
+      "generated_at": "2026-09-11T16:49:43.348Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1014,5 +1014,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-09-10T16:46:16.276Z"
+  "generated_at": "2026-09-11T16:49:43.348Z"
 }

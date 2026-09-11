@@ -5,10 +5,10 @@
       "president_name": "Donald Trump",
       "term_start": 2025,
       "term_end": "present",
-      "order_count": 275,
-      "summary": "Since taking office in 2025, President Trump has issued 275 executive orders that emphasize reshaping government operations, national security, and economic competitiveness through a robust America First lens. Early directives prioritized boosting government efficiency, border and homeland security, and deregulation, reflecting a focus on tightening immigration controls and revitalizing domestic industries. Over time, the administration has advanced tariffs, national emergencies, and defense readiness, while also rescinding previous policies on diversity, climate, and international cooperation. This approach underscores an administration intent on consolidating federal authority, promoting domestic production, and redefining the United States’ global engagement.",
-      "potential_impact": "The executive orders aim to benefit small business owners, military personnel, and manufacturing workers by fostering economic growth, strengthening defense capabilities, and streamlining government. However, these policies often impose challenges on consumers, undocumented immigrants, and environmental justice communities, with concerns about reduced protections and access. The rollback of diversity and climate initiatives raises fears of heightened disparities for racial minorities, LGBTQ+ individuals, and vulnerable populations. Additionally, tightening immigration and limiting international cooperation may strain foreign relations and affect foreign nationals and naturalized citizens, while shifts in law enforcement oversight and speech regulation provoke debates over justice, transparency, and public trust.",
-      "generated_at": "2026-09-10T16:46:12.222Z",
+      "order_count": 277,
+      "summary": "Since taking office in 2025, President Trump’s executive orders have consistently prioritized strengthening national security and economic sovereignty, with a particular focus on tariffs, border and homeland security, and regulatory reform. Early efforts concentrated on government efficiency and border control before shifting toward trade policy and energy independence. The administration’s approach emphasizes America First policies, reducing federal bureaucracy, and reinforcing military readiness, while rolling back prior initiatives deemed restrictive or politically motivated, reflecting a desire to reshape federal governance and assert greater control over domestic and international affairs.",
+      "potential_impact": "These executive orders aim to benefit small business owners, military personnel, and workers in manufacturing, defense, and energy sectors by promoting deregulation and economic competitiveness. However, they raise concerns for consumers, undocumented immigrants, and environmental justice communities who may face heightened vulnerabilities due to tightened immigration enforcement and weakened environmental protections. Additionally, rescinding diversity and inclusion programs could disproportionately affect racial and ethnic minorities, LGBTQ+ individuals, and federal employees, creating tension between efforts to streamline government and the equitable treatment of diverse populations.",
+      "generated_at": "2026-09-11T16:49:39.871Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -56,5 +56,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-09-10T16:46:12.223Z"
+  "generated_at": "2026-09-11T16:49:39.871Z"
 }

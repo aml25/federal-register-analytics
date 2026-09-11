@@ -1,0 +1,40 @@
+{
+  "document_number": "2026-18739",
+  "executive_order_number": "14427",
+  "title": "Adjusting Certain Delegations Under the Defense Production Act",
+  "abstract": null,
+  "signing_date": "2026-09-08",
+  "publication_date": "2026-09-11",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/09/11/2026-18739/adjusting-certain-delegations-under-the-defense-production-act",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-09-11/pdf/2026-18739.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/09/11/2026-18739.txt",
+  "enrichment": {
+    "summary": "This executive order updates previous delegations of authority under the Defense Production Act by assigning energy-related responsibilities jointly but independently to both the Secretary of the Interior and the Secretary of Energy. It also establishes a process for resolving disputes between these Secretaries through the National Energy Dominance Council and, when relevant, the National Security Council and Department of War. The order clarifies and modifies which officials hold specific powers related to defense production and energy management.",
+    "theme_ids": [
+      "defense-production-act",
+      "energy-independence-security",
+      "delegation-of-authority",
+      "interagency-coordination"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "military-personnel-active-duty",
+        "energy-sector-workers-oil-gas-coal",
+        "renewable-energy-workers"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Conflicting delegations between the Secretary of the Interior and the Secretary of Energy could delay critical decisions impacting military personnel reliant on uninterrupted energy supplies.",
+      "Independent authorities for energy management might create inefficiencies or competition that complicate coordinated defense production efforts affecting energy-sector workers.",
+      "Increased interagency dispute resolution demands on the National Energy Dominance Council and the National Security Council could slow response times in urgent defense or energy crises, potentially impacting active-duty military operations.",
+      "The dual delegation of energy authority without clear jurisdictional boundaries may create uncertainty for energy workers regarding regulatory and operational directives during national defense mobilizations."
+    ],
+    "enriched_at": "2026-09-11T16:49:28.611Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
