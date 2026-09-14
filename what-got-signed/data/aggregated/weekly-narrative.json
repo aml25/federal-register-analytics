@@ -1,55 +1,9 @@
 {
-  "week": "2026-W37",
-  "date_range": "September 7–13, 2026",
-  "narrative": "During the week of September 7–13, 2026, President Donald Trump signed two executive orders addressing a range of issues. EO 14426 focused on accelerating veterans' benefits and expanding employment opportunities through enhanced workforce development and apprenticeship programs. Meanwhile, EO 14427 adjusted delegations under the Defense Production Act to strengthen military readiness, government IT modernization, and energy security, reflecting ongoing efforts to bolster national defense and industrial capacity.",
-  "orders": [
-    {
-      "number": "14426",
-      "title": "Accelerating Access to Veterans' Benefits and Employment Opportunities",
-      "url": "https://www.federalregister.gov/documents/2026/09/11/2026-18738/accelerating-access-to-veterans-benefits-and-employment-opportunities",
-      "president_name": "Donald Trump"
-    },
-    {
-      "number": "14427",
-      "title": "Adjusting Certain Delegations Under the Defense Production Act",
-      "url": "https://www.federalregister.gov/documents/2026/09/11/2026-18739/adjusting-certain-delegations-under-the-defense-production-act",
-      "president_name": "Donald Trump"
-    }
-  ],
-  "top_themes": [
-    {
-      "id": "military-readiness-force-structure",
-      "name": "Military Readiness / Force Structure"
-    },
-    {
-      "id": "veterans-healthcare",
-      "name": "Veterans Healthcare"
-    },
-    {
-      "id": "workforce-development",
-      "name": "Workforce Development"
-    },
-    {
-      "id": "apprenticeships-job-training",
-      "name": "Apprenticeships / Job Training"
-    },
-    {
-      "id": "government-it-modernization",
-      "name": "Government IT Modernization"
-    },
-    {
-      "id": "defense-production-act",
-      "name": "Defense Production Act"
-    },
-    {
-      "id": "energy-independence-security",
-      "name": "Energy Independence / Security"
-    },
-    {
-      "id": "delegation-of-authority",
-      "name": "Delegation of Authority"
-    }
-  ],
-  "generated_at": "2026-09-11T16:50:09.333Z",
-  "model_used": "gpt-4.1-mini"
+  "week": "2026-W38",
+  "date_range": "September 14–20, 2026",
+  "narrative": "",
+  "orders": [],
+  "top_themes": [],
+  "generated_at": "2026-09-14T18:16:08.319Z",
+  "model_used": ""
 }
