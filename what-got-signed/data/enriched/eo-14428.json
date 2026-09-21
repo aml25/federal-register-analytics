@@ -1,0 +1,45 @@
+{
+  "document_number": "2026-19335",
+  "executive_order_number": "14428",
+  "title": "Providing Meaningful Water Quality Improvements Through Collaboration and Oversight of Federal Support",
+  "abstract": null,
+  "signing_date": "2026-09-16",
+  "publication_date": "2026-09-21",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/09/21/2026-19335/providing-meaningful-water-quality-improvements-through-collaboration-and-oversight-of-federal",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-09-21/pdf/2026-19335.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/09/21/2026-19335.txt",
+  "enrichment": {
+    "summary": "This executive order revokes a previous order related to Chesapeake Bay protection and refocuses federal efforts on projects that directly improve water quality in the Bay. It directs federal agencies to prioritize funding for effective, measurable water quality improvements while working with states to reduce financial burdens on residents caused by stormwater management fees.",
+    "theme_ids": [
+      "chesapeake-bay-regional-water-protection",
+      "clean-air-water",
+      "water-infrastructure",
+      "environmental-regulation",
+      "revocation-of-previous-executive-orders"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "urban-communities",
+        "suburban-communities",
+        "small-business-owners"
+      ],
+      "negative_ids": [
+        "low-income-individuals-families",
+        "renters-homeowners"
+      ]
+    },
+    "potential_concerns": [
+      "The repeal of stormwater management fees may undermine sustainable funding for water infrastructure, adversely affecting the long-term water quality improvements and thus harming urban and suburban communities that depend on these systems.",
+      "Redirecting funds solely to projects with measurable on-the-ground outcomes risks excluding innovative or long-term environmental initiatives that could provide broader benefits, potentially limiting the effectiveness for small business owners relying on a healthy Chesapeake Bay economy.",
+      "Low-income individuals and families may face trade-offs if removal of stormwater fees leads to reduced local investments or shifts costs elsewhere, potentially exacerbating environmental justice concerns in communities already vulnerable to pollution.",
+      "Efforts to encourage repeal or rescission of stormwater fees could create budget shortfalls for local governments, forcing rentiers and homeowners to bear unanticipated costs or service reductions unrelated to the direct water quality goals.",
+      "Prioritizing only direct and measurable water quality improvements may unintentionally neglect other ecological or community benefits supported under the earlier Executive Order 13508, limiting holistic environmental protection in the Chesapeake Bay region."
+    ],
+    "enriched_at": "2026-09-21T18:23:23.731Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

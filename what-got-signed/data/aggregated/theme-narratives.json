@@ -398,12 +398,12 @@
     {
       "theme_id": "revocation-of-previous-executive-orders",
       "theme_name": "Revocation of Previous Executive Orders",
-      "order_count": 38,
+      "order_count": 39,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 23
+          "order_count": 24
         },
         {
           "president_id": "barack-obama",
@@ -416,9 +416,9 @@
           "order_count": 7
         }
       ],
-      "summary": "Executive orders revoking previous directives reveal a dynamic interplay between administrations seeking to reshape federal policy landscapes. While Obama’s actions often reinstated or reinforced labor protections and transparency measures, Trump’s revocations tended to dismantle regulatory oversight and labor-related mandates, reflecting a push for deregulation and operational flexibility. The Biden administration has selectively reversed certain Trump-era revocations, signaling a nuanced attempt to balance regulatory restoration with pragmatic governance. Together, these shifts underscore executive power’s role in rapidly altering policy continuity and federal administrative priorities.",
-      "potential_impact": "These revocations aimed to influence diverse groups, including federal employees, contractors, union members, and working-age adults, by altering protections around labor rights, transparency, and regulatory safeguards. While some orders sought to empower workers through notification and rehiring requirements, others raised concerns about increased burdens or uneven enforcement. The rollback of regulatory reviews and labor protections sparked apprehensions about diminished accountability and potential adverse effects on vulnerable populations, small businesses, and public health, highlighting the tension between administrative efficiency and equitable policy outcomes.",
-      "generated_at": "2025-12-15T08:43:43.449Z",
+      "summary": "Executive orders revoking prior directives have served as pivotal tools for presidents to reshape policy landscapes, often reversing or modifying the regulatory and operational frameworks set by predecessors. Over three administrations, these revocations addressed issues ranging from federal contractor labor protections and regulatory oversight to national security and emergency declarations. The approaches varied, with some administrations emphasizing deregulation and consolidation of authority, while others reinstated or enhanced worker protections and transparency. This pattern underscores how revocations function as instruments for asserting new policy priorities and institutional realignments within the federal government.",
+      "potential_impact": "The revocation of previous executive orders sought to recalibrate the experiences of diverse groups including federal contractors, employees, union members, and vulnerable communities. While aimed at streamlining operations or shifting regulatory burdens, such actions raised concerns about potential disruptions to labor rights, federal workforce protections, and transparency in government recordkeeping. Critics worried that these reversals could undermine equitable treatment, increase administrative challenges, and introduce uncertainty for small businesses and marginalized populations reliant on consistent regulatory safeguards.",
+      "generated_at": "2026-09-21T18:23:34.290Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -823,6 +823,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "environmental-regulation",
+      "theme_name": "Environmental Regulation",
+      "order_count": 24,
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 11
+        },
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 10
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 3
+        }
+      ],
+      "summary": "Executive orders on environmental regulation reveal a dynamic interplay of priorities across administrations, reflecting shifting balances between conservation, economic growth, and social equity. The Obama administration emphasized ecosystem restoration, pollution reduction, and climate resilience, often integrating environmental justice and tribal interests. In contrast, the Trump administration pursued deregulation and energy infrastructure expansion, focusing on economic growth and energy independence. The Biden administration, though issuing fewer orders, signaled renewed commitments to clean energy, environmental justice, and community protection, underscoring ongoing tensions between environmental goals and economic considerations.",
+      "potential_impact": "These executive orders aimed to benefit diverse communities, including environmental justice groups, tribal and rural populations, and workers in renewable energy sectors, by promoting cleaner environments and sustainable practices. However, concerns arose about potential adverse effects on small businesses, agricultural workers, and energy sector employees, who might face increased compliance costs or job displacement. The complex coordination among federal, state, and tribal entities also risked uneven outcomes, with some communities fearing insufficient representation or economic disruptions during transitions toward stricter environmental standards.",
+      "generated_at": "2026-09-21T18:23:36.478Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "transnational-crime-cartels",
       "theme_name": "Transnational Crime / Cartels",
       "order_count": 23,
@@ -846,32 +872,6 @@
       "summary": "Executive actions addressing transnational crime and cartels have evolved from targeted sanctions under the Obama administration to a more expansive and enforcement-heavy approach during the Trump years, with continued emphasis on coordinated strategies under Biden. These orders have combined economic sanctions, border security measures, and interagency commissions to disrupt illicit networks, reflecting a focus on both domestic enforcement and international collaboration. The increasing scope and militarization of these policies highlight the persistent prioritization of combating organized crime as a national security and public safety imperative.",
       "potential_impact": "These executive orders aimed to bolster federal, state, and local law enforcement capabilities while protecting border and tribal communities from the harms of transnational criminal activity. However, the broad reach of sanctions and enforcement raised concerns about unintended consequences for small businesses, consumers, and minority populations, including Hispanic and Latino communities. Observers noted potential risks of over-policing, economic disruption, and challenges in balancing aggressive criminal targeting with safeguarding civil rights and diplomatic relations, underscoring the complexity of combating cartels without collateral harm.",
       "generated_at": "2026-05-22T15:45:14.169Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "environmental-regulation",
-      "theme_name": "Environmental Regulation",
-      "order_count": 23,
-      "presidents": [
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 11
-        },
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 9
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 3
-        }
-      ],
-      "summary": "Executive actions on environmental regulation have reflected shifting priorities across administrations, balancing ecological restoration with economic interests. The Obama administration emphasized habitat protection, climate resilience, and chemical safety, aiming to address broad environmental concerns through targeted restoration efforts. In contrast, the Trump administration prioritized deregulation and energy infrastructure expansion, seeking economic growth by easing regulatory constraints. The Biden administration has begun to reassert a focus on environmental justice and clean energy leadership, signaling a renewed commitment to integrating equity with sustainability in federal environmental policy.",
-      "potential_impact": "These executive orders aimed to benefit diverse groups including environmental justice communities, tribal nations, and rural populations by promoting ecosystem restoration and sustainable practices. However, concerns arose over potential negative effects on small businesses, agricultural workers, and traditional energy sector employees facing new regulatory demands or market shifts. The complex interplay of federal mandates and local economies raised worries about equitable implementation, community engagement, and balancing environmental goals with the livelihoods of those dependent on natural resources or energy industries.",
-      "generated_at": "2026-06-30T15:23:14.762Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -2924,6 +2924,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "water-infrastructure",
+      "theme_name": "Water Infrastructure",
+      "order_count": 7,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 6
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive actions on water infrastructure have evolved from a focus on federal efficiency and large-scale resource management under the Trump administration to a broader implementation of infrastructure investment under Biden. Trump's orders emphasized modernizing water resource management, disaster response, and collaboration for water quality improvements, often balancing sustainability goals with operational constraints. Biden’s approach integrates infrastructure act provisions aiming to enhance water systems more inclusively. These efforts highlight ongoing challenges in coordinating across agencies and balancing environmental, economic, and social priorities within water infrastructure policy.",
+      "potential_impact": "These executive orders sought to benefit a diverse range of communities, including environmental justice populations, tribal and rural areas, and disaster-affected regions, by improving water quality and infrastructure resilience. However, concerns emerged about potential delays and bureaucratic hurdles, especially in rural and tribal communities, and the risk that large-scale projects might overshadow localized needs. Additionally, regulatory complexities and labor standards raised issues for small businesses, non-union workers, and some low-income individuals, while operational changes could impact federal law enforcement and military readiness, illustrating the intricate trade-offs inherent in water infrastructure policy.",
+      "generated_at": "2026-09-21T18:23:39.439Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "workplace-safety-osha",
       "theme_name": "Workplace Safety (OSHA)",
       "order_count": 6,
@@ -3177,27 +3198,6 @@
       "summary": "Executive actions on food security and nutrition reveal contrasting priorities between administrations. The Obama administration’s focus centered on strengthening Native American affairs through coordinated federal engagement to address systemic challenges in tribal communities. In contrast, the Trump administration issued multiple orders emphasizing national health through sports, fitness, and agricultural resilience, aiming to bolster physical activity and farm sustainability. These approaches reflect a blend of addressing cultural and community-specific needs alongside broader public health and agricultural strategies, highlighting differing views on how best to improve nutritional outcomes.",
       "potential_impact": "These executive orders sought to benefit a diverse array of groups, from food-insecure populations and children to rural and tribal communities, by promoting access to nutrition, physical fitness, and agricultural support. However, concerns arose about potential gaps in reaching remote tribal areas, equitable inclusion of children with disabilities, and adequate resource allocation for low-income families. Additionally, some initiatives risked marginalizing vulnerable groups through insufficient accommodations or by prioritizing traditional sports, while efforts to reduce reliance on medication raised worries about unintended harm to youth with chronic health conditions.",
       "generated_at": "2026-06-30T15:23:27.200Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "water-infrastructure",
-      "theme_name": "Water Infrastructure",
-      "order_count": 6,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 5
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "summary": "Water infrastructure executive actions have reflected a complex interplay between modernization goals and community-specific needs, with most orders issued under the Trump administration focusing on efficiency and disaster response while Biden’s contribution emphasized implementation of broader infrastructure investments. These policies sought to balance federal operational improvements and sustainable resource management with urgent water challenges, particularly in rural, tribal, and environmental justice communities. However, the variation in approach highlights tensions between large-scale federal projects and localized water access priorities, as well as the challenges of coordinating multiple agencies to address diverse water infrastructure demands.",
-      "potential_impact": "The executive orders aimed to benefit historically underserved groups including environmental justice populations, rural and tribal communities, and disaster-affected areas by improving water access and infrastructure resilience. Yet, concerns emerged that bureaucratic complexity and market-driven practices might delay or unevenly distribute these benefits, potentially disadvantaging smaller farmers, non-union workers, and low-income families. Additionally, increased regulatory and labor standards posed challenges for small businesses and non-union labor, while operational changes raised questions about impacts on federal law enforcement and military readiness, illustrating the multifaceted effects on various stakeholders.",
-      "generated_at": "2026-09-02T16:55:36.228Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -3879,6 +3879,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "clean-air-water",
+      "theme_name": "Clean Air / Water",
+      "order_count": 4,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 3
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive actions on clean air and water have reflected differing priorities, with the Trump administration focusing on deregulating water protections to promote economic growth and federal program consolidation, while the Biden administration emphasized targeted disaster response and long-term community protection. These orders grapple with balancing regulatory rollback to benefit small businesses and states against the risks of weakening environmental safeguards, underscoring tensions between economic interests and the imperative of sustainable water resource management and public health.",
+      "potential_impact": "The executive orders aimed to support a diverse range of communities, from small business owners and agricultural workers to rural, tribal, and environmental justice populations. However, concerns arose that easing federal protections might heighten pollution risks and environmental degradation for vulnerable groups reliant on clean water. Disaster-affected residents faced prolonged health anxieties, while workers in large corporations potentially confronted job insecurity. Complex regulatory changes also threatened to impose administrative burdens on local governments and agricultural stakeholders, complicating equitable access to water quality improvements.",
+      "generated_at": "2026-09-21T18:23:41.299Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "hostage-policy-wrongfully-detained-citizens",
       "theme_name": "Hostage Policy / Wrongfully Detained Citizens",
       "order_count": 3,
@@ -4012,27 +4033,6 @@
       "summary": "Executive actions tied to the War on Terror have reflected evolving priorities around military readiness, detention policies, and transparency. The Trump administration expanded authority for activating reserve forces and reinforced detention practices at Guantanamo Bay, emphasizing security and operational flexibility. In contrast, the Biden administration focused on declassifying documents related to the September 11 attacks, aiming to balance transparency with national security. These divergent approaches reveal tensions between maintaining robust counterterrorism measures and addressing demands for accountability and openness.",
       "potential_impact": "The executive orders sought to influence military personnel, detainees, terrorism victims, and the broader public. While enhanced mobilization powers aimed to strengthen defense capabilities, they raised concerns about the strain on reservists’ personal lives and equitable application. Detention policies affected detainees’ rights and complicated justice efforts for survivors. Meanwhile, declassification efforts risked exposing sensitive information and retraumatizing victims, highlighting the delicate balance between security, transparency, and the pursuit of closure.",
       "generated_at": "2025-12-15T07:56:10.429Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "clean-air-water",
-      "theme_name": "Clean Air / Water",
-      "order_count": 3,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 2
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive actions on clean air and water have reflected divergent priorities centered on regulatory scope and infrastructure modernization. The Trump administration sought to scale back federal water protections and streamline management, aiming to reduce regulatory burdens and promote economic growth, particularly for sectors like agriculture and small businesses. In contrast, the Biden administration focused on disaster response and community protection, emphasizing long-term health monitoring and infrastructure support in affected areas, highlighting a shift toward safeguarding environmental justice and vulnerable populations.",
-      "potential_impact": "These executive orders aimed to affect a broad range of communities, from rural and tribal populations reliant on natural water sources to small business owners navigating regulatory changes. While some groups stood to benefit economically from deregulation and streamlined processes, concerns arose about increased environmental risks, potential degradation of drinking water, and uneven access to infrastructure improvements. Disaster-affected communities faced ongoing health anxieties, and workforce challenges emerged in reaching under-resourced populations, illustrating the complex balance between economic interests and public health in water resource governance.",
-      "generated_at": "2025-12-15T07:55:56.106Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4933,7 +4933,28 @@
       "potential_impact": "The executive orders aimed to benefit small business owners, agricultural workers, and rural communities by fostering a more competitive and supportive food supply chain environment. However, increased enforcement and regulatory changes raised concerns about short-term supply disruptions and higher compliance costs, potentially affecting large corporations and their employees. Additionally, environmental justice communities and food-insecure populations faced risks from reduced protections and possible price increases, while foreign nationals connected to the food industry might experience diplomatic and economic repercussions due to intensified scrutiny of foreign-controlled companies.",
       "generated_at": "2026-09-10T16:46:31.677Z",
       "model_used": "gpt-4.1-mini"
+    },
+    {
+      "theme_id": "chesapeake-bay-regional-water-protection",
+      "theme_name": "Chesapeake Bay / Regional Water Protection",
+      "order_count": 2,
+      "presidents": [
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 1
+        },
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive actions addressing Chesapeake Bay and regional water protection reflect differing priorities in balancing environmental restoration with economic considerations. The Obama administration’s order emphasized comprehensive Chesapeake Bay restoration through collaborative federal efforts focused on improving water quality and habitat. In contrast, the Trump administration prioritized oversight and collaboration aimed at streamlining federal support, with an emphasis on measurable outcomes and reducing regulatory burdens. These contrasting approaches highlight the ongoing tension between stringent environmental goals and economic impacts on regional stakeholders.",
+      "potential_impact": "These orders sought to benefit a wide range of communities—from environmental justice and coastal residents to urban, suburban, and rural populations—by aiming to improve water quality and ecosystem health. However, concerns arose over potential hardships facing agricultural workers and small business owners who might confront increased regulatory costs or disruptions during transitions to sustainable practices. Low-income families and homeowners could also face indirect impacts if funding shifts or fee repeals undermine long-term infrastructure investments, raising questions about equitable implementation and the balance between environmental and economic priorities in the Chesapeake Bay region.",
+      "generated_at": "2026-09-21T18:23:43.792Z",
+      "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-09-11T16:50:07.046Z"
+  "generated_at": "2026-09-21T18:23:43.793Z"
 }
