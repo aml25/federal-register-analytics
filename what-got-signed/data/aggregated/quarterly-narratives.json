@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 14
+          "order_count": 16
         }
       ],
-      "total_order_count": 14,
-      "summary": "In the third quarter of 2026, President Trump prioritized strengthening national defense and patriotic identity through a series of 14 executive orders. Central to this agenda were efforts to bolster military readiness and reshape the defense industrial base, with a focus on securing critical supply chains and enhancing force structure. Simultaneously, the administration sought to promote American heritage by influencing historical narratives and commemorations, while addressing citizenship policies to curb birth tourism. Complementary initiatives targeted water infrastructure and workforce development, reflecting a broader push to support traditional industries and rural communities alongside veterans and active military personnel.",
-      "potential_impact": "These orders aimed to benefit military personnel, veterans, defense and manufacturing workers, and rural populations, often emphasizing support for small businesses and energy sector employees. However, concerns arose over potential negative effects on large corporation employees and federal contractors facing stricter domestic sourcing rules. The focus on patriotic historical narratives risked marginalizing Native American, African American, and Hispanic communities by potentially distorting their cultural histories. Additionally, efforts to tighten citizenship rules and adjust contractor oversight raised worries about impacts on foreign nationals, birthright citizens, and minority groups, highlighting tensions between national security goals and inclusivity.",
-      "generated_at": "2026-09-21T18:23:31.551Z",
+      "total_order_count": 16,
+      "summary": "In the third quarter of 2026, President Trump concentrated executive actions on strengthening military readiness and reinforcing American heritage, with a noticeable emphasis on bolstering the defense industrial base and securing critical supply chains. This period also saw efforts to promote agricultural policy and public lands management, reflecting a broader agenda to support rural communities and traditional American values. Through establishing presidential commissions and task forces, the administration sought to address specific issues such as military spouse welfare and citizenship integrity, while also spotlighting historical commemorations and national security concerns tied to energy infrastructure.",
+      "potential_impact": "These orders aimed to benefit military personnel, veterans, and defense industry workers by enhancing readiness and supply chain security, while rural communities and agricultural workers stood to gain from targeted support in farming and land management. However, the directives also posed challenges for large corporation employees and federal contractors facing stricter sourcing rules. Critics expressed concern that the patriotic framing of history risked marginalizing minority groups, including Native Americans, African Americans, and Hispanic Americans, and that heightened enforcement in defense supply chains might strain relationships with contractors and small businesses, complicating operational effectiveness.",
+      "generated_at": "2026-09-22T17:26:47.307Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1014,5 +1014,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-09-21T18:23:31.551Z"
+  "generated_at": "2026-09-22T17:26:47.307Z"
 }

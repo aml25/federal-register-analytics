@@ -6,30 +6,30 @@
       "quarter_name": "Q3 2026",
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
-      "order_count": 14,
+      "order_count": 16,
       "top_themes": [
         {
           "id": "military-readiness-force-structure",
           "name": "Military Readiness / Force Structure"
         },
         {
+          "id": "american-heritage-patriotism",
+          "name": "American Heritage / Patriotism"
+        },
+        {
           "id": "presidential-commissions-task-forces",
           "name": "Presidential Commissions / Task Forces"
         },
         {
-          "id": "defense-industrial-base",
-          "name": "Defense Industrial Base"
+          "id": "agricultural-policy",
+          "name": "Agricultural Policy"
         },
         {
-          "id": "supply-chain-security",
-          "name": "Supply Chain Security"
-        },
-        {
-          "id": "american-heritage-patriotism",
-          "name": "American Heritage / Patriotism"
+          "id": "public-lands-management",
+          "name": "Public Lands Management"
         }
       ],
-      "theme_summary": "Donald Trump signed 14 executive orders focused on the themes of military readiness / force structure, presidential commissions / task forces, defense industrial base, and 2 others.",
+      "theme_summary": "Donald Trump signed 16 executive orders focused on the themes of military readiness / force structure, american heritage / patriotism, presidential commissions / task forces, and 2 others.",
       "order_ids": [
         "14415",
         "14416",
@@ -44,7 +44,9 @@
         "14425",
         "14426",
         "14427",
-        "14428"
+        "14428",
+        "14429",
+        "14430"
       ]
     },
     {
@@ -2694,5 +2696,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-21T18:23:23.915Z"
+  "generated_at": "2026-09-22T17:26:42.416Z"
 }
