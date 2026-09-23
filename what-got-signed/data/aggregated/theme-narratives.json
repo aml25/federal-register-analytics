@@ -3,12 +3,12 @@
     {
       "theme_id": "interagency-coordination",
       "theme_name": "Interagency Coordination",
-      "order_count": 136,
+      "order_count": 137,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 56
+          "order_count": 57
         },
         {
           "president_id": "barack-obama",
@@ -26,9 +26,9 @@
           "order_count": 1
         }
       ],
-      "summary": "Executive orders focused on interagency coordination have evolved to address complex cross-government challenges, from biosecurity and detainee policies to economic and social initiatives. While early efforts under George W. Bush were limited, subsequent administrations, notably Obama and Trump, issued numerous orders establishing councils and task forces aimed at integrating policy across agencies. These actions emphasized improving government efficiency and addressing multifaceted issues such as tribal affairs, energy development, and national security, reflecting differing priorities and approaches to collaboration and governance.",
-      "potential_impact": "These executive orders sought to benefit diverse groups including tribal communities, small business owners, and veterans by improving coordinated federal support and service delivery. However, increased interagency oversight sometimes raised concerns about burdens on researchers, delays in justice for detainees, and complications in diplomatic relations. Observers noted potential risks for disadvantaged populations facing prolonged detention or reduced transparency, as well as possible challenges for businesses navigating new compliance requirements, underscoring the delicate balance between security, accountability, and inclusivity.",
-      "generated_at": "2026-09-22T17:26:49.777Z",
+      "summary": "Executive orders focused on interagency coordination reveal evolving efforts to streamline and integrate federal government functions across multiple administrations. The Obama and Trump presidencies issued the bulk of these orders, emphasizing the creation of specialized councils and task forces to address complex issues such as economic policy, homeland security, and community development. These initiatives aimed to enhance collaboration among agencies, improve policy coherence, and address cross-cutting challenges, often balancing efficiency with the demands of diverse stakeholder interests and national security considerations.",
+      "potential_impact": "These orders targeted a wide spectrum of communities, from tribal and rural populations to veterans and technology workers, seeking to improve services and policy responsiveness through better federal coordination. However, the complexity of interagency efforts sometimes introduced administrative burdens and delays, affecting small businesses and research institutions. Concerns arose around the balance between security measures and operational flexibility, with potential repercussions for scientific collaboration, detainee treatment, and diplomatic relations, highlighting tensions between safeguarding interests and ensuring inclusive, transparent governance.",
+      "generated_at": "2026-09-23T17:36:21.560Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -328,6 +328,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "national-security-information-classification",
+      "theme_name": "National Security Information / Classification",
+      "order_count": 42,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 28
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 8
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 6
+        }
+      ],
+      "summary": "Executive orders addressing national security information and classification have evolved to balance safeguarding sensitive materials with advancing technological and defense priorities. While earlier orders under Obama established foundational classification protocols and reforms to enhance security, the Trump administration significantly expanded executive actions, emphasizing sanctions, technological leadership, and stringent controls over classified information. Biden’s approach incorporated targeted declassification efforts and renewed emphasis on responsible AI development, reflecting a nuanced focus on transparency alongside security. These shifts illustrate how administrations navigate the tension between protecting national secrets and fostering innovation.",
+      "potential_impact": "These orders primarily targeted individuals engaged in defense, intelligence, and technology sectors, seeking to enhance security protocols and control information flow. However, they also imposed burdens on federal employees, security clearance holders, and contractors through increased compliance demands and restricted information access. Concerns arose about workplace equity, administrative challenges, and the potential chilling effect on whistleblowers and transparency advocates. Additionally, stringent clearance requirements for private and state entities raised questions about operational efficiency and equitable participation in national security efforts, while broad sanctions posed risks to foreign businesses and diplomatic relations.",
+      "generated_at": "2026-09-23T17:36:25.473Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "tariffs-duties",
       "theme_name": "Tariffs / Duties",
       "order_count": 41,
@@ -341,32 +367,6 @@
       "summary": "The use of executive orders to impose tariffs and duties emerged as a central strategy under the Trump administration, aiming to reshape trade relations and address perceived threats to national security and economic interests. These orders targeted imports linked to illicit drug flows, trade imbalances, and critical industries like minerals and manufacturing. By adjusting tariff rates and enforcing stricter duties, the administration sought to protect domestic production and enforce trade laws more aggressively, reflecting a unilateral approach focused on leveraging economic pressure against key trading partners such as China, Canada, and Mexico.",
       "potential_impact": "These tariff measures were designed to benefit various domestic workforces, including manufacturing and defense industry workers, by fostering a more protected market environment. However, the increased costs associated with tariffs raised concerns about higher prices affecting consumers and small businesses, particularly in border communities reliant on cross-border trade. The policies also posed challenges for law enforcement by complicating cross-border collaboration and potentially exacerbating community tensions. Additionally, some groups, including Hispanic and Latino populations, faced heightened social and economic pressures linked to the orders’ framing of immigration and drug enforcement.",
       "generated_at": "2026-06-10T16:29:42.830Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "national-security-information-classification",
-      "theme_name": "National Security Information / Classification",
-      "order_count": 41,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 27
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 8
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 6
-        }
-      ],
-      "summary": "Executive orders addressing national security information and classification have evolved to balance safeguarding sensitive data with operational efficiency. While earlier administrations emphasized structural reforms and information sharing protocols, recent orders focused intensively on technological leadership and stringent security measures. The Trump administration notably expanded sanctions and tightened classification controls, often intertwining national security with economic and technological competitiveness. The Biden administration has moderated these approaches, emphasizing transparency and declassification reviews alongside continued advancements in AI and space policy, reflecting a complex interplay between security imperatives and evolving technological landscapes.",
-      "potential_impact": "These orders aimed to protect military, intelligence, and defense personnel by imposing rigorous classification and safeguarding standards, directly affecting those with security clearances and federal employees managing sensitive data. However, concerns arose around workforce morale due to uneven workday policies and administrative burdens placed on employees. The private sector, particularly defense contractors and technology workers, faced operational challenges from stringent compliance demands. Meanwhile, restrictions on information sharing with state, local, and tribal entities raised questions about coordination efficacy, and the broad application of sanctions risked unintended harm to foreign businesses and diplomatic relations.",
-      "generated_at": "2026-08-11T14:13:34.454Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -622,7 +622,7 @@
     {
       "theme_id": "worker-rights-protections",
       "theme_name": "Worker Rights / Protections",
-      "order_count": 27,
+      "order_count": 28,
       "presidents": [
         {
           "president_id": "barack-obama",
@@ -637,12 +637,12 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 5
+          "order_count": 6
         }
       ],
-      "summary": "Executive orders addressing worker rights and protections have reflected evolving federal priorities to balance labor empowerment with economic efficiency. Earlier orders under President Obama emphasized strengthening union roles, ensuring fair pay, and safeguarding workers on federal contracts through mechanisms like project labor agreements and paid sick leave. The Trump administration’s actions were more limited but included dispute resolution boards affecting transportation workers. President Biden’s orders revived and expanded protections, focusing on raising wages, enhancing worker organizing, and promoting pay equity, especially among federal contractors, signaling a renewed federal commitment to workforce empowerment within complex economic and procurement frameworks.",
-      "potential_impact": "These executive actions primarily aimed to benefit union members, federal contractors, and working-age adults by bolstering labor rights and workplace safety, yet they also introduced challenges for some federal contractors and small business owners facing increased compliance demands. While unionized workers and construction employees stood to gain improved protections, concerns arose over potential job displacement for non-union workers and administrative burdens that might limit contracting opportunities. The interplay of enhanced labor protections with contractor flexibility and small business competitiveness created tensions that could influence labor relations, contract performance, and equitable access to federal economic programs.",
-      "generated_at": "2026-02-09T03:31:14.734Z",
+      "summary": "Executive actions addressing worker rights and protections have evolved across administrations with varying emphases on labor relations, federal contracting standards, and workplace safety. Obama’s orders often strengthened union influence and established protections like paid sick leave for federal contractors, promoting collective bargaining and worker health. Trump’s actions leaned toward regulatory adjustments affecting trade and mobility, occasionally spotlighting emergency labor dispute boards. Biden’s directives renewed focus on raising wages, enhancing workforce equity, and reinforcing COVID-19 safety measures, reflecting a comprehensive approach to worker empowerment amid modern challenges. These shifting priorities illustrate the balancing act between fostering labor protections and managing federal procurement complexities.",
+      "potential_impact": "These executive orders aimed to benefit union members and working-age adults primarily engaged in federal contracts, construction, and manufacturing by enhancing labor protections, wages, and workplace conditions. However, concerns arose about the administrative burdens and compliance costs for federal contractors and small businesses, potentially limiting contracting opportunities and competition. Non-union workers and certain subcontractors might face reduced access to jobs due to project labor agreements favoring unionized labor, while inconsistent enforcement and agency discretion could lead to uneven worker protections, creating tensions within labor-management relations and affecting equitable economic recovery.",
+      "generated_at": "2026-09-23T17:36:28.814Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1765,6 +1765,27 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "visa-policy",
+      "theme_name": "Visa Policy",
+      "order_count": 13,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 10
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 3
+        }
+      ],
+      "summary": "Visa policy under recent presidencies has evolved from a nuanced approach emphasizing sanctions and targeted restrictions to a more expansive use of executive power aimed at tightening entry and employment pathways. While earlier orders focused on sanctioning individuals connected to human rights abuses and national security threats, later actions broadened to include sweeping travel suspensions and stricter visa program enforcement. This shift reflects changing priorities around national security, labor market protection, and immigration control, often intertwining diplomatic sanctions with immigration regulation in complex ways.",
+      "potential_impact": "These visa policies aimed to protect U.S. citizens and workers by curbing perceived security risks and prioritizing American employment but also placed significant burdens on foreign nationals, visa holders, and refugees. Restrictions on entry, visa eligibility, and refugee admissions raised concerns about due process, potential discrimination against certain nationalities, and the humanitarian consequences of limiting asylum opportunities. Business sectors reliant on foreign talent and international cooperation faced compliance challenges, while affected individuals grappled with uncertainty and constrained mobility.",
+      "generated_at": "2026-09-23T17:36:33.146Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "medicare",
       "theme_name": "Medicare",
       "order_count": 12,
@@ -1929,27 +1950,6 @@
       "summary": "Civil service reform through executive orders has reflected divergent priorities across recent administrations, with a strong emphasis on reshaping federal hiring and accountability mechanisms. The Trump administration notably pursued expansive reforms aimed at streamlining removal procedures, expanding excepted service categories, and increasing agency discretion in hiring and firing, often prioritizing performance and accountability. In contrast, Obama’s orders focused more on recruitment and career pathways for students and veterans, while Biden’s limited actions sought to revoke some prior policies. These varying approaches highlight ongoing tensions between merit-based hiring, workforce flexibility, and administrative control within the federal civil service.",
       "potential_impact": "These executive actions were designed to affect a broad array of stakeholders within the federal workforce, including civil servants, veterans, and young professionals seeking federal employment. While some orders aimed to enhance career opportunities and accountability, concerns arose about potential reductions in job security, due process, and fairness—especially for federal employees facing expedited removal or changes to hiring transparency. Labor unions and marginalized groups also faced challenges, as reforms sometimes limited collective bargaining rights and risked undermining equitable access to federal jobs, fueling debates over workforce morale and inclusivity.",
       "generated_at": "2026-06-10T16:29:58.251Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "visa-policy",
-      "theme_name": "Visa Policy",
-      "order_count": 12,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 9
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 3
-        }
-      ],
-      "summary": "Visa policy under recent administrations has reflected sharply contrasting priorities, with Obama’s orders focusing on sanctions targeting foreign actors tied to human rights abuses and enhancing foreign service appointments, while Trump’s executive actions largely emphasized restricting entry from specific countries and prioritizing American workers through visa limitations. These policies intertwined national security concerns with economic protectionism, demonstrating a shift from targeted diplomatic sanctions to broad travel suspensions and tightened visa controls that reshaped the U.S. approach to immigration and international relations.",
-      "potential_impact": "The executive orders aimed to protect U.S. citizens and workers by limiting visa access for foreign nationals perceived as security risks or economic competitors, yet they also affected lawful visa holders, refugees, and asylum seekers, often raising concerns about due process and discrimination. Sanctions and travel bans complicated the lives of individuals connected to designated countries, while businesses and foreign governments navigated new compliance challenges, highlighting tensions between safeguarding national interests and upholding humanitarian and diplomatic commitments.",
-      "generated_at": "2026-08-11T14:13:41.681Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4956,5 +4956,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-09-22T17:27:07.392Z"
+  "generated_at": "2026-09-23T17:36:33.147Z"
 }

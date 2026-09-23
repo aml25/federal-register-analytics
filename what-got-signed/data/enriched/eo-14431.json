@@ -1,0 +1,44 @@
+{
+  "document_number": "2026-19555",
+  "executive_order_number": "14431",
+  "title": "Enhancing Program Integrity and Interagency Coordination in the Administration of the H-1B Nonimmigrant Visa Program",
+  "abstract": null,
+  "signing_date": "2026-09-18",
+  "publication_date": "2026-09-23",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/09/23/2026-19555/enhancing-program-integrity-and-interagency-coordination-in-the-administration-of-the-h-1b",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-09-23/pdf/2026-19555.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/09/23/2026-19555.txt",
+  "enrichment": {
+    "summary": "This executive order directs federal agencies to work together to prevent abuse of the H-1B visa program, which is intended to bring skilled foreign workers to the U.S. but has been misused to replace American workers with lower-paid, lower-skilled foreign labor. The order requires agencies to review employer practices, coordinate on visa processing, and take actions to protect American workers and ensure the integrity of the program.",
+    "theme_ids": [
+      "visa-policy",
+      "interagency-coordination",
+      "worker-rights-protections",
+      "national-security-information-classification"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "working-age-adults",
+        "u-s-citizens",
+        "technology-workers"
+      ],
+      "negative_ids": [
+        "visa-holders-work-student-tourist",
+        "large-corporation-employees"
+      ]
+    },
+    "potential_concerns": [
+      "The enhanced scrutiny and restrictions on employers may lead to reduced H-1B visa approvals, negatively impacting skilled foreign workers (visa-holders-work-student-tourist) seeking employment in the U.S.",
+      "Technology workers (technology-workers) who are U.S. citizens and working-age adults may benefit from greater job protections, but there is potential for slower innovation and project delays in companies heavily reliant on H-1B labor.",
+      "Large corporations (large-corporation-employees) dependent on outsourcing models may experience increased compliance costs and operational challenges due to tighter interagency coordination and wage enforcement.",
+      "The order’s focus on preventing layoffs linked to H-1B hiring might incentivize employers to delay necessary workforce adjustments, potentially disrupting the labor market and harming U.S. workers’ long-term employment prospects.",
+      "Increased enforcement efforts could lead to unintended job insecurity or exploitation risks for current H-1B visa holders if employers attempt to circumvent new policies."
+    ],
+    "enriched_at": "2026-09-23T17:36:10.052Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

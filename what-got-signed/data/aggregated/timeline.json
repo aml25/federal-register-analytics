@@ -6,7 +6,7 @@
       "quarter_name": "Q3 2026",
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
-      "order_count": 16,
+      "order_count": 17,
       "top_themes": [
         {
           "id": "military-readiness-force-structure",
@@ -29,7 +29,7 @@
           "name": "Public Lands Management"
         }
       ],
-      "theme_summary": "Donald Trump signed 16 executive orders focused on the themes of military readiness / force structure, american heritage / patriotism, presidential commissions / task forces, and 2 others.",
+      "theme_summary": "Donald Trump signed 17 executive orders focused on the themes of military readiness / force structure, american heritage / patriotism, presidential commissions / task forces, and 2 others.",
       "order_ids": [
         "14415",
         "14416",
@@ -46,7 +46,8 @@
         "14427",
         "14428",
         "14429",
-        "14430"
+        "14430",
+        "14431"
       ]
     },
     {
@@ -2696,5 +2697,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-22T17:26:42.416Z"
+  "generated_at": "2026-09-23T17:36:10.144Z"
 }
