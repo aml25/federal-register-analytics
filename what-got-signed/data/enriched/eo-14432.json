@@ -1,0 +1,51 @@
+{
+  "document_number": "2026-20319",
+  "executive_order_number": "14432",
+  "title": "Streamlining Access to Government Services Through America.gov",
+  "abstract": null,
+  "signing_date": "2026-09-29",
+  "publication_date": "2026-10-02",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/10/02/2026-20319/streamlining-access-to-government-services-through-americagov",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-02/pdf/2026-20319.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/10/02/2026-20319.txt",
+  "enrichment": {
+    "summary": "This executive order directs the creation of America.gov, a single, secure, and user-friendly online portal for Americans to access federal government services and information. It aims to simplify interactions by integrating services from multiple agencies, while protecting personal data and preserving existing ways to access services.",
+    "theme_ids": [
+      "government-efficiency",
+      "data-privacy",
+      "government-it-modernization",
+      "artificial-intelligence"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "u-s-citizens",
+        "lawful-permanent-residents-green-card-holders",
+        "undocumented-immigrants",
+        "refugees",
+        "daca-recipients-dreamers",
+        "medicare-beneficiaries",
+        "medicaid-beneficiaries",
+        "individuals-with-disabilities",
+        "low-income-individuals-families",
+        "rural-communities",
+        "urban-communities",
+        "working-age-adults",
+        "seniors-elderly"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The integration of multiple federal services into America.gov may create accessibility challenges for seniors-elderly and individuals-with-disabilities who rely on traditional service channels despite the EO's intent to preserve them.",
+      "Data privacy risks could disproportionately affect vulnerable populations such as undocumented-immigrants and low-income-individuals-families if personal information is insufficiently protected during authentication and data sharing across agencies.",
+      "Reliance on artificial intelligence for service delivery may lead to inaccuracies or biases that negatively impact racial and ethnic minority groups within urban-communities and rural-communities, undermining fairness and inclusivity.",
+      "The shift toward a digital unified portal might unintentionally marginalize individuals in rural-communities or low-income households without reliable internet access, risking a digital divide in federal service accessibility.",
+      "While aiming for government-efficiency, the consolidation effort could create a single point of failure or cyberattack vulnerability that harms all users, especially Medicare and Medicaid beneficiaries who depend on timely government services."
+    ],
+    "enriched_at": "2026-10-02T18:07:45.654Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

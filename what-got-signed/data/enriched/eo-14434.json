@@ -1,0 +1,39 @@
+{
+  "document_number": "2026-20321",
+  "executive_order_number": "14434",
+  "title": "Inaugurating the Era of Super Intelligence",
+  "abstract": null,
+  "signing_date": "2026-09-29",
+  "publication_date": "2026-10-02",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/10/02/2026-20321/inaugurating-the-era-of-super-intelligence",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-02/pdf/2026-20321.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/10/02/2026-20321.txt",
+  "enrichment": {
+    "summary": "This executive order directs all executive branch agencies to replace the terms \"Artificial Intelligence\" and \"AI\" with \"Super Intelligence\" and \"SI\" in official communications to reflect the evolving capabilities of the technology. It also calls for a proposed federal definition of \"Super Intelligence\" to be developed that may update or replace the existing legal definition of artificial intelligence.",
+    "theme_ids": [
+      "artificial-intelligence",
+      "science-and-technology-policy",
+      "government-efficiency"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "technology-workers",
+        "scientific-researchers",
+        "entrepreneurs-startups"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Mandating the exclusive use of the term \"Super Intelligence\" may cause confusion and inconsistency in legal, academic, and commercial settings, impacting technology workers and scientific researchers who rely on clear terminology.",
+      "The shift in terminology risks creating challenges for international collaboration and standardization in AI research and development, potentially disadvantaging U.S.-based entrepreneurs and startups in global markets.",
+      "Updating the federal definition to emphasize a potentially broader or more ambitious concept of \"Super Intelligence\" could result in regulatory uncertainty, complicating compliance for technology workers and startups.",
+      "The order’s directive to disavow the use of \"Artificial Intelligence\" in official executive branch communications might unintentionally reduce public understanding and accessibility of government information on AI technologies, affecting the broader innovation ecosystem."
+    ],
+    "enriched_at": "2026-10-02T18:07:36.255Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

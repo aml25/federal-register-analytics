@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 17
+          "order_count": 20
         }
       ],
-      "total_order_count": 17,
-      "summary": "In the third quarter of 2026, President Trump signed 17 executive orders that collectively emphasized strengthening military readiness and patriotic heritage while addressing agricultural and public land policies. Four orders targeted force structure and defense supply chains, seeking to secure domestic acquisition of critical materials and enhance program integrity. Simultaneously, the administration pursued initiatives to promote American patriotism and historical commemoration, including efforts to reshape narratives within national institutions. Agricultural policy and interagency coordination also featured prominently, reflecting a drive to support rural economies and streamline federal collaboration across sectors.",
-      "potential_impact": "These executive actions aimed to benefit military personnel, veterans, small business owners, and rural communities by bolstering defense capabilities and supporting agricultural markets. However, concerns arose that stringent domestic sourcing rules and increased oversight could impose burdens on federal contractors and large corporations, potentially slowing defense production. The patriotic reframing of historical narratives risked marginalizing Native American, African American, and Hispanic communities by presenting a less inclusive view of American history. Additionally, some visa holders and foreign nationals faced heightened scrutiny, while debates emerged over the representation and inclusivity within newly established presidential commissions.",
-      "generated_at": "2026-09-23T17:36:18.835Z",
+      "total_order_count": 20,
+      "summary": "In the third quarter of 2026, President Trump’s executive orders emphasized strengthening national defense and fostering a patriotic vision of American heritage. Four orders sought to bolster military readiness and defense supply chains, underscoring a drive to secure domestic production of critical materials amid concerns over foreign dependencies. Simultaneously, the administration focused on managing public lands and enhancing interagency coordination, while advancing agricultural policies supporting ranchers and meat producers. Efforts to promote American history and patriotism included initiatives affecting national museums and commemorations, reflecting a broader aim to shape cultural narratives alongside practical governance reforms.",
+      "potential_impact": "These orders targeted military personnel, veterans, rural communities, and small business owners—particularly those in agriculture and defense sectors—who stood to gain from increased support and streamlined government services. However, stricter domestic sourcing and supply chain oversight raised concerns among large corporation employees and federal contractors about potential cost increases and operational challenges. Critics also worried that the administration’s patriotic framing of American history risked marginalizing Indigenous peoples and racial minorities, potentially deepening cultural divides and undermining inclusive representation in national institutions.",
+      "generated_at": "2026-10-02T18:07:51.539Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1014,5 +1014,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-09-23T17:36:18.835Z"
+  "generated_at": "2026-10-02T18:07:51.539Z"
 }
