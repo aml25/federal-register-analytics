@@ -1,61 +1,9 @@
 {
-  "week": "2026-W40",
-  "date_range": "September 28 – October 4, 2026",
-  "narrative": "During the week of September 28 to October 4, 2026, President Donald Trump signed three executive orders focusing on government efficiency, artificial intelligence, and environmental regulation. EO 14432 aimed to streamline access to government services via America.gov, enhancing IT modernization. EO 14433 targeted public health by eliminating disease-carrying pests and improving public lands management. Meanwhile, EO 14434 marked a new chapter in artificial intelligence policy by inaugurating the era of super intelligence, reflecting increased attention to AI and data privacy.",
-  "orders": [
-    {
-      "number": "14432",
-      "title": "Streamlining Access to Government Services Through America.gov",
-      "url": "https://www.federalregister.gov/documents/2026/10/02/2026-20319/streamlining-access-to-government-services-through-americagov",
-      "president_name": "Donald Trump"
-    },
-    {
-      "number": "14433",
-      "title": "Eliminating Disease-Carrying Pests and Restoring Enjoyment of the Great Outdoors",
-      "url": "https://www.federalregister.gov/documents/2026/10/02/2026-20320/eliminating-disease-carrying-pests-and-restoring-enjoyment-of-the-great-outdoors",
-      "president_name": "Donald Trump"
-    },
-    {
-      "number": "14434",
-      "title": "Inaugurating the Era of Super Intelligence",
-      "url": "https://www.federalregister.gov/documents/2026/10/02/2026-20321/inaugurating-the-era-of-super-intelligence",
-      "president_name": "Donald Trump"
-    }
-  ],
-  "top_themes": [
-    {
-      "id": "government-efficiency",
-      "name": "Government Efficiency"
-    },
-    {
-      "id": "artificial-intelligence",
-      "name": "Artificial Intelligence"
-    },
-    {
-      "id": "data-privacy",
-      "name": "Data Privacy"
-    },
-    {
-      "id": "government-it-modernization",
-      "name": "Government IT Modernization"
-    },
-    {
-      "id": "public-health-emergency-response",
-      "name": "Public Health Emergency Response"
-    },
-    {
-      "id": "environmental-regulation",
-      "name": "Environmental Regulation"
-    },
-    {
-      "id": "biotechnology-biomanufacturing",
-      "name": "Biotechnology / Biomanufacturing"
-    },
-    {
-      "id": "public-lands-management",
-      "name": "Public Lands Management"
-    }
-  ],
-  "generated_at": "2026-10-02T18:08:13.799Z",
-  "model_used": "gpt-4.1-mini"
+  "week": "2026-W41",
+  "date_range": "October 5–11, 2026",
+  "narrative": "",
+  "orders": [],
+  "top_themes": [],
+  "generated_at": "2026-10-05T21:02:54.410Z",
+  "model_used": ""
 }
