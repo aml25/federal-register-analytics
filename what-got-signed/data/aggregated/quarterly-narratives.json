@@ -2,6 +2,23 @@
   "narratives": [
     {
       "year": 2026,
+      "quarter": 4,
+      "quarter_name": "Q4 2026",
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 1
+        }
+      ],
+      "total_order_count": 1,
+      "summary": "In the final quarter of 2026, President Trump focused executive action on mitigating economic challenges in rural and agricultural sectors by signing a single order that offered emergency tax relief on diesel fuel. This move sought to ease financial burdens on farmers, transportation workers, and rural communities grappling with post-crisis recovery. By targeting tax policy alongside agricultural and transportation infrastructure concerns, the administration aimed to stimulate economic activity and support essential industries vital to rural development during a period of ongoing economic strain.",
+      "potential_impact": "The executive order intended to benefit agricultural workers, farmers, and transportation personnel by reducing diesel fuel costs, thereby alleviating operational expenses in rural areas. However, observers expressed concerns that the tax deferral could reduce federal revenues critical for infrastructure and development programs, while potentially favoring larger agricultural and transportation businesses over small-scale operators. Additionally, complexities in implementation and compliance posed risks of uneven relief distribution, possibly leaving some rural stakeholders without the intended support.",
+      "generated_at": "2026-10-09T18:35:18.816Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
+      "year": 2026,
       "quarter": 3,
       "quarter_name": "Q3 2026",
       "presidents": [
@@ -1014,5 +1031,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-10-02T18:07:51.539Z"
+  "generated_at": "2026-10-09T18:35:18.816Z"
 }

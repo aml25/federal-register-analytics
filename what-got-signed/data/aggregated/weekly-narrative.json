@@ -1,9 +1,37 @@
 {
   "week": "2026-W41",
   "date_range": "October 5–11, 2026",
-  "narrative": "",
-  "orders": [],
-  "top_themes": [],
-  "generated_at": "2026-10-05T21:02:54.410Z",
-  "model_used": ""
+  "narrative": "During the week of October 5–11, 2026, President Donald Trump signed one executive order focused on economic recovery following recent challenges. Executive Order 14435, titled Emergency Tax Relief on Diesel Fuel, addressed tax policy and reform by providing immediate tax relief on diesel fuel. This measure aimed to support agricultural sectors, enhance transportation infrastructure, and promote rural development as part of broader efforts to bolster economic stability.",
+  "orders": [
+    {
+      "number": "14435",
+      "title": "Emergency Tax Relief on Diesel Fuel",
+      "url": "https://www.federalregister.gov/documents/2026/10/09/2026-20855/emergency-tax-relief-on-diesel-fuel",
+      "president_name": "Donald Trump"
+    }
+  ],
+  "top_themes": [
+    {
+      "id": "tax-policy-tax-reform",
+      "name": "Tax Policy / Tax Reform"
+    },
+    {
+      "id": "agricultural-policy",
+      "name": "Agricultural Policy"
+    },
+    {
+      "id": "transportation-infrastructure",
+      "name": "Transportation Infrastructure"
+    },
+    {
+      "id": "rural-development",
+      "name": "Rural Development"
+    },
+    {
+      "id": "economic-recovery-post-crisis",
+      "name": "Economic Recovery (Post-Crisis)"
+    }
+  ],
+  "generated_at": "2026-10-09T18:35:32.264Z",
+  "model_used": "gpt-4.1-mini"
 }

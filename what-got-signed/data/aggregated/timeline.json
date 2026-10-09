@@ -2,6 +2,40 @@
   "periods": [
     {
       "year": 2026,
+      "quarter": 4,
+      "quarter_name": "Q4 2026",
+      "president_id": "donald-trump",
+      "president_name": "Donald Trump",
+      "order_count": 1,
+      "top_themes": [
+        {
+          "id": "tax-policy-tax-reform",
+          "name": "Tax Policy / Tax Reform"
+        },
+        {
+          "id": "agricultural-policy",
+          "name": "Agricultural Policy"
+        },
+        {
+          "id": "transportation-infrastructure",
+          "name": "Transportation Infrastructure"
+        },
+        {
+          "id": "rural-development",
+          "name": "Rural Development"
+        },
+        {
+          "id": "economic-recovery-post-crisis",
+          "name": "Economic Recovery (Post-Crisis)"
+        }
+      ],
+      "theme_summary": "Donald Trump signed 1 executive order focused on the themes of tax policy / tax reform, agricultural policy, transportation infrastructure, and 2 others.",
+      "order_ids": [
+        "14435"
+      ]
+    },
+    {
+      "year": 2026,
       "quarter": 3,
       "quarter_name": "Q3 2026",
       "president_id": "donald-trump",
@@ -2700,5 +2734,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-02T18:07:45.835Z"
+  "generated_at": "2026-10-09T18:35:13.158Z"
 }

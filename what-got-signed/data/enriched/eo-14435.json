@@ -1,0 +1,42 @@
+{
+  "document_number": "2026-20855",
+  "executive_order_number": "14435",
+  "title": "Emergency Tax Relief on Diesel Fuel",
+  "abstract": null,
+  "signing_date": "2026-10-05",
+  "publication_date": "2026-10-09",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/10/09/2026-20855/emergency-tax-relief-on-diesel-fuel",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-09/pdf/2026-20855.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/10/09/2026-20855.txt",
+  "enrichment": {
+    "summary": "This executive order temporarily delays certain diesel fuel tax payments and waives penalties for farmers, truckers, and related industries due to restricted global diesel supply and rising prices. It directs federal agencies to facilitate this relief, ensure safe access to diesel fuel, and explore options for forgiving the deferred taxes altogether.",
+    "theme_ids": [
+      "tax-policy-tax-reform",
+      "agricultural-policy",
+      "transportation-infrastructure",
+      "rural-development",
+      "economic-recovery-post-crisis"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "agricultural-workers-farmers",
+        "transportation-workers",
+        "rural-communities"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "Deferral and possible forgiveness of diesel taxes may lead to reduced federal revenue, which could impact funding for transportation infrastructure and rural development programs benefiting rural communities and farmers.",
+      "Temporary tax relief might disproportionately benefit larger or better-connected agricultural and transportation businesses, disadvantaging small farmers or independent truckers within rural communities.",
+      "The delay in tax payments could encourage short-term diesel overconsumption, potentially exacerbating supply shortages and increasing fuel costs for other consumers.",
+      "Coordination challenges between federal and state agencies could delay the effective distribution of dyed diesel fuel in rural areas, undermining the order's goal to support agricultural workers and rural communities.",
+      "Lack of clarity or complexity in the IRS guidance could create compliance burdens for farmers and transportation workers, causing confusion or disqualification from intended penalty relief."
+    ],
+    "enriched_at": "2026-10-09T18:35:13.019Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
