@@ -1,0 +1,41 @@
+{
+  "document_number": "2026-21599",
+  "executive_order_number": "14436",
+  "title": "Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026",
+  "abstract": null,
+  "signing_date": "2026-10-16",
+  "publication_date": "2026-10-21",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/10/21/2026-21599/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-21/pdf/2026-21599.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/10/21/2026-21599.txt",
+  "enrichment": {
+    "summary": "This executive order implements sanctions and duties under the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026, increasing tariffs on goods from the Russian Federation and certain related countries, particularly targeting oil and natural gas imports. It also establishes monitoring and waiver provisions and delegates key authorities to various executive branch officials to enforce and adjust these sanctions as necessary in support of U.S. national interests.",
+    "theme_ids": [
+      "economic-sanctions",
+      "tariffs-duties",
+      "trade-policy-agreements",
+      "russia",
+      "iran"
+    ],
+    "impacted_populations": {
+      "positive_ids": [],
+      "negative_ids": [
+        "energy-sector-workers-oil-gas-coal",
+        "large-corporation-employees",
+        "citizens-of-specific-countries-by-eo-designation"
+      ]
+    },
+    "potential_concerns": [
+      "Significant tariff increases on Russian-origin oil and natural gas could lead to higher costs and job losses among energy-sector-workers-oil-gas-coal and employees in large corporations dependent on these imports.",
+      "Import-dependent industries may face supply chain disruptions and increased operational costs due to elevated tariffs, potentially reducing competitiveness in domestic and global markets.",
+      "The sanctions and tariff measures may escalate geopolitical tensions, adversely affecting citizens-of-specific-countries-by-eo-designation, including Russian and Iranian nationals with ties to the U.S.",
+      "Waiver provisions and monitoring requirements may create uncertainty and complexity for businesses attempting to navigate compliance, disproportionately burdening smaller companies with fewer legal resources."
+    ],
+    "enriched_at": "2026-10-21T17:47:07.493Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

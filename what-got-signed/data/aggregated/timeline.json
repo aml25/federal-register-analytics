@@ -6,7 +6,7 @@
       "quarter_name": "Q4 2026",
       "president_id": "donald-trump",
       "president_name": "Donald Trump",
-      "order_count": 1,
+      "order_count": 2,
       "top_themes": [
         {
           "id": "tax-policy-tax-reform",
@@ -29,9 +29,10 @@
           "name": "Economic Recovery (Post-Crisis)"
         }
       ],
-      "theme_summary": "Donald Trump signed 1 executive order focused on the themes of tax policy / tax reform, agricultural policy, transportation infrastructure, and 2 others.",
+      "theme_summary": "Donald Trump signed 2 executive orders focused on the themes of tax policy / tax reform, agricultural policy, transportation infrastructure, and 2 others.",
       "order_ids": [
-        "14435"
+        "14435",
+        "14436"
       ]
     },
     {
@@ -2734,5 +2735,5 @@
       ]
     }
   ],
-  "generated_at": "2026-10-09T18:35:13.158Z"
+  "generated_at": "2026-10-21T17:47:07.574Z"
 }

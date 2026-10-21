@@ -2197,6 +2197,15 @@
         "eo_title": "Delivering Gold Standard Childhood Vaccine Recommendations for Americans",
         "justification": "Parents as a distinct group making vaccination decisions are central to this policy's focus on parental choice and vaccine exemptions but are not explicitly listed in the taxonomy.",
         "suggested_at": "2026-08-14"
+      },
+      {
+        "name": "Import-Dependent Industries",
+        "suggested_category": "Industry-Specific (negative impact)",
+        "impact_type": "neutral",
+        "eo_number": "14436",
+        "eo_title": "Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026",
+        "justification": "The order directly increases tariffs on goods from Russia and certain countries, affecting industries reliant on imports from those countries, which is not explicitly captured by existing taxonomies.",
+        "suggested_at": "2026-10-21"
       }
     ]
   }

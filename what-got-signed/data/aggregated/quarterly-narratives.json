@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 1
+          "order_count": 2
         }
       ],
-      "total_order_count": 1,
-      "summary": "In the final quarter of 2026, President Trump focused executive action on mitigating economic challenges in rural and agricultural sectors by signing a single order that offered emergency tax relief on diesel fuel. This move sought to ease financial burdens on farmers, transportation workers, and rural communities grappling with post-crisis recovery. By targeting tax policy alongside agricultural and transportation infrastructure concerns, the administration aimed to stimulate economic activity and support essential industries vital to rural development during a period of ongoing economic strain.",
-      "potential_impact": "The executive order intended to benefit agricultural workers, farmers, and transportation personnel by reducing diesel fuel costs, thereby alleviating operational expenses in rural areas. However, observers expressed concerns that the tax deferral could reduce federal revenues critical for infrastructure and development programs, while potentially favoring larger agricultural and transportation businesses over small-scale operators. Additionally, complexities in implementation and compliance posed risks of uneven relief distribution, possibly leaving some rural stakeholders without the intended support.",
-      "generated_at": "2026-10-09T18:35:18.816Z",
+      "total_order_count": 2,
+      "summary": "In the final quarter of 2026, President Trump signed two executive orders that reflected a dual focus on domestic economic relief and international geopolitical strategy. The first order provided emergency tax relief on diesel fuel, aiming to alleviate financial pressures on agricultural and transportation sectors while supporting rural communities. Simultaneously, the administration enacted sanctions through the Lindsey O. Graham Sanctioning Russia and Iran Act, imposing tariffs and duties designed to exert economic pressure on these nations. Together, these actions highlighted an effort to bolster economic recovery in key domestic sectors while addressing foreign policy concerns related to Russia and Iran.",
+      "potential_impact": "The diesel fuel tax relief sought to benefit farmers, transportation workers, and rural communities by reducing operational costs amid ongoing economic challenges. However, concerns arose that the relief might skew toward larger agricultural businesses, potentially sidelining smaller operators and independent truckers. Additionally, the tax deferral raised questions about long-term federal revenue and infrastructure funding. Meanwhile, the sanctions targeting Russia and Iran threatened to disrupt energy-sector jobs and increase costs for companies reliant on imports, with broader implications for citizens connected to these countries. The complexity of compliance and potential supply chain disruptions underscored the uneven effects across industries and communities.",
+      "generated_at": "2026-10-21T17:47:14.147Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1031,5 +1031,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-10-09T18:35:18.816Z"
+  "generated_at": "2026-10-21T17:47:14.147Z"
 }
