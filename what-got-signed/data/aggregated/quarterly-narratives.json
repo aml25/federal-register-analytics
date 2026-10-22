@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 2
+          "order_count": 3
         }
       ],
-      "total_order_count": 2,
-      "summary": "In the final quarter of 2026, President Trump signed two executive orders that reflected a dual focus on domestic economic relief and international geopolitical strategy. The first order provided emergency tax relief on diesel fuel, aiming to alleviate financial pressures on agricultural and transportation sectors while supporting rural communities. Simultaneously, the administration enacted sanctions through the Lindsey O. Graham Sanctioning Russia and Iran Act, imposing tariffs and duties designed to exert economic pressure on these nations. Together, these actions highlighted an effort to bolster economic recovery in key domestic sectors while addressing foreign policy concerns related to Russia and Iran.",
-      "potential_impact": "The diesel fuel tax relief sought to benefit farmers, transportation workers, and rural communities by reducing operational costs amid ongoing economic challenges. However, concerns arose that the relief might skew toward larger agricultural businesses, potentially sidelining smaller operators and independent truckers. Additionally, the tax deferral raised questions about long-term federal revenue and infrastructure funding. Meanwhile, the sanctions targeting Russia and Iran threatened to disrupt energy-sector jobs and increase costs for companies reliant on imports, with broader implications for citizens connected to these countries. The complexity of compliance and potential supply chain disruptions underscored the uneven effects across industries and communities.",
-      "generated_at": "2026-10-21T17:47:14.147Z",
+      "total_order_count": 3,
+      "summary": "In the final quarter of 2026, President Trump signed three executive orders that collectively targeted economic relief, international sanctions, and public health. One order provided emergency tax relief on diesel fuel aimed at supporting agricultural and transportation sectors, while another implemented stringent sanctions and tariff policies against Russia and Iran, reflecting a hardline trade and foreign policy stance. The third order advanced women's health initiatives, seeking to improve outcomes across all life stages. Together, these actions underscored a blend of economic recovery efforts, geopolitical assertiveness, and a renewed focus on health equity within the administration’s priorities.",
+      "potential_impact": "The diesel tax relief order was designed to benefit agricultural workers, rural communities, and transportation workers, though concerns arose about its potential to favor larger enterprises and strain federal funding for infrastructure. Sanctions and tariffs targeting Russian and Iranian imports aimed to pressure foreign actors but risked job losses among energy sector workers and disruptions for large corporations reliant on these imports, while potentially heightening geopolitical tensions affecting citizens linked to those countries. The women’s health order intended to enhance care for women broadly, yet observers noted risks of neglecting intersecting racial and socioeconomic health disparities within this population.",
+      "generated_at": "2026-10-22T17:44:58.665Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1031,5 +1031,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-10-21T17:47:14.147Z"
+  "generated_at": "2026-10-22T17:44:58.665Z"
 }

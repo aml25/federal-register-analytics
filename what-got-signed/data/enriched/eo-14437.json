@@ -1,0 +1,39 @@
+{
+  "document_number": "2026-21666",
+  "executive_order_number": "14437",
+  "title": "Advancing Women's Health To Improve Outcomes in All Phases of Life",
+  "abstract": null,
+  "signing_date": "2026-10-19",
+  "publication_date": "2026-10-22",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/10/22/2026-21666/advancing-womens-health-to-improve-outcomes-in-all-phases-of-life",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-22/pdf/2026-21666.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/10/22/2026-21666.txt",
+  "enrichment": {
+    "summary": "This executive order directs the federal government to improve women's health across all stages of life by enhancing research, diagnosis, prevention, and treatment. It establishes a dedicated Women's Health Division within the National Institutes of Health and creates a White House Women's Health Task Force to coordinate efforts and accelerate the translation of research into better health care and policies for women.",
+    "theme_ids": [],
+    "impacted_populations": {
+      "positive_ids": [
+        "women",
+        "children-minors",
+        "working-age-adults",
+        "seniors-elderly",
+        "individuals-with-mental-health-conditions",
+        "individuals-with-chronic-illnesses",
+        "patients-general"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The focus on women-specific health research and interventions may highlight disparities but could unintentionally divert resources from addressing intersectional health challenges faced by women in marginalized racial and socioeconomic groups, potentially perpetuating inequities.",
+      "Enhanced emphasis on including women in clinical trials might increase participant burden or raise ethical concerns about informed consent, especially for minors and seniors, requiring careful oversight.",
+      "Efforts to accelerate translation of research into clinical practice could lead to premature adoption of therapies without fully established efficacy or safety, posing risks to patients-general, especially vulnerable populations such as seniors and those with chronic illnesses.",
+      "Coordination across multiple federal departments may face bureaucratic challenges, potentially delaying benefits realization for working-age adult women monitoring reproductive and midlife health stages."
+    ],
+    "enriched_at": "2026-10-22T17:44:53.250Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
