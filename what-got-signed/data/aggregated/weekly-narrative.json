@@ -1,16 +1,9 @@
 {
-  "week": "2026-W43",
-  "date_range": "October 19–25, 2026",
-  "narrative": "During the week of October 19–25, 2026, President Donald Trump signed one executive order, EO 14437, focusing on advancing women's health to improve outcomes across all phases of life. This directive aimed to enhance healthcare services and policies addressing women's unique medical needs, signaling a targeted effort to improve health equity and support comprehensive care throughout various stages of life. No other executive orders were issued during this period.",
-  "orders": [
-    {
-      "number": "14437",
-      "title": "Advancing Women's Health To Improve Outcomes in All Phases of Life",
-      "url": "https://www.federalregister.gov/documents/2026/10/22/2026-21666/advancing-womens-health-to-improve-outcomes-in-all-phases-of-life",
-      "president_name": "Donald Trump"
-    }
-  ],
+  "week": "2026-W44",
+  "date_range": "October 26 – November 1, 2026",
+  "narrative": "",
+  "orders": [],
   "top_themes": [],
-  "generated_at": "2026-10-22T17:44:59.952Z",
-  "model_used": "gpt-4.1-mini"
+  "generated_at": "2026-10-26T18:56:38.939Z",
+  "model_used": ""
 }
