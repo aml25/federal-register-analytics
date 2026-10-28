@@ -1,0 +1,42 @@
+{
+  "document_number": "2026-22051",
+  "executive_order_number": "14438",
+  "title": "Decreasing Housing Costs for the American People",
+  "abstract": null,
+  "signing_date": "2026-10-22",
+  "publication_date": "2026-10-28",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/10/28/2026-22051/decreasing-housing-costs-for-the-american-people",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-28/pdf/2026-22051.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/10/28/2026-22051.txt",
+  "enrichment": {
+    "summary": "This executive order aims to make owning a home more affordable by reducing regulatory barriers and costs associated with mortgages and housing. It directs agencies to create programs that proactively cancel unnecessary mortgage insurance, standardize permitting for manufactured housing to lower building costs, reduce excessive title insurance fees in refinancing, and lower interest rates on certain government-backed home loans.",
+    "theme_ids": [
+      "housing-policy-affordable-housing",
+      "economic-competitiveness",
+      "manufacturing-policy",
+      "presidential-commissions-task-forces",
+      "regulatory-reform-deregulation"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "renters-homeowners",
+        "veterans",
+        "low-income-individuals-families",
+        "manufacturing-workers"
+      ],
+      "negative_ids": []
+    },
+    "potential_concerns": [
+      "The reliance on automated valuation models and Super Intelligence technologies for mortgage insurance cancellation might inadvertently disadvantage low-income individuals and renters-homeowners due to potential algorithmic bias or inaccurate assessments.",
+      "Efforts to standardize permitting and promote factory-built housing may disrupt traditional construction jobs, impacting manufacturing-workers who may face job displacement or require retraining.",
+      "Reducing title insurance requirements and fees in refinancing could increase risk exposure if automated title assessments miss underlying issues, potentially harming veterans and low-income families relying on government-backed loans.",
+      "Lowering interest rates on Department of Agriculture and Veterans Affairs direct loans may strain federal budgets or lead to reduced availability of funds, indirectly limiting access for some low-income families and veterans despite intended affordability improvements."
+    ],
+    "enriched_at": "2026-10-28T18:34:29.613Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}
