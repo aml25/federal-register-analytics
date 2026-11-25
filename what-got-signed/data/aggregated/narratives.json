@@ -5,10 +5,10 @@
       "president_name": "Donald Trump",
       "term_start": 2025,
       "term_end": "present",
-      "order_count": 288,
-      "summary": "President Donald Trump's executive orders reveal a concerted effort to reshape federal governance with a strong emphasis on national security, economic sovereignty, and government efficiency. Early in the term, a surge of orders tackled border and homeland security, reflecting a priority to protect the nation’s territorial integrity. Concurrently, significant attention to tariffs, deregulation, and trade policies underscores a drive to bolster American economic competitiveness and energy independence. The administration also pursued aggressive restructuring of federal agencies and workforce management, aiming to streamline operations while reasserting American heritage and patriotism amid a backdrop of national emergencies and evolving defense strategies.",
-      "potential_impact": "These executive orders predominantly aimed to benefit sectors such as small businesses, military personnel, and manufacturing workers by fostering a more protectionist and security-focused environment. However, the policies posed challenges for consumers, undocumented immigrants, and environmental justice communities, often tightening immigration enforcement and rolling back diversity and equity initiatives. Critics voiced concerns that the dismantling of inclusive programs and environmental protections could exacerbate disparities, while the emphasis on America First policies risked straining international relationships and limiting global cooperation, affecting both foreign nationals and U.S. citizens engaged in multinational contexts.",
-      "generated_at": "2026-10-28T18:34:32.995Z",
+      "order_count": 289,
+      "summary": "President Donald Trump's executive orders reflect a concerted effort to reshape government operations and national security through aggressive deregulation, trade reshaping, and border control. Early focus on government efficiency and homeland security sets a tone of streamlined bureaucracy and tightened borders, while successive directives emphasize America First policies, revocation of prior orders, and bolstering military readiness. Economic competitiveness and energy independence intertwine with national emergencies and defense industry support, underscoring a strategic pivot towards self-reliance and robust security frameworks.",
+      "potential_impact": "These orders aim to benefit small business owners, military personnel, and working-age Americans by fostering deregulation and prioritizing domestic industry, yet they raise concerns for consumers and immigrant communities facing stricter enforcement and reduced protections. The rollback of diversity and environmental initiatives threatens minorities and vulnerable populations, while intensified border and homeland security measures heighten challenges for undocumented immigrants and certain racial and ethnic groups. The emphasis on America First policies also risks isolating foreign nationals and complicating international cooperation, affecting global diplomatic and economic relations.",
+      "generated_at": "2026-11-25T22:03:20.724Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -56,5 +56,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-10-28T18:34:32.996Z"
+  "generated_at": "2026-11-25T22:03:20.724Z"
 }

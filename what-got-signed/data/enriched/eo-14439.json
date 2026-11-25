@@ -1,0 +1,41 @@
+{
+  "document_number": "2026-24114",
+  "executive_order_number": "14439",
+  "title": "Protecting the Executive's Privileges and Enhancing Efficiencies in Federal Contracting",
+  "abstract": null,
+  "signing_date": "2026-11-20",
+  "publication_date": "2026-11-25",
+  "president": {
+    "identifier": "donald-trump",
+    "name": "Donald Trump"
+  },
+  "html_url": "https://www.federalregister.gov/documents/2026/11/25/2026-24114/protecting-the-executives-privileges-and-enhancing-efficiencies-in-federal-contracting",
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-11-25/pdf/2026-24114.pdf",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/11/25/2026-24114.txt",
+  "enrichment": {
+    "summary": "This executive order requires federal contractors and their subcontractors to notify the White House and agencies if they receive congressional requests for information related to their work with the executive branch. It aims to protect sensitive executive branch information by ensuring coordinated responses to such requests, thereby preserving executive privilege and improving efficiency in federal contracting.",
+    "theme_ids": [
+      "government-efficiency",
+      "records-classification-transparency",
+      "homeland-security",
+      "government-spending-earmarks"
+    ],
+    "impacted_populations": {
+      "positive_ids": [
+        "federal-contractors"
+      ],
+      "negative_ids": [
+        "federal-contractors"
+      ]
+    },
+    "potential_concerns": [
+      "Federal contractors and subcontractors may face increased administrative burdens and potential contract sanctions for failing to timely notify and coordinate with the executive branch on congressional information requests, impacting their operations and compliance costs.",
+      "The order could limit transparency by restricting contractors’ ability to independently respond to congressional inquiries, potentially shielding executive branch activities from legislative oversight and reducing accountability.",
+      "Subcontractors, who often have less direct communication with agencies, may struggle with compliance and awareness of these notification requirements, leading to uneven enforcement and possible disruptions in federal contracting workflows.",
+      "By emphasizing protection of executive privilege over congressional requests, the order may increase legal disputes and delays around information sharing, decreasing government efficiency contrary to its stated goal.",
+      "The chilling effect on sharing sensitive information with contractors may reduce innovation and operational effectiveness in areas like homeland security, where close collaboration is essential."
+    ],
+    "enriched_at": "2026-11-25T22:03:17.681Z",
+    "model_used": "gpt-4.1-mini"
+  }
+}

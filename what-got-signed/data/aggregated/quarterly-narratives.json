@@ -8,13 +8,13 @@
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 4
+          "order_count": 5
         }
       ],
-      "total_order_count": 4,
-      "summary": "In the final quarter of 2026, President Trump’s executive actions reflected a multifaceted approach to economic and social challenges. Efforts to provide emergency tax relief on diesel fuel sought to ease burdens on agricultural and transportation sectors, while a significant sanctions act targeted Russia and Iran, reinforcing a hardline trade and foreign policy stance. Concurrently, the administration prioritized health outcomes for women and aimed to reduce housing costs, signaling a blend of economic recovery measures and social policy initiatives. Together, these orders underscored a strategy balancing domestic economic support with assertive international diplomacy.",
-      "potential_impact": "The executive orders aimed to support rural communities, agricultural workers, and transportation employees by easing fuel costs and addressing housing affordability, potentially benefiting working-age adults, seniors, and patients with chronic or mental health conditions through improved health initiatives. However, concerns emerged that diesel tax relief might favor larger businesses and complicate compliance for smaller operators. Meanwhile, energy sector workers and employees of large corporations faced risks from increased tariffs and sanctions, which also posed challenges for Russian and Iranian nationals connected to the U.S., highlighting tensions between economic protectionism and global geopolitical complexities.",
-      "generated_at": "2026-10-28T18:34:35.584Z",
+      "total_order_count": 5,
+      "summary": "In the final quarter of 2026, President Trump concentrated executive action on a blend of economic relief, international sanctions, and social welfare initiatives. Key moves included emergency tax relief on diesel fuel aimed at supporting agricultural and transportation sectors, alongside sanctions targeting Russia and Iran that intertwined trade policy with geopolitical strategy. Concurrently, the administration addressed domestic concerns by advancing women's health outcomes and seeking to reduce housing costs, while also enhancing federal contracting efficiency. These orders collectively reflected a drive to balance economic recovery, infrastructure support, and international pressure within a complex policy landscape.",
+      "potential_impact": "The executive actions sought to benefit a diverse set of populations, including agricultural workers, rural communities, women, and patients with varied health conditions, signaling an attempt to address both economic and social needs. However, observers raised concerns that tax deferrals might favor larger businesses over small farmers and independent workers, while sanctions and tariff increases risked job losses among energy sector employees and disruptions for corporations reliant on imports. Additionally, the focus on women’s health, though important, may inadvertently overlook intersecting disparities, and the complexities in federal contracting and compliance could impose burdens on smaller companies and certain international communities.",
+      "generated_at": "2026-11-25T22:03:23.308Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1031,5 +1031,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-10-28T18:34:35.584Z"
+  "generated_at": "2026-11-25T22:03:23.308Z"
 }

@@ -34,12 +34,12 @@
     {
       "theme_id": "government-efficiency",
       "theme_name": "Government Efficiency",
-      "order_count": 97,
+      "order_count": 98,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 63
+          "order_count": 64
         },
         {
           "president_id": "barack-obama",
@@ -57,9 +57,9 @@
           "order_count": 2
         }
       ],
-      "summary": "Efforts to enhance government efficiency through executive orders have evolved significantly across administrations, reflecting differing priorities and strategies. Early measures focused on clear succession protocols and security vetting to ensure stable federal operations, while later administrations expanded into labor relations, regulatory reform, and sustainability initiatives. The Trump administration notably emphasized deregulation and restructuring to streamline government functions, contrasting with the Obama administration’s approach that combined efficiency with worker protections and environmental considerations. This dynamic illustrates how executive actions on efficiency balance operational improvements with broader policy goals.",
-      "potential_impact": "These executive orders aimed to affect a broad spectrum of stakeholders, from federal contractors and employees to small business owners and low-income families. While intended to improve government operations and reduce costs, concerns arose about potential burdens on federal workers and contractors, including impacts on labor rights and security standards. Some policies risked creating administrative hurdles or uneven application that could disrupt workforce stability and labor relations, highlighting the delicate trade-offs between efficiency gains and the welfare of those reliant on federal programs and contracts.",
-      "generated_at": "2026-10-02T18:07:56.644Z",
+      "summary": "Efforts to enhance government efficiency through executive orders have varied significantly across administrations, reflecting different priorities and strategies. While earlier orders focused on procedural clarity and security standards, later directives emphasized regulatory reform, fiscal discipline, and workforce management. The Trump administration notably pursued aggressive reorganization and deregulation, contrasting with Obama’s emphasis on sustainability, transparency, and labor protections. These shifting approaches reveal an ongoing tension between streamlining operations and maintaining safeguards for workers and contractors, illustrating the complexity of balancing efficiency with inclusivity and oversight.",
+      "potential_impact": "These executive actions aimed to streamline federal operations and improve accountability, targeting federal contractors, small businesses, and working-age adults involved in government projects. However, concerns arose that some policies could inadvertently undermine labor rights, reduce employee protections, or create leadership uncertainties, particularly among federal employees and union members. The measures also risked imposing administrative burdens and uneven enforcement, raising questions about who ultimately benefits from efficiency drives and whether the pursuit of cost-cutting might come at the expense of fair labor practices and organizational stability.",
+      "generated_at": "2026-11-25T22:03:25.708Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -96,12 +96,12 @@
     {
       "theme_id": "homeland-security",
       "theme_name": "Homeland Security",
-      "order_count": 82,
+      "order_count": 83,
       "presidents": [
         {
           "president_id": "donald-trump",
           "president_name": "Donald Trump",
-          "order_count": 50
+          "order_count": 51
         },
         {
           "president_id": "barack-obama",
@@ -119,9 +119,9 @@
           "order_count": 1
         }
       ],
-      "summary": "Executive actions on homeland security have evolved to address a broad spectrum of threats, from terrorism and cybersecurity to biosecurity and infrastructure resilience. While early efforts emphasized classified information protocols and laboratory safety, recent orders have expanded to encompass enhanced border controls, refugee admissions, and cyber workforce development. Different administrations balanced security priorities with operational efficiency, with some focusing heavily on enforcement and others on interagency collaboration and technological safeguards, reflecting shifting national security challenges over time.",
-      "potential_impact": "These orders aimed to strengthen protections for military personnel, law enforcement, and cybersecurity professionals while enhancing federal and local coordination. However, they also introduced heightened scrutiny and operational demands that could affect private sector participants and small businesses. Concerns emerged about the implications for immigrants, asylum seekers, and certain minority groups, as well as the potential for administrative burdens to slow scientific research and limit transparency, raising questions about balancing security with civil liberties and inclusivity.",
-      "generated_at": "2026-08-11T14:13:29.824Z",
+      "summary": "Homeland security executive actions reflect evolving priorities across administrations, emphasizing biosecurity, cybersecurity, and immigration control. While the Obama era focused on strengthening biosecurity protocols, mental health services for veterans, and enhancing cybersecurity partnerships, the Trump administration concentrated heavily on border enforcement, trade enforcement, and expanding cybersecurity measures. Biden’s orders, though fewer, continued cybersecurity efforts and sought to balance enforcement with resilience. These policies reveal a complex interplay between safeguarding national security, managing emerging threats like cyberattacks, and regulating immigration flows.",
+      "potential_impact": "These executive orders aimed to protect military personnel, law enforcement at federal and local levels, and cybersecurity professionals, enhancing national defense and infrastructure resilience. However, they also imposed challenges on undocumented immigrants, visa holders, refugees, and certain minority communities, raising concerns about civil liberties and access. Small business owners and technology workers faced regulatory burdens, while increased security clearances and classification protocols complicated information sharing for scientists and journalists, highlighting tensions between security and transparency.",
+      "generated_at": "2026-11-25T22:03:27.894Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -1635,6 +1635,32 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "records-classification-transparency",
+      "theme_name": "Records / Classification / Transparency",
+      "order_count": 14,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 9
+        },
+        {
+          "president_id": "barack-obama",
+          "president_name": "Barack Obama",
+          "order_count": 4
+        },
+        {
+          "president_id": "joe-biden",
+          "president_name": "Joseph R. Biden Jr.",
+          "order_count": 1
+        }
+      ],
+      "summary": "Executive orders addressing records, classification, and transparency have evolved to balance government openness with security and efficiency concerns. Earlier orders under the Obama administration emphasized modernizing information accessibility and standardizing unclassified information controls, promoting transparency and data sharing. The Trump administration expanded efforts with a focus on controlling information flow, enhancing executive privilege protections, and scrutinizing taxpayer-funded activities, often tightening classification procedures. Biden’s limited action centered on declassifying historically significant documents, reflecting a selective transparency approach tied to national interest and accountability.",
+      "potential_impact": "These orders aimed to benefit citizens seeking greater government openness, security clearance holders requiring clear classification standards, and small businesses dependent on accessible government data. However, concerns arose about potential negative effects on federal contractors, consumers, and vulnerable populations due to increased classification controls and privacy risks. The intricate balance between transparency and confidentiality raised issues about politicized record access, bureaucratic complexity, and resource burdens, which could limit information flow and equitable access, particularly affecting those reliant on timely and accurate government records.",
+      "generated_at": "2026-11-25T22:03:31.155Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "criminal-justice-reform",
       "theme_name": "Criminal Justice Reform",
       "order_count": 13,
@@ -1689,32 +1715,6 @@
       "summary": "Executive orders addressing diplomatic relations reveal varied presidential strategies balancing security, cooperation, and humanitarian goals. Early initiatives under George W. Bush and Barack Obama emphasized support for conflict zones like Afghanistan and detainee review processes, reflecting post-9/11 priorities. Obama’s administration also sought to enhance international organizational partnerships, while the Trump era shifted toward assertive economic and security measures, including tariff adjustments and focused hostage recovery efforts. Biden’s recent orders prioritize climate diplomacy and strengthening protections for detained Americans abroad, illustrating evolving global concerns within diplomatic frameworks.",
       "potential_impact": "These orders aimed to benefit a broad spectrum including foreign governments, U.S. citizens, and hostages, while also affecting vulnerable groups such as detainees and populations in conflict regions. Concerns arose over increased risks to civilians amid counterterrorism operations, diplomatic friction from expanded immunities, and potential delays in justice processes. The complexity of interagency coordination and international cooperation raised questions about operational efficiency, privacy safeguards, and unintended consequences for foreign nationals and lawful residents, highlighting the delicate balance between security interests and humanitarian considerations.",
       "generated_at": "2025-12-15T08:46:12.435Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "records-classification-transparency",
-      "theme_name": "Records / Classification / Transparency",
-      "order_count": 13,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 8
-        },
-        {
-          "president_id": "barack-obama",
-          "president_name": "Barack Obama",
-          "order_count": 4
-        },
-        {
-          "president_id": "joe-biden",
-          "president_name": "Joseph R. Biden Jr.",
-          "order_count": 1
-        }
-      ],
-      "summary": "Executive orders addressing records, classification, and transparency have reflected evolving priorities across administrations, from enhancing public access to government information to tightening controls on sensitive material. Obama’s initiatives emphasized open data and standardized handling of unclassified information to foster transparency and efficiency, while Trump’s orders often focused on restricting union activities and declassifying high-profile historical documents, sometimes centralizing authority and altering oversight structures. Biden’s contribution highlighted targeted declassification reviews, underscoring ongoing efforts to balance openness with national security concerns.",
-      "potential_impact": "These orders aimed to affect a broad array of stakeholders, including citizens seeking government transparency, security clearance holders navigating compliance, and small businesses reliant on accessible data. However, concerns arose about potential negative consequences such as increased bureaucratic burdens, risks of politicizing record releases, and unintended restrictions on information flow that could impact law enforcement, intelligence personnel, and vulnerable populations. The complexity of implementing uniform standards also raised questions about resource allocation and equitable access to information.",
-      "generated_at": "2025-12-15T08:46:14.176Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -2945,6 +2945,22 @@
       "model_used": "gpt-4.1-mini"
     },
     {
+      "theme_id": "government-spending-earmarks",
+      "theme_name": "Government Spending / Earmarks",
+      "order_count": 7,
+      "presidents": [
+        {
+          "president_id": "donald-trump",
+          "president_name": "Donald Trump",
+          "order_count": 7
+        }
+      ],
+      "summary": "Executive actions on government spending and earmarks under the Trump administration focused heavily on promoting domestic sourcing and enhancing federal contract oversight. Initiatives like strengthening Buy-American preferences aimed to support manufacturing and construction jobs, while efforts to increase transparency and efficiency targeted federal contracting and government expenditures. However, these policies also introduced stricter eligibility criteria and enforcement measures, reflecting a broader push toward fiscal conservatism and prioritizing taxpayer interests, though sometimes at the expense of smaller businesses and certain beneficiary groups.",
+      "potential_impact": "These orders sought to benefit domestic workers, veterans, and taxpayers by safeguarding jobs and reducing perceived waste in government spending. At the same time, they raised concerns about disadvantaging small businesses, federal contractors, and marginalized populations, including undocumented immigrants and foreign nationals, through tightened eligibility and funding restrictions. Increased administrative burdens and scrutiny could disrupt contract competitiveness and public services, while heightened enforcement efforts risked unintended hardships for lawfully residing individuals and strained federal-local relations.",
+      "generated_at": "2026-11-25T22:03:33.365Z",
+      "model_used": "gpt-4.1-mini"
+    },
+    {
       "theme_id": "workplace-safety-osha",
       "theme_name": "Workplace Safety (OSHA)",
       "order_count": 6,
@@ -3083,22 +3099,6 @@
       "summary": "Executive actions on pandemic preparedness have reflected evolving priorities across administrations, balancing national security, public health, and global engagement. Obama’s order updated quarantine protocols, laying groundwork for federal response, while Trump’s multiple orders emphasized domestic vaccine modernization and restructured pandemic oversight, coupled with a controversial withdrawal from the World Health Organization. Biden’s order sought to enhance COVID-19 response coordination, highlighting a return to centralized public health leadership. These shifts illustrate tensions between federal authority, international cooperation, and the urgency of rapid vaccine development amid complex health emergencies.",
       "potential_impact": "These orders aimed to safeguard healthcare workers, patients, military personnel, and diverse communities including tribal and public school populations. However, concerns emerged over expanded quarantine powers potentially restricting liberties of patients, incarcerated individuals, and undocumented immigrants, raising civil rights issues. The focus on accelerated vaccine production and centralized coordination risked straining manufacturing workers and healthcare providers while possibly undermining equitable access and localized responsiveness. Withdrawal from the WHO threatened global health collaboration, potentially compromising resources critical to vulnerable populations worldwide.",
       "generated_at": "2025-12-15T08:48:24.284Z",
-      "model_used": "gpt-4.1-mini"
-    },
-    {
-      "theme_id": "government-spending-earmarks",
-      "theme_name": "Government Spending / Earmarks",
-      "order_count": 6,
-      "presidents": [
-        {
-          "president_id": "donald-trump",
-          "president_name": "Donald Trump",
-          "order_count": 6
-        }
-      ],
-      "summary": "Executive actions on government spending and earmarks under the Trump administration emphasized strengthening Buy-American preferences and enforcing stricter oversight to enhance federal cost efficiency. These orders sought to prioritize domestic manufacturing, construction, and union labor while aiming to curb taxpayer subsidies perceived as supporting biased media or open borders. However, such policies often introduced complex compliance requirements and intensified scrutiny on federal contractors, educational institutions, and foreign entities, reflecting a concerted effort to tighten federal expenditures and reshape funding priorities toward American workers and citizens.",
-      "potential_impact": "These orders aimed to benefit a range of American workers—including those in manufacturing, construction, unions, veterans, and individuals with disabilities—by promoting domestic job security and fiscal responsibility. Yet, the heightened sourcing restrictions and administrative burdens risked slowing infrastructure projects and increasing costs, potentially disadvantaging small businesses and contractors. Stricter benefit verifications and funding exclusions raised concerns about reduced access for immigrants and marginalized groups, while intensified oversight of contractors and educational entities posed challenges related to operational delays, fairness, and unintended disruptions of essential federal services.",
-      "generated_at": "2025-12-15T08:48:35.203Z",
       "model_used": "gpt-4.1-mini"
     },
     {
@@ -4956,5 +4956,5 @@
       "model_used": "gpt-4.1-mini"
     }
   ],
-  "generated_at": "2026-10-28T18:34:45.985Z"
+  "generated_at": "2026-11-25T22:03:33.365Z"
 }
